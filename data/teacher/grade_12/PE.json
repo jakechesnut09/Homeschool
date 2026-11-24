@@ -1,0 +1,2087 @@
+{
+ "grade": 12,
+ "subject": "PE",
+ "overview": "Lifetime Fitness II runs 45 minutes a day and is mostly active: the student tests, trains, and logs every session, with short concept lessons on training science, safety, and consumer skills. Demonstrate each skill, watch the student's form with the given cues, and push them to plan and lead more of their own training as the year goes on. Every unit should end with data in the fitness log, because the final project is an adult fitness plan they will take into college or work.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Gather a stopwatch, measuring tape, yardstick and box for sit-and-reach, a mat, and a fitness log (notebook or spreadsheet). Measure a 1-mile route (4 laps of a standard track). Print current Fitnessgram Healthy Fitness Zone (HFZ) charts for 17+ year-olds. Parental note: take body measurements privately and keep the focus on health, not appearance.",
+   "misconceptions": [
+    "Treating BMI as a measure of body fat or health. BMI is a weight-for-height screen; it can't distinguish muscle from fat or show fat distribution.",
+    "Racing through cadence tests. Reps that break the 3-second cadence or form standards don't count.",
+    "Skipping the warm-up before a max test, which lowers scores and raises injury risk."
+   ],
+   "days": [
+    {
+     "guide": "Lead a 5–10 minute dynamic warm-up, then time the mile. Take heart rate immediately after (15 s × 4). Record time, HR, and how it felt.",
+     "questions": [
+      {
+       "q": "Which health-related fitness component does the mile test measure?",
+       "a": "Cardiorespiratory (aerobic) endurance."
+      },
+      {
+       "q": "You count 40 beats in 15 seconds right after the mile. What is your heart rate?",
+       "a": "160 bpm."
+      }
+     ]
+    },
+    {
+     "guide": "Demonstrate 90° push-ups and curl-ups (one rep per 3 seconds; stop at the second form error). Record max reps.",
+     "questions": [
+      {
+       "q": "Are push-ups to cadence a test of strength or endurance?",
+       "a": "Mostly muscular endurance (repeated submaximal contractions), with some strength component."
+      }
+     ]
+    },
+    {
+     "guide": "Back-saver sit-and-reach (each leg, best of four reaches, hold 1 s) and shoulder stretch (hands touch behind back, each side). Record.",
+     "questions": [
+      {
+       "q": "What is the shoulder stretch test scored as?",
+       "a": "Pass/fail on each side — pass if the fingertips touch behind the back."
+      }
+     ]
+    },
+    {
+     "guide": "Measure resting HR (after 5 min seated), waist circumference at the navel, and height/weight privately. Compute BMI and discuss its limits.",
+     "questions": [
+      {
+       "q": "Compute BMI for 150 lb and 68 in.",
+       "a": "703 × 150 ÷ 68² = 105,450 ÷ 4,624 ≈ 22.8."
+      },
+      {
+       "q": "Give two limits of BMI.",
+       "a": "It doesn't distinguish muscle from fat (muscular athletes may be labeled 'overweight') and doesn't show where fat is stored; it's a screening tool only."
+      }
+     ]
+    },
+    {
+     "guide": "Compare each score to HFZ charts and record in the fitness log with 'HFZ' or 'Needs Improvement.'",
+     "questions": [
+      {
+       "q": "What is the purpose of a baseline test?",
+       "a": "To establish a starting point so you can set goals and measure progress."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Completed baseline fitness log: proficient = mile time and post-mile HR, push-ups, curl-ups, sit-and-reach (L/R), shoulder stretch (L/R), resting HR, waist circumference recorded with units and dates, each compared to HFZ, and one sentence explaining BMI's limits. 4 adds a written summary of strengths and needs; 2 = missing tests; 1 = mostly incomplete."
+  },
+  {
+   "week": 2,
+   "prep": "Stopwatch or watch, jump rope, graph paper or spreadsheet. Compute the student's Karvonen zones in advance from age and week 1 resting HR.",
+   "misconceptions": [
+    "Multiplying intensity percent by max HR in the Karvonen formula. Use heart rate reserve: (HRmax − HRrest) × % + HRrest.",
+    "Assuming 220 − age is exact. It's an estimate with a ±10–12 bpm error; use RPE to cross-check.",
+    "Thinking higher HR is always better training. Different zones train different qualities."
+   ],
+   "days": [
+    {
+     "guide": "Compute Karvonen zones: HRmax = 220 − age; HRR = HRmax − HRrest; THR = HRR × % + HRrest. Then a 20-minute brisk walk with pulse checks every 5 minutes.",
+     "questions": [
+      {
+       "q": "Age 17, resting HR 60. Calculate 60% and 80% of HRR.",
+       "a": "HRmax 203, HRR 143. 60%: 85.8 + 60 ≈ 146 bpm. 80%: 114.4 + 60 ≈ 174 bpm."
+      }
+     ]
+    },
+    {
+     "guide": "Jump-rope intervals (30 s on/30 s off ×10), recording HR and RPE after each work bout.",
+     "questions": [
+      {
+       "q": "On a 0–10 RPE scale, about where is vigorous intensity?",
+       "a": "About 7–8 (moderate ≈ 5–6)."
+      }
+     ]
+    },
+    {
+     "guide": "Jog or cycle 25 minutes holding 60–70% HRR; check HR every 5 minutes and adjust.",
+     "questions": [
+      {
+       "q": "Your HR drifts upward late in a steady run at constant pace. What is this called?",
+       "a": "Cardiovascular drift — caused by rising body temperature and fluid loss; slow down slightly to stay in zone."
+      }
+     ]
+    },
+    {
+     "guide": "Bodyweight circuit for 20 minutes; track RPE.",
+     "questions": [
+      {
+       "q": "Why might a circuit raise HR even though it's 'strength' work?",
+       "a": "Moving continuously between exercises with little rest keeps large muscle groups working, raising cardiovascular demand."
+      }
+     ]
+    },
+    {
+     "guide": "Graph HR for each workout vs. the target zone band; student explains which workouts hit the zone.",
+     "questions": [
+      {
+       "q": "What does a fast drop in HR after exercise indicate?",
+       "a": "Good cardiovascular fitness (quick heart rate recovery)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Heart rate data analysis rubric. 4 – Correct Karvonen calculations shown, graph with zone band, all five workouts plotted, accurate explanation of which hit the zone and why, with an adjustment plan. 3 (proficient) – Correct calculations, graph, explanation. 2 – Calculation errors or missing graph. 1 – Incomplete."
+  },
+  {
+   "week": 3,
+   "prep": "Fitness log, calendar, and a Darebee workout (darebee.com, free) chosen in advance. Research a new activity for Day 4 (climbing gym day pass, pool, spin video). Draft a simple fitness contract template.",
+   "misconceptions": [
+    "Goals based only on appearance. Use performance and behavior goals (minutes per week, mile time).",
+    "Relying on willpower alone. Habits are built with cues, routines, tracking, and rewards.",
+    "Setting too many goals. Three focused goals are manageable."
+   ],
+   "days": [
+    {
+     "guide": "Student writes three SMART goals from baseline data (one cardio, one strength, one flexibility or habit); then 30-minute activity.",
+     "questions": [
+      {
+       "q": "Is 'Run more this year' a SMART goal? Fix it.",
+       "a": "No. Example: 'Run 3 days/week for 30 minutes and lower my mile from 9:40 to 9:00 by December 15.'"
+      }
+     ]
+    },
+    {
+     "guide": "List barriers with two strategies each; 25-minute jog.",
+     "questions": [
+      {
+       "q": "Define intrinsic vs. extrinsic motivation.",
+       "a": "Intrinsic: doing it for internal satisfaction or enjoyment. Extrinsic: doing it for external rewards (grades, prizes, approval)."
+      }
+     ]
+    },
+    {
+     "guide": "Set up a weekly habit tracker (checkboxes per day); complete the Darebee workout.",
+     "questions": [
+      {
+       "q": "Name the three parts of a habit loop.",
+       "a": "Cue (trigger), routine (behavior), reward."
+      }
+     ]
+    },
+    {
+     "guide": "Try a new activity for 30 minutes; journal enjoyment and intensity.",
+     "questions": [
+      {
+       "q": "Why try new activities?",
+       "a": "Variety helps find enjoyable activities, which improves long-term adherence, and trains different skills and muscles."
+      }
+     ]
+    },
+    {
+     "guide": "Student shares goals with a parent and both sign a fitness contract (goals, schedule, rewards, check-in dates).",
+     "questions": [
+      {
+       "q": "Why sign a contract or share goals?",
+       "a": "Public commitment and accountability increase follow-through."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "SMART goals and fitness contract: proficient = three goals each Specific, Measurable, Achievable, Relevant, Time-bound and tied to baseline data; contract lists schedule, barriers with strategies, tracking method, check-in dates, and signatures. 4 adds intrinsic motivators and contingency plans; 2 = goals missing measures/dates; 1 = incomplete."
+  },
+  {
+   "week": 4,
+   "prep": "Gather dumbbells or water jugs, resistance bands, a broomstick, and a phone to film form. Clear a safe space.",
+   "misconceptions": [
+    "Rounding the spine when lifting from the floor. Hinge at the hips with a neutral spine.",
+    "Using momentum (swinging). Control both lifting and lowering phases.",
+    "Thinking spotting is only for bench press. Spotters help with any lift where a failed rep could trap or injure the lifter; with home equipment, choose loads you can control."
+   ],
+   "days": [
+    {
+     "guide": "Teach six patterns with a broomstick: squat, hinge, push, pull, carry, lunge. Film each.",
+     "questions": [
+      {
+       "q": "What is the difference between a squat and a hinge?",
+       "a": "A squat bends knees and hips roughly equally with a more upright torso; a hinge moves mainly at the hips with a slight knee bend and the torso leaning forward."
+      }
+     ]
+    },
+    {
+     "guide": "Goblet squats and Romanian deadlifts 3×10 with neutral spine cues (broomstick touching head, upper back, tailbone during hinge practice).",
+     "questions": [
+      {
+       "q": "Name two cues for a goblet squat.",
+       "a": "Elbows inside knees at the bottom, chest up, knees track over toes, heels down."
+      }
+     ]
+    },
+    {
+     "guide": "Push-ups, band rows, overhead press 3×10 each.",
+     "questions": [
+      {
+       "q": "Which pattern balances push-ups to protect shoulder health?",
+       "a": "Pulling (rows) — balancing push and pull keeps the shoulders healthy."
+      }
+     ]
+    },
+    {
+     "guide": "Explain levers: longer lever arm or less favorable angle = harder. Compare incline (hands elevated, easier) vs. decline (feet elevated, harder) push-ups.",
+     "questions": [
+      {
+       "q": "Why is a decline push-up harder than an incline push-up?",
+       "a": "More of the body weight is shifted onto the arms and the angle increases the load on the chest and shoulders."
+      }
+     ]
+    },
+    {
+     "guide": "Review video with a checklist; identify and correct two faults.",
+     "questions": [
+      {
+       "q": "What does 'neutral spine' mean during lifting?",
+       "a": "Maintaining the spine's natural curves — not rounding or overarching — to distribute load safely."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Form-check video rubric (each pattern 1–4). Proficient (3): squat—depth with heels down and knees tracking; hinge—neutral spine, hips back; push—straight body line, controlled; pull—shoulder blades squeeze, no torso swing; carry—tall posture; lunge—front knee over ankle. Student identifies two faults and shows corrected reps."
+  },
+  {
+   "week": 5,
+   "prep": "Weights or bands, training log with columns: exercise, load, sets, reps, volume, RPE. Teach how to estimate a 10-rep max safely (start light; add load until 10 reps is challenging but with good form).",
+   "misconceptions": [
+    "Testing a 1-rep max at home without spotters. Use 10RM estimates instead.",
+    "Thinking more reps always builds strength. Low reps/heavy load emphasize strength; high reps/lighter load emphasize endurance.",
+    "Increasing load too quickly. Progress about 2–10% when all reps are completed with good form."
+   ],
+   "days": [
+    {
+     "guide": "Warm up; estimate 10RM for five lifts (squat, RDL, press, row, lunge) by adding load in small steps; record.",
+     "questions": [
+      {
+       "q": "What is a 10-rep max (10RM)?",
+       "a": "The heaviest load you can lift for exactly 10 reps with good form."
+      }
+     ]
+    },
+    {
+     "guide": "Strength day: 4×5 squat and press at heavier load, 2-minute rests.",
+     "questions": [
+      {
+       "q": "Why rest 2+ minutes for strength sets?",
+       "a": "To restore energy (phosphocreatine) so each heavy set can be done with full force and good form."
+      }
+     ]
+    },
+    {
+     "guide": "Endurance day: 3×15 lunges, rows, push-ups with 45-second rests.",
+     "questions": [
+      {
+       "q": "Which rep range and rest best match muscular endurance?",
+       "a": "High reps (12–20+) with short rests (30–60 s)."
+      }
+     ]
+    },
+    {
+     "guide": "Core circuit ×3: plank, dead bug, bird-dog, side plank.",
+     "questions": [
+      {
+       "q": "What does a bird-dog train?",
+       "a": "Core stability and anti-rotation/anti-extension while moving opposite arm and leg; also glutes and back extensors."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate volume (sets × reps × load) for each lift and plan next week's overload.",
+     "questions": [
+      {
+       "q": "Squat: 4 sets × 5 reps × 40 lb. What is the volume?",
+       "a": "800 lb."
+      },
+      {
+       "q": "If volume goes from 800 to 880 lb, what percent increase is that?",
+       "a": "10%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Training log with volume calculations: proficient = all sessions logged with loads, sets, reps, RPE; volume correctly computed (sets × reps × load) for each lift and summed per week; next-week overload plan is specific and modest (e.g., +1 rep per set or +5%). Sample check: 3×15×20 lb = 900 lb; 4×5×40 = 800 lb."
+  },
+  {
+   "week": 6,
+   "prep": "Program template (days, exercises, sets, reps, load, rest, progression). Weights or bands. Review the student's 10RMs.",
+   "misconceptions": [
+    "Programs with no progression plan. Write how load/reps increase each week.",
+    "Training the same muscles hard on consecutive days. Alternate workouts and allow 48 hours.",
+    "Ignoring recovery days. Active recovery keeps blood flowing without fatigue."
+   ],
+   "days": [
+    {
+     "guide": "Student writes a 4-week, 3-day full-body program alternating Workout A and B, with sets, reps, rest, and weekly progression.",
+     "questions": [
+      {
+       "q": "What is the FITT principle applied to strength training?",
+       "a": "Frequency (e.g., 3 days/week), Intensity (load/RPE), Time (sets × reps, rest, session length), Type (exercises/equipment)."
+      }
+     ]
+    },
+    {
+     "guide": "Complete Workout A; log.",
+     "questions": [
+      {
+       "q": "Why alternate Workout A and B?",
+       "a": "To vary exercises and patterns, balance muscle groups, and manage fatigue."
+      }
+     ]
+    },
+    {
+     "guide": "Active recovery: 30-minute walk plus mobility.",
+     "questions": [
+      {
+       "q": "What is periodization?",
+       "a": "Planned variation in training (volume, intensity) over time to maximize progress and prevent plateaus/overtraining."
+      }
+     ]
+    },
+    {
+     "guide": "Complete Workout B; log.",
+     "questions": [
+      {
+       "q": "What is a split routine?",
+       "a": "Training different muscle groups on different days (e.g., upper/lower)."
+      }
+     ]
+    },
+    {
+     "guide": "Workout A with progression; note RPE.",
+     "questions": [
+      {
+       "q": "If RPE on Workout A was 6 last time, what progression could you apply?",
+       "a": "Increase load slightly or add 1–2 reps per set (aim for RPE 7–8)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Written 4-week program rubric. 4 – 3 days/week full-body, A/B alternating; covers squat, hinge, push, pull, lunge, carry, core; sets/reps/rest/load; clear weekly progression; warm-up/cool-down; recovery days; safety notes. 3 (proficient) – All patterns, sets/reps/rest, progression. 2 – Missing patterns or progression. 1 – Incomplete."
+  },
+  {
+   "week": 7,
+   "prep": "Weights or bands, training log. Review the signs of overtraining and DOMS.",
+   "misconceptions": [
+    "Thinking soreness means a good workout. DOMS is common with new exercises, but progress is measured in performance, not soreness.",
+    "Pushing through joint pain. Joint pain or sharp pain means stop and modify.",
+    "Giving up at a plateau. Adjust variables or deload."
+   ],
+   "days": [
+    {
+     "guide": "Workout B with added load or reps.",
+     "questions": [
+      {
+       "q": "What is DOMS?",
+       "a": "Delayed-onset muscle soreness — muscle soreness peaking 24–72 hours after unaccustomed or eccentric exercise."
+      }
+     ]
+    },
+    {
+     "guide": "25 minutes of moderate cardio (60–70% HRR).",
+     "questions": [
+      {
+       "q": "Why include cardio in a strength program?",
+       "a": "For heart health, recovery, and overall fitness balance (meeting aerobic guidelines)."
+      }
+     ]
+    },
+    {
+     "guide": "Workout A with progression.",
+     "questions": [
+      {
+       "q": "Define plateau.",
+       "a": "A period with no measurable progress despite training."
+      }
+     ]
+    },
+    {
+     "guide": "30-minute mobility and foam rolling.",
+     "questions": [
+      {
+       "q": "When is foam rolling most useful?",
+       "a": "During warm-up or recovery to reduce perceived tightness and temporarily improve range of motion."
+      }
+     ]
+    },
+    {
+     "guide": "Workout B; review progress in the log.",
+     "questions": [
+      {
+       "q": "What is a deload?",
+       "a": "A planned lighter training period (reduced load or volume) to allow recovery and adaptation."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Training log progression rubric. 4 – Every session logged; load or reps increased appropriately on each lift over two weeks; RPE recorded; comments on soreness/recovery; adjustments justified. 3 (proficient) – Complete log with visible progression. 2 – Gaps or no progression. 1 – Incomplete."
+  },
+  {
+   "week": 8,
+   "prep": "Weights/bands, fitness log with week 1 and week 5 data. Prepare the training-principles quiz. Ask a family member to be the 'student' on Day 4.",
+   "misconceptions": [
+    "Retesting on a fatigued day. Retest after a deload.",
+    "Calculating percent change from the new value. Always divide by the original (baseline).",
+    "Teaching with too many cues. Give one or two key cues at a time."
+   ],
+   "days": [
+    {
+     "guide": "Deload: same exercises at about 60% of usual load, fewer sets.",
+     "questions": [
+      {
+       "q": "Why deload before retesting?",
+       "a": "To reduce fatigue so the retest shows true fitness gains."
+      }
+     ]
+    },
+    {
+     "guide": "Retest 10RMs and push-up/curl-up scores.",
+     "questions": [
+      {
+       "q": "Why must retest conditions match the original test?",
+       "a": "So differences reflect real change, not changes in protocol."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate percent improvement for each test and write what worked.",
+     "questions": [
+      {
+       "q": "Goblet squat 10RM rose from 30 to 40 lb. Percent improvement?",
+       "a": "(40 − 30) ÷ 30 ≈ 33%."
+      }
+     ]
+    },
+    {
+     "guide": "Student teaches a family member one lift using a demo, 2–3 cues, and feedback.",
+     "questions": [
+      {
+       "q": "What are the steps for teaching a lift?",
+       "a": "Demonstrate, explain 2–3 key cues, have the learner try with light load, give specific feedback, repeat."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "State the principle of specificity.",
+       "a": "The body adapts specifically to the type of training done (SAID: specific adaptations to imposed demands)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) Progressive overload = gradually increasing demand. 2) Specificity (SAID). 3) Reversibility = gains lost without training. 4) Strength: ~1–6 reps, heavy, 2–5 min rest; endurance: 12–20+, light, 30–60 s rest. 5) Volume = sets × reps × load. 6) Neutral spine and controlled tempo. 7) Deload purpose. 8) DOMS peaks 24–72 h. 9) Push/pull balance. 10) Never hold breath through many reps; exhale on exertion. Program evaluation (proficient): percent changes computed correctly, analysis of what worked, next-step plan."
+  },
+  {
+   "week": 9,
+   "prep": "Running shoes, watch. Locate a 400 m track (1 lap) or measure 400 m on a path. Bike or pool for cross-training.",
+   "misconceptions": [
+    "Thinking aerobic and anaerobic systems switch on and off. They work together; intensity and duration change which dominates.",
+    "Running every run fast. Most training should be easy.",
+    "Believing VO2 max can't be improved. Training can raise it, especially in less-trained people."
+   ],
+   "days": [
+    {
+     "guide": "Teach aerobic (with oxygen, long duration) vs. anaerobic (without enough oxygen, short high intensity, causes rapid fatigue). Define VO2 max. Easy 25-minute run.",
+     "questions": [
+      {
+       "q": "What is VO2 max?",
+       "a": "The maximum rate at which the body can take in and use oxygen during intense exercise — a key measure of aerobic fitness."
+      }
+     ]
+    },
+    {
+     "guide": "6 × 400 m at a hard but controlled effort with 90-second recoveries; record each split.",
+     "questions": [
+      {
+       "q": "Which energy system mainly fuels a hard 400 m (about 60–100 s)?",
+       "a": "Anaerobic glycolysis (with significant aerobic contribution)."
+      }
+     ]
+    },
+    {
+     "guide": "30 minutes cycling or swimming.",
+     "questions": [
+      {
+       "q": "How does cross-training help runners?",
+       "a": "Builds aerobic fitness with less impact, reducing overuse injury risk."
+      }
+     ]
+    },
+    {
+     "guide": "20-minute tempo run at 'comfortably hard' (RPE ~7).",
+     "questions": [
+      {
+       "q": "What is the purpose of tempo runs?",
+       "a": "To improve the ability to sustain faster paces by raising the lactate threshold."
+      }
+     ]
+    },
+    {
+     "guide": "Write a 4-week 5K plan: 3–4 runs/week (easy, interval/tempo, long), cross-training, strength, rest; increase weekly volume no more than ~10%.",
+     "questions": [
+      {
+       "q": "What is the 10% rule?",
+       "a": "A guideline to increase weekly running volume by no more than about 10% to reduce injury risk."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "5K training plan rubric. 4 – 4 weeks; includes easy runs, one quality session (intervals or tempo), long run, cross-training, strength, rest; gradual increases (~10%); taper in the final week; target paces from data. 3 (proficient) – Balanced weekly structure with progression and taper. 2 – All hard or no progression. 1 – Incomplete."
+  },
+  {
+   "week": 10,
+   "prep": "Running shoes and log (date, duration, distance, pace, HR, RPE). Choose a runner's yoga video for Day 4.",
+   "misconceptions": [
+    "Overstriding to go faster. Increase cadence with shorter steps.",
+    "Starting the long run too fast. Keep it conversational.",
+    "Skipping strength work. Single-leg strength helps prevent running injuries."
+   ],
+   "days": [
+    {
+     "guide": "25–30 minutes easy; log pace and HR.",
+     "questions": [
+      {
+       "q": "You ran 3 miles in 30:45. What is your pace?",
+       "a": "10:15 per mile."
+      }
+     ]
+    },
+    {
+     "guide": "Runner's strength circuit: single-leg (box/assisted) squats, calf raises, glute bridges, 3 rounds.",
+     "questions": [
+      {
+       "q": "Why do runners need single-leg strength?",
+       "a": "Running is a series of single-leg landings; strength and stability reduce injury and improve efficiency."
+      }
+     ]
+    },
+    {
+     "guide": "30-minute fartlek with 8 surges (20–60 s faster).",
+     "questions": [
+      {
+       "q": "What does 'fartlek' mean?",
+       "a": "Swedish for 'speed play' — unstructured mixed-pace running."
+      }
+     ]
+    },
+    {
+     "guide": "30-minute yoga flow for runners (hips, hamstrings, calves).",
+     "questions": [
+      {
+       "q": "Which muscles do runners commonly stretch?",
+       "a": "Calves, hamstrings, hip flexors, quadriceps, glutes."
+      }
+     ]
+    },
+    {
+     "guide": "Long run 35–40 minutes easy; run/walk allowed.",
+     "questions": [
+      {
+       "q": "What is a negative split?",
+       "a": "Running the second half faster than the first."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Running log rubric. 4 – All 5 sessions logged with duration, distance, pace (correctly calculated), HR and RPE; easy runs in easy range; reflection on trends. 3 (proficient) – Complete log with correct paces. 2 – Missing data. 1 – Incomplete."
+  },
+  {
+   "week": 11,
+   "prep": "Arrange public pool access with a lifeguard OR a bicycle, helmet, and safe empty parking lot/path. Review California bicycle laws (CVC): helmets required under 18; at night a white front light and red rear reflector (plus pedal/side reflectors); ride as far right as practicable in the same direction as traffic; drivers must give 3 feet when passing.",
+   "misconceptions": [
+    "(Swim) Lifting the head forward to breathe. Rotate to the side with the body roll.",
+    "(Bike) Braking hard with only the front brake, which can pitch you over the bars. Use both brakes, rear slightly first, weight back.",
+    "(Bike) Riding against traffic. California law requires riding with traffic."
+   ],
+   "days": [
+    {
+     "guide": "Swim: freestyle breathing drills (side breathing, kick with board). Bike: shifting (shift before hills, while pedaling lightly) and emergency braking drills.",
+     "questions": [
+      {
+       "q": "When should a cyclist shift to an easier gear?",
+       "a": "Before the hill, while pedaling with light pressure — not mid-climb under heavy load."
+      }
+     ]
+    },
+    {
+     "guide": "Swim 20 continuous minutes or ride 45 minutes on a path.",
+     "questions": [
+      {
+       "q": "What cadence range is efficient for most cyclists?",
+       "a": "About 70–90 rpm."
+      }
+     ]
+    },
+    {
+     "guide": "30-minute run with 4 hill repeats.",
+     "questions": [
+      {
+       "q": "Cue for running uphill?",
+       "a": "Shorter steps, drive the arms, lean slightly from the ankles, keep effort (not pace) steady."
+      }
+     ]
+    },
+    {
+     "guide": "Learn bike laws or water-rescue skills (reach-throw-don't-go); 30-minute session.",
+     "questions": [
+      {
+       "q": "Is a 17-year-old required to wear a bicycle helmet in California?",
+       "a": "Yes — California requires helmets for riders under 18."
+      },
+      {
+       "q": "What lighting is required to ride at night in California?",
+       "a": "A white front light visible from 300 ft, a red rear reflector (or light), white/yellow pedal or shoe reflectors, and side reflectors."
+      }
+     ]
+    },
+    {
+     "guide": "Swim 8 × 50 m or bike 6 × 2-minute hard efforts with equal rest.",
+     "questions": [
+      {
+       "q": "What is the work-to-rest ratio of 2 minutes hard and 2 minutes easy?",
+       "a": "1:1."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Technique self-check: proficient (swim) = horizontal body, flutter kick from hips, rotation breathing without lifting head, 20 minutes continuous; (bike) = correct shifting before load, controlled stop using both brakes, shoulder check without swerving, correct hand signals, knowledge of CA helmet/light laws. 4 = all items plus self-analysis from video; 2 = several faults; 1 = unsafe."
+  },
+  {
+   "week": 12,
+   "prep": "Running shoes; measure 1 km (2.5 laps of a 400 m track). Plan race-day logistics.",
+   "misconceptions": [
+    "Doing a hard workout in race week. Taper reduces volume but keeps short race-pace work.",
+    "Trying new foods or shoes on race day. Use only what's been tested in training.",
+    "Skipping the warm-up because the race is 'long.' Warm-up still matters."
+   ],
+   "days": [
+    {
+     "guide": "3 × 1 km at goal race pace with 2–3 minutes recovery.",
+     "questions": [
+      {
+       "q": "Goal 5K time is 25:00. What is goal pace per km?",
+       "a": "5:00 per km."
+      }
+     ]
+    },
+    {
+     "guide": "20 minutes easy plus 4–6 strides.",
+     "questions": [
+      {
+       "q": "What are strides?",
+       "a": "Short (15–20 s) relaxed accelerations to near fast pace, used to stay sharp without fatigue."
+      }
+     ]
+    },
+    {
+     "guide": "30 minutes easy swimming or cycling.",
+     "questions": [
+      {
+       "q": "Why reduce volume during a taper?",
+       "a": "To shed fatigue while maintaining fitness so you're fresh on race day."
+      }
+     ]
+    },
+    {
+     "guide": "Plan race-day nutrition (familiar carb-rich meal 2–3 hours before), gear, warm-up; 15-minute shakeout.",
+     "questions": [
+      {
+       "q": "What is a good pre-race meal timing and type?",
+       "a": "2–3 hours before: familiar, carbohydrate-rich, low in fat and fiber (e.g., oatmeal with banana, toast with honey)."
+      }
+     ]
+    },
+    {
+     "guide": "Light mobility and visualization of the race.",
+     "questions": [
+      {
+       "q": "How does visualization help?",
+       "a": "Mentally rehearsing the race builds confidence and prepares responses to challenges."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Race plan rubric. 4 – Goal time and splits computed correctly from training data, pacing strategy, warm-up, nutrition/hydration timing, gear checklist, contingency plan, mental strategy. 3 (proficient) – Goal pace, warm-up, nutrition, gear. 2 – Vague. 1 – Incomplete."
+  },
+  {
+   "week": 13,
+   "prep": "Measured 5K course or local race registration. Have the mile time from week 1. Prepare the aerobic quiz.",
+   "misconceptions": [
+    "Judging the race only by time. Analyze pacing and effort.",
+    "Expecting the 5K pace to equal mile pace. Longer distance = slower average pace.",
+    "Skipping recovery after racing."
+   ],
+   "days": [
+    {
+     "guide": "Run the 5K; record mile or km splits.",
+     "questions": [
+      {
+       "q": "How many miles is 5 km?",
+       "a": "About 3.1 miles."
+      }
+     ]
+    },
+    {
+     "guide": "Recovery walk 30 minutes and stretching.",
+     "questions": [
+      {
+       "q": "What does active recovery do?",
+       "a": "Promotes blood flow and reduces stiffness without adding stress."
+      }
+     ]
+    },
+    {
+     "guide": "Predict 5K time from the mile with Riegel's formula T2 = T1 × (D2/D1)^1.06 and compare to the actual result; analyze splits.",
+     "questions": [
+      {
+       "q": "Using Riegel's formula, predict a 5K for an 8:00 mile.",
+       "a": "8:00 × (3.107)^1.06 ≈ 8 × 3.33 ≈ 26:36."
+      },
+      {
+       "q": "Splits were 8:10, 8:40, 9:05. What happened?",
+       "a": "A positive split — the runner started too fast and slowed; a more even pace would likely give a faster time."
+      }
+     ]
+    },
+    {
+     "guide": "Full-body strength session.",
+     "questions": [
+      {
+       "q": "Why keep strength training during running blocks?",
+       "a": "To maintain muscle, prevent injury, and improve running economy."
+      }
+     ]
+    },
+    {
+     "guide": "Give the aerobic quiz.",
+     "questions": [
+      {
+       "q": "What is lactate threshold?",
+       "a": "The exercise intensity above which lactate builds up in the blood faster than it can be cleared, leading to rapid fatigue."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) Aerobic = with oxygen, long duration; anaerobic = short, high intensity. 2) VO2 max = max oxygen use. 3) Tempo raises lactate threshold. 4) 10% rule. 5) Taper = reduce volume before race. 6) Negative split = faster second half. 7) Karvonen formula. 8) Cross-training benefits. Pacing analysis rubric: proficient = actual time and splits, predicted time correctly computed, comparison, analysis of pacing, next goal."
+  },
+  {
+   "week": 14,
+   "prep": "Yoga mat, strap or towel, a partner for PNF. Week 1 flexibility data.",
+   "misconceptions": [
+    "Static stretching as the warm-up. Dynamic movement before, static after.",
+    "Bouncing in stretches (ballistic) without training. It can trigger the stretch reflex and strain muscles.",
+    "Partners pushing hard in PNF. Gentle pressure, stretcher controls."
+   ],
+   "days": [
+    {
+     "guide": "10-minute dynamic warm-up (leg swings, walking lunges with twist, arm circles, high knees, carioca), then 20-minute jog.",
+     "questions": [
+      {
+       "q": "Name three dynamic warm-up movements.",
+       "a": "Leg swings, walking lunges, high knees, butt kicks, arm circles, carioca."
+      }
+     ]
+    },
+    {
+     "guide": "30-minute static routine, each stretch held 30 s, major groups.",
+     "questions": [
+      {
+       "q": "How long should static stretches be held?",
+       "a": "About 15–30 seconds (to mild tension), repeated 2–4 times."
+      }
+     ]
+    },
+    {
+     "guide": "PNF contract-relax: stretch, contract against resistance 6 s at light-moderate effort, relax, stretch deeper 20–30 s. Hamstrings with strap; chest with doorway.",
+     "questions": [
+      {
+       "q": "Why does PNF often increase range more than static stretching?",
+       "a": "The contraction is followed by relaxation (autogenic inhibition), allowing the muscle to stretch further."
+      }
+     ]
+    },
+    {
+     "guide": "Hip and shoulder mobility: 90/90, hip circles, thoracic rotations, wall slides.",
+     "questions": [
+      {
+       "q": "What is the difference between flexibility and mobility?",
+       "a": "Flexibility is the passive length of a muscle; mobility is the ability to actively move a joint through its range with control."
+      }
+     ]
+    },
+    {
+     "guide": "Retest sit-and-reach and shoulder stretch; compare.",
+     "questions": [
+      {
+       "q": "Sit-and-reach improved from 9 to 11 inches. Percent change?",
+       "a": "About 22% ((11 − 9) ÷ 9)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Flexibility retest: proficient = sit-and-reach (both sides) and shoulder stretch retested with correct protocol, compared with baseline, change calculated, and a written explanation plus a plan (frequency and type of stretching) to continue. 4 adds HFZ comparison; 2 = data only; 1 = incomplete."
+  },
+  {
+   "week": 15,
+   "prep": "Yoga mat, a free vinyasa video (preview), mood log (1–10 before/after). Short reading on exercise and mental health (e.g., CDC or NIMH page). Note: if the student shows signs of persistent anxiety or depression, consult a health professional.",
+   "misconceptions": [
+    "Thinking breathing exercises are 'doing nothing.' Slow exhalation activates the parasympathetic nervous system.",
+    "Believing stress is always bad. Short-term stress can help; chronic stress harms health.",
+    "Forcing balance poses. Use a wall; balance improves with practice."
+   ],
+   "days": [
+    {
+     "guide": "Practice box breathing (4-4-4-4) and 4-7-8 breathing (inhale 4, hold 7, exhale 8); then 20-minute walk.",
+     "questions": [
+      {
+       "q": "Describe 4-7-8 breathing.",
+       "a": "Inhale through the nose for 4 counts, hold 7, exhale through the mouth for 8."
+      }
+     ]
+    },
+    {
+     "guide": "Follow a 30-minute vinyasa video.",
+     "questions": [
+      {
+       "q": "What does vinyasa mean?",
+       "a": "Linking movement to breath in a flowing sequence."
+      }
+     ]
+    },
+    {
+     "guide": "Read about exercise and mental health; log mood before and after a 30-minute workout.",
+     "questions": [
+      {
+       "q": "What is cortisol?",
+       "a": "A stress hormone from the adrenal glands; chronically high levels are linked to poor sleep, health problems; regular exercise helps regulate the stress response."
+      }
+     ]
+    },
+    {
+     "guide": "Practice tree, warrior III, half moon for 30 minutes, using a wall as needed.",
+     "questions": [
+      {
+       "q": "Give one alignment cue for warrior III.",
+       "a": "Hips level and square to the floor, standing knee soft, body in a line from head to lifted heel."
+      }
+     ]
+    },
+    {
+     "guide": "Restorative yoga and a body-scan meditation.",
+     "questions": [
+      {
+       "q": "What is mindfulness?",
+       "a": "Paying attention to the present moment on purpose, without judgment."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Mood log analysis rubric. 4 – Before/after ratings for at least 5 sessions, average change calculated, pattern identified (which activities helped most), connection to research, plan to use strategies. 3 (proficient) – Complete log, calculated change, explanation. 2 – Incomplete log. 1 – Missing."
+  },
+  {
+   "week": 16,
+   "prep": "Food log app or notebook; MyPlate (myplate.gov). Scale for sweat test. Sleep log. Parental note: emphasize fueling and health, not dieting; watch for signs of disordered eating.",
+   "misconceptions": [
+    "Believing carbs make you unhealthy. Carbohydrate is the main exercise fuel.",
+    "Waiting until thirsty to drink.",
+    "Assuming you can 'catch up' on sleep on weekends."
+   ],
+   "days": [
+    {
+     "guide": "Start a 3-day food log; 30-minute workout.",
+     "questions": [
+      {
+       "q": "Name the three macronutrients and their calories per gram.",
+       "a": "Carbohydrate 4, protein 4, fat 9 kcal/g."
+      }
+     ]
+    },
+    {
+     "guide": "Teach pre-workout (1–3 h, carbs + some protein, low fat/fiber) and post-workout (carbs + protein within ~1–2 h). Plan a sample day.",
+     "questions": [
+      {
+       "q": "Give a good post-workout snack and why.",
+       "a": "Chocolate milk or yogurt with fruit — carbohydrate to refill glycogen and protein to repair muscle."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh before and after a 30-minute run (no bathroom break, note fluid drunk). 1 lb lost ≈ 16 oz sweat; plan to replace 16–24 oz per lb.",
+     "questions": [
+      {
+       "q": "You weighed 150.0 lb before and 148.5 lb after, drinking nothing. How much sweat did you lose and how much should you drink?",
+       "a": "1.5 lb ≈ 24 oz of sweat; drink about 24–36 oz to rehydrate."
+      }
+     ]
+    },
+    {
+     "guide": "Track sleep; write a sleep-hygiene plan.",
+     "questions": [
+      {
+       "q": "How much sleep do 17–18-year-olds need?",
+       "a": "Teens (13–18) need 8–10 hours; adults 18+ need 7 or more."
+      }
+     ]
+    },
+    {
+     "guide": "Write an evaluation with two changes.",
+     "questions": [
+      {
+       "q": "Name three signs of overtraining.",
+       "a": "Persistent fatigue, declining performance, elevated resting HR, mood changes, poor sleep, frequent illness."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Recovery habits evaluation rubric. 4 – 3-day food log compared with MyPlate, correct sweat-loss calculation, sleep averages, specific strengths/gaps, two realistic measurable changes. 3 (proficient) – All three areas evaluated with data and two changes. 2 – Missing an area. 1 – Incomplete."
+  },
+  {
+   "week": 17,
+   "prep": "Stopwatch, mat, fitness log with baseline data. Schedule tests after rest days.",
+   "misconceptions": [
+    "Comparing only to HFZ, not to personal baseline.",
+    "Concluding a goal 'failed' without analyzing why.",
+    "Inconsistent test protocols."
+   ],
+   "days": [
+    {
+     "guide": "Retest the mile.",
+     "questions": [
+      {
+       "q": "Mile went from 9:45 to 9:05. Improvement in seconds?",
+       "a": "40 seconds."
+      }
+     ]
+    },
+    {
+     "guide": "Retest push-ups and curl-ups to cadence.",
+     "questions": [
+      {
+       "q": "Why use cadence in these tests?",
+       "a": "It standardizes speed so results are comparable between tests and people."
+      }
+     ]
+    },
+    {
+     "guide": "Retest flexibility and resting HR.",
+     "questions": [
+      {
+       "q": "Resting HR fell from 72 to 64. What does that suggest?",
+       "a": "Improved cardiovascular fitness — greater stroke volume means fewer beats needed at rest."
+      }
+     ]
+    },
+    {
+     "guide": "Graph baseline vs. current.",
+     "questions": [
+      {
+       "q": "What type of graph shows baseline vs. current for several tests?",
+       "a": "A clustered (side-by-side) bar graph."
+      }
+     ]
+    },
+    {
+     "guide": "Review each SMART goal: met or not, with evidence.",
+     "questions": [
+      {
+       "q": "If a goal wasn't met, what should you do?",
+       "a": "Analyze why (training, time, goal difficulty) and revise the plan or goal."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Reassessment results: proficient = all retests recorded with protocol matching baseline, changes and percent changes computed, graph labeled, each SMART goal marked met/not met with evidence. 4 adds causes and HFZ comparison; 2 = partial; 1 = incomplete."
+  },
+  {
+   "week": 18,
+   "prep": "Fitness log, semester data. Prepare the semester exam (key below).",
+   "misconceptions": [
+    "Reflections that list workouts without analysis.",
+    "New goals that are identical to old ones.",
+    "Plans without a lifetime sport or enjoyment component."
+   ],
+   "days": [
+    {
+     "guide": "Write a reflection on training and motivation; 30-minute workout.",
+     "questions": [
+      {
+       "q": "What motivates long-term activity best?",
+       "a": "Intrinsic motivation — enjoyment, competence, and personal meaning."
+      }
+     ]
+    },
+    {
+     "guide": "Write new SMART goals for semester 2.",
+     "questions": [
+      {
+       "q": "Give a semester-2 SMART goal involving a lifetime sport.",
+       "a": "Example: 'Play pickleball at open play twice a week and reach a 15-dink rally by March 1.'"
+      }
+     ]
+    },
+    {
+     "guide": "Revise weekly plan: strength 2–3 days, cardio 3+ days, a lifetime sport.",
+     "questions": [
+      {
+       "q": "Does a plan with 3 × 30 min jogging and 2 strength days meet adult aerobic guidelines?",
+       "a": "Not quite at moderate intensity (90 min < 150); at vigorous intensity, 90 min exceeds the 75-minute vigorous minimum."
+      }
+     ]
+    },
+    {
+     "guide": "Lead a family member through a workout.",
+     "questions": [
+      {
+       "q": "What should every led workout include?",
+       "a": "Warm-up, main set with modifications, cool-down, and clear cues."
+      }
+     ]
+    },
+    {
+     "guide": "Give the semester exam.",
+     "questions": [
+      {
+       "q": "Karvonen: age 18, rest 60, 70%?",
+       "a": "HRmax 202, HRR 142; 0.7 × 142 + 60 = 159.4 ≈ 159 bpm."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester exam key: 1) Five components of health-related fitness. 2) FITT. 3) Overload, progression, specificity, reversibility. 4) Karvonen calculation. 5) Volume = sets × reps × load. 6) Strength vs. endurance rep ranges. 7) Aerobic vs. anaerobic; VO2 max; lactate threshold. 8) 10% rule, taper. 9) Static vs. dynamic vs. PNF. 10) Macronutrients and kcal/g; sweat replacement 16–24 oz per lb. 11) Teen sleep 8–10 h. 12) BMI limits. Revised plan rubric: proficient = new SMART goals plus weekly plan with strength, cardio meeting guidelines, flexibility, and a lifetime sport."
+  },
+  {
+   "week": 19,
+   "prep": "Pickleball paddles and balls (outdoor balls for courts), a public court or a driveway taped to 20 × 44 ft with a 7-ft kitchen; portable net if needed. Review USA Pickleball rules.",
+   "misconceptions": [
+    "Volleying from the kitchen (non-volley zone). Not allowed, even if momentum carries you in after the volley.",
+    "Forgetting the two-bounce rule. The return of serve and the third shot must both bounce.",
+    "Overhitting at the kitchen line. Dinks should be soft and low."
+   ],
+   "days": [
+    {
+     "guide": "Teach court, scoring (only serving team scores; to 11, win by 2; doubles call: server score, receiver score, server number — starting 0-0-2), and serve (underhand, contact below waist, diagonal, past the kitchen). 20 serves per side.",
+     "questions": [
+      {
+       "q": "The score is called '5-3-1.' What does it mean?",
+       "a": "The serving team has 5, the receivers have 3, and it is the first server's turn."
+      }
+     ]
+    },
+    {
+     "guide": "Dink at the kitchen line with a partner for 20 minutes.",
+     "questions": [
+      {
+       "q": "What is a dink?",
+       "a": "A soft shot from near the kitchen line that arcs over the net and lands in the opponent's kitchen."
+      }
+     ]
+    },
+    {
+     "guide": "Practice volleys and blocks (paddle up, short punch); play a short game.",
+     "questions": [
+      {
+       "q": "Where must your feet be to volley?",
+       "a": "Outside the non-volley zone (behind the kitchen line), and you can't step in from the momentum of the volley."
+      }
+     ]
+    },
+    {
+     "guide": "Practice third-shot drops (soft arc into the opponent's kitchen) and play doubles.",
+     "questions": [
+      {
+       "q": "Why is the third-shot drop used?",
+       "a": "It lets the serving team advance to the kitchen line while the opponents must hit up a low ball."
+      }
+     ]
+    },
+    {
+     "guide": "Skill test: 10 serves (target 8 in), dink rally length; play a game.",
+     "questions": [
+      {
+       "q": "State the two-bounce rule.",
+       "a": "The serve must bounce before the return, and the return must bounce before the third shot; after that, volleys are allowed."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Pickleball skill test: proficient = 8/10 legal serves, a cooperative dink rally of 15+, correct scoring called aloud. 4 = 9–10 serves and 25+ dink rally; 2 = 5–7 serves and short rallies; 1 = below. Rules check answers: kitchen 7 ft; two-bounce rule; only serving team scores; game to 11 win by 2."
+  },
+  {
+   "week": 20,
+   "prep": "Pickleball gear; agility ladder (or chalk lines). Look up open-play times at local parks/recreation centers.",
+   "misconceptions": [
+    "Partners both chasing the same ball. Communicate ('mine,' 'yours'); the forehand usually takes middle balls.",
+    "Standing in the transition zone ('no-man's land'). Move up to the kitchen line or stay back; reset if caught.",
+    "Poaching without communication, which leaves gaps."
+   ],
+   "days": [
+    {
+     "guide": "Doubles positioning: move up together, side by side; transition zone drill (split-step, reset shot).",
+     "questions": [
+      {
+       "q": "What is the transition zone?",
+       "a": "The area between the baseline and the kitchen line, where players are vulnerable to shots at their feet."
+      }
+     ]
+    },
+    {
+     "guide": "Play doubles, tracking unforced errors.",
+     "questions": [
+      {
+       "q": "What is an unforced error?",
+       "a": "A mistake not caused by the opponent's good shot (e.g., hitting an easy ball into the net)."
+      }
+     ]
+    },
+    {
+     "guide": "Attend open play at a local court.",
+     "questions": [
+      {
+       "q": "What is paddle-stacking at open play?",
+       "a": "Placing paddles in a rack to wait your turn for the next game."
+      }
+     ]
+    },
+    {
+     "guide": "Agility ladder and lateral shuffles.",
+     "questions": [
+      {
+       "q": "What is a split-step?",
+       "a": "A small hop landing on both feet as the opponent hits, so you can move quickly in any direction."
+      }
+     ]
+    },
+    {
+     "guide": "Family round-robin with etiquette and correct scoring.",
+     "questions": [
+      {
+       "q": "What is 'stacking' in doubles strategy?",
+       "a": "Arranging partner positions so each player stays on their preferred side (e.g., forehand in the middle) regardless of score."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Game-play rubric (1–4 each): positioning (moves to kitchen line together), shot selection (dinks/drops/drives appropriate), communication, scoring and rules, etiquette. Proficient = 3 in each: calls score correctly, follows kitchen and two-bounce rules, communicates, respectful play."
+  },
+  {
+   "week": 21,
+   "prep": "Tennis racket and balls, public court or a smooth wall. Review tennis scoring.",
+   "misconceptions": [
+    "Arm-only swings. Rotate shoulders and hips; use the kinetic chain.",
+    "Late contact. Contact the ball in front of the body.",
+    "Serving with a frying-pan grip. Use a continental grip as skill develops."
+   ],
+   "days": [
+    {
+     "guide": "Eastern or semi-western forehand grip; turn, swing low to high, contact in front, follow through. 50 balls against a wall.",
+     "questions": [
+      {
+       "q": "How does a low-to-high swing affect the ball?",
+       "a": "It creates topspin, which makes the ball dip and bounce higher."
+      }
+     ]
+    },
+    {
+     "guide": "Backhand (one- or two-handed) against the wall.",
+     "questions": [
+      {
+       "q": "Give an advantage of a two-handed backhand.",
+       "a": "More stability and power for beginners, easier on high balls."
+      }
+     ]
+    },
+    {
+     "guide": "Serve motion with kinetic chain cues: toss, trophy position, legs drive, trunk rotates, arm reaches up and through.",
+     "questions": [
+      {
+       "q": "Describe the kinetic chain in a serve.",
+       "a": "Force flows from legs to hips to trunk to shoulder to elbow to wrist to racket in sequence."
+      }
+     ]
+    },
+    {
+     "guide": "Rally with a partner, counting consecutive shots.",
+     "questions": [
+      {
+       "q": "What is the baseline?",
+       "a": "The back boundary line of the court."
+      }
+     ]
+    },
+    {
+     "guide": "Teach scoring (love, 15, 30, 40, deuce, advantage; 6 games a set, win by 2; tiebreak at 6-6) and play mini-tennis.",
+     "questions": [
+      {
+       "q": "Score is 30-40, server wins the point. New score?",
+       "a": "Deuce."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Rally count and serve test: proficient = cooperative rally of 10+ shots and 6/10 serves in the correct box. 4 = 20+ rally and 8/10 serves; 2 = 5–9 rally, 3–5 serves; 1 = fewer. Scoring check: love = 0; deuce = 40-40; advantage then game."
+  },
+  {
+   "week": 22,
+   "prep": "Tennis gear, phone for slow-motion video, and a pro forehand slow-motion clip. Prepare the racket sports quiz.",
+   "misconceptions": [
+    "Rushing the net without an approach shot. Approach deep, then close in.",
+    "Doubles partners standing one behind the other. Use side-by-side or one-up-one-back formations deliberately.",
+    "Poor line-call etiquette. Call your own side honestly; if unsure, the ball is in."
+   ],
+   "days": [
+    {
+     "guide": "Volleys (short punch, no swing) and approach shots.",
+     "questions": [
+      {
+       "q": "Why don't you take a big swing on a volley?",
+       "a": "The ball is coming fast and close; a short punch gives control."
+      }
+     ]
+    },
+    {
+     "guide": "Play a singles set.",
+     "questions": [
+      {
+       "q": "How many games are needed to win a set?",
+       "a": "6, by a margin of 2 (or a tiebreak at 6-6)."
+      }
+     ]
+    },
+    {
+     "guide": "Play doubles focusing on positioning.",
+     "questions": [
+      {
+       "q": "What is a lob?",
+       "a": "A high shot over an opponent at the net."
+      }
+     ]
+    },
+    {
+     "guide": "Film the forehand; compare with a pro's slow-motion clip (preparation, contact point, follow-through).",
+     "questions": [
+      {
+       "q": "What is one checkpoint at contact in a good forehand?",
+       "a": "Contact in front of the body with a stable wrist and the body rotating forward."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and play a match.",
+     "questions": [
+      {
+       "q": "In pickleball, who can score? In tennis?",
+       "a": "Pickleball: only the serving team (traditional scoring). Tennis: either player can win points/games."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Racket sports quiz key: 1) Pickleball kitchen = 7 ft non-volley zone. 2) Two-bounce rule. 3) Pickleball game to 11, win by 2. 4) Tennis: love, 15, 30, 40, deuce, advantage. 5) Set = 6 games by 2 or tiebreak. 6) Let serve replayed. 7) Topspin from low-to-high swing. 8) Ready position/split step. 9) Etiquette: honest calls, wait to cross courts. Match: proficient = correct scoring, legal serves, sportsmanship."
+  },
+  {
+   "week": 23,
+   "prep": "Borrow or rent clubs (putter, wedge/9-iron, 7-iron); find a putting green and driving range; budget for one small bucket. Bring tees.",
+   "misconceptions": [
+    "Gripping too tightly. Light, consistent grip pressure.",
+    "Trying to 'lift' the ball. Hit down and through; the loft lifts the ball.",
+    "Using a full swing for chips. Chips use a short putting-like stroke."
+   ],
+   "days": [
+    {
+     "guide": "Putt from 3, 6, and 10 feet, 10 each; record make percentage. Teach pendulum stroke from shoulders, eyes over the ball.",
+     "questions": [
+      {
+       "q": "You made 7 of 10 from 6 feet. Make percentage?",
+       "a": "70%."
+      }
+     ]
+    },
+    {
+     "guide": "Chip to a target from 10–20 yards: narrow stance, weight forward, hands ahead, short stroke.",
+     "questions": [
+      {
+       "q": "Where should your weight and hands be in a chip?",
+       "a": "Weight on the lead foot, hands slightly ahead of the ball."
+      }
+     ]
+    },
+    {
+     "guide": "Full swing: neutral grip (V's point to trail shoulder), athletic stance, ball position; small bucket.",
+     "questions": [
+      {
+       "q": "Describe a neutral golf grip.",
+       "a": "Lead hand on top, the 'V' between thumb and forefinger of both hands pointing roughly toward the trail shoulder; light pressure."
+      }
+     ]
+    },
+    {
+     "guide": "Biomechanics: club-head speed comes from rotation of hips and torso, a long lever (arm + club), and wrist hinge release.",
+     "questions": [
+      {
+       "q": "Why does a longer club usually hit the ball farther?",
+       "a": "A longer lever moves the club head faster at the same rotational speed, and longer clubs have less loft."
+      }
+     ]
+    },
+    {
+     "guide": "Skills test: putting (3/6/10 ft) and chipping (balls within 6 feet of target).",
+     "questions": [
+      {
+       "q": "What does 'par' mean?",
+       "a": "The expected number of strokes for a skilled golfer to complete a hole."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Short-game skills test: proficient = putting 8/10 at 3 ft, 5/10 at 6 ft, 2/10 at 10 ft; chipping 5/10 within 6 ft of the target from 15 yards. 4 = clearly exceeds; 2 = about half of proficient; 1 = below. Written: par definition; chip vs. putt technique."
+  },
+  {
+   "week": 24,
+   "prep": "Locate a pitch-and-putt course (or mini golf if unavailable); scorecard. Learn basic etiquette.",
+   "misconceptions": [
+    "Talking or moving while others swing.",
+    "Slow play. Be ready to hit when it's your turn; limit practice swings.",
+    "Thinking a handicap is a penalty. It's a measure of skill allowing fair competition."
+   ],
+   "days": [
+    {
+     "guide": "Develop a pre-shot routine (pick a target, align, one practice swing, breathe, hit); practice at the range.",
+     "questions": [
+      {
+       "q": "Why use a pre-shot routine?",
+       "a": "Consistency and focus — it reduces anxiety and helps repeat good mechanics."
+      }
+     ]
+    },
+    {
+     "guide": "Teach etiquette: stay still and quiet, stand out of the line of play, repair ball marks and divots, keep pace, yell 'Fore!' if a ball heads toward people.",
+     "questions": [
+      {
+       "q": "What do you shout if your ball may hit someone?",
+       "a": "'Fore!'"
+      }
+     ]
+    },
+    {
+     "guide": "Play 9 holes; keep score.",
+     "questions": [
+      {
+       "q": "On a par-3, you take 5 strokes. What is your score relative to par?",
+       "a": "Double bogey (+2)."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze scorecard: putts per hole, strengths, weaknesses.",
+     "questions": [
+      {
+       "q": "Your 9-hole score is 36 on a par-27 course. How many over par?",
+       "a": "9 over par."
+      }
+     ]
+    },
+    {
+     "guide": "Rotational core and mobility workout (Pallof press, cable/band rotations, thoracic mobility).",
+     "questions": [
+      {
+       "q": "Why does golf need rotational core strength?",
+       "a": "The swing relies on trunk rotation and controlled deceleration; a strong core transfers force and protects the back."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Scorecard analysis rubric. 4 – Complete scorecard with strokes and putts per hole, score vs. par computed, strengths/weaknesses identified with numbers, practice plan, etiquette reflection. 3 (proficient) – Scorecard, relative-to-par score, one strength and one weakness, practice plan. 2 – Incomplete analysis. 1 – Missing."
+  },
+  {
+   "week": 25,
+   "prep": "Daypack, water, layers, first aid kit, headlamp, map. Research a 4–6 mile hike (state or local park) with weather and closures. Parent accompanies.",
+   "misconceptions": [
+    "Relying on phone only. Carry a paper map and tell someone your plan.",
+    "Underestimating water. Plan about 0.5 liter per hour in moderate temperatures, more in heat.",
+    "Leaving 'natural' trash. Pack out everything."
+   ],
+   "days": [
+    {
+     "guide": "Pack the Ten Essentials; teach the 7 Leave No Trace principles.",
+     "questions": [
+      {
+       "q": "List the Ten Essentials.",
+       "a": "Navigation, headlamp, sun protection, first aid, knife, fire, shelter, extra food, extra water, extra clothes."
+      }
+     ]
+    },
+    {
+     "guide": "Stair or hill repeats with a loaded daypack for 30 minutes.",
+     "questions": [
+      {
+       "q": "What principle is applied by training with the pack?",
+       "a": "Specificity."
+      }
+     ]
+    },
+    {
+     "guide": "Plan a 4–6 mile hike: route, elevation gain, time estimate, weather, turnaround time, emergency plan.",
+     "questions": [
+      {
+       "q": "Estimate time for 5 miles with 1,500 ft gain (2 mph + 1 h per 2,000 ft).",
+       "a": "2.5 h + 0.75 h ≈ 3.25 hours plus breaks."
+      }
+     ]
+    },
+    {
+     "guide": "Complete the hike, logging time and HR.",
+     "questions": [
+      {
+       "q": "Who yields on trails?",
+       "a": "Cyclists yield to hikers and horses; hikers yield to horses; downhill hikers yield to uphill hikers."
+      }
+     ]
+    },
+    {
+     "guide": "Trip report: distance, elevation gain, lessons.",
+     "questions": [
+      {
+       "q": "Name two Leave No Trace principles.",
+       "a": "Plan ahead; travel on durable surfaces; dispose of waste properly; leave what you find; minimize campfire impacts; respect wildlife; be considerate of others."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Hike plan and trip report rubric. 4 – Plan with map, distance, elevation, time estimate, weather, turnaround, emergency contacts; report with data, HR, Leave No Trace actions, lessons. 3 (proficient) – Plan and report with key data. 2 – Missing safety plan or data. 1 – Incomplete."
+  },
+  {
+   "week": 26,
+   "prep": "Baseplate compass, USGS topographic map of a local area (free download), cones or markers. California declination is about 11–13° east; check the map's declination diagram.",
+   "misconceptions": [
+    "Confusing contour lines with trails or roads.",
+    "Holding the compass near metal or phones.",
+    "Forgetting declination when going between map and compass."
+   ],
+   "days": [
+    {
+     "guide": "Read contour lines: closely spaced = steep; circles = hill; V's pointing uphill = valley/stream; saddle = low point between two hills.",
+     "questions": [
+      {
+       "q": "Which way do contour V's point when crossing a stream?",
+       "a": "Upstream (uphill)."
+      },
+      {
+       "q": "What is a saddle?",
+       "a": "A low area between two high points on a ridge."
+      }
+     ]
+    },
+    {
+     "guide": "Teach taking and following a bearing, then adjusting for declination: with east declination (California, about 11–13° E), subtract the declination from a map (true) bearing to get the magnetic bearing to follow, and add it when going from compass to map. Check against the map's declination diagram.",
+     "questions": [
+      {
+       "q": "Map bearing is 90° and declination is 12° east. What magnetic bearing do you follow?",
+       "a": "78° (for east declination, subtract when converting true/map to magnetic)."
+      }
+     ]
+    },
+    {
+     "guide": "Set up and complete a 5-point backyard/park course.",
+     "questions": [
+      {
+       "q": "What is the back bearing of 300°?",
+       "a": "120°."
+      }
+     ]
+    },
+    {
+     "guide": "Complete a permanent orienteering course or geocaching route.",
+     "questions": [
+      {
+       "q": "What is geocaching?",
+       "a": "An outdoor activity using GPS coordinates to find hidden containers (caches)."
+      }
+     ]
+    },
+    {
+     "guide": "Navigation skills test.",
+     "questions": [
+      {
+       "q": "Contour interval is 40 ft; you cross 5 contour lines going uphill. How much did you climb?",
+       "a": "200 ft."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Navigation test key (sample): 1) Close contours = steep. 2) V's point upstream. 3) Back bearing of 45° = 225°. 4) Map 90°, 12° E declination → 78° magnetic. 5) 5 lines × 40 ft = 200 ft. 6) Scale 1:24,000 → 1 inch = 2,000 ft. 7) Practical: complete 5-point course finding all controls. Proficient = 80%+ written and all practical points found."
+  },
+  {
+   "week": 27,
+   "prep": "Bicycle, helmet, repair kit (tire levers, spare tube or patch kit, pump). Route-planning app with bike lanes. Parent rides along on new routes.",
+   "misconceptions": [
+    "Removing a tire with a screwdriver, which pinches tubes. Use tire levers.",
+    "Not finding the cause of a flat. Check inside the tire for the thorn/glass before installing a new tube.",
+    "Choosing the shortest route rather than the safest."
+   ],
+   "days": [
+    {
+     "guide": "ABC check (air, brakes, chain) and flat repair: release brake, remove wheel, lever off one side, remove tube, find the cause, insert slightly inflated new tube, reseat tire by hand, inflate to sidewall PSI.",
+     "questions": [
+      {
+       "q": "Why should you inspect the inside of the tire after a flat?",
+       "a": "To find and remove the object (thorn, glass) that caused it, or the new tube will puncture too."
+      },
+      {
+       "q": "Where do you find the correct tire pressure?",
+       "a": "Printed on the tire's sidewall."
+      }
+     ]
+    },
+    {
+     "guide": "Plan a safe 10–15 mile route using bike lanes/trails.",
+     "questions": [
+      {
+       "q": "Name two features of a safe bike route.",
+       "a": "Bike lanes or paths, low traffic speeds, fewer complex intersections, good visibility."
+      }
+     ]
+    },
+    {
+     "guide": "Complete the ride; log time, distance, HR.",
+     "questions": [
+      {
+       "q": "You rode 12 miles in 60 minutes. Average speed?",
+       "a": "12 mph."
+      }
+     ]
+    },
+    {
+     "guide": "Plan and time a route to a future job or campus.",
+     "questions": [
+      {
+       "q": "Why plan an active commute?",
+       "a": "It builds daily activity into routine, saving money and time spent exercising separately."
+      }
+     ]
+    },
+    {
+     "guide": "Full-body strength workout.",
+     "questions": [
+      {
+       "q": "Which muscles do cyclists rely on most?",
+       "a": "Quadriceps, glutes, hamstrings, and calves."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Ride log and route plan rubric. 4 – Correct ABC check and flat fix demonstrated; route map with distance, safety features, and alternatives; ride log with time, distance, speed, HR; commute plan with timing. 3 (proficient) – ABC, route, log, commute plan. 2 – Missing elements. 1 – Incomplete."
+  },
+  {
+   "week": 28,
+   "prep": "Outdoor gear for the chosen outing (hike, bike, kayak). For water activities: life jackets (PFDs) for all and an approved, supervised rental location. Risk-management plan template.",
+   "misconceptions": [
+    "Leading without a safety briefing.",
+    "Ignoring weather or participants' abilities.",
+    "Debriefs that skip honest feedback."
+   ],
+   "days": [
+    {
+     "guide": "Plan the outing: route, participants' abilities, gear, weather, risk-management plan (hazards, prevention, emergency response, contacts).",
+     "questions": [
+      {
+       "q": "What are the parts of a risk-management plan?",
+       "a": "Identify hazards, assess risk, prevention strategies, emergency plan (first aid, communication, evacuation), and contacts."
+      }
+     ]
+    },
+    {
+     "guide": "40-minute conditioning session.",
+     "questions": [
+      {
+       "q": "Why condition before leading?",
+       "a": "Leaders need reserve energy to watch others and respond to emergencies."
+      }
+     ]
+    },
+    {
+     "guide": "Lead the outing: brief safety and Leave No Trace, keep group together, check in.",
+     "questions": [
+      {
+       "q": "What should a leader say in a pre-trip briefing?",
+       "a": "Route and timing, hazards, buddy system, signals, water/food reminders, Leave No Trace, emergency plan."
+      }
+     ]
+    },
+    {
+     "guide": "Debrief participants; record feedback.",
+     "questions": [
+      {
+       "q": "Why debrief after an outing?",
+       "a": "To learn what went well and what to improve for safety and enjoyment."
+      }
+     ]
+    },
+    {
+     "guide": "Outdoor-safety quiz; write how outdoor activity fits adult life.",
+     "questions": [
+      {
+       "q": "What is the first thing to do in a wilderness emergency?",
+       "a": "Ensure your own and the group's safety (stop, assess), then give first aid and call or send for help."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Leadership outing: proficient = written plan with hazards/prevention/emergency response, clear briefing, group kept safe, debrief with feedback. Quiz key: 1) Ten Essentials. 2) Leave No Trace principles. 3) Ride with traffic; CA helmet under 18. 4) Reach-throw-don't-go. 5) Contour line reading. 6) Heat illness signs. 7) Lightning: get off ridges, avoid tall isolated objects. 8) PFD required for kayaking. 90%+ advanced, 75% proficient."
+  },
+  {
+   "week": 29,
+   "prep": "Music player and open floor. Choose cumbia songs, an East Coast swing song (~120–150 BPM), and two line dances (e.g., Cupid Shuffle, Electric Slide). Find a reputable short video on cumbia's origins.",
+   "misconceptions": [
+    "Treating cultural dance as a costume or joke. Learn origins and dance with respect.",
+    "Stiff partner frame or pulling hard. Use gentle, connected frame — lead with the body.",
+    "Counting swing in 8s. East Coast swing basic is 6 counts."
+   ],
+   "days": [
+    {
+     "guide": "Learn cumbia basic (step back and return, alternating sides, relaxed upper body) and its origins on Colombia's Caribbean coast, blending Indigenous, African, and Spanish influences; spread across Latin America (strong traditions in Mexico and among Mexican-American communities). Dance 30 minutes.",
+     "questions": [
+      {
+       "q": "Where did cumbia originate?",
+       "a": "On the Caribbean coast of Colombia, blending Indigenous, African, and Spanish musical and dance traditions."
+      }
+     ]
+    },
+    {
+     "guide": "East Coast swing basic: triple step (1&2), triple step (3&4), rock step (5, 6) — and an underarm turn with a partner.",
+     "questions": [
+      {
+       "q": "How many counts is the East Coast swing basic?",
+       "a": "6 counts: triple step, triple step, rock step."
+      }
+     ]
+    },
+    {
+     "guide": "Learn two line dances.",
+     "questions": [
+      {
+       "q": "What is a 'wall' in line dancing?",
+       "a": "The direction dancers face; many line dances rotate 90° to a new wall each repetition."
+      }
+     ]
+    },
+    {
+     "guide": "Dance continuously for 30 minutes tracking HR.",
+     "questions": [
+      {
+       "q": "Can social dancing meet aerobic guidelines?",
+       "a": "Yes — sustained dancing typically reaches moderate (sometimes vigorous) intensity."
+      }
+     ]
+    },
+    {
+     "guide": "Perform a dance for family and explain its cultural background.",
+     "questions": [
+      {
+       "q": "What is partner frame?",
+       "a": "The connected posture of arms and upper body that lets partners communicate leads and follows."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Dance performance rubric. 4 – On-beat, correct basic steps and a figure, smooth partner connection (if partnered), accurate cultural explanation with origins and significance. 3 (proficient) – Mostly on-beat, correct steps, accurate cultural background. 2 – Frequently off-beat or inaccurate background. 1 – Incomplete."
+  },
+  {
+   "week": 30,
+   "prep": "Music (mix of tempos, ~120–140 BPM for dance fitness), video recorder, a dance-fitness video to follow. Clear floor.",
+   "misconceptions": [
+    "Choreography that is all high-impact. Include low-impact options.",
+    "Changing moves mid-phrase. Changes should happen at the start of an 8-count.",
+    "Teaching too fast. Break moves down, then layer."
+   ],
+   "days": [
+    {
+     "guide": "Count music in 8s; follow a 30-minute dance fitness video.",
+     "questions": [
+      {
+       "q": "How do you find the '1' in music?",
+       "a": "Listen for the strongest beat where phrases start, often marked by a drum accent or a vocal entry."
+      }
+     ]
+    },
+    {
+     "guide": "Choreograph a 3-minute routine on paper by 8-counts, including warm-up tempo and low/high-impact options.",
+     "questions": [
+      {
+       "q": "About how many 8-counts are in 3 minutes at 128 BPM?",
+       "a": "128 × 3 = 384 beats ÷ 8 = 48 eight-counts."
+      }
+     ]
+    },
+    {
+     "guide": "Rehearse and refine transitions.",
+     "questions": [
+      {
+       "q": "What is a transition in choreography?",
+       "a": "The connecting movement between two steps or sections."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the routine to family using add-on method.",
+     "questions": [
+      {
+       "q": "What is the add-on (layering) teaching method?",
+       "a": "Teach move A, then B, then combine A+B, then add C, and so on."
+      }
+     ]
+    },
+    {
+     "guide": "Record the routine; reflect on fitness benefits (HR before/after).",
+     "questions": [
+      {
+       "q": "Name two fitness benefits of dance fitness.",
+       "a": "Cardiorespiratory endurance, coordination, muscular endurance, balance, mood/stress relief."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Recorded routine rubric. 4 – 3 minutes, on-beat changes at 8-count boundaries, variety of moves with low/high-impact options, clear cueing, HR data and reflection. 3 (proficient) – Complete routine on-beat, varied moves, reflection. 2 – Off-beat or short. 1 – Incomplete."
+  },
+  {
+   "week": 31,
+   "prep": "Collect gym brochures or websites (3 gyms, community center), app store pages, and FDA and NIH Office of Dietary Supplements pages. Trainer certification registry (USREPS or certification bodies).",
+   "misconceptions": [
+    "Signing long gym contracts without reading cancellation terms.",
+    "Assuming supplements are tested or approved by the FDA before sale. They are not.",
+    "Trusting any 'certified' trainer. Look for NCCA-accredited certifications (e.g., ACE, ACSM, NASM, NSCA)."
+   ],
+   "days": [
+    {
+     "guide": "Compare cost (initiation, monthly, annual fees), contract length, cancellation terms, and free options; do a workout.",
+     "questions": [
+      {
+       "q": "Gym A: $50 sign-up + $30/month. Gym B: no sign-up, $35/month. Which is cheaper over 12 months?",
+       "a": "Gym A: 50 + 360 = $410. Gym B: $420. Gym A is $10 cheaper over a year (B is cheaper for shorter periods)."
+      }
+     ]
+    },
+    {
+     "guide": "Evaluate two apps and a wearable for usefulness, accuracy, cost, and privacy (what data is collected/shared).",
+     "questions": [
+      {
+       "q": "What privacy question should you ask about a fitness app?",
+       "a": "What data (location, health) does it collect, who is it shared with or sold to, and can you delete it?"
+      }
+     ]
+    },
+    {
+     "guide": "Evaluate three supplement claims using FDA and NIH ODS sources.",
+     "questions": [
+      {
+       "q": "Does FDA approve dietary supplements before sale?",
+       "a": "No — manufacturers are responsible for safety and truthful labels; FDA acts after problems arise."
+      }
+     ]
+    },
+    {
+     "guide": "Learn how to check trainer certification (NCCA accreditation; verify on the certifying body's site).",
+     "questions": [
+      {
+       "q": "Name two NCCA-accredited trainer certifications.",
+       "a": "ACE, ACSM, NASM, NSCA (CSCS or CPT)."
+      }
+     ]
+    },
+    {
+     "guide": "Write a consumer guide to adult fitness options in your area.",
+     "questions": [
+      {
+       "q": "What are red flags in a fitness product ad?",
+       "a": "Quick-fix promises, spot reduction, 'no effort,' testimonials only, 'secret' formulas."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Consumer guide rubric. 4 – Compares at least four options with accurate costs over 12 months, contract terms, free alternatives, app/wearable evaluation including privacy, accurate supplement regulation, how to verify trainers. 3 (proficient) – Accurate cost comparison, supplement facts, trainer verification. 2 – Inaccuracies. 1 – Incomplete."
+  },
+  {
+   "week": 32,
+   "prep": "A sample college class schedule or work schedule; websites of a college or employer the student is considering.",
+   "misconceptions": [
+    "Thinking 150 minutes requires long sessions. Bouts of any length count toward the total.",
+    "Waiting for free time to appear. Schedule activity like a class.",
+    "Assuming exercise must happen at a gym."
+   ],
+   "days": [
+    {
+     "guide": "Map a sample week and find 150 minutes of moderate activity plus 2 strength sessions; 30-minute workout.",
+     "questions": [
+      {
+       "q": "How can 150 minutes fit into a busy week?",
+       "a": "Example: 30 minutes 5 days, or 22 minutes daily, including active commuting."
+      }
+     ]
+    },
+    {
+     "guide": "Research recreation facilities and intramurals at a college or employer.",
+     "questions": [
+      {
+       "q": "What are intramurals?",
+       "a": "Recreational sports leagues within a school or organization."
+      }
+     ]
+    },
+    {
+     "guide": "Design three 15-minute 'busy day' workouts and test one.",
+     "questions": [
+      {
+       "q": "Give a 15-minute busy-day workout.",
+       "a": "Example: 3-minute warm-up; 10 minutes of AMRAP (10 squats, 8 push-ups, 10 lunges, 20-s plank); 2-minute stretch."
+      }
+     ]
+    },
+    {
+     "guide": "Find a local club, league, or group and attend or contact it.",
+     "questions": [
+      {
+       "q": "Why is social activity helpful for adherence?",
+       "a": "Social support and commitment increase enjoyment and accountability."
+      }
+     ]
+    },
+    {
+     "guide": "Write about how habits will change after graduation.",
+     "questions": [
+      {
+       "q": "What does 'workplace wellness' mean?",
+       "a": "Employer programs supporting health (gym discounts, activity challenges, on-site facilities)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Busy-day workouts and reflection rubric. 4 – Three safe, complete 15-minute workouts (warm-up, main, cool-down) with different focuses, tested and adjusted; reflection names specific resources and strategies for after graduation. 3 (proficient) – Three workouts and a reflection with resources. 2 – Incomplete workouts. 1 – Missing."
+  },
+  {
+   "week": 33,
+   "prep": "Plan template (12 weeks), adult activity guidelines (Physical Activity Guidelines for Americans). Budget sheet.",
+   "misconceptions": [
+    "Plans that exceed realistic time. Adherence first.",
+    "Omitting strength training. Adults need 2+ days.",
+    "Not planning for progression or maintenance phases."
+   ],
+   "days": [
+    {
+     "guide": "Draft a 12-week plan meeting guidelines: 150–300 min moderate (or 75–150 vigorous) aerobic, strength 2+ days, flexibility.",
+     "questions": [
+      {
+       "q": "State the adult aerobic guideline.",
+       "a": "150–300 minutes moderate or 75–150 minutes vigorous aerobic activity per week (or an equivalent mix), plus muscle-strengthening on 2+ days."
+      }
+     ]
+    },
+    {
+     "guide": "Complete day 1 of the plan.",
+     "questions": [
+      {
+       "q": "Why test the plan before finalizing?",
+       "a": "To check that time, intensity, and logistics are realistic."
+      }
+     ]
+    },
+    {
+     "guide": "Add a budget and resource list (gear, membership, free options).",
+     "questions": [
+      {
+       "q": "Give a low-cost way to meet strength guidelines.",
+       "a": "Bodyweight or resistance band workouts at home or in a park."
+      }
+     ]
+    },
+    {
+     "guide": "Complete day 2.",
+     "questions": [
+      {
+       "q": "What is adherence?",
+       "a": "Consistently following the plan over time."
+      }
+     ]
+    },
+    {
+     "guide": "Revise based on how the days felt.",
+     "questions": [
+      {
+       "q": "If day 2 felt too hard (RPE 9), what should change?",
+       "a": "Reduce intensity or volume so most sessions are RPE 6–8, then progress gradually."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Draft adult fitness plan rubric. 4 – 12 weeks with phases (build, progress, maintain), meets aerobic and strength guidelines, flexibility, lifetime activities, budget and resources, tested and revised. 3 (proficient) – Meets guidelines, budget, revisions. 2 – Missing a component. 1 – Incomplete."
+  },
+  {
+   "week": 34,
+   "prep": "Stopwatch, mat, all earlier data (baseline, midyear). Same protocols.",
+   "misconceptions": [
+    "Expecting gains in every measure.",
+    "Comparing to peers instead of self.",
+    "Not noting conditions (sleep, weather, illness)."
+   ],
+   "days": [
+    {
+     "guide": "Final timed mile.",
+     "questions": [
+      {
+       "q": "Mile: 9:45 → 9:05 → 8:50. Total improvement?",
+       "a": "55 seconds."
+      }
+     ]
+    },
+    {
+     "guide": "Final push-ups and curl-ups.",
+     "questions": [
+      {
+       "q": "Push-ups 15 → 22 → 25. Percent improvement from baseline?",
+       "a": "(25 − 15) ÷ 15 ≈ 67%."
+      }
+     ]
+    },
+    {
+     "guide": "Final flexibility and resting HR.",
+     "questions": [
+      {
+       "q": "Why measure resting HR at the same time of day?",
+       "a": "Resting HR varies with time, activity, caffeine, and stress; consistency makes comparisons valid."
+      }
+     ]
+    },
+    {
+     "guide": "Graph data across three test points.",
+     "questions": [
+      {
+       "q": "What graph best shows change over time?",
+       "a": "A line graph with test date on the x-axis."
+      }
+     ]
+    },
+    {
+     "guide": "Write an analysis of the year's progress.",
+     "questions": [
+      {
+       "q": "What makes a progress analysis strong?",
+       "a": "It cites data, explains causes (training, habits), acknowledges limitations, and sets next goals."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final fitness assessment rubric. 4 – All tests completed with consistent protocols; line graphs for three test points; changes calculated; HFZ comparison; analysis with causes and next goals. 3 (proficient) – Complete data, graphs, explanation. 2 – Partial. 1 – Incomplete."
+  },
+  {
+   "week": 35,
+   "prep": "Slides or poster materials. Schedule the family presentation.",
+   "misconceptions": [
+    "Presentations that read slides word for word.",
+    "Plans with no evidence for choices.",
+    "Ignoring feedback."
+   ],
+   "days": [
+    {
+     "guide": "Finalize the plan; do a workout from it.",
+     "questions": [
+      {
+       "q": "Why finalize with a real workout?",
+       "a": "To verify the plan is practical and enjoyable."
+      }
+     ]
+    },
+    {
+     "guide": "Prepare a 5-minute presentation: goals, plan, data, resources.",
+     "questions": [
+      {
+       "q": "What are the key parts of the presentation?",
+       "a": "Your data and goals, weekly plan meeting guidelines, resources/budget, strategies for barriers."
+      }
+     ]
+    },
+    {
+     "guide": "Present to family; answer questions.",
+     "questions": [
+      {
+       "q": "How do you answer a question you don't know?",
+       "a": "Acknowledge it, explain how you'd find out, and follow up."
+      }
+     ]
+    },
+    {
+     "guide": "Lead family through one session.",
+     "questions": [
+      {
+       "q": "How do you adapt a session for an older family member?",
+       "a": "Lower impact, reduce load, use modifications, and monitor RPE."
+      }
+     ]
+    },
+    {
+     "guide": "Final revisions based on feedback.",
+     "questions": [
+      {
+       "q": "Why revise after feedback?",
+       "a": "Feedback shows gaps in clarity or practicality."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Plan presentation rubric. 4 – Clear 5-minute talk with data visuals, plan meets guidelines, addresses barriers and resources, confident answers, leads a safe session, revisions documented. 3 (proficient) – Clear presentation and session, plan meets guidelines. 2 – Unclear or missing elements. 1 – Incomplete."
+  },
+  {
+   "week": 36,
+   "prep": "Fitness log, final exam (key below), info on a community fun run/group hike/open play. Letter paper.",
+   "misconceptions": [
+    "Treating the course end as the end of training.",
+    "Letters to future self that are generic. Include specific goals and strategies.",
+    "Skipping cool-down in celebration workouts."
+   ],
+   "days": [
+    {
+     "guide": "45 minutes on a favorite activity.",
+     "questions": [
+      {
+       "q": "Why does enjoyment matter for lifelong fitness?",
+       "a": "Enjoyable activities are more likely to be continued."
+      }
+     ]
+    },
+    {
+     "guide": "Give the final written exam.",
+     "questions": [
+      {
+       "q": "Name the five components of health-related fitness.",
+       "a": "Cardiorespiratory endurance, muscular strength, muscular endurance, flexibility, body composition."
+      }
+     ]
+    },
+    {
+     "guide": "Participate in a community event.",
+     "questions": [
+      {
+       "q": "Name a benefit of community events.",
+       "a": "Social connection, motivation, and discovering local resources."
+      }
+     ]
+    },
+    {
+     "guide": "Write a letter to your future self about staying active.",
+     "questions": [
+      {
+       "q": "What should the letter include?",
+       "a": "Specific goals, favorite activities, barriers and strategies, and reasons to stay active."
+      }
+     ]
+    },
+    {
+     "guide": "Celebration workout; final log entry.",
+     "questions": [
+      {
+       "q": "What's the final step of every workout?",
+       "a": "Cool-down with light activity and stretching."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final exam key: 1) Five components. 2) FITT and training principles. 3) Karvonen. 4) Strength/endurance programming and volume. 5) Aerobic/anaerobic, VO2 max, taper. 6) Flexibility types. 7) Nutrition kcal/g, hydration, teen/adult sleep. 8) Pickleball and tennis rules/scoring. 9) Golf etiquette and par. 10) Ten Essentials, Leave No Trace, map/compass. 11) CA bike laws. 12) Supplements not FDA-approved; NCCA certifications. 13) Adult guidelines 150–300 min moderate + 2 strength days. Proficient = 75%+. Letter rubric: proficient = specific goals, activities, barriers/strategies, personal reasons."
+  }
+ ]
+}

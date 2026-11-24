@@ -1,0 +1,2455 @@
+{
+ "grade": 10,
+ "subject": "ELEC",
+ "overview": "Computer Science Principles is taught in 50-minute lessons that follow Code.org's free CSP curriculum, with App Lab for programming, Khan Academy for AP-style practice and Trinket for the Python bridge. Each day, have the student predict before running code, keep a trace table for pseudocode, and explain answers aloud; you do not need to be a programmer — use the worked answers here and the Code.org teacher materials. Friday checks use AP-style questions, and the year ends with the Create performance task and exam review; if your student will sit the May AP exam, register through a local host school by the fall deadline.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Create a Code.org account (code.org/educate/csp) and set up a CSP journal (notebook or doc). Have index cards and a working flashlight. Preview the Code.org Unit 1 opening lessons and the 'Bits and patterns' 2^n table so you can check it.",
+   "misconceptions": [
+    "Students think 'abstraction' means 'vague' or 'abstract art'. In computing it means hiding details you don't need so you can focus on what matters — ask 'what details are hidden here, and who is spared from thinking about them?'",
+    "Students think a computer 'understands' letters or pictures directly. Stress that everything is stored as bits; letters, images and sounds are interpretations (abstractions) layered on top of 0s and 1s.",
+    "Doubling confusion: students add 2 per extra bit instead of doubling. Show that each new bit doubles the patterns because every old pattern can now end in 0 or 1."
+   ],
+   "assessment_key": "10-question check: 1) A bit is a binary digit, a single 0 or 1. 2) 3 bits make 2^3 = 8 patterns. 3) 8 bits (one byte) make 256 patterns. 4) To represent 26 letters you need at least 5 bits (2^4 = 16 is too few, 2^5 = 32 is enough). 5) Abstraction = reducing complexity by hiding unnecessary details. 6) Example of abstraction: a 'Send' button hides the networking steps (any valid example). 7) Input/processing/output of a calculator: key presses / arithmetic by the processor / number on the screen. 8) Adding one bit doubles the number of patterns. 9) A flashlight on/off is a binary (two-state) signal. 10) 10 bits make 1,024 patterns. Paragraph rubric (4 pts): 4 = explains that the tap is converted to electrical signals and coordinates (bits) that the OS interprets as a touch event, names what details the user doesn't see, and uses the word abstraction correctly; 3 = correct idea with one detail missing; 2 = says 'it hides details' without explaining what; 1 = misuses abstraction.",
+   "days": [
+    {
+     "guide": "Ask the student what they think 'computing' means, then have them list five devices used today (phone, microwave, car, TV remote, game console) and fill in a three-column table: input, processing, output. Model one row first (phone camera: light hits sensor / processor converts and stores image / photo on screen). Check that 'processing' is something the device computes, not just 'it works'.",
+     "questions": [
+      {
+       "q": "For a digital thermostat, name the input, processing and output.",
+       "a": "Input: temperature sensor reading and user's setpoint; processing: compare the room temperature with the setpoint; output: turn the heater/AC on or off and show the temperature on the display."
+      },
+      {
+       "q": "Is a non-digital light switch a computing device? Why or why not?",
+       "a": "No — it just completes a circuit; it does not take input data, process it with instructions and produce output."
+      }
+     ]
+    },
+    {
+     "guide": "Explain that the student must send one of four answers (A, B, C, D) using only on/off flashes. Let them invent a code, then ask: what's the fewest signals needed per answer? Guide them to realize 2 on/off signals give 4 patterns (off-off, off-on, on-off, on-on). Record the number of signals each message needed.",
+     "questions": [
+      {
+       "q": "How many on/off signals are needed to send one of 4 choices? One of 8?",
+       "a": "2 signals give 4 patterns; 3 signals give 8 patterns."
+      },
+      {
+       "q": "Why does a code with a fixed length per message (e.g. always 2 flashes) make decoding easier?",
+       "a": "The receiver knows exactly where each message ends, so it doesn't need a pause or special end signal to separate messages."
+      }
+     ]
+    },
+    {
+     "guide": "Show a subway (transit) map next to a street map of the same city. Ask what the subway map leaves out (exact distances, streets, buildings, curves) and why that helps a rider. Then have the student name two abstractions on their phone (app icons hide program files; a 'battery %' hides voltage chemistry). Check that each answer names the hidden detail.",
+     "questions": [
+      {
+       "q": "What does a subway map hide, and why is that useful?",
+       "a": "It hides real distances, street layout and exact geography so riders can focus on stops, lines and transfers — the only details they need to navigate."
+      },
+      {
+       "q": "Give one example of abstraction in a phone's interface and the detail it hides.",
+       "a": "Example: the trash-can icon for 'delete' hides the file-system operations that remove the file's data/pointer; the volume slider hides the digital audio amplitude values. Any example naming a hidden detail is correct."
+      }
+     ]
+    },
+    {
+     "guide": "Build a table with columns n (bits) and patterns. Have the student list all patterns for 1, 2 and 3 bits by hand, notice doubling, then extend with 2^n up to 8 bits. Ask why each extra bit doubles the count.",
+     "questions": [
+      {
+       "q": "Complete: 1 bit → 2, 2 → 4, 3 → 8, 4 → ?, 5 → ?, 8 → ?",
+       "a": "4 bits → 16, 5 bits → 32, 8 bits → 256."
+      },
+      {
+       "q": "What is the smallest number of bits needed to give each of 100 students a unique ID?",
+       "a": "7 bits, because 2^6 = 64 is too few and 2^7 = 128 is enough."
+      },
+      {
+       "q": "Why do 8 bits make 256 values but the largest number is 255?",
+       "a": "The 256 patterns include 0 (00000000), so they represent 0 through 255."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-question check (assessment key) closed-notes, about 20 minutes, then have the student write the touchscreen paragraph. Grade together and have the student correct any wrong items aloud.",
+     "questions": [
+      {
+       "q": "In one sentence, how is a touchscreen tap an abstraction?",
+       "a": "The user simply taps an icon, but underneath the screen senses a change in electrical charge, converts the location to coordinates (bits), and the operating system interprets them as a 'tap' event — all hidden from the user."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "prep": "Make five flip-cards labeled 16, 8, 4, 2, 1 (one side shows the number, the back is blank = 0). Open the Code.org Binary Odometer widget. Have a browser console ready (press F12 → Console) or Python at trinket.io for the 0.1 + 0.2 demo.",
+   "misconceptions": [
+    "Reading binary left-to-right as ordinary digits ('101 is one hundred one'). Always label place values (…8, 4, 2, 1) above the bits before converting.",
+    "Thinking overflow means the computer 'crashes'. Overflow means the value needs more bits than are available, so it wraps around or gives a wrong result.",
+    "Believing computers do decimal arithmetic perfectly. Many decimal fractions (like 0.1) have no exact binary representation, which causes round-off error."
+   ],
+   "assessment_key": "Practice set answers: 1) 10110₂ = 22. 2) 37 = 100101₂. 3) 11111111₂ = 255. 4) 13 = 1101₂. 5) Largest value in 4 bits (unsigned) = 15. 6) Adding 1 to 1111 in a 4-bit system gives 0000 (overflow error). 7) 0.1 + 0.2 = 0.30000000000000004 because 0.1 and 0.2 cannot be represented exactly in binary — a round-off error. 8) Which is greater, 1010₂ or 1100₂? 1100₂ (12 > 10). Additional hand-conversions from the week: 25 = 11001₂, 100 = 1100100₂, 1001₂ = 9, 110110₂ = 54. Score 1 point each; 7–8 = mastery.",
+   "days": [
+    {
+     "guide": "Line up the flip-cards 16-8-4-2-1. Show that each card is double the one to its right. Build 13 together (8 + 4 + 1 → 01101), then let the student build 0–31 and convert 10 decimal numbers, writing the binary under each card.",
+     "questions": [
+      {
+       "q": "Convert 19 to binary using the 16-8-4-2-1 cards.",
+       "a": "19 = 16 + 2 + 1 → 10011."
+      },
+      {
+       "q": "What is the largest number five cards can show?",
+       "a": "11111 = 16 + 8 + 4 + 2 + 1 = 31."
+      }
+     ]
+    },
+    {
+     "guide": "Let the student play with the Binary Odometer, watching how each place rolls over. Then do 15 hand conversions both directions; for binary → decimal, write place values above each bit and add the ones that are 1.",
+     "questions": [
+      {
+       "q": "Convert 101101₂ to decimal.",
+       "a": "32 + 8 + 4 + 1 = 45."
+      },
+      {
+       "q": "Convert 50 to binary.",
+       "a": "50 = 32 + 16 + 2 → 110010."
+      },
+      {
+       "q": "Convert 1111111₂ (seven ones) to decimal.",
+       "a": "127 (that's 2^7 − 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Count up on a 4-bit odometer from 1100 to 1111, then add 1: it rolls to 0000. Explain this is an overflow error. Have the student read about the YouTube view counter (Gangnam Style passed the 32-bit signed limit of 2,147,483,647 views in 2014, so YouTube upgraded to 64-bit) and Y2K (years stored as 2 digits rolled from 99 to 00).",
+     "questions": [
+      {
+       "q": "In a 4-bit system, what is 1111 + 0001?",
+       "a": "The true answer 10000 needs 5 bits, so the 4-bit result is 0000 — an overflow error."
+      },
+      {
+       "q": "Why did Gangnam Style cause YouTube to upgrade its counter?",
+       "a": "Its views were about to exceed 2,147,483,647, the largest value of a 32-bit signed integer, which would have overflowed; YouTube switched to a 64-bit integer."
+      },
+      {
+       "q": "How was Y2K an overflow-type problem?",
+       "a": "Years were stored with only two digits, so after 99 the value would roll to 00 and computers could read 2000 as 1900."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student type 0.1 + 0.2 into a JavaScript console or Python. The result is 0.30000000000000004. Explain that computers store numbers in a fixed number of bits, and 0.1 in binary is a repeating fraction (like 1/3 in decimal), so it must be rounded.",
+     "questions": [
+      {
+       "q": "Why isn't 0.1 + 0.2 exactly 0.3 on a computer?",
+       "a": "0.1 and 0.2 are repeating fractions in binary, so they're rounded to fit a fixed number of bits; the tiny rounding errors add up — a round-off error."
+      },
+      {
+       "q": "Give a decimal-world analogy for round-off error.",
+       "a": "1/3 = 0.333… must be cut off, so 0.333 + 0.333 + 0.333 = 0.999, not 1."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 8-question practice set in the assessment key (about 20 minutes, no widget). Correct together; for each miss, have the student redo the conversion with labeled place values.",
+     "questions": [
+      {
+       "q": "How many values can a 6-bit number represent, and what is the largest?",
+       "a": "64 values, 0 through 63."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "prep": "Print or open an ASCII table (decimal and binary for A–Z, a–z, space). Open the Code.org Pixelation widget. Have grid paper and colored pencils. Prepare a short secret message in ASCII binary for the student to decode (e.g. 'HI' = 01001000 01001001).",
+   "misconceptions": [
+    "Thinking uppercase and lowercase letters share a code. In ASCII 'A' = 65 and 'a' = 97 — they differ by 32.",
+    "Confusing resolution with color depth. Resolution = how many pixels; color depth = bits per pixel. Both increase file size.",
+    "Believing hex is a different kind of data. Hex is just a shorter way to write binary: each hex digit = 4 bits, so #FF0000 is 24 bits."
+   ],
+   "assessment_key": "Quiz answers: 1) ASCII 'A' = 65 = 01000001. 2) Decode 01000011 01000001 01010100 → 'CAT' (67, 65, 84). 3) Standard ASCII uses 7 bits (128 characters), usually stored in 8-bit bytes. 4) Unicode was needed because 128/256 characters can't cover the world's scripts and emoji. 5) A 10×10 black-and-white image needs 100 bits. 6) #00FF00 is pure green. 7) A 100×100 image at 24 bits per pixel = 240,000 bits = 30,000 bytes. 8) Changing from 1 to 24 bits per pixel increases colors from 2 to about 16.7 million (2^24 = 16,777,216) and multiplies file size by 24. Explanation item: proficient answers state that more bits per pixel = more possible colors (2^n) but a proportionally larger file. Pixelation project rubric: 4 = correct image, header/size and bits written correctly; 3 = minor bit errors; 2 = image without correct bits; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Show the ASCII table. Encode 'Hi' together: H = 72 = 01001000, i = 105 = 01101001. Have the student encode their name, then decode your prepared message. Check by converting each byte back to decimal and looking it up.",
+     "questions": [
+      {
+       "q": "Encode 'CAB' in ASCII decimal and binary.",
+       "a": "C = 67 = 01000011, A = 65 = 01000001, B = 66 = 01000010."
+      },
+      {
+       "q": "What letter is 01001010?",
+       "a": "64 + 8 + 2 = 74 = 'J'."
+      }
+     ]
+    },
+    {
+     "guide": "Explain that ASCII only has 128 characters — enough for English but not Chinese, Arabic, Hindi or emoji. Unicode assigns a code point (written U+XXXX) to over 140,000 characters. Have the student look up three emoji (e.g. 😀 U+1F600, ❤ U+2764, 👍 U+1F44D) and explain the need for Unicode.",
+     "questions": [
+      {
+       "q": "Why wasn't ASCII enough for the world's languages?",
+       "a": "ASCII's 7 bits allow only 128 characters — just English letters, digits and symbols. Languages like Chinese have thousands of characters, so a larger system (Unicode) was needed."
+      },
+      {
+       "q": "What is the Unicode code point for the 'grinning face' emoji 😀?",
+       "a": "U+1F600."
+      }
+     ]
+    },
+    {
+     "guide": "In the Pixelation widget, set 10×10 and 1 bit per pixel. Model: 0 = white, 1 = black (or as the widget defines). Have the student draw a simple shape, then write out the 100 bits row by row on grid paper.",
+     "questions": [
+      {
+       "q": "How many bits does a 10×10 black-and-white image need (ignoring the header)?",
+       "a": "100 bits (1 bit per pixel × 100 pixels)."
+      },
+      {
+       "q": "How many bits would an 8×8 black-and-white image need?",
+       "a": "64 bits."
+      }
+     ]
+    },
+    {
+     "guide": "Explain RGB: each pixel mixes red, green and blue, each 0–255 (8 bits), so 24 bits per pixel; hex writes each channel as two digits (FF = 255). Have the student create a color image with hex values and compute file size.",
+     "questions": [
+      {
+       "q": "What color is #FFFF00?",
+       "a": "Yellow (full red + full green, no blue)."
+      },
+      {
+       "q": "Find the file size of a 20×20 image at 24 bits per pixel.",
+       "a": "400 pixels × 24 = 9,600 bits = 1,200 bytes."
+      },
+      {
+       "q": "Convert hex 80 to decimal.",
+       "a": "8 × 16 = 128."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key (about 20 minutes). Then have the student write 3–4 sentences on how bits-per-pixel affects color depth and file size.",
+     "questions": [
+      {
+       "q": "If you go from 8 bits per pixel to 24 bits per pixel, how many more colors are possible and what happens to file size?",
+       "a": "From 256 colors to 16,777,216; the file becomes 3 times larger (same number of pixels)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "prep": "Open the Code.org Text Compression widget. Find a photo and a free image editor (any phone editor, GIMP, or an online tool) that lets you export JPEG at different quality levels. Make three small grids (e.g. 6×6) of black/white pixels for run-length encoding practice.",
+   "misconceptions": [
+    "Thinking lossless compression can always shrink a file a lot. It works by removing redundancy; random or already-compressed data hardly shrinks.",
+    "Thinking lossy compression is 'bad'. Lossy is the right choice when small, hard-to-notice quality loss is acceptable (streaming video, web photos); the original cannot be recovered, so never use it where exactness matters.",
+    "Mixing up bits and bytes in download math. Internet speed is in megabits per second (Mb), file sizes are usually in megabytes (MB); 1 byte = 8 bits."
+   ],
+   "assessment_key": "Comparison rubric (4 levels) for the three scenarios: Proficient answers: medical scan → lossless, because doctors need every detail and lost data could hide a diagnosis; streaming video → lossy, because files must be small enough to stream and viewers don't notice small losses; text document → lossless, because every character must be exact (a lost letter changes meaning). 4 = all three correct with tradeoffs (file size vs. quality/recoverability) explained; 3 = all correct, brief reasons; 2 = one wrong or no reasons; 1 = confused terms.",
+   "days": [
+    {
+     "guide": "Work the numbers together: one 4K frame is 3840 × 2160 pixels × 24 bits ≈ 199 million bits; at 30 frames per second that is about 6 billion bits (6,000 megabits) every second. A 1-minute clip is about 358,000 megabits; at 25 Mbps it takes about 14,300 seconds (≈ 4 hours) to download — while watching it takes 1 minute. Discuss why streaming services must compress video by 100× or more.",
+     "questions": [
+      {
+       "q": "How long would a 100 GB file take to download at 25 Mbps?",
+       "a": "100 GB × 8 = 800 Gb = 800,000 Mb; 800,000 ÷ 25 = 32,000 seconds ≈ 8.9 hours."
+      },
+      {
+       "q": "Why is an uncompressed video so large?",
+       "a": "Each frame is a full image (3840×2160 pixels × 24 bits ≈ 199 million bits ≈ 25 MB), and there are 24–60 frames every second."
+      }
+     ]
+    },
+    {
+     "guide": "Use the Text Compression widget: the student replaces repeated words/phrases in a song lyric with symbols (a dictionary) and records original size, compressed size and ratio. Point out that nothing is lost — the original can be rebuilt.",
+     "questions": [
+      {
+       "q": "A 200-character lyric compresses to 120 characters (including the dictionary). What is the compression ratio?",
+       "a": "120/200 = 60% of the original size (a 40% saving), or 200:120 ≈ 1.67:1."
+      },
+      {
+       "q": "Why is this compression called lossless?",
+       "a": "The original text can be rebuilt exactly by replacing each symbol with its dictionary entry; no information is lost."
+      }
+     ]
+    },
+    {
+     "guide": "Explain run-length encoding (RLE): write each run as a count and a color, e.g. row WWWBBW → 3W 2B 1W. Do one grid together, have the student encode two more and decode one RLE back into a grid.",
+     "questions": [
+      {
+       "q": "Encode the row BBBBWWBB with RLE.",
+       "a": "4B 2W 2B."
+      },
+      {
+       "q": "Decode 2W 3B 1W into a row.",
+       "a": "WWBBBW."
+      },
+      {
+       "q": "When does RLE make data bigger?",
+       "a": "When colors change often (e.g. BWBWBW): each single pixel becomes a count plus a color, which takes more space than the original."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student save the same photo as JPEG at quality 100, 50 and 10, record file sizes and zoom in to see blocky artifacts. Ask when lossy is acceptable (web photos, social media, streaming) and when not (medical images, legal documents).",
+     "questions": [
+      {
+       "q": "What happens to file size and image quality as JPEG quality goes from 100 to 10?",
+       "a": "File size drops greatly, while visible artifacts (blockiness, blurry edges, color banding) increase."
+      },
+      {
+       "q": "Can you get the quality-100 image back from the quality-10 file?",
+       "a": "No — lossy compression permanently discards data."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student write the three-scenario comparison (medical scan, streaming video, text document). Score with the rubric in the assessment key and discuss any scenario they got wrong.",
+     "questions": [
+      {
+       "q": "Which compression type would you use for a bank's transaction records, and why?",
+       "a": "Lossless — every digit must be exact; losing any data could change account balances."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "prep": "Preview the U.S. Copyright Office's fair use page and creativecommons.org/licenses. Prepare 10 scenarios to sort (examples in Day 1). Have Creative Commons search (openverse.org) ready for Day 2. Prepare or print a 15-question Unit 1 test drawn from the key below.",
+   "misconceptions": [
+    "Believing anything online is free to use. Online works are copyrighted automatically when created; you need permission, a license, fair use, or public-domain status.",
+    "Thinking giving credit makes any use legal. Attribution is required by CC licenses but does not replace permission for copyrighted work.",
+    "Assuming 'open source' means no rules. Open-source licenses have conditions (e.g. GPL requires sharing derivative source code under the GPL; MIT requires keeping the copyright notice)."
+   ],
+   "assessment_key": "Unit 1 test (15 items): 1) 1011₂ = 11. 2) 42 = 101010₂. 3) 5 bits give 32 patterns. 4) 1111 + 1 in 4 bits = 0000, overflow. 5) 0.1 + 0.2 ≠ 0.3 because of round-off error. 6) ASCII 'B' = 66. 7) Unicode supports many more characters than ASCII. 8) 50×50 at 24 bpp = 60,000 bits = 7,500 bytes. 9) #0000FF = blue. 10) RLE of WWWWBB = 4W 2B. 11) Lossless: original exactly recoverable; lossy: some data permanently removed. 12) Best for a photo on a website: lossy (JPEG). 13) Abstraction hides unnecessary details to manage complexity. 14) CC BY means reuse allowed with attribution. 15) Public domain works can be used freely without permission. Mastery 12+/15. Explainer project rubric: 4 = accurately explains how one type of data (text/images/sound/numbers) is represented in bits with an example, all images properly licensed and attributed (title, author, source, license); 3 = accurate with one attribution missing; 2 = minor errors in explanation or several missing attributions; 1 = inaccurate or uses unlicensed images.",
+   "days": [
+    {
+     "guide": "Read a short overview of copyright (automatic protection for original work) and fair use (four factors: purpose, nature, amount, market effect). Have the student sort 10 scenarios such as: quoting two lines of a song in a review (likely allowed), uploading a whole movie to YouTube (not allowed), using a 1920s public-domain photo (allowed), a teacher showing a short clip in class to critique it (likely allowed), selling T-shirts with a Disney character (not allowed).",
+     "questions": [
+      {
+       "q": "Is copying an entire paid e-book and posting it free online fair use? Why?",
+       "a": "No — it copies the whole work and harms the market for the original, failing the amount and market-effect factors."
+      },
+      {
+       "q": "Name the four fair-use factors.",
+       "a": "Purpose and character of the use, nature of the copyrighted work, amount used, and effect on the market for the original."
+      }
+     ]
+    },
+    {
+     "guide": "Explain the CC elements: BY (attribution), SA (share-alike), NC (noncommercial), ND (no derivatives), plus CC0 (no rights reserved). Have the student find three images with different licenses on Openverse and write attributions in TASL format: Title, Author, Source, License.",
+     "questions": [
+      {
+       "q": "Can you edit an image licensed CC BY-ND and post your edited version?",
+       "a": "No — ND means no derivatives; you may share it only unchanged (with attribution)."
+      },
+      {
+       "q": "Write a sample TASL attribution.",
+       "a": "Example: \"Golden Gate at Dusk\" by J. Smith, via Openverse/Flickr, licensed CC BY 2.0. (Must include title, author, source and license.)"
+      }
+     ]
+    },
+    {
+     "guide": "Compare licenses: MIT (permissive — anyone can use, modify, sell if they keep the copyright notice), GPL (copyleft — derivative works that are distributed must also be released under the GPL with source code), proprietary (code is secret, use restricted by the license agreement). Have the student explain how each could help or hurt innovation.",
+     "questions": [
+      {
+       "q": "A company wants to use a library in its closed-source product. Which license is easier for them, MIT or GPL? Why?",
+       "a": "MIT — it allows use in closed-source products as long as the copyright notice is kept; the GPL would require them to release their product's source code under the GPL if they distribute it."
+      },
+      {
+       "q": "How can proprietary licensing help innovation?",
+       "a": "It lets companies earn money from their work, funding research and development; it can hurt by preventing others from building on the code."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student create a one-page infographic or slide explaining how one type of digital information (e.g. images as pixels with RGB values) is represented, using only CC or public-domain images with correct attributions. Check every image's license before they finish.",
+     "questions": [
+      {
+       "q": "Where should image attributions go on your infographic?",
+       "a": "Near the image or in a credits section on the page, with title, author, source and license for each image."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 15-item Unit 1 test in the assessment key (about 40 minutes). Grade together and log missed topics for review in Week 36.",
+     "questions": [
+      {
+       "q": "What is the decimal value of 11001₂, and how many bits are needed to show 200?",
+       "a": "25; 8 bits (2^7 = 128 is too few, 2^8 = 256 is enough)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 6,
+   "prep": "Watch Code.org's 'How the Internet Works' video series (Wires, Cables and Wi-Fi; IP Addresses and DNS; Packets, Routing and Reliability) yourself first. Open the Code.org Internet Simulator. Gather 6 index cards or postcards for Day 4.",
+   "misconceptions": [
+    "Thinking the internet and the World Wide Web are the same. The internet is the network of networks; the web is one service (web pages via HTTP) that runs on it.",
+    "Believing a message travels as one piece along one fixed path. Data is split into packets that may take different routes and arrive out of order, then are reassembled.",
+    "Thinking IPv6 just adds a few more addresses. IPv6 has 2^128 addresses versus 2^32 for IPv4 — about 7.9 × 10^28 times as many."
+   ],
+   "assessment_key": "Quiz answers: 1) An IP address is a unique number identifying a device on a network so data can be delivered to it. 2) IPv4 = 32 bits ≈ 4.3 billion (4,294,967,296) addresses. 3) IPv6 = 128 bits ≈ 3.4 × 10^38 addresses. 4) A packet is a small chunk of data plus metadata (source, destination, sequence number). 5) Packets can arrive out of order because they take different routes. 6) Sequence numbers let the receiver reassemble packets in order. 7) A protocol is an agreed-upon set of rules for how data is sent. 8) Bandwidth is the maximum amount of data sent per second (bits per second). Explanation item: messages are split into packets so many users can share links, packets can be rerouted around failures, and only lost packets need resending. Internet Simulator log: complete if it shows each packet with header info and notes on out-of-order arrival.",
+   "days": [
+    {
+     "guide": "Watch the video together and pause to define network (connected devices that send data) and internet (network of networks). Have the student draw the home network: devices → Wi-Fi router → modem → internet service provider. Check that wired and wireless links are labeled.",
+     "questions": [
+      {
+       "q": "What physical ways can bits travel between devices?",
+       "a": "Electricity through copper wire, light through fiber-optic cable, and radio waves (Wi-Fi, cellular)."
+      },
+      {
+       "q": "What is the difference between the internet and the web?",
+       "a": "The internet is the global network of connected networks; the web is a system of linked pages and resources accessed over the internet with HTTP."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student find their device's IP address (Settings → Wi-Fi details, or 'what is my IP' for the public address) and note that home devices often have private addresses like 192.168.x.x. Calculate IPv4 = 2^32 and IPv6 = 2^128 address counts.",
+     "questions": [
+      {
+       "q": "How many IPv4 addresses are possible?",
+       "a": "2^32 = 4,294,967,296 (about 4.3 billion)."
+      },
+      {
+       "q": "Why did the world need IPv6?",
+       "a": "The number of internet-connected devices grew beyond ~4.3 billion, so IPv4 addresses ran out; IPv6's 128 bits give about 3.4 × 10^38 addresses."
+      }
+     ]
+    },
+    {
+     "guide": "In the Internet Simulator, have the student send a long message split into several packets and watch them arrive. Ask why they may arrive out of order (different routes, different delays).",
+     "questions": [
+      {
+       "q": "Why might packets of one message arrive out of order?",
+       "a": "Each packet is routed independently, so they can take different paths with different delays."
+      },
+      {
+       "q": "What information must every packet carry besides the data?",
+       "a": "At least the destination and source addresses and a sequence number (plus total number of packets)."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student design a header format (to, from, packet # of total) and split a sentence across 6 cards. Shuffle and hand them to a family member to reassemble using only the headers. Discuss what happens if one card is lost.",
+     "questions": [
+      {
+       "q": "If packet 4 of 6 is lost, how would the receiver know?",
+       "a": "The sequence numbers show 1, 2, 3, 5, 6 of 6 — number 4 is missing, so the receiver can request it again."
+      },
+      {
+       "q": "Why include the total number of packets in the header?",
+       "a": "So the receiver knows when it has all of them."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 8-question quiz in the assessment key and have the student write 2–3 sentences on why messages are split into packets.",
+     "questions": [
+      {
+       "q": "Give two reasons the internet splits messages into packets.",
+       "a": "Packets let many users share the same links fairly, can be rerouted around broken or busy paths, and only lost pieces need to be resent instead of the whole message."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 7,
+   "prep": "Learn how to run traceroute: Windows Command Prompt 'tracert google.com'; Mac/Linux Terminal 'traceroute google.com'. Gather string/yarn, tape and sticky notes for a 6–8 node network model. Read a short ARPANET history (Khan Academy or Code.org).",
+   "misconceptions": [
+    "Believing there is one central computer that runs the internet. The internet is decentralized; routers make local forwarding decisions.",
+    "Thinking redundancy is waste. Redundant paths make the network fault tolerant — if one link fails, data can take another route.",
+    "Confusing fault tolerance with 'never failing'. A fault-tolerant system keeps working when some parts fail; a single critical link can still disconnect part of the network."
+   ],
+   "assessment_key": "AP-style diagram questions (use a diagram you draw with nodes A–F): typical answers — 1) Count paths: list every distinct route without repeating nodes. 2) A connection that, if removed, disconnects a node (a single point of failure) shows the network is not fault tolerant for that node. 3) Minimum number of connections that must fail to stop A from reaching F = the smallest set of links that separates them. 4) Redundancy = extra paths; fault tolerance = continuing to work after a failure. 5) Routing = the process of choosing a path for packets; routers forward packets toward the destination using routing tables. 6) Scalability = ability to grow while still working well. Score: correct path counts and identification of single points of failure = mastery. (Grade the student's specific diagram by tracing each answer with them.)",
+   "days": [
+    {
+     "guide": "Have the student run traceroute to a nearby site (e.g. a California university) and a distant one (e.g. a site in another country). Count hops and note the round-trip times. Explain each line is a router forwarding the packet.",
+     "questions": [
+      {
+       "q": "What does each line of a traceroute output represent?",
+       "a": "One router (hop) along the path, with the time it took for a test packet to get there and back."
+      },
+      {
+       "q": "Why might a distant website need more hops?",
+       "a": "Packets must pass through more networks and routers to travel the greater distance and reach the destination's network."
+      }
+     ]
+    },
+    {
+     "guide": "Build a network on a table: sticky notes are routers (A–F), string pieces are links. Have the student count how many different paths exist from A to F without repeating a node.",
+     "questions": [
+      {
+       "q": "Network: A–B, B–C, A–D, D–C. How many paths from A to C?",
+       "a": "Two: A→B→C and A→D→C."
+      },
+      {
+       "q": "What is redundancy in a network?",
+       "a": "Having more than one path between devices, so traffic can be rerouted."
+      }
+     ]
+    },
+    {
+     "guide": "Remove one string at a time and check if A can still reach F. Mark any link whose removal disconnects the network (a single point of failure).",
+     "questions": [
+      {
+       "q": "In the network A–B, B–C, A–D, D–C, C–E, can the network survive the loss of B–C? Of C–E?",
+       "a": "Losing B–C: yes, A→D→C still works. Losing C–E: no, E is disconnected — C–E is a single point of failure."
+      },
+      {
+       "q": "Define fault tolerance.",
+       "a": "The ability of a system to keep operating even when some components fail."
+      }
+     ]
+    },
+    {
+     "guide": "Read about ARPANET (1969, four nodes) and the creation of TCP/IP (Vint Cerf and Bob Kahn, 1970s). Discuss: because the protocols are open and no one controls the whole network, anyone can add networks, which let it scale to billions of devices.",
+     "questions": [
+      {
+       "q": "Why did open protocols help the internet grow?",
+       "a": "Anyone can build devices or software that follow TCP/IP without permission or fees, so many companies and countries could connect their networks."
+      },
+      {
+       "q": "How many nodes did ARPANET start with in 1969?",
+       "a": "Four (UCLA, Stanford Research Institute, UC Santa Barbara and the University of Utah)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a 6-node network and ask the AP-style questions in the assessment key. Have the student trace each path with a finger before answering.",
+     "questions": [
+      {
+       "q": "Why is the internet's routing described as dynamic?",
+       "a": "Routers choose paths based on current conditions and can change routes when links fail or get congested."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 8,
+   "prep": "Learn how to open nslookup (Command Prompt or Terminal: 'nslookup example.com') and browser developer tools (F12 → Network tab). Have a speed-test site ready (e.g. fast.com or speedtest.net).",
+   "misconceptions": [
+    "Thinking UDP is 'broken' TCP. UDP purposely skips acknowledgments and resending to be faster — ideal when speed matters more than perfect delivery (live video, games).",
+    "Mixing up bandwidth and latency. Bandwidth is how much data per second (pipe width); latency is delay for one piece of data to arrive (pipe length).",
+    "Thinking DNS stores websites. DNS only translates domain names into IP addresses, like a phone book."
+   ],
+   "assessment_key": "Quiz answers: 1) TCP: reliable — numbers packets, acknowledges receipt, resends lost ones (used for web pages, email, file downloads). 2) UDP: fast, no guarantees (live video calls, online games, live streams). 3) DNS translates domain names to IP addresses. 4) HTTP is the protocol browsers and servers use to request and send web pages. 5) Status 200 = OK; 404 = Not Found. 6) Latency = time delay for data to travel; measured in milliseconds. 7) Bandwidth = max data per second (Mbps). 8) Layers top to bottom: HTTP (application) → TCP/UDP (transport) → IP (internet) → physical (wires, fiber, radio). Protocol stack diagram rubric: 4 = all four layers in correct order with one-line job of each and arrows showing the request down one side and up the other; 3 = correct order, jobs vague; 2 = one layer missing or misordered; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Compare a video call and a file download. Ask: which one must have every bit perfect? Which one cares more about speed? Have the student list examples of apps that would use TCP vs. UDP.",
+     "questions": [
+      {
+       "q": "Would a video call use TCP or UDP? Why?",
+       "a": "Usually UDP — it's better to skip a lost frame than wait for it to be resent, which would cause lag."
+      },
+      {
+       "q": "Would downloading a software update use TCP or UDP? Why?",
+       "a": "TCP — every byte must arrive correctly or the program would be corrupted, so lost packets must be resent."
+      }
+     ]
+    },
+    {
+     "guide": "Run nslookup on three domains and record the IP addresses. Have the student draw the DNS lookup: browser → resolver → root server → top-level domain server (.com) → authoritative server → IP address returned.",
+     "questions": [
+      {
+       "q": "What does DNS stand for, and what does it do?",
+       "a": "Domain Name System; it translates human-friendly domain names (like wikipedia.org) into IP addresses."
+      },
+      {
+       "q": "Why is DNS a hierarchy instead of one giant list on one computer?",
+       "a": "A distributed hierarchy scales to billions of lookups and has no single point of failure; responsibility is split among root, TLD and authoritative servers, with caching."
+      }
+     ]
+    },
+    {
+     "guide": "Open developer tools → Network tab and reload a page. Have the student record how many requests, a few status codes (200, 301/304, 404) and total load time. Explain each file (HTML, CSS, images, scripts) is a separate HTTP request.",
+     "questions": [
+      {
+       "q": "What does an HTTP status code of 404 mean? 200?",
+       "a": "404 = Not Found (the server can't find the requested resource); 200 = OK (success)."
+      },
+      {
+       "q": "Why does one web page create dozens of HTTP requests?",
+       "a": "The HTML page refers to many other files — images, stylesheets, scripts, fonts — and each is requested separately."
+      }
+     ]
+    },
+    {
+     "guide": "Run a speed test in the morning and evening and record download, upload and ping. Explain bandwidth (Mbps) vs. latency (ping in ms) using a highway: lanes = bandwidth, travel time = latency.",
+     "questions": [
+      {
+       "q": "Your speed test shows 100 Mbps and 80 ms ping. Which number is bandwidth and which is latency?",
+       "a": "100 Mbps is bandwidth; 80 ms ping is latency."
+      },
+      {
+       "q": "Why might the evening test be slower?",
+       "a": "More people are online sharing the same network (higher load/congestion)."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student draw the protocol stack for loading one web page, then give the short quiz in the assessment key.",
+     "questions": [
+      {
+       "q": "Put these in order from top (closest to the user) to bottom: IP, HTTP, physical, TCP.",
+       "a": "HTTP, TCP, IP, physical."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 9,
+   "prep": "Bookmark the FCC National Broadband Map (broadbandmap.fcc.gov). Find a credible article on the 'homework gap' during remote learning (e.g. Pew Research Center). Prepare a shared Google Doc for Day 4. Prepare the Unit 2 test from the key below.",
+   "misconceptions": [
+    "Thinking the digital divide is only about owning a device. It also includes access to fast, affordable broadband and the skills to use it.",
+    "Thinking net neutrality is about whether the internet should be free of cost. It is about whether internet providers may treat some data differently (block, slow or charge extra for priority).",
+    "Believing one government owns the internet. ICANN, a nonprofit, coordinates domain names and IP address allocation; no single entity controls the whole internet."
+   ],
+   "assessment_key": "Unit 2 test answers (14 items): 1) Internet = network of networks; web = pages accessed via HTTP. 2) IPv4 32 bits / IPv6 128 bits. 3) Packets carry data plus header metadata. 4) Packets can arrive out of order and are reassembled using sequence numbers. 5) Routing = choosing a path for data. 6) Redundancy creates fault tolerance. 7) Single point of failure removal disconnects nodes. 8) TCP = reliable, UDP = fast/unreliable. 9) DNS maps names to IP addresses. 10) HTTP is used for web pages. 11) Bandwidth vs. latency definitions. 12) The open, decentralized design let the internet scale. 13) The digital divide = unequal access to computing devices and the internet across groups (rural/urban, income, age, country). 14) Net neutrality = ISPs must treat all data equally. Mastery: 11+/14.",
+   "days": [
+    {
+     "guide": "Use the FCC map to compare broadband availability in a rural county (e.g. Modoc or Trinity) and an urban one (e.g. Los Angeles or San Francisco). Have the student record the percentage of locations with 100/20 Mbps service and the number of providers.",
+     "questions": [
+      {
+       "q": "Why do rural areas often have less broadband access?",
+       "a": "Laying cable or fiber over long distances to few customers is expensive, so providers earn less per mile and are slower to build there."
+      },
+      {
+       "q": "Define the digital divide.",
+       "a": "The gap between those who have access to computers and reliable internet (and the skills to use them) and those who do not."
+      }
+     ]
+    },
+    {
+     "guide": "Read an article on remote learning and the 'homework gap' and have the student summarize three effects (e.g. students doing homework in parking lots on fast-food Wi-Fi, missing class, lower grades or falling behind).",
+     "questions": [
+      {
+       "q": "Name two ways the digital divide affected students during remote learning in 2020.",
+       "a": "Students without home broadband or devices missed live classes or couldn't submit work, and some had to share one device or use public Wi-Fi hotspots."
+      },
+      {
+       "q": "What is one solution communities used?",
+       "a": "Districts handed out laptops and mobile hotspots; some cities expanded public Wi-Fi."
+      }
+     ]
+    },
+    {
+     "guide": "Explain ICANN (manages the domain name system and IP address coordination globally) and net neutrality. Have the student make a pro/con table on net neutrality.",
+     "questions": [
+      {
+       "q": "Give one argument for and one against net neutrality.",
+       "a": "For: prevents ISPs from favoring their own or paying companies' content, protecting free speech and competition for startups. Against: ISPs say charging for priority lets them manage traffic and fund network investment."
+      },
+      {
+       "q": "What does ICANN do?",
+       "a": "Coordinates the internet's naming and numbering systems — domain names and IP address allocation — so addresses are unique worldwide."
+      }
+     ]
+    },
+    {
+     "guide": "Create a shared doc with a peer or relative in another region; each adds data on internet access in their area (cost per month, typical speed, mobile vs. home use). Have the student write three observations comparing the data.",
+     "questions": [
+      {
+       "q": "Why might mobile internet be more common than home broadband in some countries?",
+       "a": "Building cell towers is cheaper than wiring every home, and smartphones are more affordable than computers, so many people get online mainly through phones."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test in the assessment key (about 40 minutes). Grade together and review any misses on protocols.",
+     "questions": [
+      {
+       "q": "What happens when you type a URL? Name the protocols in order.",
+       "a": "DNS finds the server's IP address; TCP sets up a reliable connection; HTTP requests the page; IP routes the packets across networks."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 10,
+   "prep": "Gather paper, markers and sticky notes for prototype screens. Line up two family members willing to be interviewed (Day 2) and one to test the prototype (Day 4). Skim the Code.org Unit 3 design lessons.",
+   "misconceptions": [
+    "Designing for yourself instead of the user. Require every design decision to tie back to something the persona said or needs.",
+    "Treating the first prototype as final. Paper prototypes are meant to be cheap so they can be changed after testing.",
+    "Explaining the app to testers while they test. Stay quiet and watch; confusion you have to explain away is a design problem to fix."
+   ],
+   "assessment_key": "Design log rubric (4 levels): 4 = log includes the problem statement, two personas based on real interviews (name, goals, frustrations, needs), at least three prototype screens with navigation arrows, user-test notes in the user's words, and at least two specific changes tied to feedback; 3 = all parts present but feedback-to-change link is thin; 2 = personas or testing missing; 1 = only sketches.",
+   "days": [
+    {
+     "guide": "Introduce the design process: empathize (understand users), define (state the problem), prototype (build a rough version), test (watch users try it), repeat. Have the student evaluate three apps they use: one good design feature and one frustrating feature each, naming which user need is or isn't met.",
+     "questions": [
+      {
+       "q": "What are the four stages of the design process used this week?",
+       "a": "Empathize, define, prototype, test (then iterate)."
+      },
+      {
+       "q": "Why is 'iterate' important in design?",
+       "a": "Testing reveals problems you didn't anticipate, so you revise and test again to improve the design step by step."
+      }
+     ]
+    },
+    {
+     "guide": "Model good interview questions (open-ended: 'Tell me about the last time…', 'What's frustrating about…?'). The student interviews two family members about a daily problem and writes a persona for each: name, age/role, goals, frustrations, tech comfort.",
+     "questions": [
+      {
+       "q": "Why is 'Would you use an app that does X?' a weak interview question?",
+       "a": "It's a yes/no leading question that suggests the answer; open questions about real past experiences reveal true needs."
+      },
+      {
+       "q": "What is a user persona?",
+       "a": "A fictional but research-based profile of a typical user, summarizing their goals, needs and frustrations, used to guide design decisions."
+      }
+     ]
+    },
+    {
+     "guide": "The student sketches at least three screens on paper (one per sheet or sticky note) for an app that solves one persona's problem, labeling every button and drawing arrows showing which screen each button leads to.",
+     "questions": [
+      {
+       "q": "Why prototype on paper before coding?",
+       "a": "Paper is fast and cheap to change, so you can test ideas with users before spending hours on code."
+      },
+      {
+       "q": "What should each screen show?",
+       "a": "Its purpose, all user interface elements (buttons, labels, inputs) with labels, and where each button goes."
+      }
+     ]
+    },
+    {
+     "guide": "The user tries a task (e.g. 'add a reminder') while the student acts as the 'computer', swapping papers when buttons are 'tapped'. The student stays silent, records where the user hesitates or gets confused, then revises.",
+     "questions": [
+      {
+       "q": "During testing the user taps the wrong button twice. What should you do?",
+       "a": "Don't explain — note it as a usability problem and redesign (e.g. clearer label or placement) after the test."
+      }
+     ]
+    },
+    {
+     "guide": "Review the full design log against the rubric in the assessment key. Have the student point to at least two changes and the feedback that caused them.",
+     "questions": [
+      {
+       "q": "Describe one change you made and the feedback that led to it.",
+       "a": "Answers vary; a proficient answer names a specific observation (e.g. 'Grandma couldn't find the add button') and the specific change ('moved Add to the top and made it larger')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 11,
+   "prep": "Open Code.org App Lab and practice Design Mode yourself: drag a button and label, set an ID, then switch to Code Mode and add onEvent. Prepare five broken onEvent programs for Day 4 (examples listed in Day 4).",
+   "misconceptions": [
+    "Mismatched IDs: onEvent(\"btnHome\", …) when the button's ID is \"homeButton\". IDs must match exactly, including capitals.",
+    "Thinking code runs top to bottom once and ends. In event-driven programs, handlers wait and run whenever their event occurs.",
+    "Using the wrong event type (e.g. \"change\" on a button). Buttons use \"click\"; dropdowns and text inputs often use \"change\" or \"input\"."
+   ],
+   "assessment_key": "Multi-screen app checklist: [ ] 3 screens (home, info, quiz) built in Design Mode; [ ] every element has a meaningful ID (e.g. homeButton, not button1); [ ] each navigation button has a working onEvent with \"click\" and setScreen; [ ] user can reach every screen and return home; [ ] quiz screen responds to an answer button; [ ] code is commented. Explanation (proficient): events such as clicks trigger the matching handler; the program waits between events, so the user's actions determine what code runs and in what order.",
+   "days": [
+    {
+     "guide": "Tour App Lab: Design Mode (drag elements, Properties panel), Code Mode (blocks/text), the Run button and the debug console. Have the student add a button, a label and an image, setting IDs like startButton and titleLabel.",
+     "questions": [
+      {
+       "q": "Why should element IDs be meaningful (e.g. 'startButton' not 'button1')?",
+       "a": "Code refers to elements by ID, so clear names make the code readable and reduce mistakes."
+      },
+      {
+       "q": "What's the difference between Design Mode and Code Mode?",
+       "a": "Design Mode is where you place and style UI elements; Code Mode is where you write the program that controls them."
+      }
+     ]
+    },
+    {
+     "guide": "Model: onEvent(\"startButton\", \"click\", function() { setScreen(\"infoScreen\"); }); Have the student write handlers that move between two screens and back.",
+     "questions": [
+      {
+       "q": "Write an onEvent that shows the screen 'quizScreen' when 'quizButton' is clicked.",
+       "a": "onEvent(\"quizButton\", \"click\", function() { setScreen(\"quizScreen\"); });"
+      },
+      {
+       "q": "What is an event handler?",
+       "a": "A function that runs in response to a specific event, such as a button click."
+      }
+     ]
+    },
+    {
+     "guide": "Using the paper prototype, the student builds a 3-screen app (home, info, quiz), adding navigation between all screens. Check that every screen has a way back home.",
+     "questions": [
+      {
+       "q": "Your app has 3 screens and each non-home screen has a Back button. How many onEvent handlers do you need at minimum for navigation if home has two buttons?",
+       "a": "Four: two on home (to info and quiz) and one Back on each of the other two screens."
+      }
+     ]
+    },
+    {
+     "guide": "Give five broken programs, e.g. 1) ID typo, 2) missing quotes around the ID, 3) wrong event type, 4) setScreen to a screen name that doesn't exist, 5) code placed outside the function so it runs immediately. The student fixes each and records the bug type.",
+     "questions": [
+      {
+       "q": "A button does nothing when clicked and there's no error. What should you check first?",
+       "a": "That the ID in onEvent exactly matches the element's ID (spelling and capitals) and that the event type is \"click\"."
+      },
+      {
+       "q": "Why does setText run when the app starts instead of on click if it's written below onEvent rather than inside the function?",
+       "a": "Only code inside the handler function waits for the event; code outside runs immediately when the program starts."
+      }
+     ]
+    },
+    {
+     "guide": "The student demos the app using the checklist in the assessment key and explains in their own words how events control program flow.",
+     "questions": [
+      {
+       "q": "How is an event-driven program different from a program that runs top to bottom?",
+       "a": "It sets up handlers and then waits; code runs only when events happen, in whatever order the user triggers them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 12,
+   "prep": "Copy the AP CSP Exam Reference Sheet (from the College Board CED) for the assignment arrow (←) and MOD. Prepare tracing problems on paper. Have App Lab open for the Mad Libs and counter apps.",
+   "misconceptions": [
+    "Reading a ← b as 'a equals b forever'. Assignment copies the current value once; later changes to b don't change a.",
+    "Declaring a variable inside an event handler for a counter, which resets it each click. A counter must be a global variable declared outside the function.",
+    "Forgetting spaces in concatenation: \"Hello\" + name gives 'HelloSam'. Add \" \" explicitly."
+   ],
+   "assessment_key": "Tracing quiz: 1) a ← 3; b ← a + 2; a ← b → a = 5, b = 5. 2) x ← 10; y ← x; x ← 20 → y = 10. 3) 17 MOD 5 = 2. 4) 20 MOD 4 = 0. 5) n ← 7; n ← n * 2 − 1 → 13. 6) s ← \"Hi\" + \" \" + \"Bo\" → \"Hi Bo\". 7) p ← 4; q ← p MOD 3; p ← q + p → p = 5, q = 1. 8) Value of 3 + 4 * 2 → 11. Score 7–8 mastery. Mad Libs app: complete if it takes at least four text inputs and displays a story built with concatenation (spaces correct); counter app: label increases by 1 per click using a global variable.",
+   "days": [
+    {
+     "guide": "Trace a ← 3; b ← a + 2; a ← b by keeping a table with a column per variable and a row per line. Do three more tracing problems together, then independently.",
+     "questions": [
+      {
+       "q": "Trace: a ← 3; b ← a + 2; a ← b. Final a and b?",
+       "a": "a = 5, b = 5."
+      },
+      {
+       "q": "Trace: x ← 4; y ← x * 3; x ← y − x. Final x and y?",
+       "a": "y = 12, x = 12 − 4 = 8."
+      }
+     ]
+    },
+    {
+     "guide": "Explain operators +, −, *, /, and MOD (remainder). Have the student test expressions in App Lab with console.log, and use MOD to check if a number is even.",
+     "questions": [
+      {
+       "q": "What is 23 MOD 6?",
+       "a": "5 (23 = 3 × 6 + 5)."
+      },
+      {
+       "q": "How can MOD tell whether n is even?",
+       "a": "If n MOD 2 = 0, n is even; if it equals 1, n is odd."
+      }
+     ]
+    },
+    {
+     "guide": "Build a Mad Libs app: text inputs for noun, verb, adjective, name; a button that reads them with getText and sets a label to the combined story. Check spaces in the output.",
+     "questions": [
+      {
+       "q": "If noun is \"cat\" and adj is \"silly\", what does \"The \" + adj + \" \" + noun + \" ran.\" produce?",
+       "a": "\"The silly cat ran.\""
+      }
+     ]
+    },
+    {
+     "guide": "Build a clicker: declare var count = 0; outside the handler; on click, count = count + 1 and setText the label. Then ask the student to move the declaration inside to see the bug.",
+     "questions": [
+      {
+       "q": "Why does the counter stay at 1 if 'var count = 0' is inside the click handler?",
+       "a": "The variable is recreated and reset to 0 on every click, then becomes 1; it needs to be global so its value persists between clicks."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 8-question tracing quiz in the assessment key using AP pseudocode, then check the Mad Libs and counter apps.",
+     "questions": [
+      {
+       "q": "Trace: x ← 5; y ← x; x ← x + 1. What are x and y?",
+       "a": "x = 6, y = 5."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 13,
+   "prep": "Print a blank truth table and the AP reference sheet section on IF/ELSE and AND/OR/NOT. Prepare 15 Boolean expressions (examples in Day 1).",
+   "misconceptions": [
+    "Using AND where OR is needed (age < 13 AND age > 65 can never be true). Read the condition aloud with real numbers to test it.",
+    "Overlapping or gapped ranges in if/else chains, e.g. age < 13 then age > 13, missing exactly 13. Test boundary values.",
+    "Confusing = (assignment in JavaScript) with == / === (comparison). In pseudocode, = is comparison and ← is assignment."
+   ],
+   "assessment_key": "Conditionals quiz: 1) (5 > 3) AND (2 > 4) → false. 2) (5 > 3) OR (2 > 4) → true. 3) NOT (7 = 7) → false. 4) x ← 12; IF x MOD 2 = 0 display \"even\" ELSE \"odd\" → even. 5) age ← 15: IF age < 13 \"child\" ELSE IF age < 20 \"teen\" ELSE \"adult\" → teen. 6) a ← true, b ← false: (a OR b) AND NOT b → true. 7) Expression true only when t is between 60 and 80 inclusive: t ≥ 60 AND t ≤ 80. 8) Number of outputs from nested IF with 2 conditions → up to 4. Score 7–8 mastery. Quiz app checklist: at least 3 questions, uses nested and compound (AND/OR) conditions, every combination produces a result, tested with boundary answers.",
+   "days": [
+    {
+     "guide": "Teach comparison operators (=, ≠, <, >, ≤, ≥) and AND/OR/NOT. Build the AND and OR truth tables together, then the student evaluates 15 expressions such as (4 < 9) AND (3 = 3).",
+     "questions": [
+      {
+       "q": "Complete: true AND false = ?, true OR false = ?, NOT true = ?",
+       "a": "false, true, false."
+      },
+      {
+       "q": "Evaluate (10 > 5) AND NOT (3 > 1).",
+       "a": "true AND NOT true = true AND false = false."
+      }
+     ]
+    },
+    {
+     "guide": "Model an age-range program: if age < 13 'kid', else if age < 18 'teen', else 'adult'. Have the student test 12, 13, 17, 18 to check the boundaries.",
+     "questions": [
+      {
+       "q": "With the chain above, what prints for age 13? 18?",
+       "a": "13 → 'teen'; 18 → 'adult'."
+      },
+      {
+       "q": "Why test boundary values like 13 and 18?",
+       "a": "Off-by-one errors (< vs ≤) show up at the edges of ranges."
+      }
+     ]
+    },
+    {
+     "guide": "Build a 'Which Pet Should You Get?' quiz with dropdowns (e.g. space: small/large; time: little/lots). Use compound conditions like if (space == \"large\" && time == \"lots\") → dog. Check every combination gives an answer.",
+     "questions": [
+      {
+       "q": "Two yes/no questions: how many combinations must your quiz handle?",
+       "a": "4 (2 × 2)."
+      },
+      {
+       "q": "Write a condition for 'small space OR little time' in JavaScript.",
+       "a": "space == \"small\" || time == \"little\""
+      }
+     ]
+    },
+    {
+     "guide": "Draw a flowchart for movie-ticket pricing (e.g. under 12 or 65+ = $8; else student ID = $10; else $14; Tuesdays $2 off). Code it and compare the code's structure to the diamonds in the chart.",
+     "questions": [
+      {
+       "q": "Using those rules, what does a 30-year-old with a student ID pay on Tuesday?",
+       "a": "$10 − $2 = $8."
+      },
+      {
+       "q": "What flowchart shape represents a decision?",
+       "a": "A diamond, with one arrow for yes/true and one for no/false."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 8-question conditionals quiz in the assessment key in AP pseudocode, and review the quiz app.",
+     "questions": [
+      {
+       "q": "x ← 7. IF (x > 5 AND x < 10) DISPLAY \"A\" ELSE DISPLAY \"B\". Output?",
+       "a": "A."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 14,
+   "prep": "Arrange a pair-programming partner (sibling, parent or online). Set a 15-minute timer for role switching. Have a rubber duck or stuffed animal for 'rubber-duck debugging'. Print the Unit 3 project rubric (assessment key).",
+   "misconceptions": [
+    "Changing many things at once while debugging. Change one thing, test, and observe.",
+    "Navigator just watching. The navigator reviews each line, thinks ahead, and catches errors; the driver types.",
+    "Mixing up syntax and logic errors: a syntax error stops the program (missing parenthesis); a logic error runs but gives the wrong result."
+   ],
+   "assessment_key": "Unit 3 app project rubric (4 levels): 4 = at least two screens, uses variables and conditionals meaningfully, no bugs found in testing, user-test bug table with top three fixes, write-up explains design choices and at least two debugging stories; 3 = works with minor bugs, write-up complete; 2 = partly working or missing variables/conditionals; 1 = doesn't run. Debugging checklist (proficient) includes: read the error message and line number, reproduce the bug, isolate it (comment out code/test small parts), use console.log to check values, check IDs/spelling, explain the code aloud (rubber duck), change one thing at a time and retest.",
+   "days": [
+    {
+     "guide": "Brainstorm what to do when code doesn't work, then have the student write a numbered debugging checklist someone else could follow. Introduce syntax vs. logic errors with an example of each.",
+     "questions": [
+      {
+       "q": "Is a missing closing parenthesis a syntax or logic error? What about a tip calculator that adds instead of multiplies?",
+       "a": "Missing parenthesis = syntax error; adding instead of multiplying = logic error."
+      },
+      {
+       "q": "What is 'rubber duck debugging'?",
+       "a": "Explaining your code line by line out loud (even to an object) — doing so often reveals where your thinking and the code differ."
+      }
+     ]
+    },
+    {
+     "guide": "Explain driver (types) and navigator (reads, plans, spots errors). Pair program a decision-maker app (e.g. 'What should I eat?'), switching every 15 minutes.",
+     "questions": [
+      {
+       "q": "What does the navigator do during pair programming?",
+       "a": "Reviews code as it's typed, catches errors, thinks about the next steps and the big picture, and communicates with the driver."
+      },
+      {
+       "q": "Name one benefit of pair programming.",
+       "a": "Fewer bugs, shared knowledge, better design decisions because two people review the code."
+      }
+     ]
+    },
+    {
+     "guide": "Continue building, adding at least two screens, variables and conditionals. Stop every 20 minutes to run and test.",
+     "questions": [
+      {
+       "q": "Why test after each small addition instead of at the end?",
+       "a": "If something breaks, you know it was the most recent change, making bugs much easier to find."
+      }
+     ]
+    },
+    {
+     "guide": "A user tests the app while the student silently observes, logging each bug or confusion in a table (what happened, expected, severity). Fix the top three.",
+     "questions": [
+      {
+       "q": "How should you choose which three bugs to fix first?",
+       "a": "By severity and frequency — fix bugs that crash the app or block the main task before cosmetic issues."
+      }
+     ]
+    },
+    {
+     "guide": "The student submits the app and write-up; score with the rubric in the assessment key.",
+     "questions": [
+      {
+       "q": "Describe one bug you found this week and how you fixed it.",
+       "a": "Answers vary; proficient answers name the symptom, how it was isolated (e.g. console.log), the cause and the fix."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 15,
+   "prep": "Have the AP reference sheet list section (APPEND, INSERT, REMOVE, LENGTH, 1-based indexing) and App Lab list commands (appendItem, insertItem, removeItem, 0-based). Prepare 10 tracing problems.",
+   "misconceptions": [
+    "Index confusion: AP pseudocode lists start at index 1; JavaScript/App Lab lists start at index 0. Always ask 'which language?' first.",
+    "Forgetting that INSERT and REMOVE shift other elements' indices.",
+    "Accessing an index past the end (e.g. list[length] in JavaScript), giving undefined or an error."
+   ],
+   "assessment_key": "List quiz (AP pseudocode, 1-based): 1) L ← [5, 8, 2]; APPEND(L, 9) → [5, 8, 2, 9]. 2) Then INSERT(L, 2, 7) → [5, 7, 8, 2, 9]. 3) Then REMOVE(L, 1) → [7, 8, 2, 9]. 4) LENGTH(L) → 4. 5) L[3] → 2. 6) colors ← [\"red\",\"blue\"]; INSERT(colors, 1, \"green\") → [\"green\",\"red\",\"blue\"]. 7) In App Lab, list = [10, 20, 30]; list[0] → 10. 8) In App Lab, removeItem(list, 1) on [10,20,30] → [10, 30]. Score 7–8 mastery. App: complete if items are added from a text input with appendItem and the full list displays and updates.",
+   "days": [
+    {
+     "guide": "Show a program with five variables score1…score5 and computing the average. Rewrite with one list. Discuss: easier to add a sixth score, can loop through, less repetitive code.",
+     "questions": [
+      {
+       "q": "Why is a list better than score1, score2, … score5?",
+       "a": "One name holds any number of values, so adding more data doesn't require new variables, and the program can process them all with a loop."
+      },
+      {
+       "q": "What is an element? An index?",
+       "a": "An element is one value in a list; the index is its position number."
+      }
+     ]
+    },
+    {
+     "guide": "Practice App Lab commands: var pets = [\"cat\", \"dog\"]; appendItem(pets, \"fish\"); insertItem(pets, 0, \"bird\"); removeItem(pets, 2); console.log(pets). Predict before running.",
+     "questions": [
+      {
+       "q": "Starting with [\"cat\", \"dog\"], after appendItem(pets,\"fish\"), insertItem(pets,0,\"bird\") and removeItem(pets,2), what is pets?",
+       "a": "After append: [cat, dog, fish]; after insert at 0: [bird, cat, dog, fish]; remove index 2 (dog): [bird, cat, fish]."
+      },
+      {
+       "q": "What does pets.length return for [\"bird\",\"cat\",\"fish\"]?",
+       "a": "3."
+      }
+     ]
+    },
+    {
+     "guide": "Trace 10 AP pseudocode list problems on paper, keeping a picture of the list after each line; then compare the same operations in App Lab with 0-based indices.",
+     "questions": [
+      {
+       "q": "AP pseudocode: nums ← [4, 6, 8]. What is nums[1]? In App Lab, what is nums[1]?",
+       "a": "AP: 4 (1-based). App Lab: 6 (0-based)."
+      },
+      {
+       "q": "AP: L ← [1, 2, 3]; REMOVE(L, 2). Result?",
+       "a": "[1, 3]."
+      }
+     ]
+    },
+    {
+     "guide": "Build a reminder or playlist app: text input + Add button appends to a list; a label or text area shows the list (e.g. list.join(\"\\n\")).",
+     "questions": [
+      {
+       "q": "Why must the list be declared globally in this app?",
+       "a": "So items added on each click are kept between events instead of the list resetting."
+      }
+     ]
+    },
+    {
+     "guide": "Give the list-operations quiz in the assessment key.",
+     "questions": [
+      {
+       "q": "L ← [3, 1]. APPEND(L, 4); INSERT(L, 1, 0). What is L?",
+       "a": "[0, 3, 1, 4]."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 16,
+   "prep": "Have the AP reference sheet section for REPEAT n TIMES and REPEAT UNTIL(condition). Prepare three programs with infinite loops for Day 4 (e.g. missing i++; condition that never becomes false; updating the wrong variable).",
+   "misconceptions": [
+    "Thinking REPEAT UNTIL works like while. REPEAT UNTIL(condition) runs until the condition becomes true; a JavaScript while loop runs while its condition is true.",
+    "Off-by-one errors: for (var i = 0; i <= 10; i++) runs 11 times, not 10.",
+    "Forgetting to update the loop variable, causing an infinite loop."
+   ],
+   "assessment_key": "Loop quiz: 1) x ← 0; REPEAT 4 TIMES { x ← x + 3 } → 12. 2) n ← 1; REPEAT UNTIL(n > 20) { n ← n * 2 } → 32. 3) count ← 0; REPEAT UNTIL(count = 5) { count ← count + 2 } → infinite loop (count goes 0, 2, 4, 6… never equals 5). 4) sum ← 0; i ← 1; REPEAT 5 TIMES { sum ← sum + i; i ← i + 1 } → 15. 5) for (var i = 0; i < 10; i++) runs 10 times. 6) Choose a loop to keep asking for a password until correct → while/REPEAT UNTIL (unknown number of repetitions). Score 5–6 mastery.",
+   "days": [
+    {
+     "guide": "Write: var rolls = 0; var die = 0; while (die != 6) { die = randomNumber(1,6); rolls++; } Run 20 times, record rolls, compute the average (expected about 6).",
+     "questions": [
+      {
+       "q": "Why is a while loop the right choice for rolling until a 6?",
+       "a": "We don't know in advance how many rolls it will take; the loop must continue until a condition is met."
+      },
+      {
+       "q": "What is the theoretical average number of rolls to get a 6?",
+       "a": "6 (probability 1/6 per roll, so expected rolls = 1 ÷ (1/6) = 6)."
+      }
+     ]
+    },
+    {
+     "guide": "Model for (var i = 0; i < 5; i++) and its three parts (start, condition, update). Write loops that count 1–10, sum 1–100 and repeat drawing commands.",
+     "questions": [
+      {
+       "q": "What is the sum of 1 to 100 using a for loop?",
+       "a": "5,050."
+      },
+      {
+       "q": "How many times does for (var i = 2; i < 10; i += 2) run, and what values does i take?",
+       "a": "4 times: i = 2, 4, 6, 8."
+      }
+     ]
+    },
+    {
+     "guide": "For three tasks — print 10 stars, ask until correct password, process every item in a list — have the student choose while or for and justify for readability.",
+     "questions": [
+      {
+       "q": "Which loop for 'print 10 stars'? Why?",
+       "a": "for — the number of repetitions is known, and the counter is built into the header."
+      },
+      {
+       "q": "Which loop for 'ask until the password is correct'? Why?",
+       "a": "while — the number of repetitions depends on user input and is not known in advance."
+      }
+     ]
+    },
+    {
+     "guide": "The student finds and fixes the infinite loops and writes the cause of each (missing update, condition never false, wrong variable updated).",
+     "questions": [
+      {
+       "q": "Why is this infinite: var i = 0; while (i < 5) { console.log(i); }",
+       "a": "i never changes, so i < 5 is always true; add i++ inside the loop."
+      }
+     ]
+    },
+    {
+     "guide": "Give the loop quiz in the assessment key in AP pseudocode.",
+     "questions": [
+      {
+       "q": "x ← 1; REPEAT 3 TIMES { x ← x * 4 }. Final x?",
+       "a": "64."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 17,
+   "prep": "Prepare lists in App Lab: 10 song titles, 30 daily high temperatures (some above 90), and a list of Celsius temperatures. Browse the App Lab Data tab to pick a dataset for Day 4.",
+   "misconceptions": [
+    "Modifying the original list while filtering it. Filter into a new list with appendItem so indices don't shift under the loop.",
+    "Initializing max to 0. If all values are negative, 0 is wrong; initialize max to the first element.",
+    "Dividing by the wrong count in an average (e.g. by the index or a fixed number). Divide the sum by list.length."
+   ],
+   "assessment_key": "Traversal problem set (sample list [4, 9, 2, 9, 7]; words [\"sky\", \"apple\", \"pear\"]): 1) count of 9s → 2. 2) max → 9. 3) average → 31 ÷ 5 = 6.2. 4) filter words longer than 3 letters → [\"apple\", \"pear\"]. 5) map to uppercase → [\"SKY\", \"APPLE\", \"PEAR\"]. 6) first index of 9 → 1 in App Lab (0-based), 2 in AP pseudocode. Grade each program by running it on this test data; full credit when each gives these outputs.",
+   "days": [
+    {
+     "guide": "Write the same traversal two ways: for (var i = 0; i < songs.length; i++) console.log(songs[i]); and AP's FOR EACH item IN songs. Discuss which is more readable and when you need the index.",
+     "questions": [
+      {
+       "q": "When would you need an index-based loop instead of FOR EACH?",
+       "a": "When you need the position (e.g. to find the index of an item, compare neighbors, or change the element in place)."
+      },
+      {
+       "q": "What does traversal mean?",
+       "a": "Accessing each element of a list one at a time, in order."
+      }
+     ]
+    },
+    {
+     "guide": "Filter the 30 temperatures: create an empty list hot = []; loop; if temp > 90 appendItem(hot, temp); display hot.length.",
+     "questions": [
+      {
+       "q": "Filter [88, 95, 91, 90, 102] for values above 90.",
+       "a": "[95, 91, 102]; count = 3 (90 is not above 90)."
+      },
+      {
+       "q": "Why filter into a new list?",
+       "a": "It keeps the original data unchanged and avoids index errors from removing items mid-loop."
+      }
+     ]
+    },
+    {
+     "guide": "Map Celsius to Fahrenheit with F = C × 9/5 + 32 into a new list; then reduce by summing and dividing by length to find the average.",
+     "questions": [
+      {
+       "q": "Map [0, 100, 25] to Fahrenheit.",
+       "a": "[32, 212, 77]."
+      },
+      {
+       "q": "What is the average of [32, 212, 77]?",
+       "a": "321 ÷ 3 = 107."
+      }
+     ]
+    },
+    {
+     "guide": "In App Lab's Data tab, import a dataset and use getColumn(\"table\", \"column\") to load a column into a list. Display the length and first five values.",
+     "questions": [
+      {
+       "q": "What does getColumn return?",
+       "a": "A list containing every value in that column of the table."
+      }
+     ]
+    },
+    {
+     "guide": "The student solves the six traversal problems in the assessment key in App Lab; run each on the sample data to check.",
+     "questions": [
+      {
+       "q": "Write pseudocode to find the max of a list.",
+       "a": "max ← list[1]; FOR EACH x IN list { IF x > max { max ← x } }; RETURN max."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 18,
+   "prep": "Pick an App Lab dataset with a categorical column for the dropdown. Gather 30 AP-style practice questions (Khan Academy AP CSP or Code.org unit assessments) and build/print a 50-question semester exam from Code.org unit assessments or AP practice materials covering Units 1–4.",
+   "misconceptions": [
+    "Not handling empty results. If no rows match, the app should display a message like 'No results' instead of a blank screen.",
+    "Comparing dropdown text to data with different capitals or spaces. Make values match exactly or standardize them.",
+    "Cramming instead of targeted review. Sort missed questions by topic and re-study the weakest topic first."
+   ],
+   "assessment_key": "Data app rubric (4 levels): 4 = dropdown triggers a traversal that filters the dataset, displays matching results and an accurate count, handles empty results, tested with three inputs; 3 = works but doesn't handle empty/edge cases; 2 = partial filtering; 1 = doesn't run. Semester exam: score against the answer key that accompanies the question source you choose; target 80%+ (40/50). Representative items and answers: 110₂ + 11₂ = 1001₂ (9); 2^10 = 1,024; DNS converts domain names to IP addresses; lossless compression allows exact reconstruction; REPEAT 3 TIMES { x ← x + 2 } from x ← 1 gives 7; list [3,5,7] in AP pseudocode, L[2] = 5.",
+   "days": [
+    {
+     "guide": "The student explores datasets and writes a plan: which dataset, which column filters, what results to show, and a sketch of the screen.",
+     "questions": [
+      {
+       "q": "What should the plan specify?",
+       "a": "The dataset and columns used, the user input (dropdown options), the filtering condition, and what output (list and count) will be shown."
+      }
+     ]
+    },
+    {
+     "guide": "Build: load columns into lists with getColumn; on dropdown \"change\", loop through the lists, appending matching items to a results list; display results and results.length.",
+     "questions": [
+      {
+       "q": "Why use parallel lists (e.g. names and categories) with the same index?",
+       "a": "Each index refers to the same row, so when categories[i] matches, names[i] is the matching item."
+      }
+     ]
+    },
+    {
+     "guide": "A user tries three inputs; the student records expected vs. actual results and fixes problems like empty output.",
+     "questions": [
+      {
+       "q": "What should the app display if no items match?",
+       "a": "A clear message such as 'No matches found' and a count of 0."
+      }
+     ]
+    },
+    {
+     "guide": "The student completes 30 practice questions, then makes a one-page summary of concepts missed, organized by unit.",
+     "questions": [
+      {
+       "q": "Convert 1101₂ to decimal and 20 to binary.",
+       "a": "13; 10100₂."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 50-question semester exam (about 90 minutes). Grade and record weak topics for spring review.",
+     "questions": [
+      {
+       "q": "What does this code display? L ← [2, 4, 6]; sum ← 0; FOR EACH n IN L { sum ← sum + n }; DISPLAY(sum)",
+       "a": "12."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 19,
+   "prep": "Pick an earlier app of the student's with repeated code to refactor. Have the AP reference sheet section on PROCEDURE and RETURN. Prepare 10 tracing questions (examples in the key).",
+   "misconceptions": [
+    "Confusing parameters and arguments. A parameter is the variable in the definition; an argument is the actual value passed in the call.",
+    "Displaying a result inside a function instead of returning it. A returned value can be stored or used in an expression; a displayed one cannot.",
+    "Thinking code after RETURN still runs. RETURN ends the procedure immediately."
+   ],
+   "assessment_key": "Procedure quiz (10 items): 1) PROCEDURE double(x) { RETURN x * 2 }; double(7) → 14. 2) double(double(3)) → 12. 3) PROCEDURE f(a, b) { RETURN a − b }; f(10, 4) → 6; f(4, 10) → −6. 4) PROCEDURE g(n) { IF n > 0 RETURN \"pos\" ; RETURN \"not pos\" }; g(0) → \"not pos\". 5) y ← double(5) + 1 → 11. 6) In 'double(7)', 7 is the argument and x is the parameter. 7) PROCEDURE sq(n) { RETURN n * n }; sq(3) + sq(4) → 25. 8) Procedural abstraction lets you use a procedure knowing only what it does, not how. 9) PROCEDURE m(L) { t ← 0; FOR EACH v IN L { t ← t + v }; RETURN t } with [1,2,3] → 6. 10) A procedure with no RETURN used in an expression returns no value (it can't be used that way). Score 8+ mastery.",
+   "days": [
+    {
+     "guide": "Open an earlier app, find repeated lines (e.g. code that resets the screen in three handlers), and move them into function resetGame() { … }, calling it from each place. Run to confirm the app behaves identically.",
+     "questions": [
+      {
+       "q": "Give two benefits of moving repeated code into a procedure.",
+       "a": "The code is shorter and easier to read, and a fix or change only has to be made in one place."
+      },
+      {
+       "q": "What is procedural abstraction?",
+       "a": "Using a procedure by name and knowing what it does without needing to know how it is implemented."
+      }
+     ]
+    },
+    {
+     "guide": "Write function drawSquare(size) and call it with different arguments (drawSquare(50), drawSquare(100)). Emphasize the parameter is a placeholder.",
+     "questions": [
+      {
+       "q": "In drawSquare(80), what is the argument and what is the parameter?",
+       "a": "80 is the argument; size is the parameter."
+      },
+      {
+       "q": "Why add a parameter instead of writing drawSmallSquare and drawBigSquare?",
+       "a": "One general procedure handles any size, reducing duplicated code."
+      }
+     ]
+    },
+    {
+     "guide": "Write functions that return values: tip(bill, percent) returns bill * percent / 100; letterGrade(score) returns a letter; circleArea(r) returns Math.PI * r * r. Use returned values in expressions, e.g. total = bill + tip(bill, 20).",
+     "questions": [
+      {
+       "q": "What does tip(50, 18) return?",
+       "a": "9 (50 × 18 / 100)."
+      },
+      {
+       "q": "What is circleArea(3) to two decimals?",
+       "a": "π × 9 ≈ 28.27."
+      }
+     ]
+    },
+    {
+     "guide": "For a simple game (e.g. a clicker or guessing game), draw a box diagram breaking it into procedures (startGame, checkGuess, updateScore, endGame) before coding.",
+     "questions": [
+      {
+       "q": "What is decomposition?",
+       "a": "Breaking a large problem into smaller, more manageable subproblems (often each becomes a procedure)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-question procedure quiz in the assessment key.",
+     "questions": [
+      {
+       "q": "PROCEDURE add3(n) { RETURN n + 3 }. What is add3(add3(1))?",
+       "a": "7."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 20,
+   "prep": "Read Code.org's App Lab documentation on libraries (Share → Library) and find a Code.org example library. Look up the p5.js license (LGPL 2.1) on its GitHub page.",
+   "misconceptions": [
+    "Thinking a library is 'just copied code'. A library is reusable, documented code with a defined interface (an API) — you use it through its functions without reading the internals.",
+    "Ignoring license terms of libraries. Licenses can require attribution, sharing changes, or forbid certain uses.",
+    "Writing documentation that repeats the function name. Good documentation states purpose, parameters, return value and an example."
+   ],
+   "assessment_key": "Library project rubric (4 levels): 4 = three working, general functions with parameters and return values, each with a complete documentation comment (purpose, parameters with types, return value, example), library shared and a partner/example library successfully used; 3 = all works, docs missing one element; 2 = functions work but are not documented or not general; 1 = incomplete. Quiz: 1) API = Application Program Interface, the specification of how to use a library's procedures. 2) Library = collection of procedures for use in programs. 3) Documentation explains how to use a procedure without reading its code. 4) p5.js is licensed under the GNU LGPL 2.1, which allows use in your own projects, but changes to the library itself must be shared under the LGPL. 5) Benefit of libraries: save time, use tested code.",
+   "days": [
+    {
+     "guide": "Read App Lab documentation for a function (e.g. randomNumber or a library function) and use it. Point out each doc lists parameters, return value and examples.",
+     "questions": [
+      {
+       "q": "What is an API?",
+       "a": "An Application Program Interface: the description of how to use a library's procedures — their names, parameters and return values."
+      },
+      {
+       "q": "Why do programmers use libraries?",
+       "a": "To reuse tested code for common tasks so they can build programs faster and more reliably."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student write three related functions (e.g. a math or text library: average(list), maxOf(list), capitalize(word)) with documentation comments.",
+     "questions": [
+      {
+       "q": "Write a documentation comment for average(list).",
+       "a": "// average: returns the mean of a list of numbers. Parameter list: a list of numbers. Returns: a number. Example: average([2,4,6]) returns 4."
+      }
+     ]
+    },
+    {
+     "guide": "Publish the library in App Lab and import a partner's or a Code.org example library into a new project; use at least one function from it.",
+     "questions": [
+      {
+       "q": "When using someone else's library, what do you need to know?",
+       "a": "What each function does, its parameters, its return value — from the documentation — and the license terms."
+      }
+     ]
+    },
+    {
+     "guide": "Look up the p5.js license (GNU LGPL 2.1). Have the student explain in their own words what they can and can't do.",
+     "questions": [
+      {
+       "q": "Can you use p5.js in a program you share publicly?",
+       "a": "Yes — the LGPL allows use in your projects; if you modify the p5.js library itself and distribute it, you must share those changes under the LGPL and keep its license notices."
+      }
+     ]
+    },
+    {
+     "guide": "The student finalizes documentation for each function, then takes the short quiz in the assessment key.",
+     "questions": [
+      {
+       "q": "Name the four parts of a good documentation comment used this week.",
+       "a": "Purpose, parameters, return value, example."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 21,
+   "prep": "Get a deck of 52 cards. Prepare a sheet with list sizes 8, 16, 32 … 1,024 for graphing. Have graph paper or a spreadsheet.",
+   "misconceptions": [
+    "Thinking binary search works on any list. It only works on sorted data.",
+    "Thinking a faster computer fixes an unreasonable algorithm. Exponential growth outruns any hardware speedup.",
+    "Calling binary search 'twice as fast'. It's dramatically faster for large lists: about log₂(n) steps vs. n steps."
+   ],
+   "assessment_key": "Efficiency questions: 1) Worst-case linear search of 1,000 items → 1,000 checks. 2) Binary search of 1,024 sorted items → about 10–11 checks (log₂ 1024 = 10). 3) Doubling list size adds 1 step to binary search, doubles linear. 4) Binary search requires a sorted list. 5) Classify n² → reasonable (polynomial). 6) 2ⁿ → unreasonable (exponential). 7) n³ → reasonable. 8) Checking every subset of n items (2ⁿ) → unreasonable. 9) An algorithm that looks at each pair of n items (n²) → reasonable. 10) A heuristic is used when the exact solution takes unreasonable time. Score 8+ mastery.",
+   "days": [
+    {
+     "guide": "Shuffle the deck. The student searches for a target card one at a time, counting checks; repeat five trials and average. Discuss best case (1), worst case (52) and average (about 26).",
+     "questions": [
+      {
+       "q": "In the worst case, how many checks does linear search need for 52 cards?",
+       "a": "52 (or 52 if the card is last; still 52 checks if it's not there at all)."
+      },
+      {
+       "q": "Does linear search need the list to be sorted?",
+       "a": "No — it checks every element in order, so it works on any list."
+      }
+     ]
+    },
+    {
+     "guide": "Sort one suit (13 cards) or a larger ordered set. Model binary search: check the middle; if the target is higher, discard the lower half; repeat. Count steps and compare to linear search.",
+     "questions": [
+      {
+       "q": "Using binary search on 13 sorted cards, what is the maximum number of checks?",
+       "a": "4 (13 → 6 → 3 → 1)."
+      },
+      {
+       "q": "Why must the data be sorted for binary search?",
+       "a": "It decides which half to throw away by comparing to the middle; that only works if smaller values are all on one side."
+      }
+     ]
+    },
+    {
+     "guide": "Make a table of worst-case steps for n = 8, 16, 32, …, 1,024: linear = n; binary ≈ log₂(n) + 1. Graph both and describe the shapes (straight line vs. flattening curve).",
+     "questions": [
+      {
+       "q": "Worst-case binary search steps for 1,024 items?",
+       "a": "About 11 (log₂ 1024 = 10, plus one final check)."
+      },
+      {
+       "q": "If the list grows from 1,024 to 2,048 items, how do linear and binary worst cases change?",
+       "a": "Linear doubles (1,024 → 2,048); binary increases by just one step."
+      }
+     ]
+    },
+    {
+     "guide": "Show binary search in real life: finding a word in a paper dictionary, 'git bisect'-style debugging by halving the code, and the 'guess a number 1–100' game (7 guesses max).",
+     "questions": [
+      {
+       "q": "What's the maximum number of guesses to find a number from 1–100 with binary search?",
+       "a": "7 (2^7 = 128 ≥ 100)."
+      },
+      {
+       "q": "How can binary search help debugging?",
+       "a": "Comment out half the code to see which half has the bug, then halve that half, and so on."
+      }
+     ]
+    },
+    {
+     "guide": "Give the efficiency questions in the assessment key.",
+     "questions": [
+      {
+       "q": "Is an algorithm that takes n² steps reasonable or unreasonable? 2ⁿ?",
+       "a": "n² is reasonable (polynomial); 2ⁿ is unreasonable (exponential)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 22,
+   "prep": "Draw 6 points (cities) on paper with a distance table between them. Read a short explainer of the halting problem (Khan Academy AP CSP 'Undecidable problems'). Get a deck of cards and a timer for Day 4. Prepare the Unit 5 test.",
+   "misconceptions": [
+    "Confusing 'unreasonable time' and 'undecidable'. Unreasonable problems can be solved but take too long for large inputs; undecidable problems cannot be solved by any algorithm for all inputs.",
+    "Thinking a heuristic gives the best answer. It gives a good-enough answer quickly, with no guarantee of optimality.",
+    "Expecting speedup to equal the number of helpers. Coordination and sequential parts limit speedup."
+   ],
+   "assessment_key": "Unit 5 test (12 items): 1) Parameter vs. argument. 2) RETURN sends a value back to the caller. 3) PROCEDURE sq(n){RETURN n*n}; sq(5)+1 → 26. 4) Procedural abstraction hides implementation. 5) Library and API definitions. 6) Linear search worst case for 500 items → 500. 7) Binary search requires sorted data. 8) Binary search of 64 items → about 7 checks. 9) 2ⁿ → unreasonable. 10) Halting problem is undecidable. 11) Heuristic → approximate solution in reasonable time. 12) Sequential takes 60 s; parallel with two processors 35 s → speedup = 60/35 ≈ 1.71. Mastery 10+/12.",
+   "days": [
+    {
+     "guide": "With 6 cities, have the student try several routes and compute their lengths. Then count the possibilities: starting at a fixed city, 5! = 120 orderings (60 if a route and its reverse count as the same).",
+     "questions": [
+      {
+       "q": "How many routes visit 6 cities starting from city A (counting direction)?",
+       "a": "5! = 120 (60 if reverse routes are considered the same)."
+      },
+      {
+       "q": "How many for 11 cities from a fixed start?",
+       "a": "10! = 3,628,800 — the count explodes, which is why brute force becomes unreasonable."
+      }
+     ]
+    },
+    {
+     "guide": "Apply nearest-neighbor: from the start, always go to the closest unvisited city. Compare its route length to the best route found on Day 1.",
+     "questions": [
+      {
+       "q": "What is a heuristic?",
+       "a": "A problem-solving approach that finds a good-enough (approximate) solution in reasonable time when finding the exact best solution is impractical."
+      },
+      {
+       "q": "Does nearest-neighbor always find the shortest route?",
+       "a": "No — an early greedy choice can force a long final leg, so it may be longer than optimal."
+      }
+     ]
+    },
+    {
+     "guide": "Read about Alan Turing's halting problem (1936). The student writes a paragraph explaining why no program can decide for every program and input whether it halts.",
+     "questions": [
+      {
+       "q": "In your own words, why is the halting problem undecidable?",
+       "a": "If a program H could always decide halting, we could build a program that asks H about itself and does the opposite (loops if H says halt, halts if H says loop). That contradiction shows no such H can exist."
+      },
+      {
+       "q": "What does 'undecidable' mean?",
+       "a": "No algorithm can always give a correct yes/no answer for every possible input."
+      }
+     ]
+    },
+    {
+     "guide": "Time the student sorting a full deck alone; then split the deck among 2–3 helpers who each sort a part, then merge. Speedup = sequential time ÷ parallel time.",
+     "questions": [
+      {
+       "q": "Alone: 120 s. With two helpers (three people) the parallel time is 60 s. Speedup?",
+       "a": "120 ÷ 60 = 2."
+      },
+      {
+       "q": "Why isn't the speedup 3 with three people?",
+       "a": "The merge step must be done sequentially and coordination takes time, limiting how much work runs in parallel."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 5 test in the assessment key (about 40 minutes).",
+     "questions": [
+      {
+       "q": "What's the difference between parallel and distributed computing?",
+       "a": "Parallel computing splits a program into parts run simultaneously on multiple processors; distributed computing uses multiple separate computers connected over a network."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 23,
+   "prep": "Set up a Google account for Google Forms and Sheets. Recruit at least 15 respondents (family, co-op, friends). Preview Sheets 'Data → Data cleanup → Remove duplicates' and Find/Replace.",
+   "misconceptions": [
+    "Survey questions with open text answers ('How much do you sleep?') produce messy data ('8', 'eight', '7-8 hrs'). Use consistent formats like numbers or multiple choice.",
+    "Deleting data that doesn't fit the hypothesis. Cleaning fixes errors and inconsistencies; it doesn't remove inconvenient real answers.",
+    "Collecting more personal info than needed. Ask only what the question requires; avoid names and addresses (privacy)."
+   ],
+   "assessment_key": "Cleaned dataset rubric (4 levels): 4 = consistent formats in every column, duplicates removed, invalid entries handled with a documented rule, at least 15 responses, and a reflection naming each cleaning decision and how it could affect conclusions (e.g. removing '20 hours of sleep' changes the average); 3 = clean data, thin reflection; 2 = some inconsistent entries remain; 1 = raw data.",
+   "days": [
+    {
+     "guide": "The student writes a question to investigate, then a 6-question survey using number fields or multiple choice so answers are consistent. Review together for bias or confusing wording.",
+     "questions": [
+      {
+       "q": "Rewrite 'How much screen time do you get?' so answers are consistent.",
+       "a": "'On a typical school day, how many hours of recreational screen time do you have? (enter a whole number)' or a multiple-choice range like 0–1, 2–3, 4–5, 6+."
+      },
+      {
+       "q": "Why avoid collecting names in this survey?",
+       "a": "They aren't needed for the analysis and create privacy risk."
+      }
+     ]
+    },
+    {
+     "guide": "Build the survey in Google Forms, send it, collect 15+ responses, and link responses to a spreadsheet.",
+     "questions": [
+      {
+       "q": "What is metadata in a survey dataset?",
+       "a": "Data about the data, such as the timestamp of each response or the column descriptions."
+      }
+     ]
+    },
+    {
+     "guide": "Clean: standardize entries (e.g. 'yes', 'Yes', 'Y' → 'Yes'), convert text to numbers, remove duplicates, flag impossible values. Have the student document every change.",
+     "questions": [
+      {
+       "q": "Why is cleaning necessary before analysis?",
+       "a": "Inconsistent or duplicate entries would be counted wrongly (e.g. 'Yes' and 'yes' as different categories) and produce misleading results."
+      }
+     ]
+    },
+    {
+     "guide": "Compare storage options: spreadsheet (easy, small data), database (structured, fast queries, many users), cloud storage (access anywhere, depends on provider and connection).",
+     "questions": [
+      {
+       "q": "When is a database better than a spreadsheet?",
+       "a": "When data is large, many users must access or update it at once, or you need fast, complex queries."
+      }
+     ]
+    },
+    {
+     "guide": "The student submits the cleaned dataset with a reflection; score with the rubric in the assessment key.",
+     "questions": [
+      {
+       "q": "Give an example of a cleaning decision that could change a conclusion.",
+       "a": "Removing an outlier like '20 hours of sleep' raises or lowers the average; deciding to drop incomplete responses could remove a group of people."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 24,
+   "prep": "Prepare four small sample datasets (categories, values over time, two numeric variables, one numeric variable). Preview Google Sheets pivot tables (Insert → Pivot table). Pick a public CA data source (e.g. NOAA climate data or EPA AirNow/AirData).",
+   "misconceptions": [
+    "Using a line chart for unrelated categories. Line charts show change over time; bar charts compare categories.",
+    "Thinking correlation proves causation. A scatter plot can show two variables move together without one causing the other.",
+    "Unlabeled axes or truncated y-axes that exaggerate differences."
+   ],
+   "assessment_key": "Data story rubric (4 levels): 4 = clear question; an appropriate chart with title, labeled axes and units; a conclusion supported by the chart; at least one limitation (sample size, sampling bias, correlation ≠ causation); answers both follow-up questions accurately; 3 = all parts, limitation vague; 2 = chart or conclusion mismatched to question; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Show bar, line, scatter and histogram charts of the four datasets. Have the student match each to the question it best answers.",
+     "questions": [
+      {
+       "q": "Which chart shows how a city's temperature changed over a year?",
+       "a": "Line chart (change over time)."
+      },
+      {
+       "q": "Which chart shows whether hours studied relates to test score?",
+       "a": "Scatter plot (relationship between two numerical variables)."
+      },
+      {
+       "q": "Which chart shows how many students fall into each range of sleep hours?",
+       "a": "Histogram (distribution of one numerical variable)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a pivot table: rows = a category (e.g. grade level), values = COUNT or AVERAGE of a numeric column. Interpret one row.",
+     "questions": [
+      {
+       "q": "What does a pivot table do?",
+       "a": "Summarizes data by grouping rows into categories and calculating counts, sums or averages for each group."
+      }
+     ]
+    },
+    {
+     "guide": "The student creates three charts from their survey data, each with a title, labeled axes and a one-sentence takeaway.",
+     "questions": [
+      {
+       "q": "Your scatter plot shows more screen time with less sleep. Can you say screen time causes less sleep?",
+       "a": "No — it's a correlation; other factors (age, homework, schedules) could explain both. You'd need an experiment to show cause."
+      }
+     ]
+    },
+    {
+     "guide": "Download a CA dataset (daily temperatures or AQI) and make a line chart; identify the trend and any outliers (e.g. AQI spikes during wildfire smoke).",
+     "questions": [
+      {
+       "q": "What is an outlier?",
+       "a": "A value far from the rest of the data."
+      },
+      {
+       "q": "What might explain a sudden AQI spike in a California county in late summer?",
+       "a": "Wildfire smoke."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents the 3-slide data story; ask two follow-ups (e.g. 'How could your sample be biased?' 'What would you collect next?'). Score with the rubric.",
+     "questions": [
+      {
+       "q": "Why should a data story include limitations?",
+       "a": "So the audience knows how far the conclusion can be trusted and doesn't overgeneralize from limited or biased data."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 25,
+   "prep": "Read the Code.org simulations lesson. Plan a 15-minute observation of a store line or drive-through (Day 4) with a stopwatch. Have App Lab open.",
+   "misconceptions": [
+    "Thinking a simulation predicts exactly what will happen. Simulations estimate outcomes based on assumptions and randomness; results vary from run to run.",
+    "Expecting exactly 500 heads in 1,000 flips. Results cluster near 50% but vary; larger samples get closer on average.",
+    "Forgetting that every model simplifies. Always name what the model leaves out."
+   ],
+   "assessment_key": "Simulation program checklist: uses randomNumber for arrivals (and/or service time), loops over time steps, tracks queue length and waits, reports average wait; refined version uses the observed arrival rate and a second cashier. Limitations paragraph rubric (4 levels): 4 = names at least two simplifications (e.g. constant service time, no customers leaving, ignores rush hours), explains how refining changed the predicted wait with numbers, and names a decision it could inform (how many cashiers to schedule); 3 = all parts, less specific; 2 = one part missing; 1 = vague.",
+   "days": [
+    {
+     "guide": "Read the simulations lesson and list three real simulations (weather forecasting, traffic flow, epidemic spread) with what each simplifies (e.g. traffic model treats all drivers alike).",
+     "questions": [
+      {
+       "q": "Why use a simulation instead of a real experiment?",
+       "a": "Real experiments may be too costly, dangerous, slow or impossible (e.g. testing an epidemic); simulations let you test many scenarios quickly."
+      },
+      {
+       "q": "What does every simulation do to reality?",
+       "a": "Simplifies it — it's an abstraction that leaves out details and relies on assumptions."
+      }
+     ]
+    },
+    {
+     "guide": "Write a loop that flips a coin 1,000 times: heads += randomNumber(0,1). Display the percentage; run several times and compare to 50%.",
+     "questions": [
+      {
+       "q": "You get 512 heads out of 1,000. Is the coin unfair?",
+       "a": "No — 51.2% is normal random variation; results cluster near 50% but are rarely exactly 500."
+      },
+      {
+       "q": "What happens to the percentage if you flip 100,000 times?",
+       "a": "It tends to get closer to 50% (law of large numbers)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a checkout simulation: each minute, a customer arrives with some probability (e.g. randomNumber(1,10) <= 3 for 30%); the cashier serves one customer every 3 minutes. Track the line and average wait over 120 minutes.",
+     "questions": [
+      {
+       "q": "If a customer arrives each minute with probability 0.3, about how many arrive in 60 minutes?",
+       "a": "About 18 (0.3 × 60)."
+      }
+     ]
+    },
+    {
+     "guide": "Observe a real line for 15 minutes, count arrivals, compute the rate per minute, then update the model. Add a second cashier and compare average waits.",
+     "questions": [
+      {
+       "q": "You observed 9 arrivals in 15 minutes. What arrival probability per minute should the model use?",
+       "a": "9 ÷ 15 = 0.6 per minute (60%)."
+      },
+      {
+       "q": "Why refine a model with real data?",
+       "a": "So its assumptions match reality and its predictions are more accurate."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the model-limitations paragraph; score with the rubric in the assessment key.",
+     "questions": [
+      {
+       "q": "Name one thing the checkout model leaves out.",
+       "a": "Examples: customers leaving long lines, varying service times, rush-hour arrival changes, self-checkout lanes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 26,
+   "prep": "Open Teachable Machine (teachablemachine.withgoogle.com) and test the image project with a webcam. Choose a credible article on algorithmic bias (e.g. coverage of the 2018 MIT 'Gender Shades' facial-recognition study or the reported Amazon hiring-tool bias). Visit zooniverse.org. Prepare the Unit 6 test.",
+   "misconceptions": [
+    "Thinking computers are neutral so algorithms can't be biased. Algorithms learn from data created by people; biased data or design produces biased results.",
+    "Thinking more data always fixes bias. More of the same unrepresentative data repeats the bias; data must be representative.",
+    "Believing bias only enters through training data. It can enter in problem definition, data collection, labeling, design choices and how results are used."
+   ],
+   "assessment_key": "Unit 6 test (12 items): 1) Cleaning = making data consistent and correct. 2) Metadata = data about data. 3) Line chart for change over time. 4) Correlation does not prove causation. 5) Pivot table summarizes by group. 6) Simulation = model of a real process; uses randomness and assumptions. 7) Simulations can be refined using real data. 8) Sampling bias = sample not representative of the population. 9) An online poll about internet access is biased because it excludes people without internet. 10) Training data = examples a machine-learning model learns from. 11) Unbalanced training data makes a model less accurate for underrepresented groups. 12) Crowdsourcing = obtaining input/data from many people online. Mastery 10+/12. Bias checklist (proficient) includes: test with diverse users and data; check training data represents all user groups; measure accuracy separately for each group; examine who could be harmed; get outside review; allow users to report problems.",
+   "days": [
+    {
+     "guide": "Present five survey scenarios and have the student name the bias, e.g. an online-only poll about internet access (excludes people offline), a gym survey about exercise habits (sample already exercises), a landline phone poll (misses younger people). Rewrite one.",
+     "questions": [
+      {
+       "q": "Why is an online-only poll about home internet access biased?",
+       "a": "Only people with internet access can answer, so it overestimates access."
+      },
+      {
+       "q": "How would you fix it?",
+       "a": "Sample randomly from the whole population using several methods (mail, phone, in person), not just online."
+      }
+     ]
+    },
+    {
+     "guide": "In Teachable Machine, train two classes (e.g. 'thumbs up' vs. 'thumbs down') with 50 images of one and 5 of the other, under one lighting condition. Test, then retrain with balanced, varied data and compare accuracy.",
+     "questions": [
+      {
+       "q": "What happened to accuracy for the class with only 5 examples?",
+       "a": "It was lower — the model had too few examples to learn that class, so it often predicted the larger class."
+      },
+      {
+       "q": "What is training data?",
+       "a": "The labeled examples a machine-learning model uses to learn patterns."
+      }
+     ]
+    },
+    {
+     "guide": "Read the article and have the student identify where bias entered the pipeline (data collection, labeling, model design, deployment).",
+     "questions": [
+      {
+       "q": "In the Gender Shades study, what did researchers find about commercial facial-analysis systems?",
+       "a": "They were much less accurate for darker-skinned women than for lighter-skinned men, largely because training and benchmark data underrepresented darker-skinned faces."
+      },
+      {
+       "q": "Where did bias enter in a hiring algorithm trained on past hires from a male-dominated field?",
+       "a": "In the training data — it learned patterns from historically biased hiring decisions and penalized résumés associated with women."
+      }
+     ]
+    },
+    {
+     "guide": "Explore a Zooniverse project and discuss crowdsourcing/citizen science. Then the student writes a bias-testing checklist for developers.",
+     "questions": [
+      {
+       "q": "What is citizen science?",
+       "a": "Scientific research in which members of the public help collect or analyze data, often online."
+      },
+      {
+       "q": "Name one benefit and one risk of crowdsourcing data.",
+       "a": "Benefit: many people can process huge amounts of data quickly. Risk: contributors may not represent everyone, or quality may vary."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test in the assessment key.",
+     "questions": [
+      {
+       "q": "Give one step to reduce bias in a machine-learning app.",
+       "a": "Collect training data that represents all user groups, and test accuracy separately for each group before release."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 27,
+   "prep": "Preview the student's browser privacy settings and a tracker visualizer (e.g. the browser's built-in privacy report or a tracker-blocker extension). Read the California AG's CCPA overview (oag.ca.gov/privacy/ccpa).",
+   "misconceptions": [
+    "'I have nothing to hide.' Privacy protects against identity theft, discrimination, manipulation and stalking, not just hiding wrongdoing.",
+    "Thinking deleting a post removes it everywhere. Copies, screenshots and backups may remain.",
+    "Thinking a single harmless data point is safe. Combining many pieces of PII (birthdate + ZIP + gender) can identify a person."
+   ],
+   "assessment_key": "Privacy argument essay rubric (4 levels, ~400 words): 4 = clear claim; at least two pieces of evidence from the week (tracker counts, privacy policy findings, CCPA rights, real tradeoffs); addresses a counterargument; explains both safety benefits (finding a lost child, emergency location) and privacy costs (data sold, stalking, breaches); 3 = claim and evidence, weak counterargument; 2 = opinion with little evidence; 1 = off-topic.",
+   "days": [
+    {
+     "guide": "The student lists PII they've shared (name, birthdate, address, school, photos, location, phone) and rates each risk low/medium/high with a reason.",
+     "questions": [
+      {
+       "q": "What is PII?",
+       "a": "Personally identifiable information — data that can identify a specific person, such as name, address, phone number, birthdate, Social Security number or biometric data."
+      },
+      {
+       "q": "Why is birthdate + ZIP code + gender risky together?",
+       "a": "Combined, they can uniquely identify most people, even without a name."
+      }
+     ]
+    },
+    {
+     "guide": "Inspect cookies (browser settings → site data) and site permissions; use a tracker visualizer on a news site and count third-party trackers.",
+     "questions": [
+      {
+       "q": "What's the difference between a first-party and a third-party cookie?",
+       "a": "First-party cookies come from the site you're visiting (e.g. keeping you logged in); third-party cookies come from other domains, often advertisers, and can track you across sites."
+      }
+     ]
+    },
+    {
+     "guide": "Read a privacy policy for an app the student uses and summarize: data collected, who it's shared with, how to delete it.",
+     "questions": [
+      {
+       "q": "What three things should you look for in a privacy policy?",
+       "a": "What data is collected, who it's shared with or sold to, and how you can access or delete it."
+      }
+     ]
+    },
+    {
+     "guide": "Learn CCPA/CPRA rights (right to know, delete, correct, opt out of sale/sharing, limit use of sensitive data, non-discrimination). Draft a deletion request email.",
+     "questions": [
+      {
+       "q": "Name three rights the CCPA/CPRA gives California residents.",
+       "a": "The right to know what personal information is collected, the right to delete it, and the right to opt out of its sale or sharing (also: correct it, limit sensitive data, non-discrimination)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the 400-word argument; score with the rubric.",
+     "questions": [
+      {
+       "q": "Give one benefit and one cost of location tracking for safety.",
+       "a": "Benefit: family or emergency services can find someone in danger. Cost: location history can be leaked, sold or misused for stalking."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 28,
+   "prep": "Open the Code.org Caesar cipher, frequency analysis and Vigenère widgets (Unit 'Cybersecurity' lessons). Prepare an encrypted message for the student to crack. Watch a 'public key cryptography paint mixing' explainer (Diffie–Hellman analogy).",
+   "misconceptions": [
+    "Thinking encryption hides that a message exists. It hides the content; others can still see that a message was sent.",
+    "Believing a public key must be kept secret. The public key is shared openly; only the private key is secret.",
+    "Thinking strong encryption is unbreakable in principle. It's secure because breaking it requires solving a computationally hard problem (e.g. factoring huge numbers) that would take an unreasonable amount of time."
+   ],
+   "assessment_key": "Cryptography quiz: 1) Encrypt 'CAT' with Caesar shift 3 → 'FDW'. 2) Decrypt 'KHOOR' with shift 3 → 'HELLO'. 3) A Caesar cipher has only 25 useful shifts, so it can be cracked by trying them all (brute force). 4) Frequency analysis works because letters like E, T, A appear most often in English. 5) Vigenère: 'HI' with key 'BB' → 'IJ'. 6) Symmetric encryption = same key encrypts and decrypts. 7) Asymmetric (public key) = public key encrypts, matching private key decrypts. 8) HTTPS uses public-key encryption to securely agree on a shared session key, then symmetric encryption for the data. 9) Public-key encryption relies on problems that are easy to do but very hard to undo (e.g. multiplying two large primes is easy; factoring the product is hard). 10) Key length matters because each added bit doubles the number of possible keys. Score 8+ mastery.",
+   "days": [
+    {
+     "guide": "Encrypt a sentence with a shift (e.g. 3: A→D). Exchange with a partner and crack theirs using the widget by trying all 25 shifts until English appears.",
+     "questions": [
+      {
+       "q": "Encrypt 'DOG' with a Caesar shift of 4.",
+       "a": "HSK."
+      },
+      {
+       "q": "Why is a Caesar cipher easy to crack?",
+       "a": "There are only 25 possible shifts, so you can try every one (brute force) in seconds."
+      }
+     ]
+    },
+    {
+     "guide": "Use the frequency-analysis widget on a random-substitution cipher: match the most common cipher letters to E, T, A, O and look for short words like 'the' and 'a'.",
+     "questions": [
+      {
+       "q": "A random substitution cipher has 26! possible keys. Why can it still be cracked?",
+       "a": "Letter frequencies stay the same after substitution, so the most common cipher letters likely stand for E, T, A, etc. — the pattern leaks information."
+      },
+      {
+       "q": "What is the most common letter in English text?",
+       "a": "E."
+      }
+     ]
+    },
+    {
+     "guide": "Teach Vigenère: write the keyword repeated over the message; shift each letter by the key letter's value (A = 0, B = 1 …). Encrypt with a keyword and discuss why longer keys are harder.",
+     "questions": [
+      {
+       "q": "Encrypt 'CAT' with key 'BAD' (B=1, A=0, D=3).",
+       "a": "C+1 = D, A+0 = A, T+3 = W → 'DAW'."
+      },
+      {
+       "q": "Why is a longer Vigenère key harder to crack?",
+       "a": "The pattern repeats less often, so frequency analysis has less repeated structure to work with; a random key as long as the message (a one-time pad) is unbreakable."
+      }
+     ]
+    },
+    {
+     "guide": "Model public-key exchange with paint mixing: both share a public color, each adds a secret color, they exchange mixes, then each adds their secret color again to get the same final color an eavesdropper can't un-mix. Connect to HTTPS (padlock icon).",
+     "questions": [
+      {
+       "q": "In public-key encryption, which key do you share and which do you keep?",
+       "a": "Share the public key; keep the private key secret. Messages encrypted with your public key can only be decrypted with your private key."
+      },
+      {
+       "q": "What does the padlock / HTTPS mean when you load a site?",
+       "a": "The connection is encrypted (using TLS), so data between your browser and the site can't be read in transit, and the site's certificate was verified."
+      }
+     ]
+    },
+    {
+     "guide": "Give the cryptography quiz in the assessment key.",
+     "questions": [
+      {
+       "q": "What is the difference between symmetric and asymmetric encryption?",
+       "a": "Symmetric uses one shared key to encrypt and decrypt; asymmetric uses a public key to encrypt and a different private key to decrypt."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 29,
+   "prep": "Collect 10 sample emails/texts (mix of legitimate and phishing; screenshots from phishing-awareness quizzes work well). Decide which account the student will turn MFA on for (with parent permission).",
+   "misconceptions": [
+    "Thinking phishing is always obvious with bad spelling. Modern phishing can look professional; check sender address, link destination and urgency.",
+    "Believing antivirus makes you fully safe. Each measure has limits; layered defenses (updates, backups, MFA, caution) are needed.",
+    "Thinking a long password made of a common phrase is unbreakable. Length helps most when combined with unpredictability; never reuse passwords."
+   ],
+   "assessment_key": "Family cybersecurity guide rubric (4 levels): 4 = five specific actions with reasons tied to real threats, e.g. 1) turn on multifactor authentication (stolen passwords alone won't work), 2) use a password manager with unique long passwords (one breach doesn't unlock other accounts), 3) install software updates promptly (patch known vulnerabilities), 4) back up files offline/in the cloud (recover from ransomware), 5) verify before clicking links or sending money (stop phishing); written clearly for family members; 3 = five actions, some reasons vague; 2 = fewer than five or generic; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Research phishing, malware, ransomware and DDoS and make a chart: how it works, real example (e.g. WannaCry ransomware 2017; Mirai botnet DDoS on Dyn DNS 2016).",
+     "questions": [
+      {
+       "q": "What does ransomware do?",
+       "a": "Encrypts the victim's files and demands payment for the key to decrypt them."
+      },
+      {
+       "q": "What is a DDoS attack?",
+       "a": "A distributed denial-of-service attack floods a server with traffic from many compromised devices so legitimate users can't reach it."
+      }
+     ]
+    },
+    {
+     "guide": "The student labels 10 messages as legitimate or phishing and lists clues (mismatched sender domain, urgent threats, links that point elsewhere when hovered, requests for passwords or payment).",
+     "questions": [
+      {
+       "q": "Name three clues a message is phishing.",
+       "a": "Sender address doesn't match the real company domain, urgent or threatening language, links whose real URL (on hover) goes somewhere else, and requests for passwords or payment info."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate password possibilities using 94 printable characters: 94^8 ≈ 6.1 × 10^15; 94^16 ≈ 3.7 × 10^31. Then turn on MFA for one account.",
+     "questions": [
+      {
+       "q": "How many 8-character passwords are possible with 94 characters? How many times more for 16?",
+       "a": "94^8 ≈ 6.1 × 10^15; 94^16 ≈ 3.7 × 10^31, which is 94^8 ≈ 6.1 × 10^15 times more."
+      },
+      {
+       "q": "What is multifactor authentication?",
+       "a": "Logging in requires two or more kinds of evidence — something you know (password), have (phone/code/key), or are (fingerprint)."
+      }
+     ]
+    },
+    {
+     "guide": "Match firewalls, antivirus, encryption, updates and backups to threats and note one limit of each.",
+     "questions": [
+      {
+       "q": "Which measure best protects against losing files to ransomware?",
+       "a": "Regular backups stored separately (offline or versioned cloud) — you can restore files without paying."
+      },
+      {
+       "q": "What is one limit of a firewall?",
+       "a": "It filters network traffic but can't stop you from running malware you download or giving your password to a phishing site."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the one-page family cybersecurity guide; score with the rubric.",
+     "questions": [
+      {
+       "q": "Why are software updates a security measure?",
+       "a": "Updates patch known vulnerabilities attackers could exploit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 30,
+   "prep": "Help the student choose an innovation and find credible sources (major news outlets, government reports, academic or Pew Research). Prepare the Unit 7 test.",
+   "misconceptions": [
+    "Treating all effects as intended. Many important effects are unintended (e.g. ride-sharing increasing traffic congestion).",
+    "Using opinion blogs as evidence. Check author, publisher, date and evidence for credibility.",
+    "Thinking an innovation is purely good or purely bad. Most have both beneficial and harmful effects for different groups."
+   ],
+   "assessment_key": "Unit 7 test (12 items): 1) PII definition. 2) Third-party cookies track across sites. 3) CCPA right to delete. 4) Caesar 'BAD' shift 1 → 'CBE'. 5) Frequency analysis cracks substitution ciphers. 6) Public key shared/private key secret. 7) Phishing = tricking users into revealing info. 8) Ransomware encrypts files for payment. 9) MFA requires multiple factors. 10) DDoS floods a server. 11) Example beneficial and harmful effect of an innovation. 12) Unintended consequence = an outcome not planned by the creators. Mastery 10+/12. Impact essay rubric (4 levels, ~600 words): 4 = clear position on use/regulation, at least three credible cited sources, discusses data the innovation uses, benefits and harms to specific groups, intended and unintended effects, addresses a counterargument; 3 = all elements, less depth; 2 = few sources or one-sided; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "The student chooses an innovation and writes three research questions (What data does it use? Who benefits? Who is harmed?).",
+     "questions": [
+      {
+       "q": "What makes something a 'computing innovation'?",
+       "a": "An innovation that includes a program as an integral part of its function (e.g. a self-driving car, a social media app, facial recognition)."
+      }
+     ]
+    },
+    {
+     "guide": "Find three credible sources and record evidence in a notes table with citations.",
+     "questions": [
+      {
+       "q": "Name two checks for whether a source is credible.",
+       "a": "Who wrote/published it and their expertise, whether it cites evidence, and how recent it is (plus checking other sources agree)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a table of effects: intended vs. unintended and beneficial vs. harmful across social, economic and cultural life.",
+     "questions": [
+      {
+       "q": "Give an unintended effect of ride-sharing apps.",
+       "a": "Studies have found they added to traffic congestion in some cities and reduced transit ridership — not what the companies intended."
+      }
+     ]
+    },
+    {
+     "guide": "Write the 600-word essay with citations taking a position on use or regulation.",
+     "questions": [
+      {
+       "q": "What is the difference between a beneficial-intended and a harmful-unintended effect?",
+       "a": "Beneficial-intended is a planned positive outcome (e.g. faster rides); harmful-unintended is a negative outcome nobody planned (e.g. lost income for taxi drivers)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test in the assessment key.",
+     "questions": [
+      {
+       "q": "Why might generative AI raise both economic benefits and harms?",
+       "a": "It can make work faster and cheaper (benefit) but may displace some jobs, spread misinformation, or use copyrighted data without permission (harms)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 31,
+   "prep": "Create a Trinket (trinket.io) or Replit account. Prepare a short Python program with three syntax errors (missing colon, missing quote, bad indentation). Have the App Lab pet-quiz code open for comparison.",
+   "misconceptions": [
+    "Forgetting that input() returns a string. Use int() or float() before doing math.",
+    "Inconsistent indentation. Python uses indentation, not braces, to group code blocks.",
+    "Using = in a condition. Python comparisons use ==."
+   ],
+   "assessment_key": "Python practice set solutions: 1) Even/odd: n = int(input()); print(\"even\" if n % 2 == 0 else \"odd\"). 2) FizzBuzz: for i in range(1, 101): if i % 15 == 0: print(\"FizzBuzz\") elif i % 3 == 0: print(\"Fizz\") elif i % 5 == 0: print(\"Buzz\") else: print(i) (multiple of 15 must be checked first). 3) Sum to n: total = 0; for i in range(1, n + 1): total += i (n = 10 → 55). 4) Grade letter: if s >= 90 'A' elif s >= 80 'B' elif s >= 70 'C' elif s >= 60 'D' else 'F'. 5) Countdown: for i in range(10, 0, -1): print(i) then print(\"Liftoff!\"). Each program correct on 3 tests = 1 point; 5/5 mastery.",
+   "days": [
+    {
+     "guide": "Run print(\"Hello, world!\"). Then fix three syntax errors in the provided program, reading the error messages for line numbers.",
+     "questions": [
+      {
+       "q": "Fix: print(\"Hi)",
+       "a": "Add the closing quote: print(\"Hi\")."
+      },
+      {
+       "q": "What error do you get from 'if x > 3' with no colon?",
+       "a": "A SyntaxError — Python requires a colon at the end of an if line."
+      }
+     ]
+    },
+    {
+     "guide": "Write a tip calculator: bill = float(input(\"Bill: \")); tip = bill * 0.18; print(f\"Tip: ${tip:.2f}\").",
+     "questions": [
+      {
+       "q": "Why use float() around input()?",
+       "a": "input() returns a string; float() converts it to a number so you can multiply."
+      },
+      {
+       "q": "What does f\"{42.567:.2f}\" display?",
+       "a": "42.57."
+      }
+     ]
+    },
+    {
+     "guide": "Rewrite the App Lab pet-quiz logic in Python with if/elif/else; place the two versions side by side and list differences (no braces, elif, and/or keywords, colons, indentation).",
+     "questions": [
+      {
+       "q": "Translate if (a > 5 && b < 3) { … } to Python.",
+       "a": "if a > 5 and b < 3:  (then an indented block)."
+      },
+      {
+       "q": "What is Python's version of JavaScript's 'else if'?",
+       "a": "elif."
+      }
+     ]
+    },
+    {
+     "guide": "Write a number guessing game with while and random.randint(1, 100); write a times table with for i in range(1, 13).",
+     "questions": [
+      {
+       "q": "What values does range(1, 5) produce?",
+       "a": "1, 2, 3, 4 (the end value is excluded)."
+      },
+      {
+       "q": "Write a for loop printing the 7 times table up to 7 × 12.",
+       "a": "for i in range(1, 13): print(7, \"x\", i, \"=\", 7 * i)"
+      }
+     ]
+    },
+    {
+     "guide": "The student solves the five problems in the assessment key; test each with three inputs.",
+     "questions": [
+      {
+       "q": "What does 17 % 5 give in Python?",
+       "a": "2."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 32,
+   "prep": "Find the CS50x lecture for the Python week (cs50.harvard.edu/x) and choose a 20–30 minute segment on functions and lists. Ensure Trinket/Replit supports multiple files for the module.",
+   "misconceptions": [
+    "Python lists are 0-indexed and slicing excludes the end index: scores[1:3] gives items at index 1 and 2.",
+    "Printing inside a function instead of returning, so the result can't be reused.",
+    "Forgetting to import the module (import mymodule) or calling functions without the module prefix."
+   ],
+   "assessment_key": "Mini-project rubric (4 levels): 4 = uses a list, a loop and at least two well-named functions with parameters/return values stored in a separate module that is imported; runs correctly on test inputs; student clearly explains how the functions decompose the problem; 3 = works, explanation weak or functions in the same file; 2 = missing list, loop or functions; 1 = doesn't run.",
+   "days": [
+    {
+     "guide": "Create scores = [88, 92, 75, 100]; practice append, len, and slicing; traverse to find max and average without built-ins, then compare with max() and sum()/len().",
+     "questions": [
+      {
+       "q": "For scores = [88, 92, 75, 100], what is the average?",
+       "a": "355 ÷ 4 = 88.75."
+      },
+      {
+       "q": "What is scores[1:3]?",
+       "a": "[92, 75]."
+      }
+     ]
+    },
+    {
+     "guide": "Write to_fahrenheit(c) and is_vowel(ch) with def and return; test each with three inputs.",
+     "questions": [
+      {
+       "q": "What does to_fahrenheit(37) return using c * 9/5 + 32?",
+       "a": "98.6 (Python may show 98.60000000000001 due to round-off)."
+      },
+      {
+       "q": "Write is_vowel.",
+       "a": "def is_vowel(ch): return ch.lower() in \"aeiou\""
+      }
+     ]
+    },
+    {
+     "guide": "Watch the CS50 segment; the student notes two ideas that match App Lab (e.g. functions = procedures with parameters; lists and loops = traversal).",
+     "questions": [
+      {
+       "q": "Name one way Python functions are like App Lab functions.",
+       "a": "Both take parameters, can return values, and let you name and reuse a block of code (procedural abstraction)."
+      }
+     ]
+    },
+    {
+     "guide": "Build the mini project with functions in a separate module (e.g. grades.py) imported into main.py.",
+     "questions": [
+      {
+       "q": "Why put functions in a separate module?",
+       "a": "It organizes code, lets the functions be reused in other programs, and keeps the main program short and readable."
+      }
+     ]
+    },
+    {
+     "guide": "The student demos the project and explains the decomposition; score with the rubric.",
+     "questions": [
+      {
+       "q": "How does decomposition help a larger program?",
+       "a": "Each function handles one subproblem, so it can be written, tested and fixed independently."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 33,
+   "prep": "Read the current AP CSP Create performance task requirements and scoring guidelines (AP Central / AP Students site), since the exact format can change year to year. Print the checklist.",
+   "misconceptions": [
+    "Choosing a project too big to finish. Favor a simple program that clearly uses a list and a procedure.",
+    "Using a list that isn't necessary (e.g. storing one value). The list must manage complexity — the program would be harder to write without it.",
+    "Writing a procedure without a parameter that affects its behavior, or without sequencing, selection and iteration."
+   ],
+   "assessment_key": "Plan checklist review — the plan passes when it includes: [ ] program purpose and intended user; [ ] input from the user (or other source); [ ] a list that stores data and is used to fulfill the purpose; [ ] a student-developed procedure with at least one parameter that affects its functionality; [ ] an algorithm inside the procedure that includes sequencing, selection and iteration; [ ] a call to the procedure; [ ] output based on input and program functionality; [ ] UI sketch with user feedback noted. Missing items must be revised before Week 34.",
+   "days": [
+    {
+     "guide": "Read the Create task requirements together and build the checklist from them.",
+     "questions": [
+      {
+       "q": "What must the student-developed procedure include?",
+       "a": "At least one parameter that affects its functionality, and an algorithm that includes sequencing, selection and iteration."
+      }
+     ]
+    },
+    {
+     "guide": "Brainstorm five program ideas for a real user; score each on purpose, feasibility and how naturally it uses a list (e.g. quiz app with a list of questions, workout planner, recipe filter).",
+     "questions": [
+      {
+       "q": "Why is a 'quiz app with a list of questions' a good fit?",
+       "a": "The list naturally stores many questions, and a procedure can loop through it and check answers with conditionals."
+      }
+     ]
+    },
+    {
+     "guide": "Write the plan: purpose, the list and what it manages, the procedure in pseudocode.",
+     "questions": [
+      {
+       "q": "How would your program be different without the list?",
+       "a": "A strong answer: it would need many separate variables and repeated code, and couldn't easily grow — showing the list manages complexity."
+      }
+     ]
+    },
+    {
+     "guide": "Sketch UI screens and walk a user through them; record feedback.",
+     "questions": [
+      {
+       "q": "What feedback is most useful at this stage?",
+       "a": "Where the user is confused about what to do next or what the output means."
+      }
+     ]
+    },
+    {
+     "guide": "Review the plan against the checklist in the assessment key; revise missing items.",
+     "questions": [
+      {
+       "q": "Which three programming constructs must appear in the procedure's algorithm?",
+       "a": "Sequencing, selection (if) and iteration (loop)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 34,
+   "prep": "Set up a development log (date, what was done, problems, next steps). Arrange a peer reviewer (co-op, online CS community or local programming club) and a shared doc for feedback.",
+   "misconceptions": [
+    "Coding everything before testing. Develop incrementally: add one feature, test, then add the next.",
+    "Testing only 'happy path' inputs. Include edge cases: empty input, very large numbers, no matches.",
+    "Getting too much help from others on the code. The College Board requires the program's code and written work be the student's own; collaborators' or AI help must follow current AP rules and be acknowledged."
+   ],
+   "assessment_key": "Development log rubric: 4 = dated entries every day describing progress, bugs and fixes; screens, list and procedure all working; at least four test cases (including two edge cases) with expected vs. actual and fixes; peer feedback recorded with a response; 3 = all parts, fewer details; 2 = missing tests or log entries; 1 = incomplete. Sample proficient test case: input = empty text box; expected = 'Please enter a value'; actual = crashed → fixed by adding a check.",
+   "days": [
+    {
+     "guide": "Build screens and event handlers; log progress.",
+     "questions": [
+      {
+       "q": "What's the difference between iterative and incremental development?",
+       "a": "Iterative: repeatedly refining the whole program through cycles of feedback and testing. Incremental: building it in small working pieces, adding one feature at a time."
+      }
+     ]
+    },
+    {
+     "guide": "Code the list and display it to verify it's populated correctly.",
+     "questions": [
+      {
+       "q": "How can you check your list is populated correctly?",
+       "a": "Display or console.log the list and its length and compare to the expected data."
+      }
+     ]
+    },
+    {
+     "guide": "Write the procedure with a parameter, using sequencing, selection and iteration; call it from an event.",
+     "questions": [
+      {
+       "q": "Point to the selection and iteration in your procedure.",
+       "a": "Answers vary; e.g. the FOR EACH loop through the list (iteration) and the IF that checks each item against the parameter (selection)."
+      }
+     ]
+    },
+    {
+     "guide": "Write and run at least four test cases, including edge cases; record expected vs. actual.",
+     "questions": [
+      {
+       "q": "Give an edge case for a program that filters a list by a user's choice.",
+       "a": "A choice that matches no items, or matches every item; also empty input."
+      }
+     ]
+    },
+    {
+     "guide": "Share the program with a peer; give and receive feedback in a shared document.",
+     "questions": [
+      {
+       "q": "How should you respond to peer feedback?",
+       "a": "Record it, decide which suggestions improve the program for users, and note what you changed and why."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 35,
+   "prep": "Install or locate a screen recorder (built into Windows: Xbox Game Bar Win+G; Mac: Shift-Cmd-5; or a browser tool). Re-read the current Create task video and Personalized Project Reference (PPR) requirements on the College Board site.",
+   "misconceptions": [
+    "Video too long or with voice narration. The video must be 1 minute or less and must not contain voice narration (captions are allowed) and must not show personally identifying information.",
+    "Including comments in the PPR code segments. The PPR code segments must not include comments.",
+    "Forgetting to acknowledge others' code or media. Any code or media from others must be cited in code comments."
+   ],
+   "assessment_key": "Create task self-score (current College Board rubric): check each row — program purpose and function demonstrated in the video (input, functionality, output); data abstraction (list stores data and is used); managing complexity (list makes the program simpler); procedural abstraction (procedure with parameter, called); algorithm implementation (sequencing, selection and iteration in the procedure); testing (two calls with different arguments producing different results). Proficient submission: video ≤ 1 minute, no narration, no PII; PPR includes list creation, list use, procedure definition and a call, no comments; written-response practice answers name exactly how the list and procedure work.",
+   "days": [
+    {
+     "guide": "Two users test the program; note usability and accessibility problems (text size, contrast, unclear instructions); prioritize fixes.",
+     "questions": [
+      {
+       "q": "Name one accessibility improvement for an app.",
+       "a": "Larger text and high color contrast, clear labels on buttons, not relying on color alone, alt text for images."
+      }
+     ]
+    },
+    {
+     "guide": "Fix top issues, add code comments, and add acknowledgments with license attribution for any outside code or media.",
+     "questions": [
+      {
+       "q": "How should you acknowledge an image you used from another source?",
+       "a": "In a code comment: the source/author, URL and license (e.g. 'Image: \"Cat\" by J. Doe, CC BY 2.0, via Openverse')."
+      }
+     ]
+    },
+    {
+     "guide": "Record a 1-minute-or-less video showing input, functionality and output (no voice, no PII).",
+     "questions": [
+      {
+       "q": "What must the video show?",
+       "a": "Input to the program, at least one aspect of the program's functionality, and output produced."
+      }
+     ]
+    },
+    {
+     "guide": "Capture list and procedure code segments in the PPR (no comments) and practice the written-response prompts.",
+     "questions": [
+      {
+       "q": "Practice: explain how your program would be written differently without the list.",
+       "a": "A proficient answer describes the specific data, says it would require separate variables for each item and repeated code, and explains it couldn't handle more items without rewriting."
+      }
+     ]
+    },
+    {
+     "guide": "Submit the code, video and PPR (to AP Digital Portfolio if registered) and self-score with the rubric.",
+     "questions": [
+      {
+       "q": "What does it mean that your procedure's parameter 'affects functionality'?",
+       "a": "Calling the procedure with different arguments produces different behavior or results."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 36,
+   "prep": "Use Khan Academy AP CSP unit tests and College Board released/practice questions. Build or obtain a 70-question practice exam (AP Classroom if registered) and a cumulative final (e.g. 40 questions covering the five big ideas).",
+   "misconceptions": [
+    "Rushing pseudocode traces in your head. Write a trace table for every variable.",
+    "Missing 'NOT' or 'all of the following EXCEPT' wording. Underline negatives in the question.",
+    "Over-studying favorite topics. Use the error analysis to focus on the weakest big idea."
+   ],
+   "assessment_key": "Practice exam: score with the answer key that accompanies the source (AP scaled scores roughly track 60–70%+ correct for a 4–5). Final exam representative items and answers: 1) 10011₂ = 19. 2) 2^7 = 128 patterns from 7 bits. 3) Overflow vs. round-off examples. 4) Lossless for text, lossy for streaming. 5) DNS maps names to IPs. 6) Fault tolerance through redundancy. 7) L ← [2, 5, 8]; APPEND(L, 1); L[4] → 1. 8) x ← 3; REPEAT 3 TIMES { x ← x * 2 } → 24. 9) Binary search requires sorted list; 1,000 items → at most 10 checks. 10) 2ⁿ is unreasonable time. 11) Public-key: share public, keep private. 12) Phishing defense: check sender and links. 13) Bias from unrepresentative training data. 14) Citizen science / crowdsourcing definition. 15) Copyright vs. Creative Commons. Mastery 80%+. Reflection: full credit for specific growth examples (a bug they learned to fix, a concept that clicked).",
+   "days": [
+    {
+     "guide": "Do Khan Academy practice on binary, compression, the internet and fault tolerance; correct every error.",
+     "questions": [
+      {
+       "q": "Why can't lossy compression be reversed?",
+       "a": "It permanently removes data, so the original can't be reconstructed."
+      }
+     ]
+    },
+    {
+     "guide": "Trace 20 AP pseudocode problems on lists, loops, procedures and Boolean logic.",
+     "questions": [
+      {
+       "q": "L ← [3, 6, 9]; total ← 0; FOR EACH n IN L { IF n > 4 { total ← total + n } }. Final total?",
+       "a": "15 (6 + 9)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the timed 70-question practice exam (120 minutes) under test conditions.",
+     "questions": [
+      {
+       "q": "How many minutes per question does 120 minutes for 70 questions allow?",
+       "a": "About 1.7 minutes (≈ 1 minute 43 seconds) per question."
+      }
+     ]
+    },
+    {
+     "guide": "Categorize missed questions by big idea (Creative Development, Data, Algorithms and Programming, Computer Systems and Networks, Impact of Computing) and redo each with an explanation.",
+     "questions": [
+      {
+       "q": "Name the five AP CSP big ideas.",
+       "a": "Creative Development, Data, Algorithms and Programming, Computer Systems and Networks, Impact of Computing."
+      }
+     ]
+    },
+    {
+     "guide": "Give the cumulative final and have the student write a short reflection on growth as a programmer.",
+     "questions": [
+      {
+       "q": "x ← 3; REPEAT 3 TIMES { x ← x * 2 }. Final x?",
+       "a": "24."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
