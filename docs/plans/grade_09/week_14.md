@@ -43,7 +43,7 @@
 - [ ] **World Geography (S1) & Ethnic Studies (S2)** — *Smartphone supply chain* (50 min): Research where a phone's cobalt, chips, and assembly come from and draw the chain with distances.
 - [ ] **Spanish II** — *Restaurant role-play* (50 min): Role-play ordering a full meal with a family member as server.
 - [ ] **Visual Art I** — *Emphasis* (50 min): Make a composition that uses contrast to create a focal point.
-- [ ] **PE 9 (Course 1)** — *Korean or Filipino dance* (50 min): Learn basic steps of Tinikling (with sticks or tape lines).
+- [ ] **PE 9 (Course 1)** — *Filipino folk dance* (50 min): Learn basic steps of Tinikling (with sticks or tape lines).
 - [ ] **Health & Wellness** — *Tolerance and dependence* (45 min): Create a flowchart showing the progression from use to tolerance, dependence and addiction.
 
 ## Day 4 — Thursday (school day 69, ~425 min)

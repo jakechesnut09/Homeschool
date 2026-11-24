@@ -50,8 +50,8 @@ Teams succeed by creating and denying space together.
 
 - Week 19: Soccer skills
 - Week 20: Soccer tactics
-- Week 21: Ultimate (flying disc)
-- Week 22: Flag football or team handball
+- Week 21: Flag football or team handball
+- Week 22: Invasion games tournament and review
 - Week 23: Invasion games assessment
 
 ### Unit 7: Dance and Rhythmic Activities (weeks 24–26)

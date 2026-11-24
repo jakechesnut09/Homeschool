@@ -52,7 +52,7 @@
 - [ ] **Algebra II** — *Rewriting* (60 min): Use long division to rewrite (2x+3)/(x−1) as 2 + 5/(x−1) and interpret the graph.
 - [ ] **Physics of the Universe** — *Power* (60 min): Calculate electrical power and energy cost of home appliances from labels.
 - [ ] **U.S. History & Geography: Continuity and Change in the Twentieth Century** — *Repatriation* (60 min): Learn about Mexican repatriation in the 1930s.
-- [ ] **Spanish IV** — *Murales en California* (50 min): Explore murals in San Francisco's Mission District or East LA (Judy Baca's Great Wall) online and describe one.
+- [ ] **Spanish IV** — *Murales en California* (50 min): Explore murals in San Francisco's Mission District, East LA, or Judy Baca's Great Wall of Los Angeles in the San Fernando Valley online and describe one.
 - [ ] **Theatre & Performing Arts** — *Insults & sonnets* (50 min): Perform a sonnet with attention to rhythm.
 - [ ] **Lifetime Fitness** — *Full practice* (45 min): Complete a 40-minute guided yoga practice.
 - [ ] **Introduction to Engineering Design (CTE)** — *Interference* (55 min): Check for interference and fix problems.

@@ -10,7 +10,7 @@
 | Modern World History | World War II and the Holocaust | The Holocaust | 10.8.5, HSS-AC |
 | Spanish III | El arte y la literatura | El cuento: un cuento corto | WL-COMM1-IM, WL-COMM3-IM, WL-STRUC1-IL |
 | Music & Media Arts | Media Arts Foundations: Image and Design | Copyright, fair use and media ethics | MA:Re8.1.HSP, MA:Cn11.1.HSP |
-| PE 10 (Course 2) | Team Activities: Invasion Games | Flag football or team handball | PE-HS2-1.8, PE-HS2-3.1 |
+| PE 10 (Course 2) | Team Activities: Invasion Games | Invasion games tournament and review | PE-HS2-1.8, PE-HS2-3.1 |
 | Driver Education (S1) & First Aid/CPR + Health II (S2) | First Aid, CPR and AED | Injuries and sudden illness | H-HS.1.9.S, H-HS.7.2.S |
 | Computer Science Principles | Functions, Libraries and Algorithms | Unsolvable problems, heuristics and parallel computing | 9-12.CS.2, 9-12.AP.12, 9-12.IC.25 |
 
@@ -114,8 +114,9 @@
 - Materials: Creative Commons website
 - Assessment: Quiz.
 
-### PE 10 (Course 2): Flag football or team handball
-- Objective: Apply invasion-game strategy in a new sport
+### PE 10 (Course 2): Invasion games tournament and review
+- Objective: Apply soccer and ultimate strategy in tournament play
+- Objective: Review rules and principles for the unit test
 - Vocabulary: route, zone defense, fast break
 - Materials: football or handball, flags
 - Assessment: Written test and game-play observation checklist.

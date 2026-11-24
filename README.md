@@ -10,7 +10,7 @@ A complete, standards-aligned homeschool curriculum for **1st through 12th grade
 - **Legal paperwork:** what to file, what to keep on file, and the legal basis for each, for every
   legal way to homeschool in California.
 
-**At a glance:** 90 courses · 830 units · 3,240 weekly plans · 16,200 daily lessons · 3,067 CA standards referenced · 315 free resources · 26 funding programs · 26 paperwork items.
+**At a glance:** 90 courses · 830 units · 3,240 weekly plans · 16,200 daily lessons · 3,067 CA standards referenced · 315 free resources · 26 funding programs · 26 paperwork items · **teacher's guides for all 90 courses with 20,940 answered questions**.
 
 Everything is in one SQLite file, **`homeschool.db`**. The same plans are also exported as
 readable Markdown in **[`docs/plans/`](docs/plans/README.md)**, so you can browse them on GitHub without any software.
@@ -74,6 +74,28 @@ changes. One-time setup:
 
 The site will be at **https://jakechesnut09.github.io/Homeschool/**. The app's "on GitHub" buttons
 point at the repository's `main` branch, so visitors can open them only if the repository is public.
+
+## Teacher's guides (with answers)
+
+Every course has a teacher's edition in `data/teacher/grade_XX/<SUBJECT>.json` that follows the student
+lessons day by day. It is written for parents teaching at home:
+
+- **Each week:** what to prepare (including parental-preview notes for sensitive health or literature
+  content), common misconceptions and how to correct them, and the **answer key or rubric** for the
+  week's assessment.
+- **Each day:** step-by-step "how to teach" notes and 1–3 check-for-understanding questions **with answers**.
+
+Ways to use them:
+
+- Web app: open any course week to see the teacher's guide (answers are hidden behind "Show answer"),
+  or switch on **Teacher view** on a grade's week page to see guides under every lesson.
+- Printable: `docs/teacher/grade_XX/week_XX.md`.
+- Command line: `python3 scripts/plan.py teacher --grade 6 --week 3 [--subject MATH]`.
+- Database: tables `teacher_course_notes`, `teacher_weeks`, `teacher_days`, `teacher_questions`, and the
+  view `v_teacher_guide`.
+
+Some answers involve figures that change yearly (tax brackets, minimum wage, DMV and aid deadlines);
+the guides name the year used and point to the official source. Check those before teaching.
 
 ## What each grade covers
 
@@ -212,6 +234,7 @@ The database is generated from human-editable JSON. Do not edit `homeschool.db` 
 ```
 data/
   curriculum/grade_01 … grade_12/<SUBJECT>.json   # one file per course (units, weeks, days)
+  teacher/grade_01 … grade_12/<SUBJECT>.json      # teacher's guides with answers
   reference/resources.json  funding.json  paperwork.json  legal_options.json
   SCHEMA.md        # JSON format
   COURSE_PLAN.md   # course list and standards conventions per grade
@@ -229,7 +252,7 @@ web/
 After editing, run:
 
 ```bash
-python3 scripts/validate.py && python3 scripts/build_db.py && python3 scripts/plan.py export && python3 scripts/build_web.py
+python3 scripts/validate.py && python3 scripts/validate_teacher.py && python3 scripts/build_db.py && python3 scripts/plan.py export && python3 scripts/build_web.py
 ```
 
 ## Tips for using the plans

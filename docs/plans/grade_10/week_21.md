@@ -10,7 +10,7 @@
 | Modern World History | World War II and the Holocaust | The course of World War II | 10.8.3, 10.8.4 |
 | Spanish III | El arte y la literatura | La poesía | WL-COMM1-IM, WL-COMM3-IL, WL-CULT2-IL |
 | Music & Media Arts | Media Arts Foundations: Image and Design | Graphic design and typography | MA:Cr2.1.HSP, MA:Cr3.1.HSP, MA:Pr4.1.HSP |
-| PE 10 (Course 2) | Team Activities: Invasion Games | Ultimate (flying disc) | PE-HS2-1.8, PE-HS2-3.2 |
+| PE 10 (Course 2) | Team Activities: Invasion Games | Flag football or team handball | PE-HS2-1.8, PE-HS2-3.2 |
 | Driver Education (S1) & First Aid/CPR + Health II (S2) | First Aid, CPR and AED | Choking and child/infant CPR | H-HS.1.9.S, H-HS.7.2.S |
 | Computer Science Principles | Functions, Libraries and Algorithms | Searching and algorithm efficiency | 9-12.AP.12, 9-12.IC.25 |
 
@@ -117,8 +117,8 @@
 - Materials: free design tool (Canva or Photopea)
 - Assessment: Album cover.
 
-### PE 10 (Course 2): Ultimate (flying disc)
-- Objective: Throw and catch a disc; play ultimate
+### PE 10 (Course 2): Flag football or team handball
+- Objective: Apply invasion-game strategy in a new sport (flag football or team handball)
 - Vocabulary: backhand, forehand flick, stall count, spirit of the game
 - Materials: flying disc, cones
 - Assessment: Spirit score and skills.
