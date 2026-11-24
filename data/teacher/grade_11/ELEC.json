@@ -1,0 +1,2259 @@
+{
+ "grade": 11,
+ "subject": "ELEC",
+ "overview": "Introduction to Engineering Design is taught in 55-minute, hands-on lessons: a short demonstration, guided practice, then the student builds, sketches or models while recording everything in a bound engineering notebook. Free tools carry the course (Onshape for Education and Tinkercad for CAD, TeachEngineering activities), so a parent without an engineering background can teach by following the steps and worked answers here and asking the student to explain each decision. Insist on safety glasses and safe tool habits, measurable criteria and repeated trials, and finish the year with a nine-week capstone project (weeks 28–36) with a real user that ends in a technical report, portfolio and panel presentation.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Buy a bound grid-paper notebook (pages numbered, not spiral) and a pen. Bookmark the Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) for career data. Find a short video interview with a practicing engineer (e.g. 'Engineer Your Life', TryEngineering or a company career video), or arrange a call with an engineer you know.",
+   "misconceptions": [
+    "Thinking engineers mostly fix engines or only do math. Engineers design solutions to problems — products, structures, systems, processes — and spend much of their time communicating and testing.",
+    "Treating the engineering notebook like a scratch pad. It is a legal, permanent record: bound, numbered pages, dated entries in pen, mistakes crossed out with one line (not erased), and no torn-out pages.",
+    "Confusing science and engineering. Scientists ask 'why does this happen?'; engineers use that knowledge to ask 'how can we make something that solves this problem?'"
+   ],
+   "assessment_key": "Notebook format check (pass when all present): numbered pages; table of contents on the first pages; each entry dated and titled; written in pen; errors struck through with a single line and initialed; blank space crossed out; entries signed (and witnessed on key pages). Career reflection rubric (300 words, 4 levels): 4 = compares at least two disciplines using the researched data (typical tasks, education — usually a bachelor's degree in engineering — and salary), connects to the student's interests and takeaways from the engineer interview, and names a next step; 3 = data and personal connection but little comparison; 2 = general opinions with little evidence; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Have the student research five disciplines in the Occupational Outlook Handbook, filling a table: what they design, typical education (bachelor's in that engineering field; licensure as a PE later for some), median pay, and a California employer (e.g. mechanical — Tesla; civil — Caltrans; electrical — PG&E; biomedical — Medtronic or Edwards Lifesciences; industrial — a manufacturing plant or Amazon fulfillment). Discuss which surprised them.",
+     "questions": [
+      {
+       "q": "What does a civil engineer design? A biomedical engineer?",
+       "a": "Civil: infrastructure such as roads, bridges, water systems and buildings. Biomedical: medical devices, equipment and technologies, such as prosthetics, implants and imaging machines."
+      },
+      {
+       "q": "What education do most engineering jobs require?",
+       "a": "A bachelor's degree in an engineering field (usually ABET-accredited); some roles require a Professional Engineer (PE) license or a graduate degree."
+      }
+     ]
+    },
+    {
+     "guide": "Model the notebook rules: write the table of contents on pages 1–2, number every page, date and title each entry, use pen, cross out mistakes with one line, and sign at the bottom. Have the student set it up and make the first entry (today's career table).",
+     "questions": [
+      {
+       "q": "Why must an engineering notebook be bound, in pen, with no torn-out pages?",
+       "a": "It is a permanent, trustworthy record of the design process and can serve as evidence of when ideas were created (for patents or legal disputes)."
+      },
+      {
+       "q": "How do you correct a mistake in the notebook?",
+       "a": "Draw a single line through it so it's still readable, and initial/date it — never erase or white it out."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student read about one innovation — e.g. the Golden Gate Bridge (opened 1937; chief engineer Joseph Strauss with key design work by Charles Ellis and Leon Moisseiff) or the iPhone (2007) — and summarize the problem, constraints and solution in the notebook.",
+     "questions": [
+      {
+       "q": "What problem did the Golden Gate Bridge solve, and what made it hard?",
+       "a": "It connected San Francisco to Marin County across the Golden Gate strait, replacing slow ferries; challenges included strong currents, deep water, fog, high winds and earthquakes."
+      },
+      {
+       "q": "What problem did the original iPhone address?",
+       "a": "Combining a phone, music player and internet device into one easy-to-use touchscreen device, replacing small physical keyboards."
+      }
+     ]
+    },
+    {
+     "guide": "Watch the interview (or hold one). The student records five takeaways, focusing on what the engineer does day to day and how they got there.",
+     "questions": [
+      {
+       "q": "What is one skill besides math and science that engineers say they use daily?",
+       "a": "Communication — writing, presenting and teamwork (also problem solving and project management)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the 300-word reflection; check the notebook format against the list in the assessment key and score the reflection with the rubric.",
+     "questions": [
+      {
+       "q": "Which engineering discipline interests you most, and why?",
+       "a": "Answers vary; a strong answer cites specific tasks and data from the week's research."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "prep": "Gather printer paper (e.g. 10 sheets), tape (limit to 30 cm), scissors, about 200 pennies and a small cup. Set two books 20 cm apart as bridge supports. Copy a decision matrix template into the notebook.",
+   "misconceptions": [
+    "Thinking the design process is a straight line. Real design loops back — testing often sends you back to research or ideation.",
+    "Mixing up criteria and constraints. Criteria are goals used to judge success (holds the most pennies); constraints are limits (span 20 cm, only 10 sheets).",
+    "Picking a favorite idea before evaluating. Use the decision matrix honestly; it's a tool to compare against the criteria, not to justify a choice already made."
+   ],
+   "assessment_key": "Paper bridge challenge rubric (4 levels): 4 = design brief states problem, criteria and constraints; five sketches; decision matrix with weighted criteria; build meets all constraints; load test recorded in a data table (pennies held before failure, failure location); redesign based on observed failure; reflection explains what changed and why the result improved or not; 3 = all parts, reflection thin; 2 = missing matrix or redesign; 1 = incomplete. Load results are not graded on size — process documentation is.",
+   "days": [
+    {
+     "guide": "Teach the steps: define the problem, research, ideate (brainstorm), select, prototype, test, iterate, communicate. Have the student draw it as a cycle with arrows back from 'test' to earlier steps.",
+     "questions": [
+      {
+       "q": "Why is the design process drawn as a cycle?",
+       "a": "Testing reveals problems, so engineers loop back to redesign and improve (iterate) rather than finishing after one try."
+      },
+      {
+       "q": "What happens in the 'define' step?",
+       "a": "The problem is clearly stated, including who it's for, the criteria for success, and constraints."
+      }
+     ]
+    },
+    {
+     "guide": "Model a design brief: client, problem statement, criteria (e.g. holds as many pennies as possible at midspan; uses fewest sheets), constraints (spans a 20 cm gap, only paper and 30 cm of tape, built in 30 minutes). The student writes their own.",
+     "questions": [
+      {
+       "q": "Is 'must span 20 cm' a criterion or a constraint?",
+       "a": "A constraint — it's a required limit."
+      },
+      {
+       "q": "Write one criterion for the bridge.",
+       "a": "Example: holds the most pennies in a cup at the center before collapsing (or uses the least paper)."
+      }
+     ]
+    },
+    {
+     "guide": "Set a 15-minute timer for five quick sketches (folded beams, tubes, arches, trusses). Then build a decision matrix: criteria in rows (strength, material use, ease of building), score 1–5, multiply by weights, total.",
+     "questions": [
+      {
+       "q": "Idea A scores 4 strength (weight 3) and 2 ease (weight 1); Idea B scores 3 strength and 5 ease. Which wins?",
+       "a": "A: 4×3 + 2×1 = 14; B: 3×3 + 5×1 = 14 — a tie; break it with another criterion or reconsider weights."
+      },
+      {
+       "q": "Why does folding paper into a channel or tube make it stronger?",
+       "a": "Folding moves material away from the center (neutral axis), increasing stiffness in bending — the same reason I-beams work."
+      }
+     ]
+    },
+    {
+     "guide": "Build, place the cup at midspan, and add pennies one at a time until failure. Record the count and where/how it failed.",
+     "questions": [
+      {
+       "q": "Why record how the bridge failed, not just how many pennies it held?",
+       "a": "The failure mode (buckling, tearing, slipping off supports) tells you what to improve in the redesign."
+      }
+     ]
+    },
+    {
+     "guide": "The student redesigns once to fix the failure, retests and writes a reflection; score with the rubric in the assessment key.",
+     "questions": [
+      {
+       "q": "Your bridge sagged in the middle and folded. What redesign might help?",
+       "a": "Increase stiffness at midspan — e.g. deeper folds, a tube or truss shape, or an arch — so it resists bending."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "prep": "Get safety glasses for everyone, 20 sticks of uncooked spaghetti, 1 m of tape, 1 m of string and one marshmallow per team, and a timer (18 minutes). Print a shop-safety list. Prepare the safety quiz and Unit 1 quiz from the key below.",
+   "misconceptions": [
+    "Thinking safety glasses are only needed for power tools. Wear eye protection whenever cutting, snapping, hammering, drilling, hot gluing or working near someone who is.",
+    "Planning so long that there's no time to build. The marshmallow challenge shows that early prototyping and testing beat one big final attempt.",
+    "Writing test procedures that are vague ('test if it is strong'). Procedures must be repeatable: exact steps, tools, measurements and number of trials."
+   ],
+   "assessment_key": "Safety quiz (pass = 100%, retake missed items): 1) Safety glasses must be worn whenever tools are used or anything can fly. 2) Tie back long hair, remove dangling jewelry, no loose sleeves. 3) Cut away from your body, using a cutting mat. 4) Report any injury immediately. 5) Unplug tools before changing blades/bits. 6) Know where the first-aid kit is. Unit 1 quiz: 1) Steps of the design process in order (define, research, ideate, select, prototype, test, iterate, communicate). 2) Criteria = measurable goals; constraints = limits. 3) A design brief states client, problem, criteria and constraints. 4) Decision matrix compares ideas against weighted criteria. 5) Notebook rules (bound, dated, pen, single-line cross-outs). 6) Name two engineering disciplines and what they design. 7) A Gantt chart shows tasks against a timeline. 8) PPE = personal protective equipment. Score 7–8 = mastery.",
+   "days": [
+    {
+     "guide": "Go over shop rules: PPE (safety glasses, closed-toe shoes, gloves when appropriate), tidy workspace, tool handling (cut away from body, carry tools pointed down), first-aid location. Give the safety quiz.",
+     "questions": [
+      {
+       "q": "What does PPE stand for? Give two examples.",
+       "a": "Personal protective equipment — e.g. safety glasses, gloves, hearing protection, closed-toe shoes."
+      },
+      {
+       "q": "Which direction should you cut with a craft knife?",
+       "a": "Away from your body and hands, on a cutting mat, keeping fingers behind the blade."
+      }
+     ]
+    },
+    {
+     "guide": "Run the marshmallow challenge: 18 minutes to build the tallest free-standing tower with the marshmallow on top. Afterward discuss roles, communication and why testing early matters.",
+     "questions": [
+      {
+       "q": "Why do kindergartners often beat business students at the marshmallow challenge?",
+       "a": "They build and test small prototypes quickly and adjust, rather than planning one perfect tower and discovering at the end that the marshmallow's weight makes it collapse."
+      },
+      {
+       "q": "What is the 'hidden assumption' that sinks many teams?",
+       "a": "That the marshmallow is light; it's actually heavy enough to make tall spaghetti structures buckle."
+      }
+     ]
+    },
+    {
+     "guide": "Show a Gantt chart: tasks listed down the side, time across the top, bars for task duration, and dependencies. The student makes one for a hypothetical project (e.g. building a birdhouse in 3 weeks).",
+     "questions": [
+      {
+       "q": "What does a Gantt chart show?",
+       "a": "Each task as a bar across a timeline showing when it starts and ends, the order of tasks and dependencies."
+      },
+      {
+       "q": "What is a dependency?",
+       "a": "A task that can't start until another task is finished (e.g. painting must wait until assembly is done)."
+      }
+     ]
+    },
+    {
+     "guide": "Model a repeatable test procedure: numbered steps, equipment, what is measured, number of trials, and an empty data table with units. The student writes one for testing a paper bridge.",
+     "questions": [
+      {
+       "q": "What makes a test procedure 'repeatable'?",
+       "a": "Anyone could follow the exact steps with the same equipment and get comparable results — steps, measurements, units and number of trials are specified."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 quiz in the assessment key.",
+     "questions": [
+      {
+       "q": "Put in order: test, define, prototype, ideate.",
+       "a": "Define, ideate, prototype, test."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "prep": "Gather grid paper, soft pencils (HB/2H), and an eraser. Choose 3–4 household objects with simple shapes (mug, box, tape dispenser, stapler).",
+   "misconceptions": [
+    "Pressing hard on construction lines. Construction lines should be light so they can be left or erased; darken only final object lines.",
+    "Drawing lines by moving only the wrist. Move the whole arm and use short, overlapping strokes for straighter lines.",
+    "Guessing size instead of comparing. Use the pencil as a measuring stick to compare proportions (e.g. the mug is 1½ times as tall as wide)."
+   ],
+   "assessment_key": "Sketch portfolio rubric (4 levels): 4 = clean line practice sheet (straight lines, light construction lines, dark object lines); circles/arcs built from boxes and diagonals; household objects in correct proportion (within about 10% by eye); 10 thumbnails showing different views; all labeled and dated; 3 = mostly accurate with some uneven lines; 2 = proportions noticeably off or missing parts; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Demonstrate light construction lines versus dark object lines. Have the student fill a page with horizontal, vertical and angled lines, marking endpoints first and sketching between them.",
+     "questions": [
+      {
+       "q": "What's the difference between a construction line and an object line?",
+       "a": "Construction lines are light guidelines used to lay out the sketch; object lines are dark, thick lines showing the visible edges of the object."
+      },
+      {
+       "q": "Tip for drawing a long straight line freehand?",
+       "a": "Mark both endpoints, keep your eye on the end point, and use your whole arm in light overlapping strokes."
+      }
+     ]
+    },
+    {
+     "guide": "Show the box method: draw a square, its diagonals and center lines, mark the radius on each line, then connect with arcs. Practice circles and arcs of different sizes.",
+     "questions": [
+      {
+       "q": "How do you sketch a circle using a box?",
+       "a": "Draw a light square the size of the diameter, add diagonals and center lines, mark points at the radius along them, then connect the points with smooth arcs."
+      }
+     ]
+    },
+    {
+     "guide": "Teach proportion: hold a pencil at arm's length to compare an object's height to its width. Sketch 3–4 household objects in proportion.",
+     "questions": [
+      {
+       "q": "A mug is 10 cm tall and 8 cm wide. If your sketch is 5 cm tall, how wide should it be?",
+       "a": "4 cm (scale factor 0.5)."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student make 10 small, quick 'thumbnail' sketches of one object from different angles (front, top, side, angled views).",
+     "questions": [
+      {
+       "q": "What is the purpose of thumbnail sketches?",
+       "a": "Quickly explore views and ideas without detail, to decide which view or design is best to develop further."
+      }
+     ]
+    },
+    {
+     "guide": "Collect the sketch portfolio and score with the rubric in the assessment key; have the student redo the weakest sketch.",
+     "questions": [
+      {
+       "q": "Which sketch in your portfolio best shows correct proportion, and how do you know?",
+       "a": "Answers vary; a strong answer cites a measured comparison (e.g. height-to-width ratio matches the object)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "prep": "Get isometric grid paper (printable free online), wooden blocks or LEGO, and a coffee mug. Practice the four-center ellipse once yourself.",
+   "misconceptions": [
+    "Drawing isometric receding lines at 45°. Isometric axes are vertical plus two lines at 30° from horizontal (all three 120° apart).",
+    "Drawing circles as circles on isometric faces. Circles on isometric faces appear as ellipses.",
+    "Drawing full depth in cabinet oblique. Cabinet oblique uses half depth along the receding axis; cavalier uses full depth (which looks too deep)."
+   ],
+   "assessment_key": "Pictorial sketch quiz rubric (each sketch scored 0–4): isometric — 4 = correct 30° axes, all parallel edges parallel, correct proportions, holes/curves drawn as ellipses, construction lines light and object lines dark; oblique — 4 = front face true shape, receding lines at a consistent angle (often 45°), depth scale stated (cavalier full, cabinet half). Proficient = 3+ on each sketch. Written items: 1) Isometric axes are 120° apart. 2) Cavalier = full depth; cabinet = half depth. 3) In oblique, the front face shows its true shape, so circles there can be drawn as true circles.",
+   "days": [
+    {
+     "guide": "Show the three isometric axes (one vertical, two at 30° from horizontal). Sketch three stacked-block shapes on isometric paper, counting grid units along each axis.",
+     "questions": [
+      {
+       "q": "At what angle from horizontal are isometric receding lines drawn?",
+       "a": "30°."
+      },
+      {
+       "q": "How many degrees apart are the three isometric axes?",
+       "a": "120°."
+      }
+     ]
+    },
+    {
+     "guide": "Model the bounding-box method: sketch an isometric box with the object's overall width, depth and height, then cut away material. Student sketches 8 objects.",
+     "questions": [
+      {
+       "q": "Why start an isometric sketch with a bounding box?",
+       "a": "It sets correct overall proportions; details are then added or removed within it."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the four-center method for isometric ellipses: sketch the isometric square (rhombus), draw lines from the obtuse corners to the midpoints of the opposite sides, and use the intersections as centers for four arcs. Sketch a mug and a cylinder with a hole.",
+     "questions": [
+      {
+       "q": "What shape does a circle become on an isometric face?",
+       "a": "An ellipse."
+      },
+      {
+       "q": "What shape do you box the circle in first on an isometric face?",
+       "a": "A rhombus (an isometric square) with sides equal to the circle's diameter."
+      }
+     ]
+    },
+    {
+     "guide": "Teach oblique: front face drawn true shape; receding lines at an angle (often 45°). Cavalier = full depth; cabinet = half depth. Sketch five objects both ways and compare which looks more realistic.",
+     "questions": [
+      {
+       "q": "A box is 6 cm deep. How long is the receding edge in cabinet oblique? In cavalier?",
+       "a": "Cabinet: 3 cm (half). Cavalier: 6 cm (full)."
+      },
+      {
+       "q": "When is oblique a good choice?",
+       "a": "When the object has circles or a complex shape on one face — that face can be drawn true shape as the front."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz: sketch the same object in isometric and oblique; score with the rubric.",
+     "questions": [
+      {
+       "q": "Why does cavalier oblique look distorted?",
+       "a": "Full-length receding lines make the object look deeper than it really is."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 6,
+   "prep": "Find a clear plastic box (or a shoebox you can draw on) and some blocks. Prepare 6 block models and 12 isometric-to-multiview matching problems (many free worksheets exist). Know the U.S. (third-angle) layout: top view above the front view, right-side view to the right.",
+   "misconceptions": [
+    "Placing views in the wrong positions. In third-angle projection (U.S. standard), the top view goes directly above the front, and the right side view directly to the right of the front.",
+    "Leaving out hidden lines. Features you can't see from a view are shown with short dashed lines.",
+    "Choosing a front view with lots of hidden lines. The front view should be the most descriptive view, showing the object's characteristic shape with the fewest hidden lines."
+   ],
+   "assessment_key": "Multiview quiz rubric (4 levels): 4 = front, top and right-side views correctly aligned (top above front, right side to the right, widths and heights projected), all visible edges as solid lines, hidden features as dashed lines, center lines on holes, correct proportions; 3 = one minor missing line; 2 = views misaligned or major missing features; 1 = incorrect views. Written: front and top views share width; front and right-side share height; top and right-side share depth.",
+   "days": [
+    {
+     "guide": "Place a block in the clear box; trace its outline on the front, top and right faces. Unfold the box flat to show how the top sits above the front and the right side sits to the right.",
+     "questions": [
+      {
+       "q": "Which dimension do the front and top views share?",
+       "a": "Width."
+      },
+      {
+       "q": "Which dimension do the front and right-side views share?",
+       "a": "Height."
+      }
+     ]
+    },
+    {
+     "guide": "Sketch the three views of 6 block models on grid paper, projecting light lines between views to keep them aligned. Discuss choosing the most descriptive front view.",
+     "questions": [
+      {
+       "q": "How should you choose the front view?",
+       "a": "Pick the view that shows the most characteristic shape of the object, with the fewest hidden lines, usually its longest dimension horizontal."
+      }
+     ]
+    },
+    {
+     "guide": "Show hidden lines (short dashes) and center lines (long-short-long dash) on parts with holes and slots. Add them to drawings.",
+     "questions": [
+      {
+       "q": "How is a hole that goes all the way through a block shown in the front view if you look at it from the side?",
+       "a": "As two parallel hidden (dashed) lines showing the hole's edges, with a center line between them."
+      },
+      {
+       "q": "What does a center line show?",
+       "a": "The axis of symmetry or center of a hole or cylinder."
+      }
+     ]
+    },
+    {
+     "guide": "Do the 12 matching problems and sketch the missing view in 6 more, building blocks to check when stuck.",
+     "questions": [
+      {
+       "q": "If the top view is a square and the front view is a triangle, what might the object be?",
+       "a": "A square-based pyramid (or a wedge, depending on the side view) — you need the third view to be sure."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz: from an isometric pictorial the student hasn't seen, draw three aligned views. Score with the rubric.",
+     "questions": [
+      {
+       "q": "Which dimension do the top and right-side views share?",
+       "a": "Depth."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 7,
+   "prep": "Gather a ruler, grid paper and a sample part (LEGO brick or a small bracket). Preview ASME Y14.5 basics (a free summary or a tutorial video on dimensioning rules).",
+   "misconceptions": [
+    "Dimensioning the same feature twice (double dimensioning). Each feature is dimensioned once, in its most descriptive view.",
+    "Dimensioning to hidden lines. Place dimensions on visible features in the view where the shape is clearest.",
+    "Thinking tolerance means the part may be 'wrong'. Tolerance is the allowed variation — no part is made exactly to size, so the designer states how much variation still works."
+   ],
+   "assessment_key": "Unit 2 test rubric for the dimensioned multiview drawing (4 levels): 4 = three correctly aligned views; overall width, height and depth dimensioned; every feature size and location dimensioned exactly once in its most descriptive view; extension lines with a small gap from the object; dimension lines with arrowheads; holes dimensioned with a leader and diameter symbol (e.g. Ø6) and located by their centers; units noted; a tolerance note; 3 = one or two missing/duplicated dimensions; 2 = several missing dimensions or views misaligned; 1 = incomplete. Short items: 1) Hole Ø10.0 ± 0.1 → limits 9.9 to 10.1. 2) Baseline dimensioning measures every feature from one datum, preventing tolerance stack-up; chain dimensioning measures feature to feature and lets errors add up.",
+   "days": [
+    {
+     "guide": "Teach line types: object, hidden, center, extension, dimension, leader. Rules: dimension each feature once, in the most descriptive view, place dimensions between views, smaller dimensions inside larger ones.",
+     "questions": [
+      {
+       "q": "What is double dimensioning and why avoid it?",
+       "a": "Dimensioning the same feature more than once; it can create conflicting values and confusion about which to follow."
+      },
+      {
+       "q": "Should extension lines touch the object?",
+       "a": "No — leave a small visible gap between the object and the extension line."
+      }
+     ]
+    },
+    {
+     "guide": "Fully dimension three block parts. Check every feature has size and location dimensions and none are duplicated.",
+     "questions": [
+      {
+       "q": "What two kinds of dimensions does every feature need?",
+       "a": "Size dimensions (how big) and location dimensions (where it is)."
+      }
+     ]
+    },
+    {
+     "guide": "Teach leaders for holes and radii: Ø for diameter, R for radius, and counterbore notes (⌴). Dimension example holes.",
+     "questions": [
+      {
+       "q": "How is a 12 mm diameter hole labeled? A 5 mm radius fillet?",
+       "a": "Ø12 with a leader pointing to the circle; R5 with a leader to the arc."
+      }
+     ]
+    },
+    {
+     "guide": "Teach plus/minus and limit tolerances. Work: hole 0.500 ± 0.005 in; peg 0.490 ± 0.003 in. Hole ranges 0.495–0.505; peg 0.487–0.493. Tightest clearance = 0.495 − 0.493 = 0.002; loosest = 0.505 − 0.487 = 0.018. Always a clearance fit.",
+     "questions": [
+      {
+       "q": "A peg is 20.0 ± 0.1 mm and the hole is 20.3 ± 0.1 mm. What are the minimum and maximum clearances?",
+       "a": "Min = 20.2 − 20.1 = 0.1 mm; max = 20.4 − 19.9 = 0.5 mm. It always fits (clearance fit)."
+      },
+      {
+       "q": "Write 25 ± 0.2 as limit dimensions.",
+       "a": "24.8 / 25.2."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test: fully dimension a multiview drawing of a household part. Score with the rubric.",
+     "questions": [
+      {
+       "q": "Why do engineers use baseline instead of chain dimensioning for critical parts?",
+       "a": "Baseline measures each feature from a common datum, so tolerances don't add up (stack) from feature to feature."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 8,
+   "prep": "Get a ruler with 1/16-inch and mm markings and a low-cost digital or dial caliper. Gather 10 coins, some bolts and a LEGO 2×4 brick. Preview how to zero and read your caliper.",
+   "misconceptions": [
+    "Mixing up accuracy and precision. Accuracy = close to the true value; precision = close to each other (repeatable).",
+    "Not zeroing the caliper first. Close the jaws, clean them, and zero before every measuring session.",
+    "Reporting more digits than the tool can measure. Record to the tool's resolution (e.g. 0.01 mm for most digital calipers)."
+   ],
+   "assessment_key": "Measurement practical data sheet (score 1 point per item within tolerance): reference values — U.S. quarter diameter 24.26 mm (0.955 in); nickel 21.21 mm; dime 17.91 mm; penny 19.05 mm; LEGO 2×4 brick 31.8 × 15.8 mm, height 9.6 mm without studs, stud diameter 4.8 mm. Accept ±0.1 mm for caliper measurements and ±1/16 in or ±1 mm for ruler measurements. Also check: caliper zeroed, correct units, values recorded to correct resolution. 90%+ = mastery.",
+   "days": [
+    {
+     "guide": "Draw four targets: accurate & precise (tight cluster at center), precise not accurate (tight cluster off center), accurate not precise (scattered around center), neither. Play a quick game: toss coins at a target to illustrate.",
+     "questions": [
+      {
+       "q": "A scale reads 2.51, 2.50, 2.52 kg for a 3.00 kg weight. Accurate, precise, both or neither?",
+       "a": "Precise (readings close together) but not accurate (far from 3.00)."
+      },
+      {
+       "q": "Define accuracy and precision.",
+       "a": "Accuracy: how close a measurement is to the true value. Precision: how close repeated measurements are to each other."
+      }
+     ]
+    },
+    {
+     "guide": "Show how to read a ruler to 1/16 inch (count marks between inches) and to 1 mm. Measure 10 objects in both units and convert (1 in = 25.4 mm).",
+     "questions": [
+      {
+       "q": "Convert 3 5/16 in to mm.",
+       "a": "3.3125 × 25.4 = 84.1 mm."
+      },
+      {
+       "q": "Convert 50 mm to inches.",
+       "a": "50 ÷ 25.4 ≈ 1.97 in."
+      }
+     ]
+    },
+    {
+     "guide": "Demonstrate the caliper: outside jaws (outer size), inside jaws (hole diameter), depth rod (depth), zero first. Measure 10 coins.",
+     "questions": [
+      {
+       "q": "Which part of the caliper measures a hole's diameter?",
+       "a": "The inside (upper) jaws."
+      },
+      {
+       "q": "What is the diameter of a U.S. quarter?",
+       "a": "24.26 mm (0.955 in)."
+      }
+     ]
+    },
+    {
+     "guide": "Measure every feature of a LEGO brick and sketch it fully dimensioned.",
+     "questions": [
+      {
+       "q": "What are typical measurements of a LEGO 2×4 brick?",
+       "a": "About 31.8 mm × 15.8 mm, 9.6 mm tall without studs; studs 4.8 mm in diameter on 8.0 mm centers."
+      }
+     ]
+    },
+    {
+     "guide": "Give the measurement practical with stations (coins, bolt length and diameter, LEGO brick, hole diameter) and score with the reference values in the key.",
+     "questions": [
+      {
+       "q": "What does the resolution of a measuring tool mean?",
+       "a": "The smallest change it can display or detect (e.g. 0.01 mm on a digital caliper)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 9,
+   "prep": "Gather 50 'identical' items (pencils, nails, crackers or craft sticks), calipers and a spreadsheet. Review standard deviation (Khan Academy). Decide a tolerance for the Day 5 report (e.g. nominal length ± 1.0 mm).",
+   "misconceptions": [
+    "Thinking 'identical' manufactured items are exactly the same. All manufacturing has variation; statistics measure how much.",
+    "Confusing sample and population standard deviation. For a sample of items from a larger batch, use the sample formula (divide by n − 1), which is STDEV.S in a spreadsheet.",
+    "Using only the mean to judge quality. A batch can have the right mean but too much spread; check standard deviation and whether all items fall within tolerance."
+   ],
+   "assessment_key": "Quality-control report rubric (4 levels): 4 = states the tolerance; reports n, mean, median, mode, range and standard deviation (with units); includes a labeled histogram; identifies how many items fall outside tolerance and whether mean ± 3 SD falls within the tolerance limits; makes a clear accept/reject recommendation with reasons; 3 = all statistics, weak recommendation; 2 = missing statistics or histogram; 1 = incomplete. Check numbers by rerunning AVERAGE, MEDIAN, MODE, MAX−MIN and STDEV.S on the student's data.",
+   "days": [
+    {
+     "guide": "Measure the length of 50 items with calipers and record in a spreadsheet column with units in the header.",
+     "questions": [
+      {
+       "q": "Why measure 50 items rather than 3?",
+       "a": "A larger sample gives a more reliable picture of the batch's typical value and variation."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate mean, median, mode and range by hand for the first 10 values, then check with =AVERAGE, =MEDIAN, =MODE, =MAX−MIN.",
+     "questions": [
+      {
+       "q": "Find the mean, median, mode and range of 10, 12, 11, 12, 15.",
+       "a": "Mean = 60/5 = 12; median = 12; mode = 12; range = 15 − 10 = 5."
+      }
+     ]
+    },
+    {
+     "guide": "Work an example: 10, 12, 11, 13, 14 → mean 12; squared deviations 4, 0, 1, 1, 4 sum to 10; sample variance 10/4 = 2.5; SD ≈ 1.58. Then use =STDEV.S on the full data.",
+     "questions": [
+      {
+       "q": "What does a small standard deviation say about a manufacturing process?",
+       "a": "The parts are very consistent — values are close to the mean."
+      },
+      {
+       "q": "Compute the sample standard deviation of 4, 6, 8.",
+       "a": "Mean 6; squared deviations 4, 0, 4 = 8; 8 ÷ 2 = 4; SD = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Make a histogram (Insert → Chart → Histogram). Discuss whether it's roughly bell-shaped and the 68–95–99.7 rule.",
+     "questions": [
+      {
+       "q": "In a normal distribution, about what percent of values fall within 2 standard deviations of the mean?",
+       "a": "About 95% (68% within 1 SD, 99.7% within 3 SD)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the quality-control report recommending accept or reject; score with the rubric.",
+     "questions": [
+      {
+       "q": "Mean = 100.2 mm, SD = 0.3 mm, tolerance 100 ± 1 mm. Would you accept the batch?",
+       "a": "Yes — mean ± 3 SD is 99.3 to 101.1 mm; nearly all parts are within tolerance, though values near the 101.1 end slightly exceed 101.0, so check the actual count outside the limit (likely only a few, about 0.4%)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 10,
+   "prep": "Gather a kitchen scale (0.1 g or 1 g resolution), a measuring cup marked in mL, water, and small solid samples of three materials (e.g. a steel bolt, an aluminum part, a piece of wood or plastic). Prepare the Unit 3 test from the key below.",
+   "misconceptions": [
+    "Mixing units: 1 mL = 1 cm³. Keep volume in cm³ and mass in g so density comes out in g/cm³.",
+    "Forgetting to subtract the starting water level in displacement. Volume of object = final level − initial level.",
+    "Adding surface area of hidden faces in composite parts. Only exterior surfaces count; subtract any removed hole and add its inside wall."
+   ],
+   "assessment_key": "Density lab: accept densities within about 10% of reference values — aluminum 2.70 g/cm³, steel about 7.85 g/cm³, brass about 8.5 g/cm³, pine about 0.35–0.50 g/cm³, PLA plastic 1.24 g/cm³, ABS about 1.04 g/cm³ (wood floats; push it under with a pin for volume). Unit 3 test: 1) Accuracy vs. precision definitions. 2) Convert 2.5 in to mm → 63.5 mm. 3) Read a caliper value (check against the item). 4) Mean/median/mode/range of 8, 9, 9, 10, 14 → 10, 9, 9, 6. 5) Sample SD of 2, 4, 6 → 2. 6) ~68% of data within 1 SD. 7) Volume of a cylinder r = 2 cm, h = 5 cm → 62.8 cm³. 8) Surface area of that cylinder → 2π(2²) + 2π(2)(5) = 28π ≈ 88.0 cm². 9) Rectangular block 4 × 3 × 2 cm with a Ø1 cm through-hole along the 2 cm direction → 24 − π(0.5²)(2) = 24 − 1.57 ≈ 22.4 cm³. 10) Mass of that block in aluminum → 22.43 × 2.70 ≈ 60.6 g. Score 8+ mastery.",
+   "days": [
+    {
+     "guide": "Review formulas: rectangular prism V = l·w·h, SA = 2(lw + lh + wh); cylinder V = πr²h, SA = 2πr² + 2πrh. Work composite parts by adding and subtracting volumes.",
+     "questions": [
+      {
+       "q": "Find the volume and surface area of a 5 × 4 × 3 cm block.",
+       "a": "V = 60 cm³; SA = 2(20 + 15 + 12) = 94 cm²."
+      },
+      {
+       "q": "Find the volume of a cylinder with r = 2 cm and h = 5 cm.",
+       "a": "π × 4 × 5 = 20π ≈ 62.8 cm³."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh each sample. Fill the cup partway, read the level, submerge the sample, read again; volume = difference. Density = mass ÷ volume. Compare with reference values.",
+     "questions": [
+      {
+       "q": "A bolt has mass 78.5 g and displaces 10 mL of water. What is its density and likely material?",
+       "a": "7.85 g/cm³ — steel."
+      },
+      {
+       "q": "Why does a piece of pine float?",
+       "a": "Its density (about 0.4–0.5 g/cm³) is less than water's 1.0 g/cm³."
+      }
+     ]
+    },
+    {
+     "guide": "Pick a part, compute its volume from measurements, predict mass = volume × density, then weigh and compute percent error.",
+     "questions": [
+      {
+       "q": "A 2 × 2 × 10 cm aluminum bar: predicted mass?",
+       "a": "V = 40 cm³; mass = 40 × 2.70 = 108 g."
+      },
+      {
+       "q": "Predicted 108 g, measured 104 g. Percent error?",
+       "a": "|104 − 108| ÷ 108 × 100 ≈ 3.7%."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review set covering measurement, statistics and geometry; check and correct each error together.",
+     "questions": [
+      {
+       "q": "Convert 75 mm to inches.",
+       "a": "75 ÷ 25.4 ≈ 2.95 in."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test in the assessment key.",
+     "questions": [
+      {
+       "q": "What is the density of an object with mass 54 g and volume 20 cm³?",
+       "a": "2.7 g/cm³ (likely aluminum)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 11,
+   "prep": "Create free Tinkercad and Onshape Education accounts (parent may need to verify the education account). Work through the first Onshape Learning Center 'Introduction to Onshape' module yourself so you can help.",
+   "misconceptions": [
+    "Leaving sketches under-defined. In Onshape, blue lines are under-defined; black means fully constrained. Add dimensions and relations until all lines are black.",
+    "Dimensioning everything instead of using geometric constraints. Use constraints (horizontal, vertical, equal, coincident, tangent) for relationships and dimensions for sizes.",
+    "Building everything in one complicated sketch. Simpler sketches with several features are easier to edit."
+   ],
+   "assessment_key": "CAD part check (score each 0–2; 8–10 = mastery): 1) sketch on the correct plane; 2) sketch fully constrained (all black); 3) dimensions match the Unit 2 drawing; 4) extrude depth correct; 5) holes correctly sized and located (use 'Measure' to verify). Tinkercad keychain: complete if it has a hole for the ring and is a single connected object.",
+   "days": [
+    {
+     "guide": "In Tinkercad, drag a box and text, make a cylinder a 'hole' and group to cut the keyring hole. Discuss how this differs from professional CAD.",
+     "questions": [
+      {
+       "q": "In Tinkercad, how do you cut a hole through a shape?",
+       "a": "Set a shape as a 'Hole', position it overlapping the solid, select both and Group."
+      }
+     ]
+    },
+    {
+     "guide": "Set up Onshape: create a document, find the Part Studio, feature list, sketch tools and view cube. Complete the interface tutorial.",
+     "questions": [
+      {
+       "q": "What is parametric CAD?",
+       "a": "CAD where features are driven by dimensions and constraints, so changing a value automatically updates the model."
+      }
+     ]
+    },
+    {
+     "guide": "Sketch a rectangle with circles on the Top plane, dimension it, and extrude. Show that changing a dimension updates the 3D part.",
+     "questions": [
+      {
+       "q": "What does 'extrude' do?",
+       "a": "Pushes a 2D sketch profile into a 3D solid (or removes material) to a given depth."
+      }
+     ]
+    },
+    {
+     "guide": "Practice fully constraining sketches: add horizontal/vertical, equal, coincident and dimension constraints until the sketch turns black.",
+     "questions": [
+      {
+       "q": "What color shows an under-defined sketch entity in Onshape, and a fully defined one?",
+       "a": "Blue = under-defined; black = fully defined."
+      },
+      {
+       "q": "Why fully constrain a sketch?",
+       "a": "So geometry can't accidentally move, and changes to dimensions update the model predictably."
+      }
+     ]
+    },
+    {
+     "guide": "Model a dimensioned block part from Unit 2 in Onshape and check it with the Measure tool against the drawing.",
+     "questions": [
+      {
+       "q": "How can you verify your model matches the drawing?",
+       "a": "Use the Measure tool (or inspect dimensions) to check key distances and hole sizes against the drawing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 12,
+   "prep": "Preview Onshape tutorials for Revolve, Fillet, Chamfer, Shell and Pattern (Learning Center). Have a simple working drawing of a three-feature part ready for Day 5.",
+   "misconceptions": [
+    "Revolving a sketch that crosses the axis. The profile must lie entirely on one side of the axis of revolution.",
+    "Adding fillets too early in the feature tree. Add cosmetic fillets and chamfers near the end so earlier edits don't break them.",
+    "Patterning the wrong thing. Pattern a feature (like a cut) — not the whole part — when you want repeated holes or vents."
+   ],
+   "assessment_key": "Feature model rubric: 4 = part matches the working drawing's dimensions, uses at least three different feature types correctly, sketches fully constrained, logical feature tree with descriptive names; 3 = matches with one dimension off or one under-defined sketch; 2 = several errors; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Sketch half a bottle profile beside a center line and revolve 360°.",
+     "questions": [
+      {
+       "q": "What shape do you get by revolving a rectangle around one of its sides?",
+       "a": "A cylinder."
+      }
+     ]
+    },
+    {
+     "guide": "Add fillets (rounded edges) and chamfers (angled edges). Discuss safety, comfort, strength (fillets reduce stress concentrations) and ease of manufacturing.",
+     "questions": [
+      {
+       "q": "Why do designers add fillets to inside corners of parts?",
+       "a": "Sharp inside corners concentrate stress and can crack; fillets spread the stress and also help molding and machining."
+      },
+      {
+       "q": "What's the difference between a fillet and a chamfer?",
+       "a": "A fillet is a rounded edge; a chamfer is an angled, flat cut edge."
+      }
+     ]
+    },
+    {
+     "guide": "Model a box and shell it, removing the top face with uniform wall thickness (e.g. 2 mm).",
+     "questions": [
+      {
+       "q": "Why keep wall thickness uniform in a plastic enclosure?",
+       "a": "Uniform walls cool evenly in molding, preventing warping and sink marks, and use material efficiently."
+      }
+     ]
+    },
+    {
+     "guide": "Model a phone stand and use a linear pattern for vent slots and a circular pattern for holes.",
+     "questions": [
+      {
+       "q": "What's the advantage of a pattern over drawing each slot?",
+       "a": "One feature is repeated automatically; changing the original or count updates all instances."
+      }
+     ]
+    },
+    {
+     "guide": "Model a three-feature part from a working drawing; score with the rubric.",
+     "questions": [
+      {
+       "q": "Which feature would you use for a doorknob?",
+       "a": "Revolve."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 13,
+   "prep": "Gather calipers and a few household objects with moderate complexity (bottle opener, spatula handle, cable clip). Read the Onshape Learning Center lesson on design intent.",
+   "misconceptions": [
+    "Modeling the shape without thinking about how it might change. Plan which dimensions are key and reference them so edits behave sensibly (e.g. a hole stays centered).",
+    "Measuring once. Measure critical features twice and average; check for symmetry.",
+    "Sketching on random faces. Choose sketch planes deliberately (often the default Front/Top/Right planes) to keep the feature tree stable."
+   ],
+   "assessment_key": "Modeled part rubric: 4 = model within ±0.5 mm of measured key dimensions, captures design intent (symmetric features constrained symmetric, holes located from meaningful references), a key dimension change updates correctly, and reflection explains the feature-tree plan; 3 = accurate but intent partly captured; 2 = model breaks on modification; 1 = incomplete. Reflection should name at least one design-intent decision, e.g. 'I used a midpoint constraint so the hole stays centered if the length changes.'",
+   "days": [
+    {
+     "guide": "Explain design intent with an example: a hole that should stay centered — constrain it to the midpoint, not a fixed distance from one edge. The student plans a feature tree for a simple part on paper.",
+     "questions": [
+      {
+       "q": "What is design intent?",
+       "a": "How a model should behave when it is changed — the planned relationships that keep important features (symmetry, centered holes, equal sizes) correct."
+      }
+     ]
+    },
+    {
+     "guide": "Measure the household object, sketching it with all dimensions in the notebook.",
+     "questions": [
+      {
+       "q": "Why measure critical dimensions more than once?",
+       "a": "To catch errors and reduce random measurement error by averaging."
+      }
+     ]
+    },
+    {
+     "guide": "Model the object in Onshape following the feature-tree plan.",
+     "questions": [
+      {
+       "q": "What is reference geometry?",
+       "a": "Planes, axes or points created to help position sketches and features (e.g. an offset plane)."
+      }
+     ]
+    },
+    {
+     "guide": "Change a key dimension (length or thickness) and check the model updates without errors.",
+     "questions": [
+      {
+       "q": "You changed the length and a hole ended up off the part. What went wrong?",
+       "a": "The hole was dimensioned from the wrong reference (e.g. a fixed distance from one end); constrain it to the midpoint or relevant edge to capture intent."
+      }
+     ]
+    },
+    {
+     "guide": "Submit the model and reflection; score with the rubric.",
+     "questions": [
+      {
+       "q": "Name one design-intent choice you made.",
+       "a": "Answers vary; e.g. used symmetric or equal constraints so features stay balanced."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 14,
+   "prep": "Preview the Onshape Assembly tutorial (Fastened, Revolute and Slider mates). Have simple parts ready (two hinge leaves and a pin; car body, two axles, wheels).",
+   "misconceptions": [
+    "Forgetting to fix (ground) a base part, so the whole assembly floats.",
+    "Choosing the wrong mate type. A hinge needs a revolute mate (1 rotational DOF), not fastened.",
+    "Ignoring interference. Overlapping solids mean the real parts wouldn't fit."
+   ],
+   "assessment_key": "Assembly check (4-part toy car): 4 = base part fixed; axles mated to the body with revolute or cylindrical mates; wheels fastened or revolute to axles; no interference; mechanism animates (wheels spin) without parts drifting; 3 = works with one unnecessary DOF; 2 = interference or missing mates; 1 = parts not mated. Written: A free body has 6 DOF (3 translations, 3 rotations); revolute mate leaves 1 DOF; slider leaves 1 DOF; fastened leaves 0.",
+   "days": [
+    {
+     "guide": "Insert parts into an assembly and fix the base part.",
+     "questions": [
+      {
+       "q": "Why fix one part in an assembly?",
+       "a": "It gives the assembly a stationary reference; other parts are mated relative to it."
+      }
+     ]
+    },
+    {
+     "guide": "Model a hinge: fasten one leaf, use a revolute mate for the pin, and a revolute mate for the moving leaf.",
+     "questions": [
+      {
+       "q": "Which mate allows rotation about one axis only?",
+       "a": "Revolute."
+      },
+      {
+       "q": "Which mate allows sliding along one direction only?",
+       "a": "Slider."
+      }
+     ]
+    },
+    {
+     "guide": "Explain degrees of freedom: an unconstrained part has 6 (3 translations, 3 rotations). Animate the hinge to show its 1 rotational DOF.",
+     "questions": [
+      {
+       "q": "How many degrees of freedom does a free rigid body have?",
+       "a": "Six: translation along x, y, z and rotation about x, y, z."
+      },
+      {
+       "q": "How many DOF does a door on a hinge have?",
+       "a": "One (rotation about the hinge axis)."
+      }
+     ]
+    },
+    {
+     "guide": "Run an interference check; fix any overlaps by adjusting dimensions or clearances.",
+     "questions": [
+      {
+       "q": "Why add clearance between a pin and its hole?",
+       "a": "So the parts can actually assemble and move; real parts vary in size (tolerance)."
+      }
+     ]
+    },
+    {
+     "guide": "Build the 4-part toy car assembly; score with the checklist.",
+     "questions": [
+      {
+       "q": "Which mate would you use for a wheel spinning on an axle?",
+       "a": "Revolute (or fasten the wheel to an axle that has a revolute mate to the body)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 15,
+   "prep": "Preview the Onshape Drawings tutorial (standard views, dimensions, section views, exploded views and BOM tables). Have a hollow part and the Week 14 assembly ready. Prepare a sketch of a part for the practical.",
+   "misconceptions": [
+    "Leaving the title block blank. Fill in part name, drawn by, date, scale, units, material and tolerance.",
+    "Section views without hatching or cutting-plane line. Show the cutting-plane line with arrows in the parent view and hatch the cut surfaces.",
+    "Over-cluttered drawings. Use only the views needed to fully describe the part."
+   ],
+   "assessment_key": "Unit 4 CAD practical rubric (4 levels): 4 = part modeled accurately from the sketch with fully constrained sketches, drawing with standard aligned views, all dimensions shown once, a section view if the part is hollow, completed title block (name, scale, units, material, date, tolerance); 3 = minor dimension or title-block omission; 2 = model or drawing missing key features; 1 = incomplete. Written: a bill of materials lists item number, part name, quantity and material/source for each part.",
+   "days": [
+    {
+     "guide": "Create a drawing from a part with front, top, right and isometric views.",
+     "questions": [
+      {
+       "q": "What belongs in a title block?",
+       "a": "Part name, drawn by, date, scale, units, material, tolerances, and drawing number/sheet."
+      }
+     ]
+    },
+    {
+     "guide": "Add dimensions and notes following standards (once each, most descriptive view).",
+     "questions": [
+      {
+       "q": "A part's drawing shows 'SCALE 2:1'. What does that mean?",
+       "a": "The drawing is twice the actual size of the part."
+      }
+     ]
+    },
+    {
+     "guide": "Create a section view of a hollow part: cutting-plane line with arrows, then the section with hatched cut surfaces.",
+     "questions": [
+      {
+       "q": "Why use a section view?",
+       "a": "To show interior features clearly instead of relying on many hidden lines."
+      },
+      {
+       "q": "What do hatch lines in a section view represent?",
+       "a": "Solid material that the cutting plane passed through."
+      }
+     ]
+    },
+    {
+     "guide": "Create an exploded assembly drawing with balloons and a bill of materials.",
+     "questions": [
+      {
+       "q": "What does a bill of materials list?",
+       "a": "Each part's item number, name, quantity, and material or source (often part number and cost)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 practical: model and draw a part from a sketch. Score with the rubric.",
+     "questions": [
+      {
+       "q": "What is a working drawing?",
+       "a": "A complete drawing with all views, dimensions, notes and title-block information needed to manufacture a part."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 16,
+   "prep": "Choose an inexpensive product with screws or snaps (stapler, flashlight, retractable pen, toy). Gather small screwdrivers, safety glasses, small containers/egg carton for parts and a phone camera. Make sure the product has no batteries left in it and no springs under heavy tension.",
+   "misconceptions": [
+    "Taking things apart without documenting. Photograph and label every step so the product can be reassembled.",
+    "Thinking reverse engineering is the same as copying or stealing. It's legitimate for learning, compatibility, repair and improvement, but copying patented designs or circumventing protections can be illegal.",
+    "Prying with force. Look for hidden screws under labels and feet, and snap-fit clips, before prying."
+   ],
+   "assessment_key": "Notebook check (pass when present): purpose statement for reverse engineering; black-box diagram with inputs (e.g. human force, battery energy) and outputs (e.g. light, staple through paper); dated, labeled disassembly photos or sketches in order; parts list table with part number, name, quantity, material (best guess) and function; safety notes. Score 4 = all present, detailed; 3 = minor gaps; 2 = missing parts list or photos; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Discuss legitimate uses (learning how products work, repair, compatibility, competitive analysis, improving a design) and limits (patents, copyright, licensing). Review disassembly safety: glasses, springs under tension, sharp edges, no plugged-in devices.",
+     "questions": [
+      {
+       "q": "Give two legitimate reasons engineers reverse engineer products.",
+       "a": "To understand how a product works, to make compatible parts or repairs, to analyze competitors, or to improve a design."
+      }
+     ]
+    },
+    {
+     "guide": "Operate the product and draw a black-box diagram: inputs on the left (energy, materials, information), the product as a box, outputs on the right.",
+     "questions": [
+      {
+       "q": "For a flashlight, list inputs and outputs.",
+       "a": "Inputs: chemical energy from batteries, human force on the switch. Outputs: light (and some heat)."
+      }
+     ]
+    },
+    {
+     "guide": "Disassemble step by step, photographing and labeling each part, storing parts in order.",
+     "questions": [
+      {
+       "q": "Why photograph each step?",
+       "a": "So the product can be reassembled correctly and the order of assembly is documented."
+      }
+     ]
+    },
+    {
+     "guide": "Create a parts list: number, name, quantity, material, function.",
+     "questions": [
+      {
+       "q": "What is a fastener? Give two examples.",
+       "a": "A component that joins parts — e.g. screws, rivets, snap fits, pins."
+      }
+     ]
+    },
+    {
+     "guide": "Check the notebook entries against the list in the key.",
+     "questions": [
+      {
+       "q": "What subsystems does your product have?",
+       "a": "Answers vary; e.g. a flashlight has a power subsystem (batteries, springs), a switch subsystem, and a light subsystem (bulb/LED, reflector, lens)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 17,
+   "prep": "Have calipers, Onshape and the disassembled product. Preview how to identify plastics (recycling codes molded into parts) and common processes (injection molding marks: ejector pin circles, parting lines, gates).",
+   "misconceptions": [
+    "Guessing materials without evidence. Use clues: magnets stick to steel (not aluminum or most stainless), molded recycling codes on plastics, weight/density.",
+    "Assuming all plastic parts are 3D printed. Mass-produced plastic parts are usually injection molded — look for parting lines, ejector-pin marks and draft angles.",
+    "Proposing improvements with no justification. Tie every redesign to a problem observed (cost, durability, ease of assembly, user complaint)."
+   ],
+   "assessment_key": "Reverse engineering report rubric (4 levels): 4 = includes purpose, black-box diagram, parts list, two accurately modeled parts with drawings, evidence-based material and manufacturing-process identification for each part (e.g. 'ejector pin marks and draft → injection-molded ABS'), a sketched and justified improvement (e.g. fewer fasteners for Design for Assembly), and confirmation that the product was reassembled and works; 3 = all parts, less evidence; 2 = missing models or analysis; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Measure two key parts with calipers; record dimensions on sketches.",
+     "questions": [
+      {
+       "q": "Why choose 'key' parts for modeling?",
+       "a": "They carry the main function or have critical fits, so their dimensions matter most."
+      }
+     ]
+    },
+    {
+     "guide": "Model the two parts in Onshape from the measurements.",
+     "questions": [
+      {
+       "q": "What tool checks that your CAD part matches the real one?",
+       "a": "The Measure tool, compared against caliper readings."
+      }
+     ]
+    },
+    {
+     "guide": "Identify material and process for each part, citing evidence.",
+     "questions": [
+      {
+       "q": "A plastic part has small circles on the inside and a thin line around its edge. How was it likely made?",
+       "a": "Injection molding — the circles are ejector-pin marks and the line is the parting line where the mold halves met."
+      },
+      {
+       "q": "How can you tell steel from aluminum quickly?",
+       "a": "A magnet sticks to ordinary steel but not to aluminum; aluminum is also much lighter."
+      }
+     ]
+    },
+    {
+     "guide": "Propose an improvement with sketches and justification (e.g. snap fits instead of screws to speed assembly).",
+     "questions": [
+      {
+       "q": "What is Design for Assembly (DFA)?",
+       "a": "Designing products to be easy and cheap to assemble — fewer parts and fasteners, parts that only fit one way, self-aligning features."
+      }
+     ]
+    },
+    {
+     "guide": "Reassemble the product, test it works, and submit the report.",
+     "questions": [
+      {
+       "q": "Why is it important that the product still works after reassembly?",
+       "a": "It shows the disassembly was documented and careful, and confirms understanding of how parts work together."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 18,
+   "prep": "Compile a review packet from Units 1–5 and design a semester exam: a written part (design process, sketching, measurement and statistics) and a practical (sketch three views of a block from an isometric; model a part in Onshape from a dimensioned sketch).",
+   "misconceptions": [
+    "Mixing up which views share which dimension. Front/top share width, front/side share height, top/side share depth.",
+    "Population vs. sample standard deviation. Use sample (n − 1) for samples.",
+    "Rushing the CAD practical without constraining sketches. Under-defined sketches cause errors when editing."
+   ],
+   "assessment_key": "Semester exam part 1 (written) key — representative items: 1) Design process order. 2) Criteria vs. constraints. 3) Isometric axes 30° from horizontal. 4) Cabinet oblique uses half depth. 5) In third-angle projection the top view is above the front view. 6) Hidden lines are dashed. 7) 30 ± 0.2 → 29.8 to 30.2. 8) Mean/median/range of 3, 5, 5, 7, 10 → 6, 5, 7. 9) Sample SD of 2, 4, 6 → 2. 10) Density of 27 g / 10 cm³ → 2.7 g/cm³ (aluminum). 11) Revolve creates axisymmetric parts. 12) Revolute mate leaves one rotational DOF. Part 2 practical rubric: 4 = three correctly aligned views with hidden lines; Onshape part matches the sketch dimensions within tolerance with fully constrained sketches; 3 = minor errors; 2 = major errors; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Mixed sketching practice: isometric and multiview problems; check alignment and line types.",
+     "questions": [
+      {
+       "q": "Draw the front view of an L-shaped block. What lines show a hidden slot?",
+       "a": "Dashed hidden lines."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed measurement and statistics problems.",
+     "questions": [
+      {
+       "q": "Find mean and range of 12.1, 12.3, 11.9, 12.0, 12.2 mm.",
+       "a": "Mean = 60.5 ÷ 5 = 12.1 mm; range = 12.3 − 11.9 = 0.4 mm."
+      }
+     ]
+    },
+    {
+     "guide": "Model a review part in Onshape, practicing extrude, revolve, fillet and pattern.",
+     "questions": [
+      {
+       "q": "Which feature hollows a part with uniform walls?",
+       "a": "Shell."
+      }
+     ]
+    },
+    {
+     "guide": "Give the written exam (part 1) in the key.",
+     "questions": [
+      {
+       "q": "What does a decision matrix help you do?",
+       "a": "Compare design ideas objectively against weighted criteria to select the best one."
+      }
+     ]
+    },
+    {
+     "guide": "Give the practical (part 2): sketching and CAD. Score with the rubric.",
+     "questions": [
+      {
+       "q": "What shows a sketch is fully defined in Onshape?",
+       "a": "All its lines turn black."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 19,
+   "prep": "Gather material samples: thin wood strips (paint stirrers or craft sticks), plastic strips (e.g. rulers), metal strips (aluminum flashing or a thin metal ruler), aluminum foil, cardboard; string, yarn and fishing line; a bucket or bag with weights (water bottles, coins) and a ruler for deflection. Find an Ashby chart image (strength or stiffness vs. density) online.",
+   "misconceptions": [
+    "Confusing strength and stiffness. Stiffness resists bending/stretching (how much it deflects); strength is the load at which it permanently deforms or breaks. A material can be stiff but brittle (glass).",
+    "Thinking 'hard' means 'tough'. Hardness is resistance to scratching/indentation; toughness is ability to absorb energy before fracturing.",
+    "Comparing materials with different sample sizes. Keep length, width and thickness the same so only the material changes."
+   ],
+   "assessment_key": "Material selection quiz: 1) Metals, polymers, ceramics, composites — classify: aluminum can (metal), water bottle (polymer, PET), coffee mug (ceramic), carbon-fiber bike frame or fiberglass (composite). 2) Ductility = ability to deform plastically (stretch) without breaking. 3) Elasticity = ability to return to original shape after load is removed. 4) Tensile strength = maximum stress a material withstands while being pulled. 5) Bike frame: high stiffness and strength-to-weight — aluminum, steel, titanium or carbon-fiber composite. 6) Water bottle: low cost, light, food-safe, tough — PET or polypropylene plastic (or stainless steel/aluminum for reusable). Lab report rubric (4 levels): 4 = controlled variables stated; data tables with units for bending deflection and tensile failure load (multiple trials, averages); comparison graph; conclusions linking results to properties; error sources; 3 = minor gaps; 2 = missing data or analysis; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Sort 15 household items into metals, polymers, ceramics and composites; note one property clue for each (e.g. metals conduct heat, ceramics are brittle).",
+     "questions": [
+      {
+       "q": "Classify: glass jar, nylon rope, plywood, steel spoon.",
+       "a": "Glass jar — ceramic; nylon rope — polymer; plywood — composite (wood layers and glue); steel spoon — metal."
+      },
+      {
+       "q": "What is a composite?",
+       "a": "A material made of two or more different materials combined to get better properties (e.g. fiberglass, carbon fiber, concrete, plywood)."
+      }
+     ]
+    },
+    {
+     "guide": "Clamp equal-size strips of wood, plastic and metal over a table edge with equal overhang; hang the same weight from the end and measure deflection. Discuss stiffness.",
+     "questions": [
+      {
+       "q": "Which strip deflected least, and what property does that show?",
+       "a": "Usually the metal strip — it has the highest stiffness (elastic modulus)."
+      },
+      {
+       "q": "Why must all strips be the same size?",
+       "a": "So the only variable is the material; size and shape also affect bending."
+      }
+     ]
+    },
+    {
+     "guide": "Hang each fiber from a support with a cup; add weights until failure. Record failure load for three trials each.",
+     "questions": [
+      {
+       "q": "What property does this test measure?",
+       "a": "Tensile strength (the maximum pulling load before failure)."
+      },
+      {
+       "q": "Why do three trials and average?",
+       "a": "Results vary from sample to sample; averaging gives a more reliable value."
+      }
+     ]
+    },
+    {
+     "guide": "Show an Ashby chart (strength or stiffness vs. density). Choose a material region for a bike frame (strong and stiff for low weight) and a water bottle (light, cheap, tough, food-safe).",
+     "questions": [
+      {
+       "q": "What two properties would you plot to choose a lightweight, stiff material?",
+       "a": "Stiffness (Young's modulus) versus density."
+      },
+      {
+       "q": "Why are many bike frames made of aluminum or carbon fiber?",
+       "a": "They have high stiffness and strength for their weight."
+      }
+     ]
+    },
+    {
+     "guide": "Give the material selection quiz in the key and collect the lab report.",
+     "questions": [
+      {
+       "q": "Define ductility and give a ductile material.",
+       "a": "The ability to stretch or bend permanently without breaking; copper or aluminum."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 20,
+   "prep": "Find short videos of injection molding, CNC milling, sand/die casting and 3D printing (e.g. 'How It's Made' segments or manufacturer videos). Install a free slicer (Cura or PrusaSlicer). Find a local library makerspace's 3D printing rules.",
+   "misconceptions": [
+    "Thinking 3D printing will replace all manufacturing. Additive is great for prototypes and custom parts, but injection molding is far cheaper per part for large quantities.",
+    "Forgetting draft angles. Molded parts need slightly tapered walls (often 1–2°) so they can be ejected from the mold.",
+    "Mixing up additive and subtractive. Additive builds layer by layer; subtractive removes material from a solid block (milling, drilling, turning)."
+   ],
+   "assessment_key": "Manufacturing quiz: 1) Additive manufacturing = building parts layer by layer (3D printing). 2) Subtractive = removing material (CNC milling, lathe turning, drilling). 3) Injection molding = melted plastic injected into a steel mold; high tooling cost, very low per-part cost — best for high volume. 4) Casting = pouring molten metal into a mold (sand casting, die casting). 5) CNC = computer numerical control. 6) Draft angle = slight taper on molded walls so parts release from the mold. 7) Uniform wall thickness prevents warping and sink marks. 8) Best process for 5 custom prototypes → 3D printing; for 100,000 plastic phone cases → injection molding; for an aluminum engine block → casting then CNC machining. Score 7–8 = mastery.",
+   "days": [
+    {
+     "guide": "Watch the videos; the student makes a table for each process: how it works, materials, typical products, cost for low vs. high volume.",
+     "questions": [
+      {
+       "q": "Why is injection molding expensive to start but cheap per part?",
+       "a": "The steel mold (tooling) costs thousands to hundreds of thousands of dollars, but once made, each part takes seconds and little material."
+      },
+      {
+       "q": "What does CNC stand for?",
+       "a": "Computer numerical control."
+      }
+     ]
+    },
+    {
+     "guide": "Export an STL from Onshape, open in the slicer, set layer height and infill, and preview the toolpath and print time.",
+     "questions": [
+      {
+       "q": "What does a slicer do?",
+       "a": "Converts a 3D model (STL) into layers and toolpaths (G-code) the printer follows."
+      },
+      {
+       "q": "How does infill percentage affect a print?",
+       "a": "Higher infill makes the part stronger and heavier but uses more material and time."
+      }
+     ]
+    },
+    {
+     "guide": "Examine molded parts at home (bottle caps, containers) for draft angles, wall thickness, ribs and ejector-pin marks.",
+     "questions": [
+      {
+       "q": "Why do molded parts have ribs instead of thick walls?",
+       "a": "Ribs add stiffness while keeping walls thin and uniform, saving material and avoiding sink marks."
+      }
+     ]
+    },
+    {
+     "guide": "Research a California manufacturer (e.g. Tesla in Fremont, SpaceX in Hawthorne, a local machine shop or food packaging plant) and list their processes.",
+     "questions": [
+      {
+       "q": "Name a California manufacturer and one process it uses.",
+       "a": "Examples: Tesla (Fremont) — stamping, casting (large single-piece castings), robotic assembly; SpaceX (Hawthorne) — CNC machining, welding, 3D printing of engine parts."
+      }
+     ]
+    },
+    {
+     "guide": "Give the manufacturing quiz in the key.",
+     "questions": [
+      {
+       "q": "Which process would you choose for 10 custom brackets? For 1 million bottle caps?",
+       "a": "10 brackets: 3D printing or CNC machining. 1 million caps: injection molding."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 21,
+   "prep": "Gather cardboard, foam board, hot glue gun, craft knife, cutting mat, metal ruler and safety glasses. Check whether a local library makerspace has a 3D printer and its booking process. Find an IDEO prototyping example video.",
+   "misconceptions": [
+    "Thinking prototypes must look finished. Low-fidelity prototypes are deliberately rough to test ideas quickly and cheaply.",
+    "Cutting toward the hand or without a mat. Always cut away from yourself on a mat, with a sharp blade (dull blades slip).",
+    "Skipping the mock-up and going straight to printing. Cheap mock-ups catch problems (angle, size) before spending hours printing."
+   ],
+   "assessment_key": "Prototype comparison entry rubric: 4 = photos of both prototypes; table comparing time, material cost and what each revealed (e.g. cardboard showed the 70° angle was too steep; printed version tested cable slot fit); explains one change made in CAD because of the mock-up; 3 = all parts, less detail; 2 = only one prototype or no comparison; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Compare low-fidelity (sketches, cardboard, foam) and high-fidelity (3D printed, machined, near-final materials) prototypes. Review craft-knife and hot-glue safety (hot glue can burn; keep the gun on its stand).",
+     "questions": [
+      {
+       "q": "What's the purpose of a low-fidelity prototype?",
+       "a": "To test ideas quickly and cheaply early in the design process, before investing in detailed designs."
+      },
+      {
+       "q": "Name two hot-glue safety rules.",
+       "a": "Don't touch the nozzle or fresh glue (burns); set the gun on its stand and unplug when finished."
+      }
+     ]
+    },
+    {
+     "guide": "Build a full-size cardboard phone/tablet stand; test with the real device for viewing angle, stability and cable access.",
+     "questions": [
+      {
+       "q": "Your device slides off the stand. What change might fix it?",
+       "a": "Add a lip at the front edge or a higher-friction surface, or reduce the angle."
+      }
+     ]
+    },
+    {
+     "guide": "Update the stand in Onshape using the mock-up findings.",
+     "questions": [
+      {
+       "q": "Why update the CAD model after a mock-up?",
+       "a": "So the digital design reflects what was learned and the next prototype is better."
+      }
+     ]
+    },
+    {
+     "guide": "Export an STL and print at a makerspace, or build a refined foam-board version using the drawing as a template.",
+     "questions": [
+      {
+       "q": "What's one advantage of a 3D-printed prototype over cardboard?",
+       "a": "It's more accurate and durable, closer to the final product, so tests of fit and strength are more realistic."
+      }
+     ]
+    },
+    {
+     "guide": "Write the comparison entry; score with the rubric.",
+     "questions": [
+      {
+       "q": "Which prototype gave more useful information for its cost?",
+       "a": "Answers vary; often the cardboard mock-up because it revealed major problems quickly and almost for free."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 22,
+   "prep": "Gather the phone-stand prototype, a protractor, a kitchen scale, 300 g of weights (coins, a bag of rice) and a board you can tilt 10° (measure with the protractor). Prepare the Unit 6 test.",
+   "misconceptions": [
+    "Vague success criteria ('it works'). Each criterion needs a measurable target and tolerance (holds 300 g, 60° ± 5°).",
+    "Changing several things at once in a redesign. Change the feature tied to the failure mode, then retest, so you know what fixed it.",
+    "One trial only. Run at least five trials to account for variation."
+   ],
+   "assessment_key": "Test report rubric: 4 = test plan with measurable criteria, five trials per test in a table, mean and standard deviation, pass/fail for each criterion, failure mode identified with evidence, redesign tied to the failure mode and retest data; 3 = missing SD or weak link to failure; 2 = few trials or no retest; 1 = incomplete. Unit 6 test answers: 1) Material families. 2) Stiffness vs. strength. 3) Ductile vs. brittle. 4) Tensile strength definition. 5) Additive vs. subtractive. 6) Injection molding for high volume. 7) Draft angle purpose. 8) Low- vs. high-fidelity prototypes. 9) Independent variable = what you change on purpose. 10) Failure mode = the way a product fails. Mastery 8+/10.",
+   "days": [
+    {
+     "guide": "Write a test plan with criteria: holds 300 g, viewing angle 60° ± 5°, doesn't tip on a 10° tilt. Specify procedure, equipment, trials and data table.",
+     "questions": [
+      {
+       "q": "What is the independent variable in a load test?",
+       "a": "The load (mass) added — the thing you deliberately change."
+      },
+      {
+       "q": "Write a measurable criterion for stability.",
+       "a": "The stand with device does not tip when placed on a surface tilted 10° (5 out of 5 trials)."
+      }
+     ]
+    },
+    {
+     "guide": "Run five trials of each test and record results.",
+     "questions": [
+      {
+       "q": "Angles measured: 58°, 61°, 59°, 62°, 60°. Does it meet 60° ± 5°?",
+       "a": "Yes — all are between 55° and 65°; mean = 60°."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate mean and SD for each test and identify the most likely failure mode (e.g. tipping backward, base flexing, joint cracking).",
+     "questions": [
+      {
+       "q": "Find the mean and sample SD of 58, 61, 59, 62, 60.",
+       "a": "Mean 60; squared deviations 4, 1, 1, 4, 0 = 10; 10/4 = 2.5; SD ≈ 1.58°."
+      },
+      {
+       "q": "What is a failure mode?",
+       "a": "The specific way a design fails, e.g. tipping, cracking at a joint, or bending."
+      }
+     ]
+    },
+    {
+     "guide": "Modify the design to address the failure mode, rebuild and retest.",
+     "questions": [
+      {
+       "q": "The stand tips backward with a tablet. Give two design fixes.",
+       "a": "Extend or widen the base behind the support, lower the center of gravity (heavier base), or reduce the angle."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test in the key.",
+     "questions": [
+      {
+       "q": "When would you choose CNC machining over 3D printing?",
+       "a": "When you need a strong metal part, tight tolerances or a smooth finish in small quantities."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 23,
+   "prep": "Gather a tape measure, several pairs of scissors, can openers and peelers of different quality, and a published anthropometric table (search 'hand anthropometry percentile table', e.g. from NASA or ergonomics texts). Recruit five people to measure.",
+   "misconceptions": [
+    "Designing for the 'average' person. Few people are average in every dimension; design for a range (often 5th to 95th percentile).",
+    "Thinking percentiles mean percent of size. The 95th percentile means 95% of people are at or below that value.",
+    "Assuming accessibility helps only people with disabilities. Universal design (curb cuts, large grips) benefits everyone."
+   ],
+   "assessment_key": "Ergonomic redesign rubric: 4 = CAD handle with dimensions justified by data (e.g. length ≥ 95th-percentile male hand breadth so large hands fit; grip diameter in the roughly 30–40 mm range so 5th-percentile hands can close around it), notes on texture/shape for limited hand strength, and a comparison to the original; 3 = justified with one dimension unexplained; 2 = dimensions guessed; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Compare good and poor tools: the student lists ergonomic features (cushioned grip, handle shape fitting the hand, neutral wrist angle, lower force needed).",
+     "questions": [
+      {
+       "q": "What is ergonomics?",
+       "a": "Designing products, tools and workspaces to fit the human body and its abilities for comfort, safety and efficiency."
+      },
+      {
+       "q": "Name two ergonomic features of a good vegetable peeler.",
+       "a": "A thick, cushioned, non-slip handle and a shape that keeps the wrist straight (also low force needed)."
+      }
+     ]
+    },
+    {
+     "guide": "Measure hand length, grip diameter (largest comfortable cylinder) and reach of five people; compare to a percentile table.",
+     "questions": [
+      {
+       "q": "What does 'the 5th percentile' mean for hand length?",
+       "a": "5% of the population has hands that short or shorter; 95% are longer."
+      },
+      {
+       "q": "Why don't five family members represent all users?",
+       "a": "The sample is tiny and not representative (similar ages and genetics); use published data from large studies."
+      }
+     ]
+    },
+    {
+     "guide": "Size a garden tool handle for the 5th–95th percentile range: length long enough for the largest hands, diameter small enough for the smallest grip.",
+     "questions": [
+      {
+       "q": "Which percentile do you use to set a handle's minimum length? A door's minimum height?",
+       "a": "Large-user (e.g. 95th percentile) hand breadth for handle length; large-user (95th+ percentile) stature for door height — so big people fit."
+      },
+      {
+       "q": "Which percentile do you use to set maximum reach to a control?",
+       "a": "Small-user (5th percentile) reach, so short people can reach it."
+      }
+     ]
+    },
+    {
+     "guide": "Study the seven principles of universal design (equitable use, flexibility, simple and intuitive, perceptible information, tolerance for error, low physical effort, size and space for approach). Evaluate a product for users with limited hand strength.",
+     "questions": [
+      {
+       "q": "Give one example of universal design that helps everyone.",
+       "a": "Curb cuts (help wheelchair users, strollers, rolling luggage); lever door handles instead of knobs."
+      }
+     ]
+    },
+    {
+     "guide": "Redesign a handle in Onshape with dimensions justified by data; score with the rubric.",
+     "questions": [
+      {
+       "q": "Why would you make a handle larger in diameter and textured for someone with arthritis?",
+       "a": "A larger, non-slip grip requires less finger force and is easier to hold securely."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 24,
+   "prep": "Write or adapt an interview guide template and buy sticky notes. Line up three people to interview. Find a design-thinking empathy video (e.g. IDEO or Stanford d.school examples).",
+   "misconceptions": [
+    "Asking leading or yes/no questions. Ask open-ended questions about specific past experiences ('Tell me about the last time…').",
+    "Jumping to solutions during interviews. The goal is to understand needs, not pitch an idea.",
+    "Writing a needs statement that includes the solution ('How might we build an app…'). Keep 'How might we…' focused on the user's need."
+   ],
+   "assessment_key": "Persona and needs statements rubric: 4 = persona built from interview evidence (name, background, goals, frustrations, direct quotes); journey map with steps, actions, feelings and pain points; three 'How might we…' statements that are specific, user-focused, solution-neutral and neither too broad nor too narrow (e.g. 'How might we help a busy parent find school forms in the morning without unpacking the whole backpack?'); 3 = mostly evidence-based; 2 = persona invented, weak HMWs; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Explain empathize: observe, engage and immerse to understand users' needs. Watch an example video and note techniques.",
+     "questions": [
+      {
+       "q": "Why is empathy the first stage of design thinking?",
+       "a": "Designers must understand users' real needs and frustrations before defining the problem, or they may solve the wrong problem."
+      }
+     ]
+    },
+    {
+     "guide": "Write 10 open-ended interview questions about a daily frustration.",
+     "questions": [
+      {
+       "q": "Rewrite 'Do you find organizing your backpack hard?' as an open question.",
+       "a": "'Walk me through how you packed your backpack this morning. What was frustrating?'"
+      }
+     ]
+    },
+    {
+     "guide": "Interview three people; record notes and direct quotes.",
+     "questions": [
+      {
+       "q": "Why record direct quotes?",
+       "a": "They capture the user's real words and feelings, which give stronger evidence than paraphrases."
+      }
+     ]
+    },
+    {
+     "guide": "Write each finding on a sticky note, cluster into themes, and build a persona and journey map.",
+     "questions": [
+      {
+       "q": "What is a journey map?",
+       "a": "A diagram of the steps a user goes through to complete a task, with their actions, thoughts, feelings and pain points at each step."
+      }
+     ]
+    },
+    {
+     "guide": "Write three 'How might we…' needs statements; score with the rubric.",
+     "questions": [
+      {
+       "q": "Improve 'How might we design a better kitchen?'",
+       "a": "Make it specific and user-focused: 'How might we help a family cook find spices quickly while cooking in a small kitchen?'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 25,
+   "prep": "Learn Onshape's appearance and render options (or take clean screenshots). Have slide software ready. Prepare a short Unit 7 quiz from the key.",
+   "misconceptions": [
+    "Pitches that describe features instead of the problem. Start with the user's problem; features matter only as they solve it.",
+    "Going over time. An elevator pitch is about 60 seconds — rehearse with a timer.",
+    "Storyboards that show only the product. Show the user, the problem, and how the product fits into their experience."
+   ],
+   "assessment_key": "Pitch rubric (4 levels): 4 = within 60 seconds; states the problem and the specific user, the solution and how it works, evidence (test results or user feedback), and a clear ask/closing; confident voice and eye contact; 3 = all content, delivery uneven; 2 = missing problem or evidence; 1 = unprepared. Unit 7 quiz: 1) Ergonomics definition. 2) 5th–95th percentile design range. 3) Anthropometry = measurement of human body dimensions. 4) Universal design example. 5) Open vs. leading interview questions. 6) Persona definition. 7) Journey map definition. 8) 'How might we' statements frame needs without dictating solutions. Mastery 7+/8.",
+   "days": [
+    {
+     "guide": "Apply appearances (colors, materials) to the phone-stand model and create clean renderings or screenshots from several angles.",
+     "questions": [
+      {
+       "q": "Why do engineers create renderings?",
+       "a": "To communicate what a product will look like to clients, users or investors before it's made."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a 6-panel storyboard: user has a problem, tries current options, finds the product, uses it, outcome, how they feel.",
+     "questions": [
+      {
+       "q": "What should a storyboard show besides the product?",
+       "a": "The user, their problem and context, and how their experience changes."
+      }
+     ]
+    },
+    {
+     "guide": "Write a 60-second pitch: problem, user, solution, evidence, ask.",
+     "questions": [
+      {
+       "q": "About how many words is a 60-second pitch?",
+       "a": "About 130–160 words at a normal speaking pace."
+      }
+     ]
+    },
+    {
+     "guide": "Record the pitch, watch it, revise twice.",
+     "questions": [
+      {
+       "q": "What should you look for when reviewing your recording?",
+       "a": "Time, clarity of the problem, filler words, pace, and whether evidence is included."
+      }
+     ]
+    },
+    {
+     "guide": "Deliver the pitch and give the Unit 7 quiz.",
+     "questions": [
+      {
+       "q": "What is anthropometry?",
+       "a": "The measurement of the size and proportions of the human body."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 26,
+   "prep": "Print or open the NSPE Code of Ethics (nspe.org). Find a reliable account of the Tacoma Narrows Bridge collapse (1940; there is famous film footage) and the Space Shuttle Challenger disaster (1986), e.g. the Rogers Commission summary or a university engineering-ethics case study. Parental note: Challenger involves the deaths of seven astronauts, including teacher Christa McAuliffe.",
+   "misconceptions": [
+    "Thinking Tacoma Narrows was simple resonance from steady wind. Engineers now explain it as aeroelastic flutter — wind and the twisting deck interacted so motion grew — made possible by a very slender, flexible deck with solid plate-girder sides.",
+    "Blaming Challenger only on a 'broken part'. The O-ring problem was known; the deeper failure was a decision process that overruled engineers' safety concerns.",
+    "Thinking a factor of safety means wasted material. It accounts for uncertainty in loads, materials and manufacturing."
+   ],
+   "assessment_key": "Ethics case analysis rubric (500 words, 4 levels): 4 = accurate facts of the case; identifies the technical cause (e.g. Challenger: cold temperatures made the rubber O-rings in the solid rocket booster joints less resilient so hot gas escaped); identifies the ethical dilemma (Morton Thiokol engineers, including Roger Boisjoly, recommended not launching below 53°F; managers reversed the recommendation under schedule pressure); applies at least two NSPE canons (hold paramount public safety; issue truthful statements; act as faithful agents while not compromising safety); states what should have been done; 3 = accurate, ethics less developed; 2 = factual errors or no canons; 1 = incomplete. Factor-of-safety key: FOS = failure load ÷ working load; bracket failing at 900 N carrying 300 N → FOS = 3.",
+   "days": [
+    {
+     "guide": "Read the NSPE Code; summarize the six fundamental canons in the student's own words.",
+     "questions": [
+      {
+       "q": "What is the first fundamental canon of the NSPE Code of Ethics?",
+       "a": "Engineers shall hold paramount the safety, health and welfare of the public."
+      },
+      {
+       "q": "Name two other canons.",
+       "a": "Perform services only in areas of competence; issue public statements only in an objective and truthful manner; act as faithful agents or trustees for employers/clients; avoid deceptive acts; conduct themselves honorably, responsibly, ethically and lawfully."
+      }
+     ]
+    },
+    {
+     "guide": "Watch the 1940 footage and read about the collapse. Have the student explain the design failure and lessons learned (wind-tunnel testing of bridge decks, aerodynamic deck shapes, stiffening trusses).",
+     "questions": [
+      {
+       "q": "Why did the Tacoma Narrows Bridge collapse?",
+       "a": "Its deck was extremely slender and flexible with solid plate-girder sides; moderate wind (about 40 mph) caused aeroelastic flutter — twisting oscillations that grew until the deck failed."
+      },
+      {
+       "q": "What did engineers change afterward?",
+       "a": "Bridges were designed with stiffer, more aerodynamic decks (open trusses, streamlined shapes) and tested in wind tunnels."
+      }
+     ]
+    },
+    {
+     "guide": "Read about Challenger (January 28, 1986). Discuss the O-ring problem, the cold launch temperature, the engineers' warning and the decision to launch.",
+     "questions": [
+      {
+       "q": "What was the technical cause of the Challenger explosion?",
+       "a": "An O-ring seal in a solid rocket booster joint failed in the cold, letting hot gas escape, which led to the breakup 73 seconds after launch."
+      },
+      {
+       "q": "What was the ethical dilemma?",
+       "a": "Engineers warned it was unsafe to launch in such cold temperatures, but managers overruled them under schedule pressure — raising the duty to put public safety first and to speak up."
+      }
+     ]
+    },
+    {
+     "guide": "Teach FOS = failure load ÷ working (design) load. Calculate for a shelf bracket.",
+     "questions": [
+      {
+       "q": "A bracket fails at 1,200 N and must carry 400 N. What is the factor of safety?",
+       "a": "1,200 ÷ 400 = 3."
+      },
+      {
+       "q": "If a required FOS is 4 and the working load is 250 N, what failure load must the bracket withstand?",
+       "a": "At least 1,000 N."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a 500-word ethics case analysis; score with the rubric.",
+     "questions": [
+      {
+       "q": "Which NSPE canon is most relevant to Challenger, and why?",
+       "a": "Holding public safety paramount — the engineers' safety concern should have outweighed schedule pressure."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 27,
+   "prep": "Have a plastic water bottle and a disposable product (e.g. a pen, a plastic toy) for redesign. Bookmark Google Patents (patents.google.com) and the USPTO's 'Trademark, Patent, or Copyright?' page. Prepare the Unit 8 quiz.",
+   "misconceptions": [
+    "Thinking you can patent an idea. Patents protect specific inventions that are new, useful and non-obvious, described in detail — not general ideas.",
+    "Mixing up IP types. Patent = invention; trademark = brand name/logo; copyright = creative works; trade secret = confidential business information.",
+    "Thinking recycling solves all waste. Reduce and reuse come first; many plastics are not actually recycled."
+   ],
+   "assessment_key": "Unit 8 quiz: 1) First NSPE canon: hold paramount public safety, health and welfare. 2) Tacoma Narrows: aeroelastic flutter in a slender, flexible deck. 3) Challenger: O-ring failure in cold; managers overrode engineers. 4) FOS = failure load ÷ working load; 1,500 N ÷ 500 N = 3. 5) Life cycle stages: raw materials, manufacturing, distribution/transportation, use, end of life (disposal/recycling). 6) Cradle to cradle = designing products so materials can be fully reused/recycled at end of life. 7) Utility patent lasts 20 years from filing. 8) Trademark protects brand names/logos and can last indefinitely if used and renewed. 9) Copyright protects creative works (generally the author's life + 70 years). 10) Prior art = existing evidence that an invention is already known. Mastery 8+/10.",
+   "days": [
+    {
+     "guide": "Map a water bottle's life cycle: raw materials (petroleum → PET), manufacturing, transportation, use, disposal (landfill, recycling, litter). Estimate impacts at each stage.",
+     "questions": [
+      {
+       "q": "What are the main stages of a product's life cycle?",
+       "a": "Raw material extraction, manufacturing, distribution/transport, use, and end of life (disposal or recycling)."
+      },
+      {
+       "q": "Which stage of a single-use water bottle likely has the biggest impact?",
+       "a": "Material production/manufacturing and end of life (plastic waste) — use has almost no impact since it's used briefly."
+      }
+     ]
+    },
+    {
+     "guide": "Redesign a disposable product for disassembly and recycling: single material, snap fits instead of glue, labeled plastics, refillable parts.",
+     "questions": [
+      {
+       "q": "Why does using a single type of plastic help recycling?",
+       "a": "Mixed materials are hard or impossible to separate; a single labeled material can be recycled together."
+      }
+     ]
+    },
+    {
+     "guide": "Compare patents, trademarks, copyrights and trade secrets with examples.",
+     "questions": [
+      {
+       "q": "Which IP protects the Coca-Cola recipe? The Nike swoosh? A new type of hinge? A song?",
+       "a": "Trade secret; trademark; patent; copyright."
+      },
+      {
+       "q": "How long does a U.S. utility patent last?",
+       "a": "20 years from the filing date (with maintenance fees)."
+      }
+     ]
+    },
+    {
+     "guide": "Search Google Patents for prior art on a product idea; read one patent's abstract and first claim.",
+     "questions": [
+      {
+       "q": "What are a patent's 'claims'?",
+       "a": "The numbered statements that define exactly what the patent legally protects."
+      },
+      {
+       "q": "What is prior art?",
+       "a": "Any public evidence (patents, products, publications) that an invention already exists, which can prevent a new patent."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 quiz in the key.",
+     "questions": [
+      {
+       "q": "What is 'cradle to cradle' design?",
+       "a": "Designing products so that at end of life their materials become inputs for new products, rather than waste."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 28,
+   "prep": "Review the student's engineering notebook for space. Help line up potential users to interview (family, neighbors, a community group). Have a decision matrix template and Gantt chart template (spreadsheet) ready.",
+   "misconceptions": [
+    "Picking a problem that is too big ('solve homelessness') or has no real user. Scope to something buildable in 8 weeks with a specific user.",
+    "Choosing a solution before defining the problem. The problem statement must not contain the solution.",
+    "Unrealistic schedules. Build in time for rework and testing; the prototype rarely works the first time."
+   ],
+   "assessment_key": "Design brief rubric: 4 = names a real client/user; problem statement describes the need without implying a solution; at least four measurable criteria and three constraints (budget, time, materials/tools, size, safety); justification from user interviews; 3 = all parts, criteria partly unmeasurable; 2 = solution embedded or missing constraints; 1 = incomplete. Gantt chart: pass when it covers weeks 28–36 with research, ideation, CAD, build, testing, report and presentation tasks, durations, dependencies and at least one buffer.",
+   "days": [
+    {
+     "guide": "The student lists 15 problems noticed at home or in the community, then picks three candidates based on interest and feasibility.",
+     "questions": [
+      {
+       "q": "What makes a good capstone problem?",
+       "a": "A real user with a real need, a problem small enough to prototype and test in about 8 weeks with available tools and budget."
+      }
+     ]
+    },
+    {
+     "guide": "Interview at least two potential users for each candidate; record quotes.",
+     "questions": [
+      {
+       "q": "Why interview users before choosing a problem?",
+       "a": "To confirm the problem is real and important to them, and to learn needs that will shape criteria."
+      }
+     ]
+    },
+    {
+     "guide": "Select the problem with a weighted decision matrix (impact, feasibility, user access, interest, cost).",
+     "questions": [
+      {
+       "q": "Weights: impact 3, feasibility 2. Problem A scores 4 and 3; problem B scores 5 and 1. Which wins?",
+       "a": "A: 12 + 6 = 18; B: 15 + 2 = 17 → A."
+      }
+     ]
+    },
+    {
+     "guide": "Write the design brief: client, problem statement, criteria, constraints.",
+     "questions": [
+      {
+       "q": "Rewrite 'Design a phone app that reminds Grandma to take pills.' as a solution-neutral problem statement.",
+       "a": "'Grandma sometimes forgets whether she has taken her daily medications, which risks missed or double doses.'"
+      }
+     ]
+    },
+    {
+     "guide": "Submit the design brief and a Gantt chart for weeks 28–36; score with the rubric.",
+     "questions": [
+      {
+       "q": "Why include buffer time in a Gantt chart?",
+       "a": "Problems and delays always happen; buffer keeps the final deadline achievable."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 29,
+   "prep": "Help the student access library databases (public library card) and Google Patents. Have a benchmarking table template ready.",
+   "misconceptions": [
+    "Skipping existing products. If a cheap product already solves the problem well, the design needs a clear improvement.",
+    "Writing specifications that can't be tested ('easy to use'). Specifications need numbers and test methods ('a first-time user can open it in under 10 seconds').",
+    "Citing unreliable sources. Use manufacturer data, standards, textbooks, patents and reputable articles."
+   ],
+   "assessment_key": "Research summary rubric: 4 = benchmarking table of five existing solutions (price, key features, weaknesses) with sources; summaries of two related patents (number, title, what it claims, how the design differs); technical principles explained (e.g. levers, friction, heat transfer, circuits) with sources; at least five measurable specifications each linked to a criterion with a test method; citations in a consistent format; 3 = minor gaps; 2 = missing patents or specs; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Benchmark five existing solutions in a table: price, features, weaknesses (from reviews).",
+     "questions": [
+      {
+       "q": "What is benchmarking?",
+       "a": "Studying and comparing existing products to learn their strengths and weaknesses and set targets for a new design."
+      }
+     ]
+    },
+    {
+     "guide": "Search Google Patents; summarize two related patents.",
+     "questions": [
+      {
+       "q": "What three things should you record from each patent?",
+       "a": "The patent number and title, what its claims protect, and how your design is different."
+      }
+     ]
+    },
+    {
+     "guide": "Research the scientific or engineering principles the solution will depend on and note sources.",
+     "questions": [
+      {
+       "q": "Why research technical principles before designing?",
+       "a": "So the design is based on how things actually work (e.g. forces, materials, heat) and avoids predictable failures."
+      }
+     ]
+    },
+    {
+     "guide": "Turn criteria into measurable specifications with target values and test methods.",
+     "questions": [
+      {
+       "q": "Turn 'the organizer should be sturdy' into a specification.",
+       "a": "Example: 'Holds 2 kg on each shelf with less than 2 mm sag, tested with weights over 5 trials.'"
+      }
+     ]
+    },
+    {
+     "guide": "Submit the research summary with citations; score with the rubric.",
+     "questions": [
+      {
+       "q": "What's the difference between a criterion and a specification?",
+       "a": "A criterion is a goal (sturdy); a specification is a measurable, testable target (holds 2 kg with < 2 mm sag)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 30,
+   "prep": "Have sketch paper, isometric paper, sticky notes and a decision-matrix template. Print the SCAMPER prompts (Substitute, Combine, Adapt, Modify/Magnify, Put to other use, Eliminate, Reverse/Rearrange).",
+   "misconceptions": [
+    "Judging ideas during brainstorming. Defer judgment: quantity first, evaluate later.",
+    "Developing only one concept. Developing three forces comparison and often combines strengths.",
+    "Weighted matrices where weights don't reflect the brief. Weights should come from the most important criteria in the design brief."
+   ],
+   "assessment_key": "Concept selection rubric: 4 = at least 20 documented ideas (including SCAMPER variations); three annotated isometric concept sketches with key dimensions and materials; recorded user feedback on each; weighted decision matrix with weights tied to the brief and scores justified; clear presentation of the chosen concept and why; 3 = all parts, thin justification; 2 = fewer than three concepts or no user feedback; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Brainstorm at least 20 ideas in timed rounds, then use SCAMPER on existing products for more.",
+     "questions": [
+      {
+       "q": "Apply SCAMPER 'Combine' to a backpack and a lamp.",
+       "a": "Example: a backpack with a built-in LED light for walking at night (any reasonable combination)."
+      }
+     ]
+    },
+    {
+     "guide": "Develop three concepts into annotated isometric sketches with materials and key dimensions.",
+     "questions": [
+      {
+       "q": "What should annotations on a concept sketch include?",
+       "a": "Key dimensions, materials, how parts move or connect, and how it meets the criteria."
+      }
+     ]
+    },
+    {
+     "guide": "Show the user the three concepts; record their reactions and preferences.",
+     "questions": [
+      {
+       "q": "Why get user feedback before choosing a concept?",
+       "a": "The user may value different features than the designer expects, preventing wasted work on the wrong concept."
+      }
+     ]
+    },
+    {
+     "guide": "Select a final concept with a weighted decision matrix.",
+     "questions": [
+      {
+       "q": "Concept X scores 4, 3, 5 on criteria weighted 3, 2, 1; Concept Y scores 3, 5, 4. Which wins?",
+       "a": "X: 12 + 6 + 5 = 23; Y: 9 + 10 + 4 = 23 — a tie; revisit with user feedback or an added criterion."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents the selected concept and justification.",
+     "questions": [
+      {
+       "q": "What evidence best justifies your choice?",
+       "a": "Matrix scores tied to the brief's criteria plus specific user feedback."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 31,
+   "prep": "Ensure Onshape access; review assembly and drawing tutorials. Help the student find supplier sites (hardware store, McMaster-Carr, Amazon) for BOM pricing.",
+   "misconceptions": [
+    "Modeling purchased parts in detail. Simplify standard parts (screws, hinges) or use Onshape's standard content.",
+    "No clearance between mating parts. Add clearance for printed or hand-made parts (often 0.2–0.5 mm for 3D prints).",
+    "BOM without quantities or sources. Every line needs item, quantity, material/part number, source and cost."
+   ],
+   "assessment_key": "Design review checklist: 4 = all custom parts modeled with constrained sketches; assembly with appropriate mates and no interference; dimensioned working drawing for each custom part with title block; BOM with item numbers, quantities, materials, sources, unit and total costs within the budget constraint; 3 = minor omissions; 2 = missing drawings or BOM; 1 = incomplete. During the review, ask the student to explain one design decision and one risk.",
+   "days": [
+    {
+     "guide": "Model all custom parts.",
+     "questions": [
+      {
+       "q": "What clearance might you add between a 3D-printed pin and hole?",
+       "a": "Roughly 0.2–0.5 mm, depending on the printer — test with a small sample."
+      }
+     ]
+    },
+    {
+     "guide": "Assemble with mates and check interference.",
+     "questions": [
+      {
+       "q": "What does an interference check reveal?",
+       "a": "Places where parts overlap and couldn't physically fit together."
+      }
+     ]
+    },
+    {
+     "guide": "Create dimensioned working drawings for each custom part.",
+     "questions": [
+      {
+       "q": "What must every working drawing include?",
+       "a": "Necessary views, all dimensions, tolerances/notes and a completed title block."
+      }
+     ]
+    },
+    {
+     "guide": "Create a BOM with sourcing and cost.",
+     "questions": [
+      {
+       "q": "Three hinges at $2.49 each and 12 screws at $0.15 each. Total?",
+       "a": "$7.47 + $1.80 = $9.27."
+      }
+     ]
+    },
+    {
+     "guide": "Hold a design review; score with the checklist.",
+     "questions": [
+      {
+       "q": "What is a design review?",
+       "a": "A formal check of a design by others to catch errors and risks before building."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 32,
+   "prep": "Purchase materials per the BOM. Set up a safe workspace with ventilation, a first-aid kit and safety glasses. Supervise any power-tool use, and confirm makerspace print bookings.",
+   "misconceptions": [
+    "Measuring once and cutting. 'Measure twice, cut once' — mark from the working drawing and check before cutting.",
+    "Skipping safety steps when rushed. Every step in the fabrication plan lists hazards and PPE.",
+    "Not tracking costs and hours. Logging against the BOM and Gantt chart shows whether the project is on track."
+   ],
+   "assessment_key": "Build log check: 4 = fabrication plan with step-by-step operations, tools, hazards and PPE per step; dated progress photos; critical dimensions checked with calipers and recorded against drawing tolerances; hours and costs logged versus BOM; updated Gantt chart; 3 = minor gaps; 2 = missing plan or measurements; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Write the fabrication plan: each step, tools, hazards, PPE.",
+     "questions": [
+      {
+       "q": "For cutting plywood with a handsaw, list hazards and PPE.",
+       "a": "Hazards: cuts, splinters, flying dust, unstable workpiece. PPE/controls: safety glasses, clamp the work, gloves for handling rough stock (not near spinning tools), dust mask if dusty."
+      }
+     ]
+    },
+    {
+     "guide": "Set up the workspace, mark stock from drawings and cut.",
+     "questions": [
+      {
+       "q": "What does 'measure twice, cut once' prevent?",
+       "a": "Wasted material and time from cutting to the wrong size."
+      }
+     ]
+    },
+    {
+     "guide": "Fabricate the main structure and check critical dimensions with calipers.",
+     "questions": [
+      {
+       "q": "A part should be 50.0 ± 0.5 mm and measures 50.7 mm. Pass or fail?",
+       "a": "Fail — 50.7 is above the 50.5 mm upper limit."
+      }
+     ]
+    },
+    {
+     "guide": "Send parts to a makerspace printer or hand-fabricate.",
+     "questions": [
+      {
+       "q": "What is a jig?",
+       "a": "A custom guide or holder that positions the workpiece or tool so operations are repeatable and accurate."
+      }
+     ]
+    },
+    {
+     "guide": "Photograph progress, log hours and costs, update the Gantt chart.",
+     "questions": [
+      {
+       "q": "You're 2 days behind. What are your options?",
+       "a": "Use buffer time, reduce scope of nonessential features, work extra sessions, or reorder tasks."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 33,
+   "prep": "Gather fasteners, adhesives (follow ventilation labels), sandpaper/files and calipers. Keep the CAD model open for updates.",
+   "misconceptions": [
+    "Forcing parts that don't fit. Measure the clearance, find which part is out of tolerance, and rework it.",
+    "Forgetting to update CAD after changes. The as-built model and drawings must match the real prototype.",
+    "Final assembly with permanent adhesive before testing. Dry-fit and use removable fasteners when possible until testing is done."
+   ],
+   "assessment_key": "Assembled prototype and as-built update: 4 = all parts finished with safe edges; fit-check table of clearances vs. tolerances; reworked parts documented; CAD and drawings updated to match changes (revision noted in title block); prototype assembled and operates as intended; notebook entry explains problems and solutions; 3 = minor gaps; 2 = CAD not updated or prototype not functional; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Finish remaining parts; deburr and sand edges.",
+     "questions": [
+      {
+       "q": "Why deburr metal or plastic edges?",
+       "a": "Burrs are sharp and can cut users; removing them also improves fit."
+      }
+     ]
+    },
+    {
+     "guide": "Dry-fit all parts, measure clearances, and record any out of tolerance.",
+     "questions": [
+      {
+       "q": "What does dry-fitting mean?",
+       "a": "Assembling parts temporarily without glue or permanent fasteners to check fit."
+      }
+     ]
+    },
+    {
+     "guide": "Rework or reprint out-of-tolerance parts and update the CAD model.",
+     "questions": [
+      {
+       "q": "A printed hole is 0.3 mm too small. Give two fixes.",
+       "a": "Drill or ream it to size, or enlarge the hole in CAD (compensate for printer shrinkage) and reprint."
+      }
+     ]
+    },
+    {
+     "guide": "Assemble the full prototype and verify it works.",
+     "questions": [
+      {
+       "q": "What does 'integration' mean in a build?",
+       "a": "Bringing subsystems together and making sure they work properly as a whole."
+      }
+     ]
+    },
+    {
+     "guide": "Submit the as-built update and notebook entry.",
+     "questions": [
+      {
+       "q": "What is an as-built drawing?",
+       "a": "A drawing updated to show the product exactly as it was actually built, including changes made during fabrication."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 34,
+   "prep": "Have the prototype, measurement tools and a spreadsheet. Arrange time for the user to try the prototype. Print the specification list from Week 29.",
+   "misconceptions": [
+    "Testing only what works. Test every specification, especially the riskiest.",
+    "Leading the user during user testing. Give the task, then observe silently.",
+    "Claiming success without data. Each specification needs pass/fail evidence from repeated trials."
+   ],
+   "assessment_key": "Test report rubric: 4 = test procedure per specification with pass/fail criteria; at least five trials each in a spreadsheet with mean and standard deviation; user-test observations with quotes and pain points; at least one evidence-based improvement; retest data and a summary table showing each specification met or not; 3 = minor gaps; 2 = few trials or no retest; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Write a test procedure for each specification with pass/fail criteria.",
+     "questions": [
+      {
+       "q": "Write pass/fail criteria for 'opens in under 10 seconds'.",
+       "a": "Pass if a first-time user opens it in less than 10 s in at least 4 of 5 trials (or mean < 10 s); fail otherwise."
+      }
+     ]
+    },
+    {
+     "guide": "Run five or more trials per test; compute mean and SD in the spreadsheet.",
+     "questions": [
+      {
+       "q": "Times: 8, 9, 7, 12, 9 s. Mean?",
+       "a": "45 ÷ 5 = 9 s."
+      }
+     ]
+    },
+    {
+     "guide": "The user tries the prototype while the student observes and records quotes and pain points.",
+     "questions": [
+      {
+       "q": "Why stay silent while the user tests?",
+       "a": "Explaining hides real usability problems the user would face alone."
+      }
+     ]
+    },
+    {
+     "guide": "Make at least one evidence-based improvement.",
+     "questions": [
+      {
+       "q": "What makes an improvement 'evidence-based'?",
+       "a": "It addresses a specific failure seen in test data or user observations."
+      }
+     ]
+    },
+    {
+     "guide": "Retest and summarize which specifications are met.",
+     "questions": [
+      {
+       "q": "Why retest after changing the design?",
+       "a": "To confirm the change fixed the problem without creating new ones."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 35,
+   "prep": "Have a word processor and a free website builder (Google Sites works well). Collect renderings, drawings, build photos and test graphs into one folder.",
+   "misconceptions": [
+    "Writing the executive summary first. Write it last, as a short summary of the whole report.",
+    "Using vague words ('pretty strong'). Use technical terms and data ('held 3.2 kg, SD 0.2 kg').",
+    "Missing citations for research, images or patents."
+   ],
+   "assessment_key": "Technical report and portfolio rubric: 4 = report of 2,000+ words with executive summary, problem, research, concept selection, design (drawings/renderings), build, testing (tables and graphs with data), conclusions/recommendations and citations; correct technical vocabulary; figures numbered and captioned; portfolio page publicly viewable with renderings, drawings, build photos, test graphs and a short project summary; 3 = minor gaps; 2 = missing sections or data; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Outline the report sections.",
+     "questions": [
+      {
+       "q": "What belongs in an executive summary?",
+       "a": "A brief overview of the problem, solution, key test results and conclusions — readable on its own by a busy reader."
+      }
+     ]
+    },
+    {
+     "guide": "Write the full draft with figures and data tables.",
+     "questions": [
+      {
+       "q": "How should figures be labeled?",
+       "a": "Numbered with a caption (e.g. 'Figure 3. Load test results over five trials'), and referred to in the text."
+      }
+     ]
+    },
+    {
+     "guide": "Build the digital portfolio page.",
+     "questions": [
+      {
+       "q": "What should a portfolio show a college or employer?",
+       "a": "The problem, process, visuals of the design and build, test evidence, and what the student learned."
+      }
+     ]
+    },
+    {
+     "guide": "Revise for clarity and terminology; check every source is cited.",
+     "questions": [
+      {
+       "q": "Replace 'the stand was pretty strong' with technical language.",
+       "a": "'The stand supported a 300 g load with no measurable deflection across five trials.'"
+      }
+     ]
+    },
+    {
+     "guide": "Submit the report and publish the portfolio.",
+     "questions": [
+      {
+       "q": "Why put test data in an appendix?",
+       "a": "Full raw data supports the report's claims while keeping the main text readable."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 36,
+   "prep": "Invite a panel (family, community members, ideally an engineer). Prepare the room with a screen and table for the prototype. Prepare a written final exam covering the course from the key below. Bookmark California community college engineering pathways (ASSIST.org for transfer) and UC/CSU engineering program pages.",
+   "misconceptions": [
+    "Reading slides aloud. Slides show visuals and data; the presenter explains.",
+    "Defensive answers in Q&A. Treat questions as feedback; it's fine to say 'I didn't test that — here's how I would.'",
+    "Assuming there is one path to engineering. Community college transfer (ASSIST.org, transfer agreements) and 4-year admission are both strong routes."
+   ],
+   "assessment_key": "Presentation rubric (4 levels): 4 = about 10 minutes; covers problem, user, research, concept selection, design, build, test data and next steps; live prototype demo; clear visuals; confident Q&A; 3 = complete but uneven; 2 = missing test data or demo; 1 = unprepared. Final exam representative key: 1) Design process steps. 2) Criteria vs. constraints. 3) Isometric axes at 30°. 4) Third-angle view placement (top above front, right side to right). 5) Tolerance 12 ± 0.05 → 11.95–12.05. 6) Accuracy vs. precision. 7) Mean/SD calculation (e.g. 4, 6, 8 → mean 6, SD 2). 8) Density = mass/volume. 9) Extrude, revolve, shell definitions. 10) Revolute mate leaves 1 DOF. 11) Injection molding for high volume; 3D printing for prototypes. 12) Stiffness vs. strength. 13) 5th–95th percentile design. 14) First NSPE canon. 15) Patent vs. trademark vs. copyright. Mastery 12+/15. Pathway plan: complete if it names at least one community college and one university program, required math/science courses (calculus, physics, chemistry), and transfer or admission steps.",
+   "days": [
+    {
+     "guide": "Build a 10-minute slide deck; rehearse twice with a timer.",
+     "questions": [
+      {
+       "q": "What should the first minute of the presentation cover?",
+       "a": "The problem and the user — why the project matters."
+      }
+     ]
+    },
+    {
+     "guide": "Present to the panel and demonstrate the prototype.",
+     "questions": [
+      {
+       "q": "What should you do if the prototype fails during the demo?",
+       "a": "Stay calm, explain what failed and why, and show test data or a video of it working."
+      }
+     ]
+    },
+    {
+     "guide": "Write responses to panel questions and list next steps for development.",
+     "questions": [
+      {
+       "q": "Name two next steps if the product were developed further.",
+       "a": "Examples: test with more users, choose materials for manufacturing, reduce cost, file a provisional patent."
+      }
+     ]
+    },
+    {
+     "guide": "Research California engineering pathways and write a plan.",
+     "questions": [
+      {
+       "q": "What website shows which community college courses transfer to UC/CSU?",
+       "a": "ASSIST.org."
+      },
+      {
+       "q": "Which high school courses best prepare for engineering?",
+       "a": "Math through calculus, physics, chemistry, and courses in CAD/programming."
+      }
+     ]
+    },
+    {
+     "guide": "Give the written final in the key.",
+     "questions": [
+      {
+       "q": "What is the purpose of a factor of safety?",
+       "a": "To make sure a design can carry more than the expected load, covering uncertainty in loads, materials and manufacturing."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
