@@ -61,10 +61,19 @@ python3 scripts/build_web.py            # regenerate web/data/*.json and web/ind
 cd web && python3 -m http.server 8000   # open http://localhost:8000
 ```
 
-To put it online with GitHub Pages: merge to `main`, open the repository's **Settings → Pages**, and set
-**Source** to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` then publishes `web/` on
-every push. If you merge to `main`, change `BRANCH` in `scripts/build_web.py` to `"main"` so the
-GitHub links point at the right branch.
+### Publishing it as a public website (GitHub Pages)
+
+The workflow in `.github/workflows/pages.yml` rebuilds the app and publishes `web/` every time `main`
+changes. One-time setup:
+
+1. GitHub Pages needs either a **public repository** or a paid GitHub plan (Pro, Team or Enterprise)
+   for a private one. To make this repository public: **Settings → General → Danger Zone → Change
+   visibility**.
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+3. Run the workflow once: **Actions → Deploy web app to GitHub Pages → Run workflow** (or push to `main`).
+
+The site will be at **https://jakechesnut09.github.io/Homeschool/**. The app's "on GitHub" buttons
+point at the repository's `main` branch, so visitors can open them only if the repository is public.
 
 ## What each grade covers
 

@@ -13,9 +13,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = ROOT / "web" / "data"
 
-# Links in the app point here. Change BRANCH after merging (e.g. to "main").
+# Links in the app point at this repository branch.
 REPO = "https://github.com/jakechesnut09/Homeschool"
-BRANCH = "ccr-73144c43-xbv6tg"
+BRANCH = "main"
 
 GRADES = {
     1: ("Elementary", "A Child's Place in Time and Space"),
