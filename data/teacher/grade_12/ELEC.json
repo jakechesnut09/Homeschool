@@ -1,0 +1,2263 @@
+{
+ "grade": 12,
+ "subject": "ELEC",
+ "overview": "This senior course is taught in 50-minute lessons: Semester 1 is personal finance using free NGPF, Khan Academy and FDIC Money Smart materials, and Semester 2 is college and career readiness for a California homeschool senior. Work every calculation with the student in a spreadsheet, insist on real documents (pay stubs, Schumer boxes, leases, aid offers), and use the worked answers here as models. Tax brackets, wage rates, aid amounts and deadlines change every year, so check the official site named in each week's prep before teaching (IRS, FTB, DIR, StudentAid.gov, CSAC, UC, CSU). Because UC/CSU applications and the FAFSA/CADAA happen in the fall, use the Week 1 deadline calendar so real submissions are not left for Semester 2.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Create a free NGPF teacher account (ngpf.org) to unlock the pre-assessment and answer keys. Pull up the BLS chart 'Education pays' (bls.gov/emp/chart-unemployment-earnings-education.htm) and CaliforniaColleges.edu. IMPORTANT: confirm this year's real dates on the official sites — FAFSA and the California Dream Act Application open October 1 for the next school year; check the UC application filing period (recent cycles closed Nov 30 or Dec 1), the Cal State Apply priority window (typically October 1 to early December), and the Cal Grant deadline (historically March 2; CSAC has extended it in some recent years — check csac.ca.gov).",
+   "misconceptions": [
+    "Thinking salary and wage are the same. A wage is paid per hour; a salary is a fixed yearly amount regardless of hours.",
+    "Believing the education-earnings link guarantees any individual's income. The data show averages (medians); field of study, skills and work experience also matter.",
+    "Treating college/aid deadlines as 'spring things'. Many key applications (UC, CSU, FAFSA/CADAA) happen in the fall of senior year."
+   ],
+   "assessment_key": "10-question quiz: 1) Wage = pay per hour; salary = fixed annual pay. 2) Gross income = income before deductions. 3) Earned income comes from working; unearned (passive) income comes from investments, interest, rent. 4) Human capital = the skills, knowledge and education that increase a person's earning potential. 5) Opportunity cost = the value of the next-best alternative given up. 6) Opportunity cost of full-time college: wages you could have earned working instead (plus tuition). 7) According to BLS 'Education pays' data, median weekly earnings rise and unemployment rates fall as education increases (e.g. bachelor's-degree holders earn substantially more than high school graduates and have about half the unemployment rate). 8) $20/hour × 40 hours × 52 weeks = $41,600 a year. 9) A $52,000 salary is about $1,000 a week. 10) Benefits (health insurance, retirement match) are part of total compensation. Calendar check: shows FAFSA/CADAA opening Oct 1, UC and CSU application windows with the year's actual deadlines, the Cal Grant deadline, and reminders set at least one week ahead of each.",
+   "days": [
+    {
+     "guide": "Have the student take the NGPF pre-assessment (don't grade it — it's a baseline), then write a one-page money autobiography: how money was discussed at home, a money memory, and one financial goal for age 25.",
+     "questions": [
+      {
+       "q": "What is a SMART financial goal? Make 'save money' SMART.",
+       "a": "Specific, Measurable, Achievable, Relevant, Time-bound — e.g. 'Save $3,000 for an emergency fund by June 2028 by depositing $125 a month.'"
+      }
+     ]
+    },
+    {
+     "guide": "Use the BLS 'Education pays' chart: graph median weekly earnings and unemployment rate for six education levels (less than high school through doctoral/professional). The student writes three conclusions.",
+     "questions": [
+      {
+       "q": "What two patterns appear in the BLS education data?",
+       "a": "As education increases, median weekly earnings go up and unemployment rates go down."
+      },
+      {
+       "q": "Does this guarantee that a bachelor's degree means higher pay for you?",
+       "a": "No — these are medians; individual results depend on field, skills, location and experience."
+      }
+     ]
+    },
+    {
+     "guide": "On CaliforniaColleges.edu, pick three careers and record California salary, training required and projected growth.",
+     "questions": [
+      {
+       "q": "Convert $24/hour to an annual salary for full-time work.",
+       "a": "$24 × 40 × 52 = $49,920."
+      },
+      {
+       "q": "What is human capital?",
+       "a": "The knowledge, skills and education a person has that make them more productive and able to earn more."
+      }
+     ]
+    },
+    {
+     "guide": "Mark the real senior-year dates on a calendar (verify each on the official site): FAFSA/CADAA open Oct 1; UC filing period; Cal State Apply window; Cal Grant deadline (and the school's GPA verification submission); set reminders a week early.",
+     "questions": [
+      {
+       "q": "When do the FAFSA and California Dream Act Application open?",
+       "a": "October 1 of the senior year (for aid the following fall)."
+      },
+      {
+       "q": "What must happen by the Cal Grant deadline?",
+       "a": "The FAFSA or CADAA must be submitted and a verified GPA must be on file with CSAC."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-question quiz in the assessment key; the student presents the calendar to a parent.",
+     "questions": [
+      {
+       "q": "What is the opportunity cost of working full time instead of going to college?",
+       "a": "The long-run higher earnings, skills and opportunities the degree might have provided (and for college, the reverse: wages given up while studying)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "prep": "Download an NGPF sample pay stub, a blank IRS Form W-4 (irs.gov) and a blank CA EDD Form DE 4 (edd.ca.gov). Look up the current California minimum wage (dir.ca.gov; $16.90/hour statewide in 2026 — some cities are higher) and current FICA rates (Social Security 6.2%, Medicare 1.45%) and the current CA SDI rate (edd.ca.gov).",
+   "misconceptions": [
+    "Thinking gross pay is what lands in the bank. Net pay is gross pay minus taxes and deductions.",
+    "Missing California daily overtime. California requires 1.5× pay for hours over 8 in a day or over 40 in a week (and 2× over 12 in a day), not only over 40 per week.",
+    "Thinking withholding is the final tax bill. Withholding is a prepayment; the tax return settles up with a refund or amount owed."
+   ],
+   "assessment_key": "Net-pay quiz (use $16.90/hour; Social Security 6.2%, Medicare 1.45%): 1) 30 hours → gross $507.00. 2) Social Security on $507 = $31.43; Medicare = $7.35. 3) 5 days × 9 hours → 40 regular + 5 daily-OT hours: 40 × 16.90 = $676.00 + 5 × 25.35 = $126.75 → $803.25. 4) Net pay if gross $600 and total deductions $92 → $508. 5) FICA total rate = 7.65%; on $1,000 = $76.50. Practice W-4 check: single, one job, no dependents → Step 1 completed, Steps 2–4 left blank, Step 5 signed and dated. DE 4: single, allowances claimed consistent with the worksheet (often 1 for a single filer with one job). Benefits comparison: Offer A $45,000 + $3,000 health contribution + 4% match ($1,800) = $49,800 total compensation; compare similarly for B.",
+   "days": [
+    {
+     "guide": "Teach California overtime. Compute gross pay at $16.90 for three schedules: 5 × 8 hours; 4 × 10 hours; 6 × 8 hours.",
+     "questions": [
+      {
+       "q": "5 days × 8 hours at $16.90?",
+       "a": "40 regular hours × $16.90 = $676.00."
+      },
+      {
+       "q": "4 days × 10 hours?",
+       "a": "Each day has 2 overtime hours: 32 × $16.90 = $540.80 + 8 × $25.35 = $202.80 → $743.60."
+      },
+      {
+       "q": "6 days × 8 hours (48 hours, no day over 8)?",
+       "a": "40 × $16.90 = $676.00 + 8 weekly-overtime hours × $25.35 = $202.80 → $878.80."
+      }
+     ]
+    },
+    {
+     "guide": "Label every line on the sample pay stub: gross pay, federal income tax withholding, state (CA PIT) withholding, Social Security (OASDI), Medicare, CA SDI, year-to-date (YTD) totals, net pay.",
+     "questions": [
+      {
+       "q": "What does FICA fund?",
+       "a": "Social Security (6.2%) and Medicare (1.45%) — a total of 7.65% of wages, matched by the employer."
+      },
+      {
+       "q": "What does CA SDI fund?",
+       "a": "California State Disability Insurance and Paid Family Leave — partial wage replacement if you can't work due to illness, injury, pregnancy or caring for family."
+      }
+     ]
+    },
+    {
+     "guide": "Walk through the W-4: Step 1 (personal info and filing status), Step 2 (multiple jobs), Step 3 (dependents), Step 4 (other adjustments), Step 5 (sign). A single teen with one job fills Steps 1 and 5 only.",
+     "questions": [
+      {
+       "q": "Which W-4 steps does a single teen with one job and no dependents complete?",
+       "a": "Step 1 and Step 5 (sign); Steps 2–4 are left blank unless needed."
+      },
+      {
+       "q": "What happens if too little tax is withheld?",
+       "a": "You may owe money (and possibly a penalty) when you file your return."
+      }
+     ]
+    },
+    {
+     "guide": "Complete the DE 4 (California withholding). Then compare two offers including health insurance and 401(k) match to find total compensation.",
+     "questions": [
+      {
+       "q": "Offer A: $45,000 + employer pays $3,000 toward health insurance + 4% 401(k) match. Total compensation?",
+       "a": "$45,000 + $3,000 + $1,800 = $49,800 (if you contribute at least 4%)."
+      },
+      {
+       "q": "Why does California have its own withholding form?",
+       "a": "California's income tax rules and allowances differ from federal; the DE 4 sets state withholding."
+      }
+     ]
+    },
+    {
+     "guide": "Play NGPF paycheck scenarios, then give the 5-problem net-pay quiz in the key.",
+     "questions": [
+      {
+       "q": "Gross pay is $800. What is the total FICA withheld?",
+       "a": "$800 × 7.65% = $61.20."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "prep": "Make or print 30 expense cards (rent, groceries, phone plan, streaming, car, gym, concert tickets, etc.). Open Google Sheets or LibreOffice. Find the Khan Academy budgeting video and NGPF 'Budget Challenge' or SPENT (playspent.org).",
+   "misconceptions": [
+    "Budgeting only what's left after spending. 'Pay yourself first': savings is a line item paid at the start of the month.",
+    "Forgetting irregular expenses (car registration, gifts, annual subscriptions). Divide annual costs by 12 and budget monthly.",
+    "Using the 50/30/20 rule as a law. It's a starting guideline; high-rent areas may need adjustments."
+   ],
+   "assessment_key": "Budget spreadsheet rubric (4 levels): 4 = $2,400 net income; formulas (=SUM) for income, fixed, variable and savings totals; balance formula = income − expenses − savings equals $0 (zero-based) or a positive surplus; categories reasonable for California; savings at least 10–20%; after the $400 car repair, the revision balances by cutting wants or temporarily using the emergency fund, with a paragraph explaining tradeoffs; 3 = balanced, minor formula issues; 2 = unbalanced or hard-coded totals; 1 = incomplete. 50/30/20 of $2,400: needs $1,200, wants $720, savings/debt $480.",
+   "days": [
+    {
+     "guide": "Sort the 30 cards into needs and wants; the student defends five borderline items in writing.",
+     "questions": [
+      {
+       "q": "Is a smartphone plan a need or a want?",
+       "a": "Basic phone service is arguably a need (for work and safety); an expensive unlimited plan or new phone is a want. A good answer explains the distinction."
+      },
+      {
+       "q": "What's the difference between a fixed and a variable expense?",
+       "a": "Fixed: same each month (rent, insurance). Variable: changes month to month (groceries, gas, entertainment)."
+      }
+     ]
+    },
+    {
+     "guide": "Start a 7-day expense tracker (every purchase) and watch the budgeting video, noting the 50/30/20 rule.",
+     "questions": [
+      {
+       "q": "Apply 50/30/20 to $2,400 net income.",
+       "a": "Needs $1,200, wants $720, savings/debt repayment $480."
+      }
+     ]
+    },
+    {
+     "guide": "Build the budget spreadsheet with SUM formulas and a balance cell (=income − total expenses − savings).",
+     "questions": [
+      {
+       "q": "What formula totals cells B2 through B10?",
+       "a": "=SUM(B2:B10)."
+      },
+      {
+       "q": "What does 'pay yourself first' mean?",
+       "a": "Set aside savings first, as soon as you're paid, before spending on anything else."
+      }
+     ]
+    },
+    {
+     "guide": "Play the budget simulation and record three decisions to change.",
+     "questions": [
+      {
+       "q": "Your car insurance is $1,200 a year. How much should you budget monthly?",
+       "a": "$100 per month."
+      }
+     ]
+    },
+    {
+     "guide": "The student revises the budget after a $400 car repair and writes a paragraph.",
+     "questions": [
+      {
+       "q": "How could you cover a $400 surprise expense without debt?",
+       "a": "Use the emergency fund, or cut wants (e.g. dining out, entertainment) for a month or two to cover it, then rebuild savings."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "prep": "Gather grocery ads or two store websites, Kelley Blue Book or Edmunds, and a calculator. Look up California DMV registration fee estimates (dmv.ca.gov fee calculator) and current local gas prices. Prepare the Unit 1 test from the key below.",
+   "misconceptions": [
+    "Comparing package prices instead of unit prices. Divide price by quantity to compare.",
+    "Considering only a car's purchase price. Total cost of ownership includes depreciation, insurance, registration, fuel, maintenance and financing.",
+    "Thinking small purchases don't matter. Small, frequent spending adds up — $5 a day is about $1,825 a year."
+   ],
+   "assessment_key": "Unit 1 test answers: 1) Gross vs. net pay. 2) FICA 7.65%. 3) California daily overtime after 8 hours. 4) 10 hours at $16.90 in one day → 8 × 16.90 + 2 × 25.35 = $135.20 + $50.70 = $185.90. 5) Fixed vs. variable expenses. 6) 50/30/20 of $3,000 → $1,500/$900/$600. 7) Opportunity cost of a $60 purchase saved at 5% for 10 years → $60 × 1.05^10 ≈ $97.73. 8) Unit price: 24 oz for $4.80 = $0.20/oz vs. 32 oz for $5.76 = $0.18/oz → larger is cheaper. 9) Scarcity marketing = 'only 2 left!' to create urgency. 10) Total cost of ownership definition. Car project rubric: 4 = realistic 5-year totals for both cars with purchase price/depreciation, registration, insurance quote estimate, fuel (miles ÷ mpg × price), maintenance, and loan interest if financed; clear recommendation; 3 = one category missing; 2 = several missing; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Analyze three of the student's purchases for opportunity cost; compute each saved at 5% for 10 years (amount × 1.05^10 ≈ amount × 1.629).",
+     "questions": [
+      {
+       "q": "What would $100 grow to at 5% for 10 years?",
+       "a": "$100 × 1.05^10 ≈ $162.89."
+      }
+     ]
+    },
+    {
+     "guide": "Compare unit prices for 10 grocery items at two stores; compute monthly savings.",
+     "questions": [
+      {
+       "q": "Which is cheaper: 18 oz cereal for $4.50 or 24 oz for $5.52?",
+       "a": "18 oz = $0.25/oz; 24 oz = $0.23/oz → the 24 oz box."
+      }
+     ]
+    },
+    {
+     "guide": "Find real ads showing scarcity, social proof, anchoring, free trials and influencer posts.",
+     "questions": [
+      {
+       "q": "What is anchoring in pricing?",
+       "a": "Showing a high 'original' price first so the sale price seems like a bargain."
+      },
+      {
+       "q": "Why are free trials risky?",
+       "a": "They often auto-renew into paid subscriptions you forget to cancel."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate 5-year total cost of ownership for a used and a new car: price/depreciation, California registration, insurance, gas (miles ÷ mpg × price per gallon), maintenance, loan interest.",
+     "questions": [
+      {
+       "q": "You drive 12,000 miles a year in a 30-mpg car with gas at $5.00/gallon. Yearly fuel cost?",
+       "a": "12,000 ÷ 30 = 400 gallons × $5.00 = $2,000."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test in the key, then the student writes a final reflection on the 7-day spending log.",
+     "questions": [
+      {
+       "q": "What did your 7-day log reveal?",
+       "a": "Answers vary; strong answers cite totals by category and name a specific change."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "prep": "Open FDIC Money Smart for Young Adults. Download fee schedules from a local bank and a credit union. Print a sample check register and a sample monthly statement with two planted errors.",
+   "misconceptions": [
+    "Thinking credit unions and banks are identical. Credit unions are member-owned nonprofits (deposits insured by NCUA); banks are for-profit (insured by FDIC). Both are safe up to $250,000 per depositor, per institution, per ownership category.",
+    "Relying on the app's 'available balance' without tracking pending charges. Keep a register so pending transactions don't cause overdrafts.",
+    "Ignoring fees. A $35 overdraft on a $5 coffee is a huge cost."
+   ],
+   "assessment_key": "Banking quiz: 1) FDIC insures bank deposits up to $250,000 per depositor, per insured bank, per ownership category. 2) NCUA insures credit union deposits similarly. 3) Overdraft = spending more than the account holds; the bank may cover it and charge a fee. 4) Routing number identifies the bank; account number identifies your account. 5) APY = annual percentage yield, the yearly return including compounding. 6) Cost of being unbanked: check-cashing fees (often 1–5% or more of the check) and money order fees. Memo rubric: 4 = recommends a specific account with reasons (no or waivable monthly fee, no/low overdraft fees, ATM network, mobile deposit, FDIC/NCUA insured) and compares at least two options with numbers; 3 = recommendation with limited comparison; 2 = vague; 1 = incomplete. Register reconciliation: student finds both planted errors and the adjusted balance matches.",
+   "days": [
+    {
+     "guide": "Complete the Money Smart module; list costs of being unbanked.",
+     "questions": [
+      {
+       "q": "A check-cashing store charges 3% to cash a $600 paycheck every two weeks. Annual cost?",
+       "a": "$18 per check × 26 = $468 a year."
+      }
+     ]
+    },
+    {
+     "guide": "Compare fee schedules: minimum balance, monthly fees, overdraft fees, ATM network.",
+     "questions": [
+      {
+       "q": "How are a bank and a credit union different?",
+       "a": "A bank is a for-profit company owned by shareholders; a credit union is a nonprofit owned by its members, often with lower fees; both are federally insured."
+      }
+     ]
+    },
+    {
+     "guide": "Record a month of transactions in a check register, including a debit purchase, a direct deposit and a pending charge.",
+     "questions": [
+      {
+       "q": "Balance $500; debit card $42.18; direct deposit $612.50; pending charge $19.99. New balance?",
+       "a": "500 − 42.18 + 612.50 − 19.99 = $1,050.33."
+      }
+     ]
+    },
+    {
+     "guide": "Reconcile the register with the statement; find two errors.",
+     "questions": [
+      {
+       "q": "Why reconcile your account monthly?",
+       "a": "To catch errors, fraud and forgotten charges and make sure you know your true balance."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the account recommendation memo and takes the banking quiz.",
+     "questions": [
+      {
+       "q": "What does FDIC insurance protect?",
+       "a": "Deposits up to $250,000 per depositor, per bank, per ownership category if the bank fails."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 6,
+   "prep": "Open the Investor.gov compound interest calculator and a spreadsheet. Look up current high-yield savings APYs. Read the fraud-protection terms for Zelle, Venmo and Cash App.",
+   "misconceptions": [
+    "Confusing simple and compound interest. Compound interest earns interest on previous interest.",
+    "Thinking P2P apps protect like credit cards. Payments to scammers through Zelle/Venmo/Cash App are often not recoverable; balances held in the app may not be FDIC insured unless the app passes deposits through to a bank.",
+    "Keeping the emergency fund invested in stocks. It should be safe and accessible (high-yield savings)."
+   ],
+   "assessment_key": "Savings plan rubric: 4 = 3-month emergency fund computed from the Unit 1 budget; monthly deposit and months to reach goal; compound projection using =FV with correct inputs; 3 = minor calculation errors; 2 = no projection; 1 = incomplete. Quiz: 1) Simple interest $1,000 at 4% for 5 years = $200. 2) Compound annually = $1,216.65. 3) Rule of 72 at 6% → 12 years. 4) At 9% → 8 years. 5) =FV(4%,5,0,-1000) = 1,216.65. 6) Emergency fund = 3–6 months of essential expenses. 7) APY includes compounding. 8) Zelle payments to a scammer are usually hard to recover. 9) High-yield savings is FDIC insured if at an insured bank. 10) Debit cards have more protection than P2P apps under federal law for unauthorized transactions, if reported quickly.",
+   "days": [
+    {
+     "guide": "Calculate a 3-month emergency fund from the Unit 1 budget's essential expenses and how many months to reach it.",
+     "questions": [
+      {
+       "q": "Essential expenses are $1,600/month. 3-month fund? Saving $200/month, how long?",
+       "a": "$4,800; 24 months."
+      }
+     ]
+    },
+    {
+     "guide": "Compute simple and compound interest for $1,000 at 4% for 5 years by hand, then verify with =FV(0.04,5,0,-1000).",
+     "questions": [
+      {
+       "q": "Simple interest on $1,000 at 4% for 5 years?",
+       "a": "$1,000 × 0.04 × 5 = $200 → $1,200 total."
+      },
+      {
+       "q": "Compound annually?",
+       "a": "$1,000 × 1.04^5 = $1,216.65."
+      }
+     ]
+    },
+    {
+     "guide": "Use the Rule of 72 for 2%, 6% and 10% and compare to exact doubling times.",
+     "questions": [
+      {
+       "q": "Rule of 72 estimates at 2%, 6%, 10%?",
+       "a": "36, 12 and 7.2 years (exact: about 35.0, 11.9 and 7.3 years)."
+      }
+     ]
+    },
+    {
+     "guide": "Compare Zelle, Venmo, Cash App and debit cards; write five safe-use rules.",
+     "questions": [
+      {
+       "q": "Give two safe-use rules for P2P apps.",
+       "a": "Only send money to people you know and trust; double-check the recipient; never pay 'refunds' or prizes to strangers; turn on multifactor authentication; move balances to an insured bank account."
+      }
+     ]
+    },
+    {
+     "guide": "Complete the savings-goal plan and the 10-question quiz in the key.",
+     "questions": [
+      {
+       "q": "Why does compounding matter more the longer you save?",
+       "a": "Each year you earn interest on a larger balance that already includes past interest, so growth accelerates over time."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 7,
+   "prep": "Get a sample credit report (NGPF or CFPB). Watch Khan Academy's credit score video. Note that everyone can get free credit reports weekly from all three bureaus at AnnualCreditReport.com (the only official site).",
+   "misconceptions": [
+    "Thinking checking your own credit hurts your score. Checking your own report is a soft inquiry and does not affect your score.",
+    "Thinking a debit card builds credit. Only credit accounts reported to bureaus (cards, loans) build credit history.",
+    "Believing income is in the credit score. Scores don't include income; they're based on borrowing and repayment behavior."
+   ],
+   "assessment_key": "Credit profile ranking (sample): best to worst — the profile with long history, on-time payments and low (under 10–30%) utilization ranks highest; a profile with a recent collection or 90-day late payments ranks lowest; justify by payment history (35%) and amounts owed/utilization (30%) first. Dispute letter rubric: 4 = includes name, address, the specific error(s) with account number, why it's wrong, request to correct/delete, supporting documents listed, sent to the credit bureau (and the furnisher), following CFPB sample; 3 = missing one element; 2 = vague; 1 = incomplete. Quiz: FICO factors and weights; utilization $600 of $2,000 = 30%; hard vs. soft inquiry.",
+   "days": [
+    {
+     "guide": "Diagram the five FICO factors: payment history 35%, amounts owed 30%, length of credit history 15%, new credit 10%, credit mix 10%.",
+     "questions": [
+      {
+       "q": "What is the biggest factor in a FICO score?",
+       "a": "Payment history (about 35%)."
+      },
+      {
+       "q": "You have a $1,500 limit and a $450 balance. What is your utilization?",
+       "a": "30%."
+      }
+     ]
+    },
+    {
+     "guide": "Annotate a sample report: personal info, accounts, payment history, inquiries, collections, public records.",
+     "questions": [
+      {
+       "q": "How long do most negative items stay on a credit report?",
+       "a": "Generally up to 7 years (Chapter 7 bankruptcy up to 10)."
+      },
+      {
+       "q": "Where can you get free credit reports?",
+       "a": "AnnualCreditReport.com — free weekly from Equifax, Experian and TransUnion."
+      }
+     ]
+    },
+    {
+     "guide": "Research how landlords, employers, insurers and lenders use credit; write a paragraph each.",
+     "questions": [
+      {
+       "q": "Can an employer in California check your credit report?",
+       "a": "Only for certain positions (e.g. managerial, law enforcement, access to large sums of money or confidential data) under California Labor Code 1024.5, and with notice — most employers can't."
+      }
+     ]
+    },
+    {
+     "guide": "Find two errors in the sample report and draft a dispute letter following CFPB guidance.",
+     "questions": [
+      {
+       "q": "Who should you dispute an error with?",
+       "a": "The credit bureau reporting it and the company that furnished the information."
+      }
+     ]
+    },
+    {
+     "guide": "Rank six credit profiles and give the short quiz.",
+     "questions": [
+      {
+       "q": "Does checking your own credit score lower it?",
+       "a": "No — it's a soft inquiry."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 8,
+   "prep": "Find three real credit card offers' Schumer boxes (student, secured, rewards). Open the CFPB credit card calculator or a spreadsheet. Build or download a simple amortization spreadsheet.",
+   "misconceptions": [
+    "Thinking the minimum payment is a good plan. Minimum payments mostly cover interest and stretch debt for years.",
+    "Thinking carrying a balance builds credit. Paying in full each month builds credit just as well and costs no interest.",
+    "Ignoring APR on 'small fees' like payday loans. A $15 fee per $100 for two weeks is about a 390% APR."
+   ],
+   "assessment_key": "Borrowing-cost calculations key: 1) $2,000 at 24% APR, $150/month → about 16 months, about $350 interest (total ≈ $2,350). 2) Same balance with a minimum payment of interest + 1% of balance (minimum $25) → about 143 months (≈ 12 years), total paid ≈ $4,887 (≈ $2,887 interest). 3) $20,000 auto loan at 7%: 36 months → $617.54/month, total interest ≈ $2,232; 72 months → $340.98/month, total interest ≈ $4,551. 4) Payday loan $15 per $100 for 2 weeks → 15% × 26 = 390% APR. 5) A grace period means no interest on purchases if the full statement balance is paid by the due date. First credit card plan rubric: 4 = chooses a specific card type (student or secured, no annual fee), low limit, autopay for the full statement balance, utilization target under 30% (ideally under 10%), and a plan for monitoring; 3 = mostly complete; 2 = vague; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Compare three Schumer boxes: purchase APR, penalty APR, annual fee, late fee, foreign transaction fee, grace period.",
+     "questions": [
+      {
+       "q": "What is a secured credit card?",
+       "a": "A card backed by a cash deposit that usually equals the credit limit — a way to build credit with no or limited history."
+      },
+      {
+       "q": "What is a grace period?",
+       "a": "The time between the end of a billing cycle and the due date when no interest is charged on purchases if you pay the full balance."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate repaying $2,000 at 24% APR with minimum payments vs. $150/month using the CFPB calculator or spreadsheet.",
+     "questions": [
+      {
+       "q": "How long does $150/month take, and about how much interest?",
+       "a": "About 16 months and roughly $350 in interest."
+      },
+      {
+       "q": "With minimum payments of interest + 1% of the balance?",
+       "a": "About 12 years and nearly $2,900 in interest."
+      }
+     ]
+    },
+    {
+     "guide": "Use the amortization spreadsheet to compare a 36- vs. 72-month auto loan for $20,000 at 7%.",
+     "questions": [
+      {
+       "q": "Monthly payment and total interest for 36 vs. 72 months?",
+       "a": "36 months: $617.54/month, about $2,232 interest. 72 months: $340.98/month, about $4,551 interest."
+      }
+     ]
+    },
+    {
+     "guide": "Research payday loans, rent-to-own and buy-now-pay-later; compute payday APR.",
+     "questions": [
+      {
+       "q": "APR of a $15 fee per $100 borrowed for 2 weeks?",
+       "a": "15% per 2 weeks × 26 periods = 390% APR."
+      },
+      {
+       "q": "What is a risk of buy-now-pay-later?",
+       "a": "Easy to overspend and juggle multiple plans; missed payments bring late fees, and some providers now report to credit bureaus."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a 'first credit card' plan and takes the quiz.",
+     "questions": [
+      {
+       "q": "What's the best way to use a credit card to build credit at no cost?",
+       "a": "Use it for small planned purchases and pay the full statement balance automatically every month."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 9,
+   "prep": "Open StudentAid.gov loan types page and the Loan Simulator. Build a sample four-debt portfolio (e.g. card A $1,500 at 24%, card B $800 at 18%, car $6,000 at 7%, student loan $10,000 at 5%). Prepare the Unit 3 test.",
+   "misconceptions": [
+    "Thinking all student loans are the same. Subsidized loans don't charge interest while in school (for undergrads with need); unsubsidized loans accrue interest from disbursement.",
+    "Choosing snowball vs. avalanche as right or wrong. Avalanche (highest rate first) saves the most interest; snowball (smallest balance first) gives quick wins that may keep people motivated.",
+    "Thinking student loans go away in bankruptcy. They are very difficult to discharge; default leads to collections, wage garnishment and tax refund seizure."
+   ],
+   "assessment_key": "Unit 3 test answers: 1) FICO factors and weights. 2) Utilization calculation. 3) Soft vs. hard inquiry. 4) Negative items stay up to 7 years. 5) APR and grace period definitions. 6) Payday APR 390%. 7) Subsidized vs. unsubsidized loans. 8) Avalanche = highest interest rate first; snowball = smallest balance first. 9) Default on federal student loans = typically 270 days without payment; consequences include wage garnishment and seizure of tax refunds. 10) Nonprofit credit counseling (NFCC member agencies) and CFPB as resources. Mastery 8+/10. Debt spreadsheet: avalanche should show less total interest than snowball on the same monthly budget.",
+   "days": [
+    {
+     "guide": "Make a chart: Direct Subsidized (undergrad, need-based, government pays interest in school), Direct Unsubsidized (any student, interest accrues), PLUS (parents/grad students, credit check, higher rate), private loans (credit-based, fewer protections).",
+     "questions": [
+      {
+       "q": "What's the difference between subsidized and unsubsidized loans?",
+       "a": "With subsidized loans the government pays the interest while you're in school at least half-time; unsubsidized loans accrue interest from the start."
+      },
+      {
+       "q": "Why borrow federal before private loans?",
+       "a": "Federal loans have fixed rates, income-driven repayment, deferment and forgiveness options that private loans usually lack."
+      }
+     ]
+    },
+    {
+     "guide": "Use the Loan Simulator for $27,000 under standard (10-year) and income-driven plans. Example at 6.39%: standard payment ≈ $305/month, total interest ≈ $9,600.",
+     "questions": [
+      {
+       "q": "What is the advantage and disadvantage of an income-driven plan?",
+       "a": "Advantage: lower payments tied to income. Disadvantage: often longer repayment and more total interest."
+      }
+     ]
+    },
+    {
+     "guide": "Pay down the four-debt portfolio in a spreadsheet using avalanche and snowball with the same monthly total; compare interest paid.",
+     "questions": [
+      {
+       "q": "Using avalanche on the sample portfolio, which debt gets extra payments first?",
+       "a": "Card A at 24% (highest rate)."
+      },
+      {
+       "q": "Using snowball, which first?",
+       "a": "Card B at $800 (smallest balance)."
+      }
+     ]
+    },
+    {
+     "guide": "Research collections, default and wage garnishment; list three help resources.",
+     "questions": [
+      {
+       "q": "Name two legitimate sources of help with debt.",
+       "a": "Nonprofit credit counseling agencies (NFCC members), the CFPB, and the loan servicer (for student loan repayment plans)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test in the key.",
+     "questions": [
+      {
+       "q": "Which repayment method saves the most interest?",
+       "a": "Avalanche (highest interest rate first)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 10,
+   "prep": "Print the current IRS federal bracket table and the CA FTB tax rate schedule (ftb.ca.gov). The worked examples below use the 2025 federal single-filer brackets on TAXABLE income: 10% up to $11,925; 12% $11,926–$48,475; 22% $48,476–$103,350; 24% $103,351–$197,300 — swap in the current year's table if it has changed. Look up your county's sales tax rate (cdtfa.ca.gov).",
+   "misconceptions": [
+    "Thinking your whole income is taxed at your top bracket rate. Only the dollars inside each bracket are taxed at that bracket's rate (marginal rates).",
+    "Confusing marginal and effective rates. Marginal = rate on the next dollar; effective = total tax ÷ income.",
+    "Thinking a raise can lower take-home pay because of brackets. Only the extra dollars are taxed at the higher rate."
+   ],
+   "assessment_key": "Tax quiz (2025 federal single brackets on taxable income): 1) $20,000 → $1,192.50 + 12% × $8,075 = $969.00 → $2,161.50; marginal 12%, effective 10.8%. 2) $40,000 → $1,192.50 + 12% × $28,075 = $3,369.00 → $4,561.50; marginal 12%, effective 11.4%. 3) $80,000 → $1,192.50 + $4,386.00 + 22% × $31,525 = $6,935.50 → $12,514.00; marginal 22%, effective 15.6%. 4) Sales tax on $1,000 at California's 7.25% statewide base = $72.50 (add district taxes for your county, e.g. at 9.5% → $95.00). 5) Raise from $48,000 to $49,000 taxable: only the $525 above $48,475 is taxed at 22%; tax rises by 12% × $475 + 22% × $525 = $57.00 + $115.50 = $172.50, so take-home still rises by $827.50 (before payroll and state taxes). California tax answers: check with the FTB rate schedule — tax = sum of each bracket's rate × income in that bracket, minus the personal exemption credit.",
+   "days": [
+    {
+     "guide": "List public goods funded by taxes (roads, schools, military, Social Security, Medi-Cal, parks, fire services). Compare revenue shares: federal revenue comes mostly from individual income and payroll taxes; California's General Fund relies mostly on personal income tax, then sales and corporation taxes.",
+     "questions": [
+      {
+       "q": "What is the largest source of federal revenue?",
+       "a": "Individual income taxes (about half), followed by payroll taxes (Social Security and Medicare)."
+      },
+      {
+       "q": "What is the largest source of California's General Fund revenue?",
+       "a": "The personal income tax."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate federal tax for taxable incomes of $20,000, $40,000 and $80,000 with the bracket table; find marginal and effective rates.",
+     "questions": [
+      {
+       "q": "Tax on $40,000 taxable income?",
+       "a": "10% × $11,925 = $1,192.50; 12% × $28,075 = $3,369.00; total $4,561.50. Marginal 12%; effective ≈ 11.4%."
+      },
+      {
+       "q": "What does 'progressive tax' mean?",
+       "a": "Higher incomes pay higher rates on the portions of income in higher brackets."
+      }
+     ]
+    },
+    {
+     "guide": "Use the FTB schedule to compute California tax for the same incomes; compute sales tax on a $1,000 purchase in your county.",
+     "questions": [
+      {
+       "q": "What is California's statewide base sales tax rate, and the tax on $1,000?",
+       "a": "7.25% → $72.50 (local district taxes add more in most counties)."
+      },
+      {
+       "q": "What agency administers California income tax?",
+       "a": "The Franchise Tax Board (FTB)."
+      }
+     ]
+    },
+    {
+     "guide": "Debunk the 'raise into a higher bracket' myth with a worked example.",
+     "questions": [
+      {
+       "q": "Taxable income rises from $48,000 to $49,000. How much more federal tax is owed?",
+       "a": "$475 × 12% = $57.00 plus $525 × 22% = $115.50 → $172.50 more; you keep $827.50 of the $1,000 raise (before payroll/state taxes)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the five-problem tax quiz in the key.",
+     "questions": [
+      {
+       "q": "Define marginal and effective tax rate.",
+       "a": "Marginal: the rate on your last (next) dollar of income. Effective: total tax divided by total income."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 11,
+   "prep": "Download a sample W-2 and practice copies of IRS Form 1040 and CA Form 540 for the most recent tax year. Look up that year's standard deduction (single) and CalEITC income limits. Find IRS Free File, VITA locator and CalFile pages.",
+   "misconceptions": [
+    "Thinking a refund is a bonus. A refund is your own over-withheld money returned without interest.",
+    "Copying the wrong W-2 box. Box 1 (wages) goes on the 1040; Box 2 (federal withholding) is a payment; Boxes 16–17 are California wages and withholding.",
+    "Not filing because income was low. You may still want to file to get back withholding and claim refundable credits like the EITC and CalEITC."
+   ],
+   "assessment_key": "Return accuracy check (new W-2): 1040 — Box 1 wages on line 1a; subtract the standard deduction for that year to get taxable income (not below $0); compute tax from the table; Box 2 withholding on line 25a; refund = withholding − tax (or amount owed if negative). Score 4 = every line correct; 3 = one arithmetic error; 2 = wrong deduction or wrong box; 1 = incomplete. Example (use your year's figures): wages $14,000, federal withholding $600, standard deduction larger than $14,000 → taxable income $0, tax $0, refund $600. CA 540 — California wages (Box 16), CA standard deduction, tax from the FTB table, minus personal exemption credit, withholding from Box 17 → refund or owed; check CalEITC eligibility (earned income under the year's limit, age 18+ or qualifying child).",
+   "days": [
+    {
+     "guide": "Label each W-2 box and match it to 1040/540 lines.",
+     "questions": [
+      {
+       "q": "Which W-2 box shows federal income tax withheld?",
+       "a": "Box 2."
+      },
+      {
+       "q": "Which boxes show Social Security and Medicare wages and tax?",
+       "a": "Boxes 3–4 (Social Security) and 5–6 (Medicare)."
+      }
+     ]
+    },
+    {
+     "guide": "Complete a practice 1040 for a single filer with one W-2 and the standard deduction.",
+     "questions": [
+      {
+       "q": "Wages $30,000, standard deduction $15,000 (example). Taxable income?",
+       "a": "$15,000."
+      },
+      {
+       "q": "If tax is $1,600 and withholding is $2,000, what happens?",
+       "a": "A $400 refund."
+      }
+     ]
+    },
+    {
+     "guide": "Complete a practice CA 540 with the same W-2 and check CalEITC eligibility.",
+     "questions": [
+      {
+       "q": "What is the CalEITC?",
+       "a": "A refundable California tax credit for low-income workers; you can receive it even if you owe no tax."
+      }
+     ]
+    },
+    {
+     "guide": "Compare IRS Free File, VITA sites and CalFile; list documents to keep and for how long.",
+     "questions": [
+      {
+       "q": "How long should you keep tax records?",
+       "a": "At least 3 years for the IRS (longer in some cases); California's FTB generally can review for 4 years, so keep records at least 4 years."
+      },
+      {
+       "q": "What is VITA?",
+       "a": "Volunteer Income Tax Assistance — free tax preparation for people with low to moderate income."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 4 assessment: complete a full practice federal and California return from a new W-2; check with the key.",
+     "questions": [
+      {
+       "q": "What two numbers determine whether you get a refund?",
+       "a": "Your total tax liability and the total tax already paid/withheld (plus refundable credits)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 12,
+   "prep": "Find an NGPF risk-pooling activity and Khan Academy insurance videos. Prepare two sample health plans (below) and open Covered California's 'Shop and Compare' tool.",
+   "misconceptions": [
+    "Choosing the plan with the lowest premium automatically. Total cost = premiums + out-of-pocket costs; a high-deductible plan can cost more if you need care.",
+    "Thinking the deductible is the most you can pay. The out-of-pocket maximum is the cap on cost-sharing for covered in-network care in a year (premiums don't count toward it).",
+    "Confusing copay and coinsurance. Copay is a fixed dollar amount; coinsurance is a percentage."
+   ],
+   "assessment_key": "Insurance quiz: 1) Premium = regular payment to keep coverage. 2) Deductible = amount you pay before insurance starts sharing costs. 3) Copay = fixed fee per service. 4) Coinsurance = your percentage share after the deductible. 5) Out-of-pocket maximum = yearly cap on what you pay for covered care. 6) Young adults can stay on a parent's plan until age 26. Cost comparison (Plan A: $350/month premium, $500 deductible, 20% coinsurance, $3,000 OOP max; Plan B: $200/month, $3,000 deductible, 20% coinsurance, $6,000 OOP max): $300 of care → A $4,500, B $2,700; $5,000 of care → A $4,200 + $1,400 = $5,600, B $2,400 + $3,400 = $5,800; $50,000 of care → A $4,200 + $3,000 = $7,200, B $2,400 + $6,000 = $8,400. Plan-choice justification: proficient answers compare total annual cost under likely and worst-case scenarios and consider doctors in network.",
+   "days": [
+    {
+     "guide": "Run the risk-pooling simulation; the student explains why insurers can pay large claims.",
+     "questions": [
+      {
+       "q": "How does risk pooling work?",
+       "a": "Many people pay premiums into a pool; only a few have large losses in a given year, so the pool covers them."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate costs for three scenarios under Plan A and Plan B (see key).",
+     "questions": [
+      {
+       "q": "Under Plan A, what do you pay in a year with $5,000 of care?",
+       "a": "Premiums $4,200 + $500 deductible + 20% × $4,500 = $900 → $5,600."
+      },
+      {
+       "q": "Under Plan B, same year?",
+       "a": "Premiums $2,400 + $3,000 deductible + 20% × $2,000 = $400 → $5,800."
+      }
+     ]
+    },
+    {
+     "guide": "Compare coverage options: parent's plan to 26, student health plans, employer plans, Covered California (with subsidies), Medi-Cal (low income).",
+     "questions": [
+      {
+       "q": "Until what age can a young adult stay on a parent's health plan?",
+       "a": "Age 26."
+      },
+      {
+       "q": "What is Covered California?",
+       "a": "California's health insurance marketplace, where people can buy plans and get federal and state financial help."
+      }
+     ]
+    },
+    {
+     "guide": "Use Covered California's tool for a sample 19-year-old and choose a plan with a written justification.",
+     "questions": [
+      {
+       "q": "What do the metal tiers (Bronze, Silver, Gold, Platinum) mean?",
+       "a": "How costs are shared: Bronze has the lowest premiums but highest out-of-pocket costs; Platinum the highest premiums and lowest out-of-pocket costs."
+      }
+     ]
+    },
+    {
+     "guide": "Give the insurance quiz and cost-comparison problem in the key.",
+     "questions": [
+      {
+       "q": "What's the difference between a copay and coinsurance?",
+       "a": "A copay is a fixed amount (e.g. $30 per visit); coinsurance is a percentage of the cost (e.g. 20%)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 13,
+   "prep": "Open the California Department of Insurance consumer pages (insurance.ca.gov). Know California's minimum auto liability limits (since January 1, 2025): $30,000 injury/death to one person, $60,000 per accident, $15,000 property damage. Find a renters insurance quote tool and an auto quote tool (no purchase). Prepare the Unit 5 test.",
+   "misconceptions": [
+    "Thinking full coverage pays everything. 'Full coverage' usually means liability plus collision and comprehensive, each with limits and deductibles.",
+    "Thinking a landlord's insurance covers a tenant's belongings. It covers the building, not the renter's property or liability.",
+    "Buying life insurance as a young adult with no dependents. Disability insurance (protecting income) usually matters more; life insurance matters when others depend on your income."
+   ],
+   "assessment_key": "Unit 5 test answers: 1) Liability = pays for injuries/damage you cause to others. 2) Collision = damage to your car from a crash. 3) Comprehensive = non-collision damage (theft, fire, hail, vandalism). 4) Uninsured motorist = covers you if hit by a driver without insurance. 5) California minimum liability = 30/60/15. 6) Raising the deductible lowers the premium. 7) Renters insurance covers belongings and personal liability. 8) Term life = coverage for a set period, cheaper; whole life = permanent with cash value, more expensive. 9) Disability insurance replaces part of income if you can't work. 10) Premium, deductible, coinsurance definitions. Mastery 8+/10. Personal insurance plan rubric: 4 = lists health, auto (if driving), renters, disability (through employer or SDI) with estimated premiums and deductibles, explains why life insurance is or isn't needed at 22; 3 = most coverages; 2 = vague; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Explain liability, collision, comprehensive and uninsured motorist coverage; look up California's minimums.",
+     "questions": [
+      {
+       "q": "What are California's minimum liability limits?",
+       "a": "$30,000 bodily injury per person, $60,000 per accident, $15,000 property damage (30/60/15)."
+      },
+      {
+       "q": "Which coverage pays if your parked car is stolen?",
+       "a": "Comprehensive."
+      }
+     ]
+    },
+    {
+     "guide": "Get two practice quotes, changing deductible and car type; record how premiums change.",
+     "questions": [
+      {
+       "q": "What happens to the premium if you raise the deductible from $500 to $1,000?",
+       "a": "It goes down, because you take on more of the risk."
+      }
+     ]
+    },
+    {
+     "guide": "Inventory belongings and price a renters policy; compute cost per day.",
+     "questions": [
+      {
+       "q": "A renters policy costs $180 a year. Cost per day?",
+       "a": "$180 ÷ 365 ≈ $0.49 a day."
+      }
+     ]
+    },
+    {
+     "guide": "Compare term and whole life; explain when a young adult needs disability or life insurance.",
+     "questions": [
+      {
+       "q": "When does a young adult need life insurance?",
+       "a": "When someone depends on their income (a spouse, child) or would be stuck with their debts."
+      }
+     ]
+    },
+    {
+     "guide": "Build the personal insurance plan for age 22 and give the Unit 5 test.",
+     "questions": [
+      {
+       "q": "Why is disability insurance important for young workers?",
+       "a": "Your future earnings are your biggest asset; disability insurance replaces part of income if illness or injury stops you working."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 14,
+   "prep": "Open a spreadsheet and the Investor.gov compound interest calculator. Find Khan Academy's stocks and bonds videos. Look up current I bond and CD rates (TreasuryDirect, bank sites) and an S&P 500 index fund's expense ratio.",
+   "misconceptions": [
+    "Thinking investing is gambling. Diversified, long-term investing in productive companies differs from short-term speculation.",
+    "Ignoring time. Starting early often matters more than the amount invested, because of compounding.",
+    "Thinking bonds are risk-free. Bonds carry interest-rate risk and (except U.S. Treasuries) default risk."
+   ],
+   "assessment_key": "Compound growth spreadsheet (monthly compounding, 7%): Saver A invests $200/month ages 22–32 ($24,000 total) → about $34,600 at 32, then grows untouched to about $346,000 at 65. Saver B invests $200/month ages 32–65 ($79,200 total) → about $309,000 at 65. Saver A ends with more despite contributing less than a third as much. Accept answers within a few percent depending on compounding assumptions. Asset-class quiz: 1) Stock = ownership share in a company. 2) Bond = a loan to a company or government that pays interest. 3) Mutual fund = pooled money invested in many securities. 4) Index fund = fund that tracks a market index. 5) ETF = fund that trades like a stock. 6) Risk-return tradeoff = higher potential return comes with higher risk. 7) Dividends vs. capital gains.",
+   "days": [
+    {
+     "guide": "Model Saver A and Saver B in a spreadsheet (=FV) and graph the results.",
+     "questions": [
+      {
+       "q": "Who ends with more at 65, and why?",
+       "a": "Saver A (about $346,000 vs. $309,000), because the early money had 33 more years to compound."
+      },
+      {
+       "q": "How much did each contribute?",
+       "a": "Saver A $24,000; Saver B $79,200."
+      }
+     ]
+    },
+    {
+     "guide": "Watch the stocks video; explain ownership, dividends and capital gains with an example company.",
+     "questions": [
+      {
+       "q": "You buy a share at $50, receive $2 in dividends, and sell at $65. Total return?",
+       "a": "Capital gain $15 + dividends $2 = $17, which is 34% of $50."
+      }
+     ]
+    },
+    {
+     "guide": "Compare Treasury bonds, I bonds, CDs and corporate bonds for risk and return.",
+     "questions": [
+      {
+       "q": "Why do corporate bonds usually pay more than Treasury bonds?",
+       "a": "They carry more default risk, so investors demand higher interest."
+      }
+     ]
+    },
+    {
+     "guide": "Compare an S&P 500 index fund and an actively managed fund using expense ratios and 10-year returns.",
+     "questions": [
+      {
+       "q": "What is an expense ratio?",
+       "a": "The annual fee a fund charges, as a percent of your investment (e.g. 0.03% or 1.00%)."
+      },
+      {
+       "q": "Why do index funds often outperform active funds over time?",
+       "a": "Lower fees, and most active managers fail to beat the index consistently after costs."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz on asset classes and compound growth in the key.",
+     "questions": [
+      {
+       "q": "What's the difference between a stock and a bond?",
+       "a": "A stock is ownership in a company; a bond is a loan to a company or government that pays interest."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 15,
+   "prep": "Get the NGPF stock market simulation, find historical S&P 500 returns (e.g. 2008: about −37% total return), and open FINRA BrokerCheck and Investor.gov's fraud warning signs. Prepare three sample 'opportunities' (one legitimate index fund, one guaranteed-20%-return pitch, one unregistered crypto scheme).",
+   "misconceptions": [
+    "Putting all money in one stock. Diversification spreads risk; one company can lose most of its value.",
+    "Thinking a 1% fee is small. Over decades fees compound and can cost hundreds of thousands of dollars.",
+    "Selling in a panic during a crash. Loss aversion and herd behavior lead to selling low; historically, diversified markets have recovered over time."
+   ],
+   "assessment_key": "Fees calculation: $100,000 for 40 years at 7% gross return — 0.05% fee (6.95% net) → about $1,470,000; 1% fee (6.00% net) → about $1,029,000; difference ≈ $441,000. Asset allocation project rubric: 4 = allocations for ages 20, 40 and 60 that shift from mostly stocks (e.g. 90/10) to more bonds (e.g. 70/30, 50/50 or 60/40), each with a paragraph on time horizon, risk tolerance and diversification; 3 = reasonable allocations, thin reasoning; 2 = allocations not linked to age; 1 = incomplete. Fraud evaluation: guaranteed high returns, pressure to act fast, unregistered sellers (not found on BrokerCheck) and recruiting others are red flags.",
+   "days": [
+    {
+     "guide": "Simulate a single-stock vs. index portfolio through a crash using historical returns; compare losses.",
+     "questions": [
+      {
+       "q": "Why is an index fund less risky than one stock?",
+       "a": "It spreads money across hundreds of companies, so one company's failure has a small effect."
+      },
+      {
+       "q": "About how much did the S&P 500 lose in 2008?",
+       "a": "About 37% (total return)."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate the 40-year difference on $100,000 at 0.05% vs. 1% fees (assume 7% gross return).",
+     "questions": [
+      {
+       "q": "What is the difference?",
+       "a": "About $1,470,000 vs. $1,029,000 — roughly $441,000 lost to the higher fee."
+      }
+     ]
+    },
+    {
+     "guide": "Read about loss aversion, herd behavior and FOMO; connect each to 2008, meme stocks (2021) and the 2022 crypto collapse.",
+     "questions": [
+      {
+       "q": "What is loss aversion?",
+       "a": "Feeling losses more strongly than equal gains, which can lead to panic selling."
+      },
+      {
+       "q": "What is dollar-cost averaging?",
+       "a": "Investing a fixed amount on a regular schedule regardless of price, so you buy more shares when prices are low."
+      }
+     ]
+    },
+    {
+     "guide": "Use BrokerCheck and Investor.gov warning signs to evaluate three sample opportunities.",
+     "questions": [
+      {
+       "q": "Name three red flags of investment fraud.",
+       "a": "Guaranteed high returns with little risk, pressure to buy now, unregistered sellers or products, and returns paid from new investors' money (Ponzi scheme)."
+      }
+     ]
+    },
+    {
+     "guide": "Create asset allocations for ages 20, 40 and 60 with explanations.",
+     "questions": [
+      {
+       "q": "Why hold more bonds at 60 than at 20?",
+       "a": "Less time to recover from stock drops before needing the money, so lower volatility matters more."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 16,
+   "prep": "Watch Khan Academy 401(k) and IRA videos. Look up the current IRA contribution limit (irs.gov; $7,000 for 2025). Read CalSavers.com and ssa.gov 'my Social Security' examples. Prepare the Unit 6 test.",
+   "misconceptions": [
+    "Not taking the full employer match. It's an instant return — essentially free money.",
+    "Thinking a teen can't open a Roth IRA. Anyone with earned income can contribute (up to the lesser of earned income or the annual limit); minors use a custodial account.",
+    "Confusing traditional and Roth. Traditional = tax deduction now, taxed in retirement; Roth = no deduction now, qualified withdrawals tax-free."
+   ],
+   "assessment_key": "Unit 6 test answers: 1) Saver A vs. B lesson: start early. 2) Stock/bond/fund definitions. 3) Diversification reduces risk. 4) Expense ratio meaning; 1% vs. 0.05% over decades costs hundreds of thousands. 5) Traditional vs. Roth tax treatment. 6) Match: 50% up to 6% on $50,000 → employee contributes $3,000, employer adds $1,500 per year. 7) $1,500/year for 10 years at 7% → ≈ $20,725. 8) $1,000 at 7% from 17 to 65 (48 years) → ≈ $25,700. 9) Vesting = how long you must work to own employer contributions. 10) CalSavers = California's state-run retirement savings program (Roth IRA by default) for workers whose employers don't offer a plan. Mastery 8+/10.",
+   "days": [
+    {
+     "guide": "Chart tax treatment: traditional 401(k)/IRA (pre-tax contributions, taxed withdrawals) vs. Roth (after-tax contributions, tax-free qualified withdrawals).",
+     "questions": [
+      {
+       "q": "If you expect to be in a higher tax bracket later, which is better, Roth or traditional?",
+       "a": "Roth — pay tax now at the lower rate; withdrawals are tax-free later."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate the match: 50% of contributions up to 6% of a $50,000 salary, over 10 years with 7% growth.",
+     "questions": [
+      {
+       "q": "Annual employer match?",
+       "a": "6% of $50,000 = $3,000; 50% of that = $1,500 per year."
+      },
+      {
+       "q": "Value after 10 years at 7%?",
+       "a": "About $20,725 (=FV(7%,10,-1500))."
+      }
+     ]
+    },
+    {
+     "guide": "Explain custodial Roth IRAs for teens with earned income; project $1,000 to age 65.",
+     "questions": [
+      {
+       "q": "$1,000 at 7% from age 17 to 65?",
+       "a": "$1,000 × 1.07^48 ≈ $25,700."
+      },
+      {
+       "q": "Can a teen contribute $7,000 to a Roth IRA if they earned $3,000?",
+       "a": "No — contributions can't exceed earned income, so $3,000 maximum."
+      }
+     ]
+    },
+    {
+     "guide": "Research CalSavers and Social Security examples.",
+     "questions": [
+      {
+       "q": "Who is CalSavers for?",
+       "a": "California workers whose employers don't offer a retirement plan; employers must offer a plan or register for CalSavers, and workers are auto-enrolled into a Roth IRA (they can opt out)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test in the key.",
+     "questions": [
+      {
+       "q": "What is vesting?",
+       "a": "The schedule by which you gain full ownership of employer contributions in a retirement plan."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 17,
+   "prep": "Open FDIC Money Smart's fraud module and IdentityTheft.gov. Collect 10 real-looking scam texts/emails (FTC and bank phishing examples). Bookmark the CFPB complaint portal and California DFPI (dfpi.ca.gov).",
+   "misconceptions": [
+    "Thinking scammers only target older adults. Young adults report losing money to fraud often, especially through online shopping, social media and fake job offers.",
+    "Believing a credit freeze hurts your credit. A freeze is free and doesn't affect your score; you temporarily lift it to apply for credit.",
+    "Trusting caller ID or official-looking logos. Both can be faked; contact the organization using a number you look up yourself."
+   ],
+   "assessment_key": "Scam-prevention guide rubric: 4 = clear, one page, written for the chosen audience; lists at least five red flags (urgency, unusual payment methods like gift cards/wire/crypto, requests for codes or passwords, too-good-to-be-true offers, unexpected contact); gives steps if scammed (contact bank, change passwords, report to IdentityTheft.gov/FTC, freeze credit); 3 = mostly complete; 2 = generic; 1 = incomplete. Quiz: 1) Phishing definition. 2) Credit freeze is free at Equifax, Experian and TransUnion. 3) IdentityTheft.gov creates a recovery plan. 4) Fair Credit Reporting Act gives the right to dispute inaccurate information. 5) CFPB and California DFPI accept consumer financial complaints. 6) A job that sends you a check and asks you to send part back is a fake-check scam.",
+   "days": [
+    {
+     "guide": "Analyze 10 messages and label red flags.",
+     "questions": [
+      {
+       "q": "A 'job' offers $500/week to reship packages and sends a check first. Red flags?",
+       "a": "Pay for little work, sending money before work, reshipping (often stolen goods), and a check to deposit and return part of — a classic fake-check scam."
+      },
+      {
+       "q": "Why do scammers ask for gift cards?",
+       "a": "Gift card payments are fast, hard to trace and nearly impossible to reverse."
+      }
+     ]
+    },
+    {
+     "guide": "Complete the identity-theft lesson and walk through IdentityTheft.gov recovery steps.",
+     "questions": [
+      {
+       "q": "What are the first steps after identity theft?",
+       "a": "Contact the affected companies, place a fraud alert or credit freeze, report at IdentityTheft.gov, and change passwords."
+      }
+     ]
+    },
+    {
+     "guide": "Explain how to freeze credit at all three bureaus and why it matters before 18.",
+     "questions": [
+      {
+       "q": "Why freeze a minor's credit?",
+       "a": "Children's Social Security numbers are targeted because misuse may go unnoticed for years; a freeze blocks new accounts. Parents can request freezes for children under 16."
+      },
+      {
+       "q": "Does a freeze affect your credit score?",
+       "a": "No."
+      }
+     ]
+    },
+    {
+     "guide": "Research FCRA and California consumer rights; draft a CFPB or DFPI complaint for a sample problem.",
+     "questions": [
+      {
+       "q": "What right does the FCRA give you?",
+       "a": "To see your credit report and dispute inaccurate information, which must be investigated, usually within 30 days."
+      }
+     ]
+    },
+    {
+     "guide": "The student makes the scam-prevention guide and takes the quiz.",
+     "questions": [
+      {
+       "q": "What should you do if a 'bank' calls asking for a code sent to your phone?",
+       "a": "Hang up — never share the code; call the bank using the number on your card."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 18,
+   "prep": "Gather rental listings near a chosen college or job, a sample California lease, and CA Courts Self-Help tenant pages. Know current rules: since July 1, 2024 (AB 12), most landlords may charge a security deposit of no more than one month's rent (small landlords owning no more than two properties with four total units may charge up to two months); deposits must be returned with an itemized statement within 21 days after move-out. Prepare or assign the NGPF post-assessment/semester final.",
+   "misconceptions": [
+    "Applying the 30% rule to gross vs. net pay inconsistently. The 30% guideline usually uses gross income; on net pay rent at 30% is even tighter.",
+    "Forgetting move-in costs. First month's rent, security deposit, application fees, utilities setup and furniture add up quickly.",
+    "Signing a lease without reading it. Note late fees, repair responsibilities, guest rules, and termination terms."
+   ],
+   "assessment_key": "Semester final: score with the NGPF post-assessment key (target 80%+). Capstone budget rubric: 4 = realistic net pay from a researched job; rent at or near 30% of gross income (or with roommates); utilities, food, transportation, insurance (health, renters, auto), phone, savings (emergency fund and retirement), debt payments; balanced; brief presentation answering parent questions; 3 = minor omissions; 2 = unrealistic or unbalanced; 1 = incomplete. Rental check example: gross pay $3,000/month → 30% rule max rent $900; move-in for $1,200 rent with one-month deposit = $1,200 + $1,200 = $2,400 plus fees.",
+   "days": [
+    {
+     "guide": "Find three rentals, apply the 30% rule and compute move-in costs.",
+     "questions": [
+      {
+       "q": "Gross monthly income $2,800. Max rent under the 30% rule?",
+       "a": "$840."
+      },
+      {
+       "q": "Rent $1,100, deposit one month, $50 application fee. Move-in cost?",
+       "a": "$1,100 + $1,100 + $50 = $2,250."
+      }
+     ]
+    },
+    {
+     "guide": "Annotate a sample California lease for rent, deposit, late fees, repairs, termination; list tenant rights and the 21-day deposit return rule.",
+     "questions": [
+      {
+       "q": "How long does a California landlord have to return a security deposit?",
+       "a": "21 days after move-out, with an itemized statement of any deductions."
+      },
+      {
+       "q": "What is the maximum security deposit for most California rentals?",
+       "a": "One month's rent (since July 1, 2024), with an exception allowing two months for certain small landlords."
+      }
+     ]
+    },
+    {
+     "guide": "Write a roommate agreement: rent split, utilities, guests, chores, quiet hours, what happens if someone moves out.",
+     "questions": [
+      {
+       "q": "Why put a roommate agreement in writing?",
+       "a": "It sets clear expectations and gives a reference if disagreements arise."
+      }
+     ]
+    },
+    {
+     "guide": "Build the complete first-year independent life budget.",
+     "questions": [
+      {
+       "q": "What categories must the life budget include?",
+       "a": "Net pay, rent, utilities, food, transportation, insurance, phone, savings, debt payments and some fun money."
+      }
+     ]
+    },
+    {
+     "guide": "Give the semester final and have the student present the capstone budget.",
+     "questions": [
+      {
+       "q": "What is one change you'd make to your budget if rent rose by $150?",
+       "a": "Answers vary; e.g. find a roommate, cut wants, or increase income."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 19,
+   "prep": "Make sure the student's CaliforniaColleges.edu account works; open the O*NET Interest Profiler (mynextmove.org) and the BLS Occupational Outlook Handbook. Help line up a professional for a 20-minute informational interview (in person, phone or video).",
+   "misconceptions": [
+    "Treating an interest inventory as a verdict. It suggests areas to explore; it doesn't decide a career.",
+    "Choosing a career by salary alone. Consider interests, values, training time and cost, working conditions and job outlook.",
+    "Asking for a job in an informational interview. The purpose is to learn; asking for advice and referrals is fine, asking for a job is not."
+   ],
+   "assessment_key": "Career exploration report rubric (two pages, 4 levels): 4 = summarizes both interest inventory results (e.g. Holland/RIASEC codes) and how they compare; five strengths with evidence; values ranking; three researched careers with duties, education, median pay, outlook and California openings with sources; key takeaways from the informational interview; a SMART five-year goal; 3 = complete with thin evidence; 2 = missing a section; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Take the CaliforniaColleges.edu career assessment and the O*NET Interest Profiler; compare results.",
+     "questions": [
+      {
+       "q": "What are the six RIASEC interest areas used by O*NET?",
+       "a": "Realistic, Investigative, Artistic, Social, Enterprising, Conventional."
+      }
+     ]
+    },
+    {
+     "guide": "Rank work values (pay, security, creativity, helping others, independence, work-life balance) and list five strengths with evidence.",
+     "questions": [
+      {
+       "q": "Why give evidence for a strength?",
+       "a": "Employers and colleges believe examples (a project you led, a skill you used) more than claims."
+      }
+     ]
+    },
+    {
+     "guide": "Research three careers in the OOH: duties, education, pay, outlook, California openings.",
+     "questions": [
+      {
+       "q": "What does 'job outlook' mean in the OOH?",
+       "a": "The projected percent change in employment over the next ten years compared with the average for all occupations."
+      }
+     ]
+    },
+    {
+     "guide": "Prepare 10 questions and conduct the informational interview; send a thank-you.",
+     "questions": [
+      {
+       "q": "Give two good informational interview questions.",
+       "a": "'What does a typical day look like?' and 'What do you wish you'd known before entering this field?' (also: how did you get started, what skills matter most)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the career exploration report; score with the rubric.",
+     "questions": [
+      {
+       "q": "Make 'have a good career' a SMART five-year goal.",
+       "a": "Example: 'By June 2031, complete an AS in Nursing and pass the NCLEX-RN to work as a registered nurse in Sacramento.'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 20,
+   "prep": "Open CaliforniaColleges.edu college search, College Scorecard (collegescorecard.ed.gov), and three colleges' net price calculators. Have family income information available for the calculators (estimates are fine).",
+   "misconceptions": [
+    "Judging colleges by sticker price. Net price (cost after grants and scholarships) can make a private school cheaper than a public one for some families.",
+    "Applying only to reach schools. A balanced list has likely, match and reach options, including at least one affordable likely option.",
+    "Thinking a 4-year college is the only path. Community college, apprenticeships, CTE certificates and the military lead to good careers."
+   ],
+   "assessment_key": "Balanced list rubric: 4 = eight or more options with a mix of likely, match and reach (and/or apprenticeship/CTE/military), each with graduation rate, median debt and median earnings from College Scorecard, net price estimates for three schools, and a rationale connecting to career goals; 3 = balanced but missing some data; 2 = unbalanced or missing data; 1 = incomplete. Systems chart key: UC — 10 campuses (9 enroll undergraduates), research universities, most selective, higher tuition; CSU — 23 campuses, teaching and career-focused, moderate tuition; California Community Colleges — 116 colleges, open access, lowest cost, certificates, associate degrees and transfer; private colleges — varied missions and cost, often significant institutional aid.",
+   "days": [
+    {
+     "guide": "Make a chart comparing UC, CSU, California Community Colleges and private colleges by mission, cost, size and admission.",
+     "questions": [
+      {
+       "q": "How many campuses do the UC, CSU and California Community College systems have?",
+       "a": "UC: 10 campuses (9 with undergraduates); CSU: 23; Community Colleges: 116."
+      },
+      {
+       "q": "What are UC and CSU's basic subject requirements called?",
+       "a": "The a–g requirements (15 year-long college-prep courses)."
+      }
+     ]
+    },
+    {
+     "guide": "Research a California registered apprenticeship, a CTE certificate and military enlistment requirements.",
+     "questions": [
+      {
+       "q": "What is a registered apprenticeship?",
+       "a": "A paid job with structured on-the-job training plus classroom instruction, leading to a nationally recognized credential (e.g. electrician, plumber)."
+      }
+     ]
+    },
+    {
+     "guide": "Find eight schools on CaliforniaColleges.edu and College Scorecard; record graduation rate, median debt and earnings.",
+     "questions": [
+      {
+       "q": "What does College Scorecard's 'median earnings' show?",
+       "a": "The typical earnings of former students several years after entering the school."
+      }
+     ]
+    },
+    {
+     "guide": "Run three net price calculators with your family.",
+     "questions": [
+      {
+       "q": "What is net price?",
+       "a": "Cost of attendance minus grants and scholarships — what the family actually pays (through savings, income, work or loans)."
+      }
+     ]
+    },
+    {
+     "guide": "The student submits the balanced list with a rationale.",
+     "questions": [
+      {
+       "q": "What's an 'impacted' major?",
+       "a": "A major with more qualified applicants than space, so it has higher admission standards."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 21,
+   "prep": "Read the UC 'Homeschooled students' admissions page and the CSU homeschool guidance (check the current wording; requirements change, and UC no longer uses SAT/ACT scores in admission). Gather the student's records: courses, texts used, grades, AP/test scores, college classes.",
+   "misconceptions": [
+    "Assuming homeschool courses automatically count as a–g. UC/CSU have specific ways for homeschoolers to show a–g (e.g. UC-approved online courses, AP exams, transferable college courses); check the current options on each system's page.",
+    "Vague course descriptions. Admissions readers need texts, topics, labs, assessments and how grades were determined.",
+    "Inflated or inconsistent grades. The transcript, descriptions and test scores should tell a consistent story."
+   ],
+   "assessment_key": "Draft four-year course list and descriptions rubric: 4 = every course listed by year with subject, a–g letter where applicable, grade, and semester credits (10 per year-long course); at least the a–g minimums (2 years history, 4 English, 3 math, 2 lab science, 2 language other than English, 1 visual/performing arts, 1 elective); three course descriptions each naming the curriculum and texts, major topics, labs/projects, assessments and grading method; 3 = minor gaps; 2 = missing a–g mapping or descriptions thin; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Read UC's homeschool page and summarize how a–g can be met.",
+     "questions": [
+      {
+       "q": "Name two ways a homeschooled student can demonstrate a–g subject work for UC.",
+       "a": "Examples: courses from UC-approved a–g online providers, qualifying AP exam scores, and UC-transferable community college courses (check UC's current page for all options)."
+      }
+     ]
+    },
+    {
+     "guide": "Read CSU's homeschool guidance; list required documents and how to report courses in Cal State Apply.",
+     "questions": [
+      {
+       "q": "What does Cal State Apply ask applicants to enter?",
+       "a": "A self-reported academic record of courses and grades, plus test scores (if any), activities and personal information."
+      }
+     ]
+    },
+    {
+     "guide": "Build the four-year course list with a–g letters, grades and credits.",
+     "questions": [
+      {
+       "q": "List the a–g subject areas and minimum years.",
+       "a": "a) history 2, b) English 4, c) math 3, d) lab science 2, e) language other than English 2, f) visual and performing arts 1, g) college-prep elective 1."
+      }
+     ]
+    },
+    {
+     "guide": "Write three course descriptions for the counselor packet.",
+     "questions": [
+      {
+       "q": "What should a course description include?",
+       "a": "Course title, level, curriculum/texts, topics covered, labs or projects, assessments and how the grade was determined."
+      }
+     ]
+    },
+    {
+     "guide": "Parent reviews the list and descriptions for accuracy.",
+     "questions": [
+      {
+       "q": "Why must the course list match the transcript exactly?",
+       "a": "Discrepancies between self-reported records and the final transcript can cause admission offers to be withdrawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 22,
+   "prep": "Have the transcript draft, UC Application and Cal State Apply logins (or practice access). Check current application fees and fee-waiver rules (each system grants waivers for up to four campuses to eligible students).",
+   "misconceptions": [
+    "Estimating grades from memory. Enter the self-reported record exactly from the transcript.",
+    "Listing activities without impact. Use specific numbers and results ('tutored 6 children weekly for 2 years').",
+    "Missing confirmation. Save confirmation numbers and portal logins; check email and portals regularly."
+   ],
+   "assessment_key": "Application audit checklist: [ ] personal info matches legal documents; [ ] every course and grade matches the transcript; [ ] a–g categories correct; [ ] up to 20 activities/awards, each ≤ 350 characters, specific and quantified; [ ] PIQs (UC) complete; [ ] fee or fee waiver; [ ] submitted with confirmation numbers logged; [ ] portal logins saved; [ ] consistent names/dates across applications. Pass = all checked or documented plan for a future cycle.",
+   "days": [
+    {
+     "guide": "Tour each section of the UC Application and Cal State Apply; note required information and fee-waiver eligibility.",
+     "questions": [
+      {
+       "q": "How many UC campuses can an eligible student apply to with a fee waiver?",
+       "a": "Up to four."
+      },
+      {
+       "q": "What sections does the UC Application include?",
+       "a": "Personal information, academic history, test scores (optional/if applicable), activities and awards, Personal Insight Questions, and review/submit."
+      }
+     ]
+    },
+    {
+     "guide": "Enter or practice entering the self-reported academic record exactly from the transcript.",
+     "questions": [
+      {
+       "q": "Why is the UC academic record called 'self-reported'?",
+       "a": "Applicants enter their own courses and grades; transcripts are verified later if admitted."
+      }
+     ]
+    },
+    {
+     "guide": "Write up to 20 activity entries with concise, quantified descriptions (350 characters).",
+     "questions": [
+      {
+       "q": "Improve: 'Volunteered at food bank.'",
+       "a": "'Sorted and packed 400+ lbs of food weekly at the Sacramento Food Bank; trained 5 new volunteers (2023–present, 4 hrs/week).'"
+      }
+     ]
+    },
+    {
+     "guide": "Verify submissions (or a future cycle plan) and log confirmation numbers and logins.",
+     "questions": [
+      {
+       "q": "After submitting, what should you watch for?",
+       "a": "Emails and portal messages requesting documents, portal setup for each campus, and deadlines."
+      }
+     ]
+    },
+    {
+     "guide": "Parent or peer audits the application with the checklist.",
+     "questions": [
+      {
+       "q": "Why check consistency across applications?",
+       "a": "Inconsistencies in names, grades or dates can raise questions or delay processing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 23,
+   "prep": "Print the eight UC Personal Insight Questions and UC's PIQ guide (admission.universityofcalifornia.edu). Students answer four, up to 350 words each.",
+   "misconceptions": [
+    "Writing a résumé in paragraph form. PIQs need a specific example and reflection on what it shows about you.",
+    "Trying to sound impressive instead of genuine. Simple, honest language and real detail work best.",
+    "Ignoring the question asked. Each PIQ should clearly answer its prompt."
+   ],
+   "assessment_key": "PIQ rubric (each of four, 4 levels): 4 = directly answers the prompt; one focused, specific example (who, what, when, actions taken); reflection on what the student learned or how they grew; shows qualities not visible elsewhere in the application; clear, active, error-free writing; ≤ 350 words; 3 = specific but reflection thin; 2 = general claims, few details; 1 = off-topic or over the limit. Reflection paragraph: proficient answers name what each PIQ shows readers (e.g. leadership, curiosity, resilience).",
+   "days": [
+    {
+     "guide": "Read all eight prompts and UC's guide; brainstorm two stories for each; pick four.",
+     "questions": [
+      {
+       "q": "How many PIQs must you answer, and what's the word limit?",
+       "a": "Four of the eight, up to 350 words each."
+      },
+      {
+       "q": "Which prompt fits writing about homeschooling as an educational experience?",
+       "a": "Prompt 4 (taking advantage of an educational opportunity or overcoming an educational barrier)."
+      }
+     ]
+    },
+    {
+     "guide": "Draft two PIQs with specific examples and reflection.",
+     "questions": [
+      {
+       "q": "What's the difference between telling and showing in a PIQ?",
+       "a": "Telling: 'I am a leader.' Showing: a specific story of what you did as a leader and the result."
+      }
+     ]
+    },
+    {
+     "guide": "Draft the remaining two PIQs.",
+     "questions": [
+      {
+       "q": "What two parts should each PIQ include?",
+       "a": "A specific example (what happened and what you did) and reflection (what it shows or how you grew)."
+      }
+     ]
+    },
+    {
+     "guide": "Revise for specificity, active voice and word count after reading aloud.",
+     "questions": [
+      {
+       "q": "Rewrite in active voice: 'The fundraiser was organized by me.'",
+       "a": "'I organized the fundraiser.'"
+      }
+     ]
+    },
+    {
+     "guide": "Submit four polished PIQs with a reflection; score with the rubric.",
+     "questions": [
+      {
+       "q": "Why avoid repeating your activities list in PIQs?",
+       "a": "PIQs should add new insight — your thinking, motivations and growth — not repeat information readers already have."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 24,
+   "prep": "Help the student create (or log into) a StudentAid.gov account. Gather the parents' prior-prior-year federal tax return and the student's (the FAFSA for a school year uses tax information from two years earlier). Parents who are contributors need their own StudentAid.gov accounts. Open the Federal Student Aid Estimator. Note California's priority date (the Cal Grant deadline).",
+   "misconceptions": [
+    "Not filing because 'we make too much.' Many colleges and California programs (including the Middle Class Scholarship and some institutional aid) require the FAFSA or CADAA.",
+    "Thinking all aid is free money. Loans must be repaid; grants and scholarships don't.",
+    "Missing contributor consent. Each required contributor (e.g. parents of a dependent student) must provide consent and information, or the FAFSA is incomplete."
+   ],
+   "assessment_key": "FAFSA checklist (pass when complete): StudentAid.gov accounts for student and contributors; FAFSA submitted (or dated practice worksheet) listing every school the student applied to; contributor sections completed with consent; confirmation saved; FAFSA Submission Summary reviewed for errors; California deadline noted. Aid quiz: 1) Cost of attendance = tuition/fees + housing + food + books/supplies + transportation + personal expenses. 2) Grant = need-based, no repayment. 3) Scholarship = merit/other criteria, no repayment. 4) Work-study = part-time job earnings for students with need. 5) Loan = must be repaid with interest. 6) SAI = Student Aid Index, an eligibility number schools use to determine need. 7) Need = COA − SAI (minus other aid). 8) Most undergraduates under 24 are considered dependent students.",
+   "days": [
+    {
+     "guide": "Break down COA for a UC, a CSU and a community college using each school's published budget.",
+     "questions": [
+      {
+       "q": "What does cost of attendance include?",
+       "a": "Tuition and fees, housing, food, books and supplies, transportation and personal expenses."
+      }
+     ]
+    },
+    {
+     "guide": "Chart grants, scholarships, work-study and loans: who pays, repaid or not, sources.",
+     "questions": [
+      {
+       "q": "Which types of aid don't have to be repaid?",
+       "a": "Grants and scholarships (work-study is earned by working)."
+      }
+     ]
+    },
+    {
+     "guide": "Create or review StudentAid.gov accounts and run the Federal Student Aid Estimator.",
+     "questions": [
+      {
+       "q": "What does the Student Aid Index (SAI) do?",
+       "a": "It's a number from the FAFSA that colleges use to determine how much need-based aid a student is eligible for."
+      }
+     ]
+    },
+    {
+     "guide": "Complete or review each FAFSA section, invite contributors and list schools; mark the state priority date.",
+     "questions": [
+      {
+       "q": "Why list every college you applied to on the FAFSA?",
+       "a": "Each listed school receives your FAFSA information so it can build an aid offer."
+      }
+     ]
+    },
+    {
+     "guide": "Give the aid quiz and verify FAFSA status or the dated practice worksheet.",
+     "questions": [
+      {
+       "q": "COA is $36,000, SAI is $10,000. What is the financial need?",
+       "a": "$26,000 (COA − SAI)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 25,
+   "prep": "Read CSAC's guidance on which application to file (csac.ca.gov). Read the Cal Grant GPA verification rules for private and homeschool students and the WebGrants student portal (mygrantinfo.csac.ca.gov). Prepare the school's GPA certification or check CSAC's current test-score alternative.",
+   "misconceptions": [
+    "Filing both the FAFSA and the CADAA. Students should file only one; filing both can delay or cancel state aid.",
+    "Assuming a homeschool GPA reaches CSAC automatically. A private school (PSA) must submit GPAs to CSAC or use the approved alternative — confirm before the deadline.",
+    "Ignoring WebGrants messages. Award notices and requests for information appear there."
+   ],
+   "assessment_key": "State-aid checklist (pass when complete): correct application chosen and submitted (FAFSA for U.S. citizens and eligible noncitizens; CADAA for undocumented students, DACA recipients, students with U visas or TPS, and others eligible for AB 540 benefits); Cal Grant GPA submitted (school certification or approved alternative) by the deadline; WebGrants account created with school list confirmed; reminders set to check monthly; deadlines and confirmation numbers logged.",
+   "days": [
+    {
+     "guide": "Explain who files the CADAA vs. the FAFSA and why not to file both.",
+     "questions": [
+      {
+       "q": "Who should file the California Dream Act Application?",
+       "a": "Students who are undocumented, have DACA, or otherwise can't get federal aid but qualify for California aid (e.g. through AB 540 nonresident tuition exemption eligibility)."
+      },
+      {
+       "q": "Should a student file both FAFSA and CADAA?",
+       "a": "No — file only one; filing both can cause delays or problems with state aid."
+      }
+     ]
+    },
+    {
+     "guide": "Walk through CADAA sections and compare to FAFSA.",
+     "questions": [
+      {
+       "q": "What aid can CADAA filers receive?",
+       "a": "California state aid such as Cal Grants, the Middle Class Scholarship, the California College Promise Grant and institutional aid — not federal aid."
+      }
+     ]
+    },
+    {
+     "guide": "Learn how Cal Grant GPA verification works for a private homeschool and prepare the certification.",
+     "questions": [
+      {
+       "q": "Why is GPA verification needed for a Cal Grant?",
+       "a": "Cal Grant awards require a verified GPA meeting the minimum (e.g. 3.0 for Cal Grant A, 2.0 for Cal Grant B) submitted by the deadline."
+      }
+     ]
+    },
+    {
+     "guide": "Create a WebGrants account; find award status and messages; set monthly reminders.",
+     "questions": [
+      {
+       "q": "What is WebGrants used for?",
+       "a": "CSAC's student portal to check Cal Grant and Middle Class Scholarship status, update schools and respond to requests."
+      }
+     ]
+    },
+    {
+     "guide": "Complete the state-aid checklist.",
+     "questions": [
+      {
+       "q": "What does CSAC stand for?",
+       "a": "California Student Aid Commission."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 26,
+   "prep": "Read csac.ca.gov pages for Cal Grant A, B and C, the Middle Class Scholarship, and the California College Promise Grant; check the current award amounts and income/asset ceilings (they change yearly). Have a calculator.",
+   "misconceptions": [
+    "Thinking Cal Grant B is less valuable. Cal Grant B provides a living-expense 'access award' and, after the first year (in most cases), tuition — often valuable for low-income students.",
+    "Forgetting income and asset ceilings. Cal Grants have family income and asset limits along with GPA minimums.",
+    "Assuming community college is free automatically. The California College Promise Grant waives the $46-per-unit enrollment fee for eligible students; many colleges also have local promise programs."
+   ],
+   "assessment_key": "State-aid estimate rubric: 4 = for three schools lists likely Cal Grant type and amount (A: tuition/fees at UC/CSU; B: access award of roughly $1,650 for living costs plus tuition after the first year; C: for career/technical programs), MCS estimate where eligible, CCPG for community college, sources cited and current-year figures used; 3 = minor errors; 2 = missing a program; 1 = incomplete. Eligibility check key: Cal Grant A minimum GPA 3.0; Cal Grant B minimum GPA 2.0; Cal Grant C for occupational/technical programs; all require meeting income/asset ceilings, California residency (or AB 540), and filing by the deadline.",
+   "days": [
+    {
+     "guide": "Chart Cal Grant A, B and C: what each pays, where, and eligibility.",
+     "questions": [
+      {
+       "q": "What does Cal Grant A pay for?",
+       "a": "Tuition and fees at UC and CSU (and part of tuition at eligible private colleges)."
+      },
+      {
+       "q": "What minimum GPA does each require?",
+       "a": "Cal Grant A: 3.0; Cal Grant B: 2.0; Cal Grant C: for career/technical programs (GPA submitted but no set minimum in most cases — check current rules)."
+      }
+     ]
+    },
+    {
+     "guide": "Determine sample students' eligibility from income, assets, GPA and deadline data.",
+     "questions": [
+      {
+       "q": "A student has a 2.6 GPA, low income and filed on time. Which Cal Grant might they get?",
+       "a": "Cal Grant B (GPA ≥ 2.0 but below the 3.0 needed for A)."
+      }
+     ]
+    },
+    {
+     "guide": "Read the MCS page and estimate an award for a sample UC/CSU student.",
+     "questions": [
+      {
+       "q": "Who is the Middle Class Scholarship for?",
+       "a": "UC and CSU undergraduates (and some community college bachelor's programs) whose family income and assets are below the program's ceiling — including many middle-income families that don't qualify for Cal Grants."
+      }
+     ]
+    },
+    {
+     "guide": "Research the California College Promise Grant and local free-tuition programs.",
+     "questions": [
+      {
+       "q": "What does the California College Promise Grant cover?",
+       "a": "It waives community college enrollment fees ($46 per unit)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a total state-aid estimate for the top three schools.",
+     "questions": [
+      {
+       "q": "Why use current-year figures from csac.ca.gov?",
+       "a": "Award amounts and income ceilings change each year."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 27,
+   "prep": "Bookmark scholarship search sites (Fastweb, Bold.org, local community foundations, employers, churches, clubs) and the FTC's scholarship scam page. Set up a tracker (spreadsheet).",
+   "misconceptions": [
+    "Paying for scholarship searches. Legitimate scholarships don't charge fees; 'guaranteed' scholarships are scams.",
+    "Skipping small local scholarships. Smaller, local awards have fewer applicants and better odds.",
+    "Not reporting outside scholarships. Colleges must be told; award displacement may reduce other aid (ask whether loans or grants are reduced first)."
+   ],
+   "assessment_key": "Scholarship applications rubric: 4 = two complete applications (or fully prepared) meeting all requirements; essay adapted to each prompt with a specific story and clear connection to goals; recommendation and transcript requests sent on time; tracker with 10 scholarships, deadlines, requirements and status; 3 = minor gaps; 2 = only one application or generic essay; 1 = incomplete. Scam quiz: red flags = application or 'processing' fees, guaranteed winnings, requests for bank/credit card numbers, 'you've won' a scholarship you never applied for, high-pressure deadlines.",
+   "days": [
+    {
+     "guide": "Search local, community, employer and online scholarships; list 10 with deadlines and requirements.",
+     "questions": [
+      {
+       "q": "Why prioritize local scholarships?",
+       "a": "Fewer applicants compete, so odds are better."
+      }
+     ]
+    },
+    {
+     "guide": "Identify red flags of scholarship scams using FTC guidance.",
+     "questions": [
+      {
+       "q": "Name two red flags of a scholarship scam.",
+       "a": "Requiring a fee, guaranteeing you'll win, or asking for bank or credit card information."
+      }
+     ]
+    },
+    {
+     "guide": "Draft a 500-word essay adaptable to multiple prompts.",
+     "questions": [
+      {
+       "q": "How can one essay be reused for different prompts?",
+       "a": "Keep a strong core story and rewrite the opening and conclusion to answer each prompt directly."
+      }
+     ]
+    },
+    {
+     "guide": "Complete and submit (or fully prepare) two applications.",
+     "questions": [
+      {
+       "q": "What is award displacement?",
+       "a": "When a college reduces other financial aid because you received an outside scholarship."
+      }
+     ]
+    },
+    {
+     "guide": "Revise with parent feedback and log applications in the tracker.",
+     "questions": [
+      {
+       "q": "What should the tracker include?",
+       "a": "Name, amount, deadline, requirements, submission date and status."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 28,
+   "prep": "Gather three sample aid offers in different formats (NGPF and many colleges post examples) or the student's real offers. Open a spreadsheet, College Scorecard and the StudentAid.gov Loan Simulator. Prepare the Unit 9 test.",
+   "misconceptions": [
+    "Treating loans as part of the 'award'. Some offers list loans alongside grants; subtract only grants and scholarships to find net price.",
+    "Comparing only one year. Multiply by four (or the expected years to graduate) and check whether grants are renewable.",
+    "Not appealing. Colleges can adjust aid for changed circumstances (job loss, medical costs); a polite, documented appeal can help."
+   ],
+   "assessment_key": "Unit 9 test answers: 1) COA components. 2) Grants/scholarships vs. loans vs. work-study. 3) SAI meaning; need = COA − SAI. 4) FAFSA vs. CADAA — file only one. 5) Cal Grant A (3.0 GPA, tuition at UC/CSU), B (2.0 GPA, access award + tuition after year one), C (career/technical). 6) Middle Class Scholarship for UC/CSU students under income/asset ceilings. 7) California College Promise Grant waives the $46/unit CCC fee. 8) Scholarship scam red flags. 9) Net price = COA − grants − scholarships; example: COA $34,000, grants $18,000, scholarship $2,000, loans $5,500 → net price $14,000 (loans are a way to pay it, not a reduction). 10) Rule of thumb: total student debt at or below expected first-year salary. Mastery 8+/10. Decision memo rubric: 4 = compares four-year net cost, expected debt and monthly payment vs. starting salary for each option, plus fit factors (program, graduation rate, location), and makes a justified choice; 3 = mostly complete; 2 = cost only or fit only; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Label grants, loans and work-study on three offers in different formats.",
+     "questions": [
+      {
+       "q": "An offer lists a 'Direct Unsubsidized Loan $2,000'. Is that free money?",
+       "a": "No — it's a loan that must be repaid with interest (and interest accrues while in school)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a spreadsheet comparing four-year net cost and expected debt across offers.",
+     "questions": [
+      {
+       "q": "COA $30,000/year; grants $12,000/year; scholarship $1,000/year (renewable). Four-year net price?",
+       "a": "($30,000 − $13,000) × 4 = $68,000 (assuming costs stay the same)."
+      }
+     ]
+    },
+    {
+     "guide": "Compare projected loan payments to starting salaries for the intended major using College Scorecard.",
+     "questions": [
+      {
+       "q": "$27,000 in loans at 6.39% on a 10-year plan is about $305/month. Is that manageable on a $45,000 salary?",
+       "a": "Yes by common guidelines — $305 is about 8% of gross monthly income ($3,750), under the 10% rule of thumb, and total debt is below first-year salary."
+      }
+     ]
+    },
+    {
+     "guide": "Write a professional financial-aid appeal letter for a sample changed circumstance.",
+     "questions": [
+      {
+       "q": "What should an aid appeal include?",
+       "a": "Specific change in circumstances, documentation, the amount of help requested, and a polite, professional tone addressed to the financial aid office."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 9 test and have the student write the decision memo.",
+     "questions": [
+      {
+       "q": "Why compare debt to expected salary?",
+       "a": "It shows whether loan payments will be affordable after graduation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 29,
+   "prep": "Open the local community college's website and catalog and CCCApply (cccapply.org). Find the college's special admission (dual enrollment) form for high school students and its counseling/orientation pages.",
+   "misconceptions": [
+    "Thinking community college is only for transfer. It also offers career certificates, associate degrees and workforce training.",
+    "Skipping counseling. A counselor-built education plan prevents wasted units and keeps students on track for transfer or a credential.",
+    "Assuming remedial classes are required. Under AB 705/AB 1705, most students start directly in transfer-level English and math, placed using high school records and guided self-placement."
+   ],
+   "assessment_key": "Community college education plan rubric: 4 = names one goal (certificate, associate degree or transfer); semester-by-semester courses with units that total the requirement (e.g. 60 semester units for an associate degree); includes orientation, placement, counseling and priority registration steps; notes financial aid (CCPG) and deadlines; 3 = minor gaps; 2 = units don't add up or missing steps; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Explore the catalog; list three certificates, three AA/AS degrees and unit requirements.",
+     "questions": [
+      {
+       "q": "How many semester units is a typical associate degree?",
+       "a": "60 semester units (90 quarter units)."
+      },
+      {
+       "q": "What's the difference between a certificate and an associate degree?",
+       "a": "A certificate is a shorter, career-focused program; an associate degree includes general education plus a major, about 60 units."
+      }
+     ]
+    },
+    {
+     "guide": "Walk through CCCApply; note residency, education and enrollment questions.",
+     "questions": [
+      {
+       "q": "Why does CCCApply ask about residency?",
+       "a": "California residents pay the low resident fee ($46/unit); nonresidents pay much higher tuition unless exempt (e.g. AB 540)."
+      }
+     ]
+    },
+    {
+     "guide": "Map orientation, placement (guided self-placement), counseling and the education plan.",
+     "questions": [
+      {
+       "q": "What does AB 705 (and AB 1705) require of community colleges?",
+       "a": "That students be placed into transfer-level English and math whenever they are likely to succeed, using high school records and guided self-placement rather than placement tests."
+      }
+     ]
+    },
+    {
+     "guide": "Research how homeschool students take community college classes now (special admit) and what transfers.",
+     "questions": [
+      {
+       "q": "How can a homeschool student take community college classes before graduating?",
+       "a": "Through special admission (dual/concurrent enrollment), usually with a parent/school administrator approval form; units are often limited per term."
+      }
+     ]
+    },
+    {
+     "guide": "Create a semester-by-semester community college plan for one goal.",
+     "questions": [
+      {
+       "q": "What is priority registration?",
+       "a": "Earlier enrollment for students who complete orientation, assessment/placement and an education plan (and certain groups), so they can get needed classes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 30,
+   "prep": "Open ASSIST.org, the UC Transfer Admission Guarantee (TAG) and UC Transfer Pathways pages, and CSU's Associate Degree for Transfer (ADT) pages. Note: Cal-GETC replaced IGETC and CSU GE-Breadth for students starting community college in fall 2025 or later.",
+   "misconceptions": [
+    "Thinking any 60 units will transfer. Units must be transferable and include major preparation listed on ASSIST.org.",
+    "Assuming an ADT guarantees a specific CSU campus. It guarantees admission to the CSU system (not necessarily a particular campus or major) with priority consideration for a similar major.",
+    "Missing the TAG filing window. UC TAGs are filed in September of the year before transfer."
+   ],
+   "assessment_key": "Two-year transfer plan rubric: 4 = names target university and major; 60 transferable units over four semesters including Cal-GETC (34 units) and major preparation from ASSIST.org; TAG or ADT path and deadlines (TAG in September; UC application in the fall; Cal State Apply in the fall); cost comparison of 2 years CCC + 2 years university vs. 4 years at the university with numbers; 3 = minor gaps; 2 = units not transferable or missing major prep; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Explain ADT (CSU guarantee) and UC TAG eligibility.",
+     "questions": [
+      {
+       "q": "What does an Associate Degree for Transfer guarantee?",
+       "a": "Admission to the CSU system (with priority consideration for a similar major) and that only 60 more units are needed for the bachelor's degree in that major."
+      },
+      {
+       "q": "How many UC campuses offer the Transfer Admission Guarantee?",
+       "a": "Six: Davis, Irvine, Merced, Riverside, Santa Barbara and Santa Cruz."
+      }
+     ]
+    },
+    {
+     "guide": "Use ASSIST.org to find courses at a local CCC that meet major prep for a target UC/CSU major.",
+     "questions": [
+      {
+       "q": "What is articulation?",
+       "a": "An agreement showing which courses at one college are accepted as equivalent to courses at another."
+      }
+     ]
+    },
+    {
+     "guide": "Map Cal-GETC into a two-year schedule.",
+     "questions": [
+      {
+       "q": "What is Cal-GETC?",
+       "a": "The California General Education Transfer Curriculum — a single 34-unit general education pattern accepted by both UC and CSU, starting fall 2025."
+      }
+     ]
+    },
+    {
+     "guide": "Build a full 60-unit transfer plan with TAG/ADT deadlines.",
+     "questions": [
+      {
+       "q": "When is the UC TAG application due?",
+       "a": "During September (Sept 1–30) of the year before you plan to transfer."
+      }
+     ]
+    },
+    {
+     "guide": "Present the plan and compare four-year net cost with the direct freshman path.",
+     "questions": [
+      {
+       "q": "Two years at a CCC cost $3,000 total in fees and the university costs $15,000/year net. Compare 2+2 vs. four years at the university (fees/tuition only).",
+       "a": "2+2: $3,000 + $30,000 = $33,000; four years: $60,000; savings about $27,000 (living costs aside)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 31,
+   "prep": "Have a resume template, a real local job posting, and a word processor. Line up a parent/mentor to review and two potential references (former supervisors, coaches, volunteer coordinators — not relatives).",
+   "misconceptions": [
+    "Listing duties instead of accomplishments. Use action verb + task + result/number.",
+    "A generic cover letter. Tailor each letter to the posting and include its keywords (applicant tracking systems scan for them).",
+    "Fancy formatting that confuses ATS software. Use a simple, clean layout with standard headings."
+   ],
+   "assessment_key": "Resume and cover letter rubric (4 levels): 4 = one page; contact info; education (homeschool program name, expected graduation, relevant courses/honors); experience and volunteer work with quantified accomplishment statements starting with action verbs; skills and certifications; no errors; cover letter addressed to a person if possible, names the job, connects two or three qualifications to the posting's keywords, ends with a call to action; references confirmed; 3 = minor errors; 2 = duty lists or generic letter; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Compare chronological, skills-based and student resume samples; pick a format.",
+     "questions": [
+      {
+       "q": "Which resume format suits a student with little work history?",
+       "a": "A student or skills-based (functional/hybrid) resume that highlights education, projects, volunteer work and skills."
+      }
+     ]
+    },
+    {
+     "guide": "Rewrite 10 duties into quantified accomplishment statements with action verbs.",
+     "questions": [
+      {
+       "q": "Rewrite: 'Responsible for helping customers.'",
+       "a": "'Assisted 50+ customers per shift, resolving questions quickly and earning a 'staff pick' recognition' (any action verb + task + measurable result)."
+      }
+     ]
+    },
+    {
+     "guide": "Draft a one-page resume including homeschool education, volunteer work, skills and certifications.",
+     "questions": [
+      {
+       "q": "How should a homeschool student list education?",
+       "a": "List the homeschool's name (the private school name on the affidavit) or 'Homeschool', city, expected graduation date, GPA if strong, and notable courses, AP exams or college classes."
+      }
+     ]
+    },
+    {
+     "guide": "Write a tailored cover letter for a real local posting, matching keywords.",
+     "questions": [
+      {
+       "q": "What is an ATS?",
+       "a": "An applicant tracking system — software that scans and ranks applications, often by keywords from the job posting."
+      }
+     ]
+    },
+    {
+     "guide": "Revise after review and request two references.",
+     "questions": [
+      {
+       "q": "Who makes a good reference?",
+       "a": "An adult who has supervised or worked with you (employer, coach, volunteer coordinator, teacher) and isn't a relative; ask permission first."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 32,
+   "prep": "Download California form B1-1 (Statement of Intent to Employ a Minor and Request for Work Permit) from the CDE website. Find two real job postings. Download Form I-9 and its List of Acceptable Documents, a W-4, and a sample direct-deposit form. Note: students who are 18 or older don't need a work permit.",
+   "misconceptions": [
+    "Thinking homeschoolers can't get work permits. Minors in a private homeschool can get a permit; for a private school, it is typically issued by the local public school district (or the school's authorized administrator, per district practice).",
+    "Ignoring minor hour limits. Ages 16–17: during school weeks up to 4 hours on a school day, 8 hours on a non-school day, 28 hours per week; during vacation up to 8 hours a day and 48 hours a week.",
+    "Bringing the wrong I-9 documents. Bring one List A document (e.g. U.S. passport) or one List B (e.g. driver's license/state ID) plus one List C (e.g. Social Security card or birth certificate)."
+   ],
+   "assessment_key": "Application packet check (pass when complete): one real or complete practice online application with accurate availability, work history and screening answers; resume attached; B1-1 completed (student, parent and employer sections as applicable) with the correct district identified; I-9 Section 1 practice completed and documents identified; W-4 and direct-deposit form practiced; job tracker entry with date, position, company, contact and follow-up date.",
+   "days": [
+    {
+     "guide": "Find five local jobs; evaluate pay, schedule and requirements.",
+     "questions": [
+      {
+       "q": "What should you check in a job posting besides pay?",
+       "a": "Schedule and hours, location/commute, requirements, age limits, benefits and how to apply."
+      }
+     ]
+    },
+    {
+     "guide": "Complete a full online application including availability, work history and screening questions.",
+     "questions": [
+      {
+       "q": "Why must availability on an application be accurate?",
+       "a": "Employers schedule based on it; overstating availability leads to conflicts or losing the job."
+      }
+     ]
+    },
+    {
+     "guide": "Read California's minor work permit rules and complete form B1-1; learn where to obtain the permit and hour limits.",
+     "questions": [
+      {
+       "q": "During a school week, how many hours may a 16- or 17-year-old work?",
+       "a": "Up to 4 hours on a school day, 8 on a non-school day, and 28 hours per week."
+      },
+      {
+       "q": "Which form does the student fill out to request a work permit?",
+       "a": "Form B1-1, Statement of Intent to Employ a Minor and Request for Work Permit; the issued permit is form B1-4."
+      }
+     ]
+    },
+    {
+     "guide": "Practice I-9 documents, W-4 and direct-deposit forms.",
+     "questions": [
+      {
+       "q": "What does Form I-9 verify?",
+       "a": "Identity and authorization to work in the United States."
+      },
+      {
+       "q": "Give a valid I-9 document combination.",
+       "a": "A U.S. passport alone (List A), or a state ID card (List B) plus a Social Security card (List C)."
+      }
+     ]
+    },
+    {
+     "guide": "Submit one real application (or complete practice packet) and log it.",
+     "questions": [
+      {
+       "q": "When should you follow up on an application?",
+       "a": "About one week after applying, with a short, polite email or call."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 33,
+   "prep": "Have a phone or webcam for recording and a list of common interview questions. Arrange an adult (ideally not a parent — a family friend or mentor) for a 20-minute mock interview.",
+   "misconceptions": [
+    "Unstructured, rambling answers. Use STAR: Situation, Task, Action, Result.",
+    "Not researching the company. Know what it does and why you want to work there.",
+    "Forgetting the thank-you. Send a short thank-you email within 24 hours."
+   ],
+   "assessment_key": "Mock interview rubric (4 levels): 4 = professional greeting and appearance; confident 30-second introduction; answers to behavioral questions use STAR with specific results; shows knowledge of the company; asks two thoughtful questions; good eye contact and pace; thank-you email sent within 24 hours that references something specific from the interview; 3 = solid with a few weak answers; 2 = vague answers, little preparation; 1 = unprepared.",
+   "days": [
+    {
+     "guide": "Compare phone, video, group and behavioral interviews; research a target company.",
+     "questions": [
+      {
+       "q": "What is a behavioral interview question?",
+       "a": "A question about past behavior to predict future performance, e.g. 'Tell me about a time you solved a problem.'"
+      }
+     ]
+    },
+    {
+     "guide": "Write five STAR stories (teamwork, conflict, failure, leadership, initiative).",
+     "questions": [
+      {
+       "q": "What does STAR stand for?",
+       "a": "Situation, Task, Action, Result."
+      }
+     ]
+    },
+    {
+     "guide": "Write and record a 30-second elevator pitch; revise.",
+     "questions": [
+      {
+       "q": "What belongs in a 30-second pitch?",
+       "a": "Who you are, relevant skills/experience, and what you're looking for or can offer."
+      }
+     ]
+    },
+    {
+     "guide": "Run the 20-minute recorded mock interview with 10 common questions.",
+     "questions": [
+      {
+       "q": "How should you answer 'What's your greatest weakness?'",
+       "a": "Name a real but manageable weakness and the specific steps you're taking to improve it."
+      }
+     ]
+    },
+    {
+     "guide": "Self-score with the rubric and send a professional thank-you email.",
+     "questions": [
+      {
+       "q": "What should a thank-you email include?",
+       "a": "Thanks for their time, a specific point from the conversation, a brief restatement of interest, and a professional closing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 34,
+   "prep": "Open the California Labor Commissioner (dir.ca.gov/dlse) and Cal/OSHA pages. Check the current state minimum wage ($16.90/hour in 2026; some cities and industries, such as fast food at $20, are higher). Prepare the Unit 11 test.",
+   "misconceptions": [
+    "Thinking breaks are optional favors. California law requires a 30-minute unpaid meal break for shifts over 5 hours (can be waived by mutual consent if the shift is no more than 6 hours) and a paid 10-minute rest break per 4 hours worked or major fraction.",
+    "Fear of retaliation. Retaliating against workers for reporting wage or safety violations is illegal; complaints can be filed with the Labor Commissioner or Cal/OSHA.",
+    "Overly casual work emails. Use a clear subject, greeting, short body and professional sign-off."
+   ],
+   "assessment_key": "Unit 11 test answers: 1) Resume accomplishment statements use action verb + result. 2) ATS definition. 3) STAR method. 4) Minor work permit = B1-1 request, B1-4 permit. 5) I-9 verifies identity and work authorization. 6) California daily overtime after 8 hours. 7) Meal break: 30 minutes for shifts over 5 hours. 8) Rest break: 10 minutes per 4 hours. 9) Paid sick leave: at least 40 hours (5 days) per year. 10) Report wage theft to the Labor Commissioner; unsafe conditions to Cal/OSHA. 11) Comparing offers: total compensation = pay + benefits − commute costs. Mastery 9+/11. Job-offer evaluation example: Job A $18/hour, 30 hrs/week, 20-minute commute; Job B $20/hour, 30 hrs/week, 40-mile round-trip commute at $0.20/mile cost → A = $540/week; B = $600 − (5 days × 40 × $0.20 = $40) = $560/week before time cost.",
+   "days": [
+    {
+     "guide": "Write three professional emails: requesting time off, following up on an application, asking a supervisor for feedback.",
+     "questions": [
+      {
+       "q": "What makes an email professional?",
+       "a": "Clear subject line, proper greeting, concise purpose, polite tone, correct grammar and a signature with your name."
+      }
+     ]
+    },
+    {
+     "guide": "Research California minimum wage, overtime, meal and rest breaks and paid sick leave; make a rights card.",
+     "questions": [
+      {
+       "q": "How much paid sick leave must California employers provide?",
+       "a": "At least 40 hours or 5 days per year (since 2024)."
+      },
+      {
+       "q": "When is a meal break required?",
+       "a": "For shifts over 5 hours: a 30-minute meal break (waivable by mutual consent if the shift is 6 hours or less)."
+      }
+     ]
+    },
+    {
+     "guide": "Learn how to report unsafe conditions and harassment; roles of Cal/OSHA and the Labor Commissioner.",
+     "questions": [
+      {
+       "q": "Where do you report unpaid wages in California?",
+       "a": "The Labor Commissioner's Office (Division of Labor Standards Enforcement)."
+      },
+      {
+       "q": "What should you do first if you experience harassment at work?",
+       "a": "Document what happened (dates, details, witnesses) and report it to a supervisor or HR per the company's policy; you can also file with the California Civil Rights Department."
+      }
+     ]
+    },
+    {
+     "guide": "Evaluate two sample job offers by total compensation, schedule, growth and commute.",
+     "questions": [
+      {
+       "q": "Why include commute costs in comparing jobs?",
+       "a": "Gas, transit, parking and time reduce the real value of the pay."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 11 test in the key.",
+     "questions": [
+      {
+       "q": "Is it legal for an employer to fire you for reporting a safety hazard?",
+       "a": "No — retaliation is illegal; you can file a complaint with the Labor Commissioner or Cal/OSHA."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 35,
+   "prep": "Gather the course list from Unit 8, a transcript template and a copy of each year's filed Private School Affidavit (filed with the CDE each October 1–15). Have the school's name and CDS code (if assigned) ready.",
+   "misconceptions": [
+    "Calculating GPA with credits ignored. Weight each grade by its credits if course lengths differ.",
+    "Thinking the state issues homeschool diplomas. In a private (PSA) homeschool, the school administrator (usually the parent) issues the diploma.",
+    "Losing records. Keep permanent digital and paper copies — colleges, employers and the military may ask years later."
+   ],
+   "assessment_key": "Signed final transcript and records packet (pass when complete): transcript shows school name, address and affidavit/CDS info; student info; courses by year with a–g letters, grades and credits (10 per year-long course); cumulative GPA (check: sum of grade points × credits ÷ total credits); total credits; graduation date; administrator signature and date; matches the self-reported application records. Records packet contains transcript, course descriptions, reading lists, test scores, work samples and copies of affidavits. GPA example: year grades A, A, B, C, A, B (equal credits) → (4 + 4 + 3 + 2 + 4 + 3) ÷ 6 = 3.33.",
+   "days": [
+    {
+     "guide": "Calculate cumulative unweighted GPA and total credits.",
+     "questions": [
+      {
+       "q": "Grades (equal credits): A, B, B, A, C, A, B, A. Unweighted GPA?",
+       "a": "(4 + 3 + 3 + 4 + 2 + 4 + 3 + 4) ÷ 8 = 27 ÷ 8 = 3.375 ≈ 3.38."
+      },
+      {
+       "q": "Six year-long courses per year for four years at 10 credits each. Total credits?",
+       "a": "240 credits."
+      }
+     ]
+    },
+    {
+     "guide": "Finalize the transcript: school name, affidavit info, courses by year, a–g letters, grades, GPA, graduation date, signature.",
+     "questions": [
+      {
+       "q": "Why list a–g letters on the transcript?",
+       "a": "It helps UC/CSU and counselors quickly see which courses meet a–g subject requirements."
+      }
+     ]
+    },
+    {
+     "guide": "Learn that the PSA administrator issues the diploma; review graduation requirements; compare with the CHSPE.",
+     "questions": [
+      {
+       "q": "What is the CHSPE?",
+       "a": "The California High School Proficiency Examination; passing it earns a Certificate of Proficiency, legally equivalent to a California high school diploma (eligible at age 16 or after completing 10th grade, among other criteria)."
+      }
+     ]
+    },
+    {
+     "guide": "Assemble the permanent records packet.",
+     "questions": [
+      {
+       "q": "Why keep copies of Private School Affidavits?",
+       "a": "They document that the homeschool was a legally operating private school in California each year."
+      }
+     ]
+    },
+    {
+     "guide": "Parent signs and seals the final transcript; the student makes digital and paper copies.",
+     "questions": [
+      {
+       "q": "What makes a transcript 'official'?",
+       "a": "It is signed and dated by the school administrator and sent directly (often in a sealed envelope or securely electronically) to the receiving institution."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 36,
+   "prep": "Gather the Unit 7 capstone budget, aid or job offers, and a presentation tool. Check deadlines: UC and CSU freshman Statements of Intent to Register are typically due May 1. Invite a guest for the final presentation.",
+   "misconceptions": [
+    "Missing post-acceptance steps. Accepting an offer requires the Statement of Intent to Register (and deposit/waiver), housing applications, orientation and final transcripts.",
+    "Forgetting adult obligations. Men must register with Selective Service within 30 days of turning 18; voter registration, health insurance and important documents also need attention.",
+    "Treating the budget as finished. Update it with real aid, wages and costs and revisit it every few months."
+   ],
+   "assessment_key": "Capstone presentation and portfolio rubric (4 levels): 4 = clear launch plan (college/job/gap year) with completed enrollment or acceptance steps and dates; first-year budget updated with actual aid and wages and balanced; adulting checklist complete (voter registration, Selective Service if applicable, health insurance plan, bank accounts, credit freeze, secure copies of birth certificate, Social Security card, ID); digital portfolio with resume, transcript, PIQs, budget and career report; confident 10-minute presentation and thoughtful answers; final reflection names specific growth; 3 = minor gaps; 2 = missing major components; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Complete enrollment or job acceptance steps (or a gap-year plan with milestones).",
+     "questions": [
+      {
+       "q": "What is a Statement of Intent to Register?",
+       "a": "The UC/CSU form (with deposit or waiver) a student submits to accept an admission offer; typically due May 1 for freshmen."
+      }
+     ]
+    },
+    {
+     "guide": "Update the Unit 7 life budget with actual aid, wages and costs.",
+     "questions": [
+      {
+       "q": "Your aid covers $8,000 of a $12,000 housing cost. How much per month over 9 months must you cover?",
+       "a": "$4,000 ÷ 9 ≈ $444 per month."
+      }
+     ]
+    },
+    {
+     "guide": "Complete the adulting checklist.",
+     "questions": [
+      {
+       "q": "Who must register with Selective Service, and when?",
+       "a": "Most men ages 18–25 living in the U.S., within 30 days of turning 18."
+      },
+      {
+       "q": "At what age can Californians pre-register to vote?",
+       "a": "16 (registration becomes active at 18)."
+      }
+     ]
+    },
+    {
+     "guide": "Assemble the digital portfolio.",
+     "questions": [
+      {
+       "q": "What documents belong in the portfolio?",
+       "a": "Resume, transcript, PIQs, budget and career report (plus work samples)."
+      }
+     ]
+    },
+    {
+     "guide": "Present the launch plan and portfolio; complete the final reflection.",
+     "questions": [
+      {
+       "q": "Name one financial habit you'll keep from this course and why.",
+       "a": "Answers vary; strong answers are specific (e.g. autopay full credit card balance to avoid interest and build credit)."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
