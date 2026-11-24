@@ -51,6 +51,21 @@ python3 scripts/plan.py export
 You can also open `homeschool.db` in a SQLite viewer such as [DB Browser for SQLite](https://sqlitebrowser.org/)
 (free) or [Datasette](https://datasette.io/).
 
+## Web app
+
+`web/` is a browsable version of the whole curriculum: grades → courses → units → weeks → days, plus
+search, paperwork, funding and resources. Every page links back to its source files in this repository.
+
+```bash
+python3 scripts/build_web.py            # regenerate web/data/*.json and web/index.html
+cd web && python3 -m http.server 8000   # open http://localhost:8000
+```
+
+To put it online with GitHub Pages: merge to `main`, open the repository's **Settings → Pages**, and set
+**Source** to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` then publishes `web/` on
+every push. If you merge to `main`, change `BRANCH` in `scripts/build_web.py` to `"main"` so the
+GitHub links point at the right branch.
+
 ## What each grade covers
 
 Every course runs 36 weeks, organized into units. Each week has a topic, objectives, CA standards,
@@ -195,12 +210,17 @@ scripts/
   validate.py      # checks: 36 weeks, 5 days each, all standard codes defined
   build_db.py      # JSON → homeschool.db
   plan.py          # CLI viewer, search, Markdown export
+  build_web.py     # JSON → web/data for the web app
+web/
+  app.html         # the web app (edit this)
+  index.html       # generated full page for static hosting
+  data/            # generated JSON
 ```
 
 After editing, run:
 
 ```bash
-python3 scripts/validate.py && python3 scripts/build_db.py && python3 scripts/plan.py export
+python3 scripts/validate.py && python3 scripts/build_db.py && python3 scripts/plan.py export && python3 scripts/build_web.py
 ```
 
 ## Tips for using the plans
