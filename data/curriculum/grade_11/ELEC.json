@@ -1,0 +1,1895 @@
+{
+ "grade": 11,
+ "subject": "ELEC",
+ "title": "Introduction to Engineering Design (CTE)",
+ "description": "A Career Technical Education course in the Engineering and Architecture sector (Engineering Design pathway). Students learn the engineering design process, technical sketching and dimensioning, precision measurement and statistics, and parametric 3D CAD modeling with free tools (Onshape for Education, Tinkercad). They reverse engineer household products, study materials and manufacturing, build and test prototypes, and finish with a semester-long capstone that solves a real problem for a real user, documented in an engineering notebook and digital portfolio.",
+ "framework": "California Career Technical Education Model Curriculum Standards – Engineering and Architecture Sector, Engineering Design Pathway (C) and CTE Anchor Standards",
+ "minutes_per_day": 55,
+ "ag_requirement": "g",
+ "credits": 10,
+ "standards": {
+  "CTE-EA-C1.0": "Understand the history, impact, and careers of engineering design.",
+  "CTE-EA-C2.1": "Use the engineering design process to identify problems, generate and evaluate solutions, and document work in an engineering notebook.",
+  "CTE-EA-C2.2": "Define design problems with criteria and constraints and evaluate solutions with decision matrices.",
+  "CTE-EA-C3.1": "Produce freehand technical sketches using isometric, oblique, and multiview (orthographic) projection.",
+  "CTE-EA-C3.2": "Apply dimensioning standards and line conventions (ASME Y14.5 basics) to technical drawings.",
+  "CTE-EA-C4.1": "Use precision measuring tools (rulers, calipers) and apply units, accuracy, precision, and tolerances.",
+  "CTE-EA-C4.2": "Apply statistical analysis (mean, median, standard deviation) to measurement and quality data.",
+  "CTE-EA-C5.1": "Create parametric 3D solid models of parts using computer-aided design (CAD) software.",
+  "CTE-EA-C5.2": "Create CAD assemblies with constraints/mates and generate working drawings from 3D models.",
+  "CTE-EA-C6.1": "Reverse engineer a product to analyze its function, structure, materials, and manufacturing processes.",
+  "CTE-EA-C7.1": "Select appropriate materials based on mechanical properties, cost, and sustainability.",
+  "CTE-EA-C7.2": "Describe manufacturing processes (additive, subtractive, forming) and build and test prototypes safely.",
+  "CTE-EA-C8.1": "Apply human factors, ergonomics, and user-centered design to product development.",
+  "CTE-EA-C9.1": "Communicate design solutions through technical reports, presentations, and portfolios.",
+  "CTE-ANCHOR-2.0": "Communications: acquire and accurately use sector terminology and communicate in oral, written, and multimedia formats.",
+  "CTE-ANCHOR-5.0": "Problem Solving and Critical Thinking: conduct short and sustained projects using critical and creative thinking, logical reasoning, and analysis.",
+  "CTE-ANCHOR-6.0": "Health and Safety: demonstrate health and safety procedures, regulations, and personal health practices in the workplace.",
+  "CTE-ANCHOR-8.0": "Ethics and Legal Responsibilities: practice professional, ethical, and legal behavior, including intellectual property.",
+  "CTE-ANCHOR-9.0": "Leadership and Teamwork: work with peers to promote divergent and creative perspectives, effective leadership, and group dynamics.",
+  "CTE-ANCHOR-10.0": "Technical Knowledge and Skills: apply essential technical knowledge and skills common to the sector, following procedures when carrying out experiments or tasks.",
+  "CTE-ANCHOR-11.0": "Demonstration and Application: demonstrate and apply knowledge and skills in classroom, laboratory, and workplace settings."
+ },
+ "resources": [
+  {
+   "name": "Onshape for Education",
+   "url": "https://www.onshape.com/en/education/",
+   "note": "Free browser-based professional parametric CAD with tutorials (Onshape Learning Center)"
+  },
+  {
+   "name": "Tinkercad",
+   "url": "https://www.tinkercad.com/",
+   "note": "Free beginner 3D modeling for early CAD and quick prototypes"
+  },
+  {
+   "name": "TeachEngineering",
+   "url": "https://www.teachengineering.org/",
+   "note": "Free standards-based engineering design lessons and activities"
+  },
+  {
+   "name": "CA CTE Model Curriculum Standards",
+   "url": "https://www.cde.ca.gov/ci/ct/sf/ctemcstandards.asp",
+   "note": "Official sector and pathway standards"
+  },
+  {
+   "name": "Khan Academy – Statistics and probability",
+   "url": "https://www.khanacademy.org/math/statistics-probability",
+   "note": "Review for measurement statistics unit"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "The Engineering Design Process and Careers",
+   "start_week": 1,
+   "end_week": 3,
+   "big_idea": "Engineers solve problems through an iterative, documented design process.",
+   "standards": [
+    "CTE-EA-C1.0",
+    "CTE-ANCHOR-2.0",
+    "CTE-EA-C2.1",
+    "CTE-EA-C2.2",
+    "CTE-ANCHOR-5.0",
+    "CTE-ANCHOR-9.0",
+    "CTE-ANCHOR-6.0"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Technical Sketching and Drawing",
+   "start_week": 4,
+   "end_week": 7,
+   "big_idea": "Sketches and drawings are the universal language engineers use to communicate ideas precisely.",
+   "standards": [
+    "CTE-EA-C3.1",
+    "CTE-ANCHOR-10.0",
+    "CTE-EA-C3.2",
+    "CTE-EA-C4.1"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Measurement and Statistics",
+   "start_week": 8,
+   "end_week": 10,
+   "big_idea": "Precise measurement and statistical analysis ensure parts fit and products are consistent.",
+   "standards": [
+    "CTE-EA-C4.1",
+    "CTE-ANCHOR-10.0",
+    "CTE-EA-C4.2",
+    "CTE-ANCHOR-5.0",
+    "CTE-EA-C7.1"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Computer-Aided Design (CAD)",
+   "start_week": 11,
+   "end_week": 15,
+   "big_idea": "Parametric CAD lets engineers model, modify, and document designs quickly.",
+   "standards": [
+    "CTE-EA-C5.1",
+    "CTE-ANCHOR-10.0",
+    "CTE-EA-C4.1",
+    "CTE-EA-C5.2",
+    "CTE-EA-C3.2",
+    "CTE-ANCHOR-2.0"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Reverse Engineering",
+   "start_week": 16,
+   "end_week": 18,
+   "big_idea": "Taking products apart reveals the design decisions behind them.",
+   "standards": [
+    "CTE-EA-C6.1",
+    "CTE-ANCHOR-6.0",
+    "CTE-EA-C5.1",
+    "CTE-EA-C7.1",
+    "CTE-EA-C2.1",
+    "CTE-EA-C3.1",
+    "CTE-EA-C4.2"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Materials, Manufacturing, and Prototyping",
+   "start_week": 19,
+   "end_week": 22,
+   "big_idea": "Material choice and manufacturing process determine a product's cost, performance, and sustainability.",
+   "standards": [
+    "CTE-EA-C7.1",
+    "CTE-ANCHOR-10.0",
+    "CTE-EA-C7.2",
+    "CTE-EA-C1.0",
+    "CTE-ANCHOR-6.0",
+    "CTE-ANCHOR-11.0",
+    "CTE-EA-C2.1",
+    "CTE-EA-C4.2",
+    "CTE-ANCHOR-5.0"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "User-Centered Design and Ergonomics",
+   "start_week": 23,
+   "end_week": 25,
+   "big_idea": "Good design starts with the people who will use it.",
+   "standards": [
+    "CTE-EA-C8.1",
+    "CTE-EA-C4.2",
+    "CTE-EA-C2.2",
+    "CTE-ANCHOR-2.0",
+    "CTE-EA-C9.1"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Ethics, Sustainability, and Intellectual Property",
+   "start_week": 26,
+   "end_week": 27,
+   "big_idea": "Engineers have responsibilities to the public, the environment, and other inventors.",
+   "standards": [
+    "CTE-ANCHOR-8.0",
+    "CTE-ANCHOR-6.0",
+    "CTE-EA-C1.0",
+    "CTE-EA-C7.1"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Capstone Design Project",
+   "start_week": 28,
+   "end_week": 36,
+   "big_idea": "A complete design cycle—from problem to tested prototype—shows mastery of engineering design.",
+   "standards": [
+    "CTE-EA-C2.2",
+    "CTE-EA-C8.1",
+    "CTE-ANCHOR-5.0",
+    "CTE-EA-C2.1",
+    "CTE-EA-C6.1",
+    "CTE-ANCHOR-8.0",
+    "CTE-EA-C3.1",
+    "CTE-ANCHOR-9.0",
+    "CTE-EA-C5.1",
+    "CTE-EA-C5.2",
+    "CTE-EA-C3.2",
+    "CTE-EA-C7.2",
+    "CTE-ANCHOR-6.0",
+    "CTE-ANCHOR-11.0",
+    "CTE-EA-C4.2",
+    "CTE-EA-C9.1",
+    "CTE-ANCHOR-2.0",
+    "CTE-EA-C1.0"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "What engineers do",
+   "objectives": [
+    "Describe engineering disciplines and careers",
+    "Set up an engineering notebook"
+   ],
+   "standards": [
+    "CTE-EA-C1.0",
+    "CTE-ANCHOR-2.0",
+    "CTE-EA-C2.1"
+   ],
+   "vocabulary": [
+    "engineering",
+    "technology",
+    "engineering notebook",
+    "discipline"
+   ],
+   "materials": [
+    "bound grid notebook",
+    "pen"
+   ],
+   "days": [
+    {
+     "title": "Engineering careers",
+     "work": "Research five engineering disciplines (mechanical, civil, electrical, biomedical, industrial) and record salary, education, and a California employer for each."
+    },
+    {
+     "title": "Engineering notebook",
+     "work": "Set up a bound engineering notebook with table of contents, dated entries, and signing conventions."
+    },
+    {
+     "title": "Design that changed the world",
+     "work": "Read about an innovation (e.g., the Golden Gate Bridge, the iPhone) and summarize the problem it solved."
+    },
+    {
+     "title": "Interview",
+     "work": "Watch or conduct an interview with a practicing engineer and record five takeaways."
+    },
+    {
+     "title": "Check",
+     "work": "Write a 300-word career reflection and submit the notebook for a format check."
+    }
+   ],
+   "assessment": "Notebook check and career reflection."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "The design process",
+   "objectives": [
+    "Apply the design process steps",
+    "Define criteria and constraints"
+   ],
+   "standards": [
+    "CTE-EA-C2.1",
+    "CTE-EA-C2.2",
+    "CTE-ANCHOR-5.0"
+   ],
+   "vocabulary": [
+    "design brief",
+    "criteria",
+    "constraints",
+    "iteration",
+    "decision matrix"
+   ],
+   "materials": [
+    "paper, tape, scissors",
+    "pennies"
+   ],
+   "days": [
+    {
+     "title": "Design process model",
+     "work": "Learn the steps (define, research, ideate, select, prototype, test, iterate, communicate) and diagram them in the notebook."
+    },
+    {
+     "title": "Design brief",
+     "work": "Write a design brief for a paper bridge spanning 20 cm with limited materials."
+    },
+    {
+     "title": "Brainstorm",
+     "work": "Sketch five bridge ideas in 15 minutes and select one with a decision matrix."
+    },
+    {
+     "title": "Build & test",
+     "work": "Build the bridge and test load with pennies; record results."
+    },
+    {
+     "title": "Iterate & check",
+     "work": "Redesign once, retest, and write a reflection on what changed."
+    }
+   ],
+   "assessment": "Paper bridge challenge."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "Teamwork and documentation",
+   "objectives": [
+    "Document a design cycle",
+    "Practice collaboration"
+   ],
+   "standards": [
+    "CTE-EA-C2.1",
+    "CTE-ANCHOR-9.0",
+    "CTE-ANCHOR-6.0"
+   ],
+   "vocabulary": [
+    "Gantt chart",
+    "role",
+    "safety",
+    "PPE"
+   ],
+   "materials": [
+    "safety glasses",
+    "craft materials",
+    "marshmallows and spaghetti"
+   ],
+   "days": [
+    {
+     "title": "Lab safety",
+     "work": "Learn shop safety rules, PPE, and tool handling; pass a safety quiz."
+    },
+    {
+     "title": "Marshmallow challenge",
+     "work": "Complete the spaghetti-marshmallow tower challenge with family members and reflect on teamwork."
+    },
+    {
+     "title": "Project management",
+     "work": "Learn Gantt charts and build one for a hypothetical project."
+    },
+    {
+     "title": "Documentation",
+     "work": "Practice writing a test procedure and data table."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 1 quiz on design process and careers."
+    }
+   ],
+   "assessment": "Safety quiz and Unit 1 quiz."
+  },
+  {
+   "week": 4,
+   "unit": 2,
+   "topic": "Freehand sketching fundamentals",
+   "objectives": [
+    "Sketch lines, circles, and arcs",
+    "Use proportion"
+   ],
+   "standards": [
+    "CTE-EA-C3.1",
+    "CTE-ANCHOR-10.0"
+   ],
+   "vocabulary": [
+    "sketch",
+    "construction line",
+    "object line",
+    "proportion"
+   ],
+   "materials": [
+    "grid paper",
+    "pencils",
+    "eraser"
+   ],
+   "days": [
+    {
+     "title": "Line work",
+     "work": "Practice horizontal, vertical, and angled lines and construction lines."
+    },
+    {
+     "title": "Circles & arcs",
+     "work": "Sketch circles and arcs using boxes and diagonals."
+    },
+    {
+     "title": "Proportion",
+     "work": "Sketch household objects using proportional estimation."
+    },
+    {
+     "title": "Thumbnail sketches",
+     "work": "Create 10 thumbnail sketches of a single object from different views."
+    },
+    {
+     "title": "Check",
+     "work": "Submit a sketch portfolio."
+    }
+   ],
+   "assessment": "Sketch portfolio."
+  },
+  {
+   "week": 5,
+   "unit": 2,
+   "topic": "Pictorial sketching: isometric and oblique",
+   "objectives": [
+    "Create isometric and oblique sketches of real objects"
+   ],
+   "standards": [
+    "CTE-EA-C3.1",
+    "CTE-ANCHOR-10.0"
+   ],
+   "vocabulary": [
+    "isometric",
+    "oblique",
+    "receding axis",
+    "pictorial",
+    "ellipse"
+   ],
+   "materials": [
+    "isometric grid paper",
+    "wooden blocks or LEGO",
+    "coffee mug"
+   ],
+   "days": [
+    {
+     "title": "Isometric axes",
+     "work": "Learn the 30° isometric axes and sketch three stacked-block shapes on isometric grid paper."
+    },
+    {
+     "title": "Isometric practice",
+     "work": "Sketch 8 objects (stapler, phone stand, LEGO builds) isometrically, starting from a bounding box."
+    },
+    {
+     "title": "Isometric circles",
+     "work": "Use the four-center method to sketch isometric ellipses, then sketch a mug and a cylinder with a hole."
+    },
+    {
+     "title": "Oblique sketching",
+     "work": "Create cavalier and cabinet oblique sketches of five objects and compare their distortion."
+    },
+    {
+     "title": "Check",
+     "work": "Sketch the same object in isometric and oblique for a scored quiz."
+    }
+   ],
+   "assessment": "Pictorial sketch quiz."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Multiview (orthographic) projection",
+   "objectives": [
+    "Create multiview drawings with correct alignment and line types"
+   ],
+   "standards": [
+    "CTE-EA-C3.1",
+    "CTE-EA-C3.2"
+   ],
+   "vocabulary": [
+    "orthographic projection",
+    "front view",
+    "top view",
+    "right-side view",
+    "hidden line",
+    "center line"
+   ],
+   "materials": [
+    "grid paper",
+    "clear plastic box or shoebox (glass-box model)",
+    "blocks"
+   ],
+   "days": [
+    {
+     "title": "Glass box",
+     "work": "Place a block inside a clear box, trace each face, and unfold it to see how standard views align."
+    },
+    {
+     "title": "Three views",
+     "work": "Sketch front, top, and right-side views of 6 block models, choosing the most descriptive front view."
+    },
+    {
+     "title": "Hidden & center lines",
+     "work": "Add hidden lines and center lines to drawings of parts with holes and slots."
+    },
+    {
+     "title": "Visualization",
+     "work": "Match 12 isometric pictorials to their multiview drawings and sketch the missing view in 6 problems."
+    },
+    {
+     "title": "Check",
+     "work": "Multiview quiz: draw three views of an unseen object from an isometric."
+    }
+   ],
+   "assessment": "Multiview quiz."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "Dimensioning technical drawings",
+   "objectives": [
+    "Apply ASME dimensioning rules",
+    "Specify tolerances"
+   ],
+   "standards": [
+    "CTE-EA-C3.2",
+    "CTE-EA-C4.1"
+   ],
+   "vocabulary": [
+    "dimension line",
+    "extension line",
+    "leader",
+    "tolerance",
+    "datum",
+    "chain vs. baseline dimensioning"
+   ],
+   "materials": [
+    "ruler",
+    "grid paper",
+    "sample part (e.g., a LEGO brick or bracket)"
+   ],
+   "days": [
+    {
+     "title": "Dimensioning rules",
+     "work": "Learn line types and ASME basics (no double dimensions, dimension features in their most descriptive view)."
+    },
+    {
+     "title": "Practice",
+     "work": "Fully dimension multiview drawings of three block parts."
+    },
+    {
+     "title": "Holes & arcs",
+     "work": "Dimension holes, radii, and counterbores using leaders and notes."
+    },
+    {
+     "title": "Tolerances",
+     "work": "Learn limit and plus/minus tolerances and calculate fits between a peg and a hole."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 2 test: produce a fully dimensioned multiview drawing of a household part."
+    }
+   ],
+   "assessment": "Unit 2 test."
+  },
+  {
+   "week": 8,
+   "unit": 3,
+   "topic": "Precision measurement",
+   "objectives": [
+    "Measure with rulers and calipers",
+    "Distinguish accuracy and precision"
+   ],
+   "standards": [
+    "CTE-EA-C4.1",
+    "CTE-ANCHOR-10.0"
+   ],
+   "vocabulary": [
+    "accuracy",
+    "precision",
+    "caliper",
+    "resolution",
+    "significant figures"
+   ],
+   "materials": [
+    "ruler",
+    "digital or dial caliper (low-cost)",
+    "coins, bolts, LEGO bricks"
+   ],
+   "days": [
+    {
+     "title": "Accuracy vs. precision",
+     "work": "Use target diagrams and a measurement game to distinguish accuracy and precision."
+    },
+    {
+     "title": "Ruler reading",
+     "work": "Measure 10 objects to 1/16 inch and 1 mm, converting between units."
+    },
+    {
+     "title": "Calipers",
+     "work": "Learn to zero and read a caliper for outside, inside, and depth measurements; measure 10 coins."
+    },
+    {
+     "title": "Measure a part",
+     "work": "Measure all features of a LEGO brick and sketch it fully dimensioned."
+    },
+    {
+     "title": "Check",
+     "work": "Measurement practical with a scored data sheet."
+    }
+   ],
+   "assessment": "Measurement practical."
+  },
+  {
+   "week": 9,
+   "unit": 3,
+   "topic": "Statistics for quality",
+   "objectives": [
+    "Calculate descriptive statistics for measurement data",
+    "Interpret variation"
+   ],
+   "standards": [
+    "CTE-EA-C4.2",
+    "CTE-ANCHOR-5.0"
+   ],
+   "vocabulary": [
+    "mean",
+    "median",
+    "mode",
+    "range",
+    "standard deviation",
+    "normal distribution"
+   ],
+   "materials": [
+    "calipers",
+    "50 identical items (pencils, nails, crackers)",
+    "spreadsheet"
+   ],
+   "days": [
+    {
+     "title": "Data collection",
+     "work": "Measure the length of 50 'identical' items and record in a spreadsheet."
+    },
+    {
+     "title": "Central tendency",
+     "work": "Calculate mean, median, mode, and range by hand and with spreadsheet functions."
+    },
+    {
+     "title": "Standard deviation",
+     "work": "Calculate standard deviation and explain what it reveals about manufacturing consistency."
+    },
+    {
+     "title": "Histograms",
+     "work": "Create a histogram and assess whether the data is approximately normal."
+    },
+    {
+     "title": "Check",
+     "work": "Write a quality-control report recommending whether the batch meets a given tolerance."
+    }
+   ],
+   "assessment": "Quality-control report."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Applied geometry and unit review",
+   "objectives": [
+    "Calculate area, volume, mass, and density for parts"
+   ],
+   "standards": [
+    "CTE-EA-C4.1",
+    "CTE-EA-C4.2",
+    "CTE-EA-C7.1"
+   ],
+   "vocabulary": [
+    "volume",
+    "surface area",
+    "density",
+    "mass",
+    "unit conversion"
+   ],
+   "materials": [
+    "kitchen scale",
+    "water and measuring cup",
+    "small parts"
+   ],
+   "days": [
+    {
+     "title": "Area & volume",
+     "work": "Calculate volume and surface area of prisms, cylinders, and composite parts from drawings."
+    },
+    {
+     "title": "Density lab",
+     "work": "Find the density of three materials using water displacement and a kitchen scale."
+    },
+    {
+     "title": "Mass estimates",
+     "work": "Predict part mass from volume and material density and verify by weighing."
+    },
+    {
+     "title": "Review",
+     "work": "Mixed review of measurement, statistics, and geometry problems."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 3 test."
+    }
+   ],
+   "assessment": "Density lab and Unit 3 test."
+  },
+  {
+   "week": 11,
+   "unit": 4,
+   "topic": "Introduction to CAD",
+   "objectives": [
+    "Navigate CAD software",
+    "Create simple 3D models"
+   ],
+   "standards": [
+    "CTE-EA-C5.1",
+    "CTE-ANCHOR-10.0"
+   ],
+   "vocabulary": [
+    "CAD",
+    "sketch",
+    "extrude",
+    "constraint",
+    "parametric"
+   ],
+   "materials": [
+    "computer with Onshape for Education (free) and Tinkercad"
+   ],
+   "days": [
+    {
+     "title": "Tinkercad warm-up",
+     "work": "Build a keychain in Tinkercad using primitive shapes and holes."
+    },
+    {
+     "title": "Onshape setup",
+     "work": "Create an Onshape education account and complete the interface tutorial."
+    },
+    {
+     "title": "Sketch & extrude",
+     "work": "Create constrained 2D sketches and extrude them into a block with holes."
+    },
+    {
+     "title": "Constraints",
+     "work": "Practice fully constraining sketches with dimensions and geometric relations."
+    },
+    {
+     "title": "Check",
+     "work": "Model a dimensioned block part from Unit 2 in Onshape."
+    }
+   ],
+   "assessment": "CAD part check."
+  },
+  {
+   "week": 12,
+   "unit": 4,
+   "topic": "CAD features",
+   "objectives": [
+    "Use revolve, fillet, chamfer, shell, and pattern features"
+   ],
+   "standards": [
+    "CTE-EA-C5.1"
+   ],
+   "vocabulary": [
+    "revolve",
+    "fillet",
+    "chamfer",
+    "shell",
+    "pattern",
+    "feature tree"
+   ],
+   "materials": [
+    "Onshape"
+   ],
+   "days": [
+    {
+     "title": "Revolve",
+     "work": "Model a bottle or knob using a revolve feature."
+    },
+    {
+     "title": "Fillets & chamfers",
+     "work": "Add fillets and chamfers and explain why designers soften edges."
+    },
+    {
+     "title": "Shell",
+     "work": "Shell a box to create a hollow enclosure with uniform wall thickness."
+    },
+    {
+     "title": "Patterns",
+     "work": "Use linear and circular patterns to model a phone stand with vents."
+    },
+    {
+     "title": "Check",
+     "work": "Model a three-feature part from a working drawing."
+    }
+   ],
+   "assessment": "Feature model."
+  },
+  {
+   "week": 13,
+   "unit": 4,
+   "topic": "Modeling real parts",
+   "objectives": [
+    "Model existing objects from measurements"
+   ],
+   "standards": [
+    "CTE-EA-C5.1",
+    "CTE-EA-C4.1"
+   ],
+   "vocabulary": [
+    "design intent",
+    "reference geometry",
+    "sketch plane"
+   ],
+   "materials": [
+    "calipers",
+    "household objects",
+    "Onshape"
+   ],
+   "days": [
+    {
+     "title": "Design intent",
+     "work": "Learn how to plan a feature tree that captures design intent."
+    },
+    {
+     "title": "Measure",
+     "work": "Measure a household object (e.g., a bottle opener) with calipers."
+    },
+    {
+     "title": "Model",
+     "work": "Model the object in Onshape from your measurements."
+    },
+    {
+     "title": "Modify",
+     "work": "Change a key dimension and verify the model updates correctly."
+    },
+    {
+     "title": "Check",
+     "work": "Submit the model and a reflection on design intent."
+    }
+   ],
+   "assessment": "Modeled part."
+  },
+  {
+   "week": 14,
+   "unit": 4,
+   "topic": "Assemblies",
+   "objectives": [
+    "Create assemblies with mates",
+    "Check for interference"
+   ],
+   "standards": [
+    "CTE-EA-C5.2"
+   ],
+   "vocabulary": [
+    "assembly",
+    "mate",
+    "degrees of freedom",
+    "interference"
+   ],
+   "materials": [
+    "Onshape"
+   ],
+   "days": [
+    {
+     "title": "Assembly basics",
+     "work": "Insert parts into an Onshape assembly and fix the base part."
+    },
+    {
+     "title": "Mates",
+     "work": "Apply fastened, revolute, and slider mates to model a simple hinge."
+    },
+    {
+     "title": "Degrees of freedom",
+     "work": "Analyze remaining degrees of freedom and animate the mechanism."
+    },
+    {
+     "title": "Interference",
+     "work": "Check for interference and fix problems."
+    },
+    {
+     "title": "Check",
+     "work": "Build a 4-part assembly (e.g., a toy car with axles and wheels)."
+    }
+   ],
+   "assessment": "Assembly check."
+  },
+  {
+   "week": 15,
+   "unit": 4,
+   "topic": "Working drawings",
+   "objectives": [
+    "Generate working drawings from CAD models"
+   ],
+   "standards": [
+    "CTE-EA-C5.2",
+    "CTE-EA-C3.2",
+    "CTE-ANCHOR-2.0"
+   ],
+   "vocabulary": [
+    "working drawing",
+    "title block",
+    "section view",
+    "exploded view",
+    "bill of materials"
+   ],
+   "materials": [
+    "Onshape drawings tool"
+   ],
+   "days": [
+    {
+     "title": "Drawings",
+     "work": "Create a drawing from a part with standard views."
+    },
+    {
+     "title": "Dimensions",
+     "work": "Add dimensions and notes following standards."
+    },
+    {
+     "title": "Section views",
+     "work": "Create a section view of a hollow part."
+    },
+    {
+     "title": "Assembly drawing",
+     "work": "Create an exploded assembly drawing with a bill of materials."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 4 CAD practical: model and draw a part from a sketch."
+    }
+   ],
+   "assessment": "CAD practical."
+  },
+  {
+   "week": 16,
+   "unit": 5,
+   "topic": "Reverse engineering: observation and disassembly",
+   "objectives": [
+    "Analyze a product's function and structure"
+   ],
+   "standards": [
+    "CTE-EA-C6.1",
+    "CTE-ANCHOR-6.0"
+   ],
+   "vocabulary": [
+    "reverse engineering",
+    "functional analysis",
+    "subsystem",
+    "fastener"
+   ],
+   "materials": [
+    "small screwdriver set",
+    "safety glasses",
+    "inexpensive product (stapler, flashlight, retractable pen)"
+   ],
+   "days": [
+    {
+     "title": "Why reverse engineer",
+     "work": "Learn legitimate uses of reverse engineering and safety for disassembly."
+    },
+    {
+     "title": "Observation",
+     "work": "Document the product's function with a black-box diagram of inputs and outputs."
+    },
+    {
+     "title": "Disassembly",
+     "work": "Disassemble the product, photographing and labeling each step."
+    },
+    {
+     "title": "Parts list",
+     "work": "Create a parts list with quantities, materials, and functions."
+    },
+    {
+     "title": "Check",
+     "work": "Submit the reverse engineering notebook entries."
+    }
+   ],
+   "assessment": "Notebook check."
+  },
+  {
+   "week": 17,
+   "unit": 5,
+   "topic": "Reverse engineering: analysis and redesign",
+   "objectives": [
+    "Model parts and propose improvements"
+   ],
+   "standards": [
+    "CTE-EA-C6.1",
+    "CTE-EA-C5.1",
+    "CTE-EA-C7.1"
+   ],
+   "vocabulary": [
+    "material analysis",
+    "manufacturing process",
+    "improvement",
+    "Design for Assembly"
+   ],
+   "materials": [
+    "calipers",
+    "Onshape",
+    "disassembled product"
+   ],
+   "days": [
+    {
+     "title": "Measure parts",
+     "work": "Measure two key parts with calipers."
+    },
+    {
+     "title": "CAD",
+     "work": "Model the two parts in Onshape."
+    },
+    {
+     "title": "Material & process",
+     "work": "Identify the material and likely manufacturing process for each part."
+    },
+    {
+     "title": "Redesign",
+     "work": "Propose an improvement with sketches and justification."
+    },
+    {
+     "title": "Check",
+     "work": "Reassemble the product and submit a reverse engineering report."
+    }
+   ],
+   "assessment": "Reverse engineering report."
+  },
+  {
+   "week": 18,
+   "unit": 5,
+   "topic": "Semester review and exam",
+   "objectives": [
+    "Demonstrate semester mastery"
+   ],
+   "standards": [
+    "CTE-EA-C2.1",
+    "CTE-EA-C3.1",
+    "CTE-EA-C4.2",
+    "CTE-EA-C5.1"
+   ],
+   "vocabulary": [
+    "review"
+   ],
+   "materials": [
+    "review packet",
+    "Onshape"
+   ],
+   "days": [
+    {
+     "title": "Review: sketching",
+     "work": "Mixed practice on isometric and multiview sketching."
+    },
+    {
+     "title": "Review: measurement",
+     "work": "Practice measurement and statistics problems."
+    },
+    {
+     "title": "Review: CAD",
+     "work": "Practice CAD modeling of a review part."
+    },
+    {
+     "title": "Semester exam part 1",
+     "work": "Written exam on design process, sketching, and statistics."
+    },
+    {
+     "title": "Semester exam part 2",
+     "work": "CAD and sketching practical."
+    }
+   ],
+   "assessment": "Semester exam."
+  },
+  {
+   "week": 19,
+   "unit": 6,
+   "topic": "Materials and their properties",
+   "objectives": [
+    "Compare material properties",
+    "Select materials"
+   ],
+   "standards": [
+    "CTE-EA-C7.1",
+    "CTE-ANCHOR-10.0"
+   ],
+   "vocabulary": [
+    "tensile strength",
+    "hardness",
+    "ductility",
+    "elasticity",
+    "composite",
+    "polymer"
+   ],
+   "materials": [
+    "samples of wood, aluminum foil, plastic, cardboard",
+    "weights"
+   ],
+   "days": [
+    {
+     "title": "Material families",
+     "work": "Classify common household items by material family (metals, polymers, ceramics, composites)."
+    },
+    {
+     "title": "Properties",
+     "work": "Learn mechanical properties and test bending stiffness of wood, plastic, and metal strips with weights."
+    },
+    {
+     "title": "Tensile test",
+     "work": "Test tensile strength of string, yarn, and fishing line by adding weights until failure."
+    },
+    {
+     "title": "Selection",
+     "work": "Use an Ashby-style chart to choose a material for a bike frame and a water bottle."
+    },
+    {
+     "title": "Check",
+     "work": "Material selection quiz and lab report."
+    }
+   ],
+   "assessment": "Materials lab report."
+  },
+  {
+   "week": 20,
+   "unit": 6,
+   "topic": "Manufacturing processes",
+   "objectives": [
+    "Describe additive, subtractive, and forming processes"
+   ],
+   "standards": [
+    "CTE-EA-C7.2",
+    "CTE-EA-C1.0"
+   ],
+   "vocabulary": [
+    "additive manufacturing",
+    "subtractive manufacturing",
+    "injection molding",
+    "CNC",
+    "casting"
+   ],
+   "materials": [
+    "videos of manufacturing processes",
+    "library makerspace info"
+   ],
+   "days": [
+    {
+     "title": "Processes overview",
+     "work": "Watch videos of injection molding, CNC milling, and casting; take notes."
+    },
+    {
+     "title": "Additive manufacturing",
+     "work": "Learn 3D printing and prepare an STL file for printing."
+    },
+    {
+     "title": "Design for manufacturing",
+     "work": "Identify draft angles and wall thickness in molded parts."
+    },
+    {
+     "title": "Local manufacturing",
+     "work": "Research a California manufacturer and their processes."
+    },
+    {
+     "title": "Check",
+     "work": "Quiz on manufacturing."
+    }
+   ],
+   "assessment": "Manufacturing quiz."
+  },
+  {
+   "week": 21,
+   "unit": 6,
+   "topic": "Prototyping",
+   "objectives": [
+    "Build low- and high-fidelity prototypes",
+    "Use tools safely"
+   ],
+   "standards": [
+    "CTE-EA-C7.2",
+    "CTE-ANCHOR-6.0",
+    "CTE-ANCHOR-11.0"
+   ],
+   "vocabulary": [
+    "prototype",
+    "fidelity",
+    "mock-up",
+    "rapid prototyping"
+   ],
+   "materials": [
+    "cardboard, hot glue, foam board, craft knife, cutting mat",
+    "3D printer at a library makerspace (if available)"
+   ],
+   "days": [
+    {
+     "title": "Prototype types",
+     "work": "Compare low- and high-fidelity prototypes using examples from IDEO and product teardown videos; review craft-knife and hot-glue safety."
+    },
+    {
+     "title": "Cardboard mock-up",
+     "work": "Build a full-size cardboard mock-up of a phone or tablet stand and test viewing angle with your device."
+    },
+    {
+     "title": "CAD refinement",
+     "work": "Update the stand in Onshape based on what the mock-up revealed (angle, cable slot, stability)."
+    },
+    {
+     "title": "Print or build",
+     "work": "Export an STL and print at a library makerspace, or build a refined version from foam board using the CAD drawing as a template."
+    },
+    {
+     "title": "Check",
+     "work": "Photograph both prototypes and write a notebook entry comparing time, cost, and what each revealed."
+    }
+   ],
+   "assessment": "Prototype comparison entry."
+  },
+  {
+   "week": 22,
+   "unit": 6,
+   "topic": "Testing and iteration",
+   "objectives": [
+    "Write and run a test plan",
+    "Iterate based on data"
+   ],
+   "standards": [
+    "CTE-EA-C2.1",
+    "CTE-EA-C4.2",
+    "CTE-ANCHOR-5.0"
+   ],
+   "vocabulary": [
+    "test plan",
+    "independent variable",
+    "failure mode",
+    "iteration"
+   ],
+   "materials": [
+    "phone-stand prototype",
+    "weights (coins, books)",
+    "protractor"
+   ],
+   "days": [
+    {
+     "title": "Test plan",
+     "work": "Write a test plan for the stand with measurable success criteria (holds 300 g, angle 60°±5°, no tipping at a 10° table tilt)."
+    },
+    {
+     "title": "Testing",
+     "work": "Run five trials of each test and record results in a data table."
+    },
+    {
+     "title": "Analysis",
+     "work": "Calculate mean and standard deviation for each test and identify the most likely failure mode."
+    },
+    {
+     "title": "Iterate",
+     "work": "Modify the design to address the failure mode, rebuild, and retest."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 6 test on materials, manufacturing processes, and prototyping."
+    }
+   ],
+   "assessment": "Test report and Unit 6 test."
+  },
+  {
+   "week": 23,
+   "unit": 7,
+   "topic": "Human factors and ergonomics",
+   "objectives": [
+    "Apply anthropometric data to design",
+    "Evaluate ergonomics"
+   ],
+   "standards": [
+    "CTE-EA-C8.1",
+    "CTE-EA-C4.2"
+   ],
+   "vocabulary": [
+    "ergonomics",
+    "anthropometry",
+    "percentile",
+    "human factors",
+    "accessibility"
+   ],
+   "materials": [
+    "tape measure",
+    "anthropometric data table (online)",
+    "household tools"
+   ],
+   "days": [
+    {
+     "title": "Ergonomics",
+     "work": "Compare well and poorly designed tools (scissors, can openers, peelers) and list ergonomic features."
+    },
+    {
+     "title": "Anthropometry",
+     "work": "Measure hand length, grip diameter, and reach for five people and compare to published percentile tables."
+    },
+    {
+     "title": "Design for range",
+     "work": "Use 5th–95th percentile data to size a handle for a garden tool."
+    },
+    {
+     "title": "Accessibility",
+     "work": "Study universal design principles and evaluate a product for users with limited hand strength."
+    },
+    {
+     "title": "Check",
+     "work": "Redesign a handle in CAD using anthropometric data and justify the dimensions."
+    }
+   ],
+   "assessment": "Ergonomic redesign."
+  },
+  {
+   "week": 24,
+   "unit": 7,
+   "topic": "User research and empathy",
+   "objectives": [
+    "Conduct user interviews",
+    "Define needs with personas"
+   ],
+   "standards": [
+    "CTE-EA-C8.1",
+    "CTE-EA-C2.2",
+    "CTE-ANCHOR-2.0"
+   ],
+   "vocabulary": [
+    "empathy",
+    "user interview",
+    "persona",
+    "needs statement",
+    "journey map"
+   ],
+   "materials": [
+    "interview guide",
+    "sticky notes"
+   ],
+   "days": [
+    {
+     "title": "Empathy",
+     "work": "Learn the design thinking empathize stage and watch a user-research example video."
+    },
+    {
+     "title": "Interview guide",
+     "work": "Write 10 open-ended interview questions about a daily frustration (e.g., organizing a backpack or kitchen)."
+    },
+    {
+     "title": "Interviews",
+     "work": "Interview three people and record notes and direct quotes."
+    },
+    {
+     "title": "Synthesis",
+     "work": "Cluster findings on sticky notes and create a persona and journey map."
+    },
+    {
+     "title": "Check",
+     "work": "Write three 'How might we...' needs statements."
+    }
+   ],
+   "assessment": "Persona and needs statements."
+  },
+  {
+   "week": 25,
+   "unit": 7,
+   "topic": "Design communication and pitching",
+   "objectives": [
+    "Communicate design ideas visually and orally"
+   ],
+   "standards": [
+    "CTE-EA-C9.1",
+    "CTE-ANCHOR-2.0"
+   ],
+   "vocabulary": [
+    "rendering",
+    "storyboard",
+    "elevator pitch",
+    "presentation"
+   ],
+   "materials": [
+    "Onshape rendering or screenshots",
+    "slide software"
+   ],
+   "days": [
+    {
+     "title": "Rendering",
+     "work": "Create appearance-styled renderings of your phone stand in Onshape."
+    },
+    {
+     "title": "Storyboard",
+     "work": "Create a 6-panel storyboard showing a user's experience with the product."
+    },
+    {
+     "title": "Pitch writing",
+     "work": "Write a 60-second elevator pitch covering problem, user, solution, and evidence."
+    },
+    {
+     "title": "Practice",
+     "work": "Record and revise the pitch twice."
+    },
+    {
+     "title": "Unit check",
+     "work": "Deliver the pitch and take a short Unit 7 quiz."
+    }
+   ],
+   "assessment": "Pitch rubric and quiz."
+  },
+  {
+   "week": 26,
+   "unit": 8,
+   "topic": "Engineering ethics and safety",
+   "objectives": [
+    "Analyze engineering failures and ethical codes"
+   ],
+   "standards": [
+    "CTE-ANCHOR-8.0",
+    "CTE-ANCHOR-6.0",
+    "CTE-EA-C1.0"
+   ],
+   "vocabulary": [
+    "code of ethics",
+    "public safety",
+    "whistleblower",
+    "failure analysis",
+    "factor of safety"
+   ],
+   "materials": [
+    "NSPE Code of Ethics (online)",
+    "case study readings"
+   ],
+   "days": [
+    {
+     "title": "Code of ethics",
+     "work": "Read the NSPE Code of Ethics and summarize its fundamental canons."
+    },
+    {
+     "title": "Case study 1",
+     "work": "Analyze the Tacoma Narrows Bridge collapse and identify the design failure."
+    },
+    {
+     "title": "Case study 2",
+     "work": "Analyze the Challenger disaster and the engineers' ethical dilemma."
+    },
+    {
+     "title": "Factor of safety",
+     "work": "Calculate factors of safety for a shelf bracket and discuss why they matter."
+    },
+    {
+     "title": "Check",
+     "work": "Write a 500-word ethics case analysis."
+    }
+   ],
+   "assessment": "Ethics case analysis."
+  },
+  {
+   "week": 27,
+   "unit": 8,
+   "topic": "Sustainability and intellectual property",
+   "objectives": [
+    "Evaluate product life cycles",
+    "Explain patents and IP"
+   ],
+   "standards": [
+    "CTE-ANCHOR-8.0",
+    "CTE-EA-C7.1",
+    "CTE-EA-C1.0"
+   ],
+   "vocabulary": [
+    "life cycle assessment",
+    "cradle to cradle",
+    "patent",
+    "trademark",
+    "copyright",
+    "prior art"
+   ],
+   "materials": [
+    "Google Patents search",
+    "product packaging"
+   ],
+   "days": [
+    {
+     "title": "Life cycle",
+     "work": "Map the life cycle (materials, manufacturing, use, disposal) of a plastic water bottle and estimate its impact."
+    },
+    {
+     "title": "Design for sustainability",
+     "work": "Redesign a disposable product for disassembly and recycling."
+    },
+    {
+     "title": "Intellectual property",
+     "work": "Learn the differences among patents, trademarks, copyrights, and trade secrets."
+    },
+    {
+     "title": "Patent search",
+     "work": "Search Google Patents for prior art related to a product idea and read one patent's claims."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 8 quiz on ethics, sustainability, and IP."
+    }
+   ],
+   "assessment": "Unit 8 quiz."
+  },
+  {
+   "week": 28,
+   "unit": 9,
+   "topic": "Capstone: problem identification",
+   "objectives": [
+    "Identify a real problem and user",
+    "Write a design brief"
+   ],
+   "standards": [
+    "CTE-EA-C2.2",
+    "CTE-EA-C8.1",
+    "CTE-ANCHOR-5.0"
+   ],
+   "vocabulary": [
+    "problem statement",
+    "design brief",
+    "stakeholder",
+    "scope"
+   ],
+   "materials": [
+    "engineering notebook",
+    "interview guide"
+   ],
+   "days": [
+    {
+     "title": "Problem hunting",
+     "work": "List 15 problems observed at home or in the community and select three candidates."
+    },
+    {
+     "title": "User interviews",
+     "work": "Interview at least two potential users for each of the top candidates."
+    },
+    {
+     "title": "Selection",
+     "work": "Use a decision matrix to select the capstone problem based on impact and feasibility."
+    },
+    {
+     "title": "Design brief",
+     "work": "Write a design brief with client, problem statement, criteria, and constraints."
+    },
+    {
+     "title": "Check",
+     "work": "Submit the design brief and a Gantt chart for weeks 28–36."
+    }
+   ],
+   "assessment": "Design brief and Gantt chart."
+  },
+  {
+   "week": 29,
+   "unit": 9,
+   "topic": "Capstone: research",
+   "objectives": [
+    "Research existing solutions and relevant science"
+   ],
+   "standards": [
+    "CTE-EA-C2.1",
+    "CTE-EA-C6.1",
+    "CTE-ANCHOR-8.0"
+   ],
+   "vocabulary": [
+    "prior art",
+    "benchmarking",
+    "specification"
+   ],
+   "materials": [
+    "library databases",
+    "Google Patents"
+   ],
+   "days": [
+    {
+     "title": "Existing products",
+     "work": "Find and benchmark five existing solutions on price, features, and weaknesses."
+    },
+    {
+     "title": "Patent search",
+     "work": "Search for related patents and summarize two."
+    },
+    {
+     "title": "Technical research",
+     "work": "Research the science or engineering principles your solution will depend on."
+    },
+    {
+     "title": "Specifications",
+     "work": "Write measurable design specifications from your criteria."
+    },
+    {
+     "title": "Check",
+     "work": "Submit research summary with citations."
+    }
+   ],
+   "assessment": "Research summary."
+  },
+  {
+   "week": 30,
+   "unit": 9,
+   "topic": "Capstone: ideation and selection",
+   "objectives": [
+    "Generate and select design concepts"
+   ],
+   "standards": [
+    "CTE-EA-C2.2",
+    "CTE-EA-C3.1",
+    "CTE-ANCHOR-9.0"
+   ],
+   "vocabulary": [
+    "ideation",
+    "SCAMPER",
+    "morphological chart",
+    "concept selection"
+   ],
+   "materials": [
+    "sketch paper",
+    "decision matrix template"
+   ],
+   "days": [
+    {
+     "title": "Brainstorm",
+     "work": "Generate at least 20 ideas using brainstorming and SCAMPER."
+    },
+    {
+     "title": "Concept sketches",
+     "work": "Develop three concepts into annotated isometric sketches."
+    },
+    {
+     "title": "Feedback",
+     "work": "Get feedback on the three concepts from your user."
+    },
+    {
+     "title": "Selection",
+     "work": "Select a final concept with a weighted decision matrix."
+    },
+    {
+     "title": "Check",
+     "work": "Present the selected concept and justification."
+    }
+   ],
+   "assessment": "Concept selection."
+  },
+  {
+   "week": 31,
+   "unit": 9,
+   "topic": "Capstone: CAD and drawings",
+   "objectives": [
+    "Model the final design in CAD"
+   ],
+   "standards": [
+    "CTE-EA-C5.1",
+    "CTE-EA-C5.2",
+    "CTE-EA-C3.2"
+   ],
+   "vocabulary": [
+    "assembly",
+    "working drawing",
+    "bill of materials"
+   ],
+   "materials": [
+    "Onshape"
+   ],
+   "days": [
+    {
+     "title": "Part modeling",
+     "work": "Model all custom parts in Onshape."
+    },
+    {
+     "title": "Assembly",
+     "work": "Assemble parts with mates and check for interference."
+    },
+    {
+     "title": "Drawings",
+     "work": "Create dimensioned working drawings for each part."
+    },
+    {
+     "title": "Bill of materials",
+     "work": "Create a bill of materials with sourcing and cost."
+    },
+    {
+     "title": "Check",
+     "work": "Submit CAD files, drawings, and BOM for design review."
+    }
+   ],
+   "assessment": "Design review."
+  },
+  {
+   "week": 32,
+   "unit": 9,
+   "topic": "Capstone: prototype build I",
+   "objectives": [
+    "Plan fabrication and build the main structure safely"
+   ],
+   "standards": [
+    "CTE-EA-C7.2",
+    "CTE-ANCHOR-6.0",
+    "CTE-ANCHOR-11.0"
+   ],
+   "vocabulary": [
+    "fabrication plan",
+    "tolerance",
+    "fit",
+    "jig"
+   ],
+   "materials": [
+    "materials per BOM",
+    "hand tools",
+    "safety glasses"
+   ],
+   "days": [
+    {
+     "title": "Fabrication plan",
+     "work": "Write a step-by-step build plan listing tools, safety hazards, and PPE for each step."
+    },
+    {
+     "title": "Materials prep",
+     "work": "Gather materials, set up a safe workspace, and mark and cut stock from the working drawings."
+    },
+    {
+     "title": "Main structure",
+     "work": "Fabricate the main structure or housing and check critical dimensions with calipers."
+    },
+    {
+     "title": "Custom parts",
+     "work": "Send parts to a makerspace 3D printer or hand-fabricate custom components."
+    },
+    {
+     "title": "Progress check",
+     "work": "Photograph progress, log hours and costs against the BOM, and update the Gantt chart."
+    }
+   ],
+   "assessment": "Build log check."
+  },
+  {
+   "week": 33,
+   "unit": 9,
+   "topic": "Capstone: prototype build II",
+   "objectives": [
+    "Complete and assemble a functional prototype"
+   ],
+   "standards": [
+    "CTE-EA-C7.2",
+    "CTE-EA-C5.2",
+    "CTE-ANCHOR-11.0"
+   ],
+   "vocabulary": [
+    "assembly",
+    "fit check",
+    "fastener",
+    "integration"
+   ],
+   "materials": [
+    "fabricated parts",
+    "fasteners and adhesives",
+    "calipers"
+   ],
+   "days": [
+    {
+     "title": "Remaining parts",
+     "work": "Finish fabricating remaining parts and deburr or sand edges for safety."
+    },
+    {
+     "title": "Fit check",
+     "work": "Dry-fit all parts and measure clearances; record any parts that do not meet tolerance."
+    },
+    {
+     "title": "Rework",
+     "work": "Rework or reprint out-of-tolerance parts and update the CAD model to match changes."
+    },
+    {
+     "title": "Final assembly",
+     "work": "Assemble the full prototype and verify it operates as intended."
+    },
+    {
+     "title": "Check",
+     "work": "Submit an as-built drawing update and a notebook entry describing build problems and solutions."
+    }
+   ],
+   "assessment": "Assembled prototype and as-built update."
+  },
+  {
+   "week": 34,
+   "unit": 9,
+   "topic": "Capstone: testing and iteration",
+   "objectives": [
+    "Test against specifications",
+    "Gather user feedback and iterate"
+   ],
+   "standards": [
+    "CTE-EA-C2.1",
+    "CTE-EA-C4.2",
+    "CTE-ANCHOR-5.0"
+   ],
+   "vocabulary": [
+    "test plan",
+    "specification",
+    "user testing",
+    "iteration"
+   ],
+   "materials": [
+    "prototype",
+    "measurement tools",
+    "spreadsheet"
+   ],
+   "days": [
+    {
+     "title": "Test plan",
+     "work": "Write a test procedure for each design specification with pass/fail criteria."
+    },
+    {
+     "title": "Testing",
+     "work": "Run at least five trials per test and record data in a spreadsheet with mean and standard deviation."
+    },
+    {
+     "title": "User testing",
+     "work": "Have your user try the prototype while you observe; record quotes and pain points."
+    },
+    {
+     "title": "Iterate",
+     "work": "Make at least one evidence-based design improvement."
+    },
+    {
+     "title": "Retest",
+     "work": "Retest the changed feature and summarize whether each specification is now met."
+    }
+   ],
+   "assessment": "Test report."
+  },
+  {
+   "week": 35,
+   "unit": 9,
+   "topic": "Capstone: technical report and portfolio",
+   "objectives": [
+    "Write a technical report",
+    "Build a digital engineering portfolio"
+   ],
+   "standards": [
+    "CTE-EA-C9.1",
+    "CTE-ANCHOR-2.0",
+    "CTE-ANCHOR-8.0"
+   ],
+   "vocabulary": [
+    "technical report",
+    "executive summary",
+    "appendix",
+    "portfolio"
+   ],
+   "materials": [
+    "word processor",
+    "free website builder"
+   ],
+   "days": [
+    {
+     "title": "Report outline",
+     "work": "Outline the report: executive summary, problem, research, concept selection, design, testing, conclusions, and citations."
+    },
+    {
+     "title": "Report draft",
+     "work": "Write the full technical report draft (2,000+ words) with figures and data tables."
+    },
+    {
+     "title": "Portfolio",
+     "work": "Build a digital portfolio page with renderings, drawings, build photos, and test graphs."
+    },
+    {
+     "title": "Revision",
+     "work": "Revise the report for clarity and correct technical terminology; check all sources are cited."
+    },
+    {
+     "title": "Submit",
+     "work": "Submit the final report and publish the portfolio."
+    }
+   ],
+   "assessment": "Technical report and portfolio."
+  },
+  {
+   "week": 36,
+   "unit": 9,
+   "topic": "Capstone presentation and course reflection",
+   "objectives": [
+    "Present the capstone to a panel",
+    "Plan an engineering career pathway"
+   ],
+   "standards": [
+    "CTE-EA-C9.1",
+    "CTE-EA-C1.0",
+    "CTE-ANCHOR-2.0"
+   ],
+   "vocabulary": [
+    "design review",
+    "panel",
+    "career pathway"
+   ],
+   "materials": [
+    "slide deck",
+    "prototype"
+   ],
+   "days": [
+    {
+     "title": "Rehearsal",
+     "work": "Build a 10-minute slide presentation and rehearse it twice with timing."
+    },
+    {
+     "title": "Panel presentation",
+     "work": "Present to a panel of family and community members (ideally including an engineer) and demonstrate the prototype."
+    },
+    {
+     "title": "Q&A follow-up",
+     "work": "Write responses to the panel's questions and list next steps if the product were developed further."
+    },
+    {
+     "title": "Career pathway plan",
+     "work": "Research community college and university engineering programs in California and write a pathway plan."
+    },
+    {
+     "title": "Final exam",
+     "work": "Take the written final covering the design process, drawing, measurement, CAD, materials, and ethics."
+    }
+   ],
+   "assessment": "Presentation rubric and final exam."
+  }
+ ]
+}
