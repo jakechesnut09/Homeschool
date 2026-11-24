@@ -1,0 +1,335 @@
+{
+  "grade": 12,
+  "subject": "PE",
+  "title": "Lifetime Fitness II",
+  "description": "An advanced elective physical education course that prepares seniors to stay active for life after high school. Students design and run their own strength, cardiorespiratory, and flexibility programs, learn individual and dual lifetime activities (pickleball/tennis, golf, hiking and orienteering, cycling, swimming, dance), practice stress management and recovery, and finish with a personal adult fitness plan they can use in college or the workplace.",
+  "framework": "California Physical Education Model Content Standards – High School Course 3 (advanced elective); 2009 California Physical Education Framework",
+  "minutes_per_day": 45,
+  "ag_requirement": null,
+  "credits": 10,
+  "standards": {
+    "PE-HS3-1.1": "Combine and apply movement patterns, from simple to complex, in individual and dual lifetime activities (racket sports, golf).",
+    "PE-HS3-1.2": "Demonstrate proficient movement skills in outdoor and adventure activities (hiking, orienteering, cycling).",
+    "PE-HS3-1.3": "Demonstrate proficient movement skills in aquatic and rhythmic/dance activities.",
+    "PE-HS3-1.4": "Analyze and apply biomechanical principles (force, leverage, stability) to improve performance of lifetime activities.",
+    "PE-HS3-1.5": "Apply offensive and defensive strategies and rules in individual and dual activities.",
+    "PE-HS3-2.1": "Assess personal fitness levels on the five components of health-related fitness and set goals.",
+    "PE-HS3-2.2": "Design, implement, and evaluate a personal fitness plan using the FITT principle, progression, overload, and specificity.",
+    "PE-HS3-2.3": "Meet health-related fitness standards for cardiorespiratory endurance, muscular strength and endurance, flexibility, and body composition.",
+    "PE-HS3-2.4": "Explain and apply safe resistance-training technique and program design, including periodization.",
+    "PE-HS3-2.5": "Evaluate nutrition, hydration, sleep, and recovery practices that support activity and long-term health.",
+    "PE-HS3-2.6": "Evaluate community and commercial fitness resources, consumer claims, and costs for lifelong activity.",
+    "PE-HS3-3.1": "Explain the psychological benefits of physical activity, including stress reduction and improved mood, and use activity to manage stress.",
+    "PE-HS3-3.2": "Identify and use strategies for intrinsic motivation, self-monitoring, and overcoming barriers to adult physical activity.",
+    "PE-HS3-3.3": "Demonstrate leadership, cooperation, safety, and respect for others in group and partner activities.",
+    "PE-HS3-3.4": "Analyze the social and cultural roles of physical activity and how to build activity into adult life (work, family, community)."
+  },
+  "resources": [
+    {"name": "Move Your Way (U.S. Office of Disease Prevention and Health Promotion)", "url": "https://odphp.health.gov/moveyourway", "note": "Adult physical activity guidelines and planning tools"},
+    {"name": "CDC – Physical Activity Guidelines for Adults", "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html", "note": "Recommended aerobic and muscle-strengthening amounts"},
+    {"name": "Darebee", "url": "https://darebee.com", "note": "Free no-equipment workouts and programs"},
+    {"name": "Khan Academy – Health and Medicine", "url": "https://www.khanacademy.org/science/health-and-medicine", "note": "Background on the cardiovascular and musculoskeletal systems"}
+  ],
+  "units": [
+    {"number": 1, "title": "Fitness Assessment and Goal Setting", "start_week": 1, "end_week": 3, "big_idea": "You can't plan what you haven't measured.", "standards": ["PE-HS3-2.1", "PE-HS3-2.3", "PE-HS3-3.2"]},
+    {"number": 2, "title": "Resistance Training Program Design", "start_week": 4, "end_week": 8, "big_idea": "Safe technique plus progressive overload builds strength for life.", "standards": ["PE-HS3-2.2", "PE-HS3-2.4", "PE-HS3-1.4"]},
+    {"number": 3, "title": "Cardiorespiratory Endurance: Run, Bike, Swim", "start_week": 9, "end_week": 13, "big_idea": "Training the heart and lungs with the right intensity improves health and performance.", "standards": ["PE-HS3-2.2", "PE-HS3-2.3", "PE-HS3-1.2", "PE-HS3-1.3"]},
+    {"number": 4, "title": "Flexibility, Yoga, and Recovery", "start_week": 14, "end_week": 16, "big_idea": "Mobility, rest, and nutrition make training sustainable.", "standards": ["PE-HS3-2.3", "PE-HS3-2.5", "PE-HS3-3.1"]},
+    {"number": 5, "title": "Semester Reassessment", "start_week": 17, "end_week": 18, "big_idea": "Data shows what worked and what to change.", "standards": ["PE-HS3-2.1", "PE-HS3-2.2", "PE-HS3-3.2"]},
+    {"number": 6, "title": "Racket Sports: Pickleball and Tennis", "start_week": 19, "end_week": 22, "big_idea": "Dual sports combine skill, strategy, and social connection for a lifetime.", "standards": ["PE-HS3-1.1", "PE-HS3-1.5", "PE-HS3-3.3"]},
+    {"number": 7, "title": "Golf and Precision Activities", "start_week": 23, "end_week": 24, "big_idea": "Precision sports reward consistent mechanics and focus.", "standards": ["PE-HS3-1.1", "PE-HS3-1.4", "PE-HS3-3.1"]},
+    {"number": 8, "title": "Outdoor Adventure: Hiking, Orienteering, Cycling", "start_week": 25, "end_week": 28, "big_idea": "California's outdoors is a lifelong gym when you know how to navigate it safely.", "standards": ["PE-HS3-1.2", "PE-HS3-2.2", "PE-HS3-3.3", "PE-HS3-3.4"]},
+    {"number": 9, "title": "Dance and Rhythmic Activities", "start_week": 29, "end_week": 30, "big_idea": "Dance builds fitness, coordination, and cultural connection.", "standards": ["PE-HS3-1.3", "PE-HS3-3.4"]},
+    {"number": 10, "title": "Adult Fitness Plan and Final Assessment", "start_week": 31, "end_week": 36, "big_idea": "An adult plan fits activity into real schedules, budgets, and communities.", "standards": ["PE-HS3-2.2", "PE-HS3-2.6", "PE-HS3-3.2", "PE-HS3-3.4", "PE-HS3-2.1"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "Baseline fitness testing", "objectives": ["Measure the five components of fitness"], "standards": ["PE-HS3-2.1", "PE-HS3-2.3"], "vocabulary": ["cardiorespiratory endurance", "muscular strength", "muscular endurance", "flexibility", "body composition"], "materials": ["stopwatch", "measuring tape", "yardstick", "mat"],
+      "days": [
+        {"title": "Mile run", "work": "Warm up, then run/walk a timed mile; record time and heart rate."},
+        {"title": "Strength tests", "work": "Do max 90° push-ups and curl-ups to cadence; record results."},
+        {"title": "Flexibility", "work": "Perform sit-and-reach and shoulder stretch tests; record results."},
+        {"title": "Body measures", "work": "Measure resting heart rate, waist circumference, and height/weight privately; learn limits of BMI."},
+        {"title": "Compare to standards", "work": "Compare results with Healthy Fitness Zone standards and record in a fitness log."}
+      ], "assessment": "Completed baseline fitness log."},
+    {"week": 2, "unit": 1, "topic": "Heart rate and intensity", "objectives": ["Calculate target heart rate zones", "Use RPE"], "standards": ["PE-HS3-2.1", "PE-HS3-2.3"], "vocabulary": ["target heart rate", "Karvonen formula", "RPE", "maximum heart rate"], "materials": ["stopwatch or watch", "jump rope"],
+      "days": [
+        {"title": "Calculate zones", "work": "Calculate target heart rate zones with the Karvonen formula; do a 20-minute brisk walk checking pulse every 5 minutes."},
+        {"title": "Intervals", "work": "Do jump-rope intervals (30 s on / 30 s off × 10) and record heart rate and RPE."},
+        {"title": "Steady state", "work": "Jog or cycle 25 minutes holding 60–70% heart rate reserve."},
+        {"title": "Circuit", "work": "Complete a 20-minute bodyweight circuit (squats, lunges, push-ups, planks) and track RPE."},
+        {"title": "Reflect", "work": "Graph the week's heart-rate data and explain which workouts hit your zone."}
+      ], "assessment": "Heart rate data analysis."},
+    {"week": 3, "unit": 1, "topic": "SMART goals and motivation", "objectives": ["Set SMART fitness goals", "Identify barriers and strategies"], "standards": ["PE-HS3-3.2", "PE-HS3-2.1"], "vocabulary": ["SMART goal", "intrinsic motivation", "barrier", "habit"], "materials": ["fitness log", "calendar"],
+      "days": [
+        {"title": "SMART goals", "work": "Write three SMART goals based on baseline data; do a 30-minute activity of choice."},
+        {"title": "Barriers", "work": "List personal barriers (time, cost, motivation) and two strategies each; complete a 25-minute jog."},
+        {"title": "Habit tracking", "work": "Set up a weekly habit tracker; do a Darebee 30-minute full-body workout."},
+        {"title": "Activity sampler", "work": "Try a new activity (rock climbing gym, swim, spin class video) for 30 minutes."},
+        {"title": "Goal check", "work": "Share goals with a parent and sign a fitness contract."}
+      ], "assessment": "SMART goals and fitness contract."},
+    {"week": 4, "unit": 2, "topic": "Resistance training safety and technique", "objectives": ["Perform foundational lifts with safe technique"], "standards": ["PE-HS3-2.4", "PE-HS3-1.4"], "vocabulary": ["hinge", "squat", "push", "pull", "spotting", "neutral spine"], "materials": ["dumbbells or filled water jugs", "resistance bands", "broomstick"],
+      "days": [
+        {"title": "Movement patterns", "work": "Learn the six patterns (squat, hinge, push, pull, carry, lunge) with a broomstick; film form."},
+        {"title": "Lower body", "work": "Practice goblet squats and Romanian deadlifts, 3×10, focusing on neutral spine."},
+        {"title": "Upper body", "work": "Practice push-ups, band rows, and overhead press, 3×10 each."},
+        {"title": "Leverage", "work": "Learn how lever length and joint angle change difficulty; test incline vs. decline push-ups."},
+        {"title": "Form check", "work": "Review form video with a checklist and correct two faults."}
+      ], "assessment": "Form-check video rubric."},
+    {"week": 5, "unit": 2, "topic": "Program variables: sets, reps, load", "objectives": ["Choose reps and load for strength vs. endurance"], "standards": ["PE-HS3-2.2", "PE-HS3-2.4"], "vocabulary": ["repetition maximum", "volume", "rest interval", "progressive overload"], "materials": ["weights or bands", "training log"],
+      "days": [
+        {"title": "Find working loads", "work": "Estimate 10-rep max for five lifts and record loads."},
+        {"title": "Strength day", "work": "Do 4×5 of squat and press at heavier load with 2-minute rests."},
+        {"title": "Endurance day", "work": "Do 3×15 of lunges, rows, and push-ups with 45-second rests."},
+        {"title": "Core", "work": "Do a core circuit (planks, dead bugs, bird-dogs, side planks) × 3 rounds."},
+        {"title": "Log review", "work": "Calculate weekly training volume and plan next week's overload."}
+      ], "assessment": "Training log with volume calculations."},
+    {"week": 6, "unit": 2, "topic": "Designing a personal strength program", "objectives": ["Write a 4-week program using FITT and overload"], "standards": ["PE-HS3-2.2", "PE-HS3-2.4"], "vocabulary": ["FITT", "split routine", "full-body routine", "periodization"], "materials": ["program template", "weights or bands"],
+      "days": [
+        {"title": "Program design", "work": "Write a 4-week full-body program (3 days/week) with exercises, sets, reps, and progression."},
+        {"title": "Workout A", "work": "Complete Workout A of your program and log it."},
+        {"title": "Active recovery", "work": "Do a 30-minute walk and mobility routine."},
+        {"title": "Workout B", "work": "Complete Workout B and log it."},
+        {"title": "Workout A", "work": "Complete Workout A with progression and note RPE."}
+      ], "assessment": "Written 4-week program."},
+    {"week": 7, "unit": 2, "topic": "Program in progress", "objectives": ["Apply progressive overload"], "standards": ["PE-HS3-2.2", "PE-HS3-2.4"], "vocabulary": ["deload", "plateau", "DOMS"], "materials": ["weights or bands", "training log"],
+      "days": [
+        {"title": "Workout B", "work": "Complete Workout B with added load or reps."},
+        {"title": "Cardio", "work": "Do 25 minutes of moderate cardio of choice."},
+        {"title": "Workout A", "work": "Complete Workout A with progression."},
+        {"title": "Mobility", "work": "Do a 30-minute mobility and foam-rolling session."},
+        {"title": "Workout B", "work": "Complete Workout B and review progress."}
+      ], "assessment": "Training log progression."},
+    {"week": 8, "unit": 2, "topic": "Strength retest and program evaluation", "objectives": ["Evaluate the program with data"], "standards": ["PE-HS3-2.2", "PE-HS3-1.4"], "vocabulary": ["evaluation", "adaptation"], "materials": ["weights or bands", "fitness log"],
+      "days": [
+        {"title": "Deload", "work": "Do a light deload session at 60% of usual load."},
+        {"title": "Retest strength", "work": "Retest 10-rep maxes and push-up/curl-up scores."},
+        {"title": "Analyze", "work": "Calculate percent improvement and write what worked."},
+        {"title": "Teach a lift", "work": "Teach a family member one lift with correct cues."},
+        {"title": "Unit check", "work": "Take a written quiz on training principles and safety."}
+      ], "assessment": "Program evaluation and quiz."},
+    {"week": 9, "unit": 3, "topic": "Aerobic training principles", "objectives": ["Plan aerobic training using zones"], "standards": ["PE-HS3-2.2", "PE-HS3-2.3"], "vocabulary": ["aerobic", "anaerobic", "VO2 max", "tempo", "long slow distance"], "materials": ["running shoes", "watch"],
+      "days": [
+        {"title": "Energy systems", "work": "Learn aerobic vs. anaerobic systems; do an easy 25-minute run."},
+        {"title": "Intervals", "work": "Do 6 × 400 m intervals with 90-second recoveries."},
+        {"title": "Cross-train", "work": "Do 30 minutes of cycling or swimming."},
+        {"title": "Tempo", "work": "Run 20 minutes at comfortably hard tempo pace."},
+        {"title": "Plan", "work": "Write a 5K training plan for the next 4 weeks."}
+      ], "assessment": "5K training plan."},
+    {"week": 10, "unit": 3, "topic": "5K training: building base", "objectives": ["Follow and log an endurance plan"], "standards": ["PE-HS3-2.2", "PE-HS3-1.2"], "vocabulary": ["cadence", "pacing", "negative split"], "materials": ["running shoes", "log"],
+      "days": [
+        {"title": "Easy run", "work": "Run 25–30 minutes easy and log pace and heart rate."},
+        {"title": "Strength", "work": "Do a runner's strength circuit (single-leg squats, calf raises, glute bridges)."},
+        {"title": "Fartlek", "work": "Do a 30-minute fartlek run with 8 surges."},
+        {"title": "Mobility", "work": "Complete a 30-minute yoga flow for runners."},
+        {"title": "Long run", "work": "Run or run/walk 35–40 minutes at easy pace."}
+      ], "assessment": "Running log."},
+    {"week": 11, "unit": 3, "topic": "Swimming or cycling skills", "objectives": ["Improve technique in a second endurance activity"], "standards": ["PE-HS3-1.3", "PE-HS3-1.2"], "vocabulary": ["freestyle", "flip turn", "cadence", "gear ratio", "bike safety"], "materials": ["public pool access or bicycle and helmet"],
+      "days": [
+        {"title": "Technique", "work": "Swim: practice freestyle breathing and kicks for 30 minutes; or Bike: practice shifting and braking drills in a safe lot."},
+        {"title": "Endurance", "work": "Swim 20 continuous minutes or ride 45 minutes on a bike path."},
+        {"title": "Run", "work": "Do a 30-minute run with 4 hill repeats."},
+        {"title": "Safety", "work": "Learn California bike laws (helmet under 18, lights, lane use) or water-safety rescue skills; do a 30-minute session."},
+        {"title": "Intervals", "work": "Swim 8 × 50 m or bike 6 × 2-minute hard efforts."}
+      ], "assessment": "Technique self-check."},
+    {"week": 12, "unit": 3, "topic": "5K peak and taper", "objectives": ["Apply tapering principles"], "standards": ["PE-HS3-2.2", "PE-HS3-2.3"], "vocabulary": ["taper", "race pace", "carbohydrate"], "materials": ["running shoes"],
+      "days": [
+        {"title": "Race pace", "work": "Run 3 × 1 km at goal race pace."},
+        {"title": "Easy", "work": "Run 20 minutes easy plus strides."},
+        {"title": "Cross-train", "work": "Do 30 minutes of easy swimming or cycling."},
+        {"title": "Race prep", "work": "Plan race-day nutrition, gear, and warm-up; do a 15-minute shakeout."},
+        {"title": "Rest", "work": "Do a light mobility routine and visualization."}
+      ], "assessment": "Race plan."},
+    {"week": 13, "unit": 3, "topic": "5K time trial", "objectives": ["Complete a 5K and evaluate training"], "standards": ["PE-HS3-2.3", "PE-HS3-1.2"], "vocabulary": ["time trial", "split"], "materials": ["measured course or local 5K event"],
+      "days": [
+        {"title": "5K", "work": "Run a timed 5K (local race or measured course) and record splits."},
+        {"title": "Recovery", "work": "Walk 30 minutes and stretch."},
+        {"title": "Analyze", "work": "Compare 5K time to predicted time from your mile test; analyze pacing."},
+        {"title": "Strength", "work": "Complete a full-body strength session."},
+        {"title": "Unit check", "work": "Take a quiz on aerobic training principles."}
+      ], "assessment": "5K result and pacing analysis."},
+    {"week": 14, "unit": 4, "topic": "Flexibility and mobility", "objectives": ["Distinguish static, dynamic, and PNF stretching"], "standards": ["PE-HS3-2.3"], "vocabulary": ["static stretch", "dynamic stretch", "PNF", "range of motion"], "materials": ["yoga mat", "strap or towel"],
+      "days": [
+        {"title": "Dynamic warm-up", "work": "Learn and perform a 10-minute dynamic warm-up, then jog 20 minutes."},
+        {"title": "Static stretching", "work": "Perform a 30-minute static stretching routine holding each stretch 30 seconds."},
+        {"title": "PNF", "work": "Practice PNF hamstring and chest stretches with a partner or strap."},
+        {"title": "Mobility", "work": "Do a hip and shoulder mobility routine."},
+        {"title": "Retest", "work": "Retest sit-and-reach and shoulder stretch; compare with baseline."}
+      ], "assessment": "Flexibility retest."},
+    {"week": 15, "unit": 4, "topic": "Yoga and stress management", "objectives": ["Use yoga and breathing to manage stress"], "standards": ["PE-HS3-3.1", "PE-HS3-2.3"], "vocabulary": ["mindfulness", "box breathing", "cortisol", "vinyasa"], "materials": ["yoga mat", "free yoga video"],
+      "days": [
+        {"title": "Breathing", "work": "Practice box breathing and 4-7-8 breathing; do a 20-minute walk."},
+        {"title": "Yoga flow", "work": "Follow a 30-minute vinyasa yoga video."},
+        {"title": "Stress and exercise", "work": "Read about exercise and mental health; log mood before and after a 30-minute workout."},
+        {"title": "Balance poses", "work": "Practice balance poses (tree, warrior III, half moon) for 30 minutes."},
+        {"title": "Restorative", "work": "Do a 30-minute restorative yoga and body-scan meditation."}
+      ], "assessment": "Mood log analysis."},
+    {"week": 16, "unit": 4, "topic": "Nutrition, hydration, sleep, recovery", "objectives": ["Evaluate habits that support training"], "standards": ["PE-HS3-2.5"], "vocabulary": ["macronutrients", "hydration", "sleep hygiene", "overtraining"], "materials": ["food log app or notebook", "MyPlate"],
+      "days": [
+        {"title": "Food log", "work": "Log your food for three days; do a 30-minute workout of choice."},
+        {"title": "Fueling", "work": "Learn pre- and post-workout fueling; plan a sample day of meals."},
+        {"title": "Hydration", "work": "Calculate sweat loss by weighing before and after a 30-minute run."},
+        {"title": "Sleep", "work": "Track sleep for the week and write a sleep-hygiene plan."},
+        {"title": "Evaluate", "work": "Write an evaluation of your nutrition, hydration, and sleep with two changes."}
+      ], "assessment": "Recovery habits evaluation."},
+    {"week": 17, "unit": 5, "topic": "Semester fitness reassessment", "objectives": ["Retest all fitness components"], "standards": ["PE-HS3-2.1", "PE-HS3-2.3"], "vocabulary": ["reassessment", "progress"], "materials": ["stopwatch", "mat", "fitness log"],
+      "days": [
+        {"title": "Mile retest", "work": "Retest the mile run."},
+        {"title": "Strength retest", "work": "Retest push-ups and curl-ups."},
+        {"title": "Flexibility retest", "work": "Retest flexibility and resting heart rate."},
+        {"title": "Compare", "work": "Graph baseline vs. current scores."},
+        {"title": "Goal review", "work": "Review SMART goals and mark each as met or not."}
+      ], "assessment": "Reassessment results."},
+    {"week": 18, "unit": 5, "topic": "Semester reflection and new plan", "objectives": ["Revise the fitness plan for semester 2"], "standards": ["PE-HS3-2.2", "PE-HS3-3.2"], "vocabulary": ["reflection", "adjustment"], "materials": ["fitness log"],
+      "days": [
+        {"title": "Reflect", "work": "Write a reflection on your semester training and what motivated you; do a 30-minute workout."},
+        {"title": "New goals", "work": "Write new SMART goals for semester 2."},
+        {"title": "Revise plan", "work": "Revise your weekly plan to include strength, cardio, and a lifetime sport."},
+        {"title": "Choice workout", "work": "Lead a family member through a workout you designed."},
+        {"title": "Written exam", "work": "Take the semester written exam on fitness concepts."}
+      ], "assessment": "Semester exam and revised plan."},
+    {"week": 19, "unit": 6, "topic": "Pickleball fundamentals", "objectives": ["Perform serve, return, dink, and volley"], "standards": ["PE-HS3-1.1", "PE-HS3-1.5"], "vocabulary": ["kitchen", "dink", "third-shot drop", "two-bounce rule"], "materials": ["pickleball paddles and balls", "public court or driveway with tape lines"],
+      "days": [
+        {"title": "Rules and serve", "work": "Learn rules and scoring; practice underhand serves (20 per side)."},
+        {"title": "Dinks", "work": "Practice dinking at the kitchen line with a partner for 20 minutes."},
+        {"title": "Volleys", "work": "Practice volleys and blocks; play a short game."},
+        {"title": "Third-shot drop", "work": "Practice third-shot drops and play doubles."},
+        {"title": "Skill check", "work": "Complete a skill test (serves in, dink rally length) and play a game."}
+      ], "assessment": "Pickleball skill test."},
+    {"week": 20, "unit": 6, "topic": "Pickleball strategy and play", "objectives": ["Apply doubles strategy"], "standards": ["PE-HS3-1.5", "PE-HS3-3.3"], "vocabulary": ["stacking", "transition zone", "poach"], "materials": ["pickleball equipment"],
+      "days": [
+        {"title": "Positioning", "work": "Learn doubles positioning and communication; drill transition-zone movement."},
+        {"title": "Game play", "work": "Play doubles games, tracking unforced errors."},
+        {"title": "Community play", "work": "Attend open play at a local park or recreation center."},
+        {"title": "Fitness", "work": "Do agility ladder and lateral shuffle drills for court movement."},
+        {"title": "Tournament", "work": "Play a family round-robin tournament demonstrating etiquette and scoring."}
+      ], "assessment": "Game-play rubric."},
+    {"week": 21, "unit": 6, "topic": "Tennis fundamentals", "objectives": ["Perform forehand, backhand, and serve"], "standards": ["PE-HS3-1.1", "PE-HS3-1.4"], "vocabulary": ["forehand", "backhand", "topspin", "baseline", "deuce"], "materials": ["tennis racket and balls", "public court or wall"],
+      "days": [
+        {"title": "Forehand", "work": "Practice forehand grip and swing; hit 50 balls against a wall."},
+        {"title": "Backhand", "work": "Practice one- or two-handed backhand against a wall."},
+        {"title": "Serve", "work": "Practice the serve motion using kinetic chain cues."},
+        {"title": "Rally", "work": "Rally with a partner, counting consecutive shots."},
+        {"title": "Scoring", "work": "Learn tennis scoring and play mini-tennis games."}
+      ], "assessment": "Rally count and serve test."},
+    {"week": 22, "unit": 6, "topic": "Tennis play", "objectives": ["Play singles and doubles with strategy"], "standards": ["PE-HS3-1.5", "PE-HS3-3.3"], "vocabulary": ["approach shot", "volley", "lob", "sportsmanship"], "materials": ["tennis equipment"],
+      "days": [
+        {"title": "Net play", "work": "Practice volleys and approach shots."},
+        {"title": "Singles", "work": "Play a singles set."},
+        {"title": "Doubles", "work": "Play doubles focusing on positioning."},
+        {"title": "Film review", "work": "Film your forehand and compare with a pro's slow-motion swing."},
+        {"title": "Unit check", "work": "Take a racket-sports rules and strategy quiz and play a match."}
+      ], "assessment": "Racket sports quiz and match."},
+    {"week": 23, "unit": 7, "topic": "Golf fundamentals", "objectives": ["Perform putting, chipping, and full swing"], "standards": ["PE-HS3-1.1", "PE-HS3-1.4"], "vocabulary": ["grip", "stance", "putt", "chip", "par"], "materials": ["golf clubs (borrowed or rented)", "practice balls", "putting green or driving range"],
+      "days": [
+        {"title": "Putting", "work": "Practice putting from 3, 6, and 10 feet; record make percentage."},
+        {"title": "Chipping", "work": "Practice chipping to a target from 10–20 yards."},
+        {"title": "Full swing", "work": "Learn grip, stance, and full swing at a driving range (one small bucket)."},
+        {"title": "Biomechanics", "work": "Analyze how leverage and rotation produce club-head speed."},
+        {"title": "Skill check", "work": "Complete a putting and chipping skills test."}
+      ], "assessment": "Short-game skills test."},
+    {"week": 24, "unit": 7, "topic": "Golf course play and focus", "objectives": ["Play a short course with etiquette", "Use focus strategies"], "standards": ["PE-HS3-1.1", "PE-HS3-3.1"], "vocabulary": ["etiquette", "pre-shot routine", "handicap"], "materials": ["pitch-and-putt course or mini golf"],
+      "days": [
+        {"title": "Pre-shot routine", "work": "Develop a pre-shot routine and practice at the range."},
+        {"title": "Etiquette", "work": "Learn course etiquette and rules; practice putting."},
+        {"title": "Course play", "work": "Play 9 holes at a pitch-and-putt course and keep score."},
+        {"title": "Analyze", "work": "Analyze your scorecard for strengths and weaknesses."},
+        {"title": "Fitness", "work": "Do a rotational core and mobility workout for golf."}
+      ], "assessment": "Scorecard analysis."},
+    {"week": 25, "unit": 8, "topic": "Hiking safety and preparation", "objectives": ["Plan a safe day hike"], "standards": ["PE-HS3-1.2", "PE-HS3-3.3"], "vocabulary": ["Ten Essentials", "elevation gain", "Leave No Trace", "trailhead"], "materials": ["daypack", "water", "trail map"],
+      "days": [
+        {"title": "Ten Essentials", "work": "Pack the Ten Essentials and learn Leave No Trace principles."},
+        {"title": "Conditioning", "work": "Do stair or hill repeats with a loaded daypack for 30 minutes."},
+        {"title": "Plan a hike", "work": "Plan a 4–6 mile hike in a local or state park, including weather, elevation, and emergency plan."},
+        {"title": "Hike", "work": "Complete the planned hike with a family member, logging time and heart rate."},
+        {"title": "Reflect", "work": "Write a trip report with distance, elevation gain, and lessons learned."}
+      ], "assessment": "Hike plan and trip report."},
+    {"week": 26, "unit": 8, "topic": "Map, compass, and orienteering", "objectives": ["Navigate with map and compass"], "standards": ["PE-HS3-1.2"], "vocabulary": ["bearing", "declination", "contour line", "orienteering"], "materials": ["compass", "topographic map (USGS)", "cones or markers"],
+      "days": [
+        {"title": "Topo maps", "work": "Read contour lines on a USGS topo map and identify hills, valleys, and saddles."},
+        {"title": "Compass", "work": "Learn to take and follow a bearing; adjust for declination."},
+        {"title": "Backyard course", "work": "Set up and complete a 5-point backyard or park orienteering course."},
+        {"title": "Park course", "work": "Complete a permanent orienteering course or geocaching route in a local park."},
+        {"title": "Skill check", "work": "Pass a navigation skills test."}
+      ], "assessment": "Navigation skills test."},
+    {"week": 27, "unit": 8, "topic": "Cycling for fitness and transport", "objectives": ["Ride safely and plan a route"], "standards": ["PE-HS3-1.2", "PE-HS3-2.2"], "vocabulary": ["ABC check", "bike lane", "cadence", "route planning"], "materials": ["bicycle", "helmet", "repair kit"],
+      "days": [
+        {"title": "Maintenance", "work": "Learn the ABC check (air, brakes, chain) and fix a flat tire."},
+        {"title": "Route", "work": "Plan a safe 10–15 mile route using bike lanes or trails."},
+        {"title": "Ride", "work": "Complete the ride, logging time, distance, and heart rate."},
+        {"title": "Commute", "work": "Plan a bike or walk route to a future job or campus and time it."},
+        {"title": "Strength", "work": "Complete a full-body strength workout."}
+      ], "assessment": "Ride log and route plan."},
+    {"week": 28, "unit": 8, "topic": "Outdoor adventure challenge", "objectives": ["Lead a group outdoor activity"], "standards": ["PE-HS3-3.3", "PE-HS3-3.4"], "vocabulary": ["leadership", "risk management"], "materials": ["outdoor gear"],
+      "days": [
+        {"title": "Plan", "work": "Plan an outdoor outing for family or friends (hike, bike, kayak) with a risk-management plan."},
+        {"title": "Conditioning", "work": "Do a 40-minute conditioning session."},
+        {"title": "Lead outing", "work": "Lead the outing, briefing safety and Leave No Trace."},
+        {"title": "Debrief", "work": "Debrief participants and record feedback."},
+        {"title": "Unit check", "work": "Take an outdoor-safety quiz and write about how outdoor activity fits your adult life."}
+      ], "assessment": "Leadership outing and quiz."},
+    {"week": 29, "unit": 9, "topic": "Social and cultural dance", "objectives": ["Perform basic steps from several dance forms"], "standards": ["PE-HS3-1.3", "PE-HS3-3.4"], "vocabulary": ["tempo", "partner frame", "cumbia", "swing", "line dance"], "materials": ["music player", "open floor"],
+      "days": [
+        {"title": "Cumbia", "work": "Learn basic cumbia steps and their cultural origins; dance for 30 minutes."},
+        {"title": "Swing", "work": "Learn East Coast swing basic and a turn with a partner."},
+        {"title": "Line dance", "work": "Learn two line dances."},
+        {"title": "Heart rate", "work": "Dance continuously for 30 minutes, tracking heart rate."},
+        {"title": "Showcase", "work": "Perform a dance for family and explain its cultural background."}
+      ], "assessment": "Dance performance."},
+    {"week": 30, "unit": 9, "topic": "Dance fitness choreography", "objectives": ["Choreograph a dance fitness routine"], "standards": ["PE-HS3-1.3", "PE-HS3-3.4"], "vocabulary": ["choreography", "8-count", "Zumba", "HIIT dance"], "materials": ["music", "video recorder"],
+      "days": [
+        {"title": "Counts", "work": "Learn to count music in 8s and follow a 30-minute dance fitness video."},
+        {"title": "Choreograph", "work": "Choreograph a 3-minute dance fitness routine."},
+        {"title": "Rehearse", "work": "Rehearse and refine the routine."},
+        {"title": "Teach", "work": "Teach the routine to family members."},
+        {"title": "Record", "work": "Record the routine and reflect on fitness benefits."}
+      ], "assessment": "Recorded routine."},
+    {"week": 31, "unit": 10, "topic": "Evaluating fitness resources and claims", "objectives": ["Evaluate gyms, apps, and products as a consumer"], "standards": ["PE-HS3-2.6"], "vocabulary": ["contract", "supplement", "consumer claim", "certification"], "materials": ["gym brochures", "app reviews"],
+      "days": [
+        {"title": "Gym options", "work": "Compare costs and contracts of three gyms, a community center, and free options; do a workout."},
+        {"title": "Apps and wearables", "work": "Evaluate two fitness apps and a wearable for usefulness and privacy."},
+        {"title": "Supplements", "work": "Evaluate three supplement claims using FDA and NIH sources."},
+        {"title": "Trainers", "work": "Learn how to check a personal trainer's certification (NCCA-accredited)."},
+        {"title": "Consumer report", "work": "Write a consumer guide to adult fitness options in your area."}
+      ], "assessment": "Consumer guide."},
+    {"week": 32, "unit": 10, "topic": "Fitting activity into adult life", "objectives": ["Plan activity around school, work, and family"], "standards": ["PE-HS3-3.2", "PE-HS3-3.4"], "vocabulary": ["active commute", "workplace wellness", "intramurals"], "materials": ["sample college or work schedule"],
+      "days": [
+        {"title": "Schedules", "work": "Map a sample college or work week and find 150 minutes for activity; do a 30-minute workout."},
+        {"title": "Campus resources", "work": "Research recreation facilities and intramurals at a college or employer you're considering."},
+        {"title": "Short workouts", "work": "Design three 15-minute 'busy day' workouts and test one."},
+        {"title": "Social activity", "work": "Find a local club, league, or group activity and attend or contact it."},
+        {"title": "Reflect", "work": "Write about how your activity habits will change after graduation."}
+      ], "assessment": "Busy-day workouts and reflection."},
+    {"week": 33, "unit": 10, "topic": "Writing the adult fitness plan", "objectives": ["Write a 12-week adult fitness plan"], "standards": ["PE-HS3-2.2", "PE-HS3-2.6"], "vocabulary": ["periodization", "maintenance", "adherence"], "materials": ["plan template"],
+      "days": [
+        {"title": "Draft", "work": "Draft a 12-week plan meeting adult guidelines (150+ min aerobic, 2 strength days)."},
+        {"title": "Test week 1", "work": "Complete day 1 of your plan."},
+        {"title": "Budget", "work": "Add a budget and resource list to the plan."},
+        {"title": "Test week 1", "work": "Complete day 2 of your plan."},
+        {"title": "Revise", "work": "Revise the plan based on how the first days felt."}
+      ], "assessment": "Draft adult fitness plan."},
+    {"week": 34, "unit": 10, "topic": "Final fitness assessment", "objectives": ["Retest all components and compare"], "standards": ["PE-HS3-2.1", "PE-HS3-2.3"], "vocabulary": ["final assessment"], "materials": ["stopwatch", "mat"],
+      "days": [
+        {"title": "Mile", "work": "Final timed mile."},
+        {"title": "Strength", "work": "Final push-up and curl-up tests."},
+        {"title": "Flexibility", "work": "Final flexibility and resting heart rate tests."},
+        {"title": "Graph", "work": "Graph year-long data across three test points."},
+        {"title": "Analyze", "work": "Write an analysis of your year's progress."}
+      ], "assessment": "Final fitness assessment."},
+    {"week": 35, "unit": 10, "topic": "Presenting the plan", "objectives": ["Present and defend the adult fitness plan"], "standards": ["PE-HS3-2.2", "PE-HS3-3.2"], "vocabulary": ["presentation"], "materials": ["slides or poster"],
+      "days": [
+        {"title": "Finalize", "work": "Finalize the plan and do a workout from it."},
+        {"title": "Prepare", "work": "Prepare a 5-minute presentation of your plan."},
+        {"title": "Present", "work": "Present the plan to family and answer questions."},
+        {"title": "Lead", "work": "Lead family through one session from your plan."},
+        {"title": "Revise", "work": "Make final revisions based on feedback."}
+      ], "assessment": "Plan presentation."},
+    {"week": 36, "unit": 10, "topic": "Course wrap-up", "objectives": ["Reflect and commit to lifelong activity"], "standards": ["PE-HS3-3.2", "PE-HS3-3.4"], "vocabulary": ["lifelong fitness"], "materials": ["fitness log"],
+      "days": [
+        {"title": "Favorite activity", "work": "Spend 45 minutes on your favorite activity from the year."},
+        {"title": "Written exam", "work": "Take the final written exam on fitness concepts and lifetime activities."},
+        {"title": "Community event", "work": "Participate in a community fun run, group hike, or open play."},
+        {"title": "Letter", "work": "Write a letter to your future self about staying active."},
+        {"title": "Celebrate", "work": "Do a celebration workout with family and log your final entry."}
+      ], "assessment": "Final exam and letter."}
+  ]
+}
