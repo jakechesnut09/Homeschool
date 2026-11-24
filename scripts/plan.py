@@ -13,6 +13,7 @@ Examples:
 """
 import argparse
 import pathlib
+import signal
 import sqlite3
 import sys
 
@@ -91,6 +92,8 @@ def course_md(con, grade, subject):
 
 
 def main():
+    if hasattr(signal, "SIGPIPE"):
+        signal.signal(signal.SIGPIPE, signal.SIG_DFL)  # allow piping into head
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("week"); p.add_argument("--grade", type=int, required=True); p.add_argument("--week", type=int, required=True)
@@ -121,7 +124,7 @@ def main():
         q, args = "SELECT * FROM paperwork", []
         if a.option:
             q += " WHERE homeschool_option LIKE ? OR homeschool_option LIKE '%ALL%'"; args = [f"%{a.option.upper()}%"]
-        for r in con.execute(q + " ORDER BY action, name", args):
+        for r in con.execute(q + " ORDER BY CASE action WHEN 'submit' THEN 0 WHEN 'keep_on_file' THEN 1 ELSE 2 END, name", args):
             print(f"[{r['action']}] {r['name']} ({r['homeschool_option']}) — {r['deadline'] or r['frequency'] or ''}\n"
                   f"    {r['description']}\n    Basis: {r['legal_basis'] or '-'}  {r['url'] or ''}\n")
     elif a.cmd == "funding":
