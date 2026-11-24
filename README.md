@@ -10,8 +10,10 @@ A complete, standards-aligned homeschool curriculum for **1st through 12th grade
 - **Legal paperwork:** what to file, what to keep on file, and the legal basis for each, for every
   legal way to homeschool in California.
 
+**At a glance:** 90 courses · 830 units · 3,240 weekly plans · 16,200 daily lessons · 3,067 CA standards referenced · 315 free resources · 26 funding programs · 26 paperwork items.
+
 Everything is in one SQLite file, **`homeschool.db`**. The same plans are also exported as
-readable Markdown in **`docs/plans/`**, so you can browse them on GitHub without any software.
+readable Markdown in **[`docs/plans/`](docs/plans/README.md)**, so you can browse them on GitHub without any software.
 
 > **Not legal or tax advice.** The paperwork and funding data was checked against official sources
 > in November 2026 (see `last_verified`), but laws and programs change. Confirm details with the

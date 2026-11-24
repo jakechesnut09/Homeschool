@@ -1,0 +1,1935 @@
+{
+  "grade": 10,
+  "subject": "ELEC",
+  "title": "Computer Science Principles",
+  "description": "A full-year introductory computer science course modeled on the AP Computer Science Principles framework and taught primarily with Code.org's free CSP curriculum. Students study how digital information is represented, how the internet works, event-driven app design, programming with variables, conditionals, lists, loops and procedures, algorithms and efficiency, data analysis and simulation, cybersecurity and cryptography, and the social impacts of computing, with a short bridge to Python. The year ends with an AP-style Create Performance Task and exam review; homeschool students can register for the May AP CSP exam through a local host school. Graded as a college-preparatory elective (UC/CSU 'g'); a UC-approved online provider is needed for a home-designed course to appear on a UC transcript.",
+  "framework": "California K–12 Computer Science Standards (2018), grades 9–12; CA Computer Science Strategic Implementation Plan; College Board AP Computer Science Principles Course and Exam Description",
+  "minutes_per_day": 50,
+  "ag_requirement": "g",
+  "credits": 10,
+  "standards": {
+    "9-12.CS.1": "Describe ways in which abstractions hide the underlying implementation details of computing systems to simplify user experiences.",
+    "9-12.CS.2": "Compare levels of abstraction and interactions between application software, system software, and hardware.",
+    "9-12.CS.3": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "9-12.NI.4": "Describe issues that impact network functionality (e.g., bandwidth, load, latency, topology).",
+    "9-12.NI.5": "Describe the design characteristics of the internet.",
+    "9-12.NI.6": "Compare and contrast security measures to address various security threats.",
+    "9-12.NI.7": "Compare and contrast cryptographic techniques to model the secure transmission of information.",
+    "9-12.DA.8": "Translate between different representations of data abstractions of real-world phenomena, such as characters, numbers, and images.",
+    "9-12.DA.9": "Describe tradeoffs associated with how data elements are organized and stored.",
+    "9-12.DA.10": "Create data visualizations to help others better understand real-world phenomena.",
+    "9-12.DA.11": "Refine computational models to better represent the relationships among different elements of data collected from a phenomenon or process.",
+    "9-12.AP.12": "Design algorithms to solve computational problems using a combination of original and existing algorithms.",
+    "9-12.AP.13": "Create more generalized computational solutions using collections instead of repeatedly using simple variables.",
+    "9-12.AP.14": "Justify the selection of specific control structures by identifying tradeoffs associated with implementation, readability, and performance.",
+    "9-12.AP.15": "Iteratively design and develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "9-12.AP.16": "Decompose problems into smaller subproblems through systematic analysis, using constructs such as procedures, modules, and/or classes.",
+    "9-12.AP.17": "Create computational artifacts using modular design.",
+    "9-12.AP.18": "Systematically design programs for broad audiences by incorporating feedback from users.",
+    "9-12.AP.19": "Explain the limitations of licenses that restrict use of computational artifacts when using resources such as libraries.",
+    "9-12.AP.20": "Iteratively evaluate and refine a computational artifact to enhance its performance, reliability, usability, and accessibility.",
+    "9-12.AP.21": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "9-12.AP.22": "Document decisions made during the design process using text, graphics, presentations, and/or demonstrations in the development of complex programs.",
+    "9-12.IC.23": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "9-12.IC.24": "Identify impacts of bias and equity deficit on design and implementation of computational artifacts and apply appropriate processes for evaluating issues of bias.",
+    "9-12.IC.25": "Demonstrate ways a given algorithm applies to problems across disciplines.",
+    "9-12.IC.26": "Study, discuss, and think critically about the potential impacts and implications of emerging technologies on larger social, economic, and political structures, with evidence from credible sources.",
+    "9-12.IC.27": "Use collaboration tools and methods to increase connectivity with people of different cultures and careers.",
+    "9-12.IC.28": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation.",
+    "9-12.IC.29": "Explain the privacy concerns related to the collection and generation of data through automated processes.",
+    "9-12.IC.30": "Evaluate the social and economic implications of privacy in the context of safety, law, or ethics."
+  },
+  "resources": [
+    {
+      "name": "Code.org – Computer Science Principles",
+      "url": "https://code.org/educate/csp",
+      "note": "Free full-year CSP curriculum, App Lab, widgets and Internet Simulator (primary spine)"
+    },
+    {
+      "name": "Khan Academy – AP Computer Science Principles",
+      "url": "https://www.khanacademy.org/computing/ap-computer-science-principles",
+      "note": "Articles, videos and practice questions aligned to AP CSP"
+    },
+    {
+      "name": "CS50x (Harvard)",
+      "url": "https://cs50.harvard.edu/x/",
+      "note": "Free lectures and problem sets for the Python bridge and extension"
+    },
+    {
+      "name": "Trinket",
+      "url": "https://trinket.io/",
+      "note": "Free browser-based Python editor for Unit 8"
+    },
+    {
+      "name": "AP Computer Science Principles (College Board)",
+      "url": "https://apstudents.collegeboard.org/courses/ap-computer-science-principles",
+      "note": "Exam format, Create performance task requirements and practice"
+    },
+    {
+      "name": "CA K–12 Computer Science Standards (CDE)",
+      "url": "https://www.cde.ca.gov/be/st/ss/computerscicontentstds.asp",
+      "note": "Official standards referenced by the codes in this course"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Digital Information",
+      "start_week": 1,
+      "end_week": 5,
+      "big_idea": "Everything a computer stores—numbers, text, images, sound—is an abstraction built from bits.",
+      "standards": [
+        "9-12.CS.1",
+        "9-12.DA.8",
+        "9-12.CS.2",
+        "9-12.DA.9",
+        "9-12.IC.28",
+        "9-12.AP.19"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Internet",
+      "start_week": 6,
+      "end_week": 9,
+      "big_idea": "The internet works because of open protocols, redundancy and layers of abstraction, not a single central computer.",
+      "standards": [
+        "9-12.NI.5",
+        "9-12.CS.2",
+        "9-12.NI.4",
+        "9-12.CS.1",
+        "9-12.IC.23",
+        "9-12.IC.27"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Intro to App Design and Programming",
+      "start_week": 10,
+      "end_week": 14,
+      "big_idea": "Programs are built iteratively: design for users, write event-driven code, test and debug.",
+      "standards": [
+        "9-12.AP.18",
+        "9-12.AP.22",
+        "9-12.AP.15",
+        "9-12.CS.1",
+        "9-12.AP.14",
+        "9-12.AP.12",
+        "9-12.CS.3",
+        "9-12.AP.21",
+        "9-12.AP.20"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Variables, Lists, Loops and Traversals",
+      "start_week": 15,
+      "end_week": 18,
+      "big_idea": "Collections and iteration let one short program process any amount of data.",
+      "standards": [
+        "9-12.AP.13",
+        "9-12.DA.9",
+        "9-12.AP.14",
+        "9-12.AP.12",
+        "9-12.AP.15",
+        "9-12.AP.22",
+        "9-12.DA.8",
+        "9-12.NI.5"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Functions, Libraries and Algorithms",
+      "start_week": 19,
+      "end_week": 22,
+      "big_idea": "Abstraction through procedures and libraries manages complexity; algorithms differ in efficiency and some problems cannot be solved.",
+      "standards": [
+        "9-12.AP.16",
+        "9-12.AP.17",
+        "9-12.AP.19",
+        "9-12.AP.22",
+        "9-12.AP.12",
+        "9-12.IC.25",
+        "9-12.CS.2"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Data and Simulation",
+      "start_week": 23,
+      "end_week": 26,
+      "big_idea": "Data can reveal patterns and inform decisions, but how it is collected and modeled can introduce bias.",
+      "standards": [
+        "9-12.DA.9",
+        "9-12.IC.29",
+        "9-12.DA.10",
+        "9-12.DA.11",
+        "9-12.AP.12",
+        "9-12.IC.24"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Cybersecurity and Global Impacts",
+      "start_week": 27,
+      "end_week": 30,
+      "big_idea": "Computing innovations create benefits and harms; encryption and safe practices protect people's data.",
+      "standards": [
+        "9-12.IC.29",
+        "9-12.IC.30",
+        "9-12.NI.7",
+        "9-12.NI.6",
+        "9-12.IC.26",
+        "9-12.IC.23"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Text-Based Programming Bridge (Python)",
+      "start_week": 31,
+      "end_week": 32,
+      "big_idea": "The same algorithmic ideas transfer from blocks to a text language like Python.",
+      "standards": [
+        "9-12.AP.14",
+        "9-12.AP.16",
+        "9-12.AP.13",
+        "9-12.AP.17"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Create Performance Task and AP Review",
+      "start_week": 33,
+      "end_week": 36,
+      "big_idea": "A well-documented, user-tested program demonstrates mastery of the big ideas of computing.",
+      "standards": [
+        "9-12.AP.18",
+        "9-12.AP.22",
+        "9-12.AP.16",
+        "9-12.AP.15",
+        "9-12.AP.17",
+        "9-12.AP.21",
+        "9-12.IC.27",
+        "9-12.AP.20",
+        "9-12.AP.19",
+        "9-12.DA.8",
+        "9-12.NI.5",
+        "9-12.AP.12",
+        "9-12.IC.23"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Representing information and abstraction",
+      "objectives": [
+        "Explain how information can be represented with symbols",
+        "Define abstraction in computing"
+      ],
+      "standards": [
+        "9-12.CS.1",
+        "9-12.DA.8"
+      ],
+      "vocabulary": [
+        "bit",
+        "abstraction",
+        "computing device",
+        "binary"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "index cards",
+        "flashlight"
+      ],
+      "days": [
+        {
+          "title": "What is computing?",
+          "work": "Set up a Code.org CSP account and journal; list five computing devices you used today and the input, processing and output of each."
+        },
+        {
+          "title": "Representing with symbols",
+          "work": "Invent a code using a flashlight (on/off) to send a 4-choice answer to a partner and record how many on/off signals each message needed."
+        },
+        {
+          "title": "Abstraction",
+          "work": "Compare a subway map to a real street map and write how each hides details; then describe two abstractions in your phone's interface."
+        },
+        {
+          "title": "Bits and patterns",
+          "work": "Calculate how many patterns 1–8 bits can make (2^n) and complete a table showing why 8 bits make 256 values."
+        },
+        {
+          "title": "Check",
+          "work": "Take a 10-question check on bits and abstraction and write a paragraph explaining how a touchscreen tap is an abstraction."
+        }
+      ],
+      "assessment": "Quiz and abstraction paragraph."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Binary numbers and overflow",
+      "objectives": [
+        "Convert between binary and decimal",
+        "Explain overflow and round-off errors"
+      ],
+      "standards": [
+        "9-12.DA.8",
+        "9-12.CS.2"
+      ],
+      "vocabulary": [
+        "binary",
+        "decimal",
+        "place value",
+        "overflow error",
+        "round-off error"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "paper flip-cards labeled 1, 2, 4, 8, 16"
+      ],
+      "days": [
+        {
+          "title": "Binary place value",
+          "work": "Use five flip-cards (16-8-4-2-1) to build numbers 0–31 and convert 10 decimal numbers to binary."
+        },
+        {
+          "title": "Conversion practice",
+          "work": "Use the Code.org Binary Odometer widget, then convert 15 numbers between binary and decimal by hand."
+        },
+        {
+          "title": "Overflow",
+          "work": "Model a 4-bit odometer rolling over from 1111 and research the Gangnam Style YouTube counter and Y2K overflow examples."
+        },
+        {
+          "title": "Round-off",
+          "work": "In a Python or JavaScript console run 0.1 + 0.2 and explain why the result is not exactly 0.3."
+        },
+        {
+          "title": "Check",
+          "work": "Complete an AP-style practice set of 8 binary/overflow questions and correct any errors."
+        }
+      ],
+      "assessment": "Binary conversion practice set."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Representing text and images",
+      "objectives": [
+        "Explain how characters are encoded with ASCII/Unicode",
+        "Create pixel images with RGB values"
+      ],
+      "standards": [
+        "9-12.DA.8",
+        "9-12.DA.9"
+      ],
+      "vocabulary": [
+        "ASCII",
+        "Unicode",
+        "pixel",
+        "RGB",
+        "resolution",
+        "metadata"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "grid paper"
+      ],
+      "days": [
+        {
+          "title": "Encoding text",
+          "work": "Encode your name in ASCII binary and decode a partner's (or parent's) secret message."
+        },
+        {
+          "title": "Unicode and emoji",
+          "work": "Look up the Unicode code points for three emoji and explain why ASCII alone was not enough for the world's languages."
+        },
+        {
+          "title": "Black-and-white images",
+          "work": "Use the Code.org Pixelation widget to draw a 10×10 black-and-white image and write its bits."
+        },
+        {
+          "title": "Color images",
+          "work": "Create a color image using hex RGB values and calculate the file size in bits and bytes at 24 bits per pixel."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on text and image representation; explain how changing bits-per-pixel affects color depth and size."
+        }
+      ],
+      "assessment": "Pixelation project and quiz."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Compression: lossless and lossy",
+      "objectives": [
+        "Compare lossless and lossy compression",
+        "Evaluate tradeoffs of file size and quality"
+      ],
+      "standards": [
+        "9-12.DA.9",
+        "9-12.DA.8"
+      ],
+      "vocabulary": [
+        "compression",
+        "lossless",
+        "lossy",
+        "run-length encoding",
+        "JPEG"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Why compress?",
+          "work": "Calculate how long an uncompressed 4K video would take to download at 25 Mbps, then discuss why compression matters."
+        },
+        {
+          "title": "Lossless compression",
+          "work": "Compress a song lyric with the Code.org Text Compression widget and record your compression ratio."
+        },
+        {
+          "title": "Run-length encoding",
+          "work": "Write the run-length encoding for three pixel images and decode one back to the original grid."
+        },
+        {
+          "title": "Lossy compression",
+          "work": "Save a photo as JPEG at quality 100, 50 and 10, compare file sizes and visible artifacts, and decide when lossy is acceptable."
+        },
+        {
+          "title": "Check",
+          "work": "Write a short comparison of lossless vs. lossy compression for three scenarios (medical scan, streaming video, text document)."
+        }
+      ],
+      "assessment": "Compression comparison scored with rubric."
+    },
+    {
+      "week": 5,
+      "unit": 1,
+      "topic": "Intellectual property and digital information project",
+      "objectives": [
+        "Explain copyright, Creative Commons and open-source licensing",
+        "Apply licenses correctly in a project"
+      ],
+      "standards": [
+        "9-12.IC.28",
+        "9-12.AP.19",
+        "9-12.DA.8"
+      ],
+      "vocabulary": [
+        "copyright",
+        "Creative Commons",
+        "open source",
+        "public domain",
+        "license"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Copyright basics",
+          "work": "Read about copyright and fair use and sort 10 scenarios as likely allowed or not allowed."
+        },
+        {
+          "title": "Creative Commons",
+          "work": "Find three images with different Creative Commons licenses and write the correct attribution for each."
+        },
+        {
+          "title": "Open source",
+          "work": "Compare MIT, GPL and proprietary software licenses and explain how each could help or hurt innovation."
+        },
+        {
+          "title": "Project",
+          "work": "Create a one-page explainer (infographic or slide) on how one type of digital information is represented, using only properly licensed images."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Take the Unit 1 assessment (AP-style multiple choice) on binary, data representation, compression and intellectual property."
+        }
+      ],
+      "assessment": "Unit 1 assessment and explainer project."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Networks, IP addresses and packets",
+      "objectives": [
+        "Describe how devices are addressed on the internet",
+        "Explain how data is broken into packets"
+      ],
+      "standards": [
+        "9-12.NI.5",
+        "9-12.CS.2"
+      ],
+      "vocabulary": [
+        "network",
+        "IP address",
+        "packet",
+        "protocol",
+        "bandwidth"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "What is the internet?",
+          "work": "Watch the Code.org 'How the Internet Works' video on wires, cables and Wi-Fi, then draw your home network."
+        },
+        {
+          "title": "IP addresses",
+          "work": "Find your device's IP address and compare IPv4 (32-bit) and IPv6 (128-bit) address spaces mathematically."
+        },
+        {
+          "title": "Packets",
+          "work": "Use the Code.org Internet Simulator to send a message split into packets and observe packets arriving out of order."
+        },
+        {
+          "title": "Packet reassembly",
+          "work": "Design a packet header with sequence numbers and send a 'postcard' message to a family member split across 6 cards."
+        },
+        {
+          "title": "Check",
+          "work": "Answer 8 questions on addressing and packets and explain why messages are split into packets."
+        }
+      ],
+      "assessment": "Internet Simulator log and quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Routing, redundancy and fault tolerance",
+      "objectives": [
+        "Explain how routers forward packets",
+        "Describe how redundancy creates fault tolerance"
+      ],
+      "standards": [
+        "9-12.NI.5",
+        "9-12.NI.4"
+      ],
+      "vocabulary": [
+        "router",
+        "routing",
+        "redundancy",
+        "fault tolerance",
+        "scalability"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "string and sticky notes"
+      ],
+      "days": [
+        {
+          "title": "Routing",
+          "work": "Run a traceroute (tracert/traceroute) to two websites and map how many hops each path takes."
+        },
+        {
+          "title": "Redundancy",
+          "work": "Build a string-and-sticky-note network model and count how many alternative paths exist between two nodes."
+        },
+        {
+          "title": "Fault tolerance",
+          "work": "Remove links from your model one at a time and determine which removals disconnect the network."
+        },
+        {
+          "title": "Scalability",
+          "work": "Read about how the internet scaled from ARPANET and explain why open, decentralized design helped it grow."
+        },
+        {
+          "title": "Check",
+          "work": "Complete AP-style questions on routing and fault tolerance using network diagrams."
+        }
+      ],
+      "assessment": "Network diagram questions."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Protocols: TCP, UDP, DNS and HTTP",
+      "objectives": [
+        "Describe the roles of TCP, UDP, DNS and HTTP",
+        "Explain issues that affect network performance"
+      ],
+      "standards": [
+        "9-12.NI.4",
+        "9-12.NI.5",
+        "9-12.CS.1"
+      ],
+      "vocabulary": [
+        "TCP",
+        "UDP",
+        "DNS",
+        "HTTP",
+        "latency",
+        "protocol stack"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "TCP vs. UDP",
+          "work": "Compare TCP and UDP using a video call vs. file download example and list which each would use."
+        },
+        {
+          "title": "DNS",
+          "work": "Use nslookup to look up IP addresses for three domains and explain the DNS lookup process as a diagram."
+        },
+        {
+          "title": "HTTP and the web",
+          "work": "Open browser developer tools, load a web page, and record the HTTP requests, status codes and load time."
+        },
+        {
+          "title": "Bandwidth and latency",
+          "work": "Run an internet speed test at two times of day and explain the difference between bandwidth and latency."
+        },
+        {
+          "title": "Check",
+          "work": "Draw the layers of the internet (physical, IP, TCP/UDP, HTTP) for one web page request and take a short quiz."
+        }
+      ],
+      "assessment": "Protocol stack diagram and quiz."
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "The digital divide and internet impacts",
+      "objectives": [
+        "Evaluate the causes and effects of the digital divide",
+        "Analyze internet governance"
+      ],
+      "standards": [
+        "9-12.IC.23",
+        "9-12.NI.4",
+        "9-12.IC.27"
+      ],
+      "vocabulary": [
+        "digital divide",
+        "net neutrality",
+        "ICANN",
+        "broadband"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Digital divide",
+          "work": "Use FCC broadband map data to compare internet access in a rural and an urban California county."
+        },
+        {
+          "title": "Effects",
+          "work": "Read an article on how the digital divide affected students during remote learning and summarize three impacts."
+        },
+        {
+          "title": "Governance",
+          "work": "Research ICANN and net neutrality and write a pro/con table on net neutrality."
+        },
+        {
+          "title": "Global connections",
+          "work": "Use a collaborative document to compare internet access data with a peer or family member from another country or region."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Take the Unit 2 assessment on internet structure, protocols and impacts."
+        }
+      ],
+      "assessment": "Unit 2 assessment."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "User-centered design",
+      "objectives": [
+        "Apply a design process to identify user needs",
+        "Prototype an app on paper"
+      ],
+      "standards": [
+        "9-12.AP.18",
+        "9-12.AP.22"
+      ],
+      "vocabulary": [
+        "user interface",
+        "prototype",
+        "user persona",
+        "design process"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "paper",
+        "markers"
+      ],
+      "days": [
+        {
+          "title": "Design process",
+          "work": "Learn the design process (empathize, define, prototype, test) and analyze three apps you use for good and bad design."
+        },
+        {
+          "title": "User personas",
+          "work": "Interview two family members about a daily problem and write a user persona for each."
+        },
+        {
+          "title": "Paper prototype",
+          "work": "Sketch a paper prototype for an app that solves one persona's problem with at least three screens."
+        },
+        {
+          "title": "User testing",
+          "work": "Test the paper prototype with a user, record feedback, and revise the design."
+        },
+        {
+          "title": "Check",
+          "work": "Submit the prototype and design log documenting feedback and changes."
+        }
+      ],
+      "assessment": "Design log scored with rubric."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Event-driven programming in App Lab",
+      "objectives": [
+        "Create UI elements in App Lab",
+        "Write event handlers"
+      ],
+      "standards": [
+        "9-12.AP.15",
+        "9-12.CS.1"
+      ],
+      "vocabulary": [
+        "event",
+        "event handler",
+        "onEvent",
+        "UI element",
+        "ID"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "App Lab tour",
+          "work": "Open Code.org App Lab and use Design Mode to add buttons, labels and images with meaningful IDs."
+        },
+        {
+          "title": "Events",
+          "work": "Write onEvent handlers that change screens when buttons are clicked."
+        },
+        {
+          "title": "Multi-screen app",
+          "work": "Build a 3-screen app (home, info, quiz) using your paper prototype."
+        },
+        {
+          "title": "Debugging events",
+          "work": "Fix five intentionally broken onEvent programs and record each bug type."
+        },
+        {
+          "title": "Check",
+          "work": "Submit a working multi-screen app and explain how events control program flow."
+        }
+      ],
+      "assessment": "Multi-screen app checklist."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Variables, expressions and strings",
+      "objectives": [
+        "Use variables to store data",
+        "Write expressions and string concatenation"
+      ],
+      "standards": [
+        "9-12.AP.15",
+        "9-12.AP.14"
+      ],
+      "vocabulary": [
+        "variable",
+        "assignment",
+        "expression",
+        "string",
+        "concatenation"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Variables",
+          "work": "Trace assignment statements by hand (a ← 3; b ← a + 2; a ← b) and predict final values."
+        },
+        {
+          "title": "Expressions",
+          "work": "Write expressions with arithmetic and the MOD operator and test them in App Lab."
+        },
+        {
+          "title": "Strings",
+          "work": "Build a 'Mad Libs' app that concatenates user input into a story."
+        },
+        {
+          "title": "Counter app",
+          "work": "Build a clicker counter app that updates a label using a global variable."
+        },
+        {
+          "title": "Check",
+          "work": "Complete AP-style pseudocode tracing questions on variables."
+        }
+      ],
+      "assessment": "Tracing quiz and Mad Libs app."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Conditionals and Boolean logic",
+      "objectives": [
+        "Use if/else statements",
+        "Write compound Boolean expressions"
+      ],
+      "standards": [
+        "9-12.AP.14",
+        "9-12.AP.12"
+      ],
+      "vocabulary": [
+        "Boolean",
+        "conditional",
+        "if-else",
+        "AND",
+        "OR",
+        "NOT"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Booleans",
+          "work": "Evaluate 15 Boolean expressions using comparison and logical operators and build a truth table for AND/OR."
+        },
+        {
+          "title": "If-else",
+          "work": "Write a program that gives a different message for a user's age range."
+        },
+        {
+          "title": "Nested conditionals",
+          "work": "Build a 'Which Pet Should You Get?' quiz app that uses nested and compound conditionals."
+        },
+        {
+          "title": "Flowcharts",
+          "work": "Draw a flowchart for a movie-ticket pricing algorithm (age, day, student ID) before coding it, then implement it and compare code to chart."
+        },
+        {
+          "title": "Check",
+          "work": "Complete AP-style questions tracing conditionals in pseudocode."
+        }
+      ],
+      "assessment": "Conditionals quiz and quiz app."
+    },
+    {
+      "week": 14,
+      "unit": 3,
+      "topic": "Debugging and pair programming project",
+      "objectives": [
+        "Apply systematic debugging strategies",
+        "Collaborate in pair programming roles"
+      ],
+      "standards": [
+        "9-12.CS.3",
+        "9-12.AP.21",
+        "9-12.AP.20"
+      ],
+      "vocabulary": [
+        "debugging",
+        "syntax error",
+        "logic error",
+        "driver",
+        "navigator"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Debugging guide",
+          "work": "Write a debugging checklist (read the error, isolate, print/console.log, rubber duck) for others to use."
+        },
+        {
+          "title": "Pair programming",
+          "work": "Pair program with a sibling, parent or online partner, switching driver/navigator every 15 minutes, on a decision-maker app."
+        },
+        {
+          "title": "Build",
+          "work": "Continue building the app, adding at least two screens, variables and conditionals."
+        },
+        {
+          "title": "Test and refine",
+          "work": "Have a user test the app while you silently observe, log every bug or confusion in a table, and fix the top three."
+        },
+        {
+          "title": "Unit 3 project",
+          "work": "Submit the app with a short write-up of design decisions and debugging."
+        }
+      ],
+      "assessment": "Unit 3 app project rubric."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Lists",
+      "objectives": [
+        "Create and access lists",
+        "Use lists to generalize solutions"
+      ],
+      "standards": [
+        "9-12.AP.13",
+        "9-12.DA.9"
+      ],
+      "vocabulary": [
+        "list",
+        "element",
+        "index",
+        "append",
+        "length"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Why lists?",
+          "work": "Rewrite a program with five separate variables using one list and explain the benefit."
+        },
+        {
+          "title": "List operations",
+          "work": "Practice appendItem, insertItem, removeItem and indexing in App Lab."
+        },
+        {
+          "title": "Index tracing",
+          "work": "Trace 10 AP reference-sheet pseudocode problems that use lists with 1-based indexing and compare to App Lab's 0-based indexing."
+        },
+        {
+          "title": "List app",
+          "work": "Build a reminder or playlist app that adds and displays items from a list."
+        },
+        {
+          "title": "Check",
+          "work": "Complete a list-operations quiz predicting list contents after sequences of APPEND, INSERT and REMOVE."
+        }
+      ],
+      "assessment": "List quiz and app."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Loops",
+      "objectives": [
+        "Use while and for loops",
+        "Choose the appropriate loop structure"
+      ],
+      "standards": [
+        "9-12.AP.14",
+        "9-12.AP.13"
+      ],
+      "vocabulary": [
+        "loop",
+        "iteration",
+        "while",
+        "for",
+        "infinite loop"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "While loops",
+          "work": "Write a while loop that simulates rolling a die until a 6 appears, counting rolls, and run it 20 times to find the average."
+        },
+        {
+          "title": "For loops",
+          "work": "Write for loops that count, sum and repeat drawing commands."
+        },
+        {
+          "title": "Choosing loops",
+          "work": "Compare while and for for three tasks and justify the choice for readability."
+        },
+        {
+          "title": "Infinite loops",
+          "work": "Find and fix the infinite loops in three provided programs and explain the missing update or wrong condition in each."
+        },
+        {
+          "title": "Check",
+          "work": "Complete AP-style questions on REPEAT n TIMES and REPEAT UNTIL."
+        }
+      ],
+      "assessment": "Loop quiz."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Traversals: filter, map and reduce",
+      "objectives": [
+        "Traverse a list to process every element",
+        "Write filter, map and reduce patterns"
+      ],
+      "standards": [
+        "9-12.AP.13",
+        "9-12.AP.12",
+        "9-12.DA.9"
+      ],
+      "vocabulary": [
+        "traversal",
+        "filter",
+        "map",
+        "reduce",
+        "FOR EACH"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Traversal",
+          "work": "Write a FOR EACH loop and an index-based for loop that each display every item in a list of 10 song titles, then compare readability."
+        },
+        {
+          "title": "Filter",
+          "work": "Filter a list of 30 daily high temperatures into a new list of days above 90°F and display the count."
+        },
+        {
+          "title": "Map and reduce",
+          "work": "Convert a list of Celsius temperatures to Fahrenheit (map) and find the average (reduce)."
+        },
+        {
+          "title": "Data library",
+          "work": "Use App Lab's data library to load a real dataset into lists."
+        },
+        {
+          "title": "Check",
+          "work": "Solve six traversal problems (count matches, find max, average, filter by length, map to uppercase, find first index) in App Lab."
+        }
+      ],
+      "assessment": "Traversal problem set."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Data app project and semester exam",
+      "objectives": [
+        "Build an app that processes real data",
+        "Demonstrate semester mastery"
+      ],
+      "standards": [
+        "9-12.AP.13",
+        "9-12.AP.15",
+        "9-12.AP.22",
+        "9-12.DA.8",
+        "9-12.NI.5"
+      ],
+      "vocabulary": [
+        "dataset",
+        "user input"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Plan",
+          "work": "Choose a dataset from the App Lab data library and plan an app that filters it based on user input."
+        },
+        {
+          "title": "Build",
+          "work": "Build the data app so a dropdown choice filters the dataset with a traversal and displays matching results and a count."
+        },
+        {
+          "title": "Test",
+          "work": "Have a user try three different inputs, record any wrong or empty results, and refine the app to handle them."
+        },
+        {
+          "title": "Semester review",
+          "work": "Review units 1–4 by completing 30 AP-style practice questions and making a one-page summary sheet of missed concepts."
+        },
+        {
+          "title": "Semester exam",
+          "work": "Take the semester exam: 50 AP-style multiple-choice questions covering data, the internet and programming through traversals."
+        }
+      ],
+      "assessment": "Semester exam and data app."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Procedures with parameters and return values",
+      "objectives": [
+        "Write procedures with parameters",
+        "Use return values"
+      ],
+      "standards": [
+        "9-12.AP.16",
+        "9-12.AP.17"
+      ],
+      "vocabulary": [
+        "procedure",
+        "parameter",
+        "argument",
+        "return",
+        "procedural abstraction"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Procedures",
+          "work": "Find repeated code in an earlier app and refactor it into a named procedure, confirming the app behaves identically."
+        },
+        {
+          "title": "Parameters",
+          "work": "Write procedures with parameters for drawing shapes of different sizes."
+        },
+        {
+          "title": "Return values",
+          "work": "Write functions that return values (tip calculator, letter grade, area of a circle) and use the returned values in expressions."
+        },
+        {
+          "title": "Decomposition",
+          "work": "Decompose a game into procedures on a diagram before coding."
+        },
+        {
+          "title": "Check",
+          "work": "Complete 10 AP-style questions tracing PROCEDURE calls with parameters and RETURN values."
+        }
+      ],
+      "assessment": "Procedure quiz."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Libraries and APIs",
+      "objectives": [
+        "Use libraries and documentation",
+        "Explain license limitations of libraries"
+      ],
+      "standards": [
+        "9-12.AP.17",
+        "9-12.AP.19",
+        "9-12.AP.22"
+      ],
+      "vocabulary": [
+        "library",
+        "API",
+        "documentation"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Libraries",
+          "work": "Read App Lab library documentation and use a library function."
+        },
+        {
+          "title": "Create a library",
+          "work": "Write your own library of three functions with documentation."
+        },
+        {
+          "title": "Share",
+          "work": "Share your library and use a partner's or a Code.org example library."
+        },
+        {
+          "title": "Licensing",
+          "work": "Research the license of a popular open-source library (e.g., p5.js) and explain usage limits."
+        },
+        {
+          "title": "Check",
+          "work": "Write a documentation comment (purpose, parameters, return value, example) for each function in your library and take a short quiz."
+        }
+      ],
+      "assessment": "Library project and quiz."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Searching and algorithm efficiency",
+      "objectives": [
+        "Compare linear and binary search",
+        "Analyze algorithm efficiency"
+      ],
+      "standards": [
+        "9-12.AP.12",
+        "9-12.IC.25"
+      ],
+      "vocabulary": [
+        "linear search",
+        "binary search",
+        "efficiency",
+        "reasonable time"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "deck of cards"
+      ],
+      "days": [
+        {
+          "title": "Linear search",
+          "work": "Search for a target card in a shuffled deck of 52 cards one at a time, counting steps over five trials."
+        },
+        {
+          "title": "Binary search",
+          "work": "Search a sorted deck using binary search and compare the steps."
+        },
+        {
+          "title": "Efficiency",
+          "work": "Graph worst-case steps vs. list size (8 to 1,024) for linear and binary search and describe the growth as linear vs. logarithmic."
+        },
+        {
+          "title": "Across disciplines",
+          "work": "Show how binary search applies to a dictionary, debugging and guessing games."
+        },
+        {
+          "title": "Check",
+          "work": "Complete AP-style questions classifying algorithms as reasonable (polynomial) or unreasonable (exponential) time."
+        }
+      ],
+      "assessment": "Efficiency questions."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Unsolvable problems, heuristics and parallel computing",
+      "objectives": [
+        "Identify unreasonable-time and undecidable problems",
+        "Compare sequential, parallel and distributed computing"
+      ],
+      "standards": [
+        "9-12.AP.12",
+        "9-12.CS.2",
+        "9-12.IC.25"
+      ],
+      "vocabulary": [
+        "heuristic",
+        "undecidable",
+        "parallel computing",
+        "distributed computing",
+        "speedup"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Traveling salesperson",
+          "work": "Try to find the shortest route through 6 cities and count the possibilities."
+        },
+        {
+          "title": "Heuristics",
+          "work": "Use a nearest-neighbor heuristic and compare to the best route."
+        },
+        {
+          "title": "Undecidable problems",
+          "work": "Read about Turing's halting problem and write a paragraph explaining in your own words why no program can decide whether every program halts."
+        },
+        {
+          "title": "Parallel computing",
+          "work": "Time sorting cards alone vs. with helpers and calculate speedup."
+        },
+        {
+          "title": "Check",
+          "work": "Take the Unit 5 assessment on procedures, libraries, search algorithms, efficiency and parallel computing."
+        }
+      ],
+      "assessment": "Unit 5 assessment."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Collecting and cleaning data",
+      "objectives": [
+        "Collect data with a survey",
+        "Clean data for analysis"
+      ],
+      "standards": [
+        "9-12.DA.9",
+        "9-12.IC.29"
+      ],
+      "vocabulary": [
+        "dataset",
+        "data cleaning",
+        "metadata",
+        "sample"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "Google Sheets"
+      ],
+      "days": [
+        {
+          "title": "Data questions",
+          "work": "Write a question to investigate (e.g., teen sleep vs. screen time) and design a 6-question survey with consistent answer formats."
+        },
+        {
+          "title": "Collect",
+          "work": "Collect survey responses from at least 15 people using Google Forms and export them to a spreadsheet."
+        },
+        {
+          "title": "Clean",
+          "work": "Clean the data by standardizing entries and removing duplicates."
+        },
+        {
+          "title": "Storage tradeoffs",
+          "work": "Compare storing data in a spreadsheet vs. a database vs. cloud storage."
+        },
+        {
+          "title": "Check",
+          "work": "Submit the cleaned dataset with a reflection on what cleaning decisions you made and how they could affect conclusions."
+        }
+      ],
+      "assessment": "Cleaned dataset."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Data visualization",
+      "objectives": [
+        "Create visualizations that communicate patterns",
+        "Choose an appropriate chart type for a question"
+      ],
+      "standards": [
+        "9-12.DA.10",
+        "9-12.DA.9"
+      ],
+      "vocabulary": [
+        "chart",
+        "pivot table",
+        "correlation",
+        "trend",
+        "outlier"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "Google Sheets"
+      ],
+      "days": [
+        {
+          "title": "Chart types",
+          "work": "Compare bar, line, scatter and histogram charts using four sample datasets and write which question each chart answers best."
+        },
+        {
+          "title": "Pivot tables",
+          "work": "Build a pivot table in Google Sheets that summarizes your survey responses by category and counts or averages each group."
+        },
+        {
+          "title": "Visualize your data",
+          "work": "Create three different charts from your cleaned survey data, each with a clear title, labeled axes and a one-sentence takeaway."
+        },
+        {
+          "title": "Large public data",
+          "work": "Download a CA dataset (e.g., daily temperatures or AQI from a public source) and make a line chart showing a trend over time, noting outliers."
+        },
+        {
+          "title": "Check",
+          "work": "Present a 3-slide data story (question, visualization, conclusion and limitations) to a parent and answer two follow-up questions."
+        }
+      ],
+      "assessment": "Data story presentation scored with rubric."
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "Simulations and computational models",
+      "objectives": [
+        "Build a simulation using random numbers",
+        "Refine a model so it better matches real data"
+      ],
+      "standards": [
+        "9-12.DA.11",
+        "9-12.AP.12"
+      ],
+      "vocabulary": [
+        "simulation",
+        "model",
+        "random",
+        "assumption",
+        "abstraction"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Why simulate?",
+          "work": "Read the Code.org simulations lesson and list three real simulations (weather, traffic, epidemics) and what each simplifies."
+        },
+        {
+          "title": "Random numbers",
+          "work": "Write an App Lab program that flips a coin 1,000 times with randomNumber(0,1) and compare the result to the expected 50%."
+        },
+        {
+          "title": "Build a model",
+          "work": "Build a checkout-line simulation where customers arrive randomly and one cashier serves them; record the average wait."
+        },
+        {
+          "title": "Refine the model",
+          "work": "Time real arrivals at a store or drive-through for 15 minutes, then change your model's arrival rate and add a second cashier to match."
+        },
+        {
+          "title": "Check",
+          "work": "Write a paragraph explaining what your model leaves out, how refinement changed its predictions, and one decision it could inform."
+        }
+      ],
+      "assessment": "Simulation program and model-limitations paragraph."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Bias in data and machine learning",
+      "objectives": [
+        "Identify sources of bias in data and algorithms",
+        "Propose processes to evaluate and reduce bias"
+      ],
+      "standards": [
+        "9-12.IC.24",
+        "9-12.IC.29",
+        "9-12.DA.10"
+      ],
+      "vocabulary": [
+        "bias",
+        "machine learning",
+        "training data",
+        "crowdsourcing",
+        "citizen science"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Bias in data",
+          "work": "Identify the sampling bias in five survey scenarios (e.g., an online-only poll about internet access) and rewrite one to fix it."
+        },
+        {
+          "title": "Machine learning",
+          "work": "Train an image classifier in Teachable Machine with deliberately unbalanced training data, then retrain with balanced data and compare accuracy."
+        },
+        {
+          "title": "Algorithmic bias",
+          "work": "Read a credible news article on facial recognition or hiring-algorithm bias and identify where in the pipeline the bias entered."
+        },
+        {
+          "title": "Crowdsourcing and fixes",
+          "work": "Explore a citizen-science project (e.g., Zooniverse) and write a checklist developers can use to test an app for bias."
+        },
+        {
+          "title": "Unit 6 test",
+          "work": "Take the Unit 6 assessment on data collection, visualization, simulation and bias."
+        }
+      ],
+      "assessment": "Unit 6 assessment and bias checklist."
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Privacy and personal data",
+      "objectives": [
+        "Identify personally identifiable information",
+        "Evaluate the tradeoffs of automated data collection"
+      ],
+      "standards": [
+        "9-12.IC.29",
+        "9-12.IC.30"
+      ],
+      "vocabulary": [
+        "PII",
+        "cookies",
+        "tracking",
+        "privacy policy",
+        "CCPA"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "PII inventory",
+          "work": "List the personally identifiable information you have shared with apps and websites and rate the risk of each item."
+        },
+        {
+          "title": "Tracking",
+          "work": "Inspect cookies and site permissions in your browser, then use a tracker-visualizer extension or privacy report to count third-party trackers on a news site."
+        },
+        {
+          "title": "Privacy policies",
+          "work": "Read the privacy policy of an app you use and summarize what data it collects, who it shares with, and how to delete it."
+        },
+        {
+          "title": "California privacy law",
+          "work": "Learn the rights the California Consumer Privacy Act (CCPA/CPRA) gives residents and draft a data-deletion request email."
+        },
+        {
+          "title": "Check",
+          "work": "Write a 400-word argument on whether location tracking for safety is worth the privacy cost, using evidence from this week."
+        }
+      ],
+      "assessment": "Privacy argument essay."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Cryptography",
+      "objectives": [
+        "Encrypt and decrypt with symmetric ciphers",
+        "Explain how public key encryption enables secure communication"
+      ],
+      "standards": [
+        "9-12.NI.7",
+        "9-12.NI.6"
+      ],
+      "vocabulary": [
+        "encryption",
+        "Caesar cipher",
+        "Vigenère cipher",
+        "public key",
+        "private key",
+        "HTTPS"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Caesar cipher",
+          "work": "Encrypt a sentence with a Caesar cipher, then crack a partner's message by trying all 25 shifts with the Code.org widget."
+        },
+        {
+          "title": "Frequency analysis",
+          "work": "Use the Code.org frequency-analysis widget to crack a random-substitution cipher and explain why letter frequencies leak information."
+        },
+        {
+          "title": "Vigenère cipher",
+          "work": "Encrypt with a Vigenère cipher using a keyword and explain why a longer key is harder to crack."
+        },
+        {
+          "title": "Public key",
+          "work": "Model public key exchange with the paint-mixing analogy, then explain how HTTPS uses public keys when you load a website."
+        },
+        {
+          "title": "Check",
+          "work": "Take a cryptography quiz comparing symmetric and asymmetric encryption and computationally hard problems."
+        }
+      ],
+      "assessment": "Cryptography quiz."
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Cybersecurity threats and protection",
+      "objectives": [
+        "Identify common cyberattacks",
+        "Compare security measures for different threats"
+      ],
+      "standards": [
+        "9-12.NI.6",
+        "9-12.IC.30"
+      ],
+      "vocabulary": [
+        "phishing",
+        "malware",
+        "ransomware",
+        "DDoS",
+        "multifactor authentication"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Threat research",
+          "work": "Research phishing, malware, ransomware and DDoS attacks and make a chart of how each works and a real example."
+        },
+        {
+          "title": "Spot the phish",
+          "work": "Analyze 10 sample emails and texts, label each as legitimate or phishing, and list the clues."
+        },
+        {
+          "title": "Passwords and MFA",
+          "work": "Calculate the number of possible passwords for 8 vs. 16 characters and turn on multifactor authentication for one of your accounts."
+        },
+        {
+          "title": "Security measures",
+          "work": "Match firewalls, antivirus, encryption, software updates and backups to the threats they address and note their limits."
+        },
+        {
+          "title": "Check",
+          "work": "Write a one-page cybersecurity guide for your family with five specific actions and why each matters."
+        }
+      ],
+      "assessment": "Family cybersecurity guide."
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "Emerging technologies and computing innovations",
+      "objectives": [
+        "Research a computing innovation's beneficial and harmful effects",
+        "Use credible sources to support claims"
+      ],
+      "standards": [
+        "9-12.IC.26",
+        "9-12.IC.23"
+      ],
+      "vocabulary": [
+        "computing innovation",
+        "artificial intelligence",
+        "automation",
+        "unintended consequence"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Choose an innovation",
+          "work": "Pick a computing innovation (generative AI, self-driving cars, facial recognition, ride-sharing apps) and write three research questions."
+        },
+        {
+          "title": "Research",
+          "work": "Find at least three credible sources and record evidence on data used, benefits, harms and who is affected."
+        },
+        {
+          "title": "Effects analysis",
+          "work": "Build a table of intended vs. unintended and beneficial vs. harmful effects on social, economic and cultural life."
+        },
+        {
+          "title": "Write",
+          "work": "Write a 600-word impact essay with citations taking a position on how the innovation should be used or regulated."
+        },
+        {
+          "title": "Unit 7 test",
+          "work": "Take the Unit 7 assessment on privacy, cryptography, cybersecurity and impacts."
+        }
+      ],
+      "assessment": "Unit 7 assessment and impact essay."
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Python basics",
+      "objectives": [
+        "Write Python programs with variables, input, conditionals and loops",
+        "Compare block-based and text-based syntax"
+      ],
+      "standards": [
+        "9-12.AP.14",
+        "9-12.AP.16"
+      ],
+      "vocabulary": [
+        "syntax",
+        "print",
+        "input",
+        "indentation",
+        "type conversion"
+      ],
+      "materials": [
+        "computer with internet",
+        "Trinket or Replit account"
+      ],
+      "days": [
+        {
+          "title": "Hello, Python",
+          "work": "Create a Trinket account, write print statements, and fix three syntax errors in a provided program."
+        },
+        {
+          "title": "Variables and input",
+          "work": "Write a Python tip calculator using input(), float() conversion and formatted output."
+        },
+        {
+          "title": "Conditionals",
+          "work": "Rewrite your App Lab pet-quiz logic in Python using if/elif/else and compare the two versions side by side."
+        },
+        {
+          "title": "Loops",
+          "work": "Write a number-guessing game with a while loop and a times-table printer with a for loop and range()."
+        },
+        {
+          "title": "Check",
+          "work": "Solve five short Python practice problems (even/odd, FizzBuzz, sum to n, grade letter, countdown) and submit them."
+        }
+      ],
+      "assessment": "Python practice set."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Python lists and functions",
+      "objectives": [
+        "Use lists and functions in Python",
+        "Decompose a problem into functions"
+      ],
+      "standards": [
+        "9-12.AP.13",
+        "9-12.AP.16",
+        "9-12.AP.17"
+      ],
+      "vocabulary": [
+        "list",
+        "def",
+        "return",
+        "parameter",
+        "module"
+      ],
+      "materials": [
+        "computer with internet",
+        "Trinket or Replit account"
+      ],
+      "days": [
+        {
+          "title": "Lists",
+          "work": "Create Python lists, use append, len and slicing, and traverse a list of test scores to find the max and average."
+        },
+        {
+          "title": "Functions",
+          "work": "Write functions with parameters and return values (e.g., to_fahrenheit, is_vowel) and test each with three inputs."
+        },
+        {
+          "title": "CS50 lecture",
+          "work": "Watch the CS50 Python-week lecture segment on functions and lists and note two ideas that match what you did in App Lab."
+        },
+        {
+          "title": "Mini project",
+          "work": "Build a Python program (gradebook, quiz game or word counter) that uses a list, a loop and at least two functions in a separate module."
+        },
+        {
+          "title": "Check",
+          "work": "Demonstrate the mini project and explain how your functions decompose the problem."
+        }
+      ],
+      "assessment": "Python mini-project rubric."
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Create Performance Task: planning",
+      "objectives": [
+        "Plan a program meeting the AP Create task requirements",
+        "Document design decisions"
+      ],
+      "standards": [
+        "9-12.AP.18",
+        "9-12.AP.22",
+        "9-12.AP.16"
+      ],
+      "vocabulary": [
+        "Create performance task",
+        "Personalized Project Reference",
+        "input",
+        "output"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Requirements",
+          "work": "Read the College Board Create task requirements and make a checklist: input, list, procedure with parameter, sequencing/selection/iteration, output."
+        },
+        {
+          "title": "Brainstorm",
+          "work": "Brainstorm five program ideas for a real user and score each on purpose, feasibility and how naturally it uses a list."
+        },
+        {
+          "title": "Plan",
+          "work": "Write a program plan with the purpose, the list and what it manages, and the student-developed procedure and its algorithm in pseudocode."
+        },
+        {
+          "title": "Prototype",
+          "work": "Sketch the user interface screens and walk a potential user through them to collect feedback."
+        },
+        {
+          "title": "Check",
+          "work": "Review the plan against the checklist with a parent and revise any missing requirement."
+        }
+      ],
+      "assessment": "Plan checklist review."
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Create Performance Task: development",
+      "objectives": [
+        "Develop the program iteratively",
+        "Keep a development log"
+      ],
+      "standards": [
+        "9-12.AP.15",
+        "9-12.AP.17",
+        "9-12.AP.21",
+        "9-12.IC.27"
+      ],
+      "vocabulary": [
+        "iterative development",
+        "incremental development",
+        "version"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Interface",
+          "work": "Build the program's screens and event handlers in App Lab (or Python) and log your progress."
+        },
+        {
+          "title": "List",
+          "work": "Code the list that stores your program's data and display it to verify it is populated correctly."
+        },
+        {
+          "title": "Procedure",
+          "work": "Write the student-developed procedure with a parameter that uses sequencing, selection and iteration."
+        },
+        {
+          "title": "Test",
+          "work": "Write and run at least four test cases, including edge cases, recording expected vs. actual results."
+        },
+        {
+          "title": "Peer review",
+          "work": "Share your program with a CS peer through an online community or co-op and give/receive feedback using a collaborative document."
+        }
+      ],
+      "assessment": "Development log and test cases."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Create Performance Task: refine and document",
+      "objectives": [
+        "Refine the program using user feedback",
+        "Record the video and complete the Personalized Project Reference"
+      ],
+      "standards": [
+        "9-12.AP.20",
+        "9-12.AP.18",
+        "9-12.AP.22",
+        "9-12.AP.19"
+      ],
+      "vocabulary": [
+        "video",
+        "documentation",
+        "acknowledgement",
+        "accessibility"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account",
+        "screen recorder"
+      ],
+      "days": [
+        {
+          "title": "User testing",
+          "work": "Have two users test the program, note usability and accessibility problems, and prioritize fixes."
+        },
+        {
+          "title": "Refine",
+          "work": "Fix the top issues, add code comments, and acknowledge any code or media from others with correct license attribution."
+        },
+        {
+          "title": "Video",
+          "work": "Record a 1-minute-or-less screen video showing input, program functionality and output."
+        },
+        {
+          "title": "Written responses",
+          "work": "Capture your list and procedure code segments in a Personalized Project Reference and practice the written-response prompts about them."
+        },
+        {
+          "title": "Submit",
+          "work": "Submit the program code, video and PPR, and self-score with the College Board rubric."
+        }
+      ],
+      "assessment": "Create task self-score with the AP rubric."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "AP exam review and final",
+      "objectives": [
+        "Review all five AP CSP big ideas",
+        "Demonstrate mastery on a cumulative exam"
+      ],
+      "standards": [
+        "9-12.DA.8",
+        "9-12.NI.5",
+        "9-12.AP.12",
+        "9-12.IC.23"
+      ],
+      "vocabulary": [
+        "Creative Development",
+        "Data",
+        "Algorithms and Programming",
+        "Computer Systems and Networks",
+        "Impact of Computing"
+      ],
+      "materials": [
+        "computer with internet",
+        "Code.org account"
+      ],
+      "days": [
+        {
+          "title": "Review: data and networks",
+          "work": "Complete Khan Academy AP CSP practice on binary, compression, the internet and fault tolerance and correct every error."
+        },
+        {
+          "title": "Review: programming",
+          "work": "Trace 20 AP reference-sheet pseudocode problems on lists, loops, procedures and Boolean logic."
+        },
+        {
+          "title": "Practice exam",
+          "work": "Take a timed 70-question AP-style practice exam under test conditions (120 minutes)."
+        },
+        {
+          "title": "Error analysis",
+          "work": "Categorize missed practice-exam questions by big idea and redo each with a written explanation."
+        },
+        {
+          "title": "Final exam",
+          "work": "Take the cumulative course final and write a short reflection on your growth as a programmer."
+        }
+      ],
+      "assessment": "Practice exam and cumulative final."
+    }
+  ]
+}
