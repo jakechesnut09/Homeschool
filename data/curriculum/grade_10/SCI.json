@@ -1,0 +1,1913 @@
+{
+  "grade": 10,
+  "subject": "SCI",
+  "title": "Chemistry in the Earth System",
+  "description": "The second course in California's three-course NGSS high school model, connecting chemistry to Earth's systems. Students investigate combustion, atomic structure and the origin of elements in stars, bonding and material properties, energy flow in the Earth system, reaction stoichiometry, the chemistry of climate change, reaction rates and equilibrium, and ocean acidification. Every week includes a hands-on investigation with household materials or a PhET simulation, plus data analysis and claim-evidence-reasoning writing.",
+  "framework": "California Next Generation Science Standards (HS); 2016 CA Science Framework – Chemistry in the Earth System",
+  "minutes_per_day": 60,
+  "ag_requirement": "d",
+  "credits": 10,
+  "standards": {
+    "HS-PS1-1": "Use the periodic table as a model to predict relative properties of elements based on outer-energy-level electrons.",
+    "HS-PS1-2": "Construct and revise an explanation for the outcome of a simple chemical reaction based on atomic structure and periodic trends.",
+    "HS-PS1-3": "Plan and conduct an investigation to gather evidence to compare bulk-scale structure of substances to infer strength of electrical forces between particles.",
+    "HS-PS1-4": "Develop a model to illustrate that release or absorption of energy from a reaction depends on changes in total bond energy.",
+    "HS-PS1-5": "Apply scientific principles and evidence to explain effects of temperature and concentration on reaction rate.",
+    "HS-PS1-6": "Refine the design of a chemical system by specifying a change in conditions that would produce increased amounts of products at equilibrium.",
+    "HS-PS1-7": "Use mathematical representations to support the claim that atoms, and therefore mass, are conserved during a chemical reaction.",
+    "HS-PS1-8": "Develop models to illustrate changes in the composition of the nucleus and energy released during fission, fusion, and radioactive decay.",
+    "HS-PS2-6": "Communicate why molecular-level structure is important in the functioning of designed materials.",
+    "HS-PS3-1": "Create a computational model to calculate the change in energy of one component in a system when the change in energy of others is known.",
+    "HS-PS3-2": "Develop and use models to illustrate that energy at the macroscopic scale can be accounted for as motion of particles and energy stored in fields.",
+    "HS-PS3-3": "Design, build, and refine a device that converts one form of energy into another within constraints.",
+    "HS-PS3-4": "Plan and conduct an investigation to show that transfer of thermal energy in a closed system results in more uniform energy distribution (second law).",
+    "HS-ESS1-1": "Develop a model based on evidence to illustrate the life span of the Sun and the role of nuclear fusion in releasing energy that reaches Earth.",
+    "HS-ESS1-3": "Communicate scientific ideas about the way stars, over their life cycle, produce elements.",
+    "HS-ESS2-2": "Analyze geoscience data to make the claim that one change to Earth's surface can create feedbacks that cause changes to other Earth systems.",
+    "HS-ESS2-3": "Develop a model based on evidence of Earth's interior to describe the cycling of matter by thermal convection.",
+    "HS-ESS2-4": "Use a model to describe how variations in the flow of energy into and out of Earth's systems result in changes in climate.",
+    "HS-ESS2-5": "Plan and conduct an investigation of the properties of water and its effects on Earth materials and surface processes.",
+    "HS-ESS2-6": "Develop a quantitative model to describe the cycling of carbon among the hydrosphere, atmosphere, geosphere, and biosphere.",
+    "HS-ESS3-4": "Evaluate or refine a technological solution that reduces impacts of human activities on natural systems.",
+    "HS-ESS3-5": "Analyze geoscience data and results from global climate models to make an evidence-based forecast of the current rate of global or regional climate change.",
+    "HS-ESS3-6": "Use a computational representation to illustrate relationships among Earth systems and how those relationships are being modified by human activity.",
+    "HS-ETS1-1": "Analyze a major global challenge to specify qualitative and quantitative criteria and constraints for solutions.",
+    "HS-ETS1-3": "Evaluate a solution to a complex real-world problem based on prioritized criteria and trade-offs."
+  },
+  "resources": [
+    {
+      "name": "PhET Chemistry Simulations",
+      "url": "https://phet.colorado.edu/en/simulations/filter?subjects=chemistry",
+      "note": "Free interactive sims: build an atom, molecule shapes, reactants/products, pH scale"
+    },
+    {
+      "name": "Khan Academy – Chemistry",
+      "url": "https://www.khanacademy.org/science/chemistry",
+      "note": "Video lessons and practice for each unit"
+    },
+    {
+      "name": "OpenStax Chemistry 2e",
+      "url": "https://openstax.org/details/books/chemistry-2e",
+      "note": "Free peer-reviewed chemistry textbook"
+    },
+    {
+      "name": "NOAA Climate.gov",
+      "url": "https://www.climate.gov/",
+      "note": "Climate and carbon-cycle data and explainers"
+    },
+    {
+      "name": "NASA Climate",
+      "url": "https://science.nasa.gov/climate-change/",
+      "note": "Evidence, data, and vital signs of the planet"
+    },
+    {
+      "name": "CK-12 Chemistry",
+      "url": "https://www.ck12.org/",
+      "note": "Free FlexBook chemistry readings and practice"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Combustion: Matter and Energy",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Burning fuel rearranges atoms and releases stored energy that powers society and changes the atmosphere.",
+      "standards": [
+        "HS-PS1-2",
+        "HS-ETS1-1",
+        "HS-PS1-7",
+        "HS-PS3-1",
+        "HS-PS1-4",
+        "HS-ESS3-6"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Atoms, Elements and the Stars",
+      "start_week": 5,
+      "end_week": 9,
+      "big_idea": "Every element on Earth was forged in stars; atomic structure explains periodic patterns.",
+      "standards": [
+        "HS-PS1-1",
+        "HS-PS1-8",
+        "HS-ESS1-3",
+        "HS-PS1-2",
+        "HS-ESS1-1"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Bonding, Structure and Materials",
+      "start_week": 10,
+      "end_week": 14,
+      "big_idea": "Electrical forces between particles determine a substance's properties and uses.",
+      "standards": [
+        "HS-PS1-1",
+        "HS-PS1-2",
+        "HS-PS1-3",
+        "HS-PS2-6",
+        "HS-PS1-7"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Heat and Energy in the Earth System",
+      "start_week": 15,
+      "end_week": 18,
+      "big_idea": "Thermal energy flows from hot to cold, driving Earth's interior convection and surface systems.",
+      "standards": [
+        "HS-PS3-2",
+        "HS-PS3-4",
+        "HS-PS3-1",
+        "HS-ESS2-3",
+        "HS-PS1-1",
+        "HS-PS1-3",
+        "HS-PS3-3"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Chemical Reactions and Stoichiometry",
+      "start_week": 19,
+      "end_week": 23,
+      "big_idea": "Atoms are conserved in reactions, so quantities can be predicted mathematically.",
+      "standards": [
+        "HS-PS1-7",
+        "HS-PS1-2",
+        "HS-PS1-4"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Chemistry of Climate Change",
+      "start_week": 24,
+      "end_week": 27,
+      "big_idea": "Greenhouse gases alter Earth's energy balance; carbon cycles among spheres.",
+      "standards": [
+        "HS-ESS2-4",
+        "HS-PS3-1",
+        "HS-ESS2-6",
+        "HS-ESS3-6",
+        "HS-ESS2-2",
+        "HS-ESS3-5",
+        "HS-ESS3-4",
+        "HS-ETS1-3"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Reaction Rates and Equilibrium",
+      "start_week": 28,
+      "end_week": 31,
+      "big_idea": "Collisions control reaction speed, and systems shift to counter changes.",
+      "standards": [
+        "HS-PS1-5",
+        "HS-PS1-6",
+        "HS-ETS1-3"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Water, Acids and Ocean Acidification",
+      "start_week": 32,
+      "end_week": 34,
+      "big_idea": "Water's unique properties shape Earth, and dissolved CO₂ is changing ocean chemistry.",
+      "standards": [
+        "HS-ESS2-5",
+        "HS-PS1-3",
+        "HS-PS1-2",
+        "HS-PS1-6",
+        "HS-ESS2-6",
+        "HS-ESS3-6",
+        "HS-ESS3-4"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Capstone and Final Assessment",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "Chemistry explains and helps solve real environmental challenges.",
+      "standards": [
+        "HS-ETS1-1",
+        "HS-ETS1-3",
+        "HS-ESS3-4",
+        "HS-PS1-2",
+        "HS-PS1-7",
+        "HS-ESS2-4",
+        "HS-ESS2-6"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Lab safety, measurement and the phenomenon of fire",
+      "objectives": [
+        "Use lab safety practices",
+        "Make precise measurements with significant figures"
+      ],
+      "standards": [
+        "HS-PS1-2",
+        "HS-ETS1-1"
+      ],
+      "vocabulary": [
+        "significant figures",
+        "precision",
+        "accuracy",
+        "SI units"
+      ],
+      "materials": [
+        "kitchen scale",
+        "measuring cups",
+        "thermometer",
+        "safety goggles"
+      ],
+      "days": [
+        {
+          "title": "Lab safety",
+          "work": "Complete a home-lab safety contract, locate a fire extinguisher, and identify hazards in five lab scenarios."
+        },
+        {
+          "title": "Measurement",
+          "work": "Measure mass, volume and temperature of water samples three times each and calculate mean and percent error."
+        },
+        {
+          "title": "Sig figs & scientific notation",
+          "work": "Practice significant figures and scientific notation with 20 problems using your measurement data."
+        },
+        {
+          "title": "Anchoring phenomenon",
+          "work": "Observe a candle burning and write 10 questions: where does the wax go? Start a driving-question board."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on safety, units, sig figs and dimensional analysis."
+        }
+      ],
+      "assessment": "Quiz and measurement lab sheet."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "What happens when things burn?",
+      "objectives": [
+        "Identify evidence of a chemical change",
+        "Model combustion reactants and products"
+      ],
+      "standards": [
+        "HS-PS1-2",
+        "HS-PS1-7"
+      ],
+      "vocabulary": [
+        "combustion",
+        "reactant",
+        "product",
+        "chemical change",
+        "oxidation"
+      ],
+      "materials": [
+        "candle",
+        "glass jar",
+        "limewater (pickling lime + water)",
+        "steel wool",
+        "9-volt battery"
+      ],
+      "days": [
+        {
+          "title": "Candle under a jar",
+          "work": "Burn a tea light under jars of different sizes and time how long each burns; graph volume vs. time."
+        },
+        {
+          "title": "Products of combustion",
+          "work": "Hold a cool spoon over the flame to collect water and test exhaled air vs. candle air with limewater for CO₂."
+        },
+        {
+          "title": "Steel wool burns",
+          "work": "Weigh steel wool, ignite it with a 9-V battery over a baking tray, re-weigh, and explain the mass gain."
+        },
+        {
+          "title": "Model it",
+          "work": "Draw particle models of methane combustion and write the word and symbol equation."
+        },
+        {
+          "title": "CER",
+          "work": "Write a claim-evidence-reasoning paragraph explaining where the candle's mass goes."
+        }
+      ],
+      "assessment": "CER paragraph scored with rubric."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Energy from fuels",
+      "objectives": [
+        "Compare energy released by fuels",
+        "Calculate energy with q = mcΔT"
+      ],
+      "standards": [
+        "HS-PS3-1",
+        "HS-PS1-4"
+      ],
+      "vocabulary": [
+        "calorie",
+        "joule",
+        "specific heat",
+        "calorimetry",
+        "fossil fuel"
+      ],
+      "materials": [
+        "soda can",
+        "thermometer",
+        "paperclip",
+        "cheese puffs and nuts",
+        "matches"
+      ],
+      "days": [
+        {
+          "title": "Energy units",
+          "work": "Convert between joules, calories and food Calories and read nutrition labels for energy content."
+        },
+        {
+          "title": "Food calorimeter",
+          "work": "Build a soda-can calorimeter and burn a cheese puff and a cashew to heat 100 mL of water."
+        },
+        {
+          "title": "Calculate q",
+          "work": "Use q = mcΔT to compute energy released per gram and compare to label values; explain error."
+        },
+        {
+          "title": "Fuels of California",
+          "work": "Research CA's energy mix (CA Energy Commission) and compare energy per gram of gasoline, natural gas and hydrogen."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on energy calculations."
+        }
+      ],
+      "assessment": "Calorimetry lab report."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Combustion and the atmosphere",
+      "objectives": [
+        "Connect combustion to CO₂ emissions",
+        "Define engineering criteria for cleaner fuels"
+      ],
+      "standards": [
+        "HS-ETS1-1",
+        "HS-ESS3-6",
+        "HS-PS1-7"
+      ],
+      "vocabulary": [
+        "emission",
+        "carbon footprint",
+        "criteria",
+        "constraint"
+      ],
+      "materials": [
+        "CA Air Resources Board data",
+        "spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Carbon accounting",
+          "work": "Calculate kg of CO₂ produced by burning 1 gallon of gasoline using atom counts."
+        },
+        {
+          "title": "Household audit",
+          "work": "Estimate your household's weekly combustion CO₂ from car miles and gas bills."
+        },
+        {
+          "title": "Criteria & constraints",
+          "work": "Define criteria and constraints for a cleaner transportation fuel in a table."
+        },
+        {
+          "title": "Revisit candle",
+          "work": "Revise your candle model with what you've learned and update the driving-question board."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Unit 1 test on combustion, energy and measurement."
+        }
+      ],
+      "assessment": "Unit 1 test."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Atomic structure and history of the atom",
+      "objectives": [
+        "Describe protons, neutrons, electrons",
+        "Trace models from Dalton to Bohr"
+      ],
+      "standards": [
+        "HS-PS1-1",
+        "HS-PS1-8"
+      ],
+      "vocabulary": [
+        "proton",
+        "neutron",
+        "electron",
+        "isotope",
+        "atomic number",
+        "mass number"
+      ],
+      "materials": [
+        "PhET Build an Atom"
+      ],
+      "days": [
+        {
+          "title": "Atomic history timeline",
+          "work": "Make an illustrated timeline of Dalton, Thomson, Rutherford, Bohr and the quantum model."
+        },
+        {
+          "title": "Rutherford analogy",
+          "work": "Roll marbles at a hidden shape under cardboard to infer its shape, modeling the gold-foil experiment."
+        },
+        {
+          "title": "Build an Atom",
+          "work": "Use PhET Build an Atom to construct atoms and ions and record charge and mass."
+        },
+        {
+          "title": "Isotopes",
+          "work": "Calculate average atomic mass from isotope abundances using 'beanium' (three kinds of beans)."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on atomic structure and isotopes."
+        }
+      ],
+      "assessment": "Beanium lab and quiz."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Electrons and light",
+      "objectives": [
+        "Relate electron energy levels to emitted light",
+        "Write electron configurations"
+      ],
+      "standards": [
+        "HS-PS1-1",
+        "HS-ESS1-3"
+      ],
+      "vocabulary": [
+        "energy level",
+        "emission spectrum",
+        "photon",
+        "electron configuration",
+        "valence electron"
+      ],
+      "materials": [
+        "DIY spectroscope (CD + cereal box)",
+        "PhET Models of the Hydrogen Atom"
+      ],
+      "days": [
+        {
+          "title": "Build a spectroscope",
+          "work": "Build a spectroscope from a CD and cereal box and observe incandescent, LED and fluorescent lights."
+        },
+        {
+          "title": "Emission spectra",
+          "work": "Watch flame-test video demonstrations and match colors to elements."
+        },
+        {
+          "title": "Energy levels",
+          "work": "Use the Bohr model to explain why each element has a unique spectrum."
+        },
+        {
+          "title": "Electron configurations",
+          "work": "Write configurations and orbital notation for elements 1–36."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on configurations and spectra."
+        }
+      ],
+      "assessment": "Spectroscope observations and quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Periodic table trends",
+      "objectives": [
+        "Predict properties from valence electrons",
+        "Explain trends in radius and ionization energy"
+      ],
+      "standards": [
+        "HS-PS1-1",
+        "HS-PS1-2"
+      ],
+      "vocabulary": [
+        "period",
+        "group",
+        "atomic radius",
+        "ionization energy",
+        "electronegativity",
+        "reactivity"
+      ],
+      "materials": [
+        "periodic table",
+        "graph paper or spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Organizing elements",
+          "work": "Sort 20 element cards by properties to recreate Mendeleev's reasoning."
+        },
+        {
+          "title": "Graph trends",
+          "work": "Graph atomic radius and first ionization energy vs. atomic number and describe the patterns."
+        },
+        {
+          "title": "Explain trends",
+          "work": "Explain trends using nuclear charge and shielding with diagrams."
+        },
+        {
+          "title": "Reactivity demo",
+          "work": "Watch alkali metal in water videos and predict reactivity down Group 1."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on periodic trends."
+        }
+      ],
+      "assessment": "Trend graphs and quiz."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Nuclear chemistry",
+      "objectives": [
+        "Model fission, fusion and radioactive decay",
+        "Calculate half-life"
+      ],
+      "standards": [
+        "HS-PS1-8"
+      ],
+      "vocabulary": [
+        "alpha decay",
+        "beta decay",
+        "gamma",
+        "half-life",
+        "fission",
+        "fusion"
+      ],
+      "materials": [
+        "pennies or M&Ms",
+        "shoebox"
+      ],
+      "days": [
+        {
+          "title": "Types of decay",
+          "work": "Write nuclear equations for alpha, beta and gamma decay."
+        },
+        {
+          "title": "Half-life lab",
+          "work": "Shake 100 pennies in a box, remove heads each round, graph results and find half-life."
+        },
+        {
+          "title": "Radiometric dating",
+          "work": "Use half-life to calculate ages of rocks (U-238) and artifacts (C-14)."
+        },
+        {
+          "title": "Fission vs. fusion",
+          "work": "Compare fission (Diablo Canyon power plant) and fusion and their energy sources (E = mc²)."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on nuclear equations and half-life."
+        }
+      ],
+      "assessment": "Half-life lab graph and quiz."
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "Stars forge elements",
+      "objectives": [
+        "Explain stellar nucleosynthesis",
+        "Model the Sun's life span"
+      ],
+      "standards": [
+        "HS-ESS1-1",
+        "HS-ESS1-3",
+        "HS-PS1-8"
+      ],
+      "vocabulary": [
+        "nucleosynthesis",
+        "main sequence",
+        "supernova",
+        "red giant",
+        "Big Bang"
+      ],
+      "materials": [
+        "NASA star life cycle resources"
+      ],
+      "days": [
+        {
+          "title": "Fusion in the Sun",
+          "work": "Model the proton-proton chain and explain how mass converts to energy."
+        },
+        {
+          "title": "Life cycle of stars",
+          "work": "Create a star life-cycle diagram for a Sun-like star and a massive star."
+        },
+        {
+          "title": "Where elements come from",
+          "work": "Color-code a periodic table by element origin (Big Bang, stars, supernovae, mergers)."
+        },
+        {
+          "title": "Communicate",
+          "work": "Write a 1-page explainer 'You are made of stardust' using evidence."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Unit 2 test on atoms, periodic table, nuclear processes and stars."
+        }
+      ],
+      "assessment": "Explainer and Unit 2 test."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Ionic bonding",
+      "objectives": [
+        "Explain ionic bond formation",
+        "Name and write formulas for ionic compounds"
+      ],
+      "standards": [
+        "HS-PS1-1",
+        "HS-PS1-2",
+        "HS-PS1-3"
+      ],
+      "vocabulary": [
+        "ion",
+        "cation",
+        "anion",
+        "ionic bond",
+        "crystal lattice",
+        "polyatomic ion"
+      ],
+      "materials": [
+        "table salt",
+        "magnifier",
+        "battery conductivity tester (9V, LED, wires)"
+      ],
+      "days": [
+        {
+          "title": "Ion formation",
+          "work": "Use Lewis dot diagrams to show electron transfer in NaCl, MgO and CaCl₂."
+        },
+        {
+          "title": "Formulas & names",
+          "work": "Write formulas and names for 30 ionic compounds including polyatomic ions."
+        },
+        {
+          "title": "Salt crystals",
+          "work": "Grow salt crystals from saturated solution and examine shapes with a magnifier."
+        },
+        {
+          "title": "Conductivity",
+          "work": "Build an LED conductivity tester and test dry salt, salt water and sugar water."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on ionic compounds."
+        }
+      ],
+      "assessment": "Conductivity data table and quiz."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Covalent bonding and molecular shape",
+      "objectives": [
+        "Draw Lewis structures",
+        "Predict molecular geometry with VSEPR"
+      ],
+      "standards": [
+        "HS-PS1-1",
+        "HS-PS1-3"
+      ],
+      "vocabulary": [
+        "covalent bond",
+        "Lewis structure",
+        "VSEPR",
+        "polar",
+        "nonpolar",
+        "double bond"
+      ],
+      "materials": [
+        "gumdrops and toothpicks",
+        "PhET Molecule Shapes"
+      ],
+      "days": [
+        {
+          "title": "Lewis structures",
+          "work": "Draw Lewis structures for H₂O, CO₂, CH₄, NH₃, O₂ and N₂."
+        },
+        {
+          "title": "Model building",
+          "work": "Build gumdrop models of molecules and identify their shapes."
+        },
+        {
+          "title": "PhET Molecule Shapes",
+          "work": "Use PhET to predict bond angles for molecules with lone pairs."
+        },
+        {
+          "title": "Polarity",
+          "work": "Determine polarity using electronegativity and shape; test with a charged comb and a thin water stream."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on Lewis structures, shapes and polarity."
+        }
+      ],
+      "assessment": "Model photos and quiz."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Intermolecular forces and properties",
+      "objectives": [
+        "Compare intermolecular forces",
+        "Infer force strength from bulk properties"
+      ],
+      "standards": [
+        "HS-PS1-3"
+      ],
+      "vocabulary": [
+        "hydrogen bond",
+        "dipole-dipole",
+        "London dispersion",
+        "surface tension",
+        "evaporation"
+      ],
+      "materials": [
+        "water, rubbing alcohol, vegetable oil",
+        "pennies",
+        "eyedropper",
+        "paper towels",
+        "thermometer"
+      ],
+      "days": [
+        {
+          "title": "Drops on a penny",
+          "work": "Count drops of water, alcohol and oil that fit on a penny and relate to surface tension."
+        },
+        {
+          "title": "Evaporation race",
+          "work": "Time evaporation of water and alcohol on paper towel and measure cooling with a thermometer."
+        },
+        {
+          "title": "Explain forces",
+          "work": "Rank liquids by intermolecular force strength using evidence."
+        },
+        {
+          "title": "Melting & boiling points",
+          "work": "Analyze a data table of boiling points to explain trends with molar mass and hydrogen bonding."
+        },
+        {
+          "title": "Investigation report",
+          "work": "Write a lab report connecting bulk properties to particle forces."
+        }
+      ],
+      "assessment": "Lab report (HS-PS1-3)."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Metallic bonding and designed materials",
+      "objectives": [
+        "Explain metallic bonding",
+        "Connect molecular structure to designed materials"
+      ],
+      "standards": [
+        "HS-PS2-6",
+        "HS-PS1-3"
+      ],
+      "vocabulary": [
+        "metallic bond",
+        "alloy",
+        "polymer",
+        "malleable",
+        "ductile"
+      ],
+      "materials": [
+        "aluminum foil",
+        "white glue",
+        "borax",
+        "plastic bags"
+      ],
+      "days": [
+        {
+          "title": "Metals",
+          "work": "Model metallic bonding as a sea of electrons and explain malleability and conductivity."
+        },
+        {
+          "title": "Polymers",
+          "work": "Make slime with glue and borax and explain cross-linking of polymer chains."
+        },
+        {
+          "title": "Material testing",
+          "work": "Test the stretch of different plastic bags (HDPE vs. LDPE) and relate to chain branching."
+        },
+        {
+          "title": "Designed materials research",
+          "work": "Research one designed material (Kevlar, Gore-Tex, nonstick coating) and how structure gives function."
+        },
+        {
+          "title": "Present",
+          "work": "Present a 3-minute explanation of your material with a diagram."
+        }
+      ],
+      "assessment": "Material presentation rubric."
+    },
+    {
+      "week": 14,
+      "unit": 3,
+      "topic": "Naming, moles and molar mass",
+      "objectives": [
+        "Calculate molar mass",
+        "Convert between grams, moles and particles"
+      ],
+      "standards": [
+        "HS-PS1-7",
+        "HS-PS1-2"
+      ],
+      "vocabulary": [
+        "mole",
+        "Avogadro's number",
+        "molar mass",
+        "formula unit"
+      ],
+      "materials": [
+        "kitchen scale",
+        "rice, sugar, salt"
+      ],
+      "days": [
+        {
+          "title": "Counting by weighing",
+          "work": "Estimate the number of rice grains in a cup by weighing 100 grains, as an analogy for the mole."
+        },
+        {
+          "title": "Molar mass",
+          "work": "Calculate molar masses of 15 compounds."
+        },
+        {
+          "title": "Conversions",
+          "work": "Convert grams ↔ moles ↔ particles with dimensional analysis."
+        },
+        {
+          "title": "Mole of sugar",
+          "work": "Measure one mole of sugar, salt and water and compare volumes."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Unit 3 test on bonding, properties and the mole."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Thermal energy and particle motion",
+      "objectives": [
+        "Model temperature as particle kinetic energy",
+        "Distinguish heat and temperature"
+      ],
+      "standards": [
+        "HS-PS3-2",
+        "HS-PS3-4"
+      ],
+      "vocabulary": [
+        "kinetic energy",
+        "temperature",
+        "heat",
+        "thermal equilibrium"
+      ],
+      "materials": [
+        "food coloring",
+        "hot and cold water",
+        "PhET States of Matter"
+      ],
+      "days": [
+        {
+          "title": "Food coloring diffusion",
+          "work": "Drop food coloring into hot and cold water and record diffusion times."
+        },
+        {
+          "title": "States of matter sim",
+          "work": "Use PhET States of Matter to model particle motion during heating."
+        },
+        {
+          "title": "Heating curve",
+          "work": "Heat ice water on the stove, record temperature every minute, and graph the heating curve."
+        },
+        {
+          "title": "Explain plateaus",
+          "work": "Explain phase-change plateaus in terms of potential energy in bonds."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on thermal energy concepts."
+        }
+      ],
+      "assessment": "Heating curve graph and quiz."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Specific heat and the second law",
+      "objectives": [
+        "Measure specific heat",
+        "Show thermal energy flows to equilibrium"
+      ],
+      "standards": [
+        "HS-PS3-1",
+        "HS-PS3-4"
+      ],
+      "vocabulary": [
+        "specific heat capacity",
+        "second law of thermodynamics",
+        "entropy",
+        "closed system"
+      ],
+      "materials": [
+        "foam cups with lids",
+        "thermometer",
+        "metal washers",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Mixing water",
+          "work": "Mix known masses of hot and cold water in a foam cup and predict the final temperature."
+        },
+        {
+          "title": "Specific heat of metal",
+          "work": "Heat washers in boiling water, transfer to cool water and calculate the metal's specific heat."
+        },
+        {
+          "title": "Computational model",
+          "work": "Build a spreadsheet model that predicts final temperature for any two masses and temperatures."
+        },
+        {
+          "title": "Water vs. land",
+          "work": "Heat equal masses of sand and water under a lamp and compare temperature change; connect to coastal CA climate."
+        },
+        {
+          "title": "Check",
+          "work": "Lab report on energy conservation."
+        }
+      ],
+      "assessment": "Spreadsheet model and lab report."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Earth's interior and convection",
+      "objectives": [
+        "Model mantle convection",
+        "Explain Earth's internal heat sources"
+      ],
+      "standards": [
+        "HS-ESS2-3",
+        "HS-PS3-2"
+      ],
+      "vocabulary": [
+        "convection",
+        "mantle",
+        "radioactive heating",
+        "plate tectonics",
+        "seismic wave"
+      ],
+      "materials": [
+        "clear pot",
+        "water",
+        "food coloring",
+        "stove",
+        "rice grains"
+      ],
+      "days": [
+        {
+          "title": "Earth's layers",
+          "work": "Use seismic data diagrams to infer Earth's layered structure."
+        },
+        {
+          "title": "Convection model",
+          "work": "Heat water with food coloring and rice in a clear pot to observe convection cells."
+        },
+        {
+          "title": "Heat sources",
+          "work": "Explain how radioactive decay and primordial heat drive convection."
+        },
+        {
+          "title": "Plate tectonics",
+          "work": "Connect mantle convection to California's San Andreas Fault and Sierra Nevada formation."
+        },
+        {
+          "title": "Energy device design",
+          "work": "Design and test a solar water heater from a box, foil and tubing; measure temperature gain."
+        }
+      ],
+      "assessment": "Device test data and model diagram."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Semester 1 review and final",
+      "objectives": [
+        "Demonstrate mastery of Units 1–4"
+      ],
+      "standards": [
+        "HS-PS1-1",
+        "HS-PS1-3",
+        "HS-PS3-3",
+        "HS-PS3-4"
+      ],
+      "vocabulary": [
+        "review"
+      ],
+      "materials": [
+        "review notes"
+      ],
+      "days": [
+        {
+          "title": "Device refinement",
+          "work": "Refine and retest the solar heater design and write an engineering summary of trade-offs."
+        },
+        {
+          "title": "Review atoms & bonds",
+          "work": "Review atomic structure, periodic trends and bonding with practice problems."
+        },
+        {
+          "title": "Review energy",
+          "work": "Review calorimetry and thermal energy problems."
+        },
+        {
+          "title": "Semester exam",
+          "work": "Take the semester exam."
+        },
+        {
+          "title": "Reflection",
+          "work": "Correct errors and update the driving-question board with answered questions."
+        }
+      ],
+      "assessment": "Semester 1 final and engineering summary."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Chemical equations and conservation of mass",
+      "objectives": [
+        "Balance chemical equations",
+        "Show mass conservation"
+      ],
+      "standards": [
+        "HS-PS1-7",
+        "HS-PS1-2"
+      ],
+      "vocabulary": [
+        "balanced equation",
+        "coefficient",
+        "subscript",
+        "law of conservation of mass"
+      ],
+      "materials": [
+        "baking soda",
+        "vinegar",
+        "zip bag",
+        "balloon",
+        "kitchen scale"
+      ],
+      "days": [
+        {
+          "title": "Closed system lab",
+          "work": "React baking soda and vinegar in a sealed zip bag on a scale and compare mass before and after; repeat open."
+        },
+        {
+          "title": "Balancing",
+          "work": "Balance 20 equations using particle diagrams and atom inventories."
+        },
+        {
+          "title": "PhET Balancing",
+          "work": "Use PhET Balancing Chemical Equations game, levels 1–3."
+        },
+        {
+          "title": "Explain",
+          "work": "Write a CER on why the open-system mass decreased."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on balancing."
+        }
+      ],
+      "assessment": "CER and balancing quiz."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Types of chemical reactions",
+      "objectives": [
+        "Classify reactions",
+        "Predict products using periodic trends"
+      ],
+      "standards": [
+        "HS-PS1-2"
+      ],
+      "vocabulary": [
+        "synthesis",
+        "decomposition",
+        "single replacement",
+        "double replacement",
+        "activity series",
+        "precipitate"
+      ],
+      "materials": [
+        "hydrogen peroxide",
+        "yeast",
+        "steel wool",
+        "copper sulfate (root killer) or vinegar",
+        "epsom salt",
+        "washing soda"
+      ],
+      "days": [
+        {
+          "title": "Decomposition",
+          "work": "Decompose hydrogen peroxide with yeast and test for oxygen with a glowing splint."
+        },
+        {
+          "title": "Single replacement",
+          "work": "Place an iron nail in copper sulfate solution (or vinegar + salt with pennies) and observe copper plating."
+        },
+        {
+          "title": "Double replacement",
+          "work": "Mix Epsom salt and washing soda solutions to form a precipitate."
+        },
+        {
+          "title": "Predicting products",
+          "work": "Use the activity series to predict whether 12 reactions occur."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on reaction types."
+        }
+      ],
+      "assessment": "Reaction lab notebook and quiz."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Stoichiometry",
+      "objectives": [
+        "Use mole ratios to predict product amounts"
+      ],
+      "standards": [
+        "HS-PS1-7"
+      ],
+      "vocabulary": [
+        "mole ratio",
+        "stoichiometry",
+        "theoretical yield"
+      ],
+      "materials": [
+        "baking soda",
+        "vinegar",
+        "balloons",
+        "kitchen scale"
+      ],
+      "days": [
+        {
+          "title": "Mole ratios",
+          "work": "Write mole ratios from balanced equations and solve mole-to-mole problems."
+        },
+        {
+          "title": "Mass-to-mass",
+          "work": "Solve gram-to-gram stoichiometry problems."
+        },
+        {
+          "title": "Predict & test",
+          "work": "Predict the mass of CO₂ lost when 5.0 g baking soda reacts with excess vinegar; measure it."
+        },
+        {
+          "title": "Percent yield",
+          "work": "Calculate percent yield and analyze sources of error."
+        },
+        {
+          "title": "Check",
+          "work": "Stoichiometry quiz."
+        }
+      ],
+      "assessment": "Lab and quiz."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Limiting reactants",
+      "objectives": [
+        "Identify limiting and excess reactants"
+      ],
+      "standards": [
+        "HS-PS1-7",
+        "HS-PS1-2"
+      ],
+      "vocabulary": [
+        "limiting reactant",
+        "excess reactant",
+        "percent yield"
+      ],
+      "materials": [
+        "baking soda",
+        "vinegar",
+        "balloons",
+        "PhET Reactants, Products and Leftovers"
+      ],
+      "days": [
+        {
+          "title": "Sandwich analogy",
+          "work": "Use a sandwich-making analogy to identify limiting ingredients."
+        },
+        {
+          "title": "PhET",
+          "work": "Use PhET Reactants, Products and Leftovers to model limiting reactants."
+        },
+        {
+          "title": "Balloon lab",
+          "work": "Add increasing baking soda amounts to equal vinegar in balloons and graph balloon size to find the limiting point."
+        },
+        {
+          "title": "Problems",
+          "work": "Solve limiting reactant problems for combustion of fuels."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on limiting reactants."
+        }
+      ],
+      "assessment": "Balloon lab graph and quiz."
+    },
+    {
+      "week": 23,
+      "unit": 5,
+      "topic": "Bond energy and energy in reactions",
+      "objectives": [
+        "Model exothermic and endothermic reactions with bond energies"
+      ],
+      "standards": [
+        "HS-PS1-4"
+      ],
+      "vocabulary": [
+        "exothermic",
+        "endothermic",
+        "bond energy",
+        "activation energy",
+        "enthalpy"
+      ],
+      "materials": [
+        "instant cold pack or baking soda + vinegar",
+        "hand warmer or yeast + hydrogen peroxide",
+        "thermometer"
+      ],
+      "days": [
+        {
+          "title": "Hot & cold",
+          "work": "Measure temperature change of baking soda + vinegar (endo) and yeast + peroxide (exo)."
+        },
+        {
+          "title": "Energy diagrams",
+          "work": "Draw energy diagrams for each reaction with activation energy."
+        },
+        {
+          "title": "Bond energy calc",
+          "work": "Calculate ΔH for methane combustion using bond energies."
+        },
+        {
+          "title": "Model",
+          "work": "Build a model explaining why breaking bonds absorbs energy and forming bonds releases it."
+        },
+        {
+          "title": "Unit 5 test",
+          "work": "Unit 5 test on reactions and stoichiometry."
+        }
+      ],
+      "assessment": "Unit 5 test."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Earth's energy budget",
+      "objectives": [
+        "Model incoming and outgoing radiation",
+        "Explain the greenhouse effect"
+      ],
+      "standards": [
+        "HS-ESS2-4",
+        "HS-PS3-1"
+      ],
+      "vocabulary": [
+        "albedo",
+        "infrared",
+        "greenhouse effect",
+        "radiation budget"
+      ],
+      "materials": [
+        "two jars",
+        "plastic wrap",
+        "thermometers",
+        "lamp",
+        "black and white paper"
+      ],
+      "days": [
+        {
+          "title": "Energy budget",
+          "work": "Diagram Earth's energy budget from NASA data."
+        },
+        {
+          "title": "Albedo lab",
+          "work": "Measure temperature of thermometers under black vs. white paper in sunlight."
+        },
+        {
+          "title": "Greenhouse jar",
+          "work": "Compare temperature in a covered vs. open jar under a lamp for 30 minutes."
+        },
+        {
+          "title": "Molecular explanation",
+          "work": "Use PhET Greenhouse Effect to explain why CO₂ and H₂O absorb infrared but N₂ doesn't."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on energy balance."
+        }
+      ],
+      "assessment": "Lab data and quiz."
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "The carbon cycle",
+      "objectives": [
+        "Quantify carbon reservoirs and fluxes"
+      ],
+      "standards": [
+        "HS-ESS2-6",
+        "HS-ESS3-6"
+      ],
+      "vocabulary": [
+        "reservoir",
+        "flux",
+        "carbon sink",
+        "photosynthesis",
+        "respiration"
+      ],
+      "materials": [
+        "carbon cycle diagram",
+        "calculator"
+      ],
+      "days": [
+        {
+          "title": "Reservoirs",
+          "work": "Map carbon reservoirs and fluxes in gigatons using NOAA data."
+        },
+        {
+          "title": "Quantitative model",
+          "work": "Build a simple spreadsheet box model of atmospheric carbon over 50 years."
+        },
+        {
+          "title": "Human flux",
+          "work": "Add fossil fuel emissions to your model and compare to Keeling Curve data."
+        },
+        {
+          "title": "Carbon in rocks",
+          "work": "Drop vinegar on limestone/chalk and connect to geosphere carbon storage."
+        },
+        {
+          "title": "Check",
+          "work": "Write a model explanation with your spreadsheet graph."
+        }
+      ],
+      "assessment": "Spreadsheet carbon model."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Climate data and feedbacks",
+      "objectives": [
+        "Analyze climate data",
+        "Describe feedbacks between Earth systems"
+      ],
+      "standards": [
+        "HS-ESS2-2",
+        "HS-ESS3-5"
+      ],
+      "vocabulary": [
+        "feedback loop",
+        "positive feedback",
+        "ice core",
+        "proxy data"
+      ],
+      "materials": [
+        "NOAA and NASA data sets",
+        "spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Keeling Curve",
+          "work": "Graph Mauna Loa CO₂ data and calculate the average yearly increase."
+        },
+        {
+          "title": "Ice core data",
+          "work": "Analyze Vostok ice core CO₂ and temperature data for correlation."
+        },
+        {
+          "title": "Feedbacks",
+          "work": "Diagram the ice-albedo and permafrost feedbacks."
+        },
+        {
+          "title": "Forecast",
+          "work": "Use NASA projections to forecast CA temperature and snowpack in 2050 under two scenarios."
+        },
+        {
+          "title": "Check",
+          "work": "Data-analysis quiz."
+        }
+      ],
+      "assessment": "Forecast write-up and quiz."
+    },
+    {
+      "week": 27,
+      "unit": 6,
+      "topic": "Climate solutions",
+      "objectives": [
+        "Evaluate technological solutions to reduce emissions"
+      ],
+      "standards": [
+        "HS-ESS3-4",
+        "HS-ETS1-3",
+        "HS-ESS3-6"
+      ],
+      "vocabulary": [
+        "mitigation",
+        "carbon capture",
+        "renewable energy",
+        "trade-off"
+      ],
+      "materials": [
+        "research sources"
+      ],
+      "days": [
+        {
+          "title": "Solutions survey",
+          "work": "Research three solutions (solar, EVs, carbon capture) and their chemistry."
+        },
+        {
+          "title": "Trade-off matrix",
+          "work": "Build a decision matrix weighing cost, CO₂ reduction and feasibility."
+        },
+        {
+          "title": "Policy connection",
+          "work": "Read about California's cap-and-trade program and SB 32 goals."
+        },
+        {
+          "title": "Position brief",
+          "work": "Write a 1-page brief recommending one solution for your city."
+        },
+        {
+          "title": "Unit 6 test",
+          "work": "Unit 6 test on climate chemistry."
+        }
+      ],
+      "assessment": "Position brief and unit test."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Collision theory and reaction rates",
+      "objectives": [
+        "Explain factors affecting reaction rate"
+      ],
+      "standards": [
+        "HS-PS1-5"
+      ],
+      "vocabulary": [
+        "collision theory",
+        "reaction rate",
+        "catalyst",
+        "surface area",
+        "concentration"
+      ],
+      "materials": [
+        "Alka-Seltzer tablets",
+        "water at three temperatures",
+        "stopwatch",
+        "mortar or spoon"
+      ],
+      "days": [
+        {
+          "title": "Collision theory",
+          "work": "Use PhET Reactions & Rates to explore collisions and activation energy."
+        },
+        {
+          "title": "Temperature lab",
+          "work": "Time Alka-Seltzer dissolving in cold, room and hot water and graph results."
+        },
+        {
+          "title": "Surface area lab",
+          "work": "Compare whole vs. crushed tablets."
+        },
+        {
+          "title": "Catalysts",
+          "work": "Compare hydrogen peroxide decomposition with and without yeast (catalase)."
+        },
+        {
+          "title": "Lab report",
+          "work": "Write a lab report explaining results with collision theory."
+        }
+      ],
+      "assessment": "Rate lab report."
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Dynamic equilibrium",
+      "objectives": [
+        "Describe reversible reactions and equilibrium"
+      ],
+      "standards": [
+        "HS-PS1-6"
+      ],
+      "vocabulary": [
+        "equilibrium",
+        "reversible reaction",
+        "dynamic",
+        "equilibrium constant"
+      ],
+      "materials": [
+        "two cups",
+        "water",
+        "straws of different sizes"
+      ],
+      "days": [
+        {
+          "title": "Reversible reactions",
+          "work": "Identify reversible reactions and define dynamic equilibrium."
+        },
+        {
+          "title": "Water transfer model",
+          "work": "Transfer water between two cups with different straws until levels stop changing; graph."
+        },
+        {
+          "title": "Equilibrium expressions",
+          "work": "Write equilibrium constant expressions and interpret K values."
+        },
+        {
+          "title": "Real examples",
+          "work": "Explain equilibrium in a sealed soda bottle."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on equilibrium."
+        }
+      ],
+      "assessment": "Model graph and quiz."
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "Le Chatelier's principle",
+      "objectives": [
+        "Predict shifts in equilibrium",
+        "Design changes to increase product"
+      ],
+      "standards": [
+        "HS-PS1-6",
+        "HS-PS1-5"
+      ],
+      "vocabulary": [
+        "Le Chatelier's principle",
+        "stress",
+        "shift",
+        "Haber process"
+      ],
+      "materials": [
+        "red cabbage indicator",
+        "vinegar",
+        "baking soda",
+        "ice water",
+        "warm water"
+      ],
+      "days": [
+        {
+          "title": "Le Chatelier",
+          "work": "Predict shifts for changes in concentration, temperature and pressure."
+        },
+        {
+          "title": "Cabbage indicator",
+          "work": "Make red cabbage indicator and shift color by adding acid and base."
+        },
+        {
+          "title": "Soda temperature",
+          "work": "Compare fizz of cold and warm soda and explain with equilibrium."
+        },
+        {
+          "title": "Haber process",
+          "work": "Analyze the Haber process and propose conditions to maximize ammonia yield."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on Le Chatelier."
+        }
+      ],
+      "assessment": "Design proposal and quiz."
+    },
+    {
+      "week": 31,
+      "unit": 7,
+      "topic": "Engineering an equilibrium system",
+      "objectives": [
+        "Refine a chemical system design"
+      ],
+      "standards": [
+        "HS-PS1-6",
+        "HS-ETS1-3"
+      ],
+      "vocabulary": [
+        "yield",
+        "optimization",
+        "industrial chemistry"
+      ],
+      "materials": [
+        "notes"
+      ],
+      "days": [
+        {
+          "title": "Case study",
+          "work": "Study industrial production of sulfuric acid or methanol and its equilibrium."
+        },
+        {
+          "title": "Design",
+          "work": "Propose changes in conditions to increase yield and explain trade-offs (cost, safety, rate)."
+        },
+        {
+          "title": "Peer critique",
+          "work": "Present your design to a parent and answer questions."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise based on feedback."
+        },
+        {
+          "title": "Unit 7 test",
+          "work": "Unit 7 test on rates and equilibrium."
+        }
+      ],
+      "assessment": "Design proposal and Unit 7 test."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Water's properties and Earth's surface",
+      "objectives": [
+        "Investigate water's properties and their effects on Earth materials"
+      ],
+      "standards": [
+        "HS-ESS2-5",
+        "HS-PS1-3"
+      ],
+      "vocabulary": [
+        "polarity",
+        "solvent",
+        "weathering",
+        "frost wedging",
+        "erosion"
+      ],
+      "materials": [
+        "plastic bottle",
+        "water",
+        "freezer",
+        "chalk",
+        "sugar cubes",
+        "sand"
+      ],
+      "days": [
+        {
+          "title": "Water's properties",
+          "work": "Review hydrogen bonding and list water's unique properties."
+        },
+        {
+          "title": "Freeze expansion",
+          "work": "Freeze a full sealed plastic bottle and measure the expansion; connect to frost wedging."
+        },
+        {
+          "title": "Dissolution",
+          "work": "Compare dissolving rates of sugar cubes and chalk in water and vinegar."
+        },
+        {
+          "title": "Erosion table",
+          "work": "Build a sand stream table in a baking pan and model erosion with different water flow."
+        },
+        {
+          "title": "Report",
+          "work": "Write an investigation report on water's effect on Earth materials."
+        }
+      ],
+      "assessment": "Investigation report (HS-ESS2-5)."
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Solutions, acids and bases",
+      "objectives": [
+        "Calculate concentration",
+        "Classify acids and bases with pH"
+      ],
+      "standards": [
+        "HS-PS1-2",
+        "HS-PS1-6"
+      ],
+      "vocabulary": [
+        "solute",
+        "solvent",
+        "molarity",
+        "pH",
+        "acid",
+        "base",
+        "neutralization"
+      ],
+      "materials": [
+        "red cabbage indicator",
+        "household solutions (lemon, soap, vinegar, baking soda)",
+        "measuring cups"
+      ],
+      "days": [
+        {
+          "title": "Molarity",
+          "work": "Prepare salt solutions of known molarity and practice concentration calculations."
+        },
+        {
+          "title": "pH survey",
+          "work": "Test 10 household solutions with cabbage indicator and rank by pH."
+        },
+        {
+          "title": "PhET pH Scale",
+          "work": "Use PhET pH Scale to relate H₃O⁺ concentration to pH."
+        },
+        {
+          "title": "Neutralization",
+          "work": "Titrate vinegar with baking soda solution using indicator to find the endpoint."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on solutions and pH."
+        }
+      ],
+      "assessment": "pH chart and titration data."
+    },
+    {
+      "week": 34,
+      "unit": 8,
+      "topic": "Ocean acidification",
+      "objectives": [
+        "Explain CO₂ dissolving in seawater",
+        "Evaluate impacts on marine life"
+      ],
+      "standards": [
+        "HS-ESS2-6",
+        "HS-PS1-6",
+        "HS-ESS3-6",
+        "HS-ESS3-4"
+      ],
+      "vocabulary": [
+        "ocean acidification",
+        "carbonic acid",
+        "calcium carbonate",
+        "buffer"
+      ],
+      "materials": [
+        "cabbage indicator",
+        "straw",
+        "eggshells or seashells",
+        "vinegar",
+        "jar"
+      ],
+      "days": [
+        {
+          "title": "Breathe into indicator",
+          "work": "Blow through a straw into cabbage indicator water and observe the pH drop from CO₂."
+        },
+        {
+          "title": "Shell dissolution",
+          "work": "Soak eggshells in vinegar vs. water for three days, measuring mass daily."
+        },
+        {
+          "title": "Ocean data",
+          "work": "Analyze Hawaii Ocean Time-series pH and CO₂ data from NOAA."
+        },
+        {
+          "title": "Impacts",
+          "work": "Research effects on CA oyster farms and pteropods."
+        },
+        {
+          "title": "Unit 8 test",
+          "work": "Unit 8 test."
+        }
+      ],
+      "assessment": "Shell lab and unit test."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Capstone: Chemistry solution for an Earth system challenge",
+      "objectives": [
+        "Design and evaluate a solution to a chemistry-related environmental problem"
+      ],
+      "standards": [
+        "HS-ETS1-1",
+        "HS-ETS1-3",
+        "HS-ESS3-4"
+      ],
+      "vocabulary": [
+        "criteria",
+        "constraint",
+        "prototype",
+        "trade-off"
+      ],
+      "materials": [
+        "materials depending on project"
+      ],
+      "days": [
+        {
+          "title": "Choose challenge",
+          "work": "Choose a challenge (urban air quality, ocean acidification, home energy) and define criteria and constraints."
+        },
+        {
+          "title": "Research",
+          "work": "Research the chemistry behind the problem with three sources."
+        },
+        {
+          "title": "Prototype/test",
+          "work": "Build a simple model or test (e.g., activated charcoal water filter, insulated container)."
+        },
+        {
+          "title": "Evaluate",
+          "work": "Evaluate your solution against criteria and list trade-offs."
+        },
+        {
+          "title": "Draft presentation",
+          "work": "Prepare a slide presentation."
+        }
+      ],
+      "assessment": "Capstone checkpoint."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Final exam and capstone presentation",
+      "objectives": [
+        "Demonstrate year-end mastery"
+      ],
+      "standards": [
+        "HS-PS1-2",
+        "HS-PS1-7",
+        "HS-ESS2-4",
+        "HS-ESS2-6",
+        "HS-ETS1-3"
+      ],
+      "vocabulary": [
+        "synthesis"
+      ],
+      "materials": [
+        "review notes"
+      ],
+      "days": [
+        {
+          "title": "Present capstone",
+          "work": "Present the capstone to family with Q&A."
+        },
+        {
+          "title": "Review",
+          "work": "Review all units with practice problems."
+        },
+        {
+          "title": "Final exam",
+          "work": "Take the final exam."
+        },
+        {
+          "title": "Error analysis",
+          "work": "Correct errors on the exam."
+        },
+        {
+          "title": "Revisit phenomenon",
+          "work": "Write a final explanation of the burning candle using all you learned this year."
+        }
+      ],
+      "assessment": "Capstone rubric and final exam."
+    }
+  ]
+}

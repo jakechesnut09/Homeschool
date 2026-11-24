@@ -1,0 +1,1888 @@
+{
+ "grade": 8,
+ "subject": "MATH",
+ "title": "Mathematics 8",
+ "description": "Grade 8 mathematics following the California Common Core sequence used by Illustrative Mathematics Grade 8. Students study rigid transformations, similarity and slope, linear relationships and equations, systems of equations, functions, volume, bivariate data, exponents and scientific notation, and the Pythagorean theorem with irrational numbers. Every week mixes concept-building tasks, practice, a hands-on or graphing activity, and a Friday check.",
+ "framework": "California Common Core State Standards for Mathematics; 2023 CA Mathematics Framework",
+ "minutes_per_day": 60,
+ "ag_requirement": null,
+ "credits": null,
+ "standards": {
+  "8.NS.A.1": "Know that numbers that are not rational are irrational; every number has a decimal expansion; convert repeating decimals to fractions.",
+  "8.NS.A.2": "Use rational approximations of irrational numbers to compare them, locate them on a number line, and estimate expressions.",
+  "8.EE.A.1": "Know and apply the properties of integer exponents to generate equivalent numerical expressions.",
+  "8.EE.A.2": "Use square root and cube root symbols to represent solutions to x^2 = p and x^3 = p; know small perfect squares and cubes; know sqrt 2 is irrational.",
+  "8.EE.A.3": "Use numbers expressed as a single digit times an integer power of 10 to estimate very large or very small quantities and compare them.",
+  "8.EE.A.4": "Perform operations with numbers in scientific notation and choose units of appropriate size; interpret technology output.",
+  "8.EE.B.5": "Graph proportional relationships, interpreting the unit rate as the slope; compare proportional relationships represented in different ways.",
+  "8.EE.B.6": "Use similar triangles to explain why slope is the same between any two points on a line; derive y = mx and y = mx + b.",
+  "8.EE.C.7a": "Give examples of linear equations in one variable with one solution, infinitely many solutions, or no solutions.",
+  "8.EE.C.7b": "Solve linear equations with rational coefficients, including equations needing the distributive property and collecting like terms.",
+  "8.EE.C.8a": "Understand that solutions to a system of two linear equations correspond to points of intersection of their graphs.",
+  "8.EE.C.8b": "Solve systems of two linear equations algebraically and estimate solutions by graphing; solve simple cases by inspection.",
+  "8.EE.C.8c": "Solve real-world and mathematical problems leading to two linear equations in two variables.",
+  "8.F.A.1": "Understand that a function assigns to each input exactly one output; the graph is the set of ordered pairs.",
+  "8.F.A.2": "Compare properties of two functions each represented in a different way (algebraically, graphically, numerically, verbally).",
+  "8.F.A.3": "Interpret y = mx + b as defining a linear function whose graph is a straight line; give examples of nonlinear functions.",
+  "8.F.B.4": "Construct a function to model a linear relationship; determine and interpret rate of change and initial value.",
+  "8.F.B.5": "Describe qualitatively the functional relationship between two quantities by analyzing a graph; sketch graphs from verbal descriptions.",
+  "8.G.A.1": "Verify experimentally the properties of rotations, reflections, and translations (lines to lines, angles and lengths preserved, parallel lines preserved).",
+  "8.G.A.2": "Understand that two figures are congruent if one can be obtained from the other by a sequence of rigid motions; describe the sequence.",
+  "8.G.A.3": "Describe the effect of dilations, translations, rotations, and reflections on two-dimensional figures using coordinates.",
+  "8.G.A.4": "Understand that two figures are similar if one can be obtained from the other by rigid motions and dilations; describe the sequence.",
+  "8.G.A.5": "Use informal arguments about the angle sum and exterior angle of triangles, angles formed by parallel lines and a transversal, and the AA criterion for similarity.",
+  "8.G.B.6": "Explain a proof of the Pythagorean theorem and its converse.",
+  "8.G.B.7": "Apply the Pythagorean theorem to find unknown side lengths in right triangles in two and three dimensions.",
+  "8.G.B.8": "Apply the Pythagorean theorem to find the distance between two points in a coordinate system.",
+  "8.G.C.9": "Know the formulas for the volumes of cones, cylinders, and spheres and use them to solve problems.",
+  "8.SP.A.1": "Construct and interpret scatter plots for bivariate data; describe clustering, outliers, positive or negative association, linear and nonlinear association.",
+  "8.SP.A.2": "Know that straight lines model linear association; informally fit a line and judge closeness of fit.",
+  "8.SP.A.3": "Use the equation of a linear model to solve problems, interpreting slope and intercept.",
+  "8.SP.A.4": "Understand patterns of association in categorical data using two-way tables and relative frequencies."
+ },
+ "resources": [
+  {
+   "name": "Illustrative Mathematics Grade 8 (Kendall Hunt student edition)",
+   "url": "https://im.kendallhunt.com/MS/students/3/index.html",
+   "note": "Free lessons, practice problems and unit summaries matching this sequence"
+  },
+  {
+   "name": "Khan Academy – 8th grade math",
+   "url": "https://www.khanacademy.org/math/cc-eighth-grade-math",
+   "note": "Videos and mastery practice for every unit"
+  },
+  {
+   "name": "Desmos Graphing Calculator",
+   "url": "https://www.desmos.com/calculator",
+   "note": "Graph lines, systems, scatter plots and lines of fit"
+  },
+  {
+   "name": "GeoGebra",
+   "url": "https://www.geogebra.org",
+   "note": "Dynamic geometry for transformations, dilations and Pythagorean proofs"
+  },
+  {
+   "name": "Open Up Resources – Math curriculum",
+   "url": "https://openupresources.org/math-curriculum/",
+   "note": "Open-licensed print-ready version of the same Grade 8 course"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Rigid Transformations and Congruence",
+   "start_week": 1,
+   "end_week": 4,
+   "big_idea": "Translations, rotations, and reflections move figures without changing size or shape, so congruent figures are linked by rigid motions.",
+   "standards": [
+    "8.G.A.1",
+    "8.G.A.2",
+    "8.G.A.3",
+    "8.G.A.5"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Dilations, Similarity, and Slope",
+   "start_week": 5,
+   "end_week": 7,
+   "big_idea": "Dilations scale figures; similar triangles explain why a line has a constant slope.",
+   "standards": [
+    "8.G.A.3",
+    "8.G.A.4",
+    "8.G.A.5",
+    "8.EE.B.6"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Linear Relationships",
+   "start_week": 8,
+   "end_week": 11,
+   "big_idea": "A linear relationship has a constant rate of change (slope) and an initial value, and can be shown in tables, graphs, equations and words.",
+   "standards": [
+    "8.EE.B.5",
+    "8.EE.B.6",
+    "8.F.B.4",
+    "8.F.A.3"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Linear Equations and Linear Systems",
+   "start_week": 12,
+   "end_week": 16,
+   "big_idea": "Equations are solved by keeping them balanced; the solution to a system is the point that makes both equations true.",
+   "standards": [
+    "8.EE.C.7a",
+    "8.EE.C.7b",
+    "8.EE.C.8a",
+    "8.EE.C.8b",
+    "8.EE.C.8c"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Functions and Volume",
+   "start_week": 17,
+   "end_week": 21,
+   "big_idea": "A function gives exactly one output per input; volume formulas for cylinders, cones and spheres are functions of their dimensions.",
+   "standards": [
+    "8.F.A.1",
+    "8.F.A.2",
+    "8.F.A.3",
+    "8.F.B.4",
+    "8.F.B.5",
+    "8.G.C.9"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Associations in Data",
+   "start_week": 22,
+   "end_week": 24,
+   "big_idea": "Scatter plots and two-way tables reveal patterns of association that can be modeled and interpreted.",
+   "standards": [
+    "8.SP.A.1",
+    "8.SP.A.2",
+    "8.SP.A.3",
+    "8.SP.A.4"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Exponents and Scientific Notation",
+   "start_week": 25,
+   "end_week": 28,
+   "big_idea": "Exponent rules follow from repeated multiplication and let us write and compute with very large and very small numbers.",
+   "standards": [
+    "8.EE.A.1",
+    "8.EE.A.3",
+    "8.EE.A.4"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Pythagorean Theorem and Irrational Numbers",
+   "start_week": 29,
+   "end_week": 33,
+   "big_idea": "In a right triangle a^2 + b^2 = c^2, and many side lengths are irrational numbers we can locate and approximate.",
+   "standards": [
+    "8.EE.A.2",
+    "8.NS.A.1",
+    "8.NS.A.2",
+    "8.G.B.6",
+    "8.G.B.7",
+    "8.G.B.8"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Putting It All Together",
+   "start_week": 34,
+   "end_week": 36,
+   "big_idea": "Grade 8 tools (linear models, systems, volume, data) combine to solve open-ended real-world problems.",
+   "standards": [
+    "8.F.B.4",
+    "8.EE.C.8c",
+    "8.G.C.9",
+    "8.SP.A.3",
+    "8.EE.A.3"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "Moving figures: translations, rotations, reflections",
+   "objectives": [
+    "Describe translations, rotations and reflections in precise language",
+    "Perform rigid motions on a grid and with tracing paper"
+   ],
+   "standards": [
+    "8.G.A.1"
+   ],
+   "vocabulary": [
+    "transformation",
+    "translation",
+    "rotation",
+    "reflection",
+    "image",
+    "pre-image",
+    "center of rotation",
+    "line of reflection"
+   ],
+   "materials": [
+    "tracing paper",
+    "graph paper",
+    "protractor",
+    "ruler"
+   ],
+   "days": [
+    {
+     "title": "Diagnostic & moves warm-up",
+     "work": "Take a 15-problem Grade 7 readiness check (proportions, integers, expressions); then use tracing paper to slide, turn and flip a paper cutout and describe each move in words."
+    },
+    {
+     "title": "Translations",
+     "work": "Translate triangles on a grid using directed line segments; draw 4 images and label corresponding points A to A'."
+    },
+    {
+     "title": "Rotations",
+     "work": "Rotate figures 90, 180 and 270 degrees clockwise and counterclockwise about a given center using tracing paper; record the center and angle for each."
+    },
+    {
+     "title": "Reflections",
+     "work": "Reflect figures across horizontal, vertical and diagonal lines; complete IM Lesson 'Grid Moves' style practice of 8 problems mixing all three moves."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: identify and perform 6 single transformations and write a precise description of each; correct errors in a math notebook."
+    }
+   ],
+   "assessment": "Friday quiz on performing and describing single rigid motions (80% target)."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "Properties of rigid motions and coordinates",
+   "objectives": [
+    "Verify that rigid motions preserve lengths and angle measures",
+    "Use coordinates to describe the effect of translations, rotations and reflections"
+   ],
+   "standards": [
+    "8.G.A.1",
+    "8.G.A.3"
+   ],
+   "vocabulary": [
+    "rigid transformation",
+    "corresponding sides",
+    "corresponding angles",
+    "coordinate plane",
+    "ordered pair"
+   ],
+   "materials": [
+    "graph paper",
+    "tracing paper",
+    "ruler",
+    "protractor",
+    "GeoGebra"
+   ],
+   "days": [
+    {
+     "title": "Rigid motions preserve measures",
+     "work": "Measure side lengths and angles of a polygon and its image after three different moves; write a conclusion about what stays the same."
+    },
+    {
+     "title": "Parallel lines stay parallel",
+     "work": "Rotate a pair of parallel lines 180 degrees about a point using GeoGebra and explain why the images are parallel to the originals."
+    },
+    {
+     "title": "Coordinate translations",
+     "work": "Translate figures on the coordinate plane and write the rule (x, y) -> (x + a, y + b) for 6 examples."
+    },
+    {
+     "title": "Coordinate reflections & rotations",
+     "work": "Discover the rules for reflecting over the x- and y-axes and rotating 90 and 180 degrees about the origin by plotting and comparing coordinates."
+    },
+    {
+     "title": "Review & check",
+     "work": "Complete a 10-problem coordinate-transformation worksheet, then write rules from before-and-after coordinate lists."
+    }
+   ],
+   "assessment": "Exit ticket: write the coordinate rule for 4 transformations and justify which properties are preserved."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "Congruence through sequences of rigid motions",
+   "objectives": [
+    "Define congruence using rigid motions",
+    "Describe a sequence of moves that maps one figure onto a congruent figure"
+   ],
+   "standards": [
+    "8.G.A.2",
+    "8.G.A.3"
+   ],
+   "vocabulary": [
+    "congruent",
+    "sequence of transformations",
+    "corresponding parts"
+   ],
+   "materials": [
+    "tracing paper",
+    "graph paper",
+    "cardstock shapes",
+    "scissors"
+   ],
+   "days": [
+    {
+     "title": "What is congruence?",
+     "work": "Sort 8 pairs of figures into congruent / not congruent and justify each answer with a rigid-motion argument rather than 'looks the same'."
+    },
+    {
+     "title": "Sequences of moves",
+     "work": "Find a sequence of two or three transformations mapping figure A to figure B for 6 grid problems; compare two different valid sequences."
+    },
+    {
+     "title": "Congruent polygons",
+     "work": "Cut out cardstock quadrilaterals and test congruence by moving one onto the other; write the sequence used."
+    },
+    {
+     "title": "Points, segments and circles",
+     "work": "Show that two segments of the same length and two circles of the same radius are congruent by describing the moves."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: describe sequences of moves for 4 pairs and explain why one pair cannot be congruent."
+    }
+   ],
+   "assessment": "Quiz on congruence sequences with written justifications."
+  },
+  {
+   "week": 4,
+   "unit": 1,
+   "topic": "Angles: parallel lines, transversals and triangles",
+   "objectives": [
+    "Identify alternate interior, corresponding and vertical angles",
+    "Explain why triangle angles sum to 180 degrees"
+   ],
+   "standards": [
+    "8.G.A.5"
+   ],
+   "vocabulary": [
+    "transversal",
+    "alternate interior angles",
+    "corresponding angles",
+    "vertical angles",
+    "exterior angle",
+    "supplementary"
+   ],
+   "materials": [
+    "protractor",
+    "paper triangles",
+    "scissors",
+    "ruler"
+   ],
+   "days": [
+    {
+     "title": "Vertical & supplementary angles",
+     "work": "Use a 180-degree rotation to explain why vertical angles are equal; solve 8 missing-angle problems."
+    },
+    {
+     "title": "Parallel lines and transversals",
+     "work": "Draw two parallel lines cut by a transversal, measure all 8 angles, and use translations to explain why corresponding angles match."
+    },
+    {
+     "title": "Triangle angle sum",
+     "work": "Tear the three corners off a paper triangle and line them up on a straight line; write an argument using parallel lines for the 180-degree sum."
+    },
+    {
+     "title": "Exterior angles",
+     "work": "Explain the exterior angle theorem and solve 6 algebraic angle problems such as (2x + 10) + (3x - 5) = 120."
+    },
+    {
+     "title": "Unit 1 test",
+     "work": "Unit test on rigid transformations, coordinate rules, congruence and angle relationships; reflect on two missed items."
+    }
+   ],
+   "assessment": "Unit 1 test (transformations, congruence, angle relationships)."
+  },
+  {
+   "week": 5,
+   "unit": 2,
+   "topic": "Dilations",
+   "objectives": [
+    "Dilate figures from a center with a given scale factor",
+    "Describe dilations with coordinates centered at the origin"
+   ],
+   "standards": [
+    "8.G.A.3",
+    "8.G.A.4"
+   ],
+   "vocabulary": [
+    "dilation",
+    "scale factor",
+    "center of dilation",
+    "enlargement",
+    "reduction"
+   ],
+   "materials": [
+    "ruler",
+    "graph paper",
+    "compass",
+    "GeoGebra"
+   ],
+   "days": [
+    {
+     "title": "Projecting and scaling",
+     "work": "Use a ruler to dilate a triangle from a point P with scale factor 2 and 1/2 by measuring along rays; compare side lengths and angles."
+    },
+    {
+     "title": "Circular grid",
+     "work": "Dilate shapes on a circular (polar) grid, then explain why dilations preserve angles but not lengths."
+    },
+    {
+     "title": "Dilations on a square grid",
+     "work": "Dilate polygons on a coordinate grid with center at the origin and write the rule (x, y) -> (kx, ky) for k = 3, 1/2 and 1.5."
+    },
+    {
+     "title": "Scale factor reasoning",
+     "work": "Find the scale factor and center given a figure and image; solve 6 problems including scale factors less than 1."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: perform two dilations and find a missing scale factor and center."
+    }
+   ],
+   "assessment": "Quiz on dilations by hand and with coordinates."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Similarity",
+   "objectives": [
+    "Define similarity as a sequence of rigid motions and dilations",
+    "Use the Angle-Angle criterion to show triangles are similar"
+   ],
+   "standards": [
+    "8.G.A.4",
+    "8.G.A.5"
+   ],
+   "vocabulary": [
+    "similar",
+    "Angle-Angle (AA) criterion",
+    "proportional",
+    "corresponding sides"
+   ],
+   "materials": [
+    "ruler",
+    "protractor",
+    "graph paper",
+    "mirror",
+    "tape measure"
+   ],
+   "days": [
+    {
+     "title": "Similarity sequences",
+     "work": "Describe a sequence of a dilation plus rigid motions that maps one polygon to a similar one; do 4 grid problems."
+    },
+    {
+     "title": "Similar polygons",
+     "work": "Test pairs of rectangles and triangles for similarity by comparing side ratios and angles; explain why all squares are similar but not all rectangles."
+    },
+    {
+     "title": "AA similarity",
+     "work": "Draw two triangles with the same two angle measures but different sizes; measure sides to confirm proportional lengths and state the AA criterion."
+    },
+    {
+     "title": "Mirror method investigation",
+     "work": "Use a small mirror on the floor and similar triangles to estimate the height of a tree or doorway; show the proportion and compare to a tape-measure value."
+    },
+    {
+     "title": "Review & check",
+     "work": "Solve 6 missing-side problems using similar triangles and write one AA justification."
+    }
+   ],
+   "assessment": "Mirror-height lab write-up plus similarity problem set."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "Slope from similar triangles",
+   "objectives": [
+    "Use similar slope triangles to explain why slope is constant on a line",
+    "Calculate slope from a graph"
+   ],
+   "standards": [
+    "8.EE.B.6",
+    "8.G.A.4"
+   ],
+   "vocabulary": [
+    "slope",
+    "slope triangle",
+    "rise",
+    "run",
+    "constant"
+   ],
+   "materials": [
+    "graph paper",
+    "colored pencils",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Slope triangles",
+     "work": "Draw three different slope triangles on the same line and show they are similar, so rise/run is equal for each."
+    },
+    {
+     "title": "Finding slope",
+     "work": "Calculate the slope of 10 lines on grids using any two points; check with Desmos."
+    },
+    {
+     "title": "Writing equations from slope",
+     "work": "Use a point (x, y) on a line through (0, 0) or (0, b) and similar triangles to derive y = mx and y = mx + b."
+    },
+    {
+     "title": "Unit 2 review",
+     "work": "Mixed review of dilations, similarity and slope with a partner-check answer key."
+    },
+    {
+     "title": "Unit 2 test",
+     "work": "Unit test on dilations, similarity, AA criterion and slope."
+    }
+   ],
+   "assessment": "Unit 2 test."
+  },
+  {
+   "week": 8,
+   "unit": 3,
+   "topic": "Proportional relationships and graphs",
+   "objectives": [
+    "Graph proportional relationships and interpret unit rate as slope",
+    "Compare two proportional relationships shown in different ways"
+   ],
+   "standards": [
+    "8.EE.B.5"
+   ],
+   "vocabulary": [
+    "proportional relationship",
+    "unit rate",
+    "constant of proportionality",
+    "slope",
+    "origin"
+   ],
+   "materials": [
+    "graph paper",
+    "stopwatch",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Rates review",
+     "work": "Find unit rates in tables, graphs and stories (e.g., 3 miles in 45 minutes) and write y = kx equations."
+    },
+    {
+     "title": "Graphing proportional relationships",
+     "work": "Graph 4 relationships, choosing scales for the axes, and identify the unit rate as the slope on each graph."
+    },
+    {
+     "title": "Walking-rate lab",
+     "work": "Time yourself and a family member walking 10, 20 and 30 meters; graph both on the same axes and compare speeds using slopes."
+    },
+    {
+     "title": "Comparing representations",
+     "work": "Compare a table for one cell plan and an equation for another to decide which costs more per gigabyte; justify in writing."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: 5 problems comparing proportional relationships across tables, graphs and equations."
+    }
+   ],
+   "assessment": "Quiz plus walking-rate lab graph."
+  },
+  {
+   "week": 9,
+   "unit": 3,
+   "topic": "Representing linear relationships",
+   "objectives": [
+    "Recognize nonproportional linear relationships",
+    "Interpret slope and vertical intercept in context"
+   ],
+   "standards": [
+    "8.EE.B.6",
+    "8.F.B.4"
+   ],
+   "vocabulary": [
+    "linear relationship",
+    "vertical intercept",
+    "y-intercept",
+    "rate of change",
+    "initial value"
+   ],
+   "materials": [
+    "cups",
+    "marbles or coins",
+    "graduated measuring cup",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "Stacking cups",
+     "work": "Measure the height of a stack of 1 to 8 paper cups, graph the data, and find the slope (height per cup) and intercept (base height)."
+    },
+    {
+     "title": "Slope and intercept in context",
+     "work": "For 6 stories (a gym membership with a sign-up fee, a filling pool), identify the rate of change and initial value and write y = mx + b."
+    },
+    {
+     "title": "More linear relationships",
+     "work": "Match 8 equations to graphs and tables; explain what the slope and intercept mean in each context."
+    },
+    {
+     "title": "Translating to y = mx + b",
+     "work": "Show that the graph of y = mx + b is a translation of y = mx by b units; graph 4 pairs in Desmos."
+    },
+    {
+     "title": "Review & check",
+     "work": "Water-displacement mini lab: drop marbles in a cup of water, record water level, write the linear equation; quiz on slope/intercept meaning."
+    }
+   ],
+   "assessment": "Quiz on interpreting slope and intercept; lab equation."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Slope signs, special lines, writing equations",
+   "objectives": [
+    "Interpret negative, zero and undefined slopes",
+    "Write equations of lines from two points or a graph"
+   ],
+   "standards": [
+    "8.F.B.4",
+    "8.F.A.3"
+   ],
+   "vocabulary": [
+    "negative slope",
+    "horizontal line",
+    "vertical line",
+    "slope-intercept form"
+   ],
+   "materials": [
+    "graph paper",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Negative slope",
+     "work": "Model a draining tank or spending a gift card balance; graph and interpret the negative rate of change."
+    },
+    {
+     "title": "Horizontal and vertical lines",
+     "work": "Graph y = 4 and x = -2, find their slopes, and explain why x = -2 is not a function of x."
+    },
+    {
+     "title": "Slope from two points",
+     "work": "Use the formula (y2 - y1)/(x2 - x1) on 10 point pairs, then write the full equation of each line."
+    },
+    {
+     "title": "Equations from graphs and tables",
+     "work": "Write equations for 8 lines given as graphs or tables and check with Desmos."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: find slopes and write equations from two points, a table, a graph and a story."
+    }
+   ],
+   "assessment": "Quiz on writing linear equations."
+  },
+  {
+   "week": 11,
+   "unit": 3,
+   "topic": "Solutions to linear equations in two variables",
+   "objectives": [
+    "Understand that points on a line are solutions to its equation",
+    "Use linear equations such as 2x + 3y = 12 to model situations"
+   ],
+   "standards": [
+    "8.F.B.4",
+    "8.EE.B.5"
+   ],
+   "vocabulary": [
+    "solution",
+    "standard form",
+    "coordinates",
+    "intercepts"
+   ],
+   "materials": [
+    "graph paper",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Points on a line",
+     "work": "Test whether 8 ordered pairs are solutions of a given equation and explain the connection to points on its graph."
+    },
+    {
+     "title": "Coordinates and constraints",
+     "work": "Model a budget like $2 apples and $3 pears with $12 by writing 2x + 3y = 12; graph using intercepts."
+    },
+    {
+     "title": "Rearranging equations",
+     "work": "Rewrite 6 equations into slope-intercept form and interpret the slope in context."
+    },
+    {
+     "title": "Unit 3 review",
+     "work": "Complete a review stations set: proportional vs nonproportional, slope, intercepts, equations from stories."
+    },
+    {
+     "title": "Unit 3 test",
+     "work": "Unit test on linear relationships."
+    }
+   ],
+   "assessment": "Unit 3 test."
+  },
+  {
+   "week": 12,
+   "unit": 4,
+   "topic": "Balanced moves and solving equations",
+   "objectives": [
+    "Solve equations using balanced moves",
+    "Use the distributive property and combine like terms to solve equations"
+   ],
+   "standards": [
+    "8.EE.C.7b"
+   ],
+   "vocabulary": [
+    "equation",
+    "solution",
+    "inverse operation",
+    "like terms",
+    "distributive property"
+   ],
+   "materials": [
+    "hanger diagram worksheet",
+    "algebra tiles or paper cutouts",
+    "balance scale (optional)"
+   ],
+   "days": [
+    {
+     "title": "Hanger diagrams",
+     "work": "Use hanger diagrams to reason about equations like 3x + 1 = x + 7 and record each balanced move."
+    },
+    {
+     "title": "Balanced moves",
+     "work": "Decide which moves keep equations equivalent; solve 8 two-step and multi-step equations with integers."
+    },
+    {
+     "title": "Distributive property equations",
+     "work": "Solve equations like 4(x - 3) = 2x + 6 and -2(5 - x) = 3x + 1, showing every step."
+    },
+    {
+     "title": "Error analysis",
+     "work": "Find and correct mistakes in 5 worked solutions; write a rule for each error type (sign errors, distributing only to the first term)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: solve 8 multi-step equations and check each solution by substitution."
+    }
+   ],
+   "assessment": "Quiz on multi-step equations."
+  },
+  {
+   "week": 13,
+   "unit": 4,
+   "topic": "Equations with variables on both sides and rational coefficients",
+   "objectives": [
+    "Solve equations with variables on both sides including fractions and decimals",
+    "Write and solve equations from contexts"
+   ],
+   "standards": [
+    "8.EE.C.7b"
+   ],
+   "vocabulary": [
+    "coefficient",
+    "rational number",
+    "least common denominator"
+   ],
+   "materials": [
+    "notebook",
+    "calculator for checking"
+   ],
+   "days": [
+    {
+     "title": "Variables on both sides",
+     "work": "Solve 10 equations such as 7x - 4 = 3x + 12 and explain the strategy of collecting variable terms."
+    },
+    {
+     "title": "Fractions in equations",
+     "work": "Clear denominators by multiplying by the LCD to solve 6 equations such as (2/3)x + 5 = (1/2)x + 7."
+    },
+    {
+     "title": "Decimals in equations",
+     "work": "Solve decimal equations like 0.4(x + 5) = 1.2x - 3 and check with a calculator."
+    },
+    {
+     "title": "Writing equations from stories",
+     "work": "Write and solve equations for 5 situations, e.g., two phone plans that cost the same at some number of minutes."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: 6 equations with rational coefficients and 2 word problems."
+    }
+   ],
+   "assessment": "Quiz on equations with rational coefficients."
+  },
+  {
+   "week": 14,
+   "unit": 4,
+   "topic": "How many solutions?",
+   "objectives": [
+    "Classify equations as having one, no, or infinitely many solutions",
+    "Create examples of each type"
+   ],
+   "standards": [
+    "8.EE.C.7a",
+    "8.EE.C.7b"
+   ],
+   "vocabulary": [
+    "no solution",
+    "infinitely many solutions",
+    "identity",
+    "equivalent expressions"
+   ],
+   "materials": [
+    "index cards",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Sorting equations",
+     "work": "Solve and sort 12 equations into one solution, no solution and infinitely many solutions; describe what the final line looks like for each."
+    },
+    {
+     "title": "Graphical meaning",
+     "work": "Graph each side of an equation as a line in Desmos to see one intersection, parallel lines or the same line."
+    },
+    {
+     "title": "Create your own",
+     "work": "Write two equations of each type and trade them with a family member to solve."
+    },
+    {
+     "title": "Context problems",
+     "work": "Solve problems such as 'When will two savings accounts have equal balances?' and interpret no-solution answers in context."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: classify and solve 8 equations and justify one of each type in writing."
+    }
+   ],
+   "assessment": "Quiz on the number of solutions."
+  },
+  {
+   "week": 15,
+   "unit": 4,
+   "topic": "Systems of linear equations by graphing",
+   "objectives": [
+    "Interpret the intersection of two lines as the solution of a system",
+    "Estimate solutions by graphing"
+   ],
+   "standards": [
+    "8.EE.C.8a",
+    "8.EE.C.8c"
+   ],
+   "vocabulary": [
+    "system of equations",
+    "point of intersection",
+    "solution of a system"
+   ],
+   "materials": [
+    "graph paper",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "On or off the line?",
+     "work": "Use 'two runners' or 'two water tanks' scenarios to find when two linear quantities are equal using tables and graphs."
+    },
+    {
+     "title": "Graphing systems",
+     "work": "Graph 6 systems by hand and identify the intersection point; verify it in both equations."
+    },
+    {
+     "title": "Special systems",
+     "work": "Graph systems with parallel lines and identical lines and connect them to no solution and infinitely many solutions."
+    },
+    {
+     "title": "Writing systems from stories",
+     "work": "Write systems for 4 contexts (e.g., ticket sales of adults and students) and estimate solutions from Desmos graphs."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: solve 4 systems by graphing and interpret each solution in context."
+    }
+   ],
+   "assessment": "Quiz on graphing systems."
+  },
+  {
+   "week": 16,
+   "unit": 4,
+   "topic": "Solving systems algebraically",
+   "objectives": [
+    "Solve systems by substitution",
+    "Solve systems by inspection when lines are parallel or identical"
+   ],
+   "standards": [
+    "8.EE.C.8b",
+    "8.EE.C.8c"
+   ],
+   "vocabulary": [
+    "substitution",
+    "inspection",
+    "elimination"
+   ],
+   "materials": [
+    "notebook",
+    "Desmos for checking"
+   ],
+   "days": [
+    {
+     "title": "Substitution with y =",
+     "work": "Solve systems where one equation is solved for y (y = 2x + 1 and y = -x + 7) by setting expressions equal."
+    },
+    {
+     "title": "Substitution in general",
+     "work": "Solve 6 systems by substitution where you must rearrange one equation first; check with Desmos."
+    },
+    {
+     "title": "Inspection",
+     "work": "Decide without solving whether 6 systems have zero, one or infinitely many solutions by comparing slopes and intercepts."
+    },
+    {
+     "title": "Real-world systems",
+     "work": "Solve 4 word problems, such as a coin jar with 20 coins worth $3.20 in dimes and quarters."
+    },
+    {
+     "title": "Unit 4 test",
+     "work": "Unit test on linear equations and systems."
+    }
+   ],
+   "assessment": "Unit 4 test."
+  },
+  {
+   "week": 17,
+   "unit": 5,
+   "topic": "Introduction to functions",
+   "objectives": [
+    "Define a function as a rule with exactly one output for each input",
+    "Identify functions from tables, graphs, mappings and descriptions"
+   ],
+   "standards": [
+    "8.F.A.1"
+   ],
+   "vocabulary": [
+    "function",
+    "input",
+    "output",
+    "independent variable",
+    "dependent variable",
+    "domain"
+   ],
+   "materials": [
+    "index cards",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "Input-output machines",
+     "work": "Play 'guess my rule' with a family member using input/output cards, then decide which rules are functions."
+    },
+    {
+     "title": "Is it a function?",
+     "work": "Classify 10 relations (tables, mapping diagrams, graphs, statements like 'a person's age -> height') as functions or not, using the vertical line test."
+    },
+    {
+     "title": "Function notation & language",
+     "work": "Write statements like 'distance is a function of time' and evaluate functions from equations and graphs."
+    },
+    {
+     "title": "Equations for functions",
+     "work": "Write equations for functions such as the perimeter of a square or the cost of n tickets, naming the independent and dependent variables."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: identify functions and evaluate them from 4 representations."
+    }
+   ],
+   "assessment": "Quiz on identifying functions."
+  },
+  {
+   "week": 18,
+   "unit": 5,
+   "topic": "Representing and comparing functions; semester review",
+   "objectives": [
+    "Compare two functions represented in different ways",
+    "Distinguish linear from nonlinear functions"
+   ],
+   "standards": [
+    "8.F.A.2",
+    "8.F.A.3"
+   ],
+   "vocabulary": [
+    "linear function",
+    "nonlinear function",
+    "rate of change",
+    "initial value"
+   ],
+   "materials": [
+    "graph paper",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Comparing functions",
+     "work": "Compare a function given by a table with one given by an equation (e.g., two car rental companies) and decide which grows faster."
+    },
+    {
+     "title": "Linear vs nonlinear",
+     "work": "Graph y = 2x + 1, y = x^2 and A = pi r^2 from tables and explain why only the first is linear."
+    },
+    {
+     "title": "Semester review A",
+     "work": "Mixed review of transformations, similarity and slope (Units 1–3) with worked corrections."
+    },
+    {
+     "title": "Semester review B",
+     "work": "Mixed review of equations and systems (Unit 4) and functions; make a one-page formula and strategy sheet."
+    },
+    {
+     "title": "Semester 1 exam",
+     "work": "Cumulative semester exam covering Units 1–5 so far."
+    }
+   ],
+   "assessment": "Semester 1 cumulative exam."
+  },
+  {
+   "week": 19,
+   "unit": 5,
+   "topic": "Linear functions, rates of change, and graphs of situations",
+   "objectives": [
+    "Model situations with linear functions and interpret rate of change",
+    "Describe and sketch qualitative and piecewise graphs"
+   ],
+   "standards": [
+    "8.F.B.4",
+    "8.F.B.5"
+   ],
+   "vocabulary": [
+    "piecewise function",
+    "increasing",
+    "decreasing",
+    "constant",
+    "qualitative graph"
+   ],
+   "materials": [
+    "graph paper",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Linear function models",
+     "work": "Build functions for situations such as a phone battery draining 8% per hour from 100%; interpret rate and initial value."
+    },
+    {
+     "title": "Qualitative graphs",
+     "work": "Match 6 stories (a bike ride with a stop, a filling bathtub) to graphs and describe where they increase, decrease or stay constant."
+    },
+    {
+     "title": "Sketching graphs",
+     "work": "Sketch graphs from verbal descriptions and write a story for 3 given graphs."
+    },
+    {
+     "title": "Piecewise linear functions",
+     "work": "Analyze a graph of a water tank filled and drained in stages; find the rate of change for each piece."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on modeling with linear functions and interpreting qualitative graphs."
+    }
+   ],
+   "assessment": "Quiz on function models and graph interpretation."
+  },
+  {
+   "week": 20,
+   "unit": 5,
+   "topic": "Volume of cylinders and cones",
+   "objectives": [
+    "Find volumes of cylinders",
+    "Use the relationship between cones and cylinders to find cone volumes"
+   ],
+   "standards": [
+    "8.G.C.9"
+   ],
+   "vocabulary": [
+    "cylinder",
+    "cone",
+    "radius",
+    "height",
+    "volume",
+    "pi"
+   ],
+   "materials": [
+    "cans of various sizes",
+    "paper to build a cone",
+    "rice or dry beans",
+    "ruler",
+    "measuring cup"
+   ],
+   "days": [
+    {
+     "title": "Volume of prisms review",
+     "work": "Review V = Bh with rectangular prisms; measure a cereal box and compute its volume."
+    },
+    {
+     "title": "Cylinder volume",
+     "work": "Measure 3 cans, compute V = pi r^2 h, and check by filling with water and measuring in a measuring cup (1 mL = 1 cubic cm)."
+    },
+    {
+     "title": "Cone vs cylinder lab",
+     "work": "Build a paper cone with the same base and height as a can; count how many cones of rice fill the can to discover V = (1/3) pi r^2 h."
+    },
+    {
+     "title": "Missing dimensions",
+     "work": "Solve 6 problems finding the radius or height of cylinders and cones given volume."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: 6 cylinder and cone volume problems including a real-world one (a cone-shaped paper cup)."
+    }
+   ],
+   "assessment": "Cone-cylinder lab write-up and quiz."
+  },
+  {
+   "week": 21,
+   "unit": 5,
+   "topic": "Spheres and dimensions as functions",
+   "objectives": [
+    "Find the volume of spheres and hemispheres",
+    "Analyze how volume changes as a function of radius or height"
+   ],
+   "standards": [
+    "8.G.C.9",
+    "8.F.A.1"
+   ],
+   "vocabulary": [
+    "sphere",
+    "hemisphere",
+    "cubic units"
+   ],
+   "materials": [
+    "ball",
+    "orange",
+    "rice",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Sphere volume",
+     "work": "Compare a sphere to a cylinder of the same radius and height 2r to justify V = (4/3) pi r^3; find volumes of 4 balls."
+    },
+    {
+     "title": "Composite volumes",
+     "work": "Find volumes of composite solids like an ice-cream cone with a hemisphere on top and a grain silo."
+    },
+    {
+     "title": "Volume as a function",
+     "work": "Graph volume of a cylinder as a function of height (linear) and of radius (nonlinear) in Desmos; compare."
+    },
+    {
+     "title": "Unit 5 review",
+     "work": "Review functions and volume with a 12-problem mixed set."
+    },
+    {
+     "title": "Unit 5 test",
+     "work": "Unit test on functions and volume."
+    }
+   ],
+   "assessment": "Unit 5 test."
+  },
+  {
+   "week": 22,
+   "unit": 6,
+   "topic": "Scatter plots and patterns",
+   "objectives": [
+    "Construct scatter plots from bivariate data",
+    "Describe association, clusters and outliers"
+   ],
+   "standards": [
+    "8.SP.A.1"
+   ],
+   "vocabulary": [
+    "bivariate data",
+    "scatter plot",
+    "positive association",
+    "negative association",
+    "outlier",
+    "cluster"
+   ],
+   "materials": [
+    "tape measure",
+    "data from family members or an online data set",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "Collecting bivariate data",
+     "work": "Measure arm span and height of at least 8 people (or use a provided data set) and organize in a table."
+    },
+    {
+     "title": "Making scatter plots",
+     "work": "Plot arm span vs height by hand with appropriate scales; describe the pattern."
+    },
+    {
+     "title": "Describing association",
+     "work": "Classify 8 scatter plots as positive, negative, or no association and linear or nonlinear; identify outliers and clusters."
+    },
+    {
+     "title": "Interpreting outliers",
+     "work": "Explain possible reasons for outliers in a car age vs value data set."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: build and describe a scatter plot from a 12-row data table."
+    }
+   ],
+   "assessment": "Scatter plot project and quiz."
+  },
+  {
+   "week": 23,
+   "unit": 6,
+   "topic": "Lines of fit and linear models",
+   "objectives": [
+    "Informally fit a line to data and judge its fit",
+    "Use the equation of a model to make predictions and interpret slope and intercept"
+   ],
+   "standards": [
+    "8.SP.A.2",
+    "8.SP.A.3"
+   ],
+   "vocabulary": [
+    "line of fit",
+    "trend line",
+    "residual",
+    "prediction",
+    "linear model"
+   ],
+   "materials": [
+    "spaghetti strand or ruler",
+    "graph paper",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Fitting a line",
+     "work": "Lay a strand of spaghetti over the arm span scatter plot to fit a line; compare lines and discuss closeness of fit."
+    },
+    {
+     "title": "Equations of fitted lines",
+     "work": "Write the equation of the fitted line using two points on it; interpret the slope (cm of height per cm of arm span)."
+    },
+    {
+     "title": "Predictions",
+     "work": "Use models to predict values (e.g., price of a used car at 80,000 miles) and judge whether the prediction is reasonable."
+    },
+    {
+     "title": "Residuals",
+     "work": "Calculate how far 5 data points are from the line and decide which of two lines fits better; check with Desmos regression."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: fit a line, write its equation and interpret slope and intercept in context."
+    }
+   ],
+   "assessment": "Quiz on lines of fit and interpretation."
+  },
+  {
+   "week": 24,
+   "unit": 6,
+   "topic": "Two-way tables and categorical association",
+   "objectives": [
+    "Construct two-way tables",
+    "Use relative frequencies to look for association in categorical data"
+   ],
+   "standards": [
+    "8.SP.A.4"
+   ],
+   "vocabulary": [
+    "categorical data",
+    "two-way table",
+    "relative frequency",
+    "association"
+   ],
+   "materials": [
+    "survey sheet",
+    "calculator"
+   ],
+   "days": [
+    {
+     "title": "Two-way tables",
+     "work": "Survey 20 people (or use given data) on two yes/no questions such as 'plays an instrument' and 'likes math'; organize in a two-way table."
+    },
+    {
+     "title": "Relative frequency",
+     "work": "Compute row and column relative frequencies as percents and decide whether an association exists."
+    },
+    {
+     "title": "Analyzing associations",
+     "work": "Analyze 3 data sets (e.g., curfew vs chores) and write a claim with evidence from relative frequencies."
+    },
+    {
+     "title": "Unit 6 review",
+     "work": "Review scatter plots, lines of fit and two-way tables with a mixed practice set."
+    },
+    {
+     "title": "Unit 6 test",
+     "work": "Unit test on bivariate data."
+    }
+   ],
+   "assessment": "Unit 6 test."
+  },
+  {
+   "week": 25,
+   "unit": 7,
+   "topic": "Exponent rules for products, quotients and powers",
+   "objectives": [
+    "Generate exponent rules by expanding repeated multiplication",
+    "Apply product, quotient and power-of-a-power rules"
+   ],
+   "standards": [
+    "8.EE.A.1"
+   ],
+   "vocabulary": [
+    "exponent",
+    "base",
+    "power",
+    "product of powers",
+    "quotient of powers",
+    "power of a power"
+   ],
+   "materials": [
+    "paper for folding",
+    "notebook"
+   ],
+   "days": [
+    {
+     "title": "Paper folding",
+     "work": "Fold a sheet of paper in half repeatedly, record layers as powers of 2, and predict layers after 10 folds."
+    },
+    {
+     "title": "Multiplying powers",
+     "work": "Expand expressions like 10^3 x 10^4 to discover a^m x a^n = a^(m+n); practice 12 problems."
+    },
+    {
+     "title": "Powers of powers",
+     "work": "Expand (5^2)^3 to discover (a^m)^n = a^(mn); mix with products."
+    },
+    {
+     "title": "Dividing powers",
+     "work": "Expand 7^6 / 7^2 to discover a^m / a^n = a^(m-n); solve 12 mixed problems."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: simplify 12 expressions using exponent rules and explain one rule with expanded form."
+    }
+   ],
+   "assessment": "Quiz on exponent rules."
+  },
+  {
+   "week": 26,
+   "unit": 7,
+   "topic": "Zero, negative exponents and different bases",
+   "objectives": [
+    "Explain why a^0 = 1 and a^(-n) = 1/a^n",
+    "Simplify expressions with negative exponents and products of different bases"
+   ],
+   "standards": [
+    "8.EE.A.1"
+   ],
+   "vocabulary": [
+    "zero exponent",
+    "negative exponent",
+    "reciprocal"
+   ],
+   "materials": [
+    "notebook"
+   ],
+   "days": [
+    {
+     "title": "Zero exponents",
+     "work": "Use a pattern table (10^3, 10^2, 10^1, ...) to justify 10^0 = 1; extend to other bases."
+    },
+    {
+     "title": "Negative exponents",
+     "work": "Continue the pattern to 10^(-1), 10^(-2); rewrite 10 expressions with positive exponents."
+    },
+    {
+     "title": "Different bases",
+     "work": "Use (ab)^n = a^n b^n to simplify expressions like 2^3 x 5^3 = 10^3; evaluate 8 expressions."
+    },
+    {
+     "title": "Mixed practice",
+     "work": "Complete a 20-problem mixed exponent card sort, matching equivalent expressions."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: evaluate and simplify 12 expressions with zero and negative exponents."
+    }
+   ],
+   "assessment": "Quiz on integer exponents."
+  },
+  {
+   "week": 27,
+   "unit": 7,
+   "topic": "Powers of 10 and scientific notation",
+   "objectives": [
+    "Write large and small numbers in scientific notation",
+    "Compare quantities using powers of 10"
+   ],
+   "standards": [
+    "8.EE.A.3",
+    "8.EE.A.4"
+   ],
+   "vocabulary": [
+    "scientific notation",
+    "power of 10",
+    "order of magnitude"
+   ],
+   "materials": [
+    "NASA planetary fact sheet printout",
+    "calculator"
+   ],
+   "days": [
+    {
+     "title": "Powers of 10 on a number line",
+     "work": "Place numbers like 3 x 10^5 and 7 x 10^(-3) on number lines labeled with powers of 10."
+    },
+    {
+     "title": "Writing scientific notation",
+     "work": "Convert 12 quantities (distance to the Sun, mass of a dust grain, U.S. population) to and from scientific notation."
+    },
+    {
+     "title": "Comparing magnitudes",
+     "work": "Use powers of 10 to estimate how many times larger one quantity is (Earth vs Moon mass, a blue whale vs an ant)."
+    },
+    {
+     "title": "Using a calculator",
+     "work": "Read calculator 'E' notation and convert planetary data from NASA into scientific notation."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: convert, compare and order 10 numbers in scientific notation."
+    }
+   ],
+   "assessment": "Quiz on scientific notation."
+  },
+  {
+   "week": 28,
+   "unit": 7,
+   "topic": "Operations with scientific notation",
+   "objectives": [
+    "Multiply and divide numbers in scientific notation",
+    "Add and subtract numbers in scientific notation and choose sensible units"
+   ],
+   "standards": [
+    "8.EE.A.4"
+   ],
+   "vocabulary": [
+    "scientific notation",
+    "coefficient",
+    "unit conversion"
+   ],
+   "materials": [
+    "calculator",
+    "NASA planetary data"
+   ],
+   "days": [
+    {
+     "title": "Multiplying & dividing",
+     "work": "Compute products and quotients like (3 x 10^8)(2 x 10^3) and adjust answers to proper scientific notation."
+    },
+    {
+     "title": "Adding & subtracting",
+     "work": "Rewrite with a common power of 10 before adding/subtracting; complete 8 problems."
+    },
+    {
+     "title": "Space math",
+     "work": "Calculate how long light takes to travel from the Sun to each planet using distance / (3 x 10^8 m/s)."
+    },
+    {
+     "title": "Unit 7 review",
+     "work": "Review exponent rules and scientific notation with a self-checking puzzle."
+    },
+    {
+     "title": "Unit 7 test",
+     "work": "Unit test on exponents and scientific notation."
+    }
+   ],
+   "assessment": "Unit 7 test."
+  },
+  {
+   "week": 29,
+   "unit": 8,
+   "topic": "Square roots and side lengths of squares",
+   "objectives": [
+    "Find areas of tilted squares on a grid and relate side length to square root",
+    "Estimate square roots between consecutive integers"
+   ],
+   "standards": [
+    "8.EE.A.2",
+    "8.NS.A.2"
+   ],
+   "vocabulary": [
+    "square root",
+    "perfect square",
+    "radical",
+    "irrational number"
+   ],
+   "materials": [
+    "graph paper",
+    "ruler"
+   ],
+   "days": [
+    {
+     "title": "Tilted squares",
+     "work": "Draw squares on a grid with tilted sides; find their areas by decomposing or surrounding with a larger square."
+    },
+    {
+     "title": "Side lengths as square roots",
+     "work": "Write side lengths of those squares as square roots (e.g., sqrt 10) and estimate each between two whole numbers."
+    },
+    {
+     "title": "Perfect squares",
+     "work": "Memorize perfect squares 1–225; solve x^2 = p for 10 values of p including non-perfect squares."
+    },
+    {
+     "title": "Estimating roots",
+     "work": "Estimate sqrt 50, sqrt 72 and sqrt 130 to the tenth by guess-and-check squaring; check with a calculator."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: tilted-square areas, solving x^2 = p and placing square roots on a number line."
+    }
+   ],
+   "assessment": "Quiz on square roots."
+  },
+  {
+   "week": 30,
+   "unit": 8,
+   "topic": "The Pythagorean theorem and its converse",
+   "objectives": [
+    "Explain a visual proof of the Pythagorean theorem",
+    "Use the converse to determine whether a triangle is a right triangle"
+   ],
+   "standards": [
+    "8.G.B.6"
+   ],
+   "vocabulary": [
+    "hypotenuse",
+    "legs",
+    "Pythagorean theorem",
+    "converse",
+    "right triangle"
+   ],
+   "materials": [
+    "graph paper",
+    "scissors",
+    "ruler",
+    "string"
+   ],
+   "days": [
+    {
+     "title": "Finding a pattern",
+     "work": "Draw right triangles on a grid, build squares on each side and record areas to discover a^2 + b^2 = c^2."
+    },
+    {
+     "title": "Visual proof",
+     "work": "Cut and rearrange four congruent right triangles inside a square (the 'two squares' proof) and explain in writing why it proves the theorem."
+    },
+    {
+     "title": "Finding unknown sides",
+     "work": "Solve 10 problems finding a missing leg or hypotenuse, leaving irrational answers as square roots and as decimals."
+    },
+    {
+     "title": "The converse",
+     "work": "Test side lengths (3-4-5, 5-12-13, 6-7-9) with the converse; use a 3-4-5 knotted string to check a corner of a room for square."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: explain the proof in your own words and solve 6 problems including converse questions."
+    }
+   ],
+   "assessment": "Written proof explanation and quiz."
+  },
+  {
+   "week": 31,
+   "unit": 8,
+   "topic": "Applying the Pythagorean theorem",
+   "objectives": [
+    "Apply the theorem in 2-D and 3-D real-world problems",
+    "Find distance between two points on the coordinate plane"
+   ],
+   "standards": [
+    "8.G.B.7",
+    "8.G.B.8"
+   ],
+   "vocabulary": [
+    "distance",
+    "diagonal",
+    "coordinate plane",
+    "three-dimensional"
+   ],
+   "materials": [
+    "rectangular box",
+    "tape measure",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "Real-world right triangles",
+     "work": "Solve problems with ladders, TV screen diagonals and ramps; measure a TV to check its advertised diagonal."
+    },
+    {
+     "title": "3-D diagonals",
+     "work": "Find the longest straight object that fits in a shoe box by computing the space diagonal; verify with a measured straw or string."
+    },
+    {
+     "title": "Distance on the coordinate plane",
+     "work": "Draw the right triangle under segments between points and find 8 distances."
+    },
+    {
+     "title": "Mixed applications",
+     "work": "Solve 6 multi-step problems such as walking diagonally across a park vs around it."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: 3 real-world, 2 three-dimensional and 3 coordinate distance problems."
+    }
+   ],
+   "assessment": "Quiz on Pythagorean applications."
+  },
+  {
+   "week": 32,
+   "unit": 8,
+   "topic": "Cube roots and rational vs irrational numbers",
+   "objectives": [
+    "Solve x^3 = p using cube roots",
+    "Convert repeating decimals to fractions and classify numbers as rational or irrational"
+   ],
+   "standards": [
+    "8.EE.A.2",
+    "8.NS.A.1"
+   ],
+   "vocabulary": [
+    "cube root",
+    "perfect cube",
+    "repeating decimal",
+    "terminating decimal",
+    "rational number",
+    "irrational number"
+   ],
+   "materials": [
+    "sugar cubes or snap cubes",
+    "calculator"
+   ],
+   "days": [
+    {
+     "title": "Cube roots",
+     "work": "Build cubes of side 1–5 with sugar or snap cubes; solve x^3 = p for perfect and non-perfect cubes and estimate."
+    },
+    {
+     "title": "Decimal expansions",
+     "work": "Use long division to write fractions such as 5/11 and 7/12 as decimals; identify repeating patterns."
+    },
+    {
+     "title": "Repeating decimals to fractions",
+     "work": "Use the 'multiply by 10^n and subtract' method to convert 0.7777..., 0.272727... and 1.16666... to fractions."
+    },
+    {
+     "title": "Rational or irrational?",
+     "work": "Sort 16 numbers (sqrt 16, pi, 0.121212..., sqrt 2, 22/7) and justify each placement."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: cube roots, conversions and classification of real numbers."
+    }
+   ],
+   "assessment": "Quiz on cube roots and the real number system."
+  },
+  {
+   "week": 33,
+   "unit": 8,
+   "topic": "Approximating irrational numbers",
+   "objectives": [
+    "Approximate irrational numbers to the hundredth",
+    "Compare and order irrational and rational numbers on a number line"
+   ],
+   "standards": [
+    "8.NS.A.2",
+    "8.G.B.7"
+   ],
+   "vocabulary": [
+    "approximation",
+    "real number line",
+    "truncate"
+   ],
+   "materials": [
+    "number line strips",
+    "calculator"
+   ],
+   "days": [
+    {
+     "title": "Zooming in on sqrt 2",
+     "work": "Use successive number lines to trap sqrt 2 between tenths, then hundredths, without a calculator."
+    },
+    {
+     "title": "Ordering real numbers",
+     "work": "Order sets like {pi, sqrt 10, 3.1, 22/7, 3.15} on a number line with justification."
+    },
+    {
+     "title": "Estimating expressions",
+     "work": "Estimate values like pi^2 and 2 sqrt 5 + 1 and compare estimates to calculator values."
+    },
+    {
+     "title": "Unit 8 review",
+     "work": "Mixed review: roots, Pythagorean theorem, distance and real numbers."
+    },
+    {
+     "title": "Unit 8 test",
+     "work": "Unit test on the Pythagorean theorem and irrational numbers."
+    }
+   ],
+   "assessment": "Unit 8 test."
+  },
+  {
+   "week": 34,
+   "unit": 9,
+   "topic": "Modeling: Fermi problems and estimation",
+   "objectives": [
+    "Break large estimation problems into smaller computable parts",
+    "Use scientific notation and volume to estimate quantities"
+   ],
+   "standards": [
+    "8.EE.A.3",
+    "8.G.C.9"
+   ],
+   "vocabulary": [
+    "Fermi problem",
+    "estimate",
+    "assumption",
+    "order of magnitude"
+   ],
+   "materials": [
+    "measuring tape",
+    "calculator",
+    "ping-pong ball or marble"
+   ],
+   "days": [
+    {
+     "title": "What is a Fermi problem?",
+     "work": "Estimate how many ping-pong balls fit in your house's living room using volume of spheres and a room measurement; list assumptions."
+    },
+    {
+     "title": "Fermi problem 2",
+     "work": "Estimate how many heartbeats you will have in your lifetime and express in scientific notation."
+    },
+    {
+     "title": "Choose your own",
+     "work": "Pick a question (e.g., how many pizzas are eaten in California per year), research a few facts and build an estimate."
+    },
+    {
+     "title": "Presentation",
+     "work": "Present your Fermi estimate on a poster with the steps, assumptions and an order-of-magnitude reasonableness check."
+    },
+    {
+     "title": "Review & check",
+     "work": "Self- and parent-assess the poster with a rubric; complete 6 cumulative review problems on exponents and volume."
+    }
+   ],
+   "assessment": "Fermi-problem poster rubric."
+  },
+  {
+   "week": 35,
+   "unit": 9,
+   "topic": "Modeling project: planning a small business",
+   "objectives": [
+    "Use linear functions to model cost and revenue",
+    "Use a system to find a break-even point"
+   ],
+   "standards": [
+    "8.F.B.4",
+    "8.EE.C.8c",
+    "8.SP.A.3"
+   ],
+   "vocabulary": [
+    "cost",
+    "revenue",
+    "profit",
+    "break-even point",
+    "fixed cost",
+    "variable cost"
+   ],
+   "materials": [
+    "Desmos",
+    "spreadsheet or graph paper"
+   ],
+   "days": [
+    {
+     "title": "Business idea and costs",
+     "work": "Choose a small business (lemonade stand, dog walking, baking) and write a cost function with fixed and per-item costs."
+    },
+    {
+     "title": "Revenue and break-even",
+     "work": "Write a revenue function and solve the system to find the break-even point; graph both in Desmos."
+    },
+    {
+     "title": "Using data",
+     "work": "Use a short table of sales vs price (given or surveyed) to fit a line and predict sales at a new price."
+    },
+    {
+     "title": "Final review",
+     "work": "Cumulative review of all units using a 30-problem mixed set; mark items to revisit."
+    },
+    {
+     "title": "Project presentation",
+     "work": "Present the business plan with graphs, break-even point and recommendations."
+    }
+   ],
+   "assessment": "Business modeling project rubric."
+  },
+  {
+   "week": 36,
+   "unit": 9,
+   "topic": "Final review and cumulative exam",
+   "objectives": [
+    "Demonstrate mastery of Grade 8 standards",
+    "Reflect on growth over the year"
+   ],
+   "standards": [
+    "8.EE.C.8c",
+    "8.G.C.9",
+    "8.SP.A.3",
+    "8.F.B.4",
+    "8.EE.A.3"
+   ],
+   "vocabulary": [
+    "review of year vocabulary"
+   ],
+   "materials": [
+    "notebook",
+    "formula sheet",
+    "calculator"
+   ],
+   "days": [
+    {
+     "title": "Review: geometry",
+     "work": "Review transformations, similarity, angles, Pythagorean theorem and volume with 15 problems."
+    },
+    {
+     "title": "Review: algebra",
+     "work": "Review linear equations, systems, functions, exponents and scientific notation with 15 problems."
+    },
+    {
+     "title": "Final exam part 1",
+     "work": "Take part 1 of the cumulative final (geometry, number system, data)."
+    },
+    {
+     "title": "Final exam part 2",
+     "work": "Take part 2 of the cumulative final (expressions, equations, functions)."
+    },
+    {
+     "title": "Reflection & portfolio",
+     "work": "Correct final exam errors and write a one-page reflection on your three most improved skills; organize the math portfolio for Algebra I."
+    }
+   ],
+   "assessment": "Cumulative final exam and portfolio reflection."
+  }
+ ]
+}

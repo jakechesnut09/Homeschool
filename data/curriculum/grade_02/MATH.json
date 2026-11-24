@@ -1,0 +1,1922 @@
+{
+  "grade": 2,
+  "subject": "MATH",
+  "title": "Math 2",
+  "description": "Second-grade mathematics aligned to the California Common Core: fluency with addition and subtraction facts within 20, place value to 1,000, adding and subtracting within 100 and 1,000 with place-value strategies, measuring length in standard units, money and time, picture graphs, bar graphs and line plots, arrays and odd/even numbers as a foundation for multiplication, and shapes and equal shares. Lessons follow a concrete–pictorial–abstract path with base-ten blocks, number lines, and real objects, and every week includes word problems, a fact-fluency routine, and a Friday check.",
+  "framework": "California Common Core State Standards for Mathematics; 2023 California Mathematics Framework",
+  "minutes_per_day": 60,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "2.OA.A.1": "Use addition and subtraction within 100 to solve one- and two-step word problems (adding to, taking from, putting together, taking apart, comparing) with unknowns in all positions.",
+    "2.OA.B.2": "Fluently add and subtract within 20 using mental strategies; by end of grade 2, know from memory all sums of two one-digit numbers.",
+    "2.OA.C.3": "Determine whether a group of objects (up to 20) has an odd or even number of members; write an even number as a sum of two equal addends.",
+    "2.OA.C.4": "Use addition to find the total number of objects in rectangular arrays with up to 5 rows and 5 columns; write an equation of equal addends.",
+    "2.NBT.A.1": "Understand that the three digits of a three-digit number represent hundreds, tens, and ones; 100 is a bundle of ten tens.",
+    "2.NBT.A.2": "Count within 1000; skip-count by 5s, 10s, and 100s.",
+    "2.NBT.A.3": "Read and write numbers to 1000 using base-ten numerals, number names, and expanded form.",
+    "2.NBT.A.4": "Compare two three-digit numbers based on hundreds, tens, and ones digits using >, =, and <.",
+    "2.NBT.B.5": "Fluently add and subtract within 100 using strategies based on place value, properties of operations, and the relationship between addition and subtraction.",
+    "2.NBT.B.6": "Add up to four two-digit numbers using strategies based on place value and properties of operations.",
+    "2.NBT.B.7": "Add and subtract within 1000 using concrete models, drawings, and place-value strategies; understand composing and decomposing tens and hundreds.",
+    "2.NBT.B.8": "Mentally add 10 or 100 to, and subtract 10 or 100 from, a number 100–900.",
+    "2.NBT.B.9": "Explain why addition and subtraction strategies work, using place value and properties of operations.",
+    "2.MD.A.1": "Measure the length of an object by selecting and using appropriate tools (rulers, yardsticks, meter sticks, measuring tapes).",
+    "2.MD.A.2": "Measure the length of an object twice using different length units and describe how the measurements relate to the size of the unit.",
+    "2.MD.A.3": "Estimate lengths using units of inches, feet, centimeters, and meters.",
+    "2.MD.A.4": "Measure to determine how much longer one object is than another, expressing the difference in a standard length unit.",
+    "2.MD.B.5": "Use addition and subtraction within 100 to solve word problems involving lengths given in the same units.",
+    "2.MD.B.6": "Represent whole numbers as lengths from 0 on a number line diagram and represent sums and differences within 100 on a number line.",
+    "2.MD.C.7": "Tell and write time from analog and digital clocks to the nearest five minutes, using a.m. and p.m.",
+    "2.MD.C.8": "Solve word problems involving dollar bills, quarters, dimes, nickels, and pennies, using $ and ¢ symbols appropriately.",
+    "2.MD.D.9": "Generate measurement data by measuring lengths to the nearest whole unit and show the data on a line plot.",
+    "2.MD.D.10": "Draw a picture graph and a bar graph (single-unit scale) for a data set with up to four categories; solve put-together, take-apart, and compare problems using the graph.",
+    "2.G.A.1": "Recognize and draw shapes having specified attributes (number of angles or equal faces); identify triangles, quadrilaterals, pentagons, hexagons, and cubes.",
+    "2.G.A.2": "Partition a rectangle into rows and columns of same-size squares and count to find the total number of them.",
+    "2.G.A.3": "Partition circles and rectangles into two, three, or four equal shares, describe the shares as halves, thirds, fourths, and recognize equal shares of identical wholes need not have the same shape."
+  },
+  "resources": [
+    {
+      "name": "Khan Academy – 2nd grade math",
+      "url": "https://www.khanacademy.org/math/cc-2nd-grade-math",
+      "note": "Free videos and practice for every grade 2 standard."
+    },
+    {
+      "name": "Illustrative Mathematics",
+      "url": "https://illustrativemathematics.org/",
+      "note": "Open K–5 curriculum (grade 2 units, tasks, and centers) free to view."
+    },
+    {
+      "name": "Zearn",
+      "url": "https://www.zearn.org/",
+      "note": "Free digital lessons with base-ten models for daily independent practice."
+    },
+    {
+      "name": "Math Learning Center – Free Math Apps",
+      "url": "https://www.mathlearningcenter.org/apps",
+      "note": "Virtual number pieces, number line, money, clock, and geoboard manipulatives."
+    },
+    {
+      "name": "Toy Theater",
+      "url": "https://toytheater.com/",
+      "note": "Free virtual manipulatives and math games (base-ten blocks, clocks, coins, fraction pieces)."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Addition and Subtraction Fluency Within 20",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Facts within 20 can be found quickly with strategies like making ten, doubles, and thinking addition for subtraction.",
+      "standards": [
+        "2.OA.B.2",
+        "2.OA.A.1"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Place Value to 1,000",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Three-digit numbers are made of hundreds, tens, and ones, and place value lets us read, write, and compare them.",
+      "standards": [
+        "2.NBT.A.1",
+        "2.NBT.A.2",
+        "2.NBT.A.3",
+        "2.NBT.A.4",
+        "2.NBT.B.8"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Measuring Length",
+      "start_week": 9,
+      "end_week": 11,
+      "big_idea": "We measure length by repeating equal units with no gaps, and smaller units give larger numbers.",
+      "standards": [
+        "2.MD.A.1",
+        "2.MD.A.2",
+        "2.MD.A.3",
+        "2.MD.A.4"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Adding and Subtracting Within 100",
+      "start_week": 12,
+      "end_week": 16,
+      "big_idea": "Place value lets us add and subtract two-digit numbers by combining or breaking apart tens and ones.",
+      "standards": [
+        "2.NBT.B.5",
+        "2.NBT.B.6",
+        "2.NBT.B.9",
+        "2.OA.A.1"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Data: Graphs and Line Plots",
+      "start_week": 17,
+      "end_week": 18,
+      "big_idea": "Graphs organize data so we can compare categories and answer questions.",
+      "standards": [
+        "2.MD.D.9",
+        "2.MD.D.10"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Adding and Subtracting Within 1,000",
+      "start_week": 19,
+      "end_week": 22,
+      "big_idea": "The same place-value strategies work for hundreds: compose and decompose tens and hundreds as needed.",
+      "standards": [
+        "2.NBT.B.7",
+        "2.NBT.B.8",
+        "2.NBT.B.9"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Money and Time",
+      "start_week": 23,
+      "end_week": 25,
+      "big_idea": "Coins and bills have values we can count and combine; clocks show time in five-minute intervals.",
+      "standards": [
+        "2.MD.C.7",
+        "2.MD.C.8",
+        "2.NBT.A.2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Length Word Problems and Number Lines",
+      "start_week": 26,
+      "end_week": 27,
+      "big_idea": "A number line is a ruler for numbers, and it helps solve length problems.",
+      "standards": [
+        "2.MD.B.5",
+        "2.MD.B.6",
+        "2.OA.A.1"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Equal Groups, Arrays, Odd and Even",
+      "start_week": 28,
+      "end_week": 30,
+      "big_idea": "Equal groups and arrays prepare us for multiplication; even numbers can be split into two equal groups.",
+      "standards": [
+        "2.OA.C.3",
+        "2.OA.C.4"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Geometry and Equal Shares",
+      "start_week": 31,
+      "end_week": 33,
+      "big_idea": "Shapes are defined by their attributes, and wholes can be cut into equal shares called halves, thirds, and fourths.",
+      "standards": [
+        "2.G.A.1",
+        "2.G.A.2",
+        "2.G.A.3"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Putting It All Together",
+      "start_week": 34,
+      "end_week": 36,
+      "big_idea": "Mathematicians choose strategies and tools to solve multi-step problems and explain their thinking.",
+      "standards": [
+        "2.OA.A.1",
+        "2.NBT.B.5",
+        "2.NBT.B.7",
+        "2.MD.C.8",
+        "2.MD.D.10",
+        "2.OA.B.2"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Facts within 10 and counting on",
+      "objectives": [
+        "Add and subtract within 10 fluently",
+        "Count on to add",
+        "Use doubles facts"
+      ],
+      "standards": [
+        "2.OA.B.2"
+      ],
+      "vocabulary": [
+        "sum",
+        "difference",
+        "addend",
+        "count on",
+        "doubles"
+      ],
+      "materials": [
+        "ten-frame",
+        "counters",
+        "dot cards",
+        "dice"
+      ],
+      "days": [
+        {
+          "title": "Number talk & ten-frames",
+          "work": "Use quick-image dot cards and ten-frames to name numbers 1–10 and the 'partners of 10' (7 and 3, 6 and 4); write all ten facts that make 10."
+        },
+        {
+          "title": "Count on",
+          "work": "Add 1, 2, or 3 by counting on from the larger addend (8 + 3: 9, 10, 11); play 'Roll and Count On' with two dice and record 15 equations."
+        },
+        {
+          "title": "Doubles",
+          "work": "Learn doubles 1+1 to 10+10 with pictures (spider legs 4+4, egg carton 6+6) and quiz with flash cards."
+        },
+        {
+          "title": "Subtraction within 10",
+          "work": "Act out take-away stories with counters and write subtraction equations; relate 9 − 4 to 4 + 5 = 9."
+        },
+        {
+          "title": "Fact check",
+          "work": "Take a 2-minute baseline fact quiz (40 facts within 10) and graph your score to track all year. Solve 4 short add-to/take-from story problems."
+        }
+      ],
+      "assessment": "Baseline fluency quiz and story problem check."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Make-a-ten and near doubles",
+      "objectives": [
+        "Use make-a-ten to add within 20",
+        "Use near doubles",
+        "Solve put-together word problems"
+      ],
+      "standards": [
+        "2.OA.B.2",
+        "2.OA.A.1"
+      ],
+      "vocabulary": [
+        "make a ten",
+        "near doubles",
+        "equation",
+        "strategy"
+      ],
+      "materials": [
+        "double ten-frames",
+        "counters",
+        "fact cards"
+      ],
+      "days": [
+        {
+          "title": "Make a ten",
+          "work": "Solve 9 + 5 by moving one counter to make 10 + 4 on a double ten-frame; practice with 8 + and 9 + facts."
+        },
+        {
+          "title": "Near doubles",
+          "work": "Use doubles to solve near doubles (6 + 7 = 6 + 6 + 1) and explain the strategy in words; sort 20 facts by best strategy."
+        },
+        {
+          "title": "Word problems",
+          "work": "Solve 6 put-together/take-apart problems (e.g., 'Ana has 8 red and 7 blue marbles…') with a drawing and an equation."
+        },
+        {
+          "title": "Fact games",
+          "work": "Play 'Make Ten Go Fish' and 'Doubles War' with cards; record 10 facts from each game."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on 30 addition facts within 20 and 3 word problems; explain one strategy aloud."
+        }
+      ],
+      "assessment": "Fact quiz (30) and strategy explanation."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Subtraction strategies within 20",
+      "objectives": [
+        "Subtract by thinking addition",
+        "Subtract by counting back and through ten",
+        "Solve take-from and compare problems"
+      ],
+      "standards": [
+        "2.OA.B.2",
+        "2.OA.A.1"
+      ],
+      "vocabulary": [
+        "fact family",
+        "related facts",
+        "count back",
+        "compare"
+      ],
+      "materials": [
+        "number line 0–20",
+        "fact triangles",
+        "counters"
+      ],
+      "days": [
+        {
+          "title": "Fact families",
+          "work": "Build fact families with fact triangles (7, 8, 15) and write the 4 related equations for 6 families."
+        },
+        {
+          "title": "Think addition",
+          "work": "Solve 14 − 6 by asking '6 + ? = 14'; practice 20 subtraction facts using the related addition fact."
+        },
+        {
+          "title": "Back through ten",
+          "work": "Use a 0–20 number line to subtract through ten (15 − 7: back 5 to 10, back 2 more to 8)."
+        },
+        {
+          "title": "Compare problems",
+          "work": "Solve 'how many more/fewer' problems with bar models (e.g., 'Leo has 13 stickers, Mia has 8. How many more does Leo have?')."
+        },
+        {
+          "title": "Review & check",
+          "work": "Subtraction fact quiz (30 facts) and 4 mixed word problems with drawings and equations."
+        }
+      ],
+      "assessment": "Subtraction fact quiz and mixed word problems."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Unknowns in all positions and fluency check",
+      "objectives": [
+        "Solve problems with unknown start or change",
+        "Use symbols for unknowns",
+        "Show fluency within 20"
+      ],
+      "standards": [
+        "2.OA.A.1",
+        "2.OA.B.2"
+      ],
+      "vocabulary": [
+        "unknown",
+        "missing addend",
+        "start unknown",
+        "bar model"
+      ],
+      "materials": [
+        "bar model mats",
+        "counters",
+        "timer"
+      ],
+      "days": [
+        {
+          "title": "Missing addends",
+          "work": "Solve equations with a box for the unknown (8 + □ = 15, □ − 4 = 9) using counters and a number line."
+        },
+        {
+          "title": "Start unknown",
+          "work": "Solve 'Some birds were on a tree. 6 more came. Now there are 14. How many were there at first?' using bar models; solve 5 like it."
+        },
+        {
+          "title": "Write your own",
+          "work": "Write 3 word problems (one with the unknown at the start, middle, end) for a family member to solve and check their answers."
+        },
+        {
+          "title": "Fluency stations",
+          "work": "Rotate through fact games: fact-triangle flash, 'Salute!' card game, and an online fact practice session."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Fluency quiz (40 facts within 20, compare to Week 1 baseline) and 6 one-step word problems with unknowns in different positions."
+        }
+      ],
+      "assessment": "Unit 1 test with fluency comparison to baseline."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Hundreds, tens, and ones",
+      "objectives": [
+        "Understand 100 as ten tens",
+        "Represent three-digit numbers with base-ten blocks",
+        "Identify the value of each digit"
+      ],
+      "standards": [
+        "2.NBT.A.1"
+      ],
+      "vocabulary": [
+        "hundred",
+        "ten",
+        "one",
+        "digit",
+        "value"
+      ],
+      "materials": [
+        "base-ten blocks (or paper cutouts)",
+        "straws and rubber bands",
+        "place-value mat"
+      ],
+      "days": [
+        {
+          "title": "Bundling",
+          "work": "Bundle straws into tens with rubber bands, then 10 tens into a hundred; explain why 100 = 10 tens."
+        },
+        {
+          "title": "Build numbers",
+          "work": "Build 10 three-digit numbers on a place-value mat with base-ten blocks (e.g., 346 = 3 hundreds, 4 tens, 6 ones) and draw quick pictures."
+        },
+        {
+          "title": "Zeros matter",
+          "work": "Build and compare 305, 350, and 503; explain what the zero means in each."
+        },
+        {
+          "title": "Hundreds",
+          "work": "Count 100, 200, …, 900 with flats; show that 4 hundreds = 40 tens = 400 ones."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: write the number shown by 8 block pictures and give the value of the underlined digit in 8 numbers."
+        }
+      ],
+      "assessment": "Place-value quiz on block pictures and digit values."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Counting and skip-counting to 1,000",
+      "objectives": [
+        "Count within 1,000 from any number",
+        "Skip-count by 5s, 10s, and 100s",
+        "Find patterns on a hundreds chart"
+      ],
+      "standards": [
+        "2.NBT.A.2",
+        "2.NBT.B.8"
+      ],
+      "vocabulary": [
+        "skip-count",
+        "pattern",
+        "hundreds chart",
+        "sequence"
+      ],
+      "materials": [
+        "hundreds chart",
+        "blank 1–1,000 chart pages",
+        "nickels and dimes"
+      ],
+      "days": [
+        {
+          "title": "Counting across hundreds",
+          "work": "Count aloud from 87 to 132 and from 385 to 421, filling a blank chart section; notice what happens at 'hundreds.'"
+        },
+        {
+          "title": "Skip by 5s and 10s",
+          "work": "Skip-count by 5s using nickels and by 10s using dimes; skip-count by 10s starting at 23 (23, 33, 43…)."
+        },
+        {
+          "title": "Skip by 100s",
+          "work": "Skip-count by 100s from 100 and from 250; use a number path to show 10 more, 10 less, 100 more, 100 less."
+        },
+        {
+          "title": "Mental 10s and 100s",
+          "work": "Mental math: add or subtract 10 or 100 from numbers between 100 and 900 (e.g., 456 + 100, 702 − 10) — 20 problems."
+        },
+        {
+          "title": "Review & check",
+          "work": "Fill in missing numbers on 6 skip-count patterns and 10 '10 more/100 less' problems."
+        }
+      ],
+      "assessment": "Skip-counting patterns and mental 10/100 more or less check."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Reading and writing three-digit numbers",
+      "objectives": [
+        "Write numbers in standard form, word form, and expanded form",
+        "Read number names",
+        "Represent numbers in different ways"
+      ],
+      "standards": [
+        "2.NBT.A.3",
+        "2.NBT.A.1"
+      ],
+      "vocabulary": [
+        "standard form",
+        "expanded form",
+        "word form",
+        "number name"
+      ],
+      "materials": [
+        "place-value cards",
+        "number word list"
+      ],
+      "days": [
+        {
+          "title": "Expanded form",
+          "work": "Use place-value arrow cards to show 427 = 400 + 20 + 7 and write expanded form for 10 numbers."
+        },
+        {
+          "title": "Number words",
+          "work": "Practice spelling number words (twenty, forty, hundred) and write 8 numbers in word form (six hundred thirty-two)."
+        },
+        {
+          "title": "Many ways",
+          "work": "Show 245 four ways: blocks, quick picture, expanded form, and as 24 tens 5 ones."
+        },
+        {
+          "title": "Number riddles",
+          "work": "Solve riddles ('I have 3 hundreds, 0 tens, and 9 ones') and write 3 riddles for a family member."
+        },
+        {
+          "title": "Review & check",
+          "work": "Convert 12 numbers among standard, word, and expanded forms."
+        }
+      ],
+      "assessment": "Form-conversion quiz (12 items)."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Comparing three-digit numbers",
+      "objectives": [
+        "Compare three-digit numbers using place value",
+        "Use >, =, < symbols",
+        "Order numbers"
+      ],
+      "standards": [
+        "2.NBT.A.4",
+        "2.NBT.A.3"
+      ],
+      "vocabulary": [
+        "greater than",
+        "less than",
+        "equal to",
+        "compare",
+        "order"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "number cards 0–9"
+      ],
+      "days": [
+        {
+          "title": "Compare with blocks",
+          "work": "Build two numbers (452 and 425) with blocks and compare hundreds first, then tens; record with > or <."
+        },
+        {
+          "title": "Symbols",
+          "work": "Compare 15 pairs of numbers with >, =, < and explain one comparison in words ('362 > 326 because 6 tens is more than 2 tens')."
+        },
+        {
+          "title": "Order",
+          "work": "Order sets of 4 numbers from least to greatest; compare city populations or heights of landmarks in feet."
+        },
+        {
+          "title": "Greatest number game",
+          "work": "Draw 3 digit cards, make the greatest and least possible numbers, and compare with a partner — 10 rounds."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Test on place value, counting patterns, number forms, and comparing three-digit numbers (20 items)."
+        }
+      ],
+      "assessment": "Unit 2 test."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Measuring in inches and feet",
+      "objectives": [
+        "Measure length with a ruler and yardstick",
+        "Choose appropriate tools",
+        "Understand units are equal with no gaps"
+      ],
+      "standards": [
+        "2.MD.A.1",
+        "2.MD.A.3"
+      ],
+      "vocabulary": [
+        "inch",
+        "foot",
+        "yard",
+        "ruler",
+        "length"
+      ],
+      "materials": [
+        "12-inch ruler",
+        "yardstick",
+        "measuring tape",
+        "paper clips"
+      ],
+      "days": [
+        {
+          "title": "Why units",
+          "work": "Measure a book with paper clips leaving gaps and overlaps, then correctly; discuss why units must be the same size with no gaps."
+        },
+        {
+          "title": "Inches",
+          "work": "Measure 10 household objects (pencil, spoon, shoe) to the nearest inch with a ruler starting at 0; record in a table."
+        },
+        {
+          "title": "Feet and yards",
+          "work": "Measure a table, a door, and a room with a yardstick or tape; choose the best tool for each and explain."
+        },
+        {
+          "title": "Estimate first",
+          "work": "Estimate then measure 8 objects in inches or feet; find how close each estimate was."
+        },
+        {
+          "title": "Review & check",
+          "work": "Measure 6 pictured objects to the nearest inch and choose the right unit/tool for 6 situations."
+        }
+      ],
+      "assessment": "Measurement accuracy check and tool/unit choice quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Measuring in centimeters and meters",
+      "objectives": [
+        "Measure in centimeters and meters",
+        "Compare measurements in two units",
+        "Estimate metric lengths"
+      ],
+      "standards": [
+        "2.MD.A.1",
+        "2.MD.A.2",
+        "2.MD.A.3"
+      ],
+      "vocabulary": [
+        "centimeter",
+        "meter",
+        "metric",
+        "estimate"
+      ],
+      "materials": [
+        "centimeter ruler",
+        "meter stick or string cut to 1 meter",
+        "sticky notes"
+      ],
+      "days": [
+        {
+          "title": "Centimeters",
+          "work": "Measure 10 small objects to the nearest centimeter and record; use a fingertip as a 1-cm benchmark."
+        },
+        {
+          "title": "Meters",
+          "work": "Measure the length of rooms and a hallway with a meter stick; estimate first using a giant step as about 1 meter."
+        },
+        {
+          "title": "Two units",
+          "work": "Measure the same 5 objects in inches and centimeters and explain why there are more centimeters (smaller unit)."
+        },
+        {
+          "title": "Benchmark estimates",
+          "work": "Estimate 8 lengths in cm or m using benchmarks, then measure; color estimates that were within 5 cm."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: measure in cm, compare inch vs. cm results for 3 objects, and explain the unit-size relationship in a sentence."
+        }
+      ],
+      "assessment": "Metric measuring quiz and written unit-size explanation."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Comparing lengths",
+      "objectives": [
+        "Find how much longer one object is than another",
+        "Measure and record differences",
+        "Solve compare-length problems"
+      ],
+      "standards": [
+        "2.MD.A.4",
+        "2.MD.A.1"
+      ],
+      "vocabulary": [
+        "difference",
+        "longer",
+        "shorter",
+        "compare"
+      ],
+      "materials": [
+        "rulers",
+        "ribbon or string",
+        "toy cars"
+      ],
+      "days": [
+        {
+          "title": "How much longer",
+          "work": "Measure two pencils and find how much longer one is by counting on from the shorter length."
+        },
+        {
+          "title": "Ribbon compare",
+          "work": "Cut ribbons of different lengths, measure each in cm, and write 5 'how much longer' sentences."
+        },
+        {
+          "title": "Toy car race",
+          "work": "Roll toy cars down a ramp, measure distances, and find the difference between the farthest and shortest rolls."
+        },
+        {
+          "title": "Family lengths",
+          "work": "Measure family members' arm spans in inches and write compare sentences ('Dad's arm span is 14 inches longer than mine')."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Measure objects in two unit systems, estimate lengths, and solve 4 'how much longer' problems."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "Adding within 100 using place value",
+      "objectives": [
+        "Add two-digit numbers by combining tens and ones",
+        "Add using a number line",
+        "Explain why strategies work"
+      ],
+      "standards": [
+        "2.NBT.B.5",
+        "2.NBT.B.9"
+      ],
+      "vocabulary": [
+        "tens",
+        "ones",
+        "regroup",
+        "open number line"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "open number line paper",
+        "hundreds chart"
+      ],
+      "days": [
+        {
+          "title": "Add tens and ones",
+          "work": "Add 34 + 25 with blocks: combine tens (5 tens), then ones (9 ones); solve 10 problems without regrouping."
+        },
+        {
+          "title": "Hundreds chart jumps",
+          "work": "Add 46 + 23 on a hundreds chart by jumping down 2 rows (tens) and right 3 (ones); explain why it works."
+        },
+        {
+          "title": "Open number line",
+          "work": "Add 38 + 27 on an open number line (38 + 20 = 58, + 2 = 60, + 5 = 65) and solve 8 more."
+        },
+        {
+          "title": "Making a new ten",
+          "work": "Add 47 + 36 with blocks, trading 10 ones for 1 ten; draw quick pictures for 8 problems that need regrouping."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve 12 two-digit addition problems using a chosen strategy and explain one in writing."
+        }
+      ],
+      "assessment": "Addition quiz with written strategy explanation."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Subtracting within 100 using place value",
+      "objectives": [
+        "Subtract two-digit numbers with and without decomposing a ten",
+        "Subtract on a number line",
+        "Relate subtraction to addition"
+      ],
+      "standards": [
+        "2.NBT.B.5",
+        "2.NBT.B.9"
+      ],
+      "vocabulary": [
+        "decompose",
+        "trade",
+        "difference",
+        "count up"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "open number line paper"
+      ],
+      "days": [
+        {
+          "title": "Subtract tens and ones",
+          "work": "Subtract 68 − 25 with blocks and quick pictures; solve 10 problems without decomposing."
+        },
+        {
+          "title": "Break a ten",
+          "work": "Subtract 52 − 17 by trading a ten for 10 ones; solve 8 problems with drawings."
+        },
+        {
+          "title": "Count up",
+          "work": "Solve 83 − 48 by counting up on a number line (48 → 50 → 80 → 83 = 35) and compare to the take-away method."
+        },
+        {
+          "title": "Check with addition",
+          "work": "Solve 10 subtraction problems and check each with addition; explain why addition checks subtraction."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz of 12 subtraction problems within 100 and one written explanation of a strategy."
+        }
+      ],
+      "assessment": "Subtraction quiz with explanation."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Adding several two-digit numbers",
+      "objectives": [
+        "Add three and four two-digit numbers",
+        "Use properties to make friendly numbers",
+        "Solve multi-addend problems"
+      ],
+      "standards": [
+        "2.NBT.B.6",
+        "2.NBT.B.9"
+      ],
+      "vocabulary": [
+        "commutative",
+        "associative",
+        "friendly number",
+        "addend"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "grocery flyer"
+      ],
+      "days": [
+        {
+          "title": "Three addends",
+          "work": "Add 23 + 15 + 17 by finding a friendly pair first (23 + 17 = 40); solve 8 problems."
+        },
+        {
+          "title": "Four addends",
+          "work": "Add four two-digit numbers by adding tens, then ones (24 + 31 + 12 + 18); use blocks to check."
+        },
+        {
+          "title": "Order doesn't matter",
+          "work": "Show that 35 + 26 + 15 gives the same sum in any order and explain the property in your own words."
+        },
+        {
+          "title": "Shopping list",
+          "work": "Add prices of 3–4 items from a grocery flyer (rounded to whole cents under $1, e.g., 45¢ + 29¢ + 18¢)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve 8 multi-addend problems and explain which numbers you grouped first and why."
+        }
+      ],
+      "assessment": "Multi-addend quiz with reasoning."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "One- and two-step word problems within 100",
+      "objectives": [
+        "Solve one- and two-step word problems",
+        "Use bar models and equations with unknowns",
+        "Check reasonableness"
+      ],
+      "standards": [
+        "2.OA.A.1",
+        "2.NBT.B.5"
+      ],
+      "vocabulary": [
+        "two-step",
+        "bar model",
+        "reasonable",
+        "unknown"
+      ],
+      "materials": [
+        "bar model mats",
+        "word problem cards"
+      ],
+      "days": [
+        {
+          "title": "Bar models",
+          "work": "Draw bar models for add-to, take-from, and compare problems within 100; solve 6 problems."
+        },
+        {
+          "title": "Two-step problems",
+          "work": "Solve two-step problems ('There were 45 apples. 18 were sold, then 26 more were picked. How many now?') with labeled steps."
+        },
+        {
+          "title": "Unknown start",
+          "work": "Solve problems where the start is unknown using bar models and related equations."
+        },
+        {
+          "title": "Reasonable?",
+          "work": "Estimate answers to 6 problems before solving and decide if the final answers make sense."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve 6 mixed one- and two-step word problems showing a model and equation for each."
+        }
+      ],
+      "assessment": "Word problem set with models and equations."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Fluency within 100 and unit review",
+      "objectives": [
+        "Choose efficient strategies for adding and subtracting within 100",
+        "Explain strategies",
+        "Show fluency"
+      ],
+      "standards": [
+        "2.NBT.B.5",
+        "2.NBT.B.9",
+        "2.OA.A.1"
+      ],
+      "vocabulary": [
+        "efficient",
+        "strategy",
+        "compensation"
+      ],
+      "materials": [
+        "strategy anchor chart",
+        "cards 0–9"
+      ],
+      "days": [
+        {
+          "title": "Compensation",
+          "work": "Solve 39 + 26 as 40 + 25 and 72 − 29 as 72 − 30 + 1; explain why changing numbers works."
+        },
+        {
+          "title": "Strategy choice",
+          "work": "Sort 12 problems by best strategy (mental, number line, blocks, compensation) and solve them."
+        },
+        {
+          "title": "Target 100 game",
+          "work": "Make two 2-digit numbers from cards whose sum is closest to 100; play 8 rounds and record equations."
+        },
+        {
+          "title": "Error analysis",
+          "work": "Find and fix mistakes in 5 worked problems (e.g., forgot to regroup) and explain each error."
+        },
+        {
+          "title": "Unit 4 test",
+          "work": "Add and subtract within 100 (16 items), add up to four two-digit numbers, and solve 3 two-step word problems."
+        }
+      ],
+      "assessment": "Unit 4 test."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Picture graphs and bar graphs",
+      "objectives": [
+        "Collect data with up to four categories",
+        "Draw picture graphs and bar graphs",
+        "Answer compare questions from graphs"
+      ],
+      "standards": [
+        "2.MD.D.10"
+      ],
+      "vocabulary": [
+        "data",
+        "survey",
+        "tally",
+        "picture graph",
+        "bar graph",
+        "key"
+      ],
+      "materials": [
+        "graph paper",
+        "tally sheet",
+        "stickers"
+      ],
+      "days": [
+        {
+          "title": "Survey",
+          "work": "Survey 10–20 family members, friends, or neighbors about their favorite fruit (4 choices) and record with tally marks."
+        },
+        {
+          "title": "Picture graph",
+          "work": "Make a picture graph of the survey with a title, labels, and key (each picture = 1 vote)."
+        },
+        {
+          "title": "Bar graph",
+          "work": "Turn the same data into a bar graph with a single-unit scale and labeled axes."
+        },
+        {
+          "title": "Graph questions",
+          "work": "Answer 'how many more/fewer' and 'how many in all' questions from 2 graphs and write 3 of your own."
+        },
+        {
+          "title": "Review & check",
+          "work": "Read a new bar graph and answer 6 put-together, take-apart, and compare questions."
+        }
+      ],
+      "assessment": "Bar graph construction and graph-question quiz."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Measurement data and line plots",
+      "objectives": [
+        "Generate measurement data",
+        "Make a line plot with whole-number units",
+        "Interpret line plots"
+      ],
+      "standards": [
+        "2.MD.D.9",
+        "2.MD.D.10"
+      ],
+      "vocabulary": [
+        "line plot",
+        "measurement data",
+        "scale",
+        "X mark"
+      ],
+      "materials": [
+        "inch ruler",
+        "15 pencils or crayons of different lengths"
+      ],
+      "days": [
+        {
+          "title": "Measure a collection",
+          "work": "Measure 15 pencils or crayons to the nearest inch and list the lengths."
+        },
+        {
+          "title": "Line plot",
+          "work": "Draw a number line scale and place an X above each length to make a line plot; title and label it."
+        },
+        {
+          "title": "Hand spans",
+          "work": "Measure hand spans of family members in centimeters and make a second line plot."
+        },
+        {
+          "title": "Interpret",
+          "work": "Answer questions about the line plots: most common length, longest, shortest, and difference between them."
+        },
+        {
+          "title": "Unit 5 test",
+          "work": "Make a line plot from given measurements and a bar graph from given data; answer 6 questions."
+        }
+      ],
+      "assessment": "Unit 5 test."
+    },
+    {
+      "week": 19,
+      "unit": 6,
+      "topic": "Adding within 1,000",
+      "objectives": [
+        "Add three-digit numbers with models and drawings",
+        "Compose tens and hundreds",
+        "Relate strategies to written methods"
+      ],
+      "standards": [
+        "2.NBT.B.7",
+        "2.NBT.B.9"
+      ],
+      "vocabulary": [
+        "compose",
+        "hundreds",
+        "regroup",
+        "partial sums"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "place-value mat"
+      ],
+      "days": [
+        {
+          "title": "Add hundreds, tens, ones",
+          "work": "Add 324 + 153 with blocks and quick pictures by place; solve 8 problems without regrouping."
+        },
+        {
+          "title": "Compose a ten",
+          "work": "Add 247 + 136, trading 10 ones for a ten; record with quick pictures and partial sums."
+        },
+        {
+          "title": "Compose a hundred",
+          "work": "Add 365 + 182, trading 10 tens for a hundred; explain the trade in words."
+        },
+        {
+          "title": "Partial sums",
+          "work": "Use the partial-sums method (300 + 100, 60 + 80, 5 + 2) for 8 problems and match each to block drawings."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve 10 three-digit addition problems and explain one regrouping step."
+        }
+      ],
+      "assessment": "Addition within 1,000 quiz."
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "Subtracting within 1,000",
+      "objectives": [
+        "Subtract three-digit numbers with models",
+        "Decompose hundreds and tens",
+        "Check with addition"
+      ],
+      "standards": [
+        "2.NBT.B.7",
+        "2.NBT.B.9"
+      ],
+      "vocabulary": [
+        "decompose",
+        "trade",
+        "difference"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "place-value mat"
+      ],
+      "days": [
+        {
+          "title": "Subtract by place",
+          "work": "Subtract 586 − 243 with blocks; solve 8 problems without decomposing."
+        },
+        {
+          "title": "Decompose a ten",
+          "work": "Subtract 462 − 128, breaking a ten into 10 ones; record with quick pictures."
+        },
+        {
+          "title": "Decompose a hundred",
+          "work": "Subtract 531 − 274, breaking a hundred and a ten; explain each trade."
+        },
+        {
+          "title": "Zeros in the middle",
+          "work": "Subtract across zeros (400 − 165, 302 − 147) using blocks and counting up; compare strategies."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve 10 subtraction problems within 1,000 and check 3 with addition."
+        }
+      ],
+      "assessment": "Subtraction within 1,000 quiz."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Mental math with 10 and 100",
+      "objectives": [
+        "Mentally add and subtract 10 and 100",
+        "Use number lines for three-digit numbers",
+        "Explain place-value patterns"
+      ],
+      "standards": [
+        "2.NBT.B.8",
+        "2.NBT.B.7"
+      ],
+      "vocabulary": [
+        "mental math",
+        "pattern",
+        "number line"
+      ],
+      "materials": [
+        "number cards",
+        "open number line paper",
+        "hundreds flats"
+      ],
+      "days": [
+        {
+          "title": "10 and 100 patterns",
+          "work": "Use a 'number path' to show 10 more/less and 100 more/less for 10 numbers and describe which digit changes."
+        },
+        {
+          "title": "Number line jumps",
+          "work": "Add 345 + 230 by jumping 200, then 30 on an open number line; solve 6 more."
+        },
+        {
+          "title": "Mental math race",
+          "work": "Answer 30 quick '+10, −10, +100, −100' problems orally with a timer; record time."
+        },
+        {
+          "title": "Missing number puzzles",
+          "work": "Solve chains like 472 → □ (+100) → □ (−10) → □ and create 2 puzzles."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: 15 mental math items and 4 number-line problems."
+        }
+      ],
+      "assessment": "Mental math quiz."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Problem solving within 1,000",
+      "objectives": [
+        "Solve word problems within 1,000",
+        "Choose and explain strategies",
+        "Show fluency with three-digit computation"
+      ],
+      "standards": [
+        "2.NBT.B.7",
+        "2.NBT.B.9"
+      ],
+      "vocabulary": [
+        "strategy",
+        "explain",
+        "estimate"
+      ],
+      "materials": [
+        "word problem cards",
+        "base-ten blocks"
+      ],
+      "days": [
+        {
+          "title": "Story problems",
+          "work": "Solve 5 story problems within 1,000 (e.g., 'A library had 425 books and got 138 more…') with drawings."
+        },
+        {
+          "title": "Estimate",
+          "work": "Estimate sums and differences using nearest hundred before solving 6 problems."
+        },
+        {
+          "title": "Explain it",
+          "work": "Write an explanation for how you solved 563 − 287, using place-value words."
+        },
+        {
+          "title": "Game: Race to 1,000",
+          "work": "Roll dice to build 2-digit and 3-digit numbers and add until reaching 1,000 exactly; record equations."
+        },
+        {
+          "title": "Unit 6 test",
+          "work": "Add and subtract within 1,000 (14 items), mental 10/100 items, and one written explanation."
+        }
+      ],
+      "assessment": "Unit 6 test."
+    },
+    {
+      "week": 23,
+      "unit": 7,
+      "topic": "Coins and counting money",
+      "objectives": [
+        "Identify coins and their values",
+        "Count mixed coins",
+        "Use ¢ and $ symbols"
+      ],
+      "standards": [
+        "2.MD.C.8",
+        "2.NBT.A.2"
+      ],
+      "vocabulary": [
+        "penny",
+        "nickel",
+        "dime",
+        "quarter",
+        "cent"
+      ],
+      "materials": [
+        "real or play coins",
+        "coin purse"
+      ],
+      "days": [
+        {
+          "title": "Coin values",
+          "work": "Sort real coins and learn values (1¢, 5¢, 10¢, 25¢); skip-count dimes by 10 and nickels by 5."
+        },
+        {
+          "title": "Count mixed coins",
+          "work": "Count mixed coins starting with the greatest value (25, 35, 40, 41); count 10 handfuls and record."
+        },
+        {
+          "title": "Ways to make",
+          "work": "Show 50¢ four different ways with coins and record with drawings."
+        },
+        {
+          "title": "Coin store",
+          "work": "Run a pretend store with items under $1; pay with exact change and record each purchase."
+        },
+        {
+          "title": "Review & check",
+          "work": "Count 8 coin collections and solve 3 word problems with cents."
+        }
+      ],
+      "assessment": "Coin-counting quiz and word problems."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Dollars and money word problems",
+      "objectives": [
+        "Count bills and coins",
+        "Solve money word problems",
+        "Make change from $1"
+      ],
+      "standards": [
+        "2.MD.C.8"
+      ],
+      "vocabulary": [
+        "dollar",
+        "bill",
+        "change",
+        "total"
+      ],
+      "materials": [
+        "play bills and coins",
+        "price tags"
+      ],
+      "days": [
+        {
+          "title": "Dollars",
+          "work": "Learn $1, $5, $10, $20 bills and count mixed bills; show that 100¢ = $1."
+        },
+        {
+          "title": "Money problems",
+          "work": "Solve 6 problems like 'Jo has 2 dimes and 3 nickels. How many cents?' and 'Sam has $5 and $10 bills…'."
+        },
+        {
+          "title": "Making change",
+          "work": "Pay $1 for items costing 65¢, 80¢, 42¢ and count up to find the change."
+        },
+        {
+          "title": "Budget challenge",
+          "work": "Choose items from a pretend catalog under $20 total and show the addition."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve 8 money word problems using $ and ¢ correctly."
+        }
+      ],
+      "assessment": "Money word-problem quiz."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Telling time to five minutes",
+      "objectives": [
+        "Tell time on analog and digital clocks to the nearest 5 minutes",
+        "Use a.m. and p.m.",
+        "Connect counting by 5s to the clock"
+      ],
+      "standards": [
+        "2.MD.C.7",
+        "2.NBT.A.2"
+      ],
+      "vocabulary": [
+        "hour hand",
+        "minute hand",
+        "a.m.",
+        "p.m.",
+        "quarter past"
+      ],
+      "materials": [
+        "paper-plate clock",
+        "analog clock"
+      ],
+      "days": [
+        {
+          "title": "Make a clock",
+          "work": "Make a paper-plate clock with hands and label minutes by 5s around the edge."
+        },
+        {
+          "title": "Five-minute times",
+          "work": "Read and show 12 times to the nearest 5 minutes (3:25, 7:50); match analog to digital."
+        },
+        {
+          "title": "a.m. and p.m.",
+          "work": "Sort daily activities into a.m. or p.m. and make a schedule of your day with clock drawings."
+        },
+        {
+          "title": "Quarter and half past",
+          "work": "Learn 'half past' and 'quarter past/to' language and tell the time on the house clock at 5 checkpoints today."
+        },
+        {
+          "title": "Unit 7 test",
+          "work": "Tell and write 10 times, choose a.m. or p.m., and solve 6 money problems."
+        }
+      ],
+      "assessment": "Unit 7 test."
+    },
+    {
+      "week": 26,
+      "unit": 8,
+      "topic": "Number line diagrams",
+      "objectives": [
+        "Represent numbers as lengths on a number line",
+        "Show sums and differences on a number line",
+        "Connect rulers and number lines"
+      ],
+      "standards": [
+        "2.MD.B.6",
+        "2.OA.A.1"
+      ],
+      "vocabulary": [
+        "number line",
+        "interval",
+        "tick mark",
+        "distance"
+      ],
+      "materials": [
+        "measuring tape",
+        "adding-machine tape for number lines"
+      ],
+      "days": [
+        {
+          "title": "Ruler to number line",
+          "work": "Compare a measuring tape and a number line; make a 0–100 number line on adding-machine tape with tick marks every 5."
+        },
+        {
+          "title": "Show lengths",
+          "work": "Mark numbers as lengths from 0 (e.g., 35) and show 35 + 20 and 35 − 12 with jumps."
+        },
+        {
+          "title": "Equal intervals",
+          "work": "Fill in missing numbers on number lines counting by 2s, 5s, and 10s."
+        },
+        {
+          "title": "Solve on lines",
+          "work": "Solve 8 addition and subtraction problems within 100 on open number lines."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: label 4 number lines and solve 6 problems with number-line jumps."
+        }
+      ],
+      "assessment": "Number line quiz."
+    },
+    {
+      "week": 27,
+      "unit": 8,
+      "topic": "Length word problems",
+      "objectives": [
+        "Solve word problems involving lengths",
+        "Use drawings and equations with a symbol for the unknown",
+        "Measure to solve real problems"
+      ],
+      "standards": [
+        "2.MD.B.5",
+        "2.MD.B.6",
+        "2.OA.A.1"
+      ],
+      "vocabulary": [
+        "total length",
+        "difference",
+        "unknown"
+      ],
+      "materials": [
+        "rulers",
+        "string",
+        "yarn"
+      ],
+      "days": [
+        {
+          "title": "Length stories",
+          "work": "Solve 6 length problems ('A ribbon is 45 cm. 18 cm is cut off. How long is it now?') with drawings and equations."
+        },
+        {
+          "title": "Garden fence",
+          "work": "Measure the sides of a small rectangle (table or rug) and add to find the distance around."
+        },
+        {
+          "title": "Jump contest",
+          "work": "Measure standing long jumps in inches for family members and write compare problems."
+        },
+        {
+          "title": "Two-step lengths",
+          "work": "Solve 4 two-step length problems with number lines."
+        },
+        {
+          "title": "Unit 8 test",
+          "work": "Solve 8 length word problems using number lines and equations."
+        }
+      ],
+      "assessment": "Unit 8 test."
+    },
+    {
+      "week": 28,
+      "unit": 9,
+      "topic": "Odd and even numbers",
+      "objectives": [
+        "Determine if a number of objects is odd or even",
+        "Write even numbers as sums of equal addends",
+        "Find patterns of odd and even"
+      ],
+      "standards": [
+        "2.OA.C.3"
+      ],
+      "vocabulary": [
+        "odd",
+        "even",
+        "pair",
+        "equal addends"
+      ],
+      "materials": [
+        "counters",
+        "socks or shoes for pairing"
+      ],
+      "days": [
+        {
+          "title": "Pairing",
+          "work": "Pair up counters or socks for numbers 1–20; if every item has a partner, it's even. Record results."
+        },
+        {
+          "title": "Equal addends",
+          "work": "Write each even number to 20 as a doubles fact (12 = 6 + 6) and build each with cubes."
+        },
+        {
+          "title": "Patterns",
+          "work": "Color evens on a hundreds chart and describe the ones-digit pattern; predict whether 47 and 86 are odd or even."
+        },
+        {
+          "title": "Odd + even",
+          "work": "Investigate even + even, odd + odd, and even + odd with 10 examples each; write rules."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: classify 15 numbers or groups as odd/even and write 5 even numbers as equal addends."
+        }
+      ],
+      "assessment": "Odd/even quiz."
+    },
+    {
+      "week": 29,
+      "unit": 9,
+      "topic": "Equal groups and arrays",
+      "objectives": [
+        "Make equal groups",
+        "Use repeated addition to find totals",
+        "Build arrays up to 5 by 5"
+      ],
+      "standards": [
+        "2.OA.C.4"
+      ],
+      "vocabulary": [
+        "array",
+        "row",
+        "column",
+        "equal groups",
+        "repeated addition"
+      ],
+      "materials": [
+        "counters",
+        "egg carton",
+        "grid paper"
+      ],
+      "days": [
+        {
+          "title": "Equal groups",
+          "work": "Make equal groups of counters (4 groups of 3) and write repeated addition (3 + 3 + 3 + 3 = 12)."
+        },
+        {
+          "title": "Arrays at home",
+          "work": "Find arrays at home (egg carton, muffin tin, window panes) and write repeated addition for rows and columns."
+        },
+        {
+          "title": "Build arrays",
+          "work": "Build arrays up to 5 × 5 with counters and draw them on grid paper; write two equations for each (by rows and by columns)."
+        },
+        {
+          "title": "Array stories",
+          "work": "Solve 6 array word problems ('There are 4 rows of chairs with 5 chairs each…')."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write repeated addition for 8 arrays and draw arrays for 4 equations."
+        }
+      ],
+      "assessment": "Array quiz."
+    },
+    {
+      "week": 30,
+      "unit": 9,
+      "topic": "Arrays and repeated addition problem solving",
+      "objectives": [
+        "Solve problems with arrays",
+        "Connect arrays to partitioning rectangles",
+        "Apply odd/even reasoning"
+      ],
+      "standards": [
+        "2.OA.C.4",
+        "2.OA.C.3"
+      ],
+      "vocabulary": [
+        "array",
+        "total",
+        "equation"
+      ],
+      "materials": [
+        "grid paper",
+        "tiles or crackers"
+      ],
+      "days": [
+        {
+          "title": "Tile arrays",
+          "work": "Use square tiles or crackers to build arrays and find totals; record 10 equations."
+        },
+        {
+          "title": "Garden plans",
+          "work": "Design a garden with 4 rows of 5 plants and other arrays; write equations and decide if totals are odd or even."
+        },
+        {
+          "title": "Same total",
+          "work": "Find all the arrays that make 12 (2 × 6 as 6+6, 3 × 4 as 4+4+4…) using repeated addition."
+        },
+        {
+          "title": "Mixed problems",
+          "work": "Solve 6 word problems mixing arrays, equal groups, and odd/even."
+        },
+        {
+          "title": "Unit 9 test",
+          "work": "Odd/even and array test (12 items) with drawings and equations."
+        }
+      ],
+      "assessment": "Unit 9 test."
+    },
+    {
+      "week": 31,
+      "unit": 10,
+      "topic": "Two-dimensional shapes",
+      "objectives": [
+        "Identify triangles, quadrilaterals, pentagons, hexagons by attributes",
+        "Draw shapes with given attributes",
+        "Count sides and angles"
+      ],
+      "standards": [
+        "2.G.A.1"
+      ],
+      "vocabulary": [
+        "triangle",
+        "quadrilateral",
+        "pentagon",
+        "hexagon",
+        "angle",
+        "side",
+        "vertex"
+      ],
+      "materials": [
+        "geoboard or dot paper",
+        "pattern blocks",
+        "straws"
+      ],
+      "days": [
+        {
+          "title": "Sides and angles",
+          "work": "Sort pattern blocks and cut-out shapes by number of sides and angles; name each group."
+        },
+        {
+          "title": "Quadrilaterals",
+          "work": "Explore quadrilaterals (square, rectangle, rhombus, trapezoid) on a geoboard and list what they share."
+        },
+        {
+          "title": "Draw to rules",
+          "work": "Draw shapes with given attributes ('a shape with 5 sides,' 'a quadrilateral with no square corners')."
+        },
+        {
+          "title": "Straw shapes",
+          "work": "Build shapes with straws and connectors or clay; count sides and vertices."
+        },
+        {
+          "title": "Review & check",
+          "work": "Identify and draw shapes from attribute clues (10 items)."
+        }
+      ],
+      "assessment": "Shape attribute quiz."
+    },
+    {
+      "week": 32,
+      "unit": 10,
+      "topic": "Three-dimensional shapes and partitioning rectangles",
+      "objectives": [
+        "Identify cubes and count faces",
+        "Partition rectangles into rows and columns of squares",
+        "Count same-size squares"
+      ],
+      "standards": [
+        "2.G.A.1",
+        "2.G.A.2"
+      ],
+      "vocabulary": [
+        "cube",
+        "face",
+        "edge",
+        "row",
+        "column"
+      ],
+      "materials": [
+        "boxes and dice",
+        "grid paper",
+        "square tiles"
+      ],
+      "days": [
+        {
+          "title": "Cubes",
+          "work": "Examine dice, sugar cubes, and boxes; count faces, edges, and vertices of a cube."
+        },
+        {
+          "title": "Shape hunt",
+          "work": "Hunt for 3-D shapes at home and record which have square faces."
+        },
+        {
+          "title": "Partition rectangles",
+          "work": "Cover rectangles with square tiles and draw rows and columns; count the total."
+        },
+        {
+          "title": "Draw grids",
+          "work": "Partition rectangles into 2 rows of 4, 3 rows of 3, etc. on paper and connect to repeated addition."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: cube attributes and 6 partition-and-count problems."
+        }
+      ],
+      "assessment": "Cube and partitioning quiz."
+    },
+    {
+      "week": 33,
+      "unit": 10,
+      "topic": "Equal shares: halves, thirds, fourths",
+      "objectives": [
+        "Partition circles and rectangles into equal shares",
+        "Describe shares using halves, thirds, fourths",
+        "Recognize equal shares can look different"
+      ],
+      "standards": [
+        "2.G.A.3",
+        "2.G.A.2"
+      ],
+      "vocabulary": [
+        "half",
+        "third",
+        "fourth",
+        "equal share",
+        "whole"
+      ],
+      "materials": [
+        "paper circles and rectangles",
+        "play dough",
+        "crackers or tortillas"
+      ],
+      "days": [
+        {
+          "title": "Halves",
+          "work": "Fold paper rectangles and circles into halves different ways; decide which folds make equal shares."
+        },
+        {
+          "title": "Thirds and fourths",
+          "work": "Cut play-dough 'pizzas' and paper rectangles into thirds and fourths and label each share."
+        },
+        {
+          "title": "Different shapes, same size",
+          "work": "Cut identical squares into fourths in three different ways and explain why each piece is still a fourth."
+        },
+        {
+          "title": "Snack shares",
+          "work": "Share a tortilla or sandwich equally among 2, 3, or 4 people and describe the shares ('a third of the tortilla')."
+        },
+        {
+          "title": "Unit 10 test",
+          "work": "Identify shapes, partition rectangles, and show halves, thirds, fourths (12 items)."
+        }
+      ],
+      "assessment": "Unit 10 test."
+    },
+    {
+      "week": 34,
+      "unit": 11,
+      "topic": "Review: number and operations",
+      "objectives": [
+        "Review addition and subtraction within 100 and 1,000",
+        "Solve two-step problems",
+        "Show fact fluency"
+      ],
+      "standards": [
+        "2.OA.A.1",
+        "2.OA.B.2",
+        "2.NBT.B.5",
+        "2.NBT.B.7"
+      ],
+      "vocabulary": [
+        "strategy",
+        "review"
+      ],
+      "materials": [
+        "fact cards",
+        "base-ten blocks"
+      ],
+      "days": [
+        {
+          "title": "Fact fluency",
+          "work": "Take the fluency quiz (40 facts within 20) and compare with the September baseline graph."
+        },
+        {
+          "title": "Within 100",
+          "work": "Solve 12 mixed problems within 100 and explain one strategy aloud."
+        },
+        {
+          "title": "Within 1,000",
+          "work": "Solve 10 mixed problems within 1,000 using quick pictures where needed."
+        },
+        {
+          "title": "Two-step stories",
+          "work": "Solve 4 two-step word problems and write one of your own."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a number-skills self-check (place value, fact families, regrouping) and mark two topics to practice in next week's review stations."
+        }
+      ],
+      "assessment": "Fluency quiz and mixed problem review."
+    },
+    {
+      "week": 35,
+      "unit": 11,
+      "topic": "Review: measurement, data, money, time",
+      "objectives": [
+        "Review measurement, graphs, money, and time",
+        "Apply skills in real contexts"
+      ],
+      "standards": [
+        "2.MD.C.8",
+        "2.MD.D.10",
+        "2.OA.A.1"
+      ],
+      "vocabulary": [
+        "review",
+        "apply"
+      ],
+      "materials": [
+        "rulers",
+        "coins",
+        "clock",
+        "graph paper"
+      ],
+      "days": [
+        {
+          "title": "Measurement review",
+          "work": "Measure 5 objects in inches and centimeters and solve 2 compare-length problems."
+        },
+        {
+          "title": "Money and time",
+          "work": "Count coin sets and tell time at 6 moments today; solve 3 money problems."
+        },
+        {
+          "title": "Graph project",
+          "work": "Survey family about favorite summer activity and make a bar graph with 3 questions."
+        },
+        {
+          "title": "Shapes and shares",
+          "work": "Draw shapes from clues and partition shapes into equal shares."
+        },
+        {
+          "title": "Review & check",
+          "work": "Mixed practice set of 15 items across measurement, data, geometry."
+        }
+      ],
+      "assessment": "Mixed review set."
+    },
+    {
+      "week": 36,
+      "unit": 11,
+      "topic": "Year-end assessment and math fair",
+      "objectives": [
+        "Show mastery of grade 2 standards",
+        "Explain mathematical thinking",
+        "Celebrate growth"
+      ],
+      "standards": [
+        "2.OA.A.1",
+        "2.NBT.B.5",
+        "2.NBT.B.7",
+        "2.MD.C.8",
+        "2.MD.D.10"
+      ],
+      "vocabulary": [
+        "assessment",
+        "explain",
+        "project"
+      ],
+      "materials": [
+        "test booklet",
+        "poster board"
+      ],
+      "days": [
+        {
+          "title": "Year-end test part 1",
+          "work": "Number and operations: place value, add/subtract within 100 and 1,000, and word problems."
+        },
+        {
+          "title": "Year-end test part 2",
+          "work": "Take part 2 of the year-end test: measure lengths, read a bar graph and line plot, count money, tell time, and identify shapes and equal shares."
+        },
+        {
+          "title": "Math fair project",
+          "work": "Plan a 'Math in My Home' poster showing arrays, measurements, money, and a graph from your home."
+        },
+        {
+          "title": "Build the poster",
+          "work": "Finish the poster with labeled photos or drawings and practice explaining each math idea aloud in 3 minutes."
+        },
+        {
+          "title": "Present & celebrate",
+          "work": "Present the math fair poster to family and review the fluency growth graph from the year."
+        }
+      ],
+      "assessment": "Year-end test and math fair presentation."
+    }
+  ]
+}

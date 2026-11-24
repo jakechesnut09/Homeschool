@@ -1,0 +1,1807 @@
+{
+  "grade": 3,
+  "subject": "VAPA",
+  "title": "Art & Music 3",
+  "description": "Third-grade visual art and music alternating in units. In art, students explore line, shape, color, value, texture, pattern, printmaking and sculpture through observation and imagination, study artists and cultures, and curate an exhibition. In music, students read and write rhythms and melodies, sing with solfege, explore instruments and music of California and the world, and compose and perform original music.",
+  "framework": "2019 California Arts Standards for Public Schools (Visual Arts and Music); 2020 CA Arts Education Framework",
+  "minutes_per_day": 30,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "VA:Cr1.1.3": "Elaborate on an imaginative idea.",
+    "VA:Cr1.2.3": "Apply knowledge of available resources, tools and technologies to investigate personal ideas through the art-making process.",
+    "VA:Cr2.1.3": "Create personally satisfying artwork using a variety of artistic processes and materials.",
+    "VA:Cr2.2.3": "Demonstrate an understanding of the safe and proficient use of materials, tools and equipment for a variety of artistic processes.",
+    "VA:Cr2.3.3": "Individually or collaboratively construct representations, diagrams or maps of places that are part of everyday life.",
+    "VA:Cr3.1.3": "Elaborate visual information by adding details in an artwork to enhance emerging meaning.",
+    "VA:Pr4.1.3": "Investigate and discuss possibilities and limitations of spaces, including electronic, for exhibiting artwork.",
+    "VA:Pr5.1.3": "Identify exhibit space and prepare works of art, including artists' statements, for presentation.",
+    "VA:Pr6.1.3": "Identify and explain how and where different cultures record and illustrate stories and history of life through art.",
+    "VA:Re7.1.3": "Speculate about processes an artist uses to create a work of art.",
+    "VA:Re7.2.3": "Determine messages communicated by an image.",
+    "VA:Re8.1.3": "Interpret art by analyzing use of media to create subject matter, characteristics of form and mood.",
+    "VA:Re9.1.3": "Evaluate an artwork based on given criteria.",
+    "VA:Cn10.1.3": "Develop a work of art based on observations of surroundings.",
+    "VA:Cn11.1.3": "Recognize that responses to art change depending on knowledge of the time and place in which it was made.",
+    "MU:Cr1.1.3": "Improvise rhythmic and melodic ideas and describe connection to specific purpose and context.",
+    "MU:Cr2.1.3": "Demonstrate selected and organized musical ideas for an improvisation, arrangement or composition; use standard and/or iconic notation to document them.",
+    "MU:Cr3.1.3": "Evaluate, refine and document revisions to personal musical ideas, applying teacher-provided and collaboratively developed criteria and feedback.",
+    "MU:Cr3.2.3": "Present the final version of personal created music to others and describe connection to expressive intent.",
+    "MU:Pr4.1.3": "Demonstrate and explain how personal interest in, knowledge about, and purpose of varied musical selections inform choices.",
+    "MU:Pr4.2.3": "Demonstrate understanding of the structure and elements of music (rhythm, pitch, form) in music selected for performance; read and perform rhythmic and melodic patterns using iconic or standard notation.",
+    "MU:Pr4.3.3": "Demonstrate and describe how intent is conveyed through expressive qualities (dynamics, tempo).",
+    "MU:Pr5.1.3": "Apply teacher-provided and collaboratively developed criteria and feedback to evaluate and refine performances.",
+    "MU:Pr6.1.3": "Perform music with expression and technical accuracy, demonstrating performance decorum and audience etiquette appropriate for the context and venue.",
+    "MU:Re7.1.3": "Demonstrate and describe how selected music connects to and is influenced by specific interests, experiences or purposes.",
+    "MU:Re7.2.3": "Demonstrate and describe how a response to music can be informed by the structure, the use of the elements of music and context (personal and social).",
+    "MU:Re8.1.3": "Demonstrate and describe how the expressive qualities (dynamics, tempo, timbre) are used in performers' and personal interpretations to reflect expressive intent.",
+    "MU:Re9.1.3": "Evaluate musical works and performances, applying established criteria.",
+    "MU:Cn10.1.3": "Demonstrate how interests, knowledge and skills relate to personal choices and intent when creating, performing and responding to music.",
+    "MU:Cn11.1.3": "Demonstrate understanding of relationships between music and the other arts, other disciplines, varied contexts and daily life."
+  },
+  "resources": [
+    {
+      "name": "National Gallery of Art – NGAkids",
+      "url": "https://www.nga.gov/education/kids.html",
+      "note": "Free kids' art activities and high-resolution images of famous artworks"
+    },
+    {
+      "name": "Chrome Music Lab",
+      "url": "https://musiclab.chromeexperiments.com/",
+      "note": "Free browser tools for exploring rhythm, melody and composing (Song Maker, Rhythm)"
+    },
+    {
+      "name": "Classics for Kids",
+      "url": "https://www.classicsforkids.com/",
+      "note": "Free composer stories, listening guides and music games"
+    },
+    {
+      "name": "Art for Kids Hub",
+      "url": "https://www.artforkidshub.com/",
+      "note": "Free step-by-step drawing videos for building observational and drawing skills"
+    },
+    {
+      "name": "The Metropolitan Museum of Art – Collection",
+      "url": "https://www.metmuseum.org/art/collection",
+      "note": "Open-access images of artworks from cultures around the world for looking and discussion"
+    },
+    {
+      "name": "Smithsonian Learning Lab",
+      "url": "https://learninglab.si.edu/",
+      "note": "Searchable art, artifact and musical instrument collections"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Line, Shape and Observational Drawing",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Artists use line and shape to record what they observe and imagine.",
+      "standards": [
+        "VA:Cr1.1.3",
+        "VA:Cr2.1.3",
+        "VA:Cr3.1.3",
+        "VA:Cn10.1.3",
+        "VA:Re7.1.3",
+        "MU:Pr4.2.3"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Rhythm and Meter",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Music is organized in steady beats and rhythmic patterns we can read, write and create.",
+      "standards": [
+        "MU:Cr1.1.3",
+        "MU:Cr2.1.3",
+        "MU:Pr4.2.3",
+        "MU:Pr6.1.3",
+        "MU:Re7.2.3"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Color and Painting",
+      "start_week": 9,
+      "end_week": 12,
+      "big_idea": "Artists mix and choose colors to create mood and meaning.",
+      "standards": [
+        "VA:Cr1.2.3",
+        "VA:Cr2.1.3",
+        "VA:Cr2.2.3",
+        "VA:Re8.1.3",
+        "VA:Re7.2.3",
+        "MU:Pr4.3.3"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Melody, Pitch and Singing",
+      "start_week": 13,
+      "end_week": 17,
+      "big_idea": "Melodies move up, down and stay the same, and we can read and sing them from notation.",
+      "standards": [
+        "MU:Pr4.2.3",
+        "MU:Pr4.3.3",
+        "MU:Pr5.1.3",
+        "MU:Pr6.1.3",
+        "MU:Cr2.1.3",
+        "MU:Re8.1.3"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Printmaking, Texture and Pattern",
+      "start_week": 18,
+      "end_week": 20,
+      "big_idea": "Printmaking repeats images to create pattern and texture.",
+      "standards": [
+        "VA:Cr1.2.3",
+        "VA:Cr2.2.3",
+        "VA:Cr3.1.3",
+        "VA:Pr6.1.3",
+        "VA:Re7.1.3"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Music of California and the World",
+      "start_week": 21,
+      "end_week": 24,
+      "big_idea": "Music reflects the people, places and purposes that create it.",
+      "standards": [
+        "MU:Re7.1.3",
+        "MU:Re7.2.3",
+        "MU:Re8.1.3",
+        "MU:Cn11.1.3",
+        "MU:Pr4.1.3",
+        "MU:Pr6.1.3"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Sculpture and Form",
+      "start_week": 25,
+      "end_week": 27,
+      "big_idea": "Sculptors build three-dimensional forms that we can see from all sides.",
+      "standards": [
+        "VA:Cr1.1.3",
+        "VA:Cr2.1.3",
+        "VA:Cr2.2.3",
+        "VA:Cr2.3.3",
+        "VA:Re9.1.3"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Composing and Performing",
+      "start_week": 28,
+      "end_week": 31,
+      "big_idea": "Composers organize and revise musical ideas to share with an audience.",
+      "standards": [
+        "MU:Cr1.1.3",
+        "MU:Cr2.1.3",
+        "MU:Cr3.1.3",
+        "MU:Cr3.2.3",
+        "MU:Pr5.1.3",
+        "MU:Pr6.1.3",
+        "MU:Re9.1.3",
+        "MU:Cn10.1.3"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Art and Community: Exhibition and Concert",
+      "start_week": 32,
+      "end_week": 36,
+      "big_idea": "Art tells stories of people and places, and sharing art builds community.",
+      "standards": [
+        "VA:Pr4.1.3",
+        "VA:Pr5.1.3",
+        "VA:Pr6.1.3",
+        "VA:Cn11.1.3",
+        "VA:Re9.1.3",
+        "VA:Cr2.3.3",
+        "MU:Pr6.1.3",
+        "MU:Cn11.1.3"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Kinds of line",
+      "objectives": [
+        "Use a variety of lines expressively",
+        "Describe lines in artworks"
+      ],
+      "standards": [
+        "VA:Cr2.1.3",
+        "VA:Re7.1.3"
+      ],
+      "vocabulary": [
+        "line",
+        "contour",
+        "zigzag",
+        "expressive"
+      ],
+      "materials": [
+        "sketchbook",
+        "pencils",
+        "markers"
+      ],
+      "days": [
+        {
+          "title": "Line hunt",
+          "work": "Find 10 kinds of lines in your home and draw each in a sketchbook line chart."
+        },
+        {
+          "title": "Line in art",
+          "work": "Look at a Van Gogh painting ('The Starry Night') and describe how the lines show movement."
+        },
+        {
+          "title": "Feelings in lines",
+          "work": "Draw lines to show calm, angry, excited and sleepy to music."
+        },
+        {
+          "title": "Line design",
+          "work": "Create a full-page line design using at least 8 line types."
+        },
+        {
+          "title": "Review & sing",
+          "work": "Share the line design and sing a warm-up echo song keeping a steady beat."
+        }
+      ],
+      "assessment": "Line design and description"
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Contour and observational drawing",
+      "objectives": [
+        "Draw from observation using contour line"
+      ],
+      "standards": [
+        "VA:Cn10.1.3",
+        "VA:Cr3.1.3"
+      ],
+      "vocabulary": [
+        "contour",
+        "observe",
+        "blind contour",
+        "detail"
+      ],
+      "materials": [
+        "sketchbook",
+        "shoes",
+        "fruit",
+        "mirror"
+      ],
+      "days": [
+        {
+          "title": "Blind contour",
+          "work": "Do blind contour drawings of your hand."
+        },
+        {
+          "title": "Still life",
+          "work": "Draw a fruit still life using contour line."
+        },
+        {
+          "title": "Add detail",
+          "work": "Add details and patterns to the still life."
+        },
+        {
+          "title": "Shoe drawing",
+          "work": "Draw a shoe from observation."
+        },
+        {
+          "title": "Review",
+          "work": "Compare first and last drawings and note improvements."
+        }
+      ],
+      "assessment": "Observational drawings"
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Geometric and organic shapes",
+      "objectives": [
+        "Use geometric and organic shapes in compositions"
+      ],
+      "standards": [
+        "VA:Cr1.1.3",
+        "VA:Cr2.1.3"
+      ],
+      "vocabulary": [
+        "geometric",
+        "organic",
+        "shape",
+        "composition"
+      ],
+      "materials": [
+        "colored paper",
+        "scissors",
+        "glue"
+      ],
+      "days": [
+        {
+          "title": "Shape sort",
+          "work": "Sort cut-paper shapes into geometric and organic."
+        },
+        {
+          "title": "Matisse",
+          "work": "Look at Matisse's paper cut-outs and discuss organic shapes."
+        },
+        {
+          "title": "Cut-paper collage",
+          "work": "Create a Matisse-inspired collage."
+        },
+        {
+          "title": "Kandinsky",
+          "work": "Create a geometric composition inspired by Kandinsky while listening to music."
+        },
+        {
+          "title": "Review",
+          "work": "Explain your shape choices in an artist talk."
+        }
+      ],
+      "assessment": "Collage and artist talk"
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Imaginative drawing",
+      "objectives": [
+        "Elaborate on an imaginative idea"
+      ],
+      "standards": [
+        "VA:Cr1.1.3",
+        "VA:Cr3.1.3",
+        "MU:Pr4.2.3"
+      ],
+      "vocabulary": [
+        "imagination",
+        "elaborate",
+        "composition"
+      ],
+      "materials": [
+        "sketchbook",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "Brainstorm",
+          "work": "Brainstorm an imaginary creature or place."
+        },
+        {
+          "title": "Sketch",
+          "work": "Sketch the idea with lines and shapes."
+        },
+        {
+          "title": "Elaborate",
+          "work": "Add details and background to enhance meaning."
+        },
+        {
+          "title": "Final",
+          "work": "Complete with colored pencil."
+        },
+        {
+          "title": "Unit 1 check",
+          "work": "Share the drawing and self-assess with a checklist; clap rhythm of your creature's name."
+        }
+      ],
+      "assessment": "Imaginative drawing with self-assessment"
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Steady beat and rhythm",
+      "objectives": [
+        "Distinguish beat from rhythm"
+      ],
+      "standards": [
+        "MU:Pr4.2.3"
+      ],
+      "vocabulary": [
+        "beat",
+        "rhythm",
+        "tempo"
+      ],
+      "materials": [
+        "drum or bucket",
+        "songs"
+      ],
+      "days": [
+        {
+          "title": "Beat vs. rhythm",
+          "work": "Pat the beat and clap the rhythm of 'Yankee Doodle.'"
+        },
+        {
+          "title": "Body percussion",
+          "work": "Perform body percussion patterns to a steady beat."
+        },
+        {
+          "title": "Tempo",
+          "work": "Move to music at different tempos."
+        },
+        {
+          "title": "Echo",
+          "work": "Echo-clap 4-beat rhythm patterns."
+        },
+        {
+          "title": "Review",
+          "work": "Perform beat and rhythm at the same time with a partner."
+        }
+      ],
+      "assessment": "Beat/rhythm performance"
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Reading rhythms",
+      "objectives": [
+        "Read quarter notes, eighth notes and quarter rests"
+      ],
+      "standards": [
+        "MU:Pr4.2.3",
+        "MU:Re7.2.3"
+      ],
+      "vocabulary": [
+        "quarter note",
+        "eighth notes",
+        "quarter rest",
+        "ta",
+        "ti-ti"
+      ],
+      "materials": [
+        "rhythm cards"
+      ],
+      "days": [
+        {
+          "title": "Notes",
+          "work": "Learn quarter notes (ta) and paired eighths (ti-ti)."
+        },
+        {
+          "title": "Rests",
+          "work": "Add quarter rests."
+        },
+        {
+          "title": "Read",
+          "work": "Read and clap 8 rhythm cards."
+        },
+        {
+          "title": "Dictation",
+          "work": "Write rhythms you hear."
+        },
+        {
+          "title": "Review",
+          "work": "Clap a rhythm quiz."
+        }
+      ],
+      "assessment": "Rhythm reading quiz"
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Half notes and meter",
+      "objectives": [
+        "Read half notes",
+        "Feel meter in 2, 3 and 4"
+      ],
+      "standards": [
+        "MU:Pr4.2.3"
+      ],
+      "vocabulary": [
+        "half note",
+        "meter",
+        "measure",
+        "bar line",
+        "time signature"
+      ],
+      "materials": [
+        "rhythm cards"
+      ],
+      "days": [
+        {
+          "title": "Half note",
+          "work": "Learn half notes and half rests."
+        },
+        {
+          "title": "Meter",
+          "work": "Conduct in 2, 3 and 4 to recorded music."
+        },
+        {
+          "title": "Measures",
+          "work": "Draw bar lines in rhythms."
+        },
+        {
+          "title": "Waltz",
+          "work": "Listen to a waltz and identify meter."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a meter worksheet."
+        }
+      ],
+      "assessment": "Meter worksheet"
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Rhythm composition",
+      "objectives": [
+        "Improvise and compose rhythms"
+      ],
+      "standards": [
+        "MU:Cr1.1.3",
+        "MU:Cr2.1.3",
+        "MU:Pr6.1.3"
+      ],
+      "vocabulary": [
+        "improvise",
+        "compose",
+        "ostinato"
+      ],
+      "materials": [
+        "Chrome Music Lab Rhythm",
+        "household percussion"
+      ],
+      "days": [
+        {
+          "title": "Improvise",
+          "work": "Improvise rhythmic answers to clapped questions."
+        },
+        {
+          "title": "Ostinato",
+          "work": "Create an ostinato to accompany a song."
+        },
+        {
+          "title": "Compose",
+          "work": "Compose a 4-measure rhythm piece."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Practice your piece on household percussion."
+        },
+        {
+          "title": "Unit 2 check",
+          "work": "Perform the composition for family."
+        }
+      ],
+      "assessment": "Rhythm composition performance"
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Color wheel",
+      "objectives": [
+        "Mix primary into secondary colors"
+      ],
+      "standards": [
+        "VA:Cr2.2.3",
+        "VA:Cr1.2.3"
+      ],
+      "vocabulary": [
+        "primary",
+        "secondary",
+        "color wheel"
+      ],
+      "materials": [
+        "tempera paints",
+        "brushes",
+        "paper plates"
+      ],
+      "days": [
+        {
+          "title": "Primary colors",
+          "work": "Mix primary colors to create secondaries."
+        },
+        {
+          "title": "Color wheel",
+          "work": "Paint a color wheel."
+        },
+        {
+          "title": "Intermediate",
+          "work": "Mix intermediate colors."
+        },
+        {
+          "title": "Brush care",
+          "work": "Practice brush techniques and cleanup."
+        },
+        {
+          "title": "Review",
+          "work": "Label the color wheel."
+        }
+      ],
+      "assessment": "Color wheel"
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Warm and cool colors",
+      "objectives": [
+        "Use warm and cool colors to show mood"
+      ],
+      "standards": [
+        "VA:Re8.1.3",
+        "VA:Re7.2.3"
+      ],
+      "vocabulary": [
+        "warm",
+        "cool",
+        "mood"
+      ],
+      "materials": [
+        "paints",
+        "artwork prints"
+      ],
+      "days": [
+        {
+          "title": "Sort",
+          "work": "Sort colors into warm and cool."
+        },
+        {
+          "title": "Picasso",
+          "work": "Look at Picasso's Blue Period painting and discuss mood."
+        },
+        {
+          "title": "Paint",
+          "work": "Paint a landscape in warm colors."
+        },
+        {
+          "title": "Paint",
+          "work": "Paint the same landscape in cool colors."
+        },
+        {
+          "title": "Review",
+          "work": "Compare the moods of the two paintings."
+        }
+      ],
+      "assessment": "Warm/cool landscape pair"
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Tints and shades",
+      "objectives": [
+        "Create tints and shades"
+      ],
+      "standards": [
+        "VA:Cr2.1.3",
+        "VA:Cr2.2.3"
+      ],
+      "vocabulary": [
+        "tint",
+        "shade",
+        "value"
+      ],
+      "materials": [
+        "paints"
+      ],
+      "days": [
+        {
+          "title": "Value scale",
+          "work": "Paint a value scale."
+        },
+        {
+          "title": "Monochromatic",
+          "work": "Paint a monochromatic picture."
+        },
+        {
+          "title": "Georgia O'Keeffe",
+          "work": "Look at O'Keeffe's flowers."
+        },
+        {
+          "title": "Flower painting",
+          "work": "Paint a large flower using tints and shades."
+        },
+        {
+          "title": "Review",
+          "work": "Explain your use of value."
+        }
+      ],
+      "assessment": "Monochromatic flower painting"
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Color and music",
+      "objectives": [
+        "Connect color and musical mood"
+      ],
+      "standards": [
+        "VA:Re8.1.3",
+        "MU:Pr4.3.3"
+      ],
+      "vocabulary": [
+        "mood",
+        "dynamics",
+        "expression"
+      ],
+      "materials": [
+        "paints",
+        "recorded music"
+      ],
+      "days": [
+        {
+          "title": "Listen and paint",
+          "work": "Paint to 'The Moldau' by Smetana."
+        },
+        {
+          "title": "Dynamics",
+          "work": "Learn loud and soft dynamics."
+        },
+        {
+          "title": "Paint",
+          "work": "Paint to contrasting music."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare paintings and music moods."
+        },
+        {
+          "title": "Unit 3 check",
+          "work": "Self-evaluate paintings with criteria."
+        }
+      ],
+      "assessment": "Paintings with self-evaluation"
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "High and low pitch",
+      "objectives": [
+        "Identify high, low and melodic direction"
+      ],
+      "standards": [
+        "MU:Pr4.2.3"
+      ],
+      "vocabulary": [
+        "pitch",
+        "high",
+        "low",
+        "melody"
+      ],
+      "materials": [
+        "xylophone or app",
+        "songs"
+      ],
+      "days": [
+        {
+          "title": "Pitch",
+          "work": "Sort sounds into high and low."
+        },
+        {
+          "title": "Direction",
+          "work": "Draw melody contours for songs."
+        },
+        {
+          "title": "Sing",
+          "work": "Sing 'Row, Row, Row Your Boat' with hand levels."
+        },
+        {
+          "title": "Melody maps",
+          "work": "Map a melody's ups and downs."
+        },
+        {
+          "title": "Review",
+          "work": "Identify pitch direction in a listening quiz."
+        }
+      ],
+      "assessment": "Pitch listening quiz"
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Solfege",
+      "objectives": [
+        "Sing with solfege syllables and hand signs"
+      ],
+      "standards": [
+        "MU:Pr4.2.3",
+        "MU:Pr6.1.3"
+      ],
+      "vocabulary": [
+        "solfege",
+        "do",
+        "re",
+        "mi",
+        "sol",
+        "la"
+      ],
+      "materials": [
+        "solfege chart"
+      ],
+      "days": [
+        {
+          "title": "Sol-mi",
+          "work": "Learn sol-mi hand signs."
+        },
+        {
+          "title": "La",
+          "work": "Add la."
+        },
+        {
+          "title": "Do-re-mi",
+          "work": "Add do, re, mi."
+        },
+        {
+          "title": "Songs",
+          "work": "Sing a pentatonic folk song with solfege."
+        },
+        {
+          "title": "Review",
+          "work": "Echo-sing solfege patterns."
+        }
+      ],
+      "assessment": "Solfege echo check"
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "The staff",
+      "objectives": [
+        "Read pitches on the treble staff"
+      ],
+      "standards": [
+        "MU:Pr4.2.3"
+      ],
+      "vocabulary": [
+        "staff",
+        "line",
+        "space",
+        "treble clef"
+      ],
+      "materials": [
+        "staff paper"
+      ],
+      "days": [
+        {
+          "title": "Staff",
+          "work": "Learn lines and spaces."
+        },
+        {
+          "title": "Note names",
+          "work": "Learn E-G-B-D-F and F-A-C-E."
+        },
+        {
+          "title": "Write",
+          "work": "Write notes on the staff."
+        },
+        {
+          "title": "Read",
+          "work": "Read a simple melody."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a note-name quiz."
+        }
+      ],
+      "assessment": "Note-name quiz"
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Singing expressively",
+      "objectives": [
+        "Use dynamics and tempo expressively"
+      ],
+      "standards": [
+        "MU:Pr4.3.3",
+        "MU:Re8.1.3"
+      ],
+      "vocabulary": [
+        "dynamics",
+        "tempo",
+        "forte",
+        "piano",
+        "crescendo"
+      ],
+      "materials": [
+        "songs"
+      ],
+      "days": [
+        {
+          "title": "Dynamics",
+          "work": "Sing with forte and piano."
+        },
+        {
+          "title": "Tempo",
+          "work": "Sing with different tempos."
+        },
+        {
+          "title": "Listen",
+          "work": "Compare two performances of the same song."
+        },
+        {
+          "title": "Practice",
+          "work": "Choose dynamics for a song."
+        },
+        {
+          "title": "Review",
+          "work": "Perform with expression."
+        }
+      ],
+      "assessment": "Expressive performance"
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Melody performance",
+      "objectives": [
+        "Refine and perform a song"
+      ],
+      "standards": [
+        "MU:Pr5.1.3",
+        "MU:Pr6.1.3",
+        "MU:Cr2.1.3"
+      ],
+      "vocabulary": [
+        "rehearse",
+        "perform",
+        "audience"
+      ],
+      "materials": [
+        "song"
+      ],
+      "days": [
+        {
+          "title": "Rehearse",
+          "work": "Rehearse a song."
+        },
+        {
+          "title": "Feedback",
+          "work": "Get feedback and refine."
+        },
+        {
+          "title": "Compose",
+          "work": "Compose a 4-note melody with Chrome Music Lab Song Maker."
+        },
+        {
+          "title": "Etiquette",
+          "work": "Discuss audience etiquette."
+        },
+        {
+          "title": "Unit 4 check",
+          "work": "Perform a song and your melody."
+        }
+      ],
+      "assessment": "Performance"
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Texture",
+      "objectives": [
+        "Create visual and tactile texture"
+      ],
+      "standards": [
+        "VA:Cr1.2.3",
+        "VA:Re7.1.3"
+      ],
+      "vocabulary": [
+        "texture",
+        "rubbing",
+        "tactile",
+        "visual"
+      ],
+      "materials": [
+        "crayons",
+        "paper",
+        "textured objects"
+      ],
+      "days": [
+        {
+          "title": "Rubbings",
+          "work": "Make texture rubbings of 10 surfaces."
+        },
+        {
+          "title": "Visual texture",
+          "work": "Draw textures (fur, bark, scales)."
+        },
+        {
+          "title": "Artist look",
+          "work": "Look at texture in Albrecht Dürer's 'Young Hare.'"
+        },
+        {
+          "title": "Collage",
+          "work": "Create a texture collage animal."
+        },
+        {
+          "title": "Review",
+          "work": "Speculate how Dürer made his texture."
+        }
+      ],
+      "assessment": "Texture animal collage"
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Pattern and printmaking",
+      "objectives": [
+        "Create prints and patterns"
+      ],
+      "standards": [
+        "VA:Cr2.2.3",
+        "VA:Cr3.1.3"
+      ],
+      "vocabulary": [
+        "print",
+        "stamp",
+        "pattern",
+        "repeat"
+      ],
+      "materials": [
+        "foam trays",
+        "pencils",
+        "paint",
+        "brayer or roller"
+      ],
+      "days": [
+        {
+          "title": "Patterns",
+          "work": "Find patterns in fabrics and nature."
+        },
+        {
+          "title": "Stamp",
+          "work": "Make potato or sponge stamp prints."
+        },
+        {
+          "title": "Foam print",
+          "work": "Carve a foam tray print plate."
+        },
+        {
+          "title": "Print",
+          "work": "Print an edition of 3."
+        },
+        {
+          "title": "Review",
+          "work": "Evaluate prints."
+        }
+      ],
+      "assessment": "Print edition"
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Cultural prints and textiles",
+      "objectives": [
+        "Explain how cultures tell stories through art"
+      ],
+      "standards": [
+        "VA:Pr6.1.3"
+      ],
+      "vocabulary": [
+        "textile",
+        "adinkra",
+        "story"
+      ],
+      "materials": [
+        "Met collection images"
+      ],
+      "days": [
+        {
+          "title": "Adinkra",
+          "work": "Learn about Ghanaian adinkra symbols."
+        },
+        {
+          "title": "Design",
+          "work": "Design personal symbols."
+        },
+        {
+          "title": "Print",
+          "work": "Print a symbol cloth."
+        },
+        {
+          "title": "Japanese woodblock",
+          "work": "Look at Hokusai's 'Great Wave.'"
+        },
+        {
+          "title": "Unit 5 check",
+          "work": "Present your cloth."
+        }
+      ],
+      "assessment": "Symbol cloth"
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Instrument families",
+      "objectives": [
+        "Identify instrument families by timbre"
+      ],
+      "standards": [
+        "MU:Re7.2.3",
+        "MU:Re8.1.3"
+      ],
+      "vocabulary": [
+        "timbre",
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "materials": [
+        "Classics for Kids",
+        "recordings"
+      ],
+      "days": [
+        {
+          "title": "Families",
+          "work": "Learn the four orchestra families."
+        },
+        {
+          "title": "Listen",
+          "work": "Listen to 'The Young Person's Guide to the Orchestra' by Britten."
+        },
+        {
+          "title": "Timbre",
+          "work": "Identify instruments by sound."
+        },
+        {
+          "title": "Make",
+          "work": "Make a rubber-band string instrument."
+        },
+        {
+          "title": "Review",
+          "work": "Complete an instrument quiz."
+        }
+      ],
+      "assessment": "Instrument quiz"
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Music of California",
+      "objectives": [
+        "Explore music from California's cultures"
+      ],
+      "standards": [
+        "MU:Cn11.1.3",
+        "MU:Re7.1.3"
+      ],
+      "vocabulary": [
+        "mariachi",
+        "folk song",
+        "tradition"
+      ],
+      "materials": [
+        "recordings"
+      ],
+      "days": [
+        {
+          "title": "Mariachi",
+          "work": "Listen to mariachi and identify instruments."
+        },
+        {
+          "title": "California Indian song",
+          "work": "Listen to a California Indian song recording (from a tribe or museum site) and discuss its purpose."
+        },
+        {
+          "title": "Gold Rush songs",
+          "work": "Sing 'Oh My Darling, Clementine.'"
+        },
+        {
+          "title": "Compare",
+          "work": "Compare styles."
+        },
+        {
+          "title": "Review",
+          "work": "Write about a favorite style."
+        }
+      ],
+      "assessment": "Music response"
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Music around the world",
+      "objectives": [
+        "Explore world music traditions"
+      ],
+      "standards": [
+        "MU:Cn11.1.3",
+        "MU:Pr4.1.3"
+      ],
+      "vocabulary": [
+        "gamelan",
+        "taiko",
+        "djembe",
+        "culture"
+      ],
+      "materials": [
+        "recordings"
+      ],
+      "days": [
+        {
+          "title": "Taiko",
+          "work": "Listen to Japanese taiko."
+        },
+        {
+          "title": "Gamelan",
+          "work": "Listen to Indonesian gamelan."
+        },
+        {
+          "title": "Djembe",
+          "work": "Learn a West African drumming pattern."
+        },
+        {
+          "title": "Map",
+          "work": "Map music traditions."
+        },
+        {
+          "title": "Review",
+          "work": "Discuss how music reflects culture."
+        }
+      ],
+      "assessment": "Music map"
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Folk song performance",
+      "objectives": [
+        "Perform a folk song from another culture"
+      ],
+      "standards": [
+        "MU:Pr6.1.3",
+        "MU:Pr4.1.3"
+      ],
+      "vocabulary": [
+        "folk song",
+        "perform",
+        "culture"
+      ],
+      "materials": [
+        "song"
+      ],
+      "days": [
+        {
+          "title": "Choose",
+          "work": "Choose a folk song and explain why."
+        },
+        {
+          "title": "Learn",
+          "work": "Learn the song."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse with percussion."
+        },
+        {
+          "title": "Perform",
+          "work": "Perform for family."
+        },
+        {
+          "title": "Unit 6 check",
+          "work": "Reflect on performance."
+        }
+      ],
+      "assessment": "Folk song performance"
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Form and clay",
+      "objectives": [
+        "Create 3D forms in clay"
+      ],
+      "standards": [
+        "VA:Cr2.2.3",
+        "VA:Cr2.1.3"
+      ],
+      "vocabulary": [
+        "form",
+        "sculpture",
+        "pinch pot",
+        "coil"
+      ],
+      "materials": [
+        "air-dry clay"
+      ],
+      "days": [
+        {
+          "title": "Forms",
+          "work": "Compare shape vs. form."
+        },
+        {
+          "title": "Pinch pot",
+          "work": "Make a pinch pot."
+        },
+        {
+          "title": "Coils",
+          "work": "Make a coil pot."
+        },
+        {
+          "title": "Decorate",
+          "work": "Add texture."
+        },
+        {
+          "title": "Review",
+          "work": "Evaluate pots."
+        }
+      ],
+      "assessment": "Clay pots"
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Sculpture from recycled materials",
+      "objectives": [
+        "Create a sculpture from found materials"
+      ],
+      "standards": [
+        "VA:Cr1.1.3",
+        "VA:Cr2.1.3"
+      ],
+      "vocabulary": [
+        "assemblage",
+        "recycled",
+        "balance"
+      ],
+      "materials": [
+        "boxes",
+        "tubes",
+        "tape"
+      ],
+      "days": [
+        {
+          "title": "Look",
+          "work": "Look at Louise Nevelson's assemblages."
+        },
+        {
+          "title": "Plan",
+          "work": "Plan a sculpture."
+        },
+        {
+          "title": "Build",
+          "work": "Build the sculpture."
+        },
+        {
+          "title": "Paint",
+          "work": "Paint it one color."
+        },
+        {
+          "title": "Review",
+          "work": "Present the sculpture."
+        }
+      ],
+      "assessment": "Recycled sculpture"
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Model of a place",
+      "objectives": [
+        "Construct a model or map of an everyday place"
+      ],
+      "standards": [
+        "VA:Cr2.3.3",
+        "VA:Re9.1.3"
+      ],
+      "vocabulary": [
+        "model",
+        "map",
+        "place"
+      ],
+      "materials": [
+        "cardboard",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Choose",
+          "work": "Choose a place (bedroom, park)."
+        },
+        {
+          "title": "Map",
+          "work": "Draw a map."
+        },
+        {
+          "title": "Build",
+          "work": "Build a 3D model."
+        },
+        {
+          "title": "Detail",
+          "work": "Add details."
+        },
+        {
+          "title": "Unit 7 check",
+          "work": "Evaluate the model with criteria."
+        }
+      ],
+      "assessment": "Place model"
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "Improvising melodies",
+      "objectives": [
+        "Improvise melodic ideas"
+      ],
+      "standards": [
+        "MU:Cr1.1.3"
+      ],
+      "vocabulary": [
+        "improvise",
+        "question",
+        "answer"
+      ],
+      "materials": [
+        "xylophone or app"
+      ],
+      "days": [
+        {
+          "title": "Question-answer",
+          "work": "Improvise melodic answers."
+        },
+        {
+          "title": "Pentatonic",
+          "work": "Improvise on pentatonic notes."
+        },
+        {
+          "title": "Purpose",
+          "work": "Improvise music for a story scene."
+        },
+        {
+          "title": "Record",
+          "work": "Record improvisations."
+        },
+        {
+          "title": "Review",
+          "work": "Choose a favorite idea."
+        }
+      ],
+      "assessment": "Improvisation recording"
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Composing a song",
+      "objectives": [
+        "Compose and notate a song"
+      ],
+      "standards": [
+        "MU:Cr2.1.3",
+        "MU:Cn10.1.3"
+      ],
+      "vocabulary": [
+        "compose",
+        "notation",
+        "lyrics"
+      ],
+      "materials": [
+        "staff paper",
+        "Song Maker"
+      ],
+      "days": [
+        {
+          "title": "Lyrics",
+          "work": "Write lyrics for a short song."
+        },
+        {
+          "title": "Rhythm",
+          "work": "Set rhythms."
+        },
+        {
+          "title": "Melody",
+          "work": "Add a melody in Song Maker."
+        },
+        {
+          "title": "Notate",
+          "work": "Notate the song."
+        },
+        {
+          "title": "Review",
+          "work": "Share a draft."
+        }
+      ],
+      "assessment": "Song draft"
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Revising music",
+      "objectives": [
+        "Revise a composition with feedback"
+      ],
+      "standards": [
+        "MU:Cr3.1.3",
+        "MU:Pr5.1.3"
+      ],
+      "vocabulary": [
+        "revise",
+        "feedback"
+      ],
+      "materials": [
+        "song draft"
+      ],
+      "days": [
+        {
+          "title": "Feedback",
+          "work": "Get feedback on your song."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise rhythm and melody."
+        },
+        {
+          "title": "Practice",
+          "work": "Practice performance."
+        },
+        {
+          "title": "Accompaniment",
+          "work": "Add percussion."
+        },
+        {
+          "title": "Review",
+          "work": "Evaluate the revision."
+        }
+      ],
+      "assessment": "Revised composition"
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Performing original music",
+      "objectives": [
+        "Present original music"
+      ],
+      "standards": [
+        "MU:Cr3.2.3",
+        "MU:Pr6.1.3",
+        "MU:Re9.1.3"
+      ],
+      "vocabulary": [
+        "premiere",
+        "present"
+      ],
+      "materials": [
+        "song"
+      ],
+      "days": [
+        {
+          "title": "Rehearse",
+          "work": "Rehearse your song."
+        },
+        {
+          "title": "Explain",
+          "work": "Write program notes."
+        },
+        {
+          "title": "Perform",
+          "work": "Perform for family."
+        },
+        {
+          "title": "Evaluate",
+          "work": "Evaluate a recording with criteria."
+        },
+        {
+          "title": "Unit 8 check",
+          "work": "Reflect on the composing process."
+        }
+      ],
+      "assessment": "Performance and reflection"
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Art tells stories",
+      "objectives": [
+        "Explain how cultures record history through art"
+      ],
+      "standards": [
+        "VA:Pr6.1.3",
+        "VA:Cn11.1.3"
+      ],
+      "vocabulary": [
+        "mural",
+        "narrative art",
+        "history"
+      ],
+      "materials": [
+        "mural images"
+      ],
+      "days": [
+        {
+          "title": "Murals",
+          "work": "Look at Diego Rivera murals."
+        },
+        {
+          "title": "Chumash rock art",
+          "work": "Look at Chumash rock painting images."
+        },
+        {
+          "title": "Context",
+          "work": "Discuss how time and place affect meaning."
+        },
+        {
+          "title": "Plan mural",
+          "work": "Plan a mural about your community."
+        },
+        {
+          "title": "Review",
+          "work": "Share mural sketch."
+        }
+      ],
+      "assessment": "Mural sketch"
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Community mural",
+      "objectives": [
+        "Create a community mural"
+      ],
+      "standards": [
+        "VA:Cr2.3.3",
+        "VA:Cr2.1.3"
+      ],
+      "vocabulary": [
+        "mural",
+        "collaborate"
+      ],
+      "materials": [
+        "butcher paper",
+        "paint"
+      ],
+      "days": [
+        {
+          "title": "Grid",
+          "work": "Grid the mural."
+        },
+        {
+          "title": "Draw",
+          "work": "Draw the design."
+        },
+        {
+          "title": "Paint",
+          "work": "Paint background."
+        },
+        {
+          "title": "Paint",
+          "work": "Paint details."
+        },
+        {
+          "title": "Review",
+          "work": "Evaluate the mural."
+        }
+      ],
+      "assessment": "Mural"
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Preparing an exhibition",
+      "objectives": [
+        "Select and prepare artwork for exhibition"
+      ],
+      "standards": [
+        "VA:Pr4.1.3",
+        "VA:Pr5.1.3"
+      ],
+      "vocabulary": [
+        "exhibit",
+        "artist statement",
+        "curate"
+      ],
+      "materials": [
+        "portfolio",
+        "mat paper"
+      ],
+      "days": [
+        {
+          "title": "Select",
+          "work": "Select best works."
+        },
+        {
+          "title": "Mat",
+          "work": "Mat artwork."
+        },
+        {
+          "title": "Statements",
+          "work": "Write artist statements."
+        },
+        {
+          "title": "Plan space",
+          "work": "Plan exhibit space, including a digital gallery."
+        },
+        {
+          "title": "Review",
+          "work": "Arrange exhibit."
+        }
+      ],
+      "assessment": "Exhibit preparation"
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Concert preparation",
+      "objectives": [
+        "Prepare a concert program"
+      ],
+      "standards": [
+        "MU:Pr6.1.3",
+        "MU:Cn11.1.3"
+      ],
+      "vocabulary": [
+        "program",
+        "concert"
+      ],
+      "materials": [
+        "songs"
+      ],
+      "days": [
+        {
+          "title": "Program",
+          "work": "Choose concert songs."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse songs."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse original song."
+        },
+        {
+          "title": "Dress rehearsal",
+          "work": "Run the full program."
+        },
+        {
+          "title": "Review",
+          "work": "Make a program."
+        }
+      ],
+      "assessment": "Concert program"
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Art show and concert",
+      "objectives": [
+        "Present an art exhibit and concert"
+      ],
+      "standards": [
+        "VA:Pr5.1.3",
+        "VA:Re9.1.3",
+        "MU:Pr6.1.3"
+      ],
+      "vocabulary": [
+        "exhibition",
+        "concert",
+        "reflect"
+      ],
+      "materials": [
+        "artwork",
+        "songs"
+      ],
+      "days": [
+        {
+          "title": "Set up",
+          "work": "Set up the exhibit."
+        },
+        {
+          "title": "Gallery walk",
+          "work": "Lead a gallery walk."
+        },
+        {
+          "title": "Concert",
+          "work": "Perform the concert."
+        },
+        {
+          "title": "Critique",
+          "work": "Evaluate a favorite work with criteria."
+        },
+        {
+          "title": "Reflection",
+          "work": "Reflect on growth as an artist and musician."
+        }
+      ],
+      "assessment": "Exhibit and concert"
+    }
+  ]
+}

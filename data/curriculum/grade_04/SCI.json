@@ -1,0 +1,1887 @@
+{
+  "grade": 4,
+  "subject": "SCI",
+  "title": "Science 4",
+  "description": "Fourth-grade science built on the California Next Generation Science Standards and the 2016 CA Science Framework. Students investigate energy (speed, collisions, circuits, sound, light and heat), waves and information transfer, how plant and animal structures support survival and sensing, how weathering, erosion and rock layers record Earth's history, how maps reveal patterns of earthquakes and volcanoes, and how humans use natural resources and reduce hazard impacts. Each week includes a hands-on investigation with household materials and a science notebook entry.",
+  "framework": "California Next Generation Science Standards (CA NGSS); 2016 California Science Framework",
+  "minutes_per_day": 45,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "4-PS3-1": "Use evidence to construct an explanation relating the speed of an object to the energy of that object.",
+    "4-PS3-2": "Make observations to provide evidence that energy can be transferred from place to place by sound, light, heat and electric currents.",
+    "4-PS3-3": "Ask questions and predict outcomes about the changes in energy that occur when objects collide.",
+    "4-PS3-4": "Apply scientific ideas to design, test and refine a device that converts energy from one form to another.",
+    "4-PS4-1": "Develop a model of waves to describe patterns in terms of amplitude and wavelength and that waves can cause objects to move.",
+    "4-PS4-2": "Develop a model to describe that light reflecting from objects and entering the eye allows objects to be seen.",
+    "4-PS4-3": "Generate and compare multiple solutions that use patterns to transfer information.",
+    "4-LS1-1": "Construct an argument that plants and animals have internal and external structures that support survival, growth, behavior and reproduction.",
+    "4-LS1-2": "Use a model to describe that animals receive different types of information through their senses, process it in the brain and respond.",
+    "4-ESS1-1": "Identify evidence from patterns in rock formations and fossils in rock layers to support an explanation for changes in a landscape over time.",
+    "4-ESS2-1": "Make observations and/or measurements to provide evidence of the effects of weathering or the rate of erosion by water, ice, wind or vegetation.",
+    "4-ESS2-2": "Analyze and interpret data from maps to describe patterns of Earth's features.",
+    "4-ESS3-1": "Obtain and combine information to describe that energy and fuels are derived from natural resources and their uses affect the environment.",
+    "4-ESS3-2": "Generate and compare multiple solutions to reduce the impacts of natural Earth processes on humans.",
+    "3-5-ETS1-1": "Define a simple design problem reflecting a need or want, including criteria for success and constraints on materials, time or cost.",
+    "3-5-ETS1-2": "Generate and compare multiple possible solutions to a problem based on how well each meets the criteria and constraints.",
+    "3-5-ETS1-3": "Plan and carry out fair tests in which variables are controlled and failure points are considered to identify aspects of a model or prototype that can be improved."
+  },
+  "resources": [
+    {
+      "name": "Mystery Science (free lessons)",
+      "url": "https://mysteryscience.com",
+      "note": "Grade 4 units on energy, waves, Earth's features and animal senses"
+    },
+    {
+      "name": "PhET Interactive Simulations",
+      "url": "https://phet.colorado.edu",
+      "note": "Free simulations: Circuit Construction Kit, Wave on a String, Energy Skate Park Basics"
+    },
+    {
+      "name": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov",
+      "note": "Kid-friendly explanations of light, energy and Earth science"
+    },
+    {
+      "name": "USGS Earthquake Hazards Program",
+      "url": "https://earthquake.usgs.gov",
+      "note": "Live earthquake maps and California hazard data for map analysis"
+    },
+    {
+      "name": "PBS LearningMedia",
+      "url": "https://www.pbslearningmedia.org",
+      "note": "Short science videos and interactives, including California-focused clips"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Energy and Motion",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Faster objects have more energy, and collisions transfer energy between objects.",
+      "standards": [
+        "4-PS3-1",
+        "4-PS3-3"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Energy Transfer: Sound, Heat and Electricity",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Energy moves from place to place through sound, light, heat and electric currents.",
+      "standards": [
+        "4-PS3-2",
+        "4-PS3-4",
+        "3-5-ETS1-1"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Waves and Information",
+      "start_week": 9,
+      "end_week": 12,
+      "big_idea": "Waves have patterns of amplitude and wavelength, and patterns can carry information.",
+      "standards": [
+        "4-PS4-1",
+        "4-PS4-3",
+        "3-5-ETS1-2"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Light and Sight",
+      "start_week": 13,
+      "end_week": 15,
+      "big_idea": "We see objects when light reflects off them and enters our eyes.",
+      "standards": [
+        "4-PS4-2",
+        "4-PS3-2",
+        "4-LS1-2"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Structures and Senses of Living Things",
+      "start_week": 16,
+      "end_week": 19,
+      "big_idea": "Internal and external structures help organisms survive, and senses send information to the brain.",
+      "standards": [
+        "4-LS1-1",
+        "4-LS1-2"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Earth's Changing Surface",
+      "start_week": 20,
+      "end_week": 23,
+      "big_idea": "Weathering and erosion slowly reshape land, and rock layers and fossils record the changes.",
+      "standards": [
+        "4-ESS2-1",
+        "4-ESS1-1"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Mapping Earth's Features and Natural Hazards",
+      "start_week": 24,
+      "end_week": 27,
+      "big_idea": "Maps reveal patterns of mountains, volcanoes and earthquakes, and engineers design ways to reduce hazards.",
+      "standards": [
+        "4-ESS2-2",
+        "4-ESS3-2",
+        "3-5-ETS1-2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Energy Resources and the Environment",
+      "start_week": 28,
+      "end_week": 31,
+      "big_idea": "Energy and fuels come from natural resources, renewable and nonrenewable, and their use affects the environment.",
+      "standards": [
+        "4-ESS3-1"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Engineering Design Capstone",
+      "start_week": 32,
+      "end_week": 36,
+      "big_idea": "Engineers define problems, test prototypes fairly and improve designs that convert energy.",
+      "standards": [
+        "4-PS3-4",
+        "3-5-ETS1-1",
+        "3-5-ETS1-2",
+        "3-5-ETS1-3"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "What is energy?",
+      "objectives": [
+        "Identify forms of energy around us",
+        "Set up a science notebook"
+      ],
+      "standards": [
+        "4-PS3-1"
+      ],
+      "vocabulary": [
+        "energy",
+        "motion",
+        "kinetic",
+        "observe"
+      ],
+      "materials": [
+        "science notebook",
+        "ball",
+        "toy car",
+        "rubber band"
+      ],
+      "days": [
+        {
+          "title": "Energy hunt",
+          "work": "Walk through the house listing 15 examples of energy (moving, sound, light, heat, electrical) in a notebook table."
+        },
+        {
+          "title": "Notebook setup",
+          "work": "Set up a science notebook with table of contents and an investigation template (question, prediction, data, conclusion)."
+        },
+        {
+          "title": "Stored and moving energy",
+          "work": "Stretch a rubber band, wind a toy, lift a ball; describe where energy is stored and when it becomes motion."
+        },
+        {
+          "title": "Mystery question",
+          "work": "Watch a Mystery Science energy intro and discuss 'What makes things go?'"
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw and label a diagram of 4 energy examples and explain each in a sentence."
+        }
+      ],
+      "assessment": "Labeled energy diagram."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Speed and energy",
+      "objectives": [
+        "Measure speed using distance and time",
+        "Relate speed to energy"
+      ],
+      "standards": [
+        "4-PS3-1"
+      ],
+      "vocabulary": [
+        "speed",
+        "distance",
+        "time",
+        "ramp",
+        "variable"
+      ],
+      "materials": [
+        "cardboard ramp",
+        "books",
+        "marble or toy car",
+        "meter stick",
+        "stopwatch",
+        "paper cup"
+      ],
+      "days": [
+        {
+          "title": "Ramp setup",
+          "work": "Build a ramp with a book stack and practice timing a marble over 1 meter."
+        },
+        {
+          "title": "Height and speed",
+          "work": "Release a marble from 3 ramp heights, timing 3 trials each and recording data."
+        },
+        {
+          "title": "Cup push test",
+          "work": "Measure how far the marble pushes a paper cup at each height as evidence of energy."
+        },
+        {
+          "title": "Graph and explain",
+          "work": "Graph height vs. cup distance and write a claim-evidence-reasoning paragraph."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: predict and explain which marble has more energy in 4 scenarios."
+        }
+      ],
+      "assessment": "CER explanation relating speed and energy."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Collisions",
+      "objectives": [
+        "Predict energy changes in collisions",
+        "Ask testable questions"
+      ],
+      "standards": [
+        "4-PS3-3"
+      ],
+      "vocabulary": [
+        "collision",
+        "transfer",
+        "force",
+        "prediction"
+      ],
+      "materials": [
+        "marbles of different sizes",
+        "ruler with groove",
+        "dominoes"
+      ],
+      "days": [
+        {
+          "title": "Marble collisions",
+          "work": "Roll one marble into a stationary marble in a ruler groove and observe what happens to motion."
+        },
+        {
+          "title": "Question generation",
+          "work": "Write 5 testable questions about collisions (mass, speed, number of marbles)."
+        },
+        {
+          "title": "Test a question",
+          "work": "Investigate one question with 3 trials and record results."
+        },
+        {
+          "title": "Sound and heat",
+          "work": "Clap hands and bang blocks to observe that collisions also make sound and heat."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in writing where the energy went in a car crash test video."
+        }
+      ],
+      "assessment": "Collision investigation write-up."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Energy in motion: Newton's cradle and roller coasters",
+      "objectives": [
+        "Model energy transfer in a system",
+        "Apply ideas to a design"
+      ],
+      "standards": [
+        "4-PS3-1",
+        "4-PS3-3"
+      ],
+      "vocabulary": [
+        "transfer",
+        "potential",
+        "system"
+      ],
+      "materials": [
+        "foam pipe insulation",
+        "marbles",
+        "tape",
+        "cups"
+      ],
+      "days": [
+        {
+          "title": "Newton's cradle",
+          "work": "Build a hanging-washer pendulum chain from string and observe energy transfer."
+        },
+        {
+          "title": "Roller coaster design",
+          "work": "Build a foam pipe insulation marble coaster and measure speed at the bottom."
+        },
+        {
+          "title": "Loops and hills",
+          "work": "Test whether the marble makes it over hills of different heights and explain using energy."
+        },
+        {
+          "title": "PhET simulation",
+          "work": "Use Energy Skate Park Basics to observe speed and height relationships."
+        },
+        {
+          "title": "Unit 1 assessment",
+          "work": "Take the Unit 1 test on speed, energy and collisions."
+        }
+      ],
+      "assessment": "Unit 1 test."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Sound energy",
+      "objectives": [
+        "Show sound carries energy",
+        "Investigate vibrations"
+      ],
+      "standards": [
+        "4-PS3-2"
+      ],
+      "vocabulary": [
+        "vibration",
+        "sound",
+        "pitch",
+        "volume"
+      ],
+      "materials": [
+        "rubber bands",
+        "plastic wrap",
+        "bowl",
+        "rice",
+        "tuning fork or spoon"
+      ],
+      "days": [
+        {
+          "title": "Vibrations",
+          "work": "Stretch plastic wrap over a bowl, sprinkle rice and make sounds nearby to see the rice move."
+        },
+        {
+          "title": "Rubber band guitar",
+          "work": "Build a shoebox rubber band guitar and test how tightness changes pitch."
+        },
+        {
+          "title": "Sound travels",
+          "work": "Test how sound travels through air, water and a table by tapping and listening."
+        },
+        {
+          "title": "String telephone",
+          "work": "Build a cup telephone and test string length and tightness."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write how sound energy moved from source to ear in each investigation."
+        }
+      ],
+      "assessment": "Sound energy explanation."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Heat energy",
+      "objectives": [
+        "Observe heat transfer",
+        "Compare conductors and insulators"
+      ],
+      "standards": [
+        "4-PS3-2"
+      ],
+      "vocabulary": [
+        "heat",
+        "conductor",
+        "insulator",
+        "temperature"
+      ],
+      "materials": [
+        "thermometer",
+        "ice cubes",
+        "metal spoon",
+        "plastic spoon",
+        "wooden spoon",
+        "cups",
+        "foil",
+        "cloth"
+      ],
+      "days": [
+        {
+          "title": "Hot water spoons",
+          "work": "Place metal, plastic and wooden spoons in hot water and feel which handle warms first."
+        },
+        {
+          "title": "Ice cube race",
+          "work": "Wrap ice cubes in foil, cloth and paper and time melting."
+        },
+        {
+          "title": "Thermometer data",
+          "work": "Measure temperature of warm water every 2 minutes as it cools and graph."
+        },
+        {
+          "title": "Insulator design",
+          "work": "Design a cup cozy to keep water warm and test it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on conductors, insulators and heat transfer."
+        }
+      ],
+      "assessment": "Insulator design results and quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Electric circuits",
+      "objectives": [
+        "Build simple circuits",
+        "Show electricity transfers energy to light, sound and motion"
+      ],
+      "standards": [
+        "4-PS3-2",
+        "4-PS3-4"
+      ],
+      "vocabulary": [
+        "circuit",
+        "battery",
+        "conductor",
+        "closed circuit",
+        "switch"
+      ],
+      "materials": [
+        "D-cell batteries",
+        "small bulbs or LEDs",
+        "wires",
+        "foil",
+        "paper clips",
+        "buzzer"
+      ],
+      "days": [
+        {
+          "title": "Light a bulb",
+          "work": "Use a battery, one wire and a bulb to find 4 ways to light the bulb and draw them."
+        },
+        {
+          "title": "Conductor test",
+          "work": "Build a circuit tester and test 12 household objects as conductors or insulators."
+        },
+        {
+          "title": "Switches",
+          "work": "Make a paper clip switch and add it to a circuit."
+        },
+        {
+          "title": "PhET circuits",
+          "work": "Build series and parallel circuits in the Circuit Construction Kit."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw a circuit diagram and explain how energy travels."
+        }
+      ],
+      "assessment": "Circuit diagram and conductor data."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Energy conversion",
+      "objectives": [
+        "Identify energy conversions",
+        "Design a device that converts energy"
+      ],
+      "standards": [
+        "4-PS3-4",
+        "3-5-ETS1-1"
+      ],
+      "vocabulary": [
+        "convert",
+        "energy conversion",
+        "criteria",
+        "constraint"
+      ],
+      "materials": [
+        "batteries",
+        "LEDs",
+        "buzzer",
+        "small motor",
+        "cardboard"
+      ],
+      "days": [
+        {
+          "title": "Conversion hunt",
+          "work": "List devices at home that convert energy (toaster, fan) and identify input and output."
+        },
+        {
+          "title": "Define problem",
+          "work": "Define a problem: a light-up alarm for a door; list criteria and constraints."
+        },
+        {
+          "title": "Build",
+          "work": "Build the door alarm with a foil switch and buzzer or LED."
+        },
+        {
+          "title": "Test and improve",
+          "work": "Test 5 times and improve one failure point."
+        },
+        {
+          "title": "Unit 2 assessment",
+          "work": "Take the Unit 2 test on energy transfer."
+        }
+      ],
+      "assessment": "Door alarm prototype and Unit 2 test."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Wave patterns",
+      "objectives": [
+        "Describe amplitude and wavelength",
+        "Model waves"
+      ],
+      "standards": [
+        "4-PS4-1"
+      ],
+      "vocabulary": [
+        "wave",
+        "amplitude",
+        "wavelength",
+        "crest",
+        "trough"
+      ],
+      "materials": [
+        "jump rope or slinky",
+        "tub of water",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Rope waves",
+          "work": "Shake a jump rope to make waves and change amplitude and wavelength."
+        },
+        {
+          "title": "Water waves",
+          "work": "Make waves in a tub of water and observe how a floating cork moves up and down, not along."
+        },
+        {
+          "title": "Wave drawings",
+          "work": "Draw and label waves with different amplitude and wavelength."
+        },
+        {
+          "title": "PhET Wave on a String",
+          "work": "Use the simulation to change amplitude and frequency and record patterns."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz labeling wave parts."
+        }
+      ],
+      "assessment": "Wave model diagram and quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Waves cause motion",
+      "objectives": [
+        "Show waves move objects",
+        "Relate ocean waves to coastal changes"
+      ],
+      "standards": [
+        "4-PS4-1"
+      ],
+      "vocabulary": [
+        "energy",
+        "ocean wave",
+        "coast",
+        "erosion"
+      ],
+      "materials": [
+        "tub",
+        "sand",
+        "pebbles",
+        "plastic block"
+      ],
+      "days": [
+        {
+          "title": "Wave pushes",
+          "work": "Show that larger amplitude waves move a toy boat more and measure distance."
+        },
+        {
+          "title": "Beach model",
+          "work": "Build a sand beach in a tub and make waves to observe sand movement."
+        },
+        {
+          "title": "Ocean waves",
+          "work": "Watch a video on California surf and tsunamis and record how waves carry energy."
+        },
+        {
+          "title": "Sound as waves",
+          "work": "Connect sound waves to wave patterns with a slinky."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a CER on how waves cause objects to move."
+        }
+      ],
+      "assessment": "CER on waves causing motion."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Patterns that carry information",
+      "objectives": [
+        "Use patterns to send messages",
+        "Compare codes"
+      ],
+      "standards": [
+        "4-PS4-3"
+      ],
+      "vocabulary": [
+        "code",
+        "pattern",
+        "signal",
+        "Morse code",
+        "binary"
+      ],
+      "materials": [
+        "flashlight",
+        "paper",
+        "Morse code chart"
+      ],
+      "days": [
+        {
+          "title": "Morse code",
+          "work": "Send messages with a flashlight using Morse code."
+        },
+        {
+          "title": "Binary pictures",
+          "work": "Encode a pixel picture in 1s and 0s and have a partner decode it."
+        },
+        {
+          "title": "Drum signals",
+          "work": "Invent a drum code and send 3 messages."
+        },
+        {
+          "title": "Compare codes",
+          "work": "Compare which code is fastest and most accurate and why."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph about how patterns transfer information."
+        }
+      ],
+      "assessment": "Code comparison paragraph."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Designing an information system",
+      "objectives": [
+        "Generate and compare solutions to send information",
+        "Test reliability"
+      ],
+      "standards": [
+        "4-PS4-3",
+        "3-5-ETS1-2"
+      ],
+      "vocabulary": [
+        "solution",
+        "reliability",
+        "criteria"
+      ],
+      "materials": [
+        "flashlight",
+        "string",
+        "cups",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Define challenge",
+          "work": "Challenge: send a 5-word message across the yard without speaking."
+        },
+        {
+          "title": "Brainstorm",
+          "work": "Brainstorm 3 solutions and list pros and cons."
+        },
+        {
+          "title": "Test",
+          "work": "Test each solution and record speed and accuracy."
+        },
+        {
+          "title": "Improve",
+          "work": "Improve the best solution."
+        },
+        {
+          "title": "Unit 3 assessment",
+          "work": "Take the Unit 3 test on waves and information."
+        }
+      ],
+      "assessment": "Design comparison and Unit 3 test."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "How light travels",
+      "objectives": [
+        "Show light travels in straight lines",
+        "Observe reflection"
+      ],
+      "standards": [
+        "4-PS4-2",
+        "4-PS3-2"
+      ],
+      "vocabulary": [
+        "reflect",
+        "light ray",
+        "mirror",
+        "absorb"
+      ],
+      "materials": [
+        "flashlight",
+        "mirrors",
+        "index cards with holes",
+        "clay"
+      ],
+      "days": [
+        {
+          "title": "Straight lines",
+          "work": "Line up index cards with holes and shine a flashlight through to show light travels straight."
+        },
+        {
+          "title": "Mirror reflection",
+          "work": "Use mirrors to bounce a flashlight beam to a target."
+        },
+        {
+          "title": "Periscope",
+          "work": "Build a periscope from a milk carton and two mirrors."
+        },
+        {
+          "title": "Absorb vs reflect",
+          "work": "Compare how light reflects from foil, white paper and black paper."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw light ray diagrams for 3 setups."
+        }
+      ],
+      "assessment": "Light ray diagrams."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Seeing: light and the eye",
+      "objectives": [
+        "Model how we see objects",
+        "Explain why we cannot see in total darkness"
+      ],
+      "standards": [
+        "4-PS4-2",
+        "4-LS1-2"
+      ],
+      "vocabulary": [
+        "pupil",
+        "retina",
+        "lens",
+        "optic nerve"
+      ],
+      "materials": [
+        "shoebox",
+        "small object",
+        "flashlight",
+        "diagram of eye"
+      ],
+      "days": [
+        {
+          "title": "Dark box",
+          "work": "Look into a dark shoebox with an object, then open a small light hole and observe."
+        },
+        {
+          "title": "Eye model",
+          "work": "Draw and label the eye and how light enters the pupil."
+        },
+        {
+          "title": "Pupil changes",
+          "work": "Observe pupil size in dim and bright light with a mirror."
+        },
+        {
+          "title": "Seeing model",
+          "work": "Draw a model of light from a lamp reflecting off a book into the eye."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in writing how light allows us to see."
+        }
+      ],
+      "assessment": "Seeing model and explanation."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Light energy and color",
+      "objectives": [
+        "Show light carries energy",
+        "Investigate color and heat"
+      ],
+      "standards": [
+        "4-PS3-2",
+        "4-PS4-2"
+      ],
+      "vocabulary": [
+        "spectrum",
+        "prism",
+        "absorb",
+        "energy"
+      ],
+      "materials": [
+        "prism or water glass",
+        "thermometers",
+        "black and white paper"
+      ],
+      "days": [
+        {
+          "title": "Rainbow",
+          "work": "Make a rainbow with a glass of water and sunlight."
+        },
+        {
+          "title": "Color heat",
+          "work": "Place thermometers under black and white paper in the sun and record temperature."
+        },
+        {
+          "title": "Solar energy",
+          "work": "Build a simple solar oven from a pizza box and foil."
+        },
+        {
+          "title": "Test oven",
+          "work": "Melt chocolate or s'mores in the solar oven and record temperature."
+        },
+        {
+          "title": "Unit 4 assessment",
+          "work": "Take the Unit 4 test on light and sight."
+        }
+      ],
+      "assessment": "Solar oven data and Unit 4 test."
+    },
+    {
+      "week": 16,
+      "unit": 5,
+      "topic": "Plant structures",
+      "objectives": [
+        "Identify internal and external plant structures",
+        "Explain how they support survival"
+      ],
+      "standards": [
+        "4-LS1-1"
+      ],
+      "vocabulary": [
+        "xylem",
+        "root",
+        "stem",
+        "flower",
+        "seed"
+      ],
+      "materials": [
+        "celery",
+        "food coloring",
+        "flowers",
+        "magnifying glass"
+      ],
+      "days": [
+        {
+          "title": "Celery transport",
+          "work": "Put celery in colored water and observe xylem transport after 24 hours."
+        },
+        {
+          "title": "Flower dissection",
+          "work": "Dissect a flower and label petals, stamens and pistil."
+        },
+        {
+          "title": "Root systems",
+          "work": "Compare roots of grass and a carrot and explain their functions."
+        },
+        {
+          "title": "California plants",
+          "work": "Research structures of a cactus and a redwood for their environments."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an argument for how one plant structure supports survival."
+        }
+      ],
+      "assessment": "Plant structure argument."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Animal external structures",
+      "objectives": [
+        "Identify external animal structures",
+        "Argue their function"
+      ],
+      "standards": [
+        "4-LS1-1"
+      ],
+      "vocabulary": [
+        "adaptation",
+        "beak",
+        "claw",
+        "shell",
+        "camouflage"
+      ],
+      "materials": [
+        "pictures of animals",
+        "tweezers",
+        "spoons",
+        "clothespins"
+      ],
+      "days": [
+        {
+          "title": "Bird beak lab",
+          "work": "Use tweezers, spoons and clothespins as beaks to pick up seeds, rice and gummy worms."
+        },
+        {
+          "title": "Camouflage",
+          "work": "Hide colored paper 'insects' outside and count which are found first."
+        },
+        {
+          "title": "Shell protection",
+          "work": "Test how a shell structure (egg carton) protects an egg in a drop."
+        },
+        {
+          "title": "California animals",
+          "work": "Research external structures of the desert tortoise and sea otter."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a CER about one external structure."
+        }
+      ],
+      "assessment": "Beak lab data and CER."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Animal internal structures",
+      "objectives": [
+        "Identify internal structures",
+        "Explain their roles"
+      ],
+      "standards": [
+        "4-LS1-1"
+      ],
+      "vocabulary": [
+        "heart",
+        "lungs",
+        "skeleton",
+        "stomach",
+        "brain"
+      ],
+      "materials": [
+        "chicken bones (cleaned)",
+        "balloons",
+        "plastic bottle"
+      ],
+      "days": [
+        {
+          "title": "Skeleton",
+          "work": "Examine cleaned chicken bones and compare to human bones."
+        },
+        {
+          "title": "Lung model",
+          "work": "Build a bottle and balloon lung model."
+        },
+        {
+          "title": "Heart",
+          "work": "Measure pulse at rest and after exercise and explain the heart's job."
+        },
+        {
+          "title": "Digestion",
+          "work": "Model digestion with a plastic bag, crackers and water."
+        },
+        {
+          "title": "Review & check",
+          "work": "Label a diagram of internal structures and functions."
+        }
+      ],
+      "assessment": "Labeled diagram."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Senses and the brain",
+      "objectives": [
+        "Model how senses send information to the brain",
+        "Investigate reaction time"
+      ],
+      "standards": [
+        "4-LS1-2"
+      ],
+      "vocabulary": [
+        "senses",
+        "nerve",
+        "brain",
+        "reaction time",
+        "stimulus"
+      ],
+      "materials": [
+        "ruler",
+        "blindfold",
+        "spices",
+        "fabric samples"
+      ],
+      "days": [
+        {
+          "title": "Ruler drop",
+          "work": "Measure reaction time with a ruler drop test 5 times."
+        },
+        {
+          "title": "Smell and taste",
+          "work": "Taste foods with nose plugged and compare."
+        },
+        {
+          "title": "Touch test",
+          "work": "Identify fabrics by touch while blindfolded."
+        },
+        {
+          "title": "Animal senses",
+          "work": "Research owls, bats and sharks and their special senses."
+        },
+        {
+          "title": "Unit 5 assessment",
+          "work": "Take the Unit 5 test and draw a sense-brain-response model."
+        }
+      ],
+      "assessment": "Sense model and Unit 5 test."
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "Weathering",
+      "objectives": [
+        "Observe physical and chemical weathering",
+        "Measure weathering effects"
+      ],
+      "standards": [
+        "4-ESS2-1"
+      ],
+      "vocabulary": [
+        "weathering",
+        "physical",
+        "chemical",
+        "sediment"
+      ],
+      "materials": [
+        "sugar cubes",
+        "jar",
+        "chalk",
+        "vinegar",
+        "rocks"
+      ],
+      "days": [
+        {
+          "title": "Shake test",
+          "work": "Shake sugar cubes in a jar for 1, 2 and 3 minutes and observe rounding."
+        },
+        {
+          "title": "Chalk and vinegar",
+          "work": "Place chalk in vinegar and water and compare."
+        },
+        {
+          "title": "Freeze-thaw",
+          "work": "Freeze a water-filled straw sealed with clay and observe expansion."
+        },
+        {
+          "title": "Plants weather rock",
+          "work": "Observe roots breaking sidewalks on a neighborhood walk."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on types of weathering."
+        }
+      ],
+      "assessment": "Weathering quiz."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Erosion by water, wind and ice",
+      "objectives": [
+        "Measure rates of erosion",
+        "Compare agents"
+      ],
+      "standards": [
+        "4-ESS2-1"
+      ],
+      "vocabulary": [
+        "erosion",
+        "deposition",
+        "agent",
+        "rate"
+      ],
+      "materials": [
+        "baking pan",
+        "sand",
+        "soil",
+        "water bottle",
+        "straw",
+        "ice"
+      ],
+      "days": [
+        {
+          "title": "Stream table",
+          "work": "Build a sand stream table and pour water to observe erosion and deposition."
+        },
+        {
+          "title": "Slope test",
+          "work": "Test erosion at different slopes and measure sediment."
+        },
+        {
+          "title": "Wind",
+          "work": "Blow through a straw at sand and measure distance moved."
+        },
+        {
+          "title": "Ice",
+          "work": "Drag an ice cube with sand over clay and observe scratches like glaciers in Yosemite."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a CER comparing erosion rates."
+        }
+      ],
+      "assessment": "Erosion CER."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Rock layers and fossils",
+      "objectives": [
+        "Read rock layers",
+        "Use fossils to infer past environments"
+      ],
+      "standards": [
+        "4-ESS1-1"
+      ],
+      "vocabulary": [
+        "sedimentary",
+        "layer",
+        "fossil",
+        "superposition"
+      ],
+      "materials": [
+        "jar",
+        "sand",
+        "soil",
+        "gravel",
+        "shells",
+        "clay"
+      ],
+      "days": [
+        {
+          "title": "Layer jar",
+          "work": "Make layers of sediment in a jar and observe settling."
+        },
+        {
+          "title": "Superposition",
+          "work": "Order layer drawings from oldest to youngest."
+        },
+        {
+          "title": "Fossil casts",
+          "work": "Make fossil imprints of shells in clay."
+        },
+        {
+          "title": "Grand Canyon & Painted Cave",
+          "work": "Analyze a photo of rock layers and fossils and infer past environments."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain changes in a landscape over time using layers."
+        }
+      ],
+      "assessment": "Rock layer explanation."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "California landscapes over time",
+      "objectives": [
+        "Explain how Yosemite and the coast formed",
+        "Synthesize unit learning"
+      ],
+      "standards": [
+        "4-ESS1-1",
+        "4-ESS2-1"
+      ],
+      "vocabulary": [
+        "glacier",
+        "canyon",
+        "landform"
+      ],
+      "materials": [
+        "photos of Yosemite and coast"
+      ],
+      "days": [
+        {
+          "title": "Yosemite",
+          "work": "Read about how glaciers carved Yosemite Valley."
+        },
+        {
+          "title": "Coastal erosion",
+          "work": "Analyze photos of eroding California cliffs."
+        },
+        {
+          "title": "Sea caves model",
+          "work": "Model sea arch formation with sugar cubes and water."
+        },
+        {
+          "title": "Sketch",
+          "work": "Create a before/after landscape sketch with explanation."
+        },
+        {
+          "title": "Unit 6 assessment",
+          "work": "Take the Unit 6 test on weathering, erosion and rock layers."
+        }
+      ],
+      "assessment": "Unit 6 test."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Maps of Earth's features",
+      "objectives": [
+        "Read topographic and relief maps",
+        "Identify mountain ranges and trenches"
+      ],
+      "standards": [
+        "4-ESS2-2"
+      ],
+      "vocabulary": [
+        "topographic",
+        "contour",
+        "elevation",
+        "trench"
+      ],
+      "materials": [
+        "clay",
+        "string",
+        "ruler",
+        "marker"
+      ],
+      "days": [
+        {
+          "title": "Clay mountain",
+          "work": "Build a clay mountain and slice contour lines to make a topographic map."
+        },
+        {
+          "title": "Read a topo map",
+          "work": "Read a topographic map of Half Dome."
+        },
+        {
+          "title": "Ocean floor",
+          "work": "Read an ocean floor map and identify trenches and ridges."
+        },
+        {
+          "title": "World patterns",
+          "work": "Mark mountain ranges on a world map."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on map reading."
+        }
+      ],
+      "assessment": "Map reading quiz."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Earthquakes and volcanoes patterns",
+      "objectives": [
+        "Map earthquake and volcano patterns",
+        "Identify the Ring of Fire"
+      ],
+      "standards": [
+        "4-ESS2-2"
+      ],
+      "vocabulary": [
+        "earthquake",
+        "volcano",
+        "fault",
+        "Ring of Fire",
+        "plate"
+      ],
+      "materials": [
+        "world map",
+        "USGS earthquake map",
+        "colored dots"
+      ],
+      "days": [
+        {
+          "title": "USGS map",
+          "work": "Plot 20 recent earthquakes from the USGS map."
+        },
+        {
+          "title": "Volcanoes",
+          "work": "Plot volcanoes on the map."
+        },
+        {
+          "title": "Pattern",
+          "work": "Describe the Ring of Fire pattern."
+        },
+        {
+          "title": "San Andreas",
+          "work": "Locate the San Andreas Fault and explain why California has earthquakes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write about patterns found on the map."
+        }
+      ],
+      "assessment": "Map analysis writing."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Reducing hazard impacts",
+      "objectives": [
+        "Compare solutions to reduce earthquake damage",
+        "Test designs"
+      ],
+      "standards": [
+        "4-ESS3-2",
+        "3-5-ETS1-2"
+      ],
+      "vocabulary": [
+        "hazard",
+        "retrofit",
+        "base isolation",
+        "engineer"
+      ],
+      "materials": [
+        "toothpicks",
+        "mini marshmallows",
+        "gelatin pan"
+      ],
+      "days": [
+        {
+          "title": "Shake table",
+          "work": "Build toothpick-and-marshmallow buildings and test on a gelatin shake table."
+        },
+        {
+          "title": "Improve",
+          "work": "Add cross-bracing and retest."
+        },
+        {
+          "title": "Compare solutions",
+          "work": "Compare bracing vs. base isolation designs."
+        },
+        {
+          "title": "Earthquake kit",
+          "work": "Plan a family earthquake preparedness kit."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a comparison of two solutions."
+        }
+      ],
+      "assessment": "Shake table results and comparison."
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Other hazards: tsunamis, landslides, floods",
+      "objectives": [
+        "Generate solutions for other hazards"
+      ],
+      "standards": [
+        "4-ESS3-2",
+        "4-ESS2-2"
+      ],
+      "vocabulary": [
+        "tsunami",
+        "landslide",
+        "flood",
+        "levee"
+      ],
+      "materials": [
+        "tub",
+        "sand",
+        "water",
+        "craft sticks"
+      ],
+      "days": [
+        {
+          "title": "Tsunami model",
+          "work": "Make a wave in a tub and test sea wall designs."
+        },
+        {
+          "title": "Landslides",
+          "work": "Model a hillside and test plants/stakes to reduce slides."
+        },
+        {
+          "title": "Floods",
+          "work": "Build a levee and test it."
+        },
+        {
+          "title": "Warning systems",
+          "work": "Research the tsunami warning system."
+        },
+        {
+          "title": "Unit 7 assessment",
+          "work": "Take the Unit 7 test."
+        }
+      ],
+      "assessment": "Unit 7 test."
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "Natural resources and energy",
+      "objectives": [
+        "Identify natural resources used for energy",
+        "Classify renewable and nonrenewable"
+      ],
+      "standards": [
+        "4-ESS3-1"
+      ],
+      "vocabulary": [
+        "natural resource",
+        "renewable",
+        "nonrenewable",
+        "fossil fuel"
+      ],
+      "materials": [
+        "picture cards",
+        "energy bill"
+      ],
+      "days": [
+        {
+          "title": "Resource sort",
+          "work": "Sort 12 resources into renewable and nonrenewable."
+        },
+        {
+          "title": "Fossil fuels",
+          "work": "Read about coal, oil and gas formation."
+        },
+        {
+          "title": "Home energy",
+          "work": "Read a family energy bill and identify energy sources."
+        },
+        {
+          "title": "California energy",
+          "work": "Research California's energy mix."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on resources."
+        }
+      ],
+      "assessment": "Resource quiz."
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Renewable energy investigations",
+      "objectives": [
+        "Investigate solar, wind and water energy"
+      ],
+      "standards": [
+        "4-ESS3-1",
+        "4-PS3-2"
+      ],
+      "vocabulary": [
+        "solar",
+        "wind turbine",
+        "hydroelectric"
+      ],
+      "materials": [
+        "paper pinwheel",
+        "fan",
+        "cups",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Pinwheel turbine",
+          "work": "Build a pinwheel turbine that lifts a paper clip."
+        },
+        {
+          "title": "Water wheel",
+          "work": "Build a water wheel from a plastic plate and cups."
+        },
+        {
+          "title": "Solar",
+          "work": "Compare warming of water in sun vs shade."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare the three energy sources in a chart."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an explanation of which source fits California best."
+        }
+      ],
+      "assessment": "Energy comparison chart and explanation."
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Environmental effects of energy use",
+      "objectives": [
+        "Describe environmental effects of resource use"
+      ],
+      "standards": [
+        "4-ESS3-1"
+      ],
+      "vocabulary": [
+        "pollution",
+        "habitat",
+        "oil spill"
+      ],
+      "materials": [
+        "feathers",
+        "oil",
+        "dish soap",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Oil spill",
+          "work": "Simulate an oil spill and test cleanup methods."
+        },
+        {
+          "title": "Mining",
+          "work": "Model mining using a cookie and toothpicks."
+        },
+        {
+          "title": "Air pollution",
+          "work": "Collect particulates on vaseline cards."
+        },
+        {
+          "title": "Trade-offs",
+          "work": "Discuss trade-offs of energy sources."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write about how one energy source affects the environment."
+        }
+      ],
+      "assessment": "Environmental effects writing."
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Energy research and presentation",
+      "objectives": [
+        "Obtain and combine information from multiple sources",
+        "Present findings on an energy source"
+      ],
+      "standards": [
+        "4-ESS3-1"
+      ],
+      "vocabulary": [
+        "research",
+        "source",
+        "cite",
+        "trade-off"
+      ],
+      "materials": [
+        "library books",
+        "computer",
+        "poster board"
+      ],
+      "days": [
+        {
+          "title": "Choose a source",
+          "work": "Choose one energy source used in California (Diablo Canyon nuclear, Altamont Pass wind, Central Valley solar, Hoover Dam hydro, oil from Kern County) and write 3 research questions."
+        },
+        {
+          "title": "Research notes",
+          "work": "Take notes from two sources on how the energy is made, where the resource comes from and its environmental effects."
+        },
+        {
+          "title": "Poster",
+          "work": "Create a poster with a labeled diagram of how the resource becomes electricity and a pros/cons chart."
+        },
+        {
+          "title": "Present",
+          "work": "Present the poster to family in 3 minutes and answer questions about trade-offs."
+        },
+        {
+          "title": "Unit 8 assessment",
+          "work": "Take the Unit 8 test on natural resources, renewable vs nonrenewable energy and environmental effects."
+        }
+      ],
+      "assessment": "Poster presentation and Unit 8 test."
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Defining a design problem: the wind-powered lifter",
+      "objectives": [
+        "Define a design problem with criteria and constraints",
+        "Research existing energy-converting devices"
+      ],
+      "standards": [
+        "3-5-ETS1-1",
+        "4-PS3-4"
+      ],
+      "vocabulary": [
+        "criteria",
+        "constraint",
+        "prototype",
+        "design brief"
+      ],
+      "materials": [
+        "science notebook",
+        "box fan",
+        "examples of windmills (photos)"
+      ],
+      "days": [
+        {
+          "title": "The challenge",
+          "work": "Read the challenge: design a device that converts wind energy from a box fan into motion that lifts 10 pennies 30 cm; restate it in your own words."
+        },
+        {
+          "title": "Criteria",
+          "work": "List measurable criteria for success (lift height, load, time to lift) in a table."
+        },
+        {
+          "title": "Constraints",
+          "work": "List constraints: only household materials (cups, straws, skewers, cardstock, string, tape), 3 days of building, no batteries."
+        },
+        {
+          "title": "Research",
+          "work": "Study photos and diagrams of historic windmills and modern turbines and note how blades and axles convert wind to rotation."
+        },
+        {
+          "title": "Design brief",
+          "work": "Write a one-page design brief with problem, criteria, constraints and a first sketch idea."
+        }
+      ],
+      "assessment": "Design brief with criteria and constraints."
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Generating and comparing solutions",
+      "objectives": [
+        "Generate several design solutions",
+        "Compare solutions using criteria"
+      ],
+      "standards": [
+        "3-5-ETS1-2",
+        "4-PS3-4"
+      ],
+      "vocabulary": [
+        "brainstorm",
+        "decision matrix",
+        "trade-off",
+        "axle"
+      ],
+      "materials": [
+        "paper",
+        "ruler",
+        "colored pencils",
+        "sample materials"
+      ],
+      "days": [
+        {
+          "title": "Brainstorm",
+          "work": "Brainstorm at least 5 blade and axle ideas without judging, sketching each quickly."
+        },
+        {
+          "title": "Blade mini-test",
+          "work": "Test 3 blade shapes (flat, angled, cupped) on a straw axle in front of the fan and count rotations in 10 seconds."
+        },
+        {
+          "title": "Detailed sketches",
+          "work": "Draw three full designs with labels, materials and how energy changes from wind to motion to lifting."
+        },
+        {
+          "title": "Decision matrix",
+          "work": "Score each design 1-3 on each criterion and constraint in a decision matrix."
+        },
+        {
+          "title": "Choose & justify",
+          "work": "Choose one design and write a paragraph explaining why it best meets the criteria."
+        }
+      ],
+      "assessment": "Decision matrix and justification paragraph."
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Building and testing the prototype",
+      "objectives": [
+        "Build a prototype",
+        "Plan and carry out fair tests controlling variables"
+      ],
+      "standards": [
+        "3-5-ETS1-3",
+        "4-PS3-4"
+      ],
+      "vocabulary": [
+        "fair test",
+        "variable",
+        "trial",
+        "failure point"
+      ],
+      "materials": [
+        "cups",
+        "straws",
+        "skewers",
+        "cardstock",
+        "string",
+        "tape",
+        "pennies",
+        "box fan",
+        "meter stick",
+        "stopwatch"
+      ],
+      "days": [
+        {
+          "title": "Build day 1",
+          "work": "Build the base and axle of the lifter following the chosen sketch."
+        },
+        {
+          "title": "Build day 2",
+          "work": "Attach blades, string and the penny cup and do a first trial run."
+        },
+        {
+          "title": "Plan a fair test",
+          "work": "Write a test plan keeping fan distance, fan speed and load the same for every trial."
+        },
+        {
+          "title": "Run trials",
+          "work": "Run 5 trials, recording lift height and time in a data table."
+        },
+        {
+          "title": "Failure points",
+          "work": "Identify where the device fails (blades slip, string tangles, axle wobbles) and photograph or sketch each."
+        }
+      ],
+      "assessment": "Test plan, data table and failure-point analysis."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Improving and presenting the design",
+      "objectives": [
+        "Improve a prototype based on test data",
+        "Communicate the design process"
+      ],
+      "standards": [
+        "3-5-ETS1-3",
+        "3-5-ETS1-2",
+        "4-PS3-4"
+      ],
+      "vocabulary": [
+        "iterate",
+        "redesign",
+        "improve",
+        "energy conversion"
+      ],
+      "materials": [
+        "prototype",
+        "materials",
+        "poster board or slides"
+      ],
+      "days": [
+        {
+          "title": "Redesign",
+          "work": "Change one variable (blade angle, number of blades or axle material) to fix the biggest failure point."
+        },
+        {
+          "title": "Retest",
+          "work": "Run 5 new trials under the same conditions and record results."
+        },
+        {
+          "title": "Compare results",
+          "work": "Graph before-and-after averages and decide whether the change helped."
+        },
+        {
+          "title": "Present",
+          "work": "Present the device, explaining each energy conversion (wind to rotation to lifting) and the data."
+        },
+        {
+          "title": "Reflect",
+          "work": "Write a reflection on what you would change with more time and materials."
+        }
+      ],
+      "assessment": "Engineering presentation and reflection (rubric)."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Science year in review",
+      "objectives": [
+        "Connect big ideas across physical, life and Earth science",
+        "Demonstrate mastery on a cumulative assessment"
+      ],
+      "standards": [
+        "4-PS3-1",
+        "4-PS3-2",
+        "4-PS4-1",
+        "4-PS4-2",
+        "4-LS1-1",
+        "4-LS1-2",
+        "4-ESS1-1",
+        "4-ESS2-1",
+        "4-ESS2-2",
+        "4-ESS3-1"
+      ],
+      "vocabulary": [
+        "energy",
+        "wave",
+        "structure",
+        "weathering",
+        "resource"
+      ],
+      "materials": [
+        "science notebook",
+        "index cards"
+      ],
+      "days": [
+        {
+          "title": "Energy & waves review",
+          "work": "Make concept-map flashcards for energy, collisions, circuits, waves and light, and quiz yourself."
+        },
+        {
+          "title": "Life science review",
+          "work": "Redo the ruler-drop reaction test and explain the senses-brain-response model from memory."
+        },
+        {
+          "title": "Earth science review",
+          "work": "Explain a photo of California coastal cliffs using weathering, erosion and rock layer vocabulary."
+        },
+        {
+          "title": "Cumulative test",
+          "work": "Take the end-of-year science assessment covering all units."
+        },
+        {
+          "title": "Notebook showcase",
+          "work": "Choose your three favorite investigations from the notebook and explain them to family."
+        }
+      ],
+      "assessment": "End-of-year cumulative assessment."
+    }
+  ]
+}

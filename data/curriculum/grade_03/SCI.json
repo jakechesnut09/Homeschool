@@ -1,0 +1,1809 @@
+{
+  "grade": 3,
+  "subject": "SCI",
+  "title": "Science 3",
+  "description": "A hands-on, NGSS-aligned third-grade science course covering forces and motion, magnets and static electricity, life cycles, animal groups, inheritance and variation, fossils, habitats and environmental change, weather and climate, and weather-related hazards. Students conduct investigations with household materials, keep a science notebook, construct evidence-based arguments, and complete engineering design challenges.",
+  "framework": "California Next Generation Science Standards (CA NGSS); 2016 CA Science Framework",
+  "minutes_per_day": 40,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "3-PS2-1": "Plan and conduct an investigation to provide evidence of the effects of balanced and unbalanced forces on the motion of an object.",
+    "3-PS2-2": "Make observations and/or measurements of an object's motion to provide evidence that a pattern can be used to predict future motion.",
+    "3-PS2-3": "Ask questions to determine cause and effect relationships of electric or magnetic interactions between two objects not in contact with each other.",
+    "3-PS2-4": "Define a simple design problem that can be solved by applying scientific ideas about magnets.",
+    "3-LS1-1": "Develop models to describe that organisms have unique and diverse life cycles but all have in common birth, growth, reproduction and death.",
+    "3-LS2-1": "Construct an argument that some animals form groups that help members survive.",
+    "3-LS3-1": "Analyze and interpret data to provide evidence that plants and animals have traits inherited from parents and that variation of these traits exists in a group of similar organisms.",
+    "3-LS3-2": "Use evidence to support the explanation that traits can be influenced by the environment.",
+    "3-LS4-1": "Analyze and interpret data from fossils to provide evidence of the organisms and the environments in which they lived long ago.",
+    "3-LS4-2": "Use evidence to construct an explanation for how variations in characteristics among individuals of the same species may provide advantages in surviving, finding mates and reproducing.",
+    "3-LS4-3": "Construct an argument with evidence that in a particular habitat some organisms can survive well, some survive less well, and some cannot survive at all.",
+    "3-LS4-4": "Make a claim about the merit of a solution to a problem caused when the environment changes and the types of plants and animals that live there may change.",
+    "3-ESS2-1": "Represent data in tables and graphical displays to describe typical weather conditions expected during a particular season.",
+    "3-ESS2-2": "Obtain and combine information to describe climates in different regions of the world.",
+    "3-ESS3-1": "Make a claim about the merit of a design solution that reduces the impacts of a weather-related hazard.",
+    "3-5-ETS1-1": "Define a simple design problem reflecting a need or want that includes specified criteria for success and constraints on materials, time or cost.",
+    "3-5-ETS1-2": "Generate and compare multiple possible solutions to a problem based on how well each is likely to meet the criteria and constraints.",
+    "3-5-ETS1-3": "Plan and carry out fair tests in which variables are controlled and failure points are considered to identify aspects of a model or prototype that can be improved."
+  },
+  "resources": [
+    {
+      "name": "Mystery Science (free lessons)",
+      "url": "https://mysteryscience.com/",
+      "note": "Free grade 3 mystery videos and hands-on activities on forces, life cycles, fossils and weather"
+    },
+    {
+      "name": "PBS LearningMedia",
+      "url": "https://www.pbslearningmedia.org/",
+      "note": "Free videos and interactives searchable by grade and NGSS standard"
+    },
+    {
+      "name": "NASA Climate Kids",
+      "url": "https://climatekids.nasa.gov/",
+      "note": "Weather, climate and Earth science articles and games for kids"
+    },
+    {
+      "name": "NOAA SciJinks",
+      "url": "https://scijinks.gov/",
+      "note": "Kid-friendly weather explanations, hazard guides and activities"
+    },
+    {
+      "name": "PhET Interactive Simulations",
+      "url": "https://phet.colorado.edu/",
+      "note": "Free simulations including Forces and Motion: Basics and Balloons and Static Electricity"
+    },
+    {
+      "name": "Smithsonian Learning Lab",
+      "url": "https://learninglab.si.edu/",
+      "note": "Fossil, animal and natural history images and collections from the Smithsonian"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Forces and Motion",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Pushes and pulls change motion when forces are unbalanced, and patterns of motion can be predicted.",
+      "standards": [
+        "3-PS2-1",
+        "3-PS2-2",
+        "3-5-ETS1-3"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Magnets and Static Electricity",
+      "start_week": 5,
+      "end_week": 7,
+      "big_idea": "Some forces act at a distance; we can use magnets to solve problems.",
+      "standards": [
+        "3-PS2-3",
+        "3-PS2-4",
+        "3-5-ETS1-1",
+        "3-5-ETS1-2"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Life Cycles",
+      "start_week": 8,
+      "end_week": 11,
+      "big_idea": "All living things are born, grow, reproduce and die, but their life cycles differ.",
+      "standards": [
+        "3-LS1-1"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Animal Groups and Survival",
+      "start_week": 12,
+      "end_week": 13,
+      "big_idea": "Living in groups helps some animals survive.",
+      "standards": [
+        "3-LS2-1"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Inheritance, Variation and Environment",
+      "start_week": 14,
+      "end_week": 17,
+      "big_idea": "Offspring inherit traits from parents, traits vary, and environment can influence traits.",
+      "standards": [
+        "3-LS3-1",
+        "3-LS3-2",
+        "3-LS4-2"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Fossils and Past Environments",
+      "start_week": 18,
+      "end_week": 20,
+      "big_idea": "Fossils are evidence of organisms and environments from long ago.",
+      "standards": [
+        "3-LS4-1"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Habitats and Environmental Change",
+      "start_week": 21,
+      "end_week": 24,
+      "big_idea": "Organisms survive best in habitats that meet their needs; when environments change, solutions can help.",
+      "standards": [
+        "3-LS4-3",
+        "3-LS4-4",
+        "3-LS4-2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Weather and Climate",
+      "start_week": 25,
+      "end_week": 30,
+      "big_idea": "Weather follows seasonal patterns that can be measured, and climates differ around the world.",
+      "standards": [
+        "3-ESS2-1",
+        "3-ESS2-2"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Natural Hazards and Engineering Design",
+      "start_week": 31,
+      "end_week": 36,
+      "big_idea": "Engineers design solutions that reduce the impacts of weather-related hazards.",
+      "standards": [
+        "3-ESS3-1",
+        "3-5-ETS1-1",
+        "3-5-ETS1-2",
+        "3-5-ETS1-3"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Pushes, pulls and balanced forces",
+      "objectives": [
+        "Identify forces as pushes and pulls",
+        "Compare balanced and unbalanced forces"
+      ],
+      "standards": [
+        "3-PS2-1"
+      ],
+      "vocabulary": [
+        "force",
+        "push",
+        "pull",
+        "balanced",
+        "unbalanced"
+      ],
+      "materials": [
+        "rope or towel",
+        "toy car",
+        "books",
+        "science notebook"
+      ],
+      "days": [
+        {
+          "title": "Forces around us",
+          "work": "List 20 pushes and pulls seen at home and sort them in a science notebook T-chart."
+        },
+        {
+          "title": "Tug of war",
+          "work": "Play a gentle towel tug-of-war with a family member and draw force arrows for balanced and unbalanced pulls."
+        },
+        {
+          "title": "Book stack",
+          "work": "Push a book with equal force from both sides, then unequal force, and record what happens to its motion."
+        },
+        {
+          "title": "Video and model",
+          "work": "Watch a Mystery Science forces lesson and draw arrow diagrams for a stationary and a moving object."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in writing with diagrams why an object starts moving only when forces are unbalanced."
+        }
+      ],
+      "assessment": "Force diagram explanation"
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Investigating force and motion",
+      "objectives": [
+        "Plan a fair test of force on motion",
+        "Measure distance traveled"
+      ],
+      "standards": [
+        "3-PS2-1",
+        "3-5-ETS1-3"
+      ],
+      "vocabulary": [
+        "variable",
+        "fair test",
+        "friction",
+        "distance"
+      ],
+      "materials": [
+        "toy car",
+        "ramp (board and books)",
+        "tape measure",
+        "carpet, tile and towel surfaces"
+      ],
+      "days": [
+        {
+          "title": "Plan a test",
+          "work": "Plan a fair test: does ramp height change how far a toy car travels? Identify what stays the same."
+        },
+        {
+          "title": "Ramp investigation",
+          "work": "Run 3 trials at each of 3 ramp heights and record distances in a data table."
+        },
+        {
+          "title": "Friction test",
+          "work": "Roll the car down the same ramp onto carpet, tile and towel and measure distances."
+        },
+        {
+          "title": "Analyze",
+          "work": "Graph results and write a claim about force, friction and motion supported by data."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how you kept the test fair and what you would improve."
+        }
+      ],
+      "assessment": "Lab report with data table and claim"
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Patterns of motion",
+      "objectives": [
+        "Observe patterns in motion",
+        "Use patterns to predict future motion"
+      ],
+      "standards": [
+        "3-PS2-2"
+      ],
+      "vocabulary": [
+        "pattern",
+        "predict",
+        "pendulum",
+        "motion"
+      ],
+      "materials": [
+        "string",
+        "washers",
+        "tape",
+        "timer",
+        "ball"
+      ],
+      "days": [
+        {
+          "title": "Pendulum build",
+          "work": "Build a pendulum from string and washers and count swings in 15 seconds."
+        },
+        {
+          "title": "Change length",
+          "work": "Change the string length and record the pattern in swing count; predict the next result."
+        },
+        {
+          "title": "Bouncing ball",
+          "work": "Drop a ball and measure bounce heights; describe the pattern of decreasing bounces."
+        },
+        {
+          "title": "Playground patterns",
+          "work": "Observe a swing or seesaw and describe repeating motion patterns."
+        },
+        {
+          "title": "Review & check",
+          "work": "Use your pendulum data to predict swings for a new length, then test the prediction."
+        }
+      ],
+      "assessment": "Prediction test and explanation"
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Forces and motion design challenge",
+      "objectives": [
+        "Apply force concepts to a design",
+        "Test and improve a prototype"
+      ],
+      "standards": [
+        "3-PS2-1",
+        "3-PS2-2",
+        "3-5-ETS1-3"
+      ],
+      "vocabulary": [
+        "prototype",
+        "criteria",
+        "improve"
+      ],
+      "materials": [
+        "cardboard",
+        "straws",
+        "tape",
+        "marbles"
+      ],
+      "days": [
+        {
+          "title": "Marble run plan",
+          "work": "Plan a cardboard marble run that makes a marble travel 1 meter and stop in a cup."
+        },
+        {
+          "title": "Build",
+          "work": "Build the marble run using tape and cardboard tubes."
+        },
+        {
+          "title": "Test",
+          "work": "Test and record where the marble fails; identify the force causing each failure."
+        },
+        {
+          "title": "Improve",
+          "work": "Modify the design and retest, recording changes."
+        },
+        {
+          "title": "Unit 1 assessment",
+          "work": "Complete the unit quiz on balanced/unbalanced forces and motion patterns."
+        }
+      ],
+      "assessment": "Unit 1 quiz; marble run testing log"
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Magnetic forces",
+      "objectives": [
+        "Investigate magnetic attraction and repulsion",
+        "Test what magnets attract"
+      ],
+      "standards": [
+        "3-PS2-3"
+      ],
+      "vocabulary": [
+        "magnet",
+        "attract",
+        "repel",
+        "pole",
+        "magnetic field"
+      ],
+      "materials": [
+        "refrigerator magnets",
+        "bar magnets",
+        "household objects",
+        "paper clips"
+      ],
+      "days": [
+        {
+          "title": "Magnet hunt",
+          "work": "Test 15 household objects with a magnet and sort into attracted / not attracted."
+        },
+        {
+          "title": "Poles",
+          "work": "Explore north and south poles and record which combinations attract or repel."
+        },
+        {
+          "title": "Through materials",
+          "work": "Test whether magnetic force works through paper, cardboard, water and plastic."
+        },
+        {
+          "title": "Distance",
+          "work": "Measure how far a paper clip can be from a magnet before it is pulled, using different numbers of paper sheets."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write cause-and-effect sentences explaining magnetic interactions."
+        }
+      ],
+      "assessment": "Cause/effect explanation"
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Static electricity",
+      "objectives": [
+        "Investigate static electric forces",
+        "Ask cause-and-effect questions"
+      ],
+      "standards": [
+        "3-PS2-3"
+      ],
+      "vocabulary": [
+        "static electricity",
+        "charge",
+        "attract",
+        "repel"
+      ],
+      "materials": [
+        "balloons",
+        "tissue paper",
+        "comb",
+        "aluminum can"
+      ],
+      "days": [
+        {
+          "title": "Balloon charge",
+          "work": "Rub a balloon on hair and test whether it attracts tissue paper bits."
+        },
+        {
+          "title": "Rolling can",
+          "work": "Use a charged balloon to roll an empty aluminum can without touching it."
+        },
+        {
+          "title": "Two balloons",
+          "work": "Charge two balloons and observe repulsion; record observations."
+        },
+        {
+          "title": "Simulation",
+          "work": "Explore the PhET 'Balloons and Static Electricity' simulation and draw charges."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write 3 testable cause-and-effect questions about static electricity and answer one."
+        }
+      ],
+      "assessment": "Questions and observation log"
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Magnet design problem",
+      "objectives": [
+        "Define a design problem solvable with magnets",
+        "Generate and compare solutions"
+      ],
+      "standards": [
+        "3-PS2-4",
+        "3-5-ETS1-1",
+        "3-5-ETS1-2"
+      ],
+      "vocabulary": [
+        "design problem",
+        "criteria",
+        "constraints",
+        "solution"
+      ],
+      "materials": [
+        "magnets",
+        "paper clips",
+        "cardboard",
+        "string"
+      ],
+      "days": [
+        {
+          "title": "Define a problem",
+          "work": "Define a problem (keeping a cabinet door closed or finding lost pins) with criteria and constraints."
+        },
+        {
+          "title": "Brainstorm",
+          "work": "Sketch 3 possible magnet solutions and compare them against the criteria."
+        },
+        {
+          "title": "Build",
+          "work": "Build the best solution prototype."
+        },
+        {
+          "title": "Test",
+          "work": "Test and evaluate the prototype; record what worked."
+        },
+        {
+          "title": "Unit 2 assessment",
+          "work": "Present the design and complete the unit quiz on magnets and static electricity."
+        }
+      ],
+      "assessment": "Unit 2 quiz; design presentation"
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "Plant life cycles",
+      "objectives": [
+        "Model the life cycle of a flowering plant",
+        "Observe seed germination"
+      ],
+      "standards": [
+        "3-LS1-1"
+      ],
+      "vocabulary": [
+        "life cycle",
+        "seed",
+        "germinate",
+        "seedling",
+        "pollination"
+      ],
+      "materials": [
+        "bean seeds",
+        "paper towels",
+        "zip bags",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Germination bag",
+          "work": "Plant beans in wet paper towels in a zip bag and tape to a window; predict what will happen."
+        },
+        {
+          "title": "Seed dissection",
+          "work": "Soak a bean and open it to find the seed coat, embryo and food supply; draw and label."
+        },
+        {
+          "title": "Flower parts",
+          "work": "Dissect a flower from the garden or store and identify parts used for reproduction."
+        },
+        {
+          "title": "Measure growth",
+          "work": "Measure and record bean sprout growth and draw daily observations."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw a circular model of a flowering plant's life cycle with labels."
+        }
+      ],
+      "assessment": "Plant life cycle model"
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Animal life cycles: insects",
+      "objectives": [
+        "Compare complete and incomplete metamorphosis",
+        "Model insect life cycles"
+      ],
+      "standards": [
+        "3-LS1-1"
+      ],
+      "vocabulary": [
+        "metamorphosis",
+        "larva",
+        "pupa",
+        "nymph"
+      ],
+      "materials": [
+        "pictures or video of butterflies and grasshoppers",
+        "clay"
+      ],
+      "days": [
+        {
+          "title": "Butterfly",
+          "work": "Watch a butterfly metamorphosis video and sequence egg, larva, pupa, adult cards."
+        },
+        {
+          "title": "Grasshopper",
+          "work": "Compare grasshopper incomplete metamorphosis to the butterfly in a Venn diagram."
+        },
+        {
+          "title": "Clay models",
+          "work": "Build clay models of each stage of a ladybug life cycle."
+        },
+        {
+          "title": "Bean check",
+          "work": "Measure and graph bean plant growth so far."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in writing what all insect life cycles have in common."
+        }
+      ],
+      "assessment": "Venn diagram and written explanation"
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Animal life cycles: frogs, birds, mammals",
+      "objectives": [
+        "Compare diverse animal life cycles",
+        "Identify birth, growth, reproduction, death in all"
+      ],
+      "standards": [
+        "3-LS1-1"
+      ],
+      "vocabulary": [
+        "amphibian",
+        "tadpole",
+        "hatch",
+        "mammal"
+      ],
+      "materials": [
+        "life cycle picture cards",
+        "egg"
+      ],
+      "days": [
+        {
+          "title": "Frogs",
+          "work": "Sequence the frog life cycle and describe changes from tadpole to adult."
+        },
+        {
+          "title": "Birds",
+          "work": "Examine an egg (shell, membrane, yolk) and diagram a chicken's life cycle."
+        },
+        {
+          "title": "Mammals",
+          "work": "Compare a human and a dog life cycle using a timeline."
+        },
+        {
+          "title": "Compare",
+          "work": "Make a chart comparing life span and stages of 5 organisms."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer questions about which stages all life cycles share."
+        }
+      ],
+      "assessment": "Life cycle comparison chart"
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Life cycle models",
+      "objectives": [
+        "Develop and present a life cycle model",
+        "Explain patterns among life cycles"
+      ],
+      "standards": [
+        "3-LS1-1"
+      ],
+      "vocabulary": [
+        "model",
+        "reproduce",
+        "offspring",
+        "life span"
+      ],
+      "materials": [
+        "paper plates",
+        "markers",
+        "brads"
+      ],
+      "days": [
+        {
+          "title": "Choose an organism",
+          "work": "Research a chosen organism's life cycle (sea turtle, salmon, oak tree)."
+        },
+        {
+          "title": "Build model",
+          "work": "Build a spinning paper-plate life cycle model."
+        },
+        {
+          "title": "Present",
+          "work": "Present the model and explain each stage."
+        },
+        {
+          "title": "Bean wrap-up",
+          "work": "Transplant bean sprouts to soil and describe the next stages expected."
+        },
+        {
+          "title": "Unit 3 assessment",
+          "work": "Complete the unit quiz on life cycles."
+        }
+      ],
+      "assessment": "Unit 3 quiz; life cycle model"
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "Why animals live in groups",
+      "objectives": [
+        "Identify ways group living helps animals survive",
+        "Gather evidence from texts and video"
+      ],
+      "standards": [
+        "3-LS2-1"
+      ],
+      "vocabulary": [
+        "herd",
+        "pack",
+        "colony",
+        "school",
+        "survival"
+      ],
+      "materials": [
+        "animal videos",
+        "articles",
+        "evidence chart"
+      ],
+      "days": [
+        {
+          "title": "Group examples",
+          "work": "Watch videos of wolf packs, fish schools and bee colonies and list benefits."
+        },
+        {
+          "title": "Ant observation",
+          "work": "Observe ants outdoors (or a video) and record how they work together."
+        },
+        {
+          "title": "Evidence chart",
+          "work": "Read articles and fill an evidence chart: hunting, defense, raising young, staying warm."
+        },
+        {
+          "title": "Fish school model",
+          "work": "Model a fish school vs. a lone fish in a predator tag game and record results."
+        },
+        {
+          "title": "Review & check",
+          "work": "Summarize evidence for one animal group."
+        }
+      ],
+      "assessment": "Evidence chart"
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Argument: groups help survival",
+      "objectives": [
+        "Construct an argument with evidence",
+        "Present an argument orally"
+      ],
+      "standards": [
+        "3-LS2-1"
+      ],
+      "vocabulary": [
+        "claim",
+        "evidence",
+        "reasoning",
+        "argument"
+      ],
+      "materials": [
+        "evidence chart",
+        "writing paper"
+      ],
+      "days": [
+        {
+          "title": "Claim",
+          "work": "Write a claim: living in groups helps [animal] survive."
+        },
+        {
+          "title": "Evidence",
+          "work": "Choose 3 pieces of evidence from the evidence chart."
+        },
+        {
+          "title": "Reasoning",
+          "work": "Explain how each piece of evidence supports the claim."
+        },
+        {
+          "title": "Present",
+          "work": "Present the argument and answer questions."
+        },
+        {
+          "title": "Unit 4 assessment",
+          "work": "Complete the unit quiz on animal groups."
+        }
+      ],
+      "assessment": "Unit 4 quiz; claim-evidence-reasoning argument"
+    },
+    {
+      "week": 14,
+      "unit": 5,
+      "topic": "Inherited traits",
+      "objectives": [
+        "Identify traits inherited from parents",
+        "Analyze data on traits"
+      ],
+      "standards": [
+        "3-LS3-1"
+      ],
+      "vocabulary": [
+        "trait",
+        "inherit",
+        "offspring",
+        "parent"
+      ],
+      "materials": [
+        "family photos",
+        "pet or animal pictures"
+      ],
+      "days": [
+        {
+          "title": "Trait sort",
+          "work": "Sort animal parent and offspring pictures and identify inherited traits."
+        },
+        {
+          "title": "Family traits",
+          "work": "Survey family members for traits (earlobes, tongue rolling, hair color) and record data."
+        },
+        {
+          "title": "Plants inherit",
+          "work": "Compare seeds from one plant to offspring plants."
+        },
+        {
+          "title": "Graph",
+          "work": "Graph survey data on traits."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain what inherited traits are using examples."
+        }
+      ],
+      "assessment": "Trait data graph and explanation"
+    },
+    {
+      "week": 15,
+      "unit": 5,
+      "topic": "Variation within a group",
+      "objectives": [
+        "Observe and measure variation within a species",
+        "Analyze data"
+      ],
+      "standards": [
+        "3-LS3-1"
+      ],
+      "vocabulary": [
+        "variation",
+        "species",
+        "data"
+      ],
+      "materials": [
+        "peanuts in shells or leaves from one tree",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Peanut variation",
+          "work": "Measure 20 peanut shells and record lengths."
+        },
+        {
+          "title": "Line plot",
+          "work": "Make a line plot of the lengths and describe the variation."
+        },
+        {
+          "title": "Leaf variation",
+          "work": "Collect 15 leaves from one tree and compare size, shape and color."
+        },
+        {
+          "title": "Dogs",
+          "work": "Compare different dog breeds and discuss variation within a species."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a conclusion about variation with evidence from your data."
+        }
+      ],
+      "assessment": "Variation conclusion with data"
+    },
+    {
+      "week": 16,
+      "unit": 5,
+      "topic": "Environment and traits",
+      "objectives": [
+        "Gather evidence that environment influences traits"
+      ],
+      "standards": [
+        "3-LS3-2"
+      ],
+      "vocabulary": [
+        "environment",
+        "influence",
+        "nutrients"
+      ],
+      "materials": [
+        "two plants",
+        "sunny and dark spots",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Plant experiment setup",
+          "work": "Place one plant in sunlight and one in a dark closet; predict differences."
+        },
+        {
+          "title": "Examples",
+          "work": "Read about flamingos' color from diet and hydrangea color from soil."
+        },
+        {
+          "title": "Measure plants",
+          "work": "Measure and observe plants and record height and color."
+        },
+        {
+          "title": "Human examples",
+          "work": "Discuss how exercise and diet can influence traits."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write evidence that environment influences traits from the plant experiment."
+        }
+      ],
+      "assessment": "Plant experiment report"
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Variation and survival advantage",
+      "objectives": [
+        "Explain how variation may provide advantages for survival"
+      ],
+      "standards": [
+        "3-LS4-2"
+      ],
+      "vocabulary": [
+        "advantage",
+        "camouflage",
+        "adaptation"
+      ],
+      "materials": [
+        "colored paper bits",
+        "green and brown backgrounds"
+      ],
+      "days": [
+        {
+          "title": "Camouflage game",
+          "work": "Scatter colored paper 'insects' on grass and time how many a family member finds; record which colors survive."
+        },
+        {
+          "title": "Analyze",
+          "work": "Graph results and explain the advantage of camouflage."
+        },
+        {
+          "title": "Other advantages",
+          "work": "Research how longer beaks or thicker fur help individuals survive."
+        },
+        {
+          "title": "Write",
+          "work": "Explain how a variation could help an animal find a mate or food."
+        },
+        {
+          "title": "Unit 5 assessment",
+          "work": "Complete the unit quiz on traits and variation."
+        }
+      ],
+      "assessment": "Unit 5 quiz; camouflage data analysis"
+    },
+    {
+      "week": 18,
+      "unit": 6,
+      "topic": "What fossils tell us",
+      "objectives": [
+        "Describe how fossils form",
+        "Identify types of fossils"
+      ],
+      "standards": [
+        "3-LS4-1"
+      ],
+      "vocabulary": [
+        "fossil",
+        "sediment",
+        "imprint",
+        "extinct"
+      ],
+      "materials": [
+        "clay",
+        "shells",
+        "plaster of Paris or salt dough"
+      ],
+      "days": [
+        {
+          "title": "Fossil formation",
+          "work": "Watch a fossil video and sequence the steps of fossil formation."
+        },
+        {
+          "title": "Make fossils",
+          "work": "Make imprint fossils by pressing shells into clay; fill with plaster to make casts."
+        },
+        {
+          "title": "Fossil types",
+          "work": "Compare body fossils, trace fossils and imprints using Smithsonian images."
+        },
+        {
+          "title": "La Brea",
+          "work": "Learn about the La Brea Tar Pits and the animals found there."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how fossils form in a comic strip."
+        }
+      ],
+      "assessment": "Fossil formation comic strip"
+    },
+    {
+      "week": 19,
+      "unit": 6,
+      "topic": "Fossils as evidence of past environments",
+      "objectives": [
+        "Analyze fossil data to infer past environments"
+      ],
+      "standards": [
+        "3-LS4-1"
+      ],
+      "vocabulary": [
+        "environment",
+        "evidence",
+        "marine",
+        "infer"
+      ],
+      "materials": [
+        "fossil picture cards",
+        "rock layer diagram"
+      ],
+      "days": [
+        {
+          "title": "Fossil clues",
+          "work": "Examine fossil cards (fish, fern, shark tooth) and infer past environments."
+        },
+        {
+          "title": "Rock layers",
+          "work": "Build a layered sandwich model of rock layers and discuss older vs. newer layers."
+        },
+        {
+          "title": "Desert ocean",
+          "work": "Investigate why marine fossils are found in deserts and mountains."
+        },
+        {
+          "title": "Data table",
+          "work": "Complete a data table matching fossils to environments."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a claim about a past environment using fossil evidence."
+        }
+      ],
+      "assessment": "Fossil evidence claim"
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "Extinct organisms and modern relatives",
+      "objectives": [
+        "Compare extinct organisms to living ones",
+        "Present findings"
+      ],
+      "standards": [
+        "3-LS4-1"
+      ],
+      "vocabulary": [
+        "extinct",
+        "dinosaur",
+        "mammoth",
+        "relative"
+      ],
+      "materials": [
+        "Smithsonian Learning Lab images"
+      ],
+      "days": [
+        {
+          "title": "Mammoth and elephant",
+          "work": "Compare a mammoth and an elephant and infer the mammoth's environment."
+        },
+        {
+          "title": "Dinosaurs and birds",
+          "work": "Compare dinosaur and bird fossils."
+        },
+        {
+          "title": "Research",
+          "work": "Research one extinct organism and its environment."
+        },
+        {
+          "title": "Present",
+          "work": "Present a museum card for the organism."
+        },
+        {
+          "title": "Unit 6 assessment",
+          "work": "Complete the unit quiz on fossils."
+        }
+      ],
+      "assessment": "Unit 6 quiz; museum card"
+    },
+    {
+      "week": 21,
+      "unit": 7,
+      "topic": "Habitats meet needs",
+      "objectives": [
+        "Describe how habitats meet organisms' needs",
+        "Compare survival in different habitats"
+      ],
+      "standards": [
+        "3-LS4-3"
+      ],
+      "vocabulary": [
+        "habitat",
+        "needs",
+        "survive",
+        "ecosystem"
+      ],
+      "materials": [
+        "habitat cards",
+        "outdoor space"
+      ],
+      "days": [
+        {
+          "title": "Backyard habitat",
+          "work": "Survey a backyard or park and list organisms and their needs."
+        },
+        {
+          "title": "Habitat cards",
+          "work": "Match organisms to habitats (desert, ocean, forest, wetland)."
+        },
+        {
+          "title": "Survive well, less well",
+          "work": "Sort organisms by how well they would survive in a desert."
+        },
+        {
+          "title": "Pill bug choice",
+          "work": "Test whether pill bugs prefer damp or dry soil in a shoebox choice chamber."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an argument for which habitat suits a cactus best."
+        }
+      ],
+      "assessment": "Habitat argument; pill bug data"
+    },
+    {
+      "week": 22,
+      "unit": 7,
+      "topic": "California habitats",
+      "objectives": [
+        "Analyze survival in California habitats",
+        "Construct an argument with evidence"
+      ],
+      "standards": [
+        "3-LS4-3",
+        "3-LS4-2"
+      ],
+      "vocabulary": [
+        "chaparral",
+        "tide pool",
+        "redwood forest",
+        "adaptation"
+      ],
+      "materials": [
+        "California habitat articles",
+        "maps"
+      ],
+      "days": [
+        {
+          "title": "Tide pools",
+          "work": "Learn how tide pool animals survive waves and drying out."
+        },
+        {
+          "title": "Chaparral",
+          "work": "Study chaparral plants' adaptations to dry summers and fire."
+        },
+        {
+          "title": "Redwood forest",
+          "work": "Study redwood forest organisms and fog."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare which organisms could survive in each habitat."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an argument with evidence about one organism's survival in a California habitat."
+        }
+      ],
+      "assessment": "Habitat argument"
+    },
+    {
+      "week": 23,
+      "unit": 7,
+      "topic": "Environmental change",
+      "objectives": [
+        "Describe how environmental change affects organisms"
+      ],
+      "standards": [
+        "3-LS4-4"
+      ],
+      "vocabulary": [
+        "environmental change",
+        "drought",
+        "pollution",
+        "habitat loss"
+      ],
+      "materials": [
+        "articles",
+        "plants",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Changes",
+          "work": "List natural and human-caused environmental changes (drought, fire, building)."
+        },
+        {
+          "title": "Drought test",
+          "work": "Water one plant and withhold water from another; observe effects."
+        },
+        {
+          "title": "Case study",
+          "work": "Read about how the California drought affected salmon."
+        },
+        {
+          "title": "Predict",
+          "work": "Predict what happens to organisms when a wetland is drained."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain cause-and-effect of environmental change in writing."
+        }
+      ],
+      "assessment": "Cause-effect explanation"
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Solutions to environmental problems",
+      "objectives": [
+        "Evaluate the merit of solutions to environmental change"
+      ],
+      "standards": [
+        "3-LS4-4"
+      ],
+      "vocabulary": [
+        "solution",
+        "merit",
+        "wildlife crossing",
+        "restoration"
+      ],
+      "materials": [
+        "articles",
+        "poster supplies"
+      ],
+      "days": [
+        {
+          "title": "Solutions",
+          "work": "Read about wildlife crossings, fish ladders and habitat restoration."
+        },
+        {
+          "title": "Evaluate",
+          "work": "Compare 2 solutions for the salmon problem using criteria."
+        },
+        {
+          "title": "Claim",
+          "work": "Make a claim about the best solution with evidence."
+        },
+        {
+          "title": "Poster",
+          "work": "Create a poster about the chosen solution."
+        },
+        {
+          "title": "Unit 7 assessment",
+          "work": "Complete the unit quiz on habitats and environmental change."
+        }
+      ],
+      "assessment": "Unit 7 quiz; solution poster"
+    },
+    {
+      "week": 25,
+      "unit": 8,
+      "topic": "Weather tools",
+      "objectives": [
+        "Identify weather conditions and tools",
+        "Build simple weather instruments"
+      ],
+      "standards": [
+        "3-ESS2-1"
+      ],
+      "vocabulary": [
+        "temperature",
+        "precipitation",
+        "wind",
+        "thermometer",
+        "rain gauge"
+      ],
+      "materials": [
+        "jar",
+        "ruler",
+        "thermometer",
+        "paper cups",
+        "straw"
+      ],
+      "days": [
+        {
+          "title": "Weather words",
+          "work": "Define temperature, precipitation, wind and clouds; begin a daily weather log."
+        },
+        {
+          "title": "Rain gauge",
+          "work": "Build a rain gauge from a jar and ruler."
+        },
+        {
+          "title": "Wind vane",
+          "work": "Build a wind vane from a straw and paper."
+        },
+        {
+          "title": "Thermometer",
+          "work": "Read a thermometer at 3 times of day and record."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain each weather tool and record a week of weather data."
+        }
+      ],
+      "assessment": "Weather instrument use and log"
+    },
+    {
+      "week": 26,
+      "unit": 8,
+      "topic": "Collecting weather data",
+      "objectives": [
+        "Collect and record daily weather data"
+      ],
+      "standards": [
+        "3-ESS2-1"
+      ],
+      "vocabulary": [
+        "data",
+        "table",
+        "cloud types",
+        "forecast"
+      ],
+      "materials": [
+        "weather instruments",
+        "log"
+      ],
+      "days": [
+        {
+          "title": "Clouds",
+          "work": "Identify cumulus, stratus and cirrus clouds and add to the log."
+        },
+        {
+          "title": "Daily data",
+          "work": "Record temperature, precipitation, wind and clouds each day."
+        },
+        {
+          "title": "Forecasts",
+          "work": "Compare your observations to a NOAA forecast."
+        },
+        {
+          "title": "Data table",
+          "work": "Organize the week's data in a table."
+        },
+        {
+          "title": "Review & check",
+          "work": "Describe the week's weather pattern with data."
+        }
+      ],
+      "assessment": "Weather log and pattern description"
+    },
+    {
+      "week": 27,
+      "unit": 8,
+      "topic": "Seasonal weather patterns",
+      "objectives": [
+        "Represent weather data in graphs",
+        "Describe typical seasonal weather"
+      ],
+      "standards": [
+        "3-ESS2-1"
+      ],
+      "vocabulary": [
+        "season",
+        "average",
+        "bar graph",
+        "line graph"
+      ],
+      "materials": [
+        "graph paper",
+        "local climate data"
+      ],
+      "days": [
+        {
+          "title": "Local data",
+          "work": "Find average monthly temperature and rainfall for your city."
+        },
+        {
+          "title": "Bar graph",
+          "work": "Make a bar graph of monthly rainfall."
+        },
+        {
+          "title": "Line graph",
+          "work": "Make a line graph of monthly temperatures."
+        },
+        {
+          "title": "Interpret",
+          "work": "Describe typical weather in each season using the graphs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Predict weather for next month using the data."
+        }
+      ],
+      "assessment": "Seasonal graphs and interpretation"
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "Climates of the world",
+      "objectives": [
+        "Describe climates in different regions",
+        "Compare weather and climate"
+      ],
+      "standards": [
+        "3-ESS2-2"
+      ],
+      "vocabulary": [
+        "climate",
+        "weather",
+        "region",
+        "polar",
+        "tropical"
+      ],
+      "materials": [
+        "world map",
+        "NASA Climate Kids"
+      ],
+      "days": [
+        {
+          "title": "Weather vs. climate",
+          "work": "Explain the difference between weather and climate."
+        },
+        {
+          "title": "Climate zones",
+          "work": "Color a world map by climate zones (polar, temperate, tropical, desert)."
+        },
+        {
+          "title": "Compare cities",
+          "work": "Compare climate data for 3 cities in different regions."
+        },
+        {
+          "title": "Research",
+          "work": "Research a climate region and list how people adapt."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a description of one climate region."
+        }
+      ],
+      "assessment": "Climate description"
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "California climates",
+      "objectives": [
+        "Combine information to describe climates in California regions"
+      ],
+      "standards": [
+        "3-ESS2-2"
+      ],
+      "vocabulary": [
+        "Mediterranean",
+        "desert",
+        "mountain",
+        "coastal"
+      ],
+      "materials": [
+        "California map",
+        "climate data"
+      ],
+      "days": [
+        {
+          "title": "CA regions",
+          "work": "Compare climates of the coast, Central Valley, mountains and desert."
+        },
+        {
+          "title": "Data",
+          "work": "Compare temperature data for San Diego, Sacramento, Lake Tahoe and Death Valley."
+        },
+        {
+          "title": "Graph",
+          "work": "Graph and compare data."
+        },
+        {
+          "title": "Travel guide",
+          "work": "Write a travel guide for one California climate."
+        },
+        {
+          "title": "Review & check",
+          "work": "Share the travel guide."
+        }
+      ],
+      "assessment": "California climate travel guide"
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Weather and climate review",
+      "objectives": [
+        "Analyze weather data and climates"
+      ],
+      "standards": [
+        "3-ESS2-1",
+        "3-ESS2-2"
+      ],
+      "vocabulary": [
+        "pattern",
+        "average",
+        "climate"
+      ],
+      "materials": [
+        "weather log"
+      ],
+      "days": [
+        {
+          "title": "Log analysis",
+          "work": "Analyze 4 weeks of weather log data."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare local data to a city in another climate."
+        },
+        {
+          "title": "Quiz prep",
+          "work": "Review vocabulary with flash cards."
+        },
+        {
+          "title": "Weather report",
+          "work": "Present a weather report for your city."
+        },
+        {
+          "title": "Unit 8 assessment",
+          "work": "Complete the unit test on weather and climate."
+        }
+      ],
+      "assessment": "Unit 8 test; weather report"
+    },
+    {
+      "week": 31,
+      "unit": 9,
+      "topic": "Weather-related hazards",
+      "objectives": [
+        "Identify weather-related hazards and their impacts"
+      ],
+      "standards": [
+        "3-ESS3-1"
+      ],
+      "vocabulary": [
+        "hazard",
+        "flood",
+        "drought",
+        "wildfire",
+        "storm"
+      ],
+      "materials": [
+        "NOAA SciJinks",
+        "articles"
+      ],
+      "days": [
+        {
+          "title": "Hazards",
+          "work": "List weather-related hazards (floods, hurricanes, tornadoes, drought, wildfire)."
+        },
+        {
+          "title": "California hazards",
+          "work": "Research flooding and wildfire risks in California."
+        },
+        {
+          "title": "Impacts",
+          "work": "Make a chart of hazard impacts on people and land."
+        },
+        {
+          "title": "Preparation",
+          "work": "Create a family emergency kit list."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how one hazard affects a community."
+        }
+      ],
+      "assessment": "Hazard impact chart"
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Design solutions for hazards",
+      "objectives": [
+        "Evaluate the merit of solutions that reduce hazard impacts"
+      ],
+      "standards": [
+        "3-ESS3-1"
+      ],
+      "vocabulary": [
+        "levee",
+        "lightning rod",
+        "storm shelter",
+        "merit"
+      ],
+      "materials": [
+        "articles",
+        "design notebook"
+      ],
+      "days": [
+        {
+          "title": "Solutions",
+          "work": "Read about levees, lightning rods, storm shelters and fire breaks."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare solutions using criteria (cost, effectiveness)."
+        },
+        {
+          "title": "Flood model",
+          "work": "Build a sand-tray flood model and test a clay levee."
+        },
+        {
+          "title": "Claim",
+          "work": "Make a claim about the best flood solution."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present the claim with evidence."
+        }
+      ],
+      "assessment": "Claim about hazard solution"
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Engineering: define the problem",
+      "objectives": [
+        "Define a design problem with criteria and constraints"
+      ],
+      "standards": [
+        "3-5-ETS1-1"
+      ],
+      "vocabulary": [
+        "criteria",
+        "constraints",
+        "engineer"
+      ],
+      "materials": [
+        "design notebook"
+      ],
+      "days": [
+        {
+          "title": "Problem",
+          "work": "Define a problem: protect a model house from wind/rain."
+        },
+        {
+          "title": "Criteria",
+          "work": "List criteria (stays standing, stays dry) and constraints (materials, time)."
+        },
+        {
+          "title": "Research",
+          "work": "Research how real houses resist storms."
+        },
+        {
+          "title": "Sketch",
+          "work": "Sketch 3 possible designs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Compare designs against criteria."
+        }
+      ],
+      "assessment": "Design notebook check"
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Engineering: build and test",
+      "objectives": [
+        "Build and fair-test a prototype"
+      ],
+      "standards": [
+        "3-5-ETS1-2",
+        "3-5-ETS1-3"
+      ],
+      "vocabulary": [
+        "prototype",
+        "fair test",
+        "failure point"
+      ],
+      "materials": [
+        "cardboard",
+        "tape",
+        "fan",
+        "spray bottle"
+      ],
+      "days": [
+        {
+          "title": "Build",
+          "work": "Build the model house from cardboard and tape."
+        },
+        {
+          "title": "Wind test",
+          "work": "Test with a fan at 3 speeds and record failure points."
+        },
+        {
+          "title": "Rain test",
+          "work": "Test with a spray bottle and record leaks."
+        },
+        {
+          "title": "Improve",
+          "work": "Modify the design based on failures."
+        },
+        {
+          "title": "Review & check",
+          "work": "Retest and compare results."
+        }
+      ],
+      "assessment": "Testing log"
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Engineering: improve and present",
+      "objectives": [
+        "Improve and present a design solution"
+      ],
+      "standards": [
+        "3-5-ETS1-3",
+        "3-ESS3-1"
+      ],
+      "vocabulary": [
+        "iterate",
+        "improve",
+        "present"
+      ],
+      "materials": [
+        "model house",
+        "poster"
+      ],
+      "days": [
+        {
+          "title": "Final test",
+          "work": "Run final tests on the improved model."
+        },
+        {
+          "title": "Data",
+          "work": "Graph before/after results."
+        },
+        {
+          "title": "Poster",
+          "work": "Create a poster explaining the design."
+        },
+        {
+          "title": "Present",
+          "work": "Present the solution and argue its merit."
+        },
+        {
+          "title": "Unit 9 assessment",
+          "work": "Complete the unit quiz on hazards and engineering."
+        }
+      ],
+      "assessment": "Unit 9 quiz; design presentation"
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Science year review",
+      "objectives": [
+        "Review the year's science ideas",
+        "Share a science portfolio"
+      ],
+      "standards": [
+        "3-PS2-1",
+        "3-LS1-1",
+        "3-LS4-1",
+        "3-ESS2-1",
+        "3-ESS3-1"
+      ],
+      "vocabulary": [
+        "review",
+        "portfolio"
+      ],
+      "materials": [
+        "science notebook"
+      ],
+      "days": [
+        {
+          "title": "Forces review",
+          "work": "Review forces and magnets with a quick ramp and magnet demo."
+        },
+        {
+          "title": "Life science review",
+          "work": "Review life cycles, traits and habitats with a card sort."
+        },
+        {
+          "title": "Earth science review",
+          "work": "Review fossils, weather and hazards with a vocabulary game."
+        },
+        {
+          "title": "Final assessment",
+          "work": "Complete the end-of-year science assessment."
+        },
+        {
+          "title": "Showcase",
+          "work": "Share the science notebook and favorite investigation with family."
+        }
+      ],
+      "assessment": "End-of-year science assessment"
+    }
+  ]
+}

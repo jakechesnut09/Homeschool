@@ -1,0 +1,2089 @@
+{
+  "grade": 3,
+  "subject": "ELA",
+  "title": "ELA 3",
+  "description": "A literature-rich third-grade English language arts course that integrates reading, writing, word study, grammar and speaking/listening every week. Students read fables, folktales, Greek myths, poetry, biographies and two classic novels (Charlotte's Web and The Wonderful Wizard of Oz), write narratives, informational reports, opinion essays and a short research report, and build decoding with prefixes, suffixes and multisyllable words.",
+  "framework": "California Common Core State Standards for English Language Arts & Literacy; 2014 CA ELA/ELD Framework",
+  "minutes_per_day": 90,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "RL.3.1": "Ask and answer questions to demonstrate understanding of a text, referring explicitly to the text.",
+    "RL.3.2": "Recount stories, including fables, folktales and myths from diverse cultures; determine the central message, lesson or moral and explain how it is conveyed through key details.",
+    "RL.3.3": "Describe characters (traits, motivations, feelings) and explain how their actions contribute to the sequence of events.",
+    "RL.3.4": "Determine the meaning of words and phrases as used in a text, distinguishing literal from nonliteral language.",
+    "RL.3.5": "Refer to parts of stories, dramas and poems using terms such as chapter, scene and stanza; describe how each part builds on earlier sections.",
+    "RL.3.6": "Distinguish their own point of view from that of the narrator or characters.",
+    "RL.3.7": "Explain how illustrations contribute to what is conveyed by the words in a story (mood, character, setting).",
+    "RL.3.9": "Compare and contrast themes, settings and plots of stories written by the same author about the same or similar characters.",
+    "RL.3.10": "Read and comprehend literature, including stories, dramas and poetry, at the high end of the grades 2–3 text complexity band independently and proficiently.",
+    "RI.3.1": "Ask and answer questions to demonstrate understanding of an informational text, referring explicitly to the text.",
+    "RI.3.2": "Determine the main idea of a text; recount the key details and explain how they support the main idea.",
+    "RI.3.3": "Describe the relationship between a series of historical events, scientific ideas or steps in technical procedures using time, sequence and cause/effect language.",
+    "RI.3.4": "Determine the meaning of general academic and domain-specific words and phrases in a grade 3 text.",
+    "RI.3.5": "Use text features and search tools (key words, sidebars, hyperlinks) to locate information efficiently.",
+    "RI.3.6": "Distinguish their own point of view from that of the author of a text.",
+    "RI.3.7": "Use information gained from illustrations (maps, photographs) and the words in a text to demonstrate understanding.",
+    "RI.3.8": "Describe the logical connection between particular sentences and paragraphs in a text (comparison, cause/effect, first/second/third in a sequence).",
+    "RI.3.9": "Compare and contrast the most important points and key details presented in two texts on the same topic.",
+    "RI.3.10": "Read and comprehend informational texts, including history/social studies, science and technical texts, at the high end of the grades 2–3 band independently.",
+    "RF.3.3a": "Identify and know the meaning of the most common prefixes and derivational suffixes.",
+    "RF.3.3b": "Decode words with common Latin suffixes.",
+    "RF.3.3c": "Decode multisyllable words.",
+    "RF.3.3d": "Read grade-appropriate irregularly spelled words.",
+    "RF.3.4a": "Read grade-level text with purpose and understanding.",
+    "RF.3.4b": "Read grade-level prose and poetry orally with accuracy, appropriate rate and expression on successive readings.",
+    "RF.3.4c": "Use context to confirm or self-correct word recognition and understanding, rereading as necessary.",
+    "W.3.1": "Write opinion pieces on topics or texts, supporting a point of view with reasons, linking words and a concluding statement.",
+    "W.3.2": "Write informative/explanatory texts to examine a topic and convey ideas clearly, with facts, definitions, details, linking words and a conclusion.",
+    "W.3.3": "Write narratives to develop real or imagined experiences using descriptive details, dialogue, clear event sequences, temporal words and closure.",
+    "W.3.4": "With guidance and support, produce writing in which development and organization are appropriate to task and purpose.",
+    "W.3.5": "With guidance and support from peers and adults, develop and strengthen writing by planning, revising and editing.",
+    "W.3.6": "With guidance and support, use technology to produce and publish writing (using keyboarding skills) and to interact and collaborate.",
+    "W.3.7": "Conduct short research projects that build knowledge about a topic.",
+    "W.3.8": "Recall information from experiences or gather information from print and digital sources; take brief notes and sort evidence into categories.",
+    "W.3.10": "Write routinely over extended and shorter time frames for a range of tasks, purposes and audiences.",
+    "SL.3.1": "Engage effectively in collaborative discussions, coming prepared, following agreed-upon rules, asking questions and explaining their own ideas.",
+    "SL.3.2": "Determine the main ideas and supporting details of a text read aloud or information presented in diverse media.",
+    "SL.3.3": "Ask and answer questions about information from a speaker, offering appropriate elaboration and detail.",
+    "SL.3.4": "Report on a topic or text, tell a story or recount an experience with appropriate facts and relevant details, speaking clearly at an understandable pace.",
+    "SL.3.5": "Create engaging audio recordings of stories or poems that demonstrate fluid reading; add visual displays when appropriate.",
+    "SL.3.6": "Speak in complete sentences when appropriate to task and situation in order to provide requested detail or clarification.",
+    "L.3.1a": "Explain the function of nouns, pronouns, verbs, adjectives and adverbs in general and in particular sentences.",
+    "L.3.1b": "Form and use regular and irregular plural nouns.",
+    "L.3.1c": "Use abstract nouns (e.g., childhood).",
+    "L.3.1d": "Form and use regular and irregular verbs.",
+    "L.3.1e": "Form and use the simple (I walked; I walk; I will walk) verb tenses.",
+    "L.3.1f": "Ensure subject-verb and pronoun-antecedent agreement.",
+    "L.3.1g": "Form and use comparative and superlative adjectives and adverbs, choosing between them.",
+    "L.3.1h": "Use coordinating and subordinating conjunctions.",
+    "L.3.1i": "Produce simple, compound and complex sentences.",
+    "L.3.2a": "Capitalize appropriate words in titles.",
+    "L.3.2b": "Use commas in addresses.",
+    "L.3.2c": "Use commas and quotation marks in dialogue.",
+    "L.3.2d": "Form and use possessives.",
+    "L.3.2e": "Use conventional spelling for high-frequency and other studied words and for adding suffixes to base words.",
+    "L.3.2f": "Use spelling patterns and generalizations (word families, position-based spellings, syllable patterns, ending rules, meaningful word parts).",
+    "L.3.2g": "Consult reference materials, including beginning dictionaries, to check and correct spellings.",
+    "L.3.3a": "Choose words and phrases for effect.",
+    "L.3.3b": "Recognize and observe differences between the conventions of spoken and written standard English.",
+    "L.3.4a": "Use sentence-level context as a clue to the meaning of a word or phrase.",
+    "L.3.4b": "Determine the meaning of a new word formed when a known affix is added to a known word.",
+    "L.3.4c": "Use a known root word as a clue to the meaning of an unknown word with the same root.",
+    "L.3.4d": "Use glossaries or beginning dictionaries to determine or clarify the precise meaning of key words and phrases.",
+    "L.3.5a": "Distinguish the literal and nonliteral meanings of words and phrases in context (e.g., take steps).",
+    "L.3.5b": "Identify real-life connections between words and their use (e.g., describe people who are friendly or helpful).",
+    "L.3.5c": "Distinguish shades of meaning among related words that describe states of mind or degrees of certainty.",
+    "L.3.6": "Acquire and use accurately grade-appropriate conversational, general academic and domain-specific words, including words signaling spatial and temporal relationships."
+  },
+  "resources": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/",
+      "note": "Free e-texts of Aesop's Fables, The Wonderful Wizard of Oz, Just So Stories, A Wonder-Book, Beatrix Potter tales and A Child's Garden of Verses"
+    },
+    {
+      "name": "ReadWorks",
+      "url": "https://www.readworks.org/",
+      "note": "Free leveled nonfiction and fiction passages with question sets (free teacher/parent account)"
+    },
+    {
+      "name": "CommonLit",
+      "url": "https://www.commonlit.org/",
+      "note": "Free grade 3 literary and informational texts with comprehension questions"
+    },
+    {
+      "name": "LibriVox",
+      "url": "https://librivox.org/",
+      "note": "Free public-domain audiobooks for read-along fluency practice"
+    },
+    {
+      "name": "Storyline Online",
+      "url": "https://storylineonline.net/",
+      "note": "Picture books read aloud by actors for listening comprehension"
+    },
+    {
+      "name": "Khan Academy – Reading and vocabulary",
+      "url": "https://www.khanacademy.org/ela",
+      "note": "Free grade 3 reading comprehension and vocabulary practice"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Fables and Folktales: Lessons in Stories",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Stories from around the world teach lessons through characters' choices.",
+      "standards": [
+        "RL.3.1",
+        "RL.3.2",
+        "RL.3.3",
+        "RF.3.3c",
+        "RF.3.4b",
+        "W.3.3",
+        "W.3.5",
+        "SL.3.1",
+        "L.3.1a",
+        "L.3.1b",
+        "L.3.1c",
+        "L.3.2f"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Novel Study: Charlotte's Web",
+      "start_week": 5,
+      "end_week": 9,
+      "big_idea": "Characters change through friendship, and authors use details to show who characters are.",
+      "standards": [
+        "RL.3.1",
+        "RL.3.3",
+        "RL.3.4",
+        "RL.3.5",
+        "RL.3.10",
+        "RF.3.3a",
+        "RF.3.4a",
+        "W.3.3",
+        "W.3.4",
+        "W.3.10",
+        "SL.3.1",
+        "SL.3.6",
+        "L.3.1d",
+        "L.3.1e",
+        "L.3.2c",
+        "L.3.2e"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Animal Adaptations: Reading and Writing to Inform",
+      "start_week": 10,
+      "end_week": 13,
+      "big_idea": "Informational texts are organized to help readers learn; writers organize facts to teach others.",
+      "standards": [
+        "RI.3.1",
+        "RI.3.2",
+        "RI.3.3",
+        "RI.3.4",
+        "RI.3.5",
+        "RI.3.7",
+        "RI.3.8",
+        "RL.3.2",
+        "RF.3.3b",
+        "W.3.2",
+        "W.3.8",
+        "SL.3.2",
+        "L.3.1a",
+        "L.3.1g",
+        "L.3.2b",
+        "L.3.4c"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Myths of Ancient Greece",
+      "start_week": 14,
+      "end_week": 17,
+      "big_idea": "Myths explained the world and taught values; their lessons still matter today.",
+      "standards": [
+        "RL.3.1",
+        "RL.3.2",
+        "RL.3.3",
+        "RL.3.4",
+        "RL.3.7",
+        "RF.3.3c",
+        "RF.3.3d",
+        "W.3.1",
+        "W.3.4",
+        "SL.3.1",
+        "SL.3.3",
+        "L.3.1f",
+        "L.3.2a",
+        "L.3.4c",
+        "L.3.6"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Poetry: Sound, Image and Feeling",
+      "start_week": 18,
+      "end_week": 20,
+      "big_idea": "Poets choose words, line breaks and sound patterns to create images and feelings.",
+      "standards": [
+        "RL.3.4",
+        "RL.3.5",
+        "RL.3.10",
+        "RF.3.3c",
+        "RF.3.4b",
+        "W.3.10",
+        "SL.3.5",
+        "L.3.3a",
+        "L.3.5a",
+        "L.3.5b",
+        "L.3.5c"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Biographies of Courage and Opinion Writing",
+      "start_week": 21,
+      "end_week": 24,
+      "big_idea": "Real people show courage, and writers support opinions with reasons from texts.",
+      "standards": [
+        "RI.3.1",
+        "RI.3.2",
+        "RI.3.3",
+        "RI.3.6",
+        "RI.3.8",
+        "RI.3.9",
+        "RF.3.3a",
+        "W.3.1",
+        "W.3.5",
+        "W.3.6",
+        "SL.3.1",
+        "SL.3.4",
+        "L.3.1h",
+        "L.3.1i",
+        "L.3.4c"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Novel Study: The Wonderful Wizard of Oz",
+      "start_week": 25,
+      "end_week": 29,
+      "big_idea": "Journeys reveal what characters already have inside them.",
+      "standards": [
+        "RL.3.1",
+        "RL.3.2",
+        "RL.3.3",
+        "RL.3.6",
+        "RL.3.7",
+        "RL.3.10",
+        "RF.3.3d",
+        "RF.3.4c",
+        "W.3.3",
+        "W.3.5",
+        "SL.3.1",
+        "SL.3.6",
+        "L.3.1g",
+        "L.3.2c",
+        "L.3.2d",
+        "L.3.3a",
+        "L.3.3b"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Research: California's Natural Wonders",
+      "start_week": 30,
+      "end_week": 33,
+      "big_idea": "Researchers gather, sort and share information from multiple sources.",
+      "standards": [
+        "RI.3.1",
+        "RI.3.2",
+        "RI.3.4",
+        "RI.3.5",
+        "RI.3.7",
+        "RI.3.9",
+        "RF.3.3a",
+        "W.3.2",
+        "W.3.6",
+        "W.3.7",
+        "W.3.8",
+        "SL.3.4",
+        "SL.3.5",
+        "L.3.2g",
+        "L.3.4a",
+        "L.3.4b",
+        "L.3.4d"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Author Study and Readers' Theater",
+      "start_week": 34,
+      "end_week": 36,
+      "big_idea": "Authors return to favorite characters, and performing stories brings them to life.",
+      "standards": [
+        "RL.3.2",
+        "RL.3.5",
+        "RL.3.9",
+        "RL.3.10",
+        "RF.3.4b",
+        "W.3.3",
+        "W.3.10",
+        "SL.3.4",
+        "SL.3.5",
+        "L.3.2c",
+        "L.3.2f",
+        "L.3.6"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Reading routines and Aesop's fables",
+      "objectives": [
+        "Establish a daily independent reading routine",
+        "Recount fables and state the moral",
+        "Write a reading-life narrative"
+      ],
+      "standards": [
+        "RL.3.1",
+        "RL.3.2",
+        "RF.3.3c",
+        "W.3.3",
+        "SL.3.1",
+        "L.3.2f"
+      ],
+      "vocabulary": [
+        "fable",
+        "moral",
+        "character",
+        "recount"
+      ],
+      "materials": [
+        "Aesop's Fables (Project Gutenberg)",
+        "reading log",
+        "spelling notebook"
+      ],
+      "days": [
+        {
+          "title": "Reading launch",
+          "work": "Choose a library book for a 20-minute independent reading routine and start a reading log; read 'The Lion and the Mouse' and discuss its moral."
+        },
+        {
+          "title": "Recount a fable",
+          "work": "Read 'The Tortoise and the Hare,' retell it in 5 sentences using first/next/then/finally, and spell closed vs. open syllable words (rab-bit, ti-ger)."
+        },
+        {
+          "title": "Sentence types",
+          "work": "Learn the four sentence types and end punctuation; find each type in 'The Fox and the Crow' and write one of each about the fable."
+        },
+        {
+          "title": "Writing a memory",
+          "work": "Brainstorm small-moment memories and draft a half-page narrative about a time you learned a lesson."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a spelling check on syllable types, answer 4 text-based questions on a new fable, and discuss its lesson aloud using complete sentences."
+        }
+      ],
+      "assessment": "Fable comprehension questions, spelling check, narrative draft"
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Fables: characters and morals",
+      "objectives": [
+        "Describe characters' traits and how actions lead to a lesson",
+        "Identify common and proper nouns",
+        "Read vowel team words"
+      ],
+      "standards": [
+        "RL.3.2",
+        "RL.3.3",
+        "L.3.1a",
+        "RF.3.3c",
+        "W.3.3"
+      ],
+      "vocabulary": [
+        "trait",
+        "motivation",
+        "noun",
+        "proper noun"
+      ],
+      "materials": [
+        "Aesop's Fables",
+        "character trait chart"
+      ],
+      "days": [
+        {
+          "title": "Character traits",
+          "work": "Read 'The Ant and the Grasshopper' and fill a trait chart for each character with text evidence."
+        },
+        {
+          "title": "Vowel teams",
+          "work": "Sort and spell ai/ay and ee/ea words, then read 'The Boy Who Cried Wolf' aloud for fluency."
+        },
+        {
+          "title": "Nouns",
+          "work": "Identify common and proper nouns in 'The Boy Who Cried Wolf' and write 5 sentences using both."
+        },
+        {
+          "title": "Narrative leads",
+          "work": "Revise the first paragraph of your personal narrative with a strong lead (action, dialogue or sound)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph explaining how one character's actions taught the moral, then partner-discuss which fable lesson matters most."
+        }
+      ],
+      "assessment": "Character paragraph with evidence; noun practice sheet"
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Folktales from around the world",
+      "objectives": [
+        "Compare lessons in folktales from different cultures",
+        "Form regular and irregular plurals",
+        "Add details to narratives"
+      ],
+      "standards": [
+        "RL.3.2",
+        "RL.3.3",
+        "L.3.1b",
+        "W.3.3",
+        "W.3.5",
+        "SL.3.1"
+      ],
+      "vocabulary": [
+        "folktale",
+        "culture",
+        "trickster",
+        "plural"
+      ],
+      "materials": [
+        "Anansi folktale (library or Storyline Online)",
+        "Stone Soup (library)"
+      ],
+      "days": [
+        {
+          "title": "Anansi tales",
+          "work": "Read an Anansi the Spider folktale and identify the trickster's problem, choices and lesson."
+        },
+        {
+          "title": "Stone Soup",
+          "work": "Read a version of 'Stone Soup' and chart how the villagers change from start to end; spell r-controlled words (ar, or, er, ir, ur)."
+        },
+        {
+          "title": "Plural nouns",
+          "work": "Practice regular (-s, -es) and irregular plurals (mouse/mice, child/children) with a sorting activity and sentences."
+        },
+        {
+          "title": "Revise for detail",
+          "work": "Add sensory details and feelings to the middle of your personal narrative, using a revision checklist."
+        },
+        {
+          "title": "Review & check",
+          "work": "Compare the lessons of Anansi and Stone Soup in a Venn diagram and discuss with a family member."
+        }
+      ],
+      "assessment": "Venn diagram comparison; plural nouns check"
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Publishing a personal narrative",
+      "objectives": [
+        "Edit and publish a narrative",
+        "Use abstract nouns",
+        "Present a story orally"
+      ],
+      "standards": [
+        "RL.3.2",
+        "W.3.3",
+        "W.3.5",
+        "L.3.1c",
+        "SL.3.1",
+        "RF.3.4b"
+      ],
+      "vocabulary": [
+        "abstract noun",
+        "edit",
+        "publish",
+        "closure"
+      ],
+      "materials": [
+        "editing checklist",
+        "dictionary"
+      ],
+      "days": [
+        {
+          "title": "Abstract nouns",
+          "work": "Learn abstract nouns (kindness, courage, friendship) and identify the abstract noun each fable teaches about."
+        },
+        {
+          "title": "Edit",
+          "work": "Edit your narrative for capitals, end punctuation and plurals; practice prefixes un- and re- in spelling."
+        },
+        {
+          "title": "Ending",
+          "work": "Write a satisfying ending that reflects on the lesson learned, then publish a final copy."
+        },
+        {
+          "title": "Fluency",
+          "work": "Practice reading a fable aloud 3 times for expression and record yourself."
+        },
+        {
+          "title": "Unit 1 assessment",
+          "work": "Read a new fable and answer questions on moral and character, take the un-/re- spelling test, and read your narrative aloud."
+        }
+      ],
+      "assessment": "Unit 1 reading assessment; published narrative scored with rubric"
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Charlotte's Web, chapters 1–5",
+      "objectives": [
+        "Describe characters and setting",
+        "Ask and answer questions with text evidence",
+        "Learn action and linking verbs"
+      ],
+      "standards": [
+        "RL.3.1",
+        "RL.3.3",
+        "L.3.1a",
+        "RF.3.3a",
+        "SL.3.1"
+      ],
+      "vocabulary": [
+        "setting",
+        "runt",
+        "verb",
+        "linking verb"
+      ],
+      "materials": [
+        "Charlotte's Web by E.B. White (library)",
+        "reader's notebook"
+      ],
+      "days": [
+        {
+          "title": "Chapters 1–2",
+          "work": "Read chapters 1–2 and describe Fern's character with evidence; discuss whether Fern's father was fair."
+        },
+        {
+          "title": "Chapter 3–4",
+          "work": "Read chapters 3–4 and write 3 questions and answers about Wilbur's loneliness; spell dis- and pre- words."
+        },
+        {
+          "title": "Verbs",
+          "work": "Identify action and linking verbs in a passage from chapter 4 and write 6 sentences about the barn."
+        },
+        {
+          "title": "Chapter 5",
+          "work": "Read chapter 5 and describe first impressions of Charlotte using a character web."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a chapters 1–5 quiz and a prefix spelling check (dis-, pre-, mis-)."
+        }
+      ],
+      "assessment": "Chapters 1–5 quiz; prefix spelling check"
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Charlotte's Web, chapters 6–10",
+      "objectives": [
+        "Explain how characters' actions move the plot",
+        "Use simple verb tenses",
+        "Plan a narrative"
+      ],
+      "standards": [
+        "RL.3.3",
+        "RL.3.5",
+        "L.3.1e",
+        "W.3.3",
+        "RF.3.4a"
+      ],
+      "vocabulary": [
+        "plot",
+        "chapter",
+        "past tense",
+        "future tense"
+      ],
+      "materials": [
+        "Charlotte's Web",
+        "story map"
+      ],
+      "days": [
+        {
+          "title": "Chapters 6–7",
+          "work": "Read chapters 6–7 and explain how Wilbur learns his fate and how it changes the plot."
+        },
+        {
+          "title": "Verb tenses",
+          "work": "Write sentences about the novel in past, present and future tense; spell -ful and -less words."
+        },
+        {
+          "title": "Chapters 8–9",
+          "work": "Read chapters 8–9 and explain how each chapter builds on the last in a plot chart."
+        },
+        {
+          "title": "Story plan",
+          "work": "Plan an original animal story with a story map (characters, setting, problem, events, solution)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on how Charlotte's plan begins and take a verb tense quiz."
+        }
+      ],
+      "assessment": "Verb tense quiz; plot paragraph"
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Charlotte's Web, chapters 11–15",
+      "objectives": [
+        "Determine meanings of words and phrases",
+        "Form irregular verbs",
+        "Draft a narrative with dialogue"
+      ],
+      "standards": [
+        "RL.3.4",
+        "RL.3.3",
+        "L.3.1d",
+        "W.3.3",
+        "SL.3.6"
+      ],
+      "vocabulary": [
+        "irregular verb",
+        "dialogue",
+        "literal"
+      ],
+      "materials": [
+        "Charlotte's Web",
+        "dictionary"
+      ],
+      "days": [
+        {
+          "title": "Chapters 11–12",
+          "work": "Read chapters 11–12 and discuss why the web words ('Some Pig') work; list strong words Charlotte chooses."
+        },
+        {
+          "title": "Irregular verbs",
+          "work": "Practice irregular past tense verbs (spin/spun, write/wrote, catch/caught) using sentences about the book; spell -ly and -ness words."
+        },
+        {
+          "title": "Chapters 13–14",
+          "work": "Read chapters 13–14 and figure out the meaning of 5 tricky words from context."
+        },
+        {
+          "title": "Draft story",
+          "work": "Draft the beginning and middle of your animal story with at least 2 lines of dialogue."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an irregular verbs quiz and answer comprehension questions on chapters 11–15."
+        }
+      ],
+      "assessment": "Irregular verbs quiz; comprehension questions"
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Charlotte's Web, chapters 16–19",
+      "objectives": [
+        "Track character change",
+        "Punctuate dialogue with quotation marks",
+        "Revise a narrative"
+      ],
+      "standards": [
+        "RL.3.3",
+        "RL.3.5",
+        "L.3.2c",
+        "W.3.5",
+        "RF.3.3c"
+      ],
+      "vocabulary": [
+        "quotation marks",
+        "character change",
+        "revise"
+      ],
+      "materials": [
+        "Charlotte's Web",
+        "revision checklist"
+      ],
+      "days": [
+        {
+          "title": "Chapters 16–17",
+          "work": "Read chapters 16–17 (the fair) and describe Templeton's motivation."
+        },
+        {
+          "title": "Dialogue punctuation",
+          "work": "Copy dialogue from the novel and learn quotation mark and comma rules; spell words with -ed and -ing using the doubling rule."
+        },
+        {
+          "title": "Chapters 18–19",
+          "work": "Read chapters 18–19 and chart how Wilbur has changed since chapter 1."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise your story's dialogue for correct punctuation and temporal words (later, meanwhile)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a dialogue punctuation check and discuss Charlotte's sacrifice in a family book talk."
+        }
+      ],
+      "assessment": "Dialogue punctuation check; book talk participation"
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "Charlotte's Web, chapters 20–22 and story publishing",
+      "objectives": [
+        "Determine the theme of the novel",
+        "Publish a narrative",
+        "Present a book talk"
+      ],
+      "standards": [
+        "RL.3.2",
+        "RL.3.10",
+        "W.3.3",
+        "W.3.4",
+        "SL.3.1",
+        "L.3.2e"
+      ],
+      "vocabulary": [
+        "theme",
+        "friendship",
+        "book talk"
+      ],
+      "materials": [
+        "Charlotte's Web",
+        "publishing paper"
+      ],
+      "days": [
+        {
+          "title": "Chapters 20–22",
+          "work": "Finish the novel and discuss the theme of friendship and the cycle of life."
+        },
+        {
+          "title": "Theme",
+          "work": "Write a paragraph stating the novel's theme supported by 2 quotations; spell drop-e words (hope/hoping)."
+        },
+        {
+          "title": "Publish",
+          "work": "Edit and publish your animal story with illustrations."
+        },
+        {
+          "title": "Book talk",
+          "work": "Give a 2-minute book talk recommending Charlotte's Web to a friend."
+        },
+        {
+          "title": "Unit 2 assessment",
+          "work": "Complete the Unit 2 test (comprehension, vocabulary, verbs, dialogue) and share your published story."
+        }
+      ],
+      "assessment": "Unit 2 test; published narrative rubric"
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Text features in informational texts",
+      "objectives": [
+        "Use text features to locate information",
+        "Identify main idea",
+        "Learn adjectives"
+      ],
+      "standards": [
+        "RI.3.5",
+        "RI.3.2",
+        "L.3.1a",
+        "RF.3.3b"
+      ],
+      "vocabulary": [
+        "adaptation",
+        "heading",
+        "caption",
+        "glossary",
+        "main idea"
+      ],
+      "materials": [
+        "ReadWorks animal passages",
+        "National Geographic Kids book (library)"
+      ],
+      "days": [
+        {
+          "title": "Text feature hunt",
+          "work": "Find headings, captions, bold words, glossary and index in an animal nonfiction book and explain each feature's job."
+        },
+        {
+          "title": "Main idea",
+          "work": "Read a ReadWorks passage on camouflage and identify the main idea and 3 supporting details."
+        },
+        {
+          "title": "Adjectives",
+          "work": "Identify adjectives in animal descriptions and write 5 descriptive sentences; spell change-y-to-i words (cry/cries)."
+        },
+        {
+          "title": "Choose an animal",
+          "work": "Select an animal for an informational report and write 5 questions you want to answer."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer text-feature questions on a new passage and take the spelling check."
+        }
+      ],
+      "assessment": "Text feature check; main idea organizer"
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "How and why: animal adaptations",
+      "objectives": [
+        "Describe cause/effect relationships in scientific texts",
+        "Compare a pourquoi tale to fact",
+        "Take notes"
+      ],
+      "standards": [
+        "RI.3.3",
+        "RI.3.8",
+        "RL.3.2",
+        "W.3.8",
+        "L.3.1g"
+      ],
+      "vocabulary": [
+        "cause",
+        "effect",
+        "pourquoi tale",
+        "comparative"
+      ],
+      "materials": [
+        "Just So Stories by Rudyard Kipling (Project Gutenberg)",
+        "note cards"
+      ],
+      "days": [
+        {
+          "title": "Just So Story",
+          "work": "Read Kipling's 'How the Leopard Got His Spots' and discuss how a pourquoi tale explains nature."
+        },
+        {
+          "title": "Real reasons",
+          "work": "Read a nonfiction passage on leopard camouflage and complete a cause/effect chart."
+        },
+        {
+          "title": "Comparatives",
+          "work": "Use comparative and superlative adjectives (faster, fastest) to compare animal features; spell -able and -ible words."
+        },
+        {
+          "title": "Note taking",
+          "work": "Take notes on your report animal from 2 sources, sorting facts into body, habitat, food and adaptations."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph comparing the fiction and nonfiction explanations of the leopard's spots."
+        }
+      ],
+      "assessment": "Fiction vs. nonfiction paragraph; notes check"
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Writing an informational report",
+      "objectives": [
+        "Organize facts into paragraphs",
+        "Use linking words",
+        "Use images to understand text"
+      ],
+      "standards": [
+        "W.3.2",
+        "W.3.4",
+        "RI.3.7",
+        "RI.3.4",
+        "L.3.2b"
+      ],
+      "vocabulary": [
+        "topic sentence",
+        "linking words",
+        "diagram"
+      ],
+      "materials": [
+        "notes",
+        "report template"
+      ],
+      "days": [
+        {
+          "title": "Report plan",
+          "work": "Organize notes into an outline with an introduction, 3 topic paragraphs and conclusion."
+        },
+        {
+          "title": "Diagrams",
+          "work": "Study a labeled diagram of an animal and explain what it adds to the words; spell -tion and -sion words."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft introduction and first two paragraphs using linking words (also, another, and, but)."
+        },
+        {
+          "title": "Commas",
+          "work": "Practice commas in a series and in addresses by writing a letter to a zoo asking a question."
+        },
+        {
+          "title": "Review & check",
+          "work": "Finish the report draft and read it to a family member for feedback on clarity."
+        }
+      ],
+      "assessment": "Report draft; letter with correct comma use"
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Publishing the animal report",
+      "objectives": [
+        "Revise and publish an informational report with a text feature",
+        "Present information",
+        "Use roots to understand words"
+      ],
+      "standards": [
+        "W.3.2",
+        "W.3.5",
+        "SL.3.2",
+        "RI.3.1",
+        "L.3.4c"
+      ],
+      "vocabulary": [
+        "revise",
+        "root word",
+        "presentation"
+      ],
+      "materials": [
+        "report draft",
+        "poster board"
+      ],
+      "days": [
+        {
+          "title": "Revise",
+          "work": "Revise the report for definitions of key words and a strong conclusion; spell -ment and -er/-or words."
+        },
+        {
+          "title": "Add text features",
+          "work": "Add a heading, labeled diagram, caption and glossary to the published report."
+        },
+        {
+          "title": "Video listening",
+          "work": "Watch a short nature video on your animal and note main ideas and details."
+        },
+        {
+          "title": "Present",
+          "work": "Present your report to the family and answer 3 questions."
+        },
+        {
+          "title": "Unit 3 assessment",
+          "work": "Complete the Unit 3 test on main idea, text features and cause/effect with a new passage."
+        }
+      ],
+      "assessment": "Unit 3 test; informational report rubric"
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Introduction to Greek myths",
+      "objectives": [
+        "Recount a myth and determine its lesson",
+        "Use subject-verb agreement",
+        "Learn Greek roots"
+      ],
+      "standards": [
+        "RL.3.2",
+        "RL.3.1",
+        "L.3.1f",
+        "L.3.4c",
+        "RF.3.3c"
+      ],
+      "vocabulary": [
+        "myth",
+        "god",
+        "goddess",
+        "Mount Olympus"
+      ],
+      "materials": [
+        "A Wonder-Book for Girls and Boys by Nathaniel Hawthorne (Project Gutenberg)",
+        "Greek myth retelling collection (library)"
+      ],
+      "days": [
+        {
+          "title": "What is a myth?",
+          "work": "Learn about Ancient Greece and the Olympian gods, then make a gods chart with symbols."
+        },
+        {
+          "title": "Pandora",
+          "work": "Read the Pandora myth ('The Paradise of Children') and recount it in sequence."
+        },
+        {
+          "title": "Agreement",
+          "work": "Practice subject-verb agreement with sentences about the gods; study Greek roots (bio, graph, photo)."
+        },
+        {
+          "title": "Lesson",
+          "work": "Write what lesson the Pandora myth teaches about curiosity."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a subject-verb agreement quiz and answer questions on the Pandora myth."
+        }
+      ],
+      "assessment": "Agreement quiz; myth recount"
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Myths: King Midas and Arachne",
+      "objectives": [
+        "Describe characters' motivations",
+        "Use pronoun-antecedent agreement",
+        "Begin opinion writing about a text"
+      ],
+      "standards": [
+        "RL.3.3",
+        "RL.3.2",
+        "L.3.1f",
+        "W.3.1",
+        "RF.3.3d"
+      ],
+      "vocabulary": [
+        "greed",
+        "pride",
+        "pronoun",
+        "antecedent"
+      ],
+      "materials": [
+        "Hawthorne's 'The Golden Touch'",
+        "Arachne retelling"
+      ],
+      "days": [
+        {
+          "title": "King Midas",
+          "work": "Read 'The Golden Touch' and chart Midas's wishes, actions and consequences."
+        },
+        {
+          "title": "Arachne",
+          "work": "Read the myth of Arachne and Athena and describe Arachne's pride with evidence."
+        },
+        {
+          "title": "Pronouns",
+          "work": "Practice pronoun-antecedent agreement in sentences about both myths; spell diphthongs oi/oy, ou/ow."
+        },
+        {
+          "title": "Opinion plan",
+          "work": "Plan an opinion paragraph: Which character learned the hardest lesson? Give 2 reasons."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write the opinion paragraph with linking words and discuss it in a book talk."
+        }
+      ],
+      "assessment": "Opinion paragraph about a myth"
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Myths: Persephone and Icarus",
+      "objectives": [
+        "Explain how myths explain nature",
+        "Explain how illustrations show mood",
+        "Capitalize titles"
+      ],
+      "standards": [
+        "RL.3.7",
+        "RL.3.4",
+        "RL.3.2",
+        "L.3.2a",
+        "SL.3.3"
+      ],
+      "vocabulary": [
+        "season",
+        "mood",
+        "nonliteral"
+      ],
+      "materials": [
+        "Persephone and Icarus retellings (library)",
+        "art prints"
+      ],
+      "days": [
+        {
+          "title": "Persephone",
+          "work": "Read the Persephone myth and explain how it explained the seasons."
+        },
+        {
+          "title": "Illustrations",
+          "work": "Compare two illustrations of Icarus and explain how each shows mood."
+        },
+        {
+          "title": "Icarus",
+          "work": "Read the Icarus myth and discuss nonliteral phrases like 'flying too close to the sun.'"
+        },
+        {
+          "title": "Capitalize titles",
+          "work": "Write the titles of all myths and books read so far with correct capitalization; spell homophones (their/there/they're)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer questions about both myths and listen to a family member's retelling, asking 3 questions."
+        }
+      ],
+      "assessment": "Title capitalization check; myth questions"
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Writing a modern myth",
+      "objectives": [
+        "Write an original pourquoi myth",
+        "Use domain words",
+        "Present a myth"
+      ],
+      "standards": [
+        "W.3.3",
+        "W.3.4",
+        "L.3.6",
+        "SL.3.1",
+        "RL.3.2"
+      ],
+      "vocabulary": [
+        "pourquoi",
+        "origin",
+        "narrator"
+      ],
+      "materials": [
+        "story map",
+        "myth word bank"
+      ],
+      "days": [
+        {
+          "title": "Myth plan",
+          "work": "Plan an original myth explaining a natural event (why the moon changes shape) with a story map."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft the myth using a god or hero character and dialogue; spell irregular words (said, laugh, though)."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise the myth for a clear lesson and strong verbs."
+        },
+        {
+          "title": "Present",
+          "work": "Read the myth aloud with expression to an audience."
+        },
+        {
+          "title": "Unit 4 assessment",
+          "work": "Complete the Unit 4 test on myths, agreement and capitalization."
+        }
+      ],
+      "assessment": "Unit 4 test; original myth rubric"
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Poetry elements: stanza, rhythm, rhyme",
+      "objectives": [
+        "Use poetry terms to describe parts of poems",
+        "Read poems fluently",
+        "Distinguish literal and nonliteral language"
+      ],
+      "standards": [
+        "RL.3.5",
+        "RL.3.4",
+        "RF.3.4b",
+        "L.3.5a"
+      ],
+      "vocabulary": [
+        "stanza",
+        "line",
+        "rhyme",
+        "rhythm",
+        "nonliteral"
+      ],
+      "materials": [
+        "A Child's Garden of Verses by Robert Louis Stevenson (Project Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Stanzas",
+          "work": "Read Stevenson's 'My Shadow' and label lines and stanzas; describe what each stanza adds."
+        },
+        {
+          "title": "Rhythm",
+          "work": "Clap the rhythm of 'The Swing' and practice reading it aloud with expression; spell VCCV multisyllable words."
+        },
+        {
+          "title": "Literal vs. nonliteral",
+          "work": "Find nonliteral phrases in poems and draw literal vs. real meanings."
+        },
+        {
+          "title": "Write a poem",
+          "work": "Write a rhyming poem in 2 stanzas about a shadow or swing."
+        },
+        {
+          "title": "Review & check",
+          "work": "Record a fluent reading of a Stevenson poem and complete a poetry terms check."
+        }
+      ],
+      "assessment": "Poetry terms check; fluency recording"
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Imagery and word choice",
+      "objectives": [
+        "Explain how word choice creates images",
+        "Distinguish shades of meaning",
+        "Write free verse"
+      ],
+      "standards": [
+        "RL.3.4",
+        "L.3.3a",
+        "L.3.5c",
+        "W.3.10"
+      ],
+      "vocabulary": [
+        "imagery",
+        "sensory words",
+        "free verse",
+        "shades of meaning"
+      ],
+      "materials": [
+        "'Who Has Seen the Wind?' by Christina Rossetti",
+        "'April Rain Song' by Langston Hughes (library anthology)"
+      ],
+      "days": [
+        {
+          "title": "Rossetti",
+          "work": "Read 'Who Has Seen the Wind?' and sketch the images the poet creates."
+        },
+        {
+          "title": "Hughes",
+          "work": "Read 'April Rain Song' and list sensory words; spell VCV words (cab-in, ti-ger)."
+        },
+        {
+          "title": "Shades of meaning",
+          "work": "Order related words on a line (whisper, say, shout; think, believe, know)."
+        },
+        {
+          "title": "Free verse",
+          "work": "Write a free-verse poem about weather using sensory words."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in writing how one poet's word choice creates a feeling."
+        }
+      ],
+      "assessment": "Word choice response; shades of meaning check"
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Poetry anthology and recording",
+      "objectives": [
+        "Make real-life word connections",
+        "Create an audio recording of poems",
+        "Compile a poetry book"
+      ],
+      "standards": [
+        "RL.3.10",
+        "SL.3.5",
+        "L.3.5b",
+        "W.3.10"
+      ],
+      "vocabulary": [
+        "anthology",
+        "recording",
+        "performance"
+      ],
+      "materials": [
+        "poems",
+        "recording device"
+      ],
+      "days": [
+        {
+          "title": "Word connections",
+          "work": "Describe people and places in your life with words from the poems (cozy, gentle, noisy)."
+        },
+        {
+          "title": "Poem types",
+          "work": "Read and write an acrostic and a cinquain; spell consonant-le words (table, puzzle)."
+        },
+        {
+          "title": "Anthology",
+          "work": "Compile 6 favorite poems (3 published, 3 original) into an illustrated anthology."
+        },
+        {
+          "title": "Record",
+          "work": "Record a poetry podcast reading 3 poems fluently."
+        },
+        {
+          "title": "Unit 5 assessment",
+          "work": "Complete a poetry test on terms, nonliteral language and imagery."
+        }
+      ],
+      "assessment": "Unit 5 test; poetry anthology and recording"
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Biography: Helen Keller",
+      "objectives": [
+        "Describe a sequence of events in a person's life",
+        "Use coordinating conjunctions",
+        "Identify main idea"
+      ],
+      "standards": [
+        "RI.3.3",
+        "RI.3.2",
+        "L.3.1h",
+        "RF.3.3a"
+      ],
+      "vocabulary": [
+        "biography",
+        "autobiography",
+        "sequence",
+        "conjunction"
+      ],
+      "materials": [
+        "The Story of My Life by Helen Keller (Project Gutenberg, chapter 4 excerpt)",
+        "Helen Keller biography (library)"
+      ],
+      "days": [
+        {
+          "title": "Biography basics",
+          "work": "Compare biography and autobiography; start a timeline of Helen Keller's life."
+        },
+        {
+          "title": "Primary account",
+          "work": "Read the water-pump excerpt from 'The Story of My Life' and discuss how she felt."
+        },
+        {
+          "title": "Conjunctions",
+          "work": "Combine sentences about Helen Keller using and, but, or, so; spell over-, under-, sub- words."
+        },
+        {
+          "title": "Main idea",
+          "work": "Identify the main idea of a biography chapter and its key details."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete the timeline and write a summary of Helen Keller's achievements."
+        }
+      ],
+      "assessment": "Timeline and summary"
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Biography: Ruby Bridges and Jackie Robinson",
+      "objectives": [
+        "Compare two biographies",
+        "Use subordinating conjunctions",
+        "Distinguish own point of view from the author's"
+      ],
+      "standards": [
+        "RI.3.9",
+        "RI.3.6",
+        "L.3.1h",
+        "SL.3.1"
+      ],
+      "vocabulary": [
+        "courage",
+        "integration",
+        "point of view",
+        "subordinating conjunction"
+      ],
+      "materials": [
+        "The Story of Ruby Bridges by Robert Coles (library)",
+        "Jackie Robinson biography (library)"
+      ],
+      "days": [
+        {
+          "title": "Ruby Bridges",
+          "work": "Read 'The Story of Ruby Bridges' and discuss the courage she showed."
+        },
+        {
+          "title": "Jackie Robinson",
+          "work": "Read a Jackie Robinson biography and list challenges he faced."
+        },
+        {
+          "title": "Subordinating conjunctions",
+          "work": "Write complex sentences with because, when, although, after; study Latin roots port and rupt."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare the two people's challenges and actions in a chart; write how your view differs from the author's."
+        },
+        {
+          "title": "Review & check",
+          "work": "Hold a discussion on 'What is courage?' using evidence from both texts."
+        }
+      ],
+      "assessment": "Comparison chart; discussion participation"
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Opinion essay: drafting",
+      "objectives": [
+        "Write an opinion essay with reasons from texts",
+        "Write simple, compound and complex sentences"
+      ],
+      "standards": [
+        "W.3.1",
+        "W.3.4",
+        "L.3.1i",
+        "RI.3.1",
+        "RI.3.8"
+      ],
+      "vocabulary": [
+        "opinion",
+        "reason",
+        "evidence",
+        "linking words"
+      ],
+      "materials": [
+        "biographies",
+        "opinion organizer"
+      ],
+      "days": [
+        {
+          "title": "Opinion choice",
+          "work": "Choose which person showed the greatest courage and list reasons with evidence."
+        },
+        {
+          "title": "Organizer",
+          "work": "Plan an essay with introduction, 3 reasons with evidence and conclusion; study roots struct and tract."
+        },
+        {
+          "title": "Sentence variety",
+          "work": "Practice simple, compound and complex sentences about your person."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft the essay with linking words (because, therefore, for example)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Read the draft to a partner and get 2 compliments and 1 suggestion."
+        }
+      ],
+      "assessment": "Opinion essay draft"
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Opinion essay: revising and publishing",
+      "objectives": [
+        "Revise and type an opinion essay",
+        "Give an opinion speech",
+        "Use Greek roots"
+      ],
+      "standards": [
+        "W.3.1",
+        "W.3.5",
+        "W.3.6",
+        "SL.3.4",
+        "L.3.4c"
+      ],
+      "vocabulary": [
+        "revise",
+        "conclusion",
+        "keyboarding"
+      ],
+      "materials": [
+        "computer",
+        "rubric"
+      ],
+      "days": [
+        {
+          "title": "Revise",
+          "work": "Revise reasons and conclusion using the opinion rubric."
+        },
+        {
+          "title": "Type it",
+          "work": "Type the final essay, practicing keyboarding; study Greek roots tele, phon, scope."
+        },
+        {
+          "title": "Speech",
+          "work": "Turn the essay into a 2-minute speech with note cards."
+        },
+        {
+          "title": "Deliver",
+          "work": "Deliver the speech to family, speaking clearly and making eye contact."
+        },
+        {
+          "title": "Unit 6 assessment",
+          "work": "Complete the Unit 6 test on biographies, conjunctions and sentence types."
+        }
+      ],
+      "assessment": "Unit 6 test; published opinion essay rubric"
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "The Wonderful Wizard of Oz, chapters 1–6",
+      "objectives": [
+        "Describe setting and characters",
+        "Distinguish own point of view from characters'",
+        "Use comparative adverbs"
+      ],
+      "standards": [
+        "RL.3.3",
+        "RL.3.6",
+        "L.3.1g",
+        "RF.3.4c"
+      ],
+      "vocabulary": [
+        "setting",
+        "cyclone",
+        "point of view",
+        "adverb"
+      ],
+      "materials": [
+        "The Wonderful Wizard of Oz by L. Frank Baum (Project Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Chapters 1–2",
+          "work": "Read chapters 1–2 and contrast Kansas and Oz with descriptive details."
+        },
+        {
+          "title": "Chapters 3–4",
+          "work": "Read chapters 3–4 and describe the Scarecrow; spell silent-letter words (kn, wr, gh)."
+        },
+        {
+          "title": "Adverbs",
+          "work": "Use comparative and superlative adverbs (faster, most carefully) in sentences about the journey."
+        },
+        {
+          "title": "Chapters 5–6",
+          "work": "Read chapters 5–6 and write whether you agree with the Tin Woodman's view that a heart matters most."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a chapters 1–6 quiz and a point-of-view journal entry."
+        }
+      ],
+      "assessment": "Chapters 1–6 quiz; point-of-view journal"
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "The Wonderful Wizard of Oz, chapters 7–12",
+      "objectives": [
+        "Explain how illustrations contribute to the story",
+        "Form possessives",
+        "Track character traits"
+      ],
+      "standards": [
+        "RL.3.7",
+        "RL.3.3",
+        "L.3.2d",
+        "RF.3.3d"
+      ],
+      "vocabulary": [
+        "illustration",
+        "possessive",
+        "apostrophe"
+      ],
+      "materials": [
+        "The Wonderful Wizard of Oz with W.W. Denslow illustrations"
+      ],
+      "days": [
+        {
+          "title": "Chapters 7–9",
+          "work": "Read chapters 7–9 and describe the Cowardly Lion's brave actions."
+        },
+        {
+          "title": "Illustrations",
+          "work": "Study 3 Denslow illustrations and explain what they show about mood and character."
+        },
+        {
+          "title": "Possessives",
+          "work": "Write singular and plural possessives (Dorothy's shoes, the witches' castle); spell soft c and g words."
+        },
+        {
+          "title": "Chapters 10–12",
+          "work": "Read chapters 10–12 and chart each character's wish and the Wizard's demand."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a possessives quiz and write a character trait paragraph."
+        }
+      ],
+      "assessment": "Possessives quiz; character trait paragraph"
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "The Wonderful Wizard of Oz, chapters 13–18",
+      "objectives": [
+        "Determine theme from key details",
+        "Use dialogue in narrative",
+        "Choose words for effect"
+      ],
+      "standards": [
+        "RL.3.2",
+        "RL.3.1",
+        "L.3.3a",
+        "L.3.2c"
+      ],
+      "vocabulary": [
+        "theme",
+        "humbug",
+        "word choice"
+      ],
+      "materials": [
+        "The Wonderful Wizard of Oz"
+      ],
+      "days": [
+        {
+          "title": "Chapters 13–15",
+          "work": "Read chapters 13–15 and discuss why the Wizard is a 'humbug.'"
+        },
+        {
+          "title": "Chapters 16–18",
+          "work": "Read chapters 16–18 and explain how the Wizard 'gives' each friend a gift."
+        },
+        {
+          "title": "Word choice",
+          "work": "Replace weak words with vivid ones in a passage and explain the effect; spell schwa words (-al, -el)."
+        },
+        {
+          "title": "Theme",
+          "work": "Write a paragraph about the theme 'you already have what you need' with evidence."
+        },
+        {
+          "title": "Review & check",
+          "work": "Hold a book discussion and answer comprehension questions on chapters 13–18."
+        }
+      ],
+      "assessment": "Theme paragraph; discussion"
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "The Wonderful Wizard of Oz, chapters 19–24",
+      "objectives": [
+        "Recount the novel",
+        "Recognize spoken vs. written English",
+        "Plan a new adventure"
+      ],
+      "standards": [
+        "RL.3.2",
+        "RL.3.10",
+        "L.3.3b",
+        "W.3.3"
+      ],
+      "vocabulary": [
+        "formal",
+        "informal",
+        "sequel"
+      ],
+      "materials": [
+        "The Wonderful Wizard of Oz"
+      ],
+      "days": [
+        {
+          "title": "Chapters 19–21",
+          "work": "Read chapters 19–21 and track the journey south on a map of Oz."
+        },
+        {
+          "title": "Chapters 22–24",
+          "work": "Finish the novel and recount the main events in a summary."
+        },
+        {
+          "title": "Spoken vs. written",
+          "work": "Rewrite informal spoken lines into formal written English and vice versa; spell contractions."
+        },
+        {
+          "title": "Plan",
+          "work": "Plan a new Oz adventure for Dorothy with a new character and setting."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete an end-of-novel quiz."
+        }
+      ],
+      "assessment": "End-of-novel quiz"
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Oz narrative and book vs. film",
+      "objectives": [
+        "Write a narrative with dialogue and descriptive details",
+        "Compare book and film versions"
+      ],
+      "standards": [
+        "W.3.3",
+        "W.3.5",
+        "SL.3.1",
+        "SL.3.6",
+        "L.3.2c"
+      ],
+      "vocabulary": [
+        "narrative",
+        "compare",
+        "adaptation"
+      ],
+      "materials": [
+        "narrative plan",
+        "film clip (optional)"
+      ],
+      "days": [
+        {
+          "title": "Draft",
+          "work": "Draft the new Oz adventure with dialogue and temporal words."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise for word choice and correct dialogue punctuation; spell -ous and -ive words."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare a scene from the book to a film version and discuss differences."
+        },
+        {
+          "title": "Publish",
+          "work": "Publish the narrative with an illustration."
+        },
+        {
+          "title": "Unit 7 assessment",
+          "work": "Complete the Unit 7 test and share your Oz story aloud."
+        }
+      ],
+      "assessment": "Unit 7 test; narrative rubric"
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Research questions and sources",
+      "objectives": [
+        "Generate research questions",
+        "Use search tools and text features",
+        "Use reference materials"
+      ],
+      "standards": [
+        "W.3.7",
+        "RI.3.5",
+        "L.3.2g",
+        "L.3.4d"
+      ],
+      "vocabulary": [
+        "research",
+        "source",
+        "keyword",
+        "glossary"
+      ],
+      "materials": [
+        "library books",
+        "kid-safe search",
+        "dictionary"
+      ],
+      "days": [
+        {
+          "title": "Choose a topic",
+          "work": "Choose a California natural wonder (Yosemite, redwoods, Death Valley, Monterey Bay) and write 5 research questions."
+        },
+        {
+          "title": "Search tools",
+          "work": "Use keyword searches and an index to find sources; record titles in a source list."
+        },
+        {
+          "title": "Dictionary",
+          "work": "Use a dictionary and glossary to define 6 domain words; spell inter- and trans- words."
+        },
+        {
+          "title": "Read sources",
+          "work": "Read 2 sources and highlight answers to your questions."
+        },
+        {
+          "title": "Review & check",
+          "work": "Turn in question list and source list for review."
+        }
+      ],
+      "assessment": "Research question and source list"
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Taking notes and comparing sources",
+      "objectives": [
+        "Take notes and sort evidence into categories",
+        "Compare two texts on the same topic",
+        "Use context clues"
+      ],
+      "standards": [
+        "W.3.8",
+        "RI.3.9",
+        "L.3.4a",
+        "RI.3.7"
+      ],
+      "vocabulary": [
+        "notes",
+        "category",
+        "paraphrase",
+        "context clue"
+      ],
+      "materials": [
+        "note cards",
+        "sources"
+      ],
+      "days": [
+        {
+          "title": "Note cards",
+          "work": "Take notes in your own words on note cards from source 1."
+        },
+        {
+          "title": "Sort notes",
+          "work": "Sort note cards into categories (location, plants and animals, history, visiting)."
+        },
+        {
+          "title": "Compare sources",
+          "work": "Compare key points from two sources on your topic in a chart."
+        },
+        {
+          "title": "Context clues",
+          "work": "Use context clues to figure out unknown words in your sources; review affixes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on what two sources agree and disagree on."
+        }
+      ],
+      "assessment": "Notes and source comparison paragraph"
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Drafting the research report",
+      "objectives": [
+        "Write an informative report from notes",
+        "Use affixes to determine meaning",
+        "Use maps and photos"
+      ],
+      "standards": [
+        "W.3.2",
+        "RI.3.7",
+        "L.3.4b",
+        "RI.3.4"
+      ],
+      "vocabulary": [
+        "introduction",
+        "conclusion",
+        "caption"
+      ],
+      "materials": [
+        "notes",
+        "maps"
+      ],
+      "days": [
+        {
+          "title": "Outline",
+          "work": "Organize notes into a report outline."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft introduction and two body paragraphs."
+        },
+        {
+          "title": "Draft",
+          "work": "Finish the body and conclusion; add a map with caption."
+        },
+        {
+          "title": "Affixes",
+          "work": "Determine meanings of words formed with affixes in the report (unprotected, rebuild); review homographs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Self-check the draft against the research rubric."
+        }
+      ],
+      "assessment": "Report draft with rubric self-check"
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Publishing and presenting research",
+      "objectives": [
+        "Publish with technology",
+        "Present with visual displays",
+        "Answer audience questions"
+      ],
+      "standards": [
+        "W.3.6",
+        "SL.3.4",
+        "SL.3.5",
+        "W.3.5"
+      ],
+      "vocabulary": [
+        "slideshow",
+        "visual display",
+        "presentation"
+      ],
+      "materials": [
+        "computer",
+        "poster or slides"
+      ],
+      "days": [
+        {
+          "title": "Revise and edit",
+          "work": "Revise and edit the report with an adult."
+        },
+        {
+          "title": "Publish",
+          "work": "Type and publish the report with a photo and map."
+        },
+        {
+          "title": "Visual display",
+          "work": "Create a slideshow or poster for the presentation."
+        },
+        {
+          "title": "Present",
+          "work": "Present research to the family and answer questions."
+        },
+        {
+          "title": "Unit 8 assessment",
+          "work": "Complete the Unit 8 test on informational reading and research skills."
+        }
+      ],
+      "assessment": "Unit 8 test; research report and presentation rubric"
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Author study: Beatrix Potter",
+      "objectives": [
+        "Compare themes, settings and plots of stories by the same author with the same characters"
+      ],
+      "standards": [
+        "RL.3.9",
+        "RL.3.2",
+        "RF.3.4b",
+        "L.3.2f"
+      ],
+      "vocabulary": [
+        "author study",
+        "theme",
+        "setting",
+        "series"
+      ],
+      "materials": [
+        "The Tale of Peter Rabbit and The Tale of Benjamin Bunny by Beatrix Potter (Project Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Peter Rabbit",
+          "work": "Read 'The Tale of Peter Rabbit' and map its plot."
+        },
+        {
+          "title": "Benjamin Bunny",
+          "work": "Read 'The Tale of Benjamin Bunny' and map its plot."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare settings, plots and themes of the two tales in a chart; review dictionary syllable guides."
+        },
+        {
+          "title": "Response",
+          "work": "Write a comparison paragraph about the two tales."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer comparison questions and read a Potter passage aloud fluently."
+        }
+      ],
+      "assessment": "Comparison paragraph; fluency check"
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Readers' theater",
+      "objectives": [
+        "Refer to parts of a drama using scene terms",
+        "Perform with fluency and expression"
+      ],
+      "standards": [
+        "RL.3.5",
+        "SL.3.5",
+        "RF.3.4b",
+        "L.3.2c"
+      ],
+      "vocabulary": [
+        "script",
+        "scene",
+        "stage directions",
+        "cast"
+      ],
+      "materials": [
+        "readers' theater script adapted from a fable or Potter tale"
+      ],
+      "days": [
+        {
+          "title": "Script features",
+          "work": "Read a readers' theater script and identify cast list, scenes and stage directions."
+        },
+        {
+          "title": "Write a script",
+          "work": "Convert a fable into a short script, turning narrative into dialogue."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse the script with expression and timing."
+        },
+        {
+          "title": "Perform",
+          "work": "Perform for family and record it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Reflect on the performance and identify how scenes build on each other."
+        }
+      ],
+      "assessment": "Script and performance"
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Year-end portfolio and reflection",
+      "objectives": [
+        "Reflect on growth as a reader and writer",
+        "Show mastery of grade-level skills"
+      ],
+      "standards": [
+        "RL.3.10",
+        "W.3.10",
+        "SL.3.4",
+        "L.3.6"
+      ],
+      "vocabulary": [
+        "portfolio",
+        "reflection",
+        "goal"
+      ],
+      "materials": [
+        "writing folder",
+        "reading log"
+      ],
+      "days": [
+        {
+          "title": "Reading review",
+          "work": "Review the reading log and choose top 3 books; write a recommendation."
+        },
+        {
+          "title": "Writing portfolio",
+          "work": "Select the best narrative, informative and opinion pieces for a portfolio."
+        },
+        {
+          "title": "Final assessment",
+          "work": "Complete the end-of-year reading, spelling and grammar assessment."
+        },
+        {
+          "title": "Reflection",
+          "work": "Write a letter to your future 4th-grade self about your growth."
+        },
+        {
+          "title": "Celebrate",
+          "work": "Share your portfolio at a family reading celebration and set a summer reading goal."
+        }
+      ],
+      "assessment": "End-of-year assessment; portfolio"
+    }
+  ]
+}

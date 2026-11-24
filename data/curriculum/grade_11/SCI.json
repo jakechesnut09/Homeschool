@@ -1,0 +1,1856 @@
+{
+ "grade": 11,
+ "subject": "SCI",
+ "title": "Physics of the Universe",
+ "description": "The third course of California's high school three-course NGSS model, Physics of the Universe connects motion, forces, energy, electromagnetism, and waves to Earth's interior, the Sun, stars, and the origin of the universe. Every unit is anchored in a phenomenon (a car crash, the San Andreas Fault, a solar panel, the night sky) and includes hands-on labs with household materials, PhET simulations, and engineering design challenges. Students keep a lab notebook and write claim-evidence-reasoning explanations.",
+ "framework": "California Next Generation Science Standards (HS Physical and Earth & Space Sciences, Engineering Design); 2016 California Science Framework – Physics of the Universe (three-course model)",
+ "minutes_per_day": 60,
+ "ag_requirement": "d",
+ "credits": 10,
+ "standards": {
+  "HS-PS2-1": "Analyze data to support the claim that Newton's second law describes the relationship among net force, mass, and acceleration.",
+  "HS-PS2-2": "Use mathematical representations to support the claim that total momentum of a system is conserved when there is no net external force.",
+  "HS-PS2-3": "Apply science and engineering ideas to design, evaluate, and refine a device that minimizes the force on a macroscopic object during a collision.",
+  "HS-PS2-4": "Use mathematical representations of Newton's Law of Gravitation and Coulomb's Law to describe and predict gravitational and electrostatic forces.",
+  "HS-PS2-5": "Plan and conduct an investigation to provide evidence that an electric current can produce a magnetic field and a changing magnetic field can produce an electric current.",
+  "HS-PS2-6": "Communicate scientific and technical information about why molecular-level structure is important in the functioning of designed materials.",
+  "HS-PS1-8": "Develop models to illustrate changes in the composition of the nucleus and energy released during fission, fusion, and radioactive decay.",
+  "HS-PS3-1": "Create a computational model to calculate the change in energy of one component of a system when the change in energy of other components and flows are known.",
+  "HS-PS3-2": "Develop and use models to illustrate that energy at the macroscopic scale can be accounted for as motions of particles and energy stored in fields.",
+  "HS-PS3-3": "Design, build, and refine a device that works within given constraints to convert one form of energy into another.",
+  "HS-PS3-4": "Plan and conduct an investigation to provide evidence that thermal energy transfer between components of a closed system results in more uniform energy distribution.",
+  "HS-PS3-5": "Develop and use a model of two objects interacting through electric or magnetic fields to illustrate the forces and changes in energy.",
+  "HS-PS4-1": "Use mathematical representations to support a claim regarding relationships among frequency, wavelength, and speed of waves traveling in various media.",
+  "HS-PS4-2": "Evaluate questions about the advantages of using digital transmission and storage of information.",
+  "HS-PS4-3": "Evaluate the claims, evidence, and reasoning behind the idea that electromagnetic radiation can be described by a wave model or a particle model.",
+  "HS-PS4-4": "Evaluate the validity and reliability of claims about the effects of different frequencies of electromagnetic radiation when absorbed by matter.",
+  "HS-PS4-5": "Communicate technical information about how some technological devices use the principles of wave behavior and wave interactions with matter.",
+  "HS-ESS1-1": "Develop a model based on evidence to illustrate the life span of the sun and the role of nuclear fusion in releasing energy that reaches Earth.",
+  "HS-ESS1-2": "Construct an explanation of the Big Bang theory based on astronomical evidence of light spectra, motion of distant galaxies, and composition of matter.",
+  "HS-ESS1-3": "Communicate scientific ideas about the way stars, over their life cycle, produce elements.",
+  "HS-ESS1-4": "Use mathematical or computational representations to predict the motion of orbiting objects in the solar system.",
+  "HS-ESS1-5": "Evaluate evidence of the past and current movements of continental and oceanic crust and the theory of plate tectonics to explain the ages of crustal rocks.",
+  "HS-ESS1-6": "Apply scientific reasoning and evidence from ancient Earth materials, meteorites, and other planetary surfaces to construct an account of Earth's formation and early history.",
+  "HS-ESS2-1": "Develop a model to illustrate how Earth's internal and surface processes operate at different spatial and temporal scales to form continental and ocean-floor features.",
+  "HS-ESS2-3": "Develop a model based on evidence of Earth's interior to describe the cycling of matter by thermal convection.",
+  "HS-ESS3-1": "Construct an explanation based on evidence for how the availability of natural resources, occurrence of natural hazards, and changes in climate have influenced human activity.",
+  "HS-ESS3-2": "Evaluate competing design solutions for developing, managing, and utilizing energy and mineral resources based on cost-benefit ratios.",
+  "HS-ETS1-1": "Analyze a major global challenge to specify qualitative and quantitative criteria and constraints for solutions.",
+  "HS-ETS1-2": "Design a solution to a complex real-world problem by breaking it down into smaller, more manageable problems.",
+  "HS-ETS1-3": "Evaluate a solution to a complex real-world problem based on prioritized criteria and trade-offs.",
+  "HS-ETS1-4": "Use a computer simulation to model the impact of proposed solutions to a complex real-world problem."
+ },
+ "resources": [
+  {
+   "name": "PhET Interactive Simulations",
+   "url": "https://phet.colorado.edu/",
+   "note": "Free simulations: Forces and Motion, Energy Skate Park, Faraday's Lab, Waves, Gravity and Orbits"
+  },
+  {
+   "name": "OpenStax Physics (high school)",
+   "url": "https://openstax.org/details/books/physics",
+   "note": "Free textbook aligned to high school physics topics"
+  },
+  {
+   "name": "NASA Science – Universe",
+   "url": "https://science.nasa.gov/universe/",
+   "note": "Stars, galaxies, and cosmology content and images"
+  },
+  {
+   "name": "Khan Academy – Physics",
+   "url": "https://www.khanacademy.org/science/physics",
+   "note": "Video lessons and practice problems"
+  },
+  {
+   "name": "USGS Earthquake Hazards Program",
+   "url": "https://www.usgs.gov/programs/earthquake-hazards",
+   "note": "Real-time earthquake data and California fault information"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Forces and Motion: Collisions",
+   "start_week": 1,
+   "end_week": 5,
+   "big_idea": "Newton's laws and momentum conservation explain and predict what happens in collisions, and engineers use them to save lives.",
+   "standards": [
+    "HS-PS2-1",
+    "HS-PS2-2",
+    "HS-PS2-3",
+    "HS-ETS1-2",
+    "HS-ETS1-3"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Gravity and Orbits",
+   "start_week": 6,
+   "end_week": 8,
+   "big_idea": "The same gravitational force that pulls an apple to Earth keeps planets and satellites in orbit.",
+   "standards": [
+    "HS-PS2-4",
+    "HS-ESS1-4",
+    "HS-PS3-5"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Energy Conservation and Transfer",
+   "start_week": 9,
+   "end_week": 13,
+   "big_idea": "Energy is conserved; it transforms between forms and spreads out through thermal transfer.",
+   "standards": [
+    "HS-PS3-1",
+    "HS-PS3-2",
+    "HS-PS3-4",
+    "HS-PS3-3",
+    "HS-ETS1-2"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Electricity and Magnetism",
+   "start_week": 14,
+   "end_week": 18,
+   "big_idea": "Electric and magnetic fields store energy and exert forces, and moving charges and changing fields generate each other.",
+   "standards": [
+    "HS-PS3-5",
+    "HS-PS3-1",
+    "HS-PS2-5",
+    "HS-PS3-3",
+    "HS-PS2-6",
+    "HS-PS2-1",
+    "HS-PS2-2",
+    "HS-PS2-4"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Waves and Electromagnetic Radiation",
+   "start_week": 19,
+   "end_week": 23,
+   "big_idea": "Waves carry energy and information; light behaves as both wave and particle.",
+   "standards": [
+    "HS-PS4-1",
+    "HS-PS4-5",
+    "HS-PS4-4",
+    "HS-PS4-3",
+    "HS-PS4-2"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Earth's Dynamic Interior: Plate Tectonics",
+   "start_week": 24,
+   "end_week": 26,
+   "big_idea": "Convection in Earth's mantle drives plate motion that shapes California's landscape and hazards.",
+   "standards": [
+    "HS-ESS2-3",
+    "HS-ESS1-5",
+    "HS-ESS2-1",
+    "HS-ESS3-1"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Stars and the Sun",
+   "start_week": 27,
+   "end_week": 30,
+   "big_idea": "Nuclear fusion powers stars, and stellar life cycles forge the elements we are made of.",
+   "standards": [
+    "HS-ESS1-1",
+    "HS-PS1-8",
+    "HS-ESS1-3",
+    "HS-ESS1-4"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "The Big Bang and Earth's Origin",
+   "start_week": 31,
+   "end_week": 33,
+   "big_idea": "Light from distant galaxies and ancient rocks reveal the history of the universe and our planet.",
+   "standards": [
+    "HS-ESS1-2",
+    "HS-ESS1-3",
+    "HS-ESS1-6",
+    "HS-PS1-8"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Energy for Society: Engineering Capstone",
+   "start_week": 34,
+   "end_week": 36,
+   "big_idea": "Engineers convert energy to meet human needs while weighing costs, benefits, and environmental impacts.",
+   "standards": [
+    "HS-ESS3-2",
+    "HS-ETS1-1",
+    "HS-ETS1-3",
+    "HS-ESS3-1",
+    "HS-PS3-3",
+    "HS-ETS1-2",
+    "HS-ETS1-4",
+    "HS-PS2-5",
+    "HS-PS2-1",
+    "HS-PS2-2",
+    "HS-PS3-1",
+    "HS-PS4-1",
+    "HS-ESS1-2",
+    "HS-ESS2-1"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "Describing motion",
+   "objectives": [
+    "Represent motion with position-time and velocity-time graphs",
+    "Calculate velocity and acceleration"
+   ],
+   "standards": [
+    "HS-PS2-1"
+   ],
+   "vocabulary": [
+    "displacement",
+    "velocity",
+    "acceleration",
+    "vector",
+    "scalar"
+   ],
+   "materials": [
+    "toy car",
+    "meter stick",
+    "phone stopwatch/slow-motion video",
+    "masking tape"
+   ],
+   "days": [
+    {
+     "title": "Anchor phenomenon",
+     "work": "Watch crash-test footage and list questions about forces in collisions; start a driving question board."
+    },
+    {
+     "title": "Position-time graphs",
+     "work": "Roll a toy car along a taped track, time each meter, and graph position vs. time."
+    },
+    {
+     "title": "Velocity & acceleration",
+     "work": "Roll a ball down a ramp; use slow-motion video to measure velocity changes and calculate acceleration."
+    },
+    {
+     "title": "Kinematic equations",
+     "work": "Solve constant-acceleration problems (braking distances) using the kinematic equations."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on motion graphs and kinematic calculations."
+    }
+   ],
+   "assessment": "Motion graphs quiz."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "Newton's first and second laws",
+   "objectives": [
+    "Analyze data relating net force, mass, and acceleration",
+    "Draw free-body diagrams"
+   ],
+   "standards": [
+    "HS-PS2-1"
+   ],
+   "vocabulary": [
+    "inertia",
+    "net force",
+    "newton",
+    "free-body diagram",
+    "mass"
+   ],
+   "materials": [
+    "toy car",
+    "rubber bands",
+    "washers as added mass",
+    "PhET Forces and Motion: Basics"
+   ],
+   "days": [
+    {
+     "title": "Inertia",
+     "work": "Perform coin-card-cup and tablecloth inertia demos; explain using Newton's first law."
+    },
+    {
+     "title": "Free-body diagrams",
+     "work": "Draw free-body diagrams for 8 scenarios including a car braking and a book on a table."
+    },
+    {
+     "title": "F = ma lab",
+     "work": "Pull a cart with stretched rubber bands (constant force), varying added washers; graph acceleration vs. mass."
+    },
+    {
+     "title": "Simulation",
+     "work": "Use PhET Forces and Motion to test acceleration vs. net force; analyze the linear relationship."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a CER explaining your lab data using Newton's second law."
+    }
+   ],
+   "assessment": "CER lab report."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "Newton's third law and friction",
+   "objectives": [
+    "Identify action–reaction pairs",
+    "Quantify friction"
+   ],
+   "standards": [
+    "HS-PS2-1"
+   ],
+   "vocabulary": [
+    "action-reaction",
+    "normal force",
+    "friction",
+    "coefficient of friction"
+   ],
+   "materials": [
+    "balloon, straw, string",
+    "spring scale or luggage scale",
+    "shoe"
+   ],
+   "days": [
+    {
+     "title": "Third law",
+     "work": "Build a balloon rocket on a string; identify force pairs."
+    },
+    {
+     "title": "Friction lab",
+     "work": "Drag a shoe across different surfaces with a luggage scale; calculate coefficient of friction."
+    },
+    {
+     "title": "Normal force",
+     "work": "Solve problems on inclines and elevators."
+    },
+    {
+     "title": "Applications",
+     "work": "Analyze how tires and brakes use friction; discuss stopping distance in rain."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on Newton's laws problems."
+    }
+   ],
+   "assessment": "Newton's laws quiz."
+  },
+  {
+   "week": 4,
+   "unit": 1,
+   "topic": "Momentum and impulse",
+   "objectives": [
+    "Show momentum is conserved",
+    "Relate impulse to force and time"
+   ],
+   "standards": [
+    "HS-PS2-2",
+    "HS-PS2-3"
+   ],
+   "vocabulary": [
+    "momentum",
+    "impulse",
+    "conservation",
+    "elastic collision",
+    "inelastic collision"
+   ],
+   "materials": [
+    "two toy cars, clay, ruler, marbles",
+    "PhET Collision Lab"
+   ],
+   "days": [
+    {
+     "title": "Momentum",
+     "work": "Calculate momentum for everyday objects; compare a truck and a baseball."
+    },
+    {
+     "title": "Collision lab",
+     "work": "Collide toy cars (with clay for inelastic) and measure velocities from video to test momentum conservation."
+    },
+    {
+     "title": "Simulation",
+     "work": "Use PhET Collision Lab to verify momentum conservation in elastic and inelastic collisions."
+    },
+    {
+     "title": "Impulse",
+     "work": "Drop an egg onto different surfaces (in a bag) and relate impulse = FΔt."
+    },
+    {
+     "title": "Review & check",
+     "work": "Solve conservation of momentum problems in a quiz."
+    }
+   ],
+   "assessment": "Momentum quiz."
+  },
+  {
+   "week": 5,
+   "unit": 1,
+   "topic": "Engineering challenge: egg crash protection",
+   "objectives": [
+    "Design and refine a collision-protection device"
+   ],
+   "standards": [
+    "HS-PS2-3",
+    "HS-ETS1-2",
+    "HS-ETS1-3"
+   ],
+   "vocabulary": [
+    "criteria",
+    "constraint",
+    "prototype",
+    "iteration",
+    "crumple zone"
+   ],
+   "materials": [
+    "egg, toy car or cart, straws, paper, tape, rubber bands"
+   ],
+   "days": [
+    {
+     "title": "Define the problem",
+     "work": "List criteria and constraints for an egg-in-cart crash device (limited materials, mass limit)."
+    },
+    {
+     "title": "Design",
+     "work": "Sketch three designs and choose one using a decision matrix."
+    },
+    {
+     "title": "Build & test",
+     "work": "Build a prototype and test it in a ramp crash; record results."
+    },
+    {
+     "title": "Refine",
+     "work": "Redesign based on test data and retest; calculate impulse reductions."
+    },
+    {
+     "title": "Unit check",
+     "work": "Present the design and take the Unit 1 test."
+    }
+   ],
+   "assessment": "Design report and Unit 1 test."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Newton's law of universal gravitation",
+   "objectives": [
+    "Use mathematical representations of gravitation"
+   ],
+   "standards": [
+    "HS-PS2-4"
+   ],
+   "vocabulary": [
+    "gravitational force",
+    "inverse square law",
+    "gravitational constant",
+    "weight"
+   ],
+   "materials": [
+    "PhET Gravity Force Lab",
+    "flashlight and graph paper (inverse square)"
+   ],
+   "days": [
+    {
+     "title": "Falling objects",
+     "work": "Drop objects of different mass; measure g from timed drops."
+    },
+    {
+     "title": "Inverse square law",
+     "work": "Model inverse square law by shining a flashlight on graph paper at increasing distances."
+    },
+    {
+     "title": "Universal gravitation",
+     "work": "Calculate gravitational force between Earth and Moon and between two people."
+    },
+    {
+     "title": "Simulation",
+     "work": "Use PhET Gravity Force Lab to explore F vs. mass and distance."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on gravitation calculations."
+    }
+   ],
+   "assessment": "Gravitation quiz."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "Orbits and Kepler's laws",
+   "objectives": [
+    "Predict orbital motion with Kepler's laws"
+   ],
+   "standards": [
+    "HS-ESS1-4",
+    "HS-PS2-4"
+   ],
+   "vocabulary": [
+    "orbit",
+    "ellipse",
+    "eccentricity",
+    "period",
+    "Kepler's laws"
+   ],
+   "materials": [
+    "string, two pushpins, cardboard",
+    "PhET Gravity and Orbits"
+   ],
+   "days": [
+    {
+     "title": "Ellipses",
+     "work": "Draw ellipses with string and pins; calculate eccentricity."
+    },
+    {
+     "title": "Kepler's laws",
+     "work": "Analyze planet data to verify Kepler's third law (T² ∝ a³)."
+    },
+    {
+     "title": "Simulation",
+     "work": "Use PhET Gravity and Orbits to change the Sun's mass and observe orbit changes."
+    },
+    {
+     "title": "Satellites",
+     "work": "Calculate orbital speed and period for the ISS and GPS satellites."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write an explanation of how orbital speed changes in an elliptical orbit."
+    }
+   ],
+   "assessment": "Kepler data analysis."
+  },
+  {
+   "week": 8,
+   "unit": 2,
+   "topic": "Coulomb's law and the two forces at a distance",
+   "objectives": [
+    "Compare gravitational and electrostatic forces"
+   ],
+   "standards": [
+    "HS-PS2-4",
+    "HS-PS3-5"
+   ],
+   "vocabulary": [
+    "charge",
+    "Coulomb's law",
+    "electric field",
+    "induction",
+    "conduction"
+   ],
+   "materials": [
+    "balloons, wool, tape, aluminum foil, PhET Coulomb's Law"
+   ],
+   "days": [
+    {
+     "title": "Static electricity",
+     "work": "Charge balloons and tape strips; observe attraction and repulsion."
+    },
+    {
+     "title": "Coulomb's law",
+     "work": "Use PhET Coulomb's Law to explore force vs. charge and distance."
+    },
+    {
+     "title": "Comparison",
+     "work": "Compare gravitational and electrostatic forces between protons."
+    },
+    {
+     "title": "Electroscope",
+     "work": "Build a foil-leaf electroscope in a jar and test charging by conduction and induction."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 2 test on gravitation, orbits, and Coulomb's law."
+    }
+   ],
+   "assessment": "Electroscope and Unit 2 test."
+  },
+  {
+   "week": 9,
+   "unit": 3,
+   "topic": "Work, energy, and power",
+   "objectives": [
+    "Define work, kinetic and potential energy",
+    "Calculate power"
+   ],
+   "standards": [
+    "HS-PS3-1",
+    "HS-PS3-2"
+   ],
+   "vocabulary": [
+    "work",
+    "kinetic energy",
+    "potential energy",
+    "joule",
+    "power",
+    "watt"
+   ],
+   "materials": [
+    "stairs, stopwatch, bathroom scale"
+   ],
+   "days": [
+    {
+     "title": "Work",
+     "work": "Calculate work done lifting and pushing objects."
+    },
+    {
+     "title": "Kinetic & potential energy",
+     "work": "Calculate KE and PE for a roller coaster; relate to particle motion and fields."
+    },
+    {
+     "title": "Stair power lab",
+     "work": "Run up stairs timed; calculate personal power output in watts and horsepower."
+    },
+    {
+     "title": "Energy bar charts",
+     "work": "Draw energy bar charts for skier, pendulum, and spring scenarios."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on energy calculations."
+    }
+   ],
+   "assessment": "Stair power lab and quiz."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Conservation of energy",
+   "objectives": [
+    "Model energy transformations in closed systems"
+   ],
+   "standards": [
+    "HS-PS3-1",
+    "HS-PS3-2"
+   ],
+   "vocabulary": [
+    "conservation of energy",
+    "system",
+    "mechanical energy",
+    "energy dissipation"
+   ],
+   "materials": [
+    "PhET Energy Skate Park",
+    "marble, foam pipe insulation track"
+   ],
+   "days": [
+    {
+     "title": "Skate park",
+     "work": "Use PhET Energy Skate Park to track KE, PE, and thermal energy."
+    },
+    {
+     "title": "Marble coaster",
+     "work": "Build a foam pipe-insulation marble roller coaster and predict speeds at points."
+    },
+    {
+     "title": "Computational model",
+     "work": "Build a spreadsheet model predicting the speed of a pendulum from drop height."
+    },
+    {
+     "title": "Pendulum test",
+     "work": "Test the model with a real pendulum and compare predicted vs. measured speed."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a CER on energy conservation with friction."
+    }
+   ],
+   "assessment": "Spreadsheet model and CER."
+  },
+  {
+   "week": 11,
+   "unit": 3,
+   "topic": "Thermal energy and heat transfer",
+   "objectives": [
+    "Investigate thermal energy transfer",
+    "Explain equilibrium"
+   ],
+   "standards": [
+    "HS-PS3-4",
+    "HS-PS3-2"
+   ],
+   "vocabulary": [
+    "thermal energy",
+    "temperature",
+    "specific heat",
+    "thermal equilibrium",
+    "conduction",
+    "convection",
+    "radiation"
+   ],
+   "materials": [
+    "insulated cups, thermometer, hot and cold water",
+    "food coloring"
+   ],
+   "days": [
+    {
+     "title": "Temperature & particles",
+     "work": "Compare food coloring diffusion in hot vs. cold water; model particle motion."
+    },
+    {
+     "title": "Heat transfer",
+     "work": "Demonstrate conduction, convection, and radiation with household setups."
+    },
+    {
+     "title": "Calorimetry lab",
+     "work": "Mix hot and cold water in insulated cups; graph temperatures over time to equilibrium."
+    },
+    {
+     "title": "Specific heat",
+     "work": "Calculate specific heat using Q = mcΔT and compare sand vs. water heating."
+    },
+    {
+     "title": "Review & check",
+     "work": "Lab report showing evidence of energy uniformity."
+    }
+   ],
+   "assessment": "Calorimetry lab report."
+  },
+  {
+   "week": 12,
+   "unit": 3,
+   "topic": "Engineering: energy conversion devices",
+   "objectives": [
+    "Design a device converting one form of energy to another"
+   ],
+   "standards": [
+    "HS-PS3-3",
+    "HS-ETS1-2"
+   ],
+   "vocabulary": [
+    "efficiency",
+    "energy conversion",
+    "input energy",
+    "output energy"
+   ],
+   "materials": [
+    "cardboard, foil, black paper, plastic wrap (solar oven)",
+    "thermometer"
+   ],
+   "days": [
+    {
+     "title": "Efficiency",
+     "work": "Calculate efficiency of common devices (light bulbs, car engines)."
+    },
+    {
+     "title": "Design",
+     "work": "Design a solar oven with constraints (size, materials)."
+    },
+    {
+     "title": "Build",
+     "work": "Build the solar oven."
+    },
+    {
+     "title": "Test & refine",
+     "work": "Test the oven, measure temperature rise, and refine design."
+    },
+    {
+     "title": "Review & check",
+     "work": "Present design results and efficiency estimate."
+    }
+   ],
+   "assessment": "Solar oven design report."
+  },
+  {
+   "week": 13,
+   "unit": 3,
+   "topic": "Energy unit synthesis",
+   "objectives": [
+    "Synthesize energy concepts"
+   ],
+   "standards": [
+    "HS-PS3-1",
+    "HS-PS3-2",
+    "HS-PS3-4"
+   ],
+   "vocabulary": [
+    "review"
+   ],
+   "materials": [
+    "review packet"
+   ],
+   "days": [
+    {
+     "title": "Review: mechanical energy",
+     "work": "Mixed problems on work, KE, PE, and power."
+    },
+    {
+     "title": "Review: thermal",
+     "work": "Mixed problems on heat transfer and specific heat."
+    },
+    {
+     "title": "Concept map",
+     "work": "Build a concept map connecting energy forms and transfers."
+    },
+    {
+     "title": "Practice test",
+     "work": "Take a practice test and correct errors."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 3 test on energy."
+    }
+   ],
+   "assessment": "Unit 3 test."
+  },
+  {
+   "week": 14,
+   "unit": 4,
+   "topic": "Electric circuits",
+   "objectives": [
+    "Build and analyze circuits",
+    "Apply Ohm's law"
+   ],
+   "standards": [
+    "HS-PS3-5",
+    "HS-PS3-1"
+   ],
+   "vocabulary": [
+    "current",
+    "voltage",
+    "resistance",
+    "Ohm's law",
+    "series",
+    "parallel"
+   ],
+   "materials": [
+    "AA batteries, holders, small bulbs or LEDs, wires",
+    "PhET Circuit Construction Kit"
+   ],
+   "days": [
+    {
+     "title": "Circuits",
+     "work": "Build simple circuits with batteries and bulbs; identify parts."
+    },
+    {
+     "title": "Ohm's law",
+     "work": "Use PhET Circuit Construction Kit to measure V, I, R and derive Ohm's law."
+    },
+    {
+     "title": "Series & parallel",
+     "work": "Build series and parallel circuits; compare bulb brightness."
+    },
+    {
+     "title": "Power",
+     "work": "Calculate electrical power and energy cost of home appliances from labels."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on circuit analysis."
+    }
+   ],
+   "assessment": "Circuits quiz."
+  },
+  {
+   "week": 15,
+   "unit": 4,
+   "topic": "Magnetism and electromagnetism",
+   "objectives": [
+    "Show electric current produces a magnetic field"
+   ],
+   "standards": [
+    "HS-PS2-5",
+    "HS-PS3-5"
+   ],
+   "vocabulary": [
+    "magnetic field",
+    "electromagnet",
+    "solenoid",
+    "Oersted"
+   ],
+   "materials": [
+    "iron nail, insulated wire, D battery, paper clips, compass"
+   ],
+   "days": [
+    {
+     "title": "Magnets",
+     "work": "Map magnetic field lines with a compass around a magnet."
+    },
+    {
+     "title": "Oersted",
+     "work": "Place a compass near a current-carrying wire and observe deflection."
+    },
+    {
+     "title": "Electromagnet lab",
+     "work": "Wrap a nail with wire; vary coils and count paper clips lifted."
+    },
+    {
+     "title": "Model",
+     "work": "Draw a field model explaining forces and energy between magnets."
+    },
+    {
+     "title": "Review & check",
+     "work": "Lab report on electromagnet strength."
+    }
+   ],
+   "assessment": "Electromagnet lab report."
+  },
+  {
+   "week": 16,
+   "unit": 4,
+   "topic": "Electromagnetic induction and generators",
+   "objectives": [
+    "Show changing magnetic fields produce current"
+   ],
+   "standards": [
+    "HS-PS2-5",
+    "HS-PS3-3"
+   ],
+   "vocabulary": [
+    "induction",
+    "generator",
+    "motor",
+    "Faraday's law",
+    "alternating current"
+   ],
+   "materials": [
+    "magnet, coil of wire, LED, PhET Faraday's Electromagnetic Lab"
+   ],
+   "days": [
+    {
+     "title": "Faraday's lab",
+     "work": "Use PhET Faraday's Lab to explore induced current."
+    },
+    {
+     "title": "Induction",
+     "work": "Move a magnet through a coil and detect current with an LED or multimeter."
+    },
+    {
+     "title": "Motors",
+     "work": "Build a simple homopolar motor with battery, magnet, and wire."
+    },
+    {
+     "title": "Generators",
+     "work": "Explain how power plants generate electricity; compare hydro, wind, and gas."
+    },
+    {
+     "title": "Review & check",
+     "work": "CER on how generators and motors are reversible."
+    }
+   ],
+   "assessment": "Induction CER."
+  },
+  {
+   "week": 17,
+   "unit": 4,
+   "topic": "Materials science",
+   "objectives": [
+    "Explain why molecular structure matters in designed materials"
+   ],
+   "standards": [
+    "HS-PS2-6"
+   ],
+   "vocabulary": [
+    "conductor",
+    "insulator",
+    "semiconductor",
+    "polymer",
+    "alloy"
+   ],
+   "materials": [
+    "materials samples: copper, plastic, rubber, glass"
+   ],
+   "days": [
+    {
+     "title": "Conductors & insulators",
+     "work": "Test household materials in a circuit for conductivity."
+    },
+    {
+     "title": "Molecular structure",
+     "work": "Research how molecular structure gives polymers flexibility and metals conductivity."
+    },
+    {
+     "title": "Semiconductors",
+     "work": "Read about silicon chips and how doping works."
+    },
+    {
+     "title": "Communication",
+     "work": "Make an infographic on a designed material (Kevlar, Gore-Tex, graphene)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Present the infographic."
+    }
+   ],
+   "assessment": "Infographic rubric."
+  },
+  {
+   "week": 18,
+   "unit": 4,
+   "topic": "Semester 1 review and exam",
+   "objectives": [
+    "Demonstrate Semester 1 mastery"
+   ],
+   "standards": [
+    "HS-PS2-1",
+    "HS-PS2-2",
+    "HS-PS2-4",
+    "HS-PS3-1",
+    "HS-PS2-5"
+   ],
+   "vocabulary": [
+    "review"
+   ],
+   "materials": [
+    "semester review packet"
+   ],
+   "days": [
+    {
+     "title": "Review: forces",
+     "work": "Review Newton's laws, momentum, and gravitation problems."
+    },
+    {
+     "title": "Review: energy",
+     "work": "Review energy conservation and thermal transfer."
+    },
+    {
+     "title": "Review: E&M",
+     "work": "Review circuits and electromagnetism."
+    },
+    {
+     "title": "Semester exam part 1",
+     "work": "Multiple-choice and short-answer."
+    },
+    {
+     "title": "Semester exam part 2",
+     "work": "Data-analysis and CER section."
+    }
+   ],
+   "assessment": "Semester exam."
+  },
+  {
+   "week": 19,
+   "unit": 5,
+   "topic": "Wave properties",
+   "objectives": [
+    "Relate frequency, wavelength, and speed"
+   ],
+   "standards": [
+    "HS-PS4-1"
+   ],
+   "vocabulary": [
+    "wave",
+    "wavelength",
+    "frequency",
+    "amplitude",
+    "transverse",
+    "longitudinal"
+   ],
+   "materials": [
+    "Slinky, rope",
+    "PhET Wave on a String"
+   ],
+   "days": [
+    {
+     "title": "Wave types",
+     "work": "Make transverse and longitudinal waves with a Slinky."
+    },
+    {
+     "title": "Wave equation",
+     "work": "Measure wavelength and frequency on a rope; calculate v = fλ."
+    },
+    {
+     "title": "Simulation",
+     "work": "Use PhET Wave on a String to explore tension and wave speed."
+    },
+    {
+     "title": "Media",
+     "work": "Compare sound speed in air, water, and steel; solve problems."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on wave calculations."
+    }
+   ],
+   "assessment": "Wave quiz."
+  },
+  {
+   "week": 20,
+   "unit": 5,
+   "topic": "Sound and wave interactions",
+   "objectives": [
+    "Investigate reflection, refraction, interference, and resonance"
+   ],
+   "standards": [
+    "HS-PS4-1",
+    "HS-PS4-5"
+   ],
+   "vocabulary": [
+    "interference",
+    "resonance",
+    "Doppler effect",
+    "standing wave"
+   ],
+   "materials": [
+    "glass bottles, water, tuning app",
+    "phone"
+   ],
+   "days": [
+    {
+     "title": "Sound",
+     "work": "Use a phone tone generator and observe the effect of frequency on pitch."
+    },
+    {
+     "title": "Resonance",
+     "work": "Tune water bottles and explain standing waves."
+    },
+    {
+     "title": "Interference",
+     "work": "Use two phone speakers to find quiet spots of destructive interference."
+    },
+    {
+     "title": "Doppler",
+     "work": "Explain Doppler effect and its use in radar and astronomy."
+    },
+    {
+     "title": "Review & check",
+     "work": "Explain how noise-canceling headphones work."
+    }
+   ],
+   "assessment": "Noise-canceling explanation."
+  },
+  {
+   "week": 21,
+   "unit": 5,
+   "topic": "The electromagnetic spectrum",
+   "objectives": [
+    "Describe EM waves",
+    "Evaluate claims about EM radiation effects"
+   ],
+   "standards": [
+    "HS-PS4-4",
+    "HS-PS4-1"
+   ],
+   "vocabulary": [
+    "electromagnetic spectrum",
+    "ionizing radiation",
+    "ultraviolet",
+    "infrared"
+   ],
+   "materials": [
+    "UV beads, sunscreen, plastic wrap"
+   ],
+   "days": [
+    {
+     "title": "EM spectrum",
+     "work": "Build a scale model of the spectrum."
+    },
+    {
+     "title": "UV lab",
+     "work": "Test sunscreen and fabrics with UV beads."
+    },
+    {
+     "title": "Ionizing radiation",
+     "work": "Research ionizing vs. non-ionizing radiation."
+    },
+    {
+     "title": "Evaluating claims",
+     "work": "Evaluate claims about cell phones and 5G health effects using credible sources."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a claim evaluation report."
+    }
+   ],
+   "assessment": "Claim evaluation report."
+  },
+  {
+   "week": 22,
+   "unit": 5,
+   "topic": "Wave-particle duality",
+   "objectives": [
+    "Evaluate wave vs. particle models of light"
+   ],
+   "standards": [
+    "HS-PS4-3"
+   ],
+   "vocabulary": [
+    "photon",
+    "photoelectric effect",
+    "diffraction",
+    "wave-particle duality"
+   ],
+   "materials": [
+    "laser pointer, hair strand, CD",
+    "PhET Photoelectric Effect"
+   ],
+   "days": [
+    {
+     "title": "Diffraction",
+     "work": "Shine a laser past a hair and through a CD to observe diffraction patterns."
+    },
+    {
+     "title": "Double-slit",
+     "work": "Study Young's double-slit experiment as evidence for the wave model."
+    },
+    {
+     "title": "Photoelectric effect",
+     "work": "Use PhET Photoelectric Effect to gather evidence for the particle model."
+    },
+    {
+     "title": "Argument",
+     "work": "Write a CER on why both models are needed."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on wave-particle duality."
+    }
+   ],
+   "assessment": "CER and quiz."
+  },
+  {
+   "week": 23,
+   "unit": 5,
+   "topic": "Digital information and wave technology",
+   "objectives": [
+    "Evaluate digital transmission",
+    "Communicate how devices use waves"
+   ],
+   "standards": [
+    "HS-PS4-2",
+    "HS-PS4-5"
+   ],
+   "vocabulary": [
+    "analog",
+    "digital",
+    "bit",
+    "fiber optic",
+    "signal"
+   ],
+   "materials": [
+    "flashlight for Morse code",
+    "water and laser (total internal reflection)"
+   ],
+   "days": [
+    {
+     "title": "Analog vs. digital",
+     "work": "Compare analog and digital signals; encode a message in binary."
+    },
+    {
+     "title": "Signal noise",
+     "work": "Send a message by flashlight Morse code with noise and discuss error correction."
+    },
+    {
+     "title": "Fiber optics",
+     "work": "Demonstrate total internal reflection in a stream of water with a laser."
+    },
+    {
+     "title": "Technology report",
+     "work": "Research how a device (MRI, solar cell, Wi-Fi) uses waves."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 5 test on waves and EM radiation."
+    }
+   ],
+   "assessment": "Technology report and Unit 5 test."
+  },
+  {
+   "week": 24,
+   "unit": 6,
+   "topic": "Earth's interior and convection",
+   "objectives": [
+    "Model Earth's interior and mantle convection"
+   ],
+   "standards": [
+    "HS-ESS2-3"
+   ],
+   "vocabulary": [
+    "crust",
+    "mantle",
+    "core",
+    "convection",
+    "seismic wave"
+   ],
+   "materials": [
+    "pot of water, food coloring, oatmeal flakes",
+    "hard-boiled egg"
+   ],
+   "days": [
+    {
+     "title": "Earth layers",
+     "work": "Model Earth's layers with a hard-boiled egg; compare to seismic data."
+    },
+    {
+     "title": "Seismic evidence",
+     "work": "Analyze P- and S-wave data showing the liquid outer core."
+    },
+    {
+     "title": "Convection model",
+     "work": "Heat water with oatmeal flakes to model mantle convection."
+    },
+    {
+     "title": "Heat sources",
+     "work": "Explain radioactive decay and primordial heat as energy sources for convection."
+    },
+    {
+     "title": "Review & check",
+     "work": "Draw and explain a model of mantle convection."
+    }
+   ],
+   "assessment": "Convection model rubric."
+  },
+  {
+   "week": 25,
+   "unit": 6,
+   "topic": "Plate tectonics and crustal ages",
+   "objectives": [
+    "Evaluate evidence for plate tectonics"
+   ],
+   "standards": [
+    "HS-ESS1-5",
+    "HS-ESS2-1"
+   ],
+   "vocabulary": [
+    "plate boundary",
+    "seafloor spreading",
+    "subduction",
+    "transform fault",
+    "magnetic striping"
+   ],
+   "materials": [
+    "seafloor age map",
+    "puzzle pieces from map"
+   ],
+   "days": [
+    {
+     "title": "Continental drift",
+     "work": "Fit continent cutouts using fossil and rock evidence."
+    },
+    {
+     "title": "Seafloor spreading",
+     "work": "Analyze seafloor age maps and magnetic striping."
+    },
+    {
+     "title": "Boundary types",
+     "work": "Map divergent, convergent, and transform boundaries."
+    },
+    {
+     "title": "California",
+     "work": "Study the San Andreas Fault as a transform boundary and Cascadia subduction."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a CER on the ages of crustal rocks."
+    }
+   ],
+   "assessment": "Plate tectonics CER."
+  },
+  {
+   "week": 26,
+   "unit": 6,
+   "topic": "Natural hazards and human activity",
+   "objectives": [
+    "Explain how natural hazards influence human activity"
+   ],
+   "standards": [
+    "HS-ESS3-1",
+    "HS-ESS2-1"
+   ],
+   "vocabulary": [
+    "earthquake",
+    "tsunami",
+    "liquefaction",
+    "magnitude",
+    "hazard mitigation"
+   ],
+   "materials": [
+    "USGS earthquake map",
+    "tray of sand and water (liquefaction)"
+   ],
+   "days": [
+    {
+     "title": "Earthquakes",
+     "work": "Explore the USGS real-time earthquake map and identify patterns."
+    },
+    {
+     "title": "Liquefaction",
+     "work": "Model liquefaction with sand, water, and a weight."
+    },
+    {
+     "title": "Building design",
+     "work": "Build a toothpick/marshmallow structure and test it on a shake table (tray)."
+    },
+    {
+     "title": "Hazards & society",
+     "work": "Research how earthquakes shaped California building codes."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 6 test on Earth's interior and plate tectonics."
+    }
+   ],
+   "assessment": "Shake table test and Unit 6 test."
+  },
+  {
+   "week": 27,
+   "unit": 7,
+   "topic": "The Sun",
+   "objectives": [
+    "Model the Sun's energy and life span"
+   ],
+   "standards": [
+    "HS-ESS1-1",
+    "HS-PS1-8"
+   ],
+   "vocabulary": [
+    "nuclear fusion",
+    "core",
+    "photosphere",
+    "solar wind",
+    "sunspot"
+   ],
+   "materials": [
+    "pinhole projector materials",
+    "NASA SDO images"
+   ],
+   "days": [
+    {
+     "title": "Sun structure",
+     "work": "Study the Sun's layers using NASA images."
+    },
+    {
+     "title": "Sunspots",
+     "work": "Build a pinhole projector and safely observe the Sun's disk."
+    },
+    {
+     "title": "Fusion",
+     "work": "Model hydrogen fusion and calculate energy release with E = mc²."
+    },
+    {
+     "title": "Life span",
+     "work": "Model the Sun's life span from fuel and energy output."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the Sun."
+    }
+   ],
+   "assessment": "Sun quiz."
+  },
+  {
+   "week": 28,
+   "unit": 7,
+   "topic": "Nuclear processes",
+   "objectives": [
+    "Model fission, fusion, and radioactive decay"
+   ],
+   "standards": [
+    "HS-PS1-8"
+   ],
+   "vocabulary": [
+    "isotope",
+    "half-life",
+    "fission",
+    "fusion",
+    "alpha decay",
+    "beta decay"
+   ],
+   "materials": [
+    "pennies or M&Ms for half-life",
+    "PhET Nuclear Fission"
+   ],
+   "days": [
+    {
+     "title": "Isotopes",
+     "work": "Review isotopes and nuclear notation."
+    },
+    {
+     "title": "Decay",
+     "work": "Model alpha, beta, and gamma decay."
+    },
+    {
+     "title": "Half-life",
+     "work": "Simulate half-life with pennies and graph decay."
+    },
+    {
+     "title": "Fission & fusion",
+     "work": "Compare fission and fusion; use PhET Nuclear Fission."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on nuclear processes."
+    }
+   ],
+   "assessment": "Half-life lab and quiz."
+  },
+  {
+   "week": 29,
+   "unit": 7,
+   "topic": "Stars and the elements",
+   "objectives": [
+    "Explain how stars produce elements"
+   ],
+   "standards": [
+    "HS-ESS1-3"
+   ],
+   "vocabulary": [
+    "nucleosynthesis",
+    "main sequence",
+    "supernova",
+    "H-R diagram",
+    "red giant"
+   ],
+   "materials": [
+    "star data table",
+    "spectroscope (CD and box)"
+   ],
+   "days": [
+    {
+     "title": "H-R diagram",
+     "work": "Plot star data on an H-R diagram."
+    },
+    {
+     "title": "Stellar life cycles",
+     "work": "Trace life cycles of low- and high-mass stars."
+    },
+    {
+     "title": "Spectroscopy",
+     "work": "Build a CD spectroscope and view different light sources."
+    },
+    {
+     "title": "Nucleosynthesis",
+     "work": "Create a periodic table color-coded by element origin."
+    },
+    {
+     "title": "Review & check",
+     "work": "Present how stars produce elements."
+    }
+   ],
+   "assessment": "Presentation."
+  },
+  {
+   "week": 30,
+   "unit": 7,
+   "topic": "Observing the night sky",
+   "objectives": [
+    "Use observations to understand the universe"
+   ],
+   "standards": [
+    "HS-ESS1-1",
+    "HS-ESS1-3",
+    "HS-ESS1-4"
+   ],
+   "vocabulary": [
+    "constellation",
+    "light-year",
+    "parallax",
+    "magnitude"
+   ],
+   "materials": [
+    "star chart app",
+    "binoculars"
+   ],
+   "days": [
+    {
+     "title": "Parallax",
+     "work": "Measure parallax with thumb and objects; relate to stellar distances."
+    },
+    {
+     "title": "Night observation",
+     "work": "Observe the night sky and record constellations and planets."
+    },
+    {
+     "title": "Light-years",
+     "work": "Calculate distances in light-years."
+    },
+    {
+     "title": "Telescopes",
+     "work": "Research how telescopes detect different wavelengths."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 7 test on the Sun and stars."
+    }
+   ],
+   "assessment": "Unit 7 test."
+  },
+  {
+   "week": 31,
+   "unit": 8,
+   "topic": "Evidence for the Big Bang",
+   "objectives": [
+    "Construct an explanation of the Big Bang"
+   ],
+   "standards": [
+    "HS-ESS1-2"
+   ],
+   "vocabulary": [
+    "redshift",
+    "Hubble's law",
+    "cosmic microwave background",
+    "expansion"
+   ],
+   "materials": [
+    "balloon and marker"
+   ],
+   "days": [
+    {
+     "title": "Expanding universe",
+     "work": "Draw dots on a balloon and inflate it to model expansion."
+    },
+    {
+     "title": "Redshift",
+     "work": "Analyze spectra showing redshift."
+    },
+    {
+     "title": "Hubble's law",
+     "work": "Graph galaxy velocity vs. distance and estimate the universe's age."
+    },
+    {
+     "title": "CMB",
+     "work": "Study the cosmic microwave background evidence."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a CER on the Big Bang."
+    }
+   ],
+   "assessment": "Big Bang CER."
+  },
+  {
+   "week": 32,
+   "unit": 8,
+   "topic": "Composition of matter in the universe",
+   "objectives": [
+    "Explain evidence from the composition of matter",
+    "Describe dark matter and dark energy evidence"
+   ],
+   "standards": [
+    "HS-ESS1-2",
+    "HS-ESS1-3"
+   ],
+   "vocabulary": [
+    "primordial nucleosynthesis",
+    "hydrogen-helium ratio",
+    "dark matter",
+    "dark energy",
+    "rotation curve"
+   ],
+   "materials": [
+    "NASA element-abundance chart",
+    "string, washers (rotation-curve model)"
+   ],
+   "days": [
+    {
+     "title": "Element abundance",
+     "work": "Graph cosmic element abundance data and explain why ~75% H / ~25% He by mass supports Big Bang nucleosynthesis."
+    },
+    {
+     "title": "Rotation curves",
+     "work": "Swing a washer on strings of different lengths to model orbital speed vs. radius, then compare to real galaxy rotation curves that stay flat."
+    },
+    {
+     "title": "Dark matter evidence",
+     "work": "Read NASA's dark matter overview and list three independent lines of evidence (rotation curves, lensing, cluster motions)."
+    },
+    {
+     "title": "Dark energy",
+     "work": "Read about the 1998 Type Ia supernova discovery and sketch a graph of expansion rate over time; hold a structured debate on what counts as 'evidence' for something unseen."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on composition of the universe with two short CER items."
+    }
+   ],
+   "assessment": "Quiz with CER items."
+  },
+  {
+   "week": 33,
+   "unit": 8,
+   "topic": "Earth's formation and early history",
+   "objectives": [
+    "Construct an account of Earth's formation using ancient materials"
+   ],
+   "standards": [
+    "HS-ESS1-6",
+    "HS-PS1-8"
+   ],
+   "vocabulary": [
+    "accretion",
+    "radiometric dating",
+    "zircon",
+    "meteorite",
+    "differentiation"
+   ],
+   "materials": [
+    "two colors of candy or beans in a bag (radiometric dating model)",
+    "Moon crater images"
+   ],
+   "days": [
+    {
+     "title": "Accretion",
+     "work": "Read NASA's solar system formation overview and diagram the steps from nebula to differentiated Earth."
+    },
+    {
+     "title": "Radiometric dating model",
+     "work": "Shake a bag of 100 'parent' candies, swap 'decayed' ones for a second color each round, and use the parent/daughter ratio to date mystery samples."
+    },
+    {
+     "title": "Ancient evidence",
+     "work": "Analyze data on 4.4-billion-year-old Jack Hills zircons, meteorite ages, and Moon rocks; explain why Earth's oldest rocks are younger than meteorites."
+    },
+    {
+     "title": "Earth timeline",
+     "work": "Build a 4.6-meter toilet-paper or string timeline of Earth history (1 m = 1 billion years) marking key events."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 8 test on Big Bang evidence, stellar elements, and Earth's origin."
+    }
+   ],
+   "assessment": "Timeline and Unit 8 test."
+  },
+  {
+   "week": 34,
+   "unit": 9,
+   "topic": "Energy resources and trade-offs",
+   "objectives": [
+    "Evaluate competing energy solutions with cost-benefit analysis",
+    "Specify criteria for a global challenge"
+   ],
+   "standards": [
+    "HS-ESS3-2",
+    "HS-ETS1-1",
+    "HS-ETS1-3",
+    "HS-ESS3-1"
+   ],
+   "vocabulary": [
+    "renewable",
+    "nonrenewable",
+    "levelized cost",
+    "capacity factor",
+    "carbon intensity"
+   ],
+   "materials": [
+    "California Energy Commission electricity-mix data",
+    "home electric bill"
+   ],
+   "days": [
+    {
+     "title": "California's energy mix",
+     "work": "Graph the California Energy Commission's latest in-state electricity mix and identify trends since 2010."
+    },
+    {
+     "title": "Home audit",
+     "work": "Use a home electric bill and appliance labels to estimate household kWh use and carbon emissions."
+    },
+    {
+     "title": "Cost-benefit matrix",
+     "work": "Compare solar, wind, natural gas, nuclear, and geothermal on cost per kWh, land use, emissions, and reliability."
+    },
+    {
+     "title": "Criteria & constraints",
+     "work": "Define criteria and constraints for meeting a town's evening peak demand, including storage."
+    },
+    {
+     "title": "Recommendation",
+     "work": "Write and present a one-page recommendation for a community energy plan defending trade-offs."
+    }
+   ],
+   "assessment": "Energy plan recommendation."
+  },
+  {
+   "week": 35,
+   "unit": 9,
+   "topic": "Engineering capstone: build a generator or wind turbine",
+   "objectives": [
+    "Design, build, test, and refine an energy-conversion device",
+    "Use a simulation to model a solution"
+   ],
+   "standards": [
+    "HS-PS3-3",
+    "HS-ETS1-2",
+    "HS-ETS1-4",
+    "HS-PS2-5"
+   ],
+   "vocabulary": [
+    "prototype",
+    "efficiency",
+    "blade pitch",
+    "iteration",
+    "load"
+   ],
+   "materials": [
+    "small DC motor (used as generator), cardboard or plastic bottle blades, LED, box fan, multimeter if available"
+   ],
+   "days": [
+    {
+     "title": "Define & research",
+     "work": "Define criteria (light an LED, maximize voltage) and constraints; read how turbines convert wind energy via induction."
+    },
+    {
+     "title": "Simulate & design",
+     "work": "Use a PhET or online wind simulation to explore blade number and angle, then sketch three designs and pick one with a decision matrix."
+    },
+    {
+     "title": "Build",
+     "work": "Build a turbine with bottle or cardboard blades attached to a small DC motor and mount it in front of a box fan."
+    },
+    {
+     "title": "Test & iterate",
+     "work": "Test at three fan speeds and two blade angles, recording LED brightness or voltage; revise the design once based on data."
+    },
+    {
+     "title": "Present",
+     "work": "Present the final device, data table, and efficiency discussion in a 5-minute engineering briefing."
+    }
+   ],
+   "assessment": "Capstone design rubric."
+  },
+  {
+   "week": 36,
+   "unit": 9,
+   "topic": "Final review and exam",
+   "objectives": [
+    "Demonstrate mastery across the year"
+   ],
+   "standards": [
+    "HS-PS2-1",
+    "HS-PS2-2",
+    "HS-PS3-1",
+    "HS-PS4-1",
+    "HS-ESS1-2",
+    "HS-ESS2-1"
+   ],
+   "vocabulary": [
+    "review"
+   ],
+   "materials": [
+    "final review packet",
+    "lab notebook"
+   ],
+   "days": [
+    {
+     "title": "Review: forces & energy",
+     "work": "Rework missed problems from Units 1–3 tests and complete a mixed problem set on momentum and energy conservation."
+    },
+    {
+     "title": "Review: E&M & waves",
+     "work": "Complete a concept map linking fields, induction, and EM waves, then solve 10 wave/circuit problems."
+    },
+    {
+     "title": "Review: Earth & space",
+     "work": "Make a one-page study sheet on plate tectonics, stellar life cycles, and Big Bang evidence."
+    },
+    {
+     "title": "Final exam part 1",
+     "work": "Multiple-choice and short-answer covering all nine units."
+    },
+    {
+     "title": "Final exam part 2",
+     "work": "Data-analysis section: interpret two unfamiliar data sets and write CER explanations."
+    }
+   ],
+   "assessment": "Final exam."
+  }
+ ]
+}

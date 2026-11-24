@@ -1,0 +1,1953 @@
+{
+  "grade": 9,
+  "subject": "MATH",
+  "title": "Algebra I",
+  "description": "Algebra I follows the CA CCSS traditional pathway: expressions, equations and inequalities, functions, linear and exponential models, systems, statistics, polynomials, and quadratics. Students model real data from home investigations (candle burning, coin decay, projectile tosses) and use Desmos for graphing and regression. Each unit ends with a test, with semester and final exams.",
+  "framework": "California Common Core State Standards for Mathematics (Algebra I, traditional pathway); 2023 CA Mathematics Framework",
+  "minutes_per_day": 60,
+  "ag_requirement": "c",
+  "credits": 10,
+  "standards": {
+    "N-RN.1": "Explain how the meaning of rational exponents follows from extending the properties of integer exponents.",
+    "N-RN.2": "Rewrite expressions involving radicals and rational exponents using the properties of exponents.",
+    "N-RN.3": "Explain why sums and products of rational and irrational numbers are rational or irrational.",
+    "N-Q.1": "Use units to understand problems and guide multi-step solutions; choose and interpret units and scales in graphs and formulas.",
+    "N-Q.2": "Define appropriate quantities for the purpose of descriptive modeling.",
+    "N-Q.3": "Choose a level of accuracy appropriate to limitations on measurement when reporting quantities.",
+    "A-SSE.1": "Interpret expressions that represent a quantity in terms of its context (terms, factors, coefficients).",
+    "A-SSE.2": "Use the structure of an expression to identify ways to rewrite it.",
+    "A-SSE.3": "Choose and produce an equivalent form of an expression (factor, complete the square, transform exponentials) to reveal properties of a quantity.",
+    "A-APR.1": "Understand that polynomials are closed under addition, subtraction, and multiplication; add, subtract, and multiply polynomials.",
+    "A-APR.3": "Identify zeros of polynomials when suitable factorizations are available and use them to sketch a graph.",
+    "A-CED.1": "Create equations and inequalities in one variable and use them to solve problems.",
+    "A-CED.2": "Create equations in two or more variables to represent relationships; graph them on coordinate axes.",
+    "A-CED.3": "Represent constraints by equations or inequalities and systems; interpret solutions as viable or nonviable.",
+    "A-CED.4": "Rearrange formulas to highlight a quantity of interest.",
+    "A-REI.1": "Explain each step in solving a simple equation and construct a viable argument to justify a solution method.",
+    "A-REI.3": "Solve linear equations and inequalities in one variable, including those with literal coefficients.",
+    "A-REI.3.1": "(CA) Solve equations and inequalities involving absolute value.",
+    "A-REI.4": "Solve quadratic equations in one variable by inspection, square roots, completing the square, the quadratic formula, and factoring.",
+    "A-REI.5": "Prove that replacing one equation in a system by the sum of it and a multiple of the other produces a system with the same solutions.",
+    "A-REI.6": "Solve systems of linear equations exactly and approximately, focusing on pairs of linear equations in two variables.",
+    "A-REI.7": "Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically.",
+    "A-REI.10": "Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane.",
+    "A-REI.11": "Explain why the x-coordinates of intersection points of y=f(x) and y=g(x) are solutions of f(x)=g(x); find solutions approximately.",
+    "A-REI.12": "Graph the solutions to a linear inequality in two variables as a half-plane and graph solution sets of systems of linear inequalities.",
+    "F-IF.1": "Understand that a function assigns to each element of the domain exactly one element of the range; use function notation.",
+    "F-IF.2": "Use function notation, evaluate functions for inputs in their domains, and interpret statements in context.",
+    "F-IF.3": "Recognize that sequences are functions whose domain is a subset of the integers.",
+    "F-IF.4": "Interpret key features of graphs and tables (intercepts, intervals of increase/decrease, maxima/minima, symmetry) in context.",
+    "F-IF.5": "Relate the domain of a function to its graph and to the quantitative relationship it describes.",
+    "F-IF.6": "Calculate and interpret the average rate of change of a function over a specified interval.",
+    "F-IF.7": "Graph functions expressed symbolically and show key features (linear, quadratic, square root, piecewise, absolute value, exponential).",
+    "F-IF.8": "Write a function in different but equivalent forms to reveal and explain properties (factoring/completing the square; exponential growth/decay).",
+    "F-IF.9": "Compare properties of two functions each represented in a different way.",
+    "F-BF.1": "Write a function that describes a relationship between two quantities, including explicit and recursive expressions.",
+    "F-BF.2": "Write arithmetic and geometric sequences recursively and explicitly and use them to model situations.",
+    "F-BF.3": "Identify the effect on the graph of replacing f(x) by f(x)+k, kf(x), f(kx), and f(x+k).",
+    "F-BF.4": "Find inverse functions by solving f(x)=c for a simple function.",
+    "F-LE.1": "Distinguish between situations that can be modeled with linear functions and with exponential functions.",
+    "F-LE.2": "Construct linear and exponential functions given a graph, a description, or input-output pairs.",
+    "F-LE.3": "Observe that a quantity increasing exponentially eventually exceeds a quantity increasing linearly or quadratically.",
+    "F-LE.5": "Interpret the parameters in a linear or exponential function in terms of a context.",
+    "F-LE.6": "(CA) Apply quadratic functions to physical problems such as the motion of an object under gravity.",
+    "S-ID.1": "Represent data with plots on the real number line (dot plots, histograms, box plots).",
+    "S-ID.2": "Use statistics appropriate to the shape of the data to compare center and spread of two or more data sets.",
+    "S-ID.3": "Interpret differences in shape, center, and spread in context, accounting for outliers.",
+    "S-ID.5": "Summarize categorical data for two categories in two-way frequency tables; interpret relative frequencies.",
+    "S-ID.6": "Represent data on two quantitative variables on a scatter plot and describe how they are related; fit a function to the data.",
+    "S-ID.7": "Interpret the slope and intercept of a linear model in the context of the data.",
+    "S-ID.8": "Compute (using technology) and interpret the correlation coefficient of a linear fit.",
+    "S-ID.9": "Distinguish between correlation and causation."
+  },
+  "resources": [
+    {
+      "name": "Khan Academy – Algebra 1",
+      "url": "https://www.khanacademy.org/math/algebra",
+      "note": "Videos and practice for every unit"
+    },
+    {
+      "name": "Illustrative Mathematics Algebra 1 (Kendall Hunt)",
+      "url": "https://im.kendallhunt.com/HS/students/1/index.html",
+      "note": "Free problem-based lessons and practice problems"
+    },
+    {
+      "name": "OpenStax Elementary Algebra 2e",
+      "url": "https://openstax.org/details/books/elementary-algebra-2e",
+      "note": "Free textbook for extra practice"
+    },
+    {
+      "name": "Desmos Graphing Calculator",
+      "url": "https://www.desmos.com/calculator",
+      "note": "Graphing, sliders, and regression"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Expressions, Quantities, and the Real Numbers",
+      "start_week": 1,
+      "end_week": 3,
+      "big_idea": "Expressions and units describe real quantities; the structure of an expression tells a story.",
+      "standards": [
+        "N-RN.3",
+        "N-Q.1",
+        "N-Q.2",
+        "N-Q.3",
+        "A-SSE.1"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Linear Equations and Inequalities in One Variable",
+      "start_week": 4,
+      "end_week": 7,
+      "big_idea": "Solving is a chain of reasoned, reversible steps that keep both sides equivalent.",
+      "standards": [
+        "A-REI.1",
+        "A-REI.3",
+        "A-REI.3.1",
+        "A-CED.1",
+        "A-CED.4",
+        "N-Q.1"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Functions and Their Representations",
+      "start_week": 8,
+      "end_week": 10,
+      "big_idea": "A function pairs each input with exactly one output and can be shown with words, tables, graphs, and equations.",
+      "standards": [
+        "F-IF.1",
+        "F-IF.2",
+        "F-IF.3",
+        "F-IF.4",
+        "F-IF.5",
+        "F-IF.9",
+        "F-BF.2",
+        "A-REI.10"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Linear Functions and Modeling",
+      "start_week": 11,
+      "end_week": 14,
+      "big_idea": "Linear functions model constant rate of change; slope and intercept have meaning in context.",
+      "standards": [
+        "F-IF.6",
+        "F-IF.7",
+        "F-BF.1",
+        "F-BF.3",
+        "F-BF.4",
+        "F-LE.1",
+        "F-LE.2",
+        "F-LE.5",
+        "A-CED.2",
+        "A-REI.10"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Systems of Equations and Inequalities",
+      "start_week": 15,
+      "end_week": 18,
+      "big_idea": "Systems find values that satisfy several conditions at once; inequalities describe regions of possibilities.",
+      "standards": [
+        "A-REI.5",
+        "A-REI.6",
+        "A-REI.11",
+        "A-REI.12",
+        "A-CED.3"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Statistics: One- and Two-Variable Data",
+      "start_week": 19,
+      "end_week": 21,
+      "big_idea": "Data analysis uses shape, center, spread, and association to make claims — but correlation is not causation.",
+      "standards": [
+        "S-ID.1",
+        "S-ID.2",
+        "S-ID.3",
+        "S-ID.5",
+        "S-ID.6",
+        "S-ID.7",
+        "S-ID.8",
+        "S-ID.9"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Exponents and Exponential Functions",
+      "start_week": 22,
+      "end_week": 24,
+      "big_idea": "Exponential functions grow or decay by a constant factor and eventually outpace linear growth.",
+      "standards": [
+        "N-RN.1",
+        "N-RN.2",
+        "F-LE.1",
+        "F-LE.2",
+        "F-LE.3",
+        "F-LE.5",
+        "F-IF.8",
+        "F-BF.2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Polynomials and Factoring",
+      "start_week": 25,
+      "end_week": 27,
+      "big_idea": "Polynomials behave like integers: we can add, multiply, and factor them by using structure.",
+      "standards": [
+        "A-APR.1",
+        "A-SSE.2",
+        "A-SSE.1"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Quadratic Functions and Their Graphs",
+      "start_week": 28,
+      "end_week": 30,
+      "big_idea": "Quadratics model area and projectile motion; their forms reveal vertex, zeros, and symmetry.",
+      "standards": [
+        "F-IF.4",
+        "F-IF.7",
+        "F-IF.8",
+        "F-BF.3",
+        "A-APR.3",
+        "A-SSE.3",
+        "F-LE.6"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Solving Quadratic Equations",
+      "start_week": 31,
+      "end_week": 34,
+      "big_idea": "Every quadratic can be solved by completing the square, which leads to the quadratic formula.",
+      "standards": [
+        "A-REI.4",
+        "A-SSE.3",
+        "A-CED.1",
+        "N-RN.3",
+        "A-REI.7",
+        "F-LE.6",
+        "F-LE.3"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Other Functions and Course Review",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "Absolute value, piecewise, and square root functions extend our toolkit of models.",
+      "standards": [
+        "F-IF.7",
+        "F-BF.3",
+        "F-IF.9",
+        "A-REI.3.1"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Real numbers and properties",
+      "objectives": [
+        "Classify numbers in the real number system",
+        "Explain why rational + irrational is irrational"
+      ],
+      "standards": [
+        "N-RN.3"
+      ],
+      "vocabulary": [
+        "rational",
+        "irrational",
+        "integer",
+        "closure",
+        "real number"
+      ],
+      "materials": [
+        "number line",
+        "calculator",
+        "Khan Academy account"
+      ],
+      "days": [
+        {
+          "title": "Number system",
+          "work": "Sort 30 numbers (√2, −3/4, π, 0.333..., √49) into a nested real-number diagram and justify each placement."
+        },
+        {
+          "title": "Properties",
+          "work": "Use commutative, associative, and distributive properties to compute 12 mental-math problems and name the property used."
+        },
+        {
+          "title": "Rational vs. irrational",
+          "work": "Explore sums and products like 3+√2 and √2·√8; write an explanation of when results are rational."
+        },
+        {
+          "title": "Order and estimate",
+          "work": "Estimate square roots between integers and order 15 real numbers on a number line."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on number classification, properties, and the rational/irrational argument."
+        }
+      ],
+      "assessment": "Quiz plus written explanation of why rational + irrational is irrational."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Interpreting algebraic expressions",
+      "objectives": [
+        "Identify terms, factors, and coefficients",
+        "Interpret expressions in context"
+      ],
+      "standards": [
+        "A-SSE.1",
+        "N-Q.2"
+      ],
+      "vocabulary": [
+        "term",
+        "factor",
+        "coefficient",
+        "constant",
+        "expression",
+        "variable"
+      ],
+      "materials": [
+        "expression cards",
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Parts of expressions",
+          "work": "Label terms, coefficients, factors, and constants in 15 expressions such as 3(x+2)−5x²."
+        },
+        {
+          "title": "Expressions in context",
+          "work": "Interpret expressions like 1.08p and 50+12h in shopping and phone-plan contexts."
+        },
+        {
+          "title": "Order of operations and evaluating",
+          "work": "Evaluate 20 expressions with integers, fractions, and exponents for given values."
+        },
+        {
+          "title": "Simplifying",
+          "work": "Combine like terms and use the distributive property to simplify 20 expressions; verify equivalence by substitution."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a quiz on interpreting and simplifying expressions."
+        }
+      ],
+      "assessment": "Expression quiz (85%+)."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Units, quantities, and measurement accuracy",
+      "objectives": [
+        "Use units to guide problem solving",
+        "Choose appropriate accuracy"
+      ],
+      "standards": [
+        "N-Q.1",
+        "N-Q.2",
+        "N-Q.3"
+      ],
+      "vocabulary": [
+        "unit rate",
+        "dimensional analysis",
+        "precision",
+        "significant digit",
+        "conversion factor"
+      ],
+      "materials": [
+        "measuring tape",
+        "kitchen scale",
+        "calculator"
+      ],
+      "days": [
+        {
+          "title": "Dimensional analysis",
+          "work": "Convert 12 rates (mph to ft/s, gallons/day to L/year) using conversion-factor chains."
+        },
+        {
+          "title": "Measuring lab",
+          "work": "Measure a room, a book, and a mug with a tape; report each measurement with appropriate precision."
+        },
+        {
+          "title": "Defining quantities",
+          "work": "For a road-trip problem, define the quantities needed (distance, fuel efficiency, cost) and build an expression for total cost."
+        },
+        {
+          "title": "Scales on graphs",
+          "work": "Choose axis scales and units for three data sets and explain your choices."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Take the Unit 1 test on real numbers, expressions, and units."
+        }
+      ],
+      "assessment": "Unit 1 test."
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "Solving multi-step linear equations",
+      "objectives": [
+        "Solve equations and justify each step",
+        "Solve equations with variables on both sides"
+      ],
+      "standards": [
+        "A-REI.1",
+        "A-REI.3"
+      ],
+      "vocabulary": [
+        "equation",
+        "inverse operation",
+        "solution",
+        "equivalent equations",
+        "justify"
+      ],
+      "materials": [
+        "algebra tiles or balance drawings"
+      ],
+      "days": [
+        {
+          "title": "Balance model",
+          "work": "Use balance-scale drawings to solve 10 two-step equations and write the property justifying each step."
+        },
+        {
+          "title": "Distributive equations",
+          "work": "Solve 15 equations involving parentheses and fractions (e.g., ⅔(x−6)=4)."
+        },
+        {
+          "title": "Variables on both sides",
+          "work": "Solve 15 equations with variables on both sides, including ones with no solution or infinitely many."
+        },
+        {
+          "title": "Error analysis",
+          "work": "Find and correct the error in 8 worked solutions, explaining each mistake in writing."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on multi-step equations with step justifications."
+        }
+      ],
+      "assessment": "Equation quiz with justifications."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Writing equations to solve problems; literal equations",
+      "objectives": [
+        "Create one-variable equations from contexts",
+        "Rearrange formulas"
+      ],
+      "standards": [
+        "A-CED.1",
+        "A-CED.4",
+        "N-Q.1"
+      ],
+      "vocabulary": [
+        "literal equation",
+        "formula",
+        "solve for",
+        "model"
+      ],
+      "materials": [
+        "formula sheet"
+      ],
+      "days": [
+        {
+          "title": "Modeling with equations",
+          "work": "Write and solve equations for 8 word problems (consecutive integers, perimeter, ticket sales)."
+        },
+        {
+          "title": "Rate and mixture problems",
+          "work": "Solve distance-rate-time and mixture problems with tables to organize information."
+        },
+        {
+          "title": "Literal equations",
+          "work": "Solve formulas like A=½bh, d=rt, and C=5/9(F−32) for a specified variable."
+        },
+        {
+          "title": "Formulas in context",
+          "work": "Rearrange the BMI and simple-interest formulas to answer questions about real data."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on modeling and literal equations."
+        }
+      ],
+      "assessment": "Modeling/literal equations quiz."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Linear inequalities in one variable",
+      "objectives": [
+        "Solve and graph inequalities",
+        "Write inequalities from constraints"
+      ],
+      "standards": [
+        "A-REI.3",
+        "A-CED.1"
+      ],
+      "vocabulary": [
+        "inequality",
+        "solution set",
+        "reverse the inequality",
+        "compound inequality",
+        "interval"
+      ],
+      "materials": [
+        "number lines"
+      ],
+      "days": [
+        {
+          "title": "Inequality basics",
+          "work": "Graph 12 inequalities on number lines and test values to verify solution sets."
+        },
+        {
+          "title": "Solving inequalities",
+          "work": "Solve multi-step inequalities, explaining why the sign reverses when multiplying by a negative."
+        },
+        {
+          "title": "Compound inequalities",
+          "work": "Solve and graph \"and\" and \"or\" inequalities such as −3 < 2x+1 ≤ 9."
+        },
+        {
+          "title": "Inequality word problems",
+          "work": "Write and solve inequalities for budgets, grades needed, and minimum sales."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on solving and graphing inequalities."
+        }
+      ],
+      "assessment": "Inequality quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Absolute value equations and inequalities; unit review",
+      "objectives": [
+        "Solve absolute value equations and inequalities",
+        "Synthesize Unit 2"
+      ],
+      "standards": [
+        "A-REI.3.1",
+        "A-REI.3",
+        "A-CED.1"
+      ],
+      "vocabulary": [
+        "absolute value",
+        "distance",
+        "tolerance"
+      ],
+      "materials": [
+        "number lines"
+      ],
+      "days": [
+        {
+          "title": "Absolute value as distance",
+          "work": "Solve |x−3|=5 by reasoning about distance on a number line; then solve 12 equations algebraically."
+        },
+        {
+          "title": "Absolute value inequalities",
+          "work": "Solve and graph |2x+1|<7 and |x−4|≥3 type inequalities."
+        },
+        {
+          "title": "Tolerance problems",
+          "work": "Write absolute value inequalities for manufacturing tolerances and thermostat ranges."
+        },
+        {
+          "title": "Unit review",
+          "work": "Complete a mixed review of equations, formulas, and inequalities."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Take the Unit 2 test."
+        }
+      ],
+      "assessment": "Unit 2 test."
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "What is a function?",
+      "objectives": [
+        "Determine whether a relation is a function",
+        "Use function notation"
+      ],
+      "standards": [
+        "F-IF.1",
+        "F-IF.2",
+        "A-REI.10"
+      ],
+      "vocabulary": [
+        "function",
+        "domain",
+        "range",
+        "input",
+        "output",
+        "function notation",
+        "vertical line test"
+      ],
+      "materials": [
+        "graph paper",
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Relations and functions",
+          "work": "Sort 16 mappings, tables, and graphs into functions/non-functions and explain the rule."
+        },
+        {
+          "title": "Function notation",
+          "work": "Evaluate f(x)=3x²−2x for 10 inputs and interpret f(5)=120 in a context."
+        },
+        {
+          "title": "Graphs as solution sets",
+          "work": "Plot points from an equation and explain why every point on the graph makes it true."
+        },
+        {
+          "title": "Domain and range",
+          "work": "Find domain and range from graphs, tables, and context (e.g., tickets sold can't be negative)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on function definition, notation, and domain/range."
+        }
+      ],
+      "assessment": "Function quiz."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Interpreting graphs and key features",
+      "objectives": [
+        "Identify key features of graphs in context",
+        "Relate domain to context"
+      ],
+      "standards": [
+        "F-IF.4",
+        "F-IF.5"
+      ],
+      "vocabulary": [
+        "intercept",
+        "increasing",
+        "decreasing",
+        "maximum",
+        "minimum",
+        "interval"
+      ],
+      "materials": [
+        "graph stories cards"
+      ],
+      "days": [
+        {
+          "title": "Graph stories",
+          "work": "Match 8 graphs to stories (e.g., filling a bathtub) and sketch graphs for 4 new stories."
+        },
+        {
+          "title": "Key features",
+          "work": "Identify intercepts, intervals of increase/decrease, and maxima/minima on 10 graphs."
+        },
+        {
+          "title": "Context domain",
+          "work": "Determine reasonable domains for functions modeling a phone battery, a ball's height, and a savings plan."
+        },
+        {
+          "title": "Comparing functions",
+          "work": "Compare two functions given as a table and a graph (e.g., two runners) and decide which grows faster."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph interpreting a real graph (e.g., daily temperatures) and take a short quiz."
+        }
+      ],
+      "assessment": "Graph interpretation paragraph and quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Sequences as functions",
+      "objectives": [
+        "Write arithmetic sequences explicitly and recursively",
+        "Connect sequences to linear functions"
+      ],
+      "standards": [
+        "F-IF.3",
+        "F-BF.2",
+        "F-IF.9"
+      ],
+      "vocabulary": [
+        "sequence",
+        "term",
+        "common difference",
+        "recursive",
+        "explicit"
+      ],
+      "materials": [
+        "toothpicks or tiles for pattern building"
+      ],
+      "days": [
+        {
+          "title": "Visual patterns",
+          "work": "Build toothpick patterns and write how many toothpicks are in step n."
+        },
+        {
+          "title": "Arithmetic sequences",
+          "work": "Find common differences and write explicit formulas aₙ=a₁+(n−1)d for 10 sequences."
+        },
+        {
+          "title": "Recursive formulas",
+          "work": "Write recursive definitions and convert between recursive and explicit forms."
+        },
+        {
+          "title": "Sequences as functions",
+          "work": "Graph sequences as discrete points and compare to linear functions."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Take the Unit 3 test on functions and sequences."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 11,
+      "unit": 4,
+      "topic": "Slope and rate of change",
+      "objectives": [
+        "Calculate and interpret slope",
+        "Compute average rate of change"
+      ],
+      "standards": [
+        "F-IF.6",
+        "F-LE.1",
+        "F-LE.5"
+      ],
+      "vocabulary": [
+        "slope",
+        "rate of change",
+        "rise over run",
+        "constant rate"
+      ],
+      "materials": [
+        "graph paper",
+        "stairs and tape measure"
+      ],
+      "days": [
+        {
+          "title": "Stair slope lab",
+          "work": "Measure rise and run of household stairs and a ramp; compute and compare slopes."
+        },
+        {
+          "title": "Slope from two points",
+          "work": "Calculate slope from points, tables, and graphs for 15 problems."
+        },
+        {
+          "title": "Rate of change in context",
+          "work": "Interpret slopes like −2.5 gallons/hour and $12/ticket."
+        },
+        {
+          "title": "Average rate of change",
+          "work": "Find average rate of change of nonlinear data over intervals (e.g., population table)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Slope quiz."
+        }
+      ],
+      "assessment": "Slope quiz and lab write-up."
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "Writing and graphing linear equations",
+      "objectives": [
+        "Write equations in slope-intercept, point-slope, and standard form",
+        "Graph linear functions"
+      ],
+      "standards": [
+        "F-IF.7",
+        "A-CED.2",
+        "F-LE.2",
+        "A-REI.10"
+      ],
+      "vocabulary": [
+        "slope-intercept form",
+        "point-slope form",
+        "standard form",
+        "y-intercept",
+        "x-intercept"
+      ],
+      "materials": [
+        "graph paper",
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Slope-intercept form",
+          "work": "Graph 12 equations y=mx+b and interpret m and b in two contexts."
+        },
+        {
+          "title": "Point-slope form",
+          "work": "Write equations through given points and slopes; convert to slope-intercept form."
+        },
+        {
+          "title": "Standard form",
+          "work": "Graph using intercepts for equations like 3x+4y=24 (budget for two items)."
+        },
+        {
+          "title": "Parallel and perpendicular",
+          "work": "Write equations of lines parallel or perpendicular to a given line."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on writing and graphing linear equations."
+        }
+      ],
+      "assessment": "Linear equation quiz."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Linear models, transformations, and inverses",
+      "objectives": [
+        "Build linear models from contexts",
+        "Describe transformations of f(x)=x",
+        "Find inverses of linear functions"
+      ],
+      "standards": [
+        "F-BF.1",
+        "F-BF.3",
+        "F-BF.4",
+        "F-LE.5"
+      ],
+      "vocabulary": [
+        "model",
+        "parameter",
+        "transformation",
+        "vertical shift",
+        "inverse function"
+      ],
+      "materials": [
+        "Desmos sliders"
+      ],
+      "days": [
+        {
+          "title": "Build a model",
+          "work": "Write a linear function for a phone plan, a gym membership, and a cooling cup of tea (table data)."
+        },
+        {
+          "title": "Transformations",
+          "work": "Use Desmos sliders to describe how f(x)+k and kf(x) change the graph of f(x)=x."
+        },
+        {
+          "title": "Inverse functions",
+          "work": "Find inverses of linear functions like the Celsius–Fahrenheit conversion and interpret them."
+        },
+        {
+          "title": "Comparing models",
+          "work": "Compare two cell-plan functions and find when one becomes cheaper."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on modeling, transformations, and inverses."
+        }
+      ],
+      "assessment": "Modeling quiz."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Linear modeling project",
+      "objectives": [
+        "Apply linear functions to a real data set",
+        "Communicate a model"
+      ],
+      "standards": [
+        "F-LE.2",
+        "F-LE.5",
+        "A-CED.2",
+        "F-IF.6"
+      ],
+      "vocabulary": [
+        "linear model",
+        "prediction",
+        "interpolation",
+        "extrapolation"
+      ],
+      "materials": [
+        "recorded data (e.g., candle burning or water draining)",
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Collect data",
+          "work": "Burn a candle (or drain a bottle of water through a hole) and record height every 5 minutes."
+        },
+        {
+          "title": "Model the data",
+          "work": "Plot data, draw a line of fit, and write its equation."
+        },
+        {
+          "title": "Interpret",
+          "work": "Interpret slope and intercept and predict when the candle will burn out."
+        },
+        {
+          "title": "Report",
+          "work": "Write a one-page report with graph, equation, prediction, and limitations."
+        },
+        {
+          "title": "Unit 4 test",
+          "work": "Take the Unit 4 test on linear functions."
+        }
+      ],
+      "assessment": "Project report and Unit 4 test."
+    },
+    {
+      "week": 15,
+      "unit": 5,
+      "topic": "Solving systems by graphing and substitution",
+      "objectives": [
+        "Solve systems by graphing",
+        "Solve systems by substitution"
+      ],
+      "standards": [
+        "A-REI.6",
+        "A-REI.11",
+        "A-CED.3"
+      ],
+      "vocabulary": [
+        "system",
+        "solution",
+        "intersection",
+        "substitution",
+        "consistent",
+        "inconsistent"
+      ],
+      "materials": [
+        "graph paper",
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Graphing systems",
+          "work": "Solve 8 systems by graphing; classify each as one, none, or infinitely many solutions."
+        },
+        {
+          "title": "Intersections as solutions",
+          "work": "Explain why the intersection of f(x) and g(x) solves f(x)=g(x); approximate solutions with a table."
+        },
+        {
+          "title": "Substitution",
+          "work": "Solve 12 systems by substitution and check solutions in both equations."
+        },
+        {
+          "title": "Systems in context",
+          "work": "Write and solve systems for ticket sales and two-plan comparisons."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on graphing and substitution."
+        }
+      ],
+      "assessment": "Systems quiz."
+    },
+    {
+      "week": 16,
+      "unit": 5,
+      "topic": "Solving systems by elimination",
+      "objectives": [
+        "Solve systems by elimination",
+        "Justify why elimination works"
+      ],
+      "standards": [
+        "A-REI.5",
+        "A-REI.6",
+        "A-CED.3"
+      ],
+      "vocabulary": [
+        "elimination",
+        "linear combination",
+        "equivalent system"
+      ],
+      "materials": [
+        "algebra tiles (optional)"
+      ],
+      "days": [
+        {
+          "title": "Elimination by adding",
+          "work": "Solve 10 systems where adding eliminates a variable."
+        },
+        {
+          "title": "Multiplying first",
+          "work": "Solve 10 systems that require multiplying one or both equations."
+        },
+        {
+          "title": "Why it works",
+          "work": "Write an argument explaining why replacing an equation with a sum of equations keeps the same solutions."
+        },
+        {
+          "title": "Choosing a method",
+          "work": "Solve 8 mixed systems choosing the most efficient method; justify choices."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on elimination and method choice."
+        }
+      ],
+      "assessment": "Elimination quiz with written justification."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Linear inequalities in two variables and systems of inequalities",
+      "objectives": [
+        "Graph linear inequalities as half-planes",
+        "Solve constraint problems with systems of inequalities"
+      ],
+      "standards": [
+        "A-REI.12",
+        "A-CED.3"
+      ],
+      "vocabulary": [
+        "half-plane",
+        "boundary line",
+        "solution region",
+        "constraint",
+        "feasible"
+      ],
+      "materials": [
+        "colored pencils",
+        "graph paper"
+      ],
+      "days": [
+        {
+          "title": "Half-planes",
+          "work": "Graph 10 inequalities in two variables using dashed/solid boundaries and test points."
+        },
+        {
+          "title": "Systems of inequalities",
+          "work": "Graph systems and shade the overlapping solution region."
+        },
+        {
+          "title": "Constraints",
+          "work": "Model a bake-sale problem (time, ingredients) with inequalities and identify viable combinations."
+        },
+        {
+          "title": "Viable or not",
+          "work": "Decide whether given points are viable solutions in context and explain."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on inequalities in two variables."
+        }
+      ],
+      "assessment": "Inequality systems quiz."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Semester review and exam",
+      "objectives": [
+        "Review Units 1–5",
+        "Demonstrate mastery on a cumulative exam"
+      ],
+      "standards": [
+        "A-REI.6",
+        "A-REI.12",
+        "A-CED.3",
+        "A-REI.11"
+      ],
+      "vocabulary": [
+        "cumulative review"
+      ],
+      "materials": [
+        "semester review packet"
+      ],
+      "days": [
+        {
+          "title": "Review: equations and inequalities",
+          "work": "Complete mixed review on Units 1–2 and correct errors."
+        },
+        {
+          "title": "Review: functions and linear models",
+          "work": "Complete mixed review on Units 3–4."
+        },
+        {
+          "title": "Review: systems",
+          "work": "Complete mixed review on Unit 5, including a context problem."
+        },
+        {
+          "title": "Practice exam",
+          "work": "Take a timed practice exam and analyze mistakes."
+        },
+        {
+          "title": "Semester exam",
+          "work": "Take the semester exam."
+        }
+      ],
+      "assessment": "Semester exam."
+    },
+    {
+      "week": 19,
+      "unit": 6,
+      "topic": "Representing and summarizing one-variable data",
+      "objectives": [
+        "Create dot plots, histograms, and box plots",
+        "Calculate measures of center and spread"
+      ],
+      "standards": [
+        "S-ID.1",
+        "S-ID.2"
+      ],
+      "vocabulary": [
+        "mean",
+        "median",
+        "IQR",
+        "standard deviation",
+        "histogram",
+        "box plot"
+      ],
+      "materials": [
+        "stopwatch",
+        "spreadsheet or Desmos"
+      ],
+      "days": [
+        {
+          "title": "Collect data",
+          "work": "Measure reaction time 20 times (ruler-drop test) for yourself and family members."
+        },
+        {
+          "title": "Plots",
+          "work": "Make a dot plot, histogram, and box plot of the data."
+        },
+        {
+          "title": "Center",
+          "work": "Compute mean and median and explain which is more appropriate for skewed data."
+        },
+        {
+          "title": "Spread",
+          "work": "Compute range, IQR, and standard deviation with technology; interpret each."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on data displays and measures."
+        }
+      ],
+      "assessment": "Data display quiz."
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "Comparing distributions and categorical data",
+      "objectives": [
+        "Compare data sets using shape, center, and spread",
+        "Analyze two-way tables"
+      ],
+      "standards": [
+        "S-ID.2",
+        "S-ID.3",
+        "S-ID.5"
+      ],
+      "vocabulary": [
+        "skewed",
+        "symmetric",
+        "outlier",
+        "two-way table",
+        "relative frequency",
+        "conditional frequency"
+      ],
+      "materials": [
+        "survey results",
+        "spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Comparing distributions",
+          "work": "Compare reaction times with dominant vs. non-dominant hand using box plots."
+        },
+        {
+          "title": "Outliers",
+          "work": "Identify outliers with the 1.5×IQR rule and discuss their effect on mean and SD."
+        },
+        {
+          "title": "Two-way tables",
+          "work": "Survey 20 people on two categorical questions and build a two-way table."
+        },
+        {
+          "title": "Relative frequencies",
+          "work": "Compute joint, marginal, and conditional relative frequencies and describe associations."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on comparing distributions and two-way tables."
+        }
+      ],
+      "assessment": "Quiz and survey analysis."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Scatter plots, regression, and correlation",
+      "objectives": [
+        "Fit linear models to bivariate data",
+        "Interpret correlation coefficients",
+        "Distinguish correlation and causation"
+      ],
+      "standards": [
+        "S-ID.6",
+        "S-ID.7",
+        "S-ID.8",
+        "S-ID.9"
+      ],
+      "vocabulary": [
+        "scatter plot",
+        "line of best fit",
+        "residual",
+        "correlation coefficient",
+        "causation"
+      ],
+      "materials": [
+        "Desmos regression tool",
+        "height/arm span data"
+      ],
+      "days": [
+        {
+          "title": "Scatter plots",
+          "work": "Measure height and arm span of family members (or use a provided data set) and make a scatter plot."
+        },
+        {
+          "title": "Regression",
+          "work": "Use Desmos to find a linear regression and interpret slope and intercept."
+        },
+        {
+          "title": "Residuals and r",
+          "work": "Plot residuals and interpret the correlation coefficient."
+        },
+        {
+          "title": "Correlation vs. causation",
+          "work": "Analyze 6 headlines (e.g., ice cream sales and drownings) for confounding variables."
+        },
+        {
+          "title": "Unit 6 test",
+          "work": "Take the Unit 6 statistics test."
+        }
+      ],
+      "assessment": "Unit 6 test."
+    },
+    {
+      "week": 22,
+      "unit": 7,
+      "topic": "Properties of exponents and radicals",
+      "objectives": [
+        "Apply exponent rules",
+        "Rewrite rational exponents as radicals"
+      ],
+      "standards": [
+        "N-RN.1",
+        "N-RN.2"
+      ],
+      "vocabulary": [
+        "exponent",
+        "power",
+        "zero exponent",
+        "negative exponent",
+        "rational exponent",
+        "radical"
+      ],
+      "materials": [
+        "exponent rule cards"
+      ],
+      "days": [
+        {
+          "title": "Exponent rules",
+          "work": "Derive product, quotient, and power rules with expanded form; simplify 20 expressions."
+        },
+        {
+          "title": "Zero and negative exponents",
+          "work": "Explain patterns that define a⁰=1 and a⁻ⁿ=1/aⁿ; simplify 15 expressions."
+        },
+        {
+          "title": "Rational exponents",
+          "work": "Show why 8^(1/3)=∛8 using the power rule; convert between forms."
+        },
+        {
+          "title": "Simplifying radicals",
+          "work": "Simplify radicals like √72 and expressions with rational exponents."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on exponents and radicals."
+        }
+      ],
+      "assessment": "Exponent quiz."
+    },
+    {
+      "week": 23,
+      "unit": 7,
+      "topic": "Exponential growth and decay",
+      "objectives": [
+        "Write exponential functions from tables and contexts",
+        "Interpret growth and decay factors"
+      ],
+      "standards": [
+        "F-LE.1",
+        "F-LE.2",
+        "F-LE.5",
+        "F-IF.8",
+        "F-BF.2"
+      ],
+      "vocabulary": [
+        "exponential function",
+        "growth factor",
+        "decay factor",
+        "initial value",
+        "geometric sequence",
+        "percent rate"
+      ],
+      "materials": [
+        "M&Ms or coins for decay simulation"
+      ],
+      "days": [
+        {
+          "title": "Linear vs. exponential",
+          "work": "Compare a $1/day plan and a doubling-penny plan in tables to see constant difference vs. constant ratio."
+        },
+        {
+          "title": "Decay simulation",
+          "work": "Shake 100 coins, remove heads each round, record the counts, and fit an exponential decay model."
+        },
+        {
+          "title": "Growth and decay factors",
+          "work": "Write functions like A=500(1.04)^t and identify percent rate of change."
+        },
+        {
+          "title": "Geometric sequences",
+          "work": "Write geometric sequences recursively and explicitly."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on exponential models."
+        }
+      ],
+      "assessment": "Exponential quiz and simulation analysis."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Exponential models and comparing growth",
+      "objectives": [
+        "Compare linear and exponential growth",
+        "Model compound interest and population"
+      ],
+      "standards": [
+        "F-LE.3",
+        "F-LE.5",
+        "F-IF.8",
+        "F-LE.2"
+      ],
+      "vocabulary": [
+        "compound interest",
+        "half-life",
+        "doubling time"
+      ],
+      "materials": [
+        "Desmos",
+        "calculator"
+      ],
+      "days": [
+        {
+          "title": "Compound interest",
+          "work": "Model savings at 5% compounded yearly and monthly; compare results."
+        },
+        {
+          "title": "Eventually exceeds",
+          "work": "Graph y=100x and y=1.1^x and find where exponential overtakes linear."
+        },
+        {
+          "title": "Rewriting exponentials",
+          "work": "Rewrite 1.15^t as (1.15^(1/12))^(12t) to find monthly rate."
+        },
+        {
+          "title": "Half-life",
+          "work": "Model medicine leaving the body with a half-life function."
+        },
+        {
+          "title": "Unit 7 test",
+          "work": "Take the Unit 7 test on exponents and exponential functions."
+        }
+      ],
+      "assessment": "Unit 7 test."
+    },
+    {
+      "week": 25,
+      "unit": 8,
+      "topic": "Adding, subtracting, and multiplying polynomials",
+      "objectives": [
+        "Classify polynomials",
+        "Add, subtract, and multiply polynomials"
+      ],
+      "standards": [
+        "A-APR.1",
+        "A-SSE.1"
+      ],
+      "vocabulary": [
+        "polynomial",
+        "monomial",
+        "binomial",
+        "trinomial",
+        "degree",
+        "standard form"
+      ],
+      "materials": [
+        "algebra tiles",
+        "area model templates"
+      ],
+      "days": [
+        {
+          "title": "Polynomial vocabulary",
+          "work": "Classify 15 polynomials by degree and number of terms; write in standard form."
+        },
+        {
+          "title": "Add and subtract",
+          "work": "Add and subtract polynomials with algebra tiles, then symbolically."
+        },
+        {
+          "title": "Multiply",
+          "work": "Multiply monomials by polynomials and binomials by binomials with area models."
+        },
+        {
+          "title": "Special products",
+          "work": "Find patterns in (a+b)², (a−b)², and (a+b)(a−b)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on polynomial operations; explain why polynomials are closed under multiplication."
+        }
+      ],
+      "assessment": "Polynomial operations quiz."
+    },
+    {
+      "week": 26,
+      "unit": 8,
+      "topic": "Factoring polynomials",
+      "objectives": [
+        "Factor GCF and trinomials",
+        "Recognize special factoring patterns"
+      ],
+      "standards": [
+        "A-SSE.2",
+        "A-APR.1"
+      ],
+      "vocabulary": [
+        "factor",
+        "GCF",
+        "trinomial",
+        "difference of squares",
+        "perfect square trinomial"
+      ],
+      "materials": [
+        "algebra tiles",
+        "area models"
+      ],
+      "days": [
+        {
+          "title": "GCF",
+          "work": "Factor out greatest common factors from 15 polynomials."
+        },
+        {
+          "title": "Trinomials (a=1)",
+          "work": "Factor x²+bx+c using area models and sum-product reasoning."
+        },
+        {
+          "title": "Trinomials (a≠1)",
+          "work": "Factor ax²+bx+c by grouping (AC method)."
+        },
+        {
+          "title": "Special patterns",
+          "work": "Factor differences of squares and perfect-square trinomials, such as x⁴−16."
+        },
+        {
+          "title": "Review & check",
+          "work": "Factoring quiz."
+        }
+      ],
+      "assessment": "Factoring quiz."
+    },
+    {
+      "week": 27,
+      "unit": 8,
+      "topic": "Factoring practice and Unit 8 test",
+      "objectives": [
+        "Choose factoring strategies",
+        "Use structure to rewrite expressions"
+      ],
+      "standards": [
+        "A-SSE.2",
+        "A-SSE.1",
+        "A-APR.1"
+      ],
+      "vocabulary": [
+        "factor completely",
+        "prime polynomial"
+      ],
+      "materials": [
+        "factoring flowchart"
+      ],
+      "days": [
+        {
+          "title": "Factoring flowchart",
+          "work": "Build a decision flowchart and factor 20 mixed polynomials completely."
+        },
+        {
+          "title": "Structure",
+          "work": "Factor expressions like 4x²−9y² and (x+2)²−25 by seeing them as patterns."
+        },
+        {
+          "title": "Area applications",
+          "work": "Write factored expressions for areas of rectangles and borders."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a mixed Unit 8 review."
+        },
+        {
+          "title": "Unit 8 test",
+          "work": "Take the Unit 8 test."
+        }
+      ],
+      "assessment": "Unit 8 test."
+    },
+    {
+      "week": 28,
+      "unit": 9,
+      "topic": "Graphing quadratic functions",
+      "objectives": [
+        "Identify key features of parabolas",
+        "Graph from standard form"
+      ],
+      "standards": [
+        "F-IF.4",
+        "F-IF.7",
+        "F-BF.3"
+      ],
+      "vocabulary": [
+        "parabola",
+        "vertex",
+        "axis of symmetry",
+        "maximum",
+        "minimum",
+        "quadratic"
+      ],
+      "materials": [
+        "graph paper",
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Exploring parabolas",
+          "work": "Graph y=x² and use Desmos sliders to describe the effects of a, h, and k."
+        },
+        {
+          "title": "Key features",
+          "work": "Identify vertex, axis of symmetry, intercepts, and max/min for 10 parabolas."
+        },
+        {
+          "title": "Standard form",
+          "work": "Graph y=ax²+bx+c using x=−b/2a and a table."
+        },
+        {
+          "title": "Transformations",
+          "work": "Write equations of transformed parabolas from graphs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on parabola features."
+        }
+      ],
+      "assessment": "Parabola quiz."
+    },
+    {
+      "week": 29,
+      "unit": 9,
+      "topic": "Forms of quadratic functions",
+      "objectives": [
+        "Use vertex, standard, and factored forms",
+        "Find zeros from factored form"
+      ],
+      "standards": [
+        "F-IF.8",
+        "A-SSE.3",
+        "A-APR.3"
+      ],
+      "vocabulary": [
+        "vertex form",
+        "factored form",
+        "standard form",
+        "zero",
+        "root",
+        "x-intercept"
+      ],
+      "materials": [
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Factored form",
+          "work": "Find zeros from factored form and sketch the graph."
+        },
+        {
+          "title": "Vertex form",
+          "work": "Graph from vertex form and convert to standard form."
+        },
+        {
+          "title": "Completing the square to vertex form",
+          "work": "Rewrite x²+6x+5 in vertex form by completing the square."
+        },
+        {
+          "title": "Choosing a form",
+          "work": "Decide which form best answers a question (max height vs. landing point)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on quadratic forms."
+        }
+      ],
+      "assessment": "Forms quiz."
+    },
+    {
+      "week": 30,
+      "unit": 9,
+      "topic": "Quadratic modeling: projectiles and area",
+      "objectives": [
+        "Model projectile motion",
+        "Interpret key features in context"
+      ],
+      "standards": [
+        "F-LE.6",
+        "F-IF.4",
+        "F-IF.7"
+      ],
+      "vocabulary": [
+        "projectile",
+        "initial velocity",
+        "gravity",
+        "h(t)=−16t²+v₀t+h₀"
+      ],
+      "materials": [
+        "ball",
+        "video recording or stopwatch",
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Projectile lab",
+          "work": "Toss a ball straight up, time the flight, and use h(t)=−16t²+v₀t+h₀ to estimate initial velocity."
+        },
+        {
+          "title": "Max height",
+          "work": "Find maximum height and when it occurs for several launch scenarios."
+        },
+        {
+          "title": "Area models",
+          "work": "Maximize the area of a garden with 40 ft of fencing using a quadratic function."
+        },
+        {
+          "title": "Interpreting",
+          "work": "Answer context questions about domain, range, and intercepts for projectile models."
+        },
+        {
+          "title": "Unit 9 test",
+          "work": "Take the Unit 9 test on quadratic functions."
+        }
+      ],
+      "assessment": "Lab write-up and Unit 9 test."
+    },
+    {
+      "week": 31,
+      "unit": 10,
+      "topic": "Solving quadratics by factoring and square roots",
+      "objectives": [
+        "Solve by factoring with the zero product property",
+        "Solve by taking square roots"
+      ],
+      "standards": [
+        "A-REI.4",
+        "A-SSE.3",
+        "A-CED.1"
+      ],
+      "vocabulary": [
+        "zero product property",
+        "square root method",
+        "standard form equation"
+      ],
+      "materials": [
+        "factoring flowchart"
+      ],
+      "days": [
+        {
+          "title": "Zero product property",
+          "work": "Solve 15 equations by factoring after writing in standard form."
+        },
+        {
+          "title": "Square roots",
+          "work": "Solve equations like 3(x−2)²=48 by square roots."
+        },
+        {
+          "title": "Word problems",
+          "work": "Solve area and number problems by factoring."
+        },
+        {
+          "title": "Graphs and solutions",
+          "work": "Connect solutions to x-intercepts on Desmos."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on factoring and square-root methods."
+        }
+      ],
+      "assessment": "Solving quiz."
+    },
+    {
+      "week": 32,
+      "unit": 10,
+      "topic": "Completing the square and the quadratic formula",
+      "objectives": [
+        "Solve by completing the square",
+        "Derive and use the quadratic formula"
+      ],
+      "standards": [
+        "A-REI.4",
+        "A-SSE.3",
+        "N-RN.3"
+      ],
+      "vocabulary": [
+        "completing the square",
+        "quadratic formula",
+        "discriminant",
+        "irrational solution"
+      ],
+      "materials": [
+        "algebra tiles"
+      ],
+      "days": [
+        {
+          "title": "Completing the square",
+          "work": "Solve 10 equations by completing the square with tiles, then symbolically."
+        },
+        {
+          "title": "Deriving the formula",
+          "work": "Complete the square on ax²+bx+c=0 to derive the quadratic formula."
+        },
+        {
+          "title": "Using the formula",
+          "work": "Solve 15 equations with the quadratic formula, giving exact and decimal answers."
+        },
+        {
+          "title": "Discriminant",
+          "work": "Use b²−4ac to predict the number of real solutions and explain why some solutions are irrational."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on completing the square and the quadratic formula."
+        }
+      ],
+      "assessment": "Quadratic formula quiz."
+    },
+    {
+      "week": 33,
+      "unit": 10,
+      "topic": "Choosing methods and quadratic applications",
+      "objectives": [
+        "Choose efficient solving methods",
+        "Solve applied quadratic problems"
+      ],
+      "standards": [
+        "A-REI.4",
+        "A-CED.1",
+        "F-LE.6",
+        "F-LE.3"
+      ],
+      "vocabulary": [
+        "efficient method",
+        "viable solution"
+      ],
+      "materials": [
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Choosing methods",
+          "work": "Solve 16 mixed equations, choosing factoring, square roots, completing the square, or the formula."
+        },
+        {
+          "title": "Projectile problems",
+          "work": "Solve when a launched object hits the ground or reaches a height."
+        },
+        {
+          "title": "Linear, quadratic, exponential",
+          "work": "Compare growth of 10x, x², and 2^x in a table and explain which eventually wins."
+        },
+        {
+          "title": "Rejecting solutions",
+          "work": "Solve applications where one solution isn't viable (negative time or length)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on applications."
+        }
+      ],
+      "assessment": "Applications quiz."
+    },
+    {
+      "week": 34,
+      "unit": 10,
+      "topic": "Linear-quadratic systems and Unit 10 test",
+      "objectives": [
+        "Solve linear-quadratic systems",
+        "Synthesize quadratic solving"
+      ],
+      "standards": [
+        "A-REI.7",
+        "A-REI.4"
+      ],
+      "vocabulary": [
+        "linear-quadratic system",
+        "intersection points"
+      ],
+      "materials": [
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Graphing systems",
+          "work": "Graph a line and parabola and identify 0, 1, or 2 intersections."
+        },
+        {
+          "title": "Algebraic solutions",
+          "work": "Solve linear-quadratic systems by substitution."
+        },
+        {
+          "title": "Context",
+          "work": "Solve when a thrown ball crosses a ramp line."
+        },
+        {
+          "title": "Review",
+          "work": "Mixed Unit 10 review."
+        },
+        {
+          "title": "Unit 10 test",
+          "work": "Take the Unit 10 test."
+        }
+      ],
+      "assessment": "Unit 10 test."
+    },
+    {
+      "week": 35,
+      "unit": 11,
+      "topic": "Absolute value, piecewise, and square root functions",
+      "objectives": [
+        "Graph absolute value, piecewise, and square root functions",
+        "Compare functions across representations"
+      ],
+      "standards": [
+        "F-IF.7",
+        "F-BF.3",
+        "F-IF.9",
+        "A-REI.3.1"
+      ],
+      "vocabulary": [
+        "absolute value function",
+        "piecewise function",
+        "step function",
+        "square root function"
+      ],
+      "materials": [
+        "graph paper",
+        "Desmos"
+      ],
+      "days": [
+        {
+          "title": "Absolute value functions",
+          "work": "Graph y=a|x−h|+k and describe transformations."
+        },
+        {
+          "title": "Piecewise functions",
+          "work": "Graph piecewise functions for tax brackets and shipping costs."
+        },
+        {
+          "title": "Square root functions",
+          "work": "Graph y=√(x−h)+k and state domain and range."
+        },
+        {
+          "title": "Comparing functions",
+          "work": "Compare function families from tables, graphs, and equations in a card sort."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on other function families."
+        }
+      ],
+      "assessment": "Function family quiz."
+    },
+    {
+      "week": 36,
+      "unit": 11,
+      "topic": "Final review and exam",
+      "objectives": [
+        "Review the year's content",
+        "Demonstrate mastery on the final exam"
+      ],
+      "standards": [
+        "F-IF.9",
+        "F-IF.7",
+        "F-BF.3"
+      ],
+      "vocabulary": [
+        "cumulative review"
+      ],
+      "materials": [
+        "final review packet"
+      ],
+      "days": [
+        {
+          "title": "Review: linear and systems",
+          "work": "Complete cumulative review on Units 1–5."
+        },
+        {
+          "title": "Review: statistics and exponentials",
+          "work": "Complete cumulative review on Units 6–7."
+        },
+        {
+          "title": "Review: polynomials and quadratics",
+          "work": "Complete cumulative review on Units 8–11."
+        },
+        {
+          "title": "Practice final",
+          "work": "Take a timed practice final and analyze errors."
+        },
+        {
+          "title": "Final exam",
+          "work": "Take the final exam."
+        }
+      ],
+      "assessment": "Final exam."
+    }
+  ]
+}

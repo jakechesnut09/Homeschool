@@ -1,0 +1,368 @@
+{
+  "grade": 7,
+  "subject": "ELA",
+  "title": "English Language Arts 7",
+  "description": "A literature-rich seventh-grade course built around short stories, a classic novel, poetry, Shakespearean drama, historical fiction and high-interest nonfiction. Students write narratives, literary analyses, argumentative essays and a research paper, while weekly grammar (phrases, clauses, sentence variety, modifiers) and Greek/Latin word study are woven into the reading. Speaking and listening grow through discussions, a dramatic reading, a debate and a multimedia presentation.",
+  "framework": "California Common Core State Standards for English Language Arts & Literacy; 2014 CA ELA/ELD Framework",
+  "minutes_per_day": 75,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "RL.7.1": "Cite several pieces of textual evidence to support analysis of what a literary text says explicitly and by inference.",
+    "RL.7.2": "Determine a theme or central idea of a text and analyze its development; provide an objective summary.",
+    "RL.7.3": "Analyze how particular elements of a story or drama interact (e.g., how setting shapes characters or plot).",
+    "RL.7.4": "Determine the meaning of words and phrases, including figurative and connotative meanings; analyze the impact of rhymes and repetitions of sounds.",
+    "RL.7.5": "Analyze how a drama's or poem's form or structure (e.g., soliloquy, sonnet) contributes to its meaning.",
+    "RL.7.6": "Analyze how an author develops and contrasts the points of view of different characters or narrators.",
+    "RL.7.7": "Compare and contrast a written story, drama or poem to its audio, filmed, staged or multimedia version.",
+    "RL.7.9": "Compare and contrast a fictional portrayal of a time, place or character and a historical account of the same period.",
+    "RL.7.10": "Read and comprehend literature, including stories, dramas and poems, in the grades 6–8 complexity band proficiently.",
+    "RI.7.1": "Cite several pieces of textual evidence to support analysis of what an informational text says explicitly and by inference.",
+    "RI.7.2": "Determine two or more central ideas in a text and analyze their development; provide an objective summary.",
+    "RI.7.3": "Analyze the interactions between individuals, events and ideas in a text.",
+    "RI.7.4": "Determine the meaning of words and phrases in informational text, including figurative, connotative and technical meanings.",
+    "RI.7.5": "Analyze the structure an author uses to organize a text and how major sections contribute to the whole.",
+    "RI.7.6": "Determine an author's point of view or purpose and analyze how the author distinguishes his or her position from others'.",
+    "RI.7.7": "Compare and contrast a text to an audio, video or multimedia version, analyzing each medium's portrayal of the subject.",
+    "RI.7.8": "Trace and evaluate the argument and specific claims in a text, assessing whether reasoning is sound and evidence relevant and sufficient.",
+    "RI.7.9": "Analyze how two or more authors writing about the same topic shape their presentations by emphasizing different evidence or interpretations.",
+    "RI.7.10": "Read and comprehend literary nonfiction in the grades 6–8 complexity band proficiently.",
+    "W.7.1": "Write arguments to support claims with clear reasons and relevant evidence, acknowledging alternate or opposing claims.",
+    "W.7.2": "Write informative/explanatory texts to examine a topic and convey ideas through selection, organization and analysis of relevant content.",
+    "W.7.3": "Write narratives to develop real or imagined experiences using effective technique, relevant details and well-structured event sequences.",
+    "W.7.4": "Produce clear and coherent writing appropriate to task, purpose and audience.",
+    "W.7.5": "Develop and strengthen writing by planning, revising, editing, rewriting or trying a new approach.",
+    "W.7.6": "Use technology, including the Internet, to produce and publish writing and link to and cite sources.",
+    "W.7.7": "Conduct short research projects to answer a question, drawing on several sources and generating additional focused questions.",
+    "W.7.8": "Gather relevant information from multiple print and digital sources; assess credibility; quote or paraphrase while avoiding plagiarism; follow a standard citation format.",
+    "W.7.9": "Draw evidence from literary or informational texts to support analysis, reflection and research.",
+    "W.7.10": "Write routinely over extended and shorter time frames for a range of tasks and purposes.",
+    "SL.7.1": "Engage effectively in a range of collaborative discussions, building on others' ideas and expressing one's own clearly.",
+    "SL.7.2": "Analyze the main ideas and supporting details presented in diverse media and formats and explain how they clarify a topic.",
+    "SL.7.3": "Delineate a speaker's argument and specific claims, evaluating the soundness of reasoning and relevance of evidence.",
+    "SL.7.4": "Present claims and findings, emphasizing salient points in a focused, coherent manner with pertinent evidence, eye contact, adequate volume and clear pronunciation.",
+    "SL.7.5": "Include multimedia components and visual displays in presentations to clarify claims and findings.",
+    "SL.7.6": "Adapt speech to a variety of contexts and tasks, demonstrating command of formal English when appropriate.",
+    "L.7.1a": "Explain the function of phrases and clauses in general and their function in specific sentences.",
+    "L.7.1b": "Choose among simple, compound, complex and compound-complex sentences to signal differing relationships among ideas.",
+    "L.7.1c": "Place phrases and clauses within a sentence, recognizing and correcting misplaced and dangling modifiers.",
+    "L.7.2a": "Use a comma to separate coordinate adjectives.",
+    "L.7.2b": "Spell correctly.",
+    "L.7.3a": "Choose language that expresses ideas precisely and concisely, eliminating wordiness and redundancy.",
+    "L.7.4a": "Use context as a clue to the meaning of a word or phrase.",
+    "L.7.4b": "Use common, grade-appropriate Greek or Latin affixes and roots as clues to the meaning of a word.",
+    "L.7.4c": "Consult reference materials to find pronunciation and clarify precise meaning or part of speech.",
+    "L.7.5a": "Interpret figures of speech (e.g., literary, biblical and mythological allusions) in context.",
+    "L.7.5b": "Use the relationship between particular words (synonym/antonym, analogy) to better understand each.",
+    "L.7.5c": "Distinguish among the connotations of words with similar denotations.",
+    "L.7.6": "Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases."
+  },
+  "resources": [
+    {"name": "CommonLit", "url": "https://www.commonlit.org/", "note": "Free leveled short stories, poems and nonfiction with questions"},
+    {"name": "Project Gutenberg", "url": "https://www.gutenberg.org/", "note": "Free texts of The Call of the Wild, A Midsummer Night's Dream, Poe, Frost and more"},
+    {"name": "LibriVox", "url": "https://librivox.org/", "note": "Free public-domain audiobooks for read-alongs"},
+    {"name": "ReadWorks", "url": "https://www.readworks.org/", "note": "Free nonfiction articles and paired texts"},
+    {"name": "Purdue OWL", "url": "https://owl.purdue.edu/", "note": "Writing process, MLA citation and grammar guides"},
+    {"name": "Folger Shakespeare", "url": "https://www.folger.edu/explore/shakespeares-works/", "note": "Free full text of A Midsummer Night's Dream with notes"}
+  ],
+  "units": [
+    {"number": 1, "title": "Short Stories: Conflict and Character", "start_week": 1, "end_week": 5, "big_idea": "Authors build suspense and reveal character through conflict, setting and point of view.", "standards": ["RL.7.1", "RL.7.2", "RL.7.3", "RL.7.6", "W.7.3", "W.7.5", "SL.7.1", "L.7.1a", "L.7.4b", "L.7.2a"]},
+    {"number": 2, "title": "Novel Study: The Call of the Wild", "start_week": 6, "end_week": 10, "big_idea": "Setting and survival shape who a character becomes; themes develop across a whole novel.", "standards": ["RL.7.1", "RL.7.2", "RL.7.3", "RL.7.4", "RL.7.10", "W.7.2", "W.7.9", "SL.7.1", "L.7.1b", "L.7.4a", "L.7.5c"]},
+    {"number": 3, "title": "Informational Reading and Argument", "start_week": 11, "end_week": 15, "big_idea": "Strong arguments rest on clear claims, relevant evidence and fair treatment of counterclaims.", "standards": ["RI.7.1", "RI.7.2", "RI.7.5", "RI.7.6", "RI.7.8", "RI.7.9", "W.7.1", "W.7.4", "W.7.5", "SL.7.3", "L.7.3a", "L.7.6"]},
+    {"number": 4, "title": "Poetry: Sound, Form and Meaning", "start_week": 16, "end_week": 18, "big_idea": "Poets use sound, figurative language and form to create meaning and emotion.", "standards": ["RL.7.2", "RL.7.4", "RL.7.5", "RL.7.7", "W.7.3", "SL.7.6", "L.7.5a", "L.7.5b"]},
+    {"number": 5, "title": "Drama: A Midsummer Night's Dream", "start_week": 19, "end_week": 22, "big_idea": "Drama's structure and staging choices shape how audiences understand characters and themes.", "standards": ["RL.7.1", "RL.7.3", "RL.7.5", "RL.7.6", "RL.7.7", "W.7.9", "SL.7.1", "SL.7.6", "L.7.4c", "L.7.5a"]},
+    {"number": 6, "title": "Research Writing", "start_week": 23, "end_week": 26, "big_idea": "Researchers ask focused questions, evaluate sources and synthesize evidence ethically.", "standards": ["RI.7.1", "RI.7.7", "W.7.2", "W.7.6", "W.7.7", "W.7.8", "SL.7.2", "SL.7.4", "SL.7.5", "L.7.1c"]},
+    {"number": 7, "title": "Historical Fiction: Roll of Thunder, Hear My Cry", "start_week": 27, "end_week": 31, "big_idea": "Historical fiction illuminates real history; comparing it to historical accounts sharpens understanding of both.", "standards": ["RL.7.1", "RL.7.2", "RL.7.3", "RL.7.6", "RL.7.9", "RL.7.10", "W.7.2", "W.7.9", "SL.7.1", "L.7.5c"]},
+    {"number": 8, "title": "Voices for Change: Speeches, Debate and Portfolio", "start_week": 32, "end_week": 36, "big_idea": "Speakers and writers persuade through reasoning, evidence and rhetoric; growth is shown through reflection.", "standards": ["RI.7.6", "RI.7.8", "RI.7.9", "W.7.1", "W.7.10", "SL.7.3", "SL.7.4", "SL.7.6", "L.7.3a", "L.7.2b"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "Launching the year; 'Thank You, Ma'am' by Langston Hughes", "objectives": ["Analyze how characters' actions reveal traits", "Identify phrases and clauses"], "standards": ["RL.7.1", "RL.7.3", "L.7.1a", "SL.7.1"], "vocabulary": ["characterization", "dialogue", "phrase", "clause"], "materials": ["CommonLit: 'Thank You, Ma'am'", "reading journal"],
+     "days": [
+      {"title": "Reader inventory", "work": "Complete a reading interest survey, set a goal of 25 independent books for the year, and write a journal entry about a memorable story."},
+      {"title": "Read 'Thank You, Ma'am'", "work": "Read Hughes' 'Thank You, Ma'am' aloud and annotate Mrs. Jones's actions and words with sticky notes labeled 'trait' and 'evidence'."},
+      {"title": "Direct vs. indirect characterization", "work": "Build a two-column chart of direct and indirect characterization for Roger and Mrs. Jones and write a paragraph on how she changes him, citing two quotes."},
+      {"title": "Grammar: phrases vs. clauses", "work": "Learn phrases (prepositional, participial) versus independent and dependent clauses and label 15 sentences from the story."},
+      {"title": "Discussion & check", "work": "Discuss with a parent whether Mrs. Jones's choice was wise, building on each other's points, then take a short quiz on characterization and clauses."}
+     ], "assessment": "Evidence paragraph, grammar labeling and discussion checklist."},
+    {"week": 2, "unit": 1, "topic": "Suspense: 'The Most Dangerous Game' by Richard Connell", "objectives": ["Analyze how setting shapes conflict and plot", "Use Greek/Latin roots to define words"], "standards": ["RL.7.1", "RL.7.3", "L.7.4b"], "vocabulary": ["suspense", "foreshadowing", "external conflict", "palpable", "indolently"], "materials": ["'The Most Dangerous Game' (public domain)", "plot diagram template"],
+     "days": [
+      {"title": "Ship-Trap Island", "work": "Read the first third of 'The Most Dangerous Game' and list details of setting that create a sense of danger."},
+      {"title": "Rising action", "work": "Read the middle section and chart Rainsford's three tricks on a plot diagram, noting foreshadowing clues."},
+      {"title": "Climax and ending", "work": "Finish the story and write a paragraph explaining how the jungle setting drives the conflict, with three cited details."},
+      {"title": "Word study: roots", "work": "Study roots 'mal', 'bene', 'vis/vid', 'dict' and 'port'; find story words and build a 15-word root web."},
+      {"title": "Review & check", "work": "Take a reading quiz with two constructed responses and a 10-item root quiz."}
+     ], "assessment": "Plot diagram, setting paragraph, reading and root quizzes."},
+    {"week": 3, "unit": 1, "topic": "Point of view: 'The Tell-Tale Heart' by Edgar Allan Poe", "objectives": ["Analyze an unreliable first-person narrator", "Compare points of view"], "standards": ["RL.7.6", "RL.7.4", "RL.7.1", "L.7.2a"], "vocabulary": ["unreliable narrator", "first person", "mood", "dissimulation"], "materials": ["'The Tell-Tale Heart' (Project Gutenberg)", "LibriVox audio"],
+     "days": [
+      {"title": "Listen and read", "work": "Read along with a LibriVox recording of 'The Tell-Tale Heart' and mark every time the narrator insists he is not mad."},
+      {"title": "Unreliable narrator", "work": "Make a T-chart of what the narrator claims versus what his actions show and explain why he is unreliable."},
+      {"title": "Mood and word choice", "work": "Identify repetition, dashes and sound words that build tension and explain their effect on mood in a paragraph."},
+      {"title": "Grammar: coordinate adjectives", "work": "Learn the comma rule for coordinate adjectives (the 'and' test) and edit 12 sentences describing the old man's room."},
+      {"title": "Rewrite & check", "work": "Rewrite the climax from the police officers' point of view in 300 words and take a point-of-view quiz."}
+     ], "assessment": "Point-of-view rewrite and quiz."},
+    {"week": 4, "unit": 1, "topic": "Personal narrative drafting", "objectives": ["Plan and draft a personal narrative with conflict", "Use dialogue, pacing and sensory detail"], "standards": ["W.7.3", "W.7.5", "L.7.1a"], "vocabulary": ["narrative arc", "pacing", "sensory detail", "reflection"], "materials": ["mentor text: 'Thank You, Ma'am'", "writing notebook"],
+     "days": [
+      {"title": "Finding a story", "work": "Brainstorm a 'heart map' of memorable moments and choose one with a clear conflict or turning point."},
+      {"title": "Planning", "work": "Plan the narrative on a story mountain with exposition, rising action, climax and reflection."},
+      {"title": "Drafting the opening", "work": "Draft an opening that starts with dialogue, action or a vivid setting detail, trying two versions."},
+      {"title": "Drafting the body", "work": "Finish the draft (600–900 words), slowing down the climax with sensory details and internal thoughts."},
+      {"title": "Peer conference", "work": "Read the draft aloud to a parent who gives two 'glows' and one 'grow'; record revision goals."}
+     ], "assessment": "Complete narrative draft and revision goals."},
+    {"week": 5, "unit": 1, "topic": "Narrative revision, 'Rikki-Tikki-Tavi' and unit assessment", "objectives": ["Revise for pacing and word choice", "Analyze theme in a short story"], "standards": ["W.7.3", "W.7.5", "RL.7.2", "L.7.4b"], "vocabulary": ["theme", "revision", "transition"], "materials": ["'Rikki-Tikki-Tavi' by Kipling (Project Gutenberg)"],
+     "days": [
+      {"title": "Revision: pacing", "work": "Revise the narrative using a checklist: add transitions, cut one slow section, expand the climax."},
+      {"title": "Editing & publishing", "work": "Edit for clauses, commas and spelling, then type and publish the final narrative."},
+      {"title": "Read 'Rikki-Tikki-Tavi'", "work": "Read Kipling's 'Rikki-Tikki-Tavi' and track how Rikki's courage develops through each conflict."},
+      {"title": "Theme statement", "work": "Write an objective summary of the story and a theme statement supported by three pieces of evidence."},
+      {"title": "Unit 1 assessment", "work": "Take a unit test on an unseen short story (CommonLit) with questions on plot, character, point of view and theme."}
+     ], "assessment": "Published personal narrative (rubric) and unit 1 test."},
+    {"week": 6, "unit": 2, "topic": "The Call of the Wild, chapters 1–2", "objectives": ["Analyze how setting changes Buck", "Use context clues for unfamiliar words"], "standards": ["RL.7.3", "RL.7.1", "L.7.4a", "RL.7.10"], "vocabulary": ["Klondike", "primordial", "club and fang", "ascendancy"], "materials": ["The Call of the Wild (Project Gutenberg or library)", "map of Yukon and Alaska"],
+     "days": [
+      {"title": "Background: Klondike Gold Rush", "work": "Read a short article on the 1897 Klondike Gold Rush and locate Santa Clara, Seattle, Skagway and Dawson on a map."},
+      {"title": "Chapter 1", "work": "Read Chapter 1 'Into the Primitive' and list three lessons Buck learns from the man in the red sweater."},
+      {"title": "Context clues", "work": "Use context to define 10 challenging words from chapters 1–2 and check with a dictionary."},
+      {"title": "Chapter 2", "work": "Read Chapter 2 'The Law of Club and Fang' and write a journal entry on how Curly's death changes Buck."},
+      {"title": "Discussion & check", "work": "Discuss whether Buck is 'becoming worse' or 'adapting' and take a chapters 1–2 quiz."}
+     ], "assessment": "Reading quiz and journal entries."},
+    {"week": 7, "unit": 2, "topic": "The Call of the Wild, chapters 3–4", "objectives": ["Trace conflict between Buck and Spitz", "Combine sentences for variety"], "standards": ["RL.7.3", "RL.7.1", "L.7.1b"], "vocabulary": ["dominant primordial beast", "atavism", "compound-complex sentence"], "materials": ["The Call of the Wild", "character tracker"],
+     "days": [
+      {"title": "Chapter 3", "work": "Read Chapter 3 and chart each clash between Buck and Spitz leading to their final fight."},
+      {"title": "Character tracker", "work": "Update a Buck character tracker with traits gained and lost, citing a page for each."},
+      {"title": "Grammar: sentence types", "work": "Identify simple, compound, complex and compound-complex sentences in a London passage, then write one of each about Buck."},
+      {"title": "Chapter 4", "work": "Read Chapter 4 'Who Has Won to Mastership' and explain how Buck leads differently than Spitz."},
+      {"title": "Review & check", "work": "Take a quiz on chapters 3–4 and revise five choppy sentences into compound-complex sentences."}
+     ], "assessment": "Quiz and sentence-combining exercise."},
+    {"week": 8, "unit": 2, "topic": "The Call of the Wild, chapters 5–6", "objectives": ["Analyze how characters contrast", "Distinguish connotation of similar words"], "standards": ["RL.7.3", "RL.7.4", "L.7.5c"], "vocabulary": ["connotation", "denotation", "foil"], "materials": ["The Call of the Wild"],
+     "days": [
+      {"title": "Chapter 5", "work": "Read Chapter 5 'The Toil of Trace and Trail' and list choices Hal, Charles and Mercedes make that show ignorance."},
+      {"title": "Foils", "work": "Compare Hal's treatment of the dogs with John Thornton's in a Venn diagram and explain how they act as foils."},
+      {"title": "Connotation", "work": "Rank word sets like 'thin/skinny/gaunt/emaciated' by connotation and find London's choices in chapter 5."},
+      {"title": "Chapter 6", "work": "Read Chapter 6 'For the Love of a Man' and write about how love changes Buck."},
+      {"title": "Discussion & check", "work": "Hold a discussion on loyalty in the novel, then take a chapters 5–6 quiz."}
+     ], "assessment": "Venn diagram, quiz and discussion."},
+    {"week": 9, "unit": 2, "topic": "The Call of the Wild, chapter 7 and theme", "objectives": ["Determine and trace themes across the novel", "Write an objective summary"], "standards": ["RL.7.2", "RL.7.1", "RL.7.10"], "vocabulary": ["theme", "naturalism", "objective summary"], "materials": ["The Call of the Wild"],
+     "days": [
+      {"title": "Chapter 7", "work": "Read Chapter 7 'The Sounding of the Call' and discuss the ending's meaning."},
+      {"title": "Objective summary", "work": "Write a 200-word objective summary of the whole novel without opinions."},
+      {"title": "Theme tracking", "work": "Trace a theme (survival of the fittest, nature vs. civilization or loyalty) through 6 quotations from different chapters."},
+      {"title": "Film comparison", "work": "Watch a clip from a film adaptation and note two ways it changes Buck's story and why."},
+      {"title": "Essay planning", "work": "Choose a thesis for a literary analysis essay on how setting shapes Buck and outline three body paragraphs with evidence."}
+     ], "assessment": "Objective summary and essay outline."},
+    {"week": 10, "unit": 2, "topic": "Literary analysis essay", "objectives": ["Write a literary analysis with embedded quotations", "Revise for cohesion"], "standards": ["W.7.2", "W.7.9", "W.7.5", "L.7.1b"], "vocabulary": ["thesis", "embedded quotation", "commentary"], "materials": ["essay outline", "Purdue OWL guide on quotations"],
+     "days": [
+      {"title": "Introduction", "work": "Draft an introduction with a hook, brief novel context and a clear thesis statement."},
+      {"title": "Body paragraphs", "work": "Draft three body paragraphs using claim-evidence-commentary with embedded quotations and page citations."},
+      {"title": "Conclusion & revision", "work": "Draft a conclusion and revise transitions between paragraphs for cohesion."},
+      {"title": "Editing", "work": "Edit for sentence variety, quotation punctuation and spelling, then publish the essay."},
+      {"title": "Unit 2 assessment", "work": "Take a unit test with passages from The Call of the Wild and an unseen excerpt from London's 'To Build a Fire'."}
+     ], "assessment": "Literary analysis essay (rubric) and unit 2 test."},
+    {"week": 11, "unit": 3, "topic": "Reading informational text: central ideas and structure", "objectives": ["Determine two central ideas", "Analyze text structure"], "standards": ["RI.7.2", "RI.7.5", "RI.7.1", "L.7.6"], "vocabulary": ["central idea", "text structure", "cause and effect", "problem-solution"], "materials": ["ReadWorks articles on technology and teens"],
+     "days": [
+      {"title": "Text features & structure", "work": "Preview three ReadWorks articles and identify each one's structure (chronological, compare-contrast, cause-effect, problem-solution)."},
+      {"title": "Two central ideas", "work": "Read an article on teen screen time and trace two central ideas through the text with a graphic organizer."},
+      {"title": "Objective summary", "work": "Write an objective summary of the article stating both central ideas and key details."},
+      {"title": "Academic vocabulary", "work": "Learn 10 academic words (analyze, significant, evidence, impact, contrast…) and use each in a sentence about the article."},
+      {"title": "Review & check", "work": "Take a quiz on an unseen article identifying structure and central ideas."}
+     ], "assessment": "Summary and informational reading quiz."},
+    {"week": 12, "unit": 3, "topic": "Evaluating arguments", "objectives": ["Trace an argument's claims", "Evaluate evidence for relevance and sufficiency"], "standards": ["RI.7.8", "RI.7.6", "SL.7.3"], "vocabulary": ["claim", "reason", "evidence", "counterclaim", "fallacy"], "materials": ["CommonLit argument texts", "persuasive video"],
+     "days": [
+      {"title": "Anatomy of an argument", "work": "Read an op-ed on a school-start-time debate and label claim, reasons, evidence and counterclaim."},
+      {"title": "Sound reasoning?", "work": "Evaluate whether each piece of evidence in the op-ed is relevant and sufficient using a rating chart."},
+      {"title": "Author's point of view", "work": "Analyze how the author distinguishes her view from opponents' using specific phrases."},
+      {"title": "Listening to arguments", "work": "Watch a short persuasive speech or ad and delineate its claims, noting any bandwagon or loaded-language fallacies."},
+      {"title": "Review & check", "work": "Complete an argument-evaluation quiz on a new text."}
+     ], "assessment": "Argument evaluation chart and quiz."},
+    {"week": 13, "unit": 3, "topic": "Paired texts: same topic, different authors", "objectives": ["Compare how two authors present the same topic", "Gather evidence for an argument"], "standards": ["RI.7.9", "RI.7.1", "W.7.1"], "vocabulary": ["perspective", "emphasis", "interpretation"], "materials": ["two articles on zoos (pro and con)"],
+     "days": [
+      {"title": "Text A", "work": "Read an article arguing zoos protect endangered species and highlight evidence types (statistics, expert, anecdote)."},
+      {"title": "Text B", "work": "Read an article arguing zoos harm animals and highlight its evidence the same way."},
+      {"title": "Compare authors", "work": "Write a comparison paragraph on how each author emphasizes different evidence and facts."},
+      {"title": "Taking a position", "work": "Choose a position on 'Should zoos exist?' and fill an evidence organizer with at least 5 pieces of evidence."},
+      {"title": "Review & check", "work": "Draft a claim and counterclaim statement and get feedback."}
+     ], "assessment": "Comparison paragraph and evidence organizer."},
+    {"week": 14, "unit": 3, "topic": "Drafting the argumentative essay", "objectives": ["Write a claim-based essay with counterclaim and rebuttal", "Use precise, concise language"], "standards": ["W.7.1", "W.7.4", "L.7.3a"], "vocabulary": ["rebuttal", "concession", "formal style"], "materials": ["evidence organizer", "argument essay template"],
+     "days": [
+      {"title": "Introduction", "work": "Draft an introduction with background and a clear claim."},
+      {"title": "Reasons and evidence", "work": "Draft two body paragraphs, each with a reason, two pieces of cited evidence and explanation."},
+      {"title": "Counterclaim", "work": "Draft a counterclaim and rebuttal paragraph using phrases like 'Some argue… however…'."},
+      {"title": "Concise language", "work": "Cut wordiness and redundancy from 12 practice sentences, then from your own draft."},
+      {"title": "Conclusion", "work": "Draft a conclusion that restates the claim and leaves a call to action."}
+     ], "assessment": "Complete argument draft."},
+    {"week": 15, "unit": 3, "topic": "Argument revision and unit assessment", "objectives": ["Revise and publish an argument", "Present a claim orally"], "standards": ["W.7.1", "W.7.5", "SL.7.4", "L.7.3a"], "vocabulary": ["formal tone", "citation"], "materials": ["revision checklist"],
+     "days": [
+      {"title": "Revision", "work": "Revise for logical order and transitions using a color-coding check (claim, evidence, reasoning)."},
+      {"title": "Editing & citations", "work": "Edit grammar and add in-text citations, then publish the final essay."},
+      {"title": "Oral argument", "work": "Deliver a 2-minute speech version of the argument with eye contact and adequate volume."},
+      {"title": "Reflection", "work": "Write a reflection on which revision made the biggest difference and why."},
+      {"title": "Unit 3 assessment", "work": "Take a unit test on an unseen argument text (claims, evidence, author's purpose, structure)."}
+     ], "assessment": "Argumentative essay (rubric), speech and unit 3 test."},
+    {"week": 16, "unit": 4, "topic": "Sound and figurative language in poetry", "objectives": ["Analyze rhyme, rhythm, alliteration and repetition", "Interpret figurative language and allusion"], "standards": ["RL.7.4", "L.7.5a", "L.7.5b"], "vocabulary": ["meter", "alliteration", "metaphor", "personification", "allusion"], "materials": ["'Paul Revere's Ride' (Longfellow)", "'Annabel Lee' (Poe)", "'Mother to Son' (Hughes)"],
+     "days": [
+      {"title": "Rhythm and story", "work": "Read 'Paul Revere's Ride' aloud, tap the galloping meter, and mark rhyme scheme in two stanzas."},
+      {"title": "Sound devices", "work": "Annotate 'Annabel Lee' for repetition, internal rhyme and alliteration and explain how they create a haunting tone."},
+      {"title": "Extended metaphor", "work": "Analyze the staircase metaphor in Hughes' 'Mother to Son' and write what it means for life's struggles."},
+      {"title": "Allusions & analogies", "work": "Learn common mythological and biblical allusions (Achilles' heel, Pandora's box, Good Samaritan) and complete 10 word analogies."},
+      {"title": "Review & check", "work": "Take a poetry-terms quiz and analyze an unseen short poem."}
+     ], "assessment": "Annotations and poetry quiz."},
+    {"week": 17, "unit": 4, "topic": "Form and meaning: sonnets, free verse and Frost", "objectives": ["Analyze how form contributes to meaning", "Determine theme in poems"], "standards": ["RL.7.5", "RL.7.2", "RL.7.4"], "vocabulary": ["sonnet", "quatrain", "couplet", "free verse", "stanza"], "materials": ["Shakespeare's Sonnet 18", "Frost: 'The Road Not Taken', 'Nothing Gold Can Stay'", "Whitman: 'O Captain! My Captain!'"],
+     "days": [
+      {"title": "The sonnet", "work": "Read Sonnet 18, map its three quatrains and couplet, and explain how the couplet turns the argument."},
+      {"title": "Frost", "work": "Read 'The Road Not Taken' and 'Nothing Gold Can Stay' and write a theme statement for each."},
+      {"title": "Free verse vs. rhyme", "work": "Compare Whitman's 'O Captain! My Captain!' with a free-verse poem and explain how form affects mood."},
+      {"title": "Poem vs. performance", "work": "Listen to a recorded reading of a poem and compare how the reader's voice changes its meaning (RL.7.7)."},
+      {"title": "Review & check", "work": "Write a 1-page analysis of how form shapes meaning in one poem from the week."}
+     ], "assessment": "Poetry analysis page."},
+    {"week": 18, "unit": 4, "topic": "Writing and performing poetry", "objectives": ["Write original poems using devices and forms", "Perform a poem with expression"], "standards": ["W.7.3", "SL.7.6", "RL.7.4"], "vocabulary": ["imagery", "line break", "recitation"], "materials": ["poetry notebook"],
+     "days": [
+      {"title": "Imagery poem", "work": "Write a free-verse poem about a place using imagery of all five senses."},
+      {"title": "Form poem", "work": "Write a sonnet, haiku sequence or ballad stanza modeled on a mentor poem."},
+      {"title": "Figurative poem", "work": "Write an extended-metaphor poem modeled on 'Mother to Son'."},
+      {"title": "Recitation practice", "work": "Memorize 14+ lines of a studied poem and rehearse with attention to pacing and emphasis."},
+      {"title": "Poetry café & semester check", "work": "Perform the memorized poem and one original poem for family, then take a semester 1 reading and grammar checkpoint."}
+     ], "assessment": "Poetry portfolio (3 poems), recitation rubric and semester checkpoint."},
+    {"week": 19, "unit": 5, "topic": "Shakespeare's world and Act 1 of A Midsummer Night's Dream", "objectives": ["Understand Elizabethan theater and language", "Analyze how conflicts are introduced"], "standards": ["RL.7.3", "RL.7.1", "L.7.4c"], "vocabulary": ["comedy", "Globe Theatre", "iambic pentameter", "thou/thee"], "materials": ["Folger edition of A Midsummer Night's Dream", "character map"],
+     "days": [
+      {"title": "Shakespeare's world", "work": "Watch a short video on the Globe Theatre and Elizabethan England and take notes on how plays were staged."},
+      {"title": "Act 1 Scene 1", "work": "Read Act 1.1 aloud in parts and build a character map of the four lovers, Egeus and Theseus."},
+      {"title": "Shakespeare's language", "work": "Translate 10 lines into modern English using Folger notes and a dictionary for archaic words."},
+      {"title": "Act 1 Scene 2", "work": "Read Act 1.2 with the mechanicals and describe how Bottom's personality creates humor."},
+      {"title": "Review & check", "work": "Take an Act 1 quiz and summarize the three plotlines introduced."}
+     ], "assessment": "Character map, translation and Act 1 quiz."},
+    {"week": 20, "unit": 5, "topic": "Acts 2–3: the forest and the mix-ups", "objectives": ["Analyze how setting and characters interact", "Analyze how dramatic irony shapes points of view"], "standards": ["RL.7.3", "RL.7.6", "RL.7.5"], "vocabulary": ["dramatic irony", "soliloquy", "aside", "mischief"], "materials": ["A Midsummer Night's Dream"],
+     "days": [
+      {"title": "Act 2", "work": "Read Act 2 and explain the conflict between Oberon and Titania and Puck's role."},
+      {"title": "Dramatic irony", "work": "List moments when the audience knows more than the lovers and explain how this creates comedy."},
+      {"title": "Act 3", "work": "Read Act 3 and track who loves whom on a 'love chart' before and after the potion."},
+      {"title": "Soliloquy", "work": "Analyze Helena's soliloquy at the end of Act 1 and what it reveals that dialogue does not."},
+      {"title": "Review & check", "work": "Take an Acts 2–3 quiz with a constructed response on dramatic irony."}
+     ], "assessment": "Love chart and quiz."},
+    {"week": 21, "unit": 5, "topic": "Acts 4–5 and play-within-a-play", "objectives": ["Analyze how structure resolves the plot", "Interpret allusions"], "standards": ["RL.7.5", "RL.7.2", "L.7.5a"], "vocabulary": ["resolution", "play-within-a-play", "Pyramus and Thisbe"], "materials": ["A Midsummer Night's Dream", "summary of Ovid's Pyramus and Thisbe"],
+     "days": [
+      {"title": "Act 4", "work": "Read Act 4 and explain how each conflict is resolved."},
+      {"title": "Pyramus and Thisbe", "work": "Read a summary of Ovid's myth and explain how Shakespeare's allusion parodies the lovers' story."},
+      {"title": "Act 5", "work": "Read Act 5 and analyze the audience's comments during the mechanicals' play."},
+      {"title": "Theme", "work": "Write a theme statement about love or imagination with three supporting quotes."},
+      {"title": "Review & check", "work": "Take a full-play quiz on plot, structure and theme."}
+     ], "assessment": "Theme paragraph and quiz."},
+    {"week": 22, "unit": 5, "topic": "Page vs. stage and performance", "objectives": ["Compare the script to a filmed or staged version", "Perform a scene"], "standards": ["RL.7.7", "W.7.9", "SL.7.6", "SL.7.1"], "vocabulary": ["staging", "blocking", "interpretation", "director's choice"], "materials": ["filmed version (1999 film or a recorded stage production from library)"],
+     "days": [
+      {"title": "Watch a production", "work": "Watch key scenes of a filmed production and note how costumes, setting and acting change your understanding."},
+      {"title": "Comparison essay", "work": "Write a 5-paragraph comparison of the script and film's portrayal of Bottom or Puck, citing both."},
+      {"title": "Scene rehearsal", "work": "Choose a 30-line scene, mark blocking and rehearse with family members."},
+      {"title": "Performance", "work": "Perform the scene for family using voice and gesture, then discuss interpretation choices."},
+      {"title": "Unit 5 assessment", "work": "Take a unit test on a Shakespeare excerpt with questions on language, structure and character."}
+     ], "assessment": "Comparison essay, performance rubric and unit 5 test."},
+    {"week": 23, "unit": 6, "topic": "Research questions and sources", "objectives": ["Develop a focused research question", "Assess credibility of sources"], "standards": ["W.7.7", "W.7.8", "RI.7.1"], "vocabulary": ["research question", "credible", "primary source", "secondary source", "database"], "materials": ["public library online databases", "CRAAP test checklist"],
+     "days": [
+      {"title": "Choosing a topic", "work": "Brainstorm topics on an invention, scientist or environmental issue and narrow to one focused research question."},
+      {"title": "Evaluating sources", "work": "Apply the CRAAP test (currency, relevance, authority, accuracy, purpose) to five websites on the topic."},
+      {"title": "Library databases", "work": "Search the public library's student databases and find three credible sources."},
+      {"title": "Working bibliography", "work": "Create MLA citations for at least four sources using Purdue OWL."},
+      {"title": "Review & check", "work": "Submit research question, source evaluations and working bibliography for feedback."}
+     ], "assessment": "Research proposal and bibliography."},
+    {"week": 24, "unit": 6, "topic": "Note-taking, paraphrasing and avoiding plagiarism", "objectives": ["Take organized notes", "Paraphrase and quote correctly"], "standards": ["W.7.8", "RI.7.1", "L.7.1c"], "vocabulary": ["paraphrase", "plagiarism", "direct quotation", "subtopic"], "materials": ["note cards or digital notes"],
+     "days": [
+      {"title": "Note cards", "work": "Take 15 note cards organized by subtopic, each with source and page."},
+      {"title": "Paraphrase practice", "work": "Paraphrase five passages, then compare with originals to check for plagiarism."},
+      {"title": "Grammar: modifiers", "work": "Fix 12 sentences with misplaced and dangling modifiers, then check note cards for the same errors."},
+      {"title": "Video source", "work": "Watch a documentary clip on the topic and compare what it emphasizes versus a print source (RI.7.7)."},
+      {"title": "Outline", "work": "Organize notes into a formal outline with thesis and three subtopics."}
+     ], "assessment": "Note cards, paraphrase set and outline."},
+    {"week": 25, "unit": 6, "topic": "Drafting the research report", "objectives": ["Write an informative report integrating sources", "Use formatting and graphics"], "standards": ["W.7.2", "W.7.8", "W.7.6"], "vocabulary": ["synthesis", "in-text citation", "works cited"], "materials": ["outline", "word processor"],
+     "days": [
+      {"title": "Introduction", "work": "Draft an introduction that hooks the reader and states the focus of the report."},
+      {"title": "Body section 1", "work": "Draft the first body section integrating at least two sources with citations."},
+      {"title": "Body sections 2–3", "work": "Draft remaining body sections, adding a chart, image or diagram with caption."},
+      {"title": "Conclusion & works cited", "work": "Draft a conclusion and format the Works Cited page."},
+      {"title": "Self-check", "work": "Highlight every citation and verify each matches a Works Cited entry."}
+     ], "assessment": "Full research report draft."},
+    {"week": 26, "unit": 6, "topic": "Research revision and multimedia presentation", "objectives": ["Revise and publish research", "Present findings with multimedia"], "standards": ["W.7.5", "SL.7.4", "SL.7.5", "SL.7.2"], "vocabulary": ["slide design", "salient point"], "materials": ["Google Slides or poster board"],
+     "days": [
+      {"title": "Revision", "work": "Revise the report for clarity, precise vocabulary and smooth integration of quotes."},
+      {"title": "Final edit", "work": "Edit and publish the final 1,000–1,200-word report."},
+      {"title": "Build presentation", "work": "Create a 6–8 slide presentation with images and minimal text emphasizing key findings."},
+      {"title": "Present", "work": "Deliver a 5-minute presentation and answer two audience questions."},
+      {"title": "Reflection & check", "work": "Write a reflection on the research process and listen to a TED-Ed talk, summarizing its main ideas and supporting details."}
+     ], "assessment": "Research report and presentation rubrics."},
+    {"week": 27, "unit": 7, "topic": "Roll of Thunder, Hear My Cry: background and chapters 1–3", "objectives": ["Build historical context of 1930s Mississippi", "Analyze how setting shapes characters"], "standards": ["RL.7.3", "RL.7.1", "RL.7.9"], "vocabulary": ["sharecropping", "Jim Crow", "Great Depression", "night men"], "materials": ["Roll of Thunder, Hear My Cry by Mildred D. Taylor (library)", "Library of Congress photos of 1930s South"],
+     "days": [
+      {"title": "Historical context", "work": "Examine Library of Congress FSA photographs of 1930s Mississippi sharecroppers and list observations."},
+      {"title": "Chapter 1", "work": "Read Chapter 1 and analyze how the textbook incident reveals Cassie's and Little Man's characters."},
+      {"title": "Chapters 2–3", "work": "Read Chapters 2–3 and explain how the bus incident and the night men create tension."},
+      {"title": "Narrator", "work": "Analyze how Cassie's first-person point of view shapes what readers learn."},
+      {"title": "Review & check", "work": "Discuss the importance of land to the Logans and take a chapters 1–3 quiz."}
+     ], "assessment": "Quiz and discussion notes."},
+    {"week": 28, "unit": 7, "topic": "Roll of Thunder, chapters 4–6", "objectives": ["Analyze developing conflicts", "Contrast characters' perspectives"], "standards": ["RL.7.6", "RL.7.3", "L.7.5c"], "vocabulary": ["boycott", "credit", "dignity"], "materials": ["Roll of Thunder, Hear My Cry"],
+     "days": [
+      {"title": "Chapter 4", "work": "Read Chapter 4 and explain T.J.'s choices and how others react to him."},
+      {"title": "Chapter 5", "work": "Read Chapter 5 (the trip to Strawberry) and write a journal entry from Cassie's perspective about the Barnett Mercantile."},
+      {"title": "Chapter 6", "work": "Read Chapter 6 and compare how Big Ma, Mama and Uncle Hammer each respond to injustice."},
+      {"title": "Word connotations", "work": "Analyze how Taylor's word choices carry connotations that show characters' attitudes in five passages."},
+      {"title": "Review & check", "work": "Take a chapters 4–6 quiz with a constructed response on contrasting perspectives."}
+     ], "assessment": "Perspective chart and quiz."},
+    {"week": 29, "unit": 7, "topic": "Roll of Thunder, chapters 7–9", "objectives": ["Trace themes of family and justice", "Cite evidence from multiple chapters"], "standards": ["RL.7.2", "RL.7.1"], "vocabulary": ["theme", "symbol", "injustice"], "materials": ["Roll of Thunder, Hear My Cry"],
+     "days": [
+      {"title": "Chapter 7", "work": "Read Chapter 7 and analyze Papa's story about the fig tree as a symbol."},
+      {"title": "Chapter 8", "work": "Read Chapter 8 and explain Cassie's plan against Lillian Jean and what it reveals."},
+      {"title": "Chapter 9", "work": "Read Chapter 9 and track the boycott and its consequences."},
+      {"title": "Theme tracking", "work": "Add evidence to a theme tracker for 'family strength' and 'standing up to injustice'."},
+      {"title": "Review & check", "work": "Discuss the fig tree symbol and take a chapters 7–9 quiz."}
+     ], "assessment": "Theme tracker and quiz."},
+    {"week": 30, "unit": 7, "topic": "Roll of Thunder, chapters 10–12", "objectives": ["Analyze the climax and resolution", "Evaluate characters' choices"], "standards": ["RL.7.2", "RL.7.3", "RL.7.10"], "vocabulary": ["climax", "sacrifice", "resolution"], "materials": ["Roll of Thunder, Hear My Cry"],
+     "days": [
+      {"title": "Chapter 10", "work": "Read Chapter 10 and explain how the Logans try to keep their land."},
+      {"title": "Chapter 11", "work": "Read Chapter 11 and analyze the night T.J. is attacked and Papa's decision."},
+      {"title": "Chapter 12", "work": "Read Chapter 12 and explain what Cassie understands at the end that she did not before."},
+      {"title": "Objective summary", "work": "Write an objective summary of the novel and a theme statement."},
+      {"title": "Review & check", "work": "Take a whole-novel test with multiple choice and two constructed responses."}
+     ], "assessment": "Novel test."},
+    {"week": 31, "unit": 7, "topic": "Fiction vs. history: comparative essay", "objectives": ["Compare a fictional portrayal with historical accounts", "Write an explanatory essay"], "standards": ["RL.7.9", "W.7.2", "W.7.9"], "vocabulary": ["historical account", "fictional portrayal", "accuracy"], "materials": ["Library of Congress primary sources on sharecropping and segregated schools", "Roll of Thunder"],
+     "days": [
+      {"title": "Historical accounts", "work": "Read a historical article and two primary sources on segregated schooling and sharecropping in the 1930s."},
+      {"title": "Compare", "work": "Fill in a comparison chart of what the novel and historical sources each show about the period."},
+      {"title": "Draft", "work": "Draft a 5-paragraph essay explaining how Taylor uses or alters history and why."},
+      {"title": "Revise & edit", "work": "Revise with a checklist focused on balanced evidence from both sources, then edit."},
+      {"title": "Unit 7 assessment", "work": "Publish the essay and discuss with a parent how fiction helps us understand history."}
+     ], "assessment": "Comparative essay (rubric)."},
+    {"week": 32, "unit": 8, "topic": "Famous speeches: rhetoric and purpose", "objectives": ["Analyze speakers' purpose and rhetoric", "Evaluate reasoning in speeches"], "standards": ["RI.7.6", "RI.7.8", "SL.7.3"], "vocabulary": ["rhetoric", "ethos", "pathos", "logos", "parallelism"], "materials": ["Lincoln's Gettysburg Address", "Susan B. Anthony's 'On Women's Right to Vote'", "Chief Joseph's 'I Will Fight No More Forever'"],
+     "days": [
+      {"title": "Ethos, pathos, logos", "work": "Learn the three appeals and find examples in five advertisements."},
+      {"title": "Gettysburg Address", "work": "Read and listen to the Gettysburg Address and annotate parallelism and purpose."},
+      {"title": "Susan B. Anthony", "work": "Read 'On Women's Right to Vote' and trace her claims and evidence."},
+      {"title": "Chief Joseph", "work": "Read Chief Joseph's surrender speech and analyze how word choice conveys his point of view."},
+      {"title": "Review & check", "work": "Write a paragraph comparing how two speakers use appeals and take a rhetoric quiz."}
+     ], "assessment": "Rhetoric quiz and comparison paragraph."},
+    {"week": 33, "unit": 8, "topic": "Comparing authors on one issue", "objectives": ["Analyze how two authors on the same topic differ", "Prepare debate evidence"], "standards": ["RI.7.9", "RI.7.8", "W.7.1"], "vocabulary": ["bias", "selective evidence", "rebuttal"], "materials": ["paired articles on a youth issue (e.g., voting age at 16)"],
+     "days": [
+      {"title": "Paired reading", "work": "Read two articles on lowering the voting age to 16 and identify each author's claim and key evidence."},
+      {"title": "Comparison", "work": "Analyze how each author emphasizes different evidence and write a comparison paragraph."},
+      {"title": "Debate prep", "work": "Assigned a side, build a case with three reasons and evidence cards."},
+      {"title": "Anticipating rebuttals", "work": "List likely opposing arguments and draft rebuttals for each."},
+      {"title": "Review & check", "work": "Write and rehearse a 2-minute opening statement."}
+     ], "assessment": "Comparison paragraph and debate case."},
+    {"week": 34, "unit": 8, "topic": "Debate and persuasive speech", "objectives": ["Participate in a structured debate", "Use formal English and evidence orally"], "standards": ["SL.7.4", "SL.7.6", "SL.7.3", "SL.7.1"], "vocabulary": ["opening statement", "cross-examination", "closing"], "materials": ["debate timer", "evidence cards"],
+     "days": [
+      {"title": "Debate rehearsal", "work": "Rehearse the opening statement and cross-examination questions with a parent."},
+      {"title": "Debate", "work": "Hold a structured debate with family (opening, rebuttal, cross-examination, closing)."},
+      {"title": "Evaluate the debate", "work": "Watch a recording of the debate and evaluate both sides' reasoning with a rubric."},
+      {"title": "Persuasive speech", "work": "Write a 3-minute persuasive speech on a community issue using ethos, pathos and logos."},
+      {"title": "Deliver & check", "work": "Deliver the persuasive speech and receive rubric feedback."}
+     ], "assessment": "Debate and speech rubrics."},
+    {"week": 35, "unit": 8, "topic": "Timed writing and year review", "objectives": ["Write an argument under timed conditions", "Review grammar and vocabulary"], "standards": ["W.7.1", "W.7.10", "L.7.3a", "L.7.2b"], "vocabulary": ["prompt", "timed writing"], "materials": ["practice prompts"],
+     "days": [
+      {"title": "Timed argument", "work": "Write a 45-minute argument essay responding to a prompt with two short sources."},
+      {"title": "Self-scoring", "work": "Score the timed essay with the rubric and revise one paragraph."},
+      {"title": "Grammar review", "work": "Complete a mixed review of phrases, clauses, sentence types, modifiers and commas."},
+      {"title": "Word study review", "work": "Review Greek/Latin roots and figurative language with a 40-item review game."},
+      {"title": "Final exam", "work": "Take the year-end ELA exam (reading passages, grammar and a short written response)."}
+     ], "assessment": "Timed essay and final exam."},
+    {"week": 36, "unit": 8, "topic": "Portfolio and reflection", "objectives": ["Reflect on growth as a reader and writer", "Publish a portfolio"], "standards": ["W.7.10", "W.7.5", "SL.7.4"], "vocabulary": ["portfolio", "reflection", "growth"], "materials": ["writing folder", "reading log"],
+     "days": [
+      {"title": "Select work", "work": "Choose the best narrative, analysis, argument, research and poem pieces for the portfolio."},
+      {"title": "Revise one piece", "work": "Revise one earlier piece using everything learned this year."},
+      {"title": "Reflection letter", "work": "Write a reflection letter describing growth, challenges and goals for grade 8."},
+      {"title": "Reading celebration", "work": "Total the year's reading log and give a 3-minute book talk on the favorite book of the year."},
+      {"title": "Portfolio presentation", "work": "Present the portfolio to family, explaining one piece in depth, and create a summer reading list."}
+     ], "assessment": "Portfolio and presentation."}
+  ]
+}

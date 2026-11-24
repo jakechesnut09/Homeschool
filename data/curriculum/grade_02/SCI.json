@@ -1,0 +1,1897 @@
+{
+  "grade": 2,
+  "subject": "SCI",
+  "title": "Science 2",
+  "description": "Second-grade science aligned to the California NGSS. Students investigate the properties of materials and how heating and cooling change them, build and rebuild objects from small pieces, test whether plants need light and water, model how animals pollinate flowers and spread seeds, compare the diversity of life in different habitats, and study how Earth's surface changes quickly and slowly through volcanoes, earthquakes, and erosion. Each week includes a hands-on investigation with household materials recorded in a science notebook, and engineering design challenges run throughout the year.",
+  "framework": "California Next Generation Science Standards (CA NGSS); 2016 California Science Framework",
+  "minutes_per_day": 40,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "2-PS1-1": "Plan and conduct an investigation to describe and classify different kinds of materials by their observable properties.",
+    "2-PS1-2": "Analyze data obtained from testing different materials to determine which materials have the properties best suited for an intended purpose.",
+    "2-PS1-3": "Make observations to construct an evidence-based account of how an object made of a small set of pieces can be disassembled and made into a new object.",
+    "2-PS1-4": "Construct an argument with evidence that some changes caused by heating or cooling can be reversed and some cannot.",
+    "2-LS2-1": "Plan and conduct an investigation to determine if plants need sunlight and water to grow.",
+    "2-LS2-2": "Develop a simple model that mimics the function of an animal in dispersing seeds or pollinating plants.",
+    "2-LS4-1": "Make observations of plants and animals to compare the diversity of life in different habitats.",
+    "2-ESS1-1": "Use information from several sources to provide evidence that Earth events can occur quickly or slowly.",
+    "2-ESS2-1": "Compare multiple solutions designed to slow or prevent wind or water from changing the shape of the land.",
+    "2-ESS2-2": "Develop a model to represent the shapes and kinds of land and bodies of water in an area.",
+    "2-ESS2-3": "Obtain information to identify where water is found on Earth and that it can be solid or liquid.",
+    "K-2-ETS1-1": "Ask questions, make observations, and gather information about a situation people want to change to define a simple problem that can be solved through a new or improved object or tool.",
+    "K-2-ETS1-2": "Develop a simple sketch, drawing, or physical model to illustrate how the shape of an object helps it function as needed to solve a given problem.",
+    "K-2-ETS1-3": "Analyze data from tests of two objects designed to solve the same problem to compare the strengths and weaknesses of how each performs."
+  },
+  "resources": [
+    {
+      "name": "Mystery Science (free lessons)",
+      "url": "https://mysteryscience.com/",
+      "note": "Short video-driven lessons for grade 2 NGSS units (Material Magic, Plant & Animal Secrets, Work of Water)."
+    },
+    {
+      "name": "PBS LearningMedia",
+      "url": "https://www.pbslearningmedia.org/",
+      "note": "Free science videos and interactives (SciGirls, Peep and the Big Wide World, Nature Cat)."
+    },
+    {
+      "name": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/",
+      "note": "Kid-friendly Earth science articles and activities on water, volcanoes, and Earth's surface."
+    },
+    {
+      "name": "Science Buddies",
+      "url": "https://www.sciencebuddies.org/",
+      "note": "Free hands-on activities and engineering challenges searchable by grade."
+    },
+    {
+      "name": "National Geographic Kids",
+      "url": "https://kids.nationalgeographic.com/",
+      "note": "Animal and habitat articles, photos, and videos for the biodiversity unit."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Thinking Like Scientists and Engineers",
+      "start_week": 1,
+      "end_week": 2,
+      "big_idea": "Scientists ask questions and investigate; engineers define problems and design solutions.",
+      "standards": [
+        "K-2-ETS1-1",
+        "K-2-ETS1-2"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Properties of Materials",
+      "start_week": 3,
+      "end_week": 7,
+      "big_idea": "Materials have properties we can observe and test, and we choose materials whose properties fit the job.",
+      "standards": [
+        "2-PS1-1",
+        "2-PS1-2",
+        "K-2-ETS1-3"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Building Blocks and Changing Matter",
+      "start_week": 8,
+      "end_week": 11,
+      "big_idea": "Objects can be taken apart and rebuilt into new things, and heating or cooling changes some materials for good.",
+      "standards": [
+        "2-PS1-3",
+        "2-PS1-4"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "What Plants Need",
+      "start_week": 12,
+      "end_week": 15,
+      "big_idea": "Plants need water and light to grow, and fair tests show what they need.",
+      "standards": [
+        "2-LS2-1"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Seeds, Pollinators, and Plant Partners",
+      "start_week": 16,
+      "end_week": 19,
+      "big_idea": "Plants depend on animals to move pollen and spread seeds.",
+      "standards": [
+        "2-LS2-2",
+        "K-2-ETS1-2"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Habitats and Biodiversity",
+      "start_week": 20,
+      "end_week": 23,
+      "big_idea": "Different habitats hold different kinds and numbers of living things.",
+      "standards": [
+        "2-LS4-1"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Earth's Changes, Fast and Slow",
+      "start_week": 24,
+      "end_week": 27,
+      "big_idea": "Some Earth events happen in minutes and others take thousands of years.",
+      "standards": [
+        "2-ESS1-1"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Wind, Water, and Protecting the Land",
+      "start_week": 28,
+      "end_week": 31,
+      "big_idea": "Wind and water reshape land, and people design solutions to slow erosion.",
+      "standards": [
+        "2-ESS2-1",
+        "K-2-ETS1-1",
+        "K-2-ETS1-3"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Maps of Land and Water",
+      "start_week": 32,
+      "end_week": 34,
+      "big_idea": "Models and maps show the shapes of land and water, and Earth's water can be solid or liquid.",
+      "standards": [
+        "2-ESS2-2",
+        "2-ESS2-3"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Engineering Showcase",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "Engineers use what they know about materials and Earth to design, test, and improve solutions.",
+      "standards": [
+        "K-2-ETS1-1",
+        "K-2-ETS1-2",
+        "K-2-ETS1-3",
+        "2-PS1-2"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Scientists observe and ask questions",
+      "objectives": [
+        "Make observations using senses and tools",
+        "Ask testable questions",
+        "Set up a science notebook"
+      ],
+      "standards": [
+        "K-2-ETS1-1"
+      ],
+      "vocabulary": [
+        "observe",
+        "question",
+        "investigate",
+        "notebook"
+      ],
+      "materials": [
+        "composition notebook",
+        "magnifying glass",
+        "leaves, rocks, shells"
+      ],
+      "days": [
+        {
+          "title": "Science notebook",
+          "work": "Set up a science notebook with a cover, table of contents, and a page on 'What scientists do.' Draw and label a magnifying glass."
+        },
+        {
+          "title": "Nature observation",
+          "work": "Collect 5 natural objects outside and observe each with a magnifier; record color, shape, texture, and size in a chart."
+        },
+        {
+          "title": "Asking questions",
+          "work": "Sort questions about the objects into 'can test' and 'can't test' and write 3 testable questions (Which rock is heaviest?)."
+        },
+        {
+          "title": "Measure and compare",
+          "work": "Use a ruler and kitchen scale to measure the objects and order them by size and weight."
+        },
+        {
+          "title": "Review",
+          "work": "Share notebook observations aloud and explain the difference between an observation and an opinion."
+        }
+      ],
+      "assessment": "Notebook observation chart and 3 testable questions."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Engineers solve problems",
+      "objectives": [
+        "Define a simple problem",
+        "Sketch a solution",
+        "Build and test a model"
+      ],
+      "standards": [
+        "K-2-ETS1-1",
+        "K-2-ETS1-2"
+      ],
+      "vocabulary": [
+        "engineer",
+        "problem",
+        "design",
+        "model",
+        "test"
+      ],
+      "materials": [
+        "paper, tape, paper clips",
+        "pennies",
+        "index cards"
+      ],
+      "days": [
+        {
+          "title": "What engineers do",
+          "work": "Look at everyday tools (can opener, clothespin, zipper) and discuss what problem each solves; record 3 in your notebook."
+        },
+        {
+          "title": "Define the problem",
+          "work": "Problem: pencils keep rolling off the table. Ask questions and list what a solution must do."
+        },
+        {
+          "title": "Sketch",
+          "work": "Sketch two designs for a pencil holder from paper and tape and label how the shape keeps pencils from rolling."
+        },
+        {
+          "title": "Build & test",
+          "work": "Build the best design and test it with 5 pencils; record results and one improvement."
+        },
+        {
+          "title": "Review",
+          "work": "Explain the design steps (ask, imagine, plan, create, improve) using your pencil holder as the example."
+        }
+      ],
+      "assessment": "Labeled design sketch and test results."
+    },
+    {
+      "week": 3,
+      "unit": 2,
+      "topic": "Describing materials by properties",
+      "objectives": [
+        "Describe materials by color, texture, hardness, flexibility",
+        "Classify objects by material",
+        "Record observations in a table"
+      ],
+      "standards": [
+        "2-PS1-1"
+      ],
+      "vocabulary": [
+        "material",
+        "property",
+        "texture",
+        "flexible",
+        "hard"
+      ],
+      "materials": [
+        "wood, metal, plastic, fabric, paper, rubber objects",
+        "sorting trays"
+      ],
+      "days": [
+        {
+          "title": "Material hunt",
+          "work": "Find 15 household objects and identify what material each is made of (wood, metal, plastic, glass, fabric, paper, rubber)."
+        },
+        {
+          "title": "Properties",
+          "work": "Describe each material's properties (hard/soft, rough/smooth, bendy/stiff, shiny/dull) in a table."
+        },
+        {
+          "title": "Sort and classify",
+          "work": "Sort the objects two different ways (by material, then by a property) and explain the rule for each sort."
+        },
+        {
+          "title": "Mystery bag",
+          "work": "Identify objects in a bag by touch alone and name their texture and hardness."
+        },
+        {
+          "title": "Review",
+          "work": "Classify 10 new objects by material and properties and justify one classification aloud."
+        }
+      ],
+      "assessment": "Material/property classification table."
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "Testing materials: absorbency and waterproofing",
+      "objectives": [
+        "Plan and conduct a fair test",
+        "Collect and compare data",
+        "Decide which material is best for a purpose"
+      ],
+      "standards": [
+        "2-PS1-1",
+        "2-PS1-2"
+      ],
+      "vocabulary": [
+        "absorb",
+        "waterproof",
+        "fair test",
+        "data"
+      ],
+      "materials": [
+        "paper towel, napkin, sponge, cloth, plastic wrap, foil",
+        "eyedropper or spoon",
+        "water",
+        "cup"
+      ],
+      "days": [
+        {
+          "title": "Plan a test",
+          "work": "Plan a fair test of which material absorbs water best: same amount of water, same size pieces. Write predictions."
+        },
+        {
+          "title": "Absorbency test",
+          "work": "Drop 10 drops (or spoonfuls) of water on each material and observe what happens; record in a data table."
+        },
+        {
+          "title": "Waterproof test",
+          "work": "Test which materials keep a paper doll dry under drips (foil, plastic wrap, cloth, paper)."
+        },
+        {
+          "title": "Analyze",
+          "work": "Make a bar graph of results and decide the best material for a raincoat and for cleaning a spill."
+        },
+        {
+          "title": "Review",
+          "work": "Write a claim and evidence sentence: 'The best material for a raincoat is ___ because ___.'"
+        }
+      ],
+      "assessment": "Data table, bar graph, and claim-evidence sentence."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Testing materials: strength and flexibility",
+      "objectives": [
+        "Test strength and flexibility of materials",
+        "Analyze data to choose materials",
+        "Explain choices with evidence"
+      ],
+      "standards": [
+        "2-PS1-2",
+        "2-PS1-1"
+      ],
+      "vocabulary": [
+        "strength",
+        "flexibility",
+        "stretch",
+        "purpose"
+      ],
+      "materials": [
+        "strips of paper, foil, fabric, plastic bag",
+        "pennies",
+        "cup",
+        "rubber bands"
+      ],
+      "days": [
+        {
+          "title": "Strength test",
+          "work": "Hang a paper cup from strips of different materials and add pennies until each breaks; record the number."
+        },
+        {
+          "title": "Flexibility test",
+          "work": "Bend strips of cardboard, plastic, wood craft sticks, and foil and rank them from most to least flexible."
+        },
+        {
+          "title": "Stretch test",
+          "work": "Measure how far rubber bands and fabric strips stretch with a ruler."
+        },
+        {
+          "title": "Best for the job",
+          "work": "Use data to pick the best material for a bag handle, a bridge deck, and a hair tie; explain with numbers."
+        },
+        {
+          "title": "Review",
+          "work": "Present test results in a chart and answer 'Why do engineers test materials?'"
+        }
+      ],
+      "assessment": "Strength data chart and material-choice explanations."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Hot and cold: insulators",
+      "objectives": [
+        "Test which materials keep things cold",
+        "Compare results of two designs",
+        "Use data to identify strengths and weaknesses"
+      ],
+      "standards": [
+        "2-PS1-2",
+        "K-2-ETS1-3"
+      ],
+      "vocabulary": [
+        "insulator",
+        "melt",
+        "temperature",
+        "compare"
+      ],
+      "materials": [
+        "ice cubes",
+        "small cups",
+        "foil, cloth, newspaper, bubble wrap",
+        "timer"
+      ],
+      "days": [
+        {
+          "title": "Melting predictions",
+          "work": "Predict which wrapper (foil, cloth, newspaper, bubble wrap, none) will keep an ice cube from melting longest."
+        },
+        {
+          "title": "Ice cube test",
+          "work": "Wrap identical ice cubes and check every 15 minutes; record observations and time to melt."
+        },
+        {
+          "title": "Design an ice keeper",
+          "work": "Design and build an 'ice cube keeper' from two materials and sketch it."
+        },
+        {
+          "title": "Compare designs",
+          "work": "Test your keeper vs. the best single material; record data and compare strengths and weaknesses."
+        },
+        {
+          "title": "Review",
+          "work": "Write a notebook conclusion about which materials make good insulators and why."
+        }
+      ],
+      "assessment": "Ice-keeper design test with data comparison."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Materials unit project: build a better umbrella",
+      "objectives": [
+        "Apply property data to a design challenge",
+        "Build and test a model",
+        "Communicate results"
+      ],
+      "standards": [
+        "2-PS1-2",
+        "K-2-ETS1-3",
+        "2-PS1-1"
+      ],
+      "vocabulary": [
+        "design",
+        "criteria",
+        "evaluate"
+      ],
+      "materials": [
+        "craft sticks, straws, foil, plastic bag, fabric, tape",
+        "spray bottle",
+        "small toy"
+      ],
+      "days": [
+        {
+          "title": "Define the problem",
+          "work": "Design a mini umbrella to keep a small toy dry; list criteria (waterproof, sturdy, light)."
+        },
+        {
+          "title": "Choose materials",
+          "work": "Use data from earlier tests to choose materials and sketch the design with labels."
+        },
+        {
+          "title": "Build",
+          "work": "Build the umbrella and test it under a spray bottle for 30 seconds."
+        },
+        {
+          "title": "Improve",
+          "work": "Improve one part and retest; record how the change affected results."
+        },
+        {
+          "title": "Unit 2 check",
+          "work": "Present the umbrella and explain material choices; complete a short quiz on classifying materials by properties."
+        }
+      ],
+      "assessment": "Umbrella design presentation and properties quiz."
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "Pieces make a whole",
+      "objectives": [
+        "Build objects from small pieces",
+        "Disassemble and rebuild into a new object",
+        "Describe evidence from observations"
+      ],
+      "standards": [
+        "2-PS1-3"
+      ],
+      "vocabulary": [
+        "piece",
+        "assemble",
+        "disassemble",
+        "structure"
+      ],
+      "materials": [
+        "building blocks or LEGO",
+        "craft sticks",
+        "photos/drawings"
+      ],
+      "days": [
+        {
+          "title": "Build a house",
+          "work": "Build a small house from 20 blocks and draw it; count pieces of each type."
+        },
+        {
+          "title": "Take apart",
+          "work": "Take the house apart and build a new object (car or bridge) using the same 20 pieces; draw it."
+        },
+        {
+          "title": "Same pieces, new shape",
+          "work": "Compare the two drawings and explain how the same pieces made different objects."
+        },
+        {
+          "title": "Real world",
+          "work": "Look at pictures of a wooden fence turned into a table or bricks reused in a building; discuss."
+        },
+        {
+          "title": "Review",
+          "work": "Write an evidence-based account: 'I know an object made of pieces can become a new object because…'"
+        }
+      ],
+      "assessment": "Written evidence account with drawings."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Reversible changes with heating and cooling",
+      "objectives": [
+        "Observe changes when materials are heated or cooled",
+        "Identify changes that can be reversed",
+        "Record before-and-after observations"
+      ],
+      "standards": [
+        "2-PS1-4"
+      ],
+      "vocabulary": [
+        "heat",
+        "cool",
+        "melt",
+        "freeze",
+        "reversible"
+      ],
+      "materials": [
+        "ice cube trays",
+        "chocolate chips",
+        "crayons (old pieces)",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Freeze and melt",
+          "work": "Freeze water in ice trays and then melt the cubes; record that water becomes ice and back again."
+        },
+        {
+          "title": "Chocolate change",
+          "work": "Melt chocolate chips in a bag in warm water, then cool them in the fridge; observe the shape change and reversal."
+        },
+        {
+          "title": "Crayon remake",
+          "work": "With an adult, melt broken crayon pieces in a muffin tin in the oven at low heat and cool them into new crayons."
+        },
+        {
+          "title": "Before and after",
+          "work": "Make a before/heated/cooled chart for the three investigations."
+        },
+        {
+          "title": "Review",
+          "work": "Explain which changes were reversible and give evidence from the chart."
+        }
+      ],
+      "assessment": "Before/after chart and reversible-change explanation."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Irreversible changes",
+      "objectives": [
+        "Observe changes that cannot be reversed",
+        "Compare reversible and irreversible changes",
+        "Construct an argument with evidence"
+      ],
+      "standards": [
+        "2-PS1-4"
+      ],
+      "vocabulary": [
+        "irreversible",
+        "cook",
+        "burn",
+        "evidence",
+        "argument"
+      ],
+      "materials": [
+        "eggs",
+        "bread and toaster",
+        "pancake batter",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Cooking an egg",
+          "work": "Observe a raw egg, then cook it with an adult; discuss whether it can become raw again."
+        },
+        {
+          "title": "Toast",
+          "work": "Toast a slice of bread and compare to untoasted bread; try to 'untoast' it (cooling) and record."
+        },
+        {
+          "title": "Pancakes",
+          "work": "Make pancakes and describe how liquid batter becomes solid when heated."
+        },
+        {
+          "title": "Sort changes",
+          "work": "Sort 12 picture cards (melting snow, baking a cake, freezing juice, burning wood) into reversible/irreversible."
+        },
+        {
+          "title": "Review",
+          "work": "Write an argument: 'Some changes caused by heating can be reversed and some cannot,' with two pieces of evidence each."
+        }
+      ],
+      "assessment": "Change-sort and written argument with evidence."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Matter unit project: recycled materials",
+      "objectives": [
+        "Apply understanding of pieces and changes to a project",
+        "Design a new object from old pieces"
+      ],
+      "standards": [
+        "2-PS1-3",
+        "2-PS1-4"
+      ],
+      "vocabulary": [
+        "recycle",
+        "reuse",
+        "design"
+      ],
+      "materials": [
+        "clean recyclables (boxes, tubes, caps)",
+        "glue and tape"
+      ],
+      "days": [
+        {
+          "title": "Plan",
+          "work": "Collect clean recyclables and plan a new object (toy, organizer) to build from them; sketch it."
+        },
+        {
+          "title": "Build",
+          "work": "Build the object with glue and tape, counting how many of each piece you used, and label its parts."
+        },
+        {
+          "title": "Rebuild",
+          "work": "Disassemble and rebuild into a second, different object; photograph or draw both."
+        },
+        {
+          "title": "Ice pop test",
+          "work": "Freeze juice pops and let one melt and refreeze; discuss if it is the same as before."
+        },
+        {
+          "title": "Unit 3 check",
+          "work": "Quiz on pieces/new objects and reversible/irreversible changes; present the recycled builds."
+        }
+      ],
+      "assessment": "Recycled-object presentation and unit quiz."
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "Parts of plants and plant needs",
+      "objectives": [
+        "Identify plant parts and their jobs",
+        "Ask questions about what plants need",
+        "Plan an investigation"
+      ],
+      "standards": [
+        "2-LS2-1"
+      ],
+      "vocabulary": [
+        "root",
+        "stem",
+        "leaf",
+        "sunlight",
+        "investigation"
+      ],
+      "materials": [
+        "bean seeds",
+        "clear cups",
+        "soil",
+        "paper towels"
+      ],
+      "days": [
+        {
+          "title": "Plant parts",
+          "work": "Dig up a weed and identify roots, stem, leaves, and flowers; draw and label it."
+        },
+        {
+          "title": "Celery straw",
+          "work": "Put a celery stalk in colored water and observe how water travels up the stem over a day."
+        },
+        {
+          "title": "Seed in a bag",
+          "work": "Plant bean seeds in wet paper towels in a zip bag on a window to watch roots grow."
+        },
+        {
+          "title": "What do plants need?",
+          "work": "List what you think plants need and write questions to test (Do plants need light? Water?)."
+        },
+        {
+          "title": "Review",
+          "work": "Record day-by-day observations of celery and bean bag; explain the stem's job."
+        }
+      ],
+      "assessment": "Labeled plant drawing and observation log."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Fair test: Do plants need light?",
+      "objectives": [
+        "Plan and conduct a fair test about light",
+        "Keep variables the same",
+        "Record growth data"
+      ],
+      "standards": [
+        "2-LS2-1"
+      ],
+      "vocabulary": [
+        "variable",
+        "fair test",
+        "control",
+        "measure"
+      ],
+      "materials": [
+        "4 bean plants or seedlings in cups",
+        "dark closet",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Plan the light test",
+          "work": "Plan a fair test: 2 plants in sunlight, 2 in a dark closet, same water and soil. Write predictions."
+        },
+        {
+          "title": "Set up",
+          "work": "Set up the four plants, label each cup (light/dark), and measure and record each plant's starting height in centimeters."
+        },
+        {
+          "title": "Observe",
+          "work": "Measure each plant's height and note its leaf color and stem shape; record the numbers in the data table."
+        },
+        {
+          "title": "Midweek check",
+          "work": "Draw both groups and compare color (green vs. yellow) and stem shape."
+        },
+        {
+          "title": "Review",
+          "work": "Explain why only light was changed and what we keep the same in a fair test."
+        }
+      ],
+      "assessment": "Investigation plan and data table."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Fair test: Do plants need water?",
+      "objectives": [
+        "Plan and conduct a fair test about water",
+        "Continue light test",
+        "Compare data from two tests"
+      ],
+      "standards": [
+        "2-LS2-1"
+      ],
+      "vocabulary": [
+        "water",
+        "wilt",
+        "compare",
+        "conclusion"
+      ],
+      "materials": [
+        "4 more seedlings",
+        "measuring cup",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Plan the water test",
+          "work": "Set up 2 watered plants and 2 unwatered plants in the same light; predict results."
+        },
+        {
+          "title": "Measure light test",
+          "work": "Measure the light-test plants and graph height over time."
+        },
+        {
+          "title": "Observe water test",
+          "work": "Observe and record wilting, color, and height of the water-test plants."
+        },
+        {
+          "title": "Graph",
+          "work": "Make bar graphs comparing plants with and without light and water."
+        },
+        {
+          "title": "Review",
+          "work": "Share the two graphs with a family member and explain which plants look healthiest and what surprised you."
+        }
+      ],
+      "assessment": "Two bar graphs of plant growth."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Plant needs conclusions",
+      "objectives": [
+        "Draw conclusions from data",
+        "Communicate findings",
+        "Connect to real gardens"
+      ],
+      "standards": [
+        "2-LS2-1"
+      ],
+      "vocabulary": [
+        "conclusion",
+        "evidence",
+        "results"
+      ],
+      "materials": [
+        "plant data",
+        "poster paper"
+      ],
+      "days": [
+        {
+          "title": "Final measurements",
+          "work": "Take final measurements of all plants and complete the data tables."
+        },
+        {
+          "title": "Conclusion",
+          "work": "Write a conclusion: 'Plants need ___ and ___ to grow. My evidence is…'"
+        },
+        {
+          "title": "Rescue",
+          "work": "Move the closet and unwatered plants to light and water; predict whether they recover."
+        },
+        {
+          "title": "Poster",
+          "work": "Make a poster of the investigation (question, prediction, test, results, conclusion)."
+        },
+        {
+          "title": "Unit 4 check",
+          "work": "Present the poster and complete a quiz on plant needs and fair tests."
+        }
+      ],
+      "assessment": "Investigation poster and unit quiz."
+    },
+    {
+      "week": 16,
+      "unit": 5,
+      "topic": "Seeds on the move",
+      "objectives": [
+        "Observe different seed types",
+        "Describe how seeds are dispersed",
+        "Connect seed shape to dispersal"
+      ],
+      "standards": [
+        "2-LS2-2"
+      ],
+      "vocabulary": [
+        "seed",
+        "disperse",
+        "burr",
+        "hitchhiker"
+      ],
+      "materials": [
+        "assorted seeds (maple, dandelion, burrs, acorns, fruit seeds)",
+        "old sock",
+        "fan"
+      ],
+      "days": [
+        {
+          "title": "Seed collection",
+          "work": "Collect seeds outside or from fruits and sort them by how you think they travel (wind, water, animals, fur)."
+        },
+        {
+          "title": "Sock walk",
+          "work": "Walk through a grassy area wearing an old sock over a shoe; observe and count seeds that stick."
+        },
+        {
+          "title": "Wind test",
+          "work": "Use a fan to test which seeds travel farthest; measure distances."
+        },
+        {
+          "title": "Animals eat fruit",
+          "work": "Read about birds eating berries and dropping seeds; draw a seed's journey from fruit to new plant."
+        },
+        {
+          "title": "Review",
+          "work": "Match 8 seeds to their dispersal method with reasons."
+        }
+      ],
+      "assessment": "Seed dispersal matching and journey drawing."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Modeling seed dispersal",
+      "objectives": [
+        "Develop a model that mimics an animal dispersing seeds",
+        "Test and improve the model"
+      ],
+      "standards": [
+        "2-LS2-2",
+        "K-2-ETS1-2"
+      ],
+      "vocabulary": [
+        "model",
+        "mimic",
+        "fur",
+        "Velcro"
+      ],
+      "materials": [
+        "pom-poms",
+        "Velcro",
+        "fabric scraps",
+        "pipe cleaners"
+      ],
+      "days": [
+        {
+          "title": "Design challenge",
+          "work": "Design a model 'animal' that picks up and carries seeds like fur does; sketch two ideas."
+        },
+        {
+          "title": "Build",
+          "work": "Build the model 'animal' from a sock, fabric scraps, Velcro, or pipe-cleaner 'fur,' following your sketch."
+        },
+        {
+          "title": "Test",
+          "work": "Drag the model through a tray of seeds or rice and count seeds picked up and dropped."
+        },
+        {
+          "title": "Improve",
+          "work": "Change the model's shape or material and retest; record changes."
+        },
+        {
+          "title": "Review",
+          "work": "Explain how the model is like a real animal and how its shape helps it work."
+        }
+      ],
+      "assessment": "Model test data and explanation."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Pollination",
+      "objectives": [
+        "Describe how animals pollinate flowers",
+        "Identify flower parts",
+        "Model pollination"
+      ],
+      "standards": [
+        "2-LS2-2"
+      ],
+      "vocabulary": [
+        "pollen",
+        "pollinator",
+        "nectar",
+        "flower"
+      ],
+      "materials": [
+        "cheese puffs or chalk dust",
+        "paper flowers",
+        "cotton swabs",
+        "flowers to observe"
+      ],
+      "days": [
+        {
+          "title": "Flower parts",
+          "work": "Dissect a flower (or use a diagram) to find petals and pollen; draw and label."
+        },
+        {
+          "title": "Pollinator observation",
+          "work": "Watch flowers outside for 15 minutes and tally bees, butterflies, and birds."
+        },
+        {
+          "title": "Cheese puff model",
+          "work": "Use fingers dusted with cheese puff powder to 'visit' paper flowers; observe how 'pollen' moves."
+        },
+        {
+          "title": "Pollinator research",
+          "work": "Read about bees, hummingbirds, and bats as pollinators; record one fact each."
+        },
+        {
+          "title": "Review",
+          "work": "Explain why plants need pollinators and pollinators need plants."
+        }
+      ],
+      "assessment": "Pollination model and explanation."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Build a pollinator model",
+      "objectives": [
+        "Develop a model that mimics a pollinator",
+        "Compare designs",
+        "Communicate"
+      ],
+      "standards": [
+        "2-LS2-2",
+        "K-2-ETS1-2"
+      ],
+      "vocabulary": [
+        "design",
+        "function",
+        "shape"
+      ],
+      "materials": [
+        "pipe cleaners",
+        "cotton balls",
+        "tape",
+        "craft sticks",
+        "powdered drink mix"
+      ],
+      "days": [
+        {
+          "title": "Plan",
+          "work": "Design a 'hand pollinator' tool that moves colored powder from flower to flower; sketch."
+        },
+        {
+          "title": "Build",
+          "work": "Build the hand pollinator from pipe cleaners, cotton balls, and craft sticks, shaping the tip to reach into a paper flower."
+        },
+        {
+          "title": "Test",
+          "work": "Test how well it picks up and drops powder on paper flowers; record results."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare two designs and decide which works better and why."
+        },
+        {
+          "title": "Unit 5 check",
+          "work": "Present the model and take a quiz on seed dispersal and pollination."
+        }
+      ],
+      "assessment": "Pollinator model presentation and unit quiz."
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "What is a habitat? Surveying living things nearby",
+      "objectives": [
+        "Define habitat and its parts",
+        "Observe and count kinds of living things in a local area",
+        "Compare two local areas with data"
+      ],
+      "standards": [
+        "2-LS4-1"
+      ],
+      "vocabulary": [
+        "habitat",
+        "biodiversity",
+        "survey",
+        "organism"
+      ],
+      "materials": [
+        "hula hoop or 1-meter string loop",
+        "magnifier",
+        "clipboard and tally sheet",
+        "field guide or iNaturalist Seek app (optional)"
+      ],
+      "days": [
+        {
+          "title": "Habitat needs",
+          "work": "Learn that a habitat provides food, water, shelter, and space; walk around the block and list 4 small habitats (tree, lawn, garden bed, puddle) with one animal that lives in each."
+        },
+        {
+          "title": "Hoop survey 1",
+          "work": "Lay a hoop on a lawn or garden bed, search it for 15 minutes with a magnifier, and tally every different kind of plant and animal (ants, clover, beetles, grass) in a survey sheet."
+        },
+        {
+          "title": "Hoop survey 2",
+          "work": "Repeat the same 15-minute hoop survey in a very different spot (sidewalk crack, gravel, or under a tree) and tally kinds of living things the same way."
+        },
+        {
+          "title": "Graph the data",
+          "work": "Make a bar graph comparing the number of different kinds of living things found in each spot, and circle any organism found in both places."
+        },
+        {
+          "title": "Review",
+          "work": "Write a claim with evidence: 'The ___ spot had more kinds of living things because it had more ___ (water, shade, plants),' and share it aloud."
+        }
+      ],
+      "assessment": "Hoop-survey data, bar graph, and claim-evidence sentence."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Comparing land habitats: forest, desert, grassland",
+      "objectives": [
+        "Compare diversity in three land habitats",
+        "Gather information from books and videos",
+        "Organize data in a chart"
+      ],
+      "standards": [
+        "2-LS4-1"
+      ],
+      "vocabulary": [
+        "forest",
+        "desert",
+        "grassland",
+        "adapt",
+        "diversity"
+      ],
+      "materials": [
+        "library habitat books (e.g., A Walk in the Desert, Rebecca L. Johnson)",
+        "National Geographic Kids habitat articles",
+        "chart paper"
+      ],
+      "days": [
+        {
+          "title": "Forest",
+          "work": "Read a library book or National Geographic Kids article about a redwood forest and list 8 plants and animals that live there, noting where each finds shelter."
+        },
+        {
+          "title": "Desert",
+          "work": "Read about California's Mojave Desert and list the living things (Joshua tree, tortoise, roadrunner, cactus); discuss how each survives with little water."
+        },
+        {
+          "title": "Grassland",
+          "work": "Watch a short video about California grasslands or the prairie and list the plants and animals; tally how many kinds each source names."
+        },
+        {
+          "title": "Compare chart",
+          "work": "Make a three-column chart and a bar graph of how many kinds of living things each habitat has; describe the pattern you see."
+        },
+        {
+          "title": "Review",
+          "work": "Answer in 3–4 sentences: 'Which habitat has the most diversity, and why?' using evidence from the chart (more water and plants support more animals)."
+        }
+      ],
+      "assessment": "Habitat comparison chart and written answer with evidence."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Comparing water habitats: kelp forest, pond, tide pool",
+      "objectives": [
+        "Compare diversity in ocean and freshwater habitats",
+        "Observe a water sample",
+        "Compare water and land habitats"
+      ],
+      "standards": [
+        "2-LS4-1"
+      ],
+      "vocabulary": [
+        "ocean",
+        "pond",
+        "tide pool",
+        "kelp forest",
+        "freshwater"
+      ],
+      "materials": [
+        "clear jar",
+        "pond or puddle water sample (optional)",
+        "magnifier",
+        "Monterey Bay Aquarium kelp cam or ocean video"
+      ],
+      "days": [
+        {
+          "title": "Kelp forest",
+          "work": "Watch the Monterey Bay Aquarium kelp forest live cam or a kelp video for 10 minutes and list every kind of fish, plant, and animal you see."
+        },
+        {
+          "title": "Pond sample",
+          "work": "Scoop pond or puddle water into a clear jar with an adult, let it settle, and look for tiny swimming organisms with a magnifier; draw 3 you find (or use pond-life photos)."
+        },
+        {
+          "title": "Tide pool",
+          "work": "Read about California tide pools and sketch a tide pool with sea stars, anemones, crabs, and snails, labeling where each lives (rock, water, crack)."
+        },
+        {
+          "title": "Land vs. water",
+          "work": "Add the three water habitats to last week's chart and compare totals with the land habitats; note which habitat had the most kinds overall."
+        },
+        {
+          "title": "Review",
+          "work": "Tell a family member which habitat surprised you most and give two facts as evidence; answer 2 questions they ask."
+        }
+      ],
+      "assessment": "Updated habitat chart and oral explanation with evidence."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Habitat diorama project",
+      "objectives": [
+        "Build a model of a habitat",
+        "Show the diversity of living things in it",
+        "Present and compare habitats"
+      ],
+      "standards": [
+        "2-LS4-1"
+      ],
+      "vocabulary": [
+        "diorama",
+        "model",
+        "diversity",
+        "shelter"
+      ],
+      "materials": [
+        "shoebox",
+        "construction paper, clay, twigs, sand, cotton",
+        "index-card labels"
+      ],
+      "days": [
+        {
+          "title": "Choose and research",
+          "work": "Choose one habitat (redwood forest, Mojave Desert, kelp forest, tide pool, or pond) and use 2 sources to list 6 living things and what each needs."
+        },
+        {
+          "title": "Build the background",
+          "work": "Paint or line a shoebox to show the habitat's land, water, and sky, and add plants made from paper, twigs, or clay."
+        },
+        {
+          "title": "Add animals and labels",
+          "work": "Model at least 4 animals in clay or paper and add index-card labels telling what each eats and where it shelters."
+        },
+        {
+          "title": "Present",
+          "work": "Present the diorama, naming how many kinds of living things it shows, and compare it with one habitat from the chart (more or less diversity and why)."
+        },
+        {
+          "title": "Unit 6 check",
+          "work": "Quiz: match 8 organisms to habitats and explain which of two pictured habitats has more diversity."
+        }
+      ],
+      "assessment": "Diorama presentation (rubric) and unit quiz."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Fast Earth changes: volcanoes, earthquakes, landslides",
+      "objectives": [
+        "Describe Earth events that happen quickly",
+        "Model fast changes",
+        "Gather evidence from several sources"
+      ],
+      "standards": [
+        "2-ESS1-1"
+      ],
+      "vocabulary": [
+        "volcano",
+        "earthquake",
+        "landslide",
+        "fast",
+        "evidence"
+      ],
+      "materials": [
+        "clay or play dough",
+        "baking soda and vinegar",
+        "tray, blocks, soil",
+        "Mount St. Helens before/after photos (USGS)"
+      ],
+      "days": [
+        {
+          "title": "Mount St. Helens",
+          "work": "Compare before-and-after photos of Mount St. Helens (1980) and read a short passage about the eruption; record how much the mountain changed in one day."
+        },
+        {
+          "title": "Model volcano",
+          "work": "Build a clay volcano around a cup, erupt it with baking soda and vinegar, and draw how the 'lava' changed the land around it."
+        },
+        {
+          "title": "Earthquake shake table",
+          "work": "Build a block tower on a tray resting on marbles, shake the tray, and record what happens; read about a California earthquake and how quickly it changed roads."
+        },
+        {
+          "title": "Landslide",
+          "work": "Pack damp soil on a tilted tray, pour water at the top, and time how fast the soil slides; compare to photos of a California coastal landslide."
+        },
+        {
+          "title": "Review",
+          "work": "Fill a 3-row chart (event, how long it took, evidence and source) for the volcano, earthquake, and landslide."
+        }
+      ],
+      "assessment": "Fast-change evidence chart citing at least two sources."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Slow Earth changes: weathering and erosion",
+      "objectives": [
+        "Describe Earth changes that happen slowly",
+        "Model weathering",
+        "Use evidence from sources"
+      ],
+      "standards": [
+        "2-ESS1-1"
+      ],
+      "vocabulary": [
+        "weathering",
+        "erosion",
+        "canyon",
+        "glacier",
+        "slow"
+      ],
+      "materials": [
+        "sugar cubes and jar with lid",
+        "two rough rocks",
+        "small plastic container with lid",
+        "Grand Canyon photos"
+      ],
+      "days": [
+        {
+          "title": "Shake and break",
+          "work": "Shake 5 sugar cubes in a jar for 2 minutes, then 2 more, and compare the corners each time to model how rocks bumping in rivers are worn down."
+        },
+        {
+          "title": "Rock rubbing",
+          "work": "Rub two rough rocks together over black paper for 2 minutes and look at the dust with a magnifier; discuss how long it would take to wear a rock away."
+        },
+        {
+          "title": "Grand Canyon",
+          "work": "Read about how the Colorado River carved the Grand Canyon over millions of years and look at the rock layers in photos; write 2 facts."
+        },
+        {
+          "title": "Ice cracks rock",
+          "work": "Fill a small plastic container to the top with water, cap it, freeze overnight, and observe how the ice bulged or cracked the container."
+        },
+        {
+          "title": "Review",
+          "work": "Write 3 sentences explaining why weathering and erosion change land so slowly, using evidence from the sugar cube and ice tests."
+        }
+      ],
+      "assessment": "Weathering observations and written explanation."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Comparing fast and slow changes on a timeline",
+      "objectives": [
+        "Sort Earth events by how long they take",
+        "Build a timeline of time scales",
+        "Compare a fast and a slow change in writing"
+      ],
+      "standards": [
+        "2-ESS1-1"
+      ],
+      "vocabulary": [
+        "timeline",
+        "minutes",
+        "years",
+        "millions"
+      ],
+      "materials": [
+        "Earth event picture cards",
+        "long paper strip",
+        "photos of Yosemite Valley"
+      ],
+      "days": [
+        {
+          "title": "Sort events",
+          "work": "Sort 12 picture cards (flood, eruption, canyon, earthquake, sand dune, landslide, glacier valley) into fast and slow and justify 3 choices aloud."
+        },
+        {
+          "title": "Time scale strip",
+          "work": "Make a long paper timeline with marks for seconds, hours, days, years, and millions of years, and place each event card where it belongs."
+        },
+        {
+          "title": "Yosemite Valley",
+          "work": "Read two short sources about how glaciers carved Yosemite Valley slowly and how a rockfall can happen in seconds; list evidence from each."
+        },
+        {
+          "title": "Compare in writing",
+          "work": "Write a paragraph comparing one fast change and one slow change: what happened, how long it took, and how you know."
+        },
+        {
+          "title": "Review",
+          "work": "Read the paragraph aloud and answer a family member's questions; check that each claim names a source."
+        }
+      ],
+      "assessment": "Time-scale strip and comparison paragraph."
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Earth changes model and unit check",
+      "objectives": [
+        "Model a canyon forming",
+        "Compare a model to the real world",
+        "Show understanding of fast and slow changes"
+      ],
+      "standards": [
+        "2-ESS1-1"
+      ],
+      "vocabulary": [
+        "model",
+        "canyon",
+        "evidence"
+      ],
+      "materials": [
+        "sand or soil in a long pan",
+        "watering can or cup with pinhole",
+        "Grand Canyon photos",
+        "poster paper"
+      ],
+      "days": [
+        {
+          "title": "Notebook review",
+          "work": "Review notebook entries on fast and slow changes and highlight the strongest piece of evidence for each."
+        },
+        {
+          "title": "Sand canyon model",
+          "work": "Tilt a pan of damp sand and let water trickle from a pinhole cup for 10 minutes; photograph or sketch the 'canyon' every 2 minutes."
+        },
+        {
+          "title": "Model vs. real",
+          "work": "Compare the sand canyon to Grand Canyon photos; list 2 ways the model is like the real canyon and 1 way it is different (time)."
+        },
+        {
+          "title": "Poster",
+          "work": "Make a 'Fast vs. Slow' poster with drawings, time labels, and one piece of evidence from a source for each event."
+        },
+        {
+          "title": "Unit 7 check",
+          "work": "Quiz: classify 8 events as fast or slow and explain one using evidence; present the poster."
+        }
+      ],
+      "assessment": "Poster and unit quiz."
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "How wind and water change land",
+      "objectives": [
+        "Observe how wind and water move soil and sand",
+        "Model erosion",
+        "Find erosion in the neighborhood"
+      ],
+      "standards": [
+        "2-ESS2-1"
+      ],
+      "vocabulary": [
+        "erosion",
+        "sediment",
+        "gully",
+        "wind",
+        "deposit"
+      ],
+      "materials": [
+        "sand and soil",
+        "baking pan or tray",
+        "watering can",
+        "drinking straws",
+        "newspaper"
+      ],
+      "days": [
+        {
+          "title": "Water erosion",
+          "work": "Build a sand hill in a tray, sprinkle it with a watering can for 1 minute, and draw where sand was removed and where it was deposited."
+        },
+        {
+          "title": "Wind erosion",
+          "work": "Make a flat sand pile on newspaper, blow through a straw from 10 cm away for 30 seconds, and measure how far sand traveled."
+        },
+        {
+          "title": "Erosion walk",
+          "work": "Walk the neighborhood or a park to photograph or sketch erosion (gullies, exposed tree roots, washed-out paths) and note whether water or wind caused it."
+        },
+        {
+          "title": "Coastal erosion",
+          "work": "Read about California cliff erosion (e.g., Pacifica) and look at photos of homes near eroding cliffs; discuss why it is a problem for people."
+        },
+        {
+          "title": "Review",
+          "work": "Draw before-and-after pictures of the water and wind models and label erosion and deposit areas."
+        }
+      ],
+      "assessment": "Before/after erosion drawings with labels."
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Testing solutions that slow erosion",
+      "objectives": [
+        "Learn real solutions to erosion",
+        "Test plant cover and barriers",
+        "Compare results in a data table"
+      ],
+      "standards": [
+        "2-ESS2-1",
+        "K-2-ETS1-1"
+      ],
+      "vocabulary": [
+        "retaining wall",
+        "windbreak",
+        "levee",
+        "vegetation",
+        "barrier"
+      ],
+      "materials": [
+        "two trays of soil (one planted with grass seed two weeks earlier or covered with moss)",
+        "craft sticks, pebbles",
+        "measuring cup"
+      ],
+      "days": [
+        {
+          "title": "Real solutions",
+          "work": "Look at photos of retaining walls, rows of trees as windbreaks, levees, and sand fences, and write what problem each solves."
+        },
+        {
+          "title": "Plants vs. bare soil",
+          "work": "Pour 2 cups of water down a tray of bare soil and a tray with grass growing; collect and compare the muddy runoff in cups."
+        },
+        {
+          "title": "Barriers",
+          "work": "Build a craft-stick wall and a pebble wall on a sand hill and test each with the same amount of water; measure how much sand moves."
+        },
+        {
+          "title": "Data table",
+          "work": "Record results of all four tests (bare, grass, sticks, pebbles) in a table and rank them from least to most sand lost."
+        },
+        {
+          "title": "Review",
+          "work": "Write which solution worked best and one weakness of it, using the data as evidence."
+        }
+      ],
+      "assessment": "Solution test data table and written conclusion."
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Design challenge: protect the house on the hill",
+      "objectives": [
+        "Define a problem with criteria",
+        "Design, build, and test two solutions",
+        "Compare strengths and weaknesses"
+      ],
+      "standards": [
+        "2-ESS2-1",
+        "K-2-ETS1-3"
+      ],
+      "vocabulary": [
+        "criteria",
+        "constraint",
+        "design",
+        "compare"
+      ],
+      "materials": [
+        "tray of sand",
+        "small toy house or block",
+        "craft sticks, foil, cloth, pebbles, clay",
+        "watering can"
+      ],
+      "days": [
+        {
+          "title": "Define the problem",
+          "work": "A toy house sits on a sand hill near a 'river'; list the criteria (house stays put after 2 cups of water) and constraints (only 10 craft sticks, pebbles, clay)."
+        },
+        {
+          "title": "Sketch two designs",
+          "work": "Sketch two different solutions (e.g., a wall vs. a channel that moves water away) and label how each shape protects the house."
+        },
+        {
+          "title": "Build & test design 1",
+          "work": "Build design 1, pour 2 cups of water, and measure how far the house moved and how much sand washed away."
+        },
+        {
+          "title": "Build & test design 2",
+          "work": "Rebuild the hill, build design 2, and test it the same way; record results in the same table."
+        },
+        {
+          "title": "Review",
+          "work": "Compare the two designs in a T-chart of strengths and weaknesses and decide which to improve."
+        }
+      ],
+      "assessment": "Design sketches and comparison T-chart with data."
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Improve, communicate, and unit check",
+      "objectives": [
+        "Improve a design using test data",
+        "Communicate results",
+        "Connect to real erosion solutions"
+      ],
+      "standards": [
+        "2-ESS2-1",
+        "K-2-ETS1-3"
+      ],
+      "vocabulary": [
+        "improve",
+        "communicate",
+        "results"
+      ],
+      "materials": [
+        "designs from last week",
+        "poster paper"
+      ],
+      "days": [
+        {
+          "title": "Improve",
+          "work": "Change one feature of the better design (taller wall, added 'plants') and retest; record whether results improved."
+        },
+        {
+          "title": "Poster",
+          "work": "Make a poster showing the problem, both designs, test data, and the improved design."
+        },
+        {
+          "title": "Present",
+          "work": "Present the poster to family, explaining why the improved design worked better, and answer 2 questions."
+        },
+        {
+          "title": "Real world",
+          "work": "Read about sand dunes and dune grass protecting California beaches and compare them to your designs."
+        },
+        {
+          "title": "Unit 8 check",
+          "work": "Quiz: identify erosion in 4 photos and choose the best solution for 3 situations with a reason."
+        }
+      ],
+      "assessment": "Design poster presentation and unit quiz."
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Landforms and bodies of water",
+      "objectives": [
+        "Name and describe landforms and bodies of water",
+        "Build a model of land and water"
+      ],
+      "standards": [
+        "2-ESS2-2"
+      ],
+      "vocabulary": [
+        "mountain",
+        "valley",
+        "plain",
+        "island",
+        "peninsula",
+        "lake",
+        "river"
+      ],
+      "materials": [
+        "play dough or clay",
+        "baking pan",
+        "water",
+        "toothpick flags"
+      ],
+      "days": [
+        {
+          "title": "Landforms",
+          "work": "Sort photos of mountains, hills, valleys, plains, islands, and peninsulas and write a one-line definition for each."
+        },
+        {
+          "title": "Bodies of water",
+          "work": "Learn ocean, lake, river, pond, stream, and bay, and find a California example of each on a map (Pacific Ocean, Lake Tahoe, Sacramento River, San Francisco Bay)."
+        },
+        {
+          "title": "Build a model",
+          "work": "Build a clay landscape in a pan with a mountain, valley, island, and peninsula, then add water to form a lake, river, and ocean."
+        },
+        {
+          "title": "Label",
+          "work": "Label each feature with toothpick flags and photograph the model from above and from the side."
+        },
+        {
+          "title": "Review",
+          "work": "Explain the model to a family member, pointing to each landform and body of water and telling how they differ."
+        }
+      ],
+      "assessment": "Labeled landform model and oral explanation."
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Mapping land and water",
+      "objectives": [
+        "Draw a map of land and water from a model",
+        "Use a map key and compass rose",
+        "Read a map of California"
+      ],
+      "standards": [
+        "2-ESS2-2"
+      ],
+      "vocabulary": [
+        "map",
+        "key",
+        "symbol",
+        "compass rose",
+        "bird's-eye view"
+      ],
+      "materials": [
+        "photo of clay model",
+        "colored pencils",
+        "California physical map"
+      ],
+      "days": [
+        {
+          "title": "California map",
+          "work": "Study a physical map of California and find the Sierra Nevada, Central Valley, Sacramento River, Lake Tahoe, and Pacific coast; mark them on a blank outline."
+        },
+        {
+          "title": "Map key",
+          "work": "Create a map key with colors and symbols for mountains, valleys, rivers, lakes, and ocean."
+        },
+        {
+          "title": "Map the model",
+          "work": "Use the bird's-eye photo of last week's model to draw a map with the key and a compass rose."
+        },
+        {
+          "title": "Neighborhood map",
+          "work": "Draw a map of your neighborhood or a nearby park showing hills, creeks, ponds, or the coast, with a key."
+        },
+        {
+          "title": "Review",
+          "work": "Compare the model and the map: what does the map show well and what does the model show well (height)?"
+        }
+      ],
+      "assessment": "Model map and California map with key."
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Where water is found: solid and liquid",
+      "objectives": [
+        "Identify where water is found on Earth",
+        "Explain that water can be solid or liquid",
+        "Distinguish fresh and salt water"
+      ],
+      "standards": [
+        "2-ESS2-3"
+      ],
+      "vocabulary": [
+        "glacier",
+        "snowpack",
+        "ice cap",
+        "fresh water",
+        "salt water"
+      ],
+      "materials": [
+        "globe or world map",
+        "ice cubes",
+        "salt",
+        "cups"
+      ],
+      "days": [
+        {
+          "title": "Water planet",
+          "work": "Spin a globe and stop it with a finger 20 times, tallying land vs. water; color oceans, ice caps, and large lakes on a world map."
+        },
+        {
+          "title": "Solid and liquid",
+          "work": "Observe ice melting in a cup, then list where water is solid on Earth (glaciers, snow, ice caps) and where it is liquid (oceans, rivers, lakes)."
+        },
+        {
+          "title": "Sierra snowpack",
+          "work": "Read about the Sierra Nevada snowpack melting in spring and filling rivers and reservoirs; draw the path of water from snow to faucet."
+        },
+        {
+          "title": "Fresh vs. salt",
+          "work": "Taste-test (with an adult) a cup of fresh water and a cup of salty water; sort water bodies into fresh and salt on a chart."
+        },
+        {
+          "title": "Unit 9 check",
+          "work": "Quiz: label landforms and water on a map, and identify where water is solid or liquid on Earth."
+        }
+      ],
+      "assessment": "Water-sources chart and unit quiz."
+    },
+    {
+      "week": 35,
+      "unit": 10,
+      "topic": "Engineering challenge: design a bridge",
+      "objectives": [
+        "Define a problem and criteria",
+        "Choose materials using property data",
+        "Build, test, and improve a bridge"
+      ],
+      "standards": [
+        "K-2-ETS1-1",
+        "K-2-ETS1-2",
+        "2-PS1-2"
+      ],
+      "vocabulary": [
+        "bridge",
+        "load",
+        "support",
+        "span"
+      ],
+      "materials": [
+        "paper, straws, craft sticks, tape",
+        "two stacks of books 20 cm apart",
+        "pennies",
+        "paper cup"
+      ],
+      "days": [
+        {
+          "title": "Define the problem",
+          "work": "Problem: build a bridge across a 20-cm 'river' between two book stacks that holds a cup of pennies; list criteria and limits (10 straws, 1 sheet of paper, 50 cm of tape)."
+        },
+        {
+          "title": "Sketch and choose",
+          "work": "Sketch two bridge designs (flat, folded accordion, arch) and choose materials using your strength-test data from Unit 2."
+        },
+        {
+          "title": "Build",
+          "work": "Build the chosen bridge and check that it spans the gap without touching the 'water.'"
+        },
+        {
+          "title": "Test",
+          "work": "Hang a cup from the bridge and add pennies one at a time, recording the count when it sags or falls."
+        },
+        {
+          "title": "Improve",
+          "work": "Change one part (fold the paper, add a straw truss) and retest; record the new penny count."
+        }
+      ],
+      "assessment": "Bridge design sketches and load-test data."
+    },
+    {
+      "week": 36,
+      "unit": 10,
+      "topic": "Science fair and year review",
+      "objectives": [
+        "Compare designs with data",
+        "Communicate a favorite investigation",
+        "Review the year's big ideas"
+      ],
+      "standards": [
+        "K-2-ETS1-3"
+      ],
+      "vocabulary": [
+        "compare",
+        "present",
+        "display"
+      ],
+      "materials": [
+        "bridge data",
+        "science notebook",
+        "trifold or poster board"
+      ],
+      "days": [
+        {
+          "title": "Compare bridges",
+          "work": "Make a T-chart comparing the first and improved bridges' strengths and weaknesses and explain which shape worked best."
+        },
+        {
+          "title": "Choose investigations",
+          "work": "Review the science notebook and choose 3 favorite investigations (e.g., plant needs, ice keeper, erosion design) to display."
+        },
+        {
+          "title": "Build the display",
+          "work": "Make a science fair board with the question, test, data, and conclusion for each chosen investigation."
+        },
+        {
+          "title": "Present",
+          "work": "Present the science fair board to family or friends, demonstrating one investigation live."
+        },
+        {
+          "title": "Year-end check",
+          "work": "Take a year-end review quiz covering materials, heating and cooling, plant needs, pollination, habitats, and Earth changes."
+        }
+      ],
+      "assessment": "Science fair presentation and year-end quiz."
+    }
+  ]
+}

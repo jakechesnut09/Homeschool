@@ -1,0 +1,2076 @@
+{
+ "grade": 8,
+ "subject": "HSS",
+ "title": "U.S. History and Geography: Growth and Conflict",
+ "description": "Grade 8 United States history from the ideas behind the American Revolution through the Constitution, the early Republic, regional divergence, westward expansion, the Civil War, Reconstruction and the rise of industrial America. Students read primary sources every week (founding documents, speeches, letters, photographs and maps), practice historical thinking skills such as sourcing and corroboration, and write evidence-based arguments.",
+ "framework": "California History-Social Science Content Standards (Grade 8); 2016 California History-Social Science Framework",
+ "minutes_per_day": 50,
+ "ag_requirement": null,
+ "credits": null,
+ "standards": {
+  "8.1": "Understand the major events preceding the founding of the nation and their significance to American constitutional democracy.",
+  "8.1.1": "Describe how the moral and political ideas of the Great Awakening related to revolutionary fervor.",
+  "8.1.2": "Analyze the philosophy of government in the Declaration of Independence, emphasizing government as a means of securing individual rights.",
+  "8.1.3": "Analyze how the American Revolution affected other nations, especially France.",
+  "8.1.4": "Describe the nation's blend of civic republicanism, classical liberal principles, and English parliamentary traditions.",
+  "8.2": "Analyze the political principles underlying the U.S. Constitution and compare enumerated and implied powers.",
+  "8.2.1": "Discuss the significance of the Magna Carta, the English Bill of Rights, and the Mayflower Compact.",
+  "8.2.2": "Analyze the Articles of Confederation and the Constitution and how well each implemented the ideals of the Declaration.",
+  "8.2.3": "Evaluate major debates at the Constitutional Convention (shared power, state-federal power, slavery, individual rights, American Indian nations) and their resolutions.",
+  "8.2.4": "Describe the philosophy of the Federalist Papers and the roles of Madison, Washington, Sherman, Morris and Wilson in writing and ratifying the Constitution.",
+  "8.2.5": "Understand Jefferson's Statute for Religious Freedom as a forerunner of the First Amendment and views on separation of church and state.",
+  "8.2.6": "Enumerate the powers of government in the Constitution and the fundamental liberties ensured by the Bill of Rights.",
+  "8.2.7": "Describe federalism, separation of powers, checks and balances, majority rule, and how constitutionalism preserves individual rights.",
+  "8.3": "Understand the foundation of the American political system and the ways citizens participate in it.",
+  "8.3.1": "Analyze principles codified in state constitutions of 1777-1781.",
+  "8.3.2": "Explain how the Land Ordinance of 1785 and Northwest Ordinance of 1787 transferred federal lands to private holdings, townships and states.",
+  "8.3.3": "Enumerate the advantages of a common market among the states protected by the Constitution.",
+  "8.3.4": "Understand how conflicts between Jefferson and Hamilton led to two political parties.",
+  "8.3.5": "Know the significance of domestic resistance movements (Shays' Rebellion, Whiskey Rebellion) and the government's response.",
+  "8.3.6": "Describe the law-making process and how citizens participate in and influence government.",
+  "8.3.7": "Understand the functions and responsibilities of a free press.",
+  "8.4": "Analyze the aspirations and ideals of the people of the new nation.",
+  "8.4.1": "Describe the country's landscapes, political divisions and territorial expansion under the first four presidents.",
+  "8.4.2": "Explain the policy significance of famous speeches (Washington's Farewell Address, Jefferson's 1801 Inaugural, J. Q. Adams's 1821 address).",
+  "8.4.3": "Analyze the rise of capitalism and related conflicts (the National Bank, early Supreme Court decisions on contracts).",
+  "8.4.4": "Discuss daily life, art, music and literature of early national America (Washington Irving, James Fenimore Cooper).",
+  "8.5": "Analyze U.S. foreign policy in the early Republic.",
+  "8.5.1": "Understand the causes, consequences, major battles and leaders of the War of 1812.",
+  "8.5.2": "Know changing U.S. boundaries and relations with Mexico, Canada and Europe, including the Monroe Doctrine.",
+  "8.5.3": "Outline major treaties with American Indian nations under the first four presidents and their outcomes.",
+  "8.6": "Analyze the divergent paths of the American people from 1800 to the mid-1800s, with emphasis on the Northeast.",
+  "8.6.1": "Discuss the influence of industrialization and technology on the Northeast and human modification of the landscape.",
+  "8.6.2": "Outline obstacles and factors in building roads, canals and railroads (Henry Clay's American System).",
+  "8.6.3": "List reasons for immigration from Northern Europe and describe the growth of cities (Irish Famine).",
+  "8.6.4": "Study the lives of free Black Americans in the North who founded schools and churches.",
+  "8.6.5": "Trace the development of American education, including Horace Mann's campaign for free public schools.",
+  "8.6.6": "Examine the women's rights movement (Stanton, Fuller, Mott, Anthony).",
+  "8.6.7": "Identify themes in American art, transcendentalism and individualism (Emerson, Thoreau, Melville, Alcott, Hawthorne, Longfellow).",
+  "8.7": "Analyze the divergent paths of the American people in the South from 1800 to the mid-1800s.",
+  "8.7.1": "Describe the South's agrarian economy, cotton-producing states, and the significance of cotton and the cotton gin.",
+  "8.7.2": "Trace the origins and development of slavery, its effects, and strategies to overturn or preserve it (Nat Turner, Denmark Vesey).",
+  "8.7.3": "Examine white Southern society and how the physical environment influenced conditions before the Civil War.",
+  "8.7.4": "Compare the lives and opportunities of free Black people in the North and in the South.",
+  "8.8": "Analyze the divergent paths of the American people in the West from 1800 to the mid-1800s.",
+  "8.8.1": "Discuss Andrew Jackson's election, Jacksonian democracy, and his actions (spoils system, Bank veto, Indian removal).",
+  "8.8.2": "Describe westward expansion and Manifest Destiny (Lewis and Clark, Trail of Tears, Great Plains settlement, territorial acquisitions).",
+  "8.8.3": "Describe the role of pioneer women and the new status western women achieved.",
+  "8.8.4": "Examine the importance of the great rivers and struggles over water rights.",
+  "8.8.5": "Discuss Mexican settlements, cultural traditions, attitudes toward slavery, land-grant system and economies.",
+  "8.8.6": "Describe the Texas War for Independence and the Mexican-American War and their effects, including on Mexican Americans today.",
+  "8.9": "Analyze the early and steady attempts to abolish slavery and realize the ideals of the Declaration of Independence.",
+  "8.9.1": "Describe leaders of the abolition movement (Douglass, Garrison, Tubman, John Brown, Weld, J. Q. Adams).",
+  "8.9.2": "Discuss the abolition of slavery in early state constitutions.",
+  "8.9.3": "Describe the significance of the Northwest Ordinance for education and banning slavery north of the Ohio River.",
+  "8.9.4": "Discuss the slavery issue raised by Texas annexation and California's admission as a free state in the Compromise of 1850.",
+  "8.9.5": "Analyze states' rights doctrine, the Missouri Compromise, Wilmot Proviso, Compromise of 1850, Kansas-Nebraska Act, Dred Scott decision and Lincoln-Douglas debates.",
+  "8.9.6": "Describe the lives of free Black people and the laws that limited their freedom and opportunities.",
+  "8.10": "Analyze the multiple causes, key events, and complex consequences of the Civil War.",
+  "8.10.1": "Compare interpretations of state and federal authority in the writings of Daniel Webster and John C. Calhoun.",
+  "8.10.2": "Trace boundaries and geographic and economic differences between North and South.",
+  "8.10.3": "Identify constitutional issues posed by nullification and secession.",
+  "8.10.4": "Discuss Lincoln's presidency and writings (House Divided, Gettysburg Address, Emancipation Proclamation, inaugural addresses).",
+  "8.10.5": "Study leaders and soldiers on both sides, including Black soldiers and regiments.",
+  "8.10.6": "Describe major battles, geographic advantages, technology, and Lee's surrender at Appomattox.",
+  "8.10.7": "Explain how the war affected combatants, civilians, the environment and future warfare.",
+  "8.11": "Analyze the character and lasting consequences of Reconstruction.",
+  "8.11.1": "List the original aims of Reconstruction and its effects on political and social structures.",
+  "8.11.2": "Identify push-pull factors in the movement of freedpeople to Northern cities and the West (Buffalo Soldiers).",
+  "8.11.3": "Understand the Freedmen's Bureau and restrictions on freedpeople, including segregation and Jim Crow laws.",
+  "8.11.4": "Trace the rise of the Ku Klux Klan and its effects.",
+  "8.11.5": "Understand the 13th, 14th and 15th Amendments and their connection to Reconstruction.",
+  "8.12": "Analyze the transformation of the American economy and changing social and political conditions in response to the Industrial Revolution.",
+  "8.12.1": "Trace patterns of agricultural and industrial development related to climate, resources, markets and trade.",
+  "8.12.2": "Identify reasons for federal Indian policy and the wars with American Indians and their link to development.",
+  "8.12.3": "Explain how governments encouraged business expansion through tariffs, banking, land grants and subsidies.",
+  "8.12.4": "Discuss entrepreneurs, industrialists and bankers (Carnegie, Rockefeller, Leland Stanford).",
+  "8.12.5": "Examine the effects of urbanization, renewed immigration and industrialization, including the conservation movement.",
+  "8.12.6": "Discuss child labor, working conditions, laissez-faire policy and the labor movement (Samuel Gompers).",
+  "8.12.7": "Identify new sources of immigration, immigrant contributions, assimilation, and nativism.",
+  "8.12.8": "Identify the characteristics and impact of Grangerism and Populism.",
+  "8.12.9": "Name significant inventors and inventions (Edison, Bell, the Wright brothers) and how they improved life."
+ },
+ "resources": [
+  {
+   "name": "National Archives – Milestone Documents",
+   "url": "https://www.archives.gov/milestone-documents",
+   "note": "Transcripts and images of the Declaration, Constitution, Emancipation Proclamation and more"
+  },
+  {
+   "name": "DocsTeach (National Archives)",
+   "url": "https://www.docsteach.org",
+   "note": "Primary-source activities by era"
+  },
+  {
+   "name": "Library of Congress – Classroom Materials",
+   "url": "https://www.loc.gov/classroom-materials/",
+   "note": "Primary source sets (Civil War, immigration, child labor photographs)"
+  },
+  {
+   "name": "Digital Inquiry Group – Reading Like a Historian",
+   "url": "https://inquirygroup.org/history-lessons",
+   "note": "Document-based lessons with sourcing and corroboration practice"
+  },
+  {
+   "name": "Khan Academy – U.S. History",
+   "url": "https://www.khanacademy.org/humanities/us-history",
+   "note": "Background videos and articles for each period"
+  },
+  {
+   "name": "American Battlefield Trust – Learn",
+   "url": "https://www.battlefields.org/learn",
+   "note": "Maps, animated battle maps and articles on the Revolution and Civil War"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Roots of Revolution and the Declaration",
+   "start_week": 1,
+   "end_week": 3,
+   "big_idea": "Enlightenment and English traditions inspired colonists to claim natural rights and declare independence.",
+   "standards": [
+    "8.1",
+    "8.1.1",
+    "8.1.2",
+    "8.1.3",
+    "8.1.4",
+    "8.2.1"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Creating the Constitution",
+   "start_week": 4,
+   "end_week": 7,
+   "big_idea": "The framers replaced a weak confederation with a Constitution balancing power, rights and compromise, including compromises over slavery.",
+   "standards": [
+    "8.2",
+    "8.2.2",
+    "8.2.3",
+    "8.2.4",
+    "8.2.5",
+    "8.2.6",
+    "8.2.7",
+    "8.3.1",
+    "8.3.2",
+    "8.3.3",
+    "8.3.5",
+    "8.3.6",
+    "8.3.7"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Launching the New Nation",
+   "start_week": 8,
+   "end_week": 10,
+   "big_idea": "Early leaders turned the Constitution into a working government, sparking party conflict and debates about national identity.",
+   "standards": [
+    "8.3",
+    "8.3.4",
+    "8.3.5",
+    "8.4",
+    "8.4.1",
+    "8.4.2",
+    "8.4.3",
+    "8.4.4",
+    "8.5.3"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Foreign Policy and the Industrializing Northeast",
+   "start_week": 11,
+   "end_week": 13,
+   "big_idea": "The young nation asserted itself abroad while the Northeast industrialized and reformers pushed for change.",
+   "standards": [
+    "8.5",
+    "8.5.1",
+    "8.5.2",
+    "8.6",
+    "8.6.1",
+    "8.6.2",
+    "8.6.3",
+    "8.6.4",
+    "8.6.5",
+    "8.6.6",
+    "8.6.7"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "The South and Slavery",
+   "start_week": 14,
+   "end_week": 15,
+   "big_idea": "Cotton made slavery central to the Southern economy, while enslaved people resisted in many ways.",
+   "standards": [
+    "8.7",
+    "8.7.1",
+    "8.7.2",
+    "8.7.3",
+    "8.7.4"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Jacksonian Democracy and Westward Expansion",
+   "start_week": 16,
+   "end_week": 19,
+   "big_idea": "Expanding democracy and Manifest Destiny drove growth that came at great cost to American Indians and Mexico.",
+   "standards": [
+    "8.8",
+    "8.8.1",
+    "8.8.2",
+    "8.8.3",
+    "8.8.4",
+    "8.8.5",
+    "8.8.6",
+    "8.5.2"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Abolition and the Road to Civil War",
+   "start_week": 20,
+   "end_week": 23,
+   "big_idea": "Reform movements and failed compromises over slavery's expansion split the nation.",
+   "standards": [
+    "8.9",
+    "8.9.1",
+    "8.9.2",
+    "8.9.3",
+    "8.9.4",
+    "8.9.5",
+    "8.9.6",
+    "8.10.1",
+    "8.10.2",
+    "8.10.3"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "The Civil War",
+   "start_week": 24,
+   "end_week": 27,
+   "big_idea": "The war to preserve the Union became a war to end slavery, transforming the nation.",
+   "standards": [
+    "8.10",
+    "8.10.4",
+    "8.10.5",
+    "8.10.6",
+    "8.10.7"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Reconstruction",
+   "start_week": 28,
+   "end_week": 30,
+   "big_idea": "Reconstruction amendments expanded freedom, but violence and Jim Crow laws rolled back many gains.",
+   "standards": [
+    "8.11",
+    "8.11.1",
+    "8.11.2",
+    "8.11.3",
+    "8.11.4",
+    "8.11.5"
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Industrial America",
+   "start_week": 31,
+   "end_week": 35,
+   "big_idea": "Industry, railroads and immigration transformed the economy and society, prompting labor and farmer movements.",
+   "standards": [
+    "8.12",
+    "8.12.1",
+    "8.12.2",
+    "8.12.3",
+    "8.12.4",
+    "8.12.5",
+    "8.12.6",
+    "8.12.7",
+    "8.12.8",
+    "8.12.9"
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Year in Review",
+   "start_week": 36,
+   "end_week": 36,
+   "big_idea": "The struggle to realize the ideals of the Declaration connects every era studied this year.",
+   "standards": [
+    "8.1.2",
+    "8.10.4",
+    "8.11.5",
+    "8.12.7"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "Foundations: English rights and Enlightenment ideas",
+   "objectives": [
+    "Explain how the Magna Carta, English Bill of Rights and Mayflower Compact shaped colonial ideas",
+    "Identify Enlightenment ideas of Locke and Montesquieu"
+   ],
+   "standards": [
+    "8.1.4",
+    "8.2.1"
+   ],
+   "vocabulary": [
+    "Magna Carta",
+    "English Bill of Rights",
+    "Mayflower Compact",
+    "natural rights",
+    "social contract",
+    "Enlightenment"
+   ],
+   "materials": [
+    "notebook",
+    "timeline strip",
+    "National Archives document excerpts"
+   ],
+   "days": [
+    {
+     "title": "Course launch & historical thinking",
+     "work": "Set up an interactive notebook and timeline (1750–1900); practice sourcing a document by asking who, when, why and how reliable."
+    },
+    {
+     "title": "Magna Carta & English Bill of Rights",
+     "work": "Read excerpts of the Magna Carta (1215) and English Bill of Rights (1689); list rights each limited the king's power over."
+    },
+    {
+     "title": "Mayflower Compact",
+     "work": "Read the full Mayflower Compact (1620) and annotate examples of self-government and consent."
+    },
+    {
+     "title": "Enlightenment thinkers",
+     "work": "Read short excerpts from Locke's Second Treatise and Montesquieu's Spirit of the Laws; make a chart linking each idea to American government."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a paragraph answering 'Where did American ideas about rights come from?' citing two documents."
+    }
+   ],
+   "assessment": "Document-based paragraph scored for claim and evidence."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "The Great Awakening and the road to revolution",
+   "objectives": [
+    "Connect the Great Awakening to questioning authority",
+    "Sequence events from the French and Indian War to Lexington and Concord"
+   ],
+   "standards": [
+    "8.1",
+    "8.1.1",
+    "8.1.4"
+   ],
+   "vocabulary": [
+    "Great Awakening",
+    "French and Indian War",
+    "Stamp Act",
+    "boycott",
+    "Boston Massacre",
+    "Intolerable Acts"
+   ],
+   "materials": [
+    "map of the 13 colonies",
+    "Paul Revere engraving image"
+   ],
+   "days": [
+    {
+     "title": "Great Awakening",
+     "work": "Read a short excerpt from a George Whitefield or Jonathan Edwards sermon and discuss how revival ideas encouraged questioning authority."
+    },
+    {
+     "title": "Taxes and protest",
+     "work": "Create a cause-and-effect chain from the French and Indian War debt to the Stamp Act, Townshend Acts and boycotts."
+    },
+    {
+     "title": "Boston Massacre sources",
+     "work": "Compare Paul Revere's engraving with Captain Preston's account; identify point of view and propaganda."
+    },
+    {
+     "title": "Lexington and Concord",
+     "work": "Read eyewitness depositions from April 19, 1775 and decide who fired first using evidence."
+    },
+    {
+     "title": "Review & check",
+     "work": "Timeline quiz on 1754–1775 and a short sourcing response."
+    }
+   ],
+   "assessment": "Sourcing response on the Boston Massacre and timeline quiz."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "The Declaration of Independence and the Revolution",
+   "objectives": [
+    "Analyze the philosophy of government in the Declaration",
+    "Explain how the Revolution was won and its effect on France and other nations"
+   ],
+   "standards": [
+    "8.1.2",
+    "8.1.3"
+   ],
+   "vocabulary": [
+    "Declaration of Independence",
+    "unalienable rights",
+    "grievance",
+    "consent of the governed",
+    "Treaty of Paris"
+   ],
+   "materials": [
+    "Declaration of Independence transcript (National Archives)"
+   ],
+   "days": [
+    {
+     "title": "Common Sense",
+     "work": "Read excerpts from Thomas Paine's Common Sense and identify his three strongest arguments for independence."
+    },
+    {
+     "title": "The Declaration",
+     "work": "Close-read the preamble of the Declaration; paraphrase each key phrase and list 5 grievances against the king."
+    },
+    {
+     "title": "Winning the war",
+     "work": "Map key battles (Saratoga, Valley Forge, Yorktown) and explain the role of French alliance and of Black and women patriots such as James Armistead and Mercy Otis Warren."
+    },
+    {
+     "title": "Global impact",
+     "work": "Compare the Declaration with the French Declaration of the Rights of Man (1789) in a Venn diagram."
+    },
+    {
+     "title": "Unit 1 test",
+     "work": "Unit test and a short essay on how the Declaration defines the purpose of government."
+    }
+   ],
+   "assessment": "Unit 1 test with constructed response."
+  },
+  {
+   "week": 4,
+   "unit": 2,
+   "topic": "The Articles of Confederation",
+   "objectives": [
+    "Evaluate the strengths and weaknesses of the Articles",
+    "Explain the importance of the Land Ordinance and Northwest Ordinance"
+   ],
+   "standards": [
+    "8.2.2",
+    "8.3.1",
+    "8.3.2",
+    "8.3.5"
+   ],
+   "vocabulary": [
+    "Articles of Confederation",
+    "ratify",
+    "Northwest Ordinance",
+    "Land Ordinance of 1785",
+    "Shays' Rebellion"
+   ],
+   "materials": [
+    "Articles of Confederation excerpts",
+    "township grid handout"
+   ],
+   "days": [
+    {
+     "title": "State constitutions",
+     "work": "Compare excerpts of the 1776 Virginia Declaration of Rights and 1780 Massachusetts Constitution; list common principles."
+    },
+    {
+     "title": "Articles of Confederation",
+     "work": "Read selected articles and sort features into strengths and weaknesses."
+    },
+    {
+     "title": "Land ordinances",
+     "work": "Draw a township grid using the Land Ordinance of 1785 and read the Northwest Ordinance's provisions on education and slavery."
+    },
+    {
+     "title": "Shays' Rebellion",
+     "work": "Read letters reacting to Shays' Rebellion (Washington, Jefferson) and explain why leaders called for a new constitution."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz plus a paragraph: 'Were the Articles a failure?'"
+    }
+   ],
+   "assessment": "Articles quiz and argument paragraph."
+  },
+  {
+   "week": 5,
+   "unit": 2,
+   "topic": "The Constitutional Convention",
+   "objectives": [
+    "Evaluate the major debates and compromises at the Convention",
+    "Describe the roles of key delegates"
+   ],
+   "standards": [
+    "8.2.3",
+    "8.2.4"
+   ],
+   "vocabulary": [
+    "Virginia Plan",
+    "New Jersey Plan",
+    "Great Compromise",
+    "Three-Fifths Compromise",
+    "electoral college",
+    "commerce clause"
+   ],
+   "materials": [
+    "Constitution transcript",
+    "delegate profile cards"
+   ],
+   "days": [
+    {
+     "title": "Delegates",
+     "work": "Create profile cards for Madison, Washington, Franklin, Sherman, Morris and Wilson."
+    },
+    {
+     "title": "Representation debate",
+     "work": "Role-play the Virginia vs New Jersey Plan debate and write the Great Compromise in your own words."
+    },
+    {
+     "title": "Slavery and the Constitution",
+     "work": "Analyze the Three-Fifths Clause, slave trade clause and fugitive slave clause; discuss how they contradicted the Declaration."
+    },
+    {
+     "title": "Other debates",
+     "work": "Examine debates on the executive, the commerce clause and the status of American Indian nations."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on compromises and their resolutions."
+    }
+   ],
+   "assessment": "Compromise quiz."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Ratification and the Bill of Rights",
+   "objectives": [
+    "Compare Federalist and Anti-Federalist arguments",
+    "Explain the freedoms protected in the Bill of Rights"
+   ],
+   "standards": [
+    "8.2.4",
+    "8.2.5",
+    "8.2.6"
+   ],
+   "vocabulary": [
+    "Federalist",
+    "Anti-Federalist",
+    "Federalist Papers",
+    "Bill of Rights",
+    "amendment",
+    "establishment clause"
+   ],
+   "materials": [
+    "Federalist No. 10 and No. 51 excerpts",
+    "Bill of Rights transcript"
+   ],
+   "days": [
+    {
+     "title": "Federalists vs Anti-Federalists",
+     "work": "Read excerpts of Federalist No. 10 and an Anti-Federalist essay (Brutus No. 1); chart main arguments."
+    },
+    {
+     "title": "Federalist No. 51",
+     "work": "Analyze 'If men were angels' and explain checks and balances."
+    },
+    {
+     "title": "Religious freedom",
+     "work": "Read Jefferson's Virginia Statute for Religious Freedom and connect it to the First Amendment."
+    },
+    {
+     "title": "Bill of Rights",
+     "work": "Illustrate each of the first 10 amendments with a modern scenario."
+    },
+    {
+     "title": "Review & check",
+     "work": "Bill of Rights scenario quiz."
+    }
+   ],
+   "assessment": "Scenario quiz on the Bill of Rights."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "How the Constitution works",
+   "objectives": [
+    "Explain federalism, separation of powers and checks and balances",
+    "Describe how a bill becomes law and how citizens participate"
+   ],
+   "standards": [
+    "8.2.6",
+    "8.2.7",
+    "8.3.3",
+    "8.3.6",
+    "8.3.7"
+   ],
+   "vocabulary": [
+    "federalism",
+    "separation of powers",
+    "checks and balances",
+    "enumerated powers",
+    "implied powers",
+    "necessary and proper clause",
+    "free press"
+   ],
+   "materials": [
+    "Constitution transcript",
+    "current newspaper or news site"
+   ],
+   "days": [
+    {
+     "title": "Structure of the Constitution",
+     "work": "Scavenger hunt through Articles I–VII to locate powers of each branch."
+    },
+    {
+     "title": "Checks & balances",
+     "work": "Create a diagram of checks between branches with real examples (veto, judicial review)."
+    },
+    {
+     "title": "Federalism",
+     "work": "Sort powers into federal, state and shared; discuss enumerated vs implied powers."
+    },
+    {
+     "title": "How a bill becomes law & the press",
+     "work": "Trace a current bill on congress.gov; compare two news articles on it to evaluate the role of a free press."
+    },
+    {
+     "title": "Unit 2 test",
+     "work": "Unit test on the Constitution."
+    }
+   ],
+   "assessment": "Unit 2 test."
+  },
+  {
+   "week": 8,
+   "unit": 3,
+   "topic": "Washington's presidency and the first parties",
+   "objectives": [
+    "Explain Hamilton's financial plan and Jefferson's opposition",
+    "Analyze Washington's Farewell Address"
+   ],
+   "standards": [
+    "8.3.4",
+    "8.3.5",
+    "8.4.2"
+   ],
+   "vocabulary": [
+    "cabinet",
+    "National Bank",
+    "Federalist Party",
+    "Democratic-Republican Party",
+    "Whiskey Rebellion",
+    "neutrality"
+   ],
+   "materials": [
+    "Farewell Address excerpts"
+   ],
+   "days": [
+    {
+     "title": "Washington's precedents",
+     "work": "List precedents Washington set (cabinet, two terms, 'Mr. President') and their lasting effects."
+    },
+    {
+     "title": "Hamilton vs Jefferson",
+     "work": "Debate the National Bank and the assumption of state debts; create a T-chart of the two visions."
+    },
+    {
+     "title": "Whiskey Rebellion",
+     "work": "Compare the federal response to the Whiskey Rebellion with Shays' Rebellion."
+    },
+    {
+     "title": "Farewell Address",
+     "work": "Read excerpts and identify Washington's warnings about parties and foreign alliances."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the Washington years and party formation."
+    }
+   ],
+   "assessment": "Quiz and Farewell Address analysis."
+  },
+  {
+   "week": 9,
+   "unit": 3,
+   "topic": "Adams, Jefferson and the Louisiana Purchase",
+   "objectives": [
+    "Analyze the Alien and Sedition Acts and the election of 1800",
+    "Explain the significance of the Louisiana Purchase and Lewis and Clark"
+   ],
+   "standards": [
+    "8.4",
+    "8.4.1",
+    "8.4.2",
+    "8.3.4"
+   ],
+   "vocabulary": [
+    "Alien and Sedition Acts",
+    "Marbury v. Madison",
+    "judicial review",
+    "Louisiana Purchase",
+    "Corps of Discovery"
+   ],
+   "materials": [
+    "U.S. map",
+    "Lewis and Clark journal excerpts"
+   ],
+   "days": [
+    {
+     "title": "Adams and the Alien and Sedition Acts",
+     "work": "Read the Sedition Act and argue whether it violated the First Amendment."
+    },
+    {
+     "title": "Jefferson's Inaugural",
+     "work": "Read Jefferson's 1801 Inaugural Address excerpt: 'We are all Republicans, we are all Federalists.'"
+    },
+    {
+     "title": "Marbury v. Madison",
+     "work": "Summarize the case and explain judicial review."
+    },
+    {
+     "title": "Louisiana Purchase & Lewis and Clark",
+     "work": "Map the purchase and route; read journal entries and Sacagawea's role."
+    },
+    {
+     "title": "Review & check",
+     "work": "Map quiz and short answer."
+    }
+   ],
+   "assessment": "Map quiz on 1803 territories and expedition route."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Life, economy and culture in the early Republic",
+   "objectives": [
+    "Describe daily life, art and literature of early America",
+    "Outline early treaties with American Indian nations"
+   ],
+   "standards": [
+    "8.4.3",
+    "8.4.4",
+    "8.5.3"
+   ],
+   "vocabulary": [
+    "capitalism",
+    "contract",
+    "McCulloch v. Maryland",
+    "Treaty of Greenville",
+    "folklore"
+   ],
+   "materials": [
+    "'Rip Van Winkle' by Washington Irving (Project Gutenberg)"
+   ],
+   "days": [
+    {
+     "title": "Early capitalism",
+     "work": "Examine McCulloch v. Maryland and Gibbons v. Ogden and how they strengthened national markets."
+    },
+    {
+     "title": "Treaties with American Indian nations",
+     "work": "Analyze the Treaty of Greenville (1795) and compare outcomes for Native nations."
+    },
+    {
+     "title": "American literature",
+     "work": "Read 'Rip Van Winkle' and discuss what it says about the new nation."
+    },
+    {
+     "title": "Art and music",
+     "work": "Analyze Gilbert Stuart and Charles Willson Peale portraits and early American songs."
+    },
+    {
+     "title": "Unit 3 test",
+     "work": "Unit test on the early Republic."
+    }
+   ],
+   "assessment": "Unit 3 test."
+  },
+  {
+   "week": 11,
+   "unit": 4,
+   "topic": "The War of 1812 and the Monroe Doctrine",
+   "objectives": [
+    "Explain the causes and outcomes of the War of 1812",
+    "Analyze the Monroe Doctrine"
+   ],
+   "standards": [
+    "8.5.1",
+    "8.5.2"
+   ],
+   "vocabulary": [
+    "impressment",
+    "War Hawks",
+    "Tecumseh",
+    "Treaty of Ghent",
+    "Monroe Doctrine",
+    "nationalism"
+   ],
+   "materials": [
+    "'The Star-Spangled Banner' text",
+    "map of War of 1812"
+   ],
+   "days": [
+    {
+     "title": "Causes",
+     "work": "Read about impressment and Tecumseh's confederacy; chart causes of the war."
+    },
+    {
+     "title": "Major battles",
+     "work": "Map major battles (Washington burned, Fort McHenry, New Orleans)."
+    },
+    {
+     "title": "Star-Spangled Banner",
+     "work": "Read Francis Scott Key's full poem and explain its context."
+    },
+    {
+     "title": "Monroe Doctrine",
+     "work": "Read the key passage of the Monroe Doctrine and explain its message to Europe."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the War of 1812 and foreign policy."
+    }
+   ],
+   "assessment": "Foreign policy quiz."
+  },
+  {
+   "week": 12,
+   "unit": 4,
+   "topic": "Industrial Revolution in the Northeast",
+   "objectives": [
+    "Explain how factories, canals and railroads transformed the Northeast",
+    "Describe immigration and city growth"
+   ],
+   "standards": [
+    "8.6.1",
+    "8.6.2",
+    "8.6.3"
+   ],
+   "vocabulary": [
+    "Industrial Revolution",
+    "Lowell mills",
+    "Erie Canal",
+    "American System",
+    "interchangeable parts",
+    "Irish Famine"
+   ],
+   "materials": [
+    "Lowell mill girl letter excerpts",
+    "canal map"
+   ],
+   "days": [
+    {
+     "title": "Factories",
+     "work": "Read letters from Lowell mill workers (Harriet Robinson) and describe working conditions."
+    },
+    {
+     "title": "Transportation revolution",
+     "work": "Map the Erie Canal and National Road; explain Clay's American System."
+    },
+    {
+     "title": "Inventions",
+     "work": "Make a chart of inventions (cotton gin, steamboat, telegraph, steel plow) and effects."
+    },
+    {
+     "title": "Immigration",
+     "work": "Analyze Irish and German immigration data and a nativist cartoon."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on industrial growth in the Northeast."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 13,
+   "unit": 4,
+   "topic": "Reform movements",
+   "objectives": [
+    "Describe reform movements in education and women's rights",
+    "Identify American literary themes of the period"
+   ],
+   "standards": [
+    "8.6.4",
+    "8.6.5",
+    "8.6.6",
+    "8.6.7"
+   ],
+   "vocabulary": [
+    "reform",
+    "temperance",
+    "Seneca Falls Convention",
+    "Declaration of Sentiments",
+    "transcendentalism",
+    "common school"
+   ],
+   "materials": [
+    "Declaration of Sentiments",
+    "Emerson or Thoreau excerpt"
+   ],
+   "days": [
+    {
+     "title": "Free Black communities",
+     "work": "Read about Richard Allen and the AME Church and free Black schools in the North."
+    },
+    {
+     "title": "Education reform",
+     "work": "Read Horace Mann's arguments for public schools."
+    },
+    {
+     "title": "Women's rights",
+     "work": "Compare the Declaration of Sentiments (1848) with the Declaration of Independence."
+    },
+    {
+     "title": "Transcendentalism",
+     "work": "Read excerpts from Thoreau's Walden and Emerson's 'Self-Reliance'; discuss individualism."
+    },
+    {
+     "title": "Unit 4 test",
+     "work": "Unit test on foreign policy and the Northeast."
+    }
+   ],
+   "assessment": "Unit 4 test."
+  },
+  {
+   "week": 14,
+   "unit": 5,
+   "topic": "Cotton and the Southern economy",
+   "objectives": [
+    "Explain how the cotton gin expanded slavery",
+    "Describe the geography and social structure of the South"
+   ],
+   "standards": [
+    "8.7.1",
+    "8.7.3"
+   ],
+   "vocabulary": [
+    "cotton gin",
+    "plantation",
+    "cash crop",
+    "Cotton Kingdom",
+    "yeoman farmer",
+    "Black Belt"
+   ],
+   "materials": [
+    "maps of cotton production and enslaved population 1820 vs 1860",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "Geography of the South",
+     "work": "Label cotton-producing states, major rivers and port cities on a blank map; explain how climate and soil favored cotton."
+    },
+    {
+     "title": "The cotton gin",
+     "work": "Graph cotton production and the enslaved population from 1790 to 1860 and write a paragraph explaining the relationship to Whitney's 1793 gin."
+    },
+    {
+     "title": "Southern society",
+     "work": "Build a social pyramid of the South (planters, yeoman farmers, poor whites, free Black people, enslaved people) using census statistics."
+    },
+    {
+     "title": "A one-crop economy",
+     "work": "Trace a bale of cotton from a Mississippi plantation to a Lowell or Manchester mill and explain the South's dependence on Northern and British markets."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the Southern economy plus a short response comparing Northern and Southern economies."
+    }
+   ],
+   "assessment": "Quiz and North-South comparison response."
+  },
+  {
+   "week": 15,
+   "unit": 5,
+   "topic": "Life under slavery and resistance",
+   "objectives": [
+    "Describe life under slavery using first-person sources",
+    "Analyze forms of resistance from everyday acts to rebellion"
+   ],
+   "standards": [
+    "8.7.2",
+    "8.7.4"
+   ],
+   "vocabulary": [
+    "enslaved",
+    "resistance",
+    "Nat Turner's Rebellion",
+    "Denmark Vesey",
+    "spirituals",
+    "manumission"
+   ],
+   "materials": [
+    "WPA Slave Narratives excerpts (Library of Congress)",
+    "Harriet Jacobs excerpt",
+    "spiritual lyrics"
+   ],
+   "days": [
+    {
+     "title": "Narratives of slavery",
+     "work": "Read two WPA Slave Narrative interviews and a chapter excerpt from Harriet Jacobs's 'Incidents in the Life of a Slave Girl'; note family, labor and punishment details."
+    },
+    {
+     "title": "Resistance and rebellion",
+     "work": "Read excerpts from 'The Confessions of Nat Turner' (1831) and accounts of Denmark Vesey's plan; list Southern legal responses."
+    },
+    {
+     "title": "Culture and spirituals",
+     "work": "Listen to 'Wade in the Water' and 'Follow the Drinking Gourd' and analyze possible double meanings in the lyrics."
+    },
+    {
+     "title": "Free Black people, North and South",
+     "work": "Compare primary sources on free Black communities in Philadelphia and New Orleans in a T-chart of rights and restrictions."
+    },
+    {
+     "title": "Unit 5 test",
+     "work": "Unit test on the South and slavery, including a document-based short answer."
+    }
+   ],
+   "assessment": "Unit 5 test."
+  },
+  {
+   "week": 16,
+   "unit": 6,
+   "topic": "Jacksonian democracy and Indian Removal",
+   "objectives": [
+    "Analyze Jackson's presidency and the expansion of suffrage",
+    "Explain the Indian Removal Act and the Trail of Tears"
+   ],
+   "standards": [
+    "8.8.1",
+    "8.8.2"
+   ],
+   "vocabulary": [
+    "Jacksonian democracy",
+    "spoils system",
+    "Indian Removal Act",
+    "Trail of Tears",
+    "Worcester v. Georgia",
+    "Bank veto"
+   ],
+   "materials": [
+    "Cherokee Memorial (1830) excerpt",
+    "Jackson's Second Annual Message",
+    "map of removal routes"
+   ],
+   "days": [
+    {
+     "title": "Jackson's rise",
+     "work": "Compare voter-turnout data from 1824 and 1828 and explain how the end of property requirements expanded white male suffrage."
+    },
+    {
+     "title": "The Bank War",
+     "work": "Read an excerpt from Jackson's 1832 veto message and summarize his argument against the Second Bank."
+    },
+    {
+     "title": "Indian Removal debate",
+     "work": "Compare the Cherokee Memorial to Congress with Jackson's 1830 message on removal using a sourcing chart."
+    },
+    {
+     "title": "Trail of Tears",
+     "work": "Map the removal routes of the Cherokee, Choctaw, Creek, Chickasaw and Seminole and read a soldier's eyewitness account (Private John Burnett)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a document-based paragraph: 'Was Indian Removal consistent with the Constitution?' citing Worcester v. Georgia."
+    }
+   ],
+   "assessment": "Document-based paragraph."
+  },
+  {
+   "week": 17,
+   "unit": 6,
+   "topic": "Manifest Destiny and the trails west",
+   "objectives": [
+    "Explain the idea of Manifest Destiny and who it affected",
+    "Describe the experiences of pioneers including women"
+   ],
+   "standards": [
+    "8.8.2",
+    "8.8.3",
+    "8.8.4"
+   ],
+   "vocabulary": [
+    "Manifest Destiny",
+    "Oregon Trail",
+    "Mormon Trail",
+    "pioneer",
+    "Great Plains",
+    "water rights"
+   ],
+   "materials": [
+    "John Gast 'American Progress' (1872) image",
+    "pioneer diary excerpts",
+    "U.S. river map"
+   ],
+   "days": [
+    {
+     "title": "Manifest Destiny",
+     "work": "Analyze John Gast's 'American Progress' painting and John O'Sullivan's 1845 essay; list who is shown and who is missing."
+    },
+    {
+     "title": "Trails west",
+     "work": "Map the Oregon, California, Mormon and Santa Fe trails and calculate travel times at 15 miles per day."
+    },
+    {
+     "title": "Pioneer women",
+     "work": "Read diary excerpts from women on the Oregon Trail and a short biography of Annie Bidwell; explain why Wyoming granted women suffrage in 1869."
+    },
+    {
+     "title": "Rivers and water",
+     "work": "Examine why the Mississippi, Missouri and Colorado rivers mattered and read about early Western water-rights conflicts."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on westward expansion plus a one-paragraph analysis of Gast's painting."
+    }
+   ],
+   "assessment": "Quiz and painting analysis."
+  },
+  {
+   "week": 18,
+   "unit": 6,
+   "topic": "Mexican California and Texas independence; semester review",
+   "objectives": [
+    "Describe Mexican settlements, ranchos and the land-grant system",
+    "Explain the Texas War for Independence",
+    "Review semester 1"
+   ],
+   "standards": [
+    "8.8.5",
+    "8.8.6"
+   ],
+   "vocabulary": [
+    "rancho",
+    "Californio",
+    "land grant",
+    "mission secularization",
+    "Alamo",
+    "Lone Star Republic"
+   ],
+   "materials": [
+    "Calisphere images of ranchos and Californios",
+    "accounts of the Alamo"
+   ],
+   "days": [
+    {
+     "title": "Mexican California",
+     "work": "Use Calisphere photographs and diseños (land-grant maps) to describe rancho life, the economy of hides and tallow and Mexico's 1829 abolition of slavery."
+    },
+    {
+     "title": "Texas Revolution",
+     "work": "Compare a Texan account and a Mexican account (José Enrique de la Peña) of the Alamo and identify each perspective."
+    },
+    {
+     "title": "Semester review A",
+     "work": "Review Units 1–3 with a timeline sort and practice document questions."
+    },
+    {
+     "title": "Semester review B",
+     "work": "Review Units 4–6 with a vocabulary matching game and a practice DBQ outline."
+    },
+    {
+     "title": "Semester 1 exam",
+     "work": "Cumulative semester exam with multiple-choice and document-based items."
+    }
+   ],
+   "assessment": "Semester 1 exam."
+  },
+  {
+   "week": 19,
+   "unit": 6,
+   "topic": "The Mexican-American War and the Gold Rush",
+   "objectives": [
+    "Explain causes and outcomes of the Mexican-American War",
+    "Describe the Gold Rush and its effects on Californians"
+   ],
+   "standards": [
+    "8.8.6",
+    "8.5.2",
+    "8.8.2"
+   ],
+   "vocabulary": [
+    "Treaty of Guadalupe Hidalgo",
+    "Mexican Cession",
+    "Gadsden Purchase",
+    "Gold Rush",
+    "forty-niners",
+    "Foreign Miners' Tax"
+   ],
+   "materials": [
+    "Polk's war message excerpt",
+    "Treaty of Guadalupe Hidalgo Articles 8–9",
+    "Calisphere Gold Rush photos"
+   ],
+   "days": [
+    {
+     "title": "Causes of war",
+     "work": "Compare President Polk's 1846 war message with Lincoln's 'spot resolutions' and decide whose claim is better supported."
+    },
+    {
+     "title": "Treaty of Guadalupe Hidalgo",
+     "work": "Read Articles 8 and 9 and evaluate whether promises of property and citizenship to Mexican residents were kept."
+    },
+    {
+     "title": "The Gold Rush",
+     "work": "Read a forty-niner's letter home and examine Calisphere photos; chart impacts on Native Californians, Californios and Chinese miners."
+    },
+    {
+     "title": "Legacy today",
+     "work": "Read a short article on the war's effects on Mexican Americans today and write a reflection connecting past and present."
+    },
+    {
+     "title": "Unit 6 test",
+     "work": "Unit test on Jacksonian democracy and westward expansion."
+    }
+   ],
+   "assessment": "Unit 6 test."
+  },
+  {
+   "week": 20,
+   "unit": 7,
+   "topic": "The abolition movement",
+   "objectives": [
+    "Describe abolitionist leaders and strategies",
+    "Explain abolition in early state constitutions and the Northwest Ordinance"
+   ],
+   "standards": [
+    "8.9.1",
+    "8.9.2",
+    "8.9.3",
+    "8.9.6"
+   ],
+   "vocabulary": [
+    "abolition",
+    "gradual emancipation",
+    "The Liberator",
+    "Underground Railroad",
+    "Black codes"
+   ],
+   "materials": [
+    "Pennsylvania 1780 Gradual Abolition Act excerpt",
+    "'The Liberator' first issue",
+    "Douglass speech excerpt"
+   ],
+   "days": [
+    {
+     "title": "Early abolition",
+     "work": "Read Pennsylvania's 1780 Gradual Abolition Act and the Northwest Ordinance's Article 6; map Northern states' abolition dates."
+    },
+    {
+     "title": "Garrison and Douglass",
+     "work": "Read Garrison's 'To the Public' (1831) and Douglass's 'What to the Slave Is the Fourth of July?' (1852); compare tone and strategy."
+    },
+    {
+     "title": "Underground Railroad",
+     "work": "Map major routes and read about Harriet Tubman's missions and William Still's records."
+    },
+    {
+     "title": "Free Black lives and laws",
+     "work": "Read about Northern Black laws (e.g., Ohio's 1804 law) and the achievements of leaders such as James Forten."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on abolitionists and their strategies."
+    }
+   ],
+   "assessment": "Abolition quiz."
+  },
+  {
+   "week": 21,
+   "unit": 7,
+   "topic": "Compromises over slavery's expansion",
+   "objectives": [
+    "Analyze the Missouri Compromise, Wilmot Proviso and Compromise of 1850",
+    "Explain why California's admission as a free state mattered"
+   ],
+   "standards": [
+    "8.9.4",
+    "8.9.5"
+   ],
+   "vocabulary": [
+    "Missouri Compromise",
+    "Wilmot Proviso",
+    "Compromise of 1850",
+    "Fugitive Slave Act",
+    "popular sovereignty",
+    "sectionalism"
+   ],
+   "materials": [
+    "maps of free and slave states in 1820 and 1850",
+    "Henry Clay speech excerpt"
+   ],
+   "days": [
+    {
+     "title": "Missouri Compromise",
+     "work": "Color a map showing the 36°30' line and explain Henry Clay's role in balancing free and slave states."
+    },
+    {
+     "title": "Wilmot Proviso",
+     "work": "Read the one-sentence Wilmot Proviso (1846) and explain why it divided Congress along sectional rather than party lines."
+    },
+    {
+     "title": "Compromise of 1850",
+     "work": "Chart each part of the Compromise of 1850 (including California statehood) and score which side gained more."
+    },
+    {
+     "title": "Fugitive Slave Act",
+     "work": "Read accounts of the Anthony Burns case in Boston and explain how the act radicalized Northerners."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on compromises and a map-labeling task."
+    }
+   ],
+   "assessment": "Compromise quiz and map."
+  },
+  {
+   "week": 22,
+   "unit": 7,
+   "topic": "Bleeding Kansas, Dred Scott and the rise of Lincoln",
+   "objectives": [
+    "Explain the Kansas-Nebraska Act and the Dred Scott decision",
+    "Analyze the Lincoln-Douglas debates"
+   ],
+   "standards": [
+    "8.9.5",
+    "8.9.1",
+    "8.10.1"
+   ],
+   "vocabulary": [
+    "Kansas-Nebraska Act",
+    "Bleeding Kansas",
+    "Dred Scott v. Sandford",
+    "Republican Party",
+    "Lincoln-Douglas debates"
+   ],
+   "materials": [
+    "Dred Scott decision excerpt",
+    "Lincoln's 'House Divided' speech (1858)"
+   ],
+   "days": [
+    {
+     "title": "Kansas-Nebraska Act",
+     "work": "Map the act and explain how popular sovereignty undid the Missouri Compromise and led to violence in Kansas."
+    },
+    {
+     "title": "Dred Scott",
+     "work": "Read excerpts of Chief Justice Taney's opinion and list the decision's three main holdings and their effects."
+    },
+    {
+     "title": "A House Divided",
+     "work": "Close-read Lincoln's 'House Divided' speech and explain its central metaphor in your own words."
+    },
+    {
+     "title": "Lincoln-Douglas debates",
+     "work": "Compare Lincoln's and Douglas's positions on slavery's expansion using debate excerpts in a T-chart."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a DBQ paragraph: 'Was the Civil War inevitable by 1858?'"
+    }
+   ],
+   "assessment": "DBQ paragraph."
+  },
+  {
+   "week": 23,
+   "unit": 7,
+   "topic": "Nullification and secession",
+   "objectives": [
+    "Compare Webster and Calhoun on state vs federal authority",
+    "Explain why Southern states seceded after 1860"
+   ],
+   "standards": [
+    "8.10.1",
+    "8.10.2",
+    "8.10.3",
+    "8.9.1"
+   ],
+   "vocabulary": [
+    "nullification",
+    "secession",
+    "states' rights",
+    "Confederacy",
+    "John Brown's raid",
+    "Harpers Ferry"
+   ],
+   "materials": [
+    "Webster's Second Reply to Hayne excerpt",
+    "South Carolina Declaration of the Causes of Secession (1860)"
+   ],
+   "days": [
+    {
+     "title": "Webster vs Calhoun",
+     "work": "Compare excerpts of Webster's 'Liberty and Union' reply and Calhoun's nullification arguments from the 1832 crisis."
+    },
+    {
+     "title": "John Brown",
+     "work": "Read John Brown's final courtroom speech and contrasting Northern and Southern newspaper reactions to Harpers Ferry."
+    },
+    {
+     "title": "Election of 1860",
+     "work": "Analyze the 1860 electoral map and popular-vote data to explain Lincoln's victory without Southern votes."
+    },
+    {
+     "title": "Secession",
+     "work": "Read South Carolina's Declaration of the Causes of Secession and identify the main reason it gives."
+    },
+    {
+     "title": "Unit 7 test",
+     "work": "Unit test on abolition and the road to war."
+    }
+   ],
+   "assessment": "Unit 7 test."
+  },
+  {
+   "week": 24,
+   "unit": 8,
+   "topic": "The war begins: North vs South",
+   "objectives": [
+    "Compare Northern and Southern advantages",
+    "Analyze Lincoln's First Inaugural Address"
+   ],
+   "standards": [
+    "8.10.2",
+    "8.10.4",
+    "8.10.6"
+   ],
+   "vocabulary": [
+    "Fort Sumter",
+    "border states",
+    "Anaconda Plan",
+    "Union",
+    "Confederacy",
+    "blockade"
+   ],
+   "materials": [
+    "Union and Confederate resource statistics",
+    "Lincoln's First Inaugural Address (1861)"
+   ],
+   "days": [
+    {
+     "title": "First Inaugural",
+     "work": "Read the closing paragraphs of Lincoln's First Inaugural ('better angels of our nature') and explain his message to the South."
+    },
+    {
+     "title": "Resources compared",
+     "work": "Graph 1860 population, railroad miles and factory data for North and South and predict which side had the advantage."
+    },
+    {
+     "title": "Strategies",
+     "work": "Compare the Union's Anaconda Plan with the Confederacy's defensive strategy on a map."
+    },
+    {
+     "title": "Early battles",
+     "work": "Map Fort Sumter, First Bull Run and Antietam using American Battlefield Trust maps and summarize outcomes."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the war's beginning plus a resource-graph interpretation question."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 25,
+   "unit": 8,
+   "topic": "Emancipation and Black soldiers",
+   "objectives": [
+    "Analyze the Emancipation Proclamation",
+    "Describe the experiences of Black soldiers and leaders on both sides"
+   ],
+   "standards": [
+    "8.10.4",
+    "8.10.5"
+   ],
+   "vocabulary": [
+    "Emancipation Proclamation",
+    "contraband",
+    "54th Massachusetts",
+    "United States Colored Troops",
+    "war aims"
+   ],
+   "materials": [
+    "Emancipation Proclamation transcript",
+    "USCT photographs",
+    "Grant and Lee biographies"
+   ],
+   "days": [
+    {
+     "title": "Emancipation Proclamation",
+     "work": "Read the full Proclamation and determine exactly which enslaved people it freed and why Lincoln framed it as a war measure."
+    },
+    {
+     "title": "Black soldiers",
+     "work": "Read Corporal James Henry Gooding's letter to Lincoln on equal pay and Frederick Douglass's 'Men of Color, To Arms!'"
+    },
+    {
+     "title": "Leaders",
+     "work": "Compare short biographies of Grant, Lee and Jefferson Davis on a character chart."
+    },
+    {
+     "title": "Soldier life",
+     "work": "Read letters and diaries from a Union and a Confederate soldier and compare their reasons for fighting."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on emancipation and soldiers' experiences."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 26,
+   "unit": 8,
+   "topic": "Turning points and home fronts",
+   "objectives": [
+    "Explain why Gettysburg and Vicksburg were turning points",
+    "Describe civilian life and wartime technology"
+   ],
+   "standards": [
+    "8.10.6",
+    "8.10.7",
+    "8.10.4"
+   ],
+   "vocabulary": [
+    "Gettysburg",
+    "Vicksburg",
+    "total war",
+    "ironclad",
+    "draft riots",
+    "field hospital"
+   ],
+   "materials": [
+    "Gettysburg Address text",
+    "Mathew Brady and Alexander Gardner photographs"
+   ],
+   "days": [
+    {
+     "title": "Gettysburg and Vicksburg",
+     "work": "Map both 1863 campaigns and explain how they changed the war in the East and the West."
+    },
+    {
+     "title": "Gettysburg Address",
+     "work": "Close-read the Gettysburg Address and connect 'a new birth of freedom' to the Declaration of Independence."
+    },
+    {
+     "title": "Home fronts",
+     "work": "Read about Clara Barton and the New York draft riots and compare civilian hardships North and South."
+    },
+    {
+     "title": "Technology and photography",
+     "work": "Analyze Brady and Gardner battlefield photographs and list new technologies (rifled musket, ironclads, telegraph)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on turning points and the home front."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 27,
+   "unit": 8,
+   "topic": "The end of the war",
+   "objectives": [
+    "Explain Sherman's March and Lee's surrender",
+    "Analyze Lincoln's Second Inaugural Address"
+   ],
+   "standards": [
+    "8.10.4",
+    "8.10.6",
+    "8.10.7"
+   ],
+   "vocabulary": [
+    "Sherman's March",
+    "total war",
+    "Appomattox Court House",
+    "Second Inaugural Address",
+    "assassination"
+   ],
+   "materials": [
+    "Lincoln's Second Inaugural Address (1865)",
+    "casualty statistics"
+   ],
+   "days": [
+    {
+     "title": "Sherman's March",
+     "work": "Map Sherman's march from Atlanta to Savannah and debate whether total war was justified."
+    },
+    {
+     "title": "Second Inaugural",
+     "work": "Read Lincoln's Second Inaugural and analyze 'with malice toward none, with charity for all.'"
+    },
+    {
+     "title": "Appomattox",
+     "work": "Read accounts of Lee's surrender, including the terms Grant offered."
+    },
+    {
+     "title": "Costs and consequences",
+     "work": "Graph casualty statistics and chart political, economic and environmental consequences of the war."
+    },
+    {
+     "title": "Unit 8 test",
+     "work": "Unit test on the Civil War."
+    }
+   ],
+   "assessment": "Unit 8 test."
+  },
+  {
+   "week": 28,
+   "unit": 9,
+   "topic": "Plans for Reconstruction",
+   "objectives": [
+    "Compare Lincoln's, Johnson's and Congress's Reconstruction plans",
+    "Explain the 13th Amendment"
+   ],
+   "standards": [
+    "8.11.1",
+    "8.11.5"
+   ],
+   "vocabulary": [
+    "Reconstruction",
+    "Ten Percent Plan",
+    "Radical Republicans",
+    "Thirteenth Amendment",
+    "Black codes",
+    "impeachment"
+   ],
+   "materials": [
+    "13th Amendment text",
+    "Mississippi Black Codes (1865) excerpt"
+   ],
+   "days": [
+    {
+     "title": "Plans compared",
+     "work": "Compare the Ten Percent Plan, Johnson's plan and the Radical Republicans' plan in a three-column chart."
+    },
+    {
+     "title": "13th Amendment",
+     "work": "Read the 13th Amendment and discuss the 'except as a punishment for crime' clause and its later effects."
+    },
+    {
+     "title": "Black codes",
+     "work": "Read excerpts of the Mississippi Black Codes and explain how they restricted freedpeople."
+    },
+    {
+     "title": "Johnson vs Congress",
+     "work": "Explain the Civil Rights Act of 1866, Johnson's vetoes and his impeachment trial."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on early Reconstruction."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 29,
+   "unit": 9,
+   "topic": "Freedom and new rights",
+   "objectives": [
+    "Explain the 14th and 15th Amendments",
+    "Describe the Freedmen's Bureau and the migration of freedpeople"
+   ],
+   "standards": [
+    "8.11.2",
+    "8.11.3",
+    "8.11.5"
+   ],
+   "vocabulary": [
+    "Freedmen's Bureau",
+    "Fourteenth Amendment",
+    "Fifteenth Amendment",
+    "sharecropping",
+    "Exodusters",
+    "Buffalo Soldiers"
+   ],
+   "materials": [
+    "Freedmen's Bureau letters (National Archives)",
+    "14th and 15th Amendment texts"
+   ],
+   "days": [
+    {
+     "title": "Freedmen's Bureau",
+     "work": "Read letters from freedpeople to the Freedmen's Bureau seeking family members, schools and fair wages."
+    },
+    {
+     "title": "14th and 15th Amendments",
+     "work": "Paraphrase the citizenship, equal protection and voting clauses and explain whom they protected and whom they left out."
+    },
+    {
+     "title": "Black political leaders",
+     "work": "Research Hiram Revels and Robert Smalls and write a short biography card for each."
+    },
+    {
+     "title": "Moving north and west",
+     "work": "Read about the Exodusters to Kansas and the Buffalo Soldiers and list push and pull factors."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the Reconstruction amendments and the Freedmen's Bureau."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 30,
+   "unit": 9,
+   "topic": "The end of Reconstruction and Jim Crow",
+   "objectives": [
+    "Explain the rise of the KKK and the end of Reconstruction",
+    "Describe Jim Crow laws and voting restrictions"
+   ],
+   "standards": [
+    "8.11.3",
+    "8.11.4"
+   ],
+   "vocabulary": [
+    "Ku Klux Klan",
+    "Enforcement Acts",
+    "Compromise of 1877",
+    "Jim Crow",
+    "poll tax",
+    "literacy test",
+    "segregation"
+   ],
+   "materials": [
+    "Thomas Nast cartoons",
+    "congressional testimony excerpts on Klan violence"
+   ],
+   "days": [
+    {
+     "title": "Violence and the KKK",
+     "work": "Read 1871 congressional testimony from survivors of Klan violence and explain the purpose of the Enforcement Acts."
+    },
+    {
+     "title": "Compromise of 1877",
+     "work": "Explain how the disputed 1876 election ended Reconstruction and federal troop presence."
+    },
+    {
+     "title": "Jim Crow",
+     "work": "Analyze examples of Jim Crow laws, poll taxes and literacy tests and their effect on voter registration data."
+    },
+    {
+     "title": "DBQ essay",
+     "work": "Write a DBQ essay: 'Was Reconstruction a success or a failure?' using at least 4 documents."
+    },
+    {
+     "title": "Unit 9 test",
+     "work": "Unit test on Reconstruction."
+    }
+   ],
+   "assessment": "Unit 9 test and DBQ essay."
+  },
+  {
+   "week": 31,
+   "unit": 10,
+   "topic": "Railroads and the West",
+   "objectives": [
+    "Explain the effects of the transcontinental railroad and the Homestead Act",
+    "Analyze federal Indian policy and wars on the Plains"
+   ],
+   "standards": [
+    "8.12.1",
+    "8.12.2",
+    "8.12.3"
+   ],
+   "vocabulary": [
+    "transcontinental railroad",
+    "land grant",
+    "Homestead Act",
+    "reservation",
+    "Dawes Act",
+    "Wounded Knee",
+    "boarding school"
+   ],
+   "materials": [
+    "railroad and land-grant maps",
+    "Chief Joseph's 1877 surrender speech"
+   ],
+   "days": [
+    {
+     "title": "Transcontinental railroad",
+     "work": "Read about Chinese workers on Leland Stanford's Central Pacific and Irish workers on the Union Pacific; map the 1869 route."
+    },
+    {
+     "title": "Homestead Act",
+     "work": "Read the Homestead Act (1862) and analyze settlement maps of the Great Plains."
+    },
+    {
+     "title": "Plains wars",
+     "work": "Read Chief Joseph's surrender speech and accounts of Little Bighorn and Wounded Knee from multiple perspectives."
+    },
+    {
+     "title": "Dawes Act and boarding schools",
+     "work": "Explain the Dawes Act's allotment policy and analyze before-and-after photographs from Carlisle Indian School."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the West, railroads and Indian policy."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 32,
+   "unit": 10,
+   "topic": "Big business and inventors",
+   "objectives": [
+    "Describe industrialists and their business methods",
+    "Identify major inventions and their effects on daily life"
+   ],
+   "standards": [
+    "8.12.3",
+    "8.12.4",
+    "8.12.9"
+   ],
+   "vocabulary": [
+    "monopoly",
+    "trust",
+    "vertical integration",
+    "horizontal integration",
+    "philanthropy",
+    "robber baron",
+    "captain of industry"
+   ],
+   "materials": [
+    "Carnegie 'The Gospel of Wealth' excerpt",
+    "political cartoons of Rockefeller"
+   ],
+   "days": [
+    {
+     "title": "Carnegie and Rockefeller",
+     "work": "Diagram vertical integration (Carnegie Steel) and horizontal integration (Standard Oil)."
+    },
+    {
+     "title": "Robber barons or captains of industry?",
+     "work": "Read the 'Gospel of Wealth' and two political cartoons; write an argument paragraph taking a side."
+    },
+    {
+     "title": "Inventors",
+     "work": "Research Edison, Bell, Lewis Latimer and the Wright brothers and make a chart of how each invention changed daily life."
+    },
+    {
+     "title": "Government and business",
+     "work": "Explain how tariffs, railroad land grants and subsidies helped business expand."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on industrialization."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 33,
+   "unit": 10,
+   "topic": "Immigration, cities and nativism",
+   "objectives": [
+    "Describe new immigration and urban growth",
+    "Explain nativism including the Chinese Exclusion Act"
+   ],
+   "standards": [
+    "8.12.5",
+    "8.12.7"
+   ],
+   "vocabulary": [
+    "new immigrants",
+    "Ellis Island",
+    "Angel Island",
+    "tenement",
+    "assimilation",
+    "nativism",
+    "Chinese Exclusion Act"
+   ],
+   "materials": [
+    "Jacob Riis photographs",
+    "Angel Island poems",
+    "'The New Colossus' by Emma Lazarus"
+   ],
+   "days": [
+    {
+     "title": "New immigrants",
+     "work": "Graph immigration by region of origin 1870–1910 and read 'The New Colossus.'"
+    },
+    {
+     "title": "Angel Island and exclusion",
+     "work": "Read translated Angel Island wall poems and the Chinese Exclusion Act (1882); compare with Ellis Island experiences."
+    },
+    {
+     "title": "Tenement life",
+     "work": "Analyze Jacob Riis photographs from 'How the Other Half Lives' and describe urban living conditions."
+    },
+    {
+     "title": "Conservation",
+     "work": "Read John Muir excerpts about Yosemite and explain the start of the conservation movement."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on immigration and urbanization."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 34,
+   "unit": 10,
+   "topic": "Labor and farmer movements",
+   "objectives": [
+    "Describe child labor and working conditions",
+    "Explain labor unions, the Grange and Populism"
+   ],
+   "standards": [
+    "8.12.6",
+    "8.12.8"
+   ],
+   "vocabulary": [
+    "labor union",
+    "strike",
+    "collective bargaining",
+    "American Federation of Labor",
+    "laissez-faire",
+    "Grange",
+    "Populist Party"
+   ],
+   "materials": [
+    "Lewis Hine child labor photographs (Library of Congress)",
+    "Omaha Platform excerpt"
+   ],
+   "days": [
+    {
+     "title": "Child labor",
+     "work": "Analyze 3 Lewis Hine photographs using a see-think-wonder chart and write captions."
+    },
+    {
+     "title": "Labor unions",
+     "work": "Read about Samuel Gompers and the AFL and compare the Haymarket and Pullman strikes."
+    },
+    {
+     "title": "Farmers organize",
+     "work": "Explain the Grange's goals and read excerpts of the Populist Omaha Platform (1892)."
+    },
+    {
+     "title": "Cross of Gold",
+     "work": "Read excerpts of William Jennings Bryan's 'Cross of Gold' speech and explain the debate over silver."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on labor and farmer movements."
+    }
+   ],
+   "assessment": "Quiz."
+  },
+  {
+   "week": 35,
+   "unit": 10,
+   "topic": "Industrial America museum project",
+   "objectives": [
+    "Research a topic from industrial America using primary sources",
+    "Present findings in an exhibit"
+   ],
+   "standards": [
+    "8.12.1",
+    "8.12.5",
+    "8.12.9"
+   ],
+   "vocabulary": [
+    "primary source",
+    "secondary source",
+    "citation",
+    "thesis",
+    "exhibit"
+   ],
+   "materials": [
+    "library books",
+    "Library of Congress and Calisphere sources",
+    "poster board or slides"
+   ],
+   "days": [
+    {
+     "title": "Choose a topic",
+     "work": "Select an inventor, immigrant group, labor leader or industry and locate 3 primary sources."
+    },
+    {
+     "title": "Research",
+     "work": "Take notes with citations and write a thesis about the topic's impact on American life."
+    },
+    {
+     "title": "Create",
+     "work": "Build a museum exhibit poster or slideshow with captions explaining each source."
+    },
+    {
+     "title": "Present",
+     "work": "Present the exhibit to family and answer questions."
+    },
+    {
+     "title": "Unit 10 test",
+     "work": "Unit test on Industrial America."
+    }
+   ],
+   "assessment": "Exhibit rubric and Unit 10 test."
+  },
+  {
+   "week": 36,
+   "unit": 11,
+   "topic": "Year in review: the expanding promise of the Declaration",
+   "objectives": [
+    "Trace how Americans used the Declaration's ideals to expand rights",
+    "Demonstrate mastery of grade 8 standards"
+   ],
+   "standards": [
+    "8.1.2",
+    "8.10.4",
+    "8.11.5",
+    "8.12.7"
+   ],
+   "vocabulary": [
+    "liberty",
+    "equality",
+    "citizenship",
+    "rights",
+    "democracy"
+   ],
+   "materials": [
+    "notebook timeline",
+    "course documents"
+   ],
+   "days": [
+    {
+     "title": "Timeline review",
+     "work": "Complete the 1750–1900 timeline and mark 10 turning points with one-sentence explanations."
+    },
+    {
+     "title": "Essential question essay",
+     "work": "Write an essay: 'How did Americans struggle to fulfill the promise of the Declaration from 1776 to 1900?'"
+    },
+    {
+     "title": "Final exam part 1",
+     "work": "Take part 1 of the final covering the Revolution through the antebellum era."
+    },
+    {
+     "title": "Final exam part 2",
+     "work": "Take part 2 covering the Civil War through Industrial America."
+    },
+    {
+     "title": "Reflection",
+     "work": "Write a reflection on the most important person and event studied this year and why."
+    }
+   ],
+   "assessment": "Final exam and essential question essay."
+  }
+ ]
+}

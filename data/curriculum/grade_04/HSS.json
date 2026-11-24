@@ -1,0 +1,1905 @@
+{
+  "grade": 4,
+  "subject": "HSS",
+  "title": "California, A Changing State",
+  "description": "Grade 4 History-Social Science follows the California History-Social Science Content Standards and the 2016 HSS Framework. Students study California's geography and regions, the diverse nations of California Indians, Spanish exploration and the mission system from multiple perspectives, Mexican California and the ranchos, the Bear Flag Revolt and Mexican-American War, the Gold Rush and statehood, and California's growth into an agricultural, industrial and cultural power, ending with how local, state and federal governments work. Primary sources from Calisphere's curated sets, the Online Archive of California and the Library of Congress anchor every unit.",
+  "framework": "California History-Social Science Content Standards (Grade 4: California, A Changing State); 2016 California History-Social Science Framework",
+  "minutes_per_day": 45,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "4.1.1": "Explain and use the coordinate grid system of latitude and longitude to determine the absolute locations of places in California and on Earth.",
+    "4.1.2": "Distinguish between the North and South Poles; the equator and prime meridian; the tropics; and the hemispheres, using coordinates to plot locations.",
+    "4.1.3": "Identify the state capital and describe the regions of California, including how their characteristics and physical environments affect human activity.",
+    "4.1.4": "Identify the locations of the Pacific Ocean, rivers, valleys and mountain passes and explain their effects on the growth of towns.",
+    "4.1.5": "Use maps, charts and pictures to describe how communities in California vary in land use, vegetation, wildlife, climate, population density, architecture, services and transportation.",
+    "4.2.1": "Discuss the major nations of California Indians, their geographic distribution, economic activities, legends and religious beliefs, and how they depended on, adapted to and modified the environment.",
+    "4.2.2": "Identify the early land and sea routes to, and European settlements in, California, with a focus on exploration of the North Pacific.",
+    "4.2.3": "Describe the Spanish exploration and colonization of California, including the relationships among soldiers, missionaries and Indians.",
+    "4.2.4": "Describe the mapping of, geographic basis of, and economic factors in the placement and function of the Spanish missions; understand how the mission system expanded the influence of Spain and Catholicism.",
+    "4.2.5": "Describe the daily lives of the people, native and non-native, who occupied the presidios, missions, ranchos and pueblos.",
+    "4.2.6": "Discuss the role of the Franciscans in changing the economy of California from a hunter-gatherer economy to an agricultural economy.",
+    "4.2.7": "Describe the effects of the Mexican War for Independence on Alta California, including its effects on territorial boundaries.",
+    "4.2.8": "Discuss the period of Mexican rule in California, including land grants, secularization of the missions and the rise of the rancheros.",
+    "4.3.1": "Identify the locations of Mexican settlements in California and other settlements, including Fort Ross and Sutter's Fort.",
+    "4.3.2": "Compare how and why people traveled to California and the routes they traveled (e.g., James Beckwourth, John Bidwell, John C. Frémont, Pío Pico).",
+    "4.3.3": "Analyze the effects of the Gold Rush on settlements, daily life, politics and the physical environment.",
+    "4.3.4": "Study the lives of women who helped build early California (e.g., Biddy Mason).",
+    "4.3.5": "Discuss how California became a state and how its new government differed from those during the Spanish and Mexican periods.",
+    "4.4.1": "Understand the story and lasting influence of the Pony Express, Overland Mail Service, Western Union and the transcontinental railroad, including the contributions of Chinese workers.",
+    "4.4.2": "Explain how the Gold Rush transformed California's economy, including products, changes in towns, and economic conflicts between diverse groups.",
+    "4.4.3": "Discuss immigration and migration to California between 1850 and 1900, including countries of origin and conflicts and accords among groups (e.g., the 1882 Chinese Exclusion Act).",
+    "4.4.4": "Describe rapid American immigration, internal migration, settlement and the growth of towns and cities (e.g., Los Angeles).",
+    "4.4.5": "Discuss the effects of the Great Depression, the Dust Bowl and World War II on California.",
+    "4.4.6": "Describe the development and locations of new industries since the nineteenth century (aerospace, electronics, agriculture and irrigation, oil, automobiles, Pacific trade).",
+    "4.4.7": "Trace the evolution of California's water system into a network of dams, aqueducts and reservoirs.",
+    "4.4.8": "Describe the history and development of California's public education system, including universities and community colleges.",
+    "4.4.9": "Analyze the impact of twentieth-century Californians on the nation's artistic and cultural development, including the entertainment industry.",
+    "4.5.1": "Discuss what the U.S. Constitution is and why it is important.",
+    "4.5.2": "Understand the purpose of the California Constitution, its key principles and its relationship to the U.S. Constitution.",
+    "4.5.3": "Describe the similarities and differences among federal, state and local governments.",
+    "4.5.4": "Explain the structures and functions of state governments, including the roles and responsibilities of elected officials.",
+    "4.5.5": "Describe the components of California's governance structure (cities and towns, Indian rancherias and reservations, counties, school districts).",
+    "CST.1": "Analysis skill: place key events and people in chronological sequence and in geographic context; construct timelines.",
+    "REP.1": "Analysis skill: differentiate between primary and secondary sources.",
+    "REP.4": "Analysis skill: pose relevant questions about events encountered in historical documents, eyewitness accounts, oral histories, letters, diaries, artifacts, photographs, maps and artworks.",
+    "HI.1": "Analysis skill: identify the human and physical characteristics of places and explain how those features form the unique character of those places.",
+    "HI.2": "Analysis skill: identify and interpret the multiple causes and effects of historical events."
+  },
+  "resources": [
+    {
+      "name": "Calisphere – Primary Source Sets",
+      "url": "https://calisphere.org/exhibitions/",
+      "note": "Curated California primary source sets used all year (California Missions, Californio Society, Gold Rush, Transcontinental Railroad, Chinese Exclusion Act, Dust Bowl Migration)"
+    },
+    {
+      "name": "Calisphere – The Gold Rush theme",
+      "url": "https://calisphere.org/exhibitions/t3/gold-rush/",
+      "note": "Photographs, letters and maps on Gold Rush daily life, cities, environment and diversity"
+    },
+    {
+      "name": "Online Archive of California",
+      "url": "https://oac.cdlib.org",
+      "note": "Finding aids and digitized documents from California libraries and archives"
+    },
+    {
+      "name": "Library of Congress – Classroom Materials",
+      "url": "https://www.loc.gov/classroom-materials/",
+      "note": "Primary source sets and historic maps of California and the West"
+    },
+    {
+      "name": "DocsTeach (National Archives)",
+      "url": "https://www.docsteach.org",
+      "note": "Document-based activities including the U.S. Constitution and the Chinese Exclusion Act"
+    },
+    {
+      "name": "California State Parks",
+      "url": "https://www.parks.ca.gov",
+      "note": "Information on historic parks: missions, Fort Ross, Sutter's Fort, Columbia, Marshall Gold Discovery"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "The Geography of California",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "California's location, regions and physical features shape where and how people live.",
+      "standards": [
+        "4.1.1",
+        "4.1.2",
+        "4.1.3",
+        "4.1.4",
+        "4.1.5",
+        "HI.1"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "California's First Peoples",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Diverse California Indian nations adapted to and shaped many environments and continue as living communities today.",
+      "standards": [
+        "4.2.1",
+        "REP.1",
+        "REP.4",
+        "HI.1"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Exploration by Land and Sea",
+      "start_week": 9,
+      "end_week": 10,
+      "big_idea": "Competing empires explored the North Pacific coast for trade, wealth and territory.",
+      "standards": [
+        "4.2.2",
+        "CST.1"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Missions, Presidios and Pueblos",
+      "start_week": 11,
+      "end_week": 15,
+      "big_idea": "Spanish colonization brought soldiers, missionaries and settlers whose institutions transformed Native lives, land and economy.",
+      "standards": [
+        "4.2.3",
+        "4.2.4",
+        "4.2.5",
+        "4.2.6",
+        "REP.4",
+        "HI.2"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Mexican California and the Ranchos",
+      "start_week": 16,
+      "end_week": 18,
+      "big_idea": "Mexican independence secularized the missions and created a rancho society built on land grants and Native labor.",
+      "standards": [
+        "4.2.7",
+        "4.2.8",
+        "4.2.5",
+        "4.3.1"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Trails West and the Bear Flag Revolt",
+      "start_week": 19,
+      "end_week": 21,
+      "big_idea": "Overland migrants and the Mexican-American War brought California under U.S. control.",
+      "standards": [
+        "4.3.1",
+        "4.3.2",
+        "CST.1",
+        "HI.2"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "The Gold Rush",
+      "start_week": 22,
+      "end_week": 24,
+      "big_idea": "The discovery of gold rapidly transformed California's population, economy, environment and people's lives.",
+      "standards": [
+        "4.3.3",
+        "4.3.4",
+        "4.4.2",
+        "REP.1",
+        "REP.4"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Statehood",
+      "start_week": 25,
+      "end_week": 26,
+      "big_idea": "California became the 31st state with a constitution and government unlike the Spanish and Mexican systems.",
+      "standards": [
+        "4.3.5",
+        "4.5.2",
+        "HI.2"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Connecting California: Transportation and Immigration",
+      "start_week": 27,
+      "end_week": 30,
+      "big_idea": "Railroads and telegraphs tied California to the nation while immigrants built the state amid conflict and cooperation.",
+      "standards": [
+        "4.4.1",
+        "4.4.3",
+        "4.4.4",
+        "REP.4"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Modern California: Water, Work and Culture",
+      "start_week": 31,
+      "end_week": 33,
+      "big_idea": "Water projects, new industries, schools and artists made California a national leader through hard times and war.",
+      "standards": [
+        "4.4.5",
+        "4.4.6",
+        "4.4.7",
+        "4.4.8",
+        "4.4.9"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Governing California",
+      "start_week": 34,
+      "end_week": 36,
+      "big_idea": "Federal, state and local governments share power through written constitutions.",
+      "standards": [
+        "4.5.1",
+        "4.5.2",
+        "4.5.3",
+        "4.5.4",
+        "4.5.5"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Latitude, longitude and the globe",
+      "objectives": [
+        "Locate places using latitude and longitude",
+        "Identify poles, equator, prime meridian, tropics and hemispheres"
+      ],
+      "standards": [
+        "4.1.1",
+        "4.1.2"
+      ],
+      "vocabulary": [
+        "latitude",
+        "longitude",
+        "equator",
+        "prime meridian",
+        "hemisphere"
+      ],
+      "materials": [
+        "globe",
+        "world and California maps",
+        "orange",
+        "marker"
+      ],
+      "days": [
+        {
+          "title": "Globe tour",
+          "work": "Mark the equator and prime meridian on an orange 'globe' and name the four hemispheres California lies in."
+        },
+        {
+          "title": "Latitude lines",
+          "work": "Use a world map to find the latitude of Sacramento, San Diego and the North Pole and record them in a table."
+        },
+        {
+          "title": "Longitude lines",
+          "work": "Find longitude for five California cities and explain why longitude lines meet at the poles."
+        },
+        {
+          "title": "Coordinate game",
+          "work": "Play 'Where in California?': a parent gives coordinates and you locate the place (e.g., 37.7 N, 122.4 W = San Francisco)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: plot 6 locations from coordinates and label the tropics, poles and hemispheres on a blank globe map."
+        }
+      ],
+      "assessment": "Coordinate plotting quiz."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "California's regions",
+      "objectives": [
+        "Identify the capital and the four regions",
+        "Explain how environments affect human activity"
+      ],
+      "standards": [
+        "4.1.3",
+        "HI.1"
+      ],
+      "vocabulary": [
+        "region",
+        "coast",
+        "Central Valley",
+        "desert",
+        "mountains"
+      ],
+      "materials": [
+        "California physical map",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "Capital and regions",
+          "work": "Color a blank California map showing the coastal, mountain, Central Valley and desert regions and star Sacramento."
+        },
+        {
+          "title": "Region study",
+          "work": "Read about each region's climate, landforms and vegetation and make a 4-column comparison chart."
+        },
+        {
+          "title": "Living in a region",
+          "work": "Compare photos of Imperial Valley farms, a Sierra ski town, a Central Valley orchard and a coastal fishing harbor; explain how land shapes jobs."
+        },
+        {
+          "title": "Our region",
+          "work": "Describe the region you live in using five geographic details and one photo you take."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on regions and write a paragraph on how one region's environment affects people."
+        }
+      ],
+      "assessment": "Region chart and paragraph."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Rivers, valleys and mountain passes",
+      "objectives": [
+        "Locate the Pacific Ocean, rivers, valleys and passes",
+        "Explain their effect on the growth of towns"
+      ],
+      "standards": [
+        "4.1.4",
+        "4.1.3"
+      ],
+      "vocabulary": [
+        "river",
+        "delta",
+        "mountain pass",
+        "harbor",
+        "tributary"
+      ],
+      "materials": [
+        "California physical map",
+        "tracing paper"
+      ],
+      "days": [
+        {
+          "title": "Water features",
+          "work": "Trace the Sacramento and San Joaquin Rivers, the Delta and San Francisco Bay on a map."
+        },
+        {
+          "title": "Passes",
+          "work": "Locate Donner Pass, Tehachapi Pass and Cajon Pass and explain why travelers needed them."
+        },
+        {
+          "title": "Town growth",
+          "work": "Mark 8 major cities and explain why each grew where it did (harbor, river, pass, valley)."
+        },
+        {
+          "title": "Primary source map",
+          "work": "Examine an 1850s map of California from the Library of Congress and compare place names to today."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph explaining why Sacramento grew where two rivers meet."
+        }
+      ],
+      "assessment": "Map analysis paragraph."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Comparing California communities",
+      "objectives": [
+        "Use maps, charts and pictures to compare communities"
+      ],
+      "standards": [
+        "4.1.5",
+        "HI.1"
+      ],
+      "vocabulary": [
+        "population density",
+        "land use",
+        "urban",
+        "rural",
+        "suburban"
+      ],
+      "materials": [
+        "population chart",
+        "photos",
+        "Calisphere 'City Scenes' set"
+      ],
+      "days": [
+        {
+          "title": "Urban, suburban, rural",
+          "work": "Compare photos of Los Angeles, Fresno suburbs and a Modoc County ranch and record land use, architecture and transportation."
+        },
+        {
+          "title": "Population data",
+          "work": "Read a population density chart and rank 6 counties."
+        },
+        {
+          "title": "Primary source photos",
+          "work": "Analyze 3 images from the Calisphere set 'City Scenes in California History' and describe what changed and stayed the same."
+        },
+        {
+          "title": "Community profile",
+          "work": "Create a community profile poster for your town: climate, land use, services and transportation."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Take the Unit 1 test on geography, regions and communities."
+        }
+      ],
+      "assessment": "Community profile and Unit 1 test."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "California Indian nations and regions",
+      "objectives": [
+        "Locate major California Indian nations",
+        "Explain how environment shaped ways of life"
+      ],
+      "standards": [
+        "4.2.1",
+        "HI.1"
+      ],
+      "vocabulary": [
+        "nation",
+        "tribe",
+        "territory",
+        "culture area",
+        "acorn"
+      ],
+      "materials": [
+        "map of California Indian language groups",
+        "Calisphere 'Native Americans: Pre-Columbian' set"
+      ],
+      "days": [
+        {
+          "title": "Map of nations",
+          "work": "Label a map with Chumash, Tongva, Ohlone, Miwok, Pomo, Yurok, Mojave and Kumeyaay homelands."
+        },
+        {
+          "title": "Living with the land",
+          "work": "Compare how coastal, valley, mountain and desert peoples obtained food and shelter in a chart."
+        },
+        {
+          "title": "Primary sources",
+          "work": "Examine images from the Calisphere set 'Native Americans: Pre-Columbian' and describe tools and dwellings."
+        },
+        {
+          "title": "Acorns",
+          "work": "Read about acorn processing and sequence the steps from gathering to cooking."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on how one nation adapted to its environment."
+        }
+      ],
+      "assessment": "Adaptation paragraph."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Trade, technology and the environment",
+      "objectives": [
+        "Describe how California Indians modified the environment",
+        "Explain trade networks"
+      ],
+      "standards": [
+        "4.2.1"
+      ],
+      "vocabulary": [
+        "trade",
+        "tomol",
+        "basketry",
+        "controlled burn",
+        "shell money"
+      ],
+      "materials": [
+        "Calisphere 'Native Americans: Arts and Traditions' set",
+        "paper",
+        "yarn"
+      ],
+      "days": [
+        {
+          "title": "Tomol canoes",
+          "work": "Read about the Chumash tomol plank canoe and draw a labeled diagram."
+        },
+        {
+          "title": "Basketry",
+          "work": "Study basket images from the Calisphere set 'Native Americans: Arts and Traditions' and describe patterns and uses."
+        },
+        {
+          "title": "Land stewardship",
+          "work": "Read about controlled burns and explain how they improved plant and animal resources."
+        },
+        {
+          "title": "Trade routes",
+          "work": "Map trade of shell beads, obsidian and salt between nations."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on technology, trade and environmental management."
+        }
+      ],
+      "assessment": "Trade and technology quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Beliefs, legends and oral tradition",
+      "objectives": [
+        "Explain legends and beliefs of California Indians",
+        "Distinguish primary and secondary sources"
+      ],
+      "standards": [
+        "4.2.1",
+        "REP.1"
+      ],
+      "vocabulary": [
+        "legend",
+        "oral tradition",
+        "ceremony",
+        "primary source"
+      ],
+      "materials": [
+        "collection of California Indian stories (library)",
+        "primary/secondary source cards"
+      ],
+      "days": [
+        {
+          "title": "Legends",
+          "work": "Read a Chumash or Miwok creation story and identify what it teaches about the natural world."
+        },
+        {
+          "title": "Oral tradition",
+          "work": "Discuss how stories passed down orally preserve history and values."
+        },
+        {
+          "title": "Primary vs secondary",
+          "work": "Sort 10 sources (basket, photograph, textbook, oral story recording) as primary or secondary."
+        },
+        {
+          "title": "Ceremonies",
+          "work": "Read about a ceremony such as the World Renewal ceremony of the Karuk and Hupa."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a reflection on how legends connect people and place."
+        }
+      ],
+      "assessment": "Source sort and reflection."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "California Indians today",
+      "objectives": [
+        "Recognize California Indian nations as living communities",
+        "Pose historical questions"
+      ],
+      "standards": [
+        "4.2.1",
+        "REP.4"
+      ],
+      "vocabulary": [
+        "sovereignty",
+        "rancheria",
+        "reservation",
+        "revitalization"
+      ],
+      "materials": [
+        "Calisphere 'Native Americans: 20th Century to Today' set",
+        "tribal websites"
+      ],
+      "days": [
+        {
+          "title": "Living communities",
+          "work": "Explore images from the Calisphere set 'Native Americans: 20th Century to Today' and list what has continued and changed."
+        },
+        {
+          "title": "Language revival",
+          "work": "Read about a language revitalization program (e.g., Yurok language classes) and summarize it."
+        },
+        {
+          "title": "Questions",
+          "work": "Write 5 questions you would ask a tribal historian."
+        },
+        {
+          "title": "Nation project",
+          "work": "Create a mini-book on one nation: land, food, shelter, beliefs and today's community."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Take the Unit 2 test on California's first peoples."
+        }
+      ],
+      "assessment": "Nation mini-book and Unit 2 test."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Sea explorers of the North Pacific",
+      "objectives": [
+        "Identify early sea routes",
+        "Explain motives of explorers"
+      ],
+      "standards": [
+        "4.2.2",
+        "CST.1"
+      ],
+      "vocabulary": [
+        "explorer",
+        "galleon",
+        "empire",
+        "route"
+      ],
+      "materials": [
+        "world map",
+        "timeline strip"
+      ],
+      "days": [
+        {
+          "title": "Cabrillo",
+          "work": "Read about Juan Rodríguez Cabrillo's 1542 voyage and trace his route."
+        },
+        {
+          "title": "Drake",
+          "work": "Read about Francis Drake's 1579 landing and compare motives."
+        },
+        {
+          "title": "Vizcaíno",
+          "work": "Read about Sebastián Vizcaíno's 1602 voyage and the naming of Monterey."
+        },
+        {
+          "title": "Manila galleons",
+          "work": "Explain why Spain needed a port for the Manila galleon trade."
+        },
+        {
+          "title": "Review & check",
+          "work": "Create a timeline of explorers with routes and motives."
+        }
+      ],
+      "assessment": "Explorer timeline."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Land routes and the Russians",
+      "objectives": [
+        "Identify land routes and European settlements",
+        "Explain Russian presence at Fort Ross"
+      ],
+      "standards": [
+        "4.2.2",
+        "4.3.1",
+        "CST.1"
+      ],
+      "vocabulary": [
+        "Fort Ross",
+        "otter pelt",
+        "colony",
+        "land route"
+      ],
+      "materials": [
+        "Calisphere 'Early California Exploration and Settlement' set",
+        "map"
+      ],
+      "days": [
+        {
+          "title": "Anza Trail",
+          "work": "Trace Juan Bautista de Anza's overland route from Sonora to San Francisco."
+        },
+        {
+          "title": "Russians",
+          "work": "Read about Fort Ross and the Russian-American Company's sea otter trade."
+        },
+        {
+          "title": "Primary sources",
+          "work": "Analyze images from the Calisphere set 'Early California Exploration and Settlement'."
+        },
+        {
+          "title": "Compare empires",
+          "work": "Compare Spanish, English and Russian goals in a chart."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Take the Unit 3 test on exploration."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 11,
+      "unit": 4,
+      "topic": "Spanish colonization begins: the Sacred Expedition",
+      "objectives": [
+        "Describe the 1769 expedition",
+        "Explain roles of soldiers, missionaries and Indians"
+      ],
+      "standards": [
+        "4.2.3",
+        "CST.1"
+      ],
+      "vocabulary": [
+        "colonization",
+        "expedition",
+        "Franciscan",
+        "presidio"
+      ],
+      "materials": [
+        "map",
+        "Calisphere 'Hispanic Americans: Spanish Colonization' set"
+      ],
+      "days": [
+        {
+          "title": "Why colonize?",
+          "work": "Read about Spain's reasons for colonizing Alta California."
+        },
+        {
+          "title": "Portolá and Serra",
+          "work": "Trace the 1769 Portolá-Serra expedition route to San Diego and Monterey."
+        },
+        {
+          "title": "Crespí's diary",
+          "work": "Read an excerpt from Juan Crespí's expedition diary and list his observations of the land and people."
+        },
+        {
+          "title": "Perspectives",
+          "work": "Discuss how the Kumeyaay might have viewed the newcomers."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write about the goals of soldiers, missionaries and Native people."
+        }
+      ],
+      "assessment": "Perspectives writing."
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "Mapping the missions",
+      "objectives": [
+        "Map the 21 missions",
+        "Explain why sites were chosen"
+      ],
+      "standards": [
+        "4.2.4"
+      ],
+      "vocabulary": [
+        "El Camino Real",
+        "mission",
+        "site"
+      ],
+      "materials": [
+        "California map",
+        "mission list"
+      ],
+      "days": [
+        {
+          "title": "Mission map",
+          "work": "Map all 21 missions along El Camino Real."
+        },
+        {
+          "title": "Site factors",
+          "work": "Identify why missions were placed near water, fertile soil and Native villages."
+        },
+        {
+          "title": "Spread of influence",
+          "work": "Explain how missions expanded Spain's and Catholicism's influence across New Spain."
+        },
+        {
+          "title": "Calisphere images",
+          "work": "Study images from the Calisphere set 'California Missions' and compare two missions' layouts."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on mission locations and placement factors."
+        }
+      ],
+      "assessment": "Mission map quiz."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Life in the missions",
+      "objectives": [
+        "Describe daily life at the missions",
+        "Analyze Native experiences"
+      ],
+      "standards": [
+        "4.2.5",
+        "4.2.6",
+        "REP.4"
+      ],
+      "vocabulary": [
+        "neophyte",
+        "labor",
+        "adobe",
+        "disease"
+      ],
+      "materials": [
+        "Calisphere 'California Missions' and 'Native Americans and Contact' sets"
+      ],
+      "days": [
+        {
+          "title": "Daily schedule",
+          "work": "Read about a mission day and make a schedule."
+        },
+        {
+          "title": "Native experience",
+          "work": "Read accounts of Native life at missions, including forced labor and disease."
+        },
+        {
+          "title": "Economic change",
+          "work": "Explain how missions changed California from hunter-gatherer to agriculture and ranching."
+        },
+        {
+          "title": "Primary source analysis",
+          "work": "Analyze an image from the Calisphere set 'Native Americans and Contact' using See-Think-Wonder."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph about how the missions changed Native lives."
+        }
+      ],
+      "assessment": "Paragraph on change."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Presidios and pueblos",
+      "objectives": [
+        "Describe presidio and pueblo life"
+      ],
+      "standards": [
+        "4.2.5",
+        "4.2.3"
+      ],
+      "vocabulary": [
+        "presidio",
+        "pueblo",
+        "settler",
+        "alcalde"
+      ],
+      "materials": [
+        "map",
+        "Calisphere images"
+      ],
+      "days": [
+        {
+          "title": "Presidios",
+          "work": "Read about the four presidios and their purpose."
+        },
+        {
+          "title": "Pueblos",
+          "work": "Read about the founding of San José and Los Angeles."
+        },
+        {
+          "title": "Los Pobladores",
+          "work": "Read about the 44 settlers who founded Los Angeles in 1781 and their diverse backgrounds."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare mission, presidio and pueblo in a chart."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on Spanish settlements."
+        }
+      ],
+      "assessment": "Settlement quiz."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Missions from many perspectives",
+      "objectives": [
+        "Evaluate the mission system from multiple perspectives",
+        "Write an informative essay"
+      ],
+      "standards": [
+        "4.2.3",
+        "4.2.6",
+        "HI.2"
+      ],
+      "vocabulary": [
+        "perspective",
+        "legacy",
+        "impact"
+      ],
+      "materials": [
+        "notes",
+        "Calisphere sources"
+      ],
+      "days": [
+        {
+          "title": "Perspectives",
+          "work": "Read short accounts from a Franciscan, a soldier and a Native leader (e.g., Toypurina)."
+        },
+        {
+          "title": "Toypurina",
+          "work": "Read about Toypurina's 1785 resistance at Mission San Gabriel."
+        },
+        {
+          "title": "Legacy",
+          "work": "Discuss the legacy of missions today."
+        },
+        {
+          "title": "Essay",
+          "work": "Write an informative essay on how the missions affected different groups."
+        },
+        {
+          "title": "Unit 4 test",
+          "work": "Take the Unit 4 test."
+        }
+      ],
+      "assessment": "Essay and Unit 4 test."
+    },
+    {
+      "week": 16,
+      "unit": 5,
+      "topic": "Mexican independence and Alta California",
+      "objectives": [
+        "Explain effects of the Mexican War for Independence",
+        "Identify new boundaries"
+      ],
+      "standards": [
+        "4.2.7"
+      ],
+      "vocabulary": [
+        "independence",
+        "territory",
+        "boundary",
+        "Mexico"
+      ],
+      "materials": [
+        "maps of 1821 North America"
+      ],
+      "days": [
+        {
+          "title": "Independence",
+          "work": "Read about the 1810-1821 Mexican War for Independence."
+        },
+        {
+          "title": "Map boundaries",
+          "work": "Compare maps of North America before and after 1821."
+        },
+        {
+          "title": "Effects",
+          "work": "List effects on Alta California's government and trade."
+        },
+        {
+          "title": "Trade opens",
+          "work": "Read about hide and tallow trade with Yankee ships (Two Years Before the Mast excerpt)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a cause-and-effect chart."
+        }
+      ],
+      "assessment": "Cause-and-effect chart."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Secularization and land grants",
+      "objectives": [
+        "Explain mission secularization",
+        "Describe land grants"
+      ],
+      "standards": [
+        "4.2.8"
+      ],
+      "vocabulary": [
+        "secularization",
+        "land grant",
+        "diseño",
+        "rancho"
+      ],
+      "materials": [
+        "Calisphere 'Californio Society' set"
+      ],
+      "days": [
+        {
+          "title": "Secularization",
+          "work": "Read about the 1834 secularization of the missions."
+        },
+        {
+          "title": "Land grants",
+          "work": "Examine a diseño (rancho map) and explain how land was granted."
+        },
+        {
+          "title": "Native outcomes",
+          "work": "Discuss what happened to Native peoples after secularization."
+        },
+        {
+          "title": "Calisphere",
+          "work": "Analyze images from the Calisphere set 'Californio Society'."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on secularization and land grants."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Life on the ranchos",
+      "objectives": [
+        "Describe rancho life",
+        "Identify key Californios"
+      ],
+      "standards": [
+        "4.2.8",
+        "4.2.5",
+        "4.3.1"
+      ],
+      "vocabulary": [
+        "ranchero",
+        "vaquero",
+        "Californio",
+        "fiesta"
+      ],
+      "materials": [
+        "Calisphere 'Californio Society' set"
+      ],
+      "days": [
+        {
+          "title": "Rancho life",
+          "work": "Read about daily life on a rancho."
+        },
+        {
+          "title": "Vaqueros",
+          "work": "Read about vaqueros and their skills."
+        },
+        {
+          "title": "Vallejo and Pico",
+          "work": "Read biographies of Mariano Guadalupe Vallejo and Pío Pico."
+        },
+        {
+          "title": "Settlements map",
+          "work": "Map Mexican settlements, Fort Ross and Sutter's Fort."
+        },
+        {
+          "title": "Unit 5 test",
+          "work": "Take the Unit 5 test."
+        }
+      ],
+      "assessment": "Unit 5 test."
+    },
+    {
+      "week": 19,
+      "unit": 6,
+      "topic": "Overland trails to California",
+      "objectives": [
+        "Compare how and why people traveled to California",
+        "Trace major routes"
+      ],
+      "standards": [
+        "4.3.2",
+        "CST.1"
+      ],
+      "vocabulary": [
+        "emigrant",
+        "overland trail",
+        "wagon train",
+        "pass"
+      ],
+      "materials": [
+        "U.S. map",
+        "trail diaries excerpt",
+        "Calisphere 'Transportation in California History' set"
+      ],
+      "days": [
+        {
+          "title": "Why come?",
+          "work": "List push and pull factors that brought emigrants in the 1840s (land, trade, adventure) and rank them."
+        },
+        {
+          "title": "John Bidwell",
+          "work": "Read about the 1841 Bidwell-Bartleson party, the first overland wagon group, and trace its route over the Sierra."
+        },
+        {
+          "title": "James Beckwourth",
+          "work": "Read about James Beckwourth, an African American mountain man who found Beckwourth Pass, and mark it on the map."
+        },
+        {
+          "title": "The Donner Party",
+          "work": "Read an age-appropriate account of the Donner Party and a letter excerpt by survivor Virginia Reed; list decisions that led to disaster."
+        },
+        {
+          "title": "Review & check",
+          "work": "Compare the sea route around Cape Horn, the Panama route and the overland trail in a chart (time, cost, dangers)."
+        }
+      ],
+      "assessment": "Route comparison chart."
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "The Bear Flag Revolt",
+      "objectives": [
+        "Explain the causes and events of the Bear Flag Revolt",
+        "Analyze multiple perspectives"
+      ],
+      "standards": [
+        "4.3.2",
+        "4.3.1",
+        "CST.1",
+        "HI.2"
+      ],
+      "vocabulary": [
+        "revolt",
+        "republic",
+        "Californio",
+        "Sonoma"
+      ],
+      "materials": [
+        "image of the original Bear Flag (Calisphere search)",
+        "map of Sonoma"
+      ],
+      "days": [
+        {
+          "title": "Tensions",
+          "work": "Read about tensions between Mexican officials and American settlers in the 1840s."
+        },
+        {
+          "title": "John C. Frémont",
+          "work": "Read about Frémont's expeditions and his role in 1846."
+        },
+        {
+          "title": "The revolt",
+          "work": "Read about the June 1846 capture of Sonoma and the arrest of Mariano Vallejo; sequence the events."
+        },
+        {
+          "title": "The flag",
+          "work": "Analyze a photo of the original Bear Flag found on Calisphere: what symbols do you see and what do they mean?"
+        },
+        {
+          "title": "Perspectives",
+          "work": "Write two short journal entries about the revolt: one as a settler and one as Vallejo."
+        }
+      ],
+      "assessment": "Perspective journal entries."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "The Mexican-American War and the Treaty of Guadalupe Hidalgo",
+      "objectives": [
+        "Explain how California became U.S. territory",
+        "Identify effects of the treaty"
+      ],
+      "standards": [
+        "4.3.2",
+        "HI.2",
+        "CST.1"
+      ],
+      "vocabulary": [
+        "war",
+        "treaty",
+        "cession",
+        "territory"
+      ],
+      "materials": [
+        "maps of North America 1846 and 1848"
+      ],
+      "days": [
+        {
+          "title": "War begins",
+          "work": "Read about the causes of the Mexican-American War and the raising of the U.S. flag at Monterey in July 1846."
+        },
+        {
+          "title": "Battle of San Pasqual",
+          "work": "Read about the 1846 Battle of San Pasqual where Californio lancers under Andrés Pico fought U.S. troops."
+        },
+        {
+          "title": "Treaty",
+          "work": "Read key promises of the 1848 Treaty of Guadalupe Hidalgo about land and citizenship for Mexican residents."
+        },
+        {
+          "title": "Map the cession",
+          "work": "Color the Mexican Cession on a map and compare U.S. borders before and after 1848."
+        },
+        {
+          "title": "Unit 6 test",
+          "work": "Take the Unit 6 test on trails, the Bear Flag Revolt and the war."
+        }
+      ],
+      "assessment": "Unit 6 test."
+    },
+    {
+      "week": 22,
+      "unit": 7,
+      "topic": "Gold discovered!",
+      "objectives": [
+        "Describe the discovery of gold and the rush that followed",
+        "Analyze primary sources"
+      ],
+      "standards": [
+        "4.3.3",
+        "REP.1",
+        "REP.4"
+      ],
+      "vocabulary": [
+        "Forty-Niner",
+        "prospector",
+        "Sutter's Mill",
+        "placer mining"
+      ],
+      "materials": [
+        "Calisphere 'The Gold Rush Era: Everyday Life and People' set",
+        "pan",
+        "sand",
+        "small pebbles",
+        "gold-painted gravel"
+      ],
+      "days": [
+        {
+          "title": "Sutter's Mill",
+          "work": "Read about James Marshall's January 1848 discovery at Sutter's Mill in Coloma and John Sutter's reaction."
+        },
+        {
+          "title": "The news spreads",
+          "work": "Read the 1848 newspaper announcement excerpt (Sam Brannan's 'Gold! Gold from the American River!') and track how news spread worldwide."
+        },
+        {
+          "title": "Mining methods",
+          "work": "Practice panning with sand and painted gravel and compare pans, rockers and sluices in a chart."
+        },
+        {
+          "title": "Primary source photos",
+          "work": "Analyze two daguerreotypes from the Calisphere set 'The Gold Rush Era: Everyday Life and People' using See-Think-Wonder."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a diary entry as a Forty-Niner arriving at the diggings, using five facts."
+        }
+      ],
+      "assessment": "Forty-Niner diary entry."
+    },
+    {
+      "week": 23,
+      "unit": 7,
+      "topic": "Gold Rush lives and communities",
+      "objectives": [
+        "Analyze how the Gold Rush affected daily life and diverse groups",
+        "Study women who built early California"
+      ],
+      "standards": [
+        "4.3.3",
+        "4.3.4",
+        "4.4.2",
+        "REP.4"
+      ],
+      "vocabulary": [
+        "boomtown",
+        "merchant",
+        "Foreign Miners' Tax",
+        "entrepreneur"
+      ],
+      "materials": [
+        "Calisphere sets 'African Americans in the Gold Rush' and 'Asian Americans: Gold Rush Era to 1890s'",
+        "Louise Clappe ('Dame Shirley') letter excerpt"
+      ],
+      "days": [
+        {
+          "title": "Dame Shirley",
+          "work": "Read an excerpt of Louise Clappe's 'Shirley Letters' from Rich Bar and list details of camp life."
+        },
+        {
+          "title": "Biddy Mason",
+          "work": "Read about Biddy Mason, who won her freedom in a Los Angeles court in 1856 and became a landowner and philanthropist."
+        },
+        {
+          "title": "Diverse miners",
+          "work": "Analyze images from the Calisphere sets 'African Americans in the Gold Rush' and 'Asian Americans: Gold Rush Era to 1890s'; note who came and from where."
+        },
+        {
+          "title": "Conflict",
+          "work": "Read about the Foreign Miners' Tax and violence against Native Californians, Chinese and Mexican miners; discuss fairness."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph explaining who profited most from the Gold Rush (miners or merchants like Levi Strauss) with evidence."
+        }
+      ],
+      "assessment": "Evidence paragraph on Gold Rush profits."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "The Gold Rush transforms California",
+      "objectives": [
+        "Explain changes to towns, the economy and the environment"
+      ],
+      "standards": [
+        "4.4.2",
+        "4.3.3",
+        "HI.2"
+      ],
+      "vocabulary": [
+        "hydraulic mining",
+        "debris",
+        "population growth",
+        "economy"
+      ],
+      "materials": [
+        "Calisphere sets 'Growth of Cities in the Gold Rush Era' and 'Environmental Impact in the Gold Rush Era'",
+        "population chart",
+        "tray of soil and spray bottle"
+      ],
+      "days": [
+        {
+          "title": "Boom cities",
+          "work": "Compare images of San Francisco in 1847 and 1851 from the Calisphere set 'Growth of Cities in the Gold Rush Era' and list changes."
+        },
+        {
+          "title": "Population data",
+          "work": "Graph California's non-Native population from 1848 to 1852 and explain the change."
+        },
+        {
+          "title": "Hydraulic mining model",
+          "work": "Spray water at a soil hillside in a tray to model hydraulic mining and observe the debris."
+        },
+        {
+          "title": "Environmental impact",
+          "work": "Analyze images from the Calisphere set 'Environmental Impact in the Gold Rush Era' and list effects on rivers and land."
+        },
+        {
+          "title": "Unit 7 test",
+          "work": "Take the Unit 7 test and complete a cause-effect chart of the Gold Rush."
+        }
+      ],
+      "assessment": "Unit 7 test and cause-effect chart."
+    },
+    {
+      "week": 25,
+      "unit": 8,
+      "topic": "The road to statehood",
+      "objectives": [
+        "Explain how California became the 31st state",
+        "Describe the 1849 constitutional convention"
+      ],
+      "standards": [
+        "4.3.5",
+        "4.5.2",
+        "CST.1"
+      ],
+      "vocabulary": [
+        "constitution",
+        "convention",
+        "delegate",
+        "Compromise of 1850"
+      ],
+      "materials": [
+        "1849 California Constitution excerpt (Online Archive of California)",
+        "timeline strip"
+      ],
+      "days": [
+        {
+          "title": "Need for government",
+          "work": "Discuss why Gold Rush California needed a government (crime, land claims, no courts)."
+        },
+        {
+          "title": "Colton Hall",
+          "work": "Read about the 1849 constitutional convention at Colton Hall in Monterey, including Californio delegates like Vallejo."
+        },
+        {
+          "title": "The constitution",
+          "work": "Read simplified excerpts of the 1849 California Constitution (bilingual publication, ban on slavery) and list 4 key decisions."
+        },
+        {
+          "title": "Compromise of 1850",
+          "work": "Read about how California's admission as a free state was part of the Compromise of 1850 on September 9, 1850."
+        },
+        {
+          "title": "Review & check",
+          "work": "Build a statehood timeline from 1846 to 1850."
+        }
+      ],
+      "assessment": "Statehood timeline."
+    },
+    {
+      "week": 26,
+      "unit": 8,
+      "topic": "New government compared",
+      "objectives": [
+        "Compare Spanish, Mexican and American governments in California",
+        "Locate the capital's moves"
+      ],
+      "standards": [
+        "4.3.5",
+        "HI.2",
+        "4.5.2"
+      ],
+      "vocabulary": [
+        "governor",
+        "legislature",
+        "rights",
+        "capital"
+      ],
+      "materials": [
+        "Calisphere set 'Civic Buildings in California History'",
+        "comparison chart"
+      ],
+      "days": [
+        {
+          "title": "Comparing governments",
+          "work": "Compare who made laws and who had rights under Spanish, Mexican and early American rule in a 3-column chart."
+        },
+        {
+          "title": "Who was left out",
+          "work": "Discuss how statehood laws limited rights of Native Californians, Chinese immigrants and women."
+        },
+        {
+          "title": "Moving capital",
+          "work": "Trace the capital's moves (San Jose, Vallejo, Benicia, Sacramento) and examine images from the Calisphere set 'Civic Buildings in California History'."
+        },
+        {
+          "title": "Seal and symbols",
+          "work": "Analyze the Great Seal of California and explain each symbol."
+        },
+        {
+          "title": "Unit 8 test",
+          "work": "Take the Unit 8 test on statehood."
+        }
+      ],
+      "assessment": "Unit 8 test."
+    },
+    {
+      "week": 27,
+      "unit": 9,
+      "topic": "Pony Express, telegraph and mail",
+      "objectives": [
+        "Explain how communication connected California to the nation"
+      ],
+      "standards": [
+        "4.4.1",
+        "CST.1"
+      ],
+      "vocabulary": [
+        "Pony Express",
+        "telegraph",
+        "Overland Mail",
+        "stagecoach"
+      ],
+      "materials": [
+        "U.S. map",
+        "Morse code chart",
+        "stopwatch"
+      ],
+      "days": [
+        {
+          "title": "Overland Mail",
+          "work": "Read about the Butterfield Overland Mail stagecoach route and its 25-day trip."
+        },
+        {
+          "title": "Pony Express",
+          "work": "Read about the 1860-61 Pony Express and calculate how long a letter took from Missouri to Sacramento."
+        },
+        {
+          "title": "Telegraph",
+          "work": "Read about the 1861 transcontinental telegraph and send a Morse code message with a flashlight."
+        },
+        {
+          "title": "Compare speeds",
+          "work": "Make a chart comparing message times by ship, stagecoach, Pony Express and telegraph."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on why the Pony Express ended after only 18 months."
+        }
+      ],
+      "assessment": "Speed chart and paragraph."
+    },
+    {
+      "week": 28,
+      "unit": 9,
+      "topic": "The transcontinental railroad",
+      "objectives": [
+        "Describe building the railroad and Chinese workers' contributions"
+      ],
+      "standards": [
+        "4.4.1",
+        "4.4.3",
+        "REP.4"
+      ],
+      "vocabulary": [
+        "Central Pacific",
+        "Big Four",
+        "Golden Spike",
+        "Chinese laborers"
+      ],
+      "materials": [
+        "Calisphere set 'The Transcontinental Railroad'",
+        "map"
+      ],
+      "days": [
+        {
+          "title": "The Big Four",
+          "work": "Read about Stanford, Huntington, Hopkins and Crocker and the Central Pacific Railroad."
+        },
+        {
+          "title": "Chinese workers",
+          "work": "Read about Chinese workers who blasted tunnels through the Sierra Nevada and their unequal pay."
+        },
+        {
+          "title": "Primary sources",
+          "work": "Analyze photographs from the Calisphere set 'The Transcontinental Railroad' and write captions."
+        },
+        {
+          "title": "Golden Spike",
+          "work": "Read about the May 10, 1869 ceremony at Promontory Summit and who was left out of the famous photo."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on how the railroad changed California's economy."
+        }
+      ],
+      "assessment": "Railroad paragraph."
+    },
+    {
+      "week": 29,
+      "unit": 9,
+      "topic": "Immigration and the Chinese Exclusion Act",
+      "objectives": [
+        "Discuss immigration from 1850 to 1900",
+        "Analyze conflicts and accords among groups"
+      ],
+      "standards": [
+        "4.4.3",
+        "REP.4"
+      ],
+      "vocabulary": [
+        "immigrant",
+        "exclusion",
+        "discrimination",
+        "Angel Island"
+      ],
+      "materials": [
+        "Calisphere sets 'Chinese Exclusion Act' and 'Diversity in the Changing State'",
+        "world map"
+      ],
+      "days": [
+        {
+          "title": "Who came?",
+          "work": "Map countries of origin of California immigrants 1850-1900 (China, Mexico, Ireland, Germany, Chile, Japan)."
+        },
+        {
+          "title": "Diverse state",
+          "work": "Analyze images from the Calisphere set 'Diversity in the Changing State' and list communities that formed."
+        },
+        {
+          "title": "Chinese Exclusion Act",
+          "work": "Read about the 1882 Chinese Exclusion Act and analyze a document from the Calisphere set 'Chinese Exclusion Act'."
+        },
+        {
+          "title": "Accords",
+          "work": "Read about people and groups who worked together or defended immigrants' rights."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a response: was the Chinese Exclusion Act fair? Use two pieces of evidence."
+        }
+      ],
+      "assessment": "Evidence-based response."
+    },
+    {
+      "week": 30,
+      "unit": 9,
+      "topic": "Growth of cities: Los Angeles and beyond",
+      "objectives": [
+        "Describe migration and the growth of towns and cities"
+      ],
+      "standards": [
+        "4.4.4",
+        "4.4.6"
+      ],
+      "vocabulary": [
+        "boom",
+        "citrus",
+        "oil",
+        "migration"
+      ],
+      "materials": [
+        "Calisphere set 'Everyday Life and People in Late 19th Century California'",
+        "population data"
+      ],
+      "days": [
+        {
+          "title": "LA boom",
+          "work": "Read about Los Angeles's 1880s land boom after the railroads arrived."
+        },
+        {
+          "title": "Citrus and oil",
+          "work": "Read about orange groves and the discovery of oil in Los Angeles; analyze citrus crate label art."
+        },
+        {
+          "title": "Everyday life",
+          "work": "Analyze images from the Calisphere set 'Everyday Life and People in Late 19th Century California'."
+        },
+        {
+          "title": "Graph growth",
+          "work": "Graph the populations of San Francisco and Los Angeles from 1850 to 1920 and compare."
+        },
+        {
+          "title": "Unit 9 test",
+          "work": "Take the Unit 9 test on transportation, immigration and urban growth."
+        }
+      ],
+      "assessment": "Unit 9 test."
+    },
+    {
+      "week": 31,
+      "unit": 10,
+      "topic": "Water: dams, aqueducts and reservoirs",
+      "objectives": [
+        "Trace the evolution of California's water system"
+      ],
+      "standards": [
+        "4.4.7",
+        "4.1.4"
+      ],
+      "vocabulary": [
+        "aqueduct",
+        "reservoir",
+        "dam",
+        "irrigation"
+      ],
+      "materials": [
+        "California water project map",
+        "Calisphere set 'Building Bridges, Dams and Power Plants'"
+      ],
+      "days": [
+        {
+          "title": "Where water is",
+          "work": "Compare maps of where rain falls and where people live in California."
+        },
+        {
+          "title": "LA Aqueduct",
+          "work": "Read about William Mulholland and the 1913 Los Angeles Aqueduct from Owens Valley, including the conflict with Owens Valley residents."
+        },
+        {
+          "title": "Big projects",
+          "work": "Map Hetch Hetchy, Shasta Dam, the Central Valley Project and the State Water Project."
+        },
+        {
+          "title": "Primary sources",
+          "work": "Analyze photos from the Calisphere set 'Building Bridges, Dams and Power Plants'."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw a flow diagram showing water's path from Sierra snow to your faucet."
+        }
+      ],
+      "assessment": "Water flow diagram."
+    },
+    {
+      "week": 32,
+      "unit": 10,
+      "topic": "Hard times: the Great Depression, Dust Bowl and World War II",
+      "objectives": [
+        "Discuss effects of the Depression, Dust Bowl and WWII on California"
+      ],
+      "standards": [
+        "4.4.5",
+        "REP.4"
+      ],
+      "vocabulary": [
+        "Depression",
+        "Dust Bowl",
+        "migrant",
+        "home front",
+        "incarceration"
+      ],
+      "materials": [
+        "Calisphere sets 'Dust Bowl Migration', 'Life on the Home Front During World War II' and 'Japanese American Internment'",
+        "Dorothea Lange 'Migrant Mother'"
+      ],
+      "days": [
+        {
+          "title": "The Depression",
+          "work": "Read about the Great Depression in California and analyze images from the Calisphere set 'The Great Depression: Hard Times'."
+        },
+        {
+          "title": "Dust Bowl migrants",
+          "work": "Analyze Dorothea Lange's 'Migrant Mother' and photos from the Calisphere set 'Dust Bowl Migration'."
+        },
+        {
+          "title": "Home front",
+          "work": "Read about shipyards in Richmond, aircraft factories and women workers using the Calisphere set 'Life on the Home Front During World War II'."
+        },
+        {
+          "title": "Japanese American incarceration",
+          "work": "Read about Executive Order 9066 and analyze photos from the Calisphere set 'Japanese American Internment'."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on how one of these events changed California."
+        }
+      ],
+      "assessment": "Historical paragraph."
+    },
+    {
+      "week": 33,
+      "unit": 10,
+      "topic": "Industry, education and culture",
+      "objectives": [
+        "Describe new industries",
+        "Analyze Californians' cultural impact",
+        "Trace the growth of public education"
+      ],
+      "standards": [
+        "4.4.6",
+        "4.4.8",
+        "4.4.9"
+      ],
+      "vocabulary": [
+        "aerospace",
+        "Silicon Valley",
+        "Hollywood",
+        "university"
+      ],
+      "materials": [
+        "map",
+        "Ansel Adams photographs",
+        "library books"
+      ],
+      "days": [
+        {
+          "title": "Industries map",
+          "work": "Map aerospace (Southern California), electronics (Silicon Valley), agriculture (Central Valley) and Pacific trade ports."
+        },
+        {
+          "title": "Public education",
+          "work": "Read about California's schools, community colleges, CSU and UC systems and the 1960 Master Plan."
+        },
+        {
+          "title": "Artists",
+          "work": "Study Ansel Adams' Yosemite photos, read about John Steinbeck and Dorothea Lange, and discuss their impact."
+        },
+        {
+          "title": "Entertainment",
+          "work": "Read about Hollywood and Walt Disney and how film spread California culture."
+        },
+        {
+          "title": "Unit 10 test",
+          "work": "Take the Unit 10 test on modern California."
+        }
+      ],
+      "assessment": "Unit 10 test."
+    },
+    {
+      "week": 34,
+      "unit": 11,
+      "topic": "Constitutions: U.S. and California",
+      "objectives": [
+        "Explain the U.S. Constitution",
+        "Compare it with the California Constitution"
+      ],
+      "standards": [
+        "4.5.1",
+        "4.5.2",
+        "4.5.3"
+      ],
+      "vocabulary": [
+        "constitution",
+        "preamble",
+        "branch",
+        "rights"
+      ],
+      "materials": [
+        "U.S. Constitution (DocsTeach)",
+        "California Constitution preamble"
+      ],
+      "days": [
+        {
+          "title": "U.S. Constitution",
+          "work": "Read the Preamble and identify the six goals of the U.S. government."
+        },
+        {
+          "title": "Three branches",
+          "work": "Make a chart of the legislative, executive and judicial branches."
+        },
+        {
+          "title": "California Constitution",
+          "work": "Read the California Constitution's preamble and Declaration of Rights excerpts."
+        },
+        {
+          "title": "Compare",
+          "work": "Complete a Venn diagram comparing federal and state governments."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on constitutions and branches."
+        }
+      ],
+      "assessment": "Constitution quiz."
+    },
+    {
+      "week": 35,
+      "unit": 11,
+      "topic": "State government",
+      "objectives": [
+        "Explain the structures and functions of state government"
+      ],
+      "standards": [
+        "4.5.4",
+        "4.5.3"
+      ],
+      "vocabulary": [
+        "governor",
+        "legislature",
+        "Assembly",
+        "Senate",
+        "bill"
+      ],
+      "materials": [
+        "state government website",
+        "map of district"
+      ],
+      "days": [
+        {
+          "title": "Executive",
+          "work": "Read about the governor and other elected officials (lieutenant governor, attorney general)."
+        },
+        {
+          "title": "Legislature",
+          "work": "Read about the Assembly and Senate and how a bill becomes law."
+        },
+        {
+          "title": "Your legislators",
+          "work": "Look up your state Assembly member and senator and their committee roles."
+        },
+        {
+          "title": "Courts",
+          "work": "Read about the California Supreme Court."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a letter to your state legislator about an issue that matters to you."
+        }
+      ],
+      "assessment": "Letter to legislator."
+    },
+    {
+      "week": 36,
+      "unit": 11,
+      "topic": "Local government and year review",
+      "objectives": [
+        "Describe local governance structures",
+        "Review the year"
+      ],
+      "standards": [
+        "4.5.5",
+        "4.5.3",
+        "CST.1"
+      ],
+      "vocabulary": [
+        "county",
+        "city council",
+        "rancheria",
+        "school district"
+      ],
+      "materials": [
+        "county map",
+        "local government website"
+      ],
+      "days": [
+        {
+          "title": "Local governments",
+          "work": "Identify your city, county, school district and nearest rancheria or reservation."
+        },
+        {
+          "title": "City council",
+          "work": "Watch part of a city council meeting online and list topics discussed."
+        },
+        {
+          "title": "Tribal government",
+          "work": "Read about a California tribal government and its services."
+        },
+        {
+          "title": "Year timeline",
+          "work": "Build a California history timeline from first peoples to today."
+        },
+        {
+          "title": "Final assessment",
+          "work": "Take the end-of-year HSS assessment."
+        }
+      ],
+      "assessment": "End-of-year assessment."
+    }
+  ]
+}

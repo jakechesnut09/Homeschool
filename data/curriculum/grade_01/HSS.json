@@ -1,0 +1,1755 @@
+{
+  "grade": 1,
+  "subject": "HSS",
+  "title": "A Child's Place in Time and Space",
+  "description": "Grade 1 History–Social Science helps children understand their place in the world: rules and fair play, direct and representative democracy, maps and globes, American symbols, documents and holidays, how life has changed over time, the contributions of American Indians and immigrants, and basic economics of work, goods, services and money. Students analyze historic photographs and documents from the Library of Congress, National Archives and Calisphere and conduct an oral-history interview.",
+  "framework": "California History–Social Science Content Standards; 2016 CA History–Social Science Framework",
+  "minutes_per_day": 30,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "1.1": "Students describe the rights and individual responsibilities of citizenship.",
+    "1.1.1": "Understand the rule-making process in a direct democracy (everyone votes on the rules) and in a representative democracy (an elected group makes the rules), with examples from classroom, school and community.",
+    "1.1.2": "Understand fair play, good sportsmanship, respect for the rights and opinions of others, and respect for rules, including the meaning of the Golden Rule.",
+    "1.2.1": "Locate on maps and globes their local community, California, the United States, the seven continents, and the four oceans.",
+    "1.2.2": "Compare the information from a three-dimensional model to the information from a picture of the same location.",
+    "1.2.3": "Construct a simple map, using cardinal directions and map symbols.",
+    "1.2.4": "Describe how location, weather, and physical environment affect the way people live (food, clothing, shelter, transportation, recreation).",
+    "1.3.1": "Recite the Pledge of Allegiance and sing songs that express American ideals (e.g., 'My Country 'Tis of Thee').",
+    "1.3.2": "Understand the significance of national holidays and the heroism and achievements of the people associated with them.",
+    "1.3.3": "Identify American symbols, landmarks, and essential documents (flag, bald eagle, Statue of Liberty, U.S. Constitution, Declaration of Independence) and the people and events associated with them.",
+    "1.4.1": "Examine the structure of schools and communities in the past.",
+    "1.4.2": "Study transportation methods of earlier days.",
+    "1.4.3": "Recognize similarities and differences of earlier generations in work, dress, manners, stories, games, and festivals, drawing from biographies, oral histories, and folklore.",
+    "1.5.1": "Recognize that they are all part of the same community, sharing principles, goals and traditions despite varied ancestry; the forms, benefits and challenges of diversity.",
+    "1.5.2": "Understand the ways in which American Indians and immigrants have helped define Californian and American culture.",
+    "1.5.3": "Compare the beliefs, customs, ceremonies, traditions, and social practices of varied cultures, drawing from folklore.",
+    "1.6.1": "Understand the concept of exchange and the use of money to purchase goods and services.",
+    "1.6.2": "Identify the specialized work people do to manufacture, transport, and market goods and services, and the contributions of those who work in the home."
+  },
+  "resources": [
+    {
+      "name": "Library of Congress – Free to Use and Reuse photo sets",
+      "url": "https://www.loc.gov/free-to-use/",
+      "note": "Historic photos of schools, transportation, work and holidays for primary-source analysis"
+    },
+    {
+      "name": "National Archives DocsTeach",
+      "url": "https://www.docsteach.org/",
+      "note": "Primary-source activities including the Declaration of Independence and Constitution"
+    },
+    {
+      "name": "Calisphere",
+      "url": "https://calisphere.org/",
+      "note": "California historical photographs: one-room schools, early towns, Native Californian baskets, Angel Island"
+    },
+    {
+      "name": "Smithsonian Learning Lab",
+      "url": "https://learninglab.si.edu/",
+      "note": "Collections on American symbols, Native cultures and everyday life long ago"
+    },
+    {
+      "name": "PBS LearningMedia – Social Studies",
+      "url": "https://www.pbslearningmedia.org/",
+      "note": "Short videos on communities, maps, holidays and jobs"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Rules, Fairness and Good Citizenship",
+      "start_week": 1,
+      "end_week": 5,
+      "big_idea": "Rules help us live and learn together, and good citizens treat others fairly.",
+      "standards": [
+        "1.1",
+        "1.1.1",
+        "1.1.2"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Maps, Globes and Where We Live",
+      "start_week": 6,
+      "end_week": 11,
+      "big_idea": "Maps and globes show where places are, and where we live shapes how we live.",
+      "standards": [
+        "1.2.1",
+        "1.2.2",
+        "1.2.3",
+        "1.2.4"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "American Symbols, Holidays and Heroes",
+      "start_week": 12,
+      "end_week": 17,
+      "big_idea": "Symbols, songs, documents and holidays remind Americans of shared ideals and the people who worked for them.",
+      "standards": [
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Then and Now: Schools, Communities, Transportation and Families",
+      "start_week": 18,
+      "end_week": 23,
+      "big_idea": "Life has changed in many ways over time, but some things stay the same.",
+      "standards": [
+        "1.4.1",
+        "1.4.2",
+        "1.4.3"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Many Cultures, One Community",
+      "start_week": 24,
+      "end_week": 29,
+      "big_idea": "People of many backgrounds, including American Indians and immigrants, have shaped California and America.",
+      "standards": [
+        "1.5.1",
+        "1.5.2",
+        "1.5.3",
+        "1.2.1"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Work, Goods, Services and Money",
+      "start_week": 30,
+      "end_week": 36,
+      "big_idea": "People work at different jobs to make, move, and sell goods and services, and we use money to exchange.",
+      "standards": [
+        "1.6.1",
+        "1.6.2",
+        "1.1.1",
+        "1.5.1"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Why do we have rules?",
+      "objectives": [
+        "Explain why rules are needed at home, school and in the community"
+      ],
+      "standards": [
+        "1.1",
+        "1.1.2"
+      ],
+      "vocabulary": [
+        "rule",
+        "responsibility",
+        "safe",
+        "fair"
+      ],
+      "materials": [
+        "chart paper",
+        "picture cards of community signs (stop sign, crosswalk, library 'quiet')"
+      ],
+      "days": [
+        {
+          "title": "No-rules game",
+          "work": "Play a board game with no rules for two minutes, then talk about what went wrong and why rules matter."
+        },
+        {
+          "title": "Rules around us",
+          "work": "Walk the neighborhood and photograph or draw 5 signs that show rules (stop sign, crosswalk, park rules); tell what each keeps safe."
+        },
+        {
+          "title": "Home rules chart",
+          "work": "Work with family to write 5 homeschool rules on chart paper; draw a picture for each."
+        },
+        {
+          "title": "Rights and responsibilities",
+          "work": "Read 'What If Everybody Did That?' (Ellen Javernick, library) and match 3 rights with 3 responsibilities."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain one home rule and one community rule and what could happen without each."
+        }
+      ],
+      "assessment": "Oral explanation of two rules and their purpose."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "The Golden Rule and respecting others",
+      "objectives": [
+        "State the Golden Rule in your own words",
+        "Show respect for others' rights and opinions"
+      ],
+      "standards": [
+        "1.1.2"
+      ],
+      "vocabulary": [
+        "Golden Rule",
+        "respect",
+        "opinion",
+        "kindness"
+      ],
+      "materials": [
+        "'The Golden Rule' by Ilene Cooper (library)",
+        "role-play cards"
+      ],
+      "days": [
+        {
+          "title": "Golden Rule",
+          "work": "Read 'The Golden Rule' by Ilene Cooper and say the rule in your own words."
+        },
+        {
+          "title": "Role-play",
+          "work": "Act out 4 situations (someone cuts in line, a friend is left out) and show a Golden Rule choice."
+        },
+        {
+          "title": "Different opinions",
+          "work": "Survey family on a favorite food; practice saying 'I see it differently because...' politely."
+        },
+        {
+          "title": "Kindness log",
+          "work": "Do and record 3 kind acts this week, drawing each in a kindness log."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw a comic strip showing someone following the Golden Rule and explain it."
+        }
+      ],
+      "assessment": "Golden Rule comic strip with explanation."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Fair play and good sportsmanship",
+      "objectives": [
+        "Describe fair play and good sportsmanship"
+      ],
+      "standards": [
+        "1.1.2"
+      ],
+      "vocabulary": [
+        "fair play",
+        "sportsmanship",
+        "take turns",
+        "cooperate"
+      ],
+      "materials": [
+        "simple games (tag, board game)",
+        "T-chart"
+      ],
+      "days": [
+        {
+          "title": "What is fair?",
+          "work": "Discuss whether 'fair' always means 'the same'; sort scenario cards into fair and unfair."
+        },
+        {
+          "title": "Game day",
+          "work": "Play a backyard game and practice taking turns, following rules and shaking hands at the end."
+        },
+        {
+          "title": "Winning and losing",
+          "work": "Role-play good and poor ways to win and lose; make a T-chart of sportsmanlike words."
+        },
+        {
+          "title": "Team pledge",
+          "work": "Write a 3-line good-sport pledge and sign it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Tell how a good sport acts in a game you played this week."
+        }
+      ],
+      "assessment": "Sportsmanship T-chart and pledge."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Direct democracy: everyone votes",
+      "objectives": [
+        "Explain direct democracy and vote on a family decision"
+      ],
+      "standards": [
+        "1.1.1",
+        "1.1"
+      ],
+      "vocabulary": [
+        "vote",
+        "majority",
+        "democracy",
+        "ballot"
+      ],
+      "materials": [
+        "paper ballots",
+        "box for a ballot box",
+        "tally chart"
+      ],
+      "days": [
+        {
+          "title": "What is voting?",
+          "work": "Read 'Duck for President' by Doreen Cronin (library) and talk about why the animals voted."
+        },
+        {
+          "title": "Family vote",
+          "work": "Hold a direct vote on Friday's family movie or snack with paper ballots; count the tallies."
+        },
+        {
+          "title": "Majority rules",
+          "work": "Count votes and explain that the choice with the most votes wins; discuss how the others feel."
+        },
+        {
+          "title": "Make a rule by vote",
+          "work": "Propose a new household rule and let everyone vote on it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain direct democracy in one sentence and give the family-vote example."
+        }
+      ],
+      "assessment": "Explanation of direct democracy with an example."
+    },
+    {
+      "week": 5,
+      "unit": 1,
+      "topic": "Representative democracy: choosing leaders",
+      "objectives": [
+        "Explain representative democracy with community examples"
+      ],
+      "standards": [
+        "1.1.1",
+        "1.1"
+      ],
+      "vocabulary": [
+        "representative",
+        "elect",
+        "mayor",
+        "city council",
+        "citizen"
+      ],
+      "materials": [
+        "local city council website or newspaper",
+        "paper for a campaign poster"
+      ],
+      "days": [
+        {
+          "title": "Representatives",
+          "work": "Learn that people elect a small group (city council, mayor) to make rules for many people."
+        },
+        {
+          "title": "Our leaders",
+          "work": "Look up your city's mayor and city council members and find one rule (law) they made."
+        },
+        {
+          "title": "Mock election",
+          "work": "Make campaign posters for two stuffed-animal candidates and have family elect a 'family representative'."
+        },
+        {
+          "title": "Compare",
+          "work": "Make a T-chart comparing direct democracy (everyone votes on rules) and representative democracy (leaders make rules)."
+        },
+        {
+          "title": "Unit 1 check",
+          "work": "Assessment: sort examples into direct or representative democracy and explain the Golden Rule."
+        }
+      ],
+      "assessment": "Unit 1 assessment."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "What is a map? Models vs. pictures",
+      "objectives": [
+        "Compare a 3-D model and a picture of the same place"
+      ],
+      "standards": [
+        "1.2.2",
+        "1.2.3"
+      ],
+      "vocabulary": [
+        "map",
+        "model",
+        "bird's-eye view",
+        "symbol"
+      ],
+      "materials": [
+        "building blocks or small boxes",
+        "camera",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Bird's-eye view",
+          "work": "Look down at a toy from above and from the side; draw both views."
+        },
+        {
+          "title": "Room model",
+          "work": "Build a 3-D model of your bedroom with blocks and small boxes."
+        },
+        {
+          "title": "Photo vs. model",
+          "work": "Photograph your room and compare: what does the model show that the photo doesn't (and vice versa)?"
+        },
+        {
+          "title": "First map",
+          "work": "Draw a bird's-eye map of your room with simple symbols."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain one thing a model shows better and one thing a picture shows better."
+        }
+      ],
+      "assessment": "Room map and model-vs-picture comparison."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Map symbols, keys and cardinal directions",
+      "objectives": [
+        "Use map keys and cardinal directions"
+      ],
+      "standards": [
+        "1.2.3"
+      ],
+      "vocabulary": [
+        "map key",
+        "legend",
+        "north",
+        "south",
+        "east",
+        "west",
+        "compass rose"
+      ],
+      "materials": [
+        "compass",
+        "sticky notes labeled N, S, E, W",
+        "park map"
+      ],
+      "days": [
+        {
+          "title": "Directions in the house",
+          "work": "Label walls N, S, E, W using a compass; follow directions like 'take 3 steps north'."
+        },
+        {
+          "title": "Map key",
+          "work": "Study a park map's key and find 5 symbols on the map."
+        },
+        {
+          "title": "Compass rose",
+          "work": "Draw a compass rose and add it to your room map."
+        },
+        {
+          "title": "Treasure hunt",
+          "work": "Follow a family-made map with symbols and directions to find a hidden treasure."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a map of your yard or street with a key of 4 symbols and a compass rose."
+        }
+      ],
+      "assessment": "Yard or street map with key and compass rose."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "My neighborhood and community map",
+      "objectives": [
+        "Construct a map of the local community"
+      ],
+      "standards": [
+        "1.2.3",
+        "1.2.1"
+      ],
+      "vocabulary": [
+        "neighborhood",
+        "community",
+        "landmark",
+        "route"
+      ],
+      "materials": [
+        "large paper",
+        "local street map (printed)",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "Walking tour",
+          "work": "Walk your neighborhood and list landmarks (library, park, store, fire station)."
+        },
+        {
+          "title": "Street map",
+          "work": "Find your home on a printed street map or online map of your town."
+        },
+        {
+          "title": "Draw the community",
+          "work": "Draw a community map with your home, 4 landmarks, a key and a compass rose."
+        },
+        {
+          "title": "Routes",
+          "work": "Draw a route from home to the library and describe it using north, south, east, west."
+        },
+        {
+          "title": "Review & check",
+          "work": "Give a family member directions to a landmark using your map."
+        }
+      ],
+      "assessment": "Community map with key and route directions."
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "California and the United States on maps",
+      "objectives": [
+        "Locate your community, California and the U.S. on maps and a globe"
+      ],
+      "standards": [
+        "1.2.1"
+      ],
+      "vocabulary": [
+        "state",
+        "country",
+        "border",
+        "capital"
+      ],
+      "materials": [
+        "globe",
+        "U.S. map",
+        "California map"
+      ],
+      "days": [
+        {
+          "title": "Nested places",
+          "work": "Make nesting circles: home → city → California → United States → North America → Earth."
+        },
+        {
+          "title": "California map",
+          "work": "Find your city, Sacramento (the capital) and the Pacific Ocean on a California map."
+        },
+        {
+          "title": "U.S. map",
+          "work": "Find California on a U.S. map; name the states that border it (Oregon, Nevada, Arizona)."
+        },
+        {
+          "title": "Globe find",
+          "work": "Find the United States and California on a globe; compare the globe to a flat map."
+        },
+        {
+          "title": "Review & check",
+          "work": "Label your city, California and the U.S. on blank maps."
+        }
+      ],
+      "assessment": "Labeled blank maps."
+    },
+    {
+      "week": 10,
+      "unit": 2,
+      "topic": "Continents and oceans",
+      "objectives": [
+        "Locate the seven continents and four major oceans"
+      ],
+      "standards": [
+        "1.2.1"
+      ],
+      "vocabulary": [
+        "continent",
+        "ocean",
+        "globe",
+        "equator"
+      ],
+      "materials": [
+        "globe",
+        "world map",
+        "continent puzzle (paper cut-outs)"
+      ],
+      "days": [
+        {
+          "title": "Continents song",
+          "work": "Learn a continents song and point to each continent on the globe."
+        },
+        {
+          "title": "Oceans",
+          "work": "Find the Pacific, Atlantic, Indian and Arctic Oceans; trace them with a finger."
+        },
+        {
+          "title": "Puzzle map",
+          "work": "Cut out continent shapes and glue them on a blue world map in the right places."
+        },
+        {
+          "title": "Animal travel",
+          "work": "Place animal pictures on their continents (kangaroo → Australia, penguin → Antarctica)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Label 7 continents and 4 oceans on a blank world map."
+        }
+      ],
+      "assessment": "Continents and oceans labeling quiz."
+    },
+    {
+      "week": 11,
+      "unit": 2,
+      "topic": "How place shapes the way people live",
+      "objectives": [
+        "Describe how weather and environment affect food, clothing, shelter, transportation, recreation"
+      ],
+      "standards": [
+        "1.2.4",
+        "1.2.1"
+      ],
+      "vocabulary": [
+        "climate",
+        "environment",
+        "shelter",
+        "transportation",
+        "recreation"
+      ],
+      "materials": [
+        "photos of homes around the world (igloo, stilt house, adobe)",
+        "Library of Congress or Smithsonian images"
+      ],
+      "days": [
+        {
+          "title": "Homes around the world",
+          "work": "Compare photos of an igloo, stilt house, adobe and apartment; tell how each fits its environment."
+        },
+        {
+          "title": "Clothing and weather",
+          "work": "Sort clothing cards for snowy, rainy, hot and desert places."
+        },
+        {
+          "title": "California places",
+          "work": "Compare life at the beach, in the Sierra Nevada mountains and in the desert (food, clothing, fun)."
+        },
+        {
+          "title": "Getting around",
+          "work": "Compare transportation in snowy places (snowmobile), islands (boats) and cities (trains)."
+        },
+        {
+          "title": "Unit 2 check",
+          "work": "Assessment: locate places on maps and explain how one environment affects people's lives."
+        }
+      ],
+      "assessment": "Unit 2 assessment."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "The Pledge of Allegiance and patriotic songs",
+      "objectives": [
+        "Recite the Pledge and explain its key words",
+        "Sing songs that express American ideals"
+      ],
+      "standards": [
+        "1.3.1"
+      ],
+      "vocabulary": [
+        "pledge",
+        "allegiance",
+        "liberty",
+        "justice",
+        "republic"
+      ],
+      "materials": [
+        "U.S. flag",
+        "lyrics to 'My Country 'Tis of Thee' and 'America the Beautiful'"
+      ],
+      "days": [
+        {
+          "title": "The Pledge",
+          "work": "Read the Pledge of Allegiance line by line and discuss what allegiance, liberty and justice mean."
+        },
+        {
+          "title": "Words to pictures",
+          "work": "Draw a picture for each key word (liberty, justice, indivisible)."
+        },
+        {
+          "title": "My Country 'Tis of Thee",
+          "work": "Learn the first verse and talk about 'sweet land of liberty'."
+        },
+        {
+          "title": "America the Beautiful",
+          "work": "Learn the first verse and match lines ('purple mountain majesties') to photos of American landscapes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Recite the Pledge and sing one song; explain one idea it expresses."
+        }
+      ],
+      "assessment": "Recitation and explanation of one key word."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Veterans Day and Thanksgiving",
+      "objectives": [
+        "Explain why we celebrate Veterans Day and Thanksgiving"
+      ],
+      "standards": [
+        "1.3.2"
+      ],
+      "vocabulary": [
+        "veteran",
+        "holiday",
+        "harvest",
+        "gratitude"
+      ],
+      "materials": [
+        "Library of Congress photos of veterans",
+        "'Thank You, Sarah' by Laurie Halse Anderson (library)"
+      ],
+      "days": [
+        {
+          "title": "Veterans Day",
+          "work": "Learn what a veteran is and why we honor them on November 11; look at Library of Congress photos of veterans."
+        },
+        {
+          "title": "Thank-you card",
+          "work": "Write a thank-you card to a veteran (family member or local VA)."
+        },
+        {
+          "title": "Thanksgiving history",
+          "work": "Learn about the 1621 harvest feast of the Wampanoag and the Pilgrims from a children's nonfiction book."
+        },
+        {
+          "title": "Sarah Hale",
+          "work": "Read 'Thank You, Sarah' and learn how Sarah Josepha Hale helped make Thanksgiving a national holiday."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a two-panel poster explaining Veterans Day and Thanksgiving."
+        }
+      ],
+      "assessment": "Holiday poster with correct explanations."
+    },
+    {
+      "week": 14,
+      "unit": 3,
+      "topic": "American symbols",
+      "objectives": [
+        "Identify the flag, bald eagle, Statue of Liberty, Liberty Bell and their meanings"
+      ],
+      "standards": [
+        "1.3.3"
+      ],
+      "vocabulary": [
+        "symbol",
+        "landmark",
+        "liberty",
+        "eagle"
+      ],
+      "materials": [
+        "Smithsonian/LOC images of symbols",
+        "construction paper"
+      ],
+      "days": [
+        {
+          "title": "The flag",
+          "work": "Count the stars and stripes and learn what they stand for; make a paper flag."
+        },
+        {
+          "title": "Bald eagle",
+          "work": "Learn why the bald eagle was chosen as the national bird; view it on the Great Seal and a quarter."
+        },
+        {
+          "title": "Statue of Liberty",
+          "work": "Look at historic Library of Congress photos of the Statue of Liberty being built; discuss what it welcomes."
+        },
+        {
+          "title": "Liberty Bell",
+          "work": "Find the crack in a Liberty Bell photo and learn its story."
+        },
+        {
+          "title": "Review & check",
+          "work": "Match 6 symbols to their names and meanings."
+        }
+      ],
+      "assessment": "Symbol matching quiz."
+    },
+    {
+      "week": 15,
+      "unit": 3,
+      "topic": "Essential documents: Declaration of Independence and Constitution",
+      "objectives": [
+        "Identify key documents and the people connected to them"
+      ],
+      "standards": [
+        "1.3.3",
+        "1.3.2"
+      ],
+      "vocabulary": [
+        "document",
+        "independence",
+        "constitution",
+        "founder"
+      ],
+      "materials": [
+        "National Archives DocsTeach images of the Declaration and Constitution",
+        "magnifying glass"
+      ],
+      "days": [
+        {
+          "title": "Look closely",
+          "work": "Examine an image of the Declaration of Independence (National Archives) with a magnifier; find John Hancock's signature."
+        },
+        {
+          "title": "July 4th",
+          "work": "Learn that the Declaration said America would be free and that we celebrate on Independence Day."
+        },
+        {
+          "title": "We the People",
+          "work": "Look at the first words of the Constitution and discuss that it is the nation's rulebook."
+        },
+        {
+          "title": "Class constitution",
+          "work": "Write a 'family constitution' with 3 rules everyone signs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain what each document is and name one person connected to it (Jefferson, Washington)."
+        }
+      ],
+      "assessment": "Document explanation and family constitution."
+    },
+    {
+      "week": 16,
+      "unit": 3,
+      "topic": "Heroes behind our holidays: Martin Luther King Jr.",
+      "objectives": [
+        "Explain the achievements of Dr. King and why we honor him"
+      ],
+      "standards": [
+        "1.3.2"
+      ],
+      "vocabulary": [
+        "civil rights",
+        "equal",
+        "peaceful",
+        "dream"
+      ],
+      "materials": [
+        "'Martin's Big Words' by Doreen Rappaport (library)",
+        "LOC photo of the 1963 March on Washington"
+      ],
+      "days": [
+        {
+          "title": "Read",
+          "work": "Read 'Martin's Big Words' and list 3 'big words' Dr. King used."
+        },
+        {
+          "title": "Primary source",
+          "work": "Look at a Library of Congress photo of the 1963 March on Washington; describe what you see and wonder."
+        },
+        {
+          "title": "Dream cloud",
+          "work": "Write and illustrate your own dream for a fairer world."
+        },
+        {
+          "title": "Peaceful problem-solving",
+          "work": "Role-play solving a disagreement with words, like Dr. King taught."
+        },
+        {
+          "title": "Review & check",
+          "work": "Tell why we celebrate Martin Luther King Jr. Day in January and name one thing Dr. King worked for."
+        }
+      ],
+      "assessment": "Dream writing and oral explanation."
+    },
+    {
+      "week": 17,
+      "unit": 3,
+      "topic": "Presidents' Day: Washington and Lincoln",
+      "objectives": [
+        "Explain the achievements of George Washington and Abraham Lincoln"
+      ],
+      "standards": [
+        "1.3.2",
+        "1.3.3"
+      ],
+      "vocabulary": [
+        "president",
+        "leader",
+        "honest",
+        "union"
+      ],
+      "materials": [
+        "coins (quarter and penny)",
+        "portraits from the Library of Congress"
+      ],
+      "days": [
+        {
+          "title": "George Washington",
+          "work": "Read a picture biography and list 2 facts; find him on the quarter and dollar bill."
+        },
+        {
+          "title": "Abraham Lincoln",
+          "work": "Read a picture biography and learn why he was called 'Honest Abe'; find him on the penny."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare Washington and Lincoln on a Venn diagram."
+        },
+        {
+          "title": "Landmarks",
+          "work": "Look at photos of the Washington Monument and Lincoln Memorial and match them to each president."
+        },
+        {
+          "title": "Unit 3 check",
+          "work": "Assessment: symbols, documents, holidays and heroes."
+        }
+      ],
+      "assessment": "Unit 3 assessment."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Schools long ago and today",
+      "objectives": [
+        "Compare schools in the past and present using primary sources"
+      ],
+      "standards": [
+        "1.4.1"
+      ],
+      "vocabulary": [
+        "past",
+        "present",
+        "one-room schoolhouse",
+        "slate"
+      ],
+      "materials": [
+        "Calisphere/LOC photos of one-room schoolhouses",
+        "small chalkboard or slate"
+      ],
+      "days": [
+        {
+          "title": "Photo detective",
+          "work": "Study a Library of Congress photo of a one-room schoolhouse: what do you see, think, wonder?"
+        },
+        {
+          "title": "Slate lesson",
+          "work": "Do today's spelling on a slate like children long ago; discuss what it would be like with no paper."
+        },
+        {
+          "title": "Compare",
+          "work": "Make a then-and-now chart (desks, lunch, subjects, getting to school)."
+        },
+        {
+          "title": "Read",
+          "work": "Read a picture book about school long ago (e.g., 'Going to School in 1876' or similar from the library)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw yourself at school then and now with 3 labeled differences."
+        }
+      ],
+      "assessment": "Then-and-now school drawing."
+    },
+    {
+      "week": 19,
+      "unit": 4,
+      "topic": "Communities long ago",
+      "objectives": [
+        "Examine how communities looked and worked in the past"
+      ],
+      "standards": [
+        "1.4.1"
+      ],
+      "vocabulary": [
+        "community",
+        "general store",
+        "blacksmith",
+        "change"
+      ],
+      "materials": [
+        "Calisphere photos of your area or a California town in the 1900s"
+      ],
+      "days": [
+        {
+          "title": "Old town photo",
+          "work": "Look at Calisphere photos of a California main street around 1900; list what is the same and different today."
+        },
+        {
+          "title": "Jobs then",
+          "work": "Learn about the general store, blacksmith and milkman."
+        },
+        {
+          "title": "Our town's past",
+          "work": "Find a historic photo of your own town (Calisphere or local library) and compare it with today."
+        },
+        {
+          "title": "Model town",
+          "work": "Build a 'long ago' main street from boxes with 3 buildings."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain 2 ways communities have changed and 1 way they stayed the same."
+        }
+      ],
+      "assessment": "Oral comparison with evidence from photos."
+    },
+    {
+      "week": 20,
+      "unit": 4,
+      "topic": "Transportation of earlier days",
+      "objectives": [
+        "Describe and compare transportation long ago and today"
+      ],
+      "standards": [
+        "1.4.2"
+      ],
+      "vocabulary": [
+        "transportation",
+        "wagon",
+        "steam train",
+        "horse and buggy"
+      ],
+      "materials": [
+        "LOC photos of wagons, trains, early cars",
+        "timeline strip"
+      ],
+      "days": [
+        {
+          "title": "Photo sort",
+          "work": "Sort Library of Congress photos of transportation (stagecoach, steam train, Model T, airplane) from oldest to newest."
+        },
+        {
+          "title": "Timeline",
+          "work": "Create a transportation timeline with drawings."
+        },
+        {
+          "title": "Then and now",
+          "work": "Compare a trip to San Francisco by stagecoach vs. car (time, comfort)."
+        },
+        {
+          "title": "Build a vehicle",
+          "work": "Build a wagon or train from recycled materials."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how one invention changed how people travel."
+        }
+      ],
+      "assessment": "Transportation timeline."
+    },
+    {
+      "week": 21,
+      "unit": 4,
+      "topic": "Family life and work long ago",
+      "objectives": [
+        "Compare work at home and outside the home across generations"
+      ],
+      "standards": [
+        "1.4.3"
+      ],
+      "vocabulary": [
+        "generation",
+        "chore",
+        "household",
+        "appliance"
+      ],
+      "materials": [
+        "washboard or photo of one",
+        "LOC photos of family life"
+      ],
+      "days": [
+        {
+          "title": "Chores then",
+          "work": "Look at photos of washing clothes on a washboard and churning butter; try shaking cream into butter in a jar."
+        },
+        {
+          "title": "Chores now",
+          "work": "List appliances that do those jobs today."
+        },
+        {
+          "title": "Jobs outside",
+          "work": "Compare jobs of grandparents' generation with jobs today."
+        },
+        {
+          "title": "Read",
+          "work": "Read 'Ox-Cart Man' by Donald Hall (library) and list the family's work through the year."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a then-and-now chart showing 4 household jobs done by hand long ago and by machine today."
+        }
+      ],
+      "assessment": "Then-and-now chart."
+    },
+    {
+      "week": 22,
+      "unit": 4,
+      "topic": "Games, toys, clothes and manners long ago",
+      "objectives": [
+        "Compare play, dress and manners of earlier generations"
+      ],
+      "standards": [
+        "1.4.3"
+      ],
+      "vocabulary": [
+        "toy",
+        "manners",
+        "custom",
+        "folklore"
+      ],
+      "materials": [
+        "marbles, jacks, hoop or jump rope",
+        "photos of children's clothing long ago"
+      ],
+      "days": [
+        {
+          "title": "Old games",
+          "work": "Learn and play marbles, jacks and hopscotch."
+        },
+        {
+          "title": "Toys",
+          "work": "Make a simple toy like a whirligig (button on a string) or a cup-and-ball."
+        },
+        {
+          "title": "Clothes",
+          "work": "Compare photos of children's clothing from 1900 and today."
+        },
+        {
+          "title": "Manners",
+          "work": "Discuss manners of long ago (bowing, curtsying, 'Yes, ma'am') and which we still use."
+        },
+        {
+          "title": "Review & check",
+          "work": "Teach an old game to a family member and explain how it was played long ago."
+        }
+      ],
+      "assessment": "Old-game demonstration."
+    },
+    {
+      "week": 23,
+      "unit": 4,
+      "topic": "Oral history interview",
+      "objectives": [
+        "Gather information from an older family member's memories"
+      ],
+      "standards": [
+        "1.4.3",
+        "1.4.1"
+      ],
+      "vocabulary": [
+        "oral history",
+        "interview",
+        "memory",
+        "source"
+      ],
+      "materials": [
+        "interview question sheet",
+        "recording device"
+      ],
+      "days": [
+        {
+          "title": "Prepare questions",
+          "work": "Write 6 questions about school, games, jobs and transportation when the interviewee was young."
+        },
+        {
+          "title": "Interview",
+          "work": "Interview a grandparent or older neighbor (in person or by video call) and record answers."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare their answers with your life today in a Venn diagram."
+        },
+        {
+          "title": "Share",
+          "work": "Make a 'Then and Now' booklet with one fact per page."
+        },
+        {
+          "title": "Unit 4 check",
+          "work": "Assessment: sort pictures of then and now and explain changes in schools, transportation and family life."
+        }
+      ],
+      "assessment": "Unit 4 assessment and oral-history booklet."
+    },
+    {
+      "week": 24,
+      "unit": 5,
+      "topic": "My family's story and our diverse community",
+      "objectives": [
+        "Describe your family's background and traditions",
+        "Recognize diversity in the community"
+      ],
+      "standards": [
+        "1.5.1"
+      ],
+      "vocabulary": [
+        "ancestor",
+        "tradition",
+        "diversity",
+        "heritage"
+      ],
+      "materials": [
+        "family photos",
+        "world map",
+        "yarn"
+      ],
+      "days": [
+        {
+          "title": "Family tree",
+          "work": "Make a simple family tree with photos or drawings."
+        },
+        {
+          "title": "Where are we from?",
+          "work": "Find places your family came from on a world map and connect them with yarn to your home."
+        },
+        {
+          "title": "Traditions",
+          "work": "Share a family tradition (food, holiday, song) and draw it."
+        },
+        {
+          "title": "Community diversity",
+          "work": "Visit the library or a farmers' market and note languages, foods and cultures you see."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain one way your community is diverse and one value people share."
+        }
+      ],
+      "assessment": "Family tree and oral explanation."
+    },
+    {
+      "week": 25,
+      "unit": 5,
+      "topic": "California's first peoples",
+      "objectives": [
+        "Describe how American Indians lived in California and contributions they made"
+      ],
+      "standards": [
+        "1.5.2",
+        "1.2.4"
+      ],
+      "vocabulary": [
+        "American Indian",
+        "tribe",
+        "basket",
+        "acorn"
+      ],
+      "materials": [
+        "Calisphere photos of Native Californian baskets",
+        "local tribe information (e.g., Ohlone, Tongva, Chumash, Miwok)"
+      ],
+      "days": [
+        {
+          "title": "First Californians",
+          "work": "Learn the name of the tribe(s) native to your area and locate their homeland on a map."
+        },
+        {
+          "title": "Baskets",
+          "work": "Examine Calisphere photos of Pomo and Miwok baskets; describe patterns and uses."
+        },
+        {
+          "title": "Acorns to food",
+          "work": "Learn how acorns were gathered and ground into flour; grind sunflower seeds with stones to model it."
+        },
+        {
+          "title": "Living today",
+          "work": "Read about California Indian communities today and their traditions."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain two contributions of American Indians to California culture."
+        }
+      ],
+      "assessment": "Oral explanation with evidence."
+    },
+    {
+      "week": 26,
+      "unit": 5,
+      "topic": "Immigrants in California",
+      "objectives": [
+        "Explain how immigrants help define California and American culture"
+      ],
+      "standards": [
+        "1.5.2",
+        "1.2.1"
+      ],
+      "vocabulary": [
+        "immigrant",
+        "journey",
+        "Angel Island",
+        "culture"
+      ],
+      "materials": [
+        "Calisphere photos of Angel Island",
+        "world map"
+      ],
+      "days": [
+        {
+          "title": "Journeys",
+          "work": "Read a picture book about an immigrant child (e.g., 'The Name Jar' by Yangsook Choi, library)."
+        },
+        {
+          "title": "Angel Island",
+          "work": "Look at Calisphere photos of Angel Island Immigration Station and discuss what newcomers felt."
+        },
+        {
+          "title": "Contributions",
+          "work": "List foods, words, holidays and music that immigrants brought to California."
+        },
+        {
+          "title": "Map journeys",
+          "work": "Trace immigrant routes on a world map."
+        },
+        {
+          "title": "Review & check",
+          "work": "Tell how one immigrant group helped shape California."
+        }
+      ],
+      "assessment": "Contribution explanation."
+    },
+    {
+      "week": 27,
+      "unit": 5,
+      "topic": "Folklore from many cultures",
+      "objectives": [
+        "Compare beliefs, customs and traditions found in folktales"
+      ],
+      "standards": [
+        "1.5.3"
+      ],
+      "vocabulary": [
+        "folktale",
+        "culture",
+        "custom",
+        "compare"
+      ],
+      "materials": [
+        "'Lon Po Po' by Ed Young",
+        "'Anansi' tales (public domain)",
+        "'The Mitten' by Jan Brett"
+      ],
+      "days": [
+        {
+          "title": "Anansi",
+          "work": "Read an Anansi the Spider tale (West Africa/Caribbean) and discuss the lesson."
+        },
+        {
+          "title": "Lon Po Po",
+          "work": "Read 'Lon Po Po' (China) and compare it with Little Red Riding Hood."
+        },
+        {
+          "title": "The Mitten",
+          "work": "Read 'The Mitten' (Ukraine) and identify cultural details in the clothing and setting."
+        },
+        {
+          "title": "Compare",
+          "work": "Make a chart comparing the lessons of the three tales."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain what folktales tell us about a culture's values."
+        }
+      ],
+      "assessment": "Folktale comparison chart."
+    },
+    {
+      "week": 28,
+      "unit": 5,
+      "topic": "Celebrations around the world",
+      "objectives": [
+        "Compare holidays and ceremonies of varied cultures"
+      ],
+      "standards": [
+        "1.5.3",
+        "1.5.1"
+      ],
+      "vocabulary": [
+        "celebration",
+        "ceremony",
+        "festival"
+      ],
+      "materials": [
+        "library books on Lunar New Year, Diwali, Hanukkah, Día de los Muertos, Kwanzaa"
+      ],
+      "days": [
+        {
+          "title": "Lunar New Year",
+          "work": "Learn customs (red envelopes, dragon dance) and make a paper lantern."
+        },
+        {
+          "title": "Día de los Muertos",
+          "work": "Learn customs (ofrendas, marigolds) and make a paper marigold."
+        },
+        {
+          "title": "Diwali and Hanukkah",
+          "work": "Compare these festivals of light; draw a diya and a menorah."
+        },
+        {
+          "title": "Compare",
+          "work": "Make a chart of what the celebrations have in common (family, food, light, remembering)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present one celebration to family: when it happens, who celebrates, and two customs."
+        }
+      ],
+      "assessment": "Celebration presentation."
+    },
+    {
+      "week": 29,
+      "unit": 5,
+      "topic": "One community, many cultures",
+      "objectives": [
+        "Explain benefits and challenges of diversity and shared values"
+      ],
+      "standards": [
+        "1.5.1",
+        "1.5.2",
+        "1.2.1"
+      ],
+      "vocabulary": [
+        "unity",
+        "community",
+        "benefit",
+        "challenge"
+      ],
+      "materials": [
+        "community quilt materials (paper squares)"
+      ],
+      "days": [
+        {
+          "title": "Benefits",
+          "work": "List benefits of a diverse community (new foods, languages, ideas)."
+        },
+        {
+          "title": "Challenges",
+          "work": "Discuss challenges (language barriers, misunderstandings) and how kindness helps."
+        },
+        {
+          "title": "Paper quilt",
+          "work": "Make a paper quilt square showing your family culture and connect it with others' squares (family members)."
+        },
+        {
+          "title": "Shared values",
+          "work": "Write a sentence about values everyone shares (fairness, family, freedom)."
+        },
+        {
+          "title": "Unit 5 check",
+          "work": "Assessment on American Indians, immigrants, folklore and diversity."
+        }
+      ],
+      "assessment": "Unit 5 assessment."
+    },
+    {
+      "week": 30,
+      "unit": 6,
+      "topic": "Needs, wants, goods and services",
+      "objectives": [
+        "Distinguish goods and services, needs and wants"
+      ],
+      "standards": [
+        "1.6.1",
+        "1.6.2"
+      ],
+      "vocabulary": [
+        "goods",
+        "services",
+        "needs",
+        "wants"
+      ],
+      "materials": [
+        "magazine pictures",
+        "sorting mats"
+      ],
+      "days": [
+        {
+          "title": "Needs and wants",
+          "work": "Sort pictures into needs (food, shelter) and wants (toys)."
+        },
+        {
+          "title": "Goods and services",
+          "work": "Sort pictures into goods (bread, shoes) and services (haircut, doctor visit)."
+        },
+        {
+          "title": "At home",
+          "work": "List goods and services your family used this week."
+        },
+        {
+          "title": "Read",
+          "work": "Read 'A Chair for My Mother' by Vera B. Williams and discuss saving for a want."
+        },
+        {
+          "title": "Review & check",
+          "work": "Goods/services and needs/wants sort quiz."
+        }
+      ],
+      "assessment": "Sort quiz."
+    },
+    {
+      "week": 31,
+      "unit": 6,
+      "topic": "Exchange and money",
+      "objectives": [
+        "Explain trading and using money to buy goods and services"
+      ],
+      "standards": [
+        "1.6.1"
+      ],
+      "vocabulary": [
+        "barter",
+        "trade",
+        "money",
+        "price",
+        "exchange"
+      ],
+      "materials": [
+        "coins",
+        "play store items",
+        "price tags"
+      ],
+      "days": [
+        {
+          "title": "Barter",
+          "work": "Trade toys or snacks with a family member; talk about problems with trading."
+        },
+        {
+          "title": "Money history",
+          "work": "Learn why money makes trading easier; look at historical coins (Smithsonian)."
+        },
+        {
+          "title": "Play store",
+          "work": "Run a pretend store with price tags under $1 and pay with coins."
+        },
+        {
+          "title": "Prices",
+          "work": "Compare prices of 3 snacks at a store or online flyer and decide which you could buy with 50 cents."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in two sentences why people use money instead of trading, using your barter game as an example."
+        }
+      ],
+      "assessment": "Oral explanation and store role-play."
+    },
+    {
+      "week": 32,
+      "unit": 6,
+      "topic": "Saving, spending and making choices",
+      "objectives": [
+        "Explain that people make choices when they spend money",
+        "Set a simple savings goal"
+      ],
+      "standards": [
+        "1.6.1"
+      ],
+      "vocabulary": [
+        "save",
+        "spend",
+        "choice",
+        "goal",
+        "bank"
+      ],
+      "materials": [
+        "three clear jars labeled Save, Spend, Share",
+        "coins",
+        "'Bunny Money' by Rosemary Wells (library)"
+      ],
+      "days": [
+        {
+          "title": "Bunny Money",
+          "work": "Read 'Bunny Money' by Rosemary Wells and track how Ruby's money is spent on choices for Grandma's gift."
+        },
+        {
+          "title": "Choices",
+          "work": "Given 50 cents and 3 items priced 20, 30 and 45 cents, decide what to buy and explain what you gave up."
+        },
+        {
+          "title": "Save, spend, share jars",
+          "work": "Label three jars and divide 10 pennies (or chore earnings) among them; explain your plan."
+        },
+        {
+          "title": "Bank visit",
+          "work": "Visit a bank (or watch a PBS clip) to learn how banks keep money safe for savers."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw a savings goal and write how many weeks of saving it will take with a family member's help."
+        }
+      ],
+      "assessment": "Savings-goal drawing and oral explanation of a spending choice."
+    },
+    {
+      "week": 33,
+      "unit": 6,
+      "topic": "From farm to table: producing goods",
+      "objectives": [
+        "Describe specialized work to make goods"
+      ],
+      "standards": [
+        "1.6.2"
+      ],
+      "vocabulary": [
+        "producer",
+        "factory",
+        "farm",
+        "manufacture"
+      ],
+      "materials": [
+        "'From Wheat to Bread' (library) or similar",
+        "bread ingredients"
+      ],
+      "days": [
+        {
+          "title": "Farm work",
+          "work": "Learn how wheat grows on a California farm and is harvested."
+        },
+        {
+          "title": "Make bread",
+          "work": "Bake simple bread or muffins with family; list jobs it takes."
+        },
+        {
+          "title": "Factory",
+          "work": "Watch a PBS clip on how crayons or apples are processed."
+        },
+        {
+          "title": "Specialized jobs",
+          "work": "Make a flow chart of workers from farm to store."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain why people specialize in one job, using the bread workers as an example."
+        }
+      ],
+      "assessment": "Farm-to-table flow chart."
+    },
+    {
+      "week": 34,
+      "unit": 6,
+      "topic": "Transporting and marketing goods",
+      "objectives": [
+        "Describe the work of moving and selling goods"
+      ],
+      "standards": [
+        "1.6.2"
+      ],
+      "vocabulary": [
+        "transport",
+        "truck driver",
+        "store clerk",
+        "advertise"
+      ],
+      "materials": [
+        "grocery store visit",
+        "paper for an ad"
+      ],
+      "days": [
+        {
+          "title": "Grocery trip",
+          "work": "Visit a grocery store and list workers you see (stocker, cashier, butcher)."
+        },
+        {
+          "title": "Transport",
+          "work": "Learn how goods travel by truck, train, ship and plane."
+        },
+        {
+          "title": "Advertising",
+          "work": "Look at cereal box ads and discuss how stores and companies market goods."
+        },
+        {
+          "title": "Make an ad",
+          "work": "Design an ad poster for your homemade bread."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain one job that makes, one that moves, and one that sells goods."
+        }
+      ],
+      "assessment": "Job explanation."
+    },
+    {
+      "week": 35,
+      "unit": 6,
+      "topic": "Work at home and in the community",
+      "objectives": [
+        "Recognize contributions of those who work in the home and community"
+      ],
+      "standards": [
+        "1.6.2",
+        "1.5.1"
+      ],
+      "vocabulary": [
+        "volunteer",
+        "contribution",
+        "community helper"
+      ],
+      "materials": [
+        "family chore chart",
+        "thank-you card supplies"
+      ],
+      "days": [
+        {
+          "title": "Home work",
+          "work": "List all the work family members do at home (cooking, cleaning, caring for children) and how it helps."
+        },
+        {
+          "title": "Community helpers",
+          "work": "Interview a community helper (librarian, firefighter, mail carrier)."
+        },
+        {
+          "title": "Chore chart",
+          "work": "Make a family chore chart and take on a job for the week."
+        },
+        {
+          "title": "Thank-you",
+          "work": "Write a thank-you card to a community or home worker."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain why work at home is important even though it is unpaid."
+        }
+      ],
+      "assessment": "Chore chart and interview notes."
+    },
+    {
+      "week": 36,
+      "unit": 6,
+      "topic": "Market day and year review",
+      "objectives": [
+        "Apply economics and citizenship learning",
+        "Review the year"
+      ],
+      "standards": [
+        "1.6.1",
+        "1.6.2",
+        "1.1.1"
+      ],
+      "vocabulary": [
+        "market",
+        "review"
+      ],
+      "materials": [
+        "homemade goods",
+        "coins",
+        "maps and booklets from the year"
+      ],
+      "days": [
+        {
+          "title": "Plan a market",
+          "work": "Vote as a family (direct democracy) on what goods to make and sell at a pretend market."
+        },
+        {
+          "title": "Make goods",
+          "work": "Make 6 bookmarks or crafts, decide on fair prices under $1, and make price tags."
+        },
+        {
+          "title": "Market day",
+          "work": "Hold a family market using coins; practice buying and selling."
+        },
+        {
+          "title": "Year review",
+          "work": "Review maps, symbols, then-and-now booklet and culture projects."
+        },
+        {
+          "title": "Year-end check",
+          "work": "Complete a year-end review: label continents and oceans, match symbols, sort then-and-now pictures, and sort goods and services."
+        }
+      ],
+      "assessment": "Year-end review and market participation."
+    }
+  ]
+}

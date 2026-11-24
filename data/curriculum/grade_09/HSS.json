@@ -1,0 +1,1981 @@
+{
+  "grade": 9,
+  "subject": "HSS",
+  "title": "World Geography (S1) & Ethnic Studies (S2)",
+  "description": "Semester 1 (World Geography) builds spatial thinking through maps, GIS, physical geography, population and migration, culture and political borders, economic development, and California case studies. Semester 2 (Ethnic Studies) follows the 2021 CA Ethnic Studies Model Curriculum, examining identity and the histories, struggles, and contributions of Native American, African American, Chicana/o and Latina/o, and Asian American and Pacific Islander communities in California through primary sources, ending in a community action project.",
+  "framework": "CA History–Social Science Content Standards (Historical and Social Sciences Analysis Skills, grades 9–12); 2016 CA HSS Framework (grade 9 electives); National Geography Standards; 2021 CA Ethnic Studies Model Curriculum",
+  "minutes_per_day": 50,
+  "ag_requirement": "g",
+  "credits": 10,
+  "standards": {
+    "HSS-CST-1": "(CA HSS Analysis Skills 9–12, Chronological & Spatial Thinking 1) Compare the present with the past, evaluating consequences of past events and decisions.",
+    "HSS-CST-2": "(CST 2) Analyze how change happens at different rates at different times; some aspects can change while others stay the same.",
+    "HSS-CST-3": "(CST 3) Use a variety of maps and documents to interpret human movement, including migration, trade, and the diffusion of ideas, technology, and goods.",
+    "HSS-CST-4": "(CST 4) Relate current events to the physical and human characteristics of places and regions.",
+    "HSS-HR-1": "(Historical Research, Evidence & Point of View 1) Distinguish valid from fallacious arguments in historical interpretations.",
+    "HSS-HR-2": "(HR 2) Identify bias and prejudice in historical interpretations.",
+    "HSS-HR-3": "(HR 3) Evaluate major debates among historians concerning alternative interpretations of the past.",
+    "HSS-HR-4": "(HR 4) Construct and test hypotheses; collect, evaluate, and employ information from multiple primary and secondary sources; apply it in oral and written presentations.",
+    "HSS-HI-1": "(Historical Interpretation 1) Show the connections, causal and otherwise, between particular historical events and larger social, economic, and political trends.",
+    "HSS-HI-2": "(HI 2) Recognize the complexity of historical causes and effects, including the limitations on determining cause and effect.",
+    "HSS-HI-3": "(HI 3) Interpret past events and issues within the context in which they unfolded rather than solely in terms of present-day norms.",
+    "HSS-HI-6": "(HI 6) Analyze human modifications of landscapes and examine the resulting environmental policy issues.",
+    "NGS-1": "(National Geography Standards) Use maps and other geographic representations, geospatial technologies, and spatial thinking to understand and communicate information.",
+    "NGS-3": "Analyze the spatial organization of people, places, and environments on Earth's surface.",
+    "NGS-4": "Describe the physical and human characteristics of places.",
+    "NGS-5": "Explain how people create regions to interpret Earth's complexity.",
+    "NGS-7": "Explain the physical processes that shape the patterns of Earth's surface.",
+    "NGS-8": "Describe the characteristics and spatial distribution of ecosystems and biomes.",
+    "NGS-9": "Analyze the characteristics, distribution, and migration of human populations.",
+    "NGS-10": "Describe the characteristics, distribution, and complexity of Earth's cultural mosaics.",
+    "NGS-11": "Explain the patterns and networks of economic interdependence on Earth's surface.",
+    "NGS-12": "Explain the processes, patterns, and functions of human settlement.",
+    "NGS-13": "Explain how forces of cooperation and conflict among people influence the division and control of Earth's surface.",
+    "NGS-14": "Explain how human actions modify the physical environment.",
+    "NGS-15": "Explain how physical systems affect human systems.",
+    "NGS-16": "Explain changes in the meaning, use, distribution, and importance of resources.",
+    "NGS-18": "Apply geography to interpret the present and plan for the future.",
+    "ESMC-1": "(CA Ethnic Studies Model Curriculum guiding value 1) Cultivate empathy, community, self-worth, self-determination, and the holistic well-being of all participants.",
+    "ESMC-2": "(ESMC 2) Honor Native peoples of the land and communities of color by sharing their stories of struggle and resistance and their intellectual and cultural wealth.",
+    "ESMC-3": "(ESMC 3) Value pre-colonial and ancestral knowledge, narratives, and communal experiences of Native peoples and people of color.",
+    "ESMC-4": "(ESMC 4) Critically examine systems of power, including colonialism and racism, and their historical and present effects.",
+    "ESMC-5": "(ESMC 5) Challenge discriminatory beliefs and practices on ideological, institutional, interpersonal, and internalized levels.",
+    "ESMC-6": "(ESMC 6) Connect to past and contemporary social movements that struggle for social justice and an equitable, democratic society.",
+    "ESMC-7": "(ESMC 7) Imagine and build new possibilities that promote critical hope, collective narratives, and civic engagement.",
+    "ESMC-T1": "(ESMC theme) Identity: how individual and group identities are formed, named, and expressed.",
+    "ESMC-T2": "(ESMC theme) History and Movement: the histories, migrations, and contributions of ethnic groups in California and the U.S.",
+    "ESMC-T3": "(ESMC theme) Systems of Power: how laws, policies, and institutions have shaped opportunity and exclusion.",
+    "ESMC-T4": "(ESMC theme) Social Movements and Equity: how communities organize for civil rights and justice."
+  },
+  "resources": [
+    {
+      "name": "National Geographic Education",
+      "url": "https://education.nationalgeographic.org",
+      "note": "Geography lessons, maps, and encyclopedic entries"
+    },
+    {
+      "name": "CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "note": "Country data for profiles"
+    },
+    {
+      "name": "Gapminder Tools",
+      "url": "https://www.gapminder.org/tools/",
+      "note": "Interactive population and development data"
+    },
+    {
+      "name": "CA Ethnic Studies Model Curriculum",
+      "url": "https://www.cde.ca.gov/ci/cr/cf/esmc.asp",
+      "note": "Official ESMC with sample lessons"
+    },
+    {
+      "name": "Calisphere",
+      "url": "https://calisphere.org",
+      "note": "University of California primary sources"
+    },
+    {
+      "name": "DocsTeach (National Archives)",
+      "url": "https://www.docsteach.org",
+      "note": "Primary sources including EO 9066 and the Chinese Exclusion Act"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "The Geographer's Toolkit",
+      "start_week": 1,
+      "end_week": 3,
+      "big_idea": "Geographers ask where things are and why there, using maps, data, and spatial thinking.",
+      "standards": [
+        "NGS-1",
+        "NGS-3",
+        "NGS-5",
+        "HSS-CST-4"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Physical Geography: Landforms, Climate, and Biomes",
+      "start_week": 4,
+      "end_week": 6,
+      "big_idea": "Physical processes shape Earth's surface and climates, which in turn shape where and how people live.",
+      "standards": [
+        "NGS-4",
+        "NGS-7",
+        "NGS-8",
+        "NGS-15",
+        "HSS-CST-4"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Population and Migration",
+      "start_week": 7,
+      "end_week": 9,
+      "big_idea": "Population patterns and migration flows result from push and pull factors and change places and people.",
+      "standards": [
+        "NGS-9",
+        "NGS-12",
+        "HSS-CST-3",
+        "HSS-HR-4"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cultural and Political Geography",
+      "start_week": 10,
+      "end_week": 12,
+      "big_idea": "Language, religion, and borders shape identity and are sources of both cooperation and conflict.",
+      "standards": [
+        "NGS-10",
+        "NGS-13",
+        "HSS-CST-3",
+        "HSS-HR-2"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Economic Geography, Development, and Resources",
+      "start_week": 13,
+      "end_week": 15,
+      "big_idea": "Resources, trade, and development link places unequally across the globe.",
+      "standards": [
+        "NGS-11",
+        "NGS-16",
+        "NGS-14",
+        "HSS-HI-1",
+        "HSS-HI-6"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Cities, Globalization, and California's Regions",
+      "start_week": 16,
+      "end_week": 18,
+      "big_idea": "Urbanization and globalization reshape places — California is a case study of a global region.",
+      "standards": [
+        "NGS-12",
+        "NGS-14",
+        "NGS-18",
+        "NGS-5",
+        "HSS-CST-1",
+        "HSS-HI-6"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Foundations of Ethnic Studies: Identity",
+      "start_week": 19,
+      "end_week": 21,
+      "big_idea": "Identity is shaped by family, community, history, and how society names and treats groups.",
+      "standards": [
+        "ESMC-1",
+        "ESMC-T1",
+        "ESMC-5",
+        "HSS-HR-2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Native American Studies",
+      "start_week": 22,
+      "end_week": 24,
+      "big_idea": "California's Native peoples have survived colonization through resistance, cultural continuity, and sovereignty movements.",
+      "standards": [
+        "ESMC-2",
+        "ESMC-3",
+        "ESMC-4",
+        "ESMC-T2",
+        "ESMC-T3",
+        "HSS-HI-3",
+        "HSS-HR-4"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "African American Studies",
+      "start_week": 25,
+      "end_week": 27,
+      "big_idea": "African Americans have resisted slavery, segregation, and discrimination and shaped American democracy.",
+      "standards": [
+        "ESMC-2",
+        "ESMC-4",
+        "ESMC-6",
+        "ESMC-T3",
+        "ESMC-T4",
+        "HSS-HR-4",
+        "HSS-HI-1"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Chicana/o and Latina/o Studies",
+      "start_week": 28,
+      "end_week": 30,
+      "big_idea": "Borders, labor, and education rights shape the history of Mexican Americans and Latinos in California.",
+      "standards": [
+        "ESMC-2",
+        "ESMC-4",
+        "ESMC-6",
+        "ESMC-T2",
+        "ESMC-T3",
+        "ESMC-T4",
+        "HSS-HR-4"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Asian American and Pacific Islander Studies",
+      "start_week": 31,
+      "end_week": 33,
+      "big_idea": "Asian Americans and Pacific Islanders have challenged exclusion laws and built communities across California.",
+      "standards": [
+        "ESMC-2",
+        "ESMC-4",
+        "ESMC-5",
+        "ESMC-T2",
+        "ESMC-T3",
+        "HSS-HI-3",
+        "HSS-HR-3"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Social Movements and Community Action",
+      "start_week": 34,
+      "end_week": 36,
+      "big_idea": "Communities have built coalitions for justice; students can research and act on issues in their own communities.",
+      "standards": [
+        "ESMC-6",
+        "ESMC-7",
+        "ESMC-T4",
+        "ESMC-1",
+        "HSS-CST-1",
+        "HSS-HR-4",
+        "HSS-HR-1",
+        "HSS-CST-2",
+        "HSS-HI-2"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Thinking like a geographer: the five themes",
+      "objectives": [
+        "Apply the five themes of geography",
+        "Use latitude and longitude"
+      ],
+      "standards": [
+        "NGS-1",
+        "NGS-3"
+      ],
+      "vocabulary": [
+        "location",
+        "place",
+        "region",
+        "movement",
+        "human-environment interaction",
+        "latitude",
+        "longitude"
+      ],
+      "materials": [
+        "world atlas",
+        "blank world map"
+      ],
+      "days": [
+        {
+          "title": "Five themes",
+          "work": "Learn the five themes of geography and apply each to your own neighborhood in a one-page chart."
+        },
+        {
+          "title": "Absolute location",
+          "work": "Locate 15 world cities by latitude and longitude on a blank map."
+        },
+        {
+          "title": "Relative location",
+          "work": "Describe the relative location of your home and three world capitals."
+        },
+        {
+          "title": "Mental maps",
+          "work": "Draw a world map from memory, then compare to an atlas and list three surprises."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on five themes and coordinates."
+        }
+      ],
+      "assessment": "Coordinates quiz and five-themes chart."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Maps, projections, and geospatial technology",
+      "objectives": [
+        "Compare map projections",
+        "Use GIS and online tools"
+      ],
+      "standards": [
+        "NGS-1",
+        "HSS-CST-4"
+      ],
+      "vocabulary": [
+        "map projection",
+        "distortion",
+        "Mercator",
+        "Robinson",
+        "GIS",
+        "scale"
+      ],
+      "materials": [
+        "orange (for projection activity)",
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Projections",
+          "work": "Peel an orange to see why flat maps distort; compare Mercator, Robinson, and Peters projections."
+        },
+        {
+          "title": "Map types",
+          "work": "Analyze a historical map from the Library of Congress and identify its purpose and point of view."
+        },
+        {
+          "title": "GIS",
+          "work": "Use an online GIS map (ArcGIS or Google Earth) to layer population and rivers."
+        },
+        {
+          "title": "Scale",
+          "work": "Calculate real distances using map scales for three trips."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on projections and map types."
+        }
+      ],
+      "assessment": "Projection quiz and GIS screenshot analysis."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Regions",
+      "objectives": [
+        "Define formal, functional, and perceptual regions",
+        "Map a region"
+      ],
+      "standards": [
+        "NGS-5",
+        "NGS-1"
+      ],
+      "vocabulary": [
+        "formal region",
+        "functional region",
+        "perceptual region",
+        "boundary"
+      ],
+      "materials": [
+        "colored pencils",
+        "U.S. map"
+      ],
+      "days": [
+        {
+          "title": "Region types",
+          "work": "Classify 12 regions (Bay Area, Sun Belt, Corn Belt) by type."
+        },
+        {
+          "title": "Perceptual regions",
+          "work": "Survey family members on where \"Southern California\" begins and map the results."
+        },
+        {
+          "title": "World regions",
+          "work": "Label the world's major cultural regions."
+        },
+        {
+          "title": "Region essay",
+          "work": "Write a paragraph defining a region you belong to and its characteristics."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Take the Unit 1 test."
+        }
+      ],
+      "assessment": "Unit 1 test."
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "Plate tectonics and landforms",
+      "objectives": [
+        "Explain plate boundaries",
+        "Connect landforms to processes"
+      ],
+      "standards": [
+        "NGS-7",
+        "NGS-4"
+      ],
+      "vocabulary": [
+        "plate tectonics",
+        "fault",
+        "subduction",
+        "earthquake",
+        "volcano",
+        "erosion"
+      ],
+      "materials": [
+        "crackers",
+        "frosting",
+        "USGS earthquake map"
+      ],
+      "days": [
+        {
+          "title": "Plate boundaries",
+          "work": "Model convergent, divergent, and transform boundaries with crackers and frosting."
+        },
+        {
+          "title": "California faults",
+          "work": "Map the San Andreas Fault and recent earthquakes using the USGS live earthquake map."
+        },
+        {
+          "title": "Landforms",
+          "work": "Identify landforms formed by plates, water, wind, and ice in photos."
+        },
+        {
+          "title": "Hazards",
+          "work": "Analyze how earthquakes and volcanoes affect human settlement (e.g., 1906 San Francisco)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on tectonics and landforms."
+        }
+      ],
+      "assessment": "Tectonics quiz."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Weather, climate, and climate regions",
+      "objectives": [
+        "Explain factors affecting climate",
+        "Interpret climographs"
+      ],
+      "standards": [
+        "NGS-7",
+        "NGS-15"
+      ],
+      "vocabulary": [
+        "climate",
+        "weather",
+        "climograph",
+        "rain shadow",
+        "ocean current",
+        "Mediterranean climate"
+      ],
+      "materials": [
+        "climate data",
+        "graph paper"
+      ],
+      "days": [
+        {
+          "title": "Climate factors",
+          "work": "Learn latitude, elevation, ocean currents, and prevailing winds as climate controls."
+        },
+        {
+          "title": "Climographs",
+          "work": "Build climographs for Sacramento and Singapore and compare."
+        },
+        {
+          "title": "Rain shadow",
+          "work": "Model a rain shadow with the Sierra Nevada and explain Death Valley's aridity."
+        },
+        {
+          "title": "Climate regions",
+          "work": "Map Köppen climate regions and explain human adaptations."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on climate."
+        }
+      ],
+      "assessment": "Climograph analysis and quiz."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Biomes and human-environment interaction",
+      "objectives": [
+        "Describe biome distribution",
+        "Analyze how physical systems affect people"
+      ],
+      "standards": [
+        "NGS-8",
+        "NGS-15",
+        "HSS-CST-4"
+      ],
+      "vocabulary": [
+        "biome",
+        "tundra",
+        "rainforest",
+        "desert",
+        "savanna",
+        "adaptation"
+      ],
+      "materials": [
+        "biome maps"
+      ],
+      "days": [
+        {
+          "title": "Biomes",
+          "work": "Create a biome chart with climate, vegetation, and location."
+        },
+        {
+          "title": "Adaptations",
+          "work": "Compare how people adapt to living in a desert vs. Arctic."
+        },
+        {
+          "title": "Natural hazards",
+          "work": "Analyze drought and wildfire effects on California communities."
+        },
+        {
+          "title": "Current events",
+          "work": "Relate a current news event to physical geography."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Take the Unit 2 test."
+        }
+      ],
+      "assessment": "Unit 2 test."
+    },
+    {
+      "week": 7,
+      "unit": 3,
+      "topic": "Population distribution and growth",
+      "objectives": [
+        "Analyze population density and distribution",
+        "Interpret population pyramids"
+      ],
+      "standards": [
+        "NGS-9",
+        "HSS-HR-4"
+      ],
+      "vocabulary": [
+        "population density",
+        "demography",
+        "birth rate",
+        "death rate",
+        "population pyramid"
+      ],
+      "materials": [
+        "Census data",
+        "Gapminder"
+      ],
+      "days": [
+        {
+          "title": "Distribution",
+          "work": "Map world population density and explain clusters."
+        },
+        {
+          "title": "Population pyramids",
+          "work": "Compare pyramids for Japan, Nigeria, and the U.S."
+        },
+        {
+          "title": "Demographic transition",
+          "work": "Learn the demographic transition model and place countries."
+        },
+        {
+          "title": "Gapminder",
+          "work": "Use Gapminder to compare life expectancy and income over time."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on population."
+        }
+      ],
+      "assessment": "Population quiz."
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "Migration",
+      "objectives": [
+        "Explain push and pull factors",
+        "Analyze migration flows"
+      ],
+      "standards": [
+        "NGS-9",
+        "HSS-CST-3"
+      ],
+      "vocabulary": [
+        "migration",
+        "push factor",
+        "pull factor",
+        "refugee",
+        "emigration",
+        "immigration"
+      ],
+      "materials": [
+        "migration maps",
+        "family interviews"
+      ],
+      "days": [
+        {
+          "title": "Push and pull",
+          "work": "Classify push and pull factors in 10 migration cases."
+        },
+        {
+          "title": "Family interview",
+          "work": "Interview a family member about your family's migration history."
+        },
+        {
+          "title": "Migration flows",
+          "work": "Analyze maps of the Great Migration and Dust Bowl migration to California."
+        },
+        {
+          "title": "Refugees",
+          "work": "Read about a current refugee crisis and its causes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a migration case study paragraph."
+        }
+      ],
+      "assessment": "Migration case study."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Settlement patterns",
+      "objectives": [
+        "Explain settlement site and situation",
+        "Compare rural and urban settlement"
+      ],
+      "standards": [
+        "NGS-12",
+        "NGS-9"
+      ],
+      "vocabulary": [
+        "site",
+        "situation",
+        "urban",
+        "rural",
+        "suburb",
+        "settlement"
+      ],
+      "materials": [
+        "topographic maps"
+      ],
+      "days": [
+        {
+          "title": "Site and situation",
+          "work": "Analyze why cities like San Francisco and Sacramento grew where they did."
+        },
+        {
+          "title": "Settlement patterns",
+          "work": "Compare clustered and dispersed rural settlement."
+        },
+        {
+          "title": "Urban models",
+          "work": "Learn concentric zone and sector models."
+        },
+        {
+          "title": "Local study",
+          "work": "Map your town's settlement pattern."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Take the Unit 3 test."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 10,
+      "unit": 4,
+      "topic": "Culture, language, and religion",
+      "objectives": [
+        "Describe cultural traits and diffusion",
+        "Map world languages and religions"
+      ],
+      "standards": [
+        "NGS-10",
+        "HSS-CST-3"
+      ],
+      "vocabulary": [
+        "culture",
+        "cultural diffusion",
+        "language family",
+        "religion",
+        "hearth"
+      ],
+      "materials": [
+        "world maps"
+      ],
+      "days": [
+        {
+          "title": "Culture traits",
+          "work": "Define culture and identify traits of your own culture."
+        },
+        {
+          "title": "Languages",
+          "work": "Map language families and explain diffusion."
+        },
+        {
+          "title": "Religions",
+          "work": "Map world religions and their hearths."
+        },
+        {
+          "title": "Diffusion",
+          "work": "Trace the diffusion of a food or music genre."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on cultural geography."
+        }
+      ],
+      "assessment": "Cultural geography quiz."
+    },
+    {
+      "week": 11,
+      "unit": 4,
+      "topic": "Political geography: states, borders, and conflict",
+      "objectives": [
+        "Explain states, nations, and borders",
+        "Analyze boundary conflicts"
+      ],
+      "standards": [
+        "NGS-13",
+        "HSS-HR-2"
+      ],
+      "vocabulary": [
+        "state",
+        "nation",
+        "sovereignty",
+        "boundary",
+        "colonialism"
+      ],
+      "materials": [
+        "political maps"
+      ],
+      "days": [
+        {
+          "title": "States and nations",
+          "work": "Distinguish state, nation, and nation-state with examples."
+        },
+        {
+          "title": "Borders",
+          "work": "Classify borders (physical, geometric, cultural)."
+        },
+        {
+          "title": "Colonial borders",
+          "work": "Analyze the 1884 Berlin Conference map and its lasting effects on Africa."
+        },
+        {
+          "title": "Conflict",
+          "work": "Analyze a current border conflict using multiple news sources for bias."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on political geography."
+        }
+      ],
+      "assessment": "Political geography quiz."
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "Supranational organizations and cooperation",
+      "objectives": [
+        "Explain international cooperation",
+        "Evaluate the role of the UN and EU"
+      ],
+      "standards": [
+        "NGS-13",
+        "NGS-10"
+      ],
+      "vocabulary": [
+        "supranational",
+        "United Nations",
+        "European Union",
+        "alliance"
+      ],
+      "materials": [
+        "UN website"
+      ],
+      "days": [
+        {
+          "title": "Cooperation",
+          "work": "Research the UN and EU and their functions."
+        },
+        {
+          "title": "Primary source",
+          "work": "Read excerpts of the UN Charter preamble."
+        },
+        {
+          "title": "Case study",
+          "work": "Analyze the Antarctic Treaty as cooperation."
+        },
+        {
+          "title": "Debate",
+          "work": "Debate benefits and drawbacks of supranational organizations."
+        },
+        {
+          "title": "Unit 4 test",
+          "work": "Take the Unit 4 test."
+        }
+      ],
+      "assessment": "Unit 4 test."
+    },
+    {
+      "week": 13,
+      "unit": 5,
+      "topic": "Economic geography and development",
+      "objectives": [
+        "Classify economic activities by sector",
+        "Compare development using GDP per capita and HDI"
+      ],
+      "standards": [
+        "NGS-11",
+        "HSS-HI-1"
+      ],
+      "vocabulary": [
+        "primary sector",
+        "secondary sector",
+        "tertiary sector",
+        "GDP per capita",
+        "Human Development Index",
+        "core and periphery"
+      ],
+      "materials": [
+        "Gapminder",
+        "CIA World Factbook"
+      ],
+      "days": [
+        {
+          "title": "Economic sectors",
+          "work": "Classify 25 jobs (farmer, autoworker, nurse, software engineer) into primary–quaternary sectors and compare the U.S. and Ethiopia's workforce mix."
+        },
+        {
+          "title": "Measuring development",
+          "work": "Collect GDP per capita, HDI, literacy, and life expectancy for 8 countries from the World Factbook and rank them two ways."
+        },
+        {
+          "title": "Gapminder trends",
+          "work": "Use Gapminder's bubble chart to trace China, India, and Nigeria from 1960 to today and describe what changed."
+        },
+        {
+          "title": "Why uneven development?",
+          "work": "Read about colonial legacies, geography (landlocked states), and trade; write a paragraph linking one cause to a broader trend."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on sectors and development indicators with a data-table interpretation."
+        }
+      ],
+      "assessment": "Development data analysis and quiz."
+    },
+    {
+      "week": 14,
+      "unit": 5,
+      "topic": "Resources, trade, and supply chains",
+      "objectives": [
+        "Explain the distribution and importance of resources",
+        "Trace a global supply chain"
+      ],
+      "standards": [
+        "NGS-16",
+        "NGS-11"
+      ],
+      "vocabulary": [
+        "renewable resource",
+        "nonrenewable resource",
+        "rare earth elements",
+        "supply chain",
+        "comparative advantage",
+        "export"
+      ],
+      "materials": [
+        "clothing and electronics labels",
+        "world map"
+      ],
+      "days": [
+        {
+          "title": "Resource map",
+          "work": "Map world reserves of oil, lithium, fresh water, and arable land and identify which countries hold leverage."
+        },
+        {
+          "title": "Label hunt",
+          "work": "Record the country of origin of 15 items in your home and plot them on a world map."
+        },
+        {
+          "title": "Smartphone supply chain",
+          "work": "Research where a phone's cobalt, chips, and assembly come from and draw the chain with distances."
+        },
+        {
+          "title": "California trade",
+          "work": "Use port of Los Angeles/Long Beach data to identify California's top trading partners and goods."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph explaining how one resource's meaning has changed over time (e.g., lithium)."
+        }
+      ],
+      "assessment": "Supply chain map and resource paragraph."
+    },
+    {
+      "week": 15,
+      "unit": 5,
+      "topic": "Human impact on environments: California water case studies",
+      "objectives": [
+        "Analyze how human actions modify environments",
+        "Evaluate environmental policy trade-offs"
+      ],
+      "standards": [
+        "NGS-14",
+        "HSS-HI-6",
+        "NGS-16"
+      ],
+      "vocabulary": [
+        "aqueduct",
+        "groundwater",
+        "subsidence",
+        "watershed",
+        "environmental policy"
+      ],
+      "materials": [
+        "Owens Valley maps and photos (Calisphere)",
+        "Los Angeles Aqueduct timeline"
+      ],
+      "days": [
+        {
+          "title": "Owens Valley primary sources",
+          "work": "Examine Calisphere photos of Owens Lake before and after the 1913 Los Angeles Aqueduct and list observable changes."
+        },
+        {
+          "title": "Aqueduct story",
+          "work": "Read about William Mulholland and Owens Valley farmers' resistance; build a cause-and-effect chart."
+        },
+        {
+          "title": "Groundwater and subsidence",
+          "work": "Analyze USGS images of Central Valley land subsidence and explain the link to pumping."
+        },
+        {
+          "title": "Policy evaluation",
+          "work": "Evaluate the Sustainable Groundwater Management Act (2014) by listing who benefits and who bears costs."
+        },
+        {
+          "title": "Unit 5 test",
+          "work": "Take the Unit 5 test on economic geography and resources."
+        }
+      ],
+      "assessment": "Unit 5 test."
+    },
+    {
+      "week": 16,
+      "unit": 6,
+      "topic": "Urbanization and urban challenges",
+      "objectives": [
+        "Explain global urbanization trends",
+        "Analyze urban problems and planning responses"
+      ],
+      "standards": [
+        "NGS-12",
+        "NGS-14",
+        "HSS-HI-6"
+      ],
+      "vocabulary": [
+        "urbanization",
+        "megacity",
+        "urban sprawl",
+        "informal settlement",
+        "gentrification",
+        "transit-oriented development"
+      ],
+      "materials": [
+        "Census QuickFacts",
+        "city maps"
+      ],
+      "days": [
+        {
+          "title": "Urbanization trends",
+          "work": "Graph the percent of world population living in cities from 1950 to 2050 (UN projections) and identify the fastest-urbanizing regions."
+        },
+        {
+          "title": "Megacity profile",
+          "work": "Research Lagos, Mumbai, or Mexico City: growth rate, housing, transit, and informal settlements."
+        },
+        {
+          "title": "Los Angeles sprawl",
+          "work": "Compare 1920s and today's maps of Los Angeles and analyze freeway building's effect on neighborhoods."
+        },
+        {
+          "title": "Planning solutions",
+          "work": "Design a one-page plan for a walkable neighborhood with housing, transit, and parks; justify choices."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on urbanization concepts."
+        }
+      ],
+      "assessment": "Urban planning page and quiz."
+    },
+    {
+      "week": 17,
+      "unit": 6,
+      "topic": "Globalization and California as a global region",
+      "objectives": [
+        "Evaluate effects of globalization",
+        "Describe California's physical and human regions"
+      ],
+      "standards": [
+        "NGS-5",
+        "NGS-18",
+        "HSS-CST-1",
+        "NGS-11"
+      ],
+      "vocabulary": [
+        "globalization",
+        "interdependence",
+        "outsourcing",
+        "cultural convergence",
+        "Pacific Rim"
+      ],
+      "materials": [
+        "California relief map",
+        "Census data"
+      ],
+      "days": [
+        {
+          "title": "Globalization pros and cons",
+          "work": "Read two opposing articles on globalization and chart claims about jobs, culture, and environment."
+        },
+        {
+          "title": "California's regions",
+          "work": "Map California's eight geographic regions (North Coast, Central Valley, Sierra Nevada, Deserts, etc.) with economy and climate notes."
+        },
+        {
+          "title": "Then and now",
+          "work": "Compare 1950 and present-day California census data on population, industries, and diversity."
+        },
+        {
+          "title": "Planning the future",
+          "work": "Use drought, wildfire, and housing data to recommend one priority for California's next 20 years."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a short regional report on one California region."
+        }
+      ],
+      "assessment": "California regional report."
+    },
+    {
+      "week": 18,
+      "unit": 6,
+      "topic": "Country geography profile and semester exam",
+      "objectives": [
+        "Synthesize physical, human, and economic geography",
+        "Present a regional study"
+      ],
+      "standards": [
+        "NGS-18",
+        "NGS-5",
+        "HSS-CST-4"
+      ],
+      "vocabulary": [
+        "synthesis",
+        "country profile"
+      ],
+      "materials": [
+        "atlas",
+        "CIA World Factbook",
+        "Gapminder"
+      ],
+      "days": [
+        {
+          "title": "Profile research",
+          "work": "Choose a country and gather physical geography, climate, population, culture, and economic data."
+        },
+        {
+          "title": "Profile maps",
+          "work": "Create two maps (physical and population/thematic) and a population pyramid for your country."
+        },
+        {
+          "title": "Present",
+          "work": "Present a 5-minute country profile connecting physical geography to how people live there."
+        },
+        {
+          "title": "Review",
+          "work": "Review semester vocabulary and map skills with a practice test."
+        },
+        {
+          "title": "Semester exam",
+          "work": "Take the World Geography semester exam (map skills, concepts, and a data-based essay)."
+        }
+      ],
+      "assessment": "Country profile presentation and semester exam."
+    },
+    {
+      "week": 19,
+      "unit": 7,
+      "topic": "What is Ethnic Studies? Identity and community",
+      "objectives": [
+        "Define ethnic studies, race, ethnicity, and identity",
+        "Reflect on personal and family identity"
+      ],
+      "standards": [
+        "ESMC-1",
+        "ESMC-T1"
+      ],
+      "vocabulary": [
+        "ethnic studies",
+        "race",
+        "ethnicity",
+        "identity",
+        "culture",
+        "social construct"
+      ],
+      "materials": [
+        "CDE Ethnic Studies Model Curriculum overview",
+        "journal"
+      ],
+      "days": [
+        {
+          "title": "Origins of Ethnic Studies",
+          "work": "Read about the 1968 Third World Liberation Front student strikes at San Francisco State that created the first Ethnic Studies college."
+        },
+        {
+          "title": "Identity chart",
+          "work": "Create an identity chart (family, language, place, faith, interests) and write about which parts others see and which they don't."
+        },
+        {
+          "title": "Race vs. ethnicity",
+          "work": "Read definitions and analyze how U.S. Census race categories changed from 1790 to 2020."
+        },
+        {
+          "title": "Where I'm From",
+          "work": "Read George Ella Lyon's \"Where I'm From\" and write your own version."
+        },
+        {
+          "title": "Review & check",
+          "work": "Share your poem and complete a vocabulary check on key terms."
+        }
+      ],
+      "assessment": "\"Where I'm From\" poem and vocabulary check."
+    },
+    {
+      "week": 20,
+      "unit": 7,
+      "topic": "Stereotypes, bias, and the levels of oppression",
+      "objectives": [
+        "Identify stereotypes in media",
+        "Distinguish ideological, institutional, interpersonal, and internalized racism"
+      ],
+      "standards": [
+        "ESMC-5",
+        "HSS-HR-2",
+        "ESMC-T1"
+      ],
+      "vocabulary": [
+        "stereotype",
+        "prejudice",
+        "discrimination",
+        "bias",
+        "institutional racism",
+        "internalized oppression"
+      ],
+      "materials": [
+        "advertisements and film clips",
+        "Kenneth and Mamie Clark doll study summary"
+      ],
+      "days": [
+        {
+          "title": "Media analysis",
+          "work": "Analyze stereotypes in vintage advertisements and mascots; describe the message each sends."
+        },
+        {
+          "title": "Doll study",
+          "work": "Read about the Clarks' doll experiments cited in Brown v. Board (1954) and explain internalized bias."
+        },
+        {
+          "title": "Four levels",
+          "work": "Sort 12 scenarios into ideological, institutional, interpersonal, and internalized levels."
+        },
+        {
+          "title": "Counter-stories",
+          "work": "Find a book, film, or artist that challenges a stereotype and write a 300-word review."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on terms and levels with scenario analysis."
+        }
+      ],
+      "assessment": "Scenario quiz and counter-story review."
+    },
+    {
+      "week": 21,
+      "unit": 7,
+      "topic": "Family history and oral history methods",
+      "objectives": [
+        "Conduct an oral history interview",
+        "Connect a family story to larger historical trends"
+      ],
+      "standards": [
+        "ESMC-1",
+        "ESMC-T1",
+        "HSS-HR-2"
+      ],
+      "vocabulary": [
+        "oral history",
+        "primary source",
+        "interview protocol",
+        "narrative"
+      ],
+      "materials": [
+        "recording device",
+        "interview question guide"
+      ],
+      "days": [
+        {
+          "title": "Oral history methods",
+          "work": "Learn interview ethics and write 12 open-ended questions."
+        },
+        {
+          "title": "Conduct interview",
+          "work": "Interview an elder relative or community member for 30 minutes and record it with permission."
+        },
+        {
+          "title": "Transcribe",
+          "work": "Transcribe a 5-minute excerpt and highlight key memories."
+        },
+        {
+          "title": "Connect to history",
+          "work": "Write a 1-page reflection linking the interview to a historical event or migration."
+        },
+        {
+          "title": "Review & check",
+          "work": "Share your oral history excerpt and reflection."
+        }
+      ],
+      "assessment": "Oral history transcript and reflection."
+    },
+    {
+      "week": 22,
+      "unit": 8,
+      "topic": "California Native peoples before and during the Mission era",
+      "objectives": [
+        "Describe diversity of California Native nations",
+        "Analyze effects of the Mission system"
+      ],
+      "standards": [
+        "ESMC-3",
+        "ESMC-4",
+        "HSS-HI-3"
+      ],
+      "vocabulary": [
+        "tribe",
+        "sovereignty",
+        "Mission system",
+        "Ohlone",
+        "Tongva",
+        "Chumash",
+        "colonization"
+      ],
+      "materials": [
+        "map of California Native territories",
+        "Calisphere mission-era images"
+      ],
+      "days": [
+        {
+          "title": "Native California",
+          "work": "Map California Native nations (100+ languages) and identify the people whose land you live on."
+        },
+        {
+          "title": "Traditional ecological knowledge",
+          "work": "Read about Native land management such as cultural burning and acorn processing."
+        },
+        {
+          "title": "Missions",
+          "work": "Analyze mission-era primary sources, including Pablo Tac's writings, and identify perspectives."
+        },
+        {
+          "title": "Resistance",
+          "work": "Read about the 1785 Toypurina-led uprising at Mission San Gabriel and explain its causes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph evaluating the Mission system's impacts using two sources."
+        }
+      ],
+      "assessment": "Source-based paragraph."
+    },
+    {
+      "week": 23,
+      "unit": 8,
+      "topic": "Gold Rush, statehood, and Native survival",
+      "objectives": [
+        "Analyze state policies toward Native Californians",
+        "Evaluate primary sources on violence and survival"
+      ],
+      "standards": [
+        "ESMC-4",
+        "ESMC-T3",
+        "HSS-HR-4"
+      ],
+      "vocabulary": [
+        "genocide",
+        "indenture",
+        "treaty",
+        "reservation",
+        "Act for the Government and Protection of Indians"
+      ],
+      "materials": [
+        "1850 Act for the Government and Protection of Indians (excerpt)",
+        "Gov. Peter Burnett 1851 address (excerpt)"
+      ],
+      "days": [
+        {
+          "title": "1850 Act",
+          "work": "Read excerpts of the 1850 Act and explain how it allowed indenture of Native people."
+        },
+        {
+          "title": "Burnett's address",
+          "work": "Analyze Gov. Burnett's 1851 message and identify its purpose and effects."
+        },
+        {
+          "title": "Unratified treaties",
+          "work": "Learn about the 18 unratified treaties of 1851–52 and their consequences for land."
+        },
+        {
+          "title": "Governor's apology",
+          "work": "Read Gov. Newsom's 2019 apology to California Native peoples and compare it with 1851 sources."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a source analysis comparing two documents."
+        }
+      ],
+      "assessment": "Document comparison."
+    },
+    {
+      "week": 24,
+      "unit": 8,
+      "topic": "Native activism and sovereignty",
+      "objectives": [
+        "Analyze Native activism in the 20th century",
+        "Explain contemporary sovereignty issues"
+      ],
+      "standards": [
+        "ESMC-2",
+        "ESMC-6",
+        "ESMC-T2",
+        "HSS-HR-4"
+      ],
+      "vocabulary": [
+        "Indian termination",
+        "relocation",
+        "Alcatraz occupation",
+        "self-determination",
+        "sovereignty"
+      ],
+      "materials": [
+        "1969 Alcatraz Proclamation",
+        "current tribal news"
+      ],
+      "days": [
+        {
+          "title": "Termination and relocation",
+          "work": "Read about 1950s federal termination and relocation to Los Angeles and the Bay Area."
+        },
+        {
+          "title": "Alcatraz Proclamation",
+          "work": "Analyze the 1969 Proclamation's satire and claims."
+        },
+        {
+          "title": "Self-determination",
+          "work": "Explain how Alcatraz led to policy changes."
+        },
+        {
+          "title": "Contemporary sovereignty",
+          "work": "Research a California tribe today (e.g., land back, language revitalization) and write a profile."
+        },
+        {
+          "title": "Unit 8 assessment",
+          "work": "Complete a unit assessment with a document-based question."
+        }
+      ],
+      "assessment": "Unit 8 DBQ."
+    },
+    {
+      "week": 25,
+      "unit": 9,
+      "topic": "African resistance to slavery and the meaning of freedom",
+      "objectives": [
+        "Analyze primary sources on slavery and resistance",
+        "Connect California's history to slavery"
+      ],
+      "standards": [
+        "ESMC-2",
+        "ESMC-4",
+        "HSS-HR-4"
+      ],
+      "vocabulary": [
+        "enslavement",
+        "resistance",
+        "abolition",
+        "fugitive slave law"
+      ],
+      "materials": [
+        "Frederick Douglass narrative excerpt",
+        "Biddy Mason biography"
+      ],
+      "days": [
+        {
+          "title": "Douglass",
+          "work": "Read an excerpt of Douglass's Narrative on learning to read and analyze it as resistance."
+        },
+        {
+          "title": "Forms of resistance",
+          "work": "Categorize forms of resistance (daily, escape, revolt)."
+        },
+        {
+          "title": "California and slavery",
+          "work": "Study Biddy Mason's 1856 freedom suit in Los Angeles."
+        },
+        {
+          "title": "Archy Lee case",
+          "work": "Analyze the 1858 Archy Lee case and the California Fugitive Slave Law."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a source analysis on Biddy Mason or Archy Lee."
+        }
+      ],
+      "assessment": "Source analysis."
+    },
+    {
+      "week": 26,
+      "unit": 9,
+      "topic": "Segregation, the Great Migration, and civil rights",
+      "objectives": [
+        "Analyze Jim Crow laws and the Great Migration",
+        "Explain civil rights strategies"
+      ],
+      "standards": [
+        "ESMC-4",
+        "ESMC-6",
+        "ESMC-T4",
+        "HSS-HI-1"
+      ],
+      "vocabulary": [
+        "Jim Crow",
+        "Great Migration",
+        "redlining",
+        "civil rights",
+        "NAACP"
+      ],
+      "materials": [
+        "HOLC redlining maps (Mapping Inequality)",
+        "Brown v. Board decision excerpt"
+      ],
+      "days": [
+        {
+          "title": "Jim Crow",
+          "work": "Analyze Jim Crow laws and their effects."
+        },
+        {
+          "title": "Redlining",
+          "work": "Examine 1930s HOLC redlining maps for Oakland or Los Angeles and compare with present-day data."
+        },
+        {
+          "title": "Brown v. Board",
+          "work": "Read the Brown decision excerpt and connect to the doll study."
+        },
+        {
+          "title": "Movement strategies",
+          "work": "Compare nonviolence and Black Power, including the Black Panther Party's Oakland Ten-Point Program."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz with document analysis."
+        }
+      ],
+      "assessment": "Redlining analysis and quiz."
+    },
+    {
+      "week": 27,
+      "unit": 9,
+      "topic": "African American culture and contemporary issues",
+      "objectives": [
+        "Analyze African American contributions to culture",
+        "Evaluate contemporary issues"
+      ],
+      "standards": [
+        "ESMC-2",
+        "ESMC-T3",
+        "ESMC-6"
+      ],
+      "vocabulary": [
+        "Harlem Renaissance",
+        "cultural wealth",
+        "equity"
+      ],
+      "materials": [
+        "Langston Hughes poems",
+        "jazz recordings"
+      ],
+      "days": [
+        {
+          "title": "Harlem Renaissance",
+          "work": "Read Hughes and listen to Duke Ellington; analyze themes of identity."
+        },
+        {
+          "title": "Black Californians",
+          "work": "Research a Black Californian leader (e.g., Tom Bradley, Maya Angelou)."
+        },
+        {
+          "title": "Contemporary issues",
+          "work": "Analyze data on an equity issue (education, housing, health)."
+        },
+        {
+          "title": "Reflection",
+          "work": "Write a reflection connecting history to contemporary issues."
+        },
+        {
+          "title": "Unit 9 assessment",
+          "work": "Complete a unit assessment."
+        }
+      ],
+      "assessment": "Unit 9 assessment."
+    },
+    {
+      "week": 28,
+      "unit": 10,
+      "topic": "Borders and the Treaty of Guadalupe Hidalgo",
+      "objectives": [
+        "Analyze the Treaty of Guadalupe Hidalgo",
+        "Explain the impact on Mexican Californians"
+      ],
+      "standards": [
+        "ESMC-4",
+        "ESMC-T2",
+        "HSS-HR-4"
+      ],
+      "vocabulary": [
+        "Treaty of Guadalupe Hidalgo",
+        "Californio",
+        "land grant",
+        "border"
+      ],
+      "materials": [
+        "Treaty of Guadalupe Hidalgo (National Archives)",
+        "Land Act of 1851 summary"
+      ],
+      "days": [
+        {
+          "title": "The Treaty",
+          "work": "Read Articles VIII and IX and explain promised rights."
+        },
+        {
+          "title": "Californios",
+          "work": "Analyze how the Land Act of 1851 led to loss of Californio land."
+        },
+        {
+          "title": "Perspective",
+          "work": "Read an excerpt from María Amparo Ruiz de Burton's The Squatter and the Don."
+        },
+        {
+          "title": "The border",
+          "work": "Trace the border's history from 1848 to today on maps."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an analysis of promises vs. outcomes."
+        }
+      ],
+      "assessment": "Treaty analysis."
+    },
+    {
+      "week": 29,
+      "unit": 10,
+      "topic": "Labor and the farmworker movement",
+      "objectives": [
+        "Analyze the farmworker movement",
+        "Explain coalition building"
+      ],
+      "standards": [
+        "ESMC-6",
+        "ESMC-T4",
+        "ESMC-2"
+      ],
+      "vocabulary": [
+        "bracero program",
+        "United Farm Workers",
+        "boycott",
+        "strike",
+        "coalition"
+      ],
+      "materials": [
+        "Plan de Delano (1966)",
+        "photos of the Delano grape strike"
+      ],
+      "days": [
+        {
+          "title": "Bracero Program",
+          "work": "Read about the Bracero Program (1942–1964)."
+        },
+        {
+          "title": "Delano grape strike",
+          "work": "Learn how Filipino workers (Larry Itliong) began the 1965 strike and joined with Cesar Chavez and Dolores Huerta."
+        },
+        {
+          "title": "Plan de Delano",
+          "work": "Analyze the Plan de Delano."
+        },
+        {
+          "title": "Boycott",
+          "work": "Analyze the grape boycott as a strategy."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on coalition building."
+        }
+      ],
+      "assessment": "Coalition paragraph."
+    },
+    {
+      "week": 30,
+      "unit": 10,
+      "topic": "Education rights and Chicano movement",
+      "objectives": [
+        "Analyze education rights cases",
+        "Explain the Chicano movement"
+      ],
+      "standards": [
+        "ESMC-6",
+        "ESMC-T3",
+        "ESMC-T4",
+        "HSS-HR-4"
+      ],
+      "vocabulary": [
+        "Mendez v. Westminster",
+        "East LA walkouts",
+        "Chicano movement"
+      ],
+      "materials": [
+        "Mendez v. Westminster ruling excerpt",
+        "1968 walkout demands"
+      ],
+      "days": [
+        {
+          "title": "Mendez v. Westminster",
+          "work": "Read the 1946 ruling and connect to Brown v. Board."
+        },
+        {
+          "title": "Walkouts",
+          "work": "Analyze the 1968 East LA walkouts and students' demands."
+        },
+        {
+          "title": "Chicano art",
+          "work": "Analyze Chicano murals, such as Judith Baca's Great Wall of Los Angeles."
+        },
+        {
+          "title": "Latino diversity",
+          "work": "Research the diversity of Latino communities in California."
+        },
+        {
+          "title": "Unit 10 assessment",
+          "work": "Complete a unit assessment."
+        }
+      ],
+      "assessment": "Unit 10 assessment."
+    },
+    {
+      "week": 31,
+      "unit": 11,
+      "topic": "Chinese immigration and exclusion",
+      "objectives": [
+        "Analyze the Chinese Exclusion Act",
+        "Evaluate primary sources"
+      ],
+      "standards": [
+        "ESMC-4",
+        "ESMC-T3",
+        "HSS-HI-3"
+      ],
+      "vocabulary": [
+        "Chinese Exclusion Act",
+        "Angel Island",
+        "paper sons",
+        "nativism"
+      ],
+      "materials": [
+        "Chinese Exclusion Act (1882, National Archives)",
+        "Angel Island poetry"
+      ],
+      "days": [
+        {
+          "title": "Gold Rush and railroads",
+          "work": "Read about Chinese workers on the Transcontinental Railroad."
+        },
+        {
+          "title": "Exclusion Act",
+          "work": "Read the 1882 Act and identify its provisions."
+        },
+        {
+          "title": "Angel Island",
+          "work": "Read Angel Island poems and analyze detainees' experiences."
+        },
+        {
+          "title": "Wong Kim Ark",
+          "work": "Analyze the 1898 Wong Kim Ark case on birthright citizenship."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a source analysis."
+        }
+      ],
+      "assessment": "Source analysis."
+    },
+    {
+      "week": 32,
+      "unit": 11,
+      "topic": "Japanese American incarceration",
+      "objectives": [
+        "Analyze Executive Order 9066",
+        "Evaluate redress"
+      ],
+      "standards": [
+        "ESMC-4",
+        "ESMC-5",
+        "HSS-HR-3"
+      ],
+      "vocabulary": [
+        "Executive Order 9066",
+        "incarceration",
+        "Korematsu v. United States",
+        "redress",
+        "Civil Liberties Act of 1988"
+      ],
+      "materials": [
+        "Executive Order 9066 (National Archives)",
+        "Dorothea Lange photographs",
+        "Densho archive"
+      ],
+      "days": [
+        {
+          "title": "Executive Order 9066",
+          "work": "Read EO 9066 and analyze its language."
+        },
+        {
+          "title": "Lange photos",
+          "work": "Analyze Dorothea Lange's photos of Manzanar."
+        },
+        {
+          "title": "Korematsu",
+          "work": "Read about Fred Korematsu's case and the 1983 reversal."
+        },
+        {
+          "title": "Redress",
+          "work": "Analyze the Civil Liberties Act of 1988 and the apology."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an argument on the lessons of incarceration."
+        }
+      ],
+      "assessment": "Argument paragraph."
+    },
+    {
+      "week": 33,
+      "unit": 11,
+      "topic": "Filipino, Southeast Asian, and Pacific Islander communities",
+      "objectives": [
+        "Analyze diverse AAPI experiences",
+        "Connect to contemporary issues"
+      ],
+      "standards": [
+        "ESMC-2",
+        "ESMC-T2",
+        "HSS-HR-3"
+      ],
+      "vocabulary": [
+        "manong",
+        "refugee",
+        "Pacific Islander",
+        "model minority myth"
+      ],
+      "materials": [
+        "oral histories",
+        "Hmong and Vietnamese refugee accounts"
+      ],
+      "days": [
+        {
+          "title": "Filipino Americans",
+          "work": "Read about manongs and Stockton's Little Manila."
+        },
+        {
+          "title": "Southeast Asian refugees",
+          "work": "Read accounts of Vietnamese, Cambodian, and Hmong refugees."
+        },
+        {
+          "title": "Pacific Islanders",
+          "work": "Research Native Hawaiian sovereignty or Samoan communities."
+        },
+        {
+          "title": "Model minority myth",
+          "work": "Analyze the model minority myth with data."
+        },
+        {
+          "title": "Unit 11 assessment",
+          "work": "Complete a unit assessment."
+        }
+      ],
+      "assessment": "Unit 11 assessment."
+    },
+    {
+      "week": 34,
+      "unit": 12,
+      "topic": "Coalitions and multiracial social movements",
+      "objectives": [
+        "Compare strategies of social movements",
+        "Explain how coalitions form across groups"
+      ],
+      "standards": [
+        "ESMC-6",
+        "ESMC-T4",
+        "HSS-CST-1",
+        "HSS-CST-2",
+        "HSS-HI-2"
+      ],
+      "vocabulary": [
+        "coalition",
+        "solidarity",
+        "social movement",
+        "intersectionality",
+        "nonviolent direct action"
+      ],
+      "materials": [
+        "1968 Third World Liberation Front demands (SF State)",
+        "movement timeline cards"
+      ],
+      "days": [
+        {
+          "title": "Movement timeline",
+          "work": "Build a timeline of every movement studied this semester (Alcatraz, UFW, walkouts, redress, Black Panthers) and mark where they overlapped in time and place."
+        },
+        {
+          "title": "Third World Liberation Front",
+          "work": "Read the 1968 TWLF strike demands at SF State and identify which groups joined and why the coalition succeeded."
+        },
+        {
+          "title": "Comparing strategies",
+          "work": "Compare strikes, boycotts, lawsuits, occupations, and art as strategies in a chart and judge which produced lasting change, noting limits on proving cause and effect."
+        },
+        {
+          "title": "Choose an issue",
+          "work": "Brainstorm local issues (park access, language access at clinics, school curriculum) and select one for a community action project."
+        },
+        {
+          "title": "Review & check",
+          "work": "Submit a one-page project proposal with research question, stakeholders, and intended action."
+        }
+      ],
+      "assessment": "Approved project proposal and strategies chart."
+    },
+    {
+      "week": 35,
+      "unit": 12,
+      "topic": "Community action project: research and planning",
+      "objectives": [
+        "Research a local issue with multiple sources",
+        "Plan a responsible civic action"
+      ],
+      "standards": [
+        "ESMC-7",
+        "HSS-HR-4",
+        "HSS-HR-1",
+        "ESMC-T4"
+      ],
+      "vocabulary": [
+        "stakeholder",
+        "advocacy",
+        "public comment",
+        "evidence",
+        "petition"
+      ],
+      "materials": [
+        "local newspaper archives",
+        "city council or school board agendas and minutes"
+      ],
+      "days": [
+        {
+          "title": "Local sources",
+          "work": "Find at least four sources on your issue (news article, city/county data, an agency report, a meeting agenda) and annotate each for credibility and bias."
+        },
+        {
+          "title": "Stakeholder interview",
+          "work": "Interview a stakeholder (librarian, community organizer, council staffer, or neighbor) using prepared questions."
+        },
+        {
+          "title": "Evaluate arguments",
+          "work": "Summarize the strongest arguments on each side and flag any fallacious reasoning you found."
+        },
+        {
+          "title": "Action plan",
+          "work": "Choose an action (letter to an official, public comment, informational flyer, short video) and draft it with evidence and a clear request."
+        },
+        {
+          "title": "Review & check",
+          "work": "Revise the draft action after parent/teacher feedback against a rubric for evidence and respectful tone."
+        }
+      ],
+      "assessment": "Research notes and draft action product."
+    },
+    {
+      "week": 36,
+      "unit": 12,
+      "topic": "Community action presentation and final reflection",
+      "objectives": [
+        "Present research and action to an audience",
+        "Reflect on identity, history, and civic engagement"
+      ],
+      "standards": [
+        "ESMC-7",
+        "ESMC-1",
+        "ESMC-6"
+      ],
+      "vocabulary": [
+        "civic engagement",
+        "critical hope",
+        "reflection"
+      ],
+      "materials": [
+        "presentation slides",
+        "final action product"
+      ],
+      "days": [
+        {
+          "title": "Finalize",
+          "work": "Finalize the action product and build 5 slides summarizing the issue, history, evidence, and your proposal."
+        },
+        {
+          "title": "Present",
+          "work": "Present the project (8 minutes) to family or a co-op group and answer questions."
+        },
+        {
+          "title": "Take action",
+          "work": "Send the letter, submit the public comment, or share the flyer/video, and record any response."
+        },
+        {
+          "title": "Reflection essay",
+          "work": "Write a 600-word reflection on how your understanding of identity and community changed this semester, citing two primary sources."
+        },
+        {
+          "title": "Final exam",
+          "work": "Take the Ethnic Studies final: key terms, primary source analysis, and a short essay on a movement's strategies."
+        }
+      ],
+      "assessment": "Project presentation rubric, reflection essay, and final exam."
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "grade": 12,
+  "subject": "MATH",
+  "title": "Precalculus with Statistics",
+  "description": "A college-preparatory course that deepens function analysis (polynomial, rational, exponential, logarithmic, and trigonometric), adds vectors, matrices, complex numbers in polar form, sequences, series, and conics, and closes with a substantial statistics strand: data analysis, regression, probability, and inference. Students use Desmos and CODAP throughout and finish with a limits preview and an original statistical investigation.",
+  "framework": "California Common Core State Standards for Mathematics (Higher Mathematics, including + standards); 2023 California Mathematics Framework (Data Science and Precalculus pathways)",
+  "minutes_per_day": 60,
+  "ag_requirement": "c",
+  "credits": 10,
+  "standards": {
+    "F-IF.4": "Interpret key features of graphs and tables of functions in terms of quantities (intercepts, intervals of increase/decrease, extrema, symmetry, end behavior, periodicity).",
+    "F-IF.5": "Relate the domain of a function to its graph and to the quantitative relationship it describes.",
+    "F-IF.6": "Calculate and interpret the average rate of change of a function over a specified interval.",
+    "F-IF.7": "Graph functions expressed symbolically and show key features (polynomial, rational, exponential, logarithmic, trigonometric), by hand and using technology.",
+    "F-IF.8": "Write a function in different but equivalent forms to reveal and explain different properties.",
+    "F-IF.9": "Compare properties of two functions each represented in a different way.",
+    "F-BF.1": "Write a function that describes a relationship between two quantities, including composition of functions.",
+    "F-BF.2": "Write arithmetic and geometric sequences both recursively and with an explicit formula and use them to model situations.",
+    "F-BF.3": "Identify the effect on the graph of replacing f(x) by f(x)+k, k f(x), f(kx), and f(x+k); recognize even and odd functions.",
+    "F-BF.4": "Find inverse functions; verify by composition; read inverse values from graphs or tables; restrict domains to produce invertible functions.",
+    "F-BF.5": "Understand the inverse relationship between exponents and logarithms and use it to solve problems.",
+    "F-LE.4": "For exponential models, express as a logarithm the solution to ab^(ct) = d and evaluate it using technology.",
+    "F-TF.1": "Understand radian measure of an angle as the length of the arc on the unit circle subtended by the angle.",
+    "F-TF.2": "Explain how the unit circle extends trigonometric functions to all real numbers.",
+    "F-TF.3": "Use special triangles to determine values of sine, cosine, and tangent for π/3, π/4, π/6 and use the unit circle to express values for π−x, π+x, and 2π−x.",
+    "F-TF.4": "Use the unit circle to explain symmetry (odd and even) and periodicity of trigonometric functions.",
+    "F-TF.5": "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.",
+    "F-TF.6": "Understand that restricting a trigonometric function to a domain where it is always increasing or decreasing allows its inverse to be constructed.",
+    "F-TF.7": "Use inverse functions to solve trigonometric equations that arise in modeling contexts; evaluate with technology and interpret.",
+    "F-TF.8": "Prove the Pythagorean identity sin²θ + cos²θ = 1 and use it to find trig values.",
+    "F-TF.9": "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.",
+    "G-SRT.9": "Derive the formula A = ½ab sin(C) for the area of a triangle.",
+    "G-SRT.10": "Prove the Laws of Sines and Cosines and use them to solve problems.",
+    "G-SRT.11": "Understand and apply the Law of Sines and Law of Cosines to find unknown measures in right and non-right triangles.",
+    "G-GPE.2": "Derive the equation of a parabola given a focus and directrix.",
+    "G-GPE.3": "Derive the equations of ellipses and hyperbolas given the foci, using the fact that the sum or difference of distances from the foci is constant.",
+    "N-CN.3": "Find the conjugate of a complex number; use conjugates to find moduli and quotients of complex numbers.",
+    "N-CN.4": "Represent complex numbers on the complex plane in rectangular and polar form and explain why the forms represent the same number.",
+    "N-CN.5": "Represent addition, subtraction, multiplication, and conjugation of complex numbers geometrically on the complex plane.",
+    "N-CN.6": "Calculate the distance between numbers in the complex plane as the modulus of the difference.",
+    "N-VM.1": "Recognize vector quantities as having magnitude and direction; use appropriate notation.",
+    "N-VM.3": "Solve problems involving velocity and other quantities that can be represented by vectors.",
+    "N-VM.4": "Add and subtract vectors (end-to-end, component-wise, parallelogram rule).",
+    "N-VM.5": "Multiply a vector by a scalar.",
+    "N-VM.6": "Use matrices to represent and manipulate data.",
+    "N-VM.8": "Add, subtract, and multiply matrices of appropriate dimensions.",
+    "N-VM.10": "Understand that the zero and identity matrices play roles similar to 0 and 1; a square matrix has an inverse if and only if its determinant is nonzero.",
+    "A-APR.2": "Know and apply the Remainder Theorem.",
+    "A-APR.3": "Identify zeros of polynomials when suitable factorizations are available and use them to sketch a graph.",
+    "A-APR.6": "Rewrite simple rational expressions in different forms using inspection, long division, or a computer algebra system.",
+    "A-APR.7": "Understand that rational expressions form a system analogous to the rational numbers; add, subtract, multiply, and divide them.",
+    "A-REI.8": "Represent a system of linear equations as a single matrix equation in a vector variable.",
+    "A-REI.9": "Find the inverse of a matrix if it exists and use it to solve systems of linear equations (using technology for 3×3 or greater).",
+    "A-SSE.4": "Derive the formula for the sum of a finite geometric series and use it to solve problems.",
+    "S-ID.1": "Represent data with plots on the real number line (dot plots, histograms, box plots).",
+    "S-ID.2": "Use statistics appropriate to the shape of the data distribution to compare center and spread of two or more data sets.",
+    "S-ID.3": "Interpret differences in shape, center, and spread in context, accounting for effects of outliers.",
+    "S-ID.4": "Use the mean and standard deviation to fit a data set to a normal distribution and estimate population percentages.",
+    "S-ID.5": "Summarize categorical data for two categories in two-way frequency tables; interpret relative frequencies.",
+    "S-ID.6": "Represent data on two quantitative variables on a scatter plot; fit functions to data; informally assess fit using residuals.",
+    "S-ID.7": "Interpret the slope and intercept of a linear model in context.",
+    "S-ID.8": "Compute (using technology) and interpret the correlation coefficient of a linear fit.",
+    "S-ID.9": "Distinguish between correlation and causation.",
+    "S-IC.1": "Understand statistics as a process for making inferences about population parameters based on a random sample.",
+    "S-IC.2": "Decide if a specified model is consistent with results from a data-generating process, e.g., using simulation.",
+    "S-IC.3": "Recognize the purposes of and differences among sample surveys, experiments, and observational studies; explain how randomization relates to each.",
+    "S-IC.4": "Use data from a sample survey to estimate a population mean or proportion; develop a margin of error through simulation.",
+    "S-IC.5": "Use data from a randomized experiment to compare two treatments; use simulations to decide if differences are significant.",
+    "S-IC.6": "Evaluate reports based on data.",
+    "S-CP.1": "Describe events as subsets of a sample space using unions, intersections, and complements.",
+    "S-CP.2": "Understand that two events are independent if P(A and B) = P(A)P(B).",
+    "S-CP.3": "Understand conditional probability P(A|B) and interpret independence in terms of conditional probability.",
+    "S-CP.4": "Construct and interpret two-way frequency tables; use them as a sample space to decide independence and approximate conditional probabilities.",
+    "S-CP.5": "Recognize and explain conditional probability and independence in everyday language and situations.",
+    "S-CP.6": "Find the conditional probability of A given B as the fraction of B's outcomes that also belong to A.",
+    "S-CP.7": "Apply the Addition Rule, P(A or B) = P(A) + P(B) − P(A and B).",
+    "S-CP.8": "Apply the general Multiplication Rule in a uniform probability model.",
+    "S-CP.9": "Use permutations and combinations to compute probabilities of compound events.",
+    "S-MD.1": "Define a random variable for a quantity of interest and graph its probability distribution.",
+    "S-MD.2": "Calculate the expected value of a random variable; interpret it as the mean of the probability distribution.",
+    "S-MD.3": "Develop a probability distribution for a random variable defined for a sample space in which theoretical probabilities can be calculated (binomial).",
+    "S-MD.4": "Develop a probability distribution for a random variable using empirically assigned probabilities.",
+    "S-MD.5": "Weigh the possible outcomes of a decision by assigning probabilities to payoff values and finding expected values.",
+    "S-MD.6": "Use probabilities to make fair decisions (e.g., drawing by lots, random number generator).",
+    "S-MD.7": "Analyze decisions and strategies using probability concepts (product testing, medical testing)."
+  },
+  "resources": [
+    {"name": "OpenStax Precalculus 2e", "url": "https://openstax.org/details/books/precalculus-2e", "note": "Free full textbook used as the course spine for Units 1–7"},
+    {"name": "OpenStax Introductory Statistics 2e", "url": "https://openstax.org/details/books/introductory-statistics-2e", "note": "Free textbook for Units 8–10"},
+    {"name": "Khan Academy – Precalculus", "url": "https://www.khanacademy.org/math/precalculus", "note": "Videos and mastery practice for trig, vectors, matrices, complex numbers, series, conics"},
+    {"name": "Khan Academy – Statistics and Probability", "url": "https://www.khanacademy.org/math/statistics-probability", "note": "Practice for data analysis, probability, and inference"},
+    {"name": "Desmos Graphing Calculator", "url": "https://www.desmos.com/calculator", "note": "Free graphing and regression tool used daily"},
+    {"name": "CODAP (Common Online Data Analysis Platform)", "url": "https://codap.concord.org", "note": "Free data-science tool for exploring real data sets and simulations"}
+  ],
+  "units": [
+    {"number": 1, "title": "Functions and Their Transformations", "start_week": 1, "end_week": 4, "big_idea": "A small family of parent functions, transformed and combined, models a huge range of situations.", "standards": ["F-IF.4", "F-IF.5", "F-IF.6", "F-IF.9", "F-BF.1", "F-BF.3", "F-BF.4"]},
+    {"number": 2, "title": "Polynomial and Rational Functions", "start_week": 5, "end_week": 7, "big_idea": "Factors determine zeros, and zeros and asymptotes determine the shape of a graph.", "standards": ["A-APR.2", "A-APR.3", "A-APR.6", "A-APR.7", "F-IF.7", "N-CN.3"]},
+    {"number": 3, "title": "Exponential and Logarithmic Functions", "start_week": 8, "end_week": 9, "big_idea": "Logarithms undo exponentials and let us solve for time in growth and decay.", "standards": ["F-BF.5", "F-LE.4", "F-IF.7", "F-IF.8"]},
+    {"number": 4, "title": "Trigonometric Functions", "start_week": 10, "end_week": 13, "big_idea": "The unit circle turns angles into coordinates and creates functions that model anything periodic.", "standards": ["F-TF.1", "F-TF.2", "F-TF.3", "F-TF.4", "F-TF.5", "F-TF.6", "F-TF.7"]},
+    {"number": 5, "title": "Analytic Trigonometry, Triangles, and Polar Form", "start_week": 14, "end_week": 16, "big_idea": "Identities and the Laws of Sines and Cosines extend trigonometry to any triangle and to the complex plane.", "standards": ["F-TF.8", "F-TF.9", "G-SRT.9", "G-SRT.10", "G-SRT.11", "N-CN.4", "N-CN.5", "N-CN.6"]},
+    {"number": 6, "title": "Vectors and Matrices", "start_week": 17, "end_week": 19, "big_idea": "Vectors capture magnitude and direction; matrices organize data and solve systems all at once.", "standards": ["N-VM.1", "N-VM.3", "N-VM.4", "N-VM.5", "N-VM.6", "N-VM.8", "N-VM.10", "A-REI.8", "A-REI.9"]},
+    {"number": 7, "title": "Sequences, Series, and Conic Sections", "start_week": 20, "end_week": 21, "big_idea": "Patterns that repeat by addition or multiplication can be summed, and conics are defined by distance.", "standards": ["F-BF.2", "A-SSE.4", "G-GPE.2", "G-GPE.3"]},
+    {"number": 8, "title": "Data Analysis and Regression", "start_week": 22, "end_week": 25, "big_idea": "Distributions and models summarize variability, but correlation alone never proves cause.", "standards": ["S-ID.1", "S-ID.2", "S-ID.3", "S-ID.4", "S-ID.5", "S-ID.6", "S-ID.7", "S-ID.8", "S-ID.9"]},
+    {"number": 9, "title": "Probability and Random Variables", "start_week": 26, "end_week": 29, "big_idea": "Probability quantifies uncertainty and expected value guides decisions.", "standards": ["S-CP.1", "S-CP.2", "S-CP.3", "S-CP.4", "S-CP.5", "S-CP.6", "S-CP.7", "S-CP.8", "S-CP.9", "S-MD.1", "S-MD.2", "S-MD.3", "S-MD.4"]},
+    {"number": 10, "title": "Statistical Inference and Decisions", "start_week": 30, "end_week": 32, "big_idea": "Random samples and experiments let us draw conclusions about populations with known uncertainty.", "standards": ["S-IC.1", "S-IC.2", "S-IC.3", "S-IC.4", "S-IC.5", "S-IC.6", "S-MD.5", "S-MD.6", "S-MD.7"]},
+    {"number": 11, "title": "Limits Preview and Statistics Capstone", "start_week": 33, "end_week": 36, "big_idea": "Average rates of change point toward calculus, and a full investigation pulls the year's statistics together.", "standards": ["F-IF.6", "F-IF.4", "S-IC.1", "S-IC.6", "S-ID.6"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "Functions, domain, and key features", "objectives": ["Determine domain and range from equations and graphs", "Describe key features of a graph in context"], "standards": ["F-IF.4", "F-IF.5"], "vocabulary": ["function", "domain", "range", "interval notation", "extrema"], "materials": ["Desmos", "graph paper"],
+      "days": [
+        {"title": "What is a function?", "work": "Review function definition with mappings, tables, and the vertical-line test; classify 12 relations as functions or not and explain each."},
+        {"title": "Domain and range", "work": "Find domain and range in interval notation for 15 functions including square-root, rational, and piecewise examples."},
+        {"title": "Reading graphs", "work": "Analyze 6 real-context graphs (e.g., temperature over a day) for intercepts, increasing/decreasing intervals, and relative extrema."},
+        {"title": "Piecewise functions", "work": "Graph piecewise functions by hand, then model a cell-phone or tax-bracket plan as a piecewise function in Desmos."},
+        {"title": "Quiz", "work": "Take a quiz on domain, range, interval notation, and key features."}
+      ], "assessment": "Quiz on domain, range, and key features."},
+    {"week": 2, "unit": 1, "topic": "Parent functions and transformations", "objectives": ["Apply vertical/horizontal shifts, stretches, and reflections", "Identify even and odd functions"], "standards": ["F-BF.3", "F-IF.4"], "vocabulary": ["parent function", "translation", "dilation", "reflection", "even/odd"], "materials": ["Desmos sliders"],
+      "days": [
+        {"title": "Parent library", "work": "Sketch and memorize key points of 8 parent functions (linear, quadratic, cubic, absolute value, square root, cube root, reciprocal, exponential)."},
+        {"title": "Shifts", "work": "Use Desmos sliders to discover the effects of f(x)+k and f(x+k); graph 10 shifted functions by hand."},
+        {"title": "Stretches & reflections", "work": "Explore k·f(x) and f(kx) with sliders; write equations for 8 transformed graphs."},
+        {"title": "Even and odd", "work": "Test 10 functions algebraically (f(−x)) and graphically for even/odd symmetry."},
+        {"title": "Transformation challenge", "work": "Complete a Desmos 'match the graph' set of 12 multi-step transformations and take a short check."}
+      ], "assessment": "Transformation matching challenge."},
+    {"week": 3, "unit": 1, "topic": "Combining and composing functions; average rate of change", "objectives": ["Perform operations and compositions on functions", "Compute and interpret average rate of change"], "standards": ["F-BF.1", "F-IF.6", "F-IF.9"], "vocabulary": ["composition", "difference quotient", "average rate of change", "secant line"], "materials": ["Desmos"],
+      "days": [
+        {"title": "Function operations", "work": "Find (f+g), (f−g), (fg), (f/g) and their domains for 8 pairs of functions."},
+        {"title": "Composition", "work": "Evaluate and simplify f(g(x)) and g(f(x)) and decompose 6 functions into compositions; model a sale price with stacked discounts."},
+        {"title": "Average rate of change", "work": "Compute average rates of change over intervals from tables, graphs, and equations; interpret units in context (miles per hour, dollars per year)."},
+        {"title": "Difference quotient", "work": "Simplify the difference quotient [f(x+h)−f(x)]/h for linear, quadratic, and reciprocal functions as a calculus preview."},
+        {"title": "Compare representations", "work": "Compare two functions given in different forms (a table and an equation) for rate of change and maximum value; take a quiz."}
+      ], "assessment": "Quiz on composition and rate of change."},
+    {"week": 4, "unit": 1, "topic": "Inverse functions and Unit 1 test", "objectives": ["Find and verify inverse functions", "Restrict domains to create invertible functions"], "standards": ["F-BF.4", "F-BF.1"], "vocabulary": ["inverse", "one-to-one", "horizontal-line test", "restricted domain"], "materials": ["Desmos", "patty paper"],
+      "days": [
+        {"title": "Inverses graphically", "work": "Reflect graphs over y = x on patty paper and in Desmos; apply the horizontal-line test to 10 functions."},
+        {"title": "Inverses algebraically", "work": "Find inverses of 10 functions algebraically and verify each by showing f(f⁻¹(x)) = x."},
+        {"title": "Restricting domains", "work": "Restrict domains of quadratics and absolute value functions so they are invertible; find each inverse."},
+        {"title": "Review", "work": "Complete a mixed review set on all Unit 1 topics and correct errors using an answer key."},
+        {"title": "Unit 1 test", "work": "Take the Unit 1 test on functions, transformations, composition, and inverses."}
+      ], "assessment": "Unit 1 test."},
+    {"week": 5, "unit": 2, "topic": "Polynomial functions", "objectives": ["Analyze end behavior and multiplicity", "Sketch polynomials from factored form"], "standards": ["A-APR.3", "F-IF.7"], "vocabulary": ["degree", "leading coefficient", "multiplicity", "end behavior", "turning point"], "materials": ["Desmos", "graph paper"],
+      "days": [
+        {"title": "End behavior", "work": "Determine end behavior from degree and leading coefficient for 12 polynomials; verify in Desmos."},
+        {"title": "Zeros & multiplicity", "work": "Investigate how multiplicity 1, 2, and 3 zeros look on a graph (cross, bounce, flatten)."},
+        {"title": "Sketching", "work": "Sketch 8 polynomials from factored form, labeling intercepts, end behavior, and turning-point counts."},
+        {"title": "Modeling with polynomials", "work": "Model the volume of an open box made by cutting squares from a sheet of paper; build one and find the maximum volume in Desmos."},
+        {"title": "Check", "work": "Complete a polynomial-graphing quiz including writing an equation from a graph."}
+      ], "assessment": "Polynomial graphing quiz and box-volume model."},
+    {"week": 6, "unit": 2, "topic": "Polynomial division and complex zeros", "objectives": ["Divide polynomials and apply the Remainder and Factor Theorems", "Find all real and complex zeros"], "standards": ["A-APR.2", "A-APR.6", "N-CN.3"], "vocabulary": ["synthetic division", "Remainder Theorem", "Rational Root Theorem", "complex conjugate"], "materials": ["notebook"],
+      "days": [
+        {"title": "Long division", "work": "Divide polynomials using long division for 8 problems including ones with missing terms."},
+        {"title": "Synthetic division & Remainder Theorem", "work": "Use synthetic division and the Remainder Theorem to evaluate and test factors of 10 polynomials."},
+        {"title": "Rational Root Theorem", "work": "List possible rational zeros and fully factor 6 cubics and quartics."},
+        {"title": "Complex zeros", "work": "Find all zeros including complex conjugate pairs; compute moduli and quotients of complex numbers using conjugates."},
+        {"title": "Quiz", "work": "Take a quiz on division, factor theorem, and finding all zeros."}
+      ], "assessment": "Zeros and division quiz."},
+    {"week": 7, "unit": 2, "topic": "Rational functions", "objectives": ["Identify asymptotes and holes", "Operate on rational expressions and solve rational equations"], "standards": ["A-APR.6", "A-APR.7", "F-IF.7"], "vocabulary": ["vertical asymptote", "horizontal asymptote", "slant asymptote", "removable discontinuity"], "materials": ["Desmos"],
+      "days": [
+        {"title": "Asymptotes", "work": "Find vertical, horizontal, and slant asymptotes and holes for 10 rational functions."},
+        {"title": "Graphing", "work": "Sketch 6 rational functions by hand using intercepts, asymptotes, and sign charts; check in Desmos."},
+        {"title": "Rational expressions", "work": "Add, subtract, multiply, and divide rational expressions; solve rational equations and check for extraneous solutions."},
+        {"title": "Applications", "work": "Model average cost per item C(x) = (fixed + variable·x)/x and interpret the horizontal asymptote."},
+        {"title": "Unit 2 test", "work": "Take the Unit 2 test on polynomial and rational functions."}
+      ], "assessment": "Unit 2 test."},
+    {"week": 8, "unit": 3, "topic": "Exponential functions and logarithms", "objectives": ["Graph exponential and log functions", "Apply log properties"], "standards": ["F-BF.5", "F-IF.7", "F-IF.8"], "vocabulary": ["base e", "logarithm", "natural log", "change of base"], "materials": ["Desmos", "calculator"],
+      "days": [
+        {"title": "Exponential graphs", "work": "Graph growth and decay functions including base e; identify asymptotes and transformations."},
+        {"title": "Compound interest and e", "work": "Compute compound interest for annual through continuous compounding and watch the values approach e."},
+        {"title": "Logarithms", "work": "Convert between exponential and log form; graph y = log_b(x) as the inverse of y = b^x."},
+        {"title": "Log properties", "work": "Expand and condense 15 expressions using product, quotient, and power rules; use change of base."},
+        {"title": "Check", "work": "Take a quiz on exponential/log graphs and properties."}
+      ], "assessment": "Exponent/log quiz."},
+    {"week": 9, "unit": 3, "topic": "Solving exponential and logarithmic equations; modeling", "objectives": ["Solve exponential and log equations", "Fit exponential models to data"], "standards": ["F-LE.4", "F-BF.5", "F-IF.8"], "vocabulary": ["half-life", "doubling time", "exponential regression", "extraneous"], "materials": ["Desmos", "cup of hot water and thermometer"],
+      "days": [
+        {"title": "Solving equations", "work": "Solve 12 exponential and logarithmic equations, checking for extraneous solutions."},
+        {"title": "Half-life and doubling", "work": "Solve half-life (carbon-14) and doubling-time (population, investment) problems with logarithms."},
+        {"title": "Cooling lab", "work": "Measure the temperature of a cup of hot water every 2 minutes for 30 minutes and record data for Newton's Law of Cooling."},
+        {"title": "Fit the model", "work": "Fit an exponential model to the cooling data in Desmos, interpret parameters, and predict when it reaches 40 °C."},
+        {"title": "Unit 3 test", "work": "Take the Unit 3 test on exponential and logarithmic functions."}
+      ], "assessment": "Unit 3 test and cooling-lab report."},
+    {"week": 10, "unit": 4, "topic": "Radian measure and the unit circle", "objectives": ["Convert between degrees and radians", "Use the unit circle to evaluate trig functions"], "standards": ["F-TF.1", "F-TF.2", "F-TF.3"], "vocabulary": ["radian", "arc length", "unit circle", "reference angle", "coterminal"], "materials": ["string", "paper plate", "protractor"],
+      "days": [
+        {"title": "What is a radian?", "work": "Wrap string the length of a paper plate's radius around its edge to see one radian; convert 15 angles between degrees and radians."},
+        {"title": "Arc length & sector area", "work": "Solve arc-length and sector-area problems (s = rθ, A = ½r²θ), including a bicycle-wheel application."},
+        {"title": "Building the unit circle", "work": "Use 30-60-90 and 45-45-90 triangles to build the unit circle coordinates for all special angles."},
+        {"title": "Reference angles", "work": "Evaluate sine, cosine, and tangent of angles in all quadrants using reference angles and the unit circle."},
+        {"title": "Unit circle quiz", "work": "Fill in a blank unit circle from memory in under 5 minutes and take an evaluation quiz."}
+      ], "assessment": "Timed unit circle and evaluation quiz."},
+    {"week": 11, "unit": 4, "topic": "Graphs of sine and cosine", "objectives": ["Graph sinusoids with amplitude, period, phase shift, and midline", "Explain symmetry and periodicity"], "standards": ["F-TF.4", "F-TF.5", "F-IF.7"], "vocabulary": ["amplitude", "period", "phase shift", "midline", "sinusoid"], "materials": ["Desmos"],
+      "days": [
+        {"title": "Unwrapping the circle", "work": "Use a Desmos animation to unwrap the unit circle into sine and cosine graphs; explain even/odd symmetry."},
+        {"title": "Amplitude & period", "work": "Graph y = a sin(bx) and y = a cos(bx) for 8 cases by hand."},
+        {"title": "Phase shift & midline", "work": "Graph fully transformed sinusoids y = a sin(b(x−h)) + k and write equations from graphs."},
+        {"title": "Modeling periodic data", "work": "Model daylight hours for your California city over a year (data from timeanddate or NOAA) with a sinusoid."},
+        {"title": "Check", "work": "Take a quiz on graphing and writing sinusoidal equations."}
+      ], "assessment": "Sinusoid quiz and daylight model."},
+    {"week": 12, "unit": 4, "topic": "Other trig graphs and modeling", "objectives": ["Graph tangent, cotangent, secant, cosecant", "Model periodic phenomena"], "standards": ["F-TF.5", "F-IF.7", "F-IF.4"], "vocabulary": ["tangent", "secant", "cosecant", "cotangent", "frequency"], "materials": ["Desmos", "tide tables (NOAA)"],
+      "days": [
+        {"title": "Tangent graphs", "work": "Graph y = tan x and transformations; identify asymptotes and period."},
+        {"title": "Reciprocal functions", "work": "Graph secant and cosecant as reciprocals of cosine and sine and identify their asymptotes."},
+        {"title": "Ferris wheel", "work": "Write a height-versus-time function for a rider on a Ferris wheel with given diameter, center height, and rotation period."},
+        {"title": "Tides", "work": "Use NOAA tide predictions for a California station to build and test a sinusoidal model."},
+        {"title": "Review", "work": "Complete a mixed graphing review and correct errors."}
+      ], "assessment": "Ferris wheel and tide modeling tasks."},
+    {"week": 13, "unit": 4, "topic": "Inverse trig functions and trig equations", "objectives": ["Evaluate inverse trig functions on restricted domains", "Solve trig equations in context"], "standards": ["F-TF.6", "F-TF.7"], "vocabulary": ["arcsin", "arccos", "arctan", "principal value", "general solution"], "materials": ["calculator", "Desmos"],
+      "days": [
+        {"title": "Restricted domains", "work": "Explain why sine, cosine, and tangent must be restricted to be invertible; graph arcsin, arccos, arctan."},
+        {"title": "Evaluate inverses", "work": "Evaluate 15 inverse trig expressions exactly and with a calculator, including compositions like sin(arccos(3/5))."},
+        {"title": "Solve equations", "work": "Solve linear and quadratic trig equations on [0, 2π) and write general solutions."},
+        {"title": "Modeling equations", "work": "Use your Ferris wheel and daylight models to find when the height or daylight reaches a target value."},
+        {"title": "Unit 4 test", "work": "Take the Unit 4 test on trigonometric functions."}
+      ], "assessment": "Unit 4 test."},
+    {"week": 14, "unit": 5, "topic": "Trigonometric identities", "objectives": ["Prove the Pythagorean identity", "Verify identities and use sum/difference formulas"], "standards": ["F-TF.8", "F-TF.9"], "vocabulary": ["identity", "Pythagorean identity", "sum formula", "double-angle"], "materials": ["identity reference sheet"],
+      "days": [
+        {"title": "Pythagorean identity", "work": "Prove sin²θ + cos²θ = 1 from the unit circle and use it to find trig values given one ratio and the quadrant."},
+        {"title": "Verifying identities", "work": "Verify 10 identities using reciprocal, quotient, and Pythagorean identities."},
+        {"title": "Sum and difference", "work": "Follow a proof of cos(A−B) and use sum/difference formulas to find exact values like sin 75°."},
+        {"title": "Double angle", "work": "Derive double-angle formulas and use them to solve equations such as sin 2x = cos x."},
+        {"title": "Quiz", "work": "Take an identities quiz with two proofs and four exact-value problems."}
+      ], "assessment": "Identities quiz."},
+    {"week": 15, "unit": 5, "topic": "Law of Sines, Law of Cosines, and triangle area", "objectives": ["Solve oblique triangles", "Find triangle area using ½ab sin C"], "standards": ["G-SRT.9", "G-SRT.10", "G-SRT.11"], "vocabulary": ["oblique triangle", "ambiguous case", "Law of Sines", "Law of Cosines", "Heron's formula"], "materials": ["tape measure", "protractor or phone inclinometer app"],
+      "days": [
+        {"title": "Area formula", "work": "Derive A = ½ab sin C from base-height area and find areas of 6 triangles."},
+        {"title": "Law of Sines", "work": "Prove the Law of Sines and solve AAS, ASA, and ambiguous SSA triangles."},
+        {"title": "Law of Cosines", "work": "Prove the Law of Cosines and solve SAS and SSS triangles; use Heron's formula."},
+        {"title": "Field measurement", "work": "Measure two sides and an angle of a triangular region in your yard or a park and compute the unknown side and area; verify with a tape measure."},
+        {"title": "Quiz", "work": "Take a quiz on solving oblique triangles including a navigation word problem."}
+      ], "assessment": "Oblique triangle quiz and field report."},
+    {"week": 16, "unit": 5, "topic": "Polar coordinates and complex numbers in polar form", "objectives": ["Convert between rectangular and polar", "Multiply complex numbers in polar form"], "standards": ["N-CN.4", "N-CN.5", "N-CN.6"], "vocabulary": ["polar coordinates", "modulus", "argument", "complex plane", "De Moivre's Theorem"], "materials": ["polar graph paper", "Desmos"],
+      "days": [
+        {"title": "Polar coordinates", "work": "Plot points in polar form and convert 12 points between rectangular and polar coordinates."},
+        {"title": "Polar graphs", "work": "Graph roses, cardioids, and circles in Desmos and by hand; describe symmetry."},
+        {"title": "Complex plane", "work": "Plot complex numbers; represent addition and conjugation geometrically; find distance as the modulus of a difference."},
+        {"title": "Polar form operations", "work": "Write complex numbers in r(cos θ + i sin θ) form; multiply by multiplying moduli and adding arguments; apply De Moivre's Theorem."},
+        {"title": "Unit 5 test", "work": "Take the Unit 5 test on identities, oblique triangles, and polar/complex forms."}
+      ], "assessment": "Unit 5 test."},
+    {"week": 17, "unit": 6, "topic": "Vectors", "objectives": ["Represent and operate on vectors", "Solve velocity and force problems"], "standards": ["N-VM.1", "N-VM.3", "N-VM.4", "N-VM.5"], "vocabulary": ["vector", "magnitude", "component form", "unit vector", "resultant"], "materials": ["ruler", "protractor", "graph paper"],
+      "days": [
+        {"title": "Vector basics", "work": "Draw vectors, find magnitude and direction, and write them in component and i/j form."},
+        {"title": "Adding vectors", "work": "Add and subtract vectors tip-to-tail, by parallelogram, and by components; scalar-multiply vectors."},
+        {"title": "Velocity", "work": "Solve airplane-with-crosswind and boat-across-river problems for ground speed and heading."},
+        {"title": "Forces", "work": "Find the resultant of two people pulling a wagon at different angles; check equilibrium of three forces."},
+        {"title": "Quiz", "work": "Take a vectors quiz including one real-world navigation problem."}
+      ], "assessment": "Vectors quiz."},
+    {"week": 18, "unit": 6, "topic": "Semester 1 review and final exam", "objectives": ["Review functions, trig, and vectors", "Demonstrate semester mastery"], "standards": ["F-IF.4", "F-BF.4", "F-TF.5", "G-SRT.11", "N-VM.4"], "vocabulary": ["review"], "materials": ["review packet", "Khan Academy unit tests"],
+      "days": [
+        {"title": "Review: functions", "work": "Complete a review set on transformations, inverses, polynomials, rationals, and logs."},
+        {"title": "Review: trig", "work": "Complete a review set on the unit circle, sinusoids, identities, and triangle laws."},
+        {"title": "Practice exam", "work": "Take a timed practice exam and analyze errors by topic."},
+        {"title": "Targeted practice", "work": "Do Khan Academy practice on your two weakest topics from the practice exam."},
+        {"title": "Semester final", "work": "Take the cumulative Semester 1 final exam."}
+      ], "assessment": "Semester 1 final exam."},
+    {"week": 19, "unit": 6, "topic": "Matrices and systems", "objectives": ["Operate on matrices", "Solve systems with inverse matrices"], "standards": ["N-VM.6", "N-VM.8", "N-VM.10", "A-REI.8", "A-REI.9"], "vocabulary": ["matrix", "dimension", "determinant", "identity matrix", "inverse matrix"], "materials": ["Desmos matrix calculator"],
+      "days": [
+        {"title": "Matrices as data", "work": "Organize store inventory and price data in matrices; add, subtract, and scalar-multiply them."},
+        {"title": "Matrix multiplication", "work": "Multiply matrices by hand and compute total revenue by multiplying a sales matrix by a price matrix."},
+        {"title": "Determinants & inverses", "work": "Compute 2×2 determinants and inverses; verify AA⁻¹ = I; discuss why det = 0 means no inverse."},
+        {"title": "Solving systems", "work": "Write 3×3 systems as AX = B and solve with inverse matrices using technology; solve a nutrition-mix problem."},
+        {"title": "Unit 6 test", "work": "Take the Unit 6 test on vectors and matrices."}
+      ], "assessment": "Unit 6 test."},
+    {"week": 20, "unit": 7, "topic": "Sequences and series", "objectives": ["Write arithmetic and geometric sequences", "Find sums of finite and infinite geometric series"], "standards": ["F-BF.2", "A-SSE.4"], "vocabulary": ["sequence", "series", "common ratio", "sigma notation", "convergence"], "materials": ["notebook"],
+      "days": [
+        {"title": "Arithmetic sequences", "work": "Write arithmetic sequences recursively and explicitly and find sums with the arithmetic series formula."},
+        {"title": "Geometric sequences", "work": "Write geometric sequences both ways; model a bouncing ball's rebound heights."},
+        {"title": "Geometric series", "work": "Derive the finite geometric series formula and use it to compute a loan or annuity total."},
+        {"title": "Infinite series", "work": "Determine convergence of infinite geometric series and find sums; write repeating decimals as fractions."},
+        {"title": "Quiz", "work": "Take a sequences and series quiz using sigma notation."}
+      ], "assessment": "Sequences and series quiz."},
+    {"week": 21, "unit": 7, "topic": "Conic sections", "objectives": ["Derive and graph parabolas, ellipses, and hyperbolas", "Connect conics to applications"], "standards": ["G-GPE.2", "G-GPE.3"], "vocabulary": ["focus", "directrix", "ellipse", "hyperbola", "eccentricity"], "materials": ["string", "two pushpins", "cardboard", "flashlight"],
+      "days": [
+        {"title": "Slicing a cone", "work": "Shine a flashlight at a wall at different angles to see circle, ellipse, parabola, and hyperbola; derive a parabola from focus and directrix."},
+        {"title": "Ellipses", "work": "Draw an ellipse with string and two pins; derive its equation and graph ellipses from standard form."},
+        {"title": "Hyperbolas", "work": "Graph hyperbolas, find foci and asymptotes, and discuss LORAN-style navigation."},
+        {"title": "Completing the square", "work": "Convert general-form conic equations to standard form and identify the conic type."},
+        {"title": "Unit 7 test", "work": "Take the Unit 7 test on sequences, series, and conics."}
+      ], "assessment": "Unit 7 test."},
+    {"week": 22, "unit": 8, "topic": "Describing distributions", "objectives": ["Display data with dot plots, histograms, and box plots", "Choose appropriate measures of center and spread"], "standards": ["S-ID.1", "S-ID.2", "S-ID.3"], "vocabulary": ["distribution", "skew", "IQR", "standard deviation", "outlier"], "materials": ["CODAP", "stopwatch"],
+      "days": [
+        {"title": "Collect data", "work": "Collect reaction-time data (ruler-drop test, 30 trials each for dominant and non-dominant hand)."},
+        {"title": "Displays", "work": "Create dot plots, histograms, and box plots of your data in CODAP; describe shape, center, spread, outliers (SOCS)."},
+        {"title": "Center and spread", "work": "Compute mean, median, standard deviation, and IQR; explain which are appropriate for skewed data."},
+        {"title": "Comparing groups", "work": "Compare dominant vs. non-dominant reaction times with parallel box plots and write a comparison paragraph."},
+        {"title": "Quiz", "work": "Take a quiz on describing and comparing distributions."}
+      ], "assessment": "Reaction-time comparison write-up and quiz."},
+    {"week": 23, "unit": 8, "topic": "Normal distributions", "objectives": ["Apply the Empirical Rule and z-scores", "Estimate population percentages"], "standards": ["S-ID.4"], "vocabulary": ["normal distribution", "z-score", "Empirical Rule", "percentile"], "materials": ["CODAP", "calculator"],
+      "days": [
+        {"title": "The normal curve", "work": "Explore normal curves in CODAP; apply the 68-95-99.7 rule to heights and test scores."},
+        {"title": "z-scores", "work": "Compute and compare z-scores (e.g., SAT vs. ACT scores) to decide which performance is more unusual."},
+        {"title": "Normal calculations", "work": "Use technology (normalcdf or Desmos) to find areas and percentiles for 10 problems."},
+        {"title": "When it's not normal", "work": "Check your reaction-time data for normality with a histogram and discuss when the normal model is inappropriate."},
+        {"title": "Check", "work": "Take a normal-distribution quiz."}
+      ], "assessment": "Normal distribution quiz."},
+    {"week": 24, "unit": 8, "topic": "Two-way tables and categorical data", "objectives": ["Build and interpret two-way frequency tables", "Compute joint, marginal, and conditional relative frequencies"], "standards": ["S-ID.5", "S-CP.4"], "vocabulary": ["two-way table", "marginal frequency", "joint frequency", "conditional relative frequency"], "materials": ["survey form", "CODAP"],
+      "days": [
+        {"title": "Survey design", "work": "Write a two-question categorical survey (e.g., grade level vs. preferred study time) and collect 30+ responses from family/co-op/online group."},
+        {"title": "Build tables", "work": "Organize survey results in a two-way table and compute joint and marginal relative frequencies."},
+        {"title": "Conditional frequencies", "work": "Compute row and column conditional relative frequencies and create segmented bar graphs."},
+        {"title": "Association", "work": "Decide whether there is an association between the variables and justify with conditional frequencies."},
+        {"title": "Report", "work": "Write a one-page survey report with table, graph, and conclusion."}
+      ], "assessment": "Survey report."},
+    {"week": 25, "unit": 8, "topic": "Scatter plots, regression, and correlation", "objectives": ["Fit and interpret linear and nonlinear models", "Distinguish correlation from causation"], "standards": ["S-ID.6", "S-ID.7", "S-ID.8", "S-ID.9"], "vocabulary": ["least-squares regression", "residual", "correlation coefficient r", "lurking variable"], "materials": ["CODAP", "Desmos", "public data (e.g., Gapminder)"],
+      "days": [
+        {"title": "Scatter plots", "work": "Plot life expectancy vs. GDP per capita from public data and describe direction, form, and strength."},
+        {"title": "Linear regression", "work": "Fit a least-squares line in Desmos; interpret slope and intercept in context and compute r."},
+        {"title": "Residuals", "work": "Make a residual plot to judge fit; try a logarithmic model and compare residuals."},
+        {"title": "Correlation vs. causation", "work": "Analyze 5 'spurious correlation' examples and identify lurking variables; explain why an experiment is needed for causation."},
+        {"title": "Unit 8 test", "work": "Take the Unit 8 test on data analysis and regression."}
+      ], "assessment": "Unit 8 test."},
+    {"week": 26, "unit": 9, "topic": "Probability rules", "objectives": ["Use set language for events", "Apply addition and complement rules"], "standards": ["S-CP.1", "S-CP.7"], "vocabulary": ["sample space", "event", "union", "intersection", "complement", "mutually exclusive"], "materials": ["dice", "deck of cards", "coins"],
+      "days": [
+        {"title": "Sample spaces", "work": "List sample spaces for coin, die, and card experiments; describe events with unions, intersections, and complements using Venn diagrams."},
+        {"title": "Experimental vs. theoretical", "work": "Roll two dice 100 times, record sums, and compare to theoretical probabilities."},
+        {"title": "Addition rule", "work": "Apply P(A or B) = P(A)+P(B)−P(A and B) to card and survey problems."},
+        {"title": "Complement", "work": "Use the complement rule to solve 'at least one' problems such as the birthday problem; simulate it."},
+        {"title": "Quiz", "work": "Take a probability rules quiz."}
+      ], "assessment": "Probability rules quiz."},
+    {"week": 27, "unit": 9, "topic": "Conditional probability and independence", "objectives": ["Compute conditional probabilities", "Test for independence"], "standards": ["S-CP.2", "S-CP.3", "S-CP.4", "S-CP.5", "S-CP.6", "S-CP.8"], "vocabulary": ["conditional probability", "independent", "tree diagram", "multiplication rule"], "materials": ["two-way table from Week 24"],
+      "days": [
+        {"title": "Conditional probability", "work": "Compute P(A|B) from two-way tables and Venn diagrams; explain in everyday language."},
+        {"title": "Independence", "work": "Test whether events are independent using P(A and B) = P(A)P(B) and P(A|B) = P(A) with your survey data."},
+        {"title": "Tree diagrams", "work": "Use tree diagrams and the general multiplication rule for drawing cards without replacement."},
+        {"title": "Medical testing", "work": "Compute the probability of disease given a positive test (false positives) using a tree and a table; discuss why base rates matter."},
+        {"title": "Check", "work": "Take a conditional probability quiz."}
+      ], "assessment": "Conditional probability quiz."},
+    {"week": 28, "unit": 9, "topic": "Counting methods", "objectives": ["Use permutations and combinations", "Compute probabilities of compound events"], "standards": ["S-CP.9"], "vocabulary": ["factorial", "permutation", "combination", "fundamental counting principle"], "materials": ["calculator"],
+      "days": [
+        {"title": "Counting principle", "work": "Count license plates, passwords, and outfits with the fundamental counting principle."},
+        {"title": "Permutations", "work": "Compute nPr for race finishes and seating arrangements; handle repeated letters."},
+        {"title": "Combinations", "work": "Compute nCr for committees and pizza toppings; distinguish when order matters."},
+        {"title": "Lottery math", "work": "Compute the probability of winning the California SuperLotto Plus jackpot and compare to everyday risks."},
+        {"title": "Quiz", "work": "Take a counting and probability quiz."}
+      ], "assessment": "Counting quiz."},
+    {"week": 29, "unit": 9, "topic": "Random variables and expected value", "objectives": ["Build probability distributions", "Compute expected value and binomial probabilities"], "standards": ["S-MD.1", "S-MD.2", "S-MD.3", "S-MD.4"], "vocabulary": ["random variable", "expected value", "binomial distribution", "Bernoulli trial"], "materials": ["dice", "coins", "spreadsheet"],
+      "days": [
+        {"title": "Distributions", "work": "Define a random variable for the number of heads in 4 flips; build and graph its probability distribution."},
+        {"title": "Expected value", "work": "Compute expected values for games of chance and decide whether each game is fair."},
+        {"title": "Binomial", "work": "Use the binomial formula and technology to compute probabilities for free-throw and quality-control scenarios."},
+        {"title": "Empirical distribution", "work": "Build an empirical distribution from real data (e.g., household size from census tables) and find its mean."},
+        {"title": "Unit 9 test", "work": "Take the Unit 9 test on probability."}
+      ], "assessment": "Unit 9 test."},
+    {"week": 30, "unit": 10, "topic": "Sampling, surveys, and experiments", "objectives": ["Distinguish surveys, experiments, and observational studies", "Identify bias"], "standards": ["S-IC.1", "S-IC.3", "S-IC.6"], "vocabulary": ["population", "sample", "random assignment", "bias", "confounding"], "materials": ["news articles citing studies"],
+      "days": [
+        {"title": "Populations and samples", "work": "Distinguish parameters from statistics and practice simple random, stratified, and cluster sampling with a random number generator."},
+        {"title": "Bias", "work": "Identify voluntary response, undercoverage, nonresponse, and question-wording bias in 8 survey examples."},
+        {"title": "Experiments", "work": "Design a randomized experiment (e.g., does music affect memory?) with control, randomization, and replication."},
+        {"title": "Evaluate reports", "work": "Critique two news articles that cite statistical studies: what type of study, what conclusions are justified?"},
+        {"title": "Check", "work": "Take a quiz on study design and bias."}
+      ], "assessment": "Study design quiz and article critiques."},
+    {"week": 31, "unit": 10, "topic": "Simulation, margin of error, and comparing treatments", "objectives": ["Estimate a proportion with margin of error", "Use simulation to judge significance"], "standards": ["S-IC.2", "S-IC.4", "S-IC.5"], "vocabulary": ["sampling distribution", "margin of error", "confidence interval", "statistical significance"], "materials": ["CODAP", "index cards"],
+      "days": [
+        {"title": "Sampling distributions", "work": "Simulate 500 samples in CODAP and observe how sample proportions vary; relate spread to sample size."},
+        {"title": "Margin of error", "work": "Compute a 95% margin of error for a poll proportion and interpret the confidence interval."},
+        {"title": "Run the experiment", "work": "Carry out your Week 30 memory experiment with at least 10 participants randomly assigned to two groups."},
+        {"title": "Randomization test", "work": "Use index cards or CODAP to shuffle group labels 100+ times and decide whether your observed difference is significant."},
+        {"title": "Lab report", "work": "Write a lab report with design, results, and a justified conclusion."}
+      ], "assessment": "Experiment lab report."},
+    {"week": 32, "unit": 10, "topic": "Decisions with probability", "objectives": ["Use expected value to weigh decisions", "Make fair decisions using probability"], "standards": ["S-MD.5", "S-MD.6", "S-MD.7"], "vocabulary": ["expected payoff", "insurance", "deductible", "fair decision"], "materials": ["sample insurance quotes", "spreadsheet"],
+      "days": [
+        {"title": "Insurance decisions", "work": "Compare expected costs of low vs. high deductible car or health insurance plans."},
+        {"title": "Warranties", "work": "Decide whether an extended phone warranty is worth it using expected value and failure probabilities."},
+        {"title": "Fair decisions", "work": "Design a fair method to assign chores or choose a winner using random numbers and justify its fairness."},
+        {"title": "Product testing", "work": "Analyze a drug-trial or product-testing strategy for false positive/negative tradeoffs."},
+        {"title": "Unit 10 test", "work": "Take the Unit 10 test on inference and decisions."}
+      ], "assessment": "Unit 10 test."},
+    {"week": 33, "unit": 11, "topic": "Limits preview: rates of change", "objectives": ["Estimate limits numerically and graphically", "Connect average rate of change to instantaneous rate"], "standards": ["F-IF.6", "F-IF.4"], "vocabulary": ["limit", "instantaneous rate of change", "tangent line", "continuity"], "materials": ["Desmos", "ball and phone video"],
+      "days": [
+        {"title": "Approaching a value", "work": "Estimate limits from tables and graphs, including functions with holes."},
+        {"title": "Limits algebraically", "work": "Evaluate limits by direct substitution, factoring, and rationalizing for 10 problems."},
+        {"title": "Secant to tangent", "work": "Use a Desmos slider to shrink the interval of a secant line and estimate instantaneous rate of change."},
+        {"title": "Falling ball", "work": "Video a dropped ball, model height with a quadratic, and estimate its velocity at a moment using shrinking intervals."},
+        {"title": "Check", "work": "Take a limits preview quiz."}
+      ], "assessment": "Limits quiz."},
+    {"week": 34, "unit": 11, "topic": "Statistics capstone: design and data collection", "objectives": ["Pose a statistical question", "Collect data responsibly"], "standards": ["S-IC.1", "S-IC.3"], "vocabulary": ["statistical question", "data collection plan", "variable"], "materials": ["CODAP", "public data portal (e.g., data.ca.gov)"],
+      "days": [
+        {"title": "Pose a question", "work": "Write a statistical question about your community using a public data set (data.ca.gov) or your own survey/experiment."},
+        {"title": "Plan", "work": "Write a data-collection plan naming variables, sampling method, and potential bias."},
+        {"title": "Collect", "work": "Collect or download and clean the data (remove duplicates, handle missing values) in CODAP or a spreadsheet."},
+        {"title": "Explore", "work": "Create at least three exploratory displays and summary statistics."},
+        {"title": "Checkpoint", "work": "Present your question, plan, and initial graphs in a check-in conference."}
+      ], "assessment": "Capstone plan and data checkpoint."},
+    {"week": 35, "unit": 11, "topic": "Statistics capstone: analysis and presentation", "objectives": ["Model and analyze data", "Communicate conclusions and limitations"], "standards": ["S-ID.6", "S-IC.6"], "vocabulary": ["conclusion", "limitation", "inference"], "materials": ["slides", "CODAP/Desmos"],
+      "days": [
+        {"title": "Model", "work": "Fit a regression or run a simulation-based comparison appropriate to your question."},
+        {"title": "Interpret", "work": "Interpret results in context and list at least three limitations."},
+        {"title": "Write report", "work": "Write a 4–6 page statistical report with graphs, methods, and conclusions."},
+        {"title": "Build presentation", "work": "Create a 7-minute presentation with your three most important visuals."},
+        {"title": "Present", "work": "Present the capstone to family or co-op and answer questions."}
+      ], "assessment": "Capstone report and presentation."},
+    {"week": 36, "unit": 11, "topic": "Final review and exam", "objectives": ["Review precalculus and statistics", "Demonstrate year-end mastery"], "standards": ["F-IF.4", "F-IF.6", "S-ID.6", "S-IC.1"], "vocabulary": ["review"], "materials": ["review packet"],
+      "days": [
+        {"title": "Review: functions & trig", "work": "Complete a mixed review of functions, logs, trig, vectors, and matrices."},
+        {"title": "Review: statistics", "work": "Complete a mixed review of distributions, regression, probability, and inference."},
+        {"title": "Practice final", "work": "Take a timed practice final and correct mistakes."},
+        {"title": "Calculus readiness", "work": "Take a calculus-readiness diagnostic and list topics to review this summer."},
+        {"title": "Final exam", "work": "Take the cumulative final exam."}
+      ], "assessment": "Cumulative final exam."}
+  ]
+}
