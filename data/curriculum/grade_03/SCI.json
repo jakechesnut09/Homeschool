@@ -1272,7 +1272,7 @@
       "unit": 8,
       "topic": "Weather tools",
       "objectives": [
-        "Identify weather conditions and tools",
+        "Identify weather conditions and the tools that measure them",
         "Build simple weather instruments"
       ],
       "standards": [
@@ -1283,45 +1283,50 @@
         "precipitation",
         "wind",
         "thermometer",
-        "rain gauge"
+        "rain gauge",
+        "wind vane"
       ],
       "materials": [
-        "jar",
+        "straight-sided jar",
         "ruler",
+        "tape",
         "thermometer",
-        "paper cups",
-        "straw"
+        "straw",
+        "index card",
+        "pencil with eraser",
+        "pin"
       ],
       "days": [
         {
           "title": "Weather words",
-          "work": "Define temperature, precipitation, wind and clouds; begin a daily weather log."
+          "work": "Define temperature, precipitation, wind and cloud cover and set up a daily weather log page in your science notebook."
         },
         {
           "title": "Rain gauge",
-          "work": "Build a rain gauge from a jar and ruler."
+          "work": "Build a rain gauge by taping a ruler to a straight-sided jar and place it in an open spot outdoors."
         },
         {
           "title": "Wind vane",
-          "work": "Build a wind vane from a straw and paper."
+          "work": "Build a wind vane from a straw, index-card arrow and pencil eraser, and mark N/S/E/W with a compass app."
         },
         {
           "title": "Thermometer",
-          "work": "Read a thermometer at 3 times of day and record."
+          "work": "Read an outdoor thermometer at 8 a.m., noon and 4 p.m. and explain why temperatures change through the day."
         },
         {
           "title": "Review & check",
-          "work": "Explain each weather tool and record a week of weather data."
+          "work": "Explain what each homemade instrument measures and record a full day's weather using all of them."
         }
       ],
-      "assessment": "Weather instrument use and log"
+      "assessment": "Instrument explanation and first log entries"
     },
     {
       "week": 26,
       "unit": 8,
       "topic": "Collecting weather data",
       "objectives": [
-        "Collect and record daily weather data"
+        "Collect and record daily weather data",
+        "Identify cloud types"
       ],
       "standards": [
         "3-ESS2-1"
@@ -1329,33 +1334,36 @@
       "vocabulary": [
         "data",
         "table",
-        "cloud types",
+        "cumulus",
+        "stratus",
+        "cirrus",
         "forecast"
       ],
       "materials": [
         "weather instruments",
-        "log"
+        "weather log",
+        "NOAA forecast page"
       ],
       "days": [
         {
           "title": "Clouds",
-          "work": "Identify cumulus, stratus and cirrus clouds and add to the log."
+          "work": "Learn cumulus, stratus and cirrus clouds using SciJinks, then identify today's clouds and sketch them in the log."
         },
         {
           "title": "Daily data",
-          "work": "Record temperature, precipitation, wind and clouds each day."
+          "work": "Record temperature, rainfall, wind direction and cloud type at the same time each day."
         },
         {
           "title": "Forecasts",
-          "work": "Compare your observations to a NOAA forecast."
+          "work": "Compare your observations to the NOAA/National Weather Service forecast for your town and note matches."
         },
         {
           "title": "Data table",
-          "work": "Organize the week's data in a table."
+          "work": "Organize the week's measurements into a data table with units and calculate the week's high and low."
         },
         {
           "title": "Review & check",
-          "work": "Describe the week's weather pattern with data."
+          "work": "Describe the week's weather pattern in 3 sentences using numbers from your table."
         }
       ],
       "assessment": "Weather log and pattern description"
@@ -1366,7 +1374,7 @@
       "topic": "Seasonal weather patterns",
       "objectives": [
         "Represent weather data in graphs",
-        "Describe typical seasonal weather"
+        "Describe typical weather for each season"
       ],
       "standards": [
         "3-ESS2-1"
@@ -1379,39 +1387,39 @@
       ],
       "materials": [
         "graph paper",
-        "local climate data"
+        "local monthly climate averages"
       ],
       "days": [
         {
           "title": "Local data",
-          "work": "Find average monthly temperature and rainfall for your city."
+          "work": "Look up average monthly temperature and rainfall for your city and copy them into a table."
         },
         {
-          "title": "Bar graph",
-          "work": "Make a bar graph of monthly rainfall."
+          "title": "Rainfall bar graph",
+          "work": "Draw a bar graph of average monthly rainfall with a labeled scale."
         },
         {
-          "title": "Line graph",
-          "work": "Make a line graph of monthly temperatures."
+          "title": "Temperature line graph",
+          "work": "Draw a line graph of average monthly high temperatures."
         },
         {
           "title": "Interpret",
-          "work": "Describe typical weather in each season using the graphs."
+          "work": "Use both graphs to describe the typical weather in winter, spring, summer and fall."
         },
         {
           "title": "Review & check",
-          "work": "Predict weather for next month using the data."
+          "work": "Predict next month's typical weather from the graphs and compare it to your log later."
         }
       ],
-      "assessment": "Seasonal graphs and interpretation"
+      "assessment": "Seasonal graphs and written interpretation"
     },
     {
       "week": 28,
       "unit": 8,
       "topic": "Climates of the world",
       "objectives": [
-        "Describe climates in different regions",
-        "Compare weather and climate"
+        "Distinguish weather from climate",
+        "Describe climates in different world regions"
       ],
       "standards": [
         "3-ESS2-2"
@@ -1421,51 +1429,53 @@
         "weather",
         "region",
         "polar",
-        "tropical"
+        "tropical",
+        "temperate"
       ],
       "materials": [
         "world map",
+        "colored pencils",
         "NASA Climate Kids"
       ],
       "days": [
         {
           "title": "Weather vs. climate",
-          "work": "Explain the difference between weather and climate."
+          "work": "Sort 10 statements as weather (today's rain) or climate (rainy winters every year) and explain the difference."
         },
         {
           "title": "Climate zones",
-          "work": "Color a world map by climate zones (polar, temperate, tropical, desert)."
+          "work": "Color a world map by climate zone (polar, temperate, tropical, desert) using a NASA Climate Kids reference."
         },
         {
           "title": "Compare cities",
-          "work": "Compare climate data for 3 cities in different regions."
+          "work": "Compare yearly temperature and rainfall for Anchorage, Singapore and Cairo in a table."
         },
         {
-          "title": "Research",
-          "work": "Research a climate region and list how people adapt."
+          "title": "People adapt",
+          "work": "Research how people in one climate region dress, build homes and farm."
         },
         {
           "title": "Review & check",
-          "work": "Write a description of one climate region."
+          "work": "Write a description of one climate region with at least 3 data facts."
         }
       ],
-      "assessment": "Climate description"
+      "assessment": "Climate region description"
     },
     {
       "week": 29,
       "unit": 8,
       "topic": "California climates",
       "objectives": [
-        "Combine information to describe climates in California regions"
+        "Obtain and combine information to describe climates in California's regions"
       ],
       "standards": [
         "3-ESS2-2"
       ],
       "vocabulary": [
-        "Mediterranean",
+        "Mediterranean climate",
         "desert",
-        "mountain",
-        "coastal"
+        "alpine",
+        "coastal fog"
       ],
       "materials": [
         "California map",
@@ -1474,23 +1484,23 @@
       "days": [
         {
           "title": "CA regions",
-          "work": "Compare climates of the coast, Central Valley, mountains and desert."
+          "work": "Mark the coast, Central Valley, Sierra Nevada and desert regions on a California map."
         },
         {
-          "title": "Data",
-          "work": "Compare temperature data for San Diego, Sacramento, Lake Tahoe and Death Valley."
+          "title": "City data",
+          "work": "Collect monthly temperature and rainfall for San Diego, Sacramento, South Lake Tahoe and Death Valley."
         },
         {
-          "title": "Graph",
-          "work": "Graph and compare data."
+          "title": "Graph and compare",
+          "work": "Graph the 4 cities' July highs and yearly rainfall on bar graphs and compare."
         },
         {
           "title": "Travel guide",
-          "work": "Write a travel guide for one California climate."
+          "work": "Write a one-page travel guide describing one region's climate and what to pack in each season."
         },
         {
           "title": "Review & check",
-          "work": "Share the travel guide."
+          "work": "Share the travel guide and explain how elevation and the ocean affect California climates."
         }
       ],
       "assessment": "California climate travel guide"
@@ -1500,7 +1510,8 @@
       "unit": 8,
       "topic": "Weather and climate review",
       "objectives": [
-        "Analyze weather data and climates"
+        "Analyze collected weather data",
+        "Review weather and climate concepts"
       ],
       "standards": [
         "3-ESS2-1",
@@ -1512,28 +1523,29 @@
         "climate"
       ],
       "materials": [
-        "weather log"
+        "weather log",
+        "vocabulary cards"
       ],
       "days": [
         {
           "title": "Log analysis",
-          "work": "Analyze 4 weeks of weather log data."
+          "work": "Graph 4 weeks of your own temperature data and find the warmest and coolest days."
         },
         {
           "title": "Compare",
-          "work": "Compare local data to a city in another climate."
+          "work": "Compare your local data to the same weeks in a city with a different climate."
         },
         {
-          "title": "Quiz prep",
-          "work": "Review vocabulary with flash cards."
+          "title": "Vocabulary game",
+          "work": "Play a weather vocabulary matching game with flash cards (precipitation, climate, cirrus, etc.)."
         },
         {
           "title": "Weather report",
-          "work": "Present a weather report for your city."
+          "work": "Present a 2-minute TV-style weather report for your city using your data and a map."
         },
         {
           "title": "Unit 8 assessment",
-          "work": "Complete the unit test on weather and climate."
+          "work": "Complete the unit test on weather data, seasons and climates."
         }
       ],
       "assessment": "Unit 8 test; weather report"
@@ -1543,7 +1555,7 @@
       "unit": 9,
       "topic": "Weather-related hazards",
       "objectives": [
-        "Identify weather-related hazards and their impacts"
+        "Identify weather-related hazards and their impacts on people"
       ],
       "standards": [
         "3-ESS3-1"
@@ -1553,42 +1565,44 @@
         "flood",
         "drought",
         "wildfire",
-        "storm"
+        "hurricane",
+        "tornado"
       ],
       "materials": [
         "NOAA SciJinks",
-        "articles"
+        "news articles",
+        "chart paper"
       ],
       "days": [
         {
           "title": "Hazards",
-          "work": "List weather-related hazards (floods, hurricanes, tornadoes, drought, wildfire)."
+          "work": "Read SciJinks pages and list 6 weather-related hazards with a sentence describing each."
         },
         {
           "title": "California hazards",
-          "work": "Research flooding and wildfire risks in California."
+          "work": "Research flooding, drought and wildfire in California, including a recent event."
         },
         {
           "title": "Impacts",
-          "work": "Make a chart of hazard impacts on people and land."
+          "work": "Make a chart of each hazard's impacts on people, homes, animals and land."
         },
         {
           "title": "Preparation",
-          "work": "Create a family emergency kit list."
+          "work": "Create a family emergency kit checklist and evacuation plan for the hazard most likely where you live."
         },
         {
           "title": "Review & check",
-          "work": "Explain how one hazard affects a community."
+          "work": "Explain in a paragraph how one hazard affects a community and how people prepare."
         }
       ],
-      "assessment": "Hazard impact chart"
+      "assessment": "Hazard impact chart and paragraph"
     },
     {
       "week": 32,
       "unit": 9,
       "topic": "Design solutions for hazards",
       "objectives": [
-        "Evaluate the merit of solutions that reduce hazard impacts"
+        "Evaluate the merit of design solutions that reduce hazard impacts"
       ],
       "standards": [
         "3-ESS3-1"
@@ -1597,84 +1611,93 @@
         "levee",
         "lightning rod",
         "storm shelter",
+        "fire break",
         "merit"
       ],
       "materials": [
-        "articles",
-        "design notebook"
+        "baking pan",
+        "sand or soil",
+        "clay",
+        "water",
+        "articles"
       ],
       "days": [
         {
           "title": "Solutions",
-          "work": "Read about levees, lightning rods, storm shelters and fire breaks."
+          "work": "Read about levees, lightning rods, storm shelters and fire breaks and how each reduces damage."
         },
         {
           "title": "Compare",
-          "work": "Compare solutions using criteria (cost, effectiveness)."
+          "work": "Compare 3 flood solutions in a table by cost, effectiveness and effects on nature."
         },
         {
           "title": "Flood model",
-          "work": "Build a sand-tray flood model and test a clay levee."
+          "work": "Build a sand-and-pan river model, pour water to flood a 'town,' then test a clay levee."
         },
         {
           "title": "Claim",
-          "work": "Make a claim about the best flood solution."
+          "work": "Write a claim about which flood solution has the most merit for a riverside town, with evidence from the model."
         },
         {
           "title": "Review & check",
-          "work": "Present the claim with evidence."
+          "work": "Present the claim and answer a family member's questions about trade-offs."
         }
       ],
-      "assessment": "Claim about hazard solution"
+      "assessment": "Claim about hazard solution with model evidence"
     },
     {
       "week": 33,
       "unit": 9,
       "topic": "Engineering: define the problem",
       "objectives": [
-        "Define a design problem with criteria and constraints"
+        "Define a design problem with criteria and constraints",
+        "Generate multiple solutions"
       ],
       "standards": [
-        "3-5-ETS1-1"
+        "3-5-ETS1-1",
+        "3-5-ETS1-2"
       ],
       "vocabulary": [
         "criteria",
         "constraints",
-        "engineer"
+        "engineer",
+        "brainstorm"
       ],
       "materials": [
-        "design notebook"
+        "design notebook",
+        "photos of storm-resistant buildings"
       ],
       "days": [
         {
           "title": "Problem",
-          "work": "Define a problem: protect a model house from wind/rain."
+          "work": "Define the challenge: protect a small model house from strong wind and heavy rain."
         },
         {
-          "title": "Criteria",
-          "work": "List criteria (stays standing, stays dry) and constraints (materials, time)."
+          "title": "Criteria and constraints",
+          "work": "List criteria (stays standing at fan high speed, inside stays dry) and constraints (cardboard, tape, 1 plastic bag, 3 days)."
         },
         {
           "title": "Research",
-          "work": "Research how real houses resist storms."
+          "work": "Look at how real hurricane-resistant houses use roof straps, shutters and raised foundations."
         },
         {
           "title": "Sketch",
-          "work": "Sketch 3 possible designs."
+          "work": "Sketch 3 different house designs with labels."
         },
         {
           "title": "Review & check",
-          "work": "Compare designs against criteria."
+          "work": "Score each design against the criteria and choose one to build."
         }
       ],
-      "assessment": "Design notebook check"
+      "assessment": "Design notebook with scored sketches"
     },
     {
       "week": 34,
       "unit": 9,
       "topic": "Engineering: build and test",
       "objectives": [
-        "Build and fair-test a prototype"
+        "Build and fair-test a prototype",
+        "Identify failure points"
       ],
       "standards": [
         "3-5-ETS1-2",
@@ -1683,44 +1706,47 @@
       "vocabulary": [
         "prototype",
         "fair test",
-        "failure point"
+        "failure point",
+        "variable"
       ],
       "materials": [
         "cardboard",
         "tape",
-        "fan",
-        "spray bottle"
+        "plastic bag",
+        "box fan",
+        "spray bottle",
+        "paper towel"
       ],
       "days": [
         {
           "title": "Build",
-          "work": "Build the model house from cardboard and tape."
+          "work": "Build the model house from cardboard and tape following your chosen sketch."
         },
         {
           "title": "Wind test",
-          "work": "Test with a fan at 3 speeds and record failure points."
+          "work": "Test the house in front of a box fan at low, medium and high, keeping distance the same; record failure points."
         },
         {
           "title": "Rain test",
-          "work": "Test with a spray bottle and record leaks."
+          "work": "Place a dry paper towel inside and spray 30 squirts of water from above; record leaks."
         },
         {
           "title": "Improve",
-          "work": "Modify the design based on failures."
+          "work": "Modify the weakest part of the design based on test results."
         },
         {
           "title": "Review & check",
-          "work": "Retest and compare results."
+          "work": "Retest the improved house under the same conditions and compare results in a table."
         }
       ],
-      "assessment": "Testing log"
+      "assessment": "Testing log with before/after table"
     },
     {
       "week": 35,
       "unit": 9,
       "topic": "Engineering: improve and present",
       "objectives": [
-        "Improve and present a design solution"
+        "Improve a design and argue for its merit"
       ],
       "standards": [
         "3-5-ETS1-3",
@@ -1729,32 +1755,33 @@
       "vocabulary": [
         "iterate",
         "improve",
-        "present"
+        "merit",
+        "evidence"
       ],
       "materials": [
         "model house",
-        "poster"
+        "poster board"
       ],
       "days": [
         {
           "title": "Final test",
-          "work": "Run final tests on the improved model."
+          "work": "Run 3 final wind and rain trials on the improved model and record results."
         },
         {
           "title": "Data",
-          "work": "Graph before/after results."
+          "work": "Make a bar graph comparing performance before and after improvements."
         },
         {
           "title": "Poster",
-          "work": "Create a poster explaining the design."
+          "work": "Create a poster showing the problem, design, test data and improvements."
         },
         {
           "title": "Present",
-          "work": "Present the solution and argue its merit."
+          "work": "Present the solution and argue how well it meets the criteria and constraints."
         },
         {
           "title": "Unit 9 assessment",
-          "work": "Complete the unit quiz on hazards and engineering."
+          "work": "Complete the unit quiz on weather hazards and the engineering design process."
         }
       ],
       "assessment": "Unit 9 quiz; design presentation"

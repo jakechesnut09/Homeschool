@@ -1,0 +1,1935 @@
+{
+ "grade": 8,
+ "subject": "VAPA",
+ "title": "Visual and Performing Arts 8",
+ "description": "A year-long arts survey aligned to the 2019 California Arts Standards for grade 8. Students rotate through visual arts (perspective drawing, portraiture, painting), music (notation, keyboard, composing, American music history), theatre (acting, scene study, playwriting), media arts (photography and stop-motion animation) and dance (choreography), building a portfolio and ending with a home exhibition and performance.",
+ "framework": "2019 California Arts Standards for Public Schools, Prekindergarten Through Grade Twelve; 2020 California Arts Education Framework",
+ "minutes_per_day": 40,
+ "ag_requirement": null,
+ "credits": null,
+ "standards": {
+  "VA:Cr1.1.8": "Document early stages of the creative process visually and/or verbally in traditional or new media.",
+  "VA:Cr1.2.8": "Collaboratively shape an artistic investigation of an aspect of present-day life using a contemporary practice of art and design.",
+  "VA:Cr2.1.8": "Demonstrate willingness to experiment, innovate and take risks to pursue ideas, forms and meanings that emerge in the process of art-making.",
+  "VA:Cr2.2.8": "Demonstrate awareness of ethical responsibility to oneself and others when posting and sharing content online.",
+  "VA:Cr3.1.8": "Apply relevant criteria to examine, reflect on and plan revisions for a work of art in progress.",
+  "VA:Pr5.1.8": "Collaboratively prepare and present selected theme-based artwork for display, and formulate exhibition narratives for the viewer.",
+  "VA:Pr6.1.8": "Analyze why and how an exhibition or collection may influence ideas, beliefs and experiences.",
+  "VA:Re7.1.8": "Explain how a person's aesthetic choices are influenced by culture and environment and impact the visual image one conveys to others.",
+  "VA:Re7.2.8": "Compare and contrast contexts and media in which viewers encounter images that influence ideas, emotions and actions.",
+  "VA:Re8.1.8": "Interpret art by analyzing how the interaction of subject matter, characteristics of form and structure, use of media, art-making approaches and relevant contextual information contributes to understanding.",
+  "VA:Re9.1.8": "Create a convincing and logical argument to support an evaluation of art.",
+  "VA:Cn11.1.8": "Distinguish different ways art is used to represent, establish, reinforce and reflect group identity.",
+  "MU:Cr1.1.8": "Generate rhythmic, melodic and harmonic phrases and harmonic accompaniments within expanded forms that convey expressive intent.",
+  "MU:Cr2.1.8": "Select, organize and document personal musical ideas for arrangements, songs and compositions within expanded forms.",
+  "MU:Cr3.2.8": "Present the final version of a documented personal composition, song or arrangement demonstrating unity, variety and development.",
+  "MU:Pr4.2.8": "Compare the structure of contrasting pieces of music selected for performance, explaining how the elements of music are used in each.",
+  "MU:Pr5.1.8": "Identify and apply personally developed criteria to rehearse, refine and determine when the music is ready to perform.",
+  "MU:Pr6.1.8": "Perform music with technical accuracy, stylistic expression and culturally authentic practices to convey the creator's intent.",
+  "MU:Re7.2.8": "Compare how the elements of music and expressive qualities relate to the structure within programs of music.",
+  "MU:Re8.1.8": "Support personal interpretation of contrasting programs of music and explain how creators or performers apply the elements of music to convey intent.",
+  "MU:Cn11.0.8": "Demonstrate understanding of relationships between music and the other arts, other disciplines, varied contexts and daily life.",
+  "TH:Cr1.1.8": "Imagine and explore multiple perspectives and solutions to staging problems in a drama/theatre work.",
+  "TH:Cr2.1.8": "Articulate and apply critical analysis, background knowledge, research and historical and cultural context to the development of original ideas for a drama/theatre work.",
+  "TH:Cr3.1.8": "Use repetition and analysis to revise devised or scripted drama/theatre work.",
+  "TH:Pr4.1.8": "Develop a physical and vocal characterization appropriate to a character's objectives in a drama/theatre work.",
+  "TH:Pr5.1.8": "Use a variety of acting techniques to increase skills in a rehearsal or drama/theatre performance.",
+  "TH:Pr6.1.8": "Perform a rehearsed drama/theatre work for an audience.",
+  "TH:Re8.1.8": "Recognize and share artistic choices when participating in or observing a drama/theatre work.",
+  "TH:Re9.1.8": "Respond to a drama/theatre work using supporting evidence, personal aesthetics and artistic criteria.",
+  "TH:Cn11.2.8": "Research the story elements of a staged drama/theatre work and discuss how a playwright might have intended it to be produced.",
+  "MA:Cr1.1.8": "Generate ideas, goals and solutions for original media artworks through application of focused creative processes.",
+  "MA:Cr2.1.8": "Design, propose and evaluate artistic ideas, plans, prototypes and production processes for media arts productions.",
+  "MA:Cr3.1.8": "Implement production processes to integrate content and stylistic conventions for determined meaning in media arts productions.",
+  "MA:Pr6.1.8": "Design the presentation and distribution of media artworks through multiple formats.",
+  "MA:Re7.1.8": "Analyze the intent, meanings and influence of a variety of media artworks.",
+  "DA:Cr1.1.8": "Implement the elements of dance to develop choreographic content using a variety of stimuli.",
+  "DA:Cr2.1.8": "Collaborate to select and apply a variety of choreographic devices and dance structures to choreograph an original dance study.",
+  "DA:Pr4.1.8": "Use body-designs and spatial relationships with intent and clarity, adapting to performance space.",
+  "DA:Pr6.1.8": "Perform dance using artistic expression and a variety of production elements for a live or recorded audience.",
+  "DA:Re8.1.8": "Select a dance and explain how the artistic expression is achieved through relationships among the elements of dance, use of body, technique and context."
+ },
+ "resources": [
+  {
+   "name": "Google Arts & Culture",
+   "url": "https://artsandculture.google.com",
+   "note": "High-resolution artworks and virtual museum tours for art analysis"
+  },
+  {
+   "name": "Smithsonian Learning Lab",
+   "url": "https://learninglab.si.edu",
+   "note": "Smithsonian American Art Museum and portrait collections"
+  },
+  {
+   "name": "musictheory.net",
+   "url": "https://www.musictheory.net",
+   "note": "Free lessons and exercises on notation, rhythm, scales and chords"
+  },
+  {
+   "name": "Chrome Music Lab",
+   "url": "https://musiclab.chromeexperiments.com",
+   "note": "Song Maker and Rhythm tools for composing"
+  },
+  {
+   "name": "PBS LearningMedia – Arts",
+   "url": "https://www.pbslearningmedia.org",
+   "note": "Videos on artists, jazz history, theatre and dance"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Drawing Foundations and Perspective",
+   "start_week": 1,
+   "end_week": 5,
+   "big_idea": "Artists use line, value and perspective to create the illusion of space on a flat surface.",
+   "standards": [
+    "VA:Cr1.1.8",
+    "VA:Cr2.1.8",
+    "VA:Cr3.1.8",
+    "VA:Re8.1.8"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Portraiture, Color and Identity",
+   "start_week": 6,
+   "end_week": 9,
+   "big_idea": "Portraits and color choices express identity and reflect culture.",
+   "standards": [
+    "VA:Cr1.2.8",
+    "VA:Cr2.1.8",
+    "VA:Re7.1.8",
+    "VA:Cn11.1.8",
+    "VA:Re9.1.8"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Music Literacy and Keyboard",
+   "start_week": 10,
+   "end_week": 14,
+   "big_idea": "Reading rhythm, pitch and chords lets musicians perform and understand music.",
+   "standards": [
+    "MU:Pr4.2.8",
+    "MU:Pr5.1.8",
+    "MU:Pr6.1.8",
+    "MU:Re7.2.8"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "American Music and Composition",
+   "start_week": 15,
+   "end_week": 18,
+   "big_idea": "American music grew from spirituals, blues and jazz; composers organize musical ideas into forms.",
+   "standards": [
+    "MU:Cr1.1.8",
+    "MU:Cr2.1.8",
+    "MU:Cr3.2.8",
+    "MU:Re8.1.8",
+    "MU:Cn11.0.8"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Acting and Scene Study",
+   "start_week": 19,
+   "end_week": 23,
+   "big_idea": "Actors build believable characters through voice, body and objectives.",
+   "standards": [
+    "TH:Pr4.1.8",
+    "TH:Pr5.1.8",
+    "TH:Pr6.1.8",
+    "TH:Re8.1.8",
+    "TH:Cn11.2.8"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Playwriting and Production",
+   "start_week": 24,
+   "end_week": 27,
+   "big_idea": "Original drama develops through research, writing, rehearsal and revision.",
+   "standards": [
+    "TH:Cr1.1.8",
+    "TH:Cr2.1.8",
+    "TH:Cr3.1.8",
+    "TH:Re9.1.8"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Media Arts: Photography and Stop-Motion",
+   "start_week": 28,
+   "end_week": 31,
+   "big_idea": "Media artists plan, capture and edit images to tell stories and influence viewers.",
+   "standards": [
+    "MA:Cr1.1.8",
+    "MA:Cr2.1.8",
+    "MA:Cr3.1.8",
+    "MA:Pr6.1.8",
+    "MA:Re7.1.8",
+    "VA:Re7.2.8",
+    "VA:Cr2.2.8"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Dance and Choreography",
+   "start_week": 32,
+   "end_week": 34,
+   "big_idea": "Choreographers shape movement with elements of dance and structures to express ideas.",
+   "standards": [
+    "DA:Cr1.1.8",
+    "DA:Cr2.1.8",
+    "DA:Pr4.1.8",
+    "DA:Pr6.1.8",
+    "DA:Re8.1.8"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Portfolio and Exhibition",
+   "start_week": 35,
+   "end_week": 36,
+   "big_idea": "Curating and presenting work shapes how audiences experience it.",
+   "standards": [
+    "VA:Pr5.1.8",
+    "VA:Pr6.1.8",
+    "VA:Re9.1.8"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "Line, contour and observation",
+   "objectives": [
+    "Use contour and blind contour drawing to improve observation",
+    "Start a sketchbook documenting the creative process"
+   ],
+   "standards": [
+    "VA:Cr1.1.8",
+    "VA:Cr2.1.8"
+   ],
+   "vocabulary": [
+    "contour line",
+    "blind contour",
+    "gesture",
+    "sketchbook",
+    "observation"
+   ],
+   "materials": [
+    "sketchbook",
+    "pencils (HB, 2B, 4B)",
+    "eraser",
+    "household objects"
+   ],
+   "days": [
+    {
+     "title": "Sketchbook setup",
+     "work": "Decorate a sketchbook cover and do 5 one-minute gesture drawings of a family member or pet."
+    },
+    {
+     "title": "Blind contour",
+     "work": "Do three blind contour drawings of your hand without looking at the paper; write what you noticed."
+    },
+    {
+     "title": "Contour drawing",
+     "work": "Draw a shoe in modified contour line, looking 80% at the object."
+    },
+    {
+     "title": "Cross-contour",
+     "work": "Add cross-contour lines to a drawing of a banana or mug to show form."
+    },
+    {
+     "title": "Reflect",
+     "work": "Choose your best drawing and write a reflection on progress."
+    }
+   ],
+   "assessment": "Sketchbook check: 8 drawings with reflection."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "Value and shading",
+   "objectives": [
+    "Create a 9-step value scale",
+    "Render 3-D forms using light and shadow"
+   ],
+   "standards": [
+    "VA:Cr2.1.8",
+    "VA:Cr3.1.8"
+   ],
+   "vocabulary": [
+    "value",
+    "gradation",
+    "highlight",
+    "core shadow",
+    "cast shadow",
+    "hatching",
+    "cross-hatching",
+    "stippling"
+   ],
+   "materials": [
+    "pencils",
+    "blending stump or tissue",
+    "desk lamp",
+    "white egg or ball"
+   ],
+   "days": [
+    {
+     "title": "Value scale",
+     "work": "Make a 9-step value scale and a smooth gradient bar."
+    },
+    {
+     "title": "Shading techniques",
+     "work": "Practice hatching, cross-hatching, stippling and blending in 4 squares."
+    },
+    {
+     "title": "Shading spheres",
+     "work": "Shade a sphere lit by a lamp showing highlight, core shadow and cast shadow."
+    },
+    {
+     "title": "Still life",
+     "work": "Draw a lit still life of an egg, mug and box with a full value range."
+    },
+    {
+     "title": "Critique",
+     "work": "Self-critique using a value checklist and revise the darkest darks."
+    }
+   ],
+   "assessment": "Still-life drawing graded with a value rubric."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "One-point perspective",
+   "objectives": [
+    "Use horizon line, vanishing point and orthogonals",
+    "Draw a room or hallway in one-point perspective"
+   ],
+   "standards": [
+    "VA:Cr1.1.8",
+    "VA:Cr2.1.8"
+   ],
+   "vocabulary": [
+    "horizon line",
+    "vanishing point",
+    "orthogonal",
+    "one-point perspective",
+    "foreshortening"
+   ],
+   "materials": [
+    "ruler",
+    "pencils",
+    "drawing paper"
+   ],
+   "days": [
+    {
+     "title": "Perspective basics",
+     "work": "Draw boxes above, on and below the horizon line using one vanishing point."
+    },
+    {
+     "title": "Block letters",
+     "work": "Draw your initials in one-point perspective block letters."
+    },
+    {
+     "title": "Hallway or road",
+     "work": "Draw a hallway, road or railroad track receding to a vanishing point."
+    },
+    {
+     "title": "Room interior",
+     "work": "Draw your bedroom in one-point perspective with furniture."
+    },
+    {
+     "title": "Review",
+     "work": "Add value to the room drawing and check lines with a ruler."
+    }
+   ],
+   "assessment": "One-point perspective room drawing."
+  },
+  {
+   "week": 4,
+   "unit": 1,
+   "topic": "Two-point perspective and cityscapes",
+   "objectives": [
+    "Draw forms in two-point perspective",
+    "Analyze perspective in Renaissance and modern art"
+   ],
+   "standards": [
+    "VA:Cr2.1.8",
+    "VA:Re8.1.8"
+   ],
+   "vocabulary": [
+    "two-point perspective",
+    "vertical line",
+    "cityscape",
+    "linear perspective"
+   ],
+   "materials": [
+    "ruler",
+    "pencils",
+    "fine-tip markers"
+   ],
+   "days": [
+    {
+     "title": "Two-point boxes",
+     "work": "Draw 6 boxes in two-point perspective above, at and below eye level."
+    },
+    {
+     "title": "Building a house",
+     "work": "Draw a house with roof, doors and windows in two-point perspective."
+    },
+    {
+     "title": "Art history",
+     "work": "Analyze perspective in Raphael's 'School of Athens' and a modern cityscape on Google Arts & Culture."
+    },
+    {
+     "title": "Cityscape",
+     "work": "Begin an original cityscape with at least 5 buildings."
+    },
+    {
+     "title": "Finish",
+     "work": "Ink and shade the cityscape."
+    }
+   ],
+   "assessment": "Two-point cityscape."
+  },
+  {
+   "week": 5,
+   "unit": 1,
+   "topic": "Drawing unit project and critique",
+   "objectives": [
+    "Complete a finished drawing using line, value and perspective",
+    "Critique artwork with criteria"
+   ],
+   "standards": [
+    "VA:Cr3.1.8",
+    "VA:Re8.1.8"
+   ],
+   "vocabulary": [
+    "composition",
+    "focal point",
+    "critique",
+    "criteria"
+   ],
+   "materials": [
+    "drawing materials"
+   ],
+   "days": [
+    {
+     "title": "Plan",
+     "work": "Thumbnail 3 compositions for 'A place that matters to me.'"
+    },
+    {
+     "title": "Draft",
+     "work": "Lightly sketch the chosen composition."
+    },
+    {
+     "title": "Render",
+     "work": "Add value and detail."
+    },
+    {
+     "title": "Finish",
+     "work": "Complete the drawing and sign it."
+    },
+    {
+     "title": "Critique",
+     "work": "Write a critique using describe, analyze, interpret, evaluate."
+    }
+   ],
+   "assessment": "Final drawing and written critique."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Facial proportions",
+   "objectives": [
+    "Draw a face using classical proportion guidelines",
+    "Observe how real faces vary from the 'ideal'"
+   ],
+   "standards": [
+    "VA:Cr2.1.8",
+    "VA:Cr1.2.8"
+   ],
+   "vocabulary": [
+    "proportion",
+    "guidelines",
+    "symmetry",
+    "features",
+    "three-quarter view"
+   ],
+   "materials": [
+    "mirror",
+    "pencils",
+    "drawing paper",
+    "ruler"
+   ],
+   "days": [
+    {
+     "title": "Proportion guide",
+     "work": "Draw an oval head with guidelines: eyes halfway down, nose at one-third, mouth at one-third of the remaining distance; label each."
+    },
+    {
+     "title": "Eyes and noses",
+     "work": "Fill a sketchbook page with 4 eyes and 4 noses drawn from a mirror, shading the eyelid and nostril shadows."
+    },
+    {
+     "title": "Mouths and ears",
+     "work": "Draw 4 mouths (neutral, smiling, open, profile) and 2 ears, noting where ears line up with eyes and nose."
+    },
+    {
+     "title": "Measuring real faces",
+     "work": "Photograph or observe three family members and record how their proportions differ from the guideline face."
+    },
+    {
+     "title": "Self-portrait sketch",
+     "work": "Draw a full self-portrait from a mirror using the guidelines, then compare it to a photo and note one correction."
+    }
+   ],
+   "assessment": "Self-portrait sketch checked for proportion."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "Color theory and mood",
+   "objectives": [
+    "Mix a 12-part color wheel and value scales",
+    "Use color schemes intentionally to express mood"
+   ],
+   "standards": [
+    "VA:Cr2.1.8",
+    "VA:Re7.1.8"
+   ],
+   "vocabulary": [
+    "hue",
+    "tint",
+    "shade",
+    "tone",
+    "complementary",
+    "analogous",
+    "monochromatic",
+    "warm",
+    "cool"
+   ],
+   "materials": [
+    "acrylic or tempera paints in red, yellow, blue, white, black",
+    "brushes",
+    "palette",
+    "heavy paper"
+   ],
+   "days": [
+    {
+     "title": "Color wheel",
+     "work": "Mix and paint a 12-part color wheel of primary, secondary and tertiary colors."
+    },
+    {
+     "title": "Tints, shades, tones",
+     "work": "Paint a 7-step tint-to-shade strip for one hue and a tone strip adding gray."
+    },
+    {
+     "title": "Color schemes",
+     "work": "Paint the same simple landscape thumbnail 4 times in complementary, analogous, monochromatic and warm/cool schemes."
+    },
+    {
+     "title": "Color and mood in art",
+     "work": "Compare Picasso's 'The Old Guitarist' (Blue Period) and Matisse's 'The Dessert: Harmony in Red' and explain how color shapes mood."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on color vocabulary and write which of your 4 thumbnails best conveys a chosen mood and why."
+    }
+   ],
+   "assessment": "Color wheel, scheme studies and quiz."
+  },
+  {
+   "week": 8,
+   "unit": 2,
+   "topic": "Portraits and identity",
+   "objectives": [
+    "Analyze how portraits use symbols, pose and setting to express identity",
+    "Plan a symbolic identity portrait"
+   ],
+   "standards": [
+    "VA:Cn11.1.8",
+    "VA:Re7.1.8",
+    "VA:Re8.1.8"
+   ],
+   "vocabulary": [
+    "symbolism",
+    "identity",
+    "pose",
+    "setting",
+    "patron",
+    "commission"
+   ],
+   "materials": [
+    "Smithsonian National Portrait Gallery images (via Learning Lab or Google Arts & Culture)",
+    "sketchbook"
+   ],
+   "days": [
+    {
+     "title": "Presidential portraits",
+     "work": "Compare Gilbert Stuart's 'Lansdowne' portrait of Washington with Kehinde Wiley's portrait of Barack Obama; list how each uses pose and background."
+    },
+    {
+     "title": "Frida Kahlo",
+     "work": "Analyze Frida Kahlo's 'Self-Portrait with Thorn Necklace and Hummingbird' and explain the meaning of three symbols."
+    },
+    {
+     "title": "Group identity",
+     "work": "Examine portraits from a culture or community you belong to and write how art reinforces group identity."
+    },
+    {
+     "title": "Plan your portrait",
+     "work": "List 5 symbols, colors and a setting that represent you and sketch 3 thumbnail compositions."
+    },
+    {
+     "title": "Review & check",
+     "work": "Choose one plan, get feedback from a family member, and revise the composition sketch on final paper."
+    }
+   ],
+   "assessment": "Identity portrait plan with symbol key."
+  },
+  {
+   "week": 9,
+   "unit": 2,
+   "topic": "Painting the identity portrait",
+   "objectives": [
+    "Paint a portrait using an intentional color scheme",
+    "Evaluate and defend artistic choices in an artist statement"
+   ],
+   "standards": [
+    "VA:Cr2.1.8",
+    "VA:Cr3.1.8",
+    "VA:Re9.1.8"
+   ],
+   "vocabulary": [
+    "underpainting",
+    "layering",
+    "glazing",
+    "artist statement",
+    "critique"
+   ],
+   "materials": [
+    "paints",
+    "canvas board or heavy paper",
+    "brushes"
+   ],
+   "days": [
+    {
+     "title": "Underpainting",
+     "work": "Transfer the sketch and block in large areas with thin underpainting in your chosen scheme."
+    },
+    {
+     "title": "Building layers",
+     "work": "Add mid-tones and shadows to the face and background, mixing skin tones from primaries."
+    },
+    {
+     "title": "Symbols and details",
+     "work": "Paint symbolic objects and fine details with small brushes; add highlights last."
+    },
+    {
+     "title": "Finishing",
+     "work": "Refine edges, check values by squinting, and sign the finished portrait."
+    },
+    {
+     "title": "Artist statement",
+     "work": "Write a 150-word artist statement explaining symbols and color choices and evaluate the portrait using a 4-criterion rubric."
+    }
+   ],
+   "assessment": "Finished portrait and artist statement."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Rhythm reading",
+   "objectives": [
+    "Read and perform rhythms with whole through sixteenth notes and rests",
+    "Count in 4/4, 3/4 and 6/8"
+   ],
+   "standards": [
+    "MU:Pr4.2.8",
+    "MU:Pr5.1.8"
+   ],
+   "vocabulary": [
+    "time signature",
+    "measure",
+    "beat",
+    "whole note",
+    "quarter note",
+    "eighth note",
+    "sixteenth note",
+    "rest",
+    "syncopation"
+   ],
+   "materials": [
+    "musictheory.net",
+    "metronome app",
+    "pencil and staff paper",
+    "pots or a drum pad"
+   ],
+   "days": [
+    {
+     "title": "Note values",
+     "work": "Complete the musictheory.net lessons on note durations and rests; clap and count 8 one-measure patterns."
+    },
+    {
+     "title": "Time signatures",
+     "work": "Count and tap rhythms in 4/4, 3/4 and 6/8 with a metronome at 80 bpm."
+    },
+    {
+     "title": "Syncopation",
+     "work": "Clap syncopated patterns and identify syncopation in a song like Scott Joplin's 'The Entertainer.'"
+    },
+    {
+     "title": "Body percussion",
+     "work": "Compose and perform a 4-measure body-percussion rhythm (stomp, clap, snap, pat)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Take a rhythm dictation of 4 measures and perform a sight-reading rhythm at 80 bpm."
+    }
+   ],
+   "assessment": "Rhythm dictation and performance check."
+  },
+  {
+   "week": 11,
+   "unit": 3,
+   "topic": "Pitch reading on the staff",
+   "objectives": [
+    "Identify notes in treble and bass clefs",
+    "Read simple melodies"
+   ],
+   "standards": [
+    "MU:Pr4.2.8",
+    "MU:Re7.2.8"
+   ],
+   "vocabulary": [
+    "staff",
+    "treble clef",
+    "bass clef",
+    "ledger line",
+    "sharp",
+    "flat",
+    "natural",
+    "interval"
+   ],
+   "materials": [
+    "musictheory.net note-identification exercise",
+    "keyboard app or piano"
+   ],
+   "days": [
+    {
+     "title": "Treble clef",
+     "work": "Learn line and space names in treble clef and reach 20 correct in a row on the musictheory.net note trainer."
+    },
+    {
+     "title": "Bass clef",
+     "work": "Learn bass clef names and repeat the note-trainer goal."
+    },
+    {
+     "title": "Accidentals",
+     "work": "Learn sharps, flats and naturals and find them on a keyboard diagram."
+    },
+    {
+     "title": "Intervals",
+     "work": "Identify seconds through octaves by sight and by ear using 'Here Comes the Bride' (4th) and 'Twinkle' (5th) references."
+    },
+    {
+     "title": "Review & check",
+     "work": "Note-naming and interval quiz."
+    }
+   ],
+   "assessment": "Note-naming and interval quiz."
+  },
+  {
+   "week": 12,
+   "unit": 3,
+   "topic": "Keyboard basics and scales",
+   "objectives": [
+    "Play a C major scale with correct fingering",
+    "Build major scales using whole and half steps"
+   ],
+   "standards": [
+    "MU:Pr6.1.8",
+    "MU:Pr5.1.8"
+   ],
+   "vocabulary": [
+    "whole step",
+    "half step",
+    "major scale",
+    "fingering",
+    "key signature",
+    "tonic"
+   ],
+   "materials": [
+    "keyboard, piano or free online keyboard app"
+   ],
+   "days": [
+    {
+     "title": "Keyboard geography",
+     "work": "Locate all Cs and play C-D-E-F-G five-finger patterns in each hand."
+    },
+    {
+     "title": "C major scale",
+     "work": "Practice the C major scale hands separately with thumb-under fingering at 60 bpm."
+    },
+    {
+     "title": "Building scales",
+     "work": "Use the W-W-H-W-W-W-H formula to build G and F major scales and play them."
+    },
+    {
+     "title": "Simple melody",
+     "work": "Learn 'Ode to Joy' right hand from notation."
+    },
+    {
+     "title": "Review & check",
+     "work": "Play the C major scale and 'Ode to Joy' for a family member and self-evaluate with a checklist."
+    }
+   ],
+   "assessment": "Scale and melody playing check."
+  },
+  {
+   "week": 13,
+   "unit": 3,
+   "topic": "Chords and accompaniment",
+   "objectives": [
+    "Build major and minor triads",
+    "Accompany a melody with I-IV-V chords"
+   ],
+   "standards": [
+    "MU:Pr6.1.8",
+    "MU:Pr4.2.8"
+   ],
+   "vocabulary": [
+    "triad",
+    "root",
+    "third",
+    "fifth",
+    "major chord",
+    "minor chord",
+    "chord progression",
+    "I-IV-V"
+   ],
+   "materials": [
+    "keyboard",
+    "Chrome Music Lab Chords tool"
+   ],
+   "days": [
+    {
+     "title": "Triads",
+     "work": "Build C, F and G major triads and compare major and minor triads on Chrome Music Lab."
+    },
+    {
+     "title": "I-IV-V",
+     "work": "Play the I-IV-V-I progression in C with the left hand."
+    },
+    {
+     "title": "Twelve-bar blues",
+     "work": "Play the 12-bar blues progression in C."
+    },
+    {
+     "title": "Accompanying",
+     "work": "Accompany 'Ode to Joy' with left-hand chords."
+    },
+    {
+     "title": "Review & check",
+     "work": "Perform the 12-bar blues progression with a steady beat."
+    }
+   ],
+   "assessment": "Chord performance check."
+  },
+  {
+   "week": 14,
+   "unit": 3,
+   "topic": "Performance and listening analysis",
+   "objectives": [
+    "Prepare and perform a short piece",
+    "Compare structure in contrasting pieces"
+   ],
+   "standards": [
+    "MU:Pr6.1.8",
+    "MU:Re7.2.8",
+    "MU:Pr4.2.8"
+   ],
+   "vocabulary": [
+    "form",
+    "AB",
+    "ABA",
+    "rondo",
+    "dynamics",
+    "tempo",
+    "articulation"
+   ],
+   "materials": [
+    "keyboard",
+    "recordings of Beethoven 'Für Elise' and a pop song"
+   ],
+   "days": [
+    {
+     "title": "Form listening",
+     "work": "Listen to 'Für Elise' and diagram its rondo form (A-B-A-C-A)."
+    },
+    {
+     "title": "Contrasting structures",
+     "work": "Compare the verse-chorus form of a pop song with 'Für Elise' using a chart of form, dynamics and tempo."
+    },
+    {
+     "title": "Rehearsal",
+     "work": "Rehearse your chosen piece with dynamics and articulation markings, setting personal criteria for 'ready.'"
+    },
+    {
+     "title": "Recording",
+     "work": "Record a performance and listen back for accuracy."
+    },
+    {
+     "title": "Recital",
+     "work": "Perform for family and complete a self-evaluation."
+    }
+   ],
+   "assessment": "Recorded performance and listening comparison."
+  },
+  {
+   "week": 15,
+   "unit": 4,
+   "topic": "Spirituals, work songs and the blues",
+   "objectives": [
+    "Trace the roots of American music in African American traditions",
+    "Identify blues form and call and response"
+   ],
+   "standards": [
+    "MU:Cn11.0.8",
+    "MU:Re8.1.8"
+   ],
+   "vocabulary": [
+    "spiritual",
+    "work song",
+    "call and response",
+    "blues scale",
+    "blue note",
+    "12-bar blues"
+   ],
+   "materials": [
+    "recordings via Library of Congress or Smithsonian Folkways",
+    "keyboard"
+   ],
+   "days": [
+    {
+     "title": "Spirituals",
+     "work": "Listen to the Fisk Jubilee Singers and analyze 'Swing Low, Sweet Chariot' (connects to HSS slavery unit)."
+    },
+    {
+     "title": "Work songs",
+     "work": "Listen to work songs and identify call-and-response patterns."
+    },
+    {
+     "title": "The blues",
+     "work": "Listen to Bessie Smith and B.B. King; identify 12-bar form and AAB lyric pattern."
+    },
+    {
+     "title": "Writing blues lyrics",
+     "work": "Write a 3-verse blues lyric in AAB form about a frustration in your life."
+    },
+    {
+     "title": "Review & check",
+     "work": "Perform your blues lyrics over the 12-bar progression."
+    }
+   ],
+   "assessment": "Blues lyric and performance."
+  },
+  {
+   "week": 16,
+   "unit": 4,
+   "topic": "Jazz and ragtime",
+   "objectives": [
+    "Identify ragtime, swing and improvisation",
+    "Explain how jazz musicians apply the elements of music"
+   ],
+   "standards": [
+    "MU:Re8.1.8",
+    "MU:Cn11.0.8"
+   ],
+   "vocabulary": [
+    "ragtime",
+    "swing",
+    "improvisation",
+    "big band",
+    "scat",
+    "bebop"
+   ],
+   "materials": [
+    "recordings (Scott Joplin, Louis Armstrong, Duke Ellington, Ella Fitzgerald)",
+    "PBS LearningMedia jazz videos"
+   ],
+   "days": [
+    {
+     "title": "Ragtime",
+     "work": "Listen to Scott Joplin's 'Maple Leaf Rag' and identify syncopation."
+    },
+    {
+     "title": "Louis Armstrong",
+     "work": "Listen to 'West End Blues' and analyze the trumpet improvisation."
+    },
+    {
+     "title": "Big band",
+     "work": "Compare Duke Ellington's 'Take the A Train' with a modern big band."
+    },
+    {
+     "title": "Improvisation",
+     "work": "Improvise on the C blues scale over a backing track."
+    },
+    {
+     "title": "Review & check",
+     "work": "Listening quiz identifying genres and instruments."
+    }
+   ],
+   "assessment": "Listening quiz."
+  },
+  {
+   "week": 17,
+   "unit": 4,
+   "topic": "Composing a melody",
+   "objectives": [
+    "Generate melodic phrases with expressive intent",
+    "Organize phrases into a form"
+   ],
+   "standards": [
+    "MU:Cr1.1.8",
+    "MU:Cr2.1.8"
+   ],
+   "vocabulary": [
+    "motif",
+    "phrase",
+    "antecedent",
+    "consequent",
+    "cadence",
+    "form"
+   ],
+   "materials": [
+    "Chrome Music Lab Song Maker",
+    "staff paper"
+   ],
+   "days": [
+    {
+     "title": "Motifs",
+     "work": "Create 4 two-measure motifs in Song Maker and choose the strongest."
+    },
+    {
+     "title": "Phrases",
+     "work": "Develop the motif into an 8-measure phrase with a question-answer structure."
+    },
+    {
+     "title": "Form",
+     "work": "Organize phrases into ABA form."
+    },
+    {
+     "title": "Harmony",
+     "work": "Add chords under your melody."
+    },
+    {
+     "title": "Review & check",
+     "work": "Share a draft with family and record feedback."
+    }
+   ],
+   "assessment": "Composition draft."
+  },
+  {
+   "week": 18,
+   "unit": 4,
+   "topic": "Final composition and presentation",
+   "objectives": [
+    "Revise and present a documented composition",
+    "Explain choices"
+   ],
+   "standards": [
+    "MU:Cr3.2.8",
+    "MU:Pr6.1.8"
+   ],
+   "vocabulary": [
+    "revision",
+    "unity",
+    "variety",
+    "notation"
+   ],
+   "materials": [
+    "Song Maker or notation app (MuseScore free)"
+   ],
+   "days": [
+    {
+     "title": "Revise",
+     "work": "Revise for unity and variety based on feedback."
+    },
+    {
+     "title": "Notate",
+     "work": "Notate the final version in MuseScore or by hand."
+    },
+    {
+     "title": "Program notes",
+     "work": "Write program notes explaining your expressive intent."
+    },
+    {
+     "title": "Rehearse",
+     "work": "Rehearse or finalize the digital performance."
+    },
+    {
+     "title": "Present",
+     "work": "Present the composition and program notes."
+    }
+   ],
+   "assessment": "Composition and program notes rubric."
+  },
+  {
+   "week": 19,
+   "unit": 5,
+   "topic": "Theatre warm-ups and the actor's instrument",
+   "objectives": [
+    "Use vocal and physical warm-ups",
+    "Explore how voice and body create character"
+   ],
+   "standards": [
+    "TH:Pr5.1.8",
+    "TH:Pr4.1.8"
+   ],
+   "vocabulary": [
+    "projection",
+    "articulation",
+    "diction",
+    "posture",
+    "gesture",
+    "tableau"
+   ],
+   "materials": [
+    "open space",
+    "tongue-twister list",
+    "mirror"
+   ],
+   "days": [
+    {
+     "title": "Vocal warm-ups",
+     "work": "Practice breathing, projection and 5 tongue twisters ('red leather, yellow leather'); record before and after."
+    },
+    {
+     "title": "Physical warm-ups",
+     "work": "Do a mirror exercise and a walk exploring how different characters lead with head, chest or hips."
+    },
+    {
+     "title": "Tableau",
+     "work": "Create 3 frozen tableaux showing a scene from a fairy tale and photograph them."
+    },
+    {
+     "title": "Character walk",
+     "work": "Develop a character's walk, posture and voice from a one-sentence description."
+    },
+    {
+     "title": "Review & check",
+     "work": "Perform a 30-second character introduction using voice and body."
+    }
+   ],
+   "assessment": "Character introduction performance."
+  },
+  {
+   "week": 20,
+   "unit": 5,
+   "topic": "Objectives, obstacles and tactics",
+   "objectives": [
+    "Identify a character's objective, obstacle and tactics",
+    "Apply them in improvisation"
+   ],
+   "standards": [
+    "TH:Pr4.1.8",
+    "TH:Re8.1.8"
+   ],
+   "vocabulary": [
+    "objective",
+    "obstacle",
+    "tactic",
+    "beat",
+    "subtext",
+    "improvisation"
+   ],
+   "materials": [
+    "scenario cards"
+   ],
+   "days": [
+    {
+     "title": "Objectives",
+     "work": "Learn objective-obstacle-tactic and analyze a scene from a familiar film."
+    },
+    {
+     "title": "Improvisation",
+     "work": "Improvise 3 two-person scenes where each character wants something different."
+    },
+    {
+     "title": "Subtext",
+     "work": "Say the line 'I'm fine' 5 ways with different subtext."
+    },
+    {
+     "title": "Script analysis",
+     "work": "Break a short scene into beats and mark objectives."
+    },
+    {
+     "title": "Review & check",
+     "work": "Perform an improvised scene and identify your tactics."
+    }
+   ],
+   "assessment": "Improv performance and beat analysis."
+  },
+  {
+   "week": 21,
+   "unit": 5,
+   "topic": "Monologue work",
+   "objectives": [
+    "Select, analyze and memorize a monologue",
+    "Research the play's context"
+   ],
+   "standards": [
+    "TH:Pr4.1.8",
+    "TH:Pr5.1.8",
+    "TH:Cn11.2.8"
+   ],
+   "vocabulary": [
+    "monologue",
+    "soliloquy",
+    "blocking",
+    "memorization"
+   ],
+   "materials": [
+    "monologue from a public-domain play (e.g., Puck's epilogue, a scene from 'Our Town'-style texts in the library)"
+   ],
+   "days": [
+    {
+     "title": "Selecting",
+     "work": "Read 4 age-appropriate monologues and choose one."
+    },
+    {
+     "title": "Research",
+     "work": "Research the play's story, playwright and period."
+    },
+    {
+     "title": "Analysis",
+     "work": "Mark objectives, beats and emphasis."
+    },
+    {
+     "title": "Memorize",
+     "work": "Memorize using the line-by-line method."
+    },
+    {
+     "title": "Review & check",
+     "work": "Perform off-book for family."
+    }
+   ],
+   "assessment": "Monologue off-book check."
+  },
+  {
+   "week": 22,
+   "unit": 5,
+   "topic": "Scene study",
+   "objectives": [
+    "Rehearse a two-person scene with blocking",
+    "Use feedback to improve"
+   ],
+   "standards": [
+    "TH:Pr5.1.8",
+    "TH:Pr6.1.8"
+   ],
+   "vocabulary": [
+    "blocking",
+    "upstage",
+    "downstage",
+    "stage left",
+    "stage right",
+    "cue"
+   ],
+   "materials": [
+    "scene script",
+    "family scene partner"
+   ],
+   "days": [
+    {
+     "title": "Read-through",
+     "work": "Read a two-person scene and discuss characters."
+    },
+    {
+     "title": "Blocking",
+     "work": "Block the scene using stage directions."
+    },
+    {
+     "title": "Rehearsal",
+     "work": "Rehearse focusing on listening and reacting."
+    },
+    {
+     "title": "Polish",
+     "work": "Polish with props and costume pieces."
+    },
+    {
+     "title": "Review & check",
+     "work": "Perform the scene and record it."
+    }
+   ],
+   "assessment": "Scene performance video."
+  },
+  {
+   "week": 23,
+   "unit": 5,
+   "topic": "Watching and responding to theatre",
+   "objectives": [
+    "Analyze artistic choices in a recorded production",
+    "Write a theatre review"
+   ],
+   "standards": [
+    "TH:Re8.1.8",
+    "TH:Re9.1.8"
+   ],
+   "vocabulary": [
+    "review",
+    "design elements",
+    "set",
+    "lighting",
+    "costume"
+   ],
+   "materials": [
+    "recorded production (PBS Great Performances or a free filmed school production)"
+   ],
+   "days": [
+    {
+     "title": "Watch part 1",
+     "work": "Watch the first half of a recorded production and note design choices."
+    },
+    {
+     "title": "Watch part 2",
+     "work": "Finish the production and note acting choices."
+    },
+    {
+     "title": "Analyzing choices",
+     "work": "Analyze how set, costume and lighting support the story."
+    },
+    {
+     "title": "Review writing",
+     "work": "Write a 300-word theatre review with evidence."
+    },
+    {
+     "title": "Review & check",
+     "work": "Share the review and discuss."
+    }
+   ],
+   "assessment": "Theatre review."
+  },
+  {
+   "week": 24,
+   "unit": 6,
+   "topic": "Playwriting: ideas and structure",
+   "objectives": [
+    "Generate ideas for an original short play",
+    "Structure a plot with conflict and resolution"
+   ],
+   "standards": [
+    "TH:Cr1.1.8",
+    "TH:Cr2.1.8"
+   ],
+   "vocabulary": [
+    "playwright",
+    "premise",
+    "conflict",
+    "exposition",
+    "climax",
+    "resolution",
+    "stage directions"
+   ],
+   "materials": [
+    "notebook",
+    "script format template"
+   ],
+   "days": [
+    {
+     "title": "Story sources",
+     "work": "Brainstorm 10 premises from news stories, history (e.g., a Gold Rush camp) and personal experience."
+    },
+    {
+     "title": "Choosing a premise",
+     "work": "Choose one and write a one-paragraph premise naming characters, setting and central conflict."
+    },
+    {
+     "title": "Plot structure",
+     "work": "Outline exposition, rising action, climax and resolution for a 5–8 minute play."
+    },
+    {
+     "title": "Character sketches",
+     "work": "Write character sketches with objectives and obstacles for 2–3 characters."
+    },
+    {
+     "title": "Review & check",
+     "work": "Pitch the play to family and revise based on questions."
+    }
+   ],
+   "assessment": "Play outline and character sketches."
+  },
+  {
+   "week": 25,
+   "unit": 6,
+   "topic": "Writing the script",
+   "objectives": [
+    "Write dialogue and stage directions in proper script format",
+    "Solve staging problems"
+   ],
+   "standards": [
+    "TH:Cr2.1.8",
+    "TH:Cr1.1.8"
+   ],
+   "vocabulary": [
+    "script format",
+    "dialogue",
+    "stage directions",
+    "parenthetical",
+    "setting"
+   ],
+   "materials": [
+    "script template",
+    "word processor"
+   ],
+   "days": [
+    {
+     "title": "Script format",
+     "work": "Study script format and write the opening page."
+    },
+    {
+     "title": "Draft scene 1",
+     "work": "Draft the first half with dialogue revealing character."
+    },
+    {
+     "title": "Draft scene 2",
+     "work": "Draft the climax and resolution."
+    },
+    {
+     "title": "Staging problems",
+     "work": "Identify two staging challenges (e.g., a storm, a crowd) and write creative solutions in stage directions."
+    },
+    {
+     "title": "Review & check",
+     "work": "Complete the first draft and read it aloud alone, marking lines that sound unnatural."
+    }
+   ],
+   "assessment": "Complete first draft."
+  },
+  {
+   "week": 26,
+   "unit": 6,
+   "topic": "Table read and revision",
+   "objectives": [
+    "Revise a script using a table read",
+    "Give and receive specific feedback"
+   ],
+   "standards": [
+    "TH:Cr3.1.8",
+    "TH:Re9.1.8"
+   ],
+   "vocabulary": [
+    "table read",
+    "revision",
+    "feedback",
+    "pacing"
+   ],
+   "materials": [
+    "script copies",
+    "family readers"
+   ],
+   "days": [
+    {
+     "title": "Table read",
+     "work": "Hold a table read with family members reading parts."
+    },
+    {
+     "title": "Feedback",
+     "work": "Collect feedback with a glow-and-grow form."
+    },
+    {
+     "title": "Revising dialogue",
+     "work": "Revise dialogue for clarity and character voice."
+    },
+    {
+     "title": "Revising structure",
+     "work": "Cut or add scenes to improve pacing."
+    },
+    {
+     "title": "Review & check",
+     "work": "Finalize the second draft."
+    }
+   ],
+   "assessment": "Second draft and revision notes."
+  },
+  {
+   "week": 27,
+   "unit": 6,
+   "topic": "Staging a reading",
+   "objectives": [
+    "Rehearse and perform a staged reading of the original play",
+    "Reflect on the process"
+   ],
+   "standards": [
+    "TH:Pr6.1.8",
+    "TH:Cr3.1.8"
+   ],
+   "vocabulary": [
+    "staged reading",
+    "director",
+    "rehearsal",
+    "props"
+   ],
+   "materials": [
+    "scripts",
+    "simple props and costumes"
+   ],
+   "days": [
+    {
+     "title": "Casting & planning",
+     "work": "Cast family or friends and plan simple props and set."
+    },
+    {
+     "title": "Rehearsal 1",
+     "work": "Rehearse with blocking."
+    },
+    {
+     "title": "Rehearsal 2",
+     "work": "Run-through with props and sound effects."
+    },
+    {
+     "title": "Performance",
+     "work": "Perform the staged reading for an audience and record it."
+    },
+    {
+     "title": "Reflection",
+     "work": "Write a reflection on what worked and what you would change."
+    }
+   ],
+   "assessment": "Staged reading and reflection."
+  },
+  {
+   "week": 28,
+   "unit": 7,
+   "topic": "Photography: composition",
+   "objectives": [
+    "Apply rule of thirds, leading lines and framing",
+    "Analyze intent in famous photographs"
+   ],
+   "standards": [
+    "MA:Cr1.1.8",
+    "MA:Re7.1.8"
+   ],
+   "vocabulary": [
+    "rule of thirds",
+    "leading lines",
+    "framing",
+    "depth of field",
+    "point of view"
+   ],
+   "materials": [
+    "phone or digital camera"
+   ],
+   "days": [
+    {
+     "title": "Analyzing photos",
+     "work": "Analyze Dorothea Lange's 'Migrant Mother' and Ansel Adams's Yosemite images for composition and intent."
+    },
+    {
+     "title": "Rule of thirds",
+     "work": "Take 10 photos using a rule-of-thirds grid."
+    },
+    {
+     "title": "Leading lines & framing",
+     "work": "Take 10 photos using leading lines and natural frames around the house or neighborhood."
+    },
+    {
+     "title": "Point of view",
+     "work": "Photograph one object from 5 viewpoints (bird's eye, worm's eye) and compare."
+    },
+    {
+     "title": "Review & check",
+     "work": "Select your 5 best photos and caption each with the technique used."
+    }
+   ],
+   "assessment": "Photo portfolio of 5 images with captions."
+  },
+  {
+   "week": 29,
+   "unit": 7,
+   "topic": "Photo essay and media influence",
+   "objectives": [
+    "Create a photo essay telling a story",
+    "Analyze how images in media influence viewers",
+    "Practice ethical sharing"
+   ],
+   "standards": [
+    "MA:Cr3.1.8",
+    "VA:Re7.2.8",
+    "VA:Cr2.2.8"
+   ],
+   "vocabulary": [
+    "photo essay",
+    "sequence",
+    "caption",
+    "digital citizenship",
+    "consent"
+   ],
+   "materials": [
+    "phone or camera",
+    "free photo editor"
+   ],
+   "days": [
+    {
+     "title": "Media influence",
+     "work": "Compare how the same event is shown in news photos, ads and social media and how each influences viewers."
+    },
+    {
+     "title": "Planning a photo essay",
+     "work": "Plan a 10-photo essay on 'A day in my community.'"
+    },
+    {
+     "title": "Shooting",
+     "work": "Shoot photos following the plan."
+    },
+    {
+     "title": "Editing",
+     "work": "Edit photos (crop, exposure) and sequence them."
+    },
+    {
+     "title": "Ethical sharing",
+     "work": "Write captions, get consent from people pictured, and present the photo essay."
+    }
+   ],
+   "assessment": "Photo essay."
+  },
+  {
+   "week": 30,
+   "unit": 7,
+   "topic": "Stop-motion animation: planning",
+   "objectives": [
+    "Plan a stop-motion animation with storyboard",
+    "Understand frame rate"
+   ],
+   "standards": [
+    "MA:Cr2.1.8",
+    "MA:Cr1.1.8"
+   ],
+   "vocabulary": [
+    "stop-motion",
+    "frame",
+    "frame rate",
+    "storyboard",
+    "animatic"
+   ],
+   "materials": [
+    "phone with free Stop Motion Studio app",
+    "clay or LEGO figures",
+    "tripod or stack of books"
+   ],
+   "days": [
+    {
+     "title": "Animation basics",
+     "work": "Watch a short stop-motion example and calculate frames needed for 30 seconds at 12 fps."
+    },
+    {
+     "title": "Test animation",
+     "work": "Make a 3-second test animation of a bouncing ball."
+    },
+    {
+     "title": "Story",
+     "work": "Write a short story idea for a 30-second animation."
+    },
+    {
+     "title": "Storyboard",
+     "work": "Draw a 12-panel storyboard."
+    },
+    {
+     "title": "Review & check",
+     "work": "Build characters and set."
+    }
+   ],
+   "assessment": "Storyboard and test animation."
+  },
+  {
+   "week": 31,
+   "unit": 7,
+   "topic": "Stop-motion animation: production",
+   "objectives": [
+    "Produce, edit and share a stop-motion animation",
+    "Analyze audience response"
+   ],
+   "standards": [
+    "MA:Cr3.1.8",
+    "MA:Pr6.1.8"
+   ],
+   "vocabulary": [
+    "editing",
+    "sound effects",
+    "title card",
+    "credits",
+    "distribution"
+   ],
+   "materials": [
+    "Stop Motion Studio app",
+    "figures",
+    "set"
+   ],
+   "days": [
+    {
+     "title": "Shooting 1",
+     "work": "Shoot the first half of the animation."
+    },
+    {
+     "title": "Shooting 2",
+     "work": "Shoot the second half."
+    },
+    {
+     "title": "Editing & sound",
+     "work": "Edit the frames and add music or sound effects."
+    },
+    {
+     "title": "Titles & credits",
+     "work": "Add titles and credits."
+    },
+    {
+     "title": "Premiere",
+     "work": "Screen the animation for family and collect feedback."
+    }
+   ],
+   "assessment": "Completed animation."
+  },
+  {
+   "week": 32,
+   "unit": 8,
+   "topic": "Elements of dance",
+   "objectives": [
+    "Explore body, energy, space and time",
+    "Analyze dance works"
+   ],
+   "standards": [
+    "DA:Cr1.1.8",
+    "DA:Re8.1.8"
+   ],
+   "vocabulary": [
+    "body",
+    "energy",
+    "space",
+    "time",
+    "levels",
+    "pathways",
+    "tempo"
+   ],
+   "materials": [
+    "open space",
+    "music"
+   ],
+   "days": [
+    {
+     "title": "Elements",
+     "work": "Learn the elements of dance through movement exploration."
+    },
+    {
+     "title": "Dance styles",
+     "work": "Watch Alvin Ailey's 'Revelations' excerpt and a folk dance; compare."
+    },
+    {
+     "title": "Improvising",
+     "work": "Improvise movement to 3 contrasting pieces of music."
+    },
+    {
+     "title": "Movement phrases",
+     "work": "Create a 16-count phrase."
+    },
+    {
+     "title": "Review & check",
+     "work": "Perform and describe the phrase."
+    }
+   ],
+   "assessment": "Phrase performance."
+  },
+  {
+   "week": 33,
+   "unit": 8,
+   "topic": "Choreographic devices",
+   "objectives": [
+    "Apply choreographic devices",
+    "Structure an original dance study"
+   ],
+   "standards": [
+    "DA:Cr2.1.8",
+    "DA:Pr4.1.8"
+   ],
+   "vocabulary": [
+    "repetition",
+    "canon",
+    "unison",
+    "retrograde",
+    "ABA",
+    "motif"
+   ],
+   "materials": [
+    "open space",
+    "music"
+   ],
+   "days": [
+    {
+     "title": "Devices",
+     "work": "Learn repetition, canon, unison and retrograde by applying each to your phrase."
+    },
+    {
+     "title": "Structure",
+     "work": "Organize phrases into ABA form."
+    },
+    {
+     "title": "Spatial design",
+     "work": "Use levels and pathways intentionally."
+    },
+    {
+     "title": "Collaboration",
+     "work": "Teach part of your dance to a family member and create a duet."
+    },
+    {
+     "title": "Review & check",
+     "work": "Record the draft dance."
+    }
+   ],
+   "assessment": "Recorded draft."
+  },
+  {
+   "week": 34,
+   "unit": 8,
+   "topic": "Dance performance",
+   "objectives": [
+    "Perform an original dance with expression",
+    "Reflect on artistic choices"
+   ],
+   "standards": [
+    "DA:Pr6.1.8",
+    "DA:Re8.1.8"
+   ],
+   "vocabulary": [
+    "performance",
+    "expression",
+    "production elements"
+   ],
+   "materials": [
+    "music",
+    "costume pieces",
+    "recording device"
+   ],
+   "days": [
+    {
+     "title": "Rehearsal",
+     "work": "Rehearse focusing on expression."
+    },
+    {
+     "title": "Production elements",
+     "work": "Add costume and lighting."
+    },
+    {
+     "title": "Dress rehearsal",
+     "work": "Run-through."
+    },
+    {
+     "title": "Performance",
+     "work": "Perform and record."
+    },
+    {
+     "title": "Reflection",
+     "work": "Write about choices."
+    }
+   ],
+   "assessment": "Performance and reflection."
+  },
+  {
+   "week": 35,
+   "unit": 9,
+   "topic": "Curating the portfolio",
+   "objectives": [
+    "Select and prepare work for exhibition",
+    "Write exhibition narratives"
+   ],
+   "standards": [
+    "VA:Pr5.1.8",
+    "VA:Re9.1.8"
+   ],
+   "vocabulary": [
+    "curate",
+    "exhibition",
+    "label",
+    "artist statement"
+   ],
+   "materials": [
+    "year's artwork",
+    "mats or cardstock"
+   ],
+   "days": [
+    {
+     "title": "Selection",
+     "work": "Review the year's work and select 8–10 pieces."
+    },
+    {
+     "title": "Mounting",
+     "work": "Mount or mat 2-D works."
+    },
+    {
+     "title": "Labels",
+     "work": "Write labels."
+    },
+    {
+     "title": "Statement",
+     "work": "Write an artist statement."
+    },
+    {
+     "title": "Layout",
+     "work": "Plan the exhibit layout."
+    }
+   ],
+   "assessment": "Portfolio selection and statements."
+  },
+  {
+   "week": 36,
+   "unit": 9,
+   "topic": "Exhibition and showcase",
+   "objectives": [
+    "Present an exhibition and performance showcase",
+    "Reflect on growth"
+   ],
+   "standards": [
+    "VA:Pr6.1.8",
+    "VA:Pr5.1.8"
+   ],
+   "vocabulary": [
+    "exhibition",
+    "showcase",
+    "reflection"
+   ],
+   "materials": [
+    "artwork",
+    "performance pieces"
+   ],
+   "days": [
+    {
+     "title": "Setup",
+     "work": "Set up the exhibit."
+    },
+    {
+     "title": "Rehearse",
+     "work": "Rehearse performance pieces."
+    },
+    {
+     "title": "Showcase",
+     "work": "Host the showcase."
+    },
+    {
+     "title": "Feedback",
+     "work": "Collect guest feedback."
+    },
+    {
+     "title": "Reflection",
+     "work": "Write a reflection."
+    }
+   ],
+   "assessment": "Showcase and reflection."
+  }
+ ]
+}

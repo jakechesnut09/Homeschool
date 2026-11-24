@@ -1,0 +1,336 @@
+{
+  "grade": 12,
+  "subject": "VAPA",
+  "title": "Advanced Art & Portfolio",
+  "description": "An advanced studio course for seniors that builds technical mastery in drawing, painting, printmaking, mixed media, and digital/photo work, then centers on a year-long Sustained Investigation modeled on AP Art and Design. Students keep a process sketchbook, write artist statements, photograph and curate a college-ready portfolio, and mount a public senior exhibition.",
+  "framework": "2019 California Arts Standards for Public Schools – Visual Arts (High School Advanced proficiency level); 2020 California Arts Education Framework",
+  "minutes_per_day": 50,
+  "ag_requirement": "f",
+  "credits": 10,
+  "standards": {
+    "VA:Cr1.1.HSIII": "Visualize and hypothesize to generate plans for ideas and directions for creating art and design that can affect social change.",
+    "VA:Cr1.2.HSIII": "Choose from a range of materials and methods of traditional and contemporary artistic practices, following or breaking established conventions, to plan the making of multiple works of art and design based on a theme, idea, or concept.",
+    "VA:Cr2.1.HSIII": "Experiment, plan, and make multiple works of art and design that explore a personally meaningful theme, idea, or concept.",
+    "VA:Cr2.2.HSIII": "Demonstrate understanding of the importance of balancing freedom and responsibility in the use of images, materials, tools, and equipment in the creation and circulation of creative work.",
+    "VA:Cr2.3.HSIII": "Demonstrate in works of art or design how visual and material culture defines, shapes, enhances, inhibits, and/or empowers people's lives.",
+    "VA:Cr3.1.HSIII": "Reflect on, reengage, revise, and refine works of art or design considering relevant traditional and contemporary criteria as well as personal artistic vision.",
+    "VA:Pr4.1.HSIII": "Critique, justify, and present choices in the process of analyzing, selecting, curating, and presenting artwork for a specific exhibit or event.",
+    "VA:Pr5.1.HSIII": "Investigate, compare, and contrast methods for preserving and protecting art; prepare and present artwork, including digital documentation.",
+    "VA:Pr6.1.HSIII": "Curate a collection of objects, artifacts, or artwork to impact the viewer's understanding of social, cultural, and/or political experiences.",
+    "VA:Re7.1.HSIII": "Analyze how responses to art develop over time based on knowledge of and experience with art and life.",
+    "VA:Re7.2.HSIII": "Determine the commonalities within a group of artists or visual images attributed to a particular type of art, timeframe, or culture.",
+    "VA:Re8.1.HSIII": "Analyze differing interpretations of an artwork or collection of works in order to select and defend a plausible critical analysis.",
+    "VA:Re9.1.HSIII": "Construct evaluations of a work of art or collection of works based on differing sets of criteria.",
+    "VA:Cn10.1.HSIII": "Synthesize knowledge of social, cultural, historical, and personal life with art-making approaches to create meaningful works of art or design.",
+    "VA:Cn11.1.HSIII": "Appraise the impact of an artist or a group of artists on the beliefs, values, and behaviors of a society."
+  },
+  "resources": [
+    {"name": "AP 2-D Art and Design (College Board student page)", "url": "https://apstudents.collegeboard.org/courses/ap-2-d-art-and-design", "note": "Sustained Investigation and Selected Works requirements used as the portfolio model"},
+    {"name": "Smithsonian Learning Lab", "url": "https://learninglab.si.edu", "note": "Millions of free museum images for artist research and art history"},
+    {"name": "National Gallery of Art", "url": "https://www.nga.gov", "note": "Free collection search and open-access images for master studies"},
+    {"name": "Drawabox", "url": "https://drawabox.com", "note": "Free structured lessons for construction drawing and perspective"},
+    {"name": "Khan Academy – Arts and Humanities (Smarthistory)", "url": "https://www.khanacademy.org/humanities", "note": "Free art history videos for contemporary and global art movements"}
+  ],
+  "units": [
+    {"number": 1, "title": "Studio Practice and the Visual Journal", "start_week": 1, "end_week": 3, "big_idea": "Serious artists build habits: daily sketching, research, and reflection.", "standards": ["VA:Cr1.1.HSIII", "VA:Cr1.2.HSIII", "VA:Re7.1.HSIII"]},
+    {"number": 2, "title": "Advanced Observational Drawing", "start_week": 4, "end_week": 7, "big_idea": "Accurate seeing is the foundation for intentional distortion.", "standards": ["VA:Cr2.1.HSIII", "VA:Cr3.1.HSIII", "VA:Re7.2.HSIII"]},
+    {"number": 3, "title": "Painting: Color and Surface", "start_week": 8, "end_week": 11, "big_idea": "Color relationships and surface handling carry mood and meaning.", "standards": ["VA:Cr1.2.HSIII", "VA:Cr2.1.HSIII", "VA:Cr3.1.HSIII", "VA:Re8.1.HSIII"]},
+    {"number": 4, "title": "Launching the Sustained Investigation", "start_week": 12, "end_week": 15, "big_idea": "An inquiry question drives a body of work forward through practice, experimentation, and revision.", "standards": ["VA:Cr1.1.HSIII", "VA:Cr2.1.HSIII", "VA:Cn10.1.HSIII", "VA:Re9.1.HSIII"]},
+    {"number": 5, "title": "Digital, Photo, and Mixed Media", "start_week": 16, "end_week": 18, "big_idea": "New media and ethical image use expand what an artist can say.", "standards": ["VA:Cr1.2.HSIII", "VA:Cr2.2.HSIII", "VA:Cr2.3.HSIII", "VA:Pr5.1.HSIII"]},
+    {"number": 6, "title": "Sustained Investigation: Production", "start_week": 19, "end_week": 25, "big_idea": "Depth comes from making many related works and letting each one inform the next.", "standards": ["VA:Cr2.1.HSIII", "VA:Cr3.1.HSIII", "VA:Cn10.1.HSIII", "VA:Cn11.1.HSIII", "VA:Re8.1.HSIII"]},
+    {"number": 7, "title": "Printmaking and Sculpture Extensions", "start_week": 26, "end_week": 28, "big_idea": "Translating an idea into multiples or three dimensions reveals new possibilities.", "standards": ["VA:Cr1.2.HSIII", "VA:Cr2.1.HSIII", "VA:Cr2.3.HSIII"]},
+    {"number": 8, "title": "Portfolio Curation and Documentation", "start_week": 29, "end_week": 31, "big_idea": "How work is selected, photographed, and described shapes how it is understood.", "standards": ["VA:Pr4.1.HSIII", "VA:Pr5.1.HSIII", "VA:Re9.1.HSIII", "VA:Cr3.1.HSIII"]},
+    {"number": 9, "title": "Senior Exhibition", "start_week": 32, "end_week": 34, "big_idea": "Exhibiting art is a public conversation with a community.", "standards": ["VA:Pr4.1.HSIII", "VA:Pr5.1.HSIII", "VA:Pr6.1.HSIII", "VA:Cn11.1.HSIII"]},
+    {"number": 10, "title": "Reflection and Next Steps", "start_week": 35, "end_week": 36, "big_idea": "An artist's practice continues beyond school through intention and community.", "standards": ["VA:Re7.1.HSIII", "VA:Re9.1.HSIII", "VA:Cn10.1.HSIII"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "Setting up a studio practice", "objectives": ["Establish a sketchbook routine", "Assess current skills"], "standards": ["VA:Cr1.2.HSIII", "VA:Re7.1.HSIII"], "vocabulary": ["visual journal", "thumbnail", "artist statement"], "materials": ["mixed-media sketchbook", "graphite pencils 2H–6B", "kneaded eraser", "fineliner pens"],
+      "days": [
+        {"title": "Studio setup", "work": "Organize a home studio corner with good light and storage; photograph it for your process journal."},
+        {"title": "Baseline drawing", "work": "Draw a self-portrait from a mirror in 45 minutes as a baseline to compare at year's end."},
+        {"title": "Skills inventory", "work": "Fill two sketchbook pages with quick tests of each medium you own and rate your comfort level."},
+        {"title": "Portfolio goals", "work": "Review the AP 2-D Art and Design portfolio structure and write three goals for your senior portfolio."},
+        {"title": "Reflect", "work": "Write a half-page reflection on what kind of artist you want to be by June."}
+      ], "assessment": "Baseline self-portrait and goal sheet."},
+    {"week": 2, "unit": 1, "topic": "Idea generation strategies", "objectives": ["Use brainstorming methods to generate ideas"], "standards": ["VA:Cr1.1.HSIII", "VA:Cr1.2.HSIII"], "vocabulary": ["mind map", "thumbnail sketch", "visual research"], "materials": ["sketchbook", "magazines", "glue stick"],
+      "days": [
+        {"title": "Mind map", "work": "Create a mind map around a single word (e.g., 'home') and branch to 30 visual ideas."},
+        {"title": "20 thumbnails", "work": "Draw 20 two-inch thumbnails exploring compositions from your mind map."},
+        {"title": "Image research", "work": "Collect 10 reference images from Smithsonian Learning Lab or NGA open access that connect to your ideas."},
+        {"title": "Collage brainstorm", "work": "Make a quick magazine collage that combines unexpected images into a new idea."},
+        {"title": "Share & check", "work": "Present your three strongest ideas to a family member and record their feedback."}
+      ], "assessment": "Sketchbook idea pages."},
+    {"week": 3, "unit": 1, "topic": "Looking at contemporary art", "objectives": ["Analyze how contemporary artists develop ideas", "Write a formal analysis"], "standards": ["VA:Re7.1.HSIII", "VA:Cr1.1.HSIII"], "vocabulary": ["formal analysis", "contemporary", "concept", "series"], "materials": ["Art21 videos (free online)", "sketchbook"],
+      "days": [
+        {"title": "Artist video", "work": "Watch an Art21 episode on a contemporary artist and take notes on their process."},
+        {"title": "Formal analysis", "work": "Write a formal analysis of one artwork (elements, principles, meaning) in 300 words."},
+        {"title": "Series thinking", "work": "Study how an artist develops a series and sketch three variations on one of your own ideas."},
+        {"title": "Mini-work", "work": "Complete a small finished drawing inspired by the artist's process, not their style."},
+        {"title": "Reflection", "work": "Reflect on how your response to the artist changed after research."}
+      ], "assessment": "Formal analysis and mini-work."},
+    {"week": 4, "unit": 2, "topic": "Value and form", "objectives": ["Render form with a full value range"], "standards": ["VA:Cr2.1.HSIII", "VA:Cr3.1.HSIII"], "vocabulary": ["value scale", "chiaroscuro", "core shadow", "reflected light", "cast shadow"], "materials": ["white eggs or objects", "desk lamp", "charcoal", "toned paper"],
+      "days": [
+        {"title": "Value scale", "work": "Make a 10-step value scale in graphite and in charcoal."},
+        {"title": "Egg study", "work": "Draw white eggs under a single lamp, identifying highlight, core shadow, reflected light, and cast shadow."},
+        {"title": "Still life", "work": "Set up a white still life (cups, fabric) and start a 3-hour chiaroscuro drawing."},
+        {"title": "Continue", "work": "Continue the still life, pushing the darkest darks and preserving highlights."},
+        {"title": "Critique", "work": "Finish and self-critique using a value checklist; photograph for your journal."}
+      ], "assessment": "Chiaroscuro still-life drawing."},
+    {"week": 5, "unit": 2, "topic": "Perspective and space", "objectives": ["Draw interior and exterior spaces in perspective"], "standards": ["VA:Cr2.1.HSIII"], "vocabulary": ["one-point", "two-point", "three-point perspective", "horizon line", "vanishing point"], "materials": ["ruler", "drawing paper", "Drawabox lessons"],
+      "days": [
+        {"title": "Perspective boxes", "work": "Complete the Drawabox 250-box challenge warm-up (25 boxes today) in two-point perspective."},
+        {"title": "Interior", "work": "Draw a room in your home in one- or two-point perspective from life."},
+        {"title": "Exterior", "work": "Draw your street or a building from a dramatic three-point viewpoint."},
+        {"title": "Atmospheric perspective", "work": "Make a landscape study showing depth through value and detail changes."},
+        {"title": "Check", "work": "Select the strongest perspective piece and refine it."}
+      ], "assessment": "Perspective drawing."},
+    {"week": 6, "unit": 2, "topic": "The figure", "objectives": ["Draw the figure with proportion and gesture"], "standards": ["VA:Cr2.1.HSIII", "VA:Re7.2.HSIII"], "vocabulary": ["gesture", "proportion", "foreshortening", "contour"], "materials": ["family model or online timed-pose site", "charcoal", "newsprint"],
+      "days": [
+        {"title": "Gesture", "work": "Do 30 one-minute gesture drawings from a family model or timed online poses."},
+        {"title": "Proportion", "work": "Study figure proportions (head units) and draw three 10-minute poses."},
+        {"title": "Hands and feet", "work": "Fill a page with studies of your own hands and feet from multiple angles."},
+        {"title": "Master study", "work": "Copy a figure drawing by a master (e.g., Michelangelo, Käthe Kollwitz) from NGA open access."},
+        {"title": "Long pose", "work": "Complete a 45-minute figure drawing applying gesture and proportion."}
+      ], "assessment": "Figure drawing set."},
+    {"week": 7, "unit": 2, "topic": "Portraiture and expressive drawing", "objectives": ["Create an expressive portrait", "Participate in critique"], "standards": ["VA:Cr3.1.HSIII", "VA:Re7.2.HSIII"], "vocabulary": ["expressive line", "likeness", "critique"], "materials": ["charcoal", "ink", "mirror or photo reference"],
+      "days": [
+        {"title": "Facial proportions", "work": "Draw a portrait using measured proportions from a family member or photo."},
+        {"title": "Expressive approaches", "work": "Study expressive portraits by artists such as Alice Neel and Kehinde Wiley; note choices of line and color."},
+        {"title": "Expressive portrait", "work": "Create a portrait that conveys mood through mark-making and composition."},
+        {"title": "Refine", "work": "Refine the portrait using feedback from a family member."},
+        {"title": "Critique", "work": "Hold a formal critique (describe, analyze, interpret, evaluate) of your unit drawings."}
+      ], "assessment": "Expressive portrait and critique notes."},
+    {"week": 8, "unit": 3, "topic": "Color theory in paint", "objectives": ["Mix accurate colors", "Use color schemes intentionally"], "standards": ["VA:Cr1.2.HSIII", "VA:Cr2.1.HSIII"], "vocabulary": ["hue", "saturation", "temperature", "complementary", "limited palette"], "materials": ["acrylic or gouache (primary colors + white)", "brushes", "palette", "canvas paper"],
+      "days": [
+        {"title": "Color wheel", "work": "Mix a 12-step color wheel from three primaries plus white."},
+        {"title": "Value in color", "work": "Paint a grayscale and then a full-color version of the same simple object."},
+        {"title": "Temperature", "work": "Paint the same landscape twice: once warm-dominant, once cool-dominant."},
+        {"title": "Limited palette", "work": "Paint a still life with a Zorn palette (yellow ochre, red, black, white)."},
+        {"title": "Check", "work": "Self-critique color studies and note what you'll apply going forward."}
+      ], "assessment": "Color study sheets."},
+    {"week": 9, "unit": 3, "topic": "Painting from life", "objectives": ["Complete an observational painting"], "standards": ["VA:Cr2.1.HSIII", "VA:Cr3.1.HSIII"], "vocabulary": ["underpainting", "block-in", "glazing", "impasto"], "materials": ["acrylic or oil paints", "canvas or panel"],
+      "days": [
+        {"title": "Underpainting", "work": "Tone a canvas and block in a still life with a monochrome underpainting."},
+        {"title": "Block-in", "work": "Block in large color shapes, focusing on value relationships."},
+        {"title": "Develop", "work": "Develop forms and edges; use glazing or impasto deliberately."},
+        {"title": "Finish", "work": "Add final details and highlights."},
+        {"title": "Reflect", "work": "Write a reflection on your painting process and photograph the work."}
+      ], "assessment": "Observational painting."},
+    {"week": 10, "unit": 3, "topic": "Plein air and landscape", "objectives": ["Paint outdoors capturing light"], "standards": ["VA:Cr2.1.HSIII", "VA:Re8.1.HSIII"], "vocabulary": ["plein air", "atmospheric perspective", "Impressionism", "California Plein Air"], "materials": ["portable paint kit", "small panels"],
+      "days": [
+        {"title": "California Impressionists", "work": "Study California plein air painters (e.g., Granville Redmond, Guy Rose) and compare to French Impressionists."},
+        {"title": "Morning study", "work": "Paint a 1-hour plein air study in morning light."},
+        {"title": "Afternoon study", "work": "Paint the same scene in afternoon light and compare."},
+        {"title": "Studio painting", "work": "Use your studies to begin a larger studio landscape."},
+        {"title": "Interpretation", "work": "Write two different interpretations of a California landscape painting and defend one."}
+      ], "assessment": "Plein air studies and interpretation."},
+    {"week": 11, "unit": 3, "topic": "Abstraction and expressive painting", "objectives": ["Create a nonrepresentational painting"], "standards": ["VA:Cr1.2.HSIII", "VA:Cr3.1.HSIII", "VA:Re8.1.HSIII"], "vocabulary": ["abstraction", "Abstract Expressionism", "gesture", "color field"], "materials": ["large paper or canvas", "acrylics", "palette knives"],
+      "days": [
+        {"title": "Abstraction research", "work": "Compare works by Kandinsky, Helen Frankenthaler, and Mark Rothko; note how each conveys emotion without imagery."},
+        {"title": "Studies", "work": "Make four small abstract studies based on a piece of music or an emotion."},
+        {"title": "Final abstraction", "work": "Begin a larger abstract painting developed from your best study."},
+        {"title": "Finish", "work": "Complete the painting and finish your studio landscape from Week 10."},
+        {"title": "Unit critique", "work": "Hold a painting critique and select one painting for the portfolio."}
+      ], "assessment": "Abstract painting and unit critique."},
+    {"week": 12, "unit": 4, "topic": "Defining an inquiry", "objectives": ["Write a Sustained Investigation inquiry question"], "standards": ["VA:Cr1.1.HSIII", "VA:Cn10.1.HSIII"], "vocabulary": ["inquiry", "sustained investigation", "practice, experimentation, revision"], "materials": ["sketchbook", "AP sample portfolios (College Board)"],
+      "days": [
+        {"title": "Study examples", "work": "Review three AP sample Sustained Investigations and note how each inquiry guided the work."},
+        {"title": "Brainstorm", "work": "Brainstorm 10 inquiry questions rooted in your life, culture, or community."},
+        {"title": "Narrow", "work": "Narrow to one question and write why it matters to you."},
+        {"title": "Planning", "work": "Make 15 thumbnail ideas responding to your question."},
+        {"title": "Proposal", "work": "Write a one-page proposal: inquiry, materials, artists to research, and a 15-piece plan."}
+      ], "assessment": "Sustained Investigation proposal."},
+    {"week": 13, "unit": 4, "topic": "Artist research and influences", "objectives": ["Research artists connected to the inquiry"], "standards": ["VA:Cn10.1.HSIII", "VA:Re9.1.HSIII"], "vocabulary": ["influence", "appropriation", "homage"], "materials": ["Smithsonian Learning Lab", "sketchbook"],
+      "days": [
+        {"title": "Research", "work": "Research three artists whose work connects to your inquiry and build a visual reference page for each."},
+        {"title": "Process study", "work": "Do a process study imitating one artist's technique."},
+        {"title": "Cultural connections", "work": "Research a cultural or historical tradition connected to your inquiry (e.g., Chicano muralism, Japanese woodblock)."},
+        {"title": "First piece", "work": "Begin the first Sustained Investigation piece."},
+        {"title": "Reflect", "work": "Write a process note on how research shaped your first piece."}
+      ], "assessment": "Artist research pages."},
+    {"week": 14, "unit": 4, "topic": "Sustained Investigation pieces 1–2", "objectives": ["Produce and revise early investigation works"], "standards": ["VA:Cr2.1.HSIII", "VA:Re9.1.HSIII"], "vocabulary": ["iteration", "documentation"], "materials": ["chosen media"],
+      "days": [
+        {"title": "Piece 1", "work": "Continue and complete piece 1."},
+        {"title": "Document", "work": "Photograph piece 1 and write a 100-character process caption (AP-style)."},
+        {"title": "Piece 2 plan", "work": "Sketch three directions for piece 2 that push the inquiry."},
+        {"title": "Piece 2", "work": "Begin piece 2, experimenting with a new material or composition."},
+        {"title": "Mini-critique", "work": "Get feedback using criteria of skill, synthesis, and inquiry."}
+      ], "assessment": "Pieces 1–2 progress."},
+    {"week": 15, "unit": 4, "topic": "Sustained Investigation piece 3 and review", "objectives": ["Evaluate progress against criteria"], "standards": ["VA:Cr2.1.HSIII", "VA:Re9.1.HSIII", "VA:Cr1.1.HSIII"], "vocabulary": ["rubric", "synthesis", "materials, processes, ideas"], "materials": ["chosen media", "AP scoring guidelines"],
+      "days": [
+        {"title": "Finish piece 2", "work": "Complete piece 2 and document it."},
+        {"title": "Piece 3", "work": "Begin piece 3, deliberately revising something that didn't work earlier."},
+        {"title": "Continue", "work": "Continue piece 3."},
+        {"title": "Score yourself", "work": "Score your three pieces with the AP Sustained Investigation scoring guidelines."},
+        {"title": "Conference", "work": "Hold a progress conference and update your plan."}
+      ], "assessment": "Self-scored progress review."},
+    {"week": 16, "unit": 5, "topic": "Digital art and ethics", "objectives": ["Create digital work", "Use images ethically"], "standards": ["VA:Cr1.2.HSIII", "VA:Cr2.2.HSIII"], "vocabulary": ["copyright", "fair use", "Creative Commons", "raster", "vector"], "materials": ["free software (Krita, GIMP, or Photopea)", "phone or tablet"],
+      "days": [
+        {"title": "Copyright", "work": "Learn copyright, fair use, and Creative Commons; analyze two appropriation-art court cases."},
+        {"title": "Digital tools", "work": "Learn layers, masks, and brushes in Krita or Photopea through a guided exercise."},
+        {"title": "AI and art", "work": "Discuss ethical questions about AI image generation and write your personal policy."},
+        {"title": "Digital piece", "work": "Create a digital artwork related to your inquiry using only your own photos or CC0 sources."},
+        {"title": "Check", "work": "Finish and document the piece, citing any sources used."}
+      ], "assessment": "Digital artwork and ethics statement."},
+    {"week": 17, "unit": 5, "topic": "Photography and visual culture", "objectives": ["Compose strong photographs", "Analyze how images shape lives"], "standards": ["VA:Cr2.3.HSIII", "VA:Pr5.1.HSIII"], "vocabulary": ["rule of thirds", "depth of field", "exposure", "visual culture"], "materials": ["phone camera", "editing app"],
+      "days": [
+        {"title": "Composition", "work": "Shoot 50 photos practicing rule of thirds, leading lines, and framing."},
+        {"title": "Light", "work": "Shoot the same subject in golden hour, midday, and window light."},
+        {"title": "Photo essay", "work": "Create a 6-image photo essay about your community's visual culture (signs, murals, advertising)."},
+        {"title": "Edit", "work": "Edit and sequence the photo essay."},
+        {"title": "Present", "work": "Present the photo essay with a statement on how images shape community life."}
+      ], "assessment": "Photo essay."},
+    {"week": 18, "unit": 5, "topic": "Mixed media and semester review", "objectives": ["Combine media meaningfully", "Review semester growth"], "standards": ["VA:Cr1.2.HSIII", "VA:Cr2.3.HSIII", "VA:Pr5.1.HSIII"], "vocabulary": ["mixed media", "assemblage", "collage", "transfer"], "materials": ["gel medium", "printed photos", "found objects", "paint"],
+      "days": [
+        {"title": "Image transfer", "work": "Practice gel-medium image transfers of your own photos onto paper and wood."},
+        {"title": "Mixed-media piece", "work": "Create a mixed-media work for your investigation combining transfer, paint, and drawing."},
+        {"title": "Finish", "work": "Complete the mixed-media piece."},
+        {"title": "Semester review", "work": "Lay out all semester work and select your top 8 pieces."},
+        {"title": "Semester critique", "work": "Write a semester self-evaluation and present your top pieces."}
+      ], "assessment": "Semester portfolio review."},
+    {"week": 19, "unit": 6, "topic": "Investigation: new directions", "objectives": ["Revise inquiry based on S1 reflection"], "standards": ["VA:Cr2.1.HSIII", "VA:Cn10.1.HSIII"], "vocabulary": ["revision", "pivot", "body of work"], "materials": ["sketchbook", "chosen media"],
+      "days": [
+        {"title": "Revisit inquiry", "work": "Rewrite your inquiry question based on what you discovered in S1."},
+        {"title": "Plan", "work": "Plan pieces 6–15 with thumbnails and materials list."},
+        {"title": "Piece 6", "work": "Begin piece 6."},
+        {"title": "Continue", "work": "Continue piece 6."},
+        {"title": "Document", "work": "Finish and document piece 6."}
+      ], "assessment": "Updated plan and piece 6."},
+    {"week": 20, "unit": 6, "topic": "Investigation: piece 7", "objectives": ["Experiment with scale"], "standards": ["VA:Cr2.1.HSIII", "VA:Cr3.1.HSIII"], "vocabulary": ["scale", "monumental", "intimate"], "materials": ["large paper or canvas"],
+      "days": [
+        {"title": "Scale studies", "work": "Make one very small and one very large study of the same idea."},
+        {"title": "Piece 7", "work": "Begin piece 7 at a scale new to you."},
+        {"title": "Continue", "work": "Continue piece 7."},
+        {"title": "Finish", "work": "Finish piece 7."},
+        {"title": "Reflect", "work": "Document and write how scale changed the meaning."}
+      ], "assessment": "Piece 7 and reflection."},
+    {"week": 21, "unit": 6, "topic": "Investigation: piece 8", "objectives": ["Experiment with a new material"], "standards": ["VA:Cr2.1.HSIII", "VA:Cr3.1.HSIII"], "vocabulary": ["material exploration", "unconventional media"], "materials": ["a material you have not used (wax, thread, clay, coffee stain)"],
+      "days": [
+        {"title": "Material tests", "work": "Test a new material in five sketchbook experiments."},
+        {"title": "Piece 8", "work": "Begin piece 8 using the new material."},
+        {"title": "Continue", "work": "Continue piece 8."},
+        {"title": "Finish", "work": "Finish piece 8."},
+        {"title": "Document", "work": "Photograph and caption piece 8."}
+      ], "assessment": "Piece 8."},
+    {"week": 22, "unit": 6, "topic": "Mid-investigation critique", "objectives": ["Analyze differing interpretations of your work"], "standards": ["VA:Re8.1.HSIII", "VA:Cr3.1.HSIII"], "vocabulary": ["interpretation", "intent vs. reception"], "materials": ["all investigation pieces"],
+      "days": [
+        {"title": "Viewer responses", "work": "Show your pieces to three people without explanation and record their interpretations."},
+        {"title": "Analysis", "work": "Compare viewers' interpretations with your intent and decide which readings to strengthen."},
+        {"title": "Revise", "work": "Revise one earlier piece based on critique."},
+        {"title": "Piece 9", "work": "Begin piece 9."},
+        {"title": "Reflect", "work": "Write a process reflection on the critique."}
+      ], "assessment": "Critique analysis."},
+    {"week": 23, "unit": 6, "topic": "Investigation: pieces 9–10", "objectives": ["Deepen synthesis of ideas and materials"], "standards": ["VA:Cr2.1.HSIII", "VA:Cn11.1.HSIII"], "vocabulary": ["synthesis", "social impact"], "materials": ["chosen media"],
+      "days": [
+        {"title": "Finish piece 9", "work": "Complete piece 9."},
+        {"title": "Art and society", "work": "Research an artist or movement that changed public beliefs (e.g., the Chicano mural movement, Faith Ringgold) and note strategies."},
+        {"title": "Piece 10", "work": "Begin piece 10, aimed at a social or community message."},
+        {"title": "Continue", "work": "Continue piece 10."},
+        {"title": "Document", "work": "Finish and document pieces 9–10."}
+      ], "assessment": "Pieces 9–10."},
+    {"week": 24, "unit": 6, "topic": "Investigation: pieces 11–12", "objectives": ["Sustain productivity"], "standards": ["VA:Cr2.1.HSIII", "VA:Cr3.1.HSIII"], "vocabulary": ["studio habits", "momentum"], "materials": ["chosen media"],
+      "days": [
+        {"title": "Piece 11", "work": "Begin and work on piece 11."},
+        {"title": "Continue", "work": "Finish piece 11."},
+        {"title": "Piece 12", "work": "Begin piece 12."},
+        {"title": "Continue", "work": "Continue piece 12."},
+        {"title": "Document", "work": "Finish piece 12 and document both."}
+      ], "assessment": "Pieces 11–12."},
+    {"week": 25, "unit": 6, "topic": "Investigation: completion", "objectives": ["Complete the Sustained Investigation body of work"], "standards": ["VA:Cr3.1.HSIII", "VA:Re8.1.HSIII"], "vocabulary": ["cohesion", "body of work"], "materials": ["all pieces"],
+      "days": [
+        {"title": "Gap analysis", "work": "Lay out all pieces and identify gaps in the investigation."},
+        {"title": "Final pieces", "work": "Create or revise pieces to fill the gaps."},
+        {"title": "Continue", "work": "Continue final pieces."},
+        {"title": "Finish", "work": "Finish the body of work (12–15 pieces)."},
+        {"title": "Final critique", "work": "Hold a full critique of the investigation and score it with the AP guidelines."}
+      ], "assessment": "Completed Sustained Investigation."},
+    {"week": 26, "unit": 7, "topic": "Relief printmaking", "objectives": ["Carve and print a relief block"], "standards": ["VA:Cr1.2.HSIII", "VA:Cr2.1.HSIII"], "vocabulary": ["relief print", "brayer", "edition", "registration"], "materials": ["soft-cut linoleum or foam sheets", "carving tools", "block ink", "brayer", "spoon"],
+      "days": [
+        {"title": "Printmaking history", "work": "Study Japanese ukiyo-e and José Guadalupe Posada's prints; note how printmaking spreads ideas."},
+        {"title": "Design", "work": "Design a block related to your investigation, reversing the image."},
+        {"title": "Carve", "work": "Carve the block safely, testing proofs as you go."},
+        {"title": "Print", "work": "Print an edition of five with consistent registration."},
+        {"title": "Sign", "work": "Sign and number prints properly and evaluate the edition."}
+      ], "assessment": "Print edition."},
+    {"week": 27, "unit": 7, "topic": "Sculpture and assemblage", "objectives": ["Translate an idea into three dimensions"], "standards": ["VA:Cr2.1.HSIII", "VA:Cr2.3.HSIII"], "vocabulary": ["armature", "assemblage", "in the round", "found object"], "materials": ["cardboard", "wire", "air-dry clay", "found objects", "hot glue"],
+      "days": [
+        {"title": "Assemblage artists", "work": "Study Betye Saar's assemblages and Louise Nevelson; note how found objects carry meaning."},
+        {"title": "Maquette", "work": "Build a small cardboard or clay maquette."},
+        {"title": "Build", "work": "Build the sculpture with an armature or assemblage."},
+        {"title": "Finish", "work": "Finish surfaces and paint or patina."},
+        {"title": "Photograph", "work": "Photograph the sculpture from four angles."}
+      ], "assessment": "Sculpture or assemblage."},
+    {"week": 28, "unit": 7, "topic": "Public art proposal", "objectives": ["Plan art that impacts community"], "standards": ["VA:Cr2.3.HSIII", "VA:Cr1.2.HSIII"], "vocabulary": ["public art", "site-specific", "proposal", "mural"], "materials": ["photos of a local site", "sketchbook"],
+      "days": [
+        {"title": "Public art", "work": "Study California public art (e.g., Judy Baca's Great Wall of Los Angeles) and its community process."},
+        {"title": "Site", "work": "Photograph a local site and analyze its audience and context."},
+        {"title": "Design", "work": "Design a mural or installation for the site with a scaled rendering."},
+        {"title": "Proposal", "work": "Write a proposal with budget, materials, and community benefit."},
+        {"title": "Present", "work": "Present the proposal as if to a city arts commission."}
+      ], "assessment": "Public art proposal."},
+    {"week": 29, "unit": 8, "topic": "Photographing artwork", "objectives": ["Document work professionally"], "standards": ["VA:Pr5.1.HSIII"], "vocabulary": ["documentation", "white balance", "keystoning", "resolution"], "materials": ["phone or camera", "two lamps or window light", "neutral backdrop"],
+      "days": [
+        {"title": "Setup", "work": "Set up even lighting with two lamps at 45° and a neutral backdrop."},
+        {"title": "Shoot 2-D", "work": "Photograph all 2-D works square to the camera, correcting glare and keystoning."},
+        {"title": "Shoot 3-D", "work": "Photograph 3-D works with multiple views and a detail shot."},
+        {"title": "Edit", "work": "Crop, color-correct, and export images at portfolio specs (e.g., 1200–2000 px)."},
+        {"title": "Archive", "work": "Create an organized digital archive with titles, media, dimensions, and dates."}
+      ], "assessment": "Digital archive."},
+    {"week": 30, "unit": 8, "topic": "Selecting and sequencing", "objectives": ["Curate a portfolio for a specific audience"], "standards": ["VA:Pr4.1.HSIII", "VA:Re9.1.HSIII"], "vocabulary": ["curation", "selected works", "sequence", "SlideRoom"], "materials": ["digital archive", "printed thumbnails"],
+      "days": [
+        {"title": "Criteria", "work": "Write selection criteria for a college art portfolio and for a general exhibition."},
+        {"title": "Select", "work": "Select 15–20 pieces for a college portfolio and 5 for AP-style Selected Works."},
+        {"title": "Sequence", "work": "Sequence the portfolio with printed thumbnails and justify the order."},
+        {"title": "Feedback", "work": "Get feedback from an art teacher, artist, or National Portfolio Day reviewer if available."},
+        {"title": "Revise", "work": "Revise selection based on feedback."}
+      ], "assessment": "Curated portfolio selection."},
+    {"week": 31, "unit": 8, "topic": "Artist statement and online portfolio", "objectives": ["Write an artist statement", "Publish an online portfolio"], "standards": ["VA:Pr4.1.HSIII", "VA:Cr3.1.HSIII"], "vocabulary": ["artist statement", "bio", "CV"], "materials": ["free portfolio site (Google Sites, Adobe Portfolio)"],
+      "days": [
+        {"title": "Statement draft", "work": "Draft a 200-word artist statement about your inquiry and process."},
+        {"title": "Revise", "work": "Revise the statement for clarity, removing jargon; read it aloud."},
+        {"title": "Captions", "work": "Write captions for each piece (title, media, size, year, short note)."},
+        {"title": "Build site", "work": "Build an online portfolio site with gallery, statement, and contact info."},
+        {"title": "Publish", "work": "Publish the site and test it on phone and computer."}
+      ], "assessment": "Artist statement and published portfolio."},
+    {"week": 32, "unit": 9, "topic": "Planning the exhibition", "objectives": ["Plan a public exhibition"], "standards": ["VA:Pr4.1.HSIII", "VA:Pr6.1.HSIII"], "vocabulary": ["exhibition", "wall label", "venue", "installation plan"], "materials": ["venue (library, church hall, co-op, café)", "floor plan"],
+      "days": [
+        {"title": "Venue", "work": "Secure a venue (library community room, co-op, café) and set a date."},
+        {"title": "Theme", "work": "Choose an exhibition title and theme that frames the viewer's understanding."},
+        {"title": "Layout", "work": "Draw an installation plan placing each work on the walls."},
+        {"title": "Labels", "work": "Write and print wall labels and an exhibition intro panel."},
+        {"title": "Promotion", "work": "Design a flyer and invitation and send them out."}
+      ], "assessment": "Exhibition plan."},
+    {"week": 33, "unit": 9, "topic": "Preparing and protecting work", "objectives": ["Prepare art for display and preservation"], "standards": ["VA:Pr5.1.HSIII"], "vocabulary": ["matting", "archival", "hanging hardware", "conservation"], "materials": ["mat board", "mat cutter or pre-cut mats", "hanging wire", "acid-free tape"],
+      "days": [
+        {"title": "Preservation", "work": "Research archival practices (acid-free materials, UV light, humidity) and compare methods."},
+        {"title": "Mat and frame", "work": "Mat and/or frame 2-D works."},
+        {"title": "Hardware", "work": "Attach hanging hardware and prepare pedestals for 3-D works."},
+        {"title": "Mock hang", "work": "Do a mock hang at home to check spacing and sightlines."},
+        {"title": "Checklist", "work": "Complete an exhibition checklist and transport plan."}
+      ], "assessment": "Prepared works."},
+    {"week": 34, "unit": 9, "topic": "Senior exhibition", "objectives": ["Install and host an exhibition", "Engage the public in conversation"], "standards": ["VA:Pr6.1.HSIII", "VA:Cn11.1.HSIII"], "vocabulary": ["artist talk", "reception", "audience"], "materials": ["artwork", "labels", "guest book"],
+      "days": [
+        {"title": "Install", "work": "Install the exhibition, level and light the works, and place labels."},
+        {"title": "Artist talk prep", "work": "Prepare a 5-minute artist talk."},
+        {"title": "Opening", "work": "Host the opening reception and give your artist talk."},
+        {"title": "Feedback", "work": "Review guest-book comments and visitor conversations."},
+        {"title": "Deinstall", "work": "Deinstall carefully and write an exhibition report."}
+      ], "assessment": "Exhibition and artist talk."},
+    {"week": 35, "unit": 10, "topic": "Reflection on growth", "objectives": ["Analyze how your art and responses changed"], "standards": ["VA:Re7.1.HSIII", "VA:Re9.1.HSIII"], "vocabulary": ["growth", "metacognition"], "materials": ["baseline self-portrait", "mirror"],
+      "days": [
+        {"title": "Final self-portrait", "work": "Draw a new 45-minute self-portrait and compare it with Week 1."},
+        {"title": "Growth analysis", "work": "Write a growth analysis comparing early and late work with specific evidence."},
+        {"title": "Evaluate with two lenses", "work": "Evaluate your investigation with two different criteria sets (technical and conceptual)."},
+        {"title": "Peer/mentor talk", "work": "Discuss your year with an artist mentor or teacher."},
+        {"title": "Final reflection", "work": "Write a final reflection on your artistic identity."}
+      ], "assessment": "Growth analysis."},
+    {"week": 36, "unit": 10, "topic": "Art beyond high school", "objectives": ["Plan a continuing art practice"], "standards": ["VA:Cn10.1.HSIII", "VA:Re7.1.HSIII"], "vocabulary": ["art career", "residency", "community studio"], "materials": ["internet", "sketchbook"],
+      "days": [
+        {"title": "Art careers", "work": "Research five art careers (illustrator, art therapist, UX designer, conservator, teacher) and their pathways."},
+        {"title": "Community", "work": "Find local open studios, life-drawing groups, or community-college art classes."},
+        {"title": "Summer project", "work": "Plan a summer art project with goals and a schedule."},
+        {"title": "Final piece", "work": "Create a final sketchbook spread summarizing your year."},
+        {"title": "Portfolio conference", "work": "Present your final portfolio and plan in a conference."}
+      ], "assessment": "Final portfolio conference."}
+  ]
+}

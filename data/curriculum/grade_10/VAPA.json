@@ -1,0 +1,1826 @@
+{
+  "grade": 10,
+  "subject": "VAPA",
+  "title": "Music & Media Arts",
+  "description": "A year-long arts course that combines music literacy and creation with digital media arts. Semester 1 builds notation, rhythm, harmony, songwriting and critical listening across world and American music traditions, ending in a recorded showcase. Semester 2 applies those skills to media arts: photography and design, audio production and podcasting, video editing and film scoring, culminating in an original multimedia capstone. All production uses free browser tools (BandLab, Chrome Music Lab, Audacity, free video editors).",
+  "framework": "2019 California Arts Standards for Public Schools (Music and Media Arts, High School Proficient)",
+  "minutes_per_day": 45,
+  "ag_requirement": "f",
+  "credits": 10,
+  "standards": {
+    "MU:Cr1.1.HSP": "Compose and improvise melodic and rhythmic ideas or motives that reflect characteristic(s) of music from a variety of historical periods.",
+    "MU:Cr2.1.HSP": "Assemble and organize sounds or short musical ideas to create initial expressions of selected experiences, moods, images, or storylines.",
+    "MU:Cr3.1.HSP": "Evaluate and refine draft compositions and improvisations based on knowledge, skill, and teacher-provided criteria.",
+    "MU:Cr3.2.HSP": "Share music through the use of notation, performance, or technology, and demonstrate how the elements of music have been employed.",
+    "MU:Pr4.1.HSP": "Select music to perform based on interest, knowledge, technical skill, and context.",
+    "MU:Pr4.2.HSP": "Analyze the structure, context, and performance decisions of selected works and how they inform interpretation, including reading notation.",
+    "MU:Pr4.3.HSP": "Demonstrate understanding and application of expressive qualities in a varied repertoire.",
+    "MU:Pr5.1.HSP": "Develop strategies to address technical challenges and evaluate the success of rehearsal strategies.",
+    "MU:Pr6.1.HSP": "Perform with technical accuracy and expression, demonstrating an understanding of context and audience.",
+    "MU:Re7.1.HSP": "Explain reasons for selecting music, citing characteristics found in the music and connections to interest, purpose, and context.",
+    "MU:Re7.2.HSP": "Explain how the analysis of structures and context informs the response to music.",
+    "MU:Re8.1.HSP": "Explain and support interpretations of the expressive intent and meaning of musical works, citing elements, contexts, and personal research.",
+    "MU:Re9.1.HSP": "Evaluate works and performances based on personally or collaboratively developed criteria.",
+    "MU:Cn10.1.HSP": "Demonstrate how interests, knowledge, and skills relate to personal choices and intent when creating, performing, and responding to music.",
+    "MU:Cn11.1.HSP": "Demonstrate understanding of relationships between music and the other arts, other disciplines, varied contexts, and daily life.",
+    "MA:Cr1.1.HSP": "Use identified generative methods to formulate multiple ideas, develop artistic goals, and problem solve in media arts creation processes.",
+    "MA:Cr2.1.HSP": "Apply aesthetic criteria in developing, proposing, and refining artistic ideas, plans, prototypes, and production processes for media arts productions.",
+    "MA:Cr3.1.HSP": "Consolidate production processes to demonstrate deliberate choices in organizing and integrating content and stylistic conventions to show purpose and meaning.",
+    "MA:Pr4.1.HSP": "Integrate various arts, media arts forms, and content into unified media arts productions that convey consistent perspectives and narratives.",
+    "MA:Pr5.1.HSP": "Develop and refine a range of artistic, design, technical, and soft skills through performing various roles in producing media artworks.",
+    "MA:Pr6.1.HSP": "Design the presentation and distribution of media artworks for intentional impacts through a variety of contexts.",
+    "MA:Re7.1.HSP": "Analyze and describe the reactions and interpretations of media artworks, considering their intent and context.",
+    "MA:Re8.1.HSP": "Analyze the intent, meanings, and impacts of diverse media artworks, considering complex factors of context and bias.",
+    "MA:Re9.1.HSP": "Evaluate media art works and production processes with developed criteria, considering context and artistic goals.",
+    "MA:Cn10.1.HSP": "Access, evaluate, and integrate personal and external resources to inform the creation of original media artworks.",
+    "MA:Cn11.1.HSP": "Demonstrate and explain how media artworks and ideas relate to various contexts, purposes, and values, including ethics, copyright and fair use."
+  },
+  "resources": [
+    {
+      "name": "musictheory.net",
+      "url": "https://www.musictheory.net/",
+      "note": "Free lessons and drills for notation, intervals, chords"
+    },
+    {
+      "name": "Chrome Music Lab",
+      "url": "https://musiclab.chromeexperiments.com/",
+      "note": "Browser experiments for rhythm, melody and sound"
+    },
+    {
+      "name": "BandLab",
+      "url": "https://www.bandlab.com/",
+      "note": "Free browser digital audio workstation for recording and beat-making"
+    },
+    {
+      "name": "Audacity",
+      "url": "https://www.audacityteam.org/",
+      "note": "Free open-source audio editor for podcasts and sound design"
+    },
+    {
+      "name": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "World music recordings and learning pathways"
+    },
+    {
+      "name": "PBS LearningMedia – Arts",
+      "url": "https://www.pbslearningmedia.org/",
+      "note": "Free videos on music history and media literacy"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Music Literacy Foundations",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Notation is a code for sound that lets musicians share ideas across time.",
+      "standards": [
+        "MU:Pr4.2.HSP",
+        "MU:Cn10.1.HSP",
+        "MU:Pr5.1.HSP",
+        "MU:Cr1.1.HSP",
+        "MU:Pr4.3.HSP",
+        "MU:Pr6.1.HSP"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Rhythm, Groove and Beat-Making",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Rhythm organizes time and defines musical styles across cultures.",
+      "standards": [
+        "MU:Re7.2.HSP",
+        "MU:Cn11.1.HSP",
+        "MU:Cr1.1.HSP",
+        "MU:Cr2.1.HSP",
+        "MU:Cr3.1.HSP",
+        "MU:Cr3.2.HSP",
+        "MU:Re9.1.HSP"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Melody, Harmony and Songwriting",
+      "start_week": 9,
+      "end_week": 13,
+      "big_idea": "Melodies and chord progressions create emotion and form in songs.",
+      "standards": [
+        "MU:Pr4.2.HSP",
+        "MU:Re7.2.HSP",
+        "MU:Cr1.1.HSP",
+        "MU:Cr2.1.HSP",
+        "MU:Cn10.1.HSP",
+        "MU:Cn11.1.HSP",
+        "MU:Cr3.1.HSP",
+        "MU:Cr3.2.HSP",
+        "MU:Pr6.1.HSP",
+        "MU:Re9.1.HSP"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Listening Across Time and Cultures; Showcase",
+      "start_week": 14,
+      "end_week": 18,
+      "big_idea": "Music reflects and shapes the history and values of the people who make it.",
+      "standards": [
+        "MU:Re7.2.HSP",
+        "MU:Re8.1.HSP",
+        "MU:Cn11.1.HSP",
+        "MU:Re9.1.HSP",
+        "MU:Pr4.1.HSP",
+        "MU:Pr5.1.HSP",
+        "MU:Pr6.1.HSP",
+        "MU:Pr4.2.HSP"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Media Arts Foundations: Image and Design",
+      "start_week": 19,
+      "end_week": 22,
+      "big_idea": "Visual composition guides how viewers read meaning in images.",
+      "standards": [
+        "MA:Cr1.1.HSP",
+        "MA:Cr2.1.HSP",
+        "MA:Re7.1.HSP",
+        "MA:Cr3.1.HSP",
+        "MA:Pr5.1.HSP",
+        "MA:Pr4.1.HSP",
+        "MA:Cn11.1.HSP",
+        "MA:Re8.1.HSP"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Audio Production and Podcasting",
+      "start_week": 23,
+      "end_week": 26,
+      "big_idea": "Sound design and storytelling create immersive audio experiences.",
+      "standards": [
+        "MA:Pr5.1.HSP",
+        "MA:Cr2.1.HSP",
+        "MA:Cr1.1.HSP",
+        "MA:Cn10.1.HSP",
+        "MA:Cr3.1.HSP",
+        "MA:Pr6.1.HSP",
+        "MA:Re9.1.HSP"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Video and Film Scoring",
+      "start_week": 27,
+      "end_week": 31,
+      "big_idea": "Picture, sound and music combine to shape a story's emotion.",
+      "standards": [
+        "MA:Re7.1.HSP",
+        "MA:Re8.1.HSP",
+        "MA:Pr5.1.HSP",
+        "MA:Cr3.1.HSP",
+        "MU:Cr2.1.HSP",
+        "MU:Cn11.1.HSP",
+        "MA:Pr4.1.HSP",
+        "MA:Cr1.1.HSP",
+        "MA:Re9.1.HSP",
+        "MA:Pr6.1.HSP"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Multimedia Capstone",
+      "start_week": 32,
+      "end_week": 36,
+      "big_idea": "Artists integrate music and media to communicate a personal vision.",
+      "standards": [
+        "MA:Cr1.1.HSP",
+        "MA:Cn10.1.HSP",
+        "MU:Cn10.1.HSP",
+        "MA:Pr5.1.HSP",
+        "MU:Cr2.1.HSP",
+        "MA:Cr3.1.HSP",
+        "MU:Cr3.1.HSP",
+        "MA:Pr6.1.HSP",
+        "MU:Pr6.1.HSP",
+        "MA:Re9.1.HSP",
+        "MU:Re9.1.HSP",
+        "MA:Cn11.1.HSP"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Pitch, staff and clefs",
+      "objectives": [
+        "Read notes on treble and bass clefs",
+        "Identify pitch on keyboard"
+      ],
+      "standards": [
+        "MU:Pr4.2.HSP",
+        "MU:Cn10.1.HSP"
+      ],
+      "vocabulary": [
+        "staff",
+        "clef",
+        "ledger line",
+        "octave",
+        "pitch"
+      ],
+      "materials": [
+        "musictheory.net",
+        "keyboard app or piano"
+      ],
+      "days": [
+        {
+          "title": "Musical autobiography",
+          "work": "Write a one-page musical autobiography listing the music that shaped you and set goals for the year."
+        },
+        {
+          "title": "Treble clef",
+          "work": "Complete the musictheory.net treble-clef lessons and drill until 90% accuracy."
+        },
+        {
+          "title": "Bass clef",
+          "work": "Complete bass-clef lessons and drill; label notes on a printed grand staff."
+        },
+        {
+          "title": "Keyboard",
+          "work": "Find all C's, F's and G's on a keyboard app and play a C-major scale with correct fingering."
+        },
+        {
+          "title": "Check",
+          "work": "Note-naming quiz (30 notes in 2 minutes)."
+        }
+      ],
+      "assessment": "Note-naming quiz."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Rhythm notation and meter",
+      "objectives": [
+        "Read and count rhythms in simple meter"
+      ],
+      "standards": [
+        "MU:Pr4.2.HSP",
+        "MU:Pr5.1.HSP"
+      ],
+      "vocabulary": [
+        "whole note",
+        "quarter note",
+        "eighth note",
+        "rest",
+        "time signature",
+        "measure"
+      ],
+      "materials": [
+        "metronome app",
+        "musictheory.net"
+      ],
+      "days": [
+        {
+          "title": "Note values",
+          "work": "Learn note and rest values and clap a rhythm ladder."
+        },
+        {
+          "title": "Time signatures",
+          "work": "Count and clap rhythms in 2/4, 3/4 and 4/4 with a metronome at 80 bpm."
+        },
+        {
+          "title": "Dictation",
+          "work": "Notate four 2-measure rhythms you hear (Chrome Music Lab Rhythm)."
+        },
+        {
+          "title": "Body percussion",
+          "work": "Perform an 8-measure body-percussion piece reading notation."
+        },
+        {
+          "title": "Check",
+          "work": "Rhythm reading assessment recorded on video."
+        }
+      ],
+      "assessment": "Recorded rhythm performance."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Scales, keys and intervals",
+      "objectives": [
+        "Build major scales",
+        "Identify intervals"
+      ],
+      "standards": [
+        "MU:Pr4.2.HSP",
+        "MU:Cr1.1.HSP"
+      ],
+      "vocabulary": [
+        "major scale",
+        "whole step",
+        "half step",
+        "key signature",
+        "interval"
+      ],
+      "materials": [
+        "keyboard app",
+        "musictheory.net"
+      ],
+      "days": [
+        {
+          "title": "Whole & half steps",
+          "work": "Build major scales using W-W-H-W-W-W-H on a keyboard."
+        },
+        {
+          "title": "Key signatures",
+          "work": "Learn the circle of fifths and identify sharp key signatures."
+        },
+        {
+          "title": "Flat keys",
+          "work": "Identify flat key signatures."
+        },
+        {
+          "title": "Intervals",
+          "work": "Identify and sing intervals using song references (e.g., 'Here Comes the Bride' = P4)."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on scales and intervals."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Sight-reading and performance",
+      "objectives": [
+        "Sight-read simple melodies",
+        "Perform with expression"
+      ],
+      "standards": [
+        "MU:Pr4.3.HSP",
+        "MU:Pr5.1.HSP",
+        "MU:Pr6.1.HSP"
+      ],
+      "vocabulary": [
+        "dynamics",
+        "tempo",
+        "articulation",
+        "phrase"
+      ],
+      "materials": [
+        "keyboard, voice, ukulele or recorder",
+        "sight-reading practice sheets"
+      ],
+      "days": [
+        {
+          "title": "Expressive markings",
+          "work": "Learn dynamics, tempo and articulation markings."
+        },
+        {
+          "title": "Sight-reading",
+          "work": "Sight-read three 8-bar melodies on keyboard or voice."
+        },
+        {
+          "title": "Choose a piece",
+          "work": "Select a short piece (e.g., 'Ode to Joy' or a folk song) to perform."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Use a practice log and slow-practice strategies on difficult measures."
+        },
+        {
+          "title": "Perform",
+          "work": "Record a performance and self-evaluate with a rubric."
+        }
+      ],
+      "assessment": "Performance rubric."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Rhythms of the world",
+      "objectives": [
+        "Identify rhythmic patterns from world cultures"
+      ],
+      "standards": [
+        "MU:Re7.2.HSP",
+        "MU:Cn11.1.HSP"
+      ],
+      "vocabulary": [
+        "syncopation",
+        "polyrhythm",
+        "clave",
+        "ostinato"
+      ],
+      "materials": [
+        "Smithsonian Folkways recordings",
+        "buckets or pots for drums"
+      ],
+      "days": [
+        {
+          "title": "Syncopation",
+          "work": "Clap and count syncopated rhythms."
+        },
+        {
+          "title": "Clave",
+          "work": "Learn the son clave and play it with salsa recordings."
+        },
+        {
+          "title": "West African polyrhythm",
+          "work": "Layer 3-against-2 polyrhythms with family on household drums."
+        },
+        {
+          "title": "Listening log",
+          "work": "Listen to rhythms from Brazil, Ghana and India (tala) and note features."
+        },
+        {
+          "title": "Check",
+          "work": "Perform a polyrhythm ensemble."
+        }
+      ],
+      "assessment": "Ensemble performance."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Drum patterns and beat-making",
+      "objectives": [
+        "Program drum patterns in a DAW"
+      ],
+      "standards": [
+        "MU:Cr1.1.HSP",
+        "MU:Cr2.1.HSP"
+      ],
+      "vocabulary": [
+        "DAW",
+        "kick",
+        "snare",
+        "hi-hat",
+        "quantize",
+        "BPM"
+      ],
+      "materials": [
+        "BandLab"
+      ],
+      "days": [
+        {
+          "title": "DAW tour",
+          "work": "Set up a BandLab account and learn the interface."
+        },
+        {
+          "title": "Rock beat",
+          "work": "Program a basic rock beat at 100 bpm."
+        },
+        {
+          "title": "Hip-hop beat",
+          "work": "Program a hip-hop beat with swing."
+        },
+        {
+          "title": "Genre beats",
+          "work": "Program reggaeton dembow and a four-on-the-floor house beat."
+        },
+        {
+          "title": "Check",
+          "work": "Share four beats with a labeled screenshot."
+        }
+      ],
+      "assessment": "Beat portfolio."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Loops, bass lines and arrangement",
+      "objectives": [
+        "Arrange loops into a song form"
+      ],
+      "standards": [
+        "MU:Cr2.1.HSP",
+        "MU:Cr3.1.HSP"
+      ],
+      "vocabulary": [
+        "loop",
+        "bass line",
+        "intro",
+        "verse",
+        "drop",
+        "arrangement"
+      ],
+      "materials": [
+        "BandLab"
+      ],
+      "days": [
+        {
+          "title": "Bass lines",
+          "work": "Write a bass line using root notes of a chord progression."
+        },
+        {
+          "title": "Loops",
+          "work": "Explore BandLab loop library and layer three loops."
+        },
+        {
+          "title": "Song form",
+          "work": "Analyze form of a favorite song (intro, verse, chorus, bridge)."
+        },
+        {
+          "title": "Arrange",
+          "work": "Arrange a 90-second instrumental track."
+        },
+        {
+          "title": "Feedback",
+          "work": "Get feedback from family and revise."
+        }
+      ],
+      "assessment": "Draft track."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Beat-making project",
+      "objectives": [
+        "Create and refine an original instrumental track"
+      ],
+      "standards": [
+        "MU:Cr3.1.HSP",
+        "MU:Cr3.2.HSP",
+        "MU:Re9.1.HSP"
+      ],
+      "vocabulary": [
+        "mix",
+        "volume",
+        "panning",
+        "fade"
+      ],
+      "materials": [
+        "BandLab"
+      ],
+      "days": [
+        {
+          "title": "Mixing basics",
+          "work": "Learn volume balance and panning."
+        },
+        {
+          "title": "Refine",
+          "work": "Refine your track with automation and fades."
+        },
+        {
+          "title": "Artist statement",
+          "work": "Write a 150-word artist statement explaining your choices."
+        },
+        {
+          "title": "Listening party",
+          "work": "Share your track with family and collect feedback via a criteria sheet."
+        },
+        {
+          "title": "Final",
+          "work": "Submit final track."
+        }
+      ],
+      "assessment": "Track and statement rubric."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Chords and chord progressions",
+      "objectives": [
+        "Build triads",
+        "Identify common progressions"
+      ],
+      "standards": [
+        "MU:Pr4.2.HSP",
+        "MU:Re7.2.HSP"
+      ],
+      "vocabulary": [
+        "triad",
+        "root position",
+        "I-IV-V",
+        "roman numerals",
+        "inversion"
+      ],
+      "materials": [
+        "keyboard app",
+        "ukulele or guitar (optional)"
+      ],
+      "days": [
+        {
+          "title": "Triads",
+          "work": "Build major and minor triads on the keyboard."
+        },
+        {
+          "title": "Roman numerals",
+          "work": "Label chords in a key with Roman numerals."
+        },
+        {
+          "title": "I-V-vi-IV",
+          "work": "Identify the 'four-chord' progression in five pop songs."
+        },
+        {
+          "title": "12-bar blues",
+          "work": "Play a 12-bar blues progression."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on chords."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Melody writing",
+      "objectives": [
+        "Compose a melody over a progression"
+      ],
+      "standards": [
+        "MU:Cr1.1.HSP",
+        "MU:Cr2.1.HSP"
+      ],
+      "vocabulary": [
+        "motif",
+        "contour",
+        "step",
+        "leap",
+        "cadence"
+      ],
+      "materials": [
+        "notation software (MuseScore or Noteflight free)"
+      ],
+      "days": [
+        {
+          "title": "Motifs",
+          "work": "Analyze motifs in Beethoven's Fifth and a pop song."
+        },
+        {
+          "title": "Contour",
+          "work": "Sketch melodic contours and turn them into notation."
+        },
+        {
+          "title": "Compose",
+          "work": "Compose an 8-bar melody over I-IV-V-I."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise for cadence and singability."
+        },
+        {
+          "title": "Share",
+          "work": "Share notation and a recording."
+        }
+      ],
+      "assessment": "Melody composition."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Lyrics and songwriting",
+      "objectives": [
+        "Write song lyrics with structure"
+      ],
+      "standards": [
+        "MU:Cr1.1.HSP",
+        "MU:Cn10.1.HSP",
+        "MU:Cn11.1.HSP"
+      ],
+      "vocabulary": [
+        "verse",
+        "chorus",
+        "hook",
+        "rhyme scheme",
+        "prosody"
+      ],
+      "materials": [
+        "lyric notebook"
+      ],
+      "days": [
+        {
+          "title": "Lyric analysis",
+          "work": "Analyze lyrics of a classic song for hook and rhyme scheme."
+        },
+        {
+          "title": "Brainstorm",
+          "work": "Brainstorm themes and write a chorus with a hook."
+        },
+        {
+          "title": "Verses",
+          "work": "Write two verses with imagery."
+        },
+        {
+          "title": "Prosody",
+          "work": "Match lyric stresses to musical rhythm."
+        },
+        {
+          "title": "Check",
+          "work": "Share a lyric draft."
+        }
+      ],
+      "assessment": "Lyric draft."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Songwriting: putting it together",
+      "objectives": [
+        "Combine melody, harmony and lyrics"
+      ],
+      "standards": [
+        "MU:Cr2.1.HSP",
+        "MU:Cr3.1.HSP"
+      ],
+      "vocabulary": [
+        "bridge",
+        "demo"
+      ],
+      "materials": [
+        "BandLab",
+        "microphone"
+      ],
+      "days": [
+        {
+          "title": "Set lyrics",
+          "work": "Sing or play your lyric over the chord progression, adjusting the melody so stressed syllables fall on strong beats."
+        },
+        {
+          "title": "Bridge",
+          "work": "Write a 4–8 bar bridge that contrasts the chorus by changing chords (e.g., starting on vi or IV) and melodic range."
+        },
+        {
+          "title": "Demo",
+          "work": "Record a rough demo in BandLab with a simple guitar/keyboard part and scratch vocal."
+        },
+        {
+          "title": "Critique",
+          "work": "Play the demo for a listener and use the 'I like / I wonder / What if' protocol to collect feedback."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise one lyric line, one melodic phrase and the arrangement based on feedback; save as version 2."
+        }
+      ],
+      "assessment": "Demo checkpoint."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Songwriting project final",
+      "objectives": [
+        "Produce and present an original song"
+      ],
+      "standards": [
+        "MU:Cr3.2.HSP",
+        "MU:Pr6.1.HSP",
+        "MU:Re9.1.HSP"
+      ],
+      "vocabulary": [
+        "production",
+        "performance"
+      ],
+      "materials": [
+        "BandLab"
+      ],
+      "days": [
+        {
+          "title": "Record",
+          "work": "Record final vocal or lead instrument tracks, doing at least three takes and choosing the best."
+        },
+        {
+          "title": "Mix",
+          "work": "Mix the song: balance levels, pan supporting parts, and add light reverb."
+        },
+        {
+          "title": "Lead sheet",
+          "work": "Create a lead sheet in MuseScore or Noteflight with melody, chord symbols and lyrics."
+        },
+        {
+          "title": "Present",
+          "work": "Present the song to family and explain how melody, harmony and form support the lyric's meaning."
+        },
+        {
+          "title": "Reflect",
+          "work": "Write a 250-word reflection on your songwriting process and score yourself on the rubric."
+        }
+      ],
+      "assessment": "Song rubric."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Western art music: Baroque to Romantic",
+      "objectives": [
+        "Identify features of historical periods"
+      ],
+      "standards": [
+        "MU:Re7.2.HSP",
+        "MU:Re8.1.HSP",
+        "MU:Cn11.1.HSP"
+      ],
+      "vocabulary": [
+        "Baroque",
+        "Classical",
+        "Romantic",
+        "sonata form",
+        "symphony",
+        "fugue"
+      ],
+      "materials": [
+        "recordings of Bach, Mozart, Beethoven, Chopin (free on YouTube/IMSLP)"
+      ],
+      "days": [
+        {
+          "title": "Baroque",
+          "work": "Listen to Bach's Brandenburg Concerto No. 3 and identify texture."
+        },
+        {
+          "title": "Classical",
+          "work": "Listen to Mozart's Symphony 40 movement 1 and map sonata form."
+        },
+        {
+          "title": "Romantic",
+          "work": "Listen to Chopin's Nocturne Op. 9 No. 2 and describe expression."
+        },
+        {
+          "title": "Timeline",
+          "work": "Create a timeline connecting periods to world history events."
+        },
+        {
+          "title": "Check",
+          "work": "Listening identification quiz."
+        }
+      ],
+      "assessment": "Listening quiz."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "American music: spirituals, blues, jazz and rock",
+      "objectives": [
+        "Trace African American roots of popular music"
+      ],
+      "standards": [
+        "MU:Re7.2.HSP",
+        "MU:Cn11.1.HSP",
+        "MU:Re8.1.HSP"
+      ],
+      "vocabulary": [
+        "spiritual",
+        "blues",
+        "swing",
+        "improvisation",
+        "rock and roll"
+      ],
+      "materials": [
+        "Library of Congress audio",
+        "Smithsonian jazz resources"
+      ],
+      "days": [
+        {
+          "title": "Spirituals & blues",
+          "work": "Listen to spirituals and Robert Johnson; identify call and response."
+        },
+        {
+          "title": "Jazz",
+          "work": "Listen to Louis Armstrong and Duke Ellington; describe swing."
+        },
+        {
+          "title": "Improvisation",
+          "work": "Improvise over a 12-bar blues using the blues scale."
+        },
+        {
+          "title": "Rock & beyond",
+          "work": "Trace rock, soul, hip-hop origins on a family tree."
+        },
+        {
+          "title": "Check",
+          "work": "Write a 400-word response on how one genre reflects its era."
+        }
+      ],
+      "assessment": "Written response."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "World music and music criticism",
+      "objectives": [
+        "Analyze music from diverse cultures",
+        "Write a critique"
+      ],
+      "standards": [
+        "MU:Re8.1.HSP",
+        "MU:Re9.1.HSP",
+        "MU:Cn11.1.HSP"
+      ],
+      "vocabulary": [
+        "gamelan",
+        "raga",
+        "mariachi",
+        "timbre",
+        "criteria"
+      ],
+      "materials": [
+        "Smithsonian Folkways"
+      ],
+      "days": [
+        {
+          "title": "Gamelan",
+          "work": "Listen to Balinese gamelan and describe interlocking parts."
+        },
+        {
+          "title": "Raga",
+          "work": "Listen to a raga performance and describe its structure."
+        },
+        {
+          "title": "Mariachi & son jarocho",
+          "work": "Study mariachi and son jarocho and their role in California."
+        },
+        {
+          "title": "Criticism",
+          "work": "Read a professional music review and identify criteria."
+        },
+        {
+          "title": "Review",
+          "work": "Write a review of a live or recorded performance."
+        }
+      ],
+      "assessment": "Music review."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Showcase preparation",
+      "objectives": [
+        "Prepare a performance and portfolio"
+      ],
+      "standards": [
+        "MU:Pr4.1.HSP",
+        "MU:Pr5.1.HSP",
+        "MU:Pr6.1.HSP"
+      ],
+      "vocabulary": [
+        "program notes",
+        "stage presence"
+      ],
+      "materials": [
+        "instrument/voice",
+        "recordings"
+      ],
+      "days": [
+        {
+          "title": "Select",
+          "work": "Select pieces for the semester showcase (one performance, one original)."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse with practice log."
+        },
+        {
+          "title": "Program notes",
+          "work": "Write program notes."
+        },
+        {
+          "title": "Dress rehearsal",
+          "work": "Hold a dress rehearsal with feedback."
+        },
+        {
+          "title": "Refine",
+          "work": "Refine weak passages."
+        }
+      ],
+      "assessment": "Rehearsal log."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Semester showcase and exam",
+      "objectives": [
+        "Perform and demonstrate theory knowledge"
+      ],
+      "standards": [
+        "MU:Pr6.1.HSP",
+        "MU:Re9.1.HSP",
+        "MU:Pr4.2.HSP"
+      ],
+      "vocabulary": [
+        "showcase"
+      ],
+      "materials": [
+        "recording device"
+      ],
+      "days": [
+        {
+          "title": "Showcase",
+          "work": "Perform the showcase for family (live or recorded)."
+        },
+        {
+          "title": "Theory exam",
+          "work": "Take the semester theory exam."
+        },
+        {
+          "title": "Listening exam",
+          "work": "Take the listening identification exam."
+        },
+        {
+          "title": "Self-evaluation",
+          "work": "Evaluate the showcase recording with a rubric."
+        },
+        {
+          "title": "Portfolio",
+          "work": "Organize semester portfolio."
+        }
+      ],
+      "assessment": "Showcase and exam."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Photography: composition",
+      "objectives": [
+        "Apply composition principles"
+      ],
+      "standards": [
+        "MA:Cr1.1.HSP",
+        "MA:Cr2.1.HSP",
+        "MA:Re7.1.HSP"
+      ],
+      "vocabulary": [
+        "rule of thirds",
+        "leading lines",
+        "framing",
+        "depth of field"
+      ],
+      "materials": [
+        "phone camera"
+      ],
+      "days": [
+        {
+          "title": "Media arts intro",
+          "work": "Define media arts and analyze three media works."
+        },
+        {
+          "title": "Composition",
+          "work": "Learn rule of thirds, leading lines and framing."
+        },
+        {
+          "title": "Photo walk",
+          "work": "Shoot 30 photos applying composition rules."
+        },
+        {
+          "title": "Select",
+          "work": "Select the best five and explain choices."
+        },
+        {
+          "title": "Critique",
+          "work": "Critique photos with criteria."
+        }
+      ],
+      "assessment": "Photo set."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Photo editing and visual storytelling",
+      "objectives": [
+        "Edit photos",
+        "Tell a story in images"
+      ],
+      "standards": [
+        "MA:Cr3.1.HSP",
+        "MA:Pr5.1.HSP"
+      ],
+      "vocabulary": [
+        "exposure",
+        "contrast",
+        "crop",
+        "photo essay"
+      ],
+      "materials": [
+        "free photo editor (Photopea or Snapseed)"
+      ],
+      "days": [
+        {
+          "title": "Editing",
+          "work": "Learn exposure, contrast, crop in a free editor."
+        },
+        {
+          "title": "Photo essay plan",
+          "work": "Plan a 6-photo essay about your community."
+        },
+        {
+          "title": "Shoot",
+          "work": "Shoot the photo essay."
+        },
+        {
+          "title": "Edit",
+          "work": "Edit and sequence images."
+        },
+        {
+          "title": "Present",
+          "work": "Present the essay with captions."
+        }
+      ],
+      "assessment": "Photo essay."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Graphic design and typography",
+      "objectives": [
+        "Apply design principles",
+        "Create an album cover"
+      ],
+      "standards": [
+        "MA:Cr2.1.HSP",
+        "MA:Cr3.1.HSP",
+        "MA:Pr4.1.HSP"
+      ],
+      "vocabulary": [
+        "typography",
+        "hierarchy",
+        "contrast",
+        "alignment",
+        "color theory"
+      ],
+      "materials": [
+        "free design tool (Canva or Photopea)"
+      ],
+      "days": [
+        {
+          "title": "Design principles",
+          "work": "Learn CRAP (contrast, repetition, alignment, proximity)."
+        },
+        {
+          "title": "Typography",
+          "work": "Compare serif, sans-serif and display fonts."
+        },
+        {
+          "title": "Album cover",
+          "work": "Design an album cover for your Semester 1 song."
+        },
+        {
+          "title": "Feedback",
+          "work": "Get feedback and revise."
+        },
+        {
+          "title": "Final",
+          "work": "Submit album cover with explanation."
+        }
+      ],
+      "assessment": "Album cover."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Copyright, fair use and media ethics",
+      "objectives": [
+        "Explain copyright and fair use",
+        "Analyze media bias"
+      ],
+      "standards": [
+        "MA:Cn11.1.HSP",
+        "MA:Re8.1.HSP"
+      ],
+      "vocabulary": [
+        "copyright",
+        "fair use",
+        "Creative Commons",
+        "public domain",
+        "bias"
+      ],
+      "materials": [
+        "Creative Commons website"
+      ],
+      "days": [
+        {
+          "title": "Copyright",
+          "work": "Learn copyright basics and fair use factors."
+        },
+        {
+          "title": "Creative Commons",
+          "work": "Find CC-licensed music and images and attribute them correctly."
+        },
+        {
+          "title": "Case studies",
+          "work": "Analyze music sampling lawsuits."
+        },
+        {
+          "title": "Media bias",
+          "work": "Analyze how photos are edited to influence viewers."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on copyright and ethics."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Sound design and recording",
+      "objectives": [
+        "Record and edit audio",
+        "Create sound effects"
+      ],
+      "standards": [
+        "MA:Pr5.1.HSP",
+        "MA:Cr2.1.HSP"
+      ],
+      "vocabulary": [
+        "foley",
+        "waveform",
+        "noise reduction",
+        "microphone placement"
+      ],
+      "materials": [
+        "Audacity",
+        "phone microphone",
+        "household objects"
+      ],
+      "days": [
+        {
+          "title": "Audacity",
+          "work": "Learn Audacity: record, cut, fade."
+        },
+        {
+          "title": "Foley",
+          "work": "Create foley sounds (footsteps, rain) with household objects."
+        },
+        {
+          "title": "Soundscape",
+          "work": "Build a 1-minute soundscape of a place."
+        },
+        {
+          "title": "Mic technique",
+          "work": "Test mic placement and room acoustics."
+        },
+        {
+          "title": "Share",
+          "work": "Share the soundscape."
+        }
+      ],
+      "assessment": "Soundscape."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Podcasting: planning and scripting",
+      "objectives": [
+        "Plan and script a podcast episode"
+      ],
+      "standards": [
+        "MA:Cr1.1.HSP",
+        "MA:Cr2.1.HSP",
+        "MA:Cn10.1.HSP"
+      ],
+      "vocabulary": [
+        "segment",
+        "script",
+        "interview",
+        "show notes"
+      ],
+      "materials": [
+        "Radio Ambulante or NPR podcast examples"
+      ],
+      "days": [
+        {
+          "title": "Analyze",
+          "work": "Listen to two podcast episodes (e.g., Radio Ambulante, NPR's Song Exploder) and outline their segments and transitions."
+        },
+        {
+          "title": "Topic",
+          "work": "Choose an episode topic (a song's history, a local musician, a genre's California roots) and write a one-sentence pitch."
+        },
+        {
+          "title": "Script",
+          "work": "Write a 6–8 minute script with cold open, intro, two segments and outro."
+        },
+        {
+          "title": "Interview prep",
+          "work": "Write 8 open-ended interview questions and schedule an interview with a musician or family member."
+        },
+        {
+          "title": "Script review",
+          "work": "Read the script aloud with a timer, cutting or adding to hit length."
+        }
+      ],
+      "assessment": "Script."
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "Podcasting: production",
+      "objectives": [
+        "Record and edit a podcast"
+      ],
+      "standards": [
+        "MA:Pr5.1.HSP",
+        "MA:Cr3.1.HSP"
+      ],
+      "vocabulary": [
+        "intro music",
+        "levels",
+        "transitions"
+      ],
+      "materials": [
+        "Audacity"
+      ],
+      "days": [
+        {
+          "title": "Record host",
+          "work": "Record host segments in a quiet, soft-surfaced room, re-recording any flubbed lines."
+        },
+        {
+          "title": "Interview",
+          "work": "Record the interview with phone or USB mic, capturing a 30-second room-tone sample."
+        },
+        {
+          "title": "Edit",
+          "work": "Edit the interview down to its best 3 minutes, removing filler and long pauses."
+        },
+        {
+          "title": "Music & mix",
+          "work": "Add your original intro music from Unit 2, crossfades between segments, and balanced levels."
+        },
+        {
+          "title": "Draft",
+          "work": "Export a draft MP3 and collect feedback from one listener."
+        }
+      ],
+      "assessment": "Draft episode."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Podcast publish and critique",
+      "objectives": [
+        "Publish and evaluate media"
+      ],
+      "standards": [
+        "MA:Pr6.1.HSP",
+        "MA:Re9.1.HSP"
+      ],
+      "vocabulary": [
+        "distribution",
+        "audience"
+      ],
+      "materials": [
+        "Audacity"
+      ],
+      "days": [
+        {
+          "title": "Revise from feedback",
+          "work": "Re-edit the podcast using the three most important notes from the draft feedback, tightening any segment that runs over 2 minutes."
+        },
+        {
+          "title": "Show notes & credits",
+          "work": "Write show notes with a 50-word summary, timestamps, and Creative Commons attributions for any music or sound effects used."
+        },
+        {
+          "title": "Loudness check",
+          "work": "Normalize the episode in Audacity to a consistent level and export as MP3; compare against a professional podcast's volume."
+        },
+        {
+          "title": "Critique",
+          "work": "Score your episode and one professional episode on the same rubric (story, audio quality, pacing, voice) and note gaps."
+        },
+        {
+          "title": "Reflect",
+          "work": "Write a 250-word reflection on what you would change for a second episode and why."
+        }
+      ],
+      "assessment": "Podcast rubric."
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Film language",
+      "objectives": [
+        "Analyze camera shots and editing"
+      ],
+      "standards": [
+        "MA:Re7.1.HSP",
+        "MA:Re8.1.HSP"
+      ],
+      "vocabulary": [
+        "shot",
+        "angle",
+        "cut",
+        "montage",
+        "continuity"
+      ],
+      "materials": [
+        "film clips"
+      ],
+      "days": [
+        {
+          "title": "Shot types",
+          "work": "Watch a 3-minute scene from a classic film (e.g., Casablanca airport scene) and log each shot as wide, medium, close-up or extreme close-up."
+        },
+        {
+          "title": "Camera angles",
+          "work": "Photograph the same object at high, low, eye-level and Dutch angles and write what feeling each angle creates."
+        },
+        {
+          "title": "Editing",
+          "work": "Compare continuity editing in a dialogue scene with Eisenstein's Odessa Steps montage and list how each controls time."
+        },
+        {
+          "title": "Storyboard",
+          "work": "Draw a 9-panel storyboard for a 30-second scene with shot type, angle and sound noted under each panel."
+        },
+        {
+          "title": "Check",
+          "work": "Take a quiz identifying shot types and edits in stills, then revise the storyboard."
+        }
+      ],
+      "assessment": "Quiz and storyboard."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Shooting and editing video",
+      "objectives": [
+        "Shoot and edit a short video"
+      ],
+      "standards": [
+        "MA:Pr5.1.HSP",
+        "MA:Cr3.1.HSP"
+      ],
+      "vocabulary": [
+        "B-roll",
+        "timeline",
+        "transition",
+        "color correction"
+      ],
+      "materials": [
+        "phone",
+        "free video editor (e.g., DaVinci Resolve or Clipchamp)"
+      ],
+      "days": [
+        {
+          "title": "Editor basics",
+          "work": "Import practice clips into a free editor and practice trimming, splitting and ordering clips on the timeline."
+        },
+        {
+          "title": "Shoot the scene",
+          "work": "Shoot the storyboarded scene, capturing each shot twice plus 1 minute of B-roll."
+        },
+        {
+          "title": "Rough cut",
+          "work": "Assemble a rough cut following the storyboard and note any missing coverage."
+        },
+        {
+          "title": "Sound",
+          "work": "Add dialogue clean-up, room tone and one foley effect; adjust audio levels so dialogue is clear."
+        },
+        {
+          "title": "Color & export",
+          "work": "Apply basic color correction for consistent shots and export a 1080p file to share."
+        }
+      ],
+      "assessment": "Video draft."
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Film scoring",
+      "objectives": [
+        "Analyze and compose film music"
+      ],
+      "standards": [
+        "MU:Cr2.1.HSP",
+        "MU:Cn11.1.HSP",
+        "MA:Pr4.1.HSP"
+      ],
+      "vocabulary": [
+        "leitmotif",
+        "underscore",
+        "diegetic",
+        "non-diegetic"
+      ],
+      "materials": [
+        "film clips",
+        "BandLab"
+      ],
+      "days": [
+        {
+          "title": "Leitmotif",
+          "work": "Listen to themes from Star Wars and Jaws and describe how each leitmotif represents a character or threat."
+        },
+        {
+          "title": "Diegetic vs. non-diegetic",
+          "work": "Log every sound in a 2-minute film clip as diegetic or non-diegetic and explain its purpose."
+        },
+        {
+          "title": "Two moods",
+          "work": "Score the same 30-second silent clip twice in BandLab—once suspenseful, once comic—changing tempo, key and instrumentation."
+        },
+        {
+          "title": "Score your scene",
+          "work": "Compose a 30–60 second underscore for your own scene with a recurring motif."
+        },
+        {
+          "title": "Sync & present",
+          "work": "Sync the score to picture so key hits land on cuts, then present both versions and explain choices."
+        }
+      ],
+      "assessment": "Scored scene."
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "Music video",
+      "objectives": [
+        "Create a music video"
+      ],
+      "standards": [
+        "MA:Cr1.1.HSP",
+        "MA:Pr4.1.HSP",
+        "MA:Cr3.1.HSP"
+      ],
+      "vocabulary": [
+        "concept",
+        "lip sync",
+        "rhythm editing"
+      ],
+      "materials": [
+        "phone",
+        "editor"
+      ],
+      "days": [
+        {
+          "title": "Concept",
+          "work": "Choose a song (your original or a Creative Commons track) and write a one-paragraph music-video concept: narrative, performance or abstract."
+        },
+        {
+          "title": "Storyboard",
+          "work": "Storyboard at least 12 shots mapped to the song's sections (intro, verse, chorus)."
+        },
+        {
+          "title": "Shoot",
+          "work": "Shoot all footage in one session, including performance and B-roll, with extra takes."
+        },
+        {
+          "title": "Edit to the beat",
+          "work": "Edit cuts to land on the beat by marking beats on the timeline; vary pacing between verse and chorus."
+        },
+        {
+          "title": "Draft screening",
+          "work": "Screen the draft for one viewer and record three specific suggestions."
+        }
+      ],
+      "assessment": "Draft."
+    },
+    {
+      "week": 31,
+      "unit": 7,
+      "topic": "Video unit assessment",
+      "objectives": [
+        "Evaluate video projects"
+      ],
+      "standards": [
+        "MA:Re9.1.HSP",
+        "MA:Pr6.1.HSP"
+      ],
+      "vocabulary": [
+        "screening"
+      ],
+      "materials": [
+        "editor"
+      ],
+      "days": [
+        {
+          "title": "Revise",
+          "work": "Apply the screening suggestions, fixing at least one pacing issue and one visual issue."
+        },
+        {
+          "title": "Titles & credits",
+          "work": "Add a title card and end credits with full attribution of music and collaborators."
+        },
+        {
+          "title": "Screening night",
+          "work": "Host a family screening of the scored scene and music video and collect written feedback cards."
+        },
+        {
+          "title": "Media arts quiz",
+          "work": "Take a quiz on film language, sound design and copyright."
+        },
+        {
+          "title": "Reflect",
+          "work": "Write a 300-word comparison of your music video and a professional one using film vocabulary."
+        }
+      ],
+      "assessment": "Video rubric."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Capstone proposal",
+      "objectives": [
+        "Propose a multimedia capstone"
+      ],
+      "standards": [
+        "MA:Cr1.1.HSP",
+        "MA:Cn10.1.HSP",
+        "MU:Cn10.1.HSP"
+      ],
+      "vocabulary": [
+        "proposal",
+        "timeline"
+      ],
+      "materials": [
+        "notebook"
+      ],
+      "days": [
+        {
+          "title": "Brainstorm",
+          "work": "Generate three capstone ideas (e.g., a short film with original score, a 3-track EP with album art and lyric videos, an audio documentary) using mind maps."
+        },
+        {
+          "title": "Research inspiration",
+          "work": "Collect five reference works (films, albums, podcasts) and note one technique to borrow from each."
+        },
+        {
+          "title": "Proposal",
+          "work": "Write a 1-page proposal with artistic goal, audience, tools, and a week-by-week timeline through Week 35."
+        },
+        {
+          "title": "Pitch",
+          "work": "Pitch the idea to family in 3 minutes with a mood board and answer questions."
+        },
+        {
+          "title": "Pre-production",
+          "work": "Finalize scripts, storyboards or track lists and build a shot/recording checklist."
+        }
+      ],
+      "assessment": "Proposal."
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Capstone production I",
+      "objectives": [
+        "Produce capstone media"
+      ],
+      "standards": [
+        "MA:Pr5.1.HSP",
+        "MU:Cr2.1.HSP"
+      ],
+      "vocabulary": [
+        "production"
+      ],
+      "materials": [
+        "tools"
+      ],
+      "days": [
+        {
+          "title": "Music production",
+          "work": "Compose and record the capstone's music tracks in BandLab, at least 90 seconds of original material."
+        },
+        {
+          "title": "Visual production",
+          "work": "Shoot video or create images/graphics for the capstone following the storyboard."
+        },
+        {
+          "title": "Audio capture",
+          "work": "Record narration, dialogue or vocals and clean them with noise reduction."
+        },
+        {
+          "title": "Rough assembly",
+          "work": "Assemble a complete rough cut or rough mix of the full capstone."
+        },
+        {
+          "title": "Timeline check",
+          "work": "Compare progress to the proposal timeline and revise the plan for remaining weeks."
+        }
+      ],
+      "assessment": "Checkpoint."
+    },
+    {
+      "week": 34,
+      "unit": 8,
+      "topic": "Capstone production II",
+      "objectives": [
+        "Refine capstone"
+      ],
+      "standards": [
+        "MA:Cr3.1.HSP",
+        "MU:Cr3.1.HSP"
+      ],
+      "vocabulary": [
+        "refinement"
+      ],
+      "materials": [
+        "tools"
+      ],
+      "days": [
+        {
+          "title": "Critique session",
+          "work": "Show the rough version to two viewers and gather feedback using your proposal's goals as criteria."
+        },
+        {
+          "title": "Revise structure",
+          "work": "Re-order, cut or add sections to fix the largest structural issue identified."
+        },
+        {
+          "title": "Audio mix",
+          "work": "Balance music, voice and effects; apply EQ to keep dialogue clear and export a test mix."
+        },
+        {
+          "title": "Visual polish",
+          "work": "Color-correct, add titles and check every transition and graphic for consistency."
+        },
+        {
+          "title": "Artist statement",
+          "work": "Write a 300-word artist statement explaining intent, techniques and influences."
+        }
+      ],
+      "assessment": "Checkpoint."
+    },
+    {
+      "week": 35,
+      "unit": 8,
+      "topic": "Capstone exhibition",
+      "objectives": [
+        "Present capstone"
+      ],
+      "standards": [
+        "MA:Pr6.1.HSP",
+        "MU:Pr6.1.HSP"
+      ],
+      "vocabulary": [
+        "exhibition"
+      ],
+      "materials": [
+        "display"
+      ],
+      "days": [
+        {
+          "title": "Exhibition prep",
+          "work": "Plan the presentation: format (screening, listening session, web page), order and introduction."
+        },
+        {
+          "title": "Exhibit",
+          "work": "Present the capstone to family or a homeschool group with a 2-minute introduction."
+        },
+        {
+          "title": "Q&A",
+          "work": "Answer audience questions about your process and choices."
+        },
+        {
+          "title": "Evaluate",
+          "work": "Score the capstone on the rubric (concept, craft, music, media integration, presentation) and compare to audience feedback."
+        },
+        {
+          "title": "Final fixes",
+          "work": "Make any final fixes and export archive-quality versions of all files."
+        }
+      ],
+      "assessment": "Capstone rubric."
+    },
+    {
+      "week": 36,
+      "unit": 8,
+      "topic": "Final portfolio and reflection",
+      "objectives": [
+        "Curate year portfolio"
+      ],
+      "standards": [
+        "MA:Re9.1.HSP",
+        "MU:Re9.1.HSP",
+        "MA:Cn11.1.HSP"
+      ],
+      "vocabulary": [
+        "portfolio",
+        "curation"
+      ],
+      "materials": [
+        "portfolio site"
+      ],
+      "days": [
+        {
+          "title": "Curate",
+          "work": "Select 6–8 best works from both semesters (performance, song, beat, photo essay, podcast, video, capstone)."
+        },
+        {
+          "title": "Portfolio site",
+          "work": "Build a free portfolio website or slide portfolio with captions and credits for each work."
+        },
+        {
+          "title": "Final exam",
+          "work": "Take the final exam on music theory, history, media arts vocabulary and copyright."
+        },
+        {
+          "title": "Reflection",
+          "work": "Write a final reflection on growth as a musician and media artist with evidence from your portfolio."
+        },
+        {
+          "title": "Goals",
+          "work": "Set goals for next year's arts course (e.g., Theatre & Performing Arts) and share the portfolio link with family."
+        }
+      ],
+      "assessment": "Portfolio."
+    }
+  ]
+}

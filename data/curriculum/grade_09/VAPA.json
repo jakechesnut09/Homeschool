@@ -1,0 +1,1865 @@
+{
+  "grade": 9,
+  "subject": "VAPA",
+  "title": "Visual Art I",
+  "description": "Visual Art I is a foundational studio course covering drawing, perspective, color theory and painting, printmaking, design, sculpture and clay, portraiture, photography, collage, and digital art. Each unit pairs hands-on work with study of artists from many cultures and the critique process. The year ends with a personal body of work, an artist statement, and a curated home or community exhibition.",
+  "framework": "2019 California Arts Standards for Public Schools (Visual Arts, High School Proficient); 2020 CA Arts Education Framework",
+  "minutes_per_day": 50,
+  "ag_requirement": "f",
+  "credits": 10,
+  "standards": {
+    "VA:Cr1.1.HSI": "Use multiple approaches to begin creative endeavors.",
+    "VA:Cr1.2.HSI": "Shape an artistic investigation of an aspect of present-day life using a contemporary practice of art or design.",
+    "VA:Cr2.1.HSI": "Engage in making a work of art or design without having a preconceived plan; experiment with materials and approaches.",
+    "VA:Cr2.2.HSI": "Explain how traditional and nontraditional materials may impact human health and the environment, and demonstrate safe handling of materials, tools, and equipment.",
+    "VA:Cr2.3.HSI": "Collaboratively develop a proposal for an installation, artwork, or space design that transforms the perception and experience of a particular place.",
+    "VA:Cr3.1.HSI": "Apply relevant criteria from traditional and contemporary cultural contexts to examine, reflect on, and plan revisions for works of art in progress.",
+    "VA:Pr4.1.HSI": "Analyze, select, and curate artifacts and/or artworks for presentation and preservation.",
+    "VA:Pr5.1.HSI": "Analyze and evaluate the reasons and ways an exhibition is presented.",
+    "VA:Pr6.1.HSI": "Analyze and describe the impact that an exhibition or collection has on personal awareness of social, cultural, or political beliefs.",
+    "VA:Re7.1.HSI": "Hypothesize ways in which art influences perception and understanding of human experiences.",
+    "VA:Re7.2.HSI": "Analyze how one's understanding of the world is affected by experiencing visual imagery.",
+    "VA:Re8.1.HSI": "Interpret an artwork or collection of works, supported by relevant and sufficient evidence found in the work and its various contexts.",
+    "VA:Re9.1.HSI": "Establish relevant criteria in order to evaluate a work of art or collection of works.",
+    "VA:Cn10.1.HSI": "Document the process of developing ideas from early stages to fully elaborated ideas.",
+    "VA:Cn11.1.HSI": "Describe how knowledge of culture, traditions, and history may influence personal responses to art."
+  },
+  "resources": [
+    {
+      "name": "Khan Academy – Art History",
+      "url": "https://www.khanacademy.org/humanities/art-history",
+      "note": "Smarthistory videos on artworks studied in each unit"
+    },
+    {
+      "name": "Smithsonian Learning Lab",
+      "url": "https://learninglab.si.edu",
+      "note": "Free museum images and collections"
+    },
+    {
+      "name": "The Metropolitan Museum of Art Collection",
+      "url": "https://www.metmuseum.org/art/collection",
+      "note": "Open-access images for study"
+    },
+    {
+      "name": "Getty Education",
+      "url": "https://www.getty.edu/education/",
+      "note": "Teacher and student art resources"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Drawing Foundations: Line, Shape, and Value",
+      "start_week": 1,
+      "end_week": 5,
+      "big_idea": "Drawing is a way of seeing; line and value turn flat paper into form.",
+      "standards": [
+        "VA:Cr1.1.HSI",
+        "VA:Cr2.1.HSI",
+        "VA:Cr3.1.HSI",
+        "VA:Cn10.1.HSI",
+        "VA:Re9.1.HSI"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Space and Perspective",
+      "start_week": 6,
+      "end_week": 8,
+      "big_idea": "Artists create the illusion of depth with perspective systems, overlap, and atmosphere.",
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cr3.1.HSI",
+        "VA:Re7.2.HSI",
+        "VA:Cn11.1.HSI"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Color Theory and Painting",
+      "start_week": 9,
+      "end_week": 13,
+      "big_idea": "Color relationships create mood, light, and harmony; painting media each have their own behaviors.",
+      "standards": [
+        "VA:Cr1.1.HSI",
+        "VA:Cr2.1.HSI",
+        "VA:Cr2.2.HSI",
+        "VA:Re7.1.HSI",
+        "VA:Re8.1.HSI",
+        "VA:Cn11.1.HSI"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Principles of Design and Printmaking",
+      "start_week": 14,
+      "end_week": 18,
+      "big_idea": "Principles of design organize the elements; printmaking multiplies an image and has a long history as public art.",
+      "standards": [
+        "VA:Cr1.1.HSI",
+        "VA:Cr2.2.HSI",
+        "VA:Cr3.1.HSI",
+        "VA:Re8.1.HSI",
+        "VA:Cn11.1.HSI",
+        "VA:Pr4.1.HSI",
+        "VA:Cn10.1.HSI"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Three-Dimensional Art and Sculpture",
+      "start_week": 19,
+      "end_week": 22,
+      "big_idea": "Sculpture and installation change how we experience space and place.",
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cr2.2.HSI",
+        "VA:Cr2.3.HSI",
+        "VA:Re7.1.HSI",
+        "VA:Cr3.1.HSI"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Portraiture and the Figure",
+      "start_week": 23,
+      "end_week": 27,
+      "big_idea": "Portraits reveal identity through proportion, expression, and symbol.",
+      "standards": [
+        "VA:Cr1.2.HSI",
+        "VA:Cr2.1.HSI",
+        "VA:Cr3.1.HSI",
+        "VA:Re8.1.HSI",
+        "VA:Cn11.1.HSI"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Photography, Collage, and Mixed Media",
+      "start_week": 28,
+      "end_week": 31,
+      "big_idea": "Photography and collage let artists reframe everyday life and combine images into new meanings.",
+      "standards": [
+        "VA:Cr1.2.HSI",
+        "VA:Cr2.1.HSI",
+        "VA:Re7.2.HSI",
+        "VA:Re8.1.HSI",
+        "VA:Cn11.1.HSI"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Personal Voice, Portfolio, and Exhibition",
+      "start_week": 32,
+      "end_week": 36,
+      "big_idea": "Artists develop a body of work around a personal theme and share it through a curated exhibition.",
+      "standards": [
+        "VA:Cr1.2.HSI",
+        "VA:Cr3.1.HSI",
+        "VA:Pr4.1.HSI",
+        "VA:Pr5.1.HSI",
+        "VA:Pr6.1.HSI",
+        "VA:Re9.1.HSI",
+        "VA:Cn10.1.HSI"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Sketchbook habits and contour line",
+      "objectives": [
+        "Establish a daily sketchbook practice",
+        "Draw with contour and blind contour line"
+      ],
+      "standards": [
+        "VA:Cr1.1.HSI",
+        "VA:Cn10.1.HSI"
+      ],
+      "vocabulary": [
+        "contour line",
+        "blind contour",
+        "cross-contour",
+        "sketchbook",
+        "observation"
+      ],
+      "materials": [
+        "sketchbook (9x12)",
+        "graphite pencils 2H–6B",
+        "kneaded eraser"
+      ],
+      "days": [
+        {
+          "title": "Sketchbook launch",
+          "work": "Decorate a sketchbook cover with your name in three lettering styles and draw your non-dominant hand for 10 minutes."
+        },
+        {
+          "title": "Blind contour",
+          "work": "Do five 3-minute blind contour drawings of a shoe, a plant, and your face in a mirror without looking at the paper."
+        },
+        {
+          "title": "Modified contour",
+          "work": "Draw a kitchen utensil grouping with modified contour, glancing at the paper only at corners."
+        },
+        {
+          "title": "Cross-contour",
+          "work": "Draw a banana and a crumpled paper bag using cross-contour lines to show form."
+        },
+        {
+          "title": "Review & check",
+          "work": "Select your best contour drawing and write a 5-sentence reflection on what improved during the week."
+        }
+      ],
+      "assessment": "Sketchbook check for 10+ contour drawings and written reflection."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Shape, gesture, and proportion",
+      "objectives": [
+        "Use geometric and organic shapes to block in drawings",
+        "Capture motion with gesture drawing"
+      ],
+      "standards": [
+        "VA:Cr1.1.HSI",
+        "VA:Cr2.1.HSI"
+      ],
+      "vocabulary": [
+        "geometric shape",
+        "organic shape",
+        "gesture",
+        "proportion",
+        "sighting"
+      ],
+      "materials": [
+        "sketchbook",
+        "pencil",
+        "timer"
+      ],
+      "days": [
+        {
+          "title": "Shapes underneath",
+          "work": "Block in a still life of three household objects using basic geometric shapes before refining edges."
+        },
+        {
+          "title": "Sighting and measuring",
+          "work": "Learn pencil sighting to measure proportions; draw a chair accurately using sighting."
+        },
+        {
+          "title": "Gesture",
+          "work": "Do 20 thirty-second gesture drawings of a family member doing household tasks or of figures in a sports video."
+        },
+        {
+          "title": "Negative space",
+          "work": "Draw only the negative spaces around a chair or plant to correct shape errors."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a 45-minute proportion drawing of a still life and self-check with sighting."
+        }
+      ],
+      "assessment": "Proportion still life evaluated for accurate shapes and proportions."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Value: from light to dark",
+      "objectives": [
+        "Create value scales",
+        "Render form with shading techniques"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cr3.1.HSI"
+      ],
+      "vocabulary": [
+        "value",
+        "value scale",
+        "hatching",
+        "cross-hatching",
+        "stippling",
+        "blending"
+      ],
+      "materials": [
+        "pencils 2H–6B",
+        "blending stump",
+        "fine-tip pen"
+      ],
+      "days": [
+        {
+          "title": "Value scales",
+          "work": "Create 9-step value scales with pencil blending, hatching, cross-hatching, and stippling."
+        },
+        {
+          "title": "Shading spheres",
+          "work": "Render a sphere, cube, and cylinder with highlight, midtone, core shadow, reflected light, and cast shadow."
+        },
+        {
+          "title": "Light source lab",
+          "work": "Photograph an egg under a single lamp from three angles and draw the best lighting."
+        },
+        {
+          "title": "Pen techniques",
+          "work": "Shade the same egg in pen with hatching only."
+        },
+        {
+          "title": "Review & check",
+          "work": "Peer/parent critique comparing pencil and pen versions using the elements vocabulary."
+        }
+      ],
+      "assessment": "Value scales and shaded forms checked against a rubric."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Still life value drawing",
+      "objectives": [
+        "Compose and render a still life with a full value range"
+      ],
+      "standards": [
+        "VA:Cr3.1.HSI",
+        "VA:Re9.1.HSI"
+      ],
+      "vocabulary": [
+        "composition",
+        "focal point",
+        "cast shadow",
+        "full value range"
+      ],
+      "materials": [
+        "still life objects (white objects work best)",
+        "lamp",
+        "drawing paper"
+      ],
+      "days": [
+        {
+          "title": "Set up",
+          "work": "Arrange 3–5 white objects under a strong lamp; make three thumbnail compositions and pick one."
+        },
+        {
+          "title": "Block-in",
+          "work": "Lightly block in the composition with sighting."
+        },
+        {
+          "title": "Value",
+          "work": "Lay in the darkest darks and lightest lights, then build midtones."
+        },
+        {
+          "title": "Refine",
+          "work": "Refine edges, textures, and cast shadows."
+        },
+        {
+          "title": "Critique",
+          "work": "Write criteria for a successful still life and use them to self-evaluate your drawing."
+        }
+      ],
+      "assessment": "Still life drawing scored against self-written and teacher criteria."
+    },
+    {
+      "week": 5,
+      "unit": 1,
+      "topic": "Texture and drawing media exploration",
+      "objectives": [
+        "Render implied texture",
+        "Experiment with charcoal and ink"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cn10.1.HSI"
+      ],
+      "vocabulary": [
+        "implied texture",
+        "actual texture",
+        "charcoal",
+        "ink wash",
+        "frottage"
+      ],
+      "materials": [
+        "vine and compressed charcoal",
+        "India ink",
+        "brush",
+        "textured objects"
+      ],
+      "days": [
+        {
+          "title": "Frottage",
+          "work": "Make crayon rubbings of 10 textures around the house and label them."
+        },
+        {
+          "title": "Texture study",
+          "work": "Draw close-up studies of tree bark, fabric, and metal."
+        },
+        {
+          "title": "Charcoal",
+          "work": "Draw a crumpled paper bag in charcoal using subtractive eraser drawing."
+        },
+        {
+          "title": "Ink wash",
+          "work": "Paint a quick ink-wash study of a houseplant with three dilutions."
+        },
+        {
+          "title": "Unit 1 portfolio review",
+          "work": "Assemble your best three drawings and document your growth with photos and captions."
+        }
+      ],
+      "assessment": "Unit 1 portfolio review."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "One-point perspective",
+      "objectives": [
+        "Draw with one-point perspective"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Re7.2.HSI"
+      ],
+      "vocabulary": [
+        "horizon line",
+        "vanishing point",
+        "orthogonal",
+        "one-point perspective",
+        "eye level"
+      ],
+      "materials": [
+        "ruler",
+        "pencil",
+        "drawing paper"
+      ],
+      "days": [
+        {
+          "title": "Perspective in art",
+          "work": "Analyze Leonardo's \"The Last Supper\" and trace its orthogonals on a printout to find the vanishing point."
+        },
+        {
+          "title": "Boxes in space",
+          "work": "Draw floating boxes above, below, and on the horizon line in one-point perspective."
+        },
+        {
+          "title": "Hallway",
+          "work": "Draw a hallway or room interior in one-point perspective."
+        },
+        {
+          "title": "Street scene",
+          "work": "Draw a one-point street scene with buildings, windows, and sidewalk."
+        },
+        {
+          "title": "Review & check",
+          "work": "Add value and details to the street scene."
+        }
+      ],
+      "assessment": "One-point drawing assessed for correct convergence."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Two-point perspective",
+      "objectives": [
+        "Draw with two-point perspective"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cr3.1.HSI"
+      ],
+      "vocabulary": [
+        "two-point perspective",
+        "vertical lines",
+        "worm's-eye view",
+        "bird's-eye view"
+      ],
+      "materials": [
+        "ruler",
+        "long paper"
+      ],
+      "days": [
+        {
+          "title": "Two-point boxes",
+          "work": "Draw boxes in two-point perspective at different heights."
+        },
+        {
+          "title": "Building",
+          "work": "Draw your house or a local building in two-point."
+        },
+        {
+          "title": "Worm's/bird's-eye",
+          "work": "Draw a box from a bird's-eye and worm's-eye view."
+        },
+        {
+          "title": "City block",
+          "work": "Draw an imaginary city block in two-point perspective."
+        },
+        {
+          "title": "Review & check",
+          "work": "Self-critique perspective drawings with a checklist."
+        }
+      ],
+      "assessment": "Two-point city drawing."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Atmospheric perspective and landscape",
+      "objectives": [
+        "Use atmospheric perspective",
+        "Draw landscape from observation"
+      ],
+      "standards": [
+        "VA:Re7.2.HSI",
+        "VA:Cn11.1.HSI"
+      ],
+      "vocabulary": [
+        "atmospheric perspective",
+        "foreground",
+        "middle ground",
+        "background",
+        "overlap"
+      ],
+      "materials": [
+        "pencils",
+        "landscape photos"
+      ],
+      "days": [
+        {
+          "title": "Chinese landscape painting",
+          "work": "Study a Song dynasty landscape and identify how mist shows depth."
+        },
+        {
+          "title": "Plein air",
+          "work": "Draw a landscape outdoors with foreground, middle ground, and background."
+        },
+        {
+          "title": "Value layers",
+          "work": "Redo the landscape with value fading in the distance."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare Chinese and Hudson River School landscapes in writing."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit 2 review of perspective drawings."
+        }
+      ],
+      "assessment": "Landscape drawing and comparison."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Color theory",
+      "objectives": [
+        "Mix and organize colors",
+        "Explain color relationships"
+      ],
+      "standards": [
+        "VA:Cr1.1.HSI",
+        "VA:Re7.1.HSI"
+      ],
+      "vocabulary": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "complementary",
+        "analogous",
+        "hue",
+        "tint",
+        "shade"
+      ],
+      "materials": [
+        "tempera or acrylic primaries plus white and black",
+        "palette",
+        "brushes"
+      ],
+      "days": [
+        {
+          "title": "Color wheel",
+          "work": "Mix a 12-step color wheel from primaries."
+        },
+        {
+          "title": "Tints and shades",
+          "work": "Create tint and shade scales for one color."
+        },
+        {
+          "title": "Color schemes",
+          "work": "Paint four small squares in complementary, analogous, triadic, and monochromatic schemes."
+        },
+        {
+          "title": "Color and mood",
+          "work": "Analyze how Picasso's Blue Period paintings use color for mood."
+        },
+        {
+          "title": "Review & check",
+          "work": "Color theory quiz."
+        }
+      ],
+      "assessment": "Color wheel and quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Watercolor techniques",
+      "objectives": [
+        "Use watercolor techniques"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cr2.2.HSI"
+      ],
+      "vocabulary": [
+        "wet-on-wet",
+        "wet-on-dry",
+        "wash",
+        "glaze",
+        "lifting",
+        "resist"
+      ],
+      "materials": [
+        "watercolor set",
+        "watercolor paper",
+        "salt",
+        "crayon"
+      ],
+      "days": [
+        {
+          "title": "Material safety",
+          "work": "Learn safe handling and cleanup of paints and brushes, including not pouring pigments down storm drains."
+        },
+        {
+          "title": "Technique sampler",
+          "work": "Paint a sampler grid of wet-on-wet, gradient wash, glazing, salt, lifting, and wax resist."
+        },
+        {
+          "title": "Sky study",
+          "work": "Paint three sky studies at different times of day."
+        },
+        {
+          "title": "Botanical",
+          "work": "Paint a leaf or flower from observation with glazing."
+        },
+        {
+          "title": "Review & check",
+          "work": "Label the sampler and choose the technique you will use in the landscape."
+        }
+      ],
+      "assessment": "Technique sampler."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Impressionism and landscape painting",
+      "objectives": [
+        "Paint a landscape",
+        "Explain Impressionist ideas"
+      ],
+      "standards": [
+        "VA:Re8.1.HSI",
+        "VA:Cn11.1.HSI",
+        "VA:Cr2.1.HSI"
+      ],
+      "vocabulary": [
+        "Impressionism",
+        "broken color",
+        "plein air",
+        "light"
+      ],
+      "materials": [
+        "paints",
+        "canvas board or heavy paper"
+      ],
+      "days": [
+        {
+          "title": "Impressionism",
+          "work": "Study Monet's \"Haystacks\" series and explain how light changes color."
+        },
+        {
+          "title": "Thumbnails",
+          "work": "Paint 3 small studies of the same view at different times of day."
+        },
+        {
+          "title": "Painting",
+          "work": "Start a landscape painting in broken color."
+        },
+        {
+          "title": "Finishing",
+          "work": "Finish the landscape painting."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an interpretation of a Monet painting citing visual evidence."
+        }
+      ],
+      "assessment": "Landscape painting and written interpretation."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Color and expression",
+      "objectives": [
+        "Use expressive color",
+        "Analyze Fauvism and Expressionism"
+      ],
+      "standards": [
+        "VA:Re7.1.HSI",
+        "VA:Re8.1.HSI",
+        "VA:Cr1.1.HSI"
+      ],
+      "vocabulary": [
+        "Fauvism",
+        "Expressionism",
+        "arbitrary color",
+        "emotion"
+      ],
+      "materials": [
+        "paints",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Fauvism",
+          "work": "Analyze Matisse's \"Woman with a Hat\" and list arbitrary colors."
+        },
+        {
+          "title": "Expressionism",
+          "work": "Analyze Munch's \"The Scream\" and Kirchner's street scenes."
+        },
+        {
+          "title": "Expressive painting",
+          "work": "Paint a familiar place in arbitrary colors to express a mood."
+        },
+        {
+          "title": "Finish",
+          "work": "Finish the painting and title it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a short artist statement explaining color choices."
+        }
+      ],
+      "assessment": "Expressive painting and statement."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Unit 3 painting critique",
+      "objectives": [
+        "Critique paintings",
+        "Revise work"
+      ],
+      "standards": [
+        "VA:Cr3.1.HSI",
+        "VA:Re8.1.HSI"
+      ],
+      "vocabulary": [
+        "critique",
+        "describe",
+        "analyze",
+        "interpret",
+        "judge"
+      ],
+      "materials": [
+        "finished paintings"
+      ],
+      "days": [
+        {
+          "title": "Feldman critique",
+          "work": "Learn describe–analyze–interpret–judge and critique a Frida Kahlo painting."
+        },
+        {
+          "title": "Self-critique",
+          "work": "Critique your two paintings with the same method."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise one painting based on critique."
+        },
+        {
+          "title": "Photograph",
+          "work": "Photograph and document work."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit 3 portfolio check."
+        }
+      ],
+      "assessment": "Critique writing and revised painting."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Principles of design",
+      "objectives": [
+        "Identify the principles of design",
+        "Apply balance, emphasis, and rhythm"
+      ],
+      "standards": [
+        "VA:Cr1.1.HSI",
+        "VA:Re8.1.HSI"
+      ],
+      "vocabulary": [
+        "balance",
+        "emphasis",
+        "rhythm",
+        "unity",
+        "contrast",
+        "movement",
+        "pattern"
+      ],
+      "materials": [
+        "magazines",
+        "scissors",
+        "glue"
+      ],
+      "days": [
+        {
+          "title": "Principles hunt",
+          "work": "Find magazine examples of each principle of design and make a reference sheet."
+        },
+        {
+          "title": "Balance",
+          "work": "Create symmetrical, asymmetrical, and radial balance compositions with cut paper."
+        },
+        {
+          "title": "Emphasis",
+          "work": "Make a composition that uses contrast to create a focal point."
+        },
+        {
+          "title": "Rhythm",
+          "work": "Create a rhythm/pattern design."
+        },
+        {
+          "title": "Review & check",
+          "work": "Principles quiz."
+        }
+      ],
+      "assessment": "Principles reference sheet and quiz."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Relief printmaking: history and design",
+      "objectives": [
+        "Explain relief printing history",
+        "Design a print"
+      ],
+      "standards": [
+        "VA:Cn11.1.HSI",
+        "VA:Cr1.1.HSI"
+      ],
+      "vocabulary": [
+        "relief print",
+        "brayer",
+        "edition",
+        "reverse image"
+      ],
+      "materials": [
+        "foam printing plates (or soft-cut linoleum)",
+        "pencil"
+      ],
+      "days": [
+        {
+          "title": "Hokusai",
+          "work": "Study Hokusai's \"The Great Wave\" and ukiyo-e woodblock printing."
+        },
+        {
+          "title": "Posada and the Taller de Gráfica Popular",
+          "work": "Study José Guadalupe Posada's calaveras and Mexican political prints."
+        },
+        {
+          "title": "Design",
+          "work": "Draw 3 thumbnails for a print about your community, thinking in black and white shapes."
+        },
+        {
+          "title": "Transfer",
+          "work": "Transfer the design in reverse to a foam plate."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how printmaking was used as public art."
+        }
+      ],
+      "assessment": "Print design."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Relief printmaking: carving and printing",
+      "objectives": [
+        "Carve and print an edition"
+      ],
+      "standards": [
+        "VA:Cr2.2.HSI",
+        "VA:Cr2.1.HSI"
+      ],
+      "vocabulary": [
+        "carve",
+        "proof",
+        "edition",
+        "registration"
+      ],
+      "materials": [
+        "carving tools or pencil for foam",
+        "block printing ink",
+        "brayer"
+      ],
+      "days": [
+        {
+          "title": "Carving safety",
+          "work": "Learn tool safety (carve away from hands)."
+        },
+        {
+          "title": "Carve",
+          "work": "Carve or press the plate."
+        },
+        {
+          "title": "Proof",
+          "work": "Pull a proof print and adjust."
+        },
+        {
+          "title": "Edition",
+          "work": "Print an edition of 5 prints, numbering and signing correctly."
+        },
+        {
+          "title": "Review & check",
+          "work": "Select the best print and critique."
+        }
+      ],
+      "assessment": "Print edition."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Graphic design: the public poster",
+      "objectives": [
+        "Apply principles of design to a poster with text and image",
+        "Analyze historical posters"
+      ],
+      "standards": [
+        "VA:Cr3.1.HSI",
+        "VA:Re8.1.HSI",
+        "VA:Cn11.1.HSI"
+      ],
+      "vocabulary": [
+        "typography",
+        "layout",
+        "visual hierarchy",
+        "negative space",
+        "silkscreen"
+      ],
+      "materials": [
+        "poster board or free design app",
+        "markers",
+        "Library of Congress WPA poster images"
+      ],
+      "days": [
+        {
+          "title": "WPA posters",
+          "work": "Analyze five 1930s WPA posters from the Library of Congress and note how each uses hierarchy, color, and lettering."
+        },
+        {
+          "title": "Thumbnails",
+          "work": "Sketch six thumbnails for a poster promoting a real community event (library program, farmers market, park cleanup)."
+        },
+        {
+          "title": "Lettering",
+          "work": "Practice hand-lettering the title in two styles and choose one that matches the event's mood."
+        },
+        {
+          "title": "Final poster",
+          "work": "Produce the final 11x17 poster using a limited palette of three colors."
+        },
+        {
+          "title": "Review & check",
+          "work": "Get feedback from someone who didn't see it in progress: can they find the event, date, and place in 5 seconds?"
+        }
+      ],
+      "assessment": "Poster evaluated on hierarchy, readability, and design principles."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Semester portfolio review and critique",
+      "objectives": [
+        "Curate a semester portfolio",
+        "Reflect on growth using documentation"
+      ],
+      "standards": [
+        "VA:Pr4.1.HSI",
+        "VA:Cn10.1.HSI",
+        "VA:Cr3.1.HSI"
+      ],
+      "vocabulary": [
+        "portfolio",
+        "curate",
+        "documentation",
+        "artist reflection"
+      ],
+      "materials": [
+        "all semester artwork",
+        "phone camera",
+        "neutral backdrop"
+      ],
+      "days": [
+        {
+          "title": "Select",
+          "work": "Lay out all semester work and select six pieces that show range (drawing, perspective, painting, print, design)."
+        },
+        {
+          "title": "Document",
+          "work": "Photograph each piece squarely in natural light with a neutral backdrop and crop/label the files."
+        },
+        {
+          "title": "Reflect",
+          "work": "Write a 100-word reflection for each piece: goal, process, what you'd change."
+        },
+        {
+          "title": "Present",
+          "work": "Present the portfolio to family, explaining one piece in depth with a Feldman-style critique."
+        },
+        {
+          "title": "Goal setting",
+          "work": "Compare your week 1 contour drawing to a recent drawing and write three goals for semester 2."
+        }
+      ],
+      "assessment": "Semester portfolio and presentation."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Form and space: paper sculpture",
+      "objectives": [
+        "Create 3D form from 2D material",
+        "Explore positive and negative space in sculpture"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Re7.1.HSI"
+      ],
+      "vocabulary": [
+        "form",
+        "relief",
+        "freestanding",
+        "in the round",
+        "positive space",
+        "negative space"
+      ],
+      "materials": [
+        "cardstock",
+        "scissors",
+        "glue",
+        "craft knife",
+        "cutting mat"
+      ],
+      "days": [
+        {
+          "title": "Sculpture survey",
+          "work": "Compare Michelangelo's \"David\", Barbara Hepworth's pierced forms, and Ruth Asawa's wire sculptures; note how each uses space."
+        },
+        {
+          "title": "Paper techniques",
+          "work": "Practice scoring, folding, curling, tabbing, and slotting cardstock in a technique sampler."
+        },
+        {
+          "title": "Abstract sculpture",
+          "work": "Build a freestanding abstract paper sculpture at least 10 inches tall that is interesting from every side."
+        },
+        {
+          "title": "Lighting",
+          "work": "Photograph the sculpture with a lamp from three angles and note how shadows change the form."
+        },
+        {
+          "title": "Review & check",
+          "work": "Critique the sculpture for balance, unity, and use of negative space."
+        }
+      ],
+      "assessment": "Paper sculpture and photo documentation."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Clay: hand-building",
+      "objectives": [
+        "Use pinch, coil, and slab methods",
+        "Handle clay safely"
+      ],
+      "standards": [
+        "VA:Cr2.2.HSI",
+        "VA:Cr2.1.HSI"
+      ],
+      "vocabulary": [
+        "pinch pot",
+        "coil",
+        "slab",
+        "score and slip",
+        "leather-hard",
+        "air-dry clay"
+      ],
+      "materials": [
+        "air-dry clay",
+        "plastic knife",
+        "water cup",
+        "rolling pin"
+      ],
+      "days": [
+        {
+          "title": "Clay safety",
+          "work": "Learn clay safety (wet cleanup to avoid silica dust) and wedge clay."
+        },
+        {
+          "title": "Pinch pot",
+          "work": "Make a pinch pot with even walls."
+        },
+        {
+          "title": "Coil",
+          "work": "Build a coil vessel using score and slip."
+        },
+        {
+          "title": "Slab",
+          "work": "Construct a slab box with a lid."
+        },
+        {
+          "title": "Review & check",
+          "work": "Compare the three methods in a written reflection and choose one for the final project."
+        }
+      ],
+      "assessment": "Three hand-building samples."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Clay project: functional or sculptural vessel",
+      "objectives": [
+        "Design and build a ceramic piece inspired by a cultural tradition"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Re7.1.HSI",
+        "VA:Cr3.1.HSI"
+      ],
+      "vocabulary": [
+        "vessel",
+        "surface design",
+        "sgraffito",
+        "Maria Martinez",
+        "Pueblo pottery"
+      ],
+      "materials": [
+        "air-dry clay",
+        "acrylic paint",
+        "sealant"
+      ],
+      "days": [
+        {
+          "title": "Inspiration",
+          "work": "Study Pueblo pottery by Maria Martinez and Japanese Jomon pottery; sketch surface designs."
+        },
+        {
+          "title": "Build",
+          "work": "Build the vessel or sculpture using your chosen method."
+        },
+        {
+          "title": "Surface",
+          "work": "Add texture or sgraffito designs at the leather-hard stage."
+        },
+        {
+          "title": "Paint and seal",
+          "work": "After drying, paint and seal the piece."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an artist statement explaining your cultural inspiration."
+        }
+      ],
+      "assessment": "Finished clay piece and statement."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Installation and site-specific art",
+      "objectives": [
+        "Propose an installation that transforms a space"
+      ],
+      "standards": [
+        "VA:Cr2.3.HSI",
+        "VA:Re7.1.HSI"
+      ],
+      "vocabulary": [
+        "installation",
+        "site-specific",
+        "environmental art",
+        "proposal",
+        "scale model"
+      ],
+      "materials": [
+        "shoebox",
+        "found materials",
+        "camera"
+      ],
+      "days": [
+        {
+          "title": "Installation art",
+          "work": "Study Christo and Jeanne-Claude's \"Running Fence\" (Sonoma/Marin, 1976) and Yayoi Kusama's infinity rooms."
+        },
+        {
+          "title": "Site study",
+          "work": "Choose a space (yard, hallway, park) and photograph and measure it."
+        },
+        {
+          "title": "Proposal",
+          "work": "Collaborate with a sibling or friend to sketch a proposal that transforms the space."
+        },
+        {
+          "title": "Model",
+          "work": "Build a scale model in a shoebox."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present the proposal and model and explain how it changes a viewer's experience."
+        }
+      ],
+      "assessment": "Installation proposal and model."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Facial proportions",
+      "objectives": [
+        "Draw the face with correct proportions"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cr3.1.HSI"
+      ],
+      "vocabulary": [
+        "proportion",
+        "guidelines",
+        "features",
+        "three-quarter view",
+        "profile"
+      ],
+      "materials": [
+        "mirror",
+        "pencils",
+        "drawing paper"
+      ],
+      "days": [
+        {
+          "title": "Proportion guide",
+          "work": "Learn standard facial proportions (eyes halfway, etc.) and draw a front-view guide."
+        },
+        {
+          "title": "Eyes and nose",
+          "work": "Draw 6 studies of eyes and noses from a mirror."
+        },
+        {
+          "title": "Mouth and ears",
+          "work": "Draw studies of mouths and ears."
+        },
+        {
+          "title": "Full face",
+          "work": "Draw a family member's face from life using the guide."
+        },
+        {
+          "title": "Review & check",
+          "work": "Compare to a photo and correct proportions."
+        }
+      ],
+      "assessment": "Proportion studies."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Self-portrait",
+      "objectives": [
+        "Create a self-portrait that expresses identity"
+      ],
+      "standards": [
+        "VA:Cr1.2.HSI",
+        "VA:Re8.1.HSI",
+        "VA:Cn11.1.HSI"
+      ],
+      "vocabulary": [
+        "self-portrait",
+        "symbolism",
+        "identity",
+        "expression"
+      ],
+      "materials": [
+        "mirror",
+        "drawing or painting materials"
+      ],
+      "days": [
+        {
+          "title": "Self-portrait history",
+          "work": "Compare self-portraits by Rembrandt, Frida Kahlo, and Kehinde Wiley and note symbols they use."
+        },
+        {
+          "title": "Plan",
+          "work": "Sketch thumbnails including 3 personal symbols."
+        },
+        {
+          "title": "Draw",
+          "work": "Draw the self-portrait from a mirror."
+        },
+        {
+          "title": "Render",
+          "work": "Add value or color and the symbols."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an explanation of your symbols."
+        }
+      ],
+      "assessment": "Self-portrait and symbolism statement."
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "The figure: gesture and proportion",
+      "objectives": [
+        "Draw the human figure in proportion",
+        "Capture movement"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cr3.1.HSI"
+      ],
+      "vocabulary": [
+        "figure",
+        "head-to-body ratio",
+        "contrapposto",
+        "gesture",
+        "foreshortening"
+      ],
+      "materials": [
+        "wooden manikin (optional)",
+        "pencils"
+      ],
+      "days": [
+        {
+          "title": "Figure proportions",
+          "work": "Learn the 7.5-heads rule and draw a proportion chart."
+        },
+        {
+          "title": "Gesture",
+          "work": "Do 20 one-minute gestures of a family member posing."
+        },
+        {
+          "title": "Contrapposto",
+          "work": "Study the Greek \"Doryphoros\" and draw a contrapposto pose."
+        },
+        {
+          "title": "Long pose",
+          "work": "Draw a 30-minute seated figure from life."
+        },
+        {
+          "title": "Review & check",
+          "work": "Critique proportion with a partner."
+        }
+      ],
+      "assessment": "Figure drawing."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Portraiture across cultures",
+      "objectives": [
+        "Analyze portraiture across cultures"
+      ],
+      "standards": [
+        "VA:Cn11.1.HSI",
+        "VA:Re8.1.HSI"
+      ],
+      "vocabulary": [
+        "court portrait",
+        "mask",
+        "idealization",
+        "realism"
+      ],
+      "materials": [
+        "museum images"
+      ],
+      "days": [
+        {
+          "title": "Egyptian and Roman",
+          "work": "Compare Fayum mummy portraits with Egyptian pharaoh portraits."
+        },
+        {
+          "title": "Benin and Mughal",
+          "work": "Study Benin bronze heads and Mughal miniature portraits."
+        },
+        {
+          "title": "Modern",
+          "work": "Study Amedeo Modigliani and Alice Neel."
+        },
+        {
+          "title": "Compare",
+          "work": "Write a comparison of two portraits from different cultures citing visual evidence."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on portrait traditions."
+        }
+      ],
+      "assessment": "Comparison essay and quiz."
+    },
+    {
+      "week": 27,
+      "unit": 6,
+      "topic": "Portrait project: someone who matters",
+      "objectives": [
+        "Create a portrait of someone in your community"
+      ],
+      "standards": [
+        "VA:Cr1.2.HSI",
+        "VA:Cr3.1.HSI"
+      ],
+      "vocabulary": [
+        "commission",
+        "likeness",
+        "setting"
+      ],
+      "materials": [
+        "painting or drawing materials",
+        "camera"
+      ],
+      "days": [
+        {
+          "title": "Interview",
+          "work": "Interview your subject and photograph them in a meaningful setting."
+        },
+        {
+          "title": "Sketch",
+          "work": "Make a composition sketch including setting objects."
+        },
+        {
+          "title": "Create",
+          "work": "Begin the final portrait."
+        },
+        {
+          "title": "Finish",
+          "work": "Finish the portrait."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present the portrait to the subject and record their reaction."
+        }
+      ],
+      "assessment": "Final portrait."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Photography: composition and light",
+      "objectives": [
+        "Apply composition rules in photographs",
+        "Control natural light"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Re7.2.HSI"
+      ],
+      "vocabulary": [
+        "rule of thirds",
+        "leading lines",
+        "framing",
+        "depth of field",
+        "golden hour"
+      ],
+      "materials": [
+        "phone or digital camera"
+      ],
+      "days": [
+        {
+          "title": "Photo history",
+          "work": "Compare Dorothea Lange's \"Migrant Mother\" and Ansel Adams's Yosemite photographs; note composition and purpose."
+        },
+        {
+          "title": "Composition challenge",
+          "work": "Shoot 10 photos each demonstrating rule of thirds, leading lines, framing, symmetry, and pattern."
+        },
+        {
+          "title": "Light study",
+          "work": "Photograph the same object at morning, noon, and golden hour and describe the differences."
+        },
+        {
+          "title": "Edit",
+          "work": "Edit your best five photos for crop, exposure, and black-and-white conversion in a free editing app."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present a 5-photo contact sheet labeled with the technique each shows."
+        }
+      ],
+      "assessment": "Composition contact sheet."
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Photo essay: my community",
+      "objectives": [
+        "Tell a story through a photo series"
+      ],
+      "standards": [
+        "VA:Cr1.2.HSI",
+        "VA:Re7.2.HSI",
+        "VA:Re8.1.HSI"
+      ],
+      "vocabulary": [
+        "photo essay",
+        "sequence",
+        "caption",
+        "documentary photography"
+      ],
+      "materials": [
+        "camera",
+        "notebook"
+      ],
+      "days": [
+        {
+          "title": "Documentary photography",
+          "work": "Study Gordon Parks's photo essays and how sequence creates narrative."
+        },
+        {
+          "title": "Plan",
+          "work": "Choose a subject in your community (a market, a family recipe, a local business) and write a shot list."
+        },
+        {
+          "title": "Shoot",
+          "work": "Shoot 50+ photos following the shot list and permission guidelines."
+        },
+        {
+          "title": "Edit and sequence",
+          "work": "Select and sequence 8 photos and write captions."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present the photo essay and explain your sequencing choices."
+        }
+      ],
+      "assessment": "Photo essay."
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "Collage and mixed media",
+      "objectives": [
+        "Create a mixed-media collage that combines images into new meaning"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cn11.1.HSI",
+        "VA:Re8.1.HSI"
+      ],
+      "vocabulary": [
+        "collage",
+        "photomontage",
+        "mixed media",
+        "juxtaposition"
+      ],
+      "materials": [
+        "magazines",
+        "old photos (copies)",
+        "glue",
+        "acrylic paint"
+      ],
+      "days": [
+        {
+          "title": "Romare Bearden",
+          "work": "Study Bearden's collages of Harlem life and Hannah Höch's photomontage."
+        },
+        {
+          "title": "Gather",
+          "work": "Gather images, textures, and papers around a theme (home, memory, the future)."
+        },
+        {
+          "title": "Compose",
+          "work": "Experiment with arrangements without gluing; photograph three options."
+        },
+        {
+          "title": "Build",
+          "work": "Glue down and add paint and drawing to unify the collage."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an interpretation of a classmate's or sibling's collage, then your own."
+        }
+      ],
+      "assessment": "Mixed-media collage and interpretation."
+    },
+    {
+      "week": 31,
+      "unit": 7,
+      "topic": "Digital art basics",
+      "objectives": [
+        "Create digital artwork using layers"
+      ],
+      "standards": [
+        "VA:Cr2.1.HSI",
+        "VA:Cr1.2.HSI"
+      ],
+      "vocabulary": [
+        "digital art",
+        "layers",
+        "pixel",
+        "vector",
+        "opacity"
+      ],
+      "materials": [
+        "computer or tablet",
+        "free app (e.g., Krita or a browser-based editor)"
+      ],
+      "days": [
+        {
+          "title": "Digital tools",
+          "work": "Learn layers, brushes, selection, and opacity in a free app."
+        },
+        {
+          "title": "Digital copy",
+          "work": "Recreate one of your earlier drawings digitally to learn the tools."
+        },
+        {
+          "title": "Original",
+          "work": "Create an original digital illustration combining a photo and drawing."
+        },
+        {
+          "title": "Refine",
+          "work": "Refine color and layer effects."
+        },
+        {
+          "title": "Review & check",
+          "work": "Compare digital vs. traditional workflows in a short reflection."
+        }
+      ],
+      "assessment": "Digital illustration."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Contemporary art and finding your theme",
+      "objectives": [
+        "Research a contemporary artist",
+        "Choose a theme for a body of work"
+      ],
+      "standards": [
+        "VA:Cr1.2.HSI",
+        "VA:Re7.1.HSI"
+      ],
+      "vocabulary": [
+        "contemporary art",
+        "body of work",
+        "theme",
+        "artist research"
+      ],
+      "materials": [
+        "Smithsonian Learning Lab",
+        "sketchbook"
+      ],
+      "days": [
+        {
+          "title": "Contemporary artists",
+          "work": "Explore work by Kara Walker, El Anatsui, Ai Weiwei, and Judy Baca and note their themes."
+        },
+        {
+          "title": "Artist research",
+          "work": "Research one artist in depth and write a 400-word profile with images."
+        },
+        {
+          "title": "Mind map",
+          "work": "Make a mind map of personal themes (family, place, nature, technology)."
+        },
+        {
+          "title": "Proposal",
+          "work": "Write a proposal for a 3-piece body of work with media and sketches."
+        },
+        {
+          "title": "Review & check",
+          "work": "Conference on the proposal and revise."
+        }
+      ],
+      "assessment": "Artist profile and approved proposal."
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Body of work: piece 1 and 2",
+      "objectives": [
+        "Develop artworks around a theme"
+      ],
+      "standards": [
+        "VA:Cr1.2.HSI",
+        "VA:Cr3.1.HSI",
+        "VA:Cn10.1.HSI"
+      ],
+      "vocabulary": [
+        "series",
+        "consistency",
+        "variation",
+        "process documentation"
+      ],
+      "materials": [
+        "chosen media"
+      ],
+      "days": [
+        {
+          "title": "Piece 1 start",
+          "work": "Begin piece 1, documenting process with photos."
+        },
+        {
+          "title": "Piece 1 finish",
+          "work": "Finish piece 1 and write process notes."
+        },
+        {
+          "title": "Piece 2 start",
+          "work": "Begin piece 2 with a variation on the theme."
+        },
+        {
+          "title": "Piece 2 finish",
+          "work": "Finish piece 2."
+        },
+        {
+          "title": "Review & check",
+          "work": "Mid-project critique using your criteria."
+        }
+      ],
+      "assessment": "Two finished pieces with process documentation."
+    },
+    {
+      "week": 34,
+      "unit": 8,
+      "topic": "Body of work: piece 3 and artist statement",
+      "objectives": [
+        "Complete a series",
+        "Write an artist statement"
+      ],
+      "standards": [
+        "VA:Cr3.1.HSI",
+        "VA:Re9.1.HSI",
+        "VA:Cn10.1.HSI"
+      ],
+      "vocabulary": [
+        "artist statement",
+        "cohesion"
+      ],
+      "materials": [
+        "chosen media"
+      ],
+      "days": [
+        {
+          "title": "Piece 3",
+          "work": "Create piece 3, completing the series."
+        },
+        {
+          "title": "Refinement",
+          "work": "Revise any of the three pieces based on critique."
+        },
+        {
+          "title": "Artist statement",
+          "work": "Draft a 250-word artist statement explaining theme, media, and process."
+        },
+        {
+          "title": "Revise statement",
+          "work": "Revise the statement for clarity and specific language."
+        },
+        {
+          "title": "Review & check",
+          "work": "Self-evaluate the series with criteria you established."
+        }
+      ],
+      "assessment": "Completed series and artist statement."
+    },
+    {
+      "week": 35,
+      "unit": 8,
+      "topic": "Curating an exhibition",
+      "objectives": [
+        "Curate and install an exhibition"
+      ],
+      "standards": [
+        "VA:Pr4.1.HSI",
+        "VA:Pr5.1.HSI"
+      ],
+      "vocabulary": [
+        "curator",
+        "exhibition",
+        "label",
+        "installation",
+        "lighting"
+      ],
+      "materials": [
+        "artwork",
+        "tape or hooks",
+        "label cards"
+      ],
+      "days": [
+        {
+          "title": "Exhibitions",
+          "work": "Take a virtual tour of a museum exhibition and analyze how works are grouped, labeled, and lit."
+        },
+        {
+          "title": "Select",
+          "work": "Select 10–12 works from the year for your exhibition, including the series."
+        },
+        {
+          "title": "Labels",
+          "work": "Write wall labels with title, medium, date, and a one-sentence description."
+        },
+        {
+          "title": "Install",
+          "work": "Install the exhibition in your home or a community space, considering flow and lighting."
+        },
+        {
+          "title": "Review & check",
+          "work": "Walk through the show and adjust placement."
+        }
+      ],
+      "assessment": "Installed exhibition."
+    },
+    {
+      "week": 36,
+      "unit": 8,
+      "topic": "Exhibition opening and final reflection",
+      "objectives": [
+        "Present work publicly",
+        "Reflect on the year"
+      ],
+      "standards": [
+        "VA:Pr6.1.HSI",
+        "VA:Re9.1.HSI",
+        "VA:Pr5.1.HSI"
+      ],
+      "vocabulary": [
+        "opening",
+        "audience",
+        "reflection"
+      ],
+      "materials": [
+        "exhibition",
+        "guest book"
+      ],
+      "days": [
+        {
+          "title": "Opening",
+          "work": "Host an exhibition opening for family and friends; give a short talk."
+        },
+        {
+          "title": "Audience feedback",
+          "work": "Collect feedback in a guest book and summarize responses."
+        },
+        {
+          "title": "Impact reflection",
+          "work": "Write about how visiting a real or virtual exhibition this year changed your view of a social or cultural issue."
+        },
+        {
+          "title": "Digital portfolio",
+          "work": "Create a digital portfolio of the year's best work with captions."
+        },
+        {
+          "title": "Final reflection",
+          "work": "Write a final reflection on growth and goals for next year's art course."
+        }
+      ],
+      "assessment": "Exhibition and final reflection."
+    }
+  ]
+}

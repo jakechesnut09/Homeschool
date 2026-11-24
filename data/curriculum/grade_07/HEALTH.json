@@ -1,0 +1,352 @@
+{
+  "grade": 7,
+  "subject": "HEALTH",
+  "title": "Health Education 7",
+  "description": "A skills-based health course for early adolescence covering nutrition and physical activity, mental, emotional and social health, injury prevention and safety (including online safety), alcohol, tobacco/vaping and other drugs, growth and development, and personal and community health. Each unit pairs essential concepts with the eight CA health skills—analyzing influences, accessing valid information, communication, decision making, goal setting, practicing healthy behaviors and advocacy. Sensitive topics in the growth and development unit are designed for parent-led discussion consistent with family values.",
+  "framework": "2008 California Health Education Content Standards (Grades 7–8); 2019 CA Health Education Framework",
+  "minutes_per_day": 25,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "H-7.1.1.N": "Identify the six major nutrients and their functions; describe how to use MyPlate and nutrition labels.",
+    "H-7.1.4.N": "Describe the benefits of and barriers to physical activity and healthy eating, including the relationship among diet, activity and healthy weight.",
+    "H-7.2.1.N": "Analyze internal and external influences (media, culture, peers, advertising) on food choices and physical activity.",
+    "H-7.3.1.N": "Access and evaluate valid nutrition information, including identifying fad diets and false claims.",
+    "H-7.6.1.N": "Set a personal goal to improve dietary practices and physical activity and track progress.",
+    "H-7.7.1.N": "Practice healthy eating, including planning balanced meals and snacks and proper food safety.",
+    "H-7.1.1.M": "Describe characteristics of mental and emotional health and the relationship among stress, emotions and physical health.",
+    "H-7.1.3.M": "Identify signs of depression, anxiety and suicide risk and describe ways to get help from trusted adults.",
+    "H-7.1.6.M": "Describe characteristics of healthy and unhealthy relationships, including bullying and cyberbullying.",
+    "H-7.4.1.M": "Use effective verbal and nonverbal communication, active listening and I-messages to resolve conflicts.",
+    "H-7.5.1.M": "Use a decision-making process to address social and emotional situations.",
+    "H-7.7.1.M": "Practice healthy strategies to manage stress, anger and difficult emotions.",
+    "H-7.8.1.M": "Encourage others to seek help and promote a positive, inclusive school and community climate.",
+    "H-7.1.2.S": "Explain the causes of common injuries and ways to prevent them at home, outdoors and in sports.",
+    "H-7.1.5.S": "Describe safe and responsible use of the internet and social media, including privacy and dealing with online predators.",
+    "H-7.1.7.S": "Describe emergency preparedness for earthquakes, wildfires and other disasters in California.",
+    "H-7.5.1.S": "Use a decision-making process to evaluate risky situations, including violence, weapons and gang involvement.",
+    "H-7.7.1.S": "Demonstrate basic first aid and how to respond to emergencies, including calling 911.",
+    "H-7.1.1.A": "Describe the short- and long-term effects of alcohol, tobacco, e-cigarettes, cannabis and other drugs on the body and brain.",
+    "H-7.1.3.A": "Explain the addictive nature of nicotine and other substances and the process of dependency.",
+    "H-7.1.6.A": "Describe safe use and storage of prescription and over-the-counter medicines, including risks of misuse such as fentanyl-laced pills.",
+    "H-7.2.1.A": "Analyze how marketing, media, peers and family influence decisions about alcohol, tobacco and other drugs.",
+    "H-7.4.2.A": "Demonstrate refusal skills to avoid alcohol, tobacco, vaping and drug use.",
+    "H-7.8.1.A": "Advocate for a tobacco- and drug-free lifestyle and community.",
+    "H-7.1.1.G": "Describe physical, social, mental and emotional changes during adolescence and puberty.",
+    "H-7.1.4.G": "Explain the structure and function of the reproductive systems and the role of hormones (parent-led).",
+    "H-7.1.7.G": "Describe the importance of sleep, hygiene and personal responsibility for health during adolescence.",
+    "H-7.3.1.G": "Identify trusted adults and valid resources for questions about growth and development.",
+    "H-7.4.1.G": "Demonstrate communication skills to set personal boundaries and respect the boundaries of others.",
+    "H-7.1.1.P": "Explain how communicable and noncommunicable diseases are caused, transmitted and prevented.",
+    "H-7.1.3.P": "Describe the importance of regular medical and dental checkups, vaccinations and health screenings.",
+    "H-7.1.6.P": "Explain how environmental factors such as air and water quality affect personal and community health.",
+    "H-7.3.1.P": "Access valid health information and health services in the community.",
+    "H-7.8.1.P": "Advocate for a personal, family or community health issue such as clean air, recycling or disease prevention."
+  },
+  "resources": [
+    {"name": "KidsHealth for Teens (Nemours)", "url": "https://kidshealth.org/en/teens/", "note": "Medically reviewed articles on puberty, nutrition, stress and safety"},
+    {"name": "MyPlate (USDA)", "url": "https://www.myplate.gov/", "note": "Food groups, MyPlate plan and teen nutrition tools"},
+    {"name": "NIDA for Teens (National Institute on Drug Abuse)", "url": "https://nida.nih.gov/research-topics/parents-educators", "note": "Science-based facts on drugs and the brain"},
+    {"name": "CDC Healthy Schools / Health topics", "url": "https://www.cdc.gov/healthyschools/", "note": "Data and resources on adolescent health"},
+    {"name": "Common Sense Education – Digital Citizenship", "url": "https://www.commonsense.org/education/digital-citizenship", "note": "Free lessons on online safety and media balance"},
+    {"name": "Ready.gov Kids / Teens", "url": "https://www.ready.gov/kids", "note": "Emergency preparedness activities"}
+  ],
+  "units": [
+    {"number": 1, "title": "Nutrition and Physical Activity", "start_week": 1, "end_week": 6, "big_idea": "Balanced eating and regular activity fuel a growing body; media and marketing influence choices.", "standards": ["H-7.1.1.N", "H-7.1.4.N", "H-7.2.1.N", "H-7.3.1.N", "H-7.6.1.N", "H-7.7.1.N"]},
+    {"number": 2, "title": "Mental, Emotional and Social Health", "start_week": 7, "end_week": 12, "big_idea": "Managing stress, building healthy relationships and knowing when to seek help support well-being.", "standards": ["H-7.1.1.M", "H-7.1.3.M", "H-7.1.6.M", "H-7.4.1.M", "H-7.5.1.M", "H-7.7.1.M", "H-7.8.1.M"]},
+    {"number": 3, "title": "Injury Prevention and Safety", "start_week": 13, "end_week": 17, "big_idea": "Preparation and good decisions prevent injuries and keep people safe online and offline.", "standards": ["H-7.1.2.S", "H-7.1.5.S", "H-7.1.7.S", "H-7.5.1.S", "H-7.7.1.S"]},
+    {"number": 4, "title": "Alcohol, Tobacco, Vaping and Other Drugs", "start_week": 18, "end_week": 24, "big_idea": "Substances change the developing brain; knowing the facts and refusal skills supports drug-free choices.", "standards": ["H-7.1.1.A", "H-7.1.3.A", "H-7.1.6.A", "H-7.2.1.A", "H-7.4.2.A", "H-7.8.1.A"]},
+    {"number": 5, "title": "Growth and Development", "start_week": 25, "end_week": 30, "big_idea": "Adolescence brings physical, emotional and social changes; sleep, hygiene, boundaries and trusted adults support healthy growth.", "standards": ["H-7.1.1.G", "H-7.1.4.G", "H-7.1.7.G", "H-7.3.1.G", "H-7.4.1.G"]},
+    {"number": 6, "title": "Personal and Community Health", "start_week": 31, "end_week": 36, "big_idea": "Preventing disease, using health services and advocating for a healthy environment protect individuals and communities.", "standards": ["H-7.1.1.P", "H-7.1.3.P", "H-7.1.6.P", "H-7.3.1.P", "H-7.8.1.P"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "Wellness and the six nutrients", "objectives": ["Describe the dimensions of wellness", "Identify the six nutrients and their functions"], "standards": ["H-7.1.1.N"], "vocabulary": ["wellness", "nutrient", "carbohydrate", "protein", "fat", "vitamin", "mineral"], "materials": ["health journal", "nutrition labels"],
+     "days": [
+      {"title": "Wellness wheel", "work": "Complete a wellness wheel rating physical, mental, social and emotional health and write one goal."},
+      {"title": "Six nutrients", "work": "Make a chart of the six nutrients with functions and two food sources each."},
+      {"title": "Water", "work": "Track water intake for a day and calculate how much a teen needs."},
+      {"title": "Nutrient detective", "work": "Find nutrients in five pantry foods using their labels."},
+      {"title": "Check", "work": "Take a nutrient quiz and journal about one change to try."}
+     ], "assessment": "Nutrient chart and quiz."},
+    {"week": 2, "unit": 1, "topic": "MyPlate and reading labels", "objectives": ["Use MyPlate to plan meals", "Interpret nutrition facts labels"], "standards": ["H-7.1.1.N", "H-7.7.1.N"], "vocabulary": ["MyPlate", "serving size", "% Daily Value", "added sugars"], "materials": ["MyPlate.gov", "food labels"],
+     "days": [
+      {"title": "MyPlate", "work": "Explore MyPlate.gov and get a personalized MyPlate Plan for your age and activity level."},
+      {"title": "Label reading", "work": "Compare labels of two cereals on serving size, added sugar and fiber."},
+      {"title": "Sugar math", "work": "Convert grams of sugar in five drinks to teaspoons and measure them out."},
+      {"title": "Meal plan", "work": "Plan a full day of meals and snacks that meets MyPlate recommendations."},
+      {"title": "Check", "work": "Present the meal plan and evaluate it against MyPlate."}
+     ], "assessment": "Day meal plan."},
+    {"week": 3, "unit": 1, "topic": "Influences on food choices", "objectives": ["Analyze food marketing", "Identify internal and external influences"], "standards": ["H-7.2.1.N"], "vocabulary": ["marketing", "target audience", "influence", "culture"], "materials": ["food ads", "magazines or online ads"],
+     "days": [
+      {"title": "Influence map", "work": "Map internal (hunger, emotions) and external (family, culture, media) influences on your food choices."},
+      {"title": "Ad analysis", "work": "Analyze three food ads aimed at teens for techniques like celebrity endorsement and bright packaging."},
+      {"title": "Cultural foods", "work": "Interview a family member about a traditional family food and its meaning."},
+      {"title": "Counter-ad", "work": "Design a counter-ad promoting a healthy food using the same persuasive techniques."},
+      {"title": "Check", "work": "Write a paragraph on which influence affects you most."}
+     ], "assessment": "Ad analysis and counter-ad."},
+    {"week": 4, "unit": 1, "topic": "Valid nutrition information and fad diets", "objectives": ["Evaluate nutrition claims", "Recognize fad diets and unhealthy weight practices"], "standards": ["H-7.3.1.N", "H-7.1.4.N"], "vocabulary": ["fad diet", "credible source", "body image", "eating disorder"], "materials": ["websites and social media posts on diets"],
+     "days": [
+      {"title": "Source check", "work": "Evaluate 4 nutrition websites/posts for author, evidence and purpose."},
+      {"title": "Fad diets", "work": "Compare two fad diet claims with MyPlate guidance and explain the risks."},
+      {"title": "Body image", "work": "Discuss how media images affect body image and list healthy self-talk statements."},
+      {"title": "Eating disorders", "work": "Learn warning signs of eating disorders and how to help a friend get support."},
+      {"title": "Check", "work": "Take a quiz on valid information and healthy weight practices."}
+     ], "assessment": "Source evaluation and quiz."},
+    {"week": 5, "unit": 1, "topic": "Physical activity and food safety", "objectives": ["Explain benefits of physical activity", "Practice food safety"], "standards": ["H-7.1.4.N", "H-7.7.1.N"], "vocabulary": ["MVPA", "sedentary", "cross-contamination", "foodborne illness"], "materials": ["food thermometer", "kitchen"],
+     "days": [
+      {"title": "Activity guidelines", "work": "Learn the 60-minutes-a-day guideline and log a week's activity and screen time."},
+      {"title": "Benefits and barriers", "work": "List benefits of activity and personal barriers with solutions."},
+      {"title": "Food safety", "work": "Learn clean, separate, cook, chill and check the fridge temperature."},
+      {"title": "Cook a snack", "work": "Prepare a healthy snack using food safety steps."},
+      {"title": "Check", "work": "Quiz on food safety and activity guidelines."}
+     ], "assessment": "Activity log and quiz."},
+    {"week": 6, "unit": 1, "topic": "Nutrition goal and unit assessment", "objectives": ["Set and track a nutrition goal", "Demonstrate unit mastery"], "standards": ["H-7.6.1.N", "H-7.7.1.N"], "vocabulary": ["SMART goal", "tracking"], "materials": ["food log"],
+     "days": [
+      {"title": "Food log", "work": "Review a 3-day food log and compare it to MyPlate."},
+      {"title": "SMART goal", "work": "Write a SMART nutrition goal (e.g., 'eat 3 servings of vegetables 5 days a week')."},
+      {"title": "Healthy recipe", "work": "Plan and cook a balanced family dinner."},
+      {"title": "Review", "work": "Review unit vocabulary and concepts."},
+      {"title": "Unit 1 test", "work": "Take the unit 1 test and start tracking the goal for 3 weeks."}
+     ], "assessment": "Unit 1 test and goal tracker."},
+    {"week": 7, "unit": 2, "topic": "Emotions and mental health", "objectives": ["Describe mental and emotional health", "Identify and name emotions"], "standards": ["H-7.1.1.M"], "vocabulary": ["emotion", "self-esteem", "resilience", "mental health"], "materials": ["emotion wheel", "journal"],
+     "days": [
+      {"title": "What is mental health?", "work": "Define mental health and list traits of emotionally healthy people."},
+      {"title": "Emotion wheel", "work": "Use an emotion wheel to name precise feelings from three recent situations."},
+      {"title": "Self-esteem", "work": "List 10 personal strengths and ask family to add three."},
+      {"title": "Resilience", "work": "Read a story of someone overcoming adversity and identify resilience skills."},
+      {"title": "Check", "work": "Journal about a time you bounced back from a setback."}
+     ], "assessment": "Journal entries."},
+    {"week": 8, "unit": 2, "topic": "Stress and coping", "objectives": ["Explain the stress response", "Practice coping strategies"], "standards": ["H-7.1.1.M", "H-7.7.1.M"], "vocabulary": ["stress", "stressor", "fight-or-flight", "coping"], "materials": ["breathing app or timer"],
+     "days": [
+      {"title": "Stress response", "work": "Learn how the body responds to stress and list personal stressors."},
+      {"title": "Breathing", "work": "Practice box breathing and progressive muscle relaxation."},
+      {"title": "Time management", "work": "Make a weekly schedule to reduce stress from schoolwork."},
+      {"title": "Healthy vs unhealthy coping", "work": "Sort 12 coping strategies into healthy and unhealthy."},
+      {"title": "Check", "work": "Create a personal stress-management plan."}
+     ], "assessment": "Stress plan."},
+    {"week": 9, "unit": 2, "topic": "Depression, anxiety and getting help", "objectives": ["Recognize warning signs", "Know how to get help"], "standards": ["H-7.1.3.M", "H-7.8.1.M"], "vocabulary": ["depression", "anxiety", "warning sign", "988 Lifeline"], "materials": ["KidsHealth articles"],
+     "days": [
+      {"title": "Mental illness facts", "work": "Read KidsHealth articles on depression and anxiety and list symptoms."},
+      {"title": "Warning signs", "work": "Learn suicide warning signs and the 988 Suicide & Crisis Lifeline."},
+      {"title": "Trusted adults", "work": "Identify five trusted adults and how to reach them."},
+      {"title": "Helping a friend", "work": "Role-play encouraging a friend to talk to an adult."},
+      {"title": "Check", "work": "Create a help card with resources to keep in your wallet or phone."}
+     ], "assessment": "Help card and role-play."},
+    {"week": 10, "unit": 2, "topic": "Healthy relationships and communication", "objectives": ["Distinguish healthy and unhealthy relationships", "Use I-messages and active listening"], "standards": ["H-7.1.6.M", "H-7.4.1.M"], "vocabulary": ["respect", "trust", "I-message", "active listening", "peer pressure"], "materials": ["scenario cards"],
+     "days": [
+      {"title": "Healthy relationships", "work": "Sort relationship behaviors into healthy, unhealthy and abusive."},
+      {"title": "I-messages", "work": "Rewrite five blaming statements as I-messages."},
+      {"title": "Active listening", "work": "Practice active listening with a family member and summarize what they said."},
+      {"title": "Peer pressure", "work": "Role-play responding to peer pressure with assertive communication."},
+      {"title": "Check", "work": "Quiz on relationship and communication skills."}
+     ], "assessment": "Role-play and quiz."},
+    {"week": 11, "unit": 2, "topic": "Bullying, cyberbullying and conflict resolution", "objectives": ["Identify forms of bullying", "Resolve conflicts peacefully"], "standards": ["H-7.1.6.M", "H-7.4.1.M", "H-7.5.1.M"], "vocabulary": ["bullying", "cyberbullying", "upstander", "mediation"], "materials": ["Common Sense Education lessons"],
+     "days": [
+      {"title": "Types of bullying", "work": "Define physical, verbal, social and cyberbullying with examples."},
+      {"title": "Upstander", "work": "Learn upstander strategies and write responses to three scenarios."},
+      {"title": "Conflict resolution", "work": "Learn a six-step conflict resolution model and apply it to a sibling conflict."},
+      {"title": "Decision making", "work": "Use the DECIDE model on a social situation."},
+      {"title": "Check", "work": "Write an action plan for responding to cyberbullying."}
+     ], "assessment": "Action plan."},
+    {"week": 12, "unit": 2, "topic": "Promoting positive climate; unit assessment", "objectives": ["Advocate for kindness and inclusion", "Demonstrate unit mastery"], "standards": ["H-7.8.1.M", "H-7.7.1.M"], "vocabulary": ["advocacy", "inclusion", "empathy"], "materials": ["poster paper"],
+     "days": [
+      {"title": "Empathy", "work": "Practice perspective-taking with three scenarios."},
+      {"title": "Advocacy campaign", "work": "Design a kindness or anti-bullying campaign poster or video."},
+      {"title": "Gratitude", "work": "Start a gratitude practice and write three letters of thanks."},
+      {"title": "Review", "work": "Review unit 2 concepts and skills."},
+      {"title": "Unit 2 test", "work": "Take the unit 2 test."}
+     ], "assessment": "Campaign product and unit 2 test."},
+    {"week": 13, "unit": 3, "topic": "Injury prevention", "objectives": ["Identify common injuries and causes", "Plan prevention strategies"], "standards": ["H-7.1.2.S"], "vocabulary": ["unintentional injury", "risk", "protective gear"], "materials": ["home safety checklist", "helmet"],
+     "days": [
+      {"title": "Leading causes", "work": "Analyze CDC data on leading causes of teen injury."},
+      {"title": "Home safety audit", "work": "Complete a home safety audit for falls, fire and poisoning."},
+      {"title": "Sports safety", "work": "Check helmet fit and learn about concussion signs."},
+      {"title": "Water and bike safety", "work": "Learn water safety and bike/scooter rules of the road."},
+      {"title": "Check", "work": "Write a family injury-prevention plan."}
+     ], "assessment": "Home safety audit and plan."},
+    {"week": 14, "unit": 3, "topic": "Online safety and digital citizenship", "objectives": ["Protect privacy online", "Recognize online predators and scams"], "standards": ["H-7.1.5.S"], "vocabulary": ["digital footprint", "privacy settings", "grooming", "phishing"], "materials": ["Common Sense Education lessons"],
+     "days": [
+      {"title": "Digital footprint", "work": "Search your name online and discuss what a digital footprint is."},
+      {"title": "Privacy settings", "work": "Review privacy settings on a device or app with a parent."},
+      {"title": "Online predators", "work": "Learn grooming warning signs and how to report."},
+      {"title": "Scams", "work": "Identify phishing attempts in 6 sample messages."},
+      {"title": "Check", "work": "Create a family media agreement."}
+     ], "assessment": "Family media agreement."},
+    {"week": 15, "unit": 3, "topic": "Violence prevention", "objectives": ["Evaluate risky situations", "Use strategies to avoid violence"], "standards": ["H-7.5.1.S"], "vocabulary": ["violence", "weapon", "gang", "de-escalation"], "materials": ["scenario cards"],
+     "days": [
+      {"title": "Risk factors", "work": "Identify risk and protective factors for violence."},
+      {"title": "De-escalation", "work": "Practice de-escalation phrases in role-plays."},
+      {"title": "Weapons and gangs", "work": "Discuss why to tell an adult about weapons and how gangs recruit."},
+      {"title": "Decision making", "work": "Apply a decision-making model to two risky scenarios."},
+      {"title": "Check", "work": "Quiz on violence prevention."}
+     ], "assessment": "Quiz and scenario responses."},
+    {"week": 16, "unit": 3, "topic": "Emergency preparedness", "objectives": ["Prepare for California disasters", "Build an emergency kit"], "standards": ["H-7.1.7.S"], "vocabulary": ["earthquake", "wildfire", "evacuation", "emergency kit"], "materials": ["Ready.gov checklist", "supplies for kit"],
+     "days": [
+      {"title": "Earthquakes", "work": "Practice Drop, Cover and Hold On and identify safe spots at home."},
+      {"title": "Wildfires", "work": "Learn about wildfire evacuation and air-quality alerts."},
+      {"title": "Family plan", "work": "Make a family emergency communication plan."},
+      {"title": "Kit", "work": "Build or update a 72-hour emergency kit."},
+      {"title": "Check", "work": "Run a family evacuation drill."}
+     ], "assessment": "Emergency plan and kit."},
+    {"week": 17, "unit": 3, "topic": "First aid and unit assessment", "objectives": ["Perform basic first aid", "Respond to emergencies"], "standards": ["H-7.7.1.S"], "vocabulary": ["first aid", "911", "Good Samaritan", "Heimlich maneuver"], "materials": ["first aid kit", "bandages"],
+     "days": [
+      {"title": "Calling 911", "work": "Practice what to say when calling 911."},
+      {"title": "Cuts and burns", "work": "Practice treating cuts, scrapes and minor burns."},
+      {"title": "Choking", "work": "Learn the universal choking sign and abdominal thrust technique on a pillow."},
+      {"title": "Review", "work": "Review unit 3 concepts."},
+      {"title": "Unit 3 test", "work": "Take the unit 3 test."}
+     ], "assessment": "First-aid skills check and unit 3 test."},
+    {"week": 18, "unit": 4, "topic": "Drugs and the brain", "objectives": ["Explain how drugs affect the brain", "Understand addiction"], "standards": ["H-7.1.1.A", "H-7.1.3.A"], "vocabulary": ["drug", "dopamine", "addiction", "tolerance", "withdrawal"], "materials": ["NIDA for Teens materials"],
+     "days": [
+      {"title": "The teen brain", "work": "Learn how the prefrontal cortex develops into the mid-20s."},
+      {"title": "Reward pathway", "work": "Diagram the dopamine reward pathway and how drugs hijack it."},
+      {"title": "Addiction", "work": "Explain tolerance, dependence and withdrawal."},
+      {"title": "Myths vs facts", "work": "Sort 10 drug myths and facts."},
+      {"title": "Check", "work": "Quiz on drugs and the brain."}
+     ], "assessment": "Quiz."},
+    {"week": 19, "unit": 4, "topic": "Tobacco and vaping", "objectives": ["Describe effects of tobacco and e-cigarettes", "Analyze vape marketing"], "standards": ["H-7.1.1.A", "H-7.2.1.A"], "vocabulary": ["nicotine", "e-cigarette", "secondhand smoke", "flavoring"], "materials": ["vape ad examples", "CDC fact sheets"],
+     "days": [
+      {"title": "Tobacco effects", "work": "List short- and long-term effects of smoking on the body."},
+      {"title": "Vaping", "work": "Read CDC facts on e-cigarettes and nicotine content."},
+      {"title": "Marketing", "work": "Analyze how vape companies target teens with flavors and design."},
+      {"title": "Teen data", "work": "Analyze California Healthy Kids Survey data on teen vaping."},
+      {"title": "Check", "work": "Write a fact sheet on vaping for peers."}
+     ], "assessment": "Vaping fact sheet."},
+    {"week": 20, "unit": 4, "topic": "Alcohol", "objectives": ["Describe effects of alcohol", "Explain risks for teens"], "standards": ["H-7.1.1.A", "H-7.2.1.A"], "vocabulary": ["BAC", "binge drinking", "impairment", "alcohol poisoning"], "materials": ["alcohol ads", "fact sheets"],
+     "days": [
+      {"title": "Alcohol effects", "work": "Learn how alcohol affects the brain, liver and judgment."},
+      {"title": "BAC", "work": "Learn what BAC is and factors that affect it."},
+      {"title": "Alcohol poisoning", "work": "Learn signs of alcohol poisoning and when to call 911."},
+      {"title": "Ad analysis", "work": "Analyze alcohol ads and identify missing information."},
+      {"title": "Check", "work": "Quiz on alcohol."}
+     ], "assessment": "Quiz."},
+    {"week": 21, "unit": 4, "topic": "Cannabis and other drugs", "objectives": ["Describe effects of cannabis and other drugs", "Explain legal issues for minors"], "standards": ["H-7.1.1.A"], "vocabulary": ["cannabis", "THC", "stimulant", "depressant", "hallucinogen"], "materials": ["NIDA for Teens"],
+     "days": [
+      {"title": "Cannabis", "work": "Learn effects of THC on the developing brain and California law for minors."},
+      {"title": "Drug categories", "work": "Sort drugs into stimulants, depressants, hallucinogens and opioids with effects."},
+      {"title": "Inhalants", "work": "Learn about the dangers of inhalants."},
+      {"title": "Drug-free benefits", "work": "List benefits of staying drug-free for goals and activities."},
+      {"title": "Check", "work": "Quiz on drug categories."}
+     ], "assessment": "Drug category chart and quiz."},
+    {"week": 22, "unit": 4, "topic": "Medicine safety and fentanyl awareness", "objectives": ["Use medicines safely", "Understand fentanyl risks"], "standards": ["H-7.1.6.A"], "vocabulary": ["prescription", "OTC", "dosage", "fentanyl", "naloxone"], "materials": ["medicine labels"],
+     "days": [
+      {"title": "Medicine labels", "work": "Read OTC labels for dosage, warnings and expiration."},
+      {"title": "Prescription misuse", "work": "Learn why sharing prescriptions is dangerous."},
+      {"title": "Fentanyl", "work": "Learn about counterfeit pills laced with fentanyl and the 'one pill can kill' message."},
+      {"title": "Naloxone", "work": "Learn what naloxone (Narcan) is and how to get help in an overdose."},
+      {"title": "Check", "work": "Inventory and safely store household medicines with a parent."}
+     ], "assessment": "Medicine safety inventory."},
+    {"week": 23, "unit": 4, "topic": "Refusal skills", "objectives": ["Demonstrate refusal skills", "Plan exit strategies"], "standards": ["H-7.4.2.A", "H-7.2.1.A"], "vocabulary": ["refusal skills", "assertive", "exit strategy"], "materials": ["scenario cards"],
+     "days": [
+      {"title": "Refusal steps", "work": "Learn refusal steps: say no, give a reason, suggest an alternative, leave."},
+      {"title": "Practice 1", "work": "Role-play refusing a vape offer from a friend."},
+      {"title": "Practice 2", "work": "Role-play refusing alcohol at a party."},
+      {"title": "Exit plans", "work": "Create a family code word for getting picked up."},
+      {"title": "Check", "work": "Perform a refusal-skills assessment scenario."}
+     ], "assessment": "Refusal skills rubric."},
+    {"week": 24, "unit": 4, "topic": "Drug-free advocacy and unit assessment", "objectives": ["Advocate for drug-free choices", "Demonstrate unit mastery"], "standards": ["H-7.8.1.A"], "vocabulary": ["advocacy", "PSA"], "materials": ["video recording device"],
+     "days": [
+      {"title": "PSA planning", "work": "Plan a 60-second PSA promoting a drug-free lifestyle."},
+      {"title": "PSA production", "work": "Record and edit the PSA."},
+      {"title": "Present", "work": "Present the PSA to family."},
+      {"title": "Review", "work": "Review unit 4 concepts."},
+      {"title": "Unit 4 test", "work": "Take the unit 4 test."}
+     ], "assessment": "PSA and unit 4 test."},
+    {"week": 25, "unit": 5, "topic": "Adolescent changes", "objectives": ["Describe changes during adolescence", "Normalize differences in timing"], "standards": ["H-7.1.1.G"], "vocabulary": ["adolescence", "puberty", "growth spurt"], "materials": ["KidsHealth articles"],
+     "days": [
+      {"title": "Physical changes", "work": "Read about physical changes of puberty and discuss with a parent."},
+      {"title": "Emotional changes", "work": "List emotional changes like mood swings and strategies to manage them."},
+      {"title": "Social changes", "work": "Discuss changing friendships and independence."},
+      {"title": "Timing", "work": "Learn that puberty timing varies and why comparisons aren't helpful."},
+      {"title": "Check", "work": "Journal on one change and a healthy way to handle it."}
+     ], "assessment": "Journal."},
+    {"week": 26, "unit": 5, "topic": "Hygiene and sleep", "objectives": ["Practice adolescent hygiene", "Improve sleep habits"], "standards": ["H-7.1.7.G"], "vocabulary": ["hygiene", "acne", "circadian rhythm", "sleep hygiene"], "materials": ["sleep log"],
+     "days": [
+      {"title": "Hygiene", "work": "Create a daily hygiene routine (skin, hair, teeth, deodorant)."},
+      {"title": "Acne", "work": "Learn causes of acne and myths vs. facts."},
+      {"title": "Sleep needs", "work": "Learn teens need 8–10 hours and start a one-week sleep log."},
+      {"title": "Screens and sleep", "work": "Analyze how screens affect sleep and set a screen curfew."},
+      {"title": "Check", "work": "Evaluate the sleep log and set a sleep goal."}
+     ], "assessment": "Sleep log and goal."},
+    {"week": 27, "unit": 5, "topic": "Body systems and reproductive health (parent-led)", "objectives": ["Describe reproductive system structure and function", "Explain the role of hormones"], "standards": ["H-7.1.4.G", "H-7.3.1.G"], "vocabulary": ["hormone", "endocrine system", "reproductive system"], "materials": ["parent-selected resources", "KidsHealth"],
+     "days": [
+      {"title": "Endocrine system", "work": "Learn the endocrine glands and hormones that drive puberty."},
+      {"title": "Reproductive anatomy", "work": "Study diagrams of reproductive systems with parent guidance."},
+      {"title": "Questions", "work": "Write anonymous questions and discuss them with a parent."},
+      {"title": "Valid resources", "work": "Identify trusted adults and valid sources for health questions."},
+      {"title": "Check", "work": "Complete a labeling worksheet."}
+     ], "assessment": "Labeling worksheet."},
+    {"week": 28, "unit": 5, "topic": "Boundaries and consent", "objectives": ["Set and respect personal boundaries", "Communicate clearly"], "standards": ["H-7.4.1.G"], "vocabulary": ["boundary", "consent", "respect", "assertive"], "materials": ["scenario cards"],
+     "days": [
+      {"title": "Types of boundaries", "work": "Identify physical, emotional and digital boundaries."},
+      {"title": "Saying no", "work": "Practice assertive ways to state boundaries."},
+      {"title": "Respecting others", "work": "Practice asking permission and accepting 'no'."},
+      {"title": "Online boundaries", "work": "Discuss sharing photos and messages and when to tell an adult."},
+      {"title": "Check", "work": "Role-play boundary-setting scenarios."}
+     ], "assessment": "Role-play."},
+    {"week": 29, "unit": 5, "topic": "Identity and family", "objectives": ["Explore personal identity and values", "Strengthen family communication"], "standards": ["H-7.1.1.G", "H-7.3.1.G"], "vocabulary": ["identity", "values", "family roles"], "materials": ["values cards"],
+     "days": [
+      {"title": "Values", "work": "Rank 20 values cards and identify your top five."},
+      {"title": "Identity map", "work": "Create an identity map with interests, culture and goals."},
+      {"title": "Family roles", "work": "Discuss family responsibilities and how they change in adolescence."},
+      {"title": "Family meeting", "work": "Hold a family meeting practicing respectful communication."},
+      {"title": "Check", "work": "Write a reflection on how values guide decisions."}
+     ], "assessment": "Identity map and reflection."},
+    {"week": 30, "unit": 5, "topic": "Unit 5 review and assessment", "objectives": ["Demonstrate unit mastery"], "standards": ["H-7.1.1.G", "H-7.1.7.G", "H-7.4.1.G"], "vocabulary": ["review"], "materials": ["review cards"],
+     "days": [
+      {"title": "Review 1", "work": "Review changes, hygiene and sleep concepts."},
+      {"title": "Review 2", "work": "Review boundaries and communication skills."},
+      {"title": "Goal check", "work": "Check sleep and hygiene goals."},
+      {"title": "Unit 5 test", "work": "Take the unit 5 test."},
+      {"title": "Reflect", "work": "Discuss the unit with a parent."}
+     ], "assessment": "Unit 5 test."},
+    {"week": 31, "unit": 6, "topic": "Communicable diseases", "objectives": ["Explain disease transmission", "Practice prevention"], "standards": ["H-7.1.1.P"], "vocabulary": ["pathogen", "virus", "bacteria", "immune system", "vaccine"], "materials": ["glitter or Glo Germ", "soap"],
+     "days": [
+      {"title": "Pathogens", "work": "Compare bacteria, viruses, fungi and parasites."},
+      {"title": "Germ spread", "work": "Use glitter on hands to model germ spread, then test handwashing."},
+      {"title": "Immune system", "work": "Diagram how the immune system fights infection."},
+      {"title": "Vaccines", "work": "Learn how vaccines work and how herd immunity protects communities."},
+      {"title": "Check", "work": "Quiz on communicable diseases."}
+     ], "assessment": "Quiz."},
+    {"week": 32, "unit": 6, "topic": "Noncommunicable diseases", "objectives": ["Describe chronic diseases", "Identify risk factors"], "standards": ["H-7.1.1.P"], "vocabulary": ["chronic disease", "diabetes", "heart disease", "risk factor", "asthma"], "materials": ["family health history form"],
+     "days": [
+      {"title": "Chronic diseases", "work": "Research heart disease, type 2 diabetes, cancer and asthma."},
+      {"title": "Risk factors", "work": "Sort risk factors into controllable and uncontrollable."},
+      {"title": "Family history", "work": "Complete a family health history with a parent."},
+      {"title": "Prevention", "work": "Connect nutrition and activity to preventing chronic disease."},
+      {"title": "Check", "work": "Write a prevention plan for one chronic disease."}
+     ], "assessment": "Prevention plan."},
+    {"week": 33, "unit": 6, "topic": "Health care and checkups", "objectives": ["Explain the importance of checkups", "Access health services"], "standards": ["H-7.1.3.P", "H-7.3.1.P"], "vocabulary": ["checkup", "screening", "health insurance", "pharmacist"], "materials": ["community resource list"],
+     "days": [
+      {"title": "Checkups", "work": "Learn what happens at medical, dental and vision checkups."},
+      {"title": "Screenings", "work": "Learn about scoliosis, vision and hearing screenings."},
+      {"title": "Community services", "work": "Map local clinics, pharmacies and public health services."},
+      {"title": "Advocating for yourself", "work": "Practice asking a doctor questions about your health."},
+      {"title": "Check", "work": "Create a personal health record."}
+     ], "assessment": "Personal health record."},
+    {"week": 34, "unit": 6, "topic": "Environmental health", "objectives": ["Explain environmental effects on health", "Reduce personal impact"], "standards": ["H-7.1.6.P"], "vocabulary": ["air quality index", "pollution", "lead", "recycling"], "materials": ["AirNow website", "water test strips (optional)"],
+     "days": [
+      {"title": "Air quality", "work": "Check the Air Quality Index for a week and learn health actions for each level."},
+      {"title": "Water", "work": "Learn where your tap water comes from and read your local water report."},
+      {"title": "Noise and sun", "work": "Learn about noise-induced hearing loss and sun protection."},
+      {"title": "Reduce, reuse, recycle", "work": "Audit household waste and plan reductions."},
+      {"title": "Check", "work": "Quiz on environmental health."}
+     ], "assessment": "Quiz."},
+    {"week": 35, "unit": 6, "topic": "Community health advocacy project", "objectives": ["Advocate for a health issue", "Use valid information"], "standards": ["H-7.8.1.P", "H-7.3.1.P"], "vocabulary": ["advocacy", "stakeholder"], "materials": ["poster or slides"],
+     "days": [
+      {"title": "Choose an issue", "work": "Choose a community health issue and research with valid sources."},
+      {"title": "Plan", "work": "Plan an advocacy product (letter to city council, poster or video)."},
+      {"title": "Create", "work": "Create the advocacy product."},
+      {"title": "Present", "work": "Present or send the product."},
+      {"title": "Reflect", "work": "Reflect on the impact of advocacy."}
+     ], "assessment": "Advocacy project."},
+    {"week": 36, "unit": 6, "topic": "Year review and wellness plan", "objectives": ["Review all units", "Create a personal wellness plan"], "standards": ["H-7.1.1.P", "H-7.6.1.N", "H-7.7.1.M"], "vocabulary": ["wellness plan"], "materials": ["health journal"],
+     "days": [
+      {"title": "Wellness wheel", "work": "Redo the wellness wheel and compare with week 1."},
+      {"title": "Review", "work": "Review all six units with a game."},
+      {"title": "Final exam", "work": "Take the year-end health exam."},
+      {"title": "Wellness plan", "work": "Write a summer wellness plan covering nutrition, activity, sleep and stress."},
+      {"title": "Reflect", "work": "Share the plan with family and set check-in dates."}
+     ], "assessment": "Final exam and wellness plan."}
+  ]
+}
