@@ -1,0 +1,2323 @@
+{
+ "grade": 7,
+ "subject": "MATH",
+ "overview": "Math 7 follows the Illustrative Mathematics grade 7 sequence: each day open with a 5-minute warm-up, model one example aloud, work one together, then let your child do the practice independently while you circulate and ask 'how do you know?'. Insist on labeled units, diagrams (tape diagrams, number lines, tables) and written reasoning, not just answers. Friday checks are short; have your child correct errors in a different color and re-teach anything below 80% before moving on.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Print or write a 20-question grade 6 readiness check (Khan Academy 6th-grade unit tests work), graph paper, ruler, colored pencils. Draw five letter-F versions on grid paper: original 2 wide x 4 tall, a copy doubled in both directions, one stretched only taller, one with an extra unit added to every side, and one halved.",
+   "misconceptions": [
+    "Thinking 'add the same amount to every side' makes a scaled copy. Show a 2x4 rectangle grown to 4x6 (+2) — its shape changes; a scaled copy multiplies every length by the same factor (4x8).",
+    "Believing angles get bigger in a bigger copy. Measure corresponding angles with a protractor: they are always equal in scaled copies."
+   ],
+   "days": [
+    {
+     "guide": "Give the readiness check untimed and without help, then have your child write a half-page math autobiography (favorite topics, what feels hard, a goal for the year). Grade the check together and list topics missed below 70% for warm-up review. Check before moving on: ask \"What is 3/4 of 20?\" Look for: 15 (20 ÷ 4 = 5, 5 × 3 = 15).",
+     "questions": [
+      {
+       "q": "What is 3/4 of 20?",
+       "a": "15 (20 ÷ 4 = 5, 5 × 3 = 15)."
+      },
+      {
+       "q": "Area of a triangle with base 10 cm and height 6 cm?",
+       "a": "30 cm² (½ × 10 × 6)."
+      }
+     ]
+    },
+    {
+     "guide": "Show the five F's and ask which 'look right' as smaller or bigger versions. Model measuring each segment of the original and a copy, and check whether every length was multiplied by the same number. Your child sorts the rest and writes how lengths changed.",
+     "questions": [
+      {
+       "q": "An F has segments 2, 4 and 1 units. A copy has 4, 8 and 2. Scaled copy?",
+       "a": "Yes — every length is multiplied by 2."
+      },
+      {
+       "q": "A copy has 3, 5 and 2 (each +1). Scaled copy?",
+       "a": "No — adding 1 multiplies the lengths by different amounts (2→3 is ×1.5, 4→5 is ×1.25)."
+      }
+     ]
+    },
+    {
+     "guide": "Model labeling a polygon ABCD and its copy A'B'C'D', matching corresponding points and sides. Your child labels several pairs and measures corresponding angles with a protractor, recording them in a table. Ask what they notice about the angles.",
+     "questions": [
+      {
+       "q": "Side AB = 3 and its corresponding side A'B' = 7.5. What is the scale factor?",
+       "a": "2.5 (7.5 ÷ 3)."
+      },
+      {
+       "q": "Angle A is 70°. What is angle A' in a scaled copy?",
+       "a": "70° — angles do not change in a scaled copy."
+      }
+     ]
+    },
+    {
+     "guide": "Model copying a grid polygon at scale factor 3 by multiplying each horizontal and vertical run by 3 and connecting points. Then your child draws a copy at scale factor 1/2 and writes each original and new side length. Check before moving on: ask \"A rectangle is 4 by 6. Draw it at scale factor 1/2 — what are the new sides?\" Look for: 2 by 3.",
+     "questions": [
+      {
+       "q": "A rectangle is 4 by 6. Draw it at scale factor 1/2 — what are the new sides?",
+       "a": "2 by 3."
+      },
+      {
+       "q": "A side of 5 units at scale factor 3?",
+       "a": "15 units."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 6-problem quiz (see key) without notes. Have your child correct mistakes in a different color and explain each fix aloud. Check before moving on: ask \"Is a scale factor of 1 a 'scaled copy'?\" Look for: Yes — it is an identical (same size) copy.",
+     "questions": [
+      {
+       "q": "Is a scale factor of 1 a 'scaled copy'?",
+       "a": "Yes — it is an identical (same size) copy."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz (6): 1) Original side 4, copy side 12: scale factor 3. 2) Original 10, copy 5: scale factor 1/2. 3) Copy of a 6-by-8 rectangle at factor 1.5: 9 by 12. 4) Is a 3x5 → 5x7 rectangle a scaled copy? No (+2 is not a constant multiple). 5) Angle 40° in original → 40° in copy. 6) Drawing at factor 2 of a given grid triangle: every side doubled, angles match (full credit if all vertices correct). Readiness check: score by topic; plan 5-minute warm-ups on any topic under 70%."
+  },
+  {
+   "week": 2,
+   "prep": "Graph paper, pattern blocks (or cut 1-inch paper squares and equilateral triangles), calculator.",
+   "misconceptions": [
+    "Thinking area scales by the same factor as length. Build it: a 1x1 square at factor 2 needs 4 squares, not 2. Area scales by the factor squared.",
+    "Confusing the direction of the scale factor (original→copy vs copy→original). Always say 'from ___ to ___' and divide copy by original."
+   ],
+   "days": [
+    {
+     "guide": "Model: scale factor = copy length ÷ original length. Work one pair with a factor less than 1 (10 → 4 gives 0.4). Your child finds factors for several pairs and uses them to find missing sides.",
+     "questions": [
+      {
+       "q": "A triangle has sides 5, 8 and 10. In a scaled copy the side of 8 becomes 10. Scale factor?",
+       "a": "10 ÷ 8 = 1.25 (so 5 → 6.25 and 10 → 12.5)."
+      },
+      {
+       "q": "A side of 12 at factor 2/3?",
+       "a": "8."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a triangle, scale it by 4, then ask what factor gets back to the original. Your child performs both scalings on graph paper and writes why 1/4 undoes 4 (4 × 1/4 = 1). Check before moving on: ask \"A copy was made at scale factor 5/2. What factor takes the copy back to the original?\" Look for: 2/5, the reciprocal.",
+     "questions": [
+      {
+       "q": "A copy was made at scale factor 5/2. What factor takes the copy back to the original?",
+       "a": "2/5, the reciprocal."
+      },
+      {
+       "q": "Side 6 scaled by 4 then by 1/4?",
+       "a": "6 → 24 → 6."
+      }
+     ]
+    },
+    {
+     "guide": "Build a square from blocks, then build it at factor 2 and 3 and count pieces. Your child records side factor vs number of pieces in a table and states the pattern. Check before moving on: ask \"A shape made of 5 blocks is scaled by factor 3. How many blocks?\" Look for: 45 (5 × 3² = 5 × 9).",
+     "questions": [
+      {
+       "q": "A shape made of 5 blocks is scaled by factor 3. How many blocks?",
+       "a": "45 (5 × 3² = 5 × 9)."
+      }
+     ]
+    },
+    {
+     "guide": "Model: new area = original area × (scale factor)². Work one example together, then your child solves the 8 problems, showing the squared factor each time. Check before moving on: ask \"Rectangle area 15 cm², scale factor 4. New area?\" Look for: 15 × 16 = 240 cm².",
+     "questions": [
+      {
+       "q": "Rectangle area 15 cm², scale factor 4. New area?",
+       "a": "15 × 16 = 240 cm²."
+      },
+      {
+       "q": "Triangle area 36 in², scale factor 1/3. New area?",
+       "a": "36 × 1/9 = 4 in²."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below, then the written explanation prompt: 'Why does area grow by the square of the scale factor?' Check before moving on: ask \"A copy has area 50 and the original had area 2. What scale factor?\" Look for: 5 (area grew ×25 = 5²).",
+     "questions": [
+      {
+       "q": "A copy has area 50 and the original had area 2. What scale factor?",
+       "a": "5 (area grew ×25 = 5²)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 8 → 20: factor 2.5. 2) 9 → 6: factor 2/3. 3) Factor to undo 3/5: 5/3. 4) Area 12, factor 3: 108. 5) Area 80, factor 1/2: 20. Explanation rubric (4 = proficient): states that both length AND width are multiplied by the factor, so area is multiplied by factor × factor; gives an example (2x3 rectangle, factor 2 → 4x6, area 6 → 24 = 6 × 4). 3 = correct rule, weak example; 2 = rule only; 1 = says area scales by the factor."
+  },
+  {
+   "week": 3,
+   "prep": "Printed California road map with a scale bar (or set your own: 1 cm = 50 km), ruler, tape measure; clear a room to measure. Preview a basketball court diagram (94 ft × 50 ft).",
+   "misconceptions": [
+    "Measuring map distance and forgetting to multiply by the scale. Have your child write 'map cm × 50 = actual km' at the top of the page.",
+    "Treating '1 in to 10 ft' as 1:10. Convert to the same units first: 10 ft = 120 in, so 1:120."
+   ],
+   "days": [
+    {
+     "guide": "Model measuring between two cities in cm and multiplying by 50. Your child finds five distances, rounding map measurements to the nearest 0.1 cm, and records them in a table. Check before moving on: ask \"Two cities are 4.2 cm apart at 1 cm = 50 km. Actual distance?\" Look for: 210 km.",
+     "questions": [
+      {
+       "q": "Two cities are 4.2 cm apart at 1 cm = 50 km. Actual distance?",
+       "a": "210 km."
+      },
+      {
+       "q": "Two cities are 375 km apart. Map distance?",
+       "a": "7.5 cm (375 ÷ 50)."
+      }
+     ]
+    },
+    {
+     "guide": "Measure the room together and record length and width in feet. Your child converts each measurement at 1 inch = 2 feet and sketches the plan lightly. Check before moving on: ask \"A room is 12 ft by 10 ft. Size on the drawing at 1 in = 2 ft?\" Look for: 6 in by 5 in.",
+     "questions": [
+      {
+       "q": "A room is 12 ft by 10 ft. Size on the drawing at 1 in = 2 ft?",
+       "a": "6 in by 5 in."
+      },
+      {
+       "q": "A bed is 6.5 ft long. Drawing length?",
+       "a": "3.25 in."
+      }
+     ]
+    },
+    {
+     "guide": "Model converting 1 in to 10 ft into 1:120 by changing feet to inches. Your child converts several scales and decides which shows more detail (the one whose second number is smaller). Check before moving on: ask \"Write 1 cm to 1 m without units.\" Look for: 1:100.",
+     "questions": [
+      {
+       "q": "Write 1 cm to 1 m without units.",
+       "a": "1:100."
+      },
+      {
+       "q": "Which shows more detail: 1:500 or 1:5,000?",
+       "a": "1:500 — each unit on the drawing represents less real distance, so things are drawn larger."
+      }
+     ]
+    },
+    {
+     "guide": "Show how 1 in to 4 ft and 1/2 in to 2 ft are equivalent (both 1:48). Your child sorts the six scales and redraws the court at 1 in = 10 ft. Check before moving on: ask \"Basketball court 94 ft by 50 ft at 1 in = 10 ft?\" Look for: 9.4 in by 5 in.",
+     "questions": [
+      {
+       "q": "Basketball court 94 ft by 50 ft at 1 in = 10 ft?",
+       "a": "9.4 in by 5 in."
+      },
+      {
+       "q": "Are 1 cm : 2 m and 5 cm : 10 m equivalent?",
+       "a": "Yes, both are 1:200."
+      }
+     ]
+    },
+    {
+     "guide": "Your child finishes the floor plan with a title, scale and labeled actual dimensions, then answers the 5 map questions (see key). Check before moving on: ask \"On a 1:24 drawing a desk is 2.5 in long. Actual length?\" Look for: 60 in = 5 ft.",
+     "questions": [
+      {
+       "q": "On a 1:24 drawing a desk is 2.5 in long. Actual length?",
+       "a": "60 in = 5 ft."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Floor-plan rubric: 4 = all measurements converted correctly, scale stated, every object labeled with actual dimensions, neat and ruled; 3 = one conversion error; 2 = several errors or missing scale; 1 = not to scale. Map quiz at 1 cm = 50 km: 1) 3 cm → 150 km 2) 6.4 cm → 320 km 3) 0.8 cm → 40 km 4) 500 km → 10 cm 5) 125 km → 2.5 cm."
+  },
+  {
+   "week": 4,
+   "prep": "Poster paper, ruler, colored pencils, calculator. Let your child choose a dream classroom or park and a scale (suggest 1 cm = 1 m or 1 in = 5 ft).",
+   "misconceptions": [
+    "Halving the scale and assuming the drawing's area halves. Halving lengths makes area 1/4 as big.",
+    "Computing area from drawing measurements without converting. Convert each side to actual size first, then multiply."
+   ],
+   "days": [
+    {
+     "guide": "Help your child choose a scale that fits the poster. They list at least six objects with actual and scaled dimensions in a table before drawing. Check before moving on: ask \"At 1 cm = 2 m, a 14 m by 8 m pool is drawn how big?\" Look for: 7 cm by 4 cm.",
+     "questions": [
+      {
+       "q": "At 1 cm = 2 m, a 14 m by 8 m pool is drawn how big?",
+       "a": "7 cm by 4 cm."
+      }
+     ]
+    },
+    {
+     "guide": "Model one region: convert drawing sides to actual sides, then multiply. Your child completes the area table for every region. Check before moving on: ask \"A garden is drawn 3 cm by 5 cm at 1 cm = 2 m. Actual area?\" Look for: 6 m × 10 m = 60 m².",
+     "questions": [
+      {
+       "q": "A garden is drawn 3 cm by 5 cm at 1 cm = 2 m. Actual area?",
+       "a": "6 m × 10 m = 60 m²."
+      }
+     ]
+    },
+    {
+     "guide": "Your child redraws one part at half the scale (each length half as long on paper) and compares drawing areas. Check before moving on: ask \"A drawing region is 8 cm by 6 cm (48 cm²). At half the scale, its drawn area?\" Look for: 4 cm × 3 cm = 12 cm², one-fourth as much. The actual area is unchanged.",
+     "questions": [
+      {
+       "q": "A drawing region is 8 cm by 6 cm (48 cm²). At half the scale, its drawn area?",
+       "a": "4 cm × 3 cm = 12 cm², one-fourth as much. The actual area is unchanged."
+      }
+     ]
+    },
+    {
+     "guide": "Work the first two review problems together, then your child does the rest independently. Mark and re-teach errors. Check before moving on: ask \"Scale 1 in = 8 ft. A wall is 3.5 in on the drawing. Actual?\" Look for: 28 ft.",
+     "questions": [
+      {
+       "q": "Scale 1 in = 8 ft. A wall is 3.5 in on the drawing. Actual?",
+       "a": "28 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Give the unit test (see key) and then have your child present the poster for 3 minutes, explaining the scale with one example. Check before moving on: ask \"Why must a scale drawing include its scale?\" Look for: Without it, no one can convert drawing lengths to actual lengths.",
+     "questions": [
+      {
+       "q": "Why must a scale drawing include its scale?",
+       "a": "Without it, no one can convert drawing lengths to actual lengths."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test (sample items + answers): 1) Factor from 6 to 15: 2.5. 2) Copy of 4x10 at factor 0.5: 2x5. 3) Area 9 scaled by 4: 144. 4) 1 cm = 25 km, 7 cm: 175 km. 5) 1 in to 6 ft as unitless: 1:72. 6) 30 ft wall at 1 in = 5 ft: 6 in. 7) Angle 115° in copy: 115°. Project rubric: 4 = scale stated, six+ objects with correct actual/scaled dimensions, correct area table, clear explanation; 3 = minor errors; 2 = several errors; 1 = incomplete."
+  },
+  {
+   "week": 5,
+   "prep": "Measuring cups, water, lemonade mix or lemon juice and sugar. Prepare 2–3 recipe cards: e.g., 2 cups water + 3 tbsp mix, 4 cups + 6 tbsp, 6 cups + 8 tbsp.",
+   "misconceptions": [
+    "Thinking any table with increasing numbers is proportional. Divide y by x for every row — the quotient must be the same each time.",
+    "Forgetting units on k. Insist on 'dollars per pound', 'miles per hour'."
+   ],
+   "days": [
+    {
+     "guide": "Mix two recipes that taste the same and one that doesn't. Your child records cups of water and tablespoons of mix in tables and explains which match using multiplication. Check before moving on: ask \"2 cups water to 3 tbsp mix. How much mix for 6 cups?\" Look for: 9 tbsp (×3).",
+     "questions": [
+      {
+       "q": "2 cups water to 3 tbsp mix. How much mix for 6 cups?",
+       "a": "9 tbsp (×3)."
+      },
+      {
+       "q": "Does 6 cups to 8 tbsp taste the same as 2 to 3?",
+       "a": "No — it should be 9 tbsp; 8/6 ≠ 3/2, so it is weaker."
+      }
+     ]
+    },
+    {
+     "guide": "Model k = y ÷ x for a cost-per-pound table. Your child finds k for each table and writes it as a unit rate with units. Check before moving on: ask \"3 lb cost $7.50, 5 lb cost $12.50. k?\" Look for: $2.50 per pound.",
+     "questions": [
+      {
+       "q": "3 lb cost $7.50, 5 lb cost $12.50. k?",
+       "a": "$2.50 per pound."
+      },
+      {
+       "q": "120 miles in 2 hours, 300 in 5. k?",
+       "a": "60 miles per hour."
+      }
+     ]
+    },
+    {
+     "guide": "Model a table of dollars to euros (e.g., $1 → €0.90). Your child computes k each direction and checks that they multiply to 1. Check before moving on: ask \"If euros = 0.9 × dollars, what is k from euros to dollars?\" Look for: 1/0.9 = 10/9 ≈ 1.11 dollars per euro.",
+     "questions": [
+      {
+       "q": "If euros = 0.9 × dollars, what is k from euros to dollars?",
+       "a": "1/0.9 = 10/9 ≈ 1.11 dollars per euro."
+      }
+     ]
+    },
+    {
+     "guide": "Your child divides y by x in every row of all 8 tables and sorts them, writing one sentence of evidence per table. Check before moving on: ask \"Table (1,5), (2,10), (4,18). Proportional?\" Look for: No — 18/4 = 4.5, not 5.",
+     "questions": [
+      {
+       "q": "Table (1,5), (2,10), (4,18). Proportional?",
+       "a": "No — 18/4 = 4.5, not 5."
+      },
+      {
+       "q": "Table (2,3), (4,6), (10,15). Proportional?",
+       "a": "Yes — every y/x = 1.5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key), then check and correct. Check before moving on: ask \"In a proportional table x = 4, y = 10. What is y when x = 6?\" Look for: 15 (k = 2.5).",
+     "questions": [
+      {
+       "q": "In a proportional table x = 4, y = 10. What is y when x = 6?",
+       "a": "15 (k = 2.5)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) (2,7),(4,14),(6,21): proportional, k = 3.5. 2) (1,4),(3,10),(5,16): not proportional. 3) $9 for 3 lb: k = 3 dollars per lb; 7 lb costs $21. 4) Missing value: x = 5, k = 1.2 → y = 6. 5) Reciprocal of k = 4/5 is 5/4."
+  },
+  {
+   "week": 6,
+   "prep": "Measuring tape (mark 1/4 mile ≈ 440 yards on a safe route or track), stopwatch, calculator.",
+   "misconceptions": [
+    "Dividing in the wrong order (time ÷ distance when asked for miles per hour). Say the unit: 'miles per hour' means miles ÷ hours.",
+    "Inverting the wrong fraction in a complex fraction. Model 'keep, change, flip' only after showing why: dividing by 3/4 is asking how many 3/4's fit."
+   ],
+   "days": [
+    {
+     "guide": "Walk 1/4 mile and time it. Convert minutes to hours (5 min = 1/12 hr) and divide. Your child computes their own mph. Check before moving on: ask \"1/4 mile in 5 minutes. Miles per hour?\" Look for: (1/4) ÷ (1/12) = 3 mph.",
+     "questions": [
+      {
+       "q": "1/4 mile in 5 minutes. Miles per hour?",
+       "a": "(1/4) ÷ (1/12) = 3 mph."
+      }
+     ]
+    },
+    {
+     "guide": "Model (1/2)/(3/4) = 1/2 × 4/3 = 2/3. Your child simplifies several and explains each as a unit rate. Check before moving on: ask \"Simplify (2/3)/(1/6).\" Look for: 4.",
+     "questions": [
+      {
+       "q": "Simplify (2/3)/(1/6).",
+       "a": "4."
+      },
+      {
+       "q": "Simplify (3/5)/(9/10).",
+       "a": "2/3."
+      }
+     ]
+    },
+    {
+     "guide": "Use the recipe: 2/3 cup flour for 1/2 batch. Your child finds cups per batch and batches per cup. Check before moving on: ask \"Cups of flour per batch?\" Look for: (2/3) ÷ (1/2) = 4/3 cups.",
+     "questions": [
+      {
+       "q": "Cups of flour per batch?",
+       "a": "(2/3) ÷ (1/2) = 4/3 cups."
+      },
+      {
+       "q": "Batches per cup?",
+       "a": "3/4 batch."
+      }
+     ]
+    },
+    {
+     "guide": "Model the paint problem as gallons ÷ square yards. Your child solves 6 similar problems with units. Check before moving on: ask \"1/3 gallon covers 2 1/2 sq yd. Gallons per square yard?\" Look for: (1/3) ÷ (5/2) = 2/15 gal.",
+     "questions": [
+      {
+       "q": "1/3 gallon covers 2 1/2 sq yd. Gallons per square yard?",
+       "a": "(1/3) ÷ (5/2) = 2/15 gal."
+      },
+      {
+       "q": "Square yards per gallon?",
+       "a": "7 1/2 sq yd."
+      }
+     ]
+    },
+    {
+     "guide": "Your child completes the 10-problem set and corrects errors in a different color. Check before moving on: ask \"A snail moves 3/8 ft in 1/4 min. Feet per minute?\" Look for: 1 1/2 ft per minute.",
+     "questions": [
+      {
+       "q": "A snail moves 3/8 ft in 1/4 min. Feet per minute?",
+       "a": "1 1/2 ft per minute."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample set answers: 1) (1/2)/(1/4) = 2 2) 3/4 mi in 1/3 hr = 2 1/4 mph 3) (5/6)/(2/3) = 1 1/4 4) 1 1/2 cups per 3/4 batch → 2 cups per batch 5) 2/5 gal for 1 1/5 sq yd → 1/3 gal per sq yd 6) 7 1/2 mi in 2 1/2 hr = 3 mph 7) (3/4)/(3/8) = 2 8) $1/2 for 1/4 lb → $2 per lb 9) 4/5 km in 1/5 hr = 4 km/h 10) (9/10)/(3/5) = 3/2. Score 9–10 mastery; below 7 re-teach division of fractions."
+  },
+  {
+   "week": 7,
+   "prep": "Collect 3–4 grocery or gas receipts and a pay stub example (or make one: $15/hour).",
+   "misconceptions": [
+    "Writing y = x + k instead of y = kx. Test with a table: add-a-constant relationships do not have a constant y/x.",
+    "Thinking y = 4/x is proportional because it has a 4. Make a table: (1,4), (2,2) — y/x changes."
+   ],
+   "days": [
+    {
+     "guide": "Turn a receipt into a table (lb vs cost) and model writing y = kx. Your child writes equations for gas, pay and unit price. Check before moving on: ask \"Gas costs $4.80/gallon. Equation?\" Look for: c = 4.80g.",
+     "questions": [
+      {
+       "q": "Gas costs $4.80/gallon. Equation?",
+       "a": "c = 4.80g."
+      },
+      {
+       "q": "You earn $15 per hour. Equation and pay for 6 hours?",
+       "a": "p = 15h; $90."
+      }
+     ]
+    },
+    {
+     "guide": "Model forward (x → y) and backward (y → x) with y = 3.25x. Your child answers several of each. Check before moving on: ask \"Cost of 4 lb?\" Look for: $13.",
+     "questions": [
+      {
+       "q": "Cost of 4 lb?",
+       "a": "$13."
+      },
+      {
+       "q": "How many lb for $26?",
+       "a": "8 lb (26 ÷ 3.25)."
+      }
+     ]
+    },
+    {
+     "guide": "For a recipe of 3 cups flour per 2 cups sugar, write f = 1.5s and s = (2/3)f. Your child explains each in words. Check before moving on: ask \"What does s = (2/3)f tell you?\" Look for: Cups of sugar needed per cup of flour: 2/3 cup of sugar for each cup of flour.",
+     "questions": [
+      {
+       "q": "What does s = (2/3)f tell you?",
+       "a": "Cups of sugar needed per cup of flour: 2/3 cup of sugar for each cup of flour."
+      }
+     ]
+    },
+    {
+     "guide": "Your child makes a table for y = 4x, y = x + 4 and y = 4/x and justifies which is proportional. Check before moving on: ask \"Which is proportional and why?\" Look for: Only y = 4x; its y/x is always 4. y = x + 4 gives (1,5),(2,6) with changing ratios; y = 4/x gives (1,4),(2,2).",
+     "questions": [
+      {
+       "q": "Which is proportional and why?",
+       "a": "Only y = 4x; its y/x is always 4. y = x + 4 gives (1,5),(2,6) with changing ratios; y = 4/x gives (1,4),(2,2)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key) and correct. Check before moving on: ask \"Is d = 60t proportional? What is k?\" Look for: Yes; k = 60 (e.g., miles per hour).",
+     "questions": [
+      {
+       "q": "Is d = 60t proportional? What is k?",
+       "a": "Yes; k = 60 (e.g., miles per hour)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Table (2,9),(4,18): y = 4.5x. 2) Using y = 2.4x, x = 5 → 12. 3) y = 2.4x, y = 18 → x = 7.5. 4) y = 7x + 1 proportional? No. 5) Write x in terms of y for y = 5x: x = 0.2y. 6) In c = 1.25n, 1.25 means dollars per item."
+  },
+  {
+   "week": 8,
+   "prep": "Graph paper, Desmos (desmos.com/calculator), six-relationship card set (write descriptions, tables, equations and graphs on index cards).",
+   "misconceptions": [
+    "Thinking any straight line is proportional. It must also pass through (0,0).",
+    "Reading the steeper line as slower. On distance vs time, steeper = more distance per unit time = faster."
+   ],
+   "days": [
+    {
+     "guide": "Model plotting a table. Your child graphs three tables and identifies which are straight lines through the origin. Check before moving on: ask \"Table (0,0),(1,3),(2,6). Proportional graph?\" Look for: Yes — straight line through the origin.",
+     "questions": [
+      {
+       "q": "Table (0,0),(1,3),(2,6). Proportional graph?",
+       "a": "Yes — straight line through the origin."
+      },
+      {
+       "q": "Table (0,2),(1,4),(2,6)?",
+       "a": "Straight but does not go through (0,0), so not proportional."
+      }
+     ]
+    },
+    {
+     "guide": "Model reading points on a cyclist's graph. Your child explains (0,0), (1,k) and (5,y) in context. Check before moving on: ask \"A cyclist's graph passes through (1, 12). Meaning?\" Look for: After 1 hour she has gone 12 miles; k = 12 mph.",
+     "questions": [
+      {
+       "q": "A cyclist's graph passes through (1, 12). Meaning?",
+       "a": "After 1 hour she has gone 12 miles; k = 12 mph."
+      },
+      {
+       "q": "What does (5, 60) mean?",
+       "a": "After 5 hours, 60 miles."
+      }
+     ]
+    },
+    {
+     "guide": "Enter y = 6x and y = 8x in Desmos. Your child decides who is faster and explains with k and steepness. Check before moving on: ask \"Runner A: d = 6t, Runner B: d = 8t (m/s). Who is faster?\" Look for: B — 8 m/s > 6 m/s; B's line is steeper.",
+     "questions": [
+      {
+       "q": "Runner A: d = 6t, Runner B: d = 8t (m/s). Who is faster?",
+       "a": "B — 8 m/s > 6 m/s; B's line is steeper."
+      }
+     ]
+    },
+    {
+     "guide": "Your child matches the 24 cards into 6 sets and explains one set aloud. Check before moving on: ask \"Which matches 'apples cost $2 per pound': y = 2x or y = x + 2?\" Look for: y = 2x, graph through (0,0) and (1,2).",
+     "questions": [
+      {
+       "q": "Which matches 'apples cost $2 per pound': y = 2x or y = x + 2?",
+       "a": "y = 2x, graph through (0,0) and (1,2)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"A graph goes through (4, 10). What is k?\" Look for: 2.5.",
+     "questions": [
+      {
+       "q": "A graph goes through (4, 10). What is k?",
+       "a": "2.5."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Point (1, 7) on a proportional graph: k = 7. 2) (0,0) means 0 hours, 0 miles. 3) Line through (3, 12): y = 4x. 4) Steeper of y = 2x and y = 5x: y = 5x. 5) Line through (0,3): not proportional. Card match: 6/6 = proficient."
+  },
+  {
+   "week": 9,
+   "prep": "Phone timer, measuring cup with mL markings, graph paper, calculator. Set the faucet to a slow drip (ask permission; collect the water to reuse on plants).",
+   "misconceptions": [
+    "Predicting yearly waste by multiplying wrong units (minutes vs hours). Convert step by step: per minute → per hour (×60) → per day (×24) → per year (×365).",
+    "Claiming data that are 'close' to a line are exactly proportional. Discuss measurement error and use the average rate for k."
+   ],
+   "days": [
+    {
+     "guide": "Set up the drip and measure water collected at 1–5 minutes. Your child records in a table with units. Check before moving on: ask \"Why measure several times instead of once?\" Look for: To see the pattern and reduce the effect of measurement error.",
+     "questions": [
+      {
+       "q": "Why measure several times instead of once?",
+       "a": "To see the pattern and reduce the effect of measurement error."
+      }
+     ]
+    },
+    {
+     "guide": "Your child graphs the data, finds k (mL per minute), writes w = kt and predicts daily and yearly totals. Check before moving on: ask \"If k = 30 mL/min, water wasted in one day?\" Look for: 30 × 60 × 24 = 43,200 mL = 43.2 L.",
+     "questions": [
+      {
+       "q": "If k = 30 mL/min, water wasted in one day?",
+       "a": "30 × 60 × 24 = 43,200 mL = 43.2 L."
+      },
+      {
+       "q": "In one year?",
+       "a": "43.2 × 365 = 15,768 L."
+      }
+     ]
+    },
+    {
+     "guide": "Your child writes a one-page report: data table, graph, equation, whether it is proportional and what k means. Read it and ask one clarifying question. Check before moving on: ask \"What does k mean in w = 30t?\" Look for: 30 mL of water drips each minute.",
+     "questions": [
+      {
+       "q": "What does k mean in w = 30t?",
+       "a": "30 mL of water drips each minute."
+      }
+     ]
+    },
+    {
+     "guide": "Work two review problems together, then independent practice. Re-teach any weak representation. Check before moving on: ask \"Unit rate for 3/4 lb costing $1.50?\" Look for: $2 per lb.",
+     "questions": [
+      {
+       "q": "Unit rate for 3/4 lb costing $1.50?",
+       "a": "$2 per lb."
+      }
+     ]
+    },
+    {
+     "guide": "Give the unit 2 test (see key). Check before moving on: ask \"Does y = 3x + 0 represent a proportional relationship?\" Look for: Yes — it is y = 3x.",
+     "questions": [
+      {
+       "q": "Does y = 3x + 0 represent a proportional relationship?",
+       "a": "Yes — it is y = 3x."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test sample answers: 1) (3,12),(5,20) → k = 4, y = 4x. 2) (2,5),(4,9) not proportional. 3) (1/2)/(1/8) = 4. 4) Graph through (2,7): k = 3.5. 5) y = 0.75x, x = 12 → 9. 6) Point (0,0) means zero input gives zero output. Report rubric: 4 = accurate table/graph, correct k with units, equation, valid daily/yearly prediction, clear proportional judgment; 3 = one error; 2 = missing parts; 1 = incomplete."
+  },
+  {
+   "week": 10,
+   "prep": "String, ruler, compass, 6 round objects (cans, lids, plates, a bike wheel if possible), calculator.",
+   "misconceptions": [
+    "Mixing radius and diameter. Write d = 2r on the board and always circle which is given.",
+    "Thinking π is exactly 3.14. It is a never-ending decimal; 3.14 and 22/7 are approximations."
+   ],
+   "days": [
+    {
+     "guide": "Model drawing a circle with a compass and labeling center, radius, diameter, circumference. Your child draws three circles and labels each. Check before moving on: ask \"Radius 4.5 cm. Diameter?\" Look for: 9 cm.",
+     "questions": [
+      {
+       "q": "Radius 4.5 cm. Diameter?",
+       "a": "9 cm."
+      },
+      {
+       "q": "Diameter 15 in. Radius?",
+       "a": "7.5 in."
+      }
+     ]
+    },
+    {
+     "guide": "Model wrapping string around a can and measuring it. Your child measures all 6 objects, records d and C, and graphs C vs d. Check before moving on: ask \"What does the graph look like?\" Look for: Points fall close to a straight line through the origin — C is proportional to d.",
+     "questions": [
+      {
+       "q": "What does the graph look like?",
+       "a": "Points fall close to a straight line through the origin — C is proportional to d."
+      }
+     ]
+    },
+    {
+     "guide": "Your child computes C/d for each object and averages. Check before moving on: ask \"A lid has d = 8 cm, C = 25 cm. C/d?\" Look for: 3.125, close to π ≈ 3.14.",
+     "questions": [
+      {
+       "q": "A lid has d = 8 cm, C = 25 cm. C/d?",
+       "a": "3.125, close to π ≈ 3.14."
+      }
+     ]
+    },
+    {
+     "guide": "Model the bike wheel problem. Your child solves several, including finding d from C. Check before moving on: ask \"A 26-inch wheel turns 10 times. Distance?\" Look for: 26π × 10 ≈ 816.8 in ≈ 68 ft.",
+     "questions": [
+      {
+       "q": "A 26-inch wheel turns 10 times. Distance?",
+       "a": "26π × 10 ≈ 816.8 in ≈ 68 ft."
+      },
+      {
+       "q": "C = 31.4 cm. Diameter?",
+       "a": "10 cm (31.4 ÷ 3.14)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Radius 3 m. Circumference?\" Look for: 6π ≈ 18.84 m.",
+     "questions": [
+      {
+       "q": "Radius 3 m. Circumference?",
+       "a": "6π ≈ 18.84 m."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz (use π ≈ 3.14): 1) d = 10 → C = 31.4. 2) r = 5 → C = 31.4. 3) r = 7 → C ≈ 43.96. 4) C = 62.8 → d = 20, r = 10. 5) d = 2r, C = πd = 2πr. Lab: complete table with C/d values between about 3.0 and 3.3 = proficient."
+  },
+  {
+   "week": 11,
+   "prep": "Paper plates, scissors, grid paper, compass, calculator.",
+   "misconceptions": [
+    "Using 2πr (circumference) for area. Area is square units: πr².",
+    "Squaring the diameter. If given d, halve first: d = 10 → r = 5 → A = 25π."
+   ],
+   "days": [
+    {
+     "guide": "Trace a circle of radius 5 grid units and count squares (whole and combined partials). Your child compares the count to r² = 25. Check before moving on: ask \"About how many times r² is the area?\" Look for: A little more than 3 times (≈ 78.5 = 3.14 × 25).",
+     "questions": [
+      {
+       "q": "About how many times r² is the area?",
+       "a": "A little more than 3 times (≈ 78.5 = 3.14 × 25)."
+      }
+     ]
+    },
+    {
+     "guide": "Cut the plate into 16 sectors, rearrange alternately into a 'parallelogram'. Your child identifies base ≈ half the circumference (πr) and height ≈ r. Check before moving on: ask \"Why is the area πr²?\" Look for: The rearranged shape is about πr long and r tall, so area = πr × r = πr².",
+     "questions": [
+      {
+       "q": "Why is the area πr²?",
+       "a": "The rearranged shape is about πr long and r tall, so area = πr × r = πr²."
+      }
+     ]
+    },
+    {
+     "guide": "Work a pizza example given diameter. Your child solves the pizza, sprinkler and garden problems. Check before moving on: ask \"12-inch pizza (diameter). Area?\" Look for: r = 6, A = 36π ≈ 113.04 in².",
+     "questions": [
+      {
+       "q": "12-inch pizza (diameter). Area?",
+       "a": "r = 6, A = 36π ≈ 113.04 in²."
+      },
+      {
+       "q": "Sprinkler reaches 7 m. Area watered?",
+       "a": "49π ≈ 153.86 m²."
+      }
+     ]
+    },
+    {
+     "guide": "Your child labels each of the 8 situations 'around' (circumference) or 'covering' (area), then solves. Check before moving on: ask \"Fencing a circular garden of radius 4 m?\" Look for: Circumference: 8π ≈ 25.12 m.",
+     "questions": [
+      {
+       "q": "Fencing a circular garden of radius 4 m?",
+       "a": "Circumference: 8π ≈ 25.12 m."
+      },
+      {
+       "q": "Sod to cover it?",
+       "a": "Area: 16π ≈ 50.24 m²."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key) and the written derivation. Check before moving on: ask \"Area of a circle with diameter 20 cm?\" Look for: 100π ≈ 314 cm².",
+     "questions": [
+      {
+       "q": "Area of a circle with diameter 20 cm?",
+       "a": "100π ≈ 314 cm²."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz (π ≈ 3.14): 1) r = 3 → A ≈ 28.26. 2) d = 8 → A ≈ 50.24. 3) r = 10 → A = 314. 4) Edging a round table r = 2 ft → circumference ≈ 12.56 ft. 5) Cheese on a 14-in pizza → area ≈ 153.86 in². Derivation rubric: proficient explanation names the base (half the circumference, πr) and height (r) and concludes A = πr²."
+  },
+  {
+   "week": 12,
+   "prep": "Grid paper, calculator, compass.",
+   "misconceptions": [
+    "Forgetting the straight edge (diameter) when finding a semicircle's perimeter.",
+    "Rounding π too early. Keep answers in terms of π until the last step."
+   ],
+   "days": [
+    {
+     "guide": "Model a semicircle with d = 10: arc = 5π, perimeter = 5π + 10, area = 12.5π. Your child solves semicircle and quarter-circle problems. Check before moving on: ask \"Semicircle d = 10. Perimeter and area?\" Look for: 5π + 10 ≈ 25.71; 12.5π ≈ 39.27.",
+     "questions": [
+      {
+       "q": "Semicircle d = 10. Perimeter and area?",
+       "a": "5π + 10 ≈ 25.71; 12.5π ≈ 39.27."
+      },
+      {
+       "q": "Quarter circle r = 4. Area and perimeter?",
+       "a": "4π ≈ 12.57; 2π + 8 ≈ 14.28."
+      }
+     ]
+    },
+    {
+     "guide": "Sketch a window: 4 ft wide rectangle, 6 ft tall, with a semicircle on top. Your child decomposes and adds areas, then does the track (rectangle + two semicircles). Check before moving on: ask \"Window area?\" Look for: 24 + 2π ≈ 30.28 ft².",
+     "questions": [
+      {
+       "q": "Window area?",
+       "a": "24 + 2π ≈ 30.28 ft²."
+      },
+      {
+       "q": "Track: rectangle 100 m by 60 m with semicircles on the 60 m ends. Area?",
+       "a": "6,000 + 900π ≈ 8,827 m²."
+      }
+     ]
+    },
+    {
+     "guide": "Your child writes each answer as an exact π expression and a decimal, and discusses which is more precise. Check before moving on: ask \"Circle r = 6: exact area and approximation?\" Look for: 36π, ≈ 113.1.",
+     "questions": [
+      {
+       "q": "Circle r = 6: exact area and approximation?",
+       "a": "36π, ≈ 113.1."
+      }
+     ]
+    },
+    {
+     "guide": "Review set: work one composite problem together, rest independently. Check before moving on: ask \"Circumference of a circle with area 49π?\" Look for: r = 7, C = 14π ≈ 43.98.",
+     "questions": [
+      {
+       "q": "Circumference of a circle with area 49π?",
+       "a": "r = 7, C = 14π ≈ 43.98."
+      }
+     ]
+    },
+    {
+     "guide": "Give the unit 3 test (see key). Check before moving on: ask \"Area of a semicircle with r = 2?\" Look for: 2π ≈ 6.28.",
+     "questions": [
+      {
+       "q": "Area of a semicircle with r = 2?",
+       "a": "2π ≈ 6.28."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test sample answers (π ≈ 3.14): 1) C of d = 12: 37.68. 2) A of r = 9: 254.34. 3) Semicircle r = 5 perimeter: 15.7 + 10 = 25.7. 4) Quarter circle r = 10 area: 78.5. 5) Rectangle 8×4 + semicircle d = 4 on top: 32 + 6.28 = 38.28. 6) r from C = 50.24: r = 8. 7) Area vs circumference choice explained correctly."
+  },
+  {
+   "week": 13,
+   "prep": "Store ads or flyers, grid paper for tape diagrams, calculator.",
+   "misconceptions": [
+    "Finding percent change using the new value as the base. Always divide the change by the ORIGINAL amount.",
+    "Thinking a 25% increase followed by a 25% decrease returns the original. Try $100 → $125 → $93.75."
+   ],
+   "days": [
+    {
+     "guide": "Draw a tape of 4 equal parts for a quantity; add a part (5/4 = 125%) and remove a part (3/4 = 75%). Your child draws diagrams for several quantities. Check before moving on: ask \"1/4 more than 60?\" Look for: 75 (125% of 60).",
+     "questions": [
+      {
+       "q": "1/4 more than 60?",
+       "a": "75 (125% of 60)."
+      },
+      {
+       "q": "1/4 less than 60?",
+       "a": "45 (75% of 60)."
+      }
+     ]
+    },
+    {
+     "guide": "Model multiplying by 1.10 for a 10% increase. Your child computes new prices for 10%, 15% and 120% increases. Check before moving on: ask \"$40 increased by 15%?\" Look for: 40 × 1.15 = $46.",
+     "questions": [
+      {
+       "q": "$40 increased by 15%?",
+       "a": "40 × 1.15 = $46."
+      },
+      {
+       "q": "$40 increased by 120%?",
+       "a": "40 × 2.20 = $88."
+      }
+     ]
+    },
+    {
+     "guide": "Model 25% off as × 0.75 and working backward. Your child finds sale and original prices. Check before moving on: ask \"$80 jacket, 30% off?\" Look for: $56.",
+     "questions": [
+      {
+       "q": "$80 jacket, 30% off?",
+       "a": "$56."
+      },
+      {
+       "q": "Sale price $36 after 25% off. Original?",
+       "a": "36 ÷ 0.75 = $48."
+      }
+     ]
+    },
+    {
+     "guide": "Model percent change = change ÷ original × 100. Your child computes changes for populations, prices and scores. Check before moving on: ask \"80 → 100?\" Look for: 25% increase.",
+     "questions": [
+      {
+       "q": "80 → 100?",
+       "a": "25% increase."
+      },
+      {
+       "q": "100 → 80?",
+       "a": "20% decrease."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Price went from $50 to $65. Percent increase?\" Look for: 30%.",
+     "questions": [
+      {
+       "q": "Price went from $50 to $65. Percent increase?",
+       "a": "30%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) $60 + 20% = $72. 2) $250 − 40% = $150. 3) Sale $45 after 10% off → original $50. 4) 40 → 50 = 25% increase. 5) 50 → 40 = 20% decrease. 6) Tape diagram for 150% of 8 = 12."
+  },
+  {
+   "week": 14,
+   "prep": "A restaurant menu (online is fine), receipts showing tax, calculator. Look up your local sales tax rate (California base is 7.25%; most areas are higher).",
+   "misconceptions": [
+    "Applying markup and discount percents to the same base. Markup applies to cost; the discount applies to the new retail price.",
+    "Computing tip on the total after tax when your family uses the pre-tax amount (either is acceptable — decide and be consistent)."
+   ],
+   "days": [
+    {
+     "guide": "Model tax = rate × price. Your child computes tax and totals for five purchases and finds a rate from a receipt (tax ÷ subtotal). Check before moving on: ask \"$40 item at 7.25%?\" Look for: Tax $2.90; total $42.90.",
+     "questions": [
+      {
+       "q": "$40 item at 7.25%?",
+       "a": "Tax $2.90; total $42.90."
+      },
+      {
+       "q": "Receipt: subtotal $20, tax $1.75. Rate?",
+       "a": "8.75%."
+      }
+     ]
+    },
+    {
+     "guide": "Model 10%-then-adjust mental math. Your child computes 15%, 18% and 20% tips on menu orders. Check before moving on: ask \"18% tip on $45?\" Look for: $8.10 (10% = 4.50, 5% = 2.25, 3% = 1.35).",
+     "questions": [
+      {
+       "q": "18% tip on $45?",
+       "a": "$8.10 (10% = 4.50, 5% = 2.25, 3% = 1.35)."
+      },
+      {
+       "q": "20% of $45?",
+       "a": "$9."
+      }
+     ]
+    },
+    {
+     "guide": "Model: cost $50, markup 40% → $70, then 25% off → $52.50. Your child solves several and compares the final price to cost. Check before moving on: ask \"Did the store still profit?\" Look for: Yes, $2.50 above the $50 cost (5%).",
+     "questions": [
+      {
+       "q": "Did the store still profit?",
+       "a": "Yes, $2.50 above the $50 cost (5%)."
+      },
+      {
+       "q": "Cost $30, 50% markup, 20% off. Final price?",
+       "a": "$36."
+      }
+     ]
+    },
+    {
+     "guide": "Model commission as a percent of sales. Your child compares deals. Check before moving on: ask \"5% commission on $3,000?\" Look for: $150.",
+     "questions": [
+      {
+       "q": "5% commission on $3,000?",
+       "a": "$150."
+      },
+      {
+       "q": "Better deal: $200 with 15% off or $190 with $10 off?",
+       "a": "15% off: $170 vs $180 — the 15% off deal."
+      }
+     ]
+    },
+    {
+     "guide": "Your child plans a family meal within $60 including tax and tip, showing every calculation. Check before moving on: ask \"A $48 subtotal with 9% tax and 18% tip on the subtotal—under $60?\" Look for: Tax $4.32, tip $8.64, total $60.96 — just over.",
+     "questions": [
+      {
+       "q": "A $48 subtotal with 9% tax and 18% tip on the subtotal—under $60?",
+       "a": "Tax $4.32, tip $8.64, total $60.96 — just over."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) $25 at 8% tax = $27. 2) 20% tip on $35 = $7. 3) Cost $80, 25% markup = $100. 4) $100 marked 30% down = $70. 5) 6% commission on $1,500 = $90. Meal rubric: 4 = items listed, correct tax and tip, total ≤ $60, all work shown; 3 = one arithmetic error; 2 = over budget or missing tax/tip; 1 = incomplete."
+  },
+  {
+   "week": 15,
+   "prep": "Kitchen scale, 5 household objects (an apple, a book, a can, a shoe, a phone), calculator.",
+   "misconceptions": [
+    "Using percent instead of decimal in I = Prt (using 3 instead of 0.03).",
+    "Dividing error by the estimate instead of the actual value. Percent error = |estimate − actual| ÷ actual × 100."
+   ],
+   "days": [
+    {
+     "guide": "Model I = Prt. Your child computes interest on savings and loans. Check before moving on: ask \"$500 at 3% simple interest for 4 years?\" Look for: I = 500 × 0.03 × 4 = $60.",
+     "questions": [
+      {
+       "q": "$500 at 3% simple interest for 4 years?",
+       "a": "I = 500 × 0.03 × 4 = $60."
+      },
+      {
+       "q": "$2,000 loan at 6% for 2 years — total repaid?",
+       "a": "$240 interest, $2,240 total."
+      }
+     ]
+    },
+    {
+     "guide": "Your child builds a table for two savings accounts and a loan over several years and chooses the best for a goal. Check before moving on: ask \"Account A: 2% for 5 yr; B: 3% for 3 yr, on $1,000. Which earns more?\" Look for: A: $100; B: $90 — A earns more.",
+     "questions": [
+      {
+       "q": "Account A: 2% for 5 yr; B: 3% for 3 yr, on $1,000. Which earns more?",
+       "a": "A: $100; B: $90 — A earns more."
+      }
+     ]
+    },
+    {
+     "guide": "Your child estimates each object's mass, weighs it and computes percent error. Check before moving on: ask \"Estimate 300 g, actual 250 g. Percent error?\" Look for: 50 ÷ 250 = 20%.",
+     "questions": [
+      {
+       "q": "Estimate 300 g, actual 250 g. Percent error?",
+       "a": "50 ÷ 250 = 20%."
+      }
+     ]
+    },
+    {
+     "guide": "Model tolerance with a 500 g bag, 2% allowed. Your child solves similar problems. Check before moving on: ask \"Acceptable range for 500 g ± 2%?\" Look for: 490 g to 510 g.",
+     "questions": [
+      {
+       "q": "Acceptable range for 500 g ± 2%?",
+       "a": "490 g to 510 g."
+      },
+      {
+       "q": "Is a 485 g bag acceptable?",
+       "a": "No, it is 3% under."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Actual 40, measured 42. Percent error?\" Look for: 5%.",
+     "questions": [
+      {
+       "q": "Actual 40, measured 42. Percent error?",
+       "a": "5%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) $800 at 5% for 3 yr: $120. 2) $1,200 at 4% for 2 yr total: $1,296. 3) Estimate 9, actual 10: 10% error. 4) Estimate 66, actual 60: 10% error. 5) 2 L ± 1%: 1.98–2.02 L. Lab sheet: all five errors computed with actual as divisor = proficient."
+  },
+  {
+   "week": 16,
+   "prep": "Store flyers or online pages; spreadsheet or paper; local sales tax rate.",
+   "misconceptions": [
+    "Calculating percent saved from the sale price instead of the original. Savings ÷ original total.",
+    "Applying a percent coupon to an already-applied dollar coupon in the wrong order. Follow the store's stated order."
+   ],
+   "days": [
+    {
+     "guide": "Your child chooses items within $200, listing original price and any discounts. Check before moving on: ask \"A $60 backpack at 25% off?\" Look for: $45.",
+     "questions": [
+      {
+       "q": "A $60 backpack at 25% off?",
+       "a": "$45."
+      }
+     ]
+    },
+    {
+     "guide": "Your child adds tax to the discounted subtotal and computes total savings percent, adjusting to stay within budget. Check before moving on: ask \"Subtotal $180 at 8% tax?\" Look for: $194.40.",
+     "questions": [
+      {
+       "q": "Subtotal $180 at 8% tax?",
+       "a": "$194.40."
+      },
+      {
+       "q": "Original $230, paid (before tax) $180. Percent saved?",
+       "a": "50 ÷ 230 ≈ 21.7%."
+      }
+     ]
+    },
+    {
+     "guide": "Your child creates a receipt-style summary with every calculation. Check before moving on: ask \"Why show every calculation?\" Look for: So each step can be checked and errors found.",
+     "questions": [
+      {
+       "q": "Why show every calculation?",
+       "a": "So each step can be checked and errors found."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review — one problem of each type; independent practice. Check before moving on: ask \"$150 → $120. Percent change?\" Look for: 20% decrease.",
+     "questions": [
+      {
+       "q": "$150 → $120. Percent change?",
+       "a": "20% decrease."
+      }
+     ]
+    },
+    {
+     "guide": "Give the unit 4 test (see key). Check before moving on: ask \"$300 at 2% for 3 years simple interest?\" Look for: $18.",
+     "questions": [
+      {
+       "q": "$300 at 2% for 3 years simple interest?",
+       "a": "$18."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 4 test sample answers: 1) $75 + 12% = $84. 2) $120 − 35% = $78. 3) Sale $68 after 15% off: original $80. 4) 25 → 30: 20% increase. 5) 18% tip on $50: $9. 6) $400 at 3.5% for 2 yr: $28. 7) Estimate 12, actual 15: 20% error. Project rubric: 4 = within $200 with tax, every discount and tax correct, percent saved correct; 3 = one error; 2 = several; 1 = incomplete."
+  },
+  {
+   "week": 17,
+   "prep": "Two-color counters (or coins: heads = +, tails = −), number line taped to floor (−10 to 10), outdoor thermometer.",
+   "misconceptions": [
+    "Thinking −8 is greater than −3. On the number line, farther left is smaller; −8 is colder.",
+    "Adding the absolute values when signs differ. With different signs, subtract absolute values and keep the sign of the larger."
+   ],
+   "days": [
+    {
+     "guide": "Discuss temperatures, elevations and bank balances. Your child writes signed numbers for contexts and orders them on a number line. Check before moving on: ask \"Order −3, 2, −7.5, 0, 1/2.\" Look for: −7.5, −3, 0, 1/2, 2.",
+     "questions": [
+      {
+       "q": "Order −3, 2, −7.5, 0, 1/2.",
+       "a": "−7.5, −3, 0, 1/2, 2."
+      },
+      {
+       "q": "A balance of −$20 means?",
+       "a": "You owe $20."
+      }
+     ]
+    },
+    {
+     "guide": "Model −5 + 8 with arrows: start at 0, move 5 left, then 8 right. Then model with counters. Your child does several each way. Check before moving on: ask \"−5 + 8?\" Look for: 3.",
+     "questions": [
+      {
+       "q": "−5 + 8?",
+       "a": "3."
+      },
+      {
+       "q": "3 + (−7)?",
+       "a": "−4."
+      }
+     ]
+    },
+    {
+     "guide": "Show a positive and negative counter canceling. Your child explains why a + (−a) = 0 and solves 12 problems. Check before moving on: ask \"−9 + 9?\" Look for: 0 — they are opposites (zero pairs).",
+     "questions": [
+      {
+       "q": "−9 + 9?",
+       "a": "0 — they are opposites (zero pairs)."
+      },
+      {
+       "q": "−6 + (−4)?",
+       "a": "−10."
+      }
+     ]
+    },
+    {
+     "guide": "Model with a number line using decimals and fractions. Your child solves signed fraction and decimal sums. Check before moving on: ask \"−2.5 + 1.75?\" Look for: −0.75.",
+     "questions": [
+      {
+       "q": "−2.5 + 1.75?",
+       "a": "−0.75."
+      },
+      {
+       "q": "−3/4 + (−1/2)?",
+       "a": "−5/4 = −1 1/4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Temperature is −4°F and rises 10°. New temperature?\" Look for: 6°F.",
+     "questions": [
+      {
+       "q": "Temperature is −4°F and rises 10°. New temperature?",
+       "a": "6°F."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) −7 + 3 = −4. 2) 6 + (−11) = −5. 3) −2.4 + (−1.6) = −4. 4) 1/3 + (−5/6) = −1/2. 5) Diver at −30 ft rises 12 ft: −18 ft. 6) Number line drawing correct for one problem."
+  },
+  {
+   "week": 18,
+   "prep": "Number line, two-color counters, weekly weather table (look up a week of daily highs/lows).",
+   "misconceptions": [
+    "Thinking subtraction always makes smaller. 5 − (−3) = 8.",
+    "Changing only the operation, not the second number's sign, when 'adding the opposite'. a − b = a + (−b): change both."
+   ],
+   "days": [
+    {
+     "guide": "Model 3 − 5 with counters: you need to remove 5 positives but have 3, so add 2 zero pairs. Your child models −2 − (−6). Check before moving on: ask \"3 − 5?\" Look for: −2.",
+     "questions": [
+      {
+       "q": "3 − 5?",
+       "a": "−2."
+      },
+      {
+       "q": "−2 − (−6)?",
+       "a": "4."
+      }
+     ]
+    },
+    {
+     "guide": "Model rewriting a − b as a + (−b). Your child rewrites and solves 15. Check before moving on: ask \"−7 − 4?\" Look for: −7 + (−4) = −11.",
+     "questions": [
+      {
+       "q": "−7 − 4?",
+       "a": "−7 + (−4) = −11."
+      },
+      {
+       "q": "−1.5 − (−3.5)?",
+       "a": "2."
+      }
+     ]
+    },
+    {
+     "guide": "Model distance as |a − b|. Your child finds elevation differences. Check before moving on: ask \"Mt. Whitney (14,505 ft) to Death Valley (−282 ft)?\" Look for: |14,505 − (−282)| = 14,787 ft.",
+     "questions": [
+      {
+       "q": "Mt. Whitney (14,505 ft) to Death Valley (−282 ft)?",
+       "a": "|14,505 − (−282)| = 14,787 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Your child computes day-to-day temperature changes as later − earlier and graphs them. Check before moving on: ask \"From −3°C to 5°C, change?\" Look for: +8°C.",
+     "questions": [
+      {
+       "q": "From −3°C to 5°C, change?",
+       "a": "+8°C."
+      },
+      {
+       "q": "From 4°C to −2°C?",
+       "a": "−6°C."
+      }
+     ]
+    },
+    {
+     "guide": "Give the cumulative checkpoint (see key). Note weak units for review. Check before moving on: ask \"8 − (−8)?\" Look for: 16.",
+     "questions": [
+      {
+       "q": "8 − (−8)?",
+       "a": "16."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Checkpoint sample answers: 1) Scale factor 6→9: 1.5. 2) 1 cm = 20 km, 4.5 cm: 90 km. 3) (3/4)/(1/2) = 1.5. 4) y = 6x through (1,6). 5) Area r = 4: 16π ≈ 50.24. 6) $90 with 20% off: $72. 7) −8 + 5 = −3. 8) 4 − 9 = −5. 9) −6 − (−2) = −4. 10) Percent change 40 → 30 = 25% decrease. Note any unit below 70% for review."
+  },
+  {
+   "week": 19,
+   "prep": "Number line, optional toy car, multiplication table grid −5 to 5.",
+   "misconceptions": [
+    "Thinking negative × negative is negative. Use the table pattern: −3 × 2 = −6, −3 × 1 = −3, −3 × 0 = 0, so −3 × −1 = 3.",
+    "Miscounting the sign with several factors. Count negatives: even number → positive, odd → negative."
+   ],
+   "days": [
+    {
+     "guide": "Car moves at velocity v (positive = east, negative = west); time t positive = future, negative = past. Your child finds positions for each sign combination. Check before moving on: ask \"Velocity −3 m/s, time 4 s from now. Position?\" Look for: −12 m (12 m west).",
+     "questions": [
+      {
+       "q": "Velocity −3 m/s, time 4 s from now. Position?",
+       "a": "−12 m (12 m west)."
+      },
+      {
+       "q": "Velocity −3 m/s, 4 s ago (t = −4)?",
+       "a": "+12 m — it was east of start."
+      }
+     ]
+    },
+    {
+     "guide": "Your child fills in the −5 to 5 table and describes the sign patterns. Check before moving on: ask \"What pattern gives (−)(−) = +?\" Look for: In each negative row, products increase by the same amount as you move toward negatives, so they cross zero into positives.",
+     "questions": [
+      {
+       "q": "What pattern gives (−)(−) = +?",
+       "a": "In each negative row, products increase by the same amount as you move toward negatives, so they cross zero into positives."
+      }
+     ]
+    },
+    {
+     "guide": "Model −3(4 + −4) = −3(0) = 0, so −12 + (−3)(−4) = 0, so (−3)(−4) = 12. Your child writes this justification in their own words. Check before moving on: ask \"Why must (−3)(−4) be 12?\" Look for: −3 × 4 = −12, and the two products must add to 0, so (−3)(−4) is the opposite of −12: +12.",
+     "questions": [
+      {
+       "q": "Why must (−3)(−4) be 12?",
+       "a": "−3 × 4 = −12, and the two products must add to 0, so (−3)(−4) is the opposite of −12: +12."
+      }
+     ]
+    },
+    {
+     "guide": "Your child solves 15 products with fractions, decimals and multiple factors. Check before moving on: ask \"(−2/3)(9/10)?\" Look for: −3/5.",
+     "questions": [
+      {
+       "q": "(−2/3)(9/10)?",
+       "a": "−3/5."
+      },
+      {
+       "q": "(−1.5)(−4)(−2)?",
+       "a": "−12."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key) and collect the written justification. Check before moving on: ask \"(−5)(−5)?\" Look for: 25.",
+     "questions": [
+      {
+       "q": "(−5)(−5)?",
+       "a": "25."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) −6 × 7 = −42. 2) −8 × −0.5 = 4. 3) (−3/4)(8) = −6. 4) (−2)(−3)(−5) = −30. 5) (−1)^4 = 1. 6) (−0.2)(15) = −3. Justification rubric: proficient uses the distributive property or pattern argument correctly."
+  },
+  {
+   "week": 20,
+   "prep": "Calculator, paper for long division.",
+   "misconceptions": [
+    "Saying 0 ÷ 5 is undefined. 0 ÷ 5 = 0; 5 ÷ 0 is undefined.",
+    "Stopping long division too soon and missing the repeat. Keep dividing until the remainder repeats."
+   ],
+   "days": [
+    {
+     "guide": "Use 'if (−4)(−9) = 36, then 36 ÷ (−4) = −9'. Your child states sign rules and solves 15. Check before moving on: ask \"−36 ÷ −4?\" Look for: 9.",
+     "questions": [
+      {
+       "q": "−36 ÷ −4?",
+       "a": "9."
+      },
+      {
+       "q": "45 ÷ (−9)?",
+       "a": "−5."
+      }
+     ]
+    },
+    {
+     "guide": "Ask: 5 ÷ 0 = ? means ? × 0 = 5. Your child writes why no number works. Check before moving on: ask \"Why is 7 ÷ 0 undefined?\" Look for: No number times 0 equals 7, since anything × 0 = 0.",
+     "questions": [
+      {
+       "q": "Why is 7 ÷ 0 undefined?",
+       "a": "No number times 0 equals 7, since anything × 0 = 0."
+      }
+     ]
+    },
+    {
+     "guide": "Model 3 ÷ 11 by long division. Your child converts the four fractions and marks repeating parts. Check before moving on: ask \"1/8?\" Look for: 0.125.",
+     "questions": [
+      {
+       "q": "1/8?",
+       "a": "0.125."
+      },
+      {
+       "q": "3/11?",
+       "a": "0.272727… = 0.27 with a bar over 27."
+      },
+      {
+       "q": "5/6?",
+       "a": "0.8333… = 0.83 with a bar over the 3."
+      }
+     ]
+    },
+    {
+     "guide": "Your child tests denominators 2–20, factoring each, and states the rule. Check before moving on: ask \"Will 7/16 terminate?\" Look for: Yes — 16 = 2⁴; 7/16 = 0.4375.",
+     "questions": [
+      {
+       "q": "Will 7/16 terminate?",
+       "a": "Yes — 16 = 2⁴; 7/16 = 0.4375."
+      },
+      {
+       "q": "Will 2/15 terminate?",
+       "a": "No — 15 has a factor of 3."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"−4.8 ÷ 0.6?\" Look for: −8.",
+     "questions": [
+      {
+       "q": "−4.8 ÷ 0.6?",
+       "a": "−8."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) −56 ÷ 7 = −8. 2) −1.2 ÷ −0.3 = 4. 3) (−3/4) ÷ (1/2) = −3/2. 4) 4/9 = 0.4 repeating. 5) 3/8 = 0.375. 6) 1/12 = 0.083 repeating (bar over 3). 7) Terminates: 7/20 yes, 1/6 no."
+  },
+  {
+   "week": 21,
+   "prep": "Check register template (print or draw columns: date, description, deposit, withdrawal, balance), calculator.",
+   "misconceptions": [
+    "Ignoring order of operations with negatives: −3² = −9 but (−3)² = 9.",
+    "Forgetting the sign of a rate (descending = negative)."
+   ],
+   "days": [
+    {
+     "guide": "Model logging deposits (+) and withdrawals (−). Your child tracks a month of transactions. Check before moving on: ask \"Start $50, spend $62.75, deposit $20. Balance?\" Look for: $7.25.",
+     "questions": [
+      {
+       "q": "Start $50, spend $62.75, deposit $20. Balance?",
+       "a": "$7.25."
+      },
+      {
+       "q": "Start $10, withdraw $15.50. Balance?",
+       "a": "−$5.50 (overdrawn)."
+      }
+     ]
+    },
+    {
+     "guide": "Model −2(3 − 7)²/4 + (−1.5) step by step. Your child evaluates several. Check before moving on: ask \"Value?\" Look for: (3 − 7) = −4; squared 16; −2·16 = −32; ÷4 = −8; + (−1.5) = −9.5.",
+     "questions": [
+      {
+       "q": "Value?",
+       "a": "(3 − 7) = −4; squared 16; −2·16 = −32; ÷4 = −8; + (−1.5) = −9.5."
+      }
+     ]
+    },
+    {
+     "guide": "Model distance = rate × time with signed rates. Your child solves diver and tank problems. Check before moving on: ask \"Diver at −1.5 m/s for 12 s?\" Look for: −18 m (18 m deeper).",
+     "questions": [
+      {
+       "q": "Diver at −1.5 m/s for 12 s?",
+       "a": "−18 m (18 m deeper)."
+      },
+      {
+       "q": "Tank drains −2.25 gal/min. Time to lose 45 gal?",
+       "a": "−45 ÷ −2.25 = 20 minutes."
+      }
+     ]
+    },
+    {
+     "guide": "Your child rounds to estimate each problem first, then solves and compares. Check before moving on: ask \"Estimate −4.9 × 6.1.\" Look for: About −30 (exact −29.89).",
+     "questions": [
+      {
+       "q": "Estimate −4.9 × 6.1.",
+       "a": "About −30 (exact −29.89)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"−12 + 3 × (−2)?\" Look for: −18.",
+     "questions": [
+      {
+       "q": "−12 + 3 × (−2)?",
+       "a": "−18."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) (−4)(3) − (−10) = −2. 2) (−6 + 2)² ÷ 8 = 2. 3) Temperature falls 2.5° per hour for 4 hours from 3°: −7°. 4) Balance $40 then four $12.50 charges: −$10. 5) Submarine at −120 m rises 15 m/min for 5 min: −45 m."
+  },
+  {
+   "week": 22,
+   "prep": "Index cards; a deck of playing cards (red = negative, black = positive, face cards = 10 or remove them).",
+   "misconceptions": [
+    "Undoing −3x by adding 3. The −3 multiplies x, so divide by −3.",
+    "Writing the temperature drop as positive. A drop is a negative change."
+   ],
+   "days": [
+    {
+     "guide": "Model x + 4.5 = −2 (subtract 4.5) and −3x = 18 (divide by −3). Your child solves and checks by substituting. Check before moving on: ask \"x + 4.5 = −2?\" Look for: x = −6.5.",
+     "questions": [
+      {
+       "q": "x + 4.5 = −2?",
+       "a": "x = −6.5."
+      },
+      {
+       "q": "−3x = 18?",
+       "a": "x = −6."
+      },
+      {
+       "q": "x/−4 = 2.5?",
+       "a": "x = −10."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing an equation from a story. Your child writes and solves several. Check before moving on: ask \"Temperature dropped 3° each hour, total −15°. Hours?\" Look for: −3h = −15, h = 5.",
+     "questions": [
+      {
+       "q": "Temperature dropped 3° each hour, total −15°. Hours?",
+       "a": "−3h = −15, h = 5."
+      }
+     ]
+    },
+    {
+     "guide": "Play 20 rounds: each draws two cards, finds the sum and product; the higher value wins. Your child records each round. Check before moving on: ask \"Red 7 and black 4: sum and product?\" Look for: −7 + 4 = −3; (−7)(4) = −28.",
+     "questions": [
+      {
+       "q": "Red 7 and black 4: sum and product?",
+       "a": "−7 + 4 = −3; (−7)(4) = −28."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review; one example of each operation together. Check before moving on: ask \"(−3/5) ÷ (−3/10)?\" Look for: 2.",
+     "questions": [
+      {
+       "q": "(−3/5) ÷ (−3/10)?",
+       "a": "2."
+      }
+     ]
+    },
+    {
+     "guide": "Give the unit 5 test (see key). Check before moving on: ask \"−0.5 × −0.5?\" Look for: 0.25.",
+     "questions": [
+      {
+       "q": "−0.5 × −0.5?",
+       "a": "0.25."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 5 test sample answers: 1) −9 + 14 = 5. 2) −3 − 8 = −11. 3) (−4)(−2.5) = 10. 4) −48 ÷ 6 = −8. 5) 5/8 = 0.625. 6) 2/3 = 0.6 repeating. 7) x − 7 = −12 → x = −5. 8) −2x = 9 → x = −4.5. 9) Distance from −15 to 22 = 37. 10) Debt $120 paid off at $15/week: 8 weeks."
+  },
+  {
+   "week": 23,
+   "prep": "Grid paper; draw hanger diagrams (a balanced mobile with shapes).",
+   "misconceptions": [
+    "Confusing p(x + q) with px + q. In p(x + q), each of p groups contains x + q.",
+    "Removing from only one side of a hanger. Whatever you remove from one side, remove from the other to stay balanced."
+   ],
+   "days": [
+    {
+     "guide": "Show tape diagrams: 3 equal parts of x plus a piece 5 = total 20 (3x + 5 = 20) vs 3 equal parts each (x + 5) = 20. Your child matches 6 stories. Check before moving on: ask \"Diagram: 4 boxes each 'x + 2', total 28. Equation?\" Look for: 4(x + 2) = 28.",
+     "questions": [
+      {
+       "q": "Diagram: 4 boxes each 'x + 2', total 28. Equation?",
+       "a": "4(x + 2) = 28."
+      }
+     ]
+    },
+    {
+     "guide": "Model the snack problem. Your child writes equations for several situations. Check before moving on: ask \"4 friends each buy a $2.50 snack and share a $6 pizza. Total cost?\" Look for: 4(2.50) + 6 = $16.",
+     "questions": [
+      {
+       "q": "4 friends each buy a $2.50 snack and share a $6 pizza. Total cost?",
+       "a": "4(2.50) + 6 = $16."
+      },
+      {
+       "q": "If the total is t and snack cost is s: equation?",
+       "a": "4s + 6 = t."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a hanger: 3 triangles and 2 circles (each circle = 1) on the left, 11 circles on the right. Your child removes 2 from each side, then splits into 3. Check before moving on: ask \"Solve 3x + 2 = 11.\" Look for: x = 3.",
+     "questions": [
+      {
+       "q": "Solve 3x + 2 = 11.",
+       "a": "x = 3."
+      }
+     ]
+    },
+    {
+     "guide": "Model 'same to both sides' with written steps. Your child solves 10 and checks each. Check before moving on: ask \"5x − 4 = 21?\" Look for: x = 5.",
+     "questions": [
+      {
+       "q": "5x − 4 = 21?",
+       "a": "x = 5."
+      },
+      {
+       "q": "4(x + 1) = 24?",
+       "a": "x = 5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Equation for 'twice a number plus 7 is 19'?\" Look for: 2n + 7 = 19; n = 6.",
+     "questions": [
+      {
+       "q": "Equation for 'twice a number plus 7 is 19'?",
+       "a": "2n + 7 = 19; n = 6."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Diagram 5 parts of x and 3 = 23 → 5x + 3 = 23, x = 4. 2) 2(x + 6) = 20, x = 4. 3) Story: 3 tickets plus $4 parking is $31 → 3t + 4 = 31, t = 9. 4) 6x + 1 = 25, x = 4. 5) Match diagram to 3(x − 2) = 12, x = 6."
+  },
+  {
+   "week": 24,
+   "prep": "Paper algebra tiles (cut rectangles for x and small squares for 1; use two colors for negative).",
+   "misconceptions": [
+    "Distributing to only the first term: 2(x + 3) = 2x + 3 is wrong; it is 2x + 6.",
+    "Multiplying by a fraction's reciprocal but forgetting the sign: dividing by −2/3 = multiplying by −3/2."
+   ],
+   "days": [
+    {
+     "guide": "Solve 2(x + 3) = 14 both ways: divide by 2 (x + 3 = 7) and distribute (2x + 6 = 14). Your child solves 4 more both ways. Check before moving on: ask \"2(x + 3) = 14?\" Look for: x = 4 by either method.",
+     "questions": [
+      {
+       "q": "2(x + 3) = 14?",
+       "a": "x = 4 by either method."
+      },
+      {
+       "q": "5(x − 2) = 35?",
+       "a": "x = 9."
+      }
+     ]
+    },
+    {
+     "guide": "Model −2/3 x + 5 = −7. Your child solves several with negative and fractional coefficients. Check before moving on: ask \"−2/3 x + 5 = −7?\" Look for: −2/3 x = −12, x = 18.",
+     "questions": [
+      {
+       "q": "−2/3 x + 5 = −7?",
+       "a": "−2/3 x = −12, x = 18."
+      },
+      {
+       "q": "−4x − 3 = 9?",
+       "a": "x = −3."
+      }
+     ]
+    },
+    {
+     "guide": "Your child solves 8 word problems: define a variable, write, solve, check. Check before moving on: ask \"Gym: $25 sign-up + $15/month, total $130. Months?\" Look for: 25 + 15m = 130, m = 7.",
+     "questions": [
+      {
+       "q": "Gym: $25 sign-up + $15/month, total $130. Months?",
+       "a": "25 + 15m = 130, m = 7."
+      }
+     ]
+    },
+    {
+     "guide": "Solve one problem by working backward and by equation. Your child writes which made more sense. Check before moving on: ask \"A number is doubled, then 9 is subtracted to get 21. Number?\" Look for: Backward: 21 + 9 = 30, ÷ 2 = 15. Equation: 2n − 9 = 21, n = 15.",
+     "questions": [
+      {
+       "q": "A number is doubled, then 9 is subtracted to get 21. Number?",
+       "a": "Backward: 21 + 9 = 30, ÷ 2 = 15. Equation: 2n − 9 = 21, n = 15."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"3(x − 4) = −6?\" Look for: x = 2.",
+     "questions": [
+      {
+       "q": "3(x − 4) = −6?",
+       "a": "x = 2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 3x + 7 = 22 → 5. 2) −5x + 2 = 17 → −3. 3) 1/2 x − 4 = 6 → 20. 4) 4(x + 2.5) = 18 → 2. 5) Phone $35 + $0.10 per text = $41 → 60 texts. 6) −(x − 3) = 8 → −5."
+  },
+  {
+   "week": 25,
+   "prep": "Number line, colored pencils.",
+   "misconceptions": [
+    "Not reversing the inequality when multiplying or dividing by a negative. Test a value to check.",
+    "Open vs closed circles: ≤, ≥ use closed; <, > use open."
+   ],
+   "days": [
+    {
+     "guide": "Model 'at least 13' as h ≥ 13 with a closed circle. Your child writes and graphs several. Check before moving on: ask \"'No more than 8 people'?\" Look for: p ≤ 8, closed circle at 8, shade left (whole numbers only in context).",
+     "questions": [
+      {
+       "q": "'No more than 8 people'?",
+       "a": "p ≤ 8, closed circle at 8, shade left (whole numbers only in context)."
+      }
+     ]
+    },
+    {
+     "guide": "Test values in −2x > 6. Your child discovers solutions are x < −3 and states the reversal rule. Check before moving on: ask \"Is x = −5 a solution to −2x > 6?\" Look for: Yes: 10 > 6.",
+     "questions": [
+      {
+       "q": "Is x = −5 a solution to −2x > 6?",
+       "a": "Yes: 10 > 6."
+      },
+      {
+       "q": "Is x = 0?",
+       "a": "No: 0 > 6 is false."
+      }
+     ]
+    },
+    {
+     "guide": "Model 5x − 3 ≥ 22. Your child solves 10 and graphs. Check before moving on: ask \"5x − 3 ≥ 22?\" Look for: x ≥ 5.",
+     "questions": [
+      {
+       "q": "5x − 3 ≥ 22?",
+       "a": "x ≥ 5."
+      },
+      {
+       "q": "−2x + 4 < 10?",
+       "a": "x > −3."
+      }
+     ]
+    },
+    {
+     "guide": "Solve the budget problem together, discussing the meaning of a decimal answer. Check before moving on: ask \"$8/hour with $40 saved, more than $150?\" Look for: 40 + 8h > 150 → h > 13.75; she must work at least 14 whole hours.",
+     "questions": [
+      {
+       "q": "$8/hour with $40 saved, more than $150?",
+       "a": "40 + 8h > 150 → h > 13.75; she must work at least 14 whole hours."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"−x ≤ 4?\" Look for: x ≥ −4.",
+     "questions": [
+      {
+       "q": "−x ≤ 4?",
+       "a": "x ≥ −4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 'At least 18' → a ≥ 18, closed circle. 2) 3x + 2 < 14 → x < 4. 3) −4x ≥ 20 → x ≤ −5. 4) x/2 − 1 > 3 → x > 8. 5) Graph x > −2: open circle, shade right. 6) $5 per hour with $12, at least $60 → h ≥ 9.6 → 10 hours."
+  },
+  {
+   "week": 26,
+   "prep": "Area model templates (rectangles split into parts).",
+   "misconceptions": [
+    "Combining unlike terms (3x + 2 = 5x).",
+    "Dropping a negative sign when distributing: −2(x − 4) = −2x + 8, not −2x − 8."
+   ],
+   "days": [
+    {
+     "guide": "Rewrite 5 − 3x as 5 + (−3x). Your child tests equivalence by substituting x = 2 in both forms. Check before moving on: ask \"Is 8 − 2x equivalent to −2x + 8?\" Look for: Yes — commutative after writing as 8 + (−2x).",
+     "questions": [
+      {
+       "q": "Is 8 − 2x equivalent to −2x + 8?",
+       "a": "Yes — commutative after writing as 8 + (−2x)."
+      }
+     ]
+    },
+    {
+     "guide": "Model 6(2x − 5) with an area model. Your child expands and factors. Check before moving on: ask \"Expand 6(2x − 5).\" Look for: 12x − 30.",
+     "questions": [
+      {
+       "q": "Expand 6(2x − 5).",
+       "a": "12x − 30."
+      },
+      {
+       "q": "Factor 12x + 18.",
+       "a": "6(2x + 3)."
+      }
+     ]
+    },
+    {
+     "guide": "Model 3x − 4 − 7x + 2.5. Your child simplifies and checks with x = 1. Check before moving on: ask \"Simplify.\" Look for: −4x − 1.5. Check x = 1: original 3 − 4 − 7 + 2.5 = −5.5; simplified −4 − 1.5 = −5.5.",
+     "questions": [
+      {
+       "q": "Simplify.",
+       "a": "−4x − 1.5. Check x = 1: original 3 − 4 − 7 + 2.5 = −5.5; simplified −4 − 1.5 = −5.5."
+      }
+     ]
+    },
+    {
+     "guide": "Model a + 0.05a = 1.05a. Your child solves 4 similar problems. Check before moving on: ask \"Write a 20% decrease of p two ways.\" Look for: p − 0.20p and 0.80p.",
+     "questions": [
+      {
+       "q": "Write a 20% decrease of p two ways.",
+       "a": "p − 0.20p and 0.80p."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Simplify −2(x − 4) + 3x.\" Look for: x + 8.",
+     "questions": [
+      {
+       "q": "Simplify −2(x − 4) + 3x.",
+       "a": "x + 8."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 4(3x − 2) = 12x − 8. 2) Factor 15x − 10 = 5(3x − 2). 3) 2x + 5 − 6x − 1 = −4x + 4. 4) Is 3(x + 2) equivalent to 3x + 2? No. 5) 8% increase on c: 1.08c. 6) −(5 − x) = x − 5."
+  },
+  {
+   "week": 27,
+   "prep": "visualpatterns.org (pick two patterns), calculator, graph paper.",
+   "misconceptions": [
+    "Writing an expression that only fits step 1. Test the expression on at least three steps.",
+    "Treating break-even as revenue alone. Break-even is where revenue = cost."
+   ],
+   "days": [
+    {
+     "guide": "Show a visual pattern; describe how it grows. Your child writes two different-looking expressions and shows they are equivalent. Check before moving on: ask \"Pattern: 5, 8, 11, 14 tiles. Expression for step n?\" Look for: 3n + 2 (check n = 1: 5).",
+     "questions": [
+      {
+       "q": "Pattern: 5, 8, 11, 14 tiles. Expression for step n?",
+       "a": "3n + 2 (check n = 1: 5)."
+      }
+     ]
+    },
+    {
+     "guide": "Model: supplies cost $30 plus $0.50 per cookie; cookies sell for $1.25. Your child finds break-even. Check before moving on: ask \"Break-even?\" Look for: 1.25c = 30 + 0.50c → 0.75c = 30 → c = 40 cookies.",
+     "questions": [
+      {
+       "q": "Break-even?",
+       "a": "1.25c = 30 + 0.50c → 0.75c = 30 → c = 40 cookies."
+      }
+     ]
+    },
+    {
+     "guide": "Plan A: $30 + $5 per GB; Plan B: $50 flat. Your child writes equations and an inequality for when A is cheaper. Check before moving on: ask \"When is A cheaper?\" Look for: 30 + 5g < 50 → g < 4 GB.",
+     "questions": [
+      {
+       "q": "When is A cheaper?",
+       "a": "30 + 5g < 50 → g < 4 GB."
+      }
+     ]
+    },
+    {
+     "guide": "Your child finds and corrects errors in 6 worked solutions, writing the error in words. Check before moving on: ask \"Error: −3x < 12 → x < −4.\" Look for: Dividing by −3 must reverse: x > −4.",
+     "questions": [
+      {
+       "q": "Error: −3x < 12 → x < −4.",
+       "a": "Dividing by −3 must reverse: x > −4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key) and collect the fundraiser write-up. Check before moving on: ask \"Simplify 2(3n + 1) − n.\" Look for: 5n + 2.",
+     "questions": [
+      {
+       "q": "Simplify 2(3n + 1) − n.",
+       "a": "5n + 2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Pattern 4, 7, 10 → 3n + 1. 2) 2(x − 3) = 3x − 4 → x = −2. 3) 4x − 5 > 11 → x > 4. 4) Break-even: $20 costs + $2/item, sells $6 → 5 items. Write-up rubric: correct cost/revenue expressions, correct break-even, interpretation."
+  },
+  {
+   "week": 28,
+   "prep": "Index cards for the equation sort; Illustrative Mathematics unit 6 practice problems.",
+   "misconceptions": [
+    "Forgetting to check solutions — require substitution.",
+    "Writing an inequality where an equation is meant (look for 'at least', 'more than')."
+   ],
+   "days": [
+    {
+     "guide": "Your child sorts 15 cards by solution and strategy and explains groupings. Check before moving on: ask \"Which have the same solution: 2x + 4 = 10, 3(x − 1) = 6, x/3 = 1?\" Look for: All have x = 3.",
+     "questions": [
+      {
+       "q": "Which have the same solution: 2x + 4 = 10, 3(x − 1) = 6, x/3 = 1?",
+       "a": "All have x = 3."
+      }
+     ]
+    },
+    {
+     "guide": "Your child writes one equation and one inequality word problem with full solutions. Check before moving on: ask \"What makes a good word problem?\" Look for: Clear quantities, a question, and a unique answer that fits the context.",
+     "questions": [
+      {
+       "q": "What makes a good word problem?",
+       "a": "Clear quantities, a question, and a unique answer that fits the context."
+      }
+     ]
+    },
+    {
+     "guide": "Swap problems with a parent or sibling; each solves and checks. Check before moving on: ask \"How do you check an inequality answer?\" Look for: Substitute a value from the solution set and one outside it.",
+     "questions": [
+      {
+       "q": "How do you check an inequality answer?",
+       "a": "Substitute a value from the solution set and one outside it."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review from IM practice set. Check before moving on: ask \"−3(x + 2) = 12?\" Look for: x = −6.",
+     "questions": [
+      {
+       "q": "−3(x + 2) = 12?",
+       "a": "x = −6."
+      }
+     ]
+    },
+    {
+     "guide": "Give the unit 6 test (see key). Check before moving on: ask \"6 − 2x ≥ 0?\" Look for: x ≤ 3.",
+     "questions": [
+      {
+       "q": "6 − 2x ≥ 0?",
+       "a": "x ≤ 3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 6 test sample answers: 1) 4x − 9 = 15 → 6. 2) −2(x − 5) = 4 → 3. 3) 2/3 x + 1 = 9 → 12. 4) 7 − x < 2 → x > 5. 5) Expand −3(2x − 1) = −6x + 3. 6) Simplify 5x − 2 − 3x + 8 = 2x + 6. 7) $15 per hour plus $20 tips, at least $110 → h ≥ 6. 8) Equation from tape diagram correct."
+  },
+  {
+   "week": 29,
+   "prep": "Protractor, paper strips, brads (paper fasteners).",
+   "misconceptions": [
+    "Mixing up complementary (90°) and supplementary (180°). Mnemonic: C comes before S, 90 before 180.",
+    "Thinking vertical angles are angles that look vertical. They are opposite each other at an intersection."
+   ],
+   "days": [
+    {
+     "guide": "Draw two intersecting lines. Your child measures all four angles and records sums and equal pairs. Check before moving on: ask \"One angle is 65°. The adjacent angle on the line?\" Look for: 115°.",
+     "questions": [
+      {
+       "q": "One angle is 65°. The adjacent angle on the line?",
+       "a": "115°."
+      }
+     ]
+    },
+    {
+     "guide": "Model x + 47 = 90. Your child finds complements and supplements. Check before moving on: ask \"Complement of 47°?\" Look for: 43°.",
+     "questions": [
+      {
+       "q": "Complement of 47°?",
+       "a": "43°."
+      },
+      {
+       "q": "Supplement of 47°?",
+       "a": "133°."
+      }
+     ]
+    },
+    {
+     "guide": "Build an X with strips and a brad and rotate. Your child records vertical-angle pairs. Check before moving on: ask \"One angle is 130°. Its vertical angle?\" Look for: 130°.",
+     "questions": [
+      {
+       "q": "One angle is 130°. Its vertical angle?",
+       "a": "130°."
+      }
+     ]
+    },
+    {
+     "guide": "Model (2x + 10) + 3x = 180. Your child solves 10. Check before moving on: ask \"Solve.\" Look for: 5x + 10 = 180, x = 34; angles 78° and 102°.",
+     "questions": [
+      {
+       "q": "Solve.",
+       "a": "5x + 10 = 180, x = 34; angles 78° and 102°."
+      },
+      {
+       "q": "Vertical angles 4x − 10 and 2x + 30?",
+       "a": "x = 20, each 70°."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Complementary angles x and 2x?\" Look for: x = 30°, 60°.",
+     "questions": [
+      {
+       "q": "Complementary angles x and 2x?",
+       "a": "x = 30°, 60°."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Complement of 28° = 62°. 2) Supplement of 95° = 85°. 3) Vertical angle of 54° = 54°. 4) x + 3x = 180 → x = 45. 5) (x + 20) + 2x = 90 → x = 70/3 ≈ 23.3. 6) Three angles on a line: 40, x, 75 → x = 65."
+  },
+  {
+   "week": 30,
+   "prep": "Straws, scissors, ruler, protractor, compass.",
+   "misconceptions": [
+    "Thinking any three lengths form a triangle. The two shorter sides must add to more than the longest.",
+    "Thinking three angles determine one triangle. They fix the shape, not the size."
+   ],
+   "days": [
+    {
+     "guide": "Cut straw sets (e.g., 3-4-5, 3-4-8, 4-4-8, 5-5-5). Your child tests each and states the triangle inequality. Check before moving on: ask \"3, 4, 8 cm?\" Look for: No: 3 + 4 = 7 < 8.",
+     "questions": [
+      {
+       "q": "3, 4, 8 cm?",
+       "a": "No: 3 + 4 = 7 < 8."
+      },
+      {
+       "q": "4, 4, 8?",
+       "a": "No: 4 + 4 = 8 collapses flat."
+      }
+     ]
+    },
+    {
+     "guide": "Your child draws triangles with angles 50°, 60°, 70° of different sizes. Check before moving on: ask \"Are they the same?\" Look for: Same shape (scaled copies), different sizes — not unique.",
+     "questions": [
+      {
+       "q": "Are they the same?",
+       "a": "Same shape (scaled copies), different sizes — not unique."
+      }
+     ]
+    },
+    {
+     "guide": "Model SAS with ruler and protractor. Your child constructs and compares with someone else's. Check before moving on: ask \"Sides 5 and 7 cm with 40° between: unique?\" Look for: Yes — SAS gives one triangle.",
+     "questions": [
+      {
+       "q": "Sides 5 and 7 cm with 40° between: unique?",
+       "a": "Yes — SAS gives one triangle."
+      }
+     ]
+    },
+    {
+     "guide": "Your child classifies 8 condition sets. Check before moving on: ask \"Angles 90°, 60°, 40°?\" Look for: No triangle — sum is 190°.",
+     "questions": [
+      {
+       "q": "Angles 90°, 60°, 40°?",
+       "a": "No triangle — sum is 190°."
+      },
+      {
+       "q": "Sides 6, 8, 10?",
+       "a": "Exactly one triangle."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Third side of a triangle with sides 5 and 9 must be between…?\" Look for: 4 and 14.",
+     "questions": [
+      {
+       "q": "Third side of a triangle with sides 5 and 9 must be between…?",
+       "a": "4 and 14."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 2, 3, 6: no triangle. 2) 5, 6, 7: one. 3) Angles 30, 60, 90: many (any size). 4) Two sides + included angle: one. 5) Angles 100, 100, x: none. Straw table: correct yes/no for every set."
+  },
+  {
+   "week": 31,
+   "prep": "Clay or play dough, dental floss, cereal box, Toblerone-style triangular box, ruler.",
+   "misconceptions": [
+    "Using the side face instead of the base for a triangular prism. The base is the triangle; height is the distance between triangles.",
+    "Forgetting ½ in triangle area."
+   ],
+   "days": [
+    {
+     "guide": "Your child slices clay shapes parallel and perpendicular to the base and sketches cross sections. Check before moving on: ask \"Cube sliced parallel to a face?\" Look for: A square.",
+     "questions": [
+      {
+       "q": "Cube sliced parallel to a face?",
+       "a": "A square."
+      },
+      {
+       "q": "Cylinder sliced perpendicular to its base (vertically through the middle)?",
+       "a": "A rectangle."
+      }
+     ]
+    },
+    {
+     "guide": "Model V = Bh. Your child finds volumes. Check before moving on: ask \"Rectangular prism 3 × 4 × 5?\" Look for: 60 units³.",
+     "questions": [
+      {
+       "q": "Rectangular prism 3 × 4 × 5?",
+       "a": "60 units³."
+      },
+      {
+       "q": "Triangular prism, triangle base 6 and height 4, length 10?",
+       "a": "12 × 10 = 120 units³."
+      }
+     ]
+    },
+    {
+     "guide": "Your child decomposes L-shaped prisms into two rectangular prisms. Check before moving on: ask \"L-shaped base area 22 cm², height 5 cm?\" Look for: 110 cm³.",
+     "questions": [
+      {
+       "q": "L-shaped base area 22 cm², height 5 cm?",
+       "a": "110 cm³."
+      }
+     ]
+    },
+    {
+     "guide": "Measure the boxes. Your child computes volumes with units. Check before moving on: ask \"Cereal box 30 × 20 × 7 cm?\" Look for: 4,200 cm³.",
+     "questions": [
+      {
+       "q": "Cereal box 30 × 20 × 7 cm?",
+       "a": "4,200 cm³."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Cross section of a square pyramid parallel to the base?\" Look for: A smaller square.",
+     "questions": [
+      {
+       "q": "Cross section of a square pyramid parallel to the base?",
+       "a": "A smaller square."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Cylinder cut parallel to base: circle. 2) Prism 2 × 5 × 8: 80. 3) Triangular prism base area 15, height 9: 135. 4) Triangle base 10, h 3, prism length 12: 180. 5) Cube side 4: 64. Sketches: correct shape for each slice."
+  },
+  {
+   "week": 32,
+   "prep": "Cardstock, tape, ruler, scissors.",
+   "misconceptions": [
+    "Counting only 3 faces of a rectangular prism. There are 6 (3 pairs).",
+    "Using cubic units for surface area. Surface area is square units."
+   ],
+   "days": [
+    {
+     "guide": "Your child draws, cuts and folds nets of triangular and rectangular prisms. Check before moving on: ask \"How many faces in a triangular prism net?\" Look for: 5 (2 triangles, 3 rectangles).",
+     "questions": [
+      {
+       "q": "How many faces in a triangular prism net?",
+       "a": "5 (2 triangles, 3 rectangles)."
+      }
+     ]
+    },
+    {
+     "guide": "Model SA as the sum of face areas. Your child finds SA including a prism with a hole. Check before moving on: ask \"2 × 3 × 4 prism SA?\" Look for: 2(6 + 8 + 12) = 52 units².",
+     "questions": [
+      {
+       "q": "2 × 3 × 4 prism SA?",
+       "a": "2(6 + 8 + 12) = 52 units²."
+      },
+      {
+       "q": "Cube side 5?",
+       "a": "150 units²."
+      }
+     ]
+    },
+    {
+     "guide": "Your child classifies 8 situations then solves. Check before moving on: ask \"Wrapping a gift?\" Look for: Surface area.",
+     "questions": [
+      {
+       "q": "Wrapping a gift?",
+       "a": "Surface area."
+      },
+      {
+       "q": "Filling a pool?",
+       "a": "Volume."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review; one of each topic. Check before moving on: ask \"Supplement of 72°?\" Look for: 108°.",
+     "questions": [
+      {
+       "q": "Supplement of 72°?",
+       "a": "108°."
+      }
+     ]
+    },
+    {
+     "guide": "Give the unit 7 test (see key). Check before moving on: ask \"Cube with volume 27. Surface area?\" Look for: Side 3; SA = 54.",
+     "questions": [
+      {
+       "q": "Cube with volume 27. Surface area?",
+       "a": "Side 3; SA = 54."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test sample answers: 1) Complement of 35 = 55. 2) x + 2x + 30 = 180 → 50. 3) 4, 5, 10: no triangle. 4) Prism 4 × 5 × 6 volume 120, SA 148. 5) Triangular prism (3-4-5 right triangle, length 10): V = 60, SA = 12 + 120 = 132. 6) Cross section of cylinder parallel to base: circle."
+  },
+  {
+   "week": 33,
+   "prep": "Coins, dice, paper bag with colored tiles (e.g., 5 red, 3 blue, 2 green).",
+   "misconceptions": [
+    "Thinking past results affect future independent events (gambler's fallacy).",
+    "Expecting experimental results to exactly match theory in few trials."
+   ],
+   "days": [
+    {
+     "guide": "Your child places 10 events on a 0–1 line and justifies. Check before moving on: ask \"Rolling a 7 on one die?\" Look for: 0, impossible.",
+     "questions": [
+      {
+       "q": "Rolling a 7 on one die?",
+       "a": "0, impossible."
+      },
+      {
+       "q": "Flipping heads?",
+       "a": "1/2."
+      }
+     ]
+    },
+    {
+     "guide": "Your child lists sample spaces. Check before moving on: ask \"Two coins?\" Look for: HH, HT, TH, TT (4).",
+     "questions": [
+      {
+       "q": "Two coins?",
+       "a": "HH, HT, TH, TT (4)."
+      },
+      {
+       "q": "One die?",
+       "a": "1, 2, 3, 4, 5, 6."
+      }
+     ]
+    },
+    {
+     "guide": "Your child draws 50 times with replacement and records relative frequencies. Check before moving on: ask \"Red drawn 22 of 50 times. Relative frequency?\" Look for: 0.44.",
+     "questions": [
+      {
+       "q": "Red drawn 22 of 50 times. Relative frequency?",
+       "a": "0.44."
+      }
+     ]
+    },
+    {
+     "guide": "Your child compares to theory (red = 5/10 = 0.5) and explains. Check before moving on: ask \"Why do more trials help?\" Look for: Experimental probability tends to get closer to theoretical (law of large numbers).",
+     "questions": [
+      {
+       "q": "Why do more trials help?",
+       "a": "Experimental probability tends to get closer to theoretical (law of large numbers)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"P(even on a die)?\" Look for: 3/6 = 1/2.",
+     "questions": [
+      {
+       "q": "P(even on a die)?",
+       "a": "3/6 = 1/2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) P(5 on a die) = 1/6. 2) P(blue) from 5R 3B 2G = 3/10. 3) Sample space of a 4-color spinner: 4 outcomes. 4) 'Likely' is between 0.5 and 1. 5) 30 heads in 50 flips: 0.6 experimental vs 0.5 theoretical."
+  },
+  {
+   "week": 34,
+   "prep": "Two dice, coins, random number generator (random.org or a calculator).",
+   "misconceptions": [
+    "Counting a sum like 7 as one outcome instead of 6 ordered pairs.",
+    "Too few simulation trials. Emphasize more trials give better estimates."
+   ],
+   "days": [
+    {
+     "guide": "Model a tree for 3 shirts × 2 pants. Your child draws trees for outfits and coin-die combos. Check before moving on: ask \"Coin and die outcomes?\" Look for: 12.",
+     "questions": [
+      {
+       "q": "Coin and die outcomes?",
+       "a": "12."
+      },
+      {
+       "q": "3 shirts, 2 pants, 2 shoes?",
+       "a": "12 outfits."
+      }
+     ]
+    },
+    {
+     "guide": "Your child completes the 6 × 6 sum table. Check before moving on: ask \"P(sum = 7)?\" Look for: 6/36 = 1/6.",
+     "questions": [
+      {
+       "q": "P(sum = 7)?",
+       "a": "6/36 = 1/6."
+      },
+      {
+       "q": "P(doubles)?",
+       "a": "6/36 = 1/6."
+      }
+     ]
+    },
+    {
+     "guide": "Design: H = girl, flip 3 coins per trial. Your child runs 30 trials. Check before moving on: ask \"Theoretical P(at least 2 girls)?\" Look for: 4/8 = 1/2.",
+     "questions": [
+      {
+       "q": "Theoretical P(at least 2 girls)?",
+       "a": "4/8 = 1/2."
+      }
+     ]
+    },
+    {
+     "guide": "Model: digits 1–3 = make, 4–10 = miss. Your child simulates 5 shots many times. Check before moving on: ask \"Theoretical answer?\" Look for: About 0.47.",
+     "questions": [
+      {
+       "q": "Theoretical answer?",
+       "a": "About 0.47."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"P(two heads in two flips)?\" Look for: 1/4.",
+     "questions": [
+      {
+       "q": "P(two heads in two flips)?",
+       "a": "1/4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Outfits from 4 shirts, 3 pants = 12. 2) P(sum 8) = 5/36. 3) P(HH) = 1/4. 4) P(at least one head in 2 flips) = 3/4. 5) Simulation design must state model, trial, success, number of trials."
+  },
+  {
+   "week": 35,
+   "prep": "A long novel, random number generator, graph paper.",
+   "misconceptions": [
+    "Thinking a large sample is unbiased. A large biased sample is still biased.",
+    "Expecting every sample to give the same mean."
+   ],
+   "days": [
+    {
+     "guide": "Your child identifies population and sample in 8 scenarios and judges bias. Check before moving on: ask \"Surveying soccer fans about the favorite sport — biased?\" Look for: Yes, not representative.",
+     "questions": [
+      {
+       "q": "Surveying soccer fans about the favorite sport — biased?",
+       "a": "Yes, not representative."
+      }
+     ]
+    },
+    {
+     "guide": "Your child samples random pages and computes mean word length. Check before moving on: ask \"Why random pages?\" Look for: Every page has an equal chance, giving a representative sample.",
+     "questions": [
+      {
+       "q": "Why random pages?",
+       "a": "Every page has an equal chance, giving a representative sample."
+      }
+     ]
+    },
+    {
+     "guide": "Your child takes 5 samples of 10 words and compares means. Check before moving on: ask \"What do differing means show?\" Look for: Sampling variability.",
+     "questions": [
+      {
+       "q": "What do differing means show?",
+       "a": "Sampling variability."
+      }
+     ]
+    },
+    {
+     "guide": "Model MAD. Your child compares two plant groups. Check before moving on: ask \"Means 12 and 18, MADs about 2. Meaningful?\" Look for: Yes — difference is 3 MADs, more than 2, so it is meaningful.",
+     "questions": [
+      {
+       "q": "Means 12 and 18, MADs about 2. Meaningful?",
+       "a": "Yes — difference is 3 MADs, more than 2, so it is meaningful."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key). Check before moving on: ask \"Population for a survey of 50 of 1,000 students?\" Look for: All 1,000 students.",
+     "questions": [
+      {
+       "q": "Population for a survey of 50 of 1,000 students?",
+       "a": "All 1,000 students."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Survey of 7th graders: population = all 7th graders at the school. 2) Random sample best. 3) Mean of 2, 4, 6, 8 = 5; MAD = 2. 4) Means differ by 3 MADs: meaningful. Report: proficient includes method, mean, variability."
+  },
+  {
+   "week": 36,
+   "prep": "Survey form, ruler (for drop test), graph paper, calculator; cumulative review set; final exam (IM end-of-year or Khan course challenge).",
+   "misconceptions": [
+    "Comparing groups by single values instead of measures of center and spread.",
+    "Using a sample of convenience for 'random'."
+   ],
+   "days": [
+    {
+     "guide": "Your child writes a statistical question and sampling plan. Check before moving on: ask \"Is 'How fast is my reaction?' statistical?\" Look for: No — it has one answer; compare groups for variability.",
+     "questions": [
+      {
+       "q": "Is 'How fast is my reaction?' statistical?",
+       "a": "No — it has one answer; compare groups for variability."
+      }
+     ]
+    },
+    {
+     "guide": "Your child collects 10+ per group with the ruler-drop test and creates dot plots. Check before moving on: ask \"Why the same procedure for everyone?\" Look for: Fair comparison.",
+     "questions": [
+      {
+       "q": "Why the same procedure for everyone?",
+       "a": "Fair comparison."
+      }
+     ]
+    },
+    {
+     "guide": "Your child computes mean and MAD, writes conclusions, presents. Check before moving on: ask \"Mean 18 cm vs 14 cm, MAD 3. Meaningful?\" Look for: Difference 4 is about 1.3 MADs — not strongly meaningful.",
+     "questions": [
+      {
+       "q": "Mean 18 cm vs 14 cm, MAD 3. Meaningful?",
+       "a": "Difference 4 is about 1.3 MADs — not strongly meaningful."
+      }
+     ]
+    },
+    {
+     "guide": "Cumulative review; target weak units from earlier checks. Check before moving on: ask \"Area of circle with r = 3?\" Look for: 9π ≈ 28.26.",
+     "questions": [
+      {
+       "q": "Area of circle with r = 3?",
+       "a": "9π ≈ 28.26."
+      }
+     ]
+    },
+    {
+     "guide": "Give the final exam; set goals for Math 8. Check before moving on: ask \"Solve −2x + 7 = 15.\" Look for: x = −4.",
+     "questions": [
+      {
+       "q": "Solve −2x + 7 = 15.",
+       "a": "x = −4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final exam sample answers: 1) Scale factor 6→15: 2.5. 2) y = 4x through (3,12). 3) C for d = 10: 31.4. 4) $80 with 15% off: $68. 5) −7 − (−3) = −4. 6) 3x − 5 = 16 → 7. 7) Complement of 38: 52. 8) Prism 3 × 4 × 5: 60. 9) P(sum 7) = 1/6. Investigation rubric: 4 = statistical question, random sample, correct mean/MAD, valid conclusion; 3 = minor errors; 2 = missing parts; 1 = incomplete."
+  }
+ ]
+}

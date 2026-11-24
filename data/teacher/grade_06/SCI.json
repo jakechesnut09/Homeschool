@@ -1,0 +1,2023 @@
+{
+ "grade": 6,
+ "subject": "SCI",
+ "overview": "This integrated California NGSS course is hands-on: most days are an investigation, so read the day's activity ahead, gather materials and do any hot, sharp or electrical steps yourself. Have your child predict before testing, record data in the science notebook, and explain results with claim-evidence-reasoning (CER). Ask 'What's your evidence?' constantly and let engineering designs fail and improve — the redesign is the learning.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Gather: paper towels of 3 brands, water, measuring cup, notebook. Use the same measuring cup each trial; label three cups. Have a composition book for the notebook.",
+   "misconceptions": [
+    "Changing more than one variable at once. In a fair test only the independent variable changes; everything else stays constant.",
+    "Thinking one trial is enough. Repeat trials (3) and average to reduce error."
+   ],
+   "days": [
+    {
+     "guide": "Set up the notebook together (table of contents, safety rules). Discuss: scientists ask questions about the natural world; engineers design solutions to problems.",
+     "questions": [
+      {
+       "q": "What is the difference between what scientists and engineers do?",
+       "a": "Scientists ask questions and investigate to explain how the world works; engineers define problems and design, test and improve solutions."
+      }
+     ]
+    },
+    {
+     "guide": "Model turning 'Why do plants grow?' into 'Does the amount of water affect how tall bean plants grow in 2 weeks?' The child rewrites 10 and names variables.",
+     "questions": [
+      {
+       "q": "In 'Does the temperature of water affect how fast sugar dissolves?', name the independent and dependent variables.",
+       "a": "Independent: water temperature. Dependent: time for sugar to dissolve."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the procedure first (same size sheet, same 100 mL water, same soak time), then runs three trials per brand, measuring water left over or squeezed out.",
+     "questions": [
+      {
+       "q": "Name three things that must stay the same for a fair paper-towel test.",
+       "a": "Towel size, amount of water, soaking time (also how it's squeezed/drained)."
+      }
+     ]
+    },
+    {
+     "guide": "Model a data table with Trial 1–3 and Average columns; compute averages; draw a labeled bar graph.",
+     "questions": [
+      {
+       "q": "Trials of 28, 30 and 32 mL. What is the average?",
+       "a": "30 mL."
+      }
+     ]
+    },
+    {
+     "guide": "Model the CER frame. The child writes a conclusion and takes the variables quiz.",
+     "questions": [
+      {
+       "q": "What is the 'evidence' part of a CER?",
+       "a": "Specific data from the investigation (e.g., averages) that supports the claim."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Variables quiz: for 'Does the amount of sunlight affect plant height?' — independent: amount of sunlight; dependent: plant height; controlled: plant type, water, soil, pot size. For the paper towel test — independent: brand; dependent: amount of water absorbed (mL); constants: towel size, water amount, soaking time, squeezing method. CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. (Example: 'Brand B absorbs the most water — it held an average of 32 mL compared with 25 mL and 20 mL — because its thicker fibers have more space for water.')"
+  },
+  {
+   "week": 2,
+   "prep": "Gather: index cards, tape, pennies, straws. Gather index cards, tape (measure 30 cm strips), pennies (100+), two books to make a 20 cm gap.",
+   "misconceptions": [
+    "Confusing criteria and constraints. Criteria = what success looks like; constraints = limits (materials, time, cost).",
+    "Redesigning randomly. Change one feature based on how the bridge failed."
+   ],
+   "days": [
+    {
+     "guide": "Examine a lunch box: list what it must do (criteria) and its limits (constraints).",
+     "questions": [
+      {
+       "q": "For a lunch box, give one criterion and one constraint.",
+       "a": "Criterion: keeps food cold for 4 hours. Constraint: must cost under $15 / fit in a backpack."
+      }
+     ]
+    },
+    {
+     "guide": "Explain the challenge rules; the child sketches and builds. Hint: folding cards into beams or tubes adds strength.",
+     "questions": [
+      {
+       "q": "Why might a folded (corrugated or U-shaped) card hold more than a flat one?",
+       "a": "Folding makes the card stiffer, so it bends less under load."
+      }
+     ]
+    },
+    {
+     "guide": "Load pennies one at a time until failure; note where it failed, redesign and retest.",
+     "questions": [
+      {
+       "q": "Why record where the bridge failed?",
+       "a": "It shows the weak point, guiding the redesign."
+      }
+     ]
+    },
+    {
+     "guide": "Model a decision matrix with weights (strength ×3, materials ×1, ease ×1).",
+     "questions": [
+      {
+       "q": "Why use a weighted matrix?",
+       "a": "It compares designs fairly on the criteria that matter most."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the engineering report.",
+     "questions": [
+      {
+       "q": "What are criteria?",
+       "a": "The requirements a successful design must meet."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Engineering report rubric — 4: states the problem, criteria (spans 20 cm, holds most pennies), constraints (10 cards, 30 cm tape), sketches of designs, penny counts for both tests, and explains why the redesign changed results; 3: one section thin; 2: missing data or redesign; 1: incomplete."
+  },
+  {
+   "week": 3,
+   "prep": "Gather: food coloring, cups of hot and cold water, thermometer, PhET States of Matter. Use hot tap water (not boiling) and ice water; bookmark PhET States of Matter.",
+   "misconceptions": [
+    "Thinking temperature and thermal energy are the same. Temperature is average particle motion; thermal energy is the total — a bathtub of warm water has more thermal energy than a cup of hot cocoa.",
+    "Thinking particles stop moving in cold substances. They move slower, but still move."
+   ],
+   "days": [
+    {
+     "guide": "Drop food coloring in both cups at the same moment; time and sketch observations every 30 seconds.",
+     "questions": [
+      {
+       "q": "Predict: in which cup will the color spread faster?",
+       "a": "Hot water — its particles move faster."
+      }
+     ]
+    },
+    {
+     "guide": "The child draws particle models (dots with motion lines) of hot vs. cold.",
+     "questions": [
+      {
+       "q": "How should particle drawings of hot and cold water differ?",
+       "a": "Hot: longer motion lines (faster), slightly more spread apart; cold: shorter lines (slower)."
+      }
+     ]
+    },
+    {
+     "guide": "Run PhET; heat and cool; record particle speed.",
+     "questions": [
+      {
+       "q": "What happens to particle speed as temperature rises?",
+       "a": "It increases."
+      }
+     ]
+    },
+    {
+     "guide": "Build the bottle thermometer; place it in warm then cool water.",
+     "questions": [
+      {
+       "q": "Why does the liquid rise in the straw in warm water?",
+       "a": "The liquid's particles move faster and spread out, so it expands and climbs the straw."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER and takes the quiz.",
+     "questions": [
+      {
+       "q": "Which has more thermal energy: a bathtub of warm water or a cup of hot tea?",
+       "a": "The bathtub — it has far more particles, so more total energy, even at a lower temperature."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected: food coloring spreads faster in hot water because water particles move faster at higher temperatures and bump the dye particles around more quickly. Quiz: 1) temperature measures average kinetic energy of particles 2) thermal energy is total kinetic energy, so it depends on amount 3) a large pool at 25°C has more thermal energy than a cup at 80°C 4) heating makes particles move faster."
+  },
+  {
+   "week": 4,
+   "prep": "Gather: ice cubes, pot, kitchen thermometer, stopwatch, graph paper. Adult must handle the stove. Use a kitchen thermometer that can read 100°C; don't let it touch the pot bottom.",
+   "misconceptions": [
+    "Thinking temperature keeps rising while ice melts. It stays at 0°C until all ice melts.",
+    "Thinking bubbles in boiling water are air. They are water vapor."
+   ],
+   "days": [
+    {
+     "guide": "Heat ice in a pot (adult at the stove), stirring gently; the child records temperature every 30 seconds.",
+     "questions": [
+      {
+       "q": "What temperature do you expect while ice is still melting?",
+       "a": "About 0°C (32°F)."
+      }
+     ]
+    },
+    {
+     "guide": "Graph temperature vs. time; mark the flat sections.",
+     "questions": [
+      {
+       "q": "What do the two flat sections represent?",
+       "a": "Melting at 0°C and boiling at about 100°C (212°F)."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss where the energy goes during plateaus.",
+     "questions": [
+      {
+       "q": "Why does temperature stay constant while water boils even though heat is added?",
+       "a": "The added energy separates particles into gas (overcoming attractions) instead of speeding them up."
+      }
+     ]
+    },
+    {
+     "guide": "Observe a cold glass sweating; freeze water.",
+     "questions": [
+      {
+       "q": "Where do the droplets on a cold glass come from?",
+       "a": "Water vapor in the air cools on the glass and condenses into liquid."
+      }
+     ]
+    },
+    {
+     "guide": "The child makes the poster and takes the quiz.",
+     "questions": [
+      {
+       "q": "What is sublimation? Give an example.",
+       "a": "A solid changing directly to a gas, like dry ice."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) flat section at 0°C = melting 2) flat section at 100°C (at sea level) = boiling 3) during plateaus, energy goes into breaking attractions between particles rather than speeding them up 4) condensation = gas to liquid 5) freezing releases energy to the surroundings. Poster rubric — 4: particle models of solid (packed, vibrating), liquid (close, sliding), gas (far apart, fast), all six changes labeled (melting, freezing, evaporation/boiling, condensation, sublimation, deposition) with energy added/removed arrows; 3: one change missing; 2: several errors; 1: incomplete."
+  },
+  {
+   "week": 5,
+   "prep": "Gather: metal, wooden and plastic spoons, butter, hot water, lamp, black and white paper. Adult handles hot water. Use thermometers that fit under paper; a desk lamp works if not sunny.",
+   "misconceptions": [
+    "Thinking cold flows into things. Energy flows from warmer to cooler; 'cold' is lack of energy.",
+    "Mixing up convection (fluid moving) and conduction (touching)."
+   ],
+   "days": [
+    {
+     "guide": "Stand spoons in hot water with butter dabs at equal heights; record melting order.",
+     "questions": [
+      {
+       "q": "Which spoon's butter melts first and why?",
+       "a": "Metal — metals are good conductors, transferring energy quickly."
+      }
+     ]
+    },
+    {
+     "guide": "Drop blue cold water into warm water; sketch the current.",
+     "questions": [
+      {
+       "q": "Why does the cold blue water sink?",
+       "a": "Cold water is denser than warm water."
+      }
+     ]
+    },
+    {
+     "guide": "Record temperature under black and white paper every 2 minutes.",
+     "questions": [
+      {
+       "q": "Which paper gets warmer and why?",
+       "a": "Black — it absorbs more light energy; white reflects more."
+      }
+     ]
+    },
+    {
+     "guide": "Mix equal hot and cold water; measure.",
+     "questions": [
+      {
+       "q": "If you mix equal amounts of 60°C and 20°C water, what final temperature do you expect?",
+       "a": "About 40°C (a little less, since some energy escapes)."
+      }
+     ]
+    },
+    {
+     "guide": "The child labels the campfire and kitchen diagrams and takes the quiz.",
+     "questions": [
+      {
+       "q": "Name the transfer: feeling the sun on your face.",
+       "a": "Radiation."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) a metal spoon getting hot in soup — conduction 2) warm air rising from a heater — convection 3) feeling sun's warmth — radiation 4) black paper warms more because it absorbs more radiation 5) mixing equal amounts of 60°C and 20°C water gives about 40°C. Diagram: campfire — hands warmed by radiation, smoke/hot air rising by convection, a metal poker heating by conduction; kitchen — pot handle (conduction), boiling water circulating (convection), toaster glow (radiation)."
+  },
+  {
+   "week": 6,
+   "prep": "Gather: two cups, water and sand (or vegetable oil), kitchen scale, thermometer, lamp or sunny window. Weigh water with a kitchen scale (100 g = 100 mL). Same lamp and distance for all cups.",
+   "misconceptions": [
+    "Thinking all materials heat up equally. Water needs much more energy to warm than sand.",
+    "Thinking more mass heats faster. Larger mass warms more slowly with the same energy."
+   ],
+   "days": [
+    {
+     "guide": "The child plans: independent = mass; dependent = temperature change; controlled = lamp, distance, time, starting temperature.",
+     "questions": [
+      {
+       "q": "What is the independent variable?",
+       "a": "The mass of water (100 g vs. 200 g)."
+      }
+     ]
+    },
+    {
+     "guide": "Run under the lamp; record every 2 minutes.",
+     "questions": [
+      {
+       "q": "Predict which mass warms more.",
+       "a": "100 g — the same energy is spread through fewer particles."
+      }
+     ]
+    },
+    {
+     "guide": "Heat equal masses of sand and water.",
+     "questions": [
+      {
+       "q": "Which warms more, sand or water?",
+       "a": "Sand."
+      }
+     ]
+    },
+    {
+     "guide": "Graph both; write conclusions.",
+     "questions": [
+      {
+       "q": "How does type of matter affect temperature change?",
+       "a": "Different materials need different amounts of energy to warm; water needs much more than sand."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER.",
+     "questions": [
+      {
+       "q": "Why are coastal cities' temperatures milder than inland cities'?",
+       "a": "The ocean warms and cools slowly, moderating nearby air temperatures."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report — graphs: temperature vs. time for 100 g and 200 g water (100 g rises more), sand vs. water (sand rises more). CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected CER: beach sand is hotter because sand's temperature rises more than water's for the same energy (water has a high heat capacity), and ocean water mixes heat into a huge mass."
+  },
+  {
+   "week": 7,
+   "prep": "Gather: small boxes or cups, foil, cotton balls, bubble wrap, newspaper, ice cubes, kitchen scale. Pre-freeze same-size ice cubes; a kitchen scale reading grams is required.",
+   "misconceptions": [
+    "Thinking insulation 'adds cold'. It slows energy flow into the ice.",
+    "Skipping the control cup. Without it you can't tell how much the device helped."
+   ],
+   "days": [
+    {
+     "guide": "Define criteria (least mass lost in 60 min) and constraints.",
+     "questions": [
+      {
+       "q": "What is the measurable criterion?",
+       "a": "The ice cube loses the least mass (grams) in 60 minutes."
+      }
+     ]
+    },
+    {
+     "guide": "Sketch two designs; choose one using heat-transfer ideas; build.",
+     "questions": [
+      {
+       "q": "How does foil help?",
+       "a": "Shiny foil reflects radiant energy."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh ice, test for 60 minutes beside a control, reweigh.",
+     "questions": [
+      {
+       "q": "Ice started at 20 g and ended at 14 g. How much melted?",
+       "a": "6 g."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze and redesign one feature; retest.",
+     "questions": [
+      {
+       "q": "Why change only one feature?",
+       "a": "So you know which change caused any improvement."
+      }
+     ]
+    },
+    {
+     "guide": "Present; take the unit test.",
+     "questions": [
+      {
+       "q": "Why do bubble wrap and cotton insulate well?",
+       "a": "They trap air, a poor conductor, and limit convection."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Design rubric — 4: criteria/constraints stated; design justified with conduction (insulators like cotton/bubble wrap), convection (sealed air) and radiation (foil reflects); mass data for device and control; redesign explained by data; 3: minor gaps; 2: no control or redesign; 1: incomplete. Unit 2 test sample: temperature vs. thermal energy; heating curve plateaus; conduction/convection/radiation examples; energy flows hot to cold; water heats slower than sand; mass affects temperature change."
+  },
+  {
+   "week": 8,
+   "prep": "Gather: large bowl, plastic wrap, small cup, ice, plastic bag, a houseplant or leafy branch. Use a large bowl and a small heavy cup; set in sun.",
+   "misconceptions": [
+    "Thinking evaporated seawater is salty. Salt stays behind.",
+    "Leaving out gravity. Gravity pulls precipitation down and makes water flow downhill."
+   ],
+   "days": [
+    {
+     "guide": "Build the bowl model; observe after an hour.",
+     "questions": [
+      {
+       "q": "What do you predict will collect in the cup?",
+       "a": "Fresh water droplets that condensed on the wrap."
+      }
+     ]
+    },
+    {
+     "guide": "Bag a leafy branch; check after 24 hours.",
+     "questions": [
+      {
+       "q": "What is transpiration?",
+       "a": "Plants releasing water vapor through their leaves."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a model with sun and gravity arrows.",
+     "questions": [
+      {
+       "q": "What provides energy for evaporation?",
+       "a": "The sun."
+      }
+     ]
+    },
+    {
+     "guide": "Trace Sierra snowmelt to homes (reservoirs, aqueducts).",
+     "questions": [
+      {
+       "q": "Why does California's snowpack matter?",
+       "a": "Melting snow supplies a large share (roughly a third) of the state's water in spring and summer; a small snowpack means drought risk."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER and takes the quiz.",
+     "questions": [
+      {
+       "q": "Why wasn't the cup water salty?",
+       "a": "Salt doesn't evaporate; only water vapor rose and condensed."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) evaporation 2) condensation 3) precipitation 4) transpiration — water vapor released by plants 5) runoff/collection 6) the sun drives evaporation; gravity drives precipitation and runoff. CER: the cup water isn't salty because only water evaporates; the salt is left behind, and the vapor condenses on the wrap and drips into the cup. Model rubric (4/3/2/1): all processes labeled with energy and gravity arrows."
+  },
+  {
+   "week": 9,
+   "prep": "Gather: balloon, jar, straw, tape, empty plastic bottle, hot water. Do the index-card trick over a sink. Adult pours hot water into the bottle.",
+   "misconceptions": [
+    "Thinking air has no weight or pressure. Air pushes in all directions.",
+    "Thinking the bottle crushes because the air 'sucks'. Outside air pressure pushes in when inside pressure drops."
+   ],
+   "days": [
+    {
+     "guide": "Draw layers to scale with the troposphere at the bottom.",
+     "questions": [
+      {
+       "q": "In which layer does weather happen?",
+       "a": "The troposphere."
+      }
+     ]
+    },
+    {
+     "guide": "Do the card trick and the crushed bottle.",
+     "questions": [
+      {
+       "q": "Why does the capped bottle crush as it cools?",
+       "a": "The air inside cools, its pressure drops, and higher outside air pressure pushes the bottle in."
+      }
+     ]
+    },
+    {
+     "guide": "Build the jar barometer; begin daily readings.",
+     "questions": [
+      {
+       "q": "If the straw pointer rises, what happened to air pressure?",
+       "a": "It increased (pushing the balloon down, lifting the pointer)."
+      }
+     ]
+    },
+    {
+     "guide": "Hold the paper spiral above a warm lamp.",
+     "questions": [
+      {
+       "q": "Why does the spiral spin?",
+       "a": "Warm air is less dense and rises, pushing the spiral."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; compare barometer readings with weather.",
+     "questions": [
+      {
+       "q": "Does falling pressure usually bring fair or stormy weather?",
+       "a": "Stormy/cloudy."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) troposphere — where weather happens (lowest layer) 2) stratosphere — ozone layer 3) mesosphere, thermosphere above 4) air pressure decreases with altitude 5) the bottle crushes because cooling air inside lowers pressure and outside air pushes in 6) warm air rises because it is less dense. Barometer log: daily readings with weather notes; falling pressure often comes before clouds/rain, rising before clear weather."
+  },
+  {
+   "week": 10,
+   "prep": "Gather: clear jar, warm water, ice, match (with adult) or aerosol, cloud chart. Adult lights the match. Use a metal can with outside thermometer for dew point.",
+   "misconceptions": [
+    "Thinking clouds are water vapor. Clouds are tiny liquid droplets or ice crystals; vapor is invisible.",
+    "Confusing sleet and hail. Sleet is frozen raindrops falling through cold air; hail grows in thunderstorm updrafts."
+   ],
+   "days": [
+    {
+     "guide": "Make the cloud in a jar; ask why smoke helps.",
+     "questions": [
+      {
+       "q": "What two things does a cloud need to form?",
+       "a": "Air cooled to its dew point and tiny particles for water to condense on."
+      }
+     ]
+    },
+    {
+     "guide": "Stir ice water in a metal can; record the dew temperature.",
+     "questions": [
+      {
+       "q": "What is the dew point?",
+       "a": "The temperature at which water vapor condenses into liquid."
+      }
+     ]
+    },
+    {
+     "guide": "Photograph and identify clouds daily.",
+     "questions": [
+      {
+       "q": "What weather do cumulonimbus clouds bring?",
+       "a": "Thunderstorms, heavy rain, sometimes hail."
+      }
+     ]
+    },
+    {
+     "guide": "Read about precipitation; diagram each.",
+     "questions": [
+      {
+       "q": "How does hail form?",
+       "a": "Updrafts carry raindrops high into freezing air repeatedly, adding layers of ice until they fall."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Are clouds made of water vapor?",
+       "a": "No — tiny liquid droplets or ice crystals."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) humidity = amount of water vapor in air 2) dew point = temperature at which air becomes saturated and condenses 3) clouds need cooling and particles (condensation nuclei) 4) cumulus = puffy, fair weather; stratus = gray layers; cirrus = wispy, high, ice crystals; cumulonimbus = thunderstorms 5) snow, sleet, freezing rain, hail described correctly. Cloud log: 5+ days with type and weather that followed."
+  },
+  {
+   "week": 11,
+   "prep": "Gather: two containers, warm water, cold blue-dyed water, cardboard divider, weather maps from NOAA. Print three NOAA/NWS surface weather maps; prepare red warm water and blue cold water.",
+   "misconceptions": [
+    "Thinking air masses are named only by temperature. They're named by humidity (maritime/continental) and temperature (tropical/polar).",
+    "Thinking 'H' on a map means hot. H = high pressure."
+   ],
+   "days": [
+    {
+     "guide": "Teach the four types; identify those affecting California.",
+     "questions": [
+      {
+       "q": "What does 'maritime polar' mean, and does it affect California?",
+       "a": "Moist and cold, forming over northern oceans; yes — it brings winter storms from the North Pacific."
+      }
+     ]
+    },
+    {
+     "guide": "Remove the divider; sketch the cold water sliding under warm.",
+     "questions": [
+      {
+       "q": "What happens at a cold front?",
+       "a": "Cold, dense air pushes under warm air, forcing it up quickly — often causing storms and a temperature drop."
+      }
+     ]
+    },
+    {
+     "guide": "Interpret three maps.",
+     "questions": [
+      {
+       "q": "What does a line of blue triangles mean?",
+       "a": "A cold front, moving in the direction the triangles point."
+      }
+     ]
+    },
+    {
+     "guide": "Collect a week of local data and connect to maps.",
+     "questions": [
+      {
+       "q": "What typically happens to pressure before a storm?",
+       "a": "It falls."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes a CER on an observed change.",
+     "questions": [
+      {
+       "q": "What does 'L' on a weather map mean?",
+       "a": "An area of low pressure."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected: e.g., 'A cold front passed Tuesday: temperature dropped 10°F, pressure fell then rose, winds shifted, and showers occurred.' Map key: blue triangles = cold front; red half-circles = warm front; alternating = stationary; purple = occluded; H = high (usually fair); L = low (clouds, precipitation)."
+  },
+  {
+   "week": 12,
+   "prep": "Gather: weather log, National Weather Service website. Bookmark weather.gov and a satellite viewer (NOAA GOES).",
+   "misconceptions": [
+    "Thinking forecasts are guesses. They use data and patterns, though they give probabilities.",
+    "Thinking atmospheric rivers are rivers on land. They're bands of water vapor in the sky."
+   ],
+   "days": [
+    {
+     "guide": "Forecast using the barometer and clouds; check tomorrow.",
+     "questions": [
+      {
+       "q": "Falling pressure and thickening clouds suggest what?",
+       "a": "Rain or a storm likely soon."
+      }
+     ]
+    },
+    {
+     "guide": "Diagram thunderstorm stages.",
+     "questions": [
+      {
+       "q": "Name the three stages of a thunderstorm.",
+       "a": "Cumulus (developing, updrafts), mature (updrafts and downdrafts, heavy rain, lightning), dissipating (downdrafts)."
+      }
+     ]
+    },
+    {
+     "guide": "Read about atmospheric rivers; trace one on satellite imagery.",
+     "questions": [
+      {
+       "q": "What is an atmospheric river?",
+       "a": "A long, narrow band of water vapor in the atmosphere that can bring heavy rain and snow when it reaches land."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes and records a 2-minute report.",
+     "questions": [
+      {
+       "q": "What data should a weather report include?",
+       "a": "Temperature, precipitation chance, wind, pressure trend and a forecast."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test.",
+     "questions": [
+      {
+       "q": "What drives a thunderstorm's growth?",
+       "a": "Rising warm, moist air that cools and condenses, releasing energy."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test sample: water cycle processes; air pressure decreases with altitude; jar-barometer reading; dew point; cloud types; air mass types; front symbols; thunderstorm stages (cumulus, mature, dissipating); atmospheric rivers carry moisture from the tropics and can bring a large share of California's yearly rain and snow. Weather report rubric — 4: real data (temperature, pressure, wind, humidity), map/front explanation, forecast with reasoning, clear delivery; 3: minor gaps; 2: forecast without data; 1: incomplete."
+  },
+  {
+   "week": 13,
+   "prep": "Gather: flashlight, graph paper, globe or ball, lazy Susan or paper plate, marker. Darken the room for the flashlight activity.",
+   "misconceptions": [
+    "Thinking the equator is warmer because it's closer to the sun. It's because sunlight hits more directly, concentrating energy.",
+    "Thinking winds blow straight from poles to equator. Earth's rotation curves them (Coriolis)."
+   ],
+   "days": [
+    {
+     "guide": "Shine straight down vs. angled; count lit squares.",
+     "questions": [
+      {
+       "q": "Which beam lights more squares, and what does it model?",
+       "a": "The angled beam spreads over more squares — energy is less concentrated, like sunlight near the poles."
+      }
+     ]
+    },
+    {
+     "guide": "Draw the three cells per hemisphere.",
+     "questions": [
+      {
+       "q": "Where does air rise in the Hadley cell?",
+       "a": "At the equator, where heating is strongest."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a line across a spinning plate.",
+     "questions": [
+      {
+       "q": "Why does the line curve?",
+       "a": "The plate turns underneath, like Earth rotating; winds appear deflected (right in the Northern Hemisphere)."
+      }
+     ]
+    },
+    {
+     "guide": "Label wind belts on a map.",
+     "questions": [
+      {
+       "q": "Which wind belt affects California?",
+       "a": "The westerlies (blowing from west to east)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Why is the equator warmer than the poles?",
+       "a": "Sunlight strikes it more directly, concentrating energy."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) direct (vertical) light covers less area, so energy is concentrated 2) Hadley cells: air rises at the equator and sinks near 30° 3) Coriolis effect deflects winds right in the Northern Hemisphere 4) trade winds (0–30°) blow from east; westerlies (30–60°) from west; polar easterlies 5) California lies in the prevailing westerlies. Map rubric: all wind belts labeled with arrows and latitudes."
+  },
+  {
+   "week": 14,
+   "prep": "Gather: baking dish, warm and cold colored water, hair dryer or straw, climate data for two cities. Gather monthly temperature and precipitation data for San Diego, Sacramento and Death Valley (NOAA/Weather.gov climate data).",
+   "misconceptions": [
+    "Thinking latitude alone determines climate. Ocean currents, elevation and mountains matter.",
+    "Thinking mountains get equal rain on both sides."
+   ],
+   "days": [
+    {
+     "guide": "Blow across water with pepper; sketch.",
+     "questions": [
+      {
+       "q": "What drives surface ocean currents?",
+       "a": "Wind (plus Earth's rotation and continents shaping their paths)."
+      }
+     ]
+    },
+    {
+     "guide": "Compare SF and D.C. temperatures.",
+     "questions": [
+      {
+       "q": "Why are San Francisco summers cooler than Washington, D.C.'s?",
+       "a": "The cold California Current flowing south cools the coastal air."
+      }
+     ]
+    },
+    {
+     "guide": "Model a rain shadow; compare Sierra rainfall.",
+     "questions": [
+      {
+       "q": "Why is the east side of the Sierra Nevada drier?",
+       "a": "Moist air rises up the western slope, cools and drops precipitation; air descending the east side is dry (rain shadow)."
+      }
+     ]
+    },
+    {
+     "guide": "Make three climographs.",
+     "questions": [
+      {
+       "q": "Why does Death Valley get so little rain?",
+       "a": "It sits in rain shadows of mountains to the west."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER.",
+     "questions": [
+      {
+       "q": "Name two factors besides latitude that affect climate.",
+       "a": "Ocean currents, elevation, mountains, distance from the ocean."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Climograph rubric: bars for monthly precipitation, line for temperature, labeled axes. Expected patterns: San Diego mild year-round, little rain; Sacramento hot dry summers, wet winters; Death Valley extremely hot summers and very little rain (rain shadow). CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected: San Francisco and Washington, D.C. are at similar latitudes, but the cold California Current and ocean winds keep San Francisco cool in summer and mild in winter, while D.C. has hot summers and cold winters."
+  },
+  {
+   "week": 15,
+   "prep": "Gather: two jars, thermometers, plastic wrap, lamp, NASA Climate Kids graphs. Print NASA Climate Kids global temperature and CO₂ graphs. Discuss climate change calmly and focus on solutions.",
+   "misconceptions": [
+    "Confusing weather (daily) and climate (long-term averages).",
+    "Thinking the jar model is exactly the atmosphere. It models trapping heat; the real greenhouse effect involves gases absorbing infrared."
+   ],
+   "days": [
+    {
+     "guide": "Run the jar experiment; record every 2 minutes.",
+     "questions": [
+      {
+       "q": "Which jar warms more?",
+       "a": "The covered jar — the plastic traps warm air, modeling greenhouse gases."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze NASA graphs since 1900.",
+     "questions": [
+      {
+       "q": "What trend do the graphs show?",
+       "a": "Both atmospheric CO₂ and global average temperature have risen, especially since about 1950."
+      }
+     ]
+    },
+    {
+     "guide": "Write and research 8 questions.",
+     "questions": [
+      {
+       "q": "Do changes in the sun's output explain recent warming?",
+       "a": "No — measurements show solar output has been fairly steady while temperatures rose; the main cause is increased greenhouse gases from burning fossil fuels."
+      }
+     ]
+    },
+    {
+     "guide": "Read about snowpack and wildfire; discuss solutions.",
+     "questions": [
+      {
+       "q": "Name a community solution to wildfire risk.",
+       "a": "Clearing brush (defensible space), controlled burns, fire-resistant building, early warning."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test.",
+     "questions": [
+      {
+       "q": "What is the difference between weather and climate?",
+       "a": "Weather is short-term conditions; climate is long-term patterns averaged over decades."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab write-up: covered jar warms more and stays warmer, modeling how greenhouse gases trap heat. Unit 4 test sample: uneven heating; convection cells; Coriolis; wind belts; California Current; rain shadow; greenhouse effect; CO₂ has risen from about 280 ppm before industrialization to over 400 ppm today; average global temperature has risen about 1°C (about 2°F) since the late 1800s mainly due to burning fossil fuels."
+  },
+  {
+   "week": 16,
+   "prep": "Gather: USGS earthquake map, graph paper, tray of sand and water. Open earthquake.usgs.gov 'Latest Earthquakes'. Do the sand tray outside or in a sink.",
+   "misconceptions": [
+    "Thinking scientists can predict exact earthquake times. They forecast probabilities.",
+    "Thinking earthquakes happen randomly. Most occur along faults and plate boundaries."
+   ],
+   "days": [
+    {
+     "guide": "Record and plot 20 quakes.",
+     "questions": [
+      {
+       "q": "Where are most California earthquakes?",
+       "a": "Along faults, especially the San Andreas system and nearby faults."
+      }
+     ]
+    },
+    {
+     "guide": "Compare with the fault map.",
+     "questions": [
+      {
+       "q": "What is the San Andreas fault?",
+       "a": "A boundary where the Pacific Plate and North American Plate slide past each other."
+      }
+     ]
+    },
+    {
+     "guide": "Add water to the sand slope.",
+     "questions": [
+      {
+       "q": "Why do landslides follow heavy rain on burn scars?",
+       "a": "Fire removes plants whose roots hold soil; water-saturated soil becomes heavy and slides."
+      }
+     ]
+    },
+    {
+     "guide": "Read about volcano monitoring.",
+     "questions": [
+      {
+       "q": "What signs suggest a volcano might erupt?",
+       "a": "More small earthquakes, ground swelling and changes in gas emissions."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Can scientists predict the exact day of an earthquake?",
+       "a": "No — they estimate probabilities."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Map analysis rubric: 20 quakes plotted; pattern described (clustered along the San Andreas system and other faults); 4/3/2/1. Quiz: 1) San Andreas is where the Pacific and North American plates slide past each other 2) most California earthquakes cluster along faults 3) landslides are more likely on steep, water-soaked slopes and burn scars 4) Mount Shasta and Lassen Peak are monitored with seismometers, GPS and gas sensors 5) a forecast gives a probability, not a date."
+  },
+  {
+   "week": 17,
+   "prep": "Gather: sugar cubes or blocks, cardboard, rubber bands, pan of gelatin or tray. Build a shake table from cardboard and rubber bands; have sugar cubes.",
+   "misconceptions": [
+    "Thinking stronger always means stiffer. Flexible designs and base isolation can absorb shaking.",
+    "Thinking early warning predicts quakes. It detects one that has begun and warns before strong shaking arrives."
+   ],
+   "days": [
+    {
+     "guide": "Build and test a tower on the shake table.",
+     "questions": [
+      {
+       "q": "Where do towers usually fail?",
+       "a": "At weak joints or the base."
+      }
+     ]
+    },
+    {
+     "guide": "Add cross-bracing or base isolation; retest.",
+     "questions": [
+      {
+       "q": "How does cross-bracing help?",
+       "a": "Diagonal supports form triangles that resist sideways swaying."
+      }
+     ]
+    },
+    {
+     "guide": "Learn ShakeAlert/MyShake.",
+     "questions": [
+      {
+       "q": "How can a few seconds' warning help?",
+       "a": "People can Drop, Cover and Hold On; trains slow; surgeons pause; gas lines shut."
+      }
+     ]
+    },
+    {
+     "guide": "Create a family plan and kit list.",
+     "questions": [
+      {
+       "q": "What should an emergency kit include?",
+       "a": "Water (1 gallon per person per day), food, flashlight, first aid, medications, radio, batteries."
+      }
+     ]
+    },
+    {
+     "guide": "Present; take the Unit 5 test.",
+     "questions": [
+      {
+       "q": "What do you do when shaking starts?",
+       "a": "Drop, Cover and Hold On."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Shake-table report rubric: initial and redesigned tower results, explanation (cross-bracing resists swaying; base isolation reduces shaking transferred). Unit 5 test sample: hazard patterns; ShakeAlert detects fast P-waves and sends warnings before slower, stronger S-waves arrive; Drop, Cover and Hold On; family plan elements (meeting place, contacts, kit with water — 1 gallon per person per day — food, flashlight, first aid, medications)."
+  },
+  {
+   "week": 18,
+   "prep": "Gather: bar magnets, paper clips, iron filings or compass, ruler, paper. Keep magnets away from phones and computers. Iron filings go in a sealed bag.",
+   "misconceptions": [
+    "Thinking magnets attract all metals. Only iron, nickel, cobalt (and steel) are strongly attracted; not aluminum or copper.",
+    "Thinking magnetic force needs touching. It acts at a distance through a field."
+   ],
+   "days": [
+    {
+     "guide": "Test objects; record attracted/not and pole interactions.",
+     "questions": [
+      {
+       "q": "Which is attracted: aluminum foil or a steel paper clip?",
+       "a": "The steel paper clip."
+      }
+     ]
+    },
+    {
+     "guide": "Hold clips through more paper layers; graph.",
+     "questions": [
+      {
+       "q": "What pattern do you expect?",
+       "a": "Fewer clips as distance increases."
+      }
+     ]
+    },
+    {
+     "guide": "Map the field with compass or filings.",
+     "questions": [
+      {
+       "q": "Where is a bar magnet's field strongest?",
+       "a": "At the poles, where field lines are closest together."
+      }
+     ]
+    },
+    {
+     "guide": "Magnetize a needle; float on cork.",
+     "questions": [
+      {
+       "q": "Why does a compass point north?",
+       "a": "Earth acts like a giant magnet; the needle lines up with Earth's magnetic field."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER.",
+     "questions": [
+      {
+       "q": "Do like poles attract or repel?",
+       "a": "Repel."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected: 'Magnetic force decreases as distance increases — at 0 sheets the magnet held 12 clips but at 10 sheets only 3.'"
+  },
+  {
+   "week": 19,
+   "prep": "Gather: balloons, tissue paper bits, iron nail, insulated copper wire, D battery, paper clips. Safety: a bare wire on a D battery gets hot quickly — connect only for a few seconds at a time, hold the wire by its insulation, and never use household outlets.",
+   "misconceptions": [
+    "Thinking static electricity and magnetism are the same. Both act at a distance, but electric forces come from charges and magnetic forces from magnets or moving charges.",
+    "Thinking the battery alone is magnetic. The magnetism comes from current flowing through the coils."
+   ],
+   "days": [
+    {
+     "guide": "Rub a balloon on hair; test tissue bits and a thin stream of water at different distances.",
+     "questions": [
+      {
+       "q": "What happens as you move the charged balloon farther from the tissue bits?",
+       "a": "The pull weakens — electric force decreases with distance."
+      }
+     ]
+    },
+    {
+     "guide": "Draw + and − charges on two balloons; hang them near each other.",
+     "questions": [
+      {
+       "q": "Two balloons both rubbed on hair hang near each other. What happens and why?",
+       "a": "They push apart — both have the same (negative) charge, and like charges repel."
+      }
+     ]
+    },
+    {
+     "guide": "With supervision, wrap wire 20 times around a nail, touch the ends to the battery briefly and count clips.",
+     "questions": [
+      {
+       "q": "Why does the nail become magnetic?",
+       "a": "Electric current flowing through the coiled wire creates a magnetic field, which magnetizes the iron nail."
+      }
+     ]
+    },
+    {
+     "guide": "Test 10, 20 and 30 coils (3 trials each) and graph.",
+     "questions": [
+      {
+       "q": "What is the independent variable in the coil test?",
+       "a": "Number of coils (dependent: number of paper clips)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; the child writes follow-up questions.",
+     "questions": [
+      {
+       "q": "Name two ways to make an electromagnet stronger.",
+       "a": "Add more coils; increase the current (e.g., more batteries in series, used safely)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Electromagnet data: a table of coils (10, 20, 30) vs. paper clips for 3 trials, with averages; graph shows more coils → more clips. Quiz: 1) opposite charges attract, like charges repel 2) a rubbed balloon gains electrons (negative charge) and attracts neutral tissue bits 3) electric force gets weaker with distance 4) an electromagnet gets stronger with more coils or more current 5) unlike a permanent magnet, an electromagnet can be switched off."
+  },
+  {
+   "week": 20,
+   "prep": "Gather: PhET Gravity and Orbits simulation, ball on a string, objects of different masses. Bookmark PhET Gravity and Orbits. Swing the ball outdoors away from people.",
+   "misconceptions": [
+    "Thinking heavier objects fall faster. Without air resistance, all objects fall at the same rate; air resistance slows light, spread-out objects.",
+    "Thinking mass changes on other planets. Mass stays the same; weight changes."
+   ],
+   "days": [
+    {
+     "guide": "Drop a book and a flat sheet, then a book and a crumpled ball of paper, from the same height.",
+     "questions": [
+      {
+       "q": "Why do the book and crumpled paper land together, but a flat sheet falls slower?",
+       "a": "Gravity accelerates both equally; the flat sheet has more air resistance."
+      }
+     ]
+    },
+    {
+     "guide": "Use ratios (Moon ≈ 0.17, Mars ≈ 0.38, Jupiter ≈ 2.5) to compute weights.",
+     "questions": [
+      {
+       "q": "An 80-lb student weighs about how much on the Moon and on Mars?",
+       "a": "About 13 lb on the Moon and about 30 lb on Mars; mass is unchanged."
+      }
+     ]
+    },
+    {
+     "guide": "Change masses in PhET; record orbit changes.",
+     "questions": [
+      {
+       "q": "What happens to Earth's orbit if the Sun's mass increases?",
+       "a": "Stronger gravity pulls Earth into a tighter (smaller) orbit."
+      }
+     ]
+    },
+    {
+     "guide": "Swing the ball, then let go of the string (safely).",
+     "questions": [
+      {
+       "q": "What happens when you let go, and what does it model?",
+       "a": "The ball flies off in a straight line — like a planet if gravity disappeared."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the argument.",
+     "questions": [
+      {
+       "q": "What two factors determine gravitational force?",
+       "a": "The masses of the objects and the distance between them."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Argument rubric — 4: claim that gravitational force increases with greater mass and decreases with greater distance; evidence from the PhET simulation (doubling the Sun's mass pulls Earth into a tighter, faster orbit; removing gravity sends Earth off in a straight line) and planet weight calculations; reasoning connecting evidence; 3: evidence thin; 2: claim only; 1: incorrect."
+  },
+  {
+   "week": 21,
+   "prep": "Gather: ramp (board and books), toy car, balls of different masses, paper cup. Build a ramp (board on books) and cut a door in a paper cup to catch the ball.",
+   "misconceptions": [
+    "Thinking speed and mass affect kinetic energy equally. Doubling speed quadruples kinetic energy; doubling mass only doubles it.",
+    "Measuring cup distance from different starting spots. Always start the cup at the same place."
+   ],
+   "days": [
+    {
+     "guide": "Roll a ball into the cup; measure slide distance.",
+     "questions": [
+      {
+       "q": "Why is cup distance evidence of kinetic energy?",
+       "a": "The moving ball transfers energy to the cup; more energy pushes the cup farther."
+      }
+     ]
+    },
+    {
+     "guide": "Test different-mass balls from the same height, 3 trials each.",
+     "questions": [
+      {
+       "q": "What do you predict for a heavier ball?",
+       "a": "The cup slides farther — more mass, more kinetic energy."
+      }
+     ]
+    },
+    {
+     "guide": "Release the same ball from three heights.",
+     "questions": [
+      {
+       "q": "Why does a higher release give more speed?",
+       "a": "More potential energy converts to kinetic energy at the bottom."
+      }
+     ]
+    },
+    {
+     "guide": "Graph both relationships; compare steepness.",
+     "questions": [
+      {
+       "q": "If speed doubles, how does kinetic energy change?",
+       "a": "It becomes four times as large (KE = ½mv²)."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER.",
+     "questions": [
+      {
+       "q": "A car's speed goes from 30 to 60 mph. How many times more kinetic energy?",
+       "a": "Four times."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Graphs: cup distance increases with mass (roughly a straight line) and increases more steeply with speed (ramp height). CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected: a speeding car is far more dangerous because kinetic energy depends on speed squared — doubling speed gives four times the energy that must be absorbed in a crash."
+  },
+  {
+   "week": 22,
+   "prep": "Gather: rubber bands, ruler, ball, magnets, PhET Energy Skate Park. Fill a pan with flour or sand; bookmark PhET Energy Skate Park.",
+   "misconceptions": [
+    "Thinking potential energy only comes from height. Stretched/compressed objects and magnets also store energy.",
+    "Thinking total energy changes on a roller coaster. It converts between forms; without friction the total stays the same."
+   ],
+   "days": [
+    {
+     "guide": "Drop a ball from three heights into flour; measure crater depth.",
+     "questions": [
+      {
+       "q": "Why are craters deeper from higher drops?",
+       "a": "The ball had more gravitational potential energy, becoming more kinetic energy on impact."
+      }
+     ]
+    },
+    {
+     "guide": "Launch rubber bands from a ruler at different stretches (aim away from people).",
+     "questions": [
+      {
+       "q": "How does stretch distance affect launch distance?",
+       "a": "More stretch stores more elastic potential energy, so the band flies farther."
+      }
+     ]
+    },
+    {
+     "guide": "Hold magnets at different separations.",
+     "questions": [
+      {
+       "q": "When is more energy stored in two attracting magnets: close together or pulled apart?",
+       "a": "Pulled apart — you did work to separate them, and they can snap together."
+      }
+     ]
+    },
+    {
+     "guide": "Track bar graphs in Energy Skate Park.",
+     "questions": [
+      {
+       "q": "Where is the skater's kinetic energy greatest?",
+       "a": "At the lowest point of the track."
+      }
+     ]
+    },
+    {
+     "guide": "Draw roller-coaster energy models; give the quiz.",
+     "questions": [
+      {
+       "q": "What happens to energy 'lost' to friction?",
+       "a": "It becomes thermal energy (and sound); it is not destroyed."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) higher object = more gravitational potential energy 2) more stretch = more elastic potential energy 3) pulling apart attracting magnets stores more energy in the system 4) at the top of a coaster PE is greatest and KE least 5) at the bottom KE is greatest. Energy model rubric: four points labeled with PE and KE bars that trade off and a constant total (minus thermal energy from friction)."
+  },
+  {
+   "week": 23,
+   "prep": "Gather: foam pipe insulation cut in half, marbles, tape, rubber bands. Buy foam pipe insulation and cut it lengthwise into channels.",
+   "misconceptions": [
+    "Thinking energy is used up. It transfers or transforms; it is conserved.",
+    "Starting the marble at exactly the loop's height. It must start higher because of friction."
+   ],
+   "days": [
+    {
+     "guide": "Rub hands; bounce a ball until it stops.",
+     "questions": [
+      {
+       "q": "Why does a bouncing ball stop?",
+       "a": "Each bounce transfers some energy to thermal energy and sound, so it rises less each time."
+      }
+     ]
+    },
+    {
+     "guide": "Define criteria (completes a loop) and constraints (materials).",
+     "questions": [
+      {
+       "q": "Give one criterion for the coaster.",
+       "a": "The marble must complete one loop and stop at the end."
+      }
+     ]
+    },
+    {
+     "guide": "Build and test, adjusting start height.",
+     "questions": [
+      {
+       "q": "Why must the start be higher than the loop?",
+       "a": "Friction converts some energy to heat, so extra potential energy is needed."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the energy argument.",
+     "questions": [
+      {
+       "q": "Where is the marble's speed lowest on the loop?",
+       "a": "At the top of the loop."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test.",
+     "questions": [
+      {
+       "q": "State the law of conservation of energy.",
+       "a": "Energy is not created or destroyed; it only changes form or moves."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Argument rubric — 4: describes energy at release (PE), descent (PE→KE), loop (KE→PE→KE) and end, includes friction converting energy to thermal energy and sound, uses test data on starting height; 3: one section thin; 2: no friction; 1: incomplete. Unit 6 test sample: electric/magnetic forces and distance; electromagnet variables; gravity depends on mass and distance; KE depends on mass and speed (speed matters more); types of PE; energy conservation."
+  },
+  {
+   "week": 24,
+   "prep": "Gather: microscope (or smartphone clip-on microscope), onion, cork, slides or clear tape. A smartphone clip-on microscope works if you lack a microscope. Iodine stains clothes — use gloves.",
+   "misconceptions": [
+    "Thinking cells were seen with the naked eye. Microscopes were needed.",
+    "Moving the slide the wrong way. The image is flipped, so movement appears reversed."
+   ],
+   "days": [
+    {
+     "guide": "Read about Hooke, Leeuwenhoek, Schleiden, Schwann and Virchow; build a timeline.",
+     "questions": [
+      {
+       "q": "What are the three parts of cell theory?",
+       "a": "All living things are made of cells; cells are the basic unit of structure and function; all cells come from existing cells."
+      }
+     ]
+    },
+    {
+     "guide": "Label microscope parts; focus on a letter 'e'.",
+     "questions": [
+      {
+       "q": "How does the 'e' look under the microscope?",
+       "a": "Upside down and backwards."
+      }
+     ]
+    },
+    {
+     "guide": "Observe thin cork; sketch.",
+     "questions": [
+      {
+       "q": "What did Hooke think cork cells looked like?",
+       "a": "Small empty rooms or boxes — so he called them 'cells'."
+      }
+     ]
+    },
+    {
+     "guide": "Prepare an onion wet mount; stain and draw.",
+     "questions": [
+      {
+       "q": "What shape are onion cells, and which structures show?",
+       "a": "Brick-like rectangles; the cell wall and nucleus are visible."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Eyepiece 10×, objective 40×. Total magnification?",
+       "a": "400×."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Robert Hooke observed cork (1665) and named 'cells' 2) Antonie van Leeuwenhoek first saw living microorganisms 3) cell theory: all living things are made of cells; the cell is the basic unit of life; all cells come from existing cells 4) eyepiece, objective, stage, coarse and fine focus, light source 5) total magnification = eyepiece × objective (10× × 40× = 400×) 6) the letter 'e' appears upside down and reversed. Drawings: circular field, labeled magnification, title."
+  },
+  {
+   "week": 25,
+   "prep": "Gather: dry yeast, sugar, warm water, balloon, bottle, pond water (optional), cotton swab. Use warm (not hot) water for yeast. Use a new cotton swab for cheek cells.",
+   "misconceptions": [
+    "Thinking things that move are alive and things that don't aren't. Use all characteristics of life.",
+    "Thinking single-celled organisms are not 'real' living things."
+   ],
+   "days": [
+    {
+     "guide": "Review characteristics: cells, growth, reproduction, use of energy, response, need for water.",
+     "questions": [
+      {
+       "q": "Is a fallen log living, once-living or nonliving?",
+       "a": "Once-living."
+      }
+     ]
+    },
+    {
+     "guide": "Mix yeast, sugar and warm water; balloon on top; measure every 10 minutes.",
+     "questions": [
+      {
+       "q": "What gas inflates the balloon?",
+       "a": "Carbon dioxide produced by the yeast."
+      }
+     ]
+    },
+    {
+     "guide": "Observe pond water; sketch organisms.",
+     "questions": [
+      {
+       "q": "How do we know microorganisms are alive?",
+       "a": "They move, take in food, grow and reproduce."
+      }
+     ]
+    },
+    {
+     "guide": "Swab cheek gently; stain; compare with onion.",
+     "questions": [
+      {
+       "q": "Name one difference between cheek and onion cells.",
+       "a": "Cheek cells are irregular and lack a cell wall; onion cells are rectangular with a cell wall."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER.",
+     "questions": [
+      {
+       "q": "What would happen without sugar?",
+       "a": "Little or no gas — the yeast would have no food for energy."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected: 'Yeast is alive: the balloon grew from 0 cm to 25 cm around in 30 minutes because yeast used sugar for energy and released carbon dioxide gas — living things use energy and produce wastes.'"
+  },
+  {
+   "week": 26,
+   "prep": "Gather: plastic bag, gelatin or cornstarch, small food items as organelles. Prepare gelatin (or cornstarch goo) in a bag; choose food items as organelles.",
+   "misconceptions": [
+    "Thinking only plant cells have mitochondria. Both plant and animal cells do.",
+    "Confusing the cell wall and membrane. Plants have both; animals only a membrane."
+   ],
+   "days": [
+    {
+     "guide": "Teach organelle functions; the child labels an animal cell.",
+     "questions": [
+      {
+       "q": "What does the mitochondrion do?",
+       "a": "Releases energy from food (cellular respiration)."
+      }
+     ]
+    },
+    {
+     "guide": "Make a Venn diagram of plant vs. animal cells.",
+     "questions": [
+      {
+       "q": "Which structures do plant cells have that animal cells lack?",
+       "a": "Cell wall, chloroplasts and a large central vacuole."
+      }
+     ]
+    },
+    {
+     "guide": "Build the edible model with a key.",
+     "questions": [
+      {
+       "q": "Why is a grape a good model for a nucleus?",
+       "a": "Any reasoned answer: round, central and enclosed, like the nucleus."
+      }
+     ]
+    },
+    {
+     "guide": "Write a 'cell is like a city' analogy.",
+     "questions": [
+      {
+       "q": "What would the cell membrane be in a city?",
+       "a": "The city border or gates controlling what comes in and out."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Which organelle carries out photosynthesis?",
+       "a": "The chloroplast."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: nucleus — controls cell, holds DNA; cell membrane — controls what enters/leaves; cytoplasm — gel where organelles sit; mitochondria — release energy from food; ribosomes — make proteins; endoplasmic reticulum — transports materials; Golgi — packages and ships; vacuole — storage; lysosome — breaks down wastes; chloroplast (plant) — photosynthesis; cell wall (plant) — support. Model and analogy rubric: 7+ organelles with accurate functions and fitting analogies."
+  },
+  {
+   "week": 27,
+   "prep": "Gather: raw egg, vinegar, corn syrup, water, potato slices, salt. Start the vinegar soak 1–2 days before Day 2. Handle raw egg with clean hands.",
+   "misconceptions": [
+    "Thinking osmosis moves salt or sugar. In osmosis, water moves across the membrane.",
+    "Thinking the egg grew in vinegar because of vinegar alone. Water from the vinegar moved in."
+   ],
+   "days": [
+    {
+     "guide": "Measure the egg; soak in vinegar.",
+     "questions": [
+      {
+       "q": "What are the bubbles on the egg in vinegar?",
+       "a": "Carbon dioxide from the acid reacting with the calcium carbonate shell."
+      }
+     ]
+    },
+    {
+     "guide": "Move the egg to corn syrup, then water; measure.",
+     "questions": [
+      {
+       "q": "Why does the egg shrink in corn syrup?",
+       "a": "Water moves out of the egg toward the area with less water (the syrup)."
+      }
+     ]
+    },
+    {
+     "guide": "Soak potato slices in plain and salt water.",
+     "questions": [
+      {
+       "q": "Which slice gets limp and loses mass?",
+       "a": "The one in salt water."
+      }
+     ]
+    },
+    {
+     "guide": "Put extract in a balloon; smell outside.",
+     "questions": [
+      {
+       "q": "What is diffusion?",
+       "a": "Particles spreading from where they're more concentrated to less concentrated."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the lab report.",
+     "questions": [
+      {
+       "q": "How is the egg membrane like a cell membrane?",
+       "a": "Both are semi-permeable: they let water through but block larger molecules."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric — 4: measurements before and after each soak; explains the vinegar dissolves the calcium carbonate shell (bubbles are CO₂), the egg swelled in water (water moved in) and shrank in corn syrup (water moved out); connects to a semi-permeable cell membrane; 3: one explanation missing; 2: data only; 1: incomplete."
+  },
+  {
+   "week": 28,
+   "prep": "Gather: images of specialized cells, paper for flip book. Print images of nerve, muscle, red blood and skin cells.",
+   "misconceptions": [
+    "Thinking all cells look alike.",
+    "Thinking cells grow huge instead of dividing."
+   ],
+   "days": [
+    {
+     "guide": "Compare specialized cells.",
+     "questions": [
+      {
+       "q": "How does a nerve cell's shape fit its function?",
+       "a": "Long branches carry messages over long distances."
+      }
+     ]
+    },
+    {
+     "guide": "Create the nested diagram.",
+     "questions": [
+      {
+       "q": "Give an example of each level from cell to organism.",
+       "a": "Muscle cell → muscle tissue → heart → circulatory system → human."
+      }
+     ]
+    },
+    {
+     "guide": "Make the cell division flip book.",
+     "questions": [
+      {
+       "q": "Why do cells divide?",
+       "a": "For growth and to repair or replace damaged cells."
+      }
+     ]
+    },
+    {
+     "guide": "Build a concept map.",
+     "questions": [
+      {
+       "q": "How are tissues different from organs?",
+       "a": "A tissue is a group of similar cells; an organ is made of several tissues working together."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test.",
+     "questions": [
+      {
+       "q": "Why are red blood cells disk-shaped?",
+       "a": "Their shape gives a large surface for carrying oxygen and lets them squeeze through tiny vessels."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test sample: cell theory; microscope use; living characteristics; organelle functions; plant vs. animal cells; osmosis and diffusion; specialized cells; levels of organization cell → tissue → organ → organ system → organism; cells divide for growth and repair."
+  },
+  {
+   "week": 29,
+   "prep": "Gather: cardboard, straws, string, chicken wing (cooked or raw with gloves). Handle raw chicken with gloves and wash hands and surfaces afterward (or use cooked).",
+   "misconceptions": [
+    "Thinking muscles push. Muscles only pull; they work in pairs.",
+    "Confusing tendons and ligaments. Tendons connect muscle to bone; ligaments connect bone to bone."
+   ],
+   "days": [
+    {
+     "guide": "Identify 15 bones on a diagram and feel them.",
+     "questions": [
+      {
+       "q": "Name the three bones in the arm.",
+       "a": "Humerus (upper arm), radius and ulna (forearm)."
+      }
+     ]
+    },
+    {
+     "guide": "Test joint motion.",
+     "questions": [
+      {
+       "q": "Which joint type lets the shoulder move in circles?",
+       "a": "Ball-and-socket."
+      }
+     ]
+    },
+    {
+     "guide": "Build the cardboard arm.",
+     "questions": [
+      {
+       "q": "Which muscle contracts to bend the elbow?",
+       "a": "The biceps (the triceps relaxes)."
+      }
+     ]
+    },
+    {
+     "guide": "Examine a chicken wing.",
+     "questions": [
+      {
+       "q": "What connects muscle to bone?",
+       "a": "Tendons."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "How many bones in an adult skeleton?",
+       "a": "206."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) adult skeleton has 206 bones 2) skull protects the brain; ribs protect heart and lungs 3) hinge joint — elbow/knee; ball-and-socket — shoulder/hip; pivot — neck (top vertebrae) 4) biceps contracts to bend the elbow; triceps to straighten 5) tendon connects muscle to bone. Arm model rubric: shows muscle pairs pulling."
+  },
+  {
+   "week": 30,
+   "prep": "Gather: stopwatch, plastic bottle, balloons, straw, clay. Find the pulse at the wrist or neck; count for 15 seconds and multiply by 4.",
+   "misconceptions": [
+    "Thinking the heart pumps blood straight to the body. Blood goes to the lungs and back first.",
+    "Thinking lungs pull air in on their own. The diaphragm contracts and moves down to make room."
+   ],
+   "days": [
+    {
+     "guide": "Measure resting heart rate and after 1 minute of jumping jacks, 3 trials.",
+     "questions": [
+      {
+       "q": "You count 22 beats in 15 seconds. Beats per minute?",
+       "a": "88 beats per minute."
+      }
+     ]
+    },
+    {
+     "guide": "Trace blood through the heart.",
+     "questions": [
+      {
+       "q": "Trace blood from the body back to the body.",
+       "a": "Right atrium → right ventricle → lungs (pick up oxygen) → left atrium → left ventricle → aorta → body."
+      }
+     ]
+    },
+    {
+     "guide": "Build the bottle lung model.",
+     "questions": [
+      {
+       "q": "What happens when the diaphragm moves down?",
+       "a": "Chest space increases, pressure drops and air rushes into the lungs."
+      }
+     ]
+    },
+    {
+     "guide": "Write how the systems interact.",
+     "questions": [
+      {
+       "q": "Why does heart rate rise during exercise?",
+       "a": "Muscles need more oxygen and must get rid of more CO₂."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER.",
+     "questions": [
+      {
+       "q": "What gas do lungs remove from the body?",
+       "a": "Carbon dioxide."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Graph: resting vs. after-exercise heart rate (3 trials each). CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected: during exercise muscles need more oxygen; breathing rate and heart rate rise so the respiratory system brings in oxygen and the circulatory system delivers it and removes CO₂."
+  },
+  {
+   "week": 31,
+   "prep": "Gather: zip bag, crackers, water, vinegar, old pantyhose or sieve, string 9 m long. Cut a 9 m string; have a zip bag, crackers and an old stocking.",
+   "misconceptions": [
+    "Thinking digestion happens only in the stomach. Most nutrient absorption happens in the small intestine.",
+    "Thinking kidneys are part of digestion. They filter the blood (excretory system)."
+   ],
+   "days": [
+    {
+     "guide": "Mash crackers with water and vinegar in a bag; squeeze through the stocking.",
+     "questions": [
+      {
+       "q": "What does the vinegar represent, and the mashing?",
+       "a": "Vinegar = stomach acid (chemical digestion); mashing = churning/chewing (mechanical)."
+      }
+     ]
+    },
+    {
+     "guide": "Lay out 9 m of string and label sections.",
+     "questions": [
+      {
+       "q": "Which section is longest?",
+       "a": "The small intestine (about 6–7 m)."
+      }
+     ]
+    },
+    {
+     "guide": "Chew a cracker for a minute.",
+     "questions": [
+      {
+       "q": "Why does the cracker start tasting sweet?",
+       "a": "Saliva enzymes break starch into sugar."
+      }
+     ]
+    },
+    {
+     "guide": "Map nutrients from intestine to cells and wastes to kidneys.",
+     "questions": [
+      {
+       "q": "How do nutrients reach your cells?",
+       "a": "They are absorbed through the small intestine walls into the blood, which carries them to cells."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "What does the large intestine absorb?",
+       "a": "Water."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) mechanical digestion: chewing, stomach churning; chemical: enzymes and acid 2) path: mouth → esophagus → stomach → small intestine → large intestine 3) most nutrients absorbed in the small intestine 4) large intestine absorbs water 5) saliva enzyme (amylase) breaks starch into sugar 6) kidneys filter wastes from blood to make urine. Model write-up: matches each step to a body part."
+  },
+  {
+   "week": 32,
+   "prep": "Gather: ruler, paper clips, blindfold, jelly beans or flavored candy. Jelly beans or flavored candy; check for allergies.",
+   "misconceptions": [
+    "Thinking reflexes go through the brain first. Many reflexes route through the spinal cord.",
+    "Thinking taste alone gives flavor. Smell supplies much of it."
+   ],
+   "days": [
+    {
+     "guide": "Diagram a neuron; trace receptor → nerve → spinal cord → brain → muscle.",
+     "questions": [
+      {
+       "q": "Name three parts of a neuron.",
+       "a": "Dendrites, cell body, axon."
+      }
+     ]
+    },
+    {
+     "guide": "Run the ruler drop 10 times per hand; average.",
+     "questions": [
+      {
+       "q": "Why might the dominant hand be faster?",
+       "a": "It's practiced more, so the nerve pathways are used more."
+      }
+     ]
+    },
+    {
+     "guide": "Two-point test on fingertip, palm and forearm.",
+     "questions": [
+      {
+       "q": "Where can you feel two points closest together?",
+       "a": "Fingertips — they have the most touch receptors."
+      }
+     ]
+    },
+    {
+     "guide": "Blindfolded jelly bean test with and without nose held.",
+     "questions": [
+      {
+       "q": "Predict the effect of holding your nose.",
+       "a": "Fewer correct identifications."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the CER.",
+     "questions": [
+      {
+       "q": "What part of the nervous system processes signals?",
+       "a": "The brain."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Data: reaction averages each hand, two-point thresholds (fingertip smallest), jelly bean accuracy with and without nose held. CER rubric — 4: a claim that answers the question, specific data as evidence (numbers from the investigation), and reasoning that connects the evidence to the science idea; 3: claim and evidence correct but reasoning thin; 2: claim with vague evidence; 1: claim only or incorrect. Expected: 'Smell affects taste: I identified 9 of 10 flavors normally but only 3 of 10 holding my nose, because much of flavor comes from smell receptors in the nose.'"
+  },
+  {
+   "week": 33,
+   "prep": "Gather: tray of 20 objects, towel, optical illusion images. Gather 20 small objects and a towel; print optical illusions.",
+   "misconceptions": [
+    "Thinking memory is a perfect recording. Memories are rebuilt and can change.",
+    "Thinking illusions mean eyes are broken. The brain interprets signals using shortcuts."
+   ],
+   "days": [
+    {
+     "guide": "Study 20 objects 1 minute; list; repeat with a strategy (grouping or story).",
+     "questions": [
+      {
+       "q": "Name a memory strategy.",
+       "a": "Chunking/grouping, making a story, repetition, mnemonics."
+      }
+     ]
+    },
+    {
+     "guide": "Investigate three illusions.",
+     "questions": [
+      {
+       "q": "Why do optical illusions fool us?",
+       "a": "The brain uses assumptions to interpret signals from the eyes, and illusions exploit them."
+      }
+     ]
+    },
+    {
+     "guide": "Read two sources; make an infographic.",
+     "questions": [
+      {
+       "q": "What helps form long-term memories?",
+       "a": "Repetition, attention, sleep and connecting to existing knowledge."
+      }
+     ]
+    },
+    {
+     "guide": "Make a 4-system poster for catching a ball.",
+     "questions": [
+      {
+       "q": "Which systems work together to catch a ball?",
+       "a": "Nervous (eyes and brain), muscular, skeletal, circulatory/respiratory."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test.",
+     "questions": [
+      {
+       "q": "What carries signals from the eyes to the brain?",
+       "a": "The optic nerve."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Infographic rubric: two sources summarized accurately (memories form as connections between neurons strengthen; repetition, sleep and meaning help). Poster rubric: catching a ball involves nervous (eyes, brain), muscular, skeletal, circulatory and respiratory systems. Unit 8 test sample: bones/joints/muscle pairs; blood path; diaphragm; digestion path; kidneys; neuron parts; senses."
+  },
+  {
+   "week": 34,
+   "prep": "Gather: pizza box, foil, black paper, plastic wrap, tape, newspaper. Get a pizza box, foil, black paper, plastic wrap.",
+   "misconceptions": [
+    "Thinking more foil always helps. Foil reflects light in; black paper absorbs; insulation keeps heat in.",
+    "Skipping the decision matrix."
+   ],
+   "days": [
+    {
+     "guide": "Research solar ovens; define criteria and constraints.",
+     "questions": [
+      {
+       "q": "Why are solar ovens useful in some places?",
+       "a": "They cook without fuel, saving wood and reducing smoke."
+      }
+     ]
+    },
+    {
+     "guide": "List how each science idea helps.",
+     "questions": [
+      {
+       "q": "Why line the bottom with black paper?",
+       "a": "Black absorbs light, converting it to thermal energy."
+      }
+     ]
+    },
+    {
+     "guide": "Sketch three designs; use a matrix.",
+     "questions": [
+      {
+       "q": "Why does plastic wrap help?",
+       "a": "It traps warm air inside (greenhouse effect) and reduces convection losses."
+      }
+     ]
+    },
+    {
+     "guide": "Build the prototype.",
+     "questions": [
+      {
+       "q": "Why angle the reflector flap?",
+       "a": "To reflect more sunlight into the box."
+      }
+     ]
+    },
+    {
+     "guide": "Write the design brief; predict max temperature.",
+     "questions": [
+      {
+       "q": "What does newspaper insulation do?",
+       "a": "Slows heat loss by conduction."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Design brief rubric — 4: problem, criteria (reach 60°C), constraints, science justification (reflection, absorption, insulation, greenhouse effect), chosen design with matrix scores, prediction with reasoning; 3: one gap; 2: no science reasoning; 1: incomplete."
+  },
+  {
+   "week": 35,
+   "prep": "Gather: solar oven, oven thermometer, s'mores ingredients. Use an oven thermometer; check the forecast for sun.",
+   "misconceptions": [
+    "Changing several features at once.",
+    "Opening the lid often, letting heat out."
+   ],
+   "days": [
+    {
+     "guide": "Test in direct sun; record every 5 minutes.",
+     "questions": [
+      {
+       "q": "Why record every 5 minutes?",
+       "a": "To see the heating pattern over time, not just the final temperature."
+      }
+     ]
+    },
+    {
+     "guide": "Graph and compare designs.",
+     "questions": [
+      {
+       "q": "What does a flat section on the graph mean?",
+       "a": "Energy coming in equals energy escaping."
+      }
+     ]
+    },
+    {
+     "guide": "Make one modification and explain.",
+     "questions": [
+      {
+       "q": "Why change only one feature?",
+       "a": "So any change in performance can be attributed to it."
+      }
+     ]
+    },
+    {
+     "guide": "Retest; try a s'more.",
+     "questions": [
+      {
+       "q": "How did the graph change?",
+       "a": "Answers vary; expect a faster rise or higher max if the change improved transfer."
+      }
+     ]
+    },
+    {
+     "guide": "Write a paragraph about the modification.",
+     "questions": [
+      {
+       "q": "Which heat transfer did more insulation reduce?",
+       "a": "Conduction."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Analysis rubric — 4: two graphs compared, one change explained by heat transfer (e.g., extra insulation reduced conduction loss, raising maximum temperature from 52°C to 63°C); 3: comparison without explanation; 2: one test only; 1: incomplete."
+  },
+  {
+   "week": 36,
+   "prep": "Gather: science notebook, slides or poster. Gather the science notebook and photos for the presentation.",
+   "misconceptions": [
+    "Presenting results without explaining the science.",
+    "Treating units as separate. Energy connects them."
+   ],
+   "days": [
+    {
+     "guide": "Build the presentation.",
+     "questions": [
+      {
+       "q": "What should a capstone presentation include?",
+       "a": "Problem, criteria/constraints, designs, data, modifications and conclusions."
+      }
+     ]
+    },
+    {
+     "guide": "Present and answer questions.",
+     "questions": [
+      {
+       "q": "Explain how your oven converts sunlight to thermal energy.",
+       "a": "Light passes through the plastic, is absorbed by black surfaces and becomes thermal energy, which is trapped by the wrap and insulation."
+      }
+     ]
+    },
+    {
+     "guide": "Make an energy concept map.",
+     "questions": [
+      {
+       "q": "How does energy connect weather and the water cycle?",
+       "a": "The sun's energy evaporates water and unevenly heats Earth, driving winds, currents and weather."
+      }
+     ]
+    },
+    {
+     "guide": "Give the cumulative assessment.",
+     "questions": [
+      {
+       "q": "What do cells use energy from food for?",
+       "a": "To carry out life processes (mitochondria release the energy)."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes a reflection.",
+     "questions": [
+      {
+       "q": "What makes a good scientific question for next year?",
+       "a": "A testable question with measurable variables."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Capstone rubric — 4: clear problem, design process, data graphs, science explanations, answers questions accurately; 3: minor gaps; 2: limited science; 1: incomplete. Cumulative assessment sample: independent/dependent variables; particle motion and temperature; conduction/convection/radiation; water cycle; fronts; global winds; rain shadow; greenhouse effect; earthquakes along faults; magnetic and electric forces; gravity; KE and PE; cell theory and organelles; body systems."
+  }
+ ]
+}

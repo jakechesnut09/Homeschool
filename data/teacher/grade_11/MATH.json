@@ -1,0 +1,2227 @@
+{
+ "grade": 11,
+ "subject": "MATH",
+ "overview": "Algebra II runs about 60 minutes a day: 10–15 minutes of you modeling one worked example aloud, 25–30 minutes of the student working problems while you circulate and ask 'how do you know?', and 10 minutes of checking answers (Desmos is the referee for graphs). Insist on written steps, not just answers, and have the student correct every missed quiz item with a one-line explanation of the error. Pacing is one unit roughly every three to four weeks; if a quiz score is below 80%, spend an extra day on Khan Academy practice before moving on.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Bookmark Desmos and set up a notebook with a 'function gallery' page. Print or draw six blank coordinate grids. Preview Khan Academy 'Transformations of functions'.",
+   "misconceptions": [
+    "Thinking f(x−3) moves the graph LEFT 3. Show with a table: the output f(0) now happens at x = 3, so the graph moves RIGHT. Inside changes act 'opposite' to what they look like.",
+    "Confusing a vertical stretch a·f(x) with a horizontal change f(bx). Have the student plot both y = 2x² and y = (2x)² in Desmos and compare which points move."
+   ],
+   "days": [
+    {
+     "guide": "Model graphing y = x² and recording a table of domain, range, and intercepts. The student then graphs the other five parents (linear, absolute value, square root, cube root, cubic) in Desmos and fills the table. Check each row against the graphs before moving on.",
+     "questions": [
+      {
+       "q": "State the domain and range of y = √x.",
+       "a": "Domain x ≥ 0; range y ≥ 0. You cannot take the real square root of a negative, and the outputs are never negative."
+      },
+      {
+       "q": "Which parent functions have domain AND range of all real numbers?",
+       "a": "Linear y = x, cube root y = ∛x, and cubic y = x³."
+      }
+     ]
+    },
+    {
+     "guide": "Show the slider for y = (x − h)² + k in Desmos and ask the student to predict before dragging each slider. Then have them write rules for the 10 pictured graphs, saying the shift in words first ('right 2, down 5').",
+     "questions": [
+      {
+       "q": "Describe how g(x) = (x + 4)² − 3 is related to f(x) = x².",
+       "a": "Shift left 4 and down 3; the vertex moves from (0, 0) to (−4, −3)."
+      },
+      {
+       "q": "Write the rule for y = |x| shifted right 2 and up 5.",
+       "a": "y = |x − 2| + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = x², 3x², ½x², and −x² together and have the student describe each change. Then explore f(bx) with y = √(4x) and y = √x. Student matches the 12 cards and explains two matches aloud.",
+     "questions": [
+      {
+       "q": "Describe y = −½x² compared with y = x².",
+       "a": "Reflected over the x-axis and vertically compressed by a factor of ½ (it opens down and is wider)."
+      },
+      {
+       "q": "Show that √(4x) is the same as a vertical stretch of √x.",
+       "a": "√(4x) = √4·√x = 2√x, so it is a vertical stretch by 2 (equivalently a horizontal compression by ¼)."
+      }
+     ]
+    },
+    {
+     "guide": "Model g(x) = −2|x − 3| + 1 by transforming key points of |x|: (−1,1), (0,0), (1,1) become (2,−1), (3,1), (4,−1). Student graphs three similar functions by hand, then checks each in Desmos.",
+     "questions": [
+      {
+       "q": "Give the vertex, direction, and range of g(x) = −2|x − 3| + 1.",
+       "a": "Vertex (3, 1); opens down; slopes −2 and 2 on each side; range y ≤ 1."
+      },
+      {
+       "q": "Where does (2, 4) on f(x) = x² go under y = (x + 1)² − 5?",
+       "a": "(1, −1): left 1 and down 5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-item quiz closed-book (Desmos off), about 25 minutes. Grade together, then let the student verify any missed graph in Desmos and write the corrected rule.",
+     "questions": [
+      {
+       "q": "Write the equation of an absolute value graph with vertex (−1, 4) that opens down with slopes ±1.",
+       "a": "y = −|x + 1| + 4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Suggested 10 items and answers: 1) y=(x−5)²: right 5. 2) y=x²+7: up 7. 3) y=−|x|: reflect over x-axis. 4) y=√(x+2)−1: left 2, down 1. 5) y=3x³: vertical stretch by 3. 6) y=|½x|: horizontal stretch by 2 (same as vertical compression by ½). 7) parabola vertex (2,−3) opening up, same shape as x²: y=(x−2)²−3. 8) square root starting at (−4,0): y=√(x+4). 9) V-shape vertex (0,6) opening down slopes ±2: y=−2|x|+6. 10) cubic x³ moved right 1, up 2: y=(x−1)³+2. Score 1 point each; 8+/10 is mastery."
+  },
+  {
+   "week": 2,
+   "prep": "Find a current USPS price list or make a simple parking-garage table (e.g., $5 first hour, $3 each extra hour or part). Have Desmos ready (it graphs piecewise with braces).",
+   "misconceptions": [
+    "Using a closed dot on both pieces at a boundary. A function has one output per input: check which piece's condition includes the boundary (≤ or ≥) and put the closed dot only there.",
+    "Solving |x + 3| = −4 and getting answers. An absolute value is never negative, so there is no solution; always isolate the absolute value first and check its sign."
+   ],
+   "days": [
+    {
+     "guide": "Model f(x) = {x + 2 if x < 1; 3x if x ≥ 1}: graph each piece only on its interval, open dot at (1, 3) on the first piece, closed dot at (1, 3) on the second. Student graphs three piecewise functions and evaluates at boundaries.",
+     "questions": [
+      {
+       "q": "For f(x) above, find f(1), f(0), and f(−3).",
+       "a": "f(1) = 3(1) = 3 (second piece since 1 ≥ 1); f(0) = 0 + 2 = 2; f(−3) = −3 + 2 = −1."
+      }
+     ]
+    },
+    {
+     "guide": "Use the parking table: $5 for the first hour or part, $3 for each additional hour or part. Student builds the table, graphs the step function with open/closed dots, and explains what a jump means.",
+     "questions": [
+      {
+       "q": "Using that rate, what does 2.5 hours cost? What about exactly 2 hours?",
+       "a": "2.5 hours: 5 + 3 + 3 = $11 (any part of the third hour counts). Exactly 2 hours: 5 + 3 = $8."
+      }
+     ]
+    },
+    {
+     "guide": "Model: isolate the absolute value, then split into two equations (= +value and = −value). Student solves 6–8 equations and substitutes each answer back to check.",
+     "questions": [
+      {
+       "q": "Solve |2x − 5| = 9.",
+       "a": "2x − 5 = 9 gives x = 7; 2x − 5 = −9 gives x = −2. Both check."
+      },
+      {
+       "q": "Solve 2|x − 1| + 4 = 2.",
+       "a": "|x − 1| = −1, which is impossible: no solution."
+      }
+     ]
+    },
+    {
+     "guide": "Teach 'less than = AND (between)', 'greater than = OR (outside)'. Model |x − 4| < 3, then the tolerance problem. Student graphs each solution on a number line.",
+     "questions": [
+      {
+       "q": "Solve |x − 4| < 3 and |2x + 1| ≥ 5.",
+       "a": "−3 < x − 4 < 3 → 1 < x < 7. 2x + 1 ≥ 5 or 2x + 1 ≤ −5 → x ≥ 2 or x ≤ −3."
+      },
+      {
+       "q": "A bolt must be 10 mm long with tolerance 0.05 mm. Write and solve the inequality.",
+       "a": "|L − 10| ≤ 0.05 → 9.95 ≤ L ≤ 10.05 mm."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Review the average rate of change as (f(b) − f(a))/(b − a) on one piece before starting. Today's task from the plan: Quiz on piecewise evaluation, graphing, and absolute value solutions; average rate of change on each piece. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "For f(x) = 3x on [1, 3], what is the average rate of change?",
+       "a": "(9 − 3)/(3 − 1) = 3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) For g(x) = {x² if x ≤ 0; 2x+1 if x > 0}: g(−2)=4, g(0)=0, g(3)=7. 2) Graph: parabola left of 0 with closed dot at (0,0), line from open dot (0,1). 3) |x+2|=6 → x=4 or x=−8. 4) |3x|−4=5 → x=±3. 5) |x−1|≤4 → −3≤x≤5. 6) |x+5|>2 → x>−3 or x<−7. 7) Average rate of change of x² on [−3,−1]: (1−9)/2 = −4. 8) Parking 3.2 h at $5 + $3/extra hour: $14. Full credit requires checked solutions and correctly drawn endpoints."
+  },
+  {
+   "week": 3,
+   "prep": "Graph paper and Desmos. Prepare a ticket problem and a bakery profit problem (below). Review elimination yourself with one 3×3 example.",
+   "misconceptions": [
+    "Forgetting to multiply every term (including the constant) when scaling an equation for elimination. Have the student draw arrows to each term as they multiply.",
+    "Assuming the maximum profit is at the 'middle' of the feasible region. The optimum of a linear objective always occurs at a vertex; have the student test every corner in a table."
+   ],
+   "days": [
+    {
+     "guide": "Solve x + y = 10, x − y = 4 three ways (graph, substitution, elimination) and compare. Then show a parallel system and an identical-line system. Student solves and classifies six systems.",
+     "questions": [
+      {
+       "q": "Solve x + y = 10 and x − y = 4.",
+       "a": "Add: 2x = 14, x = 7, y = 3. Solution (7, 3)."
+      },
+      {
+       "q": "How many solutions does 2x + 4y = 8, x + 2y = 4 have?",
+       "a": "Infinitely many: the first equation is 2 times the second (same line)."
+      }
+     ]
+    },
+    {
+     "guide": "Model eliminating one variable from two different pairs to get a 2×2 system, then back-substitute. Student solves the ticket problem. Today's task from the plan: Solve three-variable systems by elimination; model a ticket-sales problem with three prices. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve x + y + z = 6, x − y + z = 2, 2x + y − z = 1.",
+       "a": "Subtract eq 2 from eq 1: 2y = 4, y = 2. Then x + z = 4 and 2x − z = −1; add: 3x = 3, x = 1, z = 3. (1, 2, 3)."
+      },
+      {
+       "q": "100 tickets sold for $720: adult $10, student $6, child $4, with as many adult as student tickets. How many of each?",
+       "a": "a = s, 2s + c = 100, 16s + 4c = 720 → s = 40, a = 40, c = 20. Check: 400 + 240 + 80 = 720."
+      }
+     ]
+    },
+    {
+     "guide": "Model graphing each inequality, shading, and testing (0, 0). Student writes constraints for a budget-and-time problem and shades the feasible region. Today's task from the plan: Graph a feasible region for a budget-and-time constraint problem. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "With x ≥ 0, y ≥ 0, x + y ≤ 8, 2x + y ≤ 12, is (3, 4) feasible? Is (5, 4)?",
+       "a": "(3, 4): 7 ≤ 8 and 10 ≤ 12, yes. (5, 4): 9 > 8, no."
+      }
+     ]
+    },
+    {
+     "guide": "Bakery: x cakes, y pies, constraints from yesterday, profit P = 5x + 3y. Model finding vertices by solving pairs of boundary lines, then evaluate P at each in a table.",
+     "questions": [
+      {
+       "q": "Find the vertices and maximum profit.",
+       "a": "Vertices (0,0), (6,0), (4,4), (0,8). P = 0, 30, 32, 24. Maximum $32 at 4 cakes and 4 pies."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test (about 50 minutes). Allow graph paper; no Desmos except for the final check after submitting. Today's task from the plan: Unit 1 test: transformations, piecewise functions, and systems. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Solve 3x + 2y = 16 and x − y = 2.",
+       "a": "x = y + 2 → 3y + 6 + 2y = 16 → y = 2, x = 4. (4, 2)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test key (sample items): 1) y=−(x+2)²+1: reflect, left 2, up 1. 2) Write rule: |x| right 3 down 4 → y=|x−3|−4. 3) f(x)={−x if x<0; √x if x≥0}: f(−4)=4, f(9)=3. 4) |x−6|=2 → 4, 8. 5) |2x−1|>7 → x>4 or x<−3. 6) 2x+3y=12, x−3y=−3 → x=3, y=2. 7) x+y+z=4, 2x−y+z=6, x+2y−z=0 → (2, 0, 2). 8) Linear programming with P=4x+5y on vertices (0,0),(6,0),(3,4),(0,5): max 32 at (3,4). Grading: 4 = all correct with work; 3 = minor arithmetic slips; 2 = method right but several errors; 1 = method errors."
+  },
+  {
+   "week": 4,
+   "prep": "Desmos; draw a few square-and-rectangle area models (or use algebra tiles). Find a short video of a ball being thrown for Day 4.",
+   "misconceptions": [
+    "Reading the vertex of y = (x − 3)² + 2 as (−3, 2). The h value is the number that makes the inside zero: x = 3.",
+    "When completing the square with a ≠ 1, forgetting to multiply the added constant by a. Factor a out first and track it: 2(x² − 4x + 4) adds 8, not 4."
+   ],
+   "days": [
+    {
+     "guide": "Model y = −2(x − 1)² + 5 as transformations of x². Student graphs four vertex-form equations by hand and labels vertex, axis, and max/min. Today's task from the plan: Graph y = a(x−h)²+k using transformations; identify vertex, axis, and max/min. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "State the vertex, axis of symmetry, and max/min of y = −2(x − 1)² + 5.",
+       "a": "Vertex (1, 5); axis x = 1; opens down, so maximum value 5."
+      }
+     ]
+    },
+    {
+     "guide": "Show that zeros come straight from factored form and the vertex x is their midpoint. Student graphs three factored-form quadratics. Today's task from the plan: Graph from zeros; find vertex via the midpoint of the zeros. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the zeros and vertex of y = (x − 2)(x + 6).",
+       "a": "Zeros 2 and −6; axis x = (2 + (−6))/2 = −2; y = (−4)(4) = −16; vertex (−2, −16)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw x² + 6x as a square plus two 3-by-x strips; the missing corner is 9. Model converting x² + 6x + 5, then 2x² − 8x + 3. Student converts five more.",
+     "questions": [
+      {
+       "q": "Write x² + 6x + 5 in vertex form.",
+       "a": "(x + 3)² − 4, vertex (−3, −4)."
+      },
+      {
+       "q": "Write 2x² − 8x + 3 in vertex form.",
+       "a": "2(x² − 4x + 4) + 3 − 8 = 2(x − 2)² − 5."
+      }
+     ]
+    },
+    {
+     "guide": "Use h = −16t² + 32t + 48 (feet, seconds). Student writes it in factored and vertex form and says which form answers which question. Today's task from the plan: For one context (a launched ball), use each form to answer a different question. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "When does the ball land, what is its maximum height, and from what height was it launched?",
+       "a": "Factored: −16(t − 3)(t + 1), lands at t = 3 s. Vertex: −16(t − 1)² + 64, max 64 ft at 1 s. Standard: launched from 48 ft (the constant)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Afterwards, check graphs in Desmos. Today's task from the plan: Quiz on converting forms and graphing key features. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Write y = x² − 4x − 12 in vertex and factored form.",
+       "a": "Vertex form (x − 2)² − 16; factored (x − 6)(x + 2)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) y=(x+1)²−9 → standard x²+2x−8, factored (x+4)(x−2). 2) y=x²−10x+21 → (x−5)²−4; zeros 3, 7. 3) y=3x²+12x+7 → 3(x+2)²−5. 4) y=−(x−4)(x+2): zeros 4, −2, vertex (1, 9). 5) Graph y=½(x−2)²−2: vertex (2,−2), zeros 0 and 4. 6) Which form shows the y-intercept? Standard form (c). Mastery = 5 of 6 with work shown."
+  },
+  {
+   "week": 5,
+   "prep": "Index cards (one equation per card) for Day 5 sorting. Preview Khan Academy 'Quadratic formula proof'.",
+   "misconceptions": [
+    "Dividing both sides by x (e.g., in x² = 5x) and losing the solution x = 0. Move everything to one side and factor: x(x − 5) = 0.",
+    "Mis-handling −b and the 2a in the quadratic formula (e.g., dividing only the radical by 2a). Write the formula with one long fraction bar and substitute b in parentheses."
+   ],
+   "days": [
+    {
+     "guide": "Model factoring 6x² + x − 2 by the ac method (ac = −12, use 4 and −3). Student solves 8 equations by factoring, setting each factor to zero. Today's task from the plan: Factor trinomials with a ≠ 1, difference of squares, and GCF; solve by zero-product property. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve 6x² + x − 2 = 0.",
+       "a": "(3x + 2)(2x − 1) = 0, so x = −2/3 or x = 1/2."
+      },
+      {
+       "q": "Solve 4x² − 25 = 0.",
+       "a": "(2x − 5)(2x + 5) = 0, x = ±5/2."
+      }
+     ]
+    },
+    {
+     "guide": "Model (x − 3)² = 20 by square roots (remember ±), then x² + 8x − 1 = 0 by completing the square. Student does six of each. Today's task from the plan: Solve equations by taking square roots and completing the square. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve (x − 3)² = 20.",
+       "a": "x − 3 = ±√20 = ±2√5, so x = 3 ± 2√5."
+      },
+      {
+       "q": "Solve x² + 8x − 1 = 0 by completing the square.",
+       "a": "x² + 8x + 16 = 17, (x + 4)² = 17, x = −4 ± √17."
+      }
+     ]
+    },
+    {
+     "guide": "Walk through completing the square on ax² + bx + c = 0 symbolically, line by line, with the student writing each step. Then solve 8 equations with the formula.",
+     "questions": [
+      {
+       "q": "Solve 2x² − 3x − 5 = 0 with the quadratic formula.",
+       "a": "x = (3 ± √(9 + 40))/4 = (3 ± 7)/4 → x = 5/2 or x = −1."
+      }
+     ]
+    },
+    {
+     "guide": "Explain b² − 4ac: positive = two real roots (two x-intercepts), zero = one repeated root (vertex on axis), negative = two complex roots (no x-intercepts). Student predicts for 8 equations, then checks in Desmos.",
+     "questions": [
+      {
+       "q": "Classify the solutions of x² + 4x + 7 = 0 and 9x² − 12x + 4 = 0.",
+       "a": "First: 16 − 28 = −12 < 0, two complex (non-real) solutions. Second: 144 − 144 = 0, one repeated real solution (x = 2/3)."
+      }
+     ]
+    },
+    {
+     "guide": "Student sorts the 12 cards by best method, solves, and writes a one-sentence justification for each. Discuss choices together. Today's task from the plan: Choose the most efficient method for 12 equations and justify each choice. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Which method is best for x² = 49, x² + 5x + 6 = 0, and 3x² + 7x − 2 = 0?",
+       "a": "Square roots (x = ±7); factoring ((x + 2)(x + 3), x = −2, −3); quadratic formula (doesn't factor nicely: x = (−7 ± √73)/6)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Score each item 1 pt for a reasonable method and 1 pt for correct solutions. Sample answers: x²=49 → ±7 (roots); (x−4)²=9 → 1, 7 (roots); x²−7x+12=0 → 3, 4 (factor); 2x²+5x−3=0 → 1/2, −3 (factor); x²+6x=2 → −3±√11 (complete square); x²−2x−1=0 → 1±√2 (formula or complete square); 3x²+7x−2=0 → (−7±√73)/6 (formula); x²+2x+10=0 → −1±3i accepted later or 'no real solution' (formula). Proficient = 20/24 or better with justifications that mention structure (no linear term, nice factors, a=1 and even b, etc.)."
+  },
+  {
+   "week": 6,
+   "prep": "Graph paper for a complex plane (horizontal real axis, vertical imaginary axis). Preview Khan Academy 'Intro to i'.",
+   "misconceptions": [
+    "Writing √(−4)·√(−9) = √36 = 6. Convert first: 2i·3i = 6i² = −6.",
+    "Treating i like a variable and leaving i² in the answer. Always replace i² with −1 and write the result as a + bi."
+   ],
+   "days": [
+    {
+     "guide": "Ask: what number squared is −1? Define i, then build the cycle i, −1, −i, 1. Student simplifies powers of i by dividing the exponent by 4. Today's task from the plan: Explore why x²+1 = 0 has no real solutions; define i and simplify powers of i. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify i²³ and √(−49).",
+       "a": "23 = 4·5 + 3, so i²³ = i³ = −i. √(−49) = 7i."
+      }
+     ]
+    },
+    {
+     "guide": "Model adding like combining like terms and multiplying with FOIL, replacing i² with −1. Student practices and plots one sum as a vector on the complex plane.",
+     "questions": [
+      {
+       "q": "Compute (3 + 2i)(1 − 4i).",
+       "a": "3 − 12i + 2i − 8i² = 3 − 10i + 8 = 11 − 10i."
+      },
+      {
+       "q": "Compute (5 − i) + (−2 + 3i).",
+       "a": "3 + 2i."
+      }
+     ]
+    },
+    {
+     "guide": "Show that (a + bi)(a − bi) = a² + b² is real. Model dividing by multiplying top and bottom by the conjugate. Today's task from the plan: Use conjugates to divide complex numbers and rationalize denominators. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Divide (2 + 3i)/(1 − i).",
+       "a": "Multiply by (1 + i)/(1 + i): (2 + 2i + 3i + 3i²)/2 = (−1 + 5i)/2 = −1/2 + (5/2)i."
+      }
+     ]
+    },
+    {
+     "guide": "Solve x² + 2x + 5 = 0 with the formula, simplifying √(−16) = 4i. Then factor sums of squares over the complex numbers. Today's task from the plan: Solve quadratics with negative discriminants; factor x²+4 as (x+2i)(x−2i). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve x² + 2x + 5 = 0.",
+       "a": "x = (−2 ± √(4 − 20))/2 = (−2 ± 4i)/2 = −1 ± 2i."
+      },
+      {
+       "q": "Factor x² + 9.",
+       "a": "(x + 3i)(x − 3i)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes) without a calculator. Today's task from the plan: Quiz on complex arithmetic and complex solutions. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Compute (4 − 3i)(4 + 3i).",
+       "a": "16 + 9 = 25."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) i¹⁰ = −1. 2) √(−18) = 3i√2. 3) (2+5i)−(7−i) = −5+6i. 4) (1+i)² = 2i. 5) (3−2i)(2+i) = 8−i. 6) 5/(2−i) = 2+i. 7) x²+16=0 → ±4i. 8) x²−4x+13=0 → 2±3i. Mastery: 7/8 with a + bi form."
+  },
+  {
+   "week": 7,
+   "prep": "Tennis ball, phone that records video (slow-motion helps), a wall or doorframe with tape marks every foot (or meter), stopwatch. Desmos regression: type a table and y1 ~ ax1² + bx1 + c.",
+   "misconceptions": [
+    "Thinking the parabola is the path in the air across the room. In the lab the graph is height vs TIME; a ball tossed straight up still produces a parabola in time.",
+    "Accepting a negative time or a negative length as an answer. Always state the domain that makes sense in context and reject nonviable solutions."
+   ],
+   "days": [
+    {
+     "guide": "Toss the ball straight up next to the taped wall while the phone records. Step through the video to record height every 0.1 s (or every few frames). Enter points in Desmos and fit y ~ ax² + bx + c.",
+     "questions": [
+      {
+       "q": "Why should the data be quadratic, and what should a be close to?",
+       "a": "Gravity gives constant downward acceleration, so height vs time is a parabola. In feet a ≈ −16 (half of −32 ft/s²); in meters a ≈ −4.9."
+      }
+     ]
+    },
+    {
+     "guide": "Student uses the regression to find the vertex (max height) and positive zero (landing time) and compares the a-value to −16 (or −4.9). Today's task from the plan: Use the regression to find max height and landing time; compare to h = −16t² + v₀t + h₀. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "For h = −16t² + 48t + 6, find the maximum height and when it lands.",
+       "a": "Vertex at t = −48/(2·−16) = 1.5 s; h = −36 + 72 + 6 = 42 ft. Landing: −16t² + 48t + 6 = 0 → t = (48 + √2688)/32 ≈ 3.12 s (reject the negative root)."
+      }
+     ]
+    },
+    {
+     "guide": "Model solving y = x², y = x + 2 by substitution and showing the two crossing points in Desmos. Discuss 0, 1, or 2 intersections. Today's task from the plan: Solve algebraically and graphically (e.g., a line crossing a parabola). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve y = x² and y = x + 2.",
+       "a": "x² − x − 2 = 0 → (x − 2)(x + 1) = 0 → (2, 4) and (−1, 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Model the fencing problem: 40 ft of fence, A = x(20 − x). Then revenue R = p(200 − 10p). Student finds each vertex and interprets. Today's task from the plan: Solve a fencing/area and a revenue (price × quantity) maximization problem. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What dimensions maximize the area with 40 ft of fence?",
+       "a": "A = x(20 − x) has vertex at x = 10: a 10 ft × 10 ft square, 100 sq ft."
+      },
+      {
+       "q": "If quantity sold is 200 − 10p, what price maximizes revenue?",
+       "a": "R = 200p − 10p², vertex p = 10: price $10, revenue $1,000."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test (about 50 minutes) and collect the lab report. Today's task from the plan: Unit 2 test: forms, solving methods, complex numbers, and modeling. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Solve x² − 6x + 13 = 0.",
+       "a": "x = (6 ± √(36 − 52))/2 = (6 ± 4i)/2 = 3 ± 2i."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric (4 pts each): data table and graph; regression equation stated; max height and landing time found and interpreted; comparison of a to −16 or −4.9 with a sentence on error sources. Unit 2 test sample answers: (x−1)²−9 → zeros −2, 4; 2x²+x−6=0 → 3/2, −2; x²+2x+3=0 → −1±i√2; (2−i)/(2+i) = (3−4i)/5; max of −5t²+20t+1 is 21 at t=2; y=2x+3 and y=x² meet at (3, 9) and (−1, 1)."
+  },
+  {
+   "week": 8,
+   "prep": "Algebra tiles or area-model templates. Have the student review exponent rules from Algebra I.",
+   "misconceptions": [
+    "Writing (x + 2)² = x² + 4 (forgetting the middle term). Draw the area model: the two 2x rectangles are part of the square.",
+    "Subtracting only the first term of the second polynomial. Rewrite subtraction as adding the opposite and distribute the negative to every term."
+   ],
+   "days": [
+    {
+     "guide": "Model naming polynomials by degree and number of terms. Student classifies 10 polynomials and rewrites each in standard form. Today's task from the plan: Classify polynomials by degree and terms; write in standard form. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Classify 4x³ − 2x + 7 and write 5 − 3x² + x⁴ in standard form.",
+       "a": "4x³ − 2x + 7: cubic trinomial (degree 3, three terms). 5 − 3x² + x⁴ = x⁴ − 3x² + 5, a quartic trinomial."
+      }
+     ]
+    },
+    {
+     "guide": "Model combining like terms vertically. Discuss closure: integers + integers stay integers; polynomials ± and × stay polynomials. Today's task from the plan: Combine polynomials and discuss closure compared with integers. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify (3x² − 2x + 5) − (x² + 4x − 1).",
+       "a": "2x² − 6x + 6."
+      },
+      {
+       "q": "Are polynomials closed under division? Give an example.",
+       "a": "No. 1 ÷ x = 1/x (x⁻¹) is not a polynomial."
+      }
+     ]
+    },
+    {
+     "guide": "Use an area grid to multiply (2x − 1)(x² + 3x − 4), then expand (x + 2)³ as (x + 2)(x + 2)². Today's task from the plan: Multiply polynomials with area models and distribution, including (x+2)³. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Expand (x + 2)³.",
+       "a": "(x + 2)(x² + 4x + 4) = x³ + 6x² + 12x + 8."
+      },
+      {
+       "q": "Multiply (2x − 1)(x² + 3x − 4).",
+       "a": "2x³ + 6x² − 8x − x² − 3x + 4 = 2x³ + 5x² − 11x + 4."
+      }
+     ]
+    },
+    {
+     "guide": "Prove an identity by expanding one side until it matches the other. Use (x² − y²)² + (2xy)² = (x² + y²)² to make Pythagorean triples. Today's task from the plan: Prove (a+b)² and a³−b³ identities; use x²+y² identity to generate Pythagorean triples. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Use x = 3, y = 2 in the identity to make a Pythagorean triple.",
+       "a": "x² − y² = 5, 2xy = 12, x² + y² = 13: 5-12-13 (25 + 144 = 169)."
+      },
+      {
+       "q": "Verify a³ − b³ = (a − b)(a² + ab + b²).",
+       "a": "(a − b)(a² + ab + b²) = a³ + a²b + ab² − a²b − ab² − b³ = a³ − b³."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes) including one written proof. Today's task from the plan: Quiz on operations and a written proof of one identity. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Expand (x − 3)².",
+       "a": "x² − 6x + 9."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) (4x³+x−2)+(x³−5x+9) = 5x³−4x+7. 2) (2x²−x)−(5x²+3x−4) = −3x²−4x+4. 3) (x−4)(x+4) = x²−16. 4) (3x+2)(x²−x+1) = 3x³−x²+x+2. 5) (2x−1)³ = 8x³−12x²+6x−1. Proof rubric (4 levels): 4 = expands one side completely, each step justified, ends with the other side; 3 = correct with a skipped step; 2 = partial expansion; 1 = substitutes numbers only (numbers check but do not prove)."
+  },
+  {
+   "week": 9,
+   "prep": "Practice set of division problems. Remind the student of numerical long division (divide, multiply, subtract, bring down).",
+   "misconceptions": [
+    "Leaving out missing terms (e.g., dividing x³ − 7x + 6 without a 0x² placeholder). Always write every power with zeros as placeholders.",
+    "Using +3 instead of −3 in synthetic division for the divisor x + 3. The number in the box is the zero of the divisor: x + 3 = 0 → −3."
+   ],
+   "days": [
+    {
+     "guide": "Model (x³ + 2x² − 5x − 6) ÷ (x − 2) side by side with 1,452 ÷ 12. Student does five long divisions. Today's task from the plan: Divide polynomials by binomials using long division, connecting to numerical long division. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Divide (2x² + 5x − 1) ÷ (x + 3).",
+       "a": "2x − 1 with remainder 2: (2x² + 5x − 1) = (x + 3)(2x − 1) + 2."
+      }
+     ]
+    },
+    {
+     "guide": "Model synthetic division for the same problem as Day 1, comparing time. Student does eight synthetic divisions. Today's task from the plan: Use synthetic division for divisors of the form x−a; compare speed. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Divide (x³ − 7x + 6) ÷ (x + 3) synthetically.",
+       "a": "Use −3 with coefficients 1, 0, −7, 6: bottom row 1, −3, 2, 0 → x² − 3x + 2, remainder 0."
+      },
+      {
+       "q": "Divide (x³ + 2x² − 5x − 6) ÷ (x − 2).",
+       "a": "Bottom row 1, 4, 3, 0 → x² + 4x + 3, remainder 0."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student compute p(3) directly and by synthetic division with 3; they match. State the Remainder Theorem. Today's task from the plan: Verify that p(a) equals the remainder; use it to evaluate p(3) quickly. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "For p(x) = x³ − 4x² + x + 5, find p(3) and the remainder of p(x) ÷ (x − 3).",
+       "a": "p(3) = 27 − 36 + 3 + 5 = −1, and the remainder is also −1."
+      }
+     ]
+    },
+    {
+     "guide": "Remainder 0 means x − a is a factor. Model factoring x³ − 6x² + 11x − 6 given root 1. Student factors four cubics. Today's task from the plan: Determine whether x−a is a factor and fully factor cubics given one root. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Factor x³ − 6x² + 11x − 6 given that x = 1 is a zero.",
+       "a": "Synthetic with 1 gives x² − 5x + 6 = (x − 2)(x − 3), so (x − 1)(x − 2)(x − 3)."
+      },
+      {
+       "q": "Is x + 1 a factor of x³ + 1?",
+       "a": "Yes: p(−1) = −1 + 1 = 0."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on division methods and theorems. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Find the remainder when x⁴ − 3x + 2 is divided by x − 2.",
+       "a": "p(2) = 16 − 6 + 2 = 12."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) (x²+7x+10)÷(x+2) = x+5. 2) (3x³−2x²+4)÷(x−1) = 3x²+x+1 R5. 3) (x³−8)÷(x−2) = x²+2x+4. 4) remainder of x³+2x−1 ÷ (x+2) = −13. 5) Is x−4 a factor of x³−3x²−6x+8? p(4)=64−48−24+8=0, yes; = (x−4)(x²+x−2) = (x−4)(x+2)(x−1). 6) Factor 2x³+x²−13x+6 given x=2: (x−2)(2x²+5x−3) = (x−2)(2x−1)(x+3)."
+  },
+  {
+   "week": 10,
+   "prep": "Desmos for checking zeros. Make a reference card: a³ ± b³ = (a ± b)(a² ∓ ab + b²).",
+   "misconceptions": [
+    "Factoring x³ − 27 as (x − 3)³. Expand (x − 3)³ to show it is different; use the difference-of-cubes pattern.",
+    "Listing only p/q with positive signs in the Rational Root Theorem. Every candidate needs ±."
+   ],
+   "days": [
+    {
+     "guide": "Model a³ − b³ and a³ + b³ (SOAP: Same, Opposite, Always Positive) and quadratic-form polynomials. Student factors eight. Today's task from the plan: Factor sums/differences of cubes and quadratic-form polynomials like x⁴−5x²+4. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Factor x³ − 27 and 8x³ + 1.",
+       "a": "(x − 3)(x² + 3x + 9); (2x + 1)(4x² − 2x + 1)."
+      },
+      {
+       "q": "Factor x⁴ − 5x² + 4 completely.",
+       "a": "(x² − 1)(x² − 4) = (x − 1)(x + 1)(x − 2)(x + 2)."
+      }
+     ]
+    },
+    {
+     "guide": "Model grouping the first two and last two terms and pulling out the common binomial. Student factors six. Today's task from the plan: Factor four-term polynomials by grouping. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Factor x³ + 3x² − 4x − 12.",
+       "a": "x²(x + 3) − 4(x + 3) = (x + 3)(x² − 4) = (x + 3)(x − 2)(x + 2)."
+      }
+     ]
+    },
+    {
+     "guide": "Model listing ±(factors of constant)/(factors of leading coefficient), testing with synthetic division, and factoring the quotient. Today's task from the plan: List possible rational roots and test with synthetic division. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Find the zeros of 2x³ − 3x² − 11x + 6.",
+       "a": "Candidates ±1, ±2, ±3, ±6, ±1/2, ±3/2. x = 3 works (54 − 27 − 33 + 6 = 0). Quotient 2x² + 3x − 2 = (2x − 1)(x + 2). Zeros 3, 1/2, −2."
+      }
+     ]
+    },
+    {
+     "guide": "State the Fundamental Theorem: a degree-n polynomial has exactly n complex zeros counting multiplicity. Model finding complex zeros after factoring out real ones.",
+     "questions": [
+      {
+       "q": "Find all zeros of x³ − x² + 4x − 4.",
+       "a": "(x − 1)(x² + 4): zeros 1, 2i, −2i."
+      },
+      {
+       "q": "Find all zeros of x⁴ − 16.",
+       "a": "(x − 2)(x + 2)(x² + 4): ±2, ±2i."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz: five polynomials, all zeros with multiplicities (about 35 minutes). Today's task from the plan: Quiz: find all zeros of five polynomials and state multiplicities. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "State the zeros and multiplicities of f(x) = (x − 1)²(x + 3).",
+       "a": "x = 1 with multiplicity 2; x = −3 with multiplicity 1."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) x³−4x = x(x−2)(x+2): 0, 2, −2 (each mult. 1). 2) x³+2x²+x = x(x+1)²: 0 (1), −1 (2). 3) x³−2x²−9x+18 = (x−2)(x−3)(x+3): 2, 3, −3. 4) x⁴−13x²+36 = (x−2)(x+2)(x−3)(x+3): ±2, ±3. 5) x³+8 = (x+2)(x²−2x+4): −2, 1±i√3. Full credit requires all zeros (including complex) and multiplicities."
+  },
+  {
+   "week": 11,
+   "prep": "Desmos and graph paper. Prepare a few printed polynomial graphs for Day 4 and the quiz.",
+   "misconceptions": [
+    "Thinking a zero with multiplicity 2 crosses the axis. Even multiplicity touches and turns (bounces); odd crosses (multiplicity 3 flattens as it crosses).",
+    "Forgetting to use the y-intercept to find the leading coefficient when writing an equation from a graph."
+   ],
+   "days": [
+    {
+     "guide": "In Desmos, graph x², x³, −x⁴, −x⁵ and record end behavior in a 2×2 table (even/odd degree × positive/negative lead). Today's task from the plan: Investigate how degree and leading coefficient determine end behavior using Desmos. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Describe the end behavior of f(x) = −2x⁵ + 3x² − 1.",
+       "a": "Odd degree, negative leading coefficient: as x → ∞, f(x) → −∞; as x → −∞, f(x) → +∞."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = (x − 1), (x − 1)², (x − 1)³ and compare behavior at x = 1. Today's task from the plan: Explore how even vs. odd multiplicity affects the graph at a zero. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How does y = (x + 2)²(x − 3) behave at each zero?",
+       "a": "At x = −2 (multiplicity 2) it touches and turns; at x = 3 (multiplicity 1) it crosses."
+      }
+     ]
+    },
+    {
+     "guide": "Model the sketch checklist: degree & end behavior, zeros & multiplicity, y-intercept, then a smooth curve. Student sketches y = (x + 2)(x − 1)²(x − 4) and two more.",
+     "questions": [
+      {
+       "q": "List the features of y = (x + 2)(x − 1)²(x − 4).",
+       "a": "Degree 4, leading coefficient positive: both ends up. Crosses at −2 and 4, bounces at 1. y-intercept (2)(1)(−4) = −8."
+      }
+     ]
+    },
+    {
+     "guide": "Give one polynomial as a graph and one as an equation; student compares zeros, end behavior, and approximate maximum. Today's task from the plan: Compare a polynomial given by graph to one given by equation (max, zeros, end behavior). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Which has more real zeros: f(x) = x³ − x, or a graph that crosses the x-axis only once?",
+       "a": "f(x) = x(x − 1)(x + 1) has three real zeros (−1, 0, 1), so f has more."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 35 minutes). Today's task from the plan: Quiz: sketch three polynomials and write equations from two graphs. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Write a cubic with zeros −3 (cross) and 2 (bounce) passing through (0, 12).",
+       "a": "y = a(x + 3)(x − 2)²; at x = 0: a·3·4 = 12, so a = 1: y = (x + 3)(x − 2)²."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: sketches graded on end behavior (1), zeros with correct cross/bounce (2), y-intercept (1). Sketch 1: y=x(x−3)² — starts low, crosses at 0, bounces at 3, ends high. Sketch 2: y=−(x+1)(x−2)(x−4) — up on left, down on right, crosses −1, 2, 4, y-int −8. Sketch 3: y=(x−1)³ — flattens and crosses at 1, y-int −1. Equations: graph with zeros −2, 1, 3 (all crossing) and y-int 6 → y=(x+2)(x−1)(x−3); quartic bouncing at ±2 with y-int 16 opening up → y=(x−2)²(x+2)²."
+  },
+  {
+   "week": 12,
+   "prep": "Cardstock (letter size 8.5 × 11 in), scissors, ruler, tape. Draw Pascal's triangle to row 6 yourself.",
+   "misconceptions": [
+    "In the binomial expansion, forgetting to raise the coefficient (e.g., the 2 in 2x) to the power. Put each term in parentheses: (2x)³ = 8x³.",
+    "In the box problem, allowing x values that make a side negative. The domain is 0 < x < (shorter side)/2."
+   ],
+   "days": [
+    {
+     "guide": "Each corner square is x in; student builds boxes with x = 1, 1.5, 2, 2.5 in, measures volume, then models V(x) = x(11 − 2x)(8.5 − 2x) and finds the max in Desmos.",
+     "questions": [
+      {
+       "q": "What cut size maximizes volume for an 8.5 × 11 sheet, and what is the domain?",
+       "a": "Domain 0 < x < 4.25. Maximum at x ≈ 1.59 in, V ≈ 66.1 in³."
+      }
+     ]
+    },
+    {
+     "guide": "Build Pascal's triangle (each entry = sum of two above). Expand (a + b)² and (a + b)³ and match coefficients. Today's task from the plan: Build Pascal's triangle and connect rows to (a+b)^n coefficients. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What is row 4 of Pascal's triangle and what does it give?",
+       "a": "1, 4, 6, 4, 1 — the coefficients of (a + b)⁴ = a⁴ + 4a³b + 6a²b² + 4ab³ + b⁴."
+      }
+     ]
+    },
+    {
+     "guide": "Model (2x − 3)⁴ using C(4, k)(2x)^(4−k)(−3)^k. Then find one term of (x + 2)⁷ without expanding. Today's task from the plan: Expand (2x−3)⁴ and find a specific term using combinations. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Expand (2x − 3)⁴.",
+       "a": "16x⁴ − 96x³ + 216x² − 216x + 81."
+      },
+      {
+       "q": "Find the x³ term of (x + 2)⁷.",
+       "a": "C(7, 4)·x³·2⁴ = 35·16x³ = 560x³."
+      }
+     ]
+    },
+    {
+     "guide": "Model profit = revenue − cost with function notation. Student adds/multiplies two functions and interprets. Today's task from the plan: Add and multiply functions (e.g., revenue minus cost = profit) and interpret. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "R(x) = 15x and C(x) = 5x + 2000. Write P(x) and find the break-even point.",
+       "a": "P(x) = 10x − 2000; break-even when P = 0: x = 200 units."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test (about 50 minutes) and collect the box lab write-up. Today's task from the plan: Unit 3 test on polynomial operations, zeros, graphs, and modeling. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Find the remainder of x³ + 2x² − x + 4 divided by x + 1.",
+       "a": "p(−1) = −1 + 2 + 1 + 4 = 6."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Box lab rubric: measured volumes table (1), correct V(x) and domain (1), max found (x≈1.59 in, V≈66.1 in³ for letter paper) (1), comparison of physical boxes to the model (1). Unit 3 test sample answers: (x²−3x+2)(x+4) = x³+x²−10x+8; zeros of x³−7x−6 = −1, −2, 3; (x+1)⁵ coefficients 1,5,10,10,5,1; end behavior of −x⁴: both down; x²+4x+5 zeros −2±i."
+  },
+  {
+   "week": 13,
+   "prep": "Practice set. Remind the student how to simplify numerical fractions and find LCDs.",
+   "misconceptions": [
+    "Cancelling terms instead of factors, e.g., (x + 3)/(x + 5) → 3/5. Only common FACTORS cancel; factor first.",
+    "Forgetting excluded values from the original denominator after a factor cancels."
+   ],
+   "days": [
+    {
+     "guide": "Model factoring numerator and denominator, cancelling common factors, and listing excluded values from the ORIGINAL denominator. Today's task from the plan: Factor and simplify rational expressions, stating excluded values. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify (x² − 9)/(x² + 5x + 6) and state excluded values.",
+       "a": "(x − 3)(x + 3)/((x + 2)(x + 3)) = (x − 3)/(x + 2), x ≠ −2, −3."
+      }
+     ]
+    },
+    {
+     "guide": "Model multiply = factor everything then cancel; divide = multiply by the reciprocal. Today's task from the plan: Multiply and divide rational expressions with factoring. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify (x² − 4)/(x + 1) · (x + 1)/(x − 2).",
+       "a": "(x − 2)(x + 2)(x + 1)/((x + 1)(x − 2)) = x + 2, x ≠ −1, 2."
+      },
+      {
+       "q": "Simplify (x/3) ÷ (x²/6).",
+       "a": "(x/3)(6/x²) = 2/x, x ≠ 0."
+      }
+     ]
+    },
+    {
+     "guide": "Model finding the LCD from factored denominators and rewriting each fraction. Today's task from the plan: Find LCDs and add/subtract rational expressions. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify 3/x + 2/(x + 1).",
+       "a": "(3(x + 1) + 2x)/(x(x + 1)) = (5x + 3)/(x(x + 1))."
+      },
+      {
+       "q": "Simplify 1/(x − 2) − 4/(x² − 4).",
+       "a": "(x + 2 − 4)/((x − 2)(x + 2)) = 1/(x + 2), x ≠ ±2."
+      }
+     ]
+    },
+    {
+     "guide": "Method 1: simplify top and bottom then divide. Method 2: multiply top and bottom by the LCD of all small fractions. Compare. Today's task from the plan: Simplify complex fractions by two methods and compare. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify (1 + 1/x)/(1 − 1/x²).",
+       "a": "Multiply by x²: (x² + x)/(x² − 1) = x(x + 1)/((x − 1)(x + 1)) = x/(x − 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on rational expression operations. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Simplify (2x + 6)/(x² − 9).",
+       "a": "2(x + 3)/((x − 3)(x + 3)) = 2/(x − 3), x ≠ ±3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) (x²+x)/x = x+1, x≠0. 2) (x²−1)/(x²−2x+1) = (x+1)/(x−1). 3) (3x/(x−2))·((x−2)/(6x²)) = 1/(2x). 4) 2/x − 1/(x+2) = (x+4)/(x(x+2)). 5) x/(x−1) + 1/(1−x) = 1, x≠1. 6) (1/x − 1/2)/(x−2) = −1/(2x). Excluded values required for full credit."
+  },
+  {
+   "week": 14,
+   "prep": "Desmos. Look up Boyle's law (pressure × volume constant at fixed temperature).",
+   "misconceptions": [
+    "Thinking a graph can never cross a horizontal asymptote. Horizontal asymptotes describe end behavior only; graph y = x/(x² + 1) to see it cross y = 0.",
+    "Calling every zero of the denominator a vertical asymptote. If the factor cancels, it is a hole."
+   ],
+   "days": [
+    {
+     "guide": "Introduce y = k/x. Model finding k from one data point. Graph and discuss why y never reaches 0. Today's task from the plan: Model Boyle's law-type inverse variation and graph y = k/x. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "y varies inversely with x and y = 6 when x = 4. Find y when x = 8.",
+       "a": "k = 24, y = 24/8 = 3."
+      },
+      {
+       "q": "A gas at 2 atm occupies 6 L. At constant temperature, what is its volume at 3 atm?",
+       "a": "P₁V₁ = P₂V₂: 12 = 3V, V = 4 L."
+      }
+     ]
+    },
+    {
+     "guide": "Treat y = a/(x − h) + k like any transformation: asymptotes x = h and y = k. Today's task from the plan: Graph y = a/(x−h)+k and identify asymptotes. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Give the asymptotes of y = 3/(x + 2) − 1.",
+       "a": "Vertical x = −2; horizontal y = −1."
+      }
+     ]
+    },
+    {
+     "guide": "Model factoring, finding holes (cancelled factors), vertical asymptotes (remaining denominator zeros), and horizontal asymptote by comparing degrees. Today's task from the plan: Find vertical asymptotes, holes, and horizontal asymptotes from factored forms. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find holes and asymptotes of f(x) = (x² − 1)/(x² − x − 2).",
+       "a": "(x − 1)(x + 1)/((x − 2)(x + 1)): hole at x = −1 (point (−1, 2/3)), vertical asymptote x = 2, horizontal asymptote y = 1."
+      }
+     ]
+    },
+    {
+     "guide": "Model dividing (2x + 3) by (x − 1) to get 2 + 5/(x − 1), and read the graph as 5/x shifted right 1, up 2. Today's task from the plan: Use long division to rewrite (2x+3)/(x−1) as 2 + 5/(x−1) and interpret the graph. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Rewrite (2x + 3)/(x − 1) and name its asymptotes.",
+       "a": "2 + 5/(x − 1) (since 2(x − 1) + 5 = 2x + 3). Vertical x = 1, horizontal y = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz: graph three rational functions with all features labeled (about 35 minutes). Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What is the horizontal asymptote of y = 3x/(x² + 4)?",
+       "a": "Degree of denominator is greater, so y = 0."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) y=1/(x−3)+2: VA x=3, HA y=2, y-int 5/3, x-int 5/2. 2) y=(x+1)/(x−2): VA x=2, HA y=1, x-int −1, y-int −1/2. 3) y=(x²−4)/(x−2): hole at (2, 4), otherwise the line y = x+2, no asymptotes. Each graph: 1 pt each for VA, HA/hole, intercepts, correct branches."
+  },
+  {
+   "week": 15,
+   "prep": "Practice set. Prepare one 'two pipes' and one boat-current problem. Calculator allowed.",
+   "misconceptions": [
+    "Not checking solutions in the original equation. Any value that makes an original denominator zero is extraneous.",
+    "Averaging speeds (e.g., 60 and 40 → 50) for a round trip. Average speed = total distance ÷ total time."
+   ],
+   "days": [
+    {
+     "guide": "Model multiplying both sides by the LCD, solving, then checking each answer against excluded values. Today's task from the plan: Solve rational equations by multiplying by the LCD; check for extraneous solutions. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve 3/x + 1/2 = 2.",
+       "a": "Multiply by 2x: 6 + x = 4x, x = 2. Check: 1.5 + 0.5 = 2 ✓."
+      },
+      {
+       "q": "Solve x/(x − 3) = 3/(x − 3) + 2.",
+       "a": "x = 3 + 2(x − 3) → x = 3, which makes a denominator zero: extraneous, so no solution."
+      }
+     ]
+    },
+    {
+     "guide": "Model 'work rate = 1/time' and adding rates. Student solves four job problems. Today's task from the plan: Solve 'two pipes fill a tank' and shared-job problems. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Pipe A fills a tank in 6 h, pipe B in 3 h. Together?",
+       "a": "1/6 + 1/3 = 1/2 tank per hour, so 2 hours."
+      }
+     ]
+    },
+    {
+     "guide": "Model a d = rt table for upstream and downstream. Student solves three rate problems. Today's task from the plan: Solve upstream/downstream and average-speed problems. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A boat goes 12 mph in still water against a 3 mph current for 30 miles, then back. Total time?",
+       "a": "Upstream 30/9 = 3⅓ h, downstream 30/15 = 2 h; total 5⅓ h (5 h 20 min)."
+      },
+      {
+       "q": "Drive 120 miles at 60 mph and return at 40 mph. Average speed?",
+       "a": "Time 2 + 3 = 5 h for 240 miles: 48 mph."
+      }
+     ]
+    },
+    {
+     "guide": "Model isolating f in the lens formula by multiplying through by the LCD. Today's task from the plan: Rearrange formulas like 1/f = 1/a + 1/b (lens formula) to isolate variables. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve 1/f = 1/a + 1/b for f, then find b when a = 30 and f = 10.",
+       "a": "f = ab/(a + b). b = af/(a − f) = 300/20 = 15."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test (about 50 minutes). Today's task from the plan: Unit 4 test on rational expressions, functions, and equations. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Solve 2/(x + 1) = 1/(x − 2).",
+       "a": "2(x − 2) = x + 1 → x = 5. Check: 2/6 = 1/3 ✓."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 4 sample key: 1) simplify (x²−x−6)/(x²−9) = (x+2)/(x+3). 2) 1/x + 1/(2x) = 3/(2x). 3) y=(x−1)/(x+4): VA x=−4, HA y=1. 4) 5/x = 10/(x+3) → x=3. 5) x/(x−1) − 1/(x−1) = 1 → 1 = 1 for all x ≠ 1 (an identity; x = 1 is excluded). 6) Two painters, 4 h and 6 h: 2.4 h together. 7) Solve 1/R = 1/R₁ + 1/R₂ for R₂: R₂ = RR₁/(R₁ − R). Rubric: method 2 pts, answer and check 1 pt each."
+  },
+  {
+   "week": 16,
+   "prep": "Practice set. A calculator without radical simplification is fine; much of this is mental.",
+   "misconceptions": [
+    "Thinking 27^(2/3) = 27·(2/3) = 18. The denominator is the root and the numerator is the power: (∛27)² = 9.",
+    "Adding unlike radicals: √2 + √3 ≠ √5. Only like radicals (same index and radicand) combine."
+   ],
+   "days": [
+    {
+     "guide": "Use the power rule: (8^(1/3))³ = 8¹ = 8, so 8^(1/3) must be ∛8 = 2. Student evaluates nth roots, including odd roots of negatives. Today's task from the plan: Evaluate nth roots and explain why 8^(1/3) = 2 using exponent properties. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Evaluate ⁴√81 and ⁵√(−32).",
+       "a": "3 and −2."
+      },
+      {
+       "q": "Why does 8^(1/3) = 2?",
+       "a": "(8^(1/3))³ = 8^((1/3)·3) = 8, and 2³ = 8, so 8^(1/3) is the cube root of 8, which is 2."
+      }
+     ]
+    },
+    {
+     "guide": "Model converting x^(m/n) = (ⁿ√x)^m and applying exponent rules. Today's task from the plan: Convert and simplify expressions like 27^(2/3) and x^(3/4)·x^(1/2). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Evaluate 27^(2/3) and 16^(−3/4).",
+       "a": "27^(2/3) = 3² = 9. 16^(−3/4) = 1/(2³) = 1/8."
+      },
+      {
+       "q": "Simplify x^(3/4) · x^(1/2).",
+       "a": "x^(3/4 + 2/4) = x^(5/4)."
+      }
+     ]
+    },
+    {
+     "guide": "Model pulling out perfect powers, and multiplying different indices by converting to rational exponents. Today's task from the plan: Simplify and multiply radicals with different indices. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify √72 and ∛54.",
+       "a": "6√2 and 3∛2."
+      },
+      {
+       "q": "Write √2 · ∛2 as a single radical.",
+       "a": "2^(1/2 + 1/3) = 2^(5/6) = ⁶√32."
+      }
+     ]
+    },
+    {
+     "guide": "Model combining like radicals and rationalizing with a conjugate. Today's task from the plan: Add, subtract, and rationalize denominators with radicals. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify 3√12 + √27.",
+       "a": "6√3 + 3√3 = 9√3."
+      },
+      {
+       "q": "Rationalize 4/(3 − √5).",
+       "a": "4(3 + √5)/(9 − 5) = 3 + √5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes, no calculator). Today's task from the plan: Quiz on rational exponents and radical simplification. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Simplify (x⁶y³)^(1/3).",
+       "a": "x²y."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) 32^(3/5) = 8. 2) 49^(−1/2) = 1/7. 3) √50 = 5√2. 4) ∛(16x⁴) = 2x∛(2x). 5) √8 + √18 = 5√2. 6) (2 + √3)(2 − √3) = 1. 7) 6/√2 = 3√2. 8) a^(2/3)·a^(1/3) = a. Mastery 7/8."
+  },
+  {
+   "week": 17,
+   "prep": "String and a washer (pendulum), a meter stick, stopwatch. Desmos.",
+   "misconceptions": [
+    "Forgetting to check radical-equation answers. Squaring can introduce extraneous solutions; substitute back every time.",
+    "Writing f⁻¹(x) as 1/f(x). The inverse undoes f; it is not the reciprocal."
+   ],
+   "days": [
+    {
+     "guide": "Graph √x and ∛x, then transformations; student states domain/range for six. Today's task from the plan: Graph transformations of √x and ∛x and state domain and range. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "State domain and range of y = √(x − 2) + 3.",
+       "a": "Domain x ≥ 2; range y ≥ 3."
+      },
+      {
+       "q": "What is the domain of y = ∛(x + 1)?",
+       "a": "All real numbers (cube roots of negatives exist)."
+      }
+     ]
+    },
+    {
+     "guide": "Model isolate the radical, square both sides, solve, CHECK. Student solves six. Today's task from the plan: Solve √(x+3) = x−3 type equations and identify extraneous roots. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve √(x + 3) = x − 3.",
+       "a": "x + 3 = x² − 6x + 9 → x² − 7x + 6 = 0 → x = 1 or 6. Check: x = 1 gives 2 = −2 ✗; x = 6 gives 3 = 3 ✓. Solution x = 6."
+      }
+     ]
+    },
+    {
+     "guide": "Model f(g(x)) as 'do g first.' Use a currency chain: dollars → euros → yen with made-up rates. Today's task from the plan: Compose functions and evaluate f(g(x)) in context (currency conversions). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "If f(x) = 2x + 1 and g(x) = x², find f(g(3)) and g(f(3)).",
+       "a": "f(g(3)) = f(9) = 19. g(f(3)) = g(7) = 49. Order matters."
+      },
+      {
+       "q": "If E(d) = 0.9d converts dollars to euros and Y(e) = 160e converts euros to yen, what is Y(E(d))?",
+       "a": "Y(E(d)) = 160(0.9d) = 144d yen per d dollars."
+      }
+     ]
+    },
+    {
+     "guide": "Model swap x and y, solve for y, verify f(f⁻¹(x)) = x. Then time 10 swings for three string lengths and compare to T = 2π√(L/g). Today's task from the plan: Find inverses algebraically, verify by composition, and graph reflections over y = x; model pendulum period T = 2π√(L/g) and invert to find length. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the inverse of f(x) = 3x − 4 and of g(x) = x³ + 1.",
+       "a": "f⁻¹(x) = (x + 4)/3; g⁻¹(x) = ∛(x − 1)."
+      },
+      {
+       "q": "How long should a pendulum be for a 2-second period (g = 9.8 m/s²)?",
+       "a": "L = g(T/2π)² = 9.8·(1/π)² ≈ 0.99 m."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on radical equations and inverses. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Solve √(2x + 1) = 5.",
+       "a": "2x + 1 = 25, x = 12. Check: √25 = 5 ✓."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) √(x−4) = 3 → x=13. 2) √(x+7) = x+1 → x=2 (x=−3 extraneous). 3) ∛(x−2) = −3 → x=−25. 4) f(x)=2x+5, g(x)=x−1: f(g(x)) = 2x+3. 5) inverse of y=(x−1)/2 is y=2x+1. 6) inverse of y=√x (x≥0) is y=x², x≥0. 7) Verify inverses by showing f(g(x)) = x. Scoring 1 pt each plus 1 pt for checks shown."
+  },
+  {
+   "week": 18,
+   "prep": "Print or assemble a semester review packet (Khan Academy unit tests work well) and a 25-problem non-calculator exam plus a calculator section. Clear two quiet 60-minute blocks for the exam.",
+   "misconceptions": [
+    "Rushing the review by only re-reading notes. Have the student do mixed problems without knowing the topic first, which is what the exam requires.",
+    "Leaving answers unchecked under time pressure. Teach a 5-minute end-of-test check of extraneous solutions and signs."
+   ],
+   "days": [
+    {
+     "guide": "Student works a mixed set (transformations, systems, quadratics, complex numbers) for 40 minutes; you mark and they redo misses. Today's task from the plan: Mixed review on transformations, systems, quadratics, and complex numbers. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve x² + 4x + 8 = 0.",
+       "a": "x = (−4 ± √(16 − 32))/2 = −2 ± 2i."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed set on polynomial zeros, graphs, and rational functions; correct together. Today's task from the plan: Mixed review on polynomial zeros, graphs, and rational functions. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find all zeros of x³ − 2x² − 3x.",
+       "a": "x(x − 3)(x + 1): 0, 3, −1."
+      },
+      {
+       "q": "Name the asymptotes of y = (x + 1)/(x − 4).",
+       "a": "VA x = 4, HA y = 1."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed set on radicals and inverses; student builds a one-page formula sheet as study (not for use on exam unless you allow it). Today's task from the plan: Mixed review on radicals and inverses; make a one-page formula sheet. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the inverse of f(x) = (x − 2)³.",
+       "a": "f⁻¹(x) = ∛x + 2."
+      }
+     ]
+    },
+    {
+     "guide": "Exam part 1: 25 non-calculator problems, 60 minutes, no help. Grade with the key that night. Today's task from the plan: Non-calculator section (25 problems). Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Simplify (3 − i)(2 + 5i).",
+       "a": "6 + 15i − 2i − 5i² = 11 + 13i."
+      }
+     ]
+    },
+    {
+     "guide": "Exam part 2: calculator and two extended-response modeling tasks. Afterward, the student corrects errors for half credit back. Today's task from the plan: Calculator and modeling section with two extended-response tasks. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A ball's height is h = −16t² + 64t + 5. When is it highest and how high?",
+       "a": "t = 2 s; h = −64 + 128 + 5 = 69 ft."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Score part 1 by item (1 pt each, 25 pts). Representative answers: (x+3)²−7 vertex (−3,−7); |x−2|<5 → −3<x<7; (2,−1) solves 2x+y=3, x−y=3; i³⁰=−1; x³−8 = (x−2)(x²+2x+4); (x²−x−2)/(x−2) = x+1; 8^(2/3)=4; √(x−1)=x−3 → x=5. Part 2 extended responses (4-point rubric each): 4 = correct model, correct answer with units, interpretation of domain/limits; 3 = minor error; 2 = correct setup, incomplete solution; 1 = some relevant work. Semester grade: 90%+ excellent, 75–89% proficient, below 75% reteach weak units in January."
+  },
+  {
+   "week": 19,
+   "prep": "100 coins (or M&Ms) and a cup. Desmos. Make a table template: round, number remaining.",
+   "misconceptions": [
+    "Confusing growth factor and rate: a 6% increase is b = 1.06, not 0.06 or 6. A 15% decrease is b = 0.85.",
+    "Thinking an exponential function eventually reaches its asymptote. y = 100(0.5)^x gets closer to 0 but never equals 0."
+   ],
+   "days": [
+    {
+     "guide": "Show two tables (constant difference vs constant ratio). Student classifies six tables and writes each rule. Today's task from the plan: Compare constant difference vs. constant ratio in tables. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Classify 3, 6, 12, 24 and 5, 8, 11, 14 (x = 0, 1, 2, 3).",
+       "a": "First: ratio 2, exponential, y = 3·2^x. Second: difference 3, linear, y = 3x + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = ab^x and transformations; identify y-intercept and horizontal asymptote. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Give the asymptote and y-intercept of y = 3(2)^x − 4.",
+       "a": "Asymptote y = −4; y-intercept 3 − 4 = −1."
+      }
+     ]
+    },
+    {
+     "guide": "Shake coins, remove heads, record remaining each round until few left. Fit an exponential regression in Desmos. Today's task from the plan: Shake 100 coins, remove heads each round, record counts, and fit an exponential model. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Starting with 100 coins, what model do you expect, and about how many remain after 4 rounds?",
+       "a": "N ≈ 100(0.5)^n; after 4 rounds about 100/16 ≈ 6 coins."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing y = ab^x from (0, 5) and (2, 45), and from percent statements. Today's task from the plan: Write models from two points and from percent rate statements (population, depreciation). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Write the exponential through (0, 5) and (2, 45).",
+       "a": "a = 5, 5b² = 45, b = 3: y = 5·3^x."
+      },
+      {
+       "q": "A $24,000 car loses 15% per year. Write a model and find its value after 3 years.",
+       "a": "V = 24000(0.85)^t; V(3) = $14,739."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes) and collect the decay lab table and graph. Today's task from the plan: Quiz on graphs and writing exponential models. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Is y = 200(1.03)^t growth or decay, and by what percent?",
+       "a": "Growth, 3% per time period."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab rubric: data table (1), graph with regression (1), b-value compared to 0.5 (1), explanation of why the ratio is about one half (1). Quiz sample key: 1) y=2(3)^x → y-int 2, HA y=0, growth. 2) through (1, 6) and (3, 54): b=3, a=2, y=2·3^x. 3) population 50,000 growing 2%/yr: P=50000(1.02)^t. 4) 0.7^x decay by 30%. 5) table 80, 40, 20 → y = 80(0.5)^x."
+  },
+  {
+   "week": 20,
+   "prep": "Scientific calculator and a spreadsheet (Google Sheets is fine). Optional: real savings-account rates from two local banks.",
+   "misconceptions": [
+    "Using r = 4 instead of 0.04. Always convert percent to decimal.",
+    "Mixing up n (compounds per year) with t (years). Label every variable before substituting."
+   ],
+   "days": [
+    {
+     "guide": "Model A = P(1 + r/n)^(nt) with $1,000 at 4% compounded monthly for 5 years. Student compares two accounts. Today's task from the plan: Use A = P(1 + r/n)^(nt) to compare savings accounts. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the balance: $1,000 at 4% compounded monthly for 5 years.",
+       "a": "1000(1 + 0.04/12)^60 ≈ $1,221.00."
+      }
+     ]
+    },
+    {
+     "guide": "Spreadsheet: column of n = 1, 10, 100, 1000, … and (1 + 1/n)^n. Watch it level off. Today's task from the plan: Increase n in a spreadsheet to see (1 + 1/n)^n approach e. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What are (1 + 1/n)^n for n = 1 and n = 100, and what does it approach?",
+       "a": "2 and about 2.7048; it approaches e ≈ 2.71828."
+      }
+     ]
+    },
+    {
+     "guide": "Model A = Pe^(rt) and compare to monthly compounding. Then use it for bacteria growth. Today's task from the plan: Use A = Pe^(rt) for continuous compounding and bacterial growth. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "$500 compounded continuously at 3% for 10 years?",
+       "a": "500e^(0.3) ≈ $674.93."
+      }
+     ]
+    },
+    {
+     "guide": "Show that 1.15^t = (1.15^(1/12))^(12t) and compute 1.15^(1/12). Today's task from the plan: Rewrite 1.15^t as (1.15^(1/12))^(12t) to find monthly rates. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A quantity grows 15% per year. What is the equivalent monthly growth rate?",
+       "a": "1.15^(1/12) ≈ 1.0117, about 1.17% per month."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on interest problems and equivalent forms. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Which is better: 5% compounded annually or 4.9% compounded continuously?",
+       "a": "Annual: 1.05 effective. Continuous: e^0.049 ≈ 1.0502. The continuous account is very slightly better (5.02% vs 5%)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) $2,000 at 6% quarterly for 8 years: 2000(1.015)^32 ≈ $3,220.65. 2) $2,000 at 6% continuously for 8 years: 2000e^0.48 ≈ $3,232.15. 3) Monthly rate equivalent to 12% annual growth: 1.12^(1/12) ≈ 1.0095 (≈0.95%). 4) Bacteria 200e^(0.4t) at t=5: ≈1,478. 5) Explain why more frequent compounding helps but levels off (approaches e^r)."
+  },
+  {
+   "week": 21,
+   "prep": "Desmos. Make a small card: log_b(x) = y means b^y = x.",
+   "misconceptions": [
+    "Thinking log(x + 2) = log x + log 2. Logs turn products into sums, not sums into anything.",
+    "Trying to take log of 0 or a negative number. The domain of log_b x is x > 0."
+   ],
+   "days": [
+    {
+     "guide": "Teach 'a log is an exponent.' Student converts 10 forms each way and evaluates mentally. Today's task from the plan: Convert between exponential and logarithmic form; evaluate log₂32 mentally. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Evaluate log₂32 and log₃(1/9).",
+       "a": "5 (2⁵ = 32) and −2 (3⁻² = 1/9)."
+      },
+      {
+       "q": "Write 10³ = 1000 in log form.",
+       "a": "log 1000 = 3."
+      }
+     ]
+    },
+    {
+     "guide": "Use calculator log and ln; derive change of base as log_b x = ln x/ln b. Today's task from the plan: Evaluate log and ln with a calculator; use the change-of-base formula. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Evaluate log₅40.",
+       "a": "ln 40/ln 5 ≈ 2.292."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = 2^x and y = log₂x and y = x; show the reflection. Today's task from the plan: Graph y = log_b x as the inverse of y = b^x; identify asymptote and domain. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "State the domain, asymptote, and two points of y = log₂x.",
+       "a": "Domain x > 0, vertical asymptote x = 0; points (1, 0), (2, 1), (8, 3)."
+      }
+     ]
+    },
+    {
+     "guide": "Graph transformed logs in Desmos; student states features of four. Today's task from the plan: Graph transformed log functions in Desmos and state features. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Give the domain, asymptote, and x-intercept of y = log₃(x + 2) − 1.",
+       "a": "Domain x > −2; VA x = −2; x-intercept: log₃(x + 2) = 1 → x = 1."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on log conversions and graphs. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Solve log_x 49 = 2.",
+       "a": "x² = 49 and the base must be positive: x = 7."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) log₄64 = 3. 2) log 0.01 = −2. 3) ln e⁵ = 5. 4) 2⁻³ = 1/8 ↔ log₂(1/8) = −3. 5) log₇20 ≈ 1.540. 6) y = log(x−3): domain x>3, VA x=3, x-int (4,0). 7) Sketch y=log₂x reflecting y=2^x over y=x."
+  },
+  {
+   "week": 22,
+   "prep": "Practice set. Have the student review exponent rules (b^m·b^n = b^(m+n), etc.).",
+   "misconceptions": [
+    "Writing log(M/N) = log M / log N. The quotient rule gives a difference: log M − log N.",
+    "Applying the power rule to (log x)² as 2 log x. The power must be on the argument: log(x²) = 2 log x."
+   ],
+   "days": [
+    {
+     "guide": "Let M = b^m, N = b^n. Then MN = b^(m+n), so log_b(MN) = m + n = log_b M + log_b N. Do the same for the quotient. Today's task from the plan: Derive the product and quotient properties from exponent rules. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Use the product rule to evaluate log 4 + log 25.",
+       "a": "log 100 = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Derive log_b(M^p) = p·log_b M from (b^m)^p = b^(mp). Today's task from the plan: Derive and apply the power property. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Simplify log₂(8³).",
+       "a": "3·log₂8 = 3·3 = 9."
+      }
+     ]
+    },
+    {
+     "guide": "Model expanding and condensing; student completes 10 items. Today's task from the plan: Expand and condense log expressions (10 items). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Expand log(x³y/z²).",
+       "a": "3 log x + log y − 2 log z."
+      },
+      {
+       "q": "Condense 2 ln x − ln y + ½ ln z.",
+       "a": "ln(x²√z / y)."
+      }
+     ]
+    },
+    {
+     "guide": "Given log 2 ≈ 0.301 and log 3 ≈ 0.477, estimate other logs using properties. Today's task from the plan: Estimate values like log 50 using known logs and properties. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Estimate log 50 and log 6.",
+       "a": "log 50 = log 100 − log 2 ≈ 2 − 0.301 = 1.699. log 6 = log 2 + log 3 ≈ 0.778."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz with one written proof (about 35 minutes). Today's task from the plan: Quiz with a written proof of one property. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Condense log₃ 18 − log₃ 2.",
+       "a": "log₃ 9 = 2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) log₂(4·8) = 5. 2) Expand ln(a²b) = 2 ln a + ln b. 3) Expand log(√x/y) = ½log x − log y. 4) Condense 3 log 2 + log 5 = log 40. 5) log 18 ≈ 0.301 + 2(0.477) = 1.255. Proof rubric: 4 = defines M=b^m, N=b^n, applies exponent rule, converts back correctly; 3 = small notation slip; 2 = idea present but steps missing; 1 = only numerical example."
+  },
+  {
+   "week": 23,
+   "prep": "A mug of hot water, a kitchen or digital thermometer, timer. Desmos. Look up the pH and decibel definitions.",
+   "misconceptions": [
+    "Forgetting to check log-equation solutions; arguments must be positive.",
+    "Treating log scales as linear: pH 3 is not 'a bit' more acidic than pH 5; it is 100 times more acidic."
+   ],
+   "days": [
+    {
+     "guide": "Model isolating the exponential, then taking ln of both sides. Doubling time and half-life examples. Today's task from the plan: Solve ab^(ct) = d using logarithms (doubling time, half-life). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "$500 grows at 6% per year. When does it double?",
+       "a": "1.06^t = 2 → t = ln 2/ln 1.06 ≈ 11.9 years."
+      },
+      {
+       "q": "Carbon-14 half-life is 5,730 years. How old is a sample with 25% remaining?",
+       "a": "Two half-lives: 11,460 years."
+      }
+     ]
+    },
+    {
+     "guide": "Model condensing to one log, rewriting in exponential form, solving, and checking. Today's task from the plan: Solve log equations and check extraneous solutions. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve log₂x + log₂(x − 2) = 3.",
+       "a": "log₂(x(x − 2)) = 3 → x² − 2x − 8 = 0 → x = 4 or −2. Reject −2 (log of negative). x = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Record room temp, then the mug's temperature every 2 minutes for 30 minutes. Subtract room temp and fit an exponential to (T − T_room). Today's task from the plan: Record a cooling cup's temperature every 2 minutes and fit an exponential model. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Why subtract room temperature before fitting the exponential?",
+       "a": "Newton's law says the DIFFERENCE from room temperature decays exponentially: T = T_room + (T₀ − T_room)e^(−kt); the water approaches room temp, not 0."
+      }
+     ]
+    },
+    {
+     "guide": "Model pH = −log[H⁺], dB = 10 log(I/I₀), and magnitude comparisons with powers of 10. Today's task from the plan: Compute pH, decibel, and earthquake magnitude comparisons. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Compare pH 3 to pH 5.",
+       "a": "pH 3 has 10² = 100 times the hydrogen-ion concentration."
+      },
+      {
+       "q": "How much more intense is 90 dB than 60 dB?",
+       "a": "30 dB difference = 10³ = 1,000 times the intensity."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test (about 50 minutes) and collect the cooling lab. Today's task from the plan: Unit 6 test on exponential and logarithmic functions. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Solve 3^(x+1) = 20.",
+       "a": "x + 1 = ln 20/ln 3 ≈ 2.727, x ≈ 1.727."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Cooling lab rubric: table (1), graph of T − T_room with exponential fit (1), model written in T form (1), prediction for when water reaches a chosen temperature with comment on accuracy (1). Unit 6 test sample answers: 2^x = 50 → x ≈ 5.644; e^(2x) = 7 → x ≈ 0.973; log(x+1) = 2 → x = 99; ln x + ln 3 = ln 12 → x = 4; earthquake 6.0 vs 4.0: 100 times the amplitude; half-life 8 days, 100 g after 24 days = 12.5 g."
+  },
+  {
+   "week": 24,
+   "prep": "A paper plate, string, scissors, protractor, marker. Optional printed blank unit circle.",
+   "misconceptions": [
+    "Thinking π = 180. π radians corresponds to 180°; π itself is about 3.14.",
+    "Mixing calculator modes. Check DEG vs RAD before every calculation (sin 30 should be 0.5 in degree mode)."
+   ],
+   "days": [
+    {
+     "guide": "Cut string equal to the plate's radius and wrap it along the rim: that arc subtends 1 radian. Count about 6.28 radius-lengths around the circle. Today's task from the plan: Wrap string around a paper plate to construct one radian; convert between degrees and radians. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Convert 150° to radians and 3π/4 to degrees.",
+       "a": "150 · π/180 = 5π/6; 3π/4 · 180/π = 135°."
+      },
+      {
+       "q": "About how many degrees is 1 radian?",
+       "a": "180/π ≈ 57.3°."
+      }
+     ]
+    },
+    {
+     "guide": "Model s = rθ (θ in radians) and angular speed ω = θ/t, v = rω. Today's task from the plan: Use s = rθ to solve arc length and angular speed problems. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the arc length for r = 10 cm and θ = 2π/5.",
+       "a": "s = 10·2π/5 = 4π ≈ 12.57 cm."
+      },
+      {
+       "q": "A wheel of radius 0.3 m turns 10 revolutions per second. Linear speed?",
+       "a": "ω = 20π rad/s, v = 0.3·20π = 6π ≈ 18.85 m/s."
+      }
+     ]
+    },
+    {
+     "guide": "Draw 30-60-90 and 45-45-90 triangles with hypotenuse 1 to find coordinates; fill the first quadrant then reflect. Today's task from the plan: Build a unit circle with special angles from 30-60-90 and 45-45-90 triangles. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Give cos(π/3) and sin(π/4).",
+       "a": "1/2 and √2/2."
+      }
+     ]
+    },
+    {
+     "guide": "Model finding the reference angle, then the sign from the quadrant (All Students Take Calculus). Today's task from the plan: Evaluate sine, cosine, and tangent for any angle using reference angles. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Evaluate sin(5π/6), cos(4π/3), tan(7π/4).",
+       "a": "1/2, −1/2, −1."
+      },
+      {
+       "q": "Evaluate sin 210°.",
+       "a": "−1/2 (reference 30°, Quadrant III)."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz: fill in a blank unit circle and evaluate 10 expressions (about 30 minutes). Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What are the coordinates of 2π/3 on the unit circle?",
+       "a": "(−1/2, √3/2)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit circle key: points at 0, π/6, π/4, π/3, π/2 are (1,0), (√3/2,1/2), (√2/2,√2/2), (1/2,√3/2), (0,1), reflected with signs into other quadrants. Sample 10: sin π/2 = 1; cos π = −1; tan π/4 = 1; sin 7π/6 = −1/2; cos 5π/3 = 1/2; tan 2π/3 = −√3; sin 3π/2 = −1; cos 3π/4 = −√2/2; sin 11π/6 = −1/2; tan π/6 = √3/3."
+  },
+  {
+   "week": 25,
+   "prep": "The completed unit circle from last week.",
+   "misconceptions": [
+    "Ignoring the quadrant when taking a square root: from cos²θ = 16/25, cos θ could be ±4/5; the quadrant decides the sign.",
+    "Thinking sec θ = 1/sin θ. 'S' goes with 'C': sec = 1/cos, csc = 1/sin."
+   ],
+   "days": [
+    {
+     "guide": "Point (cos θ, sin θ) on the unit circle forms a right triangle with legs |cos θ|, |sin θ| and hypotenuse 1; Pythagoras gives the identity. Today's task from the plan: Prove sin²θ + cos²θ = 1 from the unit circle and the Pythagorean theorem. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Use the identity to check sin(π/6) and cos(π/6).",
+       "a": "(1/2)² + (√3/2)² = 1/4 + 3/4 = 1 ✓."
+      }
+     ]
+    },
+    {
+     "guide": "Model finding cos θ from sin θ with the identity, then the sign by quadrant. Today's task from the plan: Given sin θ = 3/5 in Quadrant II, find cos θ and tan θ. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "sin θ = 3/5 with θ in Quadrant II. Find cos θ and tan θ.",
+       "a": "cos²θ = 1 − 9/25 = 16/25; QII so cos θ = −4/5; tan θ = (3/5)/(−4/5) = −3/4."
+      }
+     ]
+    },
+    {
+     "guide": "Define sec, csc, cot as reciprocals; evaluate at special angles. Today's task from the plan: Define sec, csc, cot and evaluate them on the unit circle. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Evaluate sec(π/3), csc(π/6), cot(π/4), and sec(π/2).",
+       "a": "2, 2, 1, and undefined (cos(π/2) = 0)."
+      }
+     ]
+    },
+    {
+     "guide": "Student finds all six values from one given value for 12 problems. Today's task from the plan: Solve 12 problems finding all six trig values from one value. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "cos θ = −5/13 in Quadrant III. Find the other five.",
+       "a": "sin θ = −12/13, tan θ = 12/5, csc θ = −13/12, sec θ = −13/5, cot θ = 5/12."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on the identity and reciprocal functions. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "If tan θ = 1 and θ is in Quadrant III, find sin θ.",
+       "a": "θ = 5π/4, sin θ = −√2/2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) proof of sin²+cos²=1 from x²+y²=1 (rubric: diagram, coordinates, Pythagorean step). 2) cos θ = 0.6 in QIV → sin θ = −0.8, tan θ = −4/3. 3) csc(3π/2) = −1. 4) sec(π/4) = √2. 5) cot(π/6) = √3. 6) sin θ = −1/3 in QIII: cos θ = −2√2/3."
+  },
+  {
+   "week": 26,
+   "prep": "Desmos in radian mode. Spaghetti or string optional to 'unwrap' the unit circle.",
+   "misconceptions": [
+    "Computing period as b instead of 2π/b. Larger b means MORE cycles, so a SHORTER period.",
+    "Confusing amplitude with the maximum value. Amplitude = (max − min)/2; midline = (max + min)/2."
+   ],
+   "days": [
+    {
+     "guide": "Plot y-values of the unit circle at each special angle against the angle; connect into the sine curve. Repeat for cosine. Today's task from the plan: Plot unit-circle y-values against angle to create the sine graph. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Where are the zeros and maximum of y = sin x on [0, 2π]?",
+       "a": "Zeros at 0, π, 2π; maximum 1 at π/2; minimum −1 at 3π/2."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = a sin x + d with sliders. Today's task from the plan: Graph y = a sin x + d and interpret amplitude and midline. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Give the amplitude, midline, max, and min of y = 3 sin x + 2.",
+       "a": "Amplitude 3, midline y = 2, maximum 5, minimum −1."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = sin(bx) for b = 1, 2, 1/2 and derive period = 2π/b. Today's task from the plan: Graph y = sin(bx) and derive period = 2π/b. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the periods of y = sin(4x) and y = cos(x/2).",
+       "a": "2π/4 = π/2 and 2π/(1/2) = 4π."
+      }
+     ]
+    },
+    {
+     "guide": "Model reading max, min, period, and a starting point from a graph to write an equation. Today's task from the plan: Graph y = a sin(b(x−h)) + d and write equations from graphs. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A cosine graph has maximum 7 at x = 0, minimum 1, and period 8. Write it.",
+       "a": "Amplitude 3, midline 4, b = 2π/8 = π/4: y = 3cos(πx/4) + 4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz: graph two sinusoids and write two equations from graphs. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What is the phase shift of y = 2 sin(3(x − π/6))?",
+       "a": "π/6 to the right."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: Graph 1: y = 2 sin x − 1 (amp 2, midline −1, period 2π). Graph 2: y = cos(2x) (period π). Equation from graph with max 3, min −3, period π starting at max at x=0: y = 3cos(2x). Equation with midline 10, amplitude 5, period 24, rising through midline at x=0: y = 5 sin(πx/12) + 10. Rubric 4 pts each: amplitude, midline, period, phase/start correct."
+  },
+  {
+   "week": 27,
+   "prep": "Desmos in radian mode.",
+   "misconceptions": [
+    "Thinking tan x has a maximum of 1 like sine. Tangent's range is all real numbers.",
+    "Placing secant asymptotes where cosine is 1. Secant is undefined where cosine is 0."
+   ],
+   "days": [
+    {
+     "guide": "Build tan x = sin x/cos x: zeros where sin = 0, asymptotes where cos = 0. Today's task from the plan: Graph y = tan x from sin/cos ratios and identify asymptotes and period π. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Give the period, zeros, and asymptotes of y = tan x.",
+       "a": "Period π; zeros at x = kπ; vertical asymptotes at x = π/2 + kπ."
+      }
+     ]
+    },
+    {
+     "guide": "Graph sin x, then csc x = 1/sin x on top: U-shapes touching the sine peaks. Today's task from the plan: Graph csc and sec from their reciprocal sine and cosine graphs. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Where are the asymptotes of y = csc x and what is its range?",
+       "a": "At x = kπ (where sin x = 0). Range y ≤ −1 or y ≥ 1."
+      }
+     ]
+    },
+    {
+     "guide": "Graph cot x = cos x/sin x and compare with tan x. Today's task from the plan: Graph cot x and compare with tan x. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How does cot x differ from tan x?",
+       "a": "Asymptotes at x = kπ (instead of π/2 + kπ), zeros at π/2 + kπ, and it decreases on each interval while tan increases. Same period π."
+      }
+     ]
+    },
+    {
+     "guide": "Apply a, b, h, k to tangent and secant in Desmos. Today's task from the plan: Apply transformations to tangent and secant graphs. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the period and asymptotes of y = 2 tan(x/2).",
+       "a": "Period π/(1/2) = 2π; asymptotes at x = π + 2kπ."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz: match six graphs to equations (about 25 minutes). Today's task from the plan: Quiz matching six trig function graphs and equations. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Which graph has U-shaped pieces opening up at x = 0 and asymptotes at ±π/2?",
+       "a": "y = sec x."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Matching key: y = tan x ↔ increasing branches, asymptotes ±π/2, through origin; y = cot x ↔ decreasing branches, asymptotes 0 and π; y = sec x ↔ U at (0,1), asymptotes ±π/2; y = csc x ↔ U at (π/2,1), asymptotes 0, π; y = tan 2x ↔ period π/2; y = −sec x ↔ downward U at (0,−1). 1 pt each."
+  },
+  {
+   "week": 28,
+   "prep": "Daylight-hours table for your city (timeanddate.com 'sunrise sunset') and NOAA Tides & Currents data for a CA station (e.g., San Francisco 9414290). Desmos.",
+   "misconceptions": [
+    "Using the wrong period for monthly data (should be 12 months) or for tides (about 12.4 hours, two highs per day).",
+    "Assuming the model is exact. Discuss residuals and why weather or geography make real data deviate."
+   ],
+   "days": [
+    {
+     "guide": "Model a wheel with diameter 50 m, center 30 m high, one turn every 10 minutes, rider starting at the bottom. Today's task from the plan: Write a sinusoidal model for a rider's height on a Ferris wheel from given dimensions. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Write h(t) for the Ferris wheel.",
+       "a": "h(t) = −25cos(πt/5) + 30: amplitude 25, midline 30, period 10, starting at the minimum (5 m). At t = 5, h = 55 m (top)."
+      }
+     ]
+    },
+    {
+     "guide": "Enter monthly daylight hours and fit y = a cos(b(x − h)) + d by reading max, min, and period, then refine with Desmos regression. Today's task from the plan: Collect monthly daylight hours for your California city and fit a sinusoidal model. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "If maximum daylight is 14.4 h (June) and minimum 9.9 h (December), find amplitude, midline, and period.",
+       "a": "Amplitude (14.4 − 9.9)/2 = 2.25 h; midline 12.15 h; period 12 months."
+      }
+     ]
+    },
+    {
+     "guide": "Plot a day or two of NOAA hourly heights and fit a sinusoid. Today's task from the plan: Use NOAA tide data for a California station to model water height. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "High tide is 5.5 ft, low tide 0.5 ft. Give amplitude, midline, and an approximate period.",
+       "a": "Amplitude 2.5 ft, midline 3 ft, period about 12.4 hours (two highs per day)."
+      }
+     ]
+    },
+    {
+     "guide": "Student predicts a value from each model and compares to actual data, then writes two limitations. Today's task from the plan: Use models to predict values and compare to actual data; discuss model limits. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Name one limitation of a sinusoidal tide model.",
+       "a": "Real tides have unequal highs/lows (mixed tides), lunar-cycle changes, and weather effects, so a single sine with a fixed amplitude will drift from the data."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test (about 50 minutes) and collect the daylight report. Today's task from the plan: Unit 7 test on radians, unit circle, identity, and trig graphs/models. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Convert 225° to radians and evaluate its cosine.",
+       "a": "5π/4; cos = −√2/2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Daylight report rubric (4 levels): 4 = data table and graph, model with correct amplitude/midline/period/phase, prediction compared with actual, two limitations; 3 = one parameter off or weak discussion; 2 = model attempted but major parameter wrong; 1 = data only. Unit 7 sample answers: 240° = 4π/3; arc s for r=6, θ=π/3 is 2π; sin(3π/4)=√2/2; given cos θ=4/5 in QIV, sin θ=−3/5; period of y=4 sin(πx/6) is 12; y=tan x asymptotes at π/2+kπ."
+  },
+  {
+   "week": 29,
+   "prep": "Stacking cups (or blocks), ruler. A ball and tape measure for Day 4.",
+   "misconceptions": [
+    "Using n instead of n − 1 in a_n = a₁ + (n − 1)d. Test with n = 1: the formula must give a₁.",
+    "Confusing arithmetic (add d) with geometric (multiply by r). Check differences and ratios first."
+   ],
+   "days": [
+    {
+     "guide": "Measure the height of 1, 2, 3, 4 nested cups. Write a recursive rule and an explicit rule. Today's task from the plan: Build a stacking-cup pattern and write recursive and explicit rules. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A cup stack is 12 cm for 1 cup and grows 1.5 cm per added cup. Give recursive and explicit rules.",
+       "a": "Recursive: h₁ = 12, hₙ = hₙ₋₁ + 1.5. Explicit: hₙ = 12 + 1.5(n − 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Model finding d, writing a_n, and finding any term. Today's task from the plan: Find terms and write formulas a_n = a₁ + (n−1)d. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "a₁ = 7, d = 4. Find a₂₀.",
+       "a": "7 + 19·4 = 83."
+      },
+      {
+       "q": "Write a formula for 3, 10, 17, ….",
+       "a": "aₙ = 3 + 7(n − 1) = 7n − 4."
+      }
+     ]
+    },
+    {
+     "guide": "Model finding r, a_n = a₁r^(n−1), and the link to y = ab^x. Today's task from the plan: Find terms and write formulas a_n = a₁·r^(n−1); connect to exponential functions. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find a formula and the 8th term of 2, 6, 18, ….",
+       "a": "aₙ = 2·3^(n−1); a₈ = 2·3⁷ = 4,374."
+      }
+     ]
+    },
+    {
+     "guide": "Drop a ball from 2 m and measure rebound heights; compute ratios. Also model a savings plan that adds $50/month. Today's task from the plan: Model a savings plan and a bouncing-ball height sequence with real measurement. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "A ball dropped from 2 m rebounds to 60% of its height each time. How high after the 3rd bounce?",
+       "a": "2(0.6)³ = 0.432 m."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on sequence formulas. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Is 5, 10, 20, 40 arithmetic or geometric? Give the next term.",
+       "a": "Geometric with r = 2; next term 80."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) 4, 9, 14, … a₁₅ = 74. 2) explicit for 20, 17, 14: aₙ = 23 − 3n. 3) 3, −6, 12, … aₙ = 3(−2)^(n−1), a₆ = −96. 4) recursive a₁=5, aₙ=2aₙ₋₁ → 5, 10, 20, 40. 5) Which term of 2, 5, 8 … is 62? n = 21. 6) $1,000 earning 5%/yr: aₙ = 1000(1.05)^(n−1) for the start of year n."
+  },
+  {
+   "week": 30,
+   "prep": "Spreadsheet. Tell the Gauss 1-to-100 story.",
+   "misconceptions": [
+    "Confusing the number of terms with the last term in Σ. Count terms as (top − bottom + 1).",
+    "Applying the infinite-series formula when |r| ≥ 1. Such series diverge (no finite sum)."
+   ],
+   "days": [
+    {
+     "guide": "Model reading and writing Σ; student evaluates six sums by hand. Today's task from the plan: Write and evaluate sums in sigma notation. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Evaluate Σ_{k=1}^{5} (2k + 1).",
+       "a": "3 + 5 + 7 + 9 + 11 = 35."
+      }
+     ]
+    },
+    {
+     "guide": "Write the sum forwards and backwards and add to derive S = n(a₁ + aₙ)/2. Today's task from the plan: Derive Gauss's formula for arithmetic series and apply it. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find 1 + 2 + … + 100.",
+       "a": "100(101)/2 = 5,050."
+      },
+      {
+       "q": "Find Σ_{k=1}^{20} (3k + 2).",
+       "a": "a₁ = 5, a₂₀ = 62: 20(67)/2 = 670."
+      }
+     ]
+    },
+    {
+     "guide": "Derive S − rS to get S_n = a(1 − rⁿ)/(1 − r). Apply to a loan: payment = P·i/(1 − (1 + i)^(−n)). Today's task from the plan: Derive S_n = a(1−r^n)/(1−r) and apply to mortgage/loan payment problems. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Sum 3 + 6 + 12 + … (8 terms).",
+       "a": "3(1 − 2⁸)/(1 − 2) = 3·255 = 765."
+      },
+      {
+       "q": "Monthly payment on $20,000 at 6%/year for 60 months?",
+       "a": "i = 0.005: 20000(0.005)/(1 − 1.005^(−60)) ≈ $386.66."
+      }
+     ]
+    },
+    {
+     "guide": "Spreadsheet partial sums for r = 1/2, 0.9, 1.1; observe which level off. S = a/(1 − r) when |r| < 1. Today's task from the plan: Explore convergence when |r| < 1 with a spreadsheet. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find 8 + 4 + 2 + 1 + ….",
+       "a": "8/(1 − 1/2) = 16."
+      },
+      {
+       "q": "Does Σ 2(1.1)^n converge?",
+       "a": "No: r = 1.1 > 1, the sums grow without bound."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test (about 50 minutes). Today's task from the plan: Unit 8 test on sequences and series. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Write 2 + 4 + 6 + … + 40 in sigma notation and evaluate.",
+       "a": "Σ_{k=1}^{20} 2k = 20(2 + 40)/2 = 420."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 8 sample answers: 1) a₁₂ of 5, 9, 13: 49. 2) a₇ of 81, 27, 9: 1/9. 3) Σ_{k=1}^{4} k² = 30. 4) sum of first 30 odd numbers = 900. 5) 1 + 3 + 9 + … + 3⁶ = 1,093. 6) 12 − 6 + 3 − … infinite = 12/(1.5) = 8. 7) Explain why 1 + 2 + 4 + … has no sum. Rubric: formula (1), substitution (1), answer (1)."
+  },
+  {
+   "week": 31,
+   "prep": "Two or three recent news articles that report on a study (health or education topics work well). A random number generator (random.org or a calculator).",
+   "misconceptions": [
+    "Concluding cause and effect from an observational study. Only a randomized experiment can support causation; observational studies show association.",
+    "Thinking a larger sample fixes bias. A huge convenience sample is still biased; how you sample matters more than how many."
+   ],
+   "days": [
+    {
+     "guide": "Define survey, experiment (treatment imposed), observational study (no treatment imposed). Student classifies 12 descriptions. Today's task from the plan: Classify 12 study descriptions as surveys, experiments, or observational studies. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Researchers compare heart health of people who already drink coffee with those who don't. Which type?",
+       "a": "Observational study: no treatment was assigned."
+      },
+      {
+       "q": "Students are randomly assigned to study with or without music. Which type?",
+       "a": "Experiment: researchers impose the treatment with random assignment."
+      }
+     ]
+    },
+    {
+     "guide": "Model each sampling method with a school-of-1,000 example. Identify bias types (undercoverage, nonresponse, voluntary response, wording). Today's task from the plan: Compare simple random, stratified, cluster, and convenience samples; identify bias. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How is stratified sampling different from cluster sampling?",
+       "a": "Stratified: divide into groups and randomly sample from EVERY group. Cluster: divide into groups, randomly pick some whole groups, and survey everyone in them."
+      },
+      {
+       "q": "An online poll on a sports site asks readers to vote. Main bias?",
+       "a": "Voluntary response bias: people with strong opinions choose to respond."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a design: question, treatments, random assignment method, control, replication, and what to measure. Today's task from the plan: Design a randomized experiment testing whether music affects reaction time. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Why randomize in the music/reaction-time experiment?",
+       "a": "To balance unknown variables (sleep, skill) between groups so differences can be attributed to music."
+      }
+     ]
+    },
+    {
+     "guide": "Student reads two articles and writes an evaluation: study type, sample, possible bias, and whether the headline's claim is justified. Today's task from the plan: Critique two news articles reporting on data; write an evaluation. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "A headline says 'Eating breakfast causes better grades' based on a survey. Is this justified?",
+       "a": "No. A survey is observational; confounding variables (family routines, income, sleep) could explain the association."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on study design and bias. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What is a confounding variable?",
+       "a": "A variable related to both the explanatory and response variables that makes it impossible to separate their effects."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) classify 5 scenarios (survey/experiment/observational). 2) name sampling method in 4 scenarios (SRS, stratified, cluster, convenience). 3) identify bias in a mall survey: undercoverage/convenience. 4) design rubric: random assignment (1), control/comparison group (1), replication (1), clear response variable (1). 5) Explain why causation cannot be concluded from an observational study."
+  },
+  {
+   "week": 32,
+   "prep": "A data set of about 100 values (measure hand spans of family/friends or use published heights). Desmos normal distribution tool or a calculator with normalcdf.",
+   "misconceptions": [
+    "Applying the 68-95-99.7 rule to skewed data. Check the histogram shape first.",
+    "Comparing raw scores across different tests. Convert to z-scores to compare relative standing."
+   ],
+   "days": [
+    {
+     "guide": "Make a histogram of the data set; describe shape, center, spread, and outliers. Today's task from the plan: Make histograms of a real data set (e.g., 100 measured hand spans) and describe shape. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "What does 'approximately normal' look like?",
+       "a": "Single-peaked, symmetric, bell-shaped, with mean ≈ median and few extreme values."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a normal curve with mean and ±1, 2, 3 SD marked; shade regions. Today's task from the plan: Apply the 68-95-99.7 rule to estimate percentages. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "IQ scores: mean 100, SD 15. What percent lie between 85 and 115? Above 130?",
+       "a": "About 68% (±1 SD). Above 130 is beyond +2 SD: about 2.5%."
+      }
+     ]
+    },
+    {
+     "guide": "Model z = (x − μ)/σ. Compare two test results. Today's task from the plan: Calculate and compare z-scores (e.g., comparing ACT and SAT performance). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "SAT 1300 (mean 1050, SD 200) vs ACT 28 (mean 21, SD 5). Which is better relative to peers?",
+       "a": "SAT z = 1.25; ACT z = 1.4. The ACT score is relatively better."
+      }
+     ]
+    },
+    {
+     "guide": "Use technology to find areas; discuss when the normal model is inappropriate (skewed incomes, wait times). Today's task from the plan: Use technology to find areas under the normal curve; recognize when a normal model is not appropriate. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "With mean 100 and SD 10, find P(X > 120).",
+       "a": "z = 2; P ≈ 0.0228 (about 2.3%)."
+      },
+      {
+       "q": "Find P(Z < 1).",
+       "a": "≈ 0.8413."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (about 30 minutes). Today's task from the plan: Quiz on normal distributions. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A z-score of −1.5 means what?",
+       "a": "The value is 1.5 standard deviations below the mean."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key (mean 70, SD 8): 1) % between 62 and 78 ≈ 68%. 2) % above 86 ≈ 2.5%. 3) z for 82 = 1.5. 4) P(X < 82) ≈ 0.9332. 5) P(66 < X < 74) ≈ 0.383. 6) Explain why house prices are not normally distributed (right-skewed). 1 pt each."
+  },
+  {
+   "week": 33,
+   "prep": "Coins, dice, and a spreadsheet with =RAND() or =RANDBETWEEN(). Find a current poll with a margin of error.",
+   "misconceptions": [
+    "Interpreting a margin of error as covering all possible errors. It accounts only for random sampling variability, not biased questions or samples.",
+    "Thinking a single unusual result proves unfairness. Compare the result with the spread of many simulated results."
+   ],
+   "days": [
+    {
+     "guide": "Flip a coin 50 times and count heads. In a spreadsheet, simulate 100 sets of 50 fair flips and make a dot plot of head counts. Today's task from the plan: Flip a coin 50 times; simulate 100 sets in a spreadsheet to judge whether results are consistent with fairness. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "If you got 32 heads in 50 flips, is the coin likely unfair?",
+       "a": "With a fair coin, 32 or more heads happens only about 3% of the time, so 32 is unusual and gives some evidence the coin is unfair (but is not proof)."
+      }
+     ]
+    },
+    {
+     "guide": "Simulate 200 samples of size 50 from a population with p = 0.40; plot the sample proportions. Today's task from the plan: Simulate many samples of size 50 from a known population proportion and plot proportions. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Describe the distribution of sample proportions.",
+       "a": "Centered near 0.40, roughly bell-shaped, with most proportions within about ±0.14 (2 SD, since SD = √(0.4·0.6/50) ≈ 0.069)."
+      }
+     ]
+    },
+    {
+     "guide": "Estimate the margin of error as about 2 SD from the simulation and compare with 1/√n. Today's task from the plan: Estimate margin of error from simulation and compare to 1/√n. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "What is the approximate margin of error for n = 400? For n = 1,000?",
+       "a": "1/√400 = 0.05 (±5%); 1/√1000 ≈ 0.032 (±3.2%)."
+      }
+     ]
+    },
+    {
+     "guide": "Use random numbers to pick fairly (e.g., chores); analyze a game strategy with simulation. Today's task from the plan: Use random number generators to make fair decisions and analyze strategies. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How would you use a die to choose fairly among three people?",
+       "a": "Assign 1–2, 3–4, 5–6 to each person; each has probability 1/3."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz on interpreting margins of error (about 30 minutes). Today's task from the plan: Quiz interpreting a poll's margin of error. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A poll says 52% support a measure, ±3%. Can you conclude a majority supports it?",
+       "a": "No. The plausible range is 49%–55%, which includes values below 50%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample key: 1) 45% ±4% → plausible 41%–49%. 2) Quadrupling n halves the margin of error. 3) n = 2,500 → MOE ≈ 2%. 4) Explain why a self-selected online poll's margin of error is meaningless (bias). 5) Simulation shows 18–32 heads covers about 95% of fair 50-flip results; decide whether 35 heads is unusual (yes)."
+  },
+  {
+   "week": 34,
+   "prep": "Index cards for shuffling data. Materials for the chosen experiment (paper for airplanes, measuring tape) — let the student choose by Day 2.",
+   "misconceptions": [
+    "Concluding 'no effect' when a difference isn't significant. It means the data don't give convincing evidence, not proof of no difference.",
+    "Running all trials of one treatment first (e.g., when tired). Randomize the order of trials."
+   ],
+   "days": [
+    {
+     "guide": "Write each result from a two-group experiment on a card; shuffle into two piles many times and record the difference in means. Compare to the actual difference.",
+     "questions": [
+      {
+       "q": "If only 2 of 100 shuffles give a difference as large as observed, what do you conclude?",
+       "a": "About 2% chance by random assignment alone, so the difference is statistically significant (unlikely to be due to chance)."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes question, two treatments, response variable, randomization plan, and controlled variables. Today's task from the plan: Design a randomized experiment with two treatments (e.g., paper airplane wing design) and collect data. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Name three variables to hold constant in a paper-airplane experiment.",
+       "a": "Paper type and size, launcher and launch force/angle, and location (indoors, no wind)."
+      }
+     ]
+    },
+    {
+     "guide": "Run at least 20 trials per treatment in random order; record carefully. Today's task from the plan: Run the experiment with at least 20 trials per treatment. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Why at least 20 trials per treatment?",
+       "a": "Replication reduces the effect of chance variation so a real difference is easier to detect."
+      }
+     ]
+    },
+    {
+     "guide": "Compute means, medians, and SDs; run a randomization test (spreadsheet or by hand with many shuffles). Today's task from the plan: Analyze results with a randomization test and summary statistics. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What does the p-value from the randomization test mean in your project?",
+       "a": "The proportion of random re-shuffles giving a difference at least as large as observed: the chance of seeing this difference if the treatment had no effect."
+      }
+     ]
+    },
+    {
+     "guide": "Collect the report and give the Unit 9 test (about 45 minutes). Today's task from the plan: Submit a statistics project report and take the Unit 9 test. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why can a well-designed randomized experiment show causation?",
+       "a": "Random assignment balances other variables, so a significant difference can be attributed to the treatment."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Project rubric (4 levels): design (randomization, control, replication), data quality (≥20 per treatment), analysis (summary stats + randomization test), conclusion (answers question, states uncertainty and limitations). Proficient = clear design, correct statistics, and a conclusion that does not overclaim. Unit 9 test sample answers: experiment vs observational identification; z = (85−75)/5 = 2; 95% within 2 SD; MOE ≈ 1/√n; interpretation of a p-value of 0.30 → not significant."
+  },
+  {
+   "week": 35,
+   "prep": "Help the student find a public data set: California Department of Finance population, NOAA monthly temperatures, etc. Desmos.",
+   "misconceptions": [
+    "Choosing the model with the best R² even if it makes absurd predictions. A model must also make sense in context (e.g., population can't go negative).",
+    "Extrapolating far outside the data range. Discuss how uncertainty grows beyond the data."
+   ],
+   "days": [
+    {
+     "guide": "Student picks a data set of 15+ points and graphs it in Desmos, writing what pattern they see. Today's task from the plan: Choose a real data set and graph it. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "What pattern would you expect in 12 months of average temperatures?",
+       "a": "Periodic (sinusoidal), period 12 months."
+      }
+     ]
+    },
+    {
+     "guide": "Fit linear, quadratic, exponential, and sinusoidal regressions; plot residuals for each. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What does a good residual plot look like?",
+       "a": "Residuals scattered randomly around 0 with no curve or pattern."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a one-page justification: chosen model, evidence (residuals, context), and limitations. Today's task from the plan: Write a justification for the best model, including limitations. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why might an exponential model fail for long-term population predictions?",
+       "a": "Resources limit growth; real populations level off (logistic), so exponential overpredicts."
+      }
+     ]
+    },
+    {
+     "guide": "Student prepares a 5-minute presentation with a graph, model equation, predictions, and limits. Rehearse once. Today's task from the plan: Prepare a 5-minute presentation of the model and predictions. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What should every prediction slide include?",
+       "a": "The input value, predicted output with units, and a statement of confidence/limitations."
+      }
+     ]
+    },
+    {
+     "guide": "Student presents; you ask two questions about model choice and limits. Today's task from the plan: Present the capstone and answer questions. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Your model predicts a value 30 years ahead. How confident should we be?",
+       "a": "Not very: extrapolation far beyond the data assumes the pattern continues, which is uncertain."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Capstone rubric (4 levels per row): Data (relevant, cited source, 15+ points); Models (at least 3 fitted, equations stated); Justification (residuals and context used to choose, limitations stated); Predictions (reasonable, within or near data range, with units); Presentation (clear, 5 minutes, answers questions). Proficient (3) = all rows present and correct with minor gaps."
+  },
+  {
+   "week": 36,
+   "prep": "Final review packet (Khan Academy course challenge works well). Two quiet 60-minute exam blocks.",
+   "misconceptions": [
+    "Spending review time only on favorite topics. Use the semester exam and quiz errors to target weak units.",
+    "Skipping the reflection. Error analysis is where most learning from an exam happens."
+   ],
+   "days": [
+    {
+     "guide": "Mixed review on Units 1–5; student marks unsure items to revisit. Today's task from the plan: Mixed review on quadratics, polynomials, rationals, and radicals. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve √(x + 5) = x − 1.",
+       "a": "x + 5 = x² − 2x + 1 → x² − 3x − 4 = 0 → x = 4 or −1. Check: x = 4 ✓ (3 = 3), x = −1 ✗. x = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review on Units 6–9. Today's task from the plan: Mixed review on exponentials, logs, trig, sequences, and statistics. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Solve 5e^(2t) = 40.",
+       "a": "e^(2t) = 8 → t = ln 8/2 ≈ 1.040."
+      },
+      {
+       "q": "Find the sum of the infinite series 9 + 3 + 1 + ….",
+       "a": "9/(1 − 1/3) = 13.5."
+      }
+     ]
+    },
+    {
+     "guide": "Final part 1: non-calculator (60 minutes). Today's task from the plan: Non-calculator section. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Evaluate log₃81 + sin(π/6).",
+       "a": "4 + 1/2 = 4.5."
+      }
+     ]
+    },
+    {
+     "guide": "Final part 2: calculator and modeling (60 minutes). Today's task from the plan: Calculator section with modeling tasks. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "$3,000 at 5% compounded monthly; when does it reach $5,000?",
+       "a": "(1 + 0.05/12)^(12t) = 5/3 → t = ln(5/3)/(12 ln(1.0041667)) ≈ 10.2 years."
+      }
+     ]
+    },
+    {
+     "guide": "Return the graded exam; student writes a reflection on each missed item and on readiness for Precalculus. Today's task from the plan: Review exam errors and write a reflection on growth and readiness for Precalculus. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What should an error reflection include?",
+       "a": "The item, what went wrong (concept vs careless), the correct solution, and one action to prevent it."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final exam representative answers: (x−3)²+2 vertex (3,2); 2x²+7x+3 = (2x+1)(x+3); x³−6x²+11x−6 zeros 1, 2, 3; (x+1)/(x²−1) = 1/(x−1); 16^(3/4)=8; log₂(x)=5 → 32; cos(5π/3)=1/2; period of 3 sin(2x) is π; a₁₀ of 2, 6, 18 is 39,366; 95% of normal data within 2 SD. Grade bands: 90%+ excellent, 75–89% proficient, 60–74% basic (review before Precalculus), below 60% needs targeted summer work. Reflection rubric: complete error analysis for every missed item = full credit."
+  }
+ ]
+}

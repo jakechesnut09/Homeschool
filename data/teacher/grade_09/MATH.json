@@ -1,0 +1,2319 @@
+{
+ "grade": 9,
+ "subject": "MATH",
+ "overview": "Algebra I meets about an hour a day: a short model of the new skill, guided practice together, then independent practice, with Friday reviews, quizzes, or unit tests. Emphasize showing every step, checking answers by substitution or graphing, and explaining reasoning in sentences. Use Desmos often to connect equations, tables, and graphs, and reteach any quiz topic scored below 80% before moving on.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Print or draw a large nested diagram (natural ⊂ whole ⊂ integers ⊂ rationals; irrationals beside rationals, all inside reals). Write the 30 numbers on slips. Have a calculator and a number line ready; log in to Khan Academy.",
+   "misconceptions": [
+    "Thinking any decimal is irrational: show that repeating decimals like 0.333... equal fractions (1/3), so they are rational; only non-terminating, non-repeating decimals are irrational.",
+    "Classifying √49 as irrational because it has a root sign: simplify first — √49 = 7, an integer.",
+    "Believing irrational × irrational is always irrational: √2·√8 = √16 = 4 is rational."
+   ],
+   "days": [
+    {
+     "guide": "Model placing two numbers in the diagram aloud (e.g., −3/4 goes in rationals but not integers because it is a ratio of integers that is not whole). Your child sorts the rest and writes a one-line reason for each; check by asking 'can it be written as a fraction of integers?'",
+     "questions": [
+      {
+       "q": "Classify √49, −3/4, π, and 0.333... as specifically as possible.",
+       "a": "√49 = 7: natural, whole, integer, rational, real. −3/4: rational, real. π: irrational, real. 0.333... = 1/3: rational, real."
+      }
+     ]
+    },
+    {
+     "guide": "Show one example of each property: 4·(25·17) regrouped as (4·25)·17 = 1700 (associative); 7·98 = 7(100 − 2) = 686 (distributive). Your child does the 12 problems mentally, writing the property used, then explains one aloud.",
+     "questions": [
+      {
+       "q": "Compute 25·13·4 mentally. Which properties make it easy?",
+       "a": "25·4·13 = 100·13 = 1300 — commutative (swap order) then associative (regroup)."
+      },
+      {
+       "q": "Compute 6·(103) mentally and name the property.",
+       "a": "6(100 + 3) = 600 + 18 = 618 — distributive property."
+      }
+     ]
+    },
+    {
+     "guide": "Have your child use a calculator to explore 3 + √2, 2·√3, √2·√8, √2 + (−√2), noting which results are rational. Lead them to the rules: rational + irrational is always irrational; rational (nonzero) × irrational is irrational; two irrationals can give either. Then they write the explanation.",
+     "questions": [
+      {
+       "q": "Is √2·√8 rational or irrational?",
+       "a": "Rational: √2·√8 = √16 = 4."
+      },
+      {
+       "q": "Is 3 + √2 rational or irrational? Why?",
+       "a": "Irrational. If 3 + √2 = q were rational, then √2 = q − 3 would be rational (rationals are closed under subtraction) — a contradiction."
+      }
+     ]
+    },
+    {
+     "guide": "Model estimating √50: 49 < 50 < 64, so 7 < √50 < 8, and it is very close to 7 (≈7.07). Your child estimates the given roots, converts all 15 numbers to decimals, and places them on a number line; check order with a calculator.",
+     "questions": [
+      {
+       "q": "Between which two integers is √50, and about what is it?",
+       "a": "Between 7 and 8 (49 < 50 < 64); about 7.07."
+      },
+      {
+       "q": "Order from least to greatest: 10/3, π, √10, 3.2",
+       "a": "π (3.14) < √10 (3.16) < 3.2 < 10/3 (3.33)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (see key) without notes; then have your child write the rational + irrational argument in full sentences. Review any missed items together right away.",
+     "questions": [
+      {
+       "q": "In one sentence, why is the real-number set closed under addition but the irrationals are not?",
+       "a": "The sum of any two reals is real, but two irrationals can sum to a rational, e.g., √2 + (−√2) = 0."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Suggested quiz and answers: 1) √64 → natural, whole, integer, rational, real. 2) −2.5 → rational. 3) √5 → irrational. 4) 0.1212... → rational (12/99 = 4/33). 5) 5(x + 2) = 5x + 10 → distributive. 6) 3 + 8 = 8 + 3 → commutative. 7) (2·5)·9 = 2·(5·9) → associative. 8) Is π + 1 rational? No, irrational. Written explanation (proficient): assume r is rational, x irrational, and r + x = q is rational; then x = q − r is a difference of rationals, so it is rational — contradicting that x is irrational; therefore r + x is irrational. Rubric: 4 = assumption, closure step, contradiction stated; 3 = correct idea with a gap; 2 = examples only; 1 = incorrect."
+  },
+  {
+   "week": 2,
+   "prep": "Make expression cards (index cards with expressions such as 3(x+2) − 5x², 4x² − 7x + 9, 1.08p, 50 + 12h). Open Desmos to check equivalence by graphing both expressions.",
+   "misconceptions": [
+    "Saying the coefficient of −5x² is 5: the sign belongs to the coefficient, so it is −5.",
+    "Distributing only to the first term: 3(x + 2) is 3x + 6, not 3x + 2. Draw arrows from the 3 to each term.",
+    "Combining unlike terms (x² + x = x³): only terms with the same variable and exponent combine."
+   ],
+   "days": [
+    {
+     "guide": "Label one expression together: in 3(x+2) − 5x², the terms are 3(x+2) and −5x²; 3 and (x+2) are factors of the first term; −5 is the coefficient of x². Your child labels the remaining 14, then you spot-check signs.",
+     "questions": [
+      {
+       "q": "In 4x² − 7x + 9, name the terms, the coefficients, and the constant.",
+       "a": "Terms: 4x², −7x, 9. Coefficients: 4 and −7. Constant: 9."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss how an expression tells a story: 1.08p = p + 0.08p, the price plus 8% tax. Your child interprets each contextual expression in a full sentence, naming what each number means.",
+     "questions": [
+      {
+       "q": "What does 50 + 12h mean for a phone repair service that charges by the hour?",
+       "a": "A $50 flat fee plus $12 for each hour h of work."
+      },
+      {
+       "q": "Write an expression for a price p after a 15% discount.",
+       "a": "0.85p (p − 0.15p)."
+      }
+     ]
+    },
+    {
+     "guide": "Review order of operations (parentheses, exponents, multiply/divide left to right, add/subtract left to right). Model substituting with parentheses: for x = −2, 2x² − 3x + 1 = 2(−2)² − 3(−2) + 1. Your child evaluates the 20 expressions.",
+     "questions": [
+      {
+       "q": "Evaluate 2x² − 3x + 1 for x = −2.",
+       "a": "2(4) + 6 + 1 = 15."
+      },
+      {
+       "q": "Evaluate (a + b)/2 · a for a = 1/2, b = 3/2.",
+       "a": "(2)/2 · 1/2 = 1 · 1/2 = 1/2."
+      }
+     ]
+    },
+    {
+     "guide": "Model simplifying 3(2x − 4) − (x − 5): distribute (6x − 12 − x + 5), then combine like terms to 5x − 7. Then check equivalence by substituting x = 1 into both forms. Your child simplifies 20 and checks at least 5 by substitution.",
+     "questions": [
+      {
+       "q": "Simplify 3(2x − 4) − (x − 5) and check with x = 1.",
+       "a": "5x − 7. Check: original 3(−2) − (−4) = −2; simplified 5 − 7 = −2. ✓"
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz from the key without notes. Score it together and have your child redo any missed problem with a substitution check.",
+     "questions": [
+      {
+       "q": "Simplify 2(3a − b) + 4b.",
+       "a": "6a + 2b."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers (85% = proficient): 1) 5x³ − 2x + 7 has 3 terms, leading coefficient 5, constant 7. 2) 0.85p = price after a 15% discount. 3) In 20 + 0.15m, 20 is a fixed monthly fee and 0.15 is the cost per minute. 4) x² − 4x at x = −3 → 21. 5) (2x + 1)/3 at x = 4 → 3. 6) 4(x + 3) − 2(x − 1) → 2x + 14. 7) 2(3a − b) + 4b → 6a + 2b. 8) 5 − 2(x − 1) → 7 − 2x. 9) Are 3(x + 1) and 3x + 1 equivalent? No — at x = 0 they give 3 and 1."
+  },
+  {
+   "week": 3,
+   "prep": "Gather a measuring tape (with 1/16-inch marks), kitchen scale, and calculator. Print a conversion sheet (1 mi = 5280 ft, 1 h = 3600 s, 1 gal ≈ 3.785 L, 1 in = 2.54 cm).",
+   "misconceptions": [
+    "Flipping a conversion factor the wrong way: write units on every factor and cancel them; the factor is right only if unwanted units cancel.",
+    "Reporting false precision (e.g., 47.3125 in from a tape marked in sixteenths when the reading is uncertain): report to the smallest mark you can actually read.",
+    "Ignoring units in answers: every answer needs a unit."
+   ],
+   "days": [
+    {
+     "guide": "Model 60 mph → ft/s as a chain: 60 mi/h × 5280 ft/mi × 1 h/3600 s, crossing out units. Your child converts the 12 rates, writing units on every factor.",
+     "questions": [
+      {
+       "q": "Convert 60 mph to feet per second.",
+       "a": "60 × 5280 / 3600 = 88 ft/s."
+      },
+      {
+       "q": "Convert 10 gallons/day to liters/year (1 gal ≈ 3.785 L).",
+       "a": "10 × 3.785 × 365 ≈ 13,815 L/year."
+      }
+     ]
+    },
+    {
+     "guide": "Show how to read the tape to the nearest 1/16 inch (or mm). Your child measures the room, book, and mug twice each and records values with units and the precision used (e.g., 9 3/16 in).",
+     "questions": [
+      {
+       "q": "Your tape is marked in sixteenths of an inch. Is it reasonable to report a book as 9.1873 in?",
+       "a": "No — report to the nearest 1/16 in (about 9 3/16 in); extra digits claim precision the tool doesn't have."
+      }
+     ]
+    },
+    {
+     "guide": "Ask: what do we need to know to find the cost of a road trip? List quantities with units (distance d mi, efficiency m mi/gal, price p $/gal). Your child builds the expression cost = (d/m)·p and evaluates it for a real trip.",
+     "questions": [
+      {
+       "q": "A 300-mile trip in a car getting 25 mpg with gas at $4.80/gal: what is the fuel cost?",
+       "a": "300/25 = 12 gal; 12 × $4.80 = $57.60."
+      }
+     ]
+    },
+    {
+     "guide": "Show a graph with a poorly chosen scale and one with a good one. Your child picks axis scales so data fill most of the grid, labels units, and writes why.",
+     "questions": [
+      {
+       "q": "Data range from 0 to 950 and your graph has 10 gridlines up the y-axis. What scale should each gridline be?",
+       "a": "100 per gridline (0 to 1000) — fits all data and uses easy numbers."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test (see key) under quiet, timed conditions (about 45 minutes, calculator allowed for the units section). Grade together and log missed topics for review.",
+     "questions": [
+      {
+       "q": "Before the test: which number type is −√16?",
+       "a": "−√16 = −4: an integer, rational, real."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test sample answers: 1) −√16 = −4: integer, rational, real. 2) 3 + √5 is irrational. 3) Name the property: 2(x + 7) = 2x + 14 → distributive. 4) Evaluate 2x² − 5 at x = −3 → 13. 5) Simplify 2(x − 4) + 3x → 5x − 8. 6) Interpret 25 + 0.10m → $25 base plus $0.10 per minute. 7) Convert 5 m/s to km/h → 18 km/h. 8) Convert 3 ft² to in² → 432 in². 9) A tape reads to the nearest mm; report a 23.4 cm length as 234 mm (not 234.00 mm). 10) Explain why rational + irrational is irrational (see Week 1 rubric). Scoring: 90%+ excellent, 80–89% proficient, below 70% reteach."
+  },
+  {
+   "week": 4,
+   "prep": "Draw a balance scale template (or use algebra tiles). Write the properties of equality on a card: addition, subtraction, multiplication, division properties of equality; distributive property.",
+   "misconceptions": [
+    "Doing an operation to only one side: the balance must stay level — whatever is done to one side is done to the other.",
+    "Sign errors when distributing a negative: −2(x − 4) = −2x + 8, not −2x − 8.",
+    "Thinking 0 = 0 means x = 0: a true statement with no variable means infinitely many solutions; a false one (like 1 = −4) means no solution."
+   ],
+   "days": [
+    {
+     "guide": "Draw 3x + 5 = 20 on a balance: remove 5 from both pans, then split into 3 equal groups. Your child solves the 10 equations, naming the property for each step.",
+     "questions": [
+      {
+       "q": "Solve 3x + 5 = 20 and justify each step.",
+       "a": "Subtract 5 from both sides (subtraction property of equality): 3x = 15. Divide both sides by 3 (division property): x = 5."
+      }
+     ]
+    },
+    {
+     "guide": "Model ⅔(x − 6) = 4: multiply both sides by 3/2 to get x − 6 = 6, so x = 12; or distribute first. Your child solves 15 problems, checking each by substitution.",
+     "questions": [
+      {
+       "q": "Solve ⅔(x − 6) = 4.",
+       "a": "x − 6 = 6, so x = 12. Check: ⅔(6) = 4 ✓."
+      },
+      {
+       "q": "Solve 4(2x − 3) = 28.",
+       "a": "8x − 12 = 28 → 8x = 40 → x = 5."
+      }
+     ]
+    },
+    {
+     "guide": "Model collecting variables on one side: 5x − 3 = 2x + 12 → 3x = 15 → x = 5. Show special cases: 2(x + 3) = 2x + 6 gives 6 = 6 (all real numbers); 3x + 1 = 3x − 4 gives 1 = −4 (no solution). Your child solves the 15.",
+     "questions": [
+      {
+       "q": "Solve 5x − 3 = 2x + 12.",
+       "a": "x = 5."
+      },
+      {
+       "q": "How many solutions does 3x + 1 = 3x − 4 have?",
+       "a": "None — subtracting 3x gives 1 = −4, which is false."
+      }
+     ]
+    },
+    {
+     "guide": "Read one worked solution aloud and find the error together. Your child finds and corrects the error in the other 7, writing a sentence explaining each mistake.",
+     "questions": [
+      {
+       "q": "A student solved 3x − 2 = 7 by writing 3x = 5, x = 5/3. Find the error.",
+       "a": "They subtracted 2 instead of adding 2. Correct: 3x = 9, x = 3."
+      },
+      {
+       "q": "A student wrote −2(x − 4) = −2x − 8. What's wrong?",
+       "a": "−2 times −4 is +8, so it should be −2x + 8."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key; your child must write a justification for each step. Award partial credit for correct reasoning with arithmetic slips.",
+     "questions": [
+      {
+       "q": "Solve and justify: x/4 + 3 = 7.",
+       "a": "Subtract 3: x/4 = 4. Multiply both sides by 4: x = 16."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) 4x − 7 = 13 → x = 5. 2) 3(x + 2) = −9 → x = −5. 3) ¾x + 2 = 11 → x = 12. 4) 6x − 4 = 2x + 16 → x = 5. 5) 2(x − 1) = 2x + 3 → no solution. 6) 5(x + 1) − x = 4x + 5 → all real numbers. 7) 0.5(4x − 8) = x + 2 → x = 6. 8) −3(x − 2) = 15 → x = −3. Each step must be justified (e.g., 'add 7 to both sides — addition property of equality'). Rubric: full credit = correct answer + correct justifications; half credit = correct answer with missing/wrong justifications."
+  },
+  {
+   "week": 5,
+   "prep": "Print a formula sheet (A = ½bh, d = rt, C = 5/9(F − 32), I = Prt, P = 2l + 2w). Make a blank 'rate × time = distance' table template.",
+   "misconceptions": [
+    "Defining the variable vaguely ('x = tickets'): define exactly ('a = number of adult tickets sold').",
+    "In consecutive-integer problems, writing n, n + 2, n + 3: consecutive integers are n, n + 1, n + 2; consecutive even (or odd) integers are n, n + 2, n + 4.",
+    "Solving a literal equation by plugging in numbers: keep letters as letters and undo operations in reverse order."
+   ],
+   "days": [
+    {
+     "guide": "Model a four-step routine: define the variable, write the equation, solve, answer in a sentence with units. Your child solves the 8 word problems with the routine.",
+     "questions": [
+      {
+       "q": "The sum of three consecutive integers is 72. Find them.",
+       "a": "n + (n + 1) + (n + 2) = 72 → 3n + 3 = 72 → n = 23: 23, 24, 25."
+      },
+      {
+       "q": "Adult tickets cost $8, student tickets $5. 100 tickets brought in $650. How many adult tickets?",
+       "a": "8a + 5(100 − a) = 650 → 3a + 500 = 650 → a = 50 adult tickets."
+      }
+     ]
+    },
+    {
+     "guide": "Set up a table with rows for each object/solution and columns rate × time = distance (or concentration × amount = pure amount). Your child fills the table first, then writes the equation.",
+     "questions": [
+      {
+       "q": "Two cars leave the same point in opposite directions at 50 mph and 60 mph. When are they 330 miles apart?",
+       "a": "50t + 60t = 330 → 110t = 330 → t = 3 hours."
+      },
+      {
+       "q": "How many liters of 20% acid must be added to 10 L of 50% acid to make a 30% solution?",
+       "a": "0.20x + 0.50(10) = 0.30(x + 10) → 0.2x + 5 = 0.3x + 3 → x = 20 L."
+      }
+     ]
+    },
+    {
+     "guide": "Model solving C = 5/9(F − 32) for F: multiply by 9/5, then add 32 → F = 9/5·C + 32. Your child solves each formula for the named variable and checks with a numeric example.",
+     "questions": [
+      {
+       "q": "Solve A = ½bh for h.",
+       "a": "h = 2A/b."
+      },
+      {
+       "q": "Solve C = 5/9(F − 32) for F.",
+       "a": "F = (9/5)C + 32."
+      }
+     ]
+    },
+    {
+     "guide": "Use I = Prt: rearrange to r = I/(Pt), then answer real questions. Your child rearranges the interest and BMI formulas and answers the posed questions with units.",
+     "questions": [
+      {
+       "q": "A $1,500 deposit earned $90 simple interest in 2 years. What was the annual rate?",
+       "a": "r = I/(Pt) = 90/(1500·2) = 0.03 = 3% per year."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key. Require a defined variable and a sentence answer on each word problem.",
+     "questions": [
+      {
+       "q": "Solve P = 2l + 2w for w.",
+       "a": "w = (P − 2l)/2 = P/2 − l."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Rectangle with perimeter 54 and length 3 more than twice the width: 2w + 2(2w + 3) = 54 → w = 8, l = 19. 2) Two consecutive even integers sum to 86 → 42 and 44. 3) Solve d = rt for t → t = d/r. 4) Solve P = 2l + 2w for w → w = (P − 2l)/2. 5) Solve y = mx + b for m → m = (y − b)/x. 6) A cyclist rides 45 mi in 3 h → 15 mph. 7) I = Prt with I = $60, P = $1000, t = 3 → r = 2%. 8) 68°F in Celsius → 20°C. Rubric for word problems: variable defined, correct equation, correct solution, sentence with units."
+  },
+  {
+   "week": 6,
+   "prep": "Draw or print blank number lines. Make a 'flip rule' card showing −2 < 3 becoming 2 > −3 after multiplying by −1.",
+   "misconceptions": [
+    "Forgetting to reverse the inequality when multiplying or dividing by a negative: test a value to see the reversed version is the true one.",
+    "Open vs. closed circle confusion: < and > use open circles; ≤ and ≥ use closed circles.",
+    "Graphing 'or' as overlap: 'and' is the overlap (between), 'or' is everything in either piece."
+   ],
+   "days": [
+    {
+     "guide": "Model graphing x > −2 (open circle at −2, shade right) and test values (0 works, −5 doesn't). Your child graphs 12 inequalities and tests one value on each side of every boundary.",
+     "questions": [
+      {
+       "q": "Graph x ≤ 3 and test x = 3 and x = 4.",
+       "a": "Closed circle at 3, shade left. 3 ≤ 3 is true; 4 ≤ 3 is false."
+      }
+     ]
+    },
+    {
+     "guide": "Show why the sign flips: −2 < 3, but multiplying by −1 gives 2 and −3, and 2 > −3. Your child solves multi-step inequalities, circling any step where the sign reverses.",
+     "questions": [
+      {
+       "q": "Solve −3x + 4 ≤ 19.",
+       "a": "−3x ≤ 15 → x ≥ −5 (divide by −3, reverse sign)."
+      },
+      {
+       "q": "Why does the sign reverse when you divide by a negative?",
+       "a": "Multiplying by a negative reverses order on the number line (e.g., −2 < 3 but 2 > −3)."
+      }
+     ]
+    },
+    {
+     "guide": "Model −3 < 2x + 1 ≤ 9 by doing each operation to all three parts → −2 < x ≤ 4. Then an 'or' example. Your child solves and graphs the set.",
+     "questions": [
+      {
+       "q": "Solve and graph −3 < 2x + 1 ≤ 9.",
+       "a": "−4 < 2x ≤ 8 → −2 < x ≤ 4: open circle at −2, closed at 4, shaded between."
+      },
+      {
+       "q": "Solve x + 2 < −1 or x − 1 > 4.",
+       "a": "x < −3 or x > 5 (two separate rays)."
+      }
+     ]
+    },
+    {
+     "guide": "Translate key phrases: 'at most' ≤, 'at least' ≥, 'no more than' ≤, 'more than' >. Your child writes and solves inequalities for budget, grade, and sales problems and answers in context (whole items).",
+     "questions": [
+      {
+       "q": "You have $40, spent $12, and snacks cost $3.50 each. How many snacks can you buy?",
+       "a": "12 + 3.5n ≤ 40 → n ≤ 8: at most 8 snacks."
+      },
+      {
+       "q": "Scores so far: 82, 75, 90. What 4th score gives an average of at least 85?",
+       "a": "(247 + x)/4 ≥ 85 → x ≥ 93."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key. Check graphs carefully for circle type and direction.",
+     "questions": [
+      {
+       "q": "Solve 5 − x > 2.",
+       "a": "−x > −3 → x < 3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) 2x − 5 > 7 → x > 6 (open circle at 6, shade right). 2) −4x ≤ 12 → x ≥ −3 (closed circle). 3) 1 ≤ 3x − 2 < 10 → 1 ≤ x < 4. 4) x + 2 < −1 or x − 1 > 4 → x < −3 or x > 5. 5) A plan costs $25 plus $0.05 per text; budget at most $40 → 25 + 0.05t ≤ 40 → t ≤ 300 texts. 6) −(x + 1) ≥ 2 → x ≤ −3. Graph points: correct circle and direction required for full credit."
+  },
+  {
+   "week": 7,
+   "prep": "Prepare number lines. Write examples of real tolerances (a 12 mm bolt ± 0.05 mm, thermostat set to 68°F ± 3°). Prepare the Unit 2 review and test (see key).",
+   "misconceptions": [
+    "Solving |x − 3| = 5 with only x = 8: absolute value equations usually have two solutions (distance 5 in both directions).",
+    "Writing |2x + 1| < 7 as 2x + 1 < 7 or 2x + 1 > −7: 'less than' gives an AND (between) statement: −7 < 2x + 1 < 7.",
+    "Solving |x| = −2: an absolute value can't be negative — no solution."
+   ],
+   "days": [
+    {
+     "guide": "On a number line, mark 3 and count 5 units both ways to find 8 and −2. Then model the algebra: x − 3 = 5 or x − 3 = −5. Your child solves 12 equations, checking both answers.",
+     "questions": [
+      {
+       "q": "Solve |x − 3| = 5.",
+       "a": "x = 8 or x = −2."
+      },
+      {
+       "q": "Solve |2x + 1| = 9.",
+       "a": "2x + 1 = 9 or −9 → x = 4 or x = −5."
+      }
+     ]
+    },
+    {
+     "guide": "Teach 'less thAND' (between) and 'greatOR' (outside). Model |2x + 1| < 7 → −7 < 2x + 1 < 7. Your child solves and graphs each type.",
+     "questions": [
+      {
+       "q": "Solve |2x + 1| < 7.",
+       "a": "−7 < 2x + 1 < 7 → −4 < x < 3."
+      },
+      {
+       "q": "Solve |x − 4| ≥ 3.",
+       "a": "x − 4 ≤ −3 or x − 4 ≥ 3 → x ≤ 1 or x ≥ 7."
+      }
+     ]
+    },
+    {
+     "guide": "Model a tolerance: a 12 mm bolt acceptable within 0.05 mm is |L − 12| ≤ 0.05. Your child writes and solves inequalities for each scenario and states the acceptable range.",
+     "questions": [
+      {
+       "q": "A thermostat keeps the temperature within 3° of 68°F. Write and solve an inequality.",
+       "a": "|t − 68| ≤ 3 → 65 ≤ t ≤ 71."
+      }
+     ]
+    },
+    {
+     "guide": "Your child works the mixed review independently; you mark it and they correct errors, labeling each as a 'concept' or 'careless' mistake.",
+     "questions": [
+      {
+       "q": "Solve 3(x − 4) = 2x + 5.",
+       "a": "x = 17."
+      },
+      {
+       "q": "Solve V = lwh for h.",
+       "a": "h = V/(lw)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test (about 50 minutes). Grade with the key and plan review for weak areas.",
+     "questions": [
+      {
+       "q": "Before the test: how many solutions does |x + 1| = 0 have?",
+       "a": "One: x = −1."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test sample answers: 1) 3(x − 4) = 2x + 5 → x = 17. 2) 7 − 2(x + 1) = 3x → x = 1. 3) Solve V = lwh for h → h = V/(lw). 4) −2x + 3 > 11 → x < −4. 5) −5 ≤ 2x − 1 < 7 → −2 ≤ x < 4. 6) |x + 2| = 6 → x = 4 or −8. 7) |3x| ≤ 12 → −4 ≤ x ≤ 4. 8) |x − 1| > 2 → x < −1 or x > 3. 9) Gym A: $30 + $5/visit; Gym B: $50 + $3/visit → equal at 10 visits; B is cheaper after 10. 10) A part must be 5 cm within 0.02 cm: |L − 5| ≤ 0.02. Scoring: 80%+ proficient."
+  },
+  {
+   "week": 8,
+   "prep": "Make 16 cards of mappings, tables, and graphs (include a circle, a vertical line, a parabola, and repeated-x tables). Graph paper; Desmos open.",
+   "misconceptions": [
+    "Thinking a function can't repeat outputs: repeated y-values are fine; each INPUT must have exactly one output.",
+    "Reading f(x) as 'f times x': it is the output of f at input x.",
+    "Listing domain as all reals in contexts: ticket counts, for example, must be whole numbers from 0 up to capacity."
+   ],
+   "days": [
+    {
+     "guide": "Define a function: each input gives exactly one output. Model the vertical line test on a graph and a repeated-input check on a table. Your child sorts the 16 cards and writes the reason for each.",
+     "questions": [
+      {
+       "q": "Is {(1, 2), (2, 2), (3, 5)} a function? Is {(1, 2), (1, 3)}?",
+       "a": "First: yes (each input has one output; repeated output 2 is fine). Second: no — input 1 has two outputs."
+      },
+      {
+       "q": "Is a circle the graph of a function of x?",
+       "a": "No — a vertical line crosses it twice."
+      }
+     ]
+    },
+    {
+     "guide": "Model evaluating f(x) = 3x² − 2x at x = −2 using parentheses. Then interpret notation in context: if C(h) is the cost of h hours of rental, C(5) = 120 means 5 hours costs $120. Your child evaluates 10 inputs and writes the interpretation.",
+     "questions": [
+      {
+       "q": "For f(x) = 3x² − 2x, find f(−2) and f(5).",
+       "a": "f(−2) = 12 + 4 = 16; f(5) = 75 − 10 = 65."
+      },
+      {
+       "q": "If H(t) is a plant's height in cm after t weeks, what does H(4) = 12 mean?",
+       "a": "After 4 weeks the plant is 12 cm tall."
+      }
+     ]
+    },
+    {
+     "guide": "Plot points for y = 2x + 1 from a table and connect them. Test points on and off the line in the equation. Your child explains in writing why every point on the graph is a solution.",
+     "questions": [
+      {
+       "q": "Is (3, 7) on the graph of y = 2x + 1? Is (1, 4)?",
+       "a": "(3, 7): yes, 2·3 + 1 = 7. (1, 4): no, 2·1 + 1 = 3 ≠ 4."
+      }
+     ]
+    },
+    {
+     "guide": "Show domain (inputs) and range (outputs) on a graph using left–right and up–down sweeps. Discuss context limits. Your child finds domain and range for each graph, table, and context.",
+     "questions": [
+      {
+       "q": "Domain and range of f(x) = x²?",
+       "a": "Domain: all real numbers. Range: y ≥ 0."
+      },
+      {
+       "q": "Tickets cost $8 and a theater holds 200. What is the domain of revenue R(n) = 8n?",
+       "a": "Whole numbers 0, 1, 2, …, 200."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key; then review any missed items.",
+     "questions": [
+      {
+       "q": "If g(x) = x² + 1, what is g(−3)?",
+       "a": "10."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) {(2,5),(3,5),(4,6)} — function (yes). 2) A circle — not a function (fails vertical line test). 3) f(x) = 2x − 7: f(4) = 1. 4) g(x) = x² + 1: g(−3) = 10. 5) Solve f(x) = 2x − 7 = 5 → x = 6. 6) Domain/range of y = |x|: all reals; y ≥ 0. 7) If P(t) is population in thousands t years after 2000, P(10) = 52 means in 2010 the population was 52,000. 8) Domain for the number of cars washed at a fundraiser: whole numbers 0 up to the maximum possible."
+  },
+  {
+   "week": 9,
+   "prep": "Make 8 graph cards and 8 story cards (filling a bathtub, a walk to the store and back, a ball thrown up, a cooling drink...). Find a real daily-temperature graph online for Friday.",
+   "misconceptions": [
+    "Treating a graph as a picture of the path: a distance-time graph of a hill walk is not the shape of the hill.",
+    "Confusing increasing with 'positive': a function can be increasing while its values are negative.",
+    "Ignoring units when comparing rates in a table vs. a graph: compute each rate as change in output over change in input."
+   ],
+   "days": [
+    {
+     "guide": "Narrate one story while sketching its graph (bathtub: rises steadily while filling, flat while bathing, falls while draining). Your child matches the 8 pairs and sketches 4 new ones with labeled axes.",
+     "questions": [
+      {
+       "q": "Sketch distance-from-home vs. time for: walk to a friend's house, stay 20 minutes, run home.",
+       "a": "Line rises steadily, flat segment for 20 min, then a steeper line falling back to 0."
+      }
+     ]
+    },
+    {
+     "guide": "Model identifying key features on f(x) = x² − 4: intercepts, where it increases/decreases, and the minimum. Your child labels features on 10 graphs.",
+     "questions": [
+      {
+       "q": "For f(x) = x² − 4: find intercepts, the minimum, and where it increases.",
+       "a": "x-intercepts ±2, y-intercept −4; minimum −4 at x = 0; decreasing for x < 0, increasing for x > 0."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss what inputs make sense: a phone battery percent goes from 0 to 100; a ball's height function only makes sense from launch until it lands. Your child writes reasonable domains for the three models with reasons.",
+     "questions": [
+      {
+       "q": "A ball is thrown and lands after 3 seconds. What is a reasonable domain for its height function h(t)?",
+       "a": "0 ≤ t ≤ 3 seconds."
+      }
+     ]
+    },
+    {
+     "guide": "Compute each runner's rate: change in distance ÷ change in time. Your child compares a table to a graph and decides which grows faster.",
+     "questions": [
+      {
+       "q": "Runner A: (0 s, 0 m), (1, 6), (2, 12), (3, 18). Runner B's graph is a line through (0, 0) and (4, 28). Who is faster?",
+       "a": "A: 6 m/s; B: 28/4 = 7 m/s. Runner B is faster."
+      }
+     ]
+    },
+    {
+     "guide": "Your child writes a paragraph interpreting the real temperature graph (when highest/lowest, when rising/falling, overall change), then takes the short quiz.",
+     "questions": [
+      {
+       "q": "On a temperature graph, what does the highest point represent?",
+       "a": "The maximum temperature and the time of day it occurred."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Paragraph rubric: 4 = names max/min with values and times, intervals of increase/decrease, rate comparison, and uses units; 3 = most features, minor errors; 2 = vague description; 1 = inaccurate. Quiz answers (for f(x) = −(x − 2)² + 9): 1) vertex/maximum (2, 9). 2) x-intercepts −1 and 5. 3) y-intercept 5. 4) increasing for x < 2, decreasing for x > 2. 5) A tub draining at 3 gal/min from 45 gal: domain 0 ≤ t ≤ 15 min."
+  },
+  {
+   "week": 10,
+   "prep": "Gather about 60 toothpicks or square tiles. Prepare sequence lists and the Unit 3 test.",
+   "misconceptions": [
+    "Using a_n = a₁ + nd instead of a₁ + (n − 1)d: check with n = 1, which must give a₁.",
+    "Confusing the term number n with the term value a_n.",
+    "Connecting sequence points with a line: sequences are only defined at whole-number term numbers, so the graph is separate dots."
+   ],
+   "days": [
+    {
+     "guide": "Build squares in a row from toothpicks: 1 square = 4, 2 squares = 7, 3 = 10. Ask what is added each time and what is 'left over'. Your child builds, tables, and writes a rule for step n.",
+     "questions": [
+      {
+       "q": "How many toothpicks for n squares in a row? How many for 20 squares?",
+       "a": "3n + 1; for 20 squares, 61."
+      }
+     ]
+    },
+    {
+     "guide": "Find the common difference and model a_n = a₁ + (n − 1)d. Your child writes explicit formulas for 10 sequences and finds a later term in each.",
+     "questions": [
+      {
+       "q": "Write the explicit formula for 5, 9, 13, 17, … and find a₂₀.",
+       "a": "d = 4: a_n = 5 + 4(n − 1) = 4n + 1; a₂₀ = 81."
+      }
+     ]
+    },
+    {
+     "guide": "Show a recursive rule (start value + 'what to do to the previous term'). Convert both ways. Your child writes recursive definitions and converts to explicit form.",
+     "questions": [
+      {
+       "q": "Write 5, 9, 13, … recursively.",
+       "a": "a₁ = 5; a_n = a_(n−1) + 4."
+      },
+      {
+       "q": "Convert a₁ = −2, a_n = a_(n−1) − 3 to explicit form.",
+       "a": "a_n = −2 − 3(n − 1) = 1 − 3n."
+      }
+     ]
+    },
+    {
+     "guide": "Plot 4n + 1 for n = 1..5 as dots and graph y = 4x + 1 in Desmos. Discuss: the slope equals d, and the sequence is the line restricted to whole numbers.",
+     "questions": [
+      {
+       "q": "How is a_n = 4n + 1 related to y = 4x + 1?",
+       "a": "Same rule: the sequence is the linear function with domain restricted to positive integers; the common difference 4 is the slope."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test (about 50 minutes). Grade with the key.",
+     "questions": [
+      {
+       "q": "Is 3, 6, 12, 24 arithmetic?",
+       "a": "No — it has a common ratio (2), not a common difference."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test sample answers: 1) {(1,3),(2,3),(3,4)} is a function. 2) f(x) = x² − 3x: f(−2) = 10. 3) Domain and range of y = √x: x ≥ 0; y ≥ 0. 4) For a graph of a ball's height, name the maximum and intercepts (read from graph). 5) 7, 11, 15, … → a_n = 4n + 3; a₁₀ = 43. 6) Recursive form: a₁ = 7, a_n = a_(n−1) + 4. 7) 20, 17, 14, … → a_n = 23 − 3n; a₁₅ = −22. 8) A table vs. graph rate comparison — the larger change per unit input grows faster. Scoring: 80%+ proficient."
+  },
+  {
+   "week": 11,
+   "prep": "Tape measure, graph paper, access to household stairs and a ramp (or board propped on books).",
+   "misconceptions": [
+    "Computing run over rise: slope = rise/run = (y₂ − y₁)/(x₂ − x₁).",
+    "Subtracting coordinates in mixed order: keep the same point first in both numerator and denominator.",
+    "Thinking a horizontal line has 'no slope': it has slope 0; a vertical line's slope is undefined."
+   ],
+   "days": [
+    {
+     "guide": "Measure rise and run of one stair together and compute rise/run. Your child measures more stairs and a ramp and compares their steepness.",
+     "questions": [
+      {
+       "q": "A stair has a 7-inch rise and an 11-inch run. What is its slope?",
+       "a": "7/11 ≈ 0.64."
+      },
+      {
+       "q": "Which is steeper, a 1:12 ramp or that stair?",
+       "a": "The stair (0.64 vs. 1/12 ≈ 0.083)."
+      }
+     ]
+    },
+    {
+     "guide": "Model the slope formula with (2, 3) and (6, 11). Your child computes slope for 15 problems from points, tables, and graphs.",
+     "questions": [
+      {
+       "q": "Find the slope through (2, 3) and (6, 11).",
+       "a": "(11 − 3)/(6 − 2) = 8/4 = 2."
+      },
+      {
+       "q": "Find the slope through (−1, 4) and (3, −4).",
+       "a": "(−4 − 4)/(3 − (−1)) = −8/4 = −2."
+      }
+     ]
+    },
+    {
+     "guide": "Read a slope as a rate with units: −2.5 gallons/hour means the tank loses 2.5 gallons each hour. Your child interprets each rate in a sentence.",
+     "questions": [
+      {
+       "q": "A tank's volume changes at −2.5 gallons per hour. Interpret.",
+       "a": "The tank loses 2.5 gallons every hour."
+      }
+     ]
+    },
+    {
+     "guide": "For nonlinear data, the average rate of change over an interval is (change in output)/(change in input). Your child computes average rates for intervals of a population table and compares them.",
+     "questions": [
+      {
+       "q": "Population was 50,000 in 2000 and 62,000 in 2010. Average rate of change?",
+       "a": "12,000/10 = 1,200 people per year."
+      },
+      {
+       "q": "Average rate of change of f(x) = x² from x = 1 to x = 3?",
+       "a": "(9 − 1)/(3 − 1) = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the slope quiz in the key and have your child finish the stair-lab write-up (measurements, slopes, comparison).",
+     "questions": [
+      {
+       "q": "What is the slope of y = 5?",
+       "a": "0 (horizontal line)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) (1, 2),(4, 11) → 3. 2) (−2, 5),(2, −3) → −2. 3) (0, 4),(6, 4) → 0. 4) (3, 1),(3, 7) → undefined. 5) A plumber charges $12/ticket — slope means $12 per ticket. 6) Average rate of change of f(x) = x² on [1, 3] → 4. Lab rubric: 4 = measurements with units, correct slopes, compared, explains which is steeper and why it matters (safety/accessibility); 3 = minor errors; 2 = incomplete; 1 = missing."
+  },
+  {
+   "week": 12,
+   "prep": "Graph paper, ruler, Desmos. Make a card with the three forms: y = mx + b, y − y₁ = m(x − x₁), Ax + By = C.",
+   "misconceptions": [
+    "Using the x-intercept as b: b is where the line crosses the y-axis (x = 0).",
+    "Sign errors in point-slope form: through (2, −5) it is y + 5 = m(x − 2).",
+    "Perpendicular slope as just the negative: it is the negative reciprocal (2 → −1/2)."
+   ],
+   "days": [
+    {
+     "guide": "Model graphing y = −2x + 3: plot (0, 3), go down 2 and right 1. Interpret m and b in context (taxi y = 2.5x + 3). Your child graphs 12 equations and writes two context interpretations.",
+     "questions": [
+      {
+       "q": "In the taxi fare y = 2.5x + 3 (x = miles), what do 2.5 and 3 mean?",
+       "a": "$2.50 per mile; $3 starting fee."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing through (2, 5) with slope 3: y − 5 = 3(x − 2), then y = 3x − 1. Your child writes equations from points and slopes and converts forms.",
+     "questions": [
+      {
+       "q": "Write the line through (2, 5) with slope 3 in slope-intercept form.",
+       "a": "y = 3x − 1."
+      },
+      {
+       "q": "Write the line through (1, 2) and (3, 8).",
+       "a": "m = 3; y − 2 = 3(x − 1) → y = 3x − 1."
+      }
+     ]
+    },
+    {
+     "guide": "Graph 3x + 4y = 24 using intercepts (set x = 0 → y = 6; y = 0 → x = 8). Interpret as a $24 budget for items costing $3 and $4. Your child graphs the standard-form set and interprets one.",
+     "questions": [
+      {
+       "q": "Find the intercepts of 3x + 4y = 24 and interpret them as a budget for $3 and $4 items.",
+       "a": "x-intercept 8 (buy eight $3 items, no $4), y-intercept 6 (six $4 items, no $3)."
+      }
+     ]
+    },
+    {
+     "guide": "Parallel lines share slopes; perpendicular slopes are negative reciprocals. Your child writes lines through given points parallel/perpendicular to given lines.",
+     "questions": [
+      {
+       "q": "Line parallel to y = 2x + 1 through (1, 4)?",
+       "a": "y = 2x + 2."
+      },
+      {
+       "q": "Line perpendicular to y = 2x + 1 through (1, 4)?",
+       "a": "slope −1/2: y = −½x + 4.5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key.",
+     "questions": [
+      {
+       "q": "What is the slope of 2x + y = 7?",
+       "a": "−2 (y = −2x + 7)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Through (0, −2) and (3, 4) → y = 2x − 2. 2) Slope −1 through (4, 1) → y = −x + 5. 3) 2x − 5y = 10 intercepts: x = 5, y = −2. 4) Parallel to y = −3x + 2 through (0, 7) → y = −3x + 7. 5) Perpendicular to y = ½x through (2, 1) → y = −2x + 5. 6) Gym: $40 joining fee plus $25/month → y = 25x + 40. 7) Graph y = −⅔x + 4 (plot (0, 4), down 2 right 3)."
+  },
+  {
+   "week": 13,
+   "prep": "Desmos with sliders (type f(x) = x, then y = f(x) + k and y = a·f(x)). Prepare phone-plan, gym, and tea-cooling tables.",
+   "misconceptions": [
+    "Thinking f(x) + k shifts the graph right: it shifts up by k.",
+    "Writing the inverse as 1/f(x): an inverse undoes the function (swap x and y and solve), not a reciprocal.",
+    "Assuming a linear model fits everything: cooling tea is only roughly linear over short times (it is really exponential) — check the table's differences."
+   ],
+   "days": [
+    {
+     "guide": "Model writing a linear function from a description (gym: $40 + $25/month → C = 25m + 40) and from a table (find rate, then starting value). Your child writes all three and comments on whether the tea data are truly linear.",
+     "questions": [
+      {
+       "q": "A gym costs $40 to join and $25 per month. Write the cost after m months and find the cost for a year.",
+       "a": "C = 25m + 40; C(12) = $340."
+      }
+     ]
+    },
+    {
+     "guide": "In Desmos, slide k in f(x) + k and a in a·f(x). Your child writes a sentence describing each effect.",
+     "questions": [
+      {
+       "q": "Describe y = x + 3 compared to y = x.",
+       "a": "Shifted up 3 units (same slope)."
+      },
+      {
+       "q": "Describe y = −2x compared to y = x.",
+       "a": "Twice as steep and reflected (now decreasing)."
+      }
+     ]
+    },
+    {
+     "guide": "Find the inverse by swapping input and output: F = (9/5)C + 32 → C = (5/9)(F − 32). Your child finds inverses and explains what each input and output means.",
+     "questions": [
+      {
+       "q": "Find the inverse of f(x) = 2x + 6 and evaluate f⁻¹(10).",
+       "a": "f⁻¹(x) = (x − 6)/2; f⁻¹(10) = 2."
+      },
+      {
+       "q": "What does the inverse of the C→F conversion do?",
+       "a": "It converts Fahrenheit back to Celsius: C = 5/9(F − 32)."
+      }
+     ]
+    },
+    {
+     "guide": "Write both plans as functions and set them equal. Your child solves and interprets which plan is cheaper for which usage.",
+     "questions": [
+      {
+       "q": "Plan A: $20 + $0.50/GB. Plan B: $35 + $0.25/GB. When are they equal, and which is cheaper beyond that?",
+       "a": "20 + 0.5g = 35 + 0.25g → g = 60 GB; Plan B is cheaper above 60 GB."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key.",
+     "questions": [
+      {
+       "q": "Inverse of f(x) = 3x − 4?",
+       "a": "f⁻¹(x) = (x + 4)/3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Table (0, 15), (2, 21), (4, 27) → f(x) = 3x + 15. 2) y = x + 5 vs y = x → shifted up 5. 3) y = 3x vs y = x → steeper by factor 3. 4) Inverse of f(x) = 3x − 4 → (x + 4)/3. 5) Inverse of f(x) = x/2 + 1 → 2(x − 1). 6) Two plans: $30 + $10/mo vs $60 + $5/mo → equal at 6 months; second cheaper after 6. 7) Interpret slope and intercept of your phone-plan model."
+  },
+  {
+   "week": 14,
+   "prep": "Safety: an adult supervises candle burning (stable holder, away from curtains, fire extinguisher or water nearby) — or use the water-bottle option. Ruler, timer, data table, Desmos. Plan the Unit 4 test.",
+   "misconceptions": [
+    "Forcing the line through the first and last points: a line of fit should balance points above and below.",
+    "Predicting far beyond the data without caveats: extrapolation is less reliable (a candle's wick stub, a bottle's pressure change).",
+    "Interpreting slope without units: −0.1 cm/min, not just −0.1."
+   ],
+   "days": [
+    {
+     "guide": "Set up the candle or bottle with a ruler behind it; record height every 5 minutes for at least 45 minutes. Your child keeps the data table and notes conditions (drafts, etc.).",
+     "questions": [
+      {
+       "q": "Why record at equal time intervals?",
+       "a": "Equal intervals make it easy to see whether the change is constant (linear) and to compute rates."
+      }
+     ]
+    },
+    {
+     "guide": "Plot data on paper and in Desmos; draw a line of fit and find its equation from two points on the line (or Desmos regression). Your child writes the equation with units.",
+     "questions": [
+      {
+       "q": "Your line of fit goes through (0, 15) and (30, 12) (minutes, cm). Find its equation.",
+       "a": "m = −3/30 = −0.1 cm/min; h = 15 − 0.1t."
+      }
+     ]
+    },
+    {
+     "guide": "Interpret slope (burn rate) and intercept (starting height), then predict burnout by setting h = 0. Your child writes interpretations and a prediction.",
+     "questions": [
+      {
+       "q": "Using h = 15 − 0.1t, when does the candle burn out?",
+       "a": "0 = 15 − 0.1t → t = 150 minutes."
+      }
+     ]
+    },
+    {
+     "guide": "Your child writes a one-page report: question, method, data table, graph, equation, interpretation, prediction, limitations. Give feedback on clarity.",
+     "questions": [
+      {
+       "q": "Name one limitation of a linear model for this experiment.",
+       "a": "Burn rate may change (wick length, drafts, wax shape), and the model can't be trusted beyond the data range."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test (about 50 minutes).",
+     "questions": [
+      {
+       "q": "Slope of a line through (0, 4) and (2, 0)?",
+       "a": "−2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Report rubric: 4 = complete data table, accurate graph with labeled axes and units, correct line of fit, slope/intercept interpreted with units, reasonable prediction, two thoughtful limitations; 3 = minor errors; 2 = missing parts; 1 = little evidence. Unit 4 test sample answers: 1) Slope through (−2, 1), (2, 9) → 2. 2) y = 2x + 5 for that line. 3) Line through (3, −1) with slope −2 → y = −2x + 5. 4) Perpendicular to y = ⅓x + 2 through origin → y = −3x. 5) 4x + 2y = 12 intercepts (3, 0), (0, 6). 6) Inverse of f(x) = 5x + 2 → (x − 2)/5. 7) Average rate of change interpretation with units."
+  },
+  {
+   "week": 15,
+   "prep": "Graph paper, colored pencils, Desmos. Prepare 8 systems for graphing and 12 for substitution.",
+   "misconceptions": [
+    "Stopping after finding x: a solution to a system is an ordered pair — find y too and check in both equations.",
+    "Thinking parallel lines have infinitely many solutions: parallel (same slope, different intercept) means no solution; the same line means infinitely many.",
+    "Substituting into the same equation you solved: substitute into the OTHER equation."
+   ],
+   "days": [
+    {
+     "guide": "Graph y = x + 1 and y = −x + 5; read the intersection (2, 3) and check it in both. Show parallel and identical lines. Your child solves the 8 and classifies each.",
+     "questions": [
+      {
+       "q": "Solve by graphing: y = x + 1 and y = −x + 5.",
+       "a": "(2, 3)."
+      },
+      {
+       "q": "How many solutions do y = 3x + 1 and y = 3x − 2 have?",
+       "a": "None — parallel lines."
+      }
+     ]
+    },
+    {
+     "guide": "Explain: at the intersection, f(x) and g(x) have the same output for the same input, so f(x) = g(x) there. Make a table of both functions to approximate where they're equal.",
+     "questions": [
+      {
+       "q": "Why does the x-coordinate of the intersection of y = f(x) and y = g(x) solve f(x) = g(x)?",
+       "a": "At that x both functions give the same y-value, so f(x) = g(x) is true there."
+      }
+     ]
+    },
+    {
+     "guide": "Model substitution: y = 2x − 1 and 3x + y = 9 → 3x + 2x − 1 = 9 → x = 2, y = 3. Your child solves 12 and checks in both equations.",
+     "questions": [
+      {
+       "q": "Solve: y = 2x − 1 and 3x + y = 9.",
+       "a": "(2, 3)."
+      },
+      {
+       "q": "Solve: x = 2y and 3x − y = 10.",
+       "a": "6y − y = 10 → y = 2, x = 4: (4, 2)."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing a system: define two variables, write a 'count' equation and a 'value' equation. Your child solves the context problems.",
+     "questions": [
+      {
+       "q": "200 tickets sold: adults $10, children $6, total $1,600. How many of each?",
+       "a": "a + c = 200; 10a + 6c = 1600 → a = 100, c = 100."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key.",
+     "questions": [
+      {
+       "q": "Solve y = 3x and x + y = 8.",
+       "a": "(2, 6)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) y = 3x, x + y = 8 → (2, 6). 2) y = 2x + 3, y = 2x − 1 → no solution. 3) x = 2y, 3x − y = 10 → (4, 2). 4) y = −x + 4, y = 2x − 5 → (3, 1). 5) 2x + 4y = 8, x + 2y = 4 → infinitely many. 6) Two phone plans $20 + $5/GB and $35 + $2/GB → equal at 5 GB ($45)."
+  },
+  {
+   "week": 16,
+   "prep": "Prepare 10 'adding' systems, 10 'multiply first' systems, and 8 mixed systems. Optional algebra tiles.",
+   "misconceptions": [
+    "Multiplying only one side of an equation: multiply EVERY term on both sides.",
+    "Adding when you should subtract (or vice versa): look for opposite coefficients; if they're equal, subtract (or multiply one equation by −1).",
+    "Forgetting to find the second variable after eliminating."
+   ],
+   "days": [
+    {
+     "guide": "Model x + y = 10, x − y = 4: adding cancels y, 2x = 14, x = 7, y = 3. Your child solves 10 systems and checks each.",
+     "questions": [
+      {
+       "q": "Solve: x + y = 10, x − y = 4.",
+       "a": "(7, 3)."
+      },
+      {
+       "q": "Solve: 3x + y = 11, 2x − y = 4.",
+       "a": "5x = 15 → x = 3, y = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Model 2x + 3y = 12, x − y = 1: multiply the second by 3 so y terms are opposites, add → 5x = 15, x = 3, y = 2. Your child solves 10 such systems.",
+     "questions": [
+      {
+       "q": "Solve: 2x + 3y = 12 and x − y = 1.",
+       "a": "(3, 2)."
+      },
+      {
+       "q": "Solve: 2x + 5y = 1 and 3x − 2y = 11.",
+       "a": "Multiply by 2 and 5: 4x + 10y = 2, 15x − 10y = 55 → 19x = 57, x = 3, y = −1."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss: if (x, y) makes both equations true, it makes their sum true (equals added to equals are equal); and you can recover the original equation by subtracting, so no solutions are gained or lost. Your child writes this argument in a paragraph.",
+     "questions": [
+      {
+       "q": "Why does adding two equations not change the system's solutions?",
+       "a": "Any pair satisfying both equations also satisfies their sum (adding equal amounts to equal amounts), and the original can be recovered by subtracting, so the new system has exactly the same solutions."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss when each method is best (substitution when a variable is already isolated; elimination when coefficients line up). Your child solves 8 mixed systems and justifies the choice.",
+     "questions": [
+      {
+       "q": "Which method for y = x − 2 and 2x + y = 10? Solve it.",
+       "a": "Substitution (y is isolated): 2x + x − 2 = 10 → x = 4, y = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key with one written justification of method choice.",
+     "questions": [
+      {
+       "q": "Solve: 4x + 2y = 14, 3x − 2y = 7.",
+       "a": "7x = 21 → x = 3, y = 1."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) 3x + y = 11, 2x − y = 4 → (3, 2). 2) 4x + 2y = 14, 3x − 2y = 7 → (3, 1). 3) 2x + 5y = 1, 3x − 2y = 11 → (3, −1). 4) y = x − 2, 2x + y = 10 → (4, 2). 5) 5x − 2y = 4, 3x + 4y = 18 → (2, 3). 6) Justification (proficient): names the method and why (e.g., 'elimination, because the y-coefficients are opposites')."
+  },
+  {
+   "week": 17,
+   "prep": "Colored pencils, graph paper, Desmos. Write the bake-sale scenario: cookies take 10 minutes per batch, brownies 20 minutes per batch, 240 minutes available; ingredients limit total batches to 15.",
+   "misconceptions": [
+    "Solid vs. dashed boundary confusion: < and > use dashed lines; ≤ and ≥ use solid lines.",
+    "Shading the wrong side: always test a point (like (0, 0)) not on the line.",
+    "Accepting fractional or negative solutions in context: batches must be whole numbers ≥ 0."
+   ],
+   "days": [
+    {
+     "guide": "Model y > 2x − 1: dashed line, test (0, 0): 0 > −1 true, shade the side containing the origin. Your child graphs 10 inequalities with test points.",
+     "questions": [
+      {
+       "q": "Graph y > 2x − 1. Is the line dashed or solid, and which side is shaded?",
+       "a": "Dashed; shade above the line (the side with (0, 0), since 0 > −1)."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y ≤ x + 2 and y > −x in different colors; the overlap is the solution. Your child graphs systems and tests one point in the overlap in both inequalities.",
+     "questions": [
+      {
+       "q": "Is (0, 1) a solution of y ≤ x + 2 and y > −x?",
+       "a": "Yes: 1 ≤ 2 and 1 > 0."
+      }
+     ]
+    },
+    {
+     "guide": "Define c = cookie batches, b = brownie batches. Write constraints: 10c + 20b ≤ 240, c + b ≤ 15, c ≥ 0, b ≥ 0. Your child graphs and lists several viable combinations.",
+     "questions": [
+      {
+       "q": "Write the time constraint and check whether 10 cookie batches and 6 brownie batches is possible.",
+       "a": "10c + 20b ≤ 240; 100 + 120 = 220 ≤ 240 ✓, and 10 + 6 = 16 > 15 ✗ (fails the ingredient limit), so not possible."
+      }
+     ]
+    },
+    {
+     "guide": "Test given points in all constraints and in context sense (whole batches). Your child decides viability for each point with a written reason.",
+     "questions": [
+      {
+       "q": "Is (6, 4.5) viable for the bake sale?",
+       "a": "It satisfies the inequalities (60 + 90 = 150 ≤ 240; 10.5 ≤ 15) but half a batch may not make sense — viable only if half batches are allowed."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key.",
+     "questions": [
+      {
+       "q": "Which boundary is solid: y ≥ 3x or y < 3x?",
+       "a": "y ≥ 3x."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) y ≤ −x + 3: solid line, shade below (contains origin). 2) y > ½x − 2: dashed, shade above. 3) Is (1, 1) a solution of y ≥ x and y < 3? Yes. 4) Is (4, 1) a solution of y ≥ x and y < 3? No (1 < 4). 5) A model: x + y ≤ 20 and 5x + 8y ≥ 120 — (12, 8) works (20 ≤ 20; 60 + 64 = 124 ≥ 120). 6) Explain why (−2, 5) is not viable for counts of items — negative quantity."
+  },
+  {
+   "week": 18,
+   "prep": "Assemble the semester review packet from Weeks 1–17 quizzes (mix of equations, inequalities, functions, slope, linear models, systems). Plan a quiet 90-minute exam block.",
+   "misconceptions": [
+    "Rushing review by redoing only easy problems: focus practice on topics missed on earlier quizzes.",
+    "Not checking answers: substitute solutions back into equations and systems.",
+    "Mixing up slope formula order or sign rules under time pressure: write the formula before using it."
+   ],
+   "days": [
+    {
+     "guide": "Your child completes the Units 1–2 review; you mark it and they correct errors with a one-line explanation each.",
+     "questions": [
+      {
+       "q": "Solve 2(x − 3) + 4 = 3x − 5.",
+       "a": "2x − 2 = 3x − 5 → x = 3."
+      },
+      {
+       "q": "Solve |x − 2| ≤ 5.",
+       "a": "−3 ≤ x ≤ 7."
+      }
+     ]
+    },
+    {
+     "guide": "Your child completes the Units 3–4 review and corrects errors.",
+     "questions": [
+      {
+       "q": "Write the equation of the line through (−1, 3) and (2, 9).",
+       "a": "m = 2; y = 2x + 5."
+      },
+      {
+       "q": "If f(x) = −x² + 4, find f(3).",
+       "a": "−5."
+      }
+     ]
+    },
+    {
+     "guide": "Your child completes the Unit 5 review, including a context problem.",
+     "questions": [
+      {
+       "q": "Solve: 2x + y = 7 and x − y = 2.",
+       "a": "3x = 9 → x = 3, y = 1."
+      }
+     ]
+    },
+    {
+     "guide": "Give a timed practice exam; analyze errors by topic and review the two weakest topics.",
+     "questions": [
+      {
+       "q": "Solve 4 − 3x > 13.",
+       "a": "x < −3."
+      }
+     ]
+    },
+    {
+     "guide": "Give the semester exam (about 90 minutes). Grade with the key.",
+     "questions": [
+      {
+       "q": "Slope of 6x − 3y = 9?",
+       "a": "2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester exam sample answers: 1) Classify √36 → integer/rational. 2) 3(2x − 1) = 4x + 7 → x = 5. 3) Solve A = P + Prt for r → r = (A − P)/(Pt). 4) −2 ≤ 3x + 1 < 10 → −1 ≤ x < 3. 5) |2x − 3| = 7 → x = 5 or −2. 6) f(x) = 2x² − x: f(−1) = 3. 7) 6, 11, 16, … → a_n = 5n + 1. 8) Slope through (1, −2), (5, 6) → 2. 9) Line through (2, 1) parallel to y = −3x + 4 → y = −3x + 7. 10) Inverse of f(x) = 4x − 8 → x/4 + 2. 11) x + y = 12, x − y = 2 → (7, 5). 12) 3x + 2y = 16, x − 2y = 0 → (4, 2). 13) Graph y < −x + 4 (dashed, shade below). Scoring: 90%+ A, 80–89 B, 70–79 C; below 70 reteach."
+  },
+  {
+   "week": 19,
+   "prep": "Meter stick or 30-cm ruler for the ruler-drop test; a conversion: reaction time t = √(2d/9.8) with d in meters. Spreadsheet or Desmos for statistics.",
+   "misconceptions": [
+    "Thinking the mean is always the best center: with skewed data or outliers, the median is more representative.",
+    "Making histogram bars with gaps or unequal bin widths: use equal bins and touching bars.",
+    "Reading the box in a box plot as containing half the data values 'evenly spread': it contains the middle 50% but values may be bunched."
+   ],
+   "days": [
+    {
+     "guide": "Demonstrate the ruler drop: partner holds a ruler at 0; the catcher's fingers wait at 0; record the catch distance. Convert to time. Your child gathers 20 trials per person.",
+     "questions": [
+      {
+       "q": "The ruler falls 15 cm before you catch it. What is your reaction time?",
+       "a": "t = √(2·0.15/9.8) ≈ 0.175 s."
+      }
+     ]
+    },
+    {
+     "guide": "Show how to find the five-number summary for a box plot and choose histogram bins. Your child makes the three displays for their data.",
+     "questions": [
+      {
+       "q": "Find the five-number summary of 2, 4, 4, 5, 7, 9, 12.",
+       "a": "Min 2, Q1 4, median 5, Q3 9, max 12."
+      }
+     ]
+    },
+    {
+     "guide": "Compute mean and median for a skewed set and discuss which describes a 'typical' value. Your child computes both for their data and explains.",
+     "questions": [
+      {
+       "q": "For 3, 4, 4, 5, 24, find the mean and median. Which is the better center?",
+       "a": "Mean 8, median 4; the median is better because 24 skews the mean."
+      }
+     ]
+    },
+    {
+     "guide": "Compute range, IQR, and standard deviation in a spreadsheet (=STDEV.S) or Desmos (stdev). Discuss: SD is roughly the typical distance from the mean.",
+     "questions": [
+      {
+       "q": "Two data sets have the same mean, but set A has SD 2 and set B has SD 10. Interpret.",
+       "a": "Set B's values are much more spread out from the mean; A's are clustered close to the mean."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key.",
+     "questions": [
+      {
+       "q": "IQR of the data with Q1 = 0.15 s and Q3 = 0.21 s?",
+       "a": "0.06 s."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Data 1, 3, 3, 4, 6, 8, 10, 12 → mean 47/8 = 5.875; median 5. 2) Five-number summary: 1, 3, 5, 9, 12 (Q1 = median of 1,3,3,4 = 3; Q3 = median of 6,8,10,12 = 9). 3) IQR = 6; range = 11. 4) Right-skewed data → median is the better center. 5) Which display shows individual values? Dot plot. 6) A larger SD means more spread."
+  },
+  {
+   "week": 20,
+   "prep": "Reaction-time data for both hands (collect early in the week if needed). Write two survey questions with yes/no or category answers; plan to survey 20 people (family, friends, online form).",
+   "misconceptions": [
+    "Comparing distributions by only one number: compare center AND spread (and shape, outliers).",
+    "Confusing joint and conditional frequencies: conditional divides by a row or column total, not the grand total.",
+    "Thinking an association proves causation."
+   ],
+   "days": [
+    {
+     "guide": "Make side-by-side box plots on the same scale. Your child writes a comparison of centers and spreads with numbers.",
+     "questions": [
+      {
+       "q": "Dominant hand median 0.17 s (IQR 0.03); non-dominant median 0.20 s (IQR 0.06). Compare.",
+       "a": "The dominant hand is typically faster (median 0.03 s lower) and more consistent (smaller IQR)."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the 1.5×IQR rule. Your child checks their data for outliers and recomputes mean and SD without them to see the effect.",
+     "questions": [
+      {
+       "q": "Q1 = 10, Q3 = 18. Is 35 an outlier?",
+       "a": "IQR = 8; upper fence 18 + 12 = 30; 35 > 30, so yes."
+      },
+      {
+       "q": "How does removing a high outlier affect the mean and SD?",
+       "a": "Both decrease; the median barely changes."
+      }
+     ]
+    },
+    {
+     "guide": "Your child surveys 20 people and organizes answers in a two-way table with totals.",
+     "questions": [
+      {
+       "q": "In a two-way table, what are the marginal totals?",
+       "a": "The row and column totals (each variable's counts alone)."
+      }
+     ]
+    },
+    {
+     "guide": "Use this table: Teens: dog 18, cat 12; Adults: dog 8, cat 12 (total 50). Compute joint, marginal, and conditional relative frequencies. Your child repeats with their survey data.",
+     "questions": [
+      {
+       "q": "Using the table, find the joint frequency of teens who prefer dogs and P(dog | teen) vs. P(dog | adult).",
+       "a": "Joint: 18/50 = 36%. P(dog | teen) = 18/30 = 60%; P(dog | adult) = 8/20 = 40%."
+      },
+      {
+       "q": "Is there an association between age group and pet preference?",
+       "a": "Yes — teens prefer dogs at a higher rate (60% vs. 40%)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the survey analysis.",
+     "questions": [
+      {
+       "q": "Marginal relative frequency of dog lovers in the table above?",
+       "a": "26/50 = 52%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Box plots A (median 40, IQR 10) vs B (median 50, IQR 25): B is higher and more variable. 2) Q1 = 20, Q3 = 30: fences 5 and 45; 50 is an outlier. 3) From table (Boys: sports 30, music 20; Girls: sports 15, music 35; total 100): joint boys&sports = 30%; marginal music = 55%; P(music | girl) = 35/50 = 70%; P(music | boy) = 20/50 = 40% → association. Survey analysis rubric: 4 = complete table, correct conditional percentages, clear statement of association with numbers; 3 = minor errors; 2 = table only; 1 = incomplete."
+  },
+  {
+   "week": 21,
+   "prep": "Tape measure for height and arm span of 8–10 people (or download a class data set). Desmos regression: enter a table, then y₁ ~ mx₁ + b. Find a few misleading correlation headlines.",
+   "misconceptions": [
+    "Reading r near 1 as 'the model is perfect' or as causation: r measures strength of a linear relationship only.",
+    "Computing residual as predicted − actual: residual = actual − predicted.",
+    "Interpreting the y-intercept when x = 0 is meaningless (a person with height 0)."
+   ],
+   "days": [
+    {
+     "guide": "Measure in inches or cm; plot height on x and arm span on y. Your child describes direction, form, strength, and any outliers.",
+     "questions": [
+      {
+       "q": "Describe a scatter plot where points rise left to right in a tight line.",
+       "a": "Strong, positive, linear association."
+      }
+     ]
+    },
+    {
+     "guide": "Run linear regression in Desmos. Interpret slope and intercept in context.",
+     "questions": [
+      {
+       "q": "Arm span ≈ 0.98(height) + 2 (inches). Interpret the slope.",
+       "a": "For each additional inch of height, arm span increases about 0.98 inch on average."
+      },
+      {
+       "q": "Predict arm span for height 65 in.",
+       "a": "0.98(65) + 2 = 65.7 in."
+      }
+     ]
+    },
+    {
+     "guide": "Compute residuals and plot them; a random scatter means the linear model fits. Interpret r.",
+     "questions": [
+      {
+       "q": "Actual arm span 66 in; predicted 64.5 in. Residual?",
+       "a": "66 − 64.5 = 1.5 in (the point is above the line)."
+      },
+      {
+       "q": "r = 0.95. Interpret.",
+       "a": "Strong positive linear relationship."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze headlines: ice cream sales and drownings both rise in summer — hot weather is a confounding variable. Your child analyzes 6 headlines.",
+     "questions": [
+      {
+       "q": "Why doesn't a correlation between ice cream sales and drownings mean ice cream causes drowning?",
+       "a": "A lurking variable — hot weather — increases both swimming and ice cream sales."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test (about 50 minutes).",
+     "questions": [
+      {
+       "q": "A residual plot shows a U-shape. What does that tell you?",
+       "a": "A linear model is not a good fit; the relationship is curved."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 6 test sample answers: 1) Data 5, 7, 8, 8, 12, 20 → mean 10, median 8; median better (skewed). 2) IQR for Q1 = 7, Q3 = 12 → 5; 20 is an outlier? Fence 12 + 7.5 = 19.5 → yes. 3) Two-way table conditional frequencies (compute row %). 4) Regression y = 3.2x + 10: slope = 3.2 units of y per unit x; predict at x = 5 → 26. 5) Residual for (5, 24) → −2. 6) r = −0.85 → strong negative. 7) Correlation ≠ causation; name a confounder. Scoring: 80%+ proficient."
+  },
+  {
+   "week": 22,
+   "prep": "Make exponent rule cards: product a^m·a^n = a^(m+n), quotient a^m/a^n = a^(m−n), power (a^m)^n = a^(mn), zero a⁰ = 1, negative a^(−n) = 1/a^n, rational a^(1/n) = ⁿ√a.",
+   "misconceptions": [
+    "Multiplying bases: 2³·2⁴ = 2⁷, not 4⁷.",
+    "Thinking a negative exponent makes a number negative: 2⁻³ = 1/8.",
+    "(x + y)² = x² + y²: exponents don't distribute over addition."
+   ],
+   "days": [
+    {
+     "guide": "Write x³·x⁵ in expanded form (xxx·xxxxx) to see 8 factors; derive the other rules similarly. Your child simplifies 20 expressions.",
+     "questions": [
+      {
+       "q": "Simplify (2x³)(4x²).",
+       "a": "8x⁵."
+      },
+      {
+       "q": "Simplify (x²)⁴ and x⁷/x³.",
+       "a": "x⁸ and x⁴."
+      }
+     ]
+    },
+    {
+     "guide": "Show the pattern 2³ = 8, 2² = 4, 2¹ = 2, 2⁰ = 1, 2⁻¹ = 1/2 (divide by 2 each step). Your child simplifies 15 expressions with zero and negative exponents.",
+     "questions": [
+      {
+       "q": "Simplify 2⁻³ and 5⁰.",
+       "a": "1/8 and 1."
+      },
+      {
+       "q": "Write x⁻²y³ with positive exponents.",
+       "a": "y³/x²."
+      }
+     ]
+    },
+    {
+     "guide": "Show (8^(1/3))³ = 8¹ = 8, so 8^(1/3) is the cube root of 8. Your child converts between radical and rational-exponent forms.",
+     "questions": [
+      {
+       "q": "Evaluate 27^(2/3).",
+       "a": "(∛27)² = 3² = 9."
+      },
+      {
+       "q": "Evaluate 16^(3/4).",
+       "a": "(⁴√16)³ = 2³ = 8."
+      }
+     ]
+    },
+    {
+     "guide": "Simplify √72 by pulling out perfect-square factors: √(36·2) = 6√2. Your child simplifies radicals and rational-exponent expressions.",
+     "questions": [
+      {
+       "q": "Simplify √72 and √50.",
+       "a": "6√2 and 5√2."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key.",
+     "questions": [
+      {
+       "q": "Simplify (a²b⁻³)/(a⁻¹b).",
+       "a": "a³/b⁴."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) (2x³)(4x²) = 8x⁵. 2) (x⁴)³ = x¹². 3) 4⁻² = 1/16. 4) 125^(1/3) = 5. 5) √48 = 4√3. 6) x^(3/2) = √(x³) = (√x)³. 7) (a²b⁻³)/(a⁻¹b) = a³/b⁴. 8) (3x)⁰ = 1. 9) 32^(2/5) = 4. 10) √(18x²) = 3x√2 (x ≥ 0)."
+  },
+  {
+   "week": 23,
+   "prep": "100 coins or M&Ms (M side = 'heads') and a cup. Data table for rounds. Desmos for an exponential regression (y₁ ~ a·b^x₁).",
+   "misconceptions": [
+    "Confusing growth factor with growth rate: a 4% increase is a factor of 1.04; a 15% decrease is a factor of 0.85.",
+    "Thinking exponential means 'grows fast' from the start: early values can be small; the key is the constant RATIO.",
+    "Using a₁·r^n instead of a₁·r^(n−1) for the nth term of a geometric sequence."
+   ],
+   "days": [
+    {
+     "guide": "Make tables for Plan A ($1 per day) and Plan B (1¢ on day 1, doubling daily). Look at differences (A constant) and ratios (B constant).",
+     "questions": [
+      {
+       "q": "On which day does the doubling plan pay 2^29 cents, and how much is that?",
+       "a": "Day 30: 2^29 = 536,870,912 cents = $5,368,709.12."
+      },
+      {
+       "q": "What stays constant in linear vs. exponential tables?",
+       "a": "Linear: constant difference. Exponential: constant ratio."
+      }
+     ]
+    },
+    {
+     "guide": "Shake 100 coins, remove heads, count the rest, repeat until none. Fit y = a·b^x in Desmos; b should be close to 0.5.",
+     "questions": [
+      {
+       "q": "What model do you expect for the coins remaining after n shakes?",
+       "a": "y ≈ 100(0.5)^n."
+      },
+      {
+       "q": "About how many coins remain after 3 shakes?",
+       "a": "100(0.5)³ = 12.5 → about 12 or 13."
+      }
+     ]
+    },
+    {
+     "guide": "Read a·(1 ± r)^t: a = start value, 1 + r = growth factor. Your child writes functions and states percent rates.",
+     "questions": [
+      {
+       "q": "A = 500(1.04)^t: initial value and percent rate?",
+       "a": "Start $500, growing 4% per period."
+      },
+      {
+       "q": "Write a model for a $20,000 car losing 15% of value per year.",
+       "a": "V = 20,000(0.85)^t."
+      }
+     ]
+    },
+    {
+     "guide": "Model a geometric sequence both ways: 3, 6, 12, 24 → a₁ = 3, a_n = 2·a_(n−1); a_n = 3·2^(n−1).",
+     "questions": [
+      {
+       "q": "Find a₈ for 3, 6, 12, 24, …",
+       "a": "3·2⁷ = 384."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the simulation analysis (data, model, comparison to 0.5).",
+     "questions": [
+      {
+       "q": "Is y = 4(0.9)^x growth or decay? Rate?",
+       "a": "Decay, 10% per unit."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Table 3, 6, 12, 24 — exponential (ratio 2); table 3, 6, 9, 12 — linear (difference 3). 2) y = 800(1.06)^t: 6% growth; value at t = 2 → 898.88. 3) y = 50(0.75)^t: 25% decay. 4) Geometric 2, 6, 18, … → a_n = 2·3^(n−1); a₆ = 486. 5) Recursive: a₁ = 2, a_n = 3a_(n−1). Simulation rubric: data table, graph, regression equation with b near 0.5, explanation of why b ≈ 0.5 (each coin has a 1/2 chance to be removed)."
+  },
+  {
+   "week": 24,
+   "prep": "Calculator, Desmos. Formulas: A = P(1 + r/n)^(nt); half-life A = A₀(½)^(t/h).",
+   "misconceptions": [
+    "Using r = 5 instead of 0.05 in formulas: convert percents to decimals.",
+    "Believing linear functions with large slopes always stay ahead: any increasing exponential eventually exceeds any linear function.",
+    "Dividing the annual rate by 12 to get the equivalent monthly rate for a given annual growth factor: the equivalent monthly factor is the 12th root (1.15^(1/12) ≈ 1.0117)."
+   ],
+   "days": [
+    {
+     "guide": "Model compounding: $1,000 at 5% yearly for 10 years = 1000(1.05)^10; monthly = 1000(1 + 0.05/12)^120. Your child computes and compares.",
+     "questions": [
+      {
+       "q": "Find the value of $1,000 at 5% for 10 years compounded yearly and monthly.",
+       "a": "Yearly: $1,628.89. Monthly: $1,647.01."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = 100x and y = 1.1^x in Desmos; zoom out until they cross. Your child finds the crossing point and writes what it shows.",
+     "questions": [
+      {
+       "q": "After the graphs first cross near x = 0.01, where does 1.1^x overtake 100x for good?",
+       "a": "Between x = 96 and x = 97 (1.1^96 ≈ 9,412 < 9,600; 1.1^97 ≈ 10,354 > 9,700)."
+      }
+     ]
+    },
+    {
+     "guide": "Rewrite 1.15^t = (1.15^(1/12))^(12t) ≈ 1.0117^(12t). Interpret: 15% yearly growth ≈ 1.17% monthly growth.",
+     "questions": [
+      {
+       "q": "What monthly growth rate is equivalent to 15% annual growth?",
+       "a": "1.15^(1/12) ≈ 1.0117 → about 1.17% per month."
+      }
+     ]
+    },
+    {
+     "guide": "Model a 200 mg dose with a 6-hour half-life: A = 200(½)^(t/6). Your child computes remaining amounts and graphs.",
+     "questions": [
+      {
+       "q": "How much of a 200 mg dose remains after 24 hours if the half-life is 6 hours?",
+       "a": "24/6 = 4 half-lives: 200/16 = 12.5 mg."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test (about 50 minutes).",
+     "questions": [
+      {
+       "q": "Simplify 2⁻²·2⁵.",
+       "a": "2³ = 8."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test sample answers: 1) (3x²)³ = 27x⁶. 2) 81^(3/4) = 27. 3) √75 = 5√3. 4) Linear or exponential: 5, 10, 20, 40 → exponential (ratio 2). 5) $2,000 at 3% compounded yearly for 5 years → $2,318.55. 6) A town of 12,000 grows 2% per year → P = 12,000(1.02)^t. 7) Half-life 10 days, 80 g → 10 g after 30 days. 8) Which eventually exceeds: 50x or 1.05^x? 1.05^x. Scoring: 80%+ proficient."
+  },
+  {
+   "week": 25,
+   "prep": "Algebra tiles (or paper squares/rectangles: x², x, 1 in two colors for positive/negative). Area-model template (2×2 and 2×3 grids).",
+   "misconceptions": [
+    "Forgetting to distribute the minus sign when subtracting polynomials: −(2x² + x − 6) = −2x² − x + 6.",
+    "(a + b)² = a² + b²: it is a² + 2ab + b² — show with an area model.",
+    "Adding exponents when adding like terms: 3x² + 2x² = 5x², not 5x⁴."
+   ],
+   "days": [
+    {
+     "guide": "Define degree and number of terms; write in standard form (descending degree). Your child classifies 15 polynomials.",
+     "questions": [
+      {
+       "q": "Classify 4x³ − 2x + 7.",
+       "a": "Degree 3 (cubic) trinomial; leading coefficient 4."
+      },
+      {
+       "q": "Write 5 − 3x² + x in standard form.",
+       "a": "−3x² + x + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Use tiles to combine like terms; zero pairs cancel. Then do it symbolically.",
+     "questions": [
+      {
+       "q": "(3x² + 2x − 5) + (x² − 4x + 1)?",
+       "a": "4x² − 2x − 4."
+      },
+      {
+       "q": "(5x² − 3x + 2) − (2x² + x − 6)?",
+       "a": "3x² − 4x + 8."
+      }
+     ]
+    },
+    {
+     "guide": "Use an area model (grid) for (x + 3)(x + 5): fill in x², 5x, 3x, 15. Your child multiplies with area models.",
+     "questions": [
+      {
+       "q": "Multiply (x + 3)(x + 5).",
+       "a": "x² + 8x + 15."
+      },
+      {
+       "q": "Multiply (2x − 1)(x + 4).",
+       "a": "2x² + 7x − 4."
+      }
+     ]
+    },
+    {
+     "guide": "Have your child compute several (a + b)², (a − b)², (a + b)(a − b) products and describe the patterns.",
+     "questions": [
+      {
+       "q": "Expand (x + 4)², (x − 3)², and (x + 5)(x − 5).",
+       "a": "x² + 8x + 16; x² − 6x + 9; x² − 25."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; include the closure explanation.",
+     "questions": [
+      {
+       "q": "Why are polynomials closed under multiplication?",
+       "a": "Each product of terms ax^m·bx^n = abx^(m+n) has a whole-number exponent, and the sum of such terms is a polynomial."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) −2x⁴ + x — degree 4 binomial. 2) (2x² − 3x + 1) + (x² + 5x − 4) = 3x² + 2x − 3. 3) (4x² + x) − (x² − 2x + 3) = 3x² + 3x − 3. 4) 3x(2x² − x + 4) = 6x³ − 3x² + 12x. 5) (x − 2)(x + 7) = x² + 5x − 14. 6) (3x + 2)² = 9x² + 12x + 4. 7) (2x − 5)(2x + 5) = 4x² − 25. 8) Closure explanation (see Day 5)."
+  },
+  {
+   "week": 26,
+   "prep": "Algebra tiles or area-model grids. A list of factor pairs and sums for practice.",
+   "misconceptions": [
+    "Forgetting the GCF first: 2x² + 10x + 12 = 2(x² + 5x + 6) = 2(x + 2)(x + 3).",
+    "Sign errors with negative c: for x² − 2x − 15 you need factors of −15 that add to −2 (−5 and 3).",
+    "Trying to factor a sum of squares (x² + 4) over the reals: it is prime."
+   ],
+   "days": [
+    {
+     "guide": "Find the largest factor common to every term. Your child factors out GCFs and checks by distributing.",
+     "questions": [
+      {
+       "q": "Factor 6x³ + 9x².",
+       "a": "3x²(2x + 3)."
+      },
+      {
+       "q": "Factor 4x²y − 8xy².",
+       "a": "4xy(x − 2y)."
+      }
+     ]
+    },
+    {
+     "guide": "Find two numbers with product c and sum b (sum-product reasoning) and verify with an area model.",
+     "questions": [
+      {
+       "q": "Factor x² + 7x + 12.",
+       "a": "(x + 3)(x + 4)."
+      },
+      {
+       "q": "Factor x² − 2x − 15.",
+       "a": "(x − 5)(x + 3)."
+      }
+     ]
+    },
+    {
+     "guide": "AC method on 6x² + 11x − 10: ac = −60; find 15 and −4; split 11x; group: 3x(2x + 5) − 2(2x + 5) = (3x − 2)(2x + 5).",
+     "questions": [
+      {
+       "q": "Factor 6x² + 11x − 10.",
+       "a": "(3x − 2)(2x + 5)."
+      },
+      {
+       "q": "Factor 2x² + 7x + 3.",
+       "a": "(2x + 1)(x + 3)."
+      }
+     ]
+    },
+    {
+     "guide": "Show the patterns a² − b² = (a + b)(a − b) and a² ± 2ab + b² = (a ± b)².",
+     "questions": [
+      {
+       "q": "Factor x⁴ − 16 completely.",
+       "a": "(x² + 4)(x + 2)(x − 2)."
+      },
+      {
+       "q": "Factor x² + 10x + 25.",
+       "a": "(x + 5)²."
+      }
+     ]
+    },
+    {
+     "guide": "Give the factoring quiz.",
+     "questions": [
+      {
+       "q": "Factor 9x² − 49.",
+       "a": "(3x − 7)(3x + 7)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) 5x² − 15x = 5x(x − 3). 2) x² + 9x + 20 = (x + 4)(x + 5). 3) x² − x − 12 = (x − 4)(x + 3). 4) 3x² + 10x + 8 = (3x + 4)(x + 2). 5) 6x² + 11x − 10 = (3x − 2)(2x + 5). 6) x² − 36 = (x − 6)(x + 6). 7) 4x² − 12x + 9 = (2x − 3)². 8) 2x² − 8 = 2(x − 2)(x + 2). 9) x² + 9 is prime."
+  },
+  {
+   "week": 27,
+   "prep": "Have your child draw a factoring flowchart (GCF? → number of terms → difference of squares / perfect square / trinomial / grouping → factor further?). Unit 8 review and test.",
+   "misconceptions": [
+    "Stopping too early: x⁴ − 16 = (x² + 4)(x² − 4) is not finished — x² − 4 factors further.",
+    "Not seeing structure: (x + 2)² − 25 is a difference of squares with a = x + 2.",
+    "Dropping the GCF from the final answer."
+   ],
+   "days": [
+    {
+     "guide": "Your child builds the flowchart and factors 20 mixed polynomials completely, checking by multiplying.",
+     "questions": [
+      {
+       "q": "Factor 2x³ − 18x completely.",
+       "a": "2x(x + 3)(x − 3)."
+      },
+      {
+       "q": "Factor 3x² + 12x + 12 completely.",
+       "a": "3(x + 2)²."
+      }
+     ]
+    },
+    {
+     "guide": "Treat chunks as single quantities. Your child factors structural expressions.",
+     "questions": [
+      {
+       "q": "Factor 4x² − 9y².",
+       "a": "(2x − 3y)(2x + 3y)."
+      },
+      {
+       "q": "Factor (x + 2)² − 25.",
+       "a": "(x + 2 − 5)(x + 2 + 5) = (x − 3)(x + 7)."
+      }
+     ]
+    },
+    {
+     "guide": "Model: a rectangle's area is x² + 8x + 15, so its sides could be (x + 3) and (x + 5). Border problem: a 10 by 8 garden with a path of width x has total area (10 + 2x)(8 + 2x).",
+     "questions": [
+      {
+       "q": "A rectangle has area x² + 8x + 15. Find expressions for its sides.",
+       "a": "x + 3 and x + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Your child completes the Unit 8 review; correct together.",
+     "questions": [
+      {
+       "q": "Multiply (x − 4)(2x + 3).",
+       "a": "2x² − 5x − 12."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test (about 50 minutes).",
+     "questions": [
+      {
+       "q": "Factor x² − 8x + 16.",
+       "a": "(x − 4)²."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 8 test sample answers: 1) (3x² − x + 4) − (x² + 2x − 1) = 2x² − 3x + 5. 2) (x + 6)(x − 2) = x² + 4x − 12. 3) (2x − 3)² = 4x² − 12x + 9. 4) 12x²y − 18xy = 6xy(2x − 3). 5) x² + 2x − 24 = (x + 6)(x − 4). 6) 4x² + 4x − 3 = (2x − 1)(2x + 3). 7) 25x² − 1 = (5x − 1)(5x + 1). 8) x³ − 9x = x(x − 3)(x + 3). 9) (x − 1)² − 16 = (x − 5)(x + 3). Scoring: 80%+ proficient."
+  },
+  {
+   "week": 28,
+   "prep": "Graph paper, Desmos (type y = a(x − h)² + k and add sliders).",
+   "misconceptions": [
+    "Thinking (x − 3)² shifts left: (x − h)² shifts RIGHT by h.",
+    "Using x = b/2a instead of x = −b/(2a).",
+    "Forgetting that a < 0 opens downward (a maximum, not a minimum)."
+   ],
+   "days": [
+    {
+     "guide": "Graph y = x² from a table, then use sliders for a, h, k. Your child writes the effect of each.",
+     "questions": [
+      {
+       "q": "Describe y = −2(x − 3)² + 1 compared to y = x².",
+       "a": "Opens down, narrower (stretch by 2), vertex shifted to (3, 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Model labeling vertex, axis, intercepts, max/min. Your child labels 10 parabolas.",
+     "questions": [
+      {
+       "q": "For y = x² − 6x + 8, give the vertex, axis of symmetry, x-intercepts, and y-intercept.",
+       "a": "Vertex (3, −1); axis x = 3; x-intercepts 2 and 4; y-intercept 8; minimum −1."
+      }
+     ]
+    },
+    {
+     "guide": "Find the vertex with x = −b/(2a), then build a symmetric table around it.",
+     "questions": [
+      {
+       "q": "Find the vertex of y = 2x² − 8x + 3.",
+       "a": "x = 8/4 = 2; y = 8 − 16 + 3 = −5 → (2, −5)."
+      }
+     ]
+    },
+    {
+     "guide": "Read the vertex from a graph, then use another point to find a.",
+     "questions": [
+      {
+       "q": "A parabola has vertex (−1, 4) and passes through (0, 2). Write its equation.",
+       "a": "y = a(x + 1)² + 4; 2 = a + 4 → a = −2: y = −2(x + 1)² + 4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the key.",
+     "questions": [
+      {
+       "q": "Does y = −x² + 5 have a max or min? Value?",
+       "a": "Maximum of 5."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) y = (x − 2)² − 3 → vertex (2, −3), opens up, min −3. 2) y = −x² + 4x → vertex (2, 4), x-intercepts 0 and 4. 3) y = x² + 2x − 3 → vertex (−1, −4), zeros −3 and 1, y-int −3. 4) Axis of symmetry of y = 3x² − 12x + 1 → x = 2. 5) Equation with vertex (1, −2) through (3, 6): y = 2(x − 1)² − 2."
+  },
+  {
+   "week": 29,
+   "prep": "Desmos. A card listing the three forms: standard y = ax² + bx + c, factored y = a(x − p)(x − q), vertex y = a(x − h)² + k.",
+   "misconceptions": [
+    "Reading zeros of (x − 2)(x + 4) as −2 and 4: set each factor to 0 → x = 2 and x = −4.",
+    "When completing the square, forgetting to subtract what you added: x² + 6x + 5 = (x² + 6x + 9) − 9 + 5.",
+    "Expanding (x − 3)² as x² + 9."
+   ],
+   "days": [
+    {
+     "guide": "Find zeros from factored form, the axis halfway between, then the vertex.",
+     "questions": [
+      {
+       "q": "Sketch y = (x − 2)(x + 4): zeros and vertex?",
+       "a": "Zeros 2 and −4; axis x = −1; vertex (−1, −9)."
+      }
+     ]
+    },
+    {
+     "guide": "Graph from vertex form, then expand to standard form.",
+     "questions": [
+      {
+       "q": "Convert y = (x − 3)² − 4 to standard form.",
+       "a": "x² − 6x + 9 − 4 = x² − 6x + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Complete the square: take half of b, square it, add and subtract.",
+     "questions": [
+      {
+       "q": "Write x² + 6x + 5 in vertex form.",
+       "a": "(x + 3)² − 4; vertex (−3, −4)."
+      },
+      {
+       "q": "Write x² − 10x + 7 in vertex form.",
+       "a": "(x − 5)² − 18."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss: vertex form gives max height directly; factored form gives landing points (zeros); standard form gives the starting height (y-intercept).",
+     "questions": [
+      {
+       "q": "Which form best shows when a ball hits the ground?",
+       "a": "Factored form — the zeros."
+      }
+     ]
+    },
+    {
+     "guide": "Give the forms quiz.",
+     "questions": [
+      {
+       "q": "Zeros of y = 2(x + 1)(x − 5)?",
+       "a": "x = −1 and x = 5."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) y = (x + 1)(x − 3): zeros −1 and 3; vertex (1, −4). 2) y = 2(x − 1)² + 3 → standard: 2x² − 4x + 5. 3) x² + 8x + 10 → (x + 4)² − 6. 4) x² − 4x − 5 → (x − 5)(x + 1) and (x − 2)² − 9. 5) Best form for max height → vertex; for x-intercepts → factored; for y-intercept → standard."
+  },
+  {
+   "week": 30,
+   "prep": "A soft ball, stopwatch or phone video (slow-motion helps), open outdoor space. Desmos. Model: h(t) = −16t² + v₀t + h₀ (feet, seconds).",
+   "misconceptions": [
+    "Treating the parabola as the ball's path sideways: h(t) graphs height versus TIME for a straight-up toss.",
+    "Using the whole parabola as the domain: time starts at 0 and ends when the ball lands.",
+    "Confusing when the max occurs (t-value) with the max height (h-value)."
+   ],
+   "days": [
+    {
+     "guide": "Toss the ball straight up and catch it at the same height; time several flights. If thrown and caught at the same height, 0 = −16T² + v₀T, so v₀ = 16T. Your child estimates v₀.",
+     "questions": [
+      {
+       "q": "A ball is in the air 2.5 s before being caught at release height. Estimate v₀.",
+       "a": "v₀ = 16 × 2.5 = 40 ft/s."
+      }
+     ]
+    },
+    {
+     "guide": "Find the vertex: t = −b/(2a). Your child does several scenarios.",
+     "questions": [
+      {
+       "q": "For h = −16t² + 64t + 5, when is the max and what is it?",
+       "a": "t = 64/32 = 2 s; h(2) = −64 + 128 + 5 = 69 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Model fencing: 40 ft perimeter, width x, length 20 − x, A = x(20 − x). Find the vertex.",
+     "questions": [
+      {
+       "q": "What dimensions maximize area with 40 ft of fencing? Max area?",
+       "a": "10 ft by 10 ft; 100 ft²."
+      }
+     ]
+    },
+    {
+     "guide": "Interpret intercepts and reasonable domain/range in context.",
+     "questions": [
+      {
+       "q": "For h = −16t² + 64t + 5, what does 5 mean and when does the ball land?",
+       "a": "5 ft = launch height. Lands when h = 0: t = (64 + √4416)/32 ≈ 4.08 s."
+      },
+      {
+       "q": "Reasonable domain and range for that model?",
+       "a": "Domain 0 ≤ t ≤ about 4.08 s; range 0 ≤ h ≤ 69 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 9 test (about 50 minutes) and collect the lab write-up.",
+     "questions": [
+      {
+       "q": "What does the vertex of a projectile model represent?",
+       "a": "The maximum height and the time it occurs."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab rubric: 4 = several timed trials, average flight time, correct v₀ = 16T, max height computed (v₀²/64 above release), sources of error; 3 = minor errors; 2 = incomplete; 1 = missing. Unit 9 test sample answers: 1) y = x² − 4x − 5: vertex (2, −9), zeros −1 and 5. 2) y = −(x + 2)² + 3 → standard −x² − 4x − 1. 3) x² + 4x + 1 = (x + 2)² − 3. 4) h = −16t² + 32t + 6: max at t = 1, height 22 ft. 5) Max area with 60 ft of fence → 15 × 15 = 225 ft²."
+  },
+  {
+   "week": 31,
+   "prep": "Factoring flowchart; Desmos for checking.",
+   "misconceptions": [
+    "Applying the zero-product property before the equation equals zero: x(x − 5) = 6 does NOT mean x = 6 or x − 5 = 6.",
+    "Taking only the positive square root: (x − 2)² = 16 gives x − 2 = ±4.",
+    "Keeping solutions that make no sense in context (negative lengths)."
+   ],
+   "days": [
+    {
+     "guide": "Rewrite in standard form, factor, set each factor to zero.",
+     "questions": [
+      {
+       "q": "Solve x² − 5x = −6.",
+       "a": "x² − 5x + 6 = 0 → (x − 2)(x − 3) = 0 → x = 2 or 3."
+      },
+      {
+       "q": "Solve 2x² = 8x.",
+       "a": "2x(x − 4) = 0 → x = 0 or 4."
+      }
+     ]
+    },
+    {
+     "guide": "Isolate the square, then take ± square roots.",
+     "questions": [
+      {
+       "q": "Solve 3(x − 2)² = 48.",
+       "a": "(x − 2)² = 16 → x − 2 = ±4 → x = 6 or −2."
+      }
+     ]
+    },
+    {
+     "guide": "Define the variable, write an equation, solve by factoring, reject impossible answers.",
+     "questions": [
+      {
+       "q": "A rectangle's length is 3 more than its width and its area is 70. Find its dimensions.",
+       "a": "w(w + 3) = 70 → w² + 3w − 70 = 0 → (w + 10)(w − 7) = 0 → w = 7 (reject −10): 7 by 10."
+      }
+     ]
+    },
+    {
+     "guide": "Graph each quadratic in Desmos and compare x-intercepts with the factored solutions.",
+     "questions": [
+      {
+       "q": "Why do the solutions of x² − x − 6 = 0 match the x-intercepts of y = x² − x − 6?",
+       "a": "The x-intercepts are where y = 0, which is exactly the equation; both give x = 3 and −2."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Solve x² = 81.",
+       "a": "x = ±9."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) x² + 3x − 10 = 0 → x = −5, 2. 2) x² = 4x + 12 → x = 6, −2. 3) 4x² − 9 = 0 → x = ±3/2. 4) 2(x + 1)² = 50 → x = 4, −6. 5) (x − 3)² = 7 → x = 3 ± √7. 6) A number times 2 more than itself is 48 → 6 (or −8). 7) Rectangle with width w, length 2w, area 72 → 6 × 12."
+  },
+  {
+   "week": 32,
+   "prep": "Algebra tiles for completing the square. A derivation sheet outline.",
+   "misconceptions": [
+    "Forgetting to divide by a before completing the square.",
+    "Writing the quadratic formula with −b only over 2a or ± only on b: the whole numerator −b ± √(b² − 4ac) is over 2a.",
+    "Sign errors when b or c is negative: substitute with parentheses."
+   ],
+   "days": [
+    {
+     "guide": "With tiles, arrange x² + 6x into a square missing a corner; add 9 to complete it. Then symbolically.",
+     "questions": [
+      {
+       "q": "Solve x² + 6x = 7 by completing the square.",
+       "a": "(x + 3)² = 16 → x = 1 or −7."
+      },
+      {
+       "q": "Solve x² − 4x − 1 = 0 by completing the square.",
+       "a": "(x − 2)² = 5 → x = 2 ± √5."
+      }
+     ]
+    },
+    {
+     "guide": "Walk through deriving x = (−b ± √(b² − 4ac))/(2a): divide by a, move c/a, add (b/2a)², factor, square-root, isolate x. Your child writes each step with a reason.",
+     "questions": [
+      {
+       "q": "In the derivation, what term is added to both sides of x² + (b/a)x = −c/a?",
+       "a": "(b/2a)² = b²/(4a²)."
+      }
+     ]
+    },
+    {
+     "guide": "Model identifying a, b, c then substituting. Give exact and decimal answers.",
+     "questions": [
+      {
+       "q": "Solve 2x² − 4x − 3 = 0.",
+       "a": "x = (4 ± √40)/4 = (2 ± √10)/2 ≈ 2.58 or −0.58."
+      },
+      {
+       "q": "Solve x² + 5x + 6 = 0 using the formula.",
+       "a": "x = (−5 ± 1)/2 → −2 or −3."
+      }
+     ]
+    },
+    {
+     "guide": "Discriminant: positive → 2 real solutions; zero → 1; negative → none. If it's not a perfect square, solutions are irrational.",
+     "questions": [
+      {
+       "q": "How many real solutions for x² + 2x + 5 = 0?",
+       "a": "b² − 4ac = 4 − 20 = −16 < 0 → none."
+      },
+      {
+       "q": "Why are solutions of x² − 3x + 1 = 0 irrational?",
+       "a": "The discriminant is 5, not a perfect square, so √5 stays irrational."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Discriminant of x² − 6x + 9?",
+       "a": "0 → one real solution (x = 3)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Complete the square: x² + 8x = 9 → x = 1 or −9. 2) x² − 2x − 4 = 0 → x = 1 ± √5. 3) Formula: 3x² + 2x − 1 = 0 → x = 1/3 or −1. 4) x² − 4x + 1 = 0 → x = 2 ± √3 ≈ 3.73, 0.27. 5) Discriminant of 2x² + 3x + 5 → −31, no real solutions. 6) 4x² − 4x + 1 → 0, one solution x = 1/2."
+  },
+  {
+   "week": 33,
+   "prep": "Desmos. Mixed equation list (16).",
+   "misconceptions": [
+    "Always using the quadratic formula: it works, but square roots or factoring are faster when the structure fits.",
+    "Forgetting that a projectile hits the ground when h = 0 (not at the vertex).",
+    "Judging growth from small x: x² beats 2^x for small values, but 2^x wins eventually."
+   ],
+   "days": [
+    {
+     "guide": "For each equation, decide: no b-term → square roots; factors nicely → factoring; else formula or completing the square.",
+     "questions": [
+      {
+       "q": "Solve x² + x − 12 = 0.",
+       "a": "(x + 4)(x − 3) = 0 → −4, 3."
+      },
+      {
+       "q": "Solve x² + 4x − 1 = 0.",
+       "a": "Completing the square: (x + 2)² = 5 → x = −2 ± √5."
+      }
+     ]
+    },
+    {
+     "guide": "Set h(t) = 0 (or a target height) and solve.",
+     "questions": [
+      {
+       "q": "When does h = −16t² + 32t + 48 hit the ground?",
+       "a": "−16(t² − 2t − 3) = 0 → (t − 3)(t + 1) = 0 → t = 3 s (reject −1)."
+      }
+     ]
+    },
+    {
+     "guide": "Make a table of 10x, x², 2^x for x = 1..12. Your child describes which leads when.",
+     "questions": [
+      {
+       "q": "Compare 10x, x², and 2^x at x = 10 and x = 12.",
+       "a": "x = 10: 100, 100, 1024. x = 12: 120, 144, 4096. 2^x wins."
+      }
+     ]
+    },
+    {
+     "guide": "Solve and check each solution in context; discard negative time or length.",
+     "questions": [
+      {
+       "q": "A square garden's area increases by 33 ft² when each side is lengthened by 3 ft. Original side?",
+       "a": "(s + 3)² − s² = 33 → 6s + 9 = 33 → s = 4 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Give the applications quiz.",
+     "questions": [
+      {
+       "q": "Why reject t = −1 in a projectile problem?",
+       "a": "Time before launch isn't part of the situation."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) x² − 16 = 0 → ±4. 2) x² − 7x + 10 = 0 → 2, 5. 3) x² + 2x − 5 = 0 → −1 ± √6. 4) h = −16t² + 64t: lands at t = 4 s; max 64 ft at t = 2. 5) h = −16t² + 48t + 4 reaches 36 ft when 16t² − 48t + 32 = 0 → t = 1 s and 2 s. 6) Rectangle area 60 with length 4 more than width → 6 × 10."
+  },
+  {
+   "week": 34,
+   "prep": "Desmos. Prepare 10 linear-quadratic systems and the Unit 10 review/test.",
+   "misconceptions": [
+    "Expecting exactly one intersection: a line and parabola can meet 0, 1, or 2 times.",
+    "Finding x-values but not the y-values for each solution.",
+    "Interpreting only one of two valid solution times (going up and coming down)."
+   ],
+   "days": [
+    {
+     "guide": "Graph y = x² and lines like y = 2x + 3, y = −1, y = 2x − 1 to see 2, 0, and 1 intersections.",
+     "questions": [
+      {
+       "q": "How many intersections do y = x² and y = −1 have?",
+       "a": "None — the parabola never goes below 0."
+      }
+     ]
+    },
+    {
+     "guide": "Substitute the line into the quadratic, set to 0, solve, then find y.",
+     "questions": [
+      {
+       "q": "Solve y = x² and y = 2x + 3.",
+       "a": "x² − 2x − 3 = 0 → x = 3 or −1 → (3, 9) and (−1, 1)."
+      },
+      {
+       "q": "Solve y = x² − 4 and y = x − 2.",
+       "a": "x² − x − 2 = 0 → x = 2 or −1 → (2, 0), (−1, −3)."
+      }
+     ]
+    },
+    {
+     "guide": "Use h = −16t² + 48t + 4 and a platform/ramp at height h = 20 ft. Solve and interpret both times.",
+     "questions": [
+      {
+       "q": "When is the ball at 20 ft?",
+       "a": "16t² − 48t + 16 = 0 → t² − 3t + 1 = 0 → t = (3 ± √5)/2 ≈ 0.38 s (going up) and 2.62 s (coming down)."
+      }
+     ]
+    },
+    {
+     "guide": "Your child completes the mixed Unit 10 review; correct and discuss method choices.",
+     "questions": [
+      {
+       "q": "Solve 2x² − 7x + 3 = 0.",
+       "a": "(2x − 1)(x − 3) = 0 → x = 1/2, 3."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 10 test.",
+     "questions": [
+      {
+       "q": "Solve y = x² + 1, y = 2x.",
+       "a": "x² − 2x + 1 = 0 → x = 1: (1, 2), one solution."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 10 test sample answers: 1) x² − 9x + 20 = 0 → 4, 5. 2) (x + 1)² = 12 → −1 ± 2√3. 3) 2x² + x − 6 = 0 → 3/2, −2. 4) x² + 6x + 2 = 0 → −3 ± √7. 5) Discriminant of x² + x + 1 → −3, no real solutions. 6) y = x² − 2x, y = x → (0, 0), (3, 3). 7) h = −16t² + 80t: lands at t = 5 s; max 100 ft at t = 2.5. Scoring: 80%+ proficient."
+  },
+  {
+   "week": 35,
+   "prep": "Graph paper, Desmos. Shipping chart example: $5 for up to 2 lb, $8 for over 2 up to 5 lb, $12 over 5 lb. Function-family cards for the sort (linear, quadratic, exponential, absolute value, square root, piecewise).",
+   "misconceptions": [
+    "Shifting y = |x − 3| left: like parabolas, it shifts RIGHT 3.",
+    "Overlapping pieces in piecewise functions: each input belongs to exactly one piece — watch ≤ vs <.",
+    "Stating domain of √(x − 2) as all reals: the radicand must be ≥ 0, so x ≥ 2."
+   ],
+   "days": [
+    {
+     "guide": "Graph y = |x|, then use a, h, k as with parabolas. Your child graphs 8 and describes transformations.",
+     "questions": [
+      {
+       "q": "Describe y = 2|x − 3| + 1.",
+       "a": "V-shape opening up, vertex (3, 1), twice as steep as y = |x|."
+      }
+     ]
+    },
+    {
+     "guide": "Graph each piece only on its interval, using open/closed dots. Evaluate inputs using the right piece.",
+     "questions": [
+      {
+       "q": "Using the shipping chart, what does a 2-lb package cost? A 4.5-lb package?",
+       "a": "$5 (2 ≤ 2); $8."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = √x from a table (0, 1, 4, 9), then shift.",
+     "questions": [
+      {
+       "q": "Domain and range of y = √(x − 2) + 3?",
+       "a": "Domain x ≥ 2; range y ≥ 3."
+      }
+     ]
+    },
+    {
+     "guide": "Sort cards by family using table patterns (constant difference, constant ratio, second differences, V shape, half-parabola).",
+     "questions": [
+      {
+       "q": "A table has first differences 3, 5, 7, 9. What family?",
+       "a": "Quadratic (constant second differences of 2)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Vertex of y = −|x + 1| + 4?",
+       "a": "(−1, 4), opens down."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) y = |x + 2| − 3 → vertex (−2, −3), opens up. 2) y = −3|x| → opens down, steeper. 3) f(x) = {x + 1 if x < 0; 2x if x ≥ 0}: f(−3) = −2, f(0) = 0, f(4) = 8. 4) y = √(x + 4) − 1: domain x ≥ −4, range y ≥ −1. 5) Table 2, 6, 18, 54 → exponential. 6) Table 1, 4, 9, 16 → quadratic."
+  },
+  {
+   "week": 36,
+   "prep": "Assemble a cumulative review packet from unit tests. Schedule a quiet 2-hour final exam block.",
+   "misconceptions": [
+    "Treating the final as only recent material: review early units (equations, inequalities) too.",
+    "Not showing work, which loses partial credit and makes errors hard to find.",
+    "Panicking on unfamiliar-looking problems: identify the function family or equation type first."
+   ],
+   "days": [
+    {
+     "guide": "Your child completes the Units 1–5 review; correct errors together.",
+     "questions": [
+      {
+       "q": "Solve the system x + 2y = 7, 3x − y = 7.",
+       "a": "From elimination: x = 3, y = 2."
+      },
+      {
+       "q": "Write the line through (0, −3) with slope 4.",
+       "a": "y = 4x − 3."
+      }
+     ]
+    },
+    {
+     "guide": "Your child completes the Units 6–7 review.",
+     "questions": [
+      {
+       "q": "Median and IQR of 2, 5, 6, 8, 10, 13, 15, 20?",
+       "a": "Median 9; Q1 5.5, Q3 14, IQR 8.5."
+      },
+      {
+       "q": "$500 grows 6% per year. Value after 3 years?",
+       "a": "500(1.06)³ ≈ $595.51."
+      }
+     ]
+    },
+    {
+     "guide": "Your child completes the Units 8–11 review.",
+     "questions": [
+      {
+       "q": "Factor 2x² − x − 6.",
+       "a": "(2x + 3)(x − 2)."
+      },
+      {
+       "q": "Solve x² − 6x + 4 = 0.",
+       "a": "x = 3 ± √5."
+      }
+     ]
+    },
+    {
+     "guide": "Give a timed practice final; review errors by topic.",
+     "questions": [
+      {
+       "q": "Domain of y = √(x + 5)?",
+       "a": "x ≥ −5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the final exam (about 2 hours). Grade with the key and celebrate completing Algebra I.",
+     "questions": [
+      {
+       "q": "Which grows fastest eventually: 1000x, 50x², or 1.01^x?",
+       "a": "1.01^x."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final exam sample answers: 1) 5 − 2(x − 3) = 3x + 1 → x = 2. 2) −3 < 2x + 5 ≤ 11 → −4 < x ≤ 3. 3) f(x) = x² − 2x: f(−3) = 15. 4) Line through (2, 7), (4, 11) → y = 2x + 3. 5) 2x + y = 9, x − y = 3 → (4, 1). 6) Data 4, 7, 7, 9, 13 → mean 8, median 7. 7) Regression interpretation with units. 8) 1000(1.04)^5 ≈ 1216.65. 9) (x − 5)(x + 2) = x² − 3x − 10. 10) Factor 9x² − 16 = (3x − 4)(3x + 4). 11) Vertex of y = x² − 8x + 12 → (4, −4), zeros 2 and 6. 12) 2x² + 3x − 2 = 0 → 1/2, −2. 13) x² + 2x − 7 = 0 → −1 ± 2√2. 14) Domain of y = √(x − 1) → x ≥ 1. Scoring: 90%+ A, 80–89 B, 70–79 C."
+  }
+ ]
+}
