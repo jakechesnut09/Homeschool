@@ -61,8 +61,17 @@ def main():
             summaries.append({
                 "subject": c["subject"], "title": c["title"], "minutes": c.get("minutes_per_day"),
                 "ag": c.get("ag_requirement"), "credits": c.get("credits"), "units": len(c["units"]),
+                "teacher": (DATA / "teacher" / f"grade_{g:02d}" / f.name).exists(),
             })
         dump({"grade": g, "courses": courses_full}, OUT / f"grade_{g:02d}.json")
+        tfiles = sorted((DATA / "teacher" / f"grade_{g:02d}").glob("*.json"))
+        if tfiles:
+            guides = {}
+            for f in tfiles:
+                t = load(f)
+                guides[t["subject"]] = {"overview": t.get("overview"), "source": f"data/teacher/grade_{g:02d}/{f.name}",
+                                        "weeks": t.get("weeks", [])}
+            dump({"grade": g, "guides": guides}, OUT / f"teacher_{g:02d}.json")
         grades.append({"grade": g, "band": band, "theme": theme, "courses": summaries})
 
     ref = DATA / "reference"

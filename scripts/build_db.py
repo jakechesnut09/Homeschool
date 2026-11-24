@@ -237,6 +237,42 @@ FROM daily_lessons GROUP BY grade, week, day;
 CREATE VIEW v_hs_course_plan AS
 SELECT grade, subject_code, title, ag_requirement, credits
 FROM courses WHERE grade >= 9 ORDER BY grade, subject_code;
+
+CREATE TABLE teacher_course_notes (
+  course_id INTEGER PRIMARY KEY REFERENCES courses(id),
+  overview  TEXT
+);
+
+CREATE TABLE teacher_weeks (
+  weekly_plan_id INTEGER PRIMARY KEY REFERENCES weekly_plans(id),
+  prep           TEXT,
+  misconceptions TEXT,     -- newline-separated
+  assessment_key TEXT
+);
+
+CREATE TABLE teacher_days (
+  daily_lesson_id INTEGER PRIMARY KEY REFERENCES daily_lessons(id),
+  guide           TEXT
+);
+
+CREATE TABLE teacher_questions (
+  id              INTEGER PRIMARY KEY,
+  daily_lesson_id INTEGER NOT NULL REFERENCES daily_lessons(id),
+  seq             INTEGER NOT NULL,
+  question        TEXT NOT NULL,
+  answer          TEXT NOT NULL
+);
+
+CREATE VIEW v_teacher_guide AS
+SELECT d.grade, d.week, d.day, d.day_name, d.subject_code, c.title AS course,
+       d.title AS lesson_title, d.work AS student_work, td.guide AS teacher_guide,
+       (SELECT group_concat('Q: ' || q.question || char(10) || 'A: ' || q.answer, char(10))
+          FROM teacher_questions q WHERE q.daily_lesson_id = d.id ORDER BY q.seq) AS questions_and_answers,
+       tw.prep, tw.misconceptions, tw.assessment_key
+FROM daily_lessons d
+JOIN courses c ON c.id = d.course_id
+LEFT JOIN teacher_days td ON td.daily_lesson_id = d.id
+LEFT JOIN teacher_weeks tw ON tw.weekly_plan_id = d.weekly_plan_id;
 """
 
 
@@ -372,6 +408,35 @@ def build(out):
                             (g, subj, wk, i, c["title"], w["topic"], d["title"], d["work"]))
                 counts["lessons"] += 1
 
+    # Teacher's guides (optional per course)
+    counts["teacher_guides"] = 0
+    counts["answer_items"] = 0
+    for path in sorted((DATA / "teacher").glob("grade_*/*.json")):
+        t = load_json(path)
+        row = cur.execute("SELECT id FROM courses WHERE grade=? AND subject_code=?",
+                          (t["grade"], t["subject"])).fetchone()
+        if not row:
+            continue
+        cid = row[0]
+        counts["teacher_guides"] += 1
+        cur.execute("INSERT INTO teacher_course_notes VALUES (?,?)", (cid, t.get("overview")))
+        for w in t.get("weeks", []):
+            wp = cur.execute("SELECT id FROM weekly_plans WHERE course_id=? AND week=?", (cid, w["week"])).fetchone()
+            if not wp:
+                continue
+            cur.execute("INSERT INTO teacher_weeks VALUES (?,?,?,?)",
+                        (wp[0], w.get("prep"), joinl(w.get("misconceptions"), "\n"), w.get("assessment_key")))
+            for i, d in enumerate(w.get("days", [])[:5], start=1):
+                dl = cur.execute("SELECT id FROM daily_lessons WHERE course_id=? AND week=? AND day=?",
+                                 (cid, w["week"], i)).fetchone()
+                if not dl:
+                    continue
+                cur.execute("INSERT INTO teacher_days VALUES (?,?)", (dl[0], d.get("guide")))
+                for n, q in enumerate(d.get("questions", []), start=1):
+                    cur.execute("INSERT INTO teacher_questions (daily_lesson_id, seq, question, answer) VALUES (?,?,?,?)",
+                                (dl[0], n, q["q"], q["a"]))
+                    counts["answer_items"] += 1
+
     meta = {
         "name": "California Homeschool Curriculum Database (Grades 1–12)",
         "standards_basis": "California content standards (CA CCSS ELA & Math, CA NGSS, HSS, 2019 Arts, PE, Health, World Languages, CS)",
@@ -392,7 +457,8 @@ def main():
     args = ap.parse_args()
     counts, n = build(pathlib.Path(args.out))
     print(f"Built {args.out}: {counts['courses']} courses, {counts['weeks']} weekly plans, "
-          f"{counts['lessons']} daily lessons (from {n} course files)")
+          f"{counts['lessons']} daily lessons (from {n} course files); "
+          f"{counts['teacher_guides']} teacher's guides with {counts['answer_items']} answered questions")
 
 
 if __name__ == "__main__":

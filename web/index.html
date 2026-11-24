@@ -153,6 +153,18 @@ table { border-collapse: collapse; width: 100%; font-size: 0.92rem }
 th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top }
 th { font: 600 0.75rem var(--f-mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); background: var(--sunk) }
 tr:last-child td { border-bottom: 0 }
+.teacher { --tc: var(--pacific) }
+section.teacher.panel, .teacher .panel { border-color: color-mix(in srgb, var(--pacific) 45%, var(--line)); background: color-mix(in srgb, var(--pacific-soft) 55%, var(--surface)) }
+.teacher .eyebrow { color: var(--pacific) }
+.qa { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 8px }
+.qa li { border-left: 3px solid var(--pacific); padding: 2px 0 2px 10px; display: grid; gap: 2px }
+.qa .q { font-weight: 700 }
+details summary { cursor: pointer; color: var(--pacific); font-size: 0.88rem; font-weight: 700; width: fit-content }
+details .a { margin-top: 4px; padding: 8px 10px; border-radius: 8px; background: var(--sunk); white-space: pre-line }
+details.key { margin-top: 8px }
+.toggle { display: flex; gap: 10px; align-items: center; font-weight: 700; background: var(--pacific-soft); border-radius: var(--r); padding: 10px 14px; cursor: pointer }
+.toggle input { width: 20px; height: 20px; accent-color: var(--pacific) }
+.teacher-inline { margin-top: 6px; padding: 10px 12px; border-radius: 8px; background: var(--pacific-soft); display: grid; gap: 4px }
 .loading { padding: 40px 0; color: var(--muted) }
 footer { border-top: 1px solid var(--line); padding-block: 22px; color: var(--muted); font-size: 0.88rem }
 footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: space-between }
@@ -200,7 +212,7 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
 (() => {
   const app = document.getElementById("app");
   const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-  const state = { index: null, grades: {}, dayTab: {}, search: "", searchGrade: "", pwOption: "", fundCat: "", resSubj: "", resGrade: "" };
+  const state = { index: null, grades: {}, teacher: {}, teacherView: false, dayTab: {}, search: "", searchGrade: "", pwOption: "", fundCat: "", resSubj: "", resGrade: "" };
 
   // ---------- helpers ----------
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -229,6 +241,16 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
     if (!state.grades[g]) state.grades[g] = await getJSON(`data/grade_${String(g).padStart(2, "0")}.json`);
     return state.grades[g];
   }
+  async function loadTeacher(g) {
+    if (!(g in state.teacher)) {
+      try { state.teacher[g] = await getJSON(`data/teacher_${String(g).padStart(2, "0")}.json`) }
+      catch { state.teacher[g] = null }
+    }
+    return state.teacher[g];
+  }
+  const guideFor = (tg, subj) => tg && tg.guides && tg.guides[subj.toUpperCase()];
+  const qaList = qs => `<ul class="qa">${list(qs).map(q => `<li><span class="q">${esc(q.q)}</span>
+    <details><summary>Show answer</summary><div class="a">${esc(q.a)}</div></details></li>`).join("")}</ul>`;
   const findCourse = (gd, subj) => gd.courses.find(c => c.subject.toLowerCase() === subj.toLowerCase());
 
   // ---------- views ----------
@@ -284,7 +306,7 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
           <a class="tile course subj-${c.subject}" href="#grade-${g}-${c.subject.toLowerCase()}">
             ${chip(c.subject)}
             <span class="t">${esc(c.title)}</span>
-            <span class="meta"><span>${c.minutes_per_day} min/day</span><span>${c.units.length} units</span>${c.ag_requirement ? `<span>UC/CSU “${esc(c.ag_requirement)}”</span>` : ""}${c.credits ? `<span>${c.credits} credits</span>` : ""}</span>
+            <span class="meta"><span>${c.minutes_per_day} min/day</span><span>${c.units.length} units</span>${(meta.courses.find(x => x.subject === c.subject) || {}).teacher ? `<span>Teacher's guide</span>` : ""}${c.ag_requirement ? `<span>UC/CSU “${esc(c.ag_requirement)}”</span>` : ""}${c.credits ? `<span>${c.credits} credits</span>` : ""}</span>
           </a>`).join("")}</div>
       </section>
       <div class="btns">${ghBtn(`data/curriculum/grade_${String(g).padStart(2, "0")}`, "Grade files on GitHub")}${ghBtn(`docs/plans/grade_${String(g).padStart(2, "0")}`, "Printable weekly plans")}</div>
@@ -305,6 +327,7 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
         <div class="facts"><span><b>${c.minutes_per_day}</b> min/day</span><span><b>${c.units.length}</b> units</span><span><b>36</b> weeks</span>${c.ag_requirement ? `<span>UC/CSU a–g <b>${esc(c.ag_requirement)}</b></span>` : ""}${c.credits ? `<span><b>${c.credits}</b> credits</span>` : ""}</div>
         <p class="muted small">Framework: ${esc(c.framework)}</p>
       </section>
+      ${await (async () => { const tg = guideFor(await loadTeacher(g), c.subject); return tg ? `<section class="teacher panel"><span class="eyebrow">Teacher's guide</span><p>${esc(tg.overview)}</p><p class="small muted">Open any week below for step-by-step teaching notes, check questions with answers and the answer key.</p></section>` : "" })()}
       <div class="btns">${ghBtn(c.source, "Course file on GitHub")}${ghBtn(`docs/plans/grade_${gg}/course_${c.subject}.md`, "Scope & sequence")}</div>
       <section class="stack" style="gap:10px">
         <h2>Units and weeks</h2>
@@ -347,6 +370,25 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
           <div class="body"><strong>${esc(d.title)}</strong><span>${esc(d.work)}</span></div>
         </div>`).join("")}</div>
       </section>
+      ${await (async () => {
+        const tg = guideFor(await loadTeacher(g), c.subject);
+        const tw = tg && tg.weeks.find(x => x.week === wk);
+        if (!tw) return "";
+        return `<section class="teacher stack" style="gap:12px" id="teacher-guide">
+          <div><span class="eyebrow">For the parent-teacher</span><h2>Teacher's guide</h2></div>
+          <div class="panel"><dl class="kv">
+            <dt>Prepare</dt><dd>${esc(tw.prep)}</dd>
+            <dt>Watch for</dt><dd><ul>${list(tw.misconceptions).map(m => `<li>${esc(m)}</li>`).join("")}</ul></dd>
+          </dl></div>
+          <div class="days">${list(tw.days).map((d, i) => `<div class="day">
+            <div class="dn">${DAYS[i]}<small>${esc(w.days[i] ? w.days[i].title : "")}</small></div>
+            <div class="body"><span><strong>How to teach:</strong> ${esc(d.guide)}</span>${qaList(d.questions)}</div>
+          </div>`).join("")}</div>
+          <div class="panel"><strong>Assessment:</strong> ${esc(w.assessment)}
+            <details class="key"><summary>Show answer key</summary><div class="a">${esc(tw.assessment_key)}</div></details></div>
+          <div class="btns">${ghBtn(tg.source, "Teacher's guide file on GitHub")}</div>
+        </section>`;
+      })()}
       <section class="stack" style="gap:10px"><h2>Standards this week</h2>
         <div class="panel std">${list(w.standards).map(s => `<code>${esc(s)}</code><span>${esc(c.standards[s] || "")}</span>`).join("")}</div>
       </section>
@@ -361,6 +403,7 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
     const doneKey = `done-${g}-${wk}`;
     const done = store.get(doneKey) || {};
     const rows = gd.courses.map(c => ({ c, w: c.weeks.find(x => x.week === wk) })).filter(r => r.w);
+    const tg = await loadTeacher(g);
     const dayMins = d => rows.reduce((n, r) => n + (r.c.minutes_per_day || 0), 0);
     return `<div class="stack">
       ${crumbs([["Grades", "home"], [gradeName(g), `grade-${g}`], [`Week ${wk}`]])}
@@ -380,6 +423,7 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
       </section>
       <section class="stack" style="gap:12px">
         <h2>Day by day</h2>
+        ${tg ? `<label class="toggle" for="teacher-toggle"><input type="checkbox" id="teacher-toggle" ${state.teacherView ? "checked" : ""}> Teacher view: show how to teach each lesson, with questions and answers</label>` : ""}
         <div class="tabs" role="tablist">${DAYS.map((d, i) => `<button class="tab" role="tab" id="tab-${i}" aria-selected="${i === day}" data-day="${i}" data-key="${key}">${d}<small>day ${(wk - 1) * 5 + i + 1}</small></button>`).join("")}</div>
         <div class="panel" role="tabpanel" aria-labelledby="tab-${day}">
           <p class="muted small" style="margin-bottom:6px">${DAYS[day]} · about ${dayMins(day)} minutes · checkmarks are saved in this browser</p>
@@ -389,6 +433,8 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
               <input type="checkbox" id="chk-${id}" data-done="${doneKey}" data-id="${id}" ${done[id] ? "checked" : ""} aria-label="Mark ${esc(c.title)} done">
               <div class="body"><div class="lesson-top">${chip(c.subject)}<strong>${esc(d.title)}</strong><span class="muted small">${c.minutes_per_day} min</span></div>
               <span>${esc(d.work)}</span>
+              ${(() => { if (!state.teacherView) return ""; const t = guideFor(tg, c.subject); const td = t && (t.weeks.find(x => x.week === wk) || {}).days?.[day];
+                return td ? `<div class="teacher-inline"><span><strong>How to teach:</strong> ${esc(td.guide)}</span>${qaList(td.questions)}</div>` : ""; })()}
               <a class="small" href="#grade-${g}-${c.subject.toLowerCase()}-week-${wk}">${esc(c.title)}: week ${wk} plan</a></div>
             </div>`;
           }).join("")}
@@ -580,6 +626,7 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
       const d = store.get(t.dataset.done) || {}; d[t.dataset.id] = t.checked; store.set(t.dataset.done, d);
       t.closest(".lesson").classList.toggle("done", t.checked); return;
     }
+    if (t.id === "teacher-toggle") { state.teacherView = t.checked; store.set("teacherView", t.checked); route(true); return }
     if (t.id === "pw-opt") state.pwOption = t.value;
     else if (t.id === "fund-cat") state.fundCat = t.value;
     else if (t.id === "res-subj") state.resSubj = t.value;
@@ -596,6 +643,7 @@ footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: s
   });
   window.addEventListener("hashchange", () => route(false));
 
+  state.teacherView = !!store.get("teacherView");
   getJSON("data/index.json").then(idx => {
     state.index = idx;
     document.getElementById("repo-links").innerHTML =
