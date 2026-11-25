@@ -1,0 +1,2054 @@
+{
+ "grade": 8,
+ "subject": "SCI",
+ "overview": "Science 8 follows California's integrated model: forces and energy, gravity and space, waves, Earth's history, heredity and natural selection, finishing with an engineering capstone. Each week has a hands-on investigation with household materials; have the child predict first, record data with units in a science notebook, and explain results in claim-evidence-reasoning form. Preview PhET simulations before using them and supervise any drops, launches or kitchen chemistry.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Toy car, masking tape, meter stick, stopwatch/phone timer, graph paper; a composition notebook for the science notebook. Clear a 3-meter smooth floor path. Bookmark PhET 'Forces and Motion: Basics' (phet.colorado.edu).",
+   "misconceptions": [
+    "Thinking speed and velocity are the same. Velocity includes direction: 2 m/s east and 2 m/s west are the same speed but different velocities.",
+    "Reading a distance-time graph as a picture of a hill. Steepness is speed; a flat segment means stopped."
+   ],
+   "days": [
+    {
+     "guide": "Help the child set up a notebook (table of contents, dated entries). Roll the car past while one person stands still and another walks alongside it; each describes the motion. Explain that motion is always described relative to a reference frame.",
+     "questions": [
+      {
+       "q": "To you walking beside the car at the same speed, how does the car appear to move?",
+       "a": "It appears not to move (stationary) relative to you, though it is moving relative to the floor."
+      }
+     ]
+    },
+    {
+     "guide": "Mark 0.5-m intervals over 3 m. The child releases or pushes the car, you time it, and the child calculates average speed = distance ÷ time for 3 trials.",
+     "questions": [
+      {
+       "q": "The car covers 3 m in 2.4 s. What is its average speed?",
+       "a": "3 ÷ 2.4 = 1.25 m/s."
+      },
+      {
+       "q": "Why do 3 trials?",
+       "a": "To reduce the effect of random errors like reaction time; average the results."
+      }
+     ]
+    },
+    {
+     "guide": "The child graphs distance (y) vs time (x) for the car and for a walk that includes a stop. Ask what the steepness and flat parts mean.",
+     "questions": [
+      {
+       "q": "What does a flat (horizontal) section mean on a distance-time graph?",
+       "a": "The object is stopped — time passes but distance doesn't change."
+      },
+      {
+       "q": "Which is faster: a steep line or a shallow line?",
+       "a": "The steep line."
+      }
+     ]
+    },
+    {
+     "guide": "Open the PhET motion screen; the child changes push direction and records speed vs velocity observations. To check, ask: \"A car moves 5 m/s north, then 5 m/s south. Same speed? Same velocity?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "A car moves 5 m/s north, then 5 m/s south. Same speed? Same velocity?",
+       "a": "Same speed (5 m/s), different velocity because direction changed."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (key) and have the child write the lab summary paragraph. Finish by asking: \"At 4 m/s, how far does an object go in 6 s?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "At 4 m/s, how far does an object go in 6 s?",
+       "a": "24 m."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) A car travels 3 m in 1.5 s → 2 m/s. 2) A walker goes 100 m in 80 s → 1.25 m/s. 3) At 4 m/s, how far in 6 s? 24 m. 4) Graphs: steeper line = faster; flat line = stopped; straight line = constant speed; curve getting steeper = speeding up. Lab data/graph: table with distance, time for 3 trials, average speed (distance ÷ time) with units; labeled axes (time on x, distance on y); accurate plotting. Summary paragraph names question, method, result with a number, and one source of error (reaction time)."
+  },
+  {
+   "week": 2,
+   "prep": "Rubber bands (or a small spring scale), a shoe, string, a ruler, three floor surfaces (carpet, tile, wood). Bookmark the PhET tug-of-war screen.",
+   "misconceptions": [
+    "Thinking an object needs a net force to keep moving. Net force changes motion; with zero net force a moving object keeps moving at constant velocity.",
+    "Adding forces in opposite directions instead of subtracting. Opposite forces subtract; the net force points toward the larger one."
+   ],
+   "days": [
+    {
+     "guide": "Draw arrows from the center of an object; arrow length shows strength. The child draws force diagrams for 6 situations, labeling each force.",
+     "questions": [
+      {
+       "q": "Draw the forces on a book resting on a table.",
+       "a": "Gravity (weight) pointing down and the normal force from the table pointing up, equal in size, so net force is zero."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET tug-of-war, the child predicts motion before pressing Go for 8 combinations and calculates net force each time. Check understanding with: \"100 N pulls left and 150 N pulls right. Net force and motion?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "100 N pulls left and 150 N pulls right. Net force and motion?",
+       "a": "50 N to the right; the cart accelerates right."
+      },
+      {
+       "q": "If the net force is zero, can the cart be moving?",
+       "a": "Yes — it keeps moving at constant velocity (or stays at rest)."
+      }
+     ]
+    },
+    {
+     "guide": "Tie the shoe to a rubber band; pull it slowly at steady speed across each surface and measure stretch. Keep the same shoe, same pull speed and same rubber band (controlled variables).",
+     "questions": [
+      {
+       "q": "Why use the same shoe on all surfaces?",
+       "a": "To control variables so only the surface changes."
+      }
+     ]
+    },
+    {
+     "guide": "The child graphs stretch for each surface (bar graph), lists controlled variables, and writes a CER paragraph. Finish by asking: \"Why a bar graph instead of a line graph?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why a bar graph instead of a line graph?",
+       "a": "Surface type is categorical, not continuous."
+      }
+     ]
+    },
+    {
+     "guide": "Give the force-diagram quiz and collect the CER. Before moving on, ask: \"What force always opposes sliding motion?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What force always opposes sliding motion?",
+       "a": "Friction."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Force-diagram quiz: 1) Book on a table: gravity down, table's normal force up, equal → net 0. 2) 30 N right and 20 N left → 10 N right. 3) 50 N and 50 N opposite → 0 N, balanced. 4) Two people pull right with 40 N and 25 N, one pulls left with 60 N → 5 N right. CER rubric (4 levels): 4 = claim answers the question; evidence cites specific measured data (numbers with units) from the lab; reasoning links evidence to the science idea; 3 = all parts, reasoning thin; 2 = claim with vague evidence; 1 = claim only. Sample claim: 'Carpet produces the most friction because the rubber band stretched the most (e.g., 6 cm vs 3 cm on tile).'"
+  },
+  {
+   "week": 3,
+   "prep": "Index card, coin, cup; toy car, washers or coins, tape, a board-and-books ramp, meter stick, stopwatch.",
+   "misconceptions": [
+    "Expecting heavier cars to roll down a ramp much faster. Gravity pulls harder on more mass, but more mass is harder to accelerate, so (ignoring friction) acceleration is about the same.",
+    "Thinking inertia is a force. Inertia is an object's resistance to changes in motion, which depends on mass."
+   ],
+   "days": [
+    {
+     "guide": "Place the card on a cup with a coin on top; flick the card out. The child explains why the coin drops into the cup (inertia) and writes Newton's first law.",
+     "questions": [
+      {
+       "q": "Why does the coin fall into the cup instead of flying off with the card?",
+       "a": "The coin's inertia keeps it at rest; the quick flick applies little friction force to it, so it stays put and gravity pulls it into the cup."
+      }
+     ]
+    },
+    {
+     "guide": "Model a good plan: question, hypothesis, independent/dependent/controlled variables, numbered procedure, blank data table. The child writes the plan.",
+     "questions": [
+      {
+       "q": "Name the independent, dependent and two controlled variables.",
+       "a": "Independent: number of washers; dependent: time (and speed) down the ramp; controlled: ramp height, release point, distance, the car."
+      }
+     ]
+    },
+    {
+     "guide": "Run 3 trials each for 0, 2, 4 and 6 washers; the child records times and calculates average speeds. Finish by asking: \"If the 6-washer car's time is nearly the same as the empty car's, what does that suggest?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "If the 6-washer car's time is nearly the same as the empty car's, what does that suggest?",
+       "a": "Added mass doesn't much change speed down a ramp — gravity's pull increases with mass, but so does inertia."
+      }
+     ]
+    },
+    {
+     "guide": "The child graphs average speed vs washers, then solves 8 F = ma problems. Connect: on a ramp both force and mass increase together.",
+     "questions": [
+      {
+       "q": "A 2-kg cart is pushed with 10 N. Acceleration?",
+       "a": "a = F/m = 5 m/s²."
+      },
+      {
+       "q": "Same 10 N on a 4-kg cart?",
+       "a": "2.5 m/s² — double the mass, half the acceleration."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the conclusion; give the quiz (key). Check understanding with: \"What force gives a 5-kg object an acceleration of 3 m/s²?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What force gives a 5-kg object an acceleration of 3 m/s²?",
+       "a": "15 N."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric (4 levels): question, hypothesis, variables (independent = washers, dependent = time/speed, controlled = ramp height, release point, distance), data table with 3 trials and averages, graph, conclusion that matches data (expected: little change in speed with added mass; small differences due to friction and timing error), sources of error. Quiz: 1) Newton's first law: an object at rest stays at rest and an object in motion stays in motion at constant velocity unless acted on by an unbalanced force. 2) F = ma: 10 N on 2 kg → 5 m/s². 3) 3 kg accelerating at 4 m/s² → 12 N. 4) 20 N gives 4 m/s² → 5 kg. 5) Same force on double mass → half the acceleration."
+  },
+  {
+   "week": 4,
+   "prep": "Balloons (3), string (5 m), straw, tape, marbles of two sizes, a ruler with a groove. Find a slow-motion crash test video (IIHS or NHTSA on YouTube).",
+   "misconceptions": [
+    "Thinking action and reaction forces cancel. They act on different objects, so they don't cancel each other.",
+    "Thinking the bigger object exerts a bigger force in a collision. The forces are equal and opposite; the effects differ because masses differ."
+   ],
+   "days": [
+    {
+     "guide": "Thread the string through the straw, tape a balloon to it, release and measure distance for 3 inflation sizes. Identify the force pair.",
+     "questions": [
+      {
+       "q": "What is the force pair in the balloon rocket?",
+       "a": "The balloon pushes air out the back; the air pushes the balloon forward."
+      },
+      {
+       "q": "Why does a bigger inflation go farther?",
+       "a": "More air pushed out for longer gives a larger/longer forward push."
+      }
+     ]
+    },
+    {
+     "guide": "The child labels action-reaction pairs in 8 scenarios and explains why they don't cancel. Finish by asking: \"Why don't action-reaction forces cancel?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why don't action-reaction forces cancel?",
+       "a": "They act on different objects; forces cancel only when they act on the same object."
+      }
+     ]
+    },
+    {
+     "guide": "Roll marbles into each other along the groove; record same-size and different-size collisions. Before moving on, ask: \"A moving marble hits an identical still marble head-on. What happens?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "A moving marble hits an identical still marble head-on. What happens?",
+       "a": "The moving one nearly stops and the other rolls away at about the same speed."
+      }
+     ]
+    },
+    {
+     "guide": "Watch the crash-test video in slow motion. Discuss how seatbelts and airbags increase the time over which the dummy stops, reducing force.",
+     "questions": [
+      {
+       "q": "How does an airbag reduce injury?",
+       "a": "It increases the stopping time and spreads the force over a larger area, so the force on the person is smaller."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and the two force-pair diagrams. To check, ask: \"A truck hits a bug. Which feels the larger force?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "A truck hits a bug. Which feels the larger force?",
+       "a": "Neither — the forces are equal; the bug has far less mass, so it undergoes a huge acceleration."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) State Newton's third law: for every action force there is an equal and opposite reaction force. 2) Swimmer: pushes water back; water pushes swimmer forward. 3) Rocket: pushes gas down/back; gas pushes rocket up/forward. 4) Hammer hits nail: hammer pushes nail in; nail pushes back on hammer. 5) Truck hits bug: forces equal; bug's tiny mass gets huge acceleration. Force-pair diagrams: arrows equal length, opposite direction, on different objects. Collision notes: equal marbles — the moving marble stops and the other moves on; big hits small — both move forward, small faster; small hits big — small bounces back, big moves slowly."
+  },
+  {
+   "week": 5,
+   "prep": "Raw eggs (or water balloons), straws, tape, cardboard, cotton balls, rubber bands, plastic bags. Choose a 2-m drop site with easy cleanup. Prepare the Unit 1 test.",
+   "misconceptions": [
+    "Thinking the goal is a stronger (harder) shell. Softer, crushable designs work better because they increase stopping time.",
+    "Changing many things at once when iterating. Change one main feature so you know what helped."
+   ],
+   "days": [
+    {
+     "guide": "Define criteria (must survive a 2-m drop; mass under 100 g) and constraints (only listed materials, 30 minutes to build). The child writes both lists.",
+     "questions": [
+      {
+       "q": "Criteria vs constraints?",
+       "a": "Criteria are what a successful design must do; constraints are limits (materials, time, cost, size)."
+      }
+     ]
+    },
+    {
+     "guide": "The child sketches 3 designs and scores them in a decision matrix (cost, mass, expected protection). Before moving on, ask: \"Why use a decision matrix?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Why use a decision matrix?",
+       "a": "It compares designs fairly against the criteria instead of choosing by gut feeling."
+      }
+     ]
+    },
+    {
+     "guide": "Build and drop. Observe and record whether the egg survived and how the device changed during impact.",
+     "questions": [
+      {
+       "q": "Why does padding protect the egg?",
+       "a": "It increases the time it takes the egg to stop, so the force on it is smaller."
+      }
+     ]
+    },
+    {
+     "guide": "Redesign one feature based on data, retest, and compare with another family member's design. To check, ask: \"Your egg cracked on the side that hit first. What one change makes sense?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Your egg cracked on the side that hit first. What one change makes sense?",
+       "a": "Add more crushable padding on that side (or a parachute to reduce speed)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test and collect the notebook pages. Finish by asking: \"A 4-kg object accelerates at 2 m/s². Net force?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "A 4-kg object accelerates at 2 m/s². Net force?",
+       "a": "8 N."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Engineering notebook rubric (4 levels): criteria and constraints listed; 3 labeled sketches; decision matrix with scores; test data; redesign explained using evidence; reflection connects to force and collision time. Unit 1 test sample answers: speed = d/t (6 m in 3 s → 2 m/s); net force of 25 N right and 10 N left → 15 N right; F = ma (4 kg × 2 m/s² = 8 N); Newton's first law (inertia); third law pairs on different objects; crumple zones increase collision time to reduce force."
+  },
+  {
+   "week": 6,
+   "prep": "A ramp (board + books), balls of different mass but similar size (golf ball, ping-pong ball, rubber ball), a paper cup with a 'door' cut in the rim, a ruler, masking tape.",
+   "misconceptions": [
+    "Thinking kinetic energy doubles when speed doubles. KE depends on v², so doubling speed quadruples KE.",
+    "Thinking heavier objects always have more KE. A fast light object can have more KE than a slow heavy one."
+   ],
+   "days": [
+    {
+     "guide": "Brainstorm moving objects (a jogger, a bullet, a truck) and rank by kinetic energy. Introduce KE = ½mv² and units (joules).",
+     "questions": [
+      {
+       "q": "Rank: a slow-rolling bowling ball or a fast-thrown baseball?",
+       "a": "It depends on actual values; a fast baseball can have more KE because speed is squared."
+      }
+     ]
+    },
+    {
+     "guide": "Roll balls of different mass from the same height into the cup; measure how far the cup slides. Check understanding with: \"Why use the same ramp height for each ball?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Why use the same ramp height for each ball?",
+       "a": "So the speed at the bottom is about the same; only mass changes."
+      }
+     ]
+    },
+    {
+     "guide": "Roll one ball from increasing heights; measure cup distance. To check, ask: \"What happens to the cup distance as height increases?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What happens to the cup distance as height increases?",
+       "a": "It increases — more speed means more kinetic energy."
+      }
+     ]
+    },
+    {
+     "guide": "The child graphs both data sets and calculates KE to explain why doubling speed matters more. Finish by asking: \"A 2-kg ball goes 3 m/s, then 6 m/s. Compare KE.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "A 2-kg ball goes 3 m/s, then 6 m/s. Compare KE.",
+       "a": "9 J vs 36 J — four times as much."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (key). Before moving on, ask: \"1000-kg car at 10 m/s: KE?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "1000-kg car at 10 m/s: KE?",
+       "a": "½ × 1000 × 100 = 50,000 J."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) KE = ½mv². 2) 2-kg ball at 3 m/s → 9 J. 3) 1000-kg car at 10 m/s → 50,000 J. 4) Same car at 20 m/s → 200,000 J (4 times). 5) 4-kg ball at 2 m/s → 8 J. Graph interpretation: mass vs KE is a straight line (proportional); speed vs KE curves upward (nonlinear). Graphs: labeled axes, two data sets, best-fit line or curve."
+  },
+  {
+   "week": 7,
+   "prep": "Rubber bands, a ruler, a tray of flour or sand, a ball, magnets, paper clips, books.",
+   "misconceptions": [
+    "Thinking potential energy only means height. Energy can be stored by stretching (elastic), position in a magnetic or electric field, or chemical bonds.",
+    "Forgetting that PE depends on the system (e.g., ball and Earth together)."
+   ],
+   "days": [
+    {
+     "guide": "Drop a ball from 3 heights into flour; measure crater diameter. Check understanding with: \"What does a bigger crater show?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What does a bigger crater show?",
+       "a": "More energy at impact — from more gravitational PE stored at greater height."
+      }
+     ]
+    },
+    {
+     "guide": "Launch rubber bands stretched 5, 10 and 15 cm (point away from people); measure distance. To check, ask: \"Why does a 15-cm stretch fly farther?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Why does a 15-cm stretch fly farther?",
+       "a": "More stretch stores more elastic PE, which becomes more KE."
+      }
+     ]
+    },
+    {
+     "guide": "Bring a paper clip slowly toward a magnet and measure the jump distance; draw how arrangement changes stored energy. Finish by asking: \"When is magnetic PE greatest between a magnet and paper clip?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "When is magnetic PE greatest between a magnet and paper clip?",
+       "a": "When they are held apart (separated), since the attraction can do work as they come together."
+      }
+     ]
+    },
+    {
+     "guide": "The child draws before/after energy models for a roller coaster, a bow and arrow, and two magnets. Before moving on, ask: \"Describe energy in a bow and arrow.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Describe energy in a bow and arrow.",
+       "a": "Elastic PE in the drawn bow becomes KE of the arrow."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (key). Check understanding with: \"Calculate GPE of a 2-kg book on a 1.5-m shelf.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Calculate GPE of a 2-kg book on a 1.5-m shelf.",
+       "a": "29.4 J."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) GPE = mgh; 2-kg book on a 1.5-m shelf → 2 × 9.8 × 1.5 = 29.4 J. 2) More stretch = more elastic PE. 3) Pulling two attracting magnets apart increases PE; letting them snap together converts it to KE. 4) Roller coaster: most GPE at the top, most KE at the bottom. Model diagrams rubric: before/after pictures with energy bars or labels for each energy type and a statement that total energy is conserved (some becomes thermal)."
+  },
+  {
+   "week": 8,
+   "prep": "Foam pipe insulation cut lengthwise (or paper track), marbles, tape, string, washers. Bookmark PhET 'Energy Skate Park.'",
+   "misconceptions": [
+    "Thinking energy is 'used up' or lost when things slow down. Energy is conserved; it transforms into thermal energy and sound.",
+    "Thinking a ball can rise higher than its starting point without extra energy. Without added energy, it can't exceed its starting height."
+   ],
+   "days": [
+    {
+     "guide": "Run Energy Skate Park with bar graphs on. The child records 3 patterns (KE high at bottom, PE high at top, total constant without friction).",
+     "questions": [
+      {
+       "q": "What happens to the total energy bar when friction is off?",
+       "a": "It stays constant; KE and PE trade off."
+      }
+     ]
+    },
+    {
+     "guide": "Build a washer pendulum; observe swings and why it stops. Finish by asking: \"Why does a pendulum eventually stop?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why does a pendulum eventually stop?",
+       "a": "Air resistance and friction at the pivot transform its mechanical energy into thermal energy (and a little sound)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a foam coaster with a loop; find the minimum start height. Before moving on, ask: \"Why must the marble start higher than the top of the loop?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Why must the marble start higher than the top of the loop?",
+       "a": "It needs extra energy as KE at the top to stay on the track, plus energy lost to friction."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes a CER on where the marble's energy went. Check understanding with: \"Where does energy go as a marble slows on a flat track?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Where does energy go as a marble slows on a flat track?",
+       "a": "Into thermal energy (heating the track and air) and sound through friction."
+      }
+     ]
+    },
+    {
+     "guide": "Review the CER with the rubric; give a short energy transfer quiz. To check, ask: \"Name the energy transformation in a falling ball.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Name the energy transformation in a falling ball.",
+       "a": "Gravitational PE to KE."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Coaster design: marble completes the loop; minimum start height recorded (theory for a frictionless slider is 2.5 times the loop radius above the bottom; real coasters need more because of friction and rolling). CER rubric (4 levels): 4 = claim answers the question; evidence cites specific measured data (numbers with units) from the lab; reasoning links evidence to the science idea; 3 = all parts, reasoning thin; 2 = claim with vague evidence; 1 = claim only. Proficient claim: 'The marble's energy wasn't destroyed; it was transformed into thermal energy and sound by friction, so the total stayed the same.'"
+  },
+  {
+   "week": 9,
+   "prep": "Tennis, rubber (bouncy) and clay (or play-dough) balls; meter stick; phone with slow-motion video. Prepare the Unit 2 test.",
+   "misconceptions": [
+    "Thinking a rebound shows energy was 'lost.' It was transformed into heat, sound and deformation.",
+    "Confusing elastic and inelastic collisions. Elastic: little energy transformed (objects bounce); inelastic: much transformed (objects deform or stick)."
+   ],
+   "days": [
+    {
+     "guide": "Drop each ball from 1 m; measure rebound height; calculate percent energy retained = rebound ÷ drop × 100. Finish by asking: \"A tennis ball rebounds to 55 cm from 100 cm. Percent energy retained?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "A tennis ball rebounds to 55 cm from 100 cm. Percent energy retained?",
+       "a": "About 55% (GPE is proportional to height)."
+      },
+      {
+       "q": "Where did the other 45% go?",
+       "a": "Thermal energy, sound and deformation of the ball and floor."
+      }
+     ]
+    },
+    {
+     "guide": "Film collisions in slow motion; identify where energy goes. Before moving on, ask: \"What does the clay ball's flattening show?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What does the clay ball's flattening show?",
+       "a": "Energy went into permanent deformation — an inelastic collision."
+      }
+     ]
+    },
+    {
+     "guide": "The child creates a concept map connecting force, motion, KE, PE and energy transfer. Check understanding with: \"How are force and energy connected?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "How are force and energy connected?",
+       "a": "A force acting over a distance transfers energy (work)."
+      }
+     ]
+    },
+    {
+     "guide": "Practice with 3 KE graph questions. To check, ask: \"A KE vs speed graph curves upward. Why?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "A KE vs speed graph curves upward. Why?",
+       "a": "KE depends on speed squared."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test. Finish by asking: \"Calculate GPE of a 5-kg object 2 m high.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Calculate GPE of a 5-kg object 2 m high.",
+       "a": "5 × 9.8 × 2 = 98 J."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test sample answers: KE = ½mv² (3-kg at 4 m/s → 24 J); doubling speed quadruples KE; GPE = mgh (5-kg at 2 m → 98 J); energy is conserved, transforming to thermal energy; elastic vs inelastic; data question: steeper KE vs speed curve explained by v²."
+  },
+  {
+   "week": 10,
+   "prep": "Bathroom scale, NASA planet fact sheet, a few balls, a stretchy sheet or fabric, marbles. Bookmark PhET 'Gravity Force Lab.'",
+   "misconceptions": [
+    "Thinking heavier objects fall faster. Without air resistance all objects fall with the same acceleration.",
+    "Confusing mass and weight. Mass (kg) is amount of matter and doesn't change; weight (N) is the gravitational force and depends on location."
+   ],
+   "days": [
+    {
+     "guide": "Drop two objects of different mass (e.g., a book and a closed water bottle) together; they land at the same time. Discuss mass vs weight.",
+     "questions": [
+      {
+       "q": "Why does a feather fall slower than a hammer on Earth but not on the Moon?",
+       "a": "Air resistance slows the feather on Earth; the Moon has no air, so both fall together (shown by Apollo 15)."
+      }
+     ]
+    },
+    {
+     "guide": "Stretch a sheet; place a heavy ball in the middle and roll marbles. Discuss what the model shows and its limits.",
+     "questions": [
+      {
+       "q": "Limit of the sheet model?",
+       "a": "It relies on Earth's gravity pulling down on the sheet and shows 2-D only; it is just an analogy."
+      }
+     ]
+    },
+    {
+     "guide": "Use NASA data to calculate weight on each planet; graph mass vs surface gravity. To check, ask: \"If you weigh 100 lb on Earth, about how much on Mars?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "If you weigh 100 lb on Earth, about how much on Mars?",
+       "a": "About 38 lb (Mars gravity ≈ 0.38 × Earth's)."
+      }
+     ]
+    },
+    {
+     "guide": "Use PhET Gravity Force Lab to change masses and distance; write an argument with evidence. Finish by asking: \"What happens to gravitational force if one mass doubles?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What happens to gravitational force if one mass doubles?",
+       "a": "The force doubles."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (key). Before moving on, ask: \"Does your mass change on the Moon?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Does your mass change on the Moon?",
+       "a": "No — only your weight changes."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Argument rubric: claim that gravitational force depends on the masses (and distance); evidence from planet data (more massive planets generally have stronger surface gravity, e.g., Jupiter 24.8 m/s² vs Earth 9.8 vs Mars 3.7) and the PhET sim (doubling a mass doubles the force); reasoning. Quiz: mass stays the same on the Moon; 100 lb on Earth ≈ 38 lb on Mars and ≈ 17 lb on the Moon; gravity is always attractive; force decreases with distance."
+  },
+  {
+   "week": 11,
+   "prep": "A lamp without a shade, a foam ball on a pencil, a dark room, a moon observation chart. Check tonight's moon phase (e.g., timeanddate.com).",
+   "misconceptions": [
+    "Thinking Earth's shadow causes moon phases. Phases come from how much of the sunlit half we see; Earth's shadow only matters in lunar eclipses.",
+    "Thinking eclipses should happen every month. The Moon's orbit is tilted about 5°, so the Sun, Earth and Moon line up only at certain times."
+   ],
+   "days": [
+    {
+     "guide": "Start the 14-day moon log tonight; research tonight's phase. Check understanding with: \"Where should you record each observation?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Where should you record each observation?",
+       "a": "Date, time, shape sketch, and position in the sky."
+      }
+     ]
+    },
+    {
+     "guide": "In a dark room, hold the ball at arm's length and turn in a circle around the lamp; sketch the lit part at 8 positions. To check, ask: \"When the ball is between you and the lamp, what phase do you see?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "When the ball is between you and the lamp, what phase do you see?",
+       "a": "New moon — the lit side faces away."
+      }
+     ]
+    },
+    {
+     "guide": "Order phase photos; explain why we always see the same side. Finish by asking: \"Why do we always see the same side of the Moon?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why do we always see the same side of the Moon?",
+       "a": "It rotates once for each orbit (about 27 days), so the same face points toward Earth."
+      }
+     ]
+    },
+    {
+     "guide": "Use the lamp model to show solar and lunar eclipses. Before moving on, ask: \"Why don't eclipses happen every month?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Why don't eclipses happen every month?",
+       "a": "The Moon's orbit is tilted about 5° to Earth's orbit, so it usually passes above or below the Sun-Earth line."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; update the moon log. Check understanding with: \"During which phase can a solar eclipse occur?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "During which phase can a solar eclipse occur?",
+       "a": "New moon."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: phases in order: new, waxing crescent, first quarter, waxing gibbous, full, waning gibbous, third (last) quarter, waning crescent; cycle ≈ 29.5 days; solar eclipse: Moon between Sun and Earth at new moon; lunar eclipse: Earth between Sun and Moon at full moon; umbra = darkest part of a shadow. Sketch rubric: 8 phases correctly shaded and labeled."
+  },
+  {
+   "week": 12,
+   "prep": "Flashlight, graph paper, a globe or ball with an axis, a lamp, sunrise/sunset data for your city and a Southern Hemisphere city (timeanddate.com).",
+   "misconceptions": [
+    "Thinking seasons are caused by Earth's distance from the Sun. Earth is closest in early January — during Northern Hemisphere winter.",
+    "Thinking the tilt changes direction. The axis stays pointed toward the North Star as Earth orbits."
+   ],
+   "days": [
+    {
+     "guide": "The child writes what causes seasons, then examines Earth-Sun distance data. To check, ask: \"When is Earth closest to the Sun?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "When is Earth closest to the Sun?",
+       "a": "Early January (about 147 million km)."
+      }
+     ]
+    },
+    {
+     "guide": "Shine the flashlight straight down and at an angle onto graph paper; count lit squares. Finish by asking: \"Why is angled light weaker?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why is angled light weaker?",
+       "a": "The same energy spreads over a larger area."
+      }
+     ]
+    },
+    {
+     "guide": "Graph day length for both cities. Before moving on, ask: \"How do the graphs compare?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "How do the graphs compare?",
+       "a": "They are opposites: when one has long days, the other has short."
+      }
+     ]
+    },
+    {
+     "guide": "Walk the tilted globe around the lamp. Check understanding with: \"At the June solstice, which hemisphere tilts toward the Sun?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "At the June solstice, which hemisphere tilts toward the Sun?",
+       "a": "Northern."
+      }
+     ]
+    },
+    {
+     "guide": "Write the seasons explanation; give the quiz. To check, ask: \"What causes seasons?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What causes seasons?",
+       "a": "Earth's tilted axis."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Seasons explanation rubric: Earth's 23.5° tilt means each hemisphere receives more direct sunlight and longer days in its summer and less direct sunlight and shorter days in winter; references flashlight lab (same light spread over more area at an angle) and day-length data; addresses the distance misconception. Quiz: solstices ~June 21 and ~December 21; equinoxes ~March 20 and ~September 22 (about 12 hours of day everywhere); Southern Hemisphere has opposite seasons."
+  },
+  {
+   "week": 13,
+   "prep": "String, a soft ball or eraser, open outdoor space; PhET 'Gravity and Orbits'; NASA galaxy images (nasa.gov / hubblesite.org).",
+   "misconceptions": [
+    "Thinking there's no gravity in space. Astronauts in orbit are in free fall; gravity there is still about 90% of surface gravity.",
+    "Thinking orbiting objects need a push to keep moving. Inertia keeps them moving; gravity curves the path."
+   ],
+   "days": [
+    {
+     "guide": "Swing the ball on a string in a circle and release it (outdoors, safely). Note it flies off in a straight line.",
+     "questions": [
+      {
+       "q": "What does the string represent?",
+       "a": "Gravity — the inward pull that keeps the object curving."
+      }
+     ]
+    },
+    {
+     "guide": "In the sim, turn gravity off and change masses; record effects. Before moving on, ask: \"What happens when gravity is turned off?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What happens when gravity is turned off?",
+       "a": "The planet moves off in a straight line."
+      }
+     ]
+    },
+    {
+     "guide": "Read about the solar nebula; draw a 4-panel model. Check understanding with: \"How did the Sun form?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "How did the Sun form?",
+       "a": "Gravity pulled the center of a spinning gas cloud together until it was hot enough for fusion."
+      }
+     ]
+    },
+    {
+     "guide": "Explore galaxy images; explain gravity's role. To check, ask: \"About how many stars are in the Milky Way?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "About how many stars are in the Milky Way?",
+       "a": "Roughly 100–400 billion."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Finish by asking: \"Why doesn't the Moon fly away?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why doesn't the Moon fly away?",
+       "a": "Earth's gravity pulls it inward."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Formation model rubric: 4 panels — a rotating cloud of gas and dust (solar nebula); gravity pulls it inward and it spins faster and flattens into a disk; the Sun forms in the hot center; planets form by accretion of particles. Quiz: an orbit results from inertia (forward motion) plus gravity (pull toward center); without gravity an orbiting object moves off in a straight line; the Milky Way is a spiral galaxy with hundreds of billions of stars held by gravity."
+  },
+  {
+   "week": 14,
+   "prep": "Toilet paper roll, marker, calculator, NASA planet fact sheet, hallway or outdoor space. Prepare the Unit 3 test.",
+   "misconceptions": [
+    "Thinking textbook diagrams show true scale. Planets are tiny and far apart; diagrams compress distances.",
+    "Thinking a light-year is time. It's a distance (about 9.5 trillion km)."
+   ],
+   "days": [
+    {
+     "guide": "Compare diameters: Earth 12,756 km, Jupiter 142,984 km, Sun ~1,392,700 km. Before moving on, ask: \"How many Earths fit across Jupiter? Across the Sun?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "How many Earths fit across Jupiter? Across the Sun?",
+       "a": "About 11 across Jupiter and about 109 across the Sun."
+      }
+     ]
+    },
+    {
+     "guide": "Unroll the toilet paper; mark planets at their squares. Check understanding with: \"Where is Earth?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Where is Earth?",
+       "a": "About 15 squares from the Sun."
+      }
+     ]
+    },
+    {
+     "guide": "Explain why one model can't show both size and distance. To check, ask: \"If Earth is a 2-mm peppercorn, how far from the Sun?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "If Earth is a 2-mm peppercorn, how far from the Sun?",
+       "a": "About 23.5 m, with a Sun about 22 cm wide."
+      }
+     ]
+    },
+    {
+     "guide": "Review with a study guide. Finish by asking: \"What is an AU?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What is an AU?",
+       "a": "Earth-Sun average distance, about 150 million km."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test. Before moving on, ask: \"What is a light-year?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What is a light-year?",
+       "a": "The distance light travels in a year, about 9.5 trillion km."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Scale model rubric: planets placed at correct squares (1 square ≈ 10 million km): Mercury ~6, Venus ~11, Earth ~15, Mars ~23, Jupiter ~78, Saturn ~143, Uranus ~287, Neptune ~450 squares. Unit 3 test sample answers: gravity depends on mass and distance; phases from viewing angle of the sunlit half; solar eclipse at new moon, lunar at full; seasons from tilt; orbits from inertia + gravity; 1 AU ≈ 150 million km."
+  },
+  {
+   "week": 15,
+   "prep": "A Slinky or long rope, a ruler, a pan of water, pebbles. Bookmark PhET 'Wave on a String.'",
+   "misconceptions": [
+    "Thinking the material travels with the wave. Waves carry energy; the medium only vibrates in place.",
+    "Thinking higher frequency means faster waves. In the same medium speed is constant; higher frequency means shorter wavelength."
+   ],
+   "days": [
+    {
+     "guide": "Make transverse and longitudinal waves with the Slinky; sketch and label. Check understanding with: \"Which kind of wave is sound?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Which kind of wave is sound?",
+       "a": "Longitudinal."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, change amplitude and frequency; measure wavelength. To check, ask: \"What happens to wavelength as frequency increases?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What happens to wavelength as frequency increases?",
+       "a": "It decreases."
+      }
+     ]
+    },
+    {
+     "guide": "Drop a pebble from different heights; observe wave height. Finish by asking: \"What does greater amplitude mean?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What does greater amplitude mean?",
+       "a": "More energy."
+      }
+     ]
+    },
+    {
+     "guide": "Teach v = fλ; the child solves 8 problems. Before moving on, ask: \"v = 340 m/s, f = 170 Hz. Wavelength?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "v = 340 m/s, f = 170 Hz. Wavelength?",
+       "a": "2 m."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Check understanding with: \"Define wavelength.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Define wavelength.",
+       "a": "Distance from one crest to the next."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: label crest, trough, wavelength (crest to crest), amplitude (rest to crest). v = fλ: 1) f = 5 Hz, λ = 2 m → 10 m/s. 2) v = 340 m/s, f = 170 Hz → λ = 2 m. 3) v = 12 m/s, λ = 3 m → f = 4 Hz. 4) Transverse = vibrations perpendicular to wave direction (rope); longitudinal = parallel (sound, Slinky push)."
+  },
+  {
+   "week": 16,
+   "prep": "Paper cups, string, rubber bands, a tissue box, 4–5 identical glasses, water, a spoon, towels, foam, cardboard; install a free decibel-meter app.",
+   "misconceptions": [
+    "Thinking sound travels best through air. Sound travels faster and often more clearly through solids and liquids, and not at all through a vacuum.",
+    "Confusing pitch with loudness. Pitch depends on frequency; loudness on amplitude."
+   ],
+   "days": [
+    {
+     "guide": "Pluck rubber bands over a tissue box; change tension and length and record pitch. To check, ask: \"How does tightening a rubber band change pitch?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "How does tightening a rubber band change pitch?",
+       "a": "Higher pitch — it vibrates at a higher frequency."
+      }
+     ]
+    },
+    {
+     "guide": "Make a cup-and-string telephone; compare transmission through string, air and a table. Finish by asking: \"Why does the string phone work only when the string is tight?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why does the string phone work only when the string is tight?",
+       "a": "The vibrations travel through the taut string; a slack string doesn't transmit them well."
+      }
+     ]
+    },
+    {
+     "guide": "Tap glasses filled to different levels; explain pitch differences. Before moving on, ask: \"Which glass makes the lowest pitch when tapped?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Which glass makes the lowest pitch when tapped?",
+       "a": "The fullest — more water makes the glass vibrate more slowly (lower frequency)."
+      }
+     ]
+    },
+    {
+     "guide": "Play the same sound through each material and measure decibels with the app. Check understanding with: \"Why keep phone volume and distance the same?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Why keep phone volume and distance the same?",
+       "a": "To control variables so only the material changes."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the absorption write-up. To check, ask: \"Can sound travel through space?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Can sound travel through space?",
+       "a": "No — there's no medium."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Investigation report rubric (4 levels): question; hypothesis; controlled variables (same phone, volume, distance, sound); data table of decibel readings for each material with 3 trials; graph; conclusion (soft, porous materials like towels and foam usually absorb the most sound); sources of error. Quiz: pitch ↔ frequency; loudness ↔ amplitude; sound needs a medium; tighter or shorter band → higher pitch."
+  },
+  {
+   "week": 17,
+   "prep": "Flashlight, mirror, protractor, glass of water, pencil, coin, opaque cup, wax paper, aluminum foil, clear plastic, cardboard. Bookmark PhET 'Bending Light.'",
+   "misconceptions": [
+    "Measuring reflection angles from the mirror's surface. Angles are measured from the normal (a line perpendicular to the surface).",
+    "Thinking refraction happens because light 'bends inside' water. It changes direction at the boundary because its speed changes."
+   ],
+   "days": [
+    {
+     "guide": "Shine the flashlight through each material; classify. Finish by asking: \"Wax paper lets some light through but blurs it. Category?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Wax paper lets some light through but blurs it. Category?",
+       "a": "Translucent."
+      }
+     ]
+    },
+    {
+     "guide": "Test the law of reflection with mirror, flashlight and protractor. Before moving on, ask: \"Light hits a mirror at 40° from the normal. Reflection angle?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Light hits a mirror at 40° from the normal. Reflection angle?",
+       "a": "40°."
+      }
+     ]
+    },
+    {
+     "guide": "Observe a pencil in water and the 'appearing coin' trick; draw ray diagrams. Check understanding with: \"Why does the coin appear when water is added?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Why does the coin appear when water is added?",
+       "a": "Light from the coin refracts at the water's surface and bends toward your eye."
+      }
+     ]
+    },
+    {
+     "guide": "Use Bending Light to change materials and record ray paths. To check, ask: \"When light enters a slower material at an angle, which way does it bend?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "When light enters a slower material at an angle, which way does it bend?",
+       "a": "Toward the normal."
+      }
+     ]
+    },
+    {
+     "guide": "Give the ray-diagram quiz. Finish by asking: \"State the law of reflection.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "State the law of reflection.",
+       "a": "Angle of incidence equals angle of reflection."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Ray diagram quiz: 1) Reflection: draw incident ray, normal, reflected ray; angle of incidence = angle of reflection (e.g., 30° in → 30° out). 2) Refraction from air into water: ray bends toward the normal. 3) From water into air: bends away from the normal. 4) Classify: clear plastic transparent, wax paper translucent, foil and cardboard opaque."
+  },
+  {
+   "week": 18,
+   "prep": "A prism or glass of water, sunny window, white paper, red and blue cellophane, flashlight, colored objects. Prepare the semester exam (Units 1–4).",
+   "misconceptions": [
+    "Thinking objects 'have' color. An object reflects certain wavelengths and absorbs the rest; color depends on the light.",
+    "Mixing up light and paint (pigment) color rules."
+   ],
+   "days": [
+    {
+     "guide": "Make a spectrum with a prism or water glass in sunlight. Before moving on, ask: \"Why does white light separate?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Why does white light separate?",
+       "a": "Different wavelengths refract by different amounts; violet bends most, red least."
+      }
+     ]
+    },
+    {
+     "guide": "View colored objects through red and blue cellophane. Check understanding with: \"A blue object through red cellophane looks how?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "A blue object through red cellophane looks how?",
+       "a": "Dark/black — the red filter blocks the blue light it reflects."
+      }
+     ]
+    },
+    {
+     "guide": "Review forces and energy with a practice test. To check, ask: \"Net force: 15 N right, 5 N left?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Net force: 15 N right, 5 N left?",
+       "a": "10 N right."
+      }
+     ]
+    },
+    {
+     "guide": "Review space and waves with a concept map. Finish by asking: \"What causes a lunar eclipse?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What causes a lunar eclipse?",
+       "a": "Earth blocks sunlight from reaching the Moon."
+      }
+     ]
+    },
+    {
+     "guide": "Give the semester exam. Before moving on, ask: \"What is the order of colors in the spectrum?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What is the order of colors in the spectrum?",
+       "a": "Red, orange, yellow, green, blue, indigo, violet."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester exam sample answers: speed = d/t; net force; F = ma; Newton's three laws; KE = ½mv²; GPE = mgh; energy conservation; gravity and mass; phases, eclipses, seasons; wave parts and v = fλ; reflection and refraction; red object under blue light looks dark. Score by percent; 80% proficient."
+  },
+  {
+   "week": 19,
+   "prep": "Flashlight, paper, pencil, phone. Prepare the Unit 4 test.",
+   "misconceptions": [
+    "Thinking digital is always higher quality. Digital is more reliable to copy and transmit, but quality depends on sampling rate and compression.",
+    "Thinking Wi-Fi and cell signals are sound waves. They are electromagnetic (radio) waves."
+   ],
+   "days": [
+    {
+     "guide": "Agree on a binary code (e.g., short blink = 0, long blink = 1); send a 3-letter message with a flashlight. Check understanding with: \"What number is 101 in binary?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What number is 101 in binary?",
+       "a": "5."
+      },
+      {
+       "q": "What caused errors?",
+       "a": "Noise — mistiming, missed blinks."
+      }
+     ]
+    },
+    {
+     "guide": "Read about records, cassettes and digital audio; make a T-chart. To check, ask: \"Advantage of digital?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Advantage of digital?",
+       "a": "Copies without degradation; easy to store, compress, transmit."
+      }
+     ]
+    },
+    {
+     "guide": "Play telephone with a spoken message vs a numeric code. Finish by asking: \"Why did the code survive better?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why did the code survive better?",
+       "a": "Discrete digits are easier to transmit accurately than continuous speech."
+      }
+     ]
+    },
+    {
+     "guide": "Read about cell phones and Wi-Fi; summarize. Before moving on, ask: \"What carries cell phone signals?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What carries cell phone signals?",
+       "a": "Radio waves (electromagnetic)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test. Check understanding with: \"Analog vs digital?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Analog vs digital?",
+       "a": "Analog is continuous; digital uses discrete values."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 4 test sample answers: label wave parts; v = fλ; sound needs a medium; light reflection/refraction; transparent/translucent/opaque; analog = continuous signal, digital = discrete values (often 0s and 1s); digital signals resist noise because receivers only need to tell 0 from 1; binary 101 = 5; cell phones use radio waves to carry digitized data."
+  },
+  {
+   "week": 20,
+   "prep": "Clear jar with lid, sand, soil, gravel, water; colored play-dough; small objects as 'fossils'; clear straws.",
+   "misconceptions": [
+    "Thinking the top layer is oldest. By superposition, in undisturbed layers the bottom is oldest.",
+    "Thinking a fault or intrusion is older than the layers it cuts. Whatever cuts across layers is younger."
+   ],
+   "days": [
+    {
+     "guide": "Pour sand, soil and gravel into water in stages; let settle. To check, ask: \"Which settles first?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Which settles first?",
+       "a": "Gravel (largest, heaviest particles)."
+      }
+     ]
+    },
+    {
+     "guide": "Build play-dough layers with fossils and a fault; core-sample with a straw. Finish by asking: \"Which layer is oldest?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Which layer is oldest?",
+       "a": "The bottom one (if undisturbed)."
+      }
+     ]
+    },
+    {
+     "guide": "Order events in 4 diagrams with intrusions and faults. Before moving on, ask: \"An igneous intrusion cuts through layers A–C. Older or younger?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "An igneous intrusion cuts through layers A–C. Older or younger?",
+       "a": "Younger than A–C."
+      }
+     ]
+    },
+    {
+     "guide": "Correlate layers from three sites using index fossils. Check understanding with: \"What makes a good index fossil?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What makes a good index fossil?",
+       "a": "Widespread, easily recognized, and lived for a short time."
+      }
+     ]
+    },
+    {
+     "guide": "Give the sequencing quiz. To check, ask: \"State the law of superposition.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "State the law of superposition.",
+       "a": "In undisturbed layers, the oldest is at the bottom."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: sequence two cross sections (accept sequences matching your diagrams); rules applied: superposition (oldest at bottom), cross-cutting relationships (intrusions/faults are younger than layers they cut), index fossils correlate layers of the same age."
+  },
+  {
+   "week": 21,
+   "prep": "5 m of adding-machine tape or toilet paper, meter stick, markers; 100 coins or M&Ms and a container.",
+   "misconceptions": [
+    "Thinking humans and dinosaurs lived together. Non-avian dinosaurs died out about 66 million years ago; humans appeared about 300,000 years ago.",
+    "Thinking half-life means half the time remains. It's the time for half the atoms to decay."
+   ],
+   "days": [
+    {
+     "guide": "Make the 4.6-m timeline; mark events. Finish by asking: \"Where is the dinosaur extinction on a 4.6-m timeline?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Where is the dinosaur extinction on a 4.6-m timeline?",
+       "a": "6.6 cm from the present end."
+      }
+     ]
+    },
+    {
+     "guide": "Research the 5 mass extinctions and add them. Before moving on, ask: \"Which was largest?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Which was largest?",
+       "a": "End-Permian, about 252 million years ago."
+      }
+     ]
+    },
+    {
+     "guide": "Shake coins; remove 'decayed' ones; repeat and graph. Check understanding with: \"After 3 half-lives, what fraction remains?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "After 3 half-lives, what fraction remains?",
+       "a": "1/8."
+      }
+     ]
+    },
+    {
+     "guide": "Write a scientific explanation of how strata build the time scale. To check, ask: \"Relative vs absolute dating?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Relative vs absolute dating?",
+       "a": "Relative orders events; absolute gives an age in years (radiometric)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Finish by asking: \"How old is Earth?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "How old is Earth?",
+       "a": "About 4.6 billion years."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Timeline: 4.6 m at 1 mm = 1 million years; first life ~3.5–3.8 billion years ago (3.5–3.8 m from present end); Cambrian explosion ~541 mya (54 cm); dinosaurs appear ~230 mya (23 cm); non-avian dinosaurs extinct ~66 mya (6.6 cm); Homo sapiens ~0.3 mya (0.3 mm). Five mass extinctions: end-Ordovician (~445 mya), Late Devonian (~372), end-Permian (~252, largest), end-Triassic (~201), end-Cretaceous (~66). Explanation rubric: rock strata order + index fossils give relative ages; radiometric dating gives absolute ages; major changes in fossils mark boundaries between eras and periods."
+  },
+  {
+   "week": 22,
+   "prep": "Clay, a shell, plaster or glue; graph paper; marine family diversity data; whale fossil images (Pakicetus, Ambulocetus, Rodhocetus).",
+   "misconceptions": [
+    "Thinking every organism becomes a fossil. Fossilization is rare; it requires rapid burial and usually hard parts.",
+    "Thinking 'transitional fossil' means a direct ancestor. It shows a mix of traits linking groups."
+   ],
+   "days": [
+    {
+     "guide": "Make a shell impression in clay and a cast. Before moving on, ask: \"What conditions help fossilization?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What conditions help fossilization?",
+       "a": "Rapid burial in sediment, hard parts, low oxygen."
+      }
+     ]
+    },
+    {
+     "guide": "Graph marine families over time. Check understanding with: \"What does a sharp drop indicate?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What does a sharp drop indicate?",
+       "a": "A mass extinction."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the three whale ancestors in order. To check, ask: \"Describe the change from Pakicetus to Rodhocetus.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Describe the change from Pakicetus to Rodhocetus.",
+       "a": "From a four-legged land animal to an amphibious one with shorter limbs, more adapted to water."
+      }
+     ]
+    },
+    {
+     "guide": "Explore a museum virtual collection; record 5 fossils. Finish by asking: \"What is the fossil record?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What is the fossil record?",
+       "a": "All known fossils and their positions in rock layers."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Before moving on, ask: \"Why are soft-bodied fossils rare?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Why are soft-bodied fossils rare?",
+       "a": "Soft tissue decays quickly."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: interpret a fossil data table — e.g., sharp drops in marine families mark mass extinctions; diversity recovers and generally increases afterward; whale sequence shows hind limbs shrinking and adaptation to water over about 50–40 million years ago."
+  },
+  {
+   "week": 23,
+   "prep": "Forelimb diagrams (human, cat, whale, bat), colored pencils, a cooked chicken wing (optional), paper towels.",
+   "misconceptions": [
+    "Confusing homologous and analogous structures. Homologous share ancestry (same bones, different functions); analogous share function but not ancestry (bird wing vs insect wing).",
+    "Thinking vestigial structures have no function. They are reduced compared with ancestors; some still have minor functions."
+   ],
+   "days": [
+    {
+     "guide": "Color-code bones in four forelimbs. Check understanding with: \"What do the four forelimbs share?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What do the four forelimbs share?",
+       "a": "The same bone pattern: one upper bone, two lower bones, wrist and finger bones."
+      }
+     ]
+    },
+    {
+     "guide": "Examine the chicken wing (wash hands after). To check, ask: \"Which human bones match the wing?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Which human bones match the wing?",
+       "a": "Humerus, radius and ulna."
+      }
+     ]
+    },
+    {
+     "guide": "Research 4 vestigial structures. Finish by asking: \"What does a whale's pelvis suggest?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What does a whale's pelvis suggest?",
+       "a": "Whales descended from four-legged land ancestors."
+      }
+     ]
+    },
+    {
+     "guide": "Build a cladogram from a shared-traits table. Before moving on, ask: \"What does a branch point represent?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What does a branch point represent?",
+       "a": "A common ancestor with a new trait."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Check understanding with: \"Homologous or analogous: bat wing and bird wing?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Homologous or analogous: bat wing and bird wing?",
+       "a": "As wings, analogous; as forelimbs, homologous."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Cladogram rubric: shared traits placed at branch points; organisms with more shared derived traits branch closer together. Quiz: human arm, cat leg, whale flipper and bat wing are homologous; bird wing and butterfly wing are analogous; whale pelvis and human tailbone are vestigial."
+  },
+  {
+   "week": 24,
+   "prep": "Print embryo image cards (fish, chicken, pig, human at early and late stages; reputable sources such as university or museum sites). Prepare the Unit 5 practice test and test.",
+   "misconceptions": [
+    "Thinking human embryos 'become fish' first. Early vertebrate embryos share structures (pharyngeal arches, tails) from common ancestry; they develop differently, not through adult fish stages.",
+    "Treating one line of evidence as proof. Scientists combine fossils, anatomy, embryology and DNA."
+   ],
+   "days": [
+    {
+     "guide": "Compare early and late embryo images. To check, ask: \"What do early vertebrate embryos share?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What do early vertebrate embryos share?",
+       "a": "Pharyngeal arches (pouches) and a tail."
+      }
+     ]
+    },
+    {
+     "guide": "Write a paragraph on what the similarities suggest. Finish by asking: \"What do embryo similarities suggest?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What do embryo similarities suggest?",
+       "a": "The organisms share a common ancestor."
+      }
+     ]
+    },
+    {
+     "guide": "Make a graphic organizer of three lines of evidence. Before moving on, ask: \"Name three lines of evidence for evolution.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Name three lines of evidence for evolution.",
+       "a": "Fossil record, anatomical similarities, embryological similarities (also DNA)."
+      }
+     ]
+    },
+    {
+     "guide": "Practice test with corrections. Check understanding with: \"After 2 half-lives, what fraction remains?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "After 2 half-lives, what fraction remains?",
+       "a": "1/4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 5 test. To check, ask: \"What era did dinosaurs live in?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What era did dinosaurs live in?",
+       "a": "Mesozoic."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 5 test sample answers: superposition and cross-cutting relationships; index fossils; geologic time scale with eras (Paleozoic, Mesozoic, Cenozoic); five mass extinctions; half-life (after 2 half-lives, 1/4 remains); whale transitional fossils; homologous vs analogous vs vestigial; embryos of vertebrates share pharyngeal arches and tails early, suggesting common ancestry."
+  },
+  {
+   "week": 25,
+   "prep": "A potato with eyes or an onion, a pothos (or other houseplant) cutting, a glass of water, index cards for the trait model.",
+   "misconceptions": [
+    "Thinking asexual offspring are always identical forever. They are clones of the parent except for rare mutations.",
+    "Thinking sexual reproduction is always 'better.' Each strategy has advantages depending on the environment."
+   ],
+   "days": [
+    {
+     "guide": "Start the pothos cutting and potato eye; predict traits of the offspring. Finish by asking: \"Will the new pothos look like the parent?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Will the new pothos look like the parent?",
+       "a": "Yes — it is a clone (same genes)."
+      }
+     ]
+    },
+    {
+     "guide": "Venn diagram: budding, binary fission, fragmentation vs sexual reproduction. Before moving on, ask: \"Example of binary fission?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Example of binary fission?",
+       "a": "Bacteria splitting in two."
+      }
+     ]
+    },
+    {
+     "guide": "Model gametes by drawing one card per trait from each parent. Check understanding with: \"Why are offspring different?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Why are offspring different?",
+       "a": "Each gets a random mix of genes from two parents."
+      }
+     ]
+    },
+    {
+     "guide": "Write an argument on advantages of each in changing environments. To check, ask: \"Advantage of sexual reproduction?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Advantage of sexual reproduction?",
+       "a": "Variation that can help some offspring survive change."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Finish by asking: \"Define gamete.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Define gamete.",
+       "a": "A sex cell (egg or sperm) with half the chromosomes."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Variation model: offspring receive one card per trait from each parent at random; 5 offspring show different combinations. Quiz: asexual = one parent, offspring genetically identical (budding, binary fission, fragmentation, cuttings); sexual = two parents, gametes combine, offspring vary; variation helps a population survive environmental change; asexual is fast and needs no mate."
+  },
+  {
+   "week": 26,
+   "prep": "Coins (2 per child), paper, colored pencils. A summary of Mendel's pea data (e.g., 705 purple : 224 white flowers in F2).",
+   "misconceptions": [
+    "Thinking dominant means most common. Dominant means it shows when present; some dominant traits are rare.",
+    "Mixing up genotype and phenotype. Genotype = alleles (Bb); phenotype = observable trait (brown)."
+   ],
+   "days": [
+    {
+     "guide": "Read about Mendel; analyze F1 and F2 data. Before moving on, ask: \"Mendel crossed purple × white; F1 all purple; F2 705 purple : 224 white. Ratio?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Mendel crossed purple × white; F1 all purple; F2 705 purple : 224 white. Ratio?",
+       "a": "About 3:1."
+      }
+     ]
+    },
+    {
+     "guide": "Flip two coins 50 times to model offspring. Check understanding with: \"What fraction of flips should be two tails (recessive)?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What fraction of flips should be two tails (recessive)?",
+       "a": "About 1/4."
+      }
+     ]
+    },
+    {
+     "guide": "Complete 10 Punnett squares. To check, ask: \"Cross Bb × bb.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Cross Bb × bb.",
+       "a": "1/2 Bb, 1/2 bb."
+      }
+     ]
+    },
+    {
+     "guide": "Survey family traits; discuss limits. Finish by asking: \"Why might single-gene models not fit?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why might single-gene models not fit?",
+       "a": "Many traits involve several genes and environment."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Before moving on, ask: \"Genotype vs phenotype?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Genotype vs phenotype?",
+       "a": "Genotype: alleles; phenotype: observable trait."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Punnett square quiz: 1) Bb × Bb → 1 BB : 2 Bb : 1 bb; 3 dominant : 1 recessive phenotype. 2) BB × bb → all Bb; all dominant. 3) Bb × bb → 1 Bb : 1 bb; 1:1. 4) Define allele, genotype, phenotype, homozygous, heterozygous. 5) Probability of bb from Bb × Bb = 25%."
+  },
+  {
+   "week": 27,
+   "prep": "Candy or beads (4 colors), toothpicks; strawberries, zip bag, dish soap, salt, cold rubbing alcohol, coffee filter, clear cup; codon chart.",
+   "misconceptions": [
+    "Thinking genes are traits. Genes are DNA instructions for proteins; proteins produce traits.",
+    "Pairing A with C. Bases pair A–T and C–G."
+   ],
+   "days": [
+    {
+     "guide": "Build a DNA ladder with candy bases. Check understanding with: \"Complementary strand of A-T-G-C-C-A?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Complementary strand of A-T-G-C-C-A?",
+       "a": "T-A-C-G-G-T."
+      }
+     ]
+    },
+    {
+     "guide": "Extract strawberry DNA. To check, ask: \"What does the soap do?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What does the soap do?",
+       "a": "Breaks down cell and nuclear membranes."
+      }
+     ]
+    },
+    {
+     "guide": "Translate an mRNA sequence with a codon chart. Finish by asking: \"Translate AUG-GCA-UUU-UAA.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Translate AUG-GCA-UUU-UAA.",
+       "a": "Methionine – Alanine – Phenylalanine – Stop."
+      }
+     ]
+    },
+    {
+     "guide": "Read about proteins and traits; summarize. Before moving on, ask: \"What does hemoglobin do?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "What does hemoglobin do?",
+       "a": "Carries oxygen in red blood cells."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Check understanding with: \"Gene → ? → trait\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Gene → ? → trait",
+       "a": "Protein."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric: procedure, observations (white stringy DNA at the alcohol layer), explanation (soap breaks membranes, salt clumps DNA, DNA is not soluble in alcohol). Quiz: DNA is a double helix of nucleotides; A–T, C–G; complementary strand of ATGC is TACG; a gene codes for a protein; codon AUG = methionine (start); proteins such as melanin-producing enzymes and hemoglobin affect traits."
+  },
+  {
+   "week": 28,
+   "prep": "Codon chart, paper strips.",
+   "misconceptions": [
+    "Thinking all mutations are harmful. Many are neutral; some are helpful in certain environments.",
+    "Thinking a substitution always changes the protein. Some codons code the same amino acid."
+   ],
+   "days": [
+    {
+     "guide": "Change letters in 'THE CAT ATE THE RAT' to model mutations. To check, ask: \"Delete the first 'E' and regroup in threes.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Delete the first 'E' and regroup in threes.",
+       "a": "THC ATA TET HER AT — a frameshift garbles every word after it."
+      }
+     ]
+    },
+    {
+     "guide": "Apply mutations to a DNA sequence and translate. Finish by asking: \"Which mutation type usually has the biggest effect?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Which mutation type usually has the biggest effect?",
+       "a": "Insertion or deletion (frameshift)."
+      }
+     ]
+    },
+    {
+     "guide": "Research sickle cell and lactase persistence. Before moving on, ask: \"Why is the sickle cell allele common in malaria regions?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Why is the sickle cell allele common in malaria regions?",
+       "a": "Carriers resist malaria."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a gene→protein→trait model. Check understanding with: \"Sickle cell model?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Sickle cell model?",
+       "a": "Base substitution → altered hemoglobin → sickle-shaped cells."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. To check, ask: \"Can a mutation be neutral?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Can a mutation be neutral?",
+       "a": "Yes."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: substitution, insertion, deletion; insertions/deletions cause frameshifts; sickle cell from a single base substitution in the hemoglobin gene, carriers have some malaria resistance; lactase persistence lets adults digest milk. Model rubric: gene change → protein change → trait."
+  },
+  {
+   "week": 29,
+   "prep": "Images of teosinte and modern corn, wolves and dog breeds; short readings on insulin-producing bacteria, Golden Rice and CRISPR. Prepare the Unit 6 test.",
+   "misconceptions": [
+    "Confusing artificial selection with genetic engineering. Selective breeding chooses parents; genetic engineering directly changes DNA.",
+    "Thinking GMOs are all the same. Each modification must be evaluated."
+   ],
+   "days": [
+    {
+     "guide": "Compare teosinte to corn and wolves to dogs. Finish by asking: \"Trait humans selected in corn?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Trait humans selected in corn?",
+       "a": "Larger ears with many soft kernels."
+      }
+     ]
+    },
+    {
+     "guide": "Read about insulin and Golden Rice. Before moving on, ask: \"How do bacteria make human insulin?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "How do bacteria make human insulin?",
+       "a": "The human insulin gene is inserted into bacterial DNA (a plasmid); bacteria then produce insulin."
+      }
+     ]
+    },
+    {
+     "guide": "Read about CRISPR; pro/con chart. Check understanding with: \"One pro and one con of editing human embryos?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "One pro and one con of editing human embryos?",
+       "a": "Pro: prevent genetic diseases; con: unknown effects passed to future generations, ethical concerns."
+      }
+     ]
+    },
+    {
+     "guide": "Practice test. To check, ask: \"BB × bb offspring?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "BB × bb offspring?",
+       "a": "All Bb."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test. Finish by asking: \"What does Golden Rice produce?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What does Golden Rice produce?",
+       "a": "Beta-carotene (vitamin A precursor)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 6 test sample answers: asexual vs sexual; Punnett squares; DNA bases; gene→protein→trait; mutation types; artificial selection; insulin gene inserted into bacteria; Golden Rice makes beta-carotene; CRISPR edits DNA at targeted sites."
+  },
+  {
+   "week": 30,
+   "prep": "Tweezers, spoons, clothespins, beads/beans/paper dots of several colors, patterned fabric, timer, cups.",
+   "misconceptions": [
+    "Thinking individuals evolve. Populations change over generations; individuals don't change their genes.",
+    "Thinking organisms 'try' to adapt. Variation exists first; the environment selects."
+   ],
+   "days": [
+    {
+     "guide": "Use tools as beaks to collect foods. Before moving on, ask: \"Which beak works best for small seeds?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Which beak works best for small seeds?",
+       "a": "Tweezers."
+      }
+     ]
+    },
+    {
+     "guide": "Scatter dots on fabric; hunt 30 s. Check understanding with: \"Which colors survive?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Which colors survive?",
+       "a": "Those matching the background."
+      }
+     ]
+    },
+    {
+     "guide": "Survivors reproduce; repeat 3 generations. To check, ask: \"What happens to camouflaged colors?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What happens to camouflaged colors?",
+       "a": "They increase."
+      }
+     ]
+    },
+    {
+     "guide": "Write a CER on population change. Finish by asking: \"What is natural selection?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What is natural selection?",
+       "a": "Individuals with helpful traits survive and reproduce more."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Before moving on, ask: \"Define adaptation.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Define adaptation.",
+       "a": "An inherited trait that improves survival and reproduction."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Simulation data: color frequencies tracked for 3 generations; colors matching the fabric increase. CER rubric (4 levels): 4 = claim answers the question; evidence cites specific measured data (numbers with units) from the lab; reasoning links evidence to the science idea; 3 = all parts, reasoning thin; 2 = claim with vague evidence; 1 = claim only. Claim example: 'The green dots increased from 25% to 60% because they were camouflaged and survived to reproduce.'"
+  },
+  {
+   "week": 31,
+   "prep": "PhET 'Natural Selection' sim, graph paper, calculator; HHMI BioInteractive film 'The Making of the Fittest: Natural Selection and Adaptation' (rock pocket mouse, free online).",
+   "misconceptions": [
+    "Thinking a mutation appears because the environment needs it. Mutations are random; selection acts on them.",
+    "Graphing raw counts when populations change size. Use percentages."
+   ],
+   "days": [
+    {
+     "guide": "Run PhET with brown fur and wolves for 10 generations. Check understanding with: \"In the equator environment with wolves, which fur increases?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "In the equator environment with wolves, which fur increases?",
+       "a": "Brown."
+      }
+     ]
+    },
+    {
+     "guide": "Convert counts to percentages; graph. To check, ask: \"12 brown of 40 total — percent?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "12 brown of 40 total — percent?",
+       "a": "30%."
+      }
+     ]
+    },
+    {
+     "guide": "Watch the rock pocket mouse film. Finish by asking: \"Why are dark mice common on lava?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why are dark mice common on lava?",
+       "a": "Camouflage from owls."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate a 10% survival advantage over 5 generations. Before moving on, ask: \"Start 10%; trait carriers survive 1.1× as well. After 5 generations?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Start 10%; trait carriers survive 1.1× as well. After 5 generations?",
+       "a": "About 15% (10.9%, 11.9%, 12.9%, 14.0%, 15.2%)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the graph quiz. Check understanding with: \"What is selective pressure?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What is selective pressure?",
+       "a": "An environmental factor that affects survival."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Graph analysis quiz: read trait percentages; identify selective pressure; in PhET with wolves, brown fur increases in the brown (equator) environment and white fur in the arctic; rock pocket mice: dark mice increase on dark lava rock because owls see light mice; 10% advantage from 10% → about 15% after 5 generations."
+  },
+  {
+   "week": 32,
+   "prep": "Grant finch beak-depth data (HHMI BioInteractive), peppered moth data, beans or candies.",
+   "misconceptions": [
+    "Thinking antibiotics make bacteria resistant. Resistant bacteria already exist; antibiotics kill the others.",
+    "Thinking finch beaks grew during the drought. Birds with deeper beaks survived."
+   ],
+   "days": [
+    {
+     "guide": "Analyze finch data before/after 1977 drought. To check, ask: \"What happened to average beak depth?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What happened to average beak depth?",
+       "a": "Increased — deeper beaks could crack hard seeds."
+      }
+     ]
+    },
+    {
+     "guide": "Graph peppered moth frequencies. Finish by asking: \"Why did dark moths increase?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Why did dark moths increase?",
+       "a": "Soot darkened trees, so dark moths were camouflaged from birds."
+      }
+     ]
+    },
+    {
+     "guide": "Model antibiotic resistance with beans. Before moving on, ask: \"Why finish antibiotics?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Why finish antibiotics?",
+       "a": "To kill remaining bacteria and avoid selecting for resistant ones."
+      }
+     ]
+    },
+    {
+     "guide": "Write a 4-paragraph case study. Check understanding with: \"Steps of natural selection?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Steps of natural selection?",
+       "a": "Variation, inheritance, selection, time."
+      }
+     ]
+    },
+    {
+     "guide": "Review with rubric. To check, ask: \"What happened to dark moths after clean air laws?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What happened to dark moths after clean air laws?",
+       "a": "They declined."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Case study rubric: describes variation, selective pressure, differential survival/reproduction, inheritance, change over generations, with data."
+  },
+  {
+   "week": 33,
+   "prep": "Notebook; reading on a California species such as the island fox (Channel Islands National Park / NPS site). Prepare a data-based practice test and the Unit 7 test.",
+   "misconceptions": [
+    "Confusing acclimation with adaptation. Acclimation is a change within one individual's lifetime (tanning, thicker blood cells at altitude); adaptations are inherited traits shaped over generations.",
+    "Saying organisms evolve 'because they need to.' Natural selection acts on variation already present."
+   ],
+   "days": [
+    {
+     "guide": "Explain the difference with two examples (a tan vs naturally dark skin in high-UV regions). The child sorts 10 examples and justifies each.",
+     "questions": [
+      {
+       "q": "Is a person's tan an adaptation?",
+       "a": "No — it's acclimation, a change within one lifetime that isn't inherited."
+      },
+      {
+       "q": "Is a polar bear's thick white fur an adaptation?",
+       "a": "Yes — an inherited trait shaped by natural selection."
+      }
+     ]
+    },
+    {
+     "guide": "The child researches a California species (e.g., the island fox, smaller than its mainland gray-fox ancestor) and makes an infographic of 3 adaptations with how each helps survival. Before moving on, ask: \"Why might island foxes be small?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Why might island foxes be small?",
+       "a": "Limited food on small islands favored smaller bodies that need less energy (island dwarfism)."
+      }
+     ]
+    },
+    {
+     "guide": "The child builds a concept map linking fossils, anatomy, embryos, genetics and natural selection, writing a linking phrase on every arrow. Check understanding with: \"How are mutations and natural selection linked?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "How are mutations and natural selection linked?",
+       "a": "Mutations create new variation; natural selection determines which variations become more common."
+      }
+     ]
+    },
+    {
+     "guide": "The child completes the practice test independently, then corrects with the key. To check, ask: \"Define common descent.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Define common descent.",
+       "a": "The idea that different species share common ancestors."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test (key). Finish by asking: \"Can an individual organism evolve?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Can an individual organism evolve?",
+       "a": "No — populations evolve over generations."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test sample answers: 1) Steps of natural selection: variation, inheritance, overproduction/competition, differential survival and reproduction, change in trait frequency over generations. 2) Graph: dark mice rise from 5% to 80% on lava → selection by owl predation. 3) Adaptation vs acclimation: polar bear fur = adaptation; a person's tan = acclimation. 4) Finches: deeper beaks after 1977 drought. 5) Antibiotic resistance: resistant bacteria survive and multiply. 6) Evidence for common descent: fossils, anatomy, embryos, DNA."
+  },
+  {
+   "week": 34,
+   "prep": "Recyclables, tape, cardboard, rubber bands, a kitchen scale. Have the child choose a capstone challenge: helmet padding test, phone-drop protector, soundproof box, or solar oven.",
+   "misconceptions": [
+    "Writing vague criteria ('it works well'). Criteria must be measurable (e.g., 'reduces sound by at least 20 dB').",
+    "Researching only products, not the science. Connect each design idea to forces, energy or waves."
+   ],
+   "days": [
+    {
+     "guide": "Talk through the four options; the child picks one and writes a design brief with the problem, user, criteria and constraints. Before moving on, ask: \"Write a measurable criterion for a solar oven.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Write a measurable criterion for a solar oven.",
+       "a": "Example: 'Raise the inside temperature at least 20 °C above air temperature within 30 minutes.'"
+      }
+     ]
+    },
+    {
+     "guide": "The child researches existing solutions and the science behind them. Check understanding with: \"What science explains a phone-drop protector?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What science explains a phone-drop protector?",
+       "a": "Increasing collision time reduces force (Newton's laws, impulse)."
+      }
+     ]
+    },
+    {
+     "guide": "The child sketches at least 3 labeled solutions. To check, ask: \"Why sketch several ideas?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Why sketch several ideas?",
+       "a": "To compare options before committing materials."
+      }
+     ]
+    },
+    {
+     "guide": "The child scores designs in a decision matrix and chooses one. Finish by asking: \"How do weights help in a matrix?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "How do weights help in a matrix?",
+       "a": "They make the most important criteria count more."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes a materials list and a test plan with measurable outcomes and number of trials. Before moving on, ask: \"How many trials per test?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "How many trials per test?",
+       "a": "At least 3, to average out errors."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Design brief rubric: problem statement, user, measurable criteria (2–4), constraints (materials, size, budget, time), science background. Decision matrix: 3+ designs scored on weighted criteria with totals; choice justified by scores."
+  },
+  {
+   "week": 35,
+   "prep": "Project materials and measuring tools (thermometer, decibel app, scale, ruler).",
+   "misconceptions": [
+    "Changing several variables between versions. Change one main feature so the test shows what caused improvement.",
+    "Deciding by feel instead of data."
+   ],
+   "days": [
+    {
+     "guide": "The child builds prototype version 1 following the plan, noting any changes made during building. Check understanding with: \"Why document changes during the build?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Why document changes during the build?",
+       "a": "So results can be explained and the design reproduced."
+      }
+     ]
+    },
+    {
+     "guide": "Run 3 tests; record data in a table with units. To check, ask: \"Version 1 readings: 18, 22, 20 dB reduction. Average?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Version 1 readings: 18, 22, 20 dB reduction. Average?",
+       "a": "20 dB."
+      }
+     ]
+    },
+    {
+     "guide": "The child analyzes data, identifies the weakest part, and redesigns one feature. Finish by asking: \"What's an example of using data to redesign?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "What's an example of using data to redesign?",
+       "a": "If heat escapes through the lid, add insulation there."
+      }
+     ]
+    },
+    {
+     "guide": "Build and test version 2; compare averages. Before moving on, ask: \"V1 average 20 dB, V2 average 27 dB. Improvement?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "V1 average 20 dB, V2 average 27 dB. Improvement?",
+       "a": "7 dB more reduction."
+      }
+     ]
+    },
+    {
+     "guide": "Cumulative review with study guide. Check understanding with: \"F = ma: 3 kg at 2 m/s²?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "F = ma: 3 kg at 2 m/s²?",
+       "a": "6 N."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Testing data and iteration log rubric: data tables for version 1 and version 2 (3 trials each, averages, units); weakest part identified with evidence; one targeted change; comparison of averages; conclusion about whether criteria were met."
+  },
+  {
+   "week": 36,
+   "prep": "Poster board or slides. Prepare the final exam: part 1 physical and Earth science; part 2 life science.",
+   "misconceptions": [
+    "Presenting only the final design. Show the process, data and iteration."
+   ],
+   "days": [
+    {
+     "guide": "The child creates slides or a poster showing problem, designs, data and the final solution. To check, ask: \"What should a data slide include?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What should a data slide include?",
+       "a": "A labeled graph or table comparing versions."
+      }
+     ]
+    },
+    {
+     "guide": "The child presents and answers questions. Finish by asking: \"How do you answer a question about a failure?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "How do you answer a question about a failure?",
+       "a": "Explain what the data showed and what you'd change."
+      }
+     ]
+    },
+    {
+     "guide": "Final exam part 1. Before moving on, ask: \"v = fλ: f = 10 Hz, λ = 3 m?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "v = fλ: f = 10 Hz, λ = 3 m?",
+       "a": "30 m/s."
+      }
+     ]
+    },
+    {
+     "guide": "Final exam part 2. Check understanding with: \"Bb × Bb: chance of bb?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Bb × Bb: chance of bb?",
+       "a": "25%."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes a reflection on growth and goals for high school Biology. To check, ask: \"What should the reflection include?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What should the reflection include?",
+       "a": "Skills gained, favorite investigation, a goal."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Capstone presentation rubric (4 levels): problem and criteria; science explanation; data from both versions; iteration reasoning; delivery and Q&A. Final exam sample answers: speed, net force, F = ma, Newton's laws, KE/PE, energy conservation, gravity, phases, seasons, waves (v = fλ), light, analog/digital, superposition, geologic time, fossils, homologous structures, Punnett squares, DNA, mutations, natural selection."
+  }
+ ]
+}

@@ -1,0 +1,1789 @@
+{
+  "grade": 1,
+  "subject": "SCI",
+  "title": "Science 1 (NGSS)",
+  "description": "First-grade science follows the California NGSS: students investigate how vibrations make sound and how light lets us see, cast shadows, and pass through materials, then design devices that communicate with light and sound. They track patterns of the sun, moon, stars and daylight, explore how plant and animal parts help them survive (and inspire human inventions), and compare parents and offspring. Every unit includes hands-on investigations with household materials and simple engineering design challenges.",
+  "framework": "California Next Generation Science Standards; 2016 CA Science Framework",
+  "minutes_per_day": 30,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "1-PS4-1": "Plan and conduct investigations to provide evidence that vibrating materials can make sound and that sound can make materials vibrate.",
+    "1-PS4-2": "Make observations to construct an evidence-based account that objects in darkness can be seen only when illuminated.",
+    "1-PS4-3": "Plan and conduct investigations to determine the effect of placing objects made with different materials in the path of a beam of light.",
+    "1-PS4-4": "Use tools and materials to design and build a device that uses light or sound to solve the problem of communicating over a distance.",
+    "1-LS1-1": "Use materials to design a solution to a human problem by mimicking how plants and/or animals use their external parts to help them survive, grow, and meet their needs.",
+    "1-LS1-2": "Read texts and use media to determine patterns in behavior of parents and offspring that help offspring survive.",
+    "1-LS3-1": "Make observations to construct an evidence-based account that young plants and animals are like, but not exactly like, their parents.",
+    "1-ESS1-1": "Use observations of the sun, moon, and stars to describe patterns that can be predicted.",
+    "1-ESS1-2": "Make observations at different times of year to relate the amount of daylight to the time of year.",
+    "K-2-ETS1-1": "Ask questions, make observations, and gather information about a situation people want to change to define a simple problem that can be solved through a new or improved object or tool.",
+    "K-2-ETS1-2": "Develop a simple sketch, drawing, or physical model to illustrate how the shape of an object helps it function as needed to solve a given problem.",
+    "K-2-ETS1-3": "Analyze data from tests of two objects designed to solve the same problem to compare the strengths and weaknesses of how each performs."
+  },
+  "resources": [
+    {
+      "name": "Mystery Science – free lessons",
+      "url": "https://mysteryscience.com/",
+      "note": "Grade 1 units on light & sound, sky, and plant/animal survival (free starter lessons)"
+    },
+    {
+      "name": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/",
+      "note": "Kid-friendly sun, moon, star and seasons activities"
+    },
+    {
+      "name": "PBS LearningMedia – Science",
+      "url": "https://www.pbslearningmedia.org/",
+      "note": "SciGirls, Peep and the Big Wide World and Wild Kratts clips"
+    },
+    {
+      "name": "Smithsonian Learning Lab",
+      "url": "https://learninglab.si.edu/",
+      "note": "Animal and plant image collections for structure and parent-offspring comparisons"
+    },
+    {
+      "name": "Khan Academy Kids",
+      "url": "https://learn.khanacademy.org/khan-academy-kids/",
+      "note": "Free early science books and activities"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Scientists and Engineers at Work",
+      "start_week": 1,
+      "end_week": 3,
+      "big_idea": "Scientists ask questions about the world; engineers solve problems by designing, testing and improving.",
+      "standards": [
+        "K-2-ETS1-1",
+        "K-2-ETS1-2",
+        "K-2-ETS1-3"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Sound and Vibration",
+      "start_week": 4,
+      "end_week": 8,
+      "big_idea": "Sound is made by vibrating objects, and sound can make things vibrate.",
+      "standards": [
+        "1-PS4-1",
+        "1-PS4-4",
+        "K-2-ETS1-3"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Light, Darkness and Shadows",
+      "start_week": 9,
+      "end_week": 13,
+      "big_idea": "We see objects only when light shines on them; materials let all, some, or no light through.",
+      "standards": [
+        "1-PS4-2",
+        "1-PS4-3",
+        "1-PS4-4",
+        "K-2-ETS1-2"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Patterns in the Sky: Sun, Moon and Stars",
+      "start_week": 14,
+      "end_week": 19,
+      "big_idea": "The sun, moon and stars move across the sky in patterns we can predict.",
+      "standards": [
+        "1-ESS1-1"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Daylight and the Seasons",
+      "start_week": 20,
+      "end_week": 22,
+      "big_idea": "The amount of daylight changes in a pattern through the year.",
+      "standards": [
+        "1-ESS1-2",
+        "1-ESS1-1"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Plant and Animal Parts: Nature as Inventor",
+      "start_week": 23,
+      "end_week": 28,
+      "big_idea": "Plants and animals have external parts that help them survive, and people copy those ideas to solve problems.",
+      "standards": [
+        "1-LS1-1",
+        "K-2-ETS1-1",
+        "K-2-ETS1-2",
+        "K-2-ETS1-3"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Animal Parents and Their Young",
+      "start_week": 29,
+      "end_week": 31,
+      "big_idea": "Parents and offspring behave in ways that help the young survive.",
+      "standards": [
+        "1-LS1-2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Like Parent, Like Offspring",
+      "start_week": 32,
+      "end_week": 34,
+      "big_idea": "Young plants and animals are like, but not exactly like, their parents.",
+      "standards": [
+        "1-LS3-1",
+        "1-LS1-2"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Engineering Showcase and Year Review",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "Science ideas help us design solutions to real problems.",
+      "standards": [
+        "1-PS4-4",
+        "1-LS1-1",
+        "K-2-ETS1-1",
+        "K-2-ETS1-3"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "What scientists do: observing and asking questions",
+      "objectives": [
+        "Use senses and tools to observe",
+        "Ask testable questions"
+      ],
+      "standards": [
+        "K-2-ETS1-1"
+      ],
+      "vocabulary": [
+        "observe",
+        "question",
+        "senses",
+        "magnifier"
+      ],
+      "materials": [
+        "magnifying glass",
+        "science notebook",
+        "nature items (leaves, rocks, shells)"
+      ],
+      "days": [
+        {
+          "title": "Five senses walk",
+          "work": "Take a backyard or park walk and record one thing you see, hear, smell and touch in a science notebook."
+        },
+        {
+          "title": "Magnifier lab",
+          "work": "Observe a leaf, rock and shell with a magnifying glass; draw and label details you couldn't see before."
+        },
+        {
+          "title": "Question jar",
+          "work": "Write or dictate 5 'I wonder' questions about nature and sort them into 'can test' and 'look up'."
+        },
+        {
+          "title": "Mystery bag",
+          "work": "Identify 4 hidden objects by touch only and describe the clues you used."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain to a family member how scientists observe and ask questions, using your notebook drawings."
+        }
+      ],
+      "assessment": "Science notebook observation entries with labeled drawings."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "What engineers do: defining problems and designing",
+      "objectives": [
+        "Define a simple problem",
+        "Sketch and build a solution"
+      ],
+      "standards": [
+        "K-2-ETS1-1",
+        "K-2-ETS1-2"
+      ],
+      "vocabulary": [
+        "engineer",
+        "problem",
+        "design",
+        "sketch"
+      ],
+      "materials": [
+        "paper, tape, craft sticks",
+        "toy figurine"
+      ],
+      "days": [
+        {
+          "title": "Problems around us",
+          "work": "Read about engineers (e.g., 'Rosie Revere, Engineer' by Andrea Beaty, library) and list 3 problems at home that a tool could fix."
+        },
+        {
+          "title": "Define the problem",
+          "work": "Problem: a toy needs to cross a 20 cm 'river' between two books; draw the problem."
+        },
+        {
+          "title": "Sketch",
+          "work": "Sketch two bridge designs and label the materials."
+        },
+        {
+          "title": "Build",
+          "work": "Build your favorite design from paper and craft sticks."
+        },
+        {
+          "title": "Review & check",
+          "work": "Test whether the toy can cross; tell what worked and what you would change."
+        }
+      ],
+      "assessment": "Design sketch and oral explanation of the problem and solution."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Test, compare, improve",
+      "objectives": [
+        "Test two designs and compare data",
+        "Improve a design"
+      ],
+      "standards": [
+        "K-2-ETS1-2",
+        "K-2-ETS1-3"
+      ],
+      "vocabulary": [
+        "test",
+        "data",
+        "improve",
+        "fair test"
+      ],
+      "materials": [
+        "paper, tape, pennies",
+        "foil"
+      ],
+      "days": [
+        {
+          "title": "Foil boats",
+          "work": "Shape two 15 cm squares of foil into two different boat designs (flat raft and tall-sided tub) and sketch each."
+        },
+        {
+          "title": "Test",
+          "work": "Add pennies one at a time to each boat until it sinks; record counts in a table."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare data: which shape held more pennies and why?"
+        },
+        {
+          "title": "Improve",
+          "work": "Redesign the weaker boat by changing one feature (wider base or taller sides) and retest it with pennies."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw the engineering cycle (ask, imagine, plan, create, improve) with your boat as the example."
+        }
+      ],
+      "assessment": "Data table and engineering cycle drawing."
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "Vibrations make sound",
+      "objectives": [
+        "Show that vibrating materials make sound"
+      ],
+      "standards": [
+        "1-PS4-1"
+      ],
+      "vocabulary": [
+        "vibrate",
+        "sound",
+        "pitch"
+      ],
+      "materials": [
+        "rubber bands",
+        "empty tissue box",
+        "ruler",
+        "drum (pot and spoon)"
+      ],
+      "days": [
+        {
+          "title": "Feel your voice",
+          "work": "Hum with fingers on your throat; hum loud and soft and describe the vibrations."
+        },
+        {
+          "title": "Ruler twang",
+          "work": "Hang a ruler off a table and twang it at different lengths; record what you see and hear."
+        },
+        {
+          "title": "Rubber band guitar",
+          "work": "Stretch rubber bands over a tissue box; pluck and observe the vibrations."
+        },
+        {
+          "title": "Sound walk",
+          "work": "List 10 sounds around the house and what is vibrating to make each one."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw and label how a sound is made, using the word vibrate."
+        }
+      ],
+      "assessment": "Labeled drawing explaining vibration and sound."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Sound makes things vibrate",
+      "objectives": [
+        "Show that sound can make materials vibrate"
+      ],
+      "standards": [
+        "1-PS4-1"
+      ],
+      "vocabulary": [
+        "energy",
+        "travel",
+        "eardrum"
+      ],
+      "materials": [
+        "plastic wrap, bowl, rice grains",
+        "tuning fork or spoon",
+        "pan"
+      ],
+      "days": [
+        {
+          "title": "Dancing rice",
+          "work": "Stretch plastic wrap over a bowl, sprinkle rice, bang a pan nearby and watch the rice jump."
+        },
+        {
+          "title": "Spoon and water",
+          "work": "Strike a metal spoon and touch it to water; observe ripples."
+        },
+        {
+          "title": "Your ears",
+          "work": "Watch a short PBS clip about how ears hear; model an eardrum with plastic wrap."
+        },
+        {
+          "title": "Plan an investigation",
+          "work": "Plan how to test whether louder sounds make rice jump higher; carry it out."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain your evidence that sound makes materials vibrate."
+        }
+      ],
+      "assessment": "Investigation plan and evidence statement."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Loud and soft, high and low",
+      "objectives": [
+        "Investigate volume and pitch"
+      ],
+      "standards": [
+        "1-PS4-1"
+      ],
+      "vocabulary": [
+        "loud",
+        "soft",
+        "high pitch",
+        "low pitch"
+      ],
+      "materials": [
+        "glass jars and water",
+        "rubber bands of different thickness"
+      ],
+      "days": [
+        {
+          "title": "Water jars",
+          "work": "Tap jars with different water levels; order them from high to low pitch."
+        },
+        {
+          "title": "Band thickness",
+          "work": "Pluck thick and thin rubber bands; record pitch."
+        },
+        {
+          "title": "Loud vs. soft",
+          "work": "Pluck gently and strongly; compare vibration size."
+        },
+        {
+          "title": "Make a song",
+          "work": "Play a short tune on your water-jar xylophone."
+        },
+        {
+          "title": "Review & check",
+          "work": "Pitch and volume sort quiz with picture cards."
+        }
+      ],
+      "assessment": "Pitch/volume sort."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Communicating with sound over distance",
+      "objectives": [
+        "Design a device that uses sound to communicate"
+      ],
+      "standards": [
+        "1-PS4-4",
+        "1-PS4-1"
+      ],
+      "vocabulary": [
+        "communicate",
+        "signal",
+        "distance"
+      ],
+      "materials": [
+        "paper cups, string, yarn, wire",
+        "drum"
+      ],
+      "days": [
+        {
+          "title": "History of sound signals",
+          "work": "Learn how drums, bells and whistles sent messages long ago."
+        },
+        {
+          "title": "Cup phone",
+          "work": "Build a cup-and-string telephone and test talking across a room."
+        },
+        {
+          "title": "Test materials",
+          "work": "Compare string, yarn and wire for the cup phone; record which works best."
+        },
+        {
+          "title": "Signal code",
+          "work": "Create a 3-beat drum code for messages and test it outside."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how the vibrations travel in your cup phone."
+        }
+      ],
+      "assessment": "Cup-phone material comparison data."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Sound unit wrap-up",
+      "objectives": [
+        "Explain the relationship between sound and vibration"
+      ],
+      "standards": [
+        "1-PS4-1",
+        "1-PS4-4",
+        "K-2-ETS1-3"
+      ],
+      "vocabulary": [
+        "review",
+        "vibration"
+      ],
+      "materials": [
+        "instruments made during unit",
+        "science notebook"
+      ],
+      "days": [
+        {
+          "title": "Mystery Science",
+          "work": "Watch a free Mystery Science sound lesson and answer the mystery question."
+        },
+        {
+          "title": "Instrument design",
+          "work": "Design and build a new instrument from household materials."
+        },
+        {
+          "title": "Compare instruments",
+          "work": "Compare your instrument with another; which is louder? higher?"
+        },
+        {
+          "title": "Concert",
+          "work": "Play your instrument and explain what vibrates."
+        },
+        {
+          "title": "Unit 2 check",
+          "work": "Complete a sound assessment: draw what vibrates in 3 instruments and answer short questions about loud/soft and high/low sounds."
+        }
+      ],
+      "assessment": "Unit 2 assessment."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "We see when there is light",
+      "objectives": [
+        "Explain that objects in darkness can only be seen when illuminated"
+      ],
+      "standards": [
+        "1-PS4-2"
+      ],
+      "vocabulary": [
+        "light",
+        "dark",
+        "illuminate",
+        "source"
+      ],
+      "materials": [
+        "shoebox with a peephole and a lid flap",
+        "flashlight",
+        "small toy"
+      ],
+      "days": [
+        {
+          "title": "Light sources",
+          "work": "Sort pictures into light sources (sun, lamp, fire) and non-sources (mirror, moon)."
+        },
+        {
+          "title": "Peep box",
+          "work": "Look into a closed shoebox with a toy inside; then open a flap to let light in and compare."
+        },
+        {
+          "title": "Dark room",
+          "work": "Sit in a dark closet and record what you can and cannot see; add light gradually."
+        },
+        {
+          "title": "Evidence talk",
+          "work": "Explain why we need light to see, using your peep-box observations."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw what you saw in the box with and without light."
+        }
+      ],
+      "assessment": "Peep-box drawings with explanation."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Transparent, translucent, opaque",
+      "objectives": [
+        "Test what happens when materials are placed in a light beam"
+      ],
+      "standards": [
+        "1-PS4-3"
+      ],
+      "vocabulary": [
+        "transparent",
+        "translucent",
+        "opaque"
+      ],
+      "materials": [
+        "flashlight",
+        "plastic wrap, wax paper, cardboard, fabric, foil"
+      ],
+      "days": [
+        {
+          "title": "Predict",
+          "work": "Predict which materials will let light through."
+        },
+        {
+          "title": "Test",
+          "work": "Shine a flashlight through each material onto a wall and record results."
+        },
+        {
+          "title": "Sort",
+          "work": "Sort materials into transparent, translucent, opaque."
+        },
+        {
+          "title": "Home hunt",
+          "work": "Find 3 transparent, 3 translucent and 3 opaque objects at home and test each with the flashlight."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain why window glass is transparent and curtains are opaque."
+        }
+      ],
+      "assessment": "Material test chart."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Shadows",
+      "objectives": [
+        "Explain how shadows form",
+        "Change shadow size and shape"
+      ],
+      "standards": [
+        "1-PS4-3",
+        "1-PS4-2"
+      ],
+      "vocabulary": [
+        "shadow",
+        "block",
+        "beam"
+      ],
+      "materials": [
+        "flashlight",
+        "toys",
+        "chalk"
+      ],
+      "days": [
+        {
+          "title": "Shadow puppets",
+          "work": "Make hand-shadow animals on a wall with a flashlight and explain that your hand blocks the light."
+        },
+        {
+          "title": "Size change",
+          "work": "Move a toy closer and farther from the light; measure shadow size."
+        },
+        {
+          "title": "Outdoor shadows",
+          "work": "Trace your shadow with chalk at 9 a.m. and again at noon."
+        },
+        {
+          "title": "Shadow puppet theater",
+          "work": "Make cardboard shadow puppets on sticks and perform a short shadow show behind a bedsheet lit by a lamp."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain why a shadow forms when an opaque object blocks light."
+        }
+      ],
+      "assessment": "Shadow investigation record."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Mirrors and reflecting light",
+      "objectives": [
+        "Investigate how mirrors redirect light"
+      ],
+      "standards": [
+        "1-PS4-3"
+      ],
+      "vocabulary": [
+        "reflect",
+        "mirror",
+        "beam"
+      ],
+      "materials": [
+        "small mirrors",
+        "flashlight",
+        "foil"
+      ],
+      "days": [
+        {
+          "title": "Mirror bounce",
+          "work": "Bounce a flashlight beam off a mirror to hit a target."
+        },
+        {
+          "title": "Shiny vs. dull",
+          "work": "Compare reflection from foil, mirror and paper."
+        },
+        {
+          "title": "Periscope",
+          "work": "Build a simple periscope from a milk carton and two mirrors."
+        },
+        {
+          "title": "Mirror maze",
+          "work": "Use two mirrors to redirect light around a corner."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw arrows showing light's path in your mirror maze."
+        }
+      ],
+      "assessment": "Light path drawing."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Light signals and communicating",
+      "objectives": [
+        "Design a light device to communicate over distance"
+      ],
+      "standards": [
+        "1-PS4-4",
+        "K-2-ETS1-2",
+        "1-PS4-3"
+      ],
+      "vocabulary": [
+        "signal",
+        "code",
+        "lighthouse"
+      ],
+      "materials": [
+        "flashlight",
+        "colored cellophane",
+        "mirror"
+      ],
+      "days": [
+        {
+          "title": "Lighthouses",
+          "work": "Read about lighthouses and how ships use them."
+        },
+        {
+          "title": "Flashlight code",
+          "work": "Invent a flashlight blink code and send messages."
+        },
+        {
+          "title": "Color filters",
+          "work": "Use colored cellophane for different signals."
+        },
+        {
+          "title": "Test outdoors",
+          "work": "Test your flashlight code at dusk from across the yard; record which messages a partner decoded correctly."
+        },
+        {
+          "title": "Unit 3 check",
+          "work": "Complete a light assessment (sort materials, draw a shadow, explain seeing in the dark) and explain how your signal device works."
+        }
+      ],
+      "assessment": "Unit 3 assessment."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "The sun's path across the sky",
+      "objectives": [
+        "Observe and describe the sun's daily pattern",
+        "Use the pattern to make predictions"
+      ],
+      "standards": [
+        "1-ESS1-1"
+      ],
+      "vocabulary": [
+        "sunrise",
+        "sunset",
+        "pattern",
+        "east",
+        "west"
+      ],
+      "materials": [
+        "compass (or phone compass)",
+        "chalk",
+        "sidewalk or driveway"
+      ],
+      "days": [
+        {
+          "title": "Sun safety and landmarks",
+          "work": "Learn never to look directly at the sun; stand in the same spot and sketch where the sun is above a tree, roof or pole at 9 a.m."
+        },
+        {
+          "title": "Three sky sketches",
+          "work": "Sketch the sun's position from the same spot at morning, noon and late afternoon, labeling east and west with a compass."
+        },
+        {
+          "title": "Chalk shadow tracing",
+          "work": "Stand on an X in the driveway and have someone trace your shadow at 9 a.m., noon and 3 p.m.; compare length and direction."
+        },
+        {
+          "title": "Pattern talk",
+          "work": "Use your sketches and tracings to describe the pattern (rises in the east, highest at midday, sets in the west) in two sentences."
+        },
+        {
+          "title": "Review & check",
+          "work": "Predict and draw where the sun and your shadow will be at noon tomorrow, then check your prediction outside."
+        }
+      ],
+      "assessment": "Prediction drawing checked against a real observation."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Building a shadow-stick sundial",
+      "objectives": [
+        "Use shadows to track the sun's movement",
+        "Predict shadow positions"
+      ],
+      "standards": [
+        "1-ESS1-1"
+      ],
+      "vocabulary": [
+        "sundial",
+        "shadow",
+        "predict"
+      ],
+      "materials": [
+        "paper plate",
+        "pencil and modeling clay",
+        "marker",
+        "clock"
+      ],
+      "days": [
+        {
+          "title": "Build a sundial",
+          "work": "Push a pencil through the center of a paper plate, anchor it with clay in a sunny spot, and point the plate's '12' mark north."
+        },
+        {
+          "title": "Mark the hours",
+          "work": "Every hour from 9 a.m. to 3 p.m., mark the pencil's shadow on the plate and write the clock time beside it."
+        },
+        {
+          "title": "Predict and test",
+          "work": "Before checking, predict where tomorrow's 10 a.m. shadow will fall; place a coin there and see if the shadow lands on it."
+        },
+        {
+          "title": "Sundial vs. clock",
+          "work": "Read the time from your sundial and from a clock at 3 different times; record both in a table."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain to a family member why the shadow moves (the sun's position changes) using your plate as evidence."
+        }
+      ],
+      "assessment": "Sundial with hourly marks and a correct oral explanation."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "The moon's changing shape",
+      "objectives": [
+        "Observe and record the moon's shape over time"
+      ],
+      "standards": [
+        "1-ESS1-1"
+      ],
+      "vocabulary": [
+        "moon",
+        "phase",
+        "full moon",
+        "crescent",
+        "half moon"
+      ],
+      "materials": [
+        "moon journal (stapled calendar page)",
+        "sandwich cookies and a plastic knife",
+        "'The Moon Book' by Gail Gibbons (library)"
+      ],
+      "days": [
+        {
+          "title": "Start a moon journal",
+          "work": "Go outside after dinner and draw the moon's shape and position in a calendar-style journal; continue nightly for four weeks."
+        },
+        {
+          "title": "Read The Moon Book",
+          "work": "Read Gail Gibbons' 'The Moon Book' and list the names of 4 moon shapes (phases)."
+        },
+        {
+          "title": "Cookie phases",
+          "work": "Scrape frosting from sandwich cookies to model new, crescent, half and full moons; label them on a paper plate."
+        },
+        {
+          "title": "Daytime moon",
+          "work": "Look for the moon in the morning or afternoon sky and record the time and shape; discuss why it can be seen in daytime."
+        },
+        {
+          "title": "Review & check",
+          "work": "Put 6 moon-phase picture cards in order and compare them with your journal so far."
+        }
+      ],
+      "assessment": "Moon-phase card order and journal entries."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Moon patterns over a month",
+      "objectives": [
+        "Explain that the moon's shape changes in a repeating pattern",
+        "Predict the next shape"
+      ],
+      "standards": [
+        "1-ESS1-1"
+      ],
+      "vocabulary": [
+        "waxing",
+        "waning",
+        "cycle",
+        "reflect"
+      ],
+      "materials": [
+        "moon journal",
+        "lamp without shade",
+        "ball on a stick (foam ball and pencil)"
+      ],
+      "days": [
+        {
+          "title": "Journal check",
+          "work": "Lay out two weeks of moon drawings and describe how the lit part is growing (waxing) or shrinking (waning)."
+        },
+        {
+          "title": "Lamp-and-ball model",
+          "work": "In a dark room, hold a foam ball at arm's length and turn slowly around a lamp; watch the lit part change like moon phases."
+        },
+        {
+          "title": "NASA Space Place",
+          "work": "Explore a NASA Space Place moon activity and add one new fact about the moon to your journal."
+        },
+        {
+          "title": "Predict",
+          "work": "Using the pattern, draw what you think the moon will look like in 3 nights; check it when the day comes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in 2–3 sentences that the moon's pattern repeats about every month, pointing to your journal as evidence."
+        }
+      ],
+      "assessment": "Prediction accuracy and written pattern explanation."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Stars at night",
+      "objectives": [
+        "Observe that many stars are seen at night but not during the day",
+        "Recognize a constellation"
+      ],
+      "standards": [
+        "1-ESS1-1"
+      ],
+      "vocabulary": [
+        "star",
+        "constellation",
+        "night sky",
+        "Big Dipper"
+      ],
+      "materials": [
+        "flashlight",
+        "black construction paper and a pushpin",
+        "paper cup"
+      ],
+      "days": [
+        {
+          "title": "Stargazing count",
+          "work": "On a clear night, look at the sky for 5 minutes, count visible stars in one window pane's view, and record the time."
+        },
+        {
+          "title": "Why not in daytime?",
+          "work": "Shine a flashlight on the wall in a dark room, then in a bright sunny room; explain how sunlight hides the stars."
+        },
+        {
+          "title": "Constellation viewer",
+          "work": "Poke the Big Dipper pattern into the bottom of a paper cup and shine a flashlight through it onto the ceiling."
+        },
+        {
+          "title": "Find the Big Dipper",
+          "work": "Use your cup map to search for the Big Dipper in the northern sky; draw what you find."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer: 'Are stars still there during the day? How do you know?' using your flashlight evidence."
+        }
+      ],
+      "assessment": "Star count record and evidence-based answer."
+    },
+    {
+      "week": 19,
+      "unit": 4,
+      "topic": "Sky patterns wrap-up",
+      "objectives": [
+        "Use observations to describe predictable patterns of the sun, moon and stars"
+      ],
+      "standards": [
+        "1-ESS1-1"
+      ],
+      "vocabulary": [
+        "predict",
+        "pattern",
+        "observe"
+      ],
+      "materials": [
+        "science notebook",
+        "moon journal",
+        "stapled booklet"
+      ],
+      "days": [
+        {
+          "title": "Data review",
+          "work": "Spread out sun sketches, sundial and moon journal; list three patterns you found."
+        },
+        {
+          "title": "Mystery Science sky lesson",
+          "work": "Watch a free Mystery Science sky/spaceship-Earth lesson and answer its mystery question in a sentence."
+        },
+        {
+          "title": "Sky Patterns book, part 1",
+          "work": "Make pages about the sun's daily path and the moon's monthly shapes, with drawings from your data."
+        },
+        {
+          "title": "Sky Patterns book, part 2",
+          "work": "Add a page about stars at night and a 'What I predict for tonight' page; share the book with family."
+        },
+        {
+          "title": "Unit 4 check",
+          "work": "Complete a sky-pattern assessment: order sun positions, sequence moon phases, and explain why stars aren't seen by day."
+        }
+      ],
+      "assessment": "Unit 4 assessment and Sky Patterns book."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Measuring daylight in winter",
+      "objectives": [
+        "Collect sunrise and sunset times",
+        "Count hours of daylight"
+      ],
+      "standards": [
+        "1-ESS1-2"
+      ],
+      "vocabulary": [
+        "daylight",
+        "sunrise",
+        "sunset",
+        "hour"
+      ],
+      "materials": [
+        "printed sunrise/sunset times (weather service or newspaper)",
+        "paper clock",
+        "grid paper"
+      ],
+      "days": [
+        {
+          "title": "Record times",
+          "work": "Record today's sunrise and sunset times from a weather website and check whether it is dark at dinnertime."
+        },
+        {
+          "title": "Count the hours",
+          "work": "Move the hand on a paper clock from sunrise to sunset hour by hour to count daylight hours."
+        },
+        {
+          "title": "Summer comparison",
+          "work": "Look up sunrise and sunset for June 21 in your city and count those daylight hours."
+        },
+        {
+          "title": "Bar graph",
+          "work": "Make a 2-bar graph comparing winter and summer daylight hours on grid paper."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain which season has more daylight and how your graph shows it."
+        }
+      ],
+      "assessment": "Daylight bar graph with explanation."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Seasons and daylight",
+      "objectives": [
+        "Relate the amount of daylight to the time of year"
+      ],
+      "standards": [
+        "1-ESS1-2"
+      ],
+      "vocabulary": [
+        "spring",
+        "summer",
+        "fall",
+        "winter",
+        "season"
+      ],
+      "materials": [
+        "library book on seasons (e.g., 'Sunshine Makes the Seasons' by Franklyn Branley)",
+        "globe or ball",
+        "lamp"
+      ],
+      "days": [
+        {
+          "title": "Read about seasons",
+          "work": "Read 'Sunshine Makes the Seasons' (Branley) or a similar library book and list one daylight fact per season."
+        },
+        {
+          "title": "Lamp-and-globe model",
+          "work": "Walk a tilted globe around a lamp and notice that your area gets more light in summer and less in winter."
+        },
+        {
+          "title": "Season chart",
+          "work": "Make a 4-box chart showing daylight, weather and clothing for each season using monthly sunrise/sunset data."
+        },
+        {
+          "title": "Plan the day",
+          "work": "Plan when you could play outside after dinner in December vs. June and explain why the plans differ."
+        },
+        {
+          "title": "Review & check",
+          "work": "Match 8 cards (long days, short days, months, activities) to the correct season."
+        }
+      ],
+      "assessment": "Season card match and chart."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Daylight and seasons wrap-up",
+      "objectives": [
+        "Explain the yearly pattern of daylight with evidence"
+      ],
+      "standards": [
+        "1-ESS1-2",
+        "1-ESS1-1"
+      ],
+      "vocabulary": [
+        "year",
+        "pattern",
+        "evidence"
+      ],
+      "materials": [
+        "daylight data",
+        "paper plates",
+        "brad fastener"
+      ],
+      "days": [
+        {
+          "title": "Update data",
+          "work": "Record this week's sunrise/sunset and add it to your daylight graph; notice daylight growing since winter."
+        },
+        {
+          "title": "NASA Space Place seasons",
+          "work": "Complete a NASA Space Place seasons activity and write one sentence about what you learned."
+        },
+        {
+          "title": "Seasons wheel",
+          "work": "Make a paper-plate seasons wheel with a spinner showing daylight length and a picture for each season."
+        },
+        {
+          "title": "Present",
+          "work": "Use the wheel to teach a family member how daylight changes through the year."
+        },
+        {
+          "title": "Unit 5 check",
+          "work": "Daylight assessment: read a daylight graph, name the longest/shortest season, and predict next month's daylight."
+        }
+      ],
+      "assessment": "Unit 5 assessment."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Animal external parts and their jobs",
+      "objectives": [
+        "Identify animal parts and how they help animals survive"
+      ],
+      "standards": [
+        "1-LS1-1"
+      ],
+      "vocabulary": [
+        "structure",
+        "function",
+        "survive",
+        "beak",
+        "claw"
+      ],
+      "materials": [
+        "animal photos (Smithsonian Learning Lab)",
+        "tweezers, clothespin, spoon, chopsticks",
+        "rice, gummy worms, water in a cup, marbles"
+      ],
+      "days": [
+        {
+          "title": "Parts and jobs",
+          "work": "Match photos of claws, beaks, shells, fins and ears to the job each does (grab, eat, protect, swim, hear)."
+        },
+        {
+          "title": "Bird beak lab",
+          "work": "Use tweezers, a clothespin, a spoon and chopsticks as 'beaks' to pick up rice, gummy worms and marbles; record which beak works best for each food."
+        },
+        {
+          "title": "Protection parts",
+          "work": "Compare photos of a turtle shell, porcupine quills and an armadillo; tell how each part protects the animal."
+        },
+        {
+          "title": "Moving parts",
+          "work": "Compare fins, wings, flippers and legs; act out how each animal moves and say what part helps."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw an animal, label 3 external parts and write what each does."
+        }
+      ],
+      "assessment": "Labeled animal drawing with functions."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Plant external parts and their jobs",
+      "objectives": [
+        "Identify plant parts and how they help plants survive"
+      ],
+      "standards": [
+        "1-LS1-1"
+      ],
+      "vocabulary": [
+        "root",
+        "stem",
+        "leaf",
+        "flower",
+        "thorn"
+      ],
+      "materials": [
+        "celery stalk",
+        "food coloring and cups",
+        "garden weed",
+        "rose stem or cactus photo"
+      ],
+      "days": [
+        {
+          "title": "Plant dissection",
+          "work": "Take apart a weed or flower and tape roots, stem, leaves and flower onto paper with labels."
+        },
+        {
+          "title": "Celery lab",
+          "work": "Put a celery stalk in blue-colored water; check after 4 hours and next morning to see how the stem carries water."
+        },
+        {
+          "title": "Root pull",
+          "work": "Pull up a weed and a grass clump; compare roots and explain how roots hold plants and take in water."
+        },
+        {
+          "title": "Plant protection",
+          "work": "Look closely (safely) at rose thorns or cactus spines and discuss how they protect the plant from animals."
+        },
+        {
+          "title": "Review & check",
+          "work": "Plant-parts quiz: label a diagram and match each part to its job."
+        }
+      ],
+      "assessment": "Plant-parts diagram quiz."
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "Biomimicry: people copy nature",
+      "objectives": [
+        "Identify human inventions inspired by plant and animal parts",
+        "Define a problem to solve"
+      ],
+      "standards": [
+        "1-LS1-1",
+        "K-2-ETS1-1"
+      ],
+      "vocabulary": [
+        "biomimicry",
+        "mimic",
+        "invent"
+      ],
+      "materials": [
+        "Velcro strip",
+        "burrs or seed heads (if available)",
+        "magnifier",
+        "invention picture cards"
+      ],
+      "days": [
+        {
+          "title": "Velcro and burrs",
+          "work": "Compare Velcro and a burr under a magnifier; draw the tiny hooks on both."
+        },
+        {
+          "title": "Invention match",
+          "work": "Match inventions (bike helmet, swim fins, sun hat, tweezers) to the animal or plant part they copy (turtle shell, duck feet, leaves, bird beak)."
+        },
+        {
+          "title": "Define a problem",
+          "work": "Choose a human problem: keeping your head safe, staying cool in the sun, or picking up tiny things; draw the problem."
+        },
+        {
+          "title": "Brainstorm",
+          "work": "List animal or plant parts that solve a similar problem in nature for your chosen problem."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain one biomimicry example in two sentences: the nature part and the invention."
+        }
+      ],
+      "assessment": "Biomimicry explanation and problem statement."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Design a nature-inspired solution",
+      "objectives": [
+        "Sketch and build a solution that mimics a plant or animal part"
+      ],
+      "standards": [
+        "1-LS1-1",
+        "K-2-ETS1-2"
+      ],
+      "vocabulary": [
+        "design",
+        "prototype",
+        "shape",
+        "function"
+      ],
+      "materials": [
+        "cardboard, tape, foil, sponges, paper plates",
+        "egg carton"
+      ],
+      "days": [
+        {
+          "title": "Two sketches",
+          "work": "Sketch two designs for your problem inspired by an animal or plant part (e.g., a shell-shaped egg protector)."
+        },
+        {
+          "title": "Choose and plan",
+          "work": "Choose one design and list materials you need; explain why its shape will work."
+        },
+        {
+          "title": "Build",
+          "work": "Build the prototype from household materials."
+        },
+        {
+          "title": "Label",
+          "work": "Label the prototype's parts and write which nature part each copies."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present the prototype to family and use a 4-item design checklist to self-check."
+        }
+      ],
+      "assessment": "Design sketches and labeled prototype."
+    },
+    {
+      "week": 27,
+      "unit": 6,
+      "topic": "Test, compare and improve designs",
+      "objectives": [
+        "Test two designs and compare results",
+        "Improve a design using data"
+      ],
+      "standards": [
+        "1-LS1-1",
+        "K-2-ETS1-3"
+      ],
+      "vocabulary": [
+        "test",
+        "compare",
+        "strength",
+        "weakness"
+      ],
+      "materials": [
+        "prototypes",
+        "raw eggs or water balloons",
+        "ruler and timer"
+      ],
+      "days": [
+        {
+          "title": "Test design A",
+          "work": "Run 3 trials with your first design (e.g., drop the protected egg from 30 cm, 60 cm, 90 cm) and record results."
+        },
+        {
+          "title": "Test design B",
+          "work": "Build a quick version of your second sketch and run the same 3 trials."
+        },
+        {
+          "title": "Compare",
+          "work": "Make a T-chart of strengths and weaknesses for each design using your data."
+        },
+        {
+          "title": "Improve",
+          "work": "Change one thing on the better design and test it again."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write or dictate what you changed, why, and whether the data improved."
+        }
+      ],
+      "assessment": "Test data table and improvement reflection."
+    },
+    {
+      "week": 28,
+      "unit": 6,
+      "topic": "Nature as inventor wrap-up",
+      "objectives": [
+        "Explain how plants and animals use external parts to survive and inspire inventions"
+      ],
+      "standards": [
+        "1-LS1-1",
+        "K-2-ETS1-2"
+      ],
+      "vocabulary": [
+        "survive",
+        "need",
+        "structure"
+      ],
+      "materials": [
+        "science notebook",
+        "camera or drawing paper"
+      ],
+      "days": [
+        {
+          "title": "Mystery Science",
+          "work": "Watch a free Mystery Science animal-parts or plant-parts lesson and answer the mystery question."
+        },
+        {
+          "title": "Backyard field guide",
+          "work": "Find 4 plants or animals outside (birds, insects, weeds) and draw each with one labeled survival part."
+        },
+        {
+          "title": "Guess the animal",
+          "work": "Play 'Guess the animal from its parts' with a family member using clues like 'webbed feet and a flat bill'."
+        },
+        {
+          "title": "Share the guide",
+          "work": "Present your field guide and explain one part that could inspire a new invention."
+        },
+        {
+          "title": "Unit 6 check",
+          "work": "Assessment: match parts to functions and explain one biomimicry design."
+        }
+      ],
+      "assessment": "Unit 6 assessment and field guide."
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "How animal parents care for their young",
+      "objectives": [
+        "Identify parent behaviors that help offspring survive"
+      ],
+      "standards": [
+        "1-LS1-2"
+      ],
+      "vocabulary": [
+        "offspring",
+        "parent",
+        "protect",
+        "feed"
+      ],
+      "materials": [
+        "'Are You My Mother?' by P.D. Eastman (library)",
+        "PBS LearningMedia Wild Kratts or nature clips",
+        "behavior picture cards"
+      ],
+      "days": [
+        {
+          "title": "Read Are You My Mother?",
+          "work": "Read the story and list what the baby bird needs from its mother."
+        },
+        {
+          "title": "Penguin parents",
+          "work": "Watch a PBS clip of emperor penguins and list 3 ways parents keep chicks warm and fed."
+        },
+        {
+          "title": "Feeding young",
+          "work": "Compare how birds (bring worms), mammals (milk) and some fish (guard eggs) care for young on a chart."
+        },
+        {
+          "title": "Protecting young",
+          "work": "Read about kangaroo pouches and crocodiles carrying babies in their mouths; draw one."
+        },
+        {
+          "title": "Review & check",
+          "work": "Sort 12 behavior cards into feed, protect, keep warm, or teach."
+        }
+      ],
+      "assessment": "Parent-behavior card sort."
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "How young animals help themselves survive",
+      "objectives": [
+        "Identify offspring behaviors that signal needs or keep them safe"
+      ],
+      "standards": [
+        "1-LS1-2"
+      ],
+      "vocabulary": [
+        "signal",
+        "cry",
+        "follow",
+        "imitate"
+      ],
+      "materials": [
+        "'Make Way for Ducklings' by Robert McCloskey (library)",
+        "Smithsonian Learning Lab animal images"
+      ],
+      "days": [
+        {
+          "title": "Calling for help",
+          "work": "Listen to recordings (PBS or library) of baby birds chirping and kittens mewing; tell what each baby is asking for."
+        },
+        {
+          "title": "Follow the leader",
+          "work": "Read 'Make Way for Ducklings' and explain why the ducklings stay in a line behind their mother."
+        },
+        {
+          "title": "Learning by copying",
+          "work": "Read about bear cubs and young chimpanzees learning to find food by watching parents."
+        },
+        {
+          "title": "Interview",
+          "work": "Interview a parent about how you signaled your needs as a baby and how they responded; record 3 answers."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain one offspring behavior and how it helps the baby survive, in two sentences."
+        }
+      ],
+      "assessment": "Written offspring-behavior explanation."
+    },
+    {
+      "week": 31,
+      "unit": 7,
+      "topic": "Patterns in parent and offspring behavior",
+      "objectives": [
+        "Find patterns across many kinds of animals"
+      ],
+      "standards": [
+        "1-LS1-2"
+      ],
+      "vocabulary": [
+        "pattern",
+        "survive",
+        "compare"
+      ],
+      "materials": [
+        "chart paper",
+        "library animal books",
+        "stapled mini-book"
+      ],
+      "days": [
+        {
+          "title": "Pattern chart",
+          "work": "Make a chart of 6 animals with columns for 'what parents do' and 'what babies do'."
+        },
+        {
+          "title": "Find patterns",
+          "work": "Circle behaviors that appear for many animals (feeding, protecting, calling) and state one pattern."
+        },
+        {
+          "title": "Mini-book draft",
+          "work": "Write a 4-page mini-book about one animal family (e.g., robins) with a fact on each page."
+        },
+        {
+          "title": "Share",
+          "work": "Read your mini-book aloud and answer two questions from a listener."
+        },
+        {
+          "title": "Unit 7 check",
+          "work": "Assessment: read a short passage about a new animal and identify parent and offspring behaviors."
+        }
+      ],
+      "assessment": "Unit 7 assessment and mini-book."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Young animals are like their parents",
+      "objectives": [
+        "Compare traits of young animals and their parents"
+      ],
+      "standards": [
+        "1-LS3-1"
+      ],
+      "vocabulary": [
+        "trait",
+        "similar",
+        "different",
+        "litter"
+      ],
+      "materials": [
+        "baby/adult animal photo pairs",
+        "Venn diagram paper",
+        "family photos"
+      ],
+      "days": [
+        {
+          "title": "Match the families",
+          "work": "Match 10 baby animal photos to their parents and name one trait that gave it away."
+        },
+        {
+          "title": "Puppy and dog Venn",
+          "work": "Compare a puppy and its parent in a Venn diagram: ears, fur color, size, tail."
+        },
+        {
+          "title": "Not exactly alike",
+          "work": "Look at a photo of a litter of kittens and list differences between the kittens and their mother."
+        },
+        {
+          "title": "Family photos",
+          "work": "Compare photos of yourself, siblings and parents; find 2 shared traits and 2 differences."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write 'Young animals are like their parents because... but not exactly because...' with evidence."
+        }
+      ],
+      "assessment": "Evidence sentence and Venn diagram."
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Young plants are like their parents",
+      "objectives": [
+        "Compare young plants with parent plants",
+        "Measure variation"
+      ],
+      "standards": [
+        "1-LS3-1"
+      ],
+      "vocabulary": [
+        "seedling",
+        "variation",
+        "measure"
+      ],
+      "materials": [
+        "bean or sunflower seedlings",
+        "adult plant of the same kind (or photo)",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Seedling vs. adult",
+          "work": "Compare bean seedlings with an adult bean plant photo; list matching leaf shapes and differences in size."
+        },
+        {
+          "title": "Measure leaves",
+          "work": "Measure the longest leaf on 5 seedlings in centimeters and record the results."
+        },
+        {
+          "title": "Same kind of flower",
+          "work": "Compare 3 flowers from the same plant type (e.g., roses or dandelions); note color and petal differences."
+        },
+        {
+          "title": "Plant journal",
+          "work": "Draw and label two seedlings side by side showing how they are alike and different."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an evidence statement about plants being like, but not exactly like, their parents."
+        }
+      ],
+      "assessment": "Plant variation evidence statement."
+    },
+    {
+      "week": 34,
+      "unit": 8,
+      "topic": "Variation within a kind of animal or plant",
+      "objectives": [
+        "Describe how individuals of the same kind vary"
+      ],
+      "standards": [
+        "1-LS3-1",
+        "1-LS1-2"
+      ],
+      "vocabulary": [
+        "variation",
+        "species",
+        "individual"
+      ],
+      "materials": [
+        "dog breed photos",
+        "leaves from one tree",
+        "grid paper"
+      ],
+      "days": [
+        {
+          "title": "Dog breeds",
+          "work": "Compare photos of a Chihuahua and a Great Dane; list what makes both dogs and what is different."
+        },
+        {
+          "title": "Leaf collection",
+          "work": "Collect 10 leaves from one tree and measure each length with paper clips."
+        },
+        {
+          "title": "Leaf graph",
+          "work": "Graph leaf lengths into short, medium and long groups."
+        },
+        {
+          "title": "Discuss",
+          "work": "Discuss why leaves on one tree and puppies in one litter are not exactly the same."
+        },
+        {
+          "title": "Unit 8 check",
+          "work": "Assessment: compare a parent and offspring picture and explain likenesses and differences."
+        }
+      ],
+      "assessment": "Unit 8 assessment and leaf graph."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Engineering showcase project",
+      "objectives": [
+        "Apply science ideas from the year to design a solution"
+      ],
+      "standards": [
+        "1-PS4-4",
+        "1-LS1-1",
+        "K-2-ETS1-1"
+      ],
+      "vocabulary": [
+        "showcase",
+        "solution",
+        "prototype"
+      ],
+      "materials": [
+        "cups, string, flashlight, cardboard, tape, foil"
+      ],
+      "days": [
+        {
+          "title": "Choose a problem",
+          "work": "Choose a challenge: send a message across the yard using light or sound, or solve a human problem by copying an animal part."
+        },
+        {
+          "title": "Sketch and build",
+          "work": "Sketch two ideas, choose one and build a first prototype."
+        },
+        {
+          "title": "Test",
+          "work": "Test the prototype 3 times and record what happened in a simple data table."
+        },
+        {
+          "title": "Improve",
+          "work": "Change one feature based on your data and test again."
+        },
+        {
+          "title": "Review & check",
+          "work": "Get feedback from a family member using 'one thing that works, one thing to try'."
+        }
+      ],
+      "assessment": "Prototype and test data."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Science fair and year review",
+      "objectives": [
+        "Communicate results and reflect on a year of investigations"
+      ],
+      "standards": [
+        "1-PS4-4",
+        "K-2-ETS1-3",
+        "1-LS1-1"
+      ],
+      "vocabulary": [
+        "present",
+        "evidence",
+        "reflect"
+      ],
+      "materials": [
+        "science notebook",
+        "showcase project",
+        "poster board"
+      ],
+      "days": [
+        {
+          "title": "Notebook review",
+          "work": "Page through your science notebook and flag your 3 favorite investigations."
+        },
+        {
+          "title": "Poster",
+          "work": "Make a poster for your showcase project: problem, design sketch, test data and improvement."
+        },
+        {
+          "title": "Science fair",
+          "work": "Present the project and one favorite investigation to family, answering their questions."
+        },
+        {
+          "title": "Reflect",
+          "work": "Write or dictate 3 sentences about what you learned about sound, light, sky or living things."
+        },
+        {
+          "title": "Year-end check",
+          "work": "Complete a year-end science review of key ideas from each unit."
+        }
+      ],
+      "assessment": "Science fair presentation and year-end review."
+    }
+  ]
+}

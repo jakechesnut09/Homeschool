@@ -1,0 +1,1845 @@
+{
+  "grade": 3,
+  "subject": "MATH",
+  "title": "Math 3",
+  "description": "Third-grade mathematics focused on the four critical areas of the CA framework: multiplication and division within 100, fractions as numbers (especially unit fractions), area, and two-dimensional shapes. Students also round, add and subtract within 1,000, solve two-step word problems, measure time, mass and liquid volume, and represent data with scaled graphs and line plots.",
+  "framework": "California Common Core State Standards for Mathematics; 2023 CA Mathematics Framework",
+  "minutes_per_day": 60,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "3.OA.A.1": "Interpret products of whole numbers as the total number of objects in equal groups (5 x 7 as 5 groups of 7).",
+    "3.OA.A.2": "Interpret whole-number quotients as the number in each share or the number of shares (56 ÷ 8).",
+    "3.OA.A.3": "Use multiplication and division within 100 to solve word problems with equal groups, arrays, and measurement quantities.",
+    "3.OA.A.4": "Determine the unknown whole number in a multiplication or division equation relating three whole numbers.",
+    "3.OA.B.5": "Apply properties of operations (commutative, associative, distributive) as strategies to multiply and divide.",
+    "3.OA.B.6": "Understand division as an unknown-factor problem.",
+    "3.OA.C.7": "Fluently multiply and divide within 100; know from memory all products of two one-digit numbers by the end of grade 3.",
+    "3.OA.D.8": "Solve two-step word problems using the four operations; represent with equations using a letter for the unknown; assess reasonableness with estimation.",
+    "3.OA.D.9": "Identify arithmetic patterns (including in the addition and multiplication tables) and explain them using properties of operations.",
+    "3.NBT.A.1": "Use place value understanding to round whole numbers to the nearest 10 or 100.",
+    "3.NBT.A.2": "Fluently add and subtract within 1000 using strategies and algorithms based on place value and properties of operations.",
+    "3.NBT.A.3": "Multiply one-digit whole numbers by multiples of 10 in the range 10–90.",
+    "3.NF.A.1": "Understand a fraction 1/b as one part when a whole is partitioned into b equal parts; understand a/b as a parts of size 1/b.",
+    "3.NF.A.2": "Understand a fraction as a number on the number line; represent fractions on a number line diagram.",
+    "3.NF.A.3": "Explain equivalence of fractions and compare fractions by reasoning about their size (same numerator or same denominator); express whole numbers as fractions.",
+    "3.MD.A.1": "Tell and write time to the nearest minute and measure time intervals in minutes; solve elapsed-time word problems.",
+    "3.MD.A.2": "Measure and estimate liquid volumes and masses using grams, kilograms, and liters; solve one-step word problems with these units.",
+    "3.MD.B.3": "Draw scaled picture graphs and scaled bar graphs to represent data with several categories; solve one- and two-step 'how many more/less' problems.",
+    "3.MD.B.4": "Generate measurement data with rulers marked in halves and fourths of an inch; show the data on a line plot.",
+    "3.MD.C.5": "Recognize area as an attribute of plane figures and understand concepts of area measurement using unit squares.",
+    "3.MD.C.6": "Measure areas by counting unit squares (square cm, square m, square in, square ft, and improvised units).",
+    "3.MD.C.7": "Relate area to multiplication and addition; use tiling, side-length multiplication, the distributive property, and decomposition of rectilinear figures.",
+    "3.MD.D.8": "Solve real-world and mathematical problems involving perimeters of polygons, including unknown side lengths and rectangles with the same perimeter and different areas (or vice versa).",
+    "3.G.A.1": "Understand that shapes in different categories may share attributes; recognize rhombuses, rectangles, and squares as quadrilaterals.",
+    "3.G.A.2": "Partition shapes into parts with equal areas and express the area of each part as a unit fraction of the whole."
+  },
+  "resources": [
+    {
+      "name": "Khan Academy – 3rd grade math",
+      "url": "https://www.khanacademy.org/math/cc-third-grade-math",
+      "note": "Videos and mastery practice aligned to every grade 3 standard"
+    },
+    {
+      "name": "Illustrative Mathematics K–5 (Kendall Hunt, free)",
+      "url": "https://im.kendallhunt.com/",
+      "note": "Free open curriculum with grade 3 lessons, cool-downs and centers"
+    },
+    {
+      "name": "Zearn Math",
+      "url": "https://www.zearn.org/",
+      "note": "Free digital lessons that follow a grade 3 sequence; good daily practice"
+    },
+    {
+      "name": "Math Learning Center – free math apps",
+      "url": "https://www.mathlearningcenter.org/apps",
+      "note": "Virtual number line, fractions, geoboard and number pieces manipulatives"
+    },
+    {
+      "name": "Math Playground",
+      "url": "https://www.mathplayground.com/",
+      "note": "Free logic and math fact games for fluency practice"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Place Value, Rounding, Add & Subtract within 1000",
+      "start_week": 1,
+      "end_week": 5,
+      "big_idea": "Place value lets us round, estimate, and add or subtract large numbers efficiently.",
+      "standards": [
+        "3.NBT.A.1",
+        "3.NBT.A.2",
+        "3.OA.D.8",
+        "3.OA.D.9"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Meaning of Multiplication and Division",
+      "start_week": 6,
+      "end_week": 10,
+      "big_idea": "Multiplication joins equal groups; division splits a total into equal groups or finds the number of groups.",
+      "standards": [
+        "3.OA.A.1",
+        "3.OA.A.2",
+        "3.OA.A.3",
+        "3.OA.A.4",
+        "3.OA.B.6"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Multiplication Strategies and Fact Fluency",
+      "start_week": 11,
+      "end_week": 14,
+      "big_idea": "Properties of operations let us use facts we know to find facts we don't.",
+      "standards": [
+        "3.OA.B.5",
+        "3.OA.C.7",
+        "3.OA.D.9",
+        "3.NBT.A.3",
+        "3.OA.A.4"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Area",
+      "start_week": 15,
+      "end_week": 17,
+      "big_idea": "Area measures how much flat space a shape covers and connects to multiplication.",
+      "standards": [
+        "3.MD.C.5",
+        "3.MD.C.6",
+        "3.MD.C.7"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Two-Step Problems and Patterns",
+      "start_week": 18,
+      "end_week": 19,
+      "big_idea": "Good problem solvers represent, solve, and check for reasonableness.",
+      "standards": [
+        "3.OA.D.8",
+        "3.OA.D.9",
+        "3.OA.C.7"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Fractions as Numbers",
+      "start_week": 20,
+      "end_week": 25,
+      "big_idea": "Fractions are numbers made of equal-size unit parts and live on the number line.",
+      "standards": [
+        "3.NF.A.1",
+        "3.NF.A.2",
+        "3.NF.A.3",
+        "3.G.A.2"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Time, Liquid Volume and Mass",
+      "start_week": 26,
+      "end_week": 28,
+      "big_idea": "We measure with standard units and use operations to solve measurement problems.",
+      "standards": [
+        "3.MD.A.1",
+        "3.MD.A.2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Data: Scaled Graphs and Line Plots",
+      "start_week": 29,
+      "end_week": 30,
+      "big_idea": "Graphs organize data so we can compare and answer questions.",
+      "standards": [
+        "3.MD.B.3",
+        "3.MD.B.4"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Geometry and Perimeter",
+      "start_week": 31,
+      "end_week": 34,
+      "big_idea": "Shapes are classified by attributes; perimeter is the distance around a shape.",
+      "standards": [
+        "3.G.A.1",
+        "3.G.A.2",
+        "3.MD.D.8",
+        "3.MD.C.7"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Year Review and Fluency Celebration",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "Connecting the year's big ideas shows what we know and can do.",
+      "standards": [
+        "3.OA.C.7",
+        "3.NBT.A.2",
+        "3.NF.A.3",
+        "3.MD.C.7",
+        "3.MD.D.8",
+        "3.OA.D.8"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Place value to 1,000",
+      "objectives": [
+        "Read and write numbers to 1,000 in standard, word and expanded form",
+        "Compare 3-digit numbers"
+      ],
+      "standards": [
+        "3.NBT.A.2"
+      ],
+      "vocabulary": [
+        "digit",
+        "place value",
+        "expanded form",
+        "hundreds"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "place value chart",
+        "dice"
+      ],
+      "days": [
+        {
+          "title": "Build numbers",
+          "work": "Build 3-digit numbers rolled on dice with base-ten blocks and record each in standard, expanded and word form."
+        },
+        {
+          "title": "Number line placement",
+          "work": "Place 10 three-digit numbers on an open number line from 0 to 1,000 and explain which benchmarks helped."
+        },
+        {
+          "title": "Compare and order",
+          "work": "Compare pairs of 3-digit numbers with <, >, = and order a set of 6 numbers from least to greatest."
+        },
+        {
+          "title": "Place value game",
+          "work": "Play 'Greatest Number' with digit cards, then write 5 numbers that are 10 more, 10 less, 100 more and 100 less."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a 12-item place value quiz (forms, comparing, 10/100 more or less) and correct errors with blocks."
+        }
+      ],
+      "assessment": "12-item place value quiz; observation of block models"
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Rounding to the nearest 10 and 100",
+      "objectives": [
+        "Round numbers to the nearest 10 and 100 using a number line",
+        "Use rounding to estimate"
+      ],
+      "standards": [
+        "3.NBT.A.1"
+      ],
+      "vocabulary": [
+        "round",
+        "estimate",
+        "benchmark",
+        "halfway"
+      ],
+      "materials": [
+        "number line strips",
+        "place value chart"
+      ],
+      "days": [
+        {
+          "title": "Nearest ten",
+          "work": "Locate 2-digit and 3-digit numbers between two tens on a vertical number line and round 15 numbers to the nearest 10."
+        },
+        {
+          "title": "Nearest hundred",
+          "work": "Use a 0–1,000 number line to round 15 numbers to the nearest hundred, marking the halfway point each time."
+        },
+        {
+          "title": "Tricky cases",
+          "work": "Round numbers like 450, 995 and 305 and explain in writing why 450 rounds to 500."
+        },
+        {
+          "title": "Rounding in the world",
+          "work": "Round prices from a grocery flyer to the nearest 10 cents and nearest dollar and estimate a shopping total."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a 10-problem rounding check and write a rule for rounding in your own words."
+        }
+      ],
+      "assessment": "10-problem rounding check plus written rounding rule"
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Addition within 1,000",
+      "objectives": [
+        "Add 3-digit numbers using place value strategies and the standard algorithm",
+        "Estimate to check sums"
+      ],
+      "standards": [
+        "3.NBT.A.2",
+        "3.NBT.A.1"
+      ],
+      "vocabulary": [
+        "sum",
+        "regroup",
+        "compose",
+        "estimate"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "place value mat"
+      ],
+      "days": [
+        {
+          "title": "Open number line addition",
+          "work": "Solve 8 sums such as 367 + 248 by jumping hundreds, tens and ones on an open number line."
+        },
+        {
+          "title": "Partial sums",
+          "work": "Add 3-digit numbers by adding hundreds, tens and ones separately, then combining partial sums."
+        },
+        {
+          "title": "Standard algorithm",
+          "work": "Model regrouping with base-ten blocks, then record the standard algorithm for 10 problems."
+        },
+        {
+          "title": "Estimate and check",
+          "work": "Estimate each sum by rounding, solve, and judge if the answer is reasonable for 8 word problems."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a mixed addition quiz using any strategy and explain one solution aloud."
+        }
+      ],
+      "assessment": "Addition quiz and oral explanation of one strategy"
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Subtraction within 1,000",
+      "objectives": [
+        "Subtract 3-digit numbers with and without decomposing",
+        "Relate addition and subtraction"
+      ],
+      "standards": [
+        "3.NBT.A.2",
+        "3.OA.D.9"
+      ],
+      "vocabulary": [
+        "difference",
+        "decompose",
+        "regroup",
+        "inverse"
+      ],
+      "materials": [
+        "base-ten blocks",
+        "open number line"
+      ],
+      "days": [
+        {
+          "title": "Counting up",
+          "work": "Find differences like 603 − 278 by counting up on an open number line."
+        },
+        {
+          "title": "Compensation",
+          "work": "Use friendly-number strategies (e.g., 502 − 199 = 503 − 200) for 10 problems."
+        },
+        {
+          "title": "Standard algorithm",
+          "work": "Model decomposing a hundred with blocks, then subtract with the algorithm, including across zeros."
+        },
+        {
+          "title": "Check with addition",
+          "work": "Solve 8 subtraction problems and check each with the inverse addition; find patterns in an addition table."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a subtraction quiz with word problems and choose the most efficient strategy for each."
+        }
+      ],
+      "assessment": "Subtraction quiz including across-zero problems"
+    },
+    {
+      "week": 5,
+      "unit": 1,
+      "topic": "Add/subtract problem solving",
+      "objectives": [
+        "Solve one- and two-step add/subtract word problems",
+        "Use a letter for the unknown"
+      ],
+      "standards": [
+        "3.OA.D.8",
+        "3.NBT.A.2"
+      ],
+      "vocabulary": [
+        "unknown",
+        "equation",
+        "bar model",
+        "reasonable"
+      ],
+      "materials": [
+        "bar model templates"
+      ],
+      "days": [
+        {
+          "title": "Bar models",
+          "work": "Draw bar models for 6 add/subtract word problems (result, change and start unknown)."
+        },
+        {
+          "title": "Letters for unknowns",
+          "work": "Write equations with a letter for the unknown (e.g., 425 + n = 700) and solve."
+        },
+        {
+          "title": "Two-step problems",
+          "work": "Solve 5 two-step add/subtract problems about a library book drive, estimating first."
+        },
+        {
+          "title": "Write your own",
+          "work": "Write and solve two original word problems using data from a family trip mileage chart."
+        },
+        {
+          "title": "Unit 1 assessment",
+          "work": "Complete the Unit 1 test on rounding and adding/subtracting within 1,000."
+        }
+      ],
+      "assessment": "Unit 1 test"
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Equal groups and multiplication",
+      "objectives": [
+        "Represent multiplication as equal groups",
+        "Write multiplication equations"
+      ],
+      "standards": [
+        "3.OA.A.1"
+      ],
+      "vocabulary": [
+        "factor",
+        "product",
+        "equal groups",
+        "multiply"
+      ],
+      "materials": [
+        "counters",
+        "cups",
+        "paper plates"
+      ],
+      "days": [
+        {
+          "title": "Equal groups",
+          "work": "Make equal groups with counters on plates and write repeated addition and multiplication sentences."
+        },
+        {
+          "title": "Groups in pictures",
+          "work": "Find equal groups in photos (egg cartons, window panes) and write a multiplication equation for each."
+        },
+        {
+          "title": "Skip counting",
+          "work": "Skip count by 2s, 5s and 10s on a hundreds chart and connect skip counts to products."
+        },
+        {
+          "title": "Story problems",
+          "work": "Draw pictures to solve 6 equal-group story problems like '4 bags with 6 apples each.'"
+        },
+        {
+          "title": "Review & check",
+          "work": "Match 10 pictures to equations and write a multiplication story for 3 × 7."
+        }
+      ],
+      "assessment": "Picture-equation matching check"
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Arrays and the commutative property",
+      "objectives": [
+        "Model multiplication with arrays",
+        "Show the commutative property"
+      ],
+      "standards": [
+        "3.OA.A.1",
+        "3.OA.B.5",
+        "3.OA.A.3"
+      ],
+      "vocabulary": [
+        "array",
+        "row",
+        "column",
+        "commutative property"
+      ],
+      "materials": [
+        "grid paper",
+        "tiles",
+        "muffin tin"
+      ],
+      "days": [
+        {
+          "title": "Build arrays",
+          "work": "Build arrays with tiles for 10 facts and label rows × columns."
+        },
+        {
+          "title": "Turn it around",
+          "work": "Rotate arrays to show 3 × 6 = 6 × 3 and record turnaround facts."
+        },
+        {
+          "title": "Arrays around us",
+          "work": "Hunt for arrays at home (muffin tin, egg carton) and write two equations for each."
+        },
+        {
+          "title": "Array problems",
+          "work": "Solve array word problems (chairs in rows, garden beds) using grid paper drawings."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete an arrays quiz and explain the commutative property using a drawing."
+        }
+      ],
+      "assessment": "Arrays quiz with written explanation"
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Meaning of division",
+      "objectives": [
+        "Understand division as sharing and as grouping",
+        "Write division equations"
+      ],
+      "standards": [
+        "3.OA.A.2",
+        "3.OA.A.3"
+      ],
+      "vocabulary": [
+        "divide",
+        "quotient",
+        "dividend",
+        "divisor",
+        "share"
+      ],
+      "materials": [
+        "counters",
+        "cups"
+      ],
+      "days": [
+        {
+          "title": "Fair sharing",
+          "work": "Share 24 counters equally among 3, 4, 6 and 8 cups and write division equations for each."
+        },
+        {
+          "title": "How many groups",
+          "work": "Make groups of a given size (e.g., 20 grapes in bags of 5) and record the number of groups."
+        },
+        {
+          "title": "Division on a number line",
+          "work": "Show division as repeated subtraction by jumping backward on a number line."
+        },
+        {
+          "title": "Story problems",
+          "work": "Solve 6 sharing and grouping word problems and label which kind each is."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a division meaning quiz and write one sharing and one grouping problem."
+        }
+      ],
+      "assessment": "Division meaning quiz"
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "Multiplication and division as related operations",
+      "objectives": [
+        "Relate multiplication and division with fact families",
+        "Find unknown numbers in equations"
+      ],
+      "standards": [
+        "3.OA.B.6",
+        "3.OA.A.4"
+      ],
+      "vocabulary": [
+        "fact family",
+        "inverse",
+        "unknown factor"
+      ],
+      "materials": [
+        "triangle fact cards"
+      ],
+      "days": [
+        {
+          "title": "Fact families",
+          "work": "Use triangle cards to write 4 related equations for 8 fact families."
+        },
+        {
+          "title": "Unknown factor",
+          "work": "Solve 15 missing-factor equations such as 6 × ? = 42 and ? ÷ 4 = 7."
+        },
+        {
+          "title": "Arrays to division",
+          "work": "Use an array to show that 35 ÷ 5 means 5 × ? = 35."
+        },
+        {
+          "title": "Fact family puzzles",
+          "work": "Complete multiplication-division puzzle grids and explain how one fact helps solve another."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a quiz of 20 unknown-number equations within 100."
+        }
+      ],
+      "assessment": "Unknown-number equations quiz"
+    },
+    {
+      "week": 10,
+      "unit": 2,
+      "topic": "Multiplication and division word problems",
+      "objectives": [
+        "Solve equal groups, array and measurement word problems",
+        "Represent with drawings and equations"
+      ],
+      "standards": [
+        "3.OA.A.3",
+        "3.OA.A.4"
+      ],
+      "vocabulary": [
+        "measurement",
+        "equation",
+        "tape diagram"
+      ],
+      "materials": [
+        "tape diagram templates",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Tape diagrams",
+          "work": "Draw tape diagrams for 6 multiplication and division word problems."
+        },
+        {
+          "title": "Measurement problems",
+          "work": "Solve problems like 'A rope 32 feet long is cut into 4 equal pieces' using drawings."
+        },
+        {
+          "title": "Which operation?",
+          "work": "Sort 10 word problems by operation and justify each choice to a parent."
+        },
+        {
+          "title": "Problem writing",
+          "work": "Write a multiplication and a division story about a bake sale and solve them."
+        },
+        {
+          "title": "Unit 2 assessment",
+          "work": "Complete the Unit 2 test on the meaning of multiplication and division."
+        }
+      ],
+      "assessment": "Unit 2 test"
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Facts of 2, 5, 10, 0 and 1",
+      "objectives": [
+        "Use patterns to multiply by 2, 5, 10, 0 and 1",
+        "Explain zero and identity properties"
+      ],
+      "standards": [
+        "3.OA.C.7",
+        "3.OA.D.9"
+      ],
+      "vocabulary": [
+        "identity property",
+        "zero property",
+        "even",
+        "odd"
+      ],
+      "materials": [
+        "hundreds chart",
+        "fact cards"
+      ],
+      "days": [
+        {
+          "title": "Twos and tens",
+          "work": "Find doubles and tens patterns on a hundreds chart and practice 2s and 10s facts."
+        },
+        {
+          "title": "Fives",
+          "work": "Use clock faces and nickels to practice 5s facts and notice the 0/5 ending pattern."
+        },
+        {
+          "title": "Zero and one",
+          "work": "Explore 0 and 1 rules with counters and write why 8 × 0 = 0 in a sentence."
+        },
+        {
+          "title": "Pattern explain",
+          "work": "Explain why 5s products are half of 10s products using arrays."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a timed-free fact check on 2, 5, 10, 0 and 1 and record facts to practice."
+        }
+      ],
+      "assessment": "Fact check of 2s, 5s, 10s, 0s, 1s"
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Facts of 3, 4, 6 and the distributive property",
+      "objectives": [
+        "Use doubling and the distributive property to find 3s, 4s, 6s",
+        "Break apart arrays"
+      ],
+      "standards": [
+        "3.OA.B.5",
+        "3.OA.C.7"
+      ],
+      "vocabulary": [
+        "distributive property",
+        "break apart",
+        "double"
+      ],
+      "materials": [
+        "grid paper",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "Threes",
+          "work": "Use 2s facts plus one more group to solve 3s facts with arrays."
+        },
+        {
+          "title": "Fours as doubles",
+          "work": "Double 2s facts to find 4s facts and record in a table."
+        },
+        {
+          "title": "Break apart arrays",
+          "work": "Split arrays such as 6 × 7 into 5 × 7 + 1 × 7 and color each part."
+        },
+        {
+          "title": "Sixes",
+          "work": "Use 5s plus one group and 3s doubled to learn 6s facts; play a fact war card game."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve a mixed 3s/4s/6s quiz and explain one fact using the distributive property."
+        }
+      ],
+      "assessment": "Mixed facts quiz with distributive explanation"
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Facts of 7, 8, 9 and the associative property",
+      "objectives": [
+        "Use known facts and the associative property to solve 7s, 8s, 9s",
+        "Find patterns in the multiplication table"
+      ],
+      "standards": [
+        "3.OA.B.5",
+        "3.OA.C.7",
+        "3.OA.D.9"
+      ],
+      "vocabulary": [
+        "associative property",
+        "multiplication table",
+        "pattern"
+      ],
+      "materials": [
+        "multiplication chart",
+        "fact cards"
+      ],
+      "days": [
+        {
+          "title": "Nines patterns",
+          "work": "Find the tens-ones pattern in 9s and practice with the finger trick and 10s minus a group."
+        },
+        {
+          "title": "Eights",
+          "work": "Double 4s facts to find 8s; solve 2 × 4 × 3 two ways to show the associative property."
+        },
+        {
+          "title": "Sevens",
+          "work": "Use 5s + 2s to find 7s facts and practice with a fact board game."
+        },
+        {
+          "title": "Table patterns",
+          "work": "Shade patterns in a multiplication table (diagonal squares, even products) and explain them."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a 40-fact mixed check and set a fluency goal."
+        }
+      ],
+      "assessment": "40-fact mixed fluency check"
+    },
+    {
+      "week": 14,
+      "unit": 3,
+      "topic": "Multiplying by multiples of 10 and fluency",
+      "objectives": [
+        "Multiply one-digit numbers by multiples of 10",
+        "Fluently multiply and divide within 100"
+      ],
+      "standards": [
+        "3.NBT.A.3",
+        "3.OA.C.7",
+        "3.OA.A.4"
+      ],
+      "vocabulary": [
+        "multiple of 10",
+        "place value",
+        "fluency"
+      ],
+      "materials": [
+        "base-ten rods",
+        "fact cards"
+      ],
+      "days": [
+        {
+          "title": "Tens rods",
+          "work": "Model 4 × 30 with tens rods and record as 4 × 3 tens = 12 tens = 120."
+        },
+        {
+          "title": "Pattern practice",
+          "work": "Solve sets like 6 × 7, 6 × 70 and explain the place-value pattern."
+        },
+        {
+          "title": "Word problems",
+          "work": "Solve 6 problems such as '8 boxes of 40 crayons' and check with skip counting by tens."
+        },
+        {
+          "title": "Division fluency",
+          "work": "Practice division facts with fact family cards and a Math Playground fact game."
+        },
+        {
+          "title": "Unit 3 assessment",
+          "work": "Complete the Unit 3 test on strategies, properties and multiples of 10, plus a fluency check."
+        }
+      ],
+      "assessment": "Unit 3 test and fluency check"
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Understanding area",
+      "objectives": [
+        "Define area as covering a flat surface",
+        "Measure area with unit squares"
+      ],
+      "standards": [
+        "3.MD.C.5",
+        "3.MD.C.6"
+      ],
+      "vocabulary": [
+        "area",
+        "square unit",
+        "tile",
+        "gap",
+        "overlap"
+      ],
+      "materials": [
+        "square tiles",
+        "sticky notes",
+        "grid paper"
+      ],
+      "days": [
+        {
+          "title": "Cover it",
+          "work": "Cover book covers and placemats with sticky notes and count to find area in improvised units."
+        },
+        {
+          "title": "Square units",
+          "work": "Measure shapes on grid paper by counting square centimeters and square inches."
+        },
+        {
+          "title": "Compare areas",
+          "work": "Build three different shapes with 12 tiles each and explain why they have the same area."
+        },
+        {
+          "title": "Square feet",
+          "work": "Make a square-foot paper template and estimate then measure the area of a rug."
+        },
+        {
+          "title": "Review & check",
+          "work": "Find the areas of 10 shapes on grid paper and explain why units must not overlap."
+        }
+      ],
+      "assessment": "Area by counting square units check"
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Area and multiplication",
+      "objectives": [
+        "Relate tiling to multiplying side lengths",
+        "Find area of rectangles with formulas and arrays"
+      ],
+      "standards": [
+        "3.MD.C.7"
+      ],
+      "vocabulary": [
+        "length",
+        "width",
+        "side length",
+        "rows"
+      ],
+      "materials": [
+        "tiles",
+        "ruler",
+        "grid paper"
+      ],
+      "days": [
+        {
+          "title": "Tile and count",
+          "work": "Tile rectangles and show that rows × columns gives the same total as counting."
+        },
+        {
+          "title": "Multiply sides",
+          "work": "Measure side lengths of rectangles drawn on grid paper and multiply to find area."
+        },
+        {
+          "title": "Unknown side",
+          "work": "Solve problems like 'A rug has area 24 sq ft and width 4 ft; how long is it?'"
+        },
+        {
+          "title": "Distributive area",
+          "work": "Split a 7 × 8 rectangle into 7 × 5 and 7 × 3 and add the areas."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete 8 area problems using multiplication and the distributive property."
+        }
+      ],
+      "assessment": "Area problems worksheet"
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Area of composite figures",
+      "objectives": [
+        "Find areas of rectilinear figures by decomposing",
+        "Solve real-world area problems"
+      ],
+      "standards": [
+        "3.MD.C.7"
+      ],
+      "vocabulary": [
+        "rectilinear",
+        "decompose",
+        "composite figure"
+      ],
+      "materials": [
+        "grid paper",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "Decompose shapes",
+          "work": "Split L-shaped figures into rectangles and add their areas."
+        },
+        {
+          "title": "Two ways",
+          "work": "Find the area of the same figure two different ways and compare."
+        },
+        {
+          "title": "Room design",
+          "work": "Design a dream bedroom floor plan on grid paper and calculate each area."
+        },
+        {
+          "title": "Garden problems",
+          "work": "Solve area word problems about garden plots and patios."
+        },
+        {
+          "title": "Unit 4 assessment",
+          "work": "Complete the Unit 4 test on area concepts and composite figures."
+        }
+      ],
+      "assessment": "Unit 4 test"
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Two-step word problems with four operations",
+      "objectives": [
+        "Solve two-step problems with all four operations",
+        "Represent with equations using letters"
+      ],
+      "standards": [
+        "3.OA.D.8"
+      ],
+      "vocabulary": [
+        "two-step",
+        "equation",
+        "variable",
+        "estimate"
+      ],
+      "materials": [
+        "bar model templates"
+      ],
+      "days": [
+        {
+          "title": "Plan the steps",
+          "work": "Underline the question and plan both steps for 5 two-step problems before solving."
+        },
+        {
+          "title": "Equations with letters",
+          "work": "Write a single equation with a letter for the unknown for each two-step problem."
+        },
+        {
+          "title": "Estimate first",
+          "work": "Estimate answers with rounding and mental math before solving; check reasonableness."
+        },
+        {
+          "title": "Party planning",
+          "work": "Solve a multi-step party budget problem (packs of plates, cost, change)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a two-step problem quiz and explain one solution with a bar model."
+        }
+      ],
+      "assessment": "Two-step problem quiz"
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Arithmetic patterns",
+      "objectives": [
+        "Identify and explain patterns in tables",
+        "Use properties to justify patterns"
+      ],
+      "standards": [
+        "3.OA.D.9",
+        "3.OA.C.7"
+      ],
+      "vocabulary": [
+        "pattern",
+        "even",
+        "odd",
+        "rule"
+      ],
+      "materials": [
+        "addition and multiplication tables"
+      ],
+      "days": [
+        {
+          "title": "Even and odd",
+          "work": "Investigate whether sums and products of evens and odds are even or odd."
+        },
+        {
+          "title": "Table patterns",
+          "work": "Find and color patterns in the addition table and write rules."
+        },
+        {
+          "title": "Input/output",
+          "work": "Complete input-output tables and name the rule."
+        },
+        {
+          "title": "Explain it",
+          "work": "Write an explanation of why 4 times any number is always even."
+        },
+        {
+          "title": "Unit 5 assessment",
+          "work": "Complete a short test on two-step problems and patterns plus a mixed fact check."
+        }
+      ],
+      "assessment": "Unit 5 test"
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "Unit fractions and partitioning",
+      "objectives": [
+        "Partition shapes into equal parts",
+        "Name unit fractions"
+      ],
+      "standards": [
+        "3.NF.A.1",
+        "3.G.A.2"
+      ],
+      "vocabulary": [
+        "fraction",
+        "unit fraction",
+        "numerator",
+        "denominator",
+        "equal parts"
+      ],
+      "materials": [
+        "paper strips",
+        "paper shapes",
+        "scissors"
+      ],
+      "days": [
+        {
+          "title": "Equal parts",
+          "work": "Fold paper rectangles and circles into halves, thirds, fourths, sixths and eighths."
+        },
+        {
+          "title": "Unit fractions",
+          "work": "Label each part as a unit fraction and explain why parts must be equal."
+        },
+        {
+          "title": "Same area, different shape",
+          "work": "Partition squares into fourths in 3 different ways and prove each part has equal area."
+        },
+        {
+          "title": "Fraction strips",
+          "work": "Make a set of fraction strips (1, 1/2, 1/3, 1/4, 1/6, 1/8) to use throughout the unit."
+        },
+        {
+          "title": "Review & check",
+          "work": "Identify and draw unit fractions for 10 shapes."
+        }
+      ],
+      "assessment": "Unit fraction identification check"
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Non-unit fractions",
+      "objectives": [
+        "Understand a/b as a parts of size 1/b",
+        "Represent fractions with models"
+      ],
+      "standards": [
+        "3.NF.A.1"
+      ],
+      "vocabulary": [
+        "non-unit fraction",
+        "whole",
+        "part"
+      ],
+      "materials": [
+        "fraction strips",
+        "pattern blocks"
+      ],
+      "days": [
+        {
+          "title": "Building fractions",
+          "work": "Build 3/4, 5/6 and 2/3 by joining unit fraction strips."
+        },
+        {
+          "title": "Pattern blocks",
+          "work": "Use pattern blocks with the hexagon as one whole to show halves, thirds and sixths."
+        },
+        {
+          "title": "Fractions of a set",
+          "work": "Explore fractions of a group of 8 counters, e.g., 3/8 are red."
+        },
+        {
+          "title": "Pizza problems",
+          "work": "Solve fraction stories like 'Ana ate 3 of 8 equal slices; what fraction did she eat?'"
+        },
+        {
+          "title": "Review & check",
+          "work": "Write fractions for 12 shaded models and draw models for 4 fractions."
+        }
+      ],
+      "assessment": "Fraction models check"
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Fractions on the number line",
+      "objectives": [
+        "Place fractions on a number line",
+        "Represent fractions greater than 1"
+      ],
+      "standards": [
+        "3.NF.A.2"
+      ],
+      "vocabulary": [
+        "number line",
+        "interval",
+        "endpoint"
+      ],
+      "materials": [
+        "number line strips",
+        "ruler"
+      ],
+      "days": [
+        {
+          "title": "Partition 0 to 1",
+          "work": "Divide number lines from 0 to 1 into equal intervals and label unit fractions."
+        },
+        {
+          "title": "Locate a/b",
+          "work": "Mark 3/4, 5/8 and 2/3 on number lines by counting unit lengths."
+        },
+        {
+          "title": "Beyond one",
+          "work": "Extend number lines to 2 and label fractions like 5/4 and 6/3."
+        },
+        {
+          "title": "Ruler fractions",
+          "work": "Find halves and fourths of an inch on a ruler and connect to the number line."
+        },
+        {
+          "title": "Review & check",
+          "work": "Place 10 fractions on number lines and explain how you located each."
+        }
+      ],
+      "assessment": "Number line placement check"
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Equivalent fractions",
+      "objectives": [
+        "Recognize and generate equivalent fractions with models",
+        "Express whole numbers as fractions"
+      ],
+      "standards": [
+        "3.NF.A.3"
+      ],
+      "vocabulary": [
+        "equivalent",
+        "whole number",
+        "same size"
+      ],
+      "materials": [
+        "fraction strips",
+        "number lines"
+      ],
+      "days": [
+        {
+          "title": "Strip equivalents",
+          "work": "Use fraction strips to find fractions equal to 1/2, 1/3 and 3/4."
+        },
+        {
+          "title": "Number line equivalents",
+          "work": "Stack number lines for halves, fourths and eighths and mark equivalent points."
+        },
+        {
+          "title": "Whole numbers",
+          "work": "Show that 3 = 3/1 and 1 = 4/4 = 6/6 with models."
+        },
+        {
+          "title": "Equivalence game",
+          "work": "Play a matching game with equivalent fraction cards and explain matches."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete an equivalent fractions quiz with models."
+        }
+      ],
+      "assessment": "Equivalent fractions quiz"
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Comparing fractions",
+      "objectives": [
+        "Compare fractions with the same numerator or denominator",
+        "Justify with models"
+      ],
+      "standards": [
+        "3.NF.A.3"
+      ],
+      "vocabulary": [
+        "compare",
+        "greater than",
+        "less than",
+        "same denominator",
+        "same numerator"
+      ],
+      "materials": [
+        "fraction strips",
+        "fraction circles"
+      ],
+      "days": [
+        {
+          "title": "Same denominator",
+          "work": "Compare fractions like 3/8 and 5/8 with strips and record with <, >, =."
+        },
+        {
+          "title": "Same numerator",
+          "work": "Compare 2/3 and 2/6 and explain why more pieces means smaller pieces."
+        },
+        {
+          "title": "Same whole",
+          "work": "Explain why comparisons only work when the wholes are the same size, using two different pizzas."
+        },
+        {
+          "title": "Fraction war",
+          "work": "Play fraction war with cards, justifying each comparison with a drawing."
+        },
+        {
+          "title": "Review & check",
+          "work": "Compare 12 pairs of fractions and justify 3 in writing."
+        }
+      ],
+      "assessment": "Comparing fractions check"
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "Fractions review and application",
+      "objectives": [
+        "Apply fraction understanding to problems",
+        "Partition shapes into equal areas"
+      ],
+      "standards": [
+        "3.NF.A.1",
+        "3.NF.A.2",
+        "3.NF.A.3",
+        "3.G.A.2"
+      ],
+      "vocabulary": [
+        "fraction",
+        "equivalent",
+        "area"
+      ],
+      "materials": [
+        "fraction tools",
+        "recipe card"
+      ],
+      "days": [
+        {
+          "title": "Recipe fractions",
+          "work": "Read a simple recipe and model 1/2, 3/4 and 1/3 cup amounts with measuring cups."
+        },
+        {
+          "title": "Garden plot",
+          "work": "Partition a garden drawing into equal areas and write each as a unit fraction."
+        },
+        {
+          "title": "Fraction stations",
+          "work": "Rotate through number line, comparison and equivalence stations."
+        },
+        {
+          "title": "Error analysis",
+          "work": "Find and fix errors in 5 worked fraction problems."
+        },
+        {
+          "title": "Unit 6 assessment",
+          "work": "Complete the Unit 6 test on fractions."
+        }
+      ],
+      "assessment": "Unit 6 test"
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Time to the minute and elapsed time",
+      "objectives": [
+        "Tell time to the nearest minute",
+        "Solve elapsed-time problems"
+      ],
+      "standards": [
+        "3.MD.A.1"
+      ],
+      "vocabulary": [
+        "elapsed time",
+        "minute",
+        "a.m.",
+        "p.m.",
+        "interval"
+      ],
+      "materials": [
+        "analog clock",
+        "number line"
+      ],
+      "days": [
+        {
+          "title": "Nearest minute",
+          "work": "Read and set an analog clock to the nearest minute for 15 times."
+        },
+        {
+          "title": "Elapsed on a number line",
+          "work": "Use an open number line to find elapsed time between start and end times."
+        },
+        {
+          "title": "Start and end unknown",
+          "work": "Solve problems where the start time or end time is unknown."
+        },
+        {
+          "title": "Daily schedule",
+          "work": "Record your day's schedule and calculate the length of 5 activities."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a time and elapsed-time quiz."
+        }
+      ],
+      "assessment": "Time quiz"
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Liquid volume",
+      "objectives": [
+        "Estimate and measure liquid volume in liters and milliliters",
+        "Solve volume problems"
+      ],
+      "standards": [
+        "3.MD.A.2"
+      ],
+      "vocabulary": [
+        "liquid volume",
+        "liter",
+        "milliliter",
+        "capacity"
+      ],
+      "materials": [
+        "1-liter bottle",
+        "measuring cups",
+        "containers",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Liter benchmark",
+          "work": "Fill a 1-liter bottle and estimate which household containers hold more or less than 1 liter."
+        },
+        {
+          "title": "Measure containers",
+          "work": "Measure the capacity of 5 containers with a marked liter bottle and record in a table."
+        },
+        {
+          "title": "Read scales",
+          "work": "Read liquid levels on beaker diagrams with different scales."
+        },
+        {
+          "title": "Volume problems",
+          "work": "Solve add/subtract/multiply word problems with liters (e.g., 4 jugs of 3 L)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a liquid volume quiz and estimation challenge."
+        }
+      ],
+      "assessment": "Liquid volume quiz"
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Mass",
+      "objectives": [
+        "Estimate and measure mass in grams and kilograms",
+        "Solve mass problems"
+      ],
+      "standards": [
+        "3.MD.A.2"
+      ],
+      "vocabulary": [
+        "mass",
+        "gram",
+        "kilogram",
+        "balance",
+        "scale"
+      ],
+      "materials": [
+        "kitchen scale",
+        "paper clips",
+        "household objects"
+      ],
+      "days": [
+        {
+          "title": "Gram and kilogram",
+          "work": "Hold a paper clip (about 1 g) and a 1 kg bag of rice as benchmarks; estimate 8 objects."
+        },
+        {
+          "title": "Weigh objects",
+          "work": "Use a kitchen scale to measure the mass of 8 objects and compare to estimates."
+        },
+        {
+          "title": "Balance scale",
+          "work": "Build a hanger balance and compare masses of two objects."
+        },
+        {
+          "title": "Mass problems",
+          "work": "Solve one-step word problems about mass of fruit and packages."
+        },
+        {
+          "title": "Unit 7 assessment",
+          "work": "Complete the Unit 7 test on time, liquid volume and mass."
+        }
+      ],
+      "assessment": "Unit 7 test"
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Scaled picture graphs and bar graphs",
+      "objectives": [
+        "Create scaled picture and bar graphs",
+        "Solve how-many-more problems"
+      ],
+      "standards": [
+        "3.MD.B.3"
+      ],
+      "vocabulary": [
+        "scale",
+        "key",
+        "bar graph",
+        "picture graph",
+        "data"
+      ],
+      "materials": [
+        "grid paper",
+        "survey sheet"
+      ],
+      "days": [
+        {
+          "title": "Read scaled graphs",
+          "work": "Read picture graphs where one symbol equals 5 and answer questions."
+        },
+        {
+          "title": "Survey",
+          "work": "Survey family and friends about favorite fruits and tally the results."
+        },
+        {
+          "title": "Make a bar graph",
+          "work": "Draw a scaled bar graph (scale of 2) of the survey data."
+        },
+        {
+          "title": "Compare data",
+          "work": "Answer one- and two-step 'how many more/fewer' questions from your graph."
+        },
+        {
+          "title": "Review & check",
+          "work": "Interpret a new scaled graph and create a picture graph with a key."
+        }
+      ],
+      "assessment": "Graphing check"
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Measurement data and line plots",
+      "objectives": [
+        "Measure to the nearest half and quarter inch",
+        "Show data on line plots"
+      ],
+      "standards": [
+        "3.MD.B.4",
+        "3.MD.B.3"
+      ],
+      "vocabulary": [
+        "line plot",
+        "half inch",
+        "quarter inch"
+      ],
+      "materials": [
+        "ruler",
+        "pencils",
+        "leaves"
+      ],
+      "days": [
+        {
+          "title": "Ruler fractions",
+          "work": "Practice measuring lines to the nearest half and quarter inch."
+        },
+        {
+          "title": "Collect data",
+          "work": "Measure 15 leaves or pencils to the nearest quarter inch and record."
+        },
+        {
+          "title": "Line plot",
+          "work": "Create a line plot with the data, labeling the scale in fourths."
+        },
+        {
+          "title": "Analyze",
+          "work": "Answer questions about the line plot: most common length, longest, shortest."
+        },
+        {
+          "title": "Unit 8 assessment",
+          "work": "Complete the Unit 8 test on graphs and line plots."
+        }
+      ],
+      "assessment": "Unit 8 test"
+    },
+    {
+      "week": 31,
+      "unit": 9,
+      "topic": "Quadrilaterals and attributes",
+      "objectives": [
+        "Classify quadrilaterals by attributes",
+        "Recognize shared attributes across categories"
+      ],
+      "standards": [
+        "3.G.A.1"
+      ],
+      "vocabulary": [
+        "quadrilateral",
+        "rhombus",
+        "rectangle",
+        "square",
+        "parallel",
+        "right angle"
+      ],
+      "materials": [
+        "geoboard or dot paper",
+        "shape cards"
+      ],
+      "days": [
+        {
+          "title": "Sort shapes",
+          "work": "Sort shape cards by sides, angles and parallel sides and name each sort."
+        },
+        {
+          "title": "Quadrilateral family",
+          "work": "Make a chart showing how squares, rectangles and rhombuses are all quadrilaterals."
+        },
+        {
+          "title": "Geoboard builds",
+          "work": "Build quadrilaterals on a geoboard or dot paper that are not rectangles, rhombuses or squares."
+        },
+        {
+          "title": "Always, sometimes, never",
+          "work": "Discuss statements like 'A square is a rhombus' and justify."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a shape attributes quiz."
+        }
+      ],
+      "assessment": "Quadrilateral classification quiz"
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Perimeter",
+      "objectives": [
+        "Find perimeter of polygons",
+        "Find unknown side lengths"
+      ],
+      "standards": [
+        "3.MD.D.8"
+      ],
+      "vocabulary": [
+        "perimeter",
+        "polygon",
+        "side length"
+      ],
+      "materials": [
+        "ruler",
+        "string",
+        "grid paper"
+      ],
+      "days": [
+        {
+          "title": "Measure around",
+          "work": "Use string and a ruler to find the perimeter of books, a table and a picture frame."
+        },
+        {
+          "title": "Polygons",
+          "work": "Find perimeters of polygons on grid paper by adding side lengths."
+        },
+        {
+          "title": "Unknown side",
+          "work": "Find a missing side length when the perimeter is known."
+        },
+        {
+          "title": "Fence problems",
+          "work": "Solve fencing word problems for a dog pen and garden."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a perimeter quiz."
+        }
+      ],
+      "assessment": "Perimeter quiz"
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Perimeter and area relationships",
+      "objectives": [
+        "Compare rectangles with same perimeter and different area",
+        "Compare same area and different perimeter"
+      ],
+      "standards": [
+        "3.MD.D.8",
+        "3.MD.C.7"
+      ],
+      "vocabulary": [
+        "perimeter",
+        "area",
+        "dimensions"
+      ],
+      "materials": [
+        "square tiles",
+        "grid paper"
+      ],
+      "days": [
+        {
+          "title": "Same area",
+          "work": "Build all rectangles with area 24 and record their perimeters."
+        },
+        {
+          "title": "Same perimeter",
+          "work": "Draw all rectangles with perimeter 20 and record their areas."
+        },
+        {
+          "title": "Best pen",
+          "work": "Find the rectangular pen with the most area using 24 feet of fence."
+        },
+        {
+          "title": "Area or perimeter?",
+          "work": "Decide whether 10 real-life situations need area or perimeter."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve a mixed area/perimeter problem set."
+        }
+      ],
+      "assessment": "Area vs. perimeter problem set"
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Geometry project",
+      "objectives": [
+        "Apply geometry, area and perimeter in a design",
+        "Partition shapes into equal areas"
+      ],
+      "standards": [
+        "3.G.A.2",
+        "3.MD.D.8",
+        "3.MD.C.7"
+      ],
+      "vocabulary": [
+        "design",
+        "scale",
+        "floor plan"
+      ],
+      "materials": [
+        "grid paper",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "Park design",
+          "work": "Begin designing a neighborhood park on grid paper with at least 4 rectangular areas."
+        },
+        {
+          "title": "Measure the park",
+          "work": "Calculate area and perimeter for each section of the park."
+        },
+        {
+          "title": "Fair share",
+          "work": "Partition the picnic area into equal parts for 4 families and name each fraction."
+        },
+        {
+          "title": "Present",
+          "work": "Present the park design and explain calculations to the family."
+        },
+        {
+          "title": "Unit 9 assessment",
+          "work": "Complete the Unit 9 test on geometry, area and perimeter."
+        }
+      ],
+      "assessment": "Unit 9 test and park design project"
+    },
+    {
+      "week": 35,
+      "unit": 10,
+      "topic": "Cumulative review: operations and fluency",
+      "objectives": [
+        "Demonstrate fluency with multiplication/division within 100 and add/subtract within 1,000",
+        "Solve multi-step problems"
+      ],
+      "standards": [
+        "3.OA.C.7",
+        "3.NBT.A.2",
+        "3.OA.D.8"
+      ],
+      "vocabulary": [
+        "fluency",
+        "strategy",
+        "reasonableness"
+      ],
+      "materials": [
+        "fact cards",
+        "review packet"
+      ],
+      "days": [
+        {
+          "title": "Fact fluency",
+          "work": "Complete a full multiplication and division fact assessment."
+        },
+        {
+          "title": "Add/subtract review",
+          "work": "Solve mixed 3-digit add/subtract problems with estimation."
+        },
+        {
+          "title": "Problem solving",
+          "work": "Solve 5 multi-step word problems and explain thinking."
+        },
+        {
+          "title": "Math games day",
+          "work": "Play a fact board game and a target-number game to practice operations."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a cumulative operations test."
+        }
+      ],
+      "assessment": "Cumulative operations test"
+    },
+    {
+      "week": 36,
+      "unit": 10,
+      "topic": "Cumulative review: fractions, measurement, geometry",
+      "objectives": [
+        "Review fractions, measurement and geometry",
+        "Reflect on growth"
+      ],
+      "standards": [
+        "3.NF.A.3",
+        "3.MD.C.7",
+        "3.MD.D.8"
+      ],
+      "vocabulary": [
+        "fraction",
+        "area",
+        "perimeter",
+        "measurement"
+      ],
+      "materials": [
+        "review packet",
+        "portfolio"
+      ],
+      "days": [
+        {
+          "title": "Fraction review",
+          "work": "Review equivalence and comparison with strips and number lines."
+        },
+        {
+          "title": "Measurement review",
+          "work": "Review time, volume, mass and area problems."
+        },
+        {
+          "title": "Geometry review",
+          "work": "Review quadrilaterals and perimeter with a scavenger hunt."
+        },
+        {
+          "title": "Final assessment",
+          "work": "Complete the end-of-year math assessment."
+        },
+        {
+          "title": "Reflection",
+          "work": "Build a math portfolio of best work and write a reflection on growth."
+        }
+      ],
+      "assessment": "End-of-year assessment and portfolio reflection"
+    }
+  ]
+}

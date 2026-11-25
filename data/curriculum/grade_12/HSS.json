@@ -1,0 +1,414 @@
+{
+  "grade": 12,
+  "subject": "HSS",
+  "title": "American Government & Civics (S1) / Economics (S2)",
+  "description": "Semester 1 (Principles of American Democracy) examines the philosophical foundations of the Constitution, rights and responsibilities, the three branches, landmark Supreme Court cases, elections, federalism with a focus on California state and local government, the media, comparative systems, and a civic action project. Semester 2 (Economics) covers scarcity and economic systems, supply and demand, market structures, the role of government, labor markets, macroeconomic indicators, fiscal and monetary policy, and international trade. Primary sources (Federalist Papers, court opinions, ballot measures, Fed statements, BLS data) anchor every week.",
+  "framework": "California History–Social Science Content Standards, Grade 12 (Principles of American Democracy and Economics); 2016 California History–Social Science Framework. Government codes are prefixed GOV-12.x and economics codes ECON-12.x.",
+  "minutes_per_day": 55,
+  "ag_requirement": "a",
+  "credits": 10,
+  "standards": {
+    "GOV-12.1": "Explain the fundamental principles and moral values of American democracy as expressed in the Constitution and other founding documents.",
+    "GOV-12.1.1": "Analyze the influence of ancient Greek, Roman, English, and leading European political thinkers (Locke, Montesquieu, etc.) on the development of American government.",
+    "GOV-12.1.2": "Discuss the character of American democracy and its promise and perils as articulated by Alexis de Tocqueville.",
+    "GOV-12.1.4": "Explain how the Constitution balances the classical republican concern for the public good with the classical liberal concern for individual rights, and how the Declaration and Constitution join liberal constitutionalism and democracy.",
+    "GOV-12.1.5": "Describe separated and shared powers, the role of organized interests (Federalist 10), checks and balances (Federalist 51), an independent judiciary (Federalist 78), enumerated powers, rule of law, federalism, and civilian control of the military.",
+    "GOV-12.1.6": "Understand that the Bill of Rights limits the powers of the federal government and state governments.",
+    "GOV-12.2": "Evaluate and take and defend positions on the scope and limits of rights and obligations as democratic citizens.",
+    "GOV-12.2.1": "Discuss the meaning and importance of each of the rights guaranteed under the Bill of Rights and how each is secured.",
+    "GOV-12.2.2": "Explain how economic rights are secured and their importance to the individual and society.",
+    "GOV-12.2.4": "Understand the obligations of civic-mindedness, including voting, jury duty, military service, and community service.",
+    "GOV-12.2.5": "Describe the reciprocity between rights and obligations; why enjoyment of one's rights entails respect for the rights of others.",
+    "GOV-12.3": "Evaluate and take and defend positions on what the fundamental values and principles of civil society are, their interdependence, and the meaning and importance of those values and principles for a free society.",
+    "GOV-12.3.1": "Explain how civil society provides opportunities for individuals to associate for social, cultural, religious, economic, and political purposes.",
+    "GOV-12.3.2": "Explain how civil society makes it possible for people, individually or in association with others, to bring their influence to bear on government.",
+    "GOV-12.4": "Analyze the unique roles and responsibilities of the three branches of government as established by the U.S. Constitution.",
+    "GOV-12.4.1": "Discuss Article I of the Constitution as it relates to the legislative branch, including eligibility, terms, election, and powers of Congress.",
+    "GOV-12.4.2": "Explain the process through which the Constitution can be amended.",
+    "GOV-12.4.3": "Identify their current representatives in the legislative branch of the national government.",
+    "GOV-12.4.4": "Discuss Article II of the Constitution as it relates to the executive branch, including eligibility, terms, election, and powers of the president.",
+    "GOV-12.4.5": "Discuss Article III of the Constitution as it relates to judicial power, including the length of terms of judges and the jurisdiction of the Supreme Court.",
+    "GOV-12.4.6": "Explain the processes of selection and confirmation of Supreme Court justices.",
+    "GOV-12.5": "Summarize landmark U.S. Supreme Court interpretations of the Constitution and its amendments.",
+    "GOV-12.5.1": "Understand the changing interpretations of the Bill of Rights over time, including interpretations of basic freedoms (religion, speech, press, petition, assembly) in court cases.",
+    "GOV-12.5.2": "Analyze judicial activism and judicial restraint and the effects of each policy over the decades.",
+    "GOV-12.5.3": "Evaluate the effects of the Court's interpretations of the Constitution in Marbury v. Madison, McCulloch v. Maryland, and United States v. Nixon, with emphasis on checks and balances.",
+    "GOV-12.5.4": "Explain the controversies that have resulted over changing interpretations of civil rights, including Plessy v. Ferguson, Brown v. Board of Education, Miranda v. Arizona, Regents of the University of California v. Bakke, and United States v. Virginia (VMI).",
+    "GOV-12.6": "Evaluate issues regarding campaigns for national, state, and local elective offices.",
+    "GOV-12.6.1": "Analyze the origin, development, and role of political parties.",
+    "GOV-12.6.2": "Discuss the history of the nomination process for presidential candidates and the increasing importance of primaries.",
+    "GOV-12.6.3": "Evaluate the roles of polls, campaign advertising, and controversies over campaign funding.",
+    "GOV-12.6.4": "Describe the means that citizens use to participate in the political process (voting, campaigning, lobbying, filing a legal challenge, demonstrating, petitioning, picketing, running for office).",
+    "GOV-12.6.5": "Discuss the features of direct democracy in numerous states (e.g., initiatives, referendums, recall).",
+    "GOV-12.6.6": "Analyze trends in voter turnout; causes and effects of reapportionment and redistricting, with special attention to spatial districting and the rights of minorities; and the function of the Electoral College.",
+    "GOV-12.7": "Analyze and compare the powers and procedures of the national, state, tribal, and local governments.",
+    "GOV-12.7.1": "Explain how conflicts between levels of government and branches of government are resolved.",
+    "GOV-12.7.2": "Identify the major responsibilities and sources of revenue for state and local governments.",
+    "GOV-12.7.3": "Discuss reserved powers and concurrent powers of state governments.",
+    "GOV-12.7.4": "Discuss the Ninth and Tenth Amendments and interpretations of the extent of the federal government's power.",
+    "GOV-12.7.5": "Explain how public policy is formed, including the setting of the public agenda and implementation of it through regulations and executive orders.",
+    "GOV-12.7.6": "Compare the processes of lawmaking at each of the three levels of government, including the role of lobbying and the media.",
+    "GOV-12.7.7": "Identify the organization and jurisdiction of federal, state, and local (e.g., California) courts and the interrelationships among them.",
+    "GOV-12.7.8": "Understand the scope of presidential power and decision making through examination of case studies.",
+    "GOV-12.8": "Evaluate and take and defend positions on the influence of the media on American political life.",
+    "GOV-12.8.1": "Discuss the meaning and importance of a free and responsible press.",
+    "GOV-12.8.2": "Describe the roles of broadcast, print, and electronic media, including the Internet, as means of communication in American politics.",
+    "GOV-12.8.3": "Explain how public officials use the media to communicate with the citizenry and to shape public opinion.",
+    "GOV-12.9": "Analyze the origins, characteristics, and development of different political systems across time, with emphasis on the quest for political democracy, its advances, and its obstacles.",
+    "GOV-12.9.3": "Discuss the advantages and disadvantages of federal, confederal, and unitary systems of government.",
+    "GOV-12.9.4": "Describe for at least two countries the consequences of conditions that gave rise to tyrannies during certain periods.",
+    "GOV-12.9.5": "Identify the forms of illegitimate power that twentieth-century African, Asian, and Latin American dictators used to gain and hold office and the conditions and interests that supported them.",
+    "GOV-12.9.6": "Identify the ideologies, causes, stages, and outcomes of major Mexican, Central American, and South American revolutions in the nineteenth and twentieth centuries.",
+    "GOV-12.9.7": "Identify the successes of relatively new democracies in Africa, Asia, and Latin America and the ideas, leaders, and general societal conditions that have launched and sustained, or failed to sustain, them.",
+    "GOV-12.10": "Formulate questions about and defend their analyses of tensions within our constitutional democracy and the importance of maintaining a balance between majority rule and individual rights, liberty and equality, state and national authority, and other enduring tensions.",
+    "ECON-12.1": "Understand common economic terms and concepts and economic reasoning.",
+    "ECON-12.1.1": "Examine the causal relationship between scarcity and the need for choices.",
+    "ECON-12.1.2": "Explain opportunity cost and marginal benefit and marginal cost.",
+    "ECON-12.1.3": "Identify the difference between monetary and nonmonetary incentives and how changes in incentives cause changes in behavior.",
+    "ECON-12.1.4": "Evaluate the role of private property as an incentive in conserving and improving scarce resources, including renewable and nonrenewable natural resources.",
+    "ECON-12.2": "Analyze the elements of America's market economy in a global setting.",
+    "ECON-12.2.1": "Understand the relationship of the concept of incentives to the law of supply and the relationship of the concept of incentives and substitutes to the law of demand.",
+    "ECON-12.2.2": "Discuss the effects of changes in supply and/or demand on the relative scarcity, price, and quantity of particular products.",
+    "ECON-12.2.3": "Explain the roles of property rights, competition, and profit in a market economy.",
+    "ECON-12.2.4": "Explain how prices reflect the relative scarcity of goods and services and perform the allocative function in a market economy.",
+    "ECON-12.2.5": "Understand the process by which competition among buyers and sellers determines a market price.",
+    "ECON-12.2.6": "Describe the effect of price controls on buyers and sellers.",
+    "ECON-12.2.7": "Analyze how domestic and international competition in a market economy affects goods and services produced and the quality, quantity, and price of those products.",
+    "ECON-12.2.8": "Explain the role of profit as the incentive to entrepreneurs in a market economy.",
+    "ECON-12.2.9": "Describe the functions of the financial markets.",
+    "ECON-12.2.10": "Discuss the economic principles that guide the location of agricultural production and industry and the spatial distribution of transportation and retail facilities.",
+    "ECON-12.3": "Analyze the influence of the federal government on the American economy.",
+    "ECON-12.3.1": "Understand how the role of government in a market economy often includes providing for national defense, addressing environmental concerns, defining and enforcing property rights, attempting to make markets more competitive, and protecting consumers' rights.",
+    "ECON-12.3.2": "Identify the factors that may cause the costs of government actions to outweigh the benefits.",
+    "ECON-12.3.3": "Describe the aims of government fiscal policies (taxation, borrowing, spending) and their influence on production, employment, and price levels.",
+    "ECON-12.3.4": "Understand the aims and tools of monetary policy and their influence on economic activity (the Federal Reserve).",
+    "ECON-12.4": "Analyze the elements of the U.S. labor market in a global setting.",
+    "ECON-12.4.1": "Understand the operations of the labor market, including the circumstances surrounding the establishment of principal American labor unions, procedures that unions use to gain benefits for their members, the effects of unionization, the minimum wage, and unemployment insurance.",
+    "ECON-12.4.2": "Describe the current economy and labor market, including the types of goods and services produced, the types of skills workers need, the effects of rapid technological change, and the impact of international competition.",
+    "ECON-12.4.3": "Discuss wage differences among jobs and professions, using the laws of demand and supply and the concept of productivity.",
+    "ECON-12.4.4": "Explain the effects of international mobility of capital and labor on the U.S. economy.",
+    "ECON-12.5": "Analyze the aggregate economic behavior of the U.S. economy.",
+    "ECON-12.5.1": "Distinguish between nominal and real data.",
+    "ECON-12.5.2": "Define, calculate, and explain the significance of an unemployment rate, the number of new jobs created monthly, an inflation or deflation rate, and a rate of economic growth.",
+    "ECON-12.5.3": "Distinguish between short-term and long-term interest rates and explain their relative significance.",
+    "ECON-12.6": "Analyze issues of international trade and explain how the U.S. economy affects, and is affected by, economic forces beyond the United States's borders.",
+    "ECON-12.6.1": "Identify the gains in consumption and production efficiency from trade, with emphasis on the main products and changing geographic patterns of twentieth-century trade among countries in the Western Hemisphere.",
+    "ECON-12.6.2": "Compare the reasons for and the effects of trade restrictions during the Great Depression compared with present-day arguments among labor, business, and political leaders over the effects of free trade on the economic and social interests of various groups of Americans.",
+    "ECON-12.6.3": "Understand the changing role of international political borders and territorial sovereignty in a global economy.",
+    "ECON-12.6.4": "Explain foreign exchange, the manner in which exchange rates are determined, and the effects of the dollar's gaining (or losing) value relative to other currencies."
+  },
+  "resources": [
+    {"name": "National Constitution Center – Interactive Constitution", "url": "https://constitutioncenter.org/the-constitution", "note": "Full text of the Constitution with essays from scholars across the spectrum"},
+    {"name": "Oyez", "url": "https://www.oyez.org", "note": "Summaries and oral-argument audio for every landmark Supreme Court case"},
+    {"name": "DocsTeach (National Archives)", "url": "https://www.docsteach.org", "note": "Primary-source activities on the Constitution, Bill of Rights, and civic participation"},
+    {"name": "iCivics", "url": "https://www.icivics.org", "note": "Free civics games and lesson plans (e.g., Do I Have a Right?, Executive Command)"},
+    {"name": "Khan Academy – Microeconomics and Macroeconomics", "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics", "note": "Video lessons and practice for the Economics semester"},
+    {"name": "FRED (Federal Reserve Bank of St. Louis)", "url": "https://fred.stlouisfed.org", "note": "Free economic data for GDP, unemployment, inflation, and interest-rate activities"}
+  ],
+  "units": [
+    {"number": 1, "title": "Foundations of American Democracy", "start_week": 1, "end_week": 2, "big_idea": "The Constitution blends ancient, English, and Enlightenment ideas to limit power and protect liberty.", "standards": ["GOV-12.1", "GOV-12.1.1", "GOV-12.1.2", "GOV-12.1.4", "GOV-12.1.5", "GOV-12.1.6"]},
+    {"number": 2, "title": "Rights, Responsibilities, and Civil Society", "start_week": 3, "end_week": 4, "big_idea": "Rights depend on citizens who respect others' rights and participate in civil society.", "standards": ["GOV-12.2", "GOV-12.2.1", "GOV-12.2.2", "GOV-12.2.4", "GOV-12.2.5", "GOV-12.3", "GOV-12.3.1", "GOV-12.3.2"]},
+    {"number": 3, "title": "The Three Branches", "start_week": 5, "end_week": 8, "big_idea": "Separated and shared powers force the branches to cooperate and check one another.", "standards": ["GOV-12.4", "GOV-12.4.1", "GOV-12.4.2", "GOV-12.4.3", "GOV-12.4.4", "GOV-12.4.5", "GOV-12.4.6", "GOV-12.7.5", "GOV-12.7.8"]},
+    {"number": 4, "title": "The Supreme Court and Landmark Cases", "start_week": 9, "end_week": 10, "big_idea": "The Court's interpretations of the Constitution change over time and reshape American life.", "standards": ["GOV-12.5", "GOV-12.5.1", "GOV-12.5.2", "GOV-12.5.3", "GOV-12.5.4"]},
+    {"number": 5, "title": "Elections, Parties, and Participation", "start_week": 11, "end_week": 12, "big_idea": "Citizens influence government through parties, campaigns, voting, and direct democracy.", "standards": ["GOV-12.6", "GOV-12.6.1", "GOV-12.6.2", "GOV-12.6.3", "GOV-12.6.4", "GOV-12.6.5", "GOV-12.6.6"]},
+    {"number": 6, "title": "Federalism: California State, Local, and Tribal Government", "start_week": 13, "end_week": 14, "big_idea": "Power is shared among national, state, tribal, and local governments, and most daily services are local.", "standards": ["GOV-12.7", "GOV-12.7.1", "GOV-12.7.2", "GOV-12.7.3", "GOV-12.7.4", "GOV-12.7.6", "GOV-12.7.7"]},
+    {"number": 7, "title": "Media, Comparative Government, and Civic Action", "start_week": 15, "end_week": 18, "big_idea": "A free press, comparison with other systems, and informed action keep democracy healthy.", "standards": ["GOV-12.8", "GOV-12.8.1", "GOV-12.8.2", "GOV-12.8.3", "GOV-12.9", "GOV-12.9.3", "GOV-12.9.4", "GOV-12.9.5", "GOV-12.9.6", "GOV-12.9.7", "GOV-12.10", "GOV-12.6.4"]},
+    {"number": 8, "title": "Economic Fundamentals", "start_week": 19, "end_week": 20, "big_idea": "Scarcity forces choices, and every choice has an opportunity cost.", "standards": ["ECON-12.1", "ECON-12.1.1", "ECON-12.1.2", "ECON-12.1.3", "ECON-12.1.4"]},
+    {"number": 9, "title": "Markets: Supply, Demand, and Competition", "start_week": 21, "end_week": 24, "big_idea": "Prices coordinate millions of decisions by signaling relative scarcity.", "standards": ["ECON-12.2", "ECON-12.2.1", "ECON-12.2.2", "ECON-12.2.3", "ECON-12.2.4", "ECON-12.2.5", "ECON-12.2.6", "ECON-12.2.7", "ECON-12.2.8", "ECON-12.2.9", "ECON-12.2.10"]},
+    {"number": 10, "title": "Government and the Economy", "start_week": 25, "end_week": 26, "big_idea": "Government corrects some market failures, but its actions also have costs.", "standards": ["ECON-12.3", "ECON-12.3.1", "ECON-12.3.2", "ECON-12.3.3"]},
+    {"number": 11, "title": "Labor Markets", "start_week": 27, "end_week": 28, "big_idea": "Wages reflect supply, demand, and productivity in a changing global labor market.", "standards": ["ECON-12.4", "ECON-12.4.1", "ECON-12.4.2", "ECON-12.4.3", "ECON-12.4.4"]},
+    {"number": 12, "title": "Macroeconomics, Money, and the Fed", "start_week": 29, "end_week": 31, "big_idea": "GDP, unemployment, and inflation measure the economy's health, and fiscal and monetary policy try to stabilize it.", "standards": ["ECON-12.5", "ECON-12.5.1", "ECON-12.5.2", "ECON-12.5.3", "ECON-12.3.3", "ECON-12.3.4"]},
+    {"number": 13, "title": "International Economics", "start_week": 32, "end_week": 34, "big_idea": "Trade raises total output through specialization but creates winners and losers.", "standards": ["ECON-12.6", "ECON-12.6.1", "ECON-12.6.2", "ECON-12.6.3", "ECON-12.6.4", "ECON-12.4.4"]},
+    {"number": 14, "title": "Economics Capstone", "start_week": 35, "end_week": 36, "big_idea": "Economic reasoning helps citizens evaluate real policy choices.", "standards": ["ECON-12.1.2", "ECON-12.3.2", "ECON-12.5.2", "ECON-12.2.2"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "Roots of American government", "objectives": ["Trace Greek, Roman, English, and Enlightenment influences", "Analyze the Declaration's philosophy"], "standards": ["GOV-12.1", "GOV-12.1.1", "GOV-12.1.4"], "vocabulary": ["natural rights", "social contract", "republic", "rule of law", "popular sovereignty"], "materials": ["Declaration of Independence (National Archives)", "Magna Carta excerpt", "Locke, Second Treatise excerpt"],
+      "days": [
+        {"title": "Why government?", "work": "Read Hobbes and Locke excerpts on the state of nature and write a paragraph comparing their views on why people form governments."},
+        {"title": "Ancient roots", "work": "Compare Athenian direct democracy and the Roman Republic; chart which features the Framers adopted or rejected."},
+        {"title": "English roots", "work": "Read excerpts of Magna Carta (1215) and the English Bill of Rights (1689); highlight limits on the monarch that reappear in the Constitution."},
+        {"title": "The Declaration", "work": "Annotate the Declaration's second paragraph, identifying Locke's ideas, and categorize the grievances by type."},
+        {"title": "Check", "work": "Take a quiz and write a 300-word response: which thinker most influenced the founding, with evidence?"}
+      ], "assessment": "Quiz and short response."},
+    {"week": 2, "unit": 1, "topic": "The Constitution and the Federalist Papers", "objectives": ["Explain the Constitution's structural principles", "Analyze Federalist 10, 51, and 78"], "standards": ["GOV-12.1.2", "GOV-12.1.5", "GOV-12.1.6"], "vocabulary": ["separation of powers", "checks and balances", "federalism", "faction", "Anti-Federalist"], "materials": ["U.S. Constitution (Interactive Constitution)", "Federalist Nos. 10, 51, 78", "Brutus No. 1", "Tocqueville, Democracy in America excerpt"],
+      "days": [
+        {"title": "Articles to Constitution", "work": "List weaknesses of the Articles of Confederation and match each to a fix in the Constitution."},
+        {"title": "Federalist 10", "work": "Read Federalist 10 and explain Madison's argument that a large republic controls the effects of faction."},
+        {"title": "Federalist 51 and 78", "work": "Read excerpts of Federalist 51 ('ambition must be made to counteract ambition') and 78 (independent judiciary); diagram checks and balances."},
+        {"title": "Anti-Federalists and Tocqueville", "work": "Read Brutus No. 1 and a Tocqueville excerpt on 'tyranny of the majority'; explain how the Bill of Rights answered these fears."},
+        {"title": "Unit 1 test", "work": "Take the Unit 1 test with a DBQ-style essay on how the Constitution limits government power."}
+      ], "assessment": "Unit 1 test with document-based essay."},
+    {"week": 3, "unit": 2, "topic": "The Bill of Rights", "objectives": ["Explain the protections in each amendment", "Apply rights to scenarios"], "standards": ["GOV-12.2", "GOV-12.2.1", "GOV-12.2.2"], "vocabulary": ["due process", "incorporation", "establishment clause", "free exercise", "eminent domain"], "materials": ["Bill of Rights (National Archives)", "iCivics 'Do I Have a Right?'"],
+      "days": [
+        {"title": "The First Amendment", "work": "Read the First Amendment and classify 10 scenarios (school speech, protest permits, religious displays) as protected or not."},
+        {"title": "Amendments 2–8", "work": "Create a chart of Amendments 2–8 with a modern example for each, focusing on rights of the accused."},
+        {"title": "Incorporation", "work": "Read about the 14th Amendment's due process clause and incorporation; explain how the Bill of Rights came to limit states."},
+        {"title": "Economic rights", "work": "Discuss economic rights (property, contracts, choosing an occupation, the Takings Clause) and analyze Kelo v. New London's eminent domain ruling."},
+        {"title": "Rights game & check", "work": "Play iCivics 'Do I Have a Right?' and take a Bill of Rights quiz."}
+      ], "assessment": "Bill of Rights quiz."},
+    {"week": 4, "unit": 2, "topic": "Citizenship and civil society", "objectives": ["Describe obligations of citizenship", "Explain how civil society influences government"], "standards": ["GOV-12.2.4", "GOV-12.2.5", "GOV-12.3", "GOV-12.3.1", "GOV-12.3.2"], "vocabulary": ["civic virtue", "jury duty", "naturalization", "nonprofit", "voluntary association"], "materials": ["USCIS naturalization civics test", "jury summons sample (CA courts)", "Tocqueville on associations"],
+      "days": [
+        {"title": "Citizenship", "work": "Take the USCIS 100-question naturalization civics test and research how people become U.S. citizens."},
+        {"title": "Obligations", "work": "Research jury duty in California (eligibility, process) and Selective Service registration; write about why each matters."},
+        {"title": "Civil society", "work": "Read Tocqueville on Americans' associations; map 10 civic organizations in your community and their purposes."},
+        {"title": "Interview", "work": "Interview a volunteer or nonprofit leader about how their group influences public decisions."},
+        {"title": "Unit 2 check", "work": "Take the Unit 2 test with a position essay on the balance between rights and responsibilities."}
+      ], "assessment": "Unit 2 test and position essay."},
+    {"week": 5, "unit": 3, "topic": "Congress: structure and powers", "objectives": ["Describe Article I powers and structure", "Identify your representatives"], "standards": ["GOV-12.4.1", "GOV-12.4.3"], "vocabulary": ["bicameral", "enumerated powers", "necessary and proper clause", "apportionment", "constituent"], "materials": ["Article I text", "congress.gov", "house.gov 'Find your representative'"],
+      "days": [
+        {"title": "Article I", "work": "Read Article I and chart qualifications, terms, and unique powers of the House and Senate."},
+        {"title": "Your representatives", "work": "Look up your U.S. Representative and both U.S. Senators; summarize their committees and one recent vote each."},
+        {"title": "Powers of Congress", "work": "Sort Article I, Section 8 powers into categories (money, commerce, defense) and discuss the elastic clause."},
+        {"title": "Committees and leadership", "work": "Diagram congressional leadership (Speaker, majority leaders, whips) and the committee system."},
+        {"title": "Check", "work": "Take a quiz on Congress's structure and powers."}
+      ], "assessment": "Congress quiz."},
+    {"week": 6, "unit": 3, "topic": "How a bill becomes law; amending the Constitution", "objectives": ["Trace the lawmaking process", "Explain the amendment process"], "standards": ["GOV-12.4.1", "GOV-12.4.2", "GOV-12.7.5"], "vocabulary": ["filibuster", "cloture", "conference committee", "veto", "ratification"], "materials": ["congress.gov bill tracker", "Article V text"],
+      "days": [
+        {"title": "Lawmaking", "work": "Flowchart how a bill becomes law, including committees, floor votes, conference, and veto override."},
+        {"title": "Track a bill", "work": "Use congress.gov to track one current bill and record its sponsor, committee, and status."},
+        {"title": "Mock legislature", "work": "Write a short bill, 'mark it up' with family as a committee, and simulate a floor vote with amendments."},
+        {"title": "Amendments", "work": "Read Article V; compare successful (19th, 26th) and failed (ERA) amendments and explain why some fail."},
+        {"title": "Check", "work": "Write a 400-word reflection on why the founders made lawmaking slow; take a short quiz."}
+      ], "assessment": "Mock bill and lawmaking quiz."},
+    {"week": 7, "unit": 3, "topic": "The executive branch", "objectives": ["Describe Article II powers", "Analyze presidential decision-making"], "standards": ["GOV-12.4.4", "GOV-12.7.5", "GOV-12.7.8"], "vocabulary": ["executive order", "cabinet", "bureaucracy", "commander in chief", "executive privilege"], "materials": ["Article II text", "Federal Register executive orders", "Truman's Korean War / Kennedy's Cuban Missile Crisis documents (DocsTeach)"],
+      "days": [
+        {"title": "Article II", "work": "Read Article II and list formal powers; compare to informal powers like 'bully pulpit.'"},
+        {"title": "Executive orders", "work": "Read a recent executive order from the Federal Register and analyze its legal basis and limits."},
+        {"title": "Bureaucracy", "work": "Diagram the 15 executive departments and research one independent agency (EPA, FCC) and what it regulates."},
+        {"title": "Case study", "work": "Analyze primary sources from the Cuban Missile Crisis and evaluate Kennedy's decision-making options."},
+        {"title": "Check", "work": "Take a quiz and play iCivics 'Executive Command.'"}
+      ], "assessment": "Executive branch quiz and case-study analysis."},
+    {"week": 8, "unit": 3, "topic": "The judicial branch", "objectives": ["Describe Article III and the federal court system", "Explain how justices are selected"], "standards": ["GOV-12.4.5", "GOV-12.4.6"], "vocabulary": ["jurisdiction", "appellate", "writ of certiorari", "precedent", "majority/dissenting opinion"], "materials": ["Article III text", "Senate Judiciary hearing video clip"],
+      "days": [
+        {"title": "Article III", "work": "Read Article III; diagram district courts, circuit courts, and the Supreme Court; locate California in the Ninth Circuit."},
+        {"title": "How cases reach the Court", "work": "Learn the certiorari process and the 'rule of four'; analyze how few petitions are granted."},
+        {"title": "Selecting justices", "work": "Watch a segment of a recent confirmation hearing and evaluate the questions senators asked."},
+        {"title": "Reading an opinion", "work": "Read the syllabus of a recent Supreme Court opinion and identify the question, holding, and reasoning."},
+        {"title": "Unit 3 test", "work": "Take the Unit 3 test on the three branches."}
+      ], "assessment": "Unit 3 test."},
+    {"week": 9, "unit": 4, "topic": "Judicial review and federal power", "objectives": ["Evaluate Marbury, McCulloch, and U.S. v. Nixon", "Distinguish judicial activism from restraint"], "standards": ["GOV-12.5", "GOV-12.5.2", "GOV-12.5.3"], "vocabulary": ["judicial review", "implied powers", "supremacy clause", "judicial activism", "judicial restraint"], "materials": ["Oyez case summaries", "opinion excerpts"],
+      "days": [
+        {"title": "Marbury v. Madison", "work": "Read excerpts of Marshall's opinion and explain how the Court established judicial review."},
+        {"title": "McCulloch v. Maryland", "work": "Analyze 'the power to tax involves the power to destroy' and how McCulloch expanded federal power."},
+        {"title": "U.S. v. Nixon", "work": "Listen to Oyez audio excerpts and explain how the case limited executive privilege."},
+        {"title": "Activism vs. restraint", "work": "Read short essays on judicial philosophy (originalism, living constitution) and apply each to one case."},
+        {"title": "Check", "work": "Write a 500-word analysis of how one case strengthened checks and balances."}
+      ], "assessment": "Case analysis essay."},
+    {"week": 10, "unit": 4, "topic": "Civil rights and civil liberties cases", "objectives": ["Trace changing interpretations of civil rights", "Moot a landmark case"], "standards": ["GOV-12.5.1", "GOV-12.5.4"], "vocabulary": ["equal protection", "separate but equal", "affirmative action", "Miranda rights", "strict scrutiny"], "materials": ["Plessy and Brown opinions (excerpts)", "Tinker v. Des Moines", "Regents of UC v. Bakke", "Miranda v. Arizona"],
+      "days": [
+        {"title": "Plessy to Brown", "work": "Compare excerpts from Plessy v. Ferguson (including Harlan's dissent) and Brown v. Board; explain the reversal."},
+        {"title": "Student rights", "work": "Analyze Tinker v. Des Moines and a later student speech case; discuss limits on student speech."},
+        {"title": "Rights of the accused", "work": "Analyze Miranda v. Arizona and Gideon v. Wainwright and their effect on policing and courts."},
+        {"title": "California cases", "work": "Analyze Regents of UC v. Bakke and California's Proposition 209 and how admissions policy changed."},
+        {"title": "Moot court", "work": "Prepare and argue one side of a landmark case for 5 minutes before a family 'bench'; take the Unit 4 test."}
+      ], "assessment": "Moot court argument and Unit 4 test."},
+    {"week": 11, "unit": 5, "topic": "Parties, campaigns, and money", "objectives": ["Analyze the role of political parties", "Evaluate campaign finance and polling"], "standards": ["GOV-12.6.1", "GOV-12.6.2", "GOV-12.6.3"], "vocabulary": ["primary", "caucus", "PAC", "super PAC", "margin of error", "Citizens United"], "materials": ["Washington's Farewell Address excerpt", "FEC.gov data", "campaign ads (Living Room Candidate archive)"],
+      "days": [
+        {"title": "Origin of parties", "work": "Read Washington's warning about factions in his Farewell Address and trace the development of the two-party system."},
+        {"title": "Nominations", "work": "Explain how presidential primaries and conventions evolved and how California's top-two primary works."},
+        {"title": "Campaign ads", "work": "Analyze three historical campaign ads for persuasive techniques and target audiences."},
+        {"title": "Money in politics", "work": "Use FEC.gov to compare fundraising for two candidates and analyze Citizens United v. FEC."},
+        {"title": "Polls", "work": "Evaluate two recent polls for sample size, margin of error, and question wording; take a quiz."}
+      ], "assessment": "Campaign ad analysis and quiz."},
+    {"week": 12, "unit": 5, "topic": "Voting, direct democracy, and the Electoral College", "objectives": ["Register or pre-register to vote", "Analyze California ballot measures and the Electoral College"], "standards": ["GOV-12.6.4", "GOV-12.6.5", "GOV-12.6.6"], "vocabulary": ["initiative", "referendum", "recall", "redistricting", "gerrymandering", "Electoral College"], "materials": ["registertovote.ca.gov", "California Official Voter Information Guide", "Citizens Redistricting Commission maps"],
+      "days": [
+        {"title": "Register", "work": "Learn California's voter pre-registration at 16–17 and registration at 18; complete or walk through the registertovote.ca.gov process."},
+        {"title": "Ballot measures", "work": "Read a recent California ballot proposition in the Official Voter Guide, including LAO analysis and pro/con arguments, and decide how you would vote."},
+        {"title": "Recall and referendum", "work": "Compare the 2003 and 2021 gubernatorial recall elections and the process for qualifying measures."},
+        {"title": "Redistricting", "work": "Explore maps from California's Citizens Redistricting Commission and explain how gerrymandering works."},
+        {"title": "Electoral College", "work": "Calculate electoral votes for a sample election and debate keeping vs. abolishing the Electoral College; take the Unit 5 test."}
+      ], "assessment": "Ballot-measure analysis and Unit 5 test."},
+    {"week": 13, "unit": 6, "topic": "Federalism and the California Constitution", "objectives": ["Distinguish delegated, reserved, and concurrent powers", "Describe California's state government"], "standards": ["GOV-12.7", "GOV-12.7.1", "GOV-12.7.3", "GOV-12.7.4", "GOV-12.7.6"], "vocabulary": ["reserved powers", "concurrent powers", "Tenth Amendment", "preemption", "Legislature"], "materials": ["California Constitution (leginfo.legislature.ca.gov)", "LAO budget overview"],
+      "days": [
+        {"title": "Dividing power", "work": "Create a Venn diagram of federal, state, and concurrent powers and discuss the 9th and 10th Amendments."},
+        {"title": "Federal-state conflict", "work": "Analyze a federal-state conflict (cannabis law, vehicle emissions waivers, immigration) and how courts resolved it."},
+        {"title": "California's government", "work": "Compare the California Constitution with the U.S. Constitution (length, amendment process, Declaration of Rights)."},
+        {"title": "State lawmaking", "work": "Track a bill in the California Legislature on leginfo.legislature.ca.gov and compare the process with Congress."},
+        {"title": "Check", "work": "Take a quiz on federalism and California government."}
+      ], "assessment": "Federalism quiz."},
+    {"week": 14, "unit": 6, "topic": "Local and tribal government, budgets, and courts", "objectives": ["Identify local government responsibilities and revenue", "Describe California's court system"], "standards": ["GOV-12.7.2", "GOV-12.7.7"], "vocabulary": ["county board of supervisors", "city council", "special district", "property tax", "Proposition 13", "tribal sovereignty"], "materials": ["your city/county budget", "city council agenda", "California Courts website"],
+      "days": [
+        {"title": "Local government", "work": "Map who provides your water, schools, police, fire, roads, and parks (city, county, special district)."},
+        {"title": "Budgets", "work": "Analyze your city or county budget: identify the top revenue sources and top spending categories; explain Proposition 13's effect."},
+        {"title": "Tribal governments", "work": "Research a California tribal government's structure and its government-to-government relationship with the state."},
+        {"title": "California courts", "work": "Diagram superior courts, courts of appeal, and the California Supreme Court; compare to federal courts."},
+        {"title": "Attend a meeting", "work": "Attend or watch a recorded city council or school board meeting; write a summary and a public comment you could give. Take the Unit 6 test."}
+      ], "assessment": "Meeting report and Unit 6 test."},
+    {"week": 15, "unit": 7, "topic": "Media and democracy", "objectives": ["Explain the role of a free press", "Evaluate media bias and misinformation"], "standards": ["GOV-12.8", "GOV-12.8.1", "GOV-12.8.2", "GOV-12.8.3"], "vocabulary": ["prior restraint", "media bias", "misinformation", "lateral reading", "agenda setting"], "materials": ["New York Times v. United States (Pentagon Papers) summary", "two news sources on the same story"],
+      "days": [
+        {"title": "Free press", "work": "Analyze the Pentagon Papers case (New York Times v. U.S.) and explain prior restraint."},
+        {"title": "Comparing coverage", "work": "Compare coverage of the same political story in three outlets and identify framing and word-choice differences."},
+        {"title": "Lateral reading", "work": "Practice lateral reading to fact-check five viral social-media claims."},
+        {"title": "Officials and media", "work": "Analyze how a public official uses social media to shape opinion; compare to FDR's fireside chats."},
+        {"title": "Check", "work": "Write a media-literacy guide for voters and take a short quiz."}
+      ], "assessment": "Media-literacy guide."},
+    {"week": 16, "unit": 7, "topic": "Comparative political systems", "objectives": ["Compare democratic and authoritarian systems", "Analyze the rise of tyrannies and new democracies"], "standards": ["GOV-12.9", "GOV-12.9.3", "GOV-12.9.4", "GOV-12.9.5", "GOV-12.9.6", "GOV-12.9.7"], "vocabulary": ["parliamentary", "presidential", "unitary", "confederal", "authoritarian", "totalitarian"], "materials": ["Freedom House country reports", "Mandela 'I Am Prepared to Die' speech excerpt"],
+      "days": [
+        {"title": "System types", "work": "Compare federal, confederal, and unitary systems and presidential vs. parliamentary democracy (U.S. vs. UK)."},
+        {"title": "Rise of tyranny", "work": "Analyze conditions that gave rise to dictatorship in Germany (1933) and one Latin American case (e.g., Chile 1973)."},
+        {"title": "Revolutions", "work": "Analyze the causes and outcomes of the Mexican Revolution (1910) and its constitution of 1917."},
+        {"title": "New democracies", "work": "Read Mandela's 'I Am Prepared to Die' excerpt and analyze South Africa's democratic transition; compare one other new democracy."},
+        {"title": "Check", "work": "Write a comparison of two countries using Freedom House scores and take a quiz."}
+      ], "assessment": "Country comparison and quiz."},
+    {"week": 17, "unit": 7, "topic": "Enduring tensions and civic action project", "objectives": ["Analyze enduring tensions in constitutional democracy", "Take informed civic action"], "standards": ["GOV-12.10", "GOV-12.6.4"], "vocabulary": ["majority rule", "minority rights", "liberty vs. equality", "advocacy"], "materials": ["Letter from Birmingham Jail (King)", "local issue research"],
+      "days": [
+        {"title": "Enduring tensions", "work": "Read excerpts of King's 'Letter from Birmingham Jail' and identify tensions between law, order, liberty, and equality."},
+        {"title": "Choose an issue", "work": "Choose a local or state issue, research multiple perspectives, and identify the decision-makers."},
+        {"title": "Plan action", "work": "Plan one civic action (letter to a legislator, public comment, petition, volunteer project) with a timeline."},
+        {"title": "Take action", "work": "Carry out the action: send the letter, deliver public comment, or complete the volunteer hours, and document it."},
+        {"title": "Reflect", "work": "Write a reflection on what you learned about how change happens in a democracy."}
+      ], "assessment": "Civic action project portfolio."},
+    {"week": 18, "unit": 7, "topic": "Government semester review and final", "objectives": ["Synthesize semester content", "Demonstrate mastery"], "standards": ["GOV-12.1", "GOV-12.4", "GOV-12.5", "GOV-12.10"], "vocabulary": ["review"], "materials": ["review guide", "USCIS civics test"],
+      "days": [
+        {"title": "Review: foundations & rights", "work": "Create a one-page study guide on founding principles and the Bill of Rights."},
+        {"title": "Review: branches & courts", "work": "Complete a review set matching powers to branches and cases to holdings."},
+        {"title": "Civic action presentation", "work": "Present your civic action project in 5 minutes."},
+        {"title": "Practice exam", "work": "Retake the USCIS civics test and complete a practice exam."},
+        {"title": "Semester final", "work": "Take the Government semester final with a DBQ essay on an enduring constitutional tension."}
+      ], "assessment": "Government final exam."},
+    {"week": 19, "unit": 8, "topic": "Scarcity, choice, and opportunity cost", "objectives": ["Explain scarcity and opportunity cost", "Use marginal analysis"], "standards": ["ECON-12.1", "ECON-12.1.1", "ECON-12.1.2"], "vocabulary": ["scarcity", "opportunity cost", "production possibilities frontier", "marginal benefit", "marginal cost"], "materials": ["graph paper", "Khan Academy microeconomics"],
+      "days": [
+        {"title": "Scarcity", "work": "List 10 scarce resources in your life (time, money, space) and identify a choice each forces."},
+        {"title": "Opportunity cost", "work": "Calculate the opportunity cost of attending college vs. working full-time for four years."},
+        {"title": "PPF", "work": "Graph a production possibilities frontier for a household (meals vs. cleaning) and identify efficient, inefficient, and unattainable points."},
+        {"title": "Marginal thinking", "work": "Use a marginal benefit/marginal cost table (slices of pizza, hours of study) to find the optimal choice."},
+        {"title": "Check", "work": "Take a quiz on scarcity, PPF, and marginal analysis."}
+      ], "assessment": "Fundamentals quiz."},
+    {"week": 20, "unit": 8, "topic": "Incentives and economic systems", "objectives": ["Explain how incentives change behavior", "Compare market, command, and mixed economies"], "standards": ["ECON-12.1.3", "ECON-12.1.4"], "vocabulary": ["incentive", "market economy", "command economy", "mixed economy", "private property"], "materials": ["Adam Smith, Wealth of Nations excerpt (Project Gutenberg)", "Marx excerpt"],
+      "days": [
+        {"title": "Incentives", "work": "Classify 10 incentives (bottle deposits, grades, fines, praise) as monetary or nonmonetary and predict behavior changes."},
+        {"title": "Adam Smith", "work": "Read the 'invisible hand' and pin-factory excerpts from The Wealth of Nations and summarize Smith's argument."},
+        {"title": "Command economies", "work": "Compare East and West Germany or North and South Korea using GDP-per-capita data."},
+        {"title": "Property and conservation", "work": "Analyze how property rights affect conservation (e.g., California groundwater rights, fishing quotas)."},
+        {"title": "Unit 8 test", "work": "Take the Unit 8 test with a short essay comparing economic systems."}
+      ], "assessment": "Unit 8 test."},
+    {"week": 21, "unit": 9, "topic": "Demand", "objectives": ["Explain the law of demand", "Distinguish changes in quantity demanded from shifts"], "standards": ["ECON-12.2.1", "ECON-12.2.2"], "vocabulary": ["demand", "substitute", "complement", "elasticity", "normal good"], "materials": ["graph paper", "grocery receipts"],
+      "days": [
+        {"title": "Law of demand", "work": "Survey 10 people on how many coffees they'd buy at different prices and graph a market demand curve."},
+        {"title": "Shifts", "work": "Graph demand shifts caused by income, tastes, substitutes, complements, and expectations for 8 scenarios."},
+        {"title": "Elasticity", "work": "Calculate price elasticity for three goods and classify each as elastic or inelastic."},
+        {"title": "Real data", "work": "Analyze how gasoline demand responded to price spikes using EIA California gas price data."},
+        {"title": "Check", "work": "Take a demand quiz."}
+      ], "assessment": "Demand quiz."},
+    {"week": 22, "unit": 9, "topic": "Supply and market equilibrium", "objectives": ["Explain the law of supply", "Find equilibrium and analyze shifts"], "standards": ["ECON-12.2.2", "ECON-12.2.4", "ECON-12.2.5"], "vocabulary": ["supply", "equilibrium", "surplus", "shortage", "price signal"], "materials": ["graph paper", "index cards for market simulation"],
+      "days": [
+        {"title": "Law of supply", "work": "Build a supply schedule for a lemonade stand and graph it; identify supply shifters."},
+        {"title": "Market simulation", "work": "Run a pit-market simulation with family using buyer/seller index cards and record trade prices across rounds."},
+        {"title": "Equilibrium", "work": "Find equilibrium from schedules and graphs; identify shortages and surpluses."},
+        {"title": "Double shifts", "work": "Analyze 6 scenarios where supply and demand shift (e.g., avocado prices after a drought) and predict price and quantity."},
+        {"title": "Check", "work": "Take a supply and equilibrium quiz."}
+      ], "assessment": "Equilibrium quiz."},
+    {"week": 23, "unit": 9, "topic": "Price controls and market structures", "objectives": ["Analyze price ceilings and floors", "Compare competition, monopoly, and oligopoly"], "standards": ["ECON-12.2.3", "ECON-12.2.6", "ECON-12.2.7"], "vocabulary": ["price ceiling", "price floor", "monopoly", "oligopoly", "antitrust"], "materials": ["rent control articles", "Sherman Antitrust Act text"],
+      "days": [
+        {"title": "Price ceilings", "work": "Graph the effect of rent control and analyze California's Costa-Hawkins Act debates."},
+        {"title": "Price floors", "work": "Graph a minimum wage as a price floor and discuss predicted vs. observed effects."},
+        {"title": "Market structures", "work": "Compare perfect competition, monopolistic competition, oligopoly, and monopoly in a chart with California examples."},
+        {"title": "Antitrust", "work": "Read excerpts of the Sherman Antitrust Act and analyze a recent tech antitrust case."},
+        {"title": "Check", "work": "Write a policy brief on one price control and take a quiz."}
+      ], "assessment": "Price-control policy brief."},
+    {"week": 24, "unit": 9, "topic": "Entrepreneurship, financial markets, and location", "objectives": ["Explain profit as an incentive", "Describe financial markets", "Explain location decisions"], "standards": ["ECON-12.2.8", "ECON-12.2.9", "ECON-12.2.10"], "vocabulary": ["entrepreneur", "profit", "stock", "bond", "venture capital", "comparative location"], "materials": ["SEC Investor.gov", "map of California agriculture and industry"],
+      "days": [
+        {"title": "Entrepreneurs", "work": "Research a California startup's origin and identify the risks and profit incentive behind it."},
+        {"title": "Business plan", "work": "Write a one-page lean business plan with costs, price, and break-even quantity."},
+        {"title": "Financial markets", "work": "Explain how stocks, bonds, and banks channel savings to investment; track a stock and a Treasury yield for a week."},
+        {"title": "Location", "work": "Analyze why the Central Valley grows almonds, why Silicon Valley clusters tech, and how ports shape logistics in the Inland Empire."},
+        {"title": "Unit 9 test", "work": "Take the Unit 9 test on markets."}
+      ], "assessment": "Business plan and Unit 9 test."},
+    {"week": 25, "unit": 10, "topic": "Market failures and the role of government", "objectives": ["Identify public goods and externalities", "Evaluate government interventions"], "standards": ["ECON-12.3", "ECON-12.3.1", "ECON-12.3.2"], "vocabulary": ["public good", "externality", "free rider", "regulation", "government failure"], "materials": ["CARB cap-and-trade overview", "FTC consumer protection page"],
+      "days": [
+        {"title": "Public goods", "work": "Classify 10 goods as private, public, common resource, or club goods and explain the free-rider problem."},
+        {"title": "Externalities", "work": "Graph a negative externality (air pollution) and analyze California's cap-and-trade as a solution."},
+        {"title": "Consumer protection", "work": "Read about the FTC and a California consumer protection law (e.g., CCPA privacy) and explain the market problem it addresses."},
+        {"title": "Costs vs. benefits", "work": "Analyze a case where regulation costs may exceed benefits (permitting delays, housing) and propose improvements."},
+        {"title": "Check", "work": "Take a quiz on the government's role."}
+      ], "assessment": "Government-role quiz."},
+    {"week": 26, "unit": 10, "topic": "Taxes, spending, and the budget", "objectives": ["Describe federal and California revenue and spending", "Evaluate tax fairness"], "standards": ["ECON-12.3.3", "ECON-12.3.2"], "vocabulary": ["progressive tax", "regressive tax", "deficit", "national debt", "entitlement"], "materials": ["CBO budget infographics", "California budget summary (ebudget.ca.gov)"],
+      "days": [
+        {"title": "Federal budget", "work": "Analyze CBO charts of federal revenue and spending; identify the largest categories."},
+        {"title": "California budget", "work": "Compare California's budget sources (income tax, sales tax) and spending (K-12, health, corrections)."},
+        {"title": "Tax fairness", "work": "Calculate tax burdens under progressive, proportional, and regressive systems for three sample incomes."},
+        {"title": "Debt and deficits", "work": "Graph debt-to-GDP since 1940 using FRED and explain causes of major increases."},
+        {"title": "Budget simulation", "work": "Complete a federal budget simulation, balancing priorities, and take the Unit 10 test."}
+      ], "assessment": "Budget simulation and Unit 10 test."},
+    {"week": 27, "unit": 11, "topic": "Labor markets and wages", "objectives": ["Explain wage determination", "Analyze productivity and skills"], "standards": ["ECON-12.4.2", "ECON-12.4.3"], "vocabulary": ["labor supply", "labor demand", "human capital", "productivity", "derived demand"], "materials": ["BLS Occupational Outlook Handbook", "California EDD labor market data"],
+      "days": [
+        {"title": "Wages as prices", "work": "Graph labor supply and demand for two occupations and explain wage differences."},
+        {"title": "Human capital", "work": "Use BLS data to graph median earnings and unemployment by education level."},
+        {"title": "Career research", "work": "Research two careers in the Occupational Outlook Handbook and California EDD projections for your region."},
+        {"title": "Technology and work", "work": "Analyze how automation and AI affect demand for different skills; read one current article."},
+        {"title": "Check", "work": "Take a labor market quiz."}
+      ], "assessment": "Career research chart and quiz."},
+    {"week": 28, "unit": 11, "topic": "Unions, minimum wage, and global labor", "objectives": ["Trace the history of labor unions", "Evaluate minimum wage and unemployment insurance", "Explain global capital and labor mobility"], "standards": ["ECON-12.4.1", "ECON-12.4.4"], "vocabulary": ["collective bargaining", "strike", "minimum wage", "unemployment insurance", "outsourcing"], "materials": ["Cesar Chavez speeches (UFW)", "Dept. of Industrial Relations minimum wage page"],
+      "days": [
+        {"title": "Union history", "work": "Read about the AFL, CIO, and the United Farm Workers; analyze a Cesar Chavez speech."},
+        {"title": "Collective bargaining", "work": "Simulate a contract negotiation between a union and employer with family playing roles."},
+        {"title": "Minimum wage", "work": "Compare California's current minimum wage with the federal rate and evaluate research on its effects."},
+        {"title": "Global mobility", "work": "Analyze how capital mobility (factories moving abroad) and immigration affect U.S. workers and consumers."},
+        {"title": "Unit 11 test", "work": "Take the Unit 11 test on labor markets."}
+      ], "assessment": "Unit 11 test."},
+    {"week": 29, "unit": 12, "topic": "GDP and economic growth", "objectives": ["Calculate GDP and growth rates", "Distinguish nominal and real data"], "standards": ["ECON-12.5", "ECON-12.5.1", "ECON-12.5.2"], "vocabulary": ["GDP", "real vs. nominal", "business cycle", "recession", "GDP per capita"], "materials": ["FRED", "BEA GDP release"],
+      "days": [
+        {"title": "Measuring GDP", "work": "Learn the expenditure approach (C+I+G+NX) and classify 10 transactions as counted or not."},
+        {"title": "Real vs. nominal", "work": "Convert nominal GDP to real GDP with a price index and compute growth rates."},
+        {"title": "Business cycle", "work": "Graph real GDP from FRED since 2000 and label expansions and recessions (2001, 2008, 2020)."},
+        {"title": "Latest release", "work": "Read the latest BEA GDP news release and summarize what drove growth."},
+        {"title": "Check", "work": "Take a GDP quiz."}
+      ], "assessment": "GDP quiz."},
+    {"week": 30, "unit": 12, "topic": "Unemployment and inflation", "objectives": ["Calculate unemployment and inflation rates", "Explain their significance"], "standards": ["ECON-12.5.2", "ECON-12.5.1"], "vocabulary": ["unemployment rate", "labor force", "CPI", "inflation", "deflation", "stagflation"], "materials": ["BLS Employment Situation report", "BLS CPI inflation calculator"],
+      "days": [
+        {"title": "Unemployment", "work": "Calculate unemployment and labor-force participation rates from sample data; classify frictional, structural, and cyclical unemployment."},
+        {"title": "Jobs report", "work": "Read the latest BLS Employment Situation summary and record new jobs and the unemployment rate."},
+        {"title": "Build a CPI", "work": "Build a personal 'market basket' of 10 items, price it now and from last year, and compute your own inflation rate."},
+        {"title": "Inflation history", "work": "Graph CPI inflation since 1970 from FRED and explain the 1970s, 2008, and 2021–2023 episodes."},
+        {"title": "Check", "work": "Take a quiz on unemployment and inflation."}
+      ], "assessment": "Personal CPI project and quiz."},
+    {"week": 31, "unit": 12, "topic": "Money, the Fed, and fiscal vs. monetary policy", "objectives": ["Explain the Fed's tools", "Compare fiscal and monetary policy", "Distinguish short- and long-term interest rates"], "standards": ["ECON-12.3.3", "ECON-12.3.4", "ECON-12.5.3"], "vocabulary": ["federal funds rate", "open market operations", "yield curve", "stimulus", "quantitative easing"], "materials": ["latest FOMC statement (federalreserve.gov)", "FRED yield data"],
+      "days": [
+        {"title": "What is money?", "work": "Explain the functions of money and how banks create money through fractional reserve lending with a worked example."},
+        {"title": "The Fed", "work": "Read the most recent FOMC statement and identify the policy decision and the reasons given."},
+        {"title": "Interest rates", "work": "Graph 3-month vs. 10-year Treasury yields on FRED and explain the yield curve and why inversions matter."},
+        {"title": "Policy match", "work": "Match 10 scenarios to appropriate fiscal or monetary responses and explain trade-offs."},
+        {"title": "Unit 12 test", "work": "Take the Unit 12 test on macroeconomics."}
+      ], "assessment": "Unit 12 test."},
+    {"week": 32, "unit": 13, "topic": "Comparative advantage and trade", "objectives": ["Explain gains from trade", "Calculate comparative advantage"], "standards": ["ECON-12.6", "ECON-12.6.1"], "vocabulary": ["absolute advantage", "comparative advantage", "specialization", "imports", "exports"], "materials": ["Census trade data", "Port of Los Angeles/Long Beach statistics"],
+      "days": [
+        {"title": "Comparative advantage", "work": "Calculate opportunity costs for two countries producing two goods and determine who should specialize in what."},
+        {"title": "Gains from trade", "work": "Show consumption gains from trade on a PPF graph."},
+        {"title": "California trade", "work": "Analyze California's top exports and imports and trading partners using Census data and port statistics."},
+        {"title": "Western Hemisphere", "work": "Trace changing trade patterns with Mexico and Canada over the 20th century."},
+        {"title": "Check", "work": "Take a comparative advantage quiz."}
+      ], "assessment": "Comparative advantage quiz."},
+    {"week": 33, "unit": 13, "topic": "Trade policy: tariffs and agreements", "objectives": ["Compare Smoot-Hawley with modern trade debates", "Evaluate effects of trade agreements"], "standards": ["ECON-12.6.2", "ECON-12.6.3"], "vocabulary": ["tariff", "quota", "protectionism", "free trade", "NAFTA/USMCA", "WTO"], "materials": ["Smoot-Hawley Tariff primary sources", "USMCA summary (USTR)"],
+      "days": [
+        {"title": "Smoot-Hawley", "work": "Read the 1930 economists' petition against Smoot-Hawley and analyze its effects on trade during the Depression."},
+        {"title": "Tariff graph", "work": "Graph the effect of a tariff on domestic price, imports, and deadweight loss."},
+        {"title": "NAFTA to USMCA", "work": "Evaluate winners and losers of NAFTA and changes in USMCA from the perspectives of workers, farmers, and consumers."},
+        {"title": "Current debate", "work": "Analyze a current tariff debate and identify the arguments of labor, business, and political leaders."},
+        {"title": "Debate", "work": "Hold a structured debate on free trade vs. protection and write a reflection."}
+      ], "assessment": "Trade policy debate."},
+    {"week": 34, "unit": 13, "topic": "Exchange rates and the global economy", "objectives": ["Explain exchange rates", "Analyze effects of a strong or weak dollar"], "standards": ["ECON-12.6.4", "ECON-12.4.4"], "vocabulary": ["exchange rate", "appreciation", "depreciation", "balance of trade", "foreign direct investment"], "materials": ["currency converter", "FRED dollar index"],
+      "days": [
+        {"title": "Exchange rates", "work": "Convert a travel budget into three currencies and explain what determines exchange rates."},
+        {"title": "Strong vs. weak dollar", "work": "Analyze who benefits when the dollar appreciates (importers, tourists abroad) vs. depreciates (exporters)."},
+        {"title": "Dollar index", "work": "Graph the trade-weighted dollar index on FRED over 10 years and connect changes to events."},
+        {"title": "Global capital", "work": "Research foreign direct investment in California (e.g., auto or battery plants) and its effects on jobs."},
+        {"title": "Unit 13 test", "work": "Take the Unit 13 test on international economics."}
+      ], "assessment": "Unit 13 test."},
+    {"week": 35, "unit": 14, "topic": "Economics capstone: policy analysis", "objectives": ["Apply economic reasoning to a real policy", "Present a cost-benefit analysis"], "standards": ["ECON-12.1.2", "ECON-12.3.2", "ECON-12.2.2"], "vocabulary": ["cost-benefit analysis", "unintended consequences", "trade-off"], "materials": ["LAO reports", "FRED", "slides"],
+      "days": [
+        {"title": "Choose a policy", "work": "Choose a current California or federal economic policy (housing, minimum wage, gas tax, tariffs) and read an LAO or CBO analysis."},
+        {"title": "Analyze", "work": "Use supply-and-demand graphs to predict effects on prices, quantities, and different groups."},
+        {"title": "Data", "work": "Gather at least two data series from FRED or BLS supporting your analysis."},
+        {"title": "Write", "work": "Write a 1,000-word policy analysis with a recommendation and acknowledgment of trade-offs."},
+        {"title": "Present", "work": "Present your analysis in 7 minutes to family or co-op."}
+      ], "assessment": "Policy analysis paper and presentation."},
+    {"week": 36, "unit": 14, "topic": "Economics review and final", "objectives": ["Review economics concepts", "Demonstrate mastery"], "standards": ["ECON-12.1.2", "ECON-12.2.2", "ECON-12.5.2", "ECON-12.3.2"], "vocabulary": ["review"], "materials": ["review guide"],
+      "days": [
+        {"title": "Review micro", "work": "Complete a review set on opportunity cost, supply and demand, and market structures."},
+        {"title": "Review macro", "work": "Complete a review set on GDP, unemployment, inflation, fiscal and monetary policy."},
+        {"title": "Review trade", "work": "Complete a review set on comparative advantage, tariffs, and exchange rates."},
+        {"title": "Practice exam", "work": "Take a timed practice final and correct errors."},
+        {"title": "Final exam", "work": "Take the Economics final exam."}
+      ], "assessment": "Economics final exam."}
+  ]
+}

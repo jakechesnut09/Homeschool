@@ -1,0 +1,1881 @@
+{
+ "grade": 11,
+ "subject": "VAPA",
+ "title": "Theatre & Performing Arts",
+ "description": "A year-long introduction to theatre as both art form and craft. Students build ensemble and improvisation skills, train voice and body, learn Stanislavski-based acting technique through monologues and scenes, survey theatre history from ancient Greece to contemporary American and Latinx theatre, explore technical design, write and devise original short plays, and culminate in a directed one-act production for a live audience. Students keep a performance journal and write formal play critiques.",
+ "framework": "2019 California Arts Standards for Public Schools – Theatre (High School Proficient); 2020 California Arts Education Framework",
+ "minutes_per_day": 50,
+ "ag_requirement": "f",
+ "credits": 10,
+ "standards": {
+  "TH:Cr1.1.HSI": "Apply basic research to construct ideas about the visual composition of a drama/theatre work; explore physical, vocal, and physiological choices to develop a performance.",
+  "TH:Cr2.1.HSI": "Explore the function of history and culture in the development of a dramatic concept through a critical analysis of original ideas; investigate collaborative roles.",
+  "TH:Cr3.1.HSI": "Practice and revise a devised or scripted drama/theatre work using theatrical staging conventions; refine technical design choices.",
+  "TH:Pr4.1.HSI": "Examine how character relationships assist in telling the story; shape character choices using given circumstances.",
+  "TH:Pr5.1.HSI": "Practice various acting techniques to expand skills in a rehearsal or performance; use researched technical elements to increase the impact of design.",
+  "TH:Pr6.1.HSI": "Perform a scripted drama/theatre work for a specific audience.",
+  "TH:Re7.1.HSI": "Respond to what is seen, felt, and heard in a drama/theatre work to develop criteria for artistic choices.",
+  "TH:Re8.1.HSI": "Analyze and compare artistic choices developed from personal experiences and cultural contexts in multiple drama/theatre works.",
+  "TH:Re9.1.HSI": "Examine a drama/theatre work using supporting evidence and criteria while considering art forms, history, culture, and other disciplines.",
+  "TH:Cn10.1.HSI": "Investigate how cultural perspectives, community ideas, and personal beliefs impact a drama/theatre work.",
+  "TH:Cn11.1.HSI": "Explore how cultural, global, and historic belief systems affect creative choices in a drama/theatre work.",
+  "TH:Cn11.2.HSI": "Research how other theatre artists apply creative processes to tell stories in a devised or scripted drama/theatre work, using theatre research methods."
+ },
+ "resources": [
+  {
+   "name": "Project Gutenberg – Drama",
+   "url": "https://www.gutenberg.org/",
+   "note": "Public-domain scripts: Sophocles, Shakespeare, Molière, Chekhov, Glaspell's Trifles, Wilde"
+  },
+  {
+   "name": "Folger Shakespeare Library",
+   "url": "https://www.folger.edu/",
+   "note": "Free Folger Shakespeare texts and teaching resources"
+  },
+  {
+   "name": "PBS LearningMedia – Theater",
+   "url": "https://www.pbslearningmedia.org/",
+   "note": "Free videos on acting, design, and theatre history"
+  },
+  {
+   "name": "National Theatre at Home / National Theatre YouTube",
+   "url": "https://www.youtube.com/@NationalTheatre",
+   "note": "Free behind-the-scenes and craft videos (voice, movement, design)"
+  },
+  {
+   "name": "Drama Notebook – free resources",
+   "url": "https://www.dramanotebook.com/",
+   "note": "Free warm-ups, improv games, and monologue lists"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Ensemble and Improvisation",
+   "start_week": 1,
+   "end_week": 4,
+   "big_idea": "Theatre begins with trust, listening, and saying 'yes, and' to a scene partner.",
+   "standards": [
+    "TH:Cr2.1.HSI",
+    "TH:Re7.1.HSI",
+    "TH:Cr1.1.HSI",
+    "TH:Pr4.1.HSI",
+    "TH:Cr3.1.HSI"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Voice and Movement",
+   "start_week": 5,
+   "end_week": 7,
+   "big_idea": "An actor's body and voice are instruments that must be trained to communicate clearly and expressively.",
+   "standards": [
+    "TH:Pr5.1.HSI",
+    "TH:Cr1.1.HSI",
+    "TH:Pr6.1.HSI",
+    "TH:Cn11.1.HSI"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Acting Technique and the Monologue",
+   "start_week": 8,
+   "end_week": 11,
+   "big_idea": "Truthful acting comes from playing objectives against obstacles within given circumstances.",
+   "standards": [
+    "TH:Pr4.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cn11.2.HSI",
+    "TH:Cr1.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Pr6.1.HSI",
+    "TH:Re9.1.HSI",
+    "TH:Re7.1.HSI"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Theatre History: Greece to Shakespeare",
+   "start_week": 12,
+   "end_week": 15,
+   "big_idea": "Theatre's conventions grew from the beliefs and playing spaces of each culture and era.",
+   "standards": [
+    "TH:Cn11.1.HSI",
+    "TH:Re8.1.HSI",
+    "TH:Cr2.1.HSI",
+    "TH:Pr4.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cn11.2.HSI",
+    "TH:Pr6.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Re9.1.HSI"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Scene Study and Winter Showcase",
+   "start_week": 16,
+   "end_week": 18,
+   "big_idea": "Scenes come alive when partners listen and react truthfully to each other.",
+   "standards": [
+    "TH:Pr4.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cr1.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Pr6.1.HSI",
+    "TH:Re9.1.HSI",
+    "TH:Re7.1.HSI"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "American Realism and Diverse Voices",
+   "start_week": 19,
+   "end_week": 22,
+   "big_idea": "American playwrights used realism and new forms to examine family, society, and identity.",
+   "standards": [
+    "TH:Cn11.1.HSI",
+    "TH:Pr4.1.HSI",
+    "TH:Re8.1.HSI",
+    "TH:Cr1.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cn10.1.HSI",
+    "TH:Re7.1.HSI",
+    "TH:Re9.1.HSI"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Technical Theatre and Design",
+   "start_week": 23,
+   "end_week": 26,
+   "big_idea": "Sets, lights, costumes, and sound are storytelling tools that must serve the production concept.",
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cn11.2.HSI",
+    "TH:Cr2.1.HSI",
+    "TH:Re9.1.HSI"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Playwriting and Devised Theatre",
+   "start_week": 27,
+   "end_week": 30,
+   "big_idea": "Original theatre grows from personal and community stories shaped by dramatic structure.",
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Cr2.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Cn10.1.HSI",
+    "TH:Cn11.2.HSI",
+    "TH:Pr6.1.HSI",
+    "TH:Re7.1.HSI",
+    "TH:Re9.1.HSI"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Directing and Final Production",
+   "start_week": 31,
+   "end_week": 36,
+   "big_idea": "A production unites actors, designers, and director in a shared interpretation for a live audience.",
+   "standards": [
+    "TH:Cr2.1.HSI",
+    "TH:Cn11.2.HSI",
+    "TH:Re9.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Pr4.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Pr6.1.HSI",
+    "TH:Re7.1.HSI",
+    "TH:Cn10.1.HSI"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "Building the ensemble",
+   "objectives": [
+    "Develop trust and focus",
+    "Reflect in a performance journal"
+   ],
+   "standards": [
+    "TH:Cr2.1.HSI",
+    "TH:Re7.1.HSI"
+   ],
+   "vocabulary": [
+    "ensemble",
+    "focus",
+    "trust",
+    "neutral stance"
+   ],
+   "materials": [
+    "open space",
+    "performance journal"
+   ],
+   "days": [
+    {
+     "title": "What is theatre?",
+     "work": "Discuss what makes theatre different from film; set up a performance journal with goals for the year."
+    },
+    {
+     "title": "Focus games",
+     "work": "Play mirror, Zip-Zap-Zop (with family), and 'counting to 20' focus games; journal what improved concentration."
+    },
+    {
+     "title": "Trust & physical awareness",
+     "work": "Practice trust walks, neutral stance, and space-walking with tempo changes 1–10."
+    },
+    {
+     "title": "Group storytelling",
+     "work": "Build a one-word-at-a-time story and a tableau series of a fairy tale in three frozen images."
+    },
+    {
+     "title": "Reflect & check",
+     "work": "Perform a 3-tableau story for family and write a journal reflection on ensemble skills."
+    }
+   ],
+   "assessment": "Tableau performance and journal."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "Improvisation fundamentals",
+   "objectives": [
+    "Apply 'yes, and' and CROW (character, relationship, objective, where)"
+   ],
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Cr2.1.HSI"
+   ],
+   "vocabulary": [
+    "improvisation",
+    "yes, and",
+    "offer",
+    "block",
+    "CROW"
+   ],
+   "materials": [
+    "timer",
+    "suggestion cards"
+   ],
+   "days": [
+    {
+     "title": "Yes, and",
+     "work": "Practice 'yes, and' vs. 'yes, but' dialogues and identify blocking offers."
+    },
+    {
+     "title": "CROW",
+     "work": "Improvise 2-minute scenes establishing character, relationship, objective, and where within the first 30 seconds."
+    },
+    {
+     "title": "Status",
+     "work": "Explore high- and low-status physical and vocal choices in short scenes."
+    },
+    {
+     "title": "Short-form games",
+     "work": "Play Freeze, Three-Line Scene, and Party Quirks; journal which choices worked."
+    },
+    {
+     "title": "Check",
+     "work": "Perform three improvised scenes from audience suggestions and self-evaluate with a CROW rubric."
+    }
+   ],
+   "assessment": "Improvisation rubric."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "Character through improvisation",
+   "objectives": [
+    "Develop characters through physical choices"
+   ],
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Pr4.1.HSI"
+   ],
+   "vocabulary": [
+    "leading center",
+    "gesture",
+    "character walk",
+    "given circumstances"
+   ],
+   "materials": [
+    "costume pieces (hats, scarves)"
+   ],
+   "days": [
+    {
+     "title": "Leading centers",
+     "work": "Explore walking led by head, chest, belly, and knees; create a character from each."
+    },
+    {
+     "title": "Animal work",
+     "work": "Observe an animal (pet or video) and transform its movement into a human character."
+    },
+    {
+     "title": "Hot seating",
+     "work": "Answer interview questions in character for 5 minutes."
+    },
+    {
+     "title": "Character monologue",
+     "work": "Improvise a 1-minute character monologue built from a costume piece."
+    },
+    {
+     "title": "Check",
+     "work": "Perform two contrasting improvised characters and write a character profile."
+    }
+   ],
+   "assessment": "Character profile and performance."
+  },
+  {
+   "week": 4,
+   "unit": 1,
+   "topic": "Long-form improvisation and storytelling",
+   "objectives": [
+    "Create structured improvised stories"
+   ],
+   "standards": [
+    "TH:Cr2.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Re7.1.HSI"
+   ],
+   "vocabulary": [
+    "Harold",
+    "story spine",
+    "callback",
+    "beat"
+   ],
+   "materials": [
+    "story spine template"
+   ],
+   "days": [
+    {
+     "title": "Story spine",
+     "work": "Learn the story spine ('Once upon a time... until finally') and improvise five stories."
+    },
+    {
+     "title": "Callbacks",
+     "work": "Practice linking scenes with recurring characters and callbacks."
+    },
+    {
+     "title": "Watch & respond",
+     "work": "Watch a professional improv clip and write a response identifying offers and callbacks."
+    },
+    {
+     "title": "Rehearse",
+     "work": "Rehearse a 10-minute structured long-form piece with family or friends."
+    },
+    {
+     "title": "Unit check",
+     "work": "Perform the long-form piece and complete a written reflection on Unit 1 growth."
+    }
+   ],
+   "assessment": "Long-form performance."
+  },
+  {
+   "week": 5,
+   "unit": 2,
+   "topic": "Voice: breath, resonance, and articulation",
+   "objectives": [
+    "Develop breath support and articulation"
+   ],
+   "standards": [
+    "TH:Pr5.1.HSI"
+   ],
+   "vocabulary": [
+    "diaphragm",
+    "resonance",
+    "articulation",
+    "projection",
+    "tongue twister"
+   ],
+   "materials": [
+    "yoga mat",
+    "mirror",
+    "recording app"
+   ],
+   "days": [
+    {
+     "title": "Breath",
+     "work": "Practice diaphragmatic breathing lying down with a book on the abdomen; sustain an 's' sound for time."
+    },
+    {
+     "title": "Resonance",
+     "work": "Explore chest, mask, and head resonance with humming and sirens."
+    },
+    {
+     "title": "Articulation",
+     "work": "Drill 10 tongue twisters at increasing speeds and record before-and-after clips."
+    },
+    {
+     "title": "Projection",
+     "work": "Deliver a short poem to a partner at 5, 15, and 30 feet without shouting."
+    },
+    {
+     "title": "Check",
+     "work": "Perform a vocal warm-up routine you designed and a 1-minute poem reading; compare to the week 1 recording."
+    }
+   ],
+   "assessment": "Vocal recording comparison."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Movement and physical theatre",
+   "objectives": [
+    "Use Laban efforts and physical storytelling"
+   ],
+   "standards": [
+    "TH:Pr5.1.HSI",
+    "TH:Cr1.1.HSI"
+   ],
+   "vocabulary": [
+    "Laban efforts",
+    "weight",
+    "time",
+    "flow",
+    "mime",
+    "physical theatre"
+   ],
+   "materials": [
+    "open space",
+    "music playlist"
+   ],
+   "days": [
+    {
+     "title": "Laban efforts",
+     "work": "Explore the eight Laban efforts (punch, float, glide, slash, etc.) through movement improvisation."
+    },
+    {
+     "title": "Mime",
+     "work": "Practice mime illusions (wall, rope pull, weight) and create a 1-minute mime scene."
+    },
+    {
+     "title": "Physical storytelling",
+     "work": "Watch a clip of a physical theatre company and identify techniques."
+    },
+    {
+     "title": "Neutral mask",
+     "work": "Explore neutral movement and a character arc without words."
+    },
+    {
+     "title": "Check",
+     "work": "Perform a 2-minute wordless physical theatre piece with a clear beginning, middle, and end."
+    }
+   ],
+   "assessment": "Physical theatre piece."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "Voice and body together: dialects and choral speaking",
+   "objectives": [
+    "Integrate voice and movement",
+    "Explore choral speaking"
+   ],
+   "standards": [
+    "TH:Pr5.1.HSI",
+    "TH:Pr6.1.HSI",
+    "TH:Cn11.1.HSI"
+   ],
+   "vocabulary": [
+    "dialect",
+    "choral speaking",
+    "pace",
+    "pitch",
+    "inflection"
+   ],
+   "materials": [
+    "recording app",
+    "choral text (e.g., Whitman excerpt or Greek chorus ode)"
+   ],
+   "days": [
+    {
+     "title": "Pitch & inflection",
+     "work": "Read a neutral sentence ten ways to convey different subtexts."
+    },
+    {
+     "title": "Dialect awareness",
+     "work": "Listen to the International Dialects of English Archive samples and discuss respectful use of dialect."
+    },
+    {
+     "title": "Choral speaking",
+     "work": "Arrange a Greek chorus excerpt or Whitman poem for multiple voices with movement."
+    },
+    {
+     "title": "Rehearse",
+     "work": "Rehearse the choral piece focusing on unison, contrast, and staging."
+    },
+    {
+     "title": "Unit check",
+     "work": "Perform the choral piece and complete a voice and movement self-assessment."
+    }
+   ],
+   "assessment": "Choral performance."
+  },
+  {
+   "week": 8,
+   "unit": 3,
+   "topic": "Stanislavski and given circumstances",
+   "objectives": [
+    "Define objectives, obstacles, and tactics",
+    "Analyze given circumstances"
+   ],
+   "standards": [
+    "TH:Pr4.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cn11.2.HSI"
+   ],
+   "vocabulary": [
+    "objective",
+    "obstacle",
+    "tactic",
+    "given circumstances",
+    "magic if",
+    "super-objective"
+   ],
+   "materials": [
+    "Stanislavski overview reading",
+    "script excerpts"
+   ],
+   "days": [
+    {
+     "title": "Stanislavski",
+     "work": "Read an overview of Stanislavski's system and the 'magic if'."
+    },
+    {
+     "title": "Objectives & tactics",
+     "work": "Play an improvised scene where you must get a partner to open a door using five different tactics."
+    },
+    {
+     "title": "Given circumstances",
+     "work": "Analyze who, what, where, when, why for a short scene from Chekhov's The Proposal."
+    },
+    {
+     "title": "Beats",
+     "work": "Break a 1-page scene into beats and label each with an active verb."
+    },
+    {
+     "title": "Check",
+     "work": "Quiz on Stanislavski terms and a scored scene analysis."
+    }
+   ],
+   "assessment": "Scene analysis."
+  },
+  {
+   "week": 9,
+   "unit": 3,
+   "topic": "Choosing and analyzing a monologue",
+   "objectives": [
+    "Select an appropriate monologue",
+    "Score the text"
+   ],
+   "standards": [
+    "TH:Pr4.1.HSI",
+    "TH:Cr1.1.HSI"
+   ],
+   "vocabulary": [
+    "monologue",
+    "subtext",
+    "operative word",
+    "scoring"
+   ],
+   "materials": [
+    "monologue collections (library), Drama Notebook lists"
+   ],
+   "days": [
+    {
+     "title": "Selection",
+     "work": "Read 10 age-appropriate monologues and choose a contemporary or classical piece."
+    },
+    {
+     "title": "Read the play",
+     "work": "Read the full play the monologue comes from and write the given circumstances."
+    },
+    {
+     "title": "Scoring",
+     "work": "Score the monologue with beats, tactics, operative words, and pauses."
+    },
+    {
+     "title": "Memorization",
+     "work": "Memorize using chunking and walking rehearsal."
+    },
+    {
+     "title": "Check",
+     "work": "Perform off-book for family and receive feedback."
+    }
+   ],
+   "assessment": "Monologue progress check."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Monologue rehearsal",
+   "objectives": [
+    "Refine monologue performance"
+   ],
+   "standards": [
+    "TH:Pr5.1.HSI",
+    "TH:Cr3.1.HSI"
+   ],
+   "vocabulary": [
+    "blocking",
+    "focal point",
+    "emotional recall",
+    "moment before"
+   ],
+   "materials": [
+    "mirror",
+    "recording app"
+   ],
+   "days": [
+    {
+     "title": "Moment before",
+     "work": "Improvise the moment before the monologue and connect it to the opening line."
+    },
+    {
+     "title": "Blocking",
+     "work": "Block the monologue with purposeful movement and a focal point."
+    },
+    {
+     "title": "Video review",
+     "work": "Record and analyze your performance with a rubric."
+    },
+    {
+     "title": "Coaching",
+     "work": "Work with a coach or family member on specific notes."
+    },
+    {
+     "title": "Check",
+     "work": "Perform a refined version and write a rehearsal journal entry."
+    }
+   ],
+   "assessment": "Rehearsal journal."
+  },
+  {
+   "week": 11,
+   "unit": 3,
+   "topic": "Monologue performance and critique",
+   "objectives": [
+    "Perform a monologue for an audience",
+    "Give constructive critique"
+   ],
+   "standards": [
+    "TH:Pr6.1.HSI",
+    "TH:Re9.1.HSI",
+    "TH:Re7.1.HSI"
+   ],
+   "vocabulary": [
+    "slate",
+    "audition",
+    "critique",
+    "criteria"
+   ],
+   "materials": [
+    "performance space"
+   ],
+   "days": [
+    {
+     "title": "Slating",
+     "work": "Learn to slate (name and piece) and practice audition etiquette."
+    },
+    {
+     "title": "Dress rehearsal",
+     "work": "Run the monologue twice with notes."
+    },
+    {
+     "title": "Performance",
+     "work": "Perform the monologue for an audience and record it."
+    },
+    {
+     "title": "Critique",
+     "work": "Watch a professional monologue and write a critique using criteria."
+    },
+    {
+     "title": "Unit check",
+     "work": "Self-assess performance video and set goals."
+    }
+   ],
+   "assessment": "Monologue performance rubric."
+  },
+  {
+   "week": 12,
+   "unit": 4,
+   "topic": "Greek theatre",
+   "objectives": [
+    "Explain the origins of Western theatre",
+    "Perform Greek chorus work"
+   ],
+   "standards": [
+    "TH:Cn11.1.HSI",
+    "TH:Re8.1.HSI",
+    "TH:Cr2.1.HSI"
+   ],
+   "vocabulary": [
+    "tragedy",
+    "chorus",
+    "catharsis",
+    "amphitheater",
+    "hubris",
+    "mask"
+   ],
+   "materials": [
+    "Sophocles, Antigone (Gutenberg)",
+    "paper plates for masks"
+   ],
+   "days": [
+    {
+     "title": "Origins",
+     "work": "Read about the Festival of Dionysus and the structure of a Greek theatre."
+    },
+    {
+     "title": "Antigone",
+     "work": "Read key scenes of Antigone and discuss conflict between law and conscience."
+    },
+    {
+     "title": "Masks",
+     "work": "Make a Greek tragedy mask and explore how masks change movement."
+    },
+    {
+     "title": "Chorus",
+     "work": "Stage a chorus ode with unison movement."
+    },
+    {
+     "title": "Check",
+     "work": "Quiz on Greek theatre and a perform-the-chorus showing."
+    }
+   ],
+   "assessment": "Quiz and chorus performance."
+  },
+  {
+   "week": 13,
+   "unit": 4,
+   "topic": "Medieval, commedia dell'arte, and world traditions",
+   "objectives": [
+    "Compare theatrical traditions across cultures"
+   ],
+   "standards": [
+    "TH:Cn11.1.HSI",
+    "TH:Re8.1.HSI"
+   ],
+   "vocabulary": [
+    "commedia dell'arte",
+    "lazzi",
+    "stock character",
+    "Noh",
+    "kabuki",
+    "mystery play"
+   ],
+   "materials": [
+    "commedia character images",
+    "Noh and kabuki video clips"
+   ],
+   "days": [
+    {
+     "title": "Medieval theatre",
+     "work": "Read about mystery and morality plays and pageant wagons."
+    },
+    {
+     "title": "Commedia",
+     "work": "Learn stock characters (Arlecchino, Pantalone) and their physical lazzi."
+    },
+    {
+     "title": "Commedia scene",
+     "work": "Improvise a commedia scenario with stock characters."
+    },
+    {
+     "title": "Asian traditions",
+     "work": "Watch Noh and kabuki clips and compare conventions with Western theatre."
+    },
+    {
+     "title": "Check",
+     "work": "Write a comparison of two traditions."
+    }
+   ],
+   "assessment": "Comparison writing."
+  },
+  {
+   "week": 14,
+   "unit": 4,
+   "topic": "Shakespeare: language and verse",
+   "objectives": [
+    "Speak Shakespearean verse",
+    "Analyze text for performance"
+   ],
+   "standards": [
+    "TH:Pr4.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cn11.2.HSI"
+   ],
+   "vocabulary": [
+    "iambic pentameter",
+    "verse",
+    "prose",
+    "scansion",
+    "Globe Theatre"
+   ],
+   "materials": [
+    "Folger Shakespeare text of A Midsummer Night's Dream"
+   ],
+   "days": [
+    {
+     "title": "Globe",
+     "work": "Explore the Globe Theatre and Elizabethan staging conventions."
+    },
+    {
+     "title": "Verse",
+     "work": "Scan lines of iambic pentameter and speak them aloud."
+    },
+    {
+     "title": "Text work",
+     "work": "Paraphrase a Shakespeare speech and identify operative words."
+    },
+    {
+     "title": "Insults & sonnets",
+     "work": "Perform a sonnet with attention to rhythm."
+    },
+    {
+     "title": "Check",
+     "work": "Perform a short Shakespeare speech."
+    }
+   ],
+   "assessment": "Shakespeare speech."
+  },
+  {
+   "week": 15,
+   "unit": 4,
+   "topic": "Shakespeare scene work",
+   "objectives": [
+    "Perform a Shakespeare scene with a partner",
+    "Compare filmed interpretations"
+   ],
+   "standards": [
+    "TH:Pr6.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Re8.1.HSI",
+    "TH:Re9.1.HSI"
+   ],
+   "vocabulary": [
+    "blocking",
+    "comic timing",
+    "aside",
+    "soliloquy"
+   ],
+   "materials": [
+    "Folger text of A Midsummer Night's Dream",
+    "two filmed versions (library/streaming)"
+   ],
+   "days": [
+    {
+     "title": "Casting & reading",
+     "work": "Choose the mechanicals' rehearsal (Act 3.1) or the lovers' quarrel (Act 3.2); read it aloud and paraphrase each line."
+    },
+    {
+     "title": "Blocking",
+     "work": "Block the scene on a taped-out stage, marking entrances, crosses, and asides in the script."
+    },
+    {
+     "title": "Comic timing",
+     "work": "Rehearse for comic timing, practicing pauses before punchlines and physical bits."
+    },
+    {
+     "title": "Watch & compare",
+     "work": "Watch the same scene in two filmed versions (e.g., 1999 film and a Globe stage recording) and chart differing choices."
+    },
+    {
+     "title": "Unit check",
+     "work": "Perform the scene and take the Unit 4 theatre history test (Greek through Elizabethan)."
+    }
+   ],
+   "assessment": "Scene performance and history test."
+  },
+  {
+   "week": 16,
+   "unit": 5,
+   "topic": "Scene study: partner work",
+   "objectives": [
+    "Analyze and rehearse a contemporary two-person scene",
+    "Listen and react truthfully"
+   ],
+   "standards": [
+    "TH:Pr4.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cr1.1.HSI"
+   ],
+   "vocabulary": [
+    "scene partner",
+    "Meisner repetition",
+    "subtext",
+    "stakes"
+   ],
+   "materials": [
+    "two-person scene from a contemporary play (library collection)"
+   ],
+   "days": [
+    {
+     "title": "Choose scene",
+     "work": "Read three two-person scenes, choose one with a partner, and read the full play it comes from."
+    },
+    {
+     "title": "Table work",
+     "work": "Write the given circumstances, each character's objective, and the relationship history."
+    },
+    {
+     "title": "Repetition exercise",
+     "work": "Practice the Meisner repetition exercise for 15 minutes to train listening and impulse."
+    },
+    {
+     "title": "Blocking",
+     "work": "Block the scene so that every cross is motivated by a tactic change."
+    },
+    {
+     "title": "Check",
+     "work": "Run the scene off-book and write a journal entry on one moment that felt truthful."
+    }
+   ],
+   "assessment": "Off-book run and journal."
+  },
+  {
+   "week": 17,
+   "unit": 5,
+   "topic": "Showcase rehearsal",
+   "objectives": [
+    "Refine scenes and monologues for an audience",
+    "Plan front-of-house elements"
+   ],
+   "standards": [
+    "TH:Cr3.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Pr6.1.HSI"
+   ],
+   "vocabulary": [
+    "run-through",
+    "notes",
+    "cue",
+    "house",
+    "program"
+   ],
+   "materials": [
+    "costume pieces",
+    "simple props",
+    "printer for programs"
+   ],
+   "days": [
+    {
+     "title": "Polish",
+     "work": "Work the three highest-stakes moments of the scene and monologue with a coach, raising stakes and clarifying transitions."
+    },
+    {
+     "title": "Props & costumes",
+     "work": "Choose simple costume pieces and props that reveal character; create a prop list."
+    },
+    {
+     "title": "Program & publicity",
+     "work": "Design a printed program with bios and a poster inviting family and friends."
+    },
+    {
+     "title": "Dress rehearsal",
+     "work": "Run the full showcase (monologue, Shakespeare scene, contemporary scene) in costume."
+    },
+    {
+     "title": "Notes",
+     "work": "Receive and apply notes; rehearse curtain call and transitions between pieces."
+    }
+   ],
+   "assessment": "Dress rehearsal notes."
+  },
+  {
+   "week": 18,
+   "unit": 5,
+   "topic": "Winter showcase and semester reflection",
+   "objectives": [
+    "Perform for a live audience",
+    "Evaluate one's own growth"
+   ],
+   "standards": [
+    "TH:Pr6.1.HSI",
+    "TH:Re9.1.HSI",
+    "TH:Re7.1.HSI"
+   ],
+   "vocabulary": [
+    "audience",
+    "curtain call",
+    "reflection",
+    "criteria"
+   ],
+   "materials": [
+    "performance space",
+    "video camera/phone"
+   ],
+   "days": [
+    {
+     "title": "Final rehearsal",
+     "work": "Run the full show once at performance pace, including the curtain call."
+    },
+    {
+     "title": "Showcase",
+     "work": "Perform the winter showcase for invited family and friends and record it."
+    },
+    {
+     "title": "Video review",
+     "work": "Watch the recording and log three strengths and three growth areas using the acting rubric."
+    },
+    {
+     "title": "Written reflection",
+     "work": "Write a 500-word semester reflection citing specific moments from the video."
+    },
+    {
+     "title": "Semester exam",
+     "work": "Written exam on acting terms, Stanislavski, and theatre history from Greece to Shakespeare."
+    }
+   ],
+   "assessment": "Showcase rubric and semester exam."
+  },
+  {
+   "week": 19,
+   "unit": 6,
+   "topic": "Realism and Trifles",
+   "objectives": [
+    "Identify conventions of realism",
+    "Analyze and perform Trifles"
+   ],
+   "standards": [
+    "TH:Cn11.1.HSI",
+    "TH:Pr4.1.HSI",
+    "TH:Re8.1.HSI"
+   ],
+   "vocabulary": [
+    "realism",
+    "fourth wall",
+    "subtext",
+    "naturalistic acting"
+   ],
+   "materials": [
+    "Susan Glaspell, Trifles (public domain)",
+    "Chekhov or Ibsen excerpt"
+   ],
+   "days": [
+    {
+     "title": "Realism",
+     "work": "Read about Ibsen, Chekhov, and the rise of realism and the fourth wall; read a scene from A Doll's House."
+    },
+    {
+     "title": "Trifles reading",
+     "work": "Read Trifles aloud by roles and list the clues the women find."
+    },
+    {
+     "title": "Subtext",
+     "work": "Analyze subtext in the women's dialogue and write what each line really means."
+    },
+    {
+     "title": "Scene work",
+     "work": "Rehearse the final scene of Trifles with attention to silence and small gestures."
+    },
+    {
+     "title": "Check",
+     "work": "Perform the scene and write a paragraph on how Glaspell uses objects to tell the story."
+    }
+   ],
+   "assessment": "Scene performance and paragraph."
+  },
+  {
+   "week": 20,
+   "unit": 6,
+   "topic": "Our Town and theatrical convention",
+   "objectives": [
+    "Analyze non-realistic staging",
+    "Perform with minimal set"
+   ],
+   "standards": [
+    "TH:Re8.1.HSI",
+    "TH:Cr1.1.HSI",
+    "TH:Pr5.1.HSI"
+   ],
+   "vocabulary": [
+    "Stage Manager",
+    "presentational",
+    "representational",
+    "minimalism",
+    "pantomime"
+   ],
+   "materials": [
+    "Thornton Wilder, Our Town (library)"
+   ],
+   "days": [
+    {
+     "title": "Act I",
+     "work": "Read Act I and discuss Wilder's use of the Stage Manager and bare stage."
+    },
+    {
+     "title": "Pantomime",
+     "work": "Practice pantomiming everyday tasks (making breakfast, stringing beans) with precise detail."
+    },
+    {
+     "title": "Act III",
+     "work": "Read Act III and discuss Emily's speech 'Do any human beings ever realize life?'"
+    },
+    {
+     "title": "Staging",
+     "work": "Stage Emily's goodbye speech with no set and minimal props."
+    },
+    {
+     "title": "Check",
+     "work": "Perform and compare Wilder's presentational style with Glaspell's realism in writing."
+    }
+   ],
+   "assessment": "Performance and comparison."
+  },
+  {
+   "week": 21,
+   "unit": 6,
+   "topic": "Diverse American voices: Hansberry, Valdez, and Wilson",
+   "objectives": [
+    "Investigate cultural perspectives in American theatre"
+   ],
+   "standards": [
+    "TH:Cn10.1.HSI",
+    "TH:Cn11.1.HSI",
+    "TH:Re8.1.HSI"
+   ],
+   "vocabulary": [
+    "acto",
+    "El Teatro Campesino",
+    "Chicano theatre",
+    "Century Cycle",
+    "cultural context"
+   ],
+   "materials": [
+    "Lorraine Hansberry, A Raisin in the Sun excerpt",
+    "Luis Valdez, Las Dos Caras del Patroncito (acto)",
+    "August Wilson, Fences excerpt (library)"
+   ],
+   "days": [
+    {
+     "title": "Teatro Campesino",
+     "work": "Learn about Luis Valdez and El Teatro Campesino's actos performed for striking farmworkers in Delano."
+    },
+    {
+     "title": "Acto",
+     "work": "Read and rehearse Las Dos Caras del Patroncito with masks and placards."
+    },
+    {
+     "title": "Hansberry & Wilson",
+     "work": "Read excerpts from A Raisin in the Sun and Fences; compare family conflicts."
+    },
+    {
+     "title": "Research",
+     "work": "Research one playwright of color and the community their work speaks for."
+    },
+    {
+     "title": "Check",
+     "work": "Present a 4-minute research talk with a short performed excerpt."
+    }
+   ],
+   "assessment": "Research talk."
+  },
+  {
+   "week": 22,
+   "unit": 6,
+   "topic": "Writing a play critique",
+   "objectives": [
+    "Write a formal theatre critique using criteria"
+   ],
+   "standards": [
+    "TH:Re7.1.HSI",
+    "TH:Re9.1.HSI",
+    "TH:Re8.1.HSI"
+   ],
+   "vocabulary": [
+    "critique",
+    "review",
+    "production values",
+    "criteria",
+    "interpretation"
+   ],
+   "materials": [
+    "a full filmed or live production (local theatre, community college, or streaming)"
+   ],
+   "days": [
+    {
+     "title": "Model reviews",
+     "work": "Read two professional theatre reviews and identify their structure and criteria."
+    },
+    {
+     "title": "Attend",
+     "work": "Attend a live local production or watch a full filmed play; take notes on acting, design, and direction."
+    },
+    {
+     "title": "Draft",
+     "work": "Draft a 700-word critique evaluating three production elements with specific evidence."
+    },
+    {
+     "title": "Revise",
+     "work": "Revise for precise theatre vocabulary and balanced judgment."
+    },
+    {
+     "title": "Unit check",
+     "work": "Submit the critique and take a short quiz on American theatre."
+    }
+   ],
+   "assessment": "Critique rubric."
+  },
+  {
+   "week": 23,
+   "unit": 7,
+   "topic": "Theatre spaces and set design",
+   "objectives": [
+    "Explain stage types",
+    "Design a set for a scene"
+   ],
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Pr5.1.HSI"
+   ],
+   "vocabulary": [
+    "proscenium",
+    "thrust",
+    "arena",
+    "black box",
+    "ground plan",
+    "rendering"
+   ],
+   "materials": [
+    "graph paper",
+    "shoebox, cardboard, glue (model box)"
+   ],
+   "days": [
+    {
+     "title": "Stage types",
+     "work": "Compare proscenium, thrust, arena, and black box stages with diagrams."
+    },
+    {
+     "title": "Script analysis",
+     "work": "Analyze Trifles for every set requirement implied by the text."
+    },
+    {
+     "title": "Ground plan",
+     "work": "Draw a 1/4-inch scale ground plan for the Trifles kitchen."
+    },
+    {
+     "title": "Model box",
+     "work": "Build a shoebox model of the set."
+    },
+    {
+     "title": "Check",
+     "work": "Present the model and explain how it supports the mood."
+    }
+   ],
+   "assessment": "Model box presentation."
+  },
+  {
+   "week": 24,
+   "unit": 7,
+   "topic": "Lighting and sound design",
+   "objectives": [
+    "Use light and sound to create mood"
+   ],
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Pr5.1.HSI"
+   ],
+   "vocabulary": [
+    "intensity",
+    "color temperature",
+    "cue",
+    "sound effect",
+    "underscore"
+   ],
+   "materials": [
+    "flashlights, colored cellophane, desk lamps",
+    "free sound libraries"
+   ],
+   "days": [
+    {
+     "title": "Light qualities",
+     "work": "Experiment with intensity, color, and angle using flashlights and cellophane on a face."
+    },
+    {
+     "title": "Light plot",
+     "work": "Create a simple cue sheet with 8 lighting cues for a short scene."
+    },
+    {
+     "title": "Sound",
+     "work": "Find or record sound effects and underscore for a scene."
+    },
+    {
+     "title": "Sound cue sheet",
+     "work": "Write a sound cue sheet with timings."
+    },
+    {
+     "title": "Check",
+     "work": "Run a scene with your light and sound cues for family."
+    }
+   ],
+   "assessment": "Cue run."
+  },
+  {
+   "week": 25,
+   "unit": 7,
+   "topic": "Costume and makeup design",
+   "objectives": [
+    "Design costumes that reveal character"
+   ],
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Cn11.2.HSI"
+   ],
+   "vocabulary": [
+    "costume plot",
+    "rendering",
+    "silhouette",
+    "period",
+    "stage makeup"
+   ],
+   "materials": [
+    "colored pencils",
+    "thrift-store or closet pieces",
+    "basic makeup"
+   ],
+   "days": [
+    {
+     "title": "Research",
+     "work": "Research the historical period of a chosen play."
+    },
+    {
+     "title": "Renderings",
+     "work": "Draw costume renderings for three characters."
+    },
+    {
+     "title": "Costume plot",
+     "work": "Create a costume plot by scene."
+    },
+    {
+     "title": "Makeup",
+     "work": "Practice basic stage makeup (contour, aging) on yourself."
+    },
+    {
+     "title": "Check",
+     "work": "Present a costume design portfolio."
+    }
+   ],
+   "assessment": "Costume portfolio."
+  },
+  {
+   "week": 26,
+   "unit": 7,
+   "topic": "Production design concept",
+   "objectives": [
+    "Develop a unified design concept"
+   ],
+   "standards": [
+    "TH:Cr2.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Re9.1.HSI"
+   ],
+   "vocabulary": [
+    "production concept",
+    "design meeting",
+    "collaboration",
+    "unity"
+   ],
+   "materials": [
+    "design portfolio materials"
+   ],
+   "days": [
+    {
+     "title": "Concept",
+     "work": "Write a production concept statement for the one-act you will produce in Unit 9."
+    },
+    {
+     "title": "Collage",
+     "work": "Build a visual research collage (mood board)."
+    },
+    {
+     "title": "Design meeting",
+     "work": "Present ideas in a mock design meeting."
+    },
+    {
+     "title": "Revise",
+     "work": "Revise design based on feedback."
+    },
+    {
+     "title": "Unit check",
+     "work": "Submit design portfolio and take a technical theatre quiz."
+    }
+   ],
+   "assessment": "Design portfolio and quiz."
+  },
+  {
+   "week": 27,
+   "unit": 8,
+   "topic": "Elements of playwriting",
+   "objectives": [
+    "Use dramatic structure in original writing",
+    "Write in standard play format"
+   ],
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Cr2.1.HSI"
+   ],
+   "vocabulary": [
+    "inciting incident",
+    "rising action",
+    "climax",
+    "resolution",
+    "stage directions"
+   ],
+   "materials": [
+    "play-format template",
+    "Trifles"
+   ],
+   "days": [
+    {
+     "title": "Structure",
+     "work": "Map Freytag's pyramid onto Trifles, labeling the inciting incident, turning points, and climax."
+    },
+    {
+     "title": "Dialogue only",
+     "work": "Write a 1-page scene using only dialogue in which two characters want the same object; no stage directions allowed."
+    },
+    {
+     "title": "Play format",
+     "work": "Learn standard play format (character names, parentheticals, stage directions) and reformat your scene."
+    },
+    {
+     "title": "Character design",
+     "work": "Create two original characters with a want, a fear, and a secret; write a 1-paragraph bio for each."
+    },
+    {
+     "title": "Check",
+     "work": "Submit a 3-page scene draft putting the two characters in conflict."
+    }
+   ],
+   "assessment": "Scene draft."
+  },
+  {
+   "week": 28,
+   "unit": 8,
+   "topic": "Writing a ten-minute play",
+   "objectives": [
+    "Write and revise a complete ten-minute play"
+   ],
+   "standards": [
+    "TH:Cr1.1.HSI",
+    "TH:Cr3.1.HSI",
+    "TH:Cn10.1.HSI"
+   ],
+   "vocabulary": [
+    "ten-minute play",
+    "table read",
+    "revision",
+    "dramaturg"
+   ],
+   "materials": [
+    "play-format template",
+    "recording app"
+   ],
+   "days": [
+    {
+     "title": "Idea",
+     "work": "Brainstorm 10 premises from personal, family, or community stories; pick one with a clear conflict and a single setting."
+    },
+    {
+     "title": "Outline",
+     "work": "Outline the play in 6–8 beats with the turning point placed around minute 7."
+    },
+    {
+     "title": "Draft",
+     "work": "Write the full 8–10 page draft."
+    },
+    {
+     "title": "Table read",
+     "work": "Hold a table read with family or friends, recording it and noting where listeners lost interest."
+    },
+    {
+     "title": "Revise",
+     "work": "Revise using the recording, tightening dialogue and clarifying the climax; submit the second draft."
+    }
+   ],
+   "assessment": "Ten-minute play second draft."
+  },
+  {
+   "week": 29,
+   "unit": 8,
+   "topic": "Devised theatre",
+   "objectives": [
+    "Collaboratively create a devised piece from source material"
+   ],
+   "standards": [
+    "TH:Cr2.1.HSI",
+    "TH:Cn10.1.HSI",
+    "TH:Cn11.2.HSI"
+   ],
+   "vocabulary": [
+    "devising",
+    "verbatim theatre",
+    "Viewpoints",
+    "composition",
+    "found text"
+   ],
+   "materials": [
+    "interview recordings",
+    "newspaper archives or letters"
+   ],
+   "days": [
+    {
+     "title": "Devising companies",
+     "work": "Watch clips about Tectonic Theater Project (The Laramie Project) and Frantic Assembly; list their devising methods."
+    },
+    {
+     "title": "Source gathering",
+     "work": "Interview two community members on a shared theme (e.g., 'home') and collect found text."
+    },
+    {
+     "title": "Viewpoints",
+     "work": "Explore Viewpoints (tempo, spatial relationship, repetition) to generate movement material."
+    },
+    {
+     "title": "Composition",
+     "work": "Combine verbatim lines and movement into three short compositions."
+    },
+    {
+     "title": "Showing",
+     "work": "Shape the compositions into a 6–8 minute piece and show it for feedback."
+    }
+   ],
+   "assessment": "Devised showing."
+  },
+  {
+   "week": 30,
+   "unit": 8,
+   "topic": "New work festival",
+   "objectives": [
+    "Present original work in a staged reading",
+    "Lead a talkback"
+   ],
+   "standards": [
+    "TH:Pr6.1.HSI",
+    "TH:Re7.1.HSI",
+    "TH:Re9.1.HSI"
+   ],
+   "vocabulary": [
+    "staged reading",
+    "talkback",
+    "Critical Response Process"
+   ],
+   "materials": [
+    "scripts in binders",
+    "music stands or chairs"
+   ],
+   "days": [
+    {
+     "title": "Casting & rehearsal",
+     "work": "Cast your ten-minute play with family/friends and rehearse it as a staged reading."
+    },
+    {
+     "title": "Polish",
+     "work": "Refine stage-direction reading and transitions; finalize the devised piece."
+    },
+    {
+     "title": "Festival",
+     "work": "Present the staged reading and devised piece to an audience."
+    },
+    {
+     "title": "Talkback",
+     "work": "Lead a talkback using Liz Lerman's Critical Response Process and record feedback."
+    },
+    {
+     "title": "Reflection",
+     "work": "Write a 400-word reflection on what you learned as a playwright and deviser."
+    }
+   ],
+   "assessment": "Festival rubric and reflection."
+  },
+  {
+   "week": 31,
+   "unit": 9,
+   "topic": "The director's role and play selection",
+   "objectives": [
+    "Explain the director's responsibilities",
+    "Select and analyze a one-act play"
+   ],
+   "standards": [
+    "TH:Cr2.1.HSI",
+    "TH:Cn11.2.HSI",
+    "TH:Re9.1.HSI"
+   ],
+   "vocabulary": [
+    "director",
+    "prompt book",
+    "concept",
+    "royalties",
+    "casting"
+   ],
+   "materials": [
+    "public-domain one-acts (e.g., Glaspell's Trifles, Chekhov's The Proposal, Wilde excerpts)",
+    "binder for prompt book"
+   ],
+   "days": [
+    {
+     "title": "The director",
+     "work": "Read about the history of the director and watch an interview with a working director."
+    },
+    {
+     "title": "Selection",
+     "work": "Read three public-domain one-acts and choose one for production, considering cast size and audience."
+    },
+    {
+     "title": "Script analysis",
+     "work": "Analyze the chosen play's structure, characters, and themes in a prompt book."
+    },
+    {
+     "title": "Concept",
+     "work": "Write a director's concept statement linking to the design concept from Unit 7."
+    },
+    {
+     "title": "Casting",
+     "work": "Hold auditions with family/friends or a homeschool co-op and post a cast list."
+    }
+   ],
+   "assessment": "Prompt book check."
+  },
+  {
+   "week": 32,
+   "unit": 9,
+   "topic": "Blocking and staging",
+   "objectives": [
+    "Block a one-act play",
+    "Use composition and picturization"
+   ],
+   "standards": [
+    "TH:Cr3.1.HSI",
+    "TH:Pr4.1.HSI",
+    "TH:Pr5.1.HSI"
+   ],
+   "vocabulary": [
+    "composition",
+    "picturization",
+    "stage areas",
+    "blocking notation",
+    "focus"
+   ],
+   "materials": [
+    "taped floor plan",
+    "prompt book",
+    "pencil"
+   ],
+   "days": [
+    {
+     "title": "Stage areas",
+     "work": "Review stage areas and blocking notation; mark the floor plan with tape."
+    },
+    {
+     "title": "Pre-block",
+     "work": "Pre-block the first half of the play in the prompt book."
+    },
+    {
+     "title": "Rehearsal 1",
+     "work": "Block the first half with actors, adjusting for sightlines."
+    },
+    {
+     "title": "Rehearsal 2",
+     "work": "Block the second half and record blocking in the prompt book."
+    },
+    {
+     "title": "Run",
+     "work": "Hold a stumble-through of the full play and give notes."
+    }
+   ],
+   "assessment": "Blocking documented in prompt book."
+  },
+  {
+   "week": 33,
+   "unit": 9,
+   "topic": "Rehearsal process",
+   "objectives": [
+    "Lead rehearsals",
+    "Give effective notes"
+   ],
+   "standards": [
+    "TH:Cr3.1.HSI",
+    "TH:Pr5.1.HSI",
+    "TH:Cr2.1.HSI"
+   ],
+   "vocabulary": [
+    "rehearsal schedule",
+    "notes",
+    "run-through",
+    "off-book deadline"
+   ],
+   "materials": [
+    "rehearsal schedule",
+    "prompt book"
+   ],
+   "days": [
+    {
+     "title": "Schedule",
+     "work": "Build a rehearsal schedule to performance week with an off-book deadline."
+    },
+    {
+     "title": "Character work",
+     "work": "Lead an actor workshop on objectives for each character."
+    },
+    {
+     "title": "Scene work",
+     "work": "Work two key scenes for pacing and stakes."
+    },
+    {
+     "title": "Off-book run",
+     "work": "Hold the off-book run and track line errors."
+    },
+    {
+     "title": "Notes",
+     "work": "Practice giving specific, actionable notes and write a rehearsal report."
+    }
+   ],
+   "assessment": "Rehearsal report."
+  },
+  {
+   "week": 34,
+   "unit": 9,
+   "topic": "Technical rehearsal",
+   "objectives": [
+    "Integrate design elements",
+    "Run a cue-to-cue"
+   ],
+   "standards": [
+    "TH:Pr5.1.HSI",
+    "TH:Cr3.1.HSI"
+   ],
+   "vocabulary": [
+    "tech rehearsal",
+    "cue-to-cue",
+    "stage manager",
+    "call time"
+   ],
+   "materials": [
+    "set pieces, costumes, lights, sound from Unit 7 designs"
+   ],
+   "days": [
+    {
+     "title": "Build",
+     "work": "Build or gather the set, props, and costumes from the design portfolio."
+    },
+    {
+     "title": "Cue-to-cue",
+     "work": "Run a cue-to-cue rehearsal for lights and sound."
+    },
+    {
+     "title": "Costume parade",
+     "work": "Hold a costume parade and fix problems."
+    },
+    {
+     "title": "Tech run",
+     "work": "Run the play with all technical elements."
+    },
+    {
+     "title": "Notes",
+     "work": "Write production notes and fix issues."
+    }
+   ],
+   "assessment": "Tech run."
+  },
+  {
+   "week": 35,
+   "unit": 9,
+   "topic": "Final production",
+   "objectives": [
+    "Perform a one-act production for a live audience"
+   ],
+   "standards": [
+    "TH:Pr6.1.HSI",
+    "TH:Cr3.1.HSI"
+   ],
+   "vocabulary": [
+    "dress rehearsal",
+    "house manager",
+    "performance",
+    "strike"
+   ],
+   "materials": [
+    "full production elements",
+    "programs"
+   ],
+   "days": [
+    {
+     "title": "Dress rehearsal 1",
+     "work": "Run the full play in costume with timing notes."
+    },
+    {
+     "title": "Dress rehearsal 2",
+     "work": "Final dress with an invited preview audience."
+    },
+    {
+     "title": "Performance 1",
+     "work": "Perform the one-act for an audience."
+    },
+    {
+     "title": "Performance 2",
+     "work": "Perform a second time and record it."
+    },
+    {
+     "title": "Strike",
+     "work": "Strike the set and return materials."
+    }
+   ],
+   "assessment": "Performance rubric."
+  },
+  {
+   "week": 36,
+   "unit": 9,
+   "topic": "Final critique and portfolio",
+   "objectives": [
+    "Evaluate the production",
+    "Assemble a theatre portfolio"
+   ],
+   "standards": [
+    "TH:Re9.1.HSI",
+    "TH:Re7.1.HSI",
+    "TH:Cn10.1.HSI"
+   ],
+   "vocabulary": [
+    "portfolio",
+    "artistic statement",
+    "self-evaluation"
+   ],
+   "materials": [
+    "production video",
+    "performance journal"
+   ],
+   "days": [
+    {
+     "title": "Video review",
+     "work": "Watch the production video and log strengths and growth areas."
+    },
+    {
+     "title": "Critique",
+     "work": "Write a 600-word self-critique of the production using theatre criteria."
+    },
+    {
+     "title": "Artistic statement",
+     "work": "Write an artistic statement about what theatre means to you."
+    },
+    {
+     "title": "Portfolio",
+     "work": "Assemble a digital portfolio with headshot, résumé, monologue video, design work, and play."
+    },
+    {
+     "title": "Final exam",
+     "work": "Take a written final on theatre terms, history, and production roles."
+    }
+   ],
+   "assessment": "Portfolio and final exam."
+  }
+ ]
+}

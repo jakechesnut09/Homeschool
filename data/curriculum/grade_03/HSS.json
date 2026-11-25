@@ -1,0 +1,1800 @@
+{
+  "grade": 3,
+  "subject": "HSS",
+  "title": "Continuity and Change (Local History)",
+  "description": "Third-grade history–social science focused on the student's own region: its physical geography, the American Indian nations who have lived there since long ago and today, the explorers, missions, ranchos and settlers who changed it, and how the local community was founded and has changed over time. Students also learn about rules, laws, citizenship and the three branches of government, national symbols and heroes, and the local economy, using maps, photographs, oral histories and other primary sources.",
+  "framework": "California History–Social Science Content Standards; 2016 CA History–Social Science Framework",
+  "minutes_per_day": 30,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "3.1": "Students describe the physical and human geography and use maps, tables, graphs, photographs and charts to organize information about people, places and environments in a spatial context.",
+    "3.1.1": "Identify geographical features in their local region (deserts, mountains, valleys, hills, coastal areas, oceans, lakes).",
+    "3.1.2": "Trace the ways in which people have used the resources of the local region and modified the physical environment (dams, cultivation, buildings).",
+    "3.2": "Students describe the American Indian nations in their local region long ago and in the recent past.",
+    "3.2.1": "Describe national identities, religious beliefs, customs and various folklore traditions of local American Indian nations.",
+    "3.2.2": "Discuss the ways in which physical geography, including climate, influenced how local Indian nations adapted to their natural environment (food, clothing, tools).",
+    "3.2.3": "Describe the economy and systems of government, particularly those with tribal constitutions, and their relationship to federal and state governments.",
+    "3.2.4": "Discuss the interaction of new settlers with the already established Indians of the region.",
+    "3.3": "Students draw from historical and community resources to organize the sequence of local historical events and describe how each period of settlement left its mark on the land.",
+    "3.3.1": "Research the explorers who visited here, the newcomers who settled here, and the people who continue to come to the region, including their cultural and religious traditions and contributions.",
+    "3.3.2": "Describe the economies established by settlers and their influence on the present-day economy, with emphasis on private property and entrepreneurship.",
+    "3.3.3": "Trace why their community was established, how individuals and families contributed to its founding and development, and how it has changed over time, drawing on maps, photographs, oral histories, letters, newspapers and other primary sources.",
+    "3.4": "Students understand the role of rules and laws in our daily lives and the basic structure of the U.S. government.",
+    "3.4.1": "Determine the reasons for rules, laws and the U.S. Constitution; the role of citizenship in promoting rules and laws; and the consequences for people who violate rules and laws.",
+    "3.4.2": "Discuss the importance of public virtue and the role of citizens, including how to participate in a classroom, in the community and in civic life.",
+    "3.4.3": "Know the histories of important local and national landmarks, symbols and essential documents that create a sense of community among citizens and exemplify cherished ideals (flag, bald eagle, Statue of Liberty, Constitution, Declaration of Independence, U.S. Capitol).",
+    "3.4.4": "Understand the three branches of government, with an emphasis on local government.",
+    "3.4.5": "Describe the ways in which California, the other states and sovereign American Indian tribes contribute to the making of our nation and participate in the federal system of government.",
+    "3.4.6": "Describe the lives of American heroes who took risks to secure our freedoms (e.g., Anne Hutchinson, Benjamin Franklin, Thomas Jefferson, Abraham Lincoln, Frederick Douglass, Harriet Tubman, Martin Luther King Jr.).",
+    "3.5": "Students demonstrate basic economic reasoning skills and an understanding of the economy of the local region.",
+    "3.5.1": "Describe the ways in which local producers have used and are using natural, human and capital resources to produce goods and services in the past and the present.",
+    "3.5.2": "Understand that some goods are made locally, some elsewhere in the United States and some abroad.",
+    "3.5.3": "Understand that individual economic choices involve trade-offs and the evaluation of benefits and costs.",
+    "3.5.4": "Discuss the relationship of students' 'work' in school and their personal human capital."
+  },
+  "resources": [
+    {
+      "name": "Calisphere",
+      "url": "https://calisphere.org/",
+      "note": "Free primary-source photographs, letters and maps from California libraries and museums; search your town"
+    },
+    {
+      "name": "Library of Congress – Classroom Materials",
+      "url": "https://www.loc.gov/classroom-materials/",
+      "note": "Primary source sets on symbols, the Constitution, maps and American heroes"
+    },
+    {
+      "name": "DocsTeach (National Archives)",
+      "url": "https://www.docsteach.org/",
+      "note": "Primary documents and activities on the Constitution, Declaration and civic life"
+    },
+    {
+      "name": "Ben's Guide to the U.S. Government",
+      "url": "https://bensguide.gpo.gov/",
+      "note": "Kid-level explanations of the three branches, symbols and citizenship"
+    },
+    {
+      "name": "iCivics",
+      "url": "https://www.icivics.org/",
+      "note": "Free civics games and lessons on rules, laws and government"
+    },
+    {
+      "name": "Chronicling America (Library of Congress)",
+      "url": "https://chroniclingamerica.loc.gov/",
+      "note": "Historic newspapers to research how your community has changed"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Our Land: Geography of Our Region",
+      "start_week": 1,
+      "end_week": 5,
+      "big_idea": "Landforms, water and climate shape where and how people live in our region.",
+      "standards": [
+        "3.1",
+        "3.1.1",
+        "3.1.2"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The First Peoples of Our Region",
+      "start_week": 6,
+      "end_week": 11,
+      "big_idea": "American Indian nations adapted to the land, built rich cultures and continue as sovereign nations today.",
+      "standards": [
+        "3.2",
+        "3.2.1",
+        "3.2.2",
+        "3.2.3",
+        "3.2.4"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Newcomers: Explorers, Missions and Ranchos",
+      "start_week": 12,
+      "end_week": 15,
+      "big_idea": "Explorers and settlers brought great change to the region and to its first peoples.",
+      "standards": [
+        "3.3",
+        "3.3.1",
+        "3.2.4"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Building Our Community Over Time",
+      "start_week": 16,
+      "end_week": 20,
+      "big_idea": "Every community has a story of founders, newcomers and change that we can uncover with primary sources.",
+      "standards": [
+        "3.3",
+        "3.3.1",
+        "3.3.2",
+        "3.3.3",
+        "3.1.2"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Rules, Laws and Good Citizens",
+      "start_week": 21,
+      "end_week": 24,
+      "big_idea": "Rules and laws protect people, and good citizens help their communities.",
+      "standards": [
+        "3.4",
+        "3.4.1",
+        "3.4.2"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "How Government Works",
+      "start_week": 25,
+      "end_week": 27,
+      "big_idea": "Our government has three branches at local, state and national levels, and tribes are sovereign nations within the federal system.",
+      "standards": [
+        "3.4",
+        "3.4.4",
+        "3.4.5",
+        "3.2.3"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "American Symbols, Landmarks and Heroes",
+      "start_week": 28,
+      "end_week": 31,
+      "big_idea": "Symbols, documents and heroes remind us of shared ideals like freedom and equality.",
+      "standards": [
+        "3.4",
+        "3.4.3",
+        "3.4.6"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Our Local Economy",
+      "start_week": 32,
+      "end_week": 35,
+      "big_idea": "People use resources to produce goods and services, and every economic choice has a trade-off.",
+      "standards": [
+        "3.5",
+        "3.5.1",
+        "3.5.2",
+        "3.5.3",
+        "3.5.4"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Community History Showcase",
+      "start_week": 36,
+      "end_week": 36,
+      "big_idea": "Historians share what they learn so others can understand their community.",
+      "standards": [
+        "3.3.3",
+        "3.4.2"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Maps and globes",
+      "objectives": [
+        "Use map elements (title, compass rose, key, scale)",
+        "Locate our community on maps"
+      ],
+      "standards": [
+        "3.1"
+      ],
+      "vocabulary": [
+        "map",
+        "globe",
+        "compass rose",
+        "map key",
+        "scale"
+      ],
+      "materials": [
+        "world map",
+        "California map",
+        "local street map"
+      ],
+      "days": [
+        {
+          "title": "Map parts",
+          "work": "Identify title, compass rose, map key and scale on a printed local map."
+        },
+        {
+          "title": "Where in the world",
+          "work": "Locate your continent, country, state and city on a globe and make a 'nested circles' address."
+        },
+        {
+          "title": "Grid maps",
+          "work": "Use a grid to locate places on a town map and give directions using cardinal directions."
+        },
+        {
+          "title": "Draw a map",
+          "work": "Draw a map of your neighborhood with a key and compass rose."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a map skills quiz and explain your neighborhood map."
+        }
+      ],
+      "assessment": "Map skills quiz; neighborhood map"
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Landforms and bodies of water",
+      "objectives": [
+        "Identify landforms and water features in the local region"
+      ],
+      "standards": [
+        "3.1.1"
+      ],
+      "vocabulary": [
+        "valley",
+        "mountain",
+        "coast",
+        "desert",
+        "river",
+        "lake"
+      ],
+      "materials": [
+        "physical map of California",
+        "clay or salt dough"
+      ],
+      "days": [
+        {
+          "title": "Landform vocabulary",
+          "work": "Define and sketch 10 landforms and water bodies."
+        },
+        {
+          "title": "California regions",
+          "work": "Locate the coast, Central Valley, Sierra Nevada and desert regions on a physical map."
+        },
+        {
+          "title": "Local features",
+          "work": "Identify the landforms and water near your town using a local physical map."
+        },
+        {
+          "title": "Salt dough map",
+          "work": "Build a salt dough relief map of your region showing main landforms."
+        },
+        {
+          "title": "Review & check",
+          "work": "Label a blank map of your region and describe its features."
+        }
+      ],
+      "assessment": "Labeled regional map"
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Climate and natural resources",
+      "objectives": [
+        "Describe local climate and natural resources"
+      ],
+      "standards": [
+        "3.1.1",
+        "3.1.2"
+      ],
+      "vocabulary": [
+        "natural resource",
+        "climate",
+        "soil",
+        "water source"
+      ],
+      "materials": [
+        "local climate data",
+        "resource cards"
+      ],
+      "days": [
+        {
+          "title": "Climate",
+          "work": "Describe the climate of your region using temperature and rainfall data."
+        },
+        {
+          "title": "Resources",
+          "work": "List local natural resources (water, soil, timber, minerals, fish)."
+        },
+        {
+          "title": "Water source",
+          "work": "Research where your town's drinking water comes from."
+        },
+        {
+          "title": "Resource map",
+          "work": "Make a resource map with symbols."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write how one resource is important to your community."
+        }
+      ],
+      "assessment": "Resource map and paragraph"
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "People change the land",
+      "objectives": [
+        "Trace how people have modified the local environment"
+      ],
+      "standards": [
+        "3.1.2"
+      ],
+      "vocabulary": [
+        "modify",
+        "dam",
+        "aqueduct",
+        "agriculture",
+        "urban"
+      ],
+      "materials": [
+        "Calisphere photographs",
+        "then-and-now photos"
+      ],
+      "days": [
+        {
+          "title": "Then and now",
+          "work": "Compare historic and current photos of your region from Calisphere."
+        },
+        {
+          "title": "Dams and aqueducts",
+          "work": "Learn about a California dam or aqueduct and its effects."
+        },
+        {
+          "title": "Farming",
+          "work": "Explore how irrigation changed the Central Valley."
+        },
+        {
+          "title": "Cause and effect",
+          "work": "Make a chart of human changes to the land and their effects."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write about one positive and one negative environmental change."
+        }
+      ],
+      "assessment": "Cause/effect chart and paragraph"
+    },
+    {
+      "week": 5,
+      "unit": 1,
+      "topic": "Geography field study",
+      "objectives": [
+        "Observe local geography firsthand",
+        "Present geographic findings"
+      ],
+      "standards": [
+        "3.1",
+        "3.1.1",
+        "3.1.2"
+      ],
+      "vocabulary": [
+        "field study",
+        "observe",
+        "map"
+      ],
+      "materials": [
+        "notebook",
+        "camera"
+      ],
+      "days": [
+        {
+          "title": "Field trip",
+          "work": "Visit a local park, river or hill and sketch landforms and plants."
+        },
+        {
+          "title": "Human features",
+          "work": "Identify roads, buildings and bridges in the area."
+        },
+        {
+          "title": "Field map",
+          "work": "Make a map of the field study site."
+        },
+        {
+          "title": "Present",
+          "work": "Present findings with photos."
+        },
+        {
+          "title": "Unit 1 assessment",
+          "work": "Complete the unit test on geography."
+        }
+      ],
+      "assessment": "Unit 1 test; field map"
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "First peoples of our region",
+      "objectives": [
+        "Identify the American Indian nations of the local region",
+        "Locate homelands on a map"
+      ],
+      "standards": [
+        "3.2",
+        "3.2.1"
+      ],
+      "vocabulary": [
+        "tribe",
+        "nation",
+        "homeland",
+        "sovereign"
+      ],
+      "materials": [
+        "California tribal territories map",
+        "local tribe website"
+      ],
+      "days": [
+        {
+          "title": "Tribal map",
+          "work": "Locate your region's original peoples on a California Indian territories map (e.g., Ohlone, Chumash, Miwok, Tongva, Kumeyaay, Yokuts)."
+        },
+        {
+          "title": "Land acknowledgment",
+          "work": "Learn whose land you live on and write a land acknowledgment."
+        },
+        {
+          "title": "Living cultures",
+          "work": "Visit a local tribe's official website to learn about its present-day community."
+        },
+        {
+          "title": "Language",
+          "work": "Learn a few words from a local tribal language if available."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write facts about the local nation then and now."
+        }
+      ],
+      "assessment": "Facts summary"
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Adapting to the environment",
+      "objectives": [
+        "Describe how geography influenced food, clothing, shelter and tools"
+      ],
+      "standards": [
+        "3.2.2"
+      ],
+      "vocabulary": [
+        "acorn",
+        "shelter",
+        "tule",
+        "basket",
+        "adapt"
+      ],
+      "materials": [
+        "Calisphere photographs",
+        "acorns"
+      ],
+      "days": [
+        {
+          "title": "Food",
+          "work": "Learn how acorns were gathered, leached and ground; look at photos of grinding stones."
+        },
+        {
+          "title": "Shelter",
+          "work": "Compare tule, redwood bark and plank houses by region."
+        },
+        {
+          "title": "Clothing and tools",
+          "work": "Study Calisphere photographs of tools and basketry."
+        },
+        {
+          "title": "Model",
+          "work": "Build a model shelter from natural materials."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how geography shaped daily life."
+        }
+      ],
+      "assessment": "Shelter model and explanation"
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Customs, beliefs and traditions",
+      "objectives": [
+        "Describe customs, beliefs and stories of local nations"
+      ],
+      "standards": [
+        "3.2.1"
+      ],
+      "vocabulary": [
+        "custom",
+        "tradition",
+        "ceremony",
+        "oral tradition"
+      ],
+      "materials": [
+        "California Indian stories (library)",
+        "museum website"
+      ],
+      "days": [
+        {
+          "title": "Oral tradition",
+          "work": "Read or listen to a California Indian story (e.g., a Coyote story) and discuss its lesson."
+        },
+        {
+          "title": "Ceremonies",
+          "work": "Learn about a traditional ceremony and its meaning."
+        },
+        {
+          "title": "Basketry",
+          "work": "Study California Indian basketry and its significance."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare a California Indian story to an Aesop fable."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write about a tradition still practiced today."
+        }
+      ],
+      "assessment": "Tradition writing"
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "Trade and economy of first peoples",
+      "objectives": [
+        "Describe how local nations traded and used resources",
+        "Compare traditional and modern tribal economies"
+      ],
+      "standards": [
+        "3.2.3",
+        "3.2.2"
+      ],
+      "vocabulary": [
+        "trade",
+        "barter",
+        "shell bead money",
+        "economy"
+      ],
+      "materials": [
+        "California Indian trade route map",
+        "household items for barter"
+      ],
+      "days": [
+        {
+          "title": "Trade networks",
+          "work": "Read about California Indian trade networks and trace a route on a map from the coast to the mountains."
+        },
+        {
+          "title": "Shell bead money",
+          "work": "Learn how the Chumash made and used shell bead money and why it was valuable inland."
+        },
+        {
+          "title": "Barter game",
+          "work": "Play a barter simulation trading household 'resources' (acorns, obsidian, shells, baskets) with family members."
+        },
+        {
+          "title": "Then and now",
+          "work": "Compare traditional trade with a present-day tribal business or enterprise from a tribe's website."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph explaining how trade helped communities get what their land did not provide."
+        }
+      ],
+      "assessment": "Trade paragraph"
+    },
+    {
+      "week": 10,
+      "unit": 2,
+      "topic": "Tribal government today",
+      "objectives": [
+        "Describe tribal governments and constitutions and their relationship to state and federal governments"
+      ],
+      "standards": [
+        "3.2.3"
+      ],
+      "vocabulary": [
+        "tribal council",
+        "constitution",
+        "sovereignty",
+        "federally recognized"
+      ],
+      "materials": [
+        "local tribe's government web page",
+        "chart paper"
+      ],
+      "days": [
+        {
+          "title": "Tribal council",
+          "work": "Read how a local tribe's council is elected and what decisions it makes."
+        },
+        {
+          "title": "Constitution",
+          "work": "Read short excerpts from a published tribal constitution and identify who can vote and what leaders do."
+        },
+        {
+          "title": "Sovereignty",
+          "work": "Discuss what it means that tribes are sovereign nations with their own governments."
+        },
+        {
+          "title": "Relationships",
+          "work": "Make a 3-column chart of tribal, state and federal government responsibilities."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer 6 questions about tribal government and explain one in a complete paragraph."
+        }
+      ],
+      "assessment": "Government chart and questions"
+    },
+    {
+      "week": 11,
+      "unit": 2,
+      "topic": "Newcomers meet first peoples",
+      "objectives": [
+        "Discuss how newcomers and local Indian nations interacted",
+        "Recognize resilience"
+      ],
+      "standards": [
+        "3.2.4"
+      ],
+      "vocabulary": [
+        "settler",
+        "interaction",
+        "conflict",
+        "resilience"
+      ],
+      "materials": [
+        "primary source excerpts",
+        "timeline strip"
+      ],
+      "days": [
+        {
+          "title": "Arrival",
+          "work": "Read about the arrival of Spanish, Mexican and American newcomers and list changes each brought."
+        },
+        {
+          "title": "Perspectives",
+          "work": "Compare a settler's account and a Native account of the same period and note differences."
+        },
+        {
+          "title": "Changes",
+          "work": "Chart changes to land, food, language and daily life for local nations."
+        },
+        {
+          "title": "Resilience",
+          "work": "Learn how local nations have kept languages, ceremonies and basketry alive today."
+        },
+        {
+          "title": "Unit 2 assessment",
+          "work": "Complete the unit test on local American Indian nations and present one fact you will remember."
+        }
+      ],
+      "assessment": "Unit 2 test"
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Explorers along the California coast",
+      "objectives": [
+        "Research explorers who visited the region",
+        "Analyze an early map"
+      ],
+      "standards": [
+        "3.3.1"
+      ],
+      "vocabulary": [
+        "explorer",
+        "expedition",
+        "voyage",
+        "route"
+      ],
+      "materials": [
+        "Library of Congress early California maps",
+        "world map"
+      ],
+      "days": [
+        {
+          "title": "Cabrillo",
+          "work": "Read about Juan Rodríguez Cabrillo's 1542 voyage and trace his route along the California coast."
+        },
+        {
+          "title": "Portolá and Crespí",
+          "work": "Read about the 1769 Portolá expedition and an excerpt from Father Crespí's diary describing the land."
+        },
+        {
+          "title": "Early map",
+          "work": "Examine an early map of California from the Library of Congress and note what mapmakers got right and wrong (e.g., California as an island)."
+        },
+        {
+          "title": "Explorer card",
+          "work": "Make an explorer trading card with dates, route, goals and effects on local people."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present the explorer card and answer questions about the explorer's impact."
+        }
+      ],
+      "assessment": "Explorer trading card"
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Missions, presidios and pueblos",
+      "objectives": [
+        "Describe the mission system and its effects on Native peoples"
+      ],
+      "standards": [
+        "3.3.1",
+        "3.2.4"
+      ],
+      "vocabulary": [
+        "mission",
+        "presidio",
+        "pueblo",
+        "Franciscan"
+      ],
+      "materials": [
+        "Calisphere mission photographs",
+        "California missions map"
+      ],
+      "days": [
+        {
+          "title": "Three institutions",
+          "work": "Learn the purposes of missions, presidios and pueblos and sort facts about each."
+        },
+        {
+          "title": "Nearest mission",
+          "work": "Locate the mission nearest your home on a map and research when and why it was founded."
+        },
+        {
+          "title": "Native experience",
+          "work": "Read about how mission life changed the work, diet, health and culture of Native peoples."
+        },
+        {
+          "title": "Photo analysis",
+          "work": "Analyze a historic Calisphere photograph of a mission with a see-think-wonder chart."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph explaining how the missions changed the region and its first peoples."
+        }
+      ],
+      "assessment": "Mission paragraph"
+    },
+    {
+      "week": 14,
+      "unit": 3,
+      "topic": "Ranchos and the Mexican era",
+      "objectives": [
+        "Describe the rancho economy and its legacy"
+      ],
+      "standards": [
+        "3.3.1",
+        "3.3.2"
+      ],
+      "vocabulary": [
+        "rancho",
+        "vaquero",
+        "diseño",
+        "hide and tallow trade"
+      ],
+      "materials": [
+        "Calisphere diseño images",
+        "local street map"
+      ],
+      "days": [
+        {
+          "title": "Ranchos",
+          "work": "Read about Mexican land grants, ranchos and the work of vaqueros."
+        },
+        {
+          "title": "Diseños",
+          "work": "Examine a hand-drawn rancho map (diseño) on Calisphere and identify landmarks used as boundaries."
+        },
+        {
+          "title": "Hide and tallow",
+          "work": "Learn how cattle hides and tallow were traded with ships and what was bought in return."
+        },
+        {
+          "title": "Place names",
+          "work": "Find rancho or Spanish place names on a local map and research one name's origin."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in writing how the rancho economy worked and what names or traditions remain."
+        }
+      ],
+      "assessment": "Rancho explanation"
+    },
+    {
+      "week": 15,
+      "unit": 3,
+      "topic": "Gold Rush and new settlers",
+      "objectives": [
+        "Research newcomers who settled the region and their contributions"
+      ],
+      "standards": [
+        "3.3.1"
+      ],
+      "vocabulary": [
+        "Gold Rush",
+        "immigrant",
+        "forty-niner",
+        "statehood"
+      ],
+      "materials": [
+        "Gold Rush photographs and letters (Calisphere, Library of Congress)"
+      ],
+      "days": [
+        {
+          "title": "Gold Rush",
+          "work": "Learn how the 1848 gold discovery brought people from around the world to California."
+        },
+        {
+          "title": "Immigrant communities",
+          "work": "Read about Chinese, Mexican, Chilean and African American Gold Rush communities and their contributions."
+        },
+        {
+          "title": "Primary source",
+          "work": "Analyze a miner's letter or daguerreotype and write 3 observations and 2 questions."
+        },
+        {
+          "title": "Timeline",
+          "work": "Build a timeline of newcomers to your region from first peoples to today."
+        },
+        {
+          "title": "Unit 3 assessment",
+          "work": "Complete the unit test on explorers, missions, ranchos and settlers."
+        }
+      ],
+      "assessment": "Unit 3 test; newcomer timeline"
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Why our community was founded",
+      "objectives": [
+        "Trace why the community was established and who founded it"
+      ],
+      "standards": [
+        "3.3.3"
+      ],
+      "vocabulary": [
+        "founder",
+        "establish",
+        "railroad",
+        "incorporate"
+      ],
+      "materials": [
+        "local historical society website",
+        "historic town map"
+      ],
+      "days": [
+        {
+          "title": "Founding",
+          "work": "Research when and why your town was founded (railroad, farming, port, mining) using the historical society website."
+        },
+        {
+          "title": "Founders",
+          "work": "Read about 2 founding individuals or families and their contributions."
+        },
+        {
+          "title": "Old maps",
+          "work": "Compare a historic map of your town (Sanborn fire insurance map or USGS topo) with a current map."
+        },
+        {
+          "title": "Timeline",
+          "work": "Begin a community timeline with founding events and dates."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph explaining why your community began where it did."
+        }
+      ],
+      "assessment": "Founding paragraph"
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Primary sources: photos and newspapers",
+      "objectives": [
+        "Distinguish primary and secondary sources",
+        "Use them to trace change"
+      ],
+      "standards": [
+        "3.3.3"
+      ],
+      "vocabulary": [
+        "primary source",
+        "secondary source",
+        "newspaper",
+        "archive"
+      ],
+      "materials": [
+        "Chronicling America",
+        "Calisphere",
+        "camera"
+      ],
+      "days": [
+        {
+          "title": "Primary vs. secondary",
+          "work": "Sort 10 sources (diary, textbook, photo, encyclopedia, letter) into primary and secondary."
+        },
+        {
+          "title": "Photo analysis",
+          "work": "Analyze 3 historic photos of your town using a see-think-wonder chart."
+        },
+        {
+          "title": "Newspapers",
+          "work": "Read a short historic newspaper article about your area on Chronicling America."
+        },
+        {
+          "title": "Then and now",
+          "work": "Take a photo of the same spot as a historic picture and compare them."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write what changed and what stayed the same, citing both photos."
+        }
+      ],
+      "assessment": "Then-and-now comparison"
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Oral history",
+      "objectives": [
+        "Plan and conduct an oral history interview"
+      ],
+      "standards": [
+        "3.3.3",
+        "3.3.1"
+      ],
+      "vocabulary": [
+        "oral history",
+        "interview",
+        "memory",
+        "primary source"
+      ],
+      "materials": [
+        "recording device",
+        "interview question sheet"
+      ],
+      "days": [
+        {
+          "title": "Questions",
+          "work": "Write 10 open-ended interview questions for an older relative or neighbor about how the community has changed."
+        },
+        {
+          "title": "Interview",
+          "work": "Conduct and record the interview, listening and asking follow-up questions."
+        },
+        {
+          "title": "Notes",
+          "work": "Listen to the recording and take notes on the 5 most important details."
+        },
+        {
+          "title": "Share",
+          "work": "Share 3 interesting stories from the interview with family."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a one-page summary of the oral history and add key events to the timeline."
+        }
+      ],
+      "assessment": "Oral history summary"
+    },
+    {
+      "week": 19,
+      "unit": 4,
+      "topic": "Early economy and entrepreneurs",
+      "objectives": [
+        "Describe economies established by settlers and their influence today"
+      ],
+      "standards": [
+        "3.3.2"
+      ],
+      "vocabulary": [
+        "entrepreneur",
+        "private property",
+        "business",
+        "industry"
+      ],
+      "materials": [
+        "local business histories",
+        "historic photos"
+      ],
+      "days": [
+        {
+          "title": "Early businesses",
+          "work": "Research 3 early businesses in your town (general store, mill, farm, cannery)."
+        },
+        {
+          "title": "Entrepreneur",
+          "work": "Read about a local entrepreneur and the risks they took to start a business."
+        },
+        {
+          "title": "Private property",
+          "work": "Discuss why owning land and businesses encouraged settlers to build and invest."
+        },
+        {
+          "title": "Then and now",
+          "work": "Compare early industries with today's major employers in a T-chart."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain in writing how one early business shaped today's local economy."
+        }
+      ],
+      "assessment": "Economy explanation"
+    },
+    {
+      "week": 20,
+      "unit": 4,
+      "topic": "Community history timeline",
+      "objectives": [
+        "Create an illustrated community history timeline"
+      ],
+      "standards": [
+        "3.3.3",
+        "3.1.2"
+      ],
+      "vocabulary": [
+        "timeline",
+        "era",
+        "change over time"
+      ],
+      "materials": [
+        "poster board",
+        "primary source copies"
+      ],
+      "days": [
+        {
+          "title": "Organize",
+          "work": "Organize events from the unit into eras on a poster timeline."
+        },
+        {
+          "title": "Images",
+          "work": "Add copies of photos, maps and newspaper clippings with captions."
+        },
+        {
+          "title": "Land changes",
+          "work": "Add notes on how the land changed in each era (farms, roads, dams, buildings)."
+        },
+        {
+          "title": "Present",
+          "work": "Present the timeline to family, explaining 3 turning points."
+        },
+        {
+          "title": "Unit 4 assessment",
+          "work": "Complete the unit test on community history and primary sources."
+        }
+      ],
+      "assessment": "Unit 4 test; illustrated timeline"
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Why we have rules and laws",
+      "objectives": [
+        "Determine reasons for rules and laws",
+        "Explain consequences"
+      ],
+      "standards": [
+        "3.4.1"
+      ],
+      "vocabulary": [
+        "rule",
+        "law",
+        "consequence",
+        "fair",
+        "safety"
+      ],
+      "materials": [
+        "list of family rules",
+        "town ordinance examples"
+      ],
+      "days": [
+        {
+          "title": "Rules at home",
+          "work": "List family rules and explain the reason behind each one."
+        },
+        {
+          "title": "Rules vs. laws",
+          "work": "Compare rules and laws and sort examples (bedtime, speed limits, library fines)."
+        },
+        {
+          "title": "Consequences",
+          "work": "Discuss what consequences for breaking laws are meant to do (protect, teach, repair)."
+        },
+        {
+          "title": "No-rules game",
+          "work": "Play a ball game with no rules, then add rules and discuss how the game changed."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph about why communities need rules and laws."
+        }
+      ],
+      "assessment": "Rules and laws paragraph"
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "The U.S. Constitution",
+      "objectives": [
+        "Explain the purposes of the Constitution and the Bill of Rights"
+      ],
+      "standards": [
+        "3.4.1",
+        "3.4.3"
+      ],
+      "vocabulary": [
+        "Constitution",
+        "Preamble",
+        "Bill of Rights",
+        "rights"
+      ],
+      "materials": [
+        "Preamble text (National Archives)",
+        "Bill of Rights summary"
+      ],
+      "days": [
+        {
+          "title": "Preamble",
+          "work": "Read the Preamble from the National Archives website and paraphrase each phrase in kid-friendly words."
+        },
+        {
+          "title": "Why it was written",
+          "work": "Learn why the founders wrote the Constitution in 1787."
+        },
+        {
+          "title": "Bill of Rights",
+          "work": "Read a kid-friendly summary of the Bill of Rights and pick the 3 rights you think matter most."
+        },
+        {
+          "title": "Family constitution",
+          "work": "Write a family constitution with a preamble and 5 articles."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer questions on the Constitution and explain your family constitution."
+        }
+      ],
+      "assessment": "Family constitution"
+    },
+    {
+      "week": 23,
+      "unit": 5,
+      "topic": "Citizenship and public virtue",
+      "objectives": [
+        "Discuss citizens' responsibilities",
+        "Carry out community service"
+      ],
+      "standards": [
+        "3.4.2"
+      ],
+      "vocabulary": [
+        "citizen",
+        "responsibility",
+        "volunteer",
+        "public virtue"
+      ],
+      "materials": [
+        "service project supplies"
+      ],
+      "days": [
+        {
+          "title": "Citizens",
+          "work": "Define citizenship and list rights and responsibilities of citizens."
+        },
+        {
+          "title": "Civic virtues",
+          "work": "Discuss honesty, respect, responsibility and courage with real examples."
+        },
+        {
+          "title": "Plan a service project",
+          "work": "Plan a small service project (park cleanup, food drive, cards for seniors)."
+        },
+        {
+          "title": "Serve",
+          "work": "Carry out the service project with family."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a reflection on how the project helped the community."
+        }
+      ],
+      "assessment": "Service project reflection"
+    },
+    {
+      "week": 24,
+      "unit": 5,
+      "topic": "Making a difference in civic life",
+      "objectives": [
+        "Participate in civic life by voicing ideas and voting"
+      ],
+      "standards": [
+        "3.4.2",
+        "3.4.1"
+      ],
+      "vocabulary": [
+        "petition",
+        "vote",
+        "majority",
+        "community issue"
+      ],
+      "materials": [
+        "letter template",
+        "city official contact"
+      ],
+      "days": [
+        {
+          "title": "Community issues",
+          "work": "Identify a local issue (crosswalk safety, park repairs, litter) by observing your neighborhood."
+        },
+        {
+          "title": "Letter to an official",
+          "work": "Write a polite letter to a city council member about the issue with a suggested solution."
+        },
+        {
+          "title": "Family vote",
+          "work": "Hold a family vote on a real decision using secret ballots and count the majority."
+        },
+        {
+          "title": "Change makers",
+          "work": "Read about a kid who made a difference in their community and discuss how."
+        },
+        {
+          "title": "Unit 5 assessment",
+          "work": "Complete the unit test on rules, laws and citizenship."
+        }
+      ],
+      "assessment": "Unit 5 test; letter to official"
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "Three branches of government",
+      "objectives": [
+        "Explain the legislative, executive and judicial branches and checks and balances"
+      ],
+      "standards": [
+        "3.4.4"
+      ],
+      "vocabulary": [
+        "legislative",
+        "executive",
+        "judicial",
+        "checks and balances"
+      ],
+      "materials": [
+        "Ben's Guide",
+        "chart paper"
+      ],
+      "days": [
+        {
+          "title": "Branches",
+          "work": "Use Ben's Guide to learn what each branch does and who works in it."
+        },
+        {
+          "title": "Checks and balances",
+          "work": "Play a role game where one branch makes, one carries out and one judges a family 'law.'"
+        },
+        {
+          "title": "National leaders",
+          "work": "Identify the current President, your members of Congress and the Supreme Court."
+        },
+        {
+          "title": "Three-branch chart",
+          "work": "Make a tree chart of the three branches with jobs and leaders."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer questions on the branches and explain why power is divided."
+        }
+      ],
+      "assessment": "Three-branch chart"
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Local and state government",
+      "objectives": [
+        "Describe local and state government roles"
+      ],
+      "standards": [
+        "3.4.4"
+      ],
+      "vocabulary": [
+        "mayor",
+        "city council",
+        "county",
+        "governor",
+        "legislature"
+      ],
+      "materials": [
+        "city website",
+        "California state government website"
+      ],
+      "days": [
+        {
+          "title": "City government",
+          "work": "Look up your mayor or city manager and council members on the city website and list their jobs."
+        },
+        {
+          "title": "Local services",
+          "work": "List services local government provides (police, fire, parks, libraries) and who pays for them."
+        },
+        {
+          "title": "State government",
+          "work": "Learn about the governor, the legislature and the State Capitol in Sacramento."
+        },
+        {
+          "title": "Council meeting",
+          "work": "Watch 15 minutes of a recorded city council meeting and note one decision made."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a comparison chart of local, state and national government."
+        }
+      ],
+      "assessment": "Government comparison chart"
+    },
+    {
+      "week": 27,
+      "unit": 6,
+      "topic": "States and tribes in the federal system",
+      "objectives": [
+        "Describe how California, other states and tribes participate in the federal system"
+      ],
+      "standards": [
+        "3.4.5",
+        "3.2.3"
+      ],
+      "vocabulary": [
+        "federal",
+        "state",
+        "sovereign nation",
+        "representative"
+      ],
+      "materials": [
+        "U.S. map",
+        "map of tribal lands"
+      ],
+      "days": [
+        {
+          "title": "Federal system",
+          "work": "Learn what the federal government does and what states do."
+        },
+        {
+          "title": "California's role",
+          "work": "Find California's senators and representatives and explain how they represent us."
+        },
+        {
+          "title": "Tribal nations",
+          "work": "Learn how sovereign tribes govern themselves and work with state and federal governments."
+        },
+        {
+          "title": "Map",
+          "work": "Label California, neighboring states and California tribal lands on a map."
+        },
+        {
+          "title": "Unit 6 assessment",
+          "work": "Complete the unit test on government."
+        }
+      ],
+      "assessment": "Unit 6 test"
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "National symbols",
+      "objectives": [
+        "Know the histories of national symbols and what ideals they represent"
+      ],
+      "standards": [
+        "3.4.3"
+      ],
+      "vocabulary": [
+        "symbol",
+        "flag",
+        "bald eagle",
+        "Liberty Bell",
+        "Pledge of Allegiance"
+      ],
+      "materials": [
+        "symbol images from Library of Congress"
+      ],
+      "days": [
+        {
+          "title": "Flag",
+          "work": "Learn the history and meaning of the stars and stripes and the Pledge of Allegiance."
+        },
+        {
+          "title": "Bald eagle",
+          "work": "Learn why the bald eagle was chosen as a national symbol and how it was saved from extinction."
+        },
+        {
+          "title": "Statue of Liberty",
+          "work": "Learn the history of the Statue of Liberty and read lines from Emma Lazarus's 'The New Colossus.'"
+        },
+        {
+          "title": "Liberty Bell",
+          "work": "Learn the story of the Liberty Bell and the words inscribed on it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a symbols booklet with a picture and the ideal each symbol represents."
+        }
+      ],
+      "assessment": "Symbols booklet"
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Landmarks and essential documents",
+      "objectives": [
+        "Know histories of landmarks and essential documents"
+      ],
+      "standards": [
+        "3.4.3"
+      ],
+      "vocabulary": [
+        "landmark",
+        "U.S. Capitol",
+        "Declaration of Independence",
+        "California state symbols"
+      ],
+      "materials": [
+        "Declaration of Independence image (National Archives)",
+        "California symbols list"
+      ],
+      "days": [
+        {
+          "title": "Declaration",
+          "work": "Examine the Declaration of Independence and discuss 'all men are created equal' and 'unalienable rights.'"
+        },
+        {
+          "title": "U.S. Capitol",
+          "work": "Learn the history of the U.S. Capitol and what happens there."
+        },
+        {
+          "title": "California symbols",
+          "work": "Learn the California flag, grizzly bear, poppy and state motto 'Eureka.'"
+        },
+        {
+          "title": "Local landmark",
+          "work": "Research a local landmark (historic building, statue or park) and its history."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present the local landmark with a drawing and 5 facts."
+        }
+      ],
+      "assessment": "Landmark presentation"
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "American heroes: founders and freedom seekers",
+      "objectives": [
+        "Describe the lives of American heroes who took risks to secure freedoms"
+      ],
+      "standards": [
+        "3.4.6"
+      ],
+      "vocabulary": [
+        "hero",
+        "risk",
+        "freedom",
+        "abolition"
+      ],
+      "materials": [
+        "biographies",
+        "Frederick Douglass Narrative excerpt"
+      ],
+      "days": [
+        {
+          "title": "Benjamin Franklin",
+          "work": "Learn about Franklin's role in independence and read 3 sayings from Poor Richard's Almanack."
+        },
+        {
+          "title": "Thomas Jefferson",
+          "work": "Learn about Jefferson writing the Declaration of Independence."
+        },
+        {
+          "title": "Frederick Douglass",
+          "work": "Read an adapted excerpt from Douglass's Narrative about learning to read and discuss the risk he took."
+        },
+        {
+          "title": "Harriet Tubman",
+          "work": "Learn about Harriet Tubman's escape and Underground Railroad journeys."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph about the risk one hero took and why it mattered."
+        }
+      ],
+      "assessment": "Hero paragraph"
+    },
+    {
+      "week": 31,
+      "unit": 7,
+      "topic": "American heroes: leaders for equality",
+      "objectives": [
+        "Describe heroes who advanced freedom and equality",
+        "Analyze speeches"
+      ],
+      "standards": [
+        "3.4.6"
+      ],
+      "vocabulary": [
+        "civil rights",
+        "equality",
+        "speech",
+        "religious freedom"
+      ],
+      "materials": [
+        "Gettysburg Address text",
+        "'I Have a Dream' excerpt"
+      ],
+      "days": [
+        {
+          "title": "Abraham Lincoln",
+          "work": "Read the Gettysburg Address and discuss its message of 'a new birth of freedom.'"
+        },
+        {
+          "title": "Martin Luther King Jr.",
+          "work": "Read an excerpt of 'I Have a Dream' and list the dreams he describes."
+        },
+        {
+          "title": "Anne Hutchinson",
+          "work": "Learn how Anne Hutchinson stood up for religious freedom."
+        },
+        {
+          "title": "Hero report",
+          "work": "Write a one-page report on a chosen hero with a portrait."
+        },
+        {
+          "title": "Unit 7 assessment",
+          "work": "Complete the unit test on symbols, documents and heroes."
+        }
+      ],
+      "assessment": "Unit 7 test; hero report"
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Resources and production",
+      "objectives": [
+        "Describe natural, human and capital resources used by local producers"
+      ],
+      "standards": [
+        "3.5.1"
+      ],
+      "vocabulary": [
+        "natural resource",
+        "human resource",
+        "capital resource",
+        "goods",
+        "services"
+      ],
+      "materials": [
+        "local producer research",
+        "resource cards"
+      ],
+      "days": [
+        {
+          "title": "Resources",
+          "work": "Sort picture cards into natural, human and capital resources."
+        },
+        {
+          "title": "Goods and services",
+          "work": "Sort 20 local jobs into producers of goods and providers of services."
+        },
+        {
+          "title": "Local producer",
+          "work": "Visit or research a local farm, bakery or factory and list the resources it uses."
+        },
+        {
+          "title": "Production chart",
+          "work": "Make a flow chart showing how a local product is made from resources to store."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how a local producer uses all three kinds of resources, past and present."
+        }
+      ],
+      "assessment": "Production flow chart"
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Where goods come from",
+      "objectives": [
+        "Identify goods made locally, elsewhere in the U.S. and abroad"
+      ],
+      "standards": [
+        "3.5.2"
+      ],
+      "vocabulary": [
+        "import",
+        "export",
+        "trade",
+        "global"
+      ],
+      "materials": [
+        "household product labels",
+        "world map",
+        "sticky dots"
+      ],
+      "days": [
+        {
+          "title": "Label hunt",
+          "work": "Check labels on 20 household items and record where each was made."
+        },
+        {
+          "title": "Map",
+          "work": "Place dots on a world map for each item's origin and count local, national and foreign goods."
+        },
+        {
+          "title": "Local goods",
+          "work": "Visit a farmers market and list goods made or grown locally."
+        },
+        {
+          "title": "Why trade",
+          "work": "Discuss why we buy goods from other places (cost, climate, specialization)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write about one item's journey from where it was made to your home."
+        }
+      ],
+      "assessment": "Origins map and journey writing"
+    },
+    {
+      "week": 34,
+      "unit": 8,
+      "topic": "Choices and trade-offs",
+      "objectives": [
+        "Understand trade-offs and opportunity cost in economic choices"
+      ],
+      "standards": [
+        "3.5.3"
+      ],
+      "vocabulary": [
+        "scarcity",
+        "trade-off",
+        "opportunity cost",
+        "budget"
+      ],
+      "materials": [
+        "play money",
+        "restaurant menu or store flyer"
+      ],
+      "days": [
+        {
+          "title": "Scarcity",
+          "work": "Discuss why we can't have everything we want (limited money, time)."
+        },
+        {
+          "title": "Trade-offs",
+          "work": "Choose items from a store flyer with a $20 play budget and name what you gave up."
+        },
+        {
+          "title": "Opportunity cost",
+          "work": "Identify the opportunity cost in 5 scenario cards (e.g., playing outside vs. watching a show)."
+        },
+        {
+          "title": "Party budget",
+          "work": "Plan a birthday party with a $50 budget, comparing costs and benefits of choices."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write about a real trade-off you made and its opportunity cost."
+        }
+      ],
+      "assessment": "Party budget and trade-off writing"
+    },
+    {
+      "week": 35,
+      "unit": 8,
+      "topic": "Human capital",
+      "objectives": [
+        "Relate learning in school to personal human capital"
+      ],
+      "standards": [
+        "3.5.4",
+        "3.5.1"
+      ],
+      "vocabulary": [
+        "human capital",
+        "skill",
+        "career",
+        "education"
+      ],
+      "materials": [
+        "interview sheet"
+      ],
+      "days": [
+        {
+          "title": "Human capital",
+          "work": "Define human capital as the skills and knowledge people bring to work."
+        },
+        {
+          "title": "Skills",
+          "work": "List skills you have built in school this year and how each could be used in a job."
+        },
+        {
+          "title": "Career interview",
+          "work": "Interview a family member about the skills their job requires and how they learned them."
+        },
+        {
+          "title": "Goals",
+          "work": "Set 2 learning goals for next year that build your human capital."
+        },
+        {
+          "title": "Unit 8 assessment",
+          "work": "Complete the unit test on resources, trade, choices and human capital."
+        }
+      ],
+      "assessment": "Unit 8 test"
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Community history showcase",
+      "objectives": [
+        "Share learning about the community through a museum exhibit"
+      ],
+      "standards": [
+        "3.3.3",
+        "3.4.2"
+      ],
+      "vocabulary": [
+        "showcase",
+        "museum",
+        "exhibit",
+        "docent"
+      ],
+      "materials": [
+        "projects from the year",
+        "tri-fold board"
+      ],
+      "days": [
+        {
+          "title": "Plan",
+          "work": "Plan a 'Museum of Our Community' with sections for geography, first peoples, settlement, government and economy."
+        },
+        {
+          "title": "Build",
+          "work": "Build exhibits from the year's maps, timeline, oral history and reports with labels."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse a docent tour script explaining each exhibit."
+        },
+        {
+          "title": "Showcase",
+          "work": "Host the museum for family and friends and lead tours."
+        },
+        {
+          "title": "Reflection",
+          "work": "Write a reflection on how your community has changed and what has stayed the same."
+        }
+      ],
+      "assessment": "Community museum exhibit and reflection"
+    }
+  ]
+}

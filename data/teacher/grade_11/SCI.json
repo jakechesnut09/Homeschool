@@ -1,0 +1,2103 @@
+{
+ "grade": 11,
+ "subject": "SCI",
+ "overview": "Physics of the Universe is taught through phenomena and kitchen-table labs: most days have the student make a prediction, collect data (often with a phone video or a PhET simulation), and explain results in claim-evidence-reasoning (CER) form. Model one worked problem with units every time, then let the student do the rest; always ask 'what evidence supports that?'. Use g = 9.8 m/s² throughout, insist on units and significant figures, and review safety before each lab (eye protection for projectiles, never look at the Sun, adult supervision with heat and lasers).",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Toy car, meter stick, masking tape, phone with slow-motion video. Queue up a short crash-test video (IIHS has many). Make a large 'driving question board' on poster paper.",
+   "misconceptions": [
+    "Confusing velocity and acceleration: a fast car is not necessarily accelerating. Acceleration is the rate of CHANGE of velocity; a car at a steady 30 m/s has zero acceleration.",
+    "Reading a position-time graph as a picture of the path. The slope is velocity; a flat line means the object is stopped, not moving along flat ground."
+   ],
+   "days": [
+    {
+     "guide": "Show the crash-test video twice. The student writes at least 10 questions about forces and safety and sorts them on the driving question board (we'll return to it in the egg-crash challenge).",
+     "questions": [
+      {
+       "q": "Why do crash-test dummies move forward when the car stops suddenly?",
+       "a": "They tend to keep moving at the car's original speed (inertia) until a force—seatbelt, airbag, or dashboard—stops them."
+      }
+     ]
+    },
+    {
+     "guide": "Tape marks every meter for 5 m. Release the car and record the time at each mark (several trials). The student graphs position vs. time and finds the slope.",
+     "questions": [
+      {
+       "q": "A car's position-time graph is a straight line from (0 s, 0 m) to (4 s, 2 m). What is its velocity?",
+       "a": "Slope = 2 m ÷ 4 s = 0.5 m/s, constant velocity."
+      },
+      {
+       "q": "What does a curved, steepening position-time graph mean?",
+       "a": "The object is speeding up (accelerating): the slope (velocity) increases."
+      }
+     ]
+    },
+    {
+     "guide": "Film a ball rolling down a ramp in slow motion beside a meter stick. Step through frames to get position at equal time intervals, then compute velocities and acceleration a = Δv/Δt.",
+     "questions": [
+      {
+       "q": "A ball's velocity goes from 0.2 m/s to 1.0 m/s in 0.8 s. What is its acceleration?",
+       "a": "a = (1.0 − 0.2)/0.8 = 1.0 m/s²."
+      }
+     ]
+    },
+    {
+     "guide": "Model one braking problem using v² = v₀² + 2aΔx, writing knowns and unknowns first. The student solves five more. Today's task from the plan: Solve constant-acceleration problems (braking distances) using the kinematic equations. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A car traveling 25 m/s brakes at −5.0 m/s². How far does it travel before stopping?",
+       "a": "0 = 25² + 2(−5)Δx → Δx = 625/10 = 62.5 m."
+      },
+      {
+       "q": "How long does that stop take?",
+       "a": "t = (0 − 25)/(−5) = 5.0 s."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (30 minutes). Afterwards check graphs by acting them out (walk toward/away from a wall). Today's task from the plan: Quiz on motion graphs and kinematic calculations. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A car accelerates from rest at 3 m/s² for 4 s. Find its final speed and distance.",
+       "a": "v = 0 + 3(4) = 12 m/s; Δx = ½(3)(4²) = 24 m."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (sample): 1) slope of position-time = velocity. 2) horizontal line = at rest. 3) velocity-time slope = acceleration; area = displacement. 4) 0→20 m/s in 4 s: a = 5 m/s². 5) from rest at 2 m/s² for 5 s: v = 10 m/s, Δx = 25 m. 6) braking from 30 m/s at −6 m/s²: Δx = 75 m. 7) sketch: constant velocity = straight sloped line on x-t, flat line on v-t. 8) a ball thrown up has a = −9.8 m/s² even at the top. Score 1 pt each with units."
+  },
+  {
+   "week": 2,
+   "prep": "Toy car, rubber bands, washers, a coin, an index card, a cup; a smooth plastic tablecloth and unbreakable dishes for the tablecloth trick. Open PhET 'Forces and Motion: Basics.'",
+   "misconceptions": [
+    "Thinking a moving object needs a net force to keep moving. Newton's first law: with no net force it keeps moving at constant velocity; friction is what usually slows things down.",
+    "Labeling 'the force of motion' on free-body diagrams. Only real forces with an agent (gravity, normal, friction, tension, applied) appear."
+   ],
+   "days": [
+    {
+     "guide": "Do the coin-card-cup demo (flick the card; the coin drops into the cup) and the tablecloth pull. The student explains each with Newton's first law. Today's task from the plan: Perform coin-card-cup and tablecloth inertia demos; explain using Newton's first law. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why does the coin fall into the cup instead of flying off with the card?",
+       "a": "The flick acts on the card for a very short time with little friction on the coin; the coin's inertia keeps it nearly at rest, then gravity pulls it into the cup."
+      }
+     ]
+    },
+    {
+     "guide": "Model a free-body diagram for a book on a table (weight down, normal up, equal). The student draws eight, including a car braking. Today's task from the plan: Draw free-body diagrams for 8 scenarios including a car braking and a book on a table. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Draw the forces on a car braking on a level road.",
+       "a": "Weight down, normal force up (equal), and friction from the road pointing backward (opposite motion); net force is backward, so it decelerates."
+      }
+     ]
+    },
+    {
+     "guide": "Pull the car with a rubber band stretched the same length each time (constant force) while adding washers. Film and measure acceleration; graph a vs. mass.",
+     "questions": [
+      {
+       "q": "If the force stays the same and mass doubles, what happens to acceleration?",
+       "a": "It halves (a = F/m): an inverse relationship."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, hold mass constant and vary applied force; record acceleration and graph a vs. F_net. Today's task from the plan: Use PhET Forces and Motion to test acceleration vs. net force; analyze the linear relationship. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A 2.0 kg cart has a net force of 10 N. What is its acceleration?",
+       "a": "a = F/m = 10/2.0 = 5.0 m/s²."
+      },
+      {
+       "q": "What does the slope of the a vs. F graph represent?",
+       "a": "1/m (the inverse of the mass)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a CER explaining the lab data with Newton's second law. Today's task from the plan: Write a CER explaining your lab data using Newton's second law. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "State Newton's second law in words.",
+       "a": "An object's acceleration equals the net force on it divided by its mass, in the direction of the net force."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric (4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning). Claim: answers the question about how mass affects acceleration with a constant force in one sentence. Evidence: specific data from the student's own lab/simulation with numbers and units. Reasoning: connects the evidence to the scientific principle. A proficient response: 'Adding mass decreased the cart's acceleration' with data such as 'with 0 washers a ≈ 0.60 m/s², with 4 washers a ≈ 0.30 m/s²', and reasoning that with constant force a = F/m, so acceleration is inversely proportional to mass (graph curves downward, a vs 1/m is linear)."
+  },
+  {
+   "week": 3,
+   "prep": "Balloon, straw, 5 m of string, tape; a luggage scale (or spring scale reading in newtons; if it reads in kg, multiply by 9.8 to get N); a shoe; surfaces (tile, carpet, wood).",
+   "misconceptions": [
+    "Believing action-reaction forces cancel. They act on DIFFERENT objects, so they can't cancel; only forces on the same object add up.",
+    "Thinking the normal force always equals weight. It changes on inclines (mg cos θ) and in accelerating elevators."
+   ],
+   "days": [
+    {
+     "guide": "Thread the string through the straw, tape on the inflated balloon, and release. The student identifies the force pair (balloon pushes air backward; air pushes balloon forward).",
+     "questions": [
+      {
+       "q": "When you push against a wall, what is the reaction force?",
+       "a": "The wall pushes back on you with an equal and opposite force."
+      }
+     ]
+    },
+    {
+     "guide": "Drag the shoe at constant speed with the luggage scale on each surface. μ = friction force ÷ normal force (the shoe's weight in N). Today's task from the plan: Drag a shoe across different surfaces with a luggage scale; calculate coefficient of friction. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "A 1.0 kg shoe (weight 9.8 N) needs 3.0 N to drag at constant speed. What is μ?",
+       "a": "μ = 3.0/9.8 ≈ 0.31."
+      },
+      {
+       "q": "Why drag at constant speed?",
+       "a": "Then net force is zero, so the scale reading equals the friction force."
+      }
+     ]
+    },
+    {
+     "guide": "Model an incline (components) and an elevator problem. Today's task from the plan: Solve problems on inclines and elevators. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A 60 kg person is in an elevator accelerating upward at 2.0 m/s². What does a scale read?",
+       "a": "N = m(g + a) = 60(11.8) = 708 N (they feel heavier)."
+      },
+      {
+       "q": "A 10 kg box sits on a 30° incline. What is the normal force?",
+       "a": "N = mg cos 30° = 98 × 0.866 ≈ 85 N."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss tire tread, anti-lock brakes, and wet roads; compute how stopping distance changes when μ falls. Today's task from the plan: Analyze how tires and brakes use friction; discuss stopping distance in rain. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why are stopping distances longer in rain?",
+       "a": "Water lowers the coefficient of friction between tires and road, so the maximum braking force (μN) is smaller, giving less deceleration and a longer stopping distance."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Newton's laws quiz (30 minutes). Today's task from the plan: Quiz on Newton's laws problems. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A 1,200 kg car accelerates at 2.5 m/s². What net force acts on it?",
+       "a": "F = ma = 1,200 × 2.5 = 3,000 N."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (sample): 1) First law: objects keep their state of motion without net force. 2) 5 kg, 20 N net → 4 m/s². 3) Force pair example: foot pushes ground backward, ground pushes foot forward. 4) μ from 12 N friction on a 40 N box = 0.30. 5) 50 kg person in elevator accelerating down at 2 m/s² → N = 50(7.8) = 390 N. 6) Free-body diagram of hanging lamp: tension up = weight down. 7) Why action-reaction pairs don't cancel (different objects)."
+  },
+  {
+   "week": 4,
+   "prep": "Two toy cars of known mass (weigh on a kitchen scale), modeling clay, ruler, marbles; PhET Collision Lab. Eggs in zip-top bags, a towel, pillow, and hard floor protected with newspaper.",
+   "misconceptions": [
+    "Thinking momentum is 'lost' in an inelastic collision. Total momentum is conserved; kinetic energy is what is partly converted to heat and sound.",
+    "Forgetting momentum is a vector. Objects moving in opposite directions have opposite signs."
+   ],
+   "days": [
+    {
+     "guide": "Model p = mv with units kg·m/s. The student calculates momentum for a truck, a baseball, a person walking. Today's task from the plan: Calculate momentum for everyday objects; compare a truck and a baseball. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Compare a 2,000 kg truck at 10 m/s to a 0.145 kg baseball at 40 m/s.",
+       "a": "Truck: 20,000 kg·m/s. Baseball: 5.8 kg·m/s. The truck has about 3,400 times more momentum."
+      }
+     ]
+    },
+    {
+     "guide": "Film one car hitting a stationary car (with clay to make them stick). Measure speeds before and after and compare total momentum. Today's task from the plan: Collide toy cars (with clay for inelastic) and measure velocities from video to test momentum conservation. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A 2.0 kg cart at 3.0 m/s sticks to a 1.0 kg cart at rest. Find their speed after.",
+       "a": "Total p = 6.0 kg·m/s = 3.0 kg × v → v = 2.0 m/s."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, run elastic and inelastic collisions; record total momentum and kinetic energy before and after. Today's task from the plan: Use PhET Collision Lab to verify momentum conservation in elastic and inelastic collisions. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "In a perfectly elastic collision, what is conserved?",
+       "a": "Both total momentum and total kinetic energy."
+      }
+     ]
+    },
+    {
+     "guide": "Drop a bagged egg from 1 m onto floor, towel, and pillow. Discuss impulse J = FΔt = Δp. Today's task from the plan: Drop an egg onto different surfaces (in a bag) and relate impulse = FΔt. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why does the egg survive on the pillow?",
+       "a": "The egg's change in momentum is the same, but the pillow increases the stopping time, so the average force (Δp/Δt) is much smaller."
+      },
+      {
+       "q": "An egg (0.060 kg) hits at 4.4 m/s and stops in 0.010 s. Average force?",
+       "a": "Δp = 0.060 × 4.4 ≈ 0.26 kg·m/s; F = 0.26/0.010 ≈ 26 N (stopping in 0.10 s gives only 2.6 N)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the momentum quiz (30 minutes). Today's task from the plan: Solve conservation of momentum problems in a quiz. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A 60 kg skater at rest pushes a 40 kg skater who moves off at 3 m/s. Velocity of the first skater?",
+       "a": "0 = 40(3) + 60v → v = −2 m/s (2 m/s in the opposite direction)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (sample): 1) p of 0.5 kg ball at 8 m/s = 4 kg·m/s. 2) 1,000 kg car at 20 m/s hits and sticks to 1,500 kg car at rest → 8 m/s. 3) impulse to stop a 0.15 kg ball at 30 m/s = 4.5 N·s. 4) airbags increase stopping time, reducing force. 5) 3 kg cart at 4 m/s and 1 kg cart at −2 m/s stick → v = (12 − 2)/4 = 2.5 m/s. 6) gun recoil explained by conservation of momentum."
+  },
+  {
+   "week": 5,
+   "prep": "Raw eggs (several), toy car or small cart, straws, paper, tape, rubber bands; a ramp (board on books) and a wall/book as a barrier. Kitchen scale. Put down newspaper.",
+   "misconceptions": [
+    "Making the device as stiff as possible. Crumple zones work by deforming to lengthen stopping time; rigid structures transfer force to the egg.",
+    "Changing several variables between tests. Change one design feature at a time so you know what caused the improvement."
+   ],
+   "days": [
+    {
+     "guide": "Together list criteria (egg survives a crash from a set ramp height) and constraints (e.g., 20 straws, 1 m tape, mass limit 100 g, egg must be visible).",
+     "questions": [
+      {
+       "q": "What is the difference between a criterion and a constraint?",
+       "a": "A criterion is what the design must achieve (egg doesn't crack); a constraint is a limit (materials, mass, time, cost)."
+      }
+     ]
+    },
+    {
+     "guide": "The student sketches three designs and scores them in a decision matrix (weighted criteria: protection, mass, buildability). Today's task from the plan: Sketch three designs and choose one using a decision matrix. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why use a decision matrix?",
+       "a": "It compares designs against the criteria objectively instead of choosing the favorite."
+      }
+     ]
+    },
+    {
+     "guide": "Build and test from the set ramp height. Film the crash to estimate stopping time. Today's task from the plan: Build a prototype and test it in a ramp crash; record results. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Which physics principle should guide the design?",
+       "a": "Impulse: increase the stopping time (crumple zones, padding) to reduce the force on the egg, since F = Δp/Δt."
+      }
+     ]
+    },
+    {
+     "guide": "Redesign one feature based on test data and retest. Estimate the impulse and average force. Today's task from the plan: Redesign based on test data and retest; calculate impulse reductions. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "If the redesign doubles the stopping time, how does the average force change?",
+       "a": "It halves (same Δp)."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents the design (5 minutes) and takes the Unit 1 test. Today's task from the plan: Present the design and take the Unit 1 test. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why do modern cars have crumple zones but rigid passenger cages?",
+       "a": "Crumple zones deform to increase stopping time and absorb energy, while the rigid cage prevents intrusion into the passenger space."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Design report rubric (4-point per row): problem definition with criteria/constraints; design selection with decision matrix; test data (at least two trials) and redesign based on evidence; explanation using impulse-momentum. Unit 1 test key (sample): kinematics (from rest a = 2 m/s² for 6 s → 12 m/s, 36 m), F = ma, free-body diagrams, third-law pairs, μ calculation, momentum conservation, impulse."
+  },
+  {
+   "week": 6,
+   "prep": "Objects of different mass (ball, book, crumpled paper), stopwatch or phone video, measuring tape; flashlight, graph paper; PhET Gravity Force Lab.",
+   "misconceptions": [
+    "Believing heavier objects fall faster. Without air resistance all objects fall with the same acceleration g; air resistance explains the paper.",
+    "Thinking there's no gravity in space (on the ISS). Gravity there is about 90% of surface gravity; astronauts float because they are in free fall."
+   ],
+   "days": [
+    {
+     "guide": "Drop objects from a measured height (e.g., 2.0 m), time several trials, and compute g = 2d/t². Today's task from the plan: Drop objects of different mass; measure g from timed drops. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "An object falls 2.0 m in 0.64 s. Estimate g.",
+       "a": "g = 2(2.0)/0.64² ≈ 9.8 m/s²."
+      }
+     ]
+    },
+    {
+     "guide": "Shine a flashlight through a square hole in a card at the graph paper; double the distance and count squares lit. Today's task from the plan: Model inverse square law by shining a flashlight on graph paper at increasing distances. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "At twice the distance, how many times as many squares are lit, and what happens to brightness per square?",
+       "a": "4 times the area, so each square gets 1/4 the light: intensity ∝ 1/r²."
+      }
+     ]
+    },
+    {
+     "guide": "Model F = Gm₁m₂/r² with scientific notation. Today's task from the plan: Calculate gravitational force between Earth and Moon and between two people. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the force between Earth (5.97 × 10²⁴ kg) and Moon (7.35 × 10²² kg) at 3.84 × 10⁸ m.",
+       "a": "F ≈ 6.67 × 10⁻¹¹ × 5.97 × 10²⁴ × 7.35 × 10²² / (3.84 × 10⁸)² ≈ 2.0 × 10²⁰ N."
+      },
+      {
+       "q": "Force between two 70 kg people 1 m apart?",
+       "a": "≈ 3.3 × 10⁻⁷ N, far too small to notice."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, double one mass then double the distance; record the force each time. Today's task from the plan: Use PhET Gravity Force Lab to explore F vs. mass and distance. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "If the distance between two masses triples, how does the force change?",
+       "a": "It becomes 1/9 as large."
+      }
+     ]
+    },
+    {
+     "guide": "Give the gravitation quiz. Today's task from the plan: Quiz on gravitation calculations. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "If both masses double and distance doubles, what happens to F?",
+       "a": "F × (2 × 2)/2² = F: unchanged."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (sample): 1) g ≈ 9.8 m/s². 2) halving distance → 4× force. 3) doubling one mass → 2× force. 4) weight of 50 kg person = 490 N. 5) Earth–Sun force ≈ 3.5 × 10²² N (using M_sun 1.99 × 10³⁰ kg, r 1.5 × 10¹¹ m). 6) why astronauts float (free fall)."
+  },
+  {
+   "week": 7,
+   "prep": "String, two pushpins, cardboard; planet data table (semi-major axis in AU and period in years); PhET Gravity and Orbits.",
+   "misconceptions": [
+    "Thinking seasons come from Earth's distance to the Sun. Earth's orbit is nearly circular (e ≈ 0.017); seasons are from axial tilt.",
+    "Thinking a satellite needs fuel to stay in orbit. It is continuously falling around Earth; its sideways speed keeps it from hitting the ground."
+   ],
+   "days": [
+    {
+     "guide": "Draw ellipses with pins at different spacings. e = c/a (focus distance ÷ semi-major axis). Today's task from the plan: Draw ellipses with string and pins; calculate eccentricity. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "An ellipse has a = 10 cm and foci 4 cm from the center. What is e?",
+       "a": "e = 4/10 = 0.4."
+      }
+     ]
+    },
+    {
+     "guide": "The student computes T² and a³ for each planet (AU, years) and graphs. Today's task from the plan: Analyze planet data to verify Kepler's third law (T² ∝ a³). Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Mars has a = 1.52 AU. Predict its period.",
+       "a": "T² = a³ = 3.51 → T ≈ 1.87 years."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, increase the Sun's mass and observe Earth's orbit. Today's task from the plan: Use PhET Gravity and Orbits to change the Sun's mass and observe orbit changes. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "What happens to Earth's orbit if the Sun's mass doubles (at the same speed)?",
+       "a": "Stronger gravity pulls Earth into a smaller, faster, more elliptical orbit."
+      }
+     ]
+    },
+    {
+     "guide": "Model v = √(GM/r) and T = 2πr/v for the ISS (about 400 km up). Today's task from the plan: Calculate orbital speed and period for the ISS and GPS satellites. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Find the ISS's orbital speed and period (r ≈ 6.77 × 10⁶ m, GM = 3.99 × 10¹⁴).",
+       "a": "v ≈ 7.7 km/s; T ≈ 92 minutes."
+      },
+      {
+       "q": "Why do GPS satellites (about 20,200 km up) have longer periods?",
+       "a": "Larger r means weaker gravity and slower speed over a longer path; period ≈ 12 hours."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes an explanation of speed changes in an elliptical orbit. Today's task from the plan: Write an explanation of how orbital speed changes in an elliptical orbit. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Where is a planet fastest?",
+       "a": "At perihelion (closest to the Sun), as Kepler's second law requires equal areas in equal times."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Data analysis key: T²/a³ ≈ 1 for all planets in years and AU (Mercury 0.387 AU, 0.241 yr; Jupiter 5.20 AU, 11.86 yr). Rubric (4-point): table complete, graph of T² vs a³ linear through origin, slope ≈ 1, explanation of Kepler's second law with perihelion/aphelion speeds."
+  },
+  {
+   "week": 8,
+   "prep": "Balloons, wool cloth, clear tape, aluminum foil, a glass jar, paper clip, cardboard lid. PhET Coulomb's Law. Dry days work best.",
+   "misconceptions": [
+    "Thinking charging creates charge. Charging transfers electrons from one object to another; total charge is conserved.",
+    "Thinking only charged objects are attracted. A charged balloon attracts neutral paper bits by polarizing them (induced charge separation)."
+   ],
+   "days": [
+    {
+     "guide": "Rub balloons on wool; test balloon-balloon (repel) and balloon-wall (attract). Make tape strips (top 'T' and bottom 'B') and test. Today's task from the plan: Charge balloons and tape strips; observe attraction and repulsion. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why do two balloons rubbed on wool repel each other?",
+       "a": "Both gain extra electrons (negative charge); like charges repel."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, vary charge and distance; record force. Today's task from the plan: Use PhET Coulomb's Law to explore force vs. charge and distance. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "If the distance between two charges is halved, what happens to the force?",
+       "a": "It becomes 4 times larger (inverse square)."
+      }
+     ]
+    },
+    {
+     "guide": "Compare F_e and F_g for two protons using the formulas. Today's task from the plan: Compare gravitational and electrostatic forces between protons. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How many times stronger is the electric force than gravity between two protons?",
+       "a": "About 1.2 × 10³⁶ times (distance cancels since both follow 1/r²)."
+      }
+     ]
+    },
+    {
+     "guide": "Build the foil-leaf electroscope; test conduction (touch) and induction (bring near). Today's task from the plan: Build a foil-leaf electroscope in a jar and test charging by conduction and induction. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why do the foil leaves spread apart when a charged balloon touches the top?",
+       "a": "Charge spreads to both leaves; like charges repel."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 2 test. Today's task from the plan: Unit 2 test on gravitation, orbits, and Coulomb's law. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Compare Newton's law of gravitation and Coulomb's law.",
+       "a": "Both are inverse-square laws; gravity is only attractive and acts between masses, while electric forces can attract or repel and act between charges."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Electroscope rubric: built correctly, tested both methods, explanation of electron movement. Unit 2 test key (sample): F_g calculations, Kepler's third law, orbital speed, inverse-square effects, Coulomb's law (two 1 μC charges 0.1 m apart: 0.90 N), conduction vs induction."
+  },
+  {
+   "week": 9,
+   "prep": "Stairs (measure height of each step), stopwatch, bathroom scale. Remind the student to run safely.",
+   "misconceptions": [
+    "Thinking carrying a box across a room at constant height does work against gravity. Work requires force in the direction of displacement.",
+    "Confusing power with energy. Power is the rate (energy per time)."
+   ],
+   "days": [
+    {
+     "guide": "Model W = Fd cos θ. The student calculates work lifting and pushing. Today's task from the plan: Calculate work done lifting and pushing objects. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How much work to lift a 10 kg box 2.0 m?",
+       "a": "W = mgh = 10 × 9.8 × 2.0 = 196 J."
+      }
+     ]
+    },
+    {
+     "guide": "Model KE and PE for a coaster. Today's task from the plan: Calculate KE and PE for a roller coaster; relate to particle motion and fields. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A 1,000 kg coaster moves at 20 m/s. Find its KE.",
+       "a": "KE = ½(1,000)(20²) = 200,000 J."
+      },
+      {
+       "q": "What is the PE of a 500 kg car at the top of a 30 m hill?",
+       "a": "PE = 500 × 9.8 × 30 = 147,000 J."
+      }
+     ]
+    },
+    {
+     "guide": "Measure stair height, weigh the student, time running up. P = mgh/t. Today's task from the plan: Run up stairs timed; calculate personal power output in watts and horsepower. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "A 60 kg student climbs 3.0 m in 2.0 s. Power?",
+       "a": "P = 60 × 9.8 × 3.0/2.0 = 882 W ≈ 1.2 hp."
+      }
+     ]
+    },
+    {
+     "guide": "Draw energy bar charts for skier, pendulum, spring. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "At the lowest point of a pendulum's swing, which energy is maximum?",
+       "a": "Kinetic energy."
+      }
+     ]
+    },
+    {
+     "guide": "Energy quiz. Today's task from the plan: Quiz on energy calculations. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A 2 kg ball is dropped from 5 m. What is its speed just before hitting the ground (ignore air resistance)?",
+       "a": "v = √(2gh) = √98 ≈ 9.9 m/s."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Stair lab rubric: measurements with units, correct calculation, comparison to 746 W/hp, error sources. Quiz key (sample): work 50 N × 4 m = 200 J; KE of 0.5 kg at 6 m/s = 9 J; PE of 3 kg at 10 m = 294 J; power 1,200 J in 4 s = 300 W."
+  },
+  {
+   "week": 10,
+   "prep": "PhET Energy Skate Park; foam pipe insulation (cut in half lengthwise) and marbles; spreadsheet; string and a mass for a pendulum; phone for slow-motion video.",
+   "misconceptions": [
+    "Thinking energy disappears due to friction. It is transformed into thermal energy; total energy is conserved.",
+    "Using mass in v = √(2gh). Mass cancels."
+   ],
+   "days": [
+    {
+     "guide": "In PhET, observe energy bars with and without friction. Today's task from the plan: Use PhET Energy Skate Park to track KE, PE, and thermal energy. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Where does energy go when friction is turned on?",
+       "a": "Into thermal energy; total energy stays constant."
+      }
+     ]
+    },
+    {
+     "guide": "Build the marble coaster; predict speed at the bottom of each hill from drop heights. Today's task from the plan: Build a foam pipe-insulation marble roller coaster and predict speeds at points. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A marble drops 0.50 m. Predict its speed at the bottom (no friction).",
+       "a": "v = √(2 × 9.8 × 0.50) ≈ 3.1 m/s."
+      }
+     ]
+    },
+    {
+     "guide": "Build a spreadsheet: drop height → predicted speed. Today's task from the plan: Build a spreadsheet model predicting the speed of a pendulum from drop height. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Predict speed for a 0.20 m drop.",
+       "a": "≈ 2.0 m/s."
+      }
+     ]
+    },
+    {
+     "guide": "Release the pendulum from measured heights; film and measure speed at the bottom. Today's task from the plan: Test the model with a real pendulum and compare predicted vs. measured speed. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why is measured speed usually a bit less than predicted?",
+       "a": "Air resistance and friction at the pivot convert some energy to thermal energy."
+      }
+     ]
+    },
+    {
+     "guide": "CER on energy conservation with friction. Today's task from the plan: Write a CER on energy conservation with friction. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What evidence shows energy conservation even with friction?",
+       "a": "Measured speed slightly lower than predicted; the missing kinetic energy equals thermal energy produced."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric (4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning). Claim: answers the question about energy conservation with friction in one sentence. Evidence: specific data from the student's own lab/simulation with numbers and units. Reasoning: connects the evidence to the scientific principle. A proficient response: predicted vs measured speeds from the pendulum or coaster (e.g., predicted 2.0 m/s, measured 1.9 m/s) and reasoning that the small loss in kinetic energy became thermal energy, so total energy is conserved."
+  },
+  {
+   "week": 11,
+   "prep": "Insulated cups (foam), thermometer, hot and cold water, food coloring, kitchen scale. Adult supervision with hot water.",
+   "misconceptions": [
+    "Confusing heat and temperature. Temperature measures average kinetic energy of particles; heat is energy transferred due to temperature difference.",
+    "Thinking cold 'flows' into objects. Energy flows from hot to cold."
+   ],
+   "days": [
+    {
+     "guide": "Drop food coloring in hot and cold water simultaneously. Today's task from the plan: Compare food coloring diffusion in hot vs. cold water; model particle motion. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why does coloring spread faster in hot water?",
+       "a": "Particles in hot water move faster (higher average kinetic energy)."
+      }
+     ]
+    },
+    {
+     "guide": "Demonstrate conduction (metal spoon in hot water), convection (coloring in heated water), radiation (hand near a lamp). Today's task from the plan: Demonstrate conduction, convection, and radiation with household setups. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Which heat transfer method doesn't require matter?",
+       "a": "Radiation (electromagnetic waves)."
+      }
+     ]
+    },
+    {
+     "guide": "Mix hot and cold water in insulated cups; record temperature every 30 s until equilibrium. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Mix 200 g at 80 °C with 100 g at 20 °C. Predict the final temperature.",
+       "a": "T = (200 × 80 + 100 × 20)/300 = 60 °C."
+      }
+     ]
+    },
+    {
+     "guide": "Model Q = mcΔT. Today's task from the plan: Calculate specific heat using Q = mcΔT and compare sand vs. water heating. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How much energy heats 0.50 kg of water from 20 °C to 80 °C?",
+       "a": "Q = 0.50 × 4,186 × 60 ≈ 126,000 J."
+      },
+      {
+       "q": "Why does sand heat faster than water in the sun?",
+       "a": "Sand's specific heat (≈ 830 J/kg°C) is about 1/5 that of water (4,186 J/kg°C)."
+      }
+     ]
+    },
+    {
+     "guide": "Lab report on energy uniformity. Today's task from the plan: Lab report showing evidence of energy uniformity. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What does reaching equilibrium show?",
+       "a": "Energy flowed until the temperatures were uniform."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric: data table and graph, final temperature compared to prediction, explanation of energy transfer, error sources (heat loss to cup/air)."
+  },
+  {
+   "week": 12,
+   "prep": "Cardboard box (pizza box works), aluminum foil, black construction paper, plastic wrap, tape, oven thermometer, a sunny day near midday. Adult supervision; the oven can get hot enough to burn.",
+   "misconceptions": [
+    "Thinking an efficient device can output more energy than it takes in. Efficiency = useful output ÷ input and is always below 100%; the rest becomes thermal energy.",
+    "Thinking black paper reflects heat. Dark surfaces absorb most visible light and convert it to thermal energy; foil reflects light into the box."
+   ],
+   "days": [
+    {
+     "guide": "Model efficiency = useful energy out ÷ energy in × 100%. The student calculates efficiency for an incandescent bulb, LED, and car engine from given numbers.",
+     "questions": [
+      {
+       "q": "A 60 W incandescent bulb produces about 6 W of visible light. What is its efficiency, and where does the rest go?",
+       "a": "6/60 = 10%; the other 54 W becomes thermal energy (heat)."
+      }
+     ]
+    },
+    {
+     "guide": "List criteria (highest temperature rise in 30 minutes) and constraints (box size, listed materials). The student sketches a design labeling where light is reflected, absorbed, and trapped.",
+     "questions": [
+      {
+       "q": "What job does the plastic wrap do?",
+       "a": "It lets sunlight in but traps warm air, reducing heat loss by convection (a greenhouse effect)."
+      }
+     ]
+    },
+    {
+     "guide": "Build the oven following the sketch: foil-lined reflector flap, black-lined bottom, sealed plastic window. Today's task from the plan: Build the solar oven. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why line the inside bottom with black paper rather than foil?",
+       "a": "Black absorbs light and converts it to thermal energy; foil on the bottom would reflect light back out."
+      }
+     ]
+    },
+    {
+     "guide": "Test in full sun, recording temperature every 5 minutes for 30 minutes; change ONE feature (reflector angle or insulation) and retest. Today's task from the plan: Test the oven, measure temperature rise, and refine design. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why change only one variable between tests?",
+       "a": "So any temperature difference can be attributed to that single change."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents results and an efficiency estimate. Today's task from the plan: Present design results and efficiency estimate. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "How can you estimate the oven's efficiency?",
+       "a": "Heat a known mass of water: energy absorbed = mcΔT; divide by solar input ≈ 1,000 W/m² × window area × time. E.g., 0.2 kg warmed 15 °C absorbs 12,600 J; 0.1 m² × 1,000 W/m² × 1,800 s = 180,000 J; efficiency ≈ 7%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Design report rubric (4-point per row): design meets constraints with labeled sketch; temperature-time data for at least two tests; one evidence-based refinement; efficiency estimate with calculation and explanation of energy losses (reflection, convection, conduction through walls). Proficient = complete data and a reasonable efficiency (typically 5–20%) with correct method."
+  },
+  {
+   "week": 13,
+   "prep": "Review packet of mixed problems from Weeks 9–12; old quizzes; poster paper for a concept map.",
+   "misconceptions": [
+    "Memorizing equations without knowing when to use them. Have the student state the principle (conservation, Q = mcΔT, P = E/t) before choosing an equation.",
+    "Leaving out thermal energy in conservation problems. When friction acts, the 'missing' mechanical energy is thermal energy."
+   ],
+   "days": [
+    {
+     "guide": "Mixed problems on work, KE, PE, and power; the student explains which principle each uses. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A 0.50 kg ball is thrown straight up at 10 m/s. How high does it rise (no air resistance)?",
+       "a": "½mv² = mgh → h = v²/(2g) = 100/19.6 ≈ 5.1 m."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed problems on heat transfer and specific heat. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How much energy raises 2.0 kg of water by 10 °C?",
+       "a": "Q = 2.0 × 4,186 × 10 ≈ 83,700 J."
+      }
+     ]
+    },
+    {
+     "guide": "The student builds a concept map linking energy forms (kinetic, gravitational, elastic, thermal, chemical, electrical, radiant) with labeled transfer arrows (work, heating, radiation).",
+     "questions": [
+      {
+       "q": "Trace energy from gasoline to a moving car.",
+       "a": "Chemical energy → thermal energy in combustion → mechanical work on pistons → kinetic energy of the car, with much lost as thermal energy to the surroundings."
+      }
+     ]
+    },
+    {
+     "guide": "Practice test under time; the student corrects each error with a one-line explanation. Today's task from the plan: Take a practice test and correct errors. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A 1,000 kg car at 20 m/s brakes to rest. How much thermal energy is produced in the brakes?",
+       "a": "All of its KE: ½(1,000)(20²) = 200,000 J."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 3 test (50 minutes). Today's task from the plan: Unit 3 test on energy. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Define power and give its unit.",
+       "a": "Power is the rate of energy transfer or work done, P = E/t, measured in watts (1 W = 1 J/s)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test key (sample): 1) work pushing 50 N for 6 m = 300 J. 2) KE of 4 kg at 3 m/s = 18 J. 3) PE of 3 kg at 10 m = 294 J. 4) power: 1,200 J in 4 s = 300 W. 5) speed at the bottom of a 5 m frictionless drop = 9.9 m/s. 6) Q to heat 0.3 kg water 20 °C → 100 °C = 100,464 J. 7) efficiency: 400 J useful of 1,600 J = 25%. 8) mixing 1 kg at 90 °C with 1 kg at 30 °C → 60 °C. 9) conduction/convection/radiation examples. 10) explain why a skater on a real ramp never quite returns to the starting height (friction → thermal)."
+  },
+  {
+   "week": 14,
+   "prep": "AA batteries with holders, small bulbs (or LEDs with resistors), alligator-clip wires; PhET Circuit Construction Kit: DC. Photos of labels from three home appliances (watts). A recent electric bill for the rate per kWh.",
+   "misconceptions": [
+    "Thinking current is 'used up' by a bulb. Current is the same everywhere in a series loop; what the bulb uses is energy.",
+    "Thinking adding branches in parallel increases resistance. Each new path lowers total resistance, so total current increases."
+   ],
+   "days": [
+    {
+     "guide": "Build a one-bulb circuit and name parts (source, conductor, load, switch). Try an open circuit and a short circuit (briefly) to define each. Today's task from the plan: Build simple circuits with batteries and bulbs; identify parts. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What does a circuit need for current to flow?",
+       "a": "A complete, closed conducting loop and a source of potential difference (voltage)."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, hold resistance constant and vary voltage, recording current; graph V vs I. Today's task from the plan: Use PhET Circuit Construction Kit to measure V, I, R and derive Ohm's law. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "A 9.0 V battery is connected across a 3.0 Ω resistor. What current flows?",
+       "a": "I = V/R = 9.0/3.0 = 3.0 A."
+      },
+      {
+       "q": "What does the slope of the V vs I graph equal?",
+       "a": "The resistance R."
+      }
+     ]
+    },
+    {
+     "guide": "Build two bulbs in series, then in parallel; compare brightness and what happens when one bulb is removed. Today's task from the plan: Build series and parallel circuits; compare bulb brightness. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Which arrangement makes two identical bulbs brighter, and why?",
+       "a": "Parallel: each bulb gets the full battery voltage; in series they share it."
+      },
+      {
+       "q": "Find the total resistance of 6 Ω and 3 Ω in parallel.",
+       "a": "1/R = 1/6 + 1/3 = 1/2, R = 2 Ω."
+      }
+     ]
+    },
+    {
+     "guide": "Model P = VI and energy = P × t in kWh. The student finds monthly costs for three appliances. Today's task from the plan: Calculate electrical power and energy cost of home appliances from labels. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "A 1,500 W hair dryer runs 30 minutes a day for 30 days. At $0.30/kWh, what does it cost?",
+       "a": "1.5 kW × 15 h = 22.5 kWh; 22.5 × $0.30 = $6.75."
+      }
+     ]
+    },
+    {
+     "guide": "Circuits quiz (30 minutes). Today's task from the plan: Quiz on circuit analysis. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A 4 Ω and a 6 Ω resistor are in series with 12 V. Find the current and the voltage across the 6 Ω resistor.",
+       "a": "R = 10 Ω, I = 1.2 A; V = 1.2 × 6 = 7.2 V."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (sample): 1) 12 V across 4 Ω → 3 A. 2) series 2 Ω + 8 Ω = 10 Ω. 3) parallel 4 Ω and 4 Ω = 2 Ω. 4) power of 120 V, 0.5 A lamp = 60 W. 5) 100 W bulb for 10 h = 1 kWh. 6) in series, current is the same; in parallel, voltage is the same. 7) why home outlets are wired in parallel (each device gets full voltage, independent switching)."
+  },
+  {
+   "week": 15,
+   "prep": "Large iron nail, 2 m of thin insulated wire (ends stripped), D battery, paper clips, compass, bar magnet. Caution: the wire and battery heat up; connect only for a few seconds at a time.",
+   "misconceptions": [
+    "Thinking all metals are magnetic. Only some (iron, nickel, cobalt) are strongly attracted; aluminum and copper are not.",
+    "Thinking magnetic poles are the same as electric charges. A magnet always has both poles; cutting it makes two smaller magnets, each with N and S."
+   ],
+   "days": [
+    {
+     "guide": "Place the compass at many points around a bar magnet and draw the needle direction to map field lines. Today's task from the plan: Map magnetic field lines with a compass around a magnet. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Which direction do magnetic field lines point outside a magnet?",
+       "a": "From the north pole to the south pole."
+      }
+     ]
+    },
+    {
+     "guide": "Lay a wire over a compass (aligned north-south) and briefly connect to the battery; reverse the battery. Today's task from the plan: Place a compass near a current-carrying wire and observe deflection. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What did Oersted discover with this setup?",
+       "a": "An electric current produces a magnetic field around the wire; reversing the current reverses the field and the needle's deflection."
+      }
+     ]
+    },
+    {
+     "guide": "Wrap 10, 20, 30, 40 coils around the nail; count paper clips lifted each time (3 trials). Today's task from the plan: Wrap a nail with wire; vary coils and count paper clips lifted. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "How does the number of coils affect the electromagnet's strength?",
+       "a": "More coils produce a stronger field, so more clips are lifted (roughly proportional until the core saturates)."
+      }
+     ]
+    },
+    {
+     "guide": "The student draws a field model of two magnets attracting and repelling, explaining energy stored in the field. Today's task from the plan: Draw a field model explaining forces and energy between magnets. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why does it take work to push two north poles together?",
+       "a": "The repulsive field force opposes the motion; the work done is stored as potential energy in the magnetic field and is released if they fly apart."
+      }
+     ]
+    },
+    {
+     "guide": "Lab report on electromagnet strength. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Name three ways to make an electromagnet stronger.",
+       "a": "More coils, more current (bigger voltage), and an iron core."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric (4-point per row): question and hypothesis; data table with 3 trials per condition and averages; graph of clips vs coils; conclusion explaining that current in coils creates a magnetic field that adds up with each turn and is concentrated by the iron core; sources of error (battery draining, clip size)."
+  },
+  {
+   "week": 16,
+   "prep": "A strong magnet, a coil of many turns of thin wire (or wire wrapped around a toilet paper tube), an LED or multimeter, a D battery, a small neodymium disk magnet, bare copper wire for the homopolar motor. PhET Faraday's Electromagnetic Lab. Caution: homopolar motors get hot quickly.",
+   "misconceptions": [
+    "Thinking a stationary magnet inside a coil makes current. Only a CHANGING magnetic field (motion) induces current.",
+    "Thinking a generator creates energy. It converts mechanical energy into electrical energy; something must do work to turn it."
+   ],
+   "days": [
+    {
+     "guide": "In PhET, move the bar magnet through the coil at different speeds and with more loops. Today's task from the plan: Use PhET Faraday's Lab to explore induced current. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "What increases the induced current?",
+       "a": "Moving the magnet faster, adding more loops, or using a stronger magnet—anything that increases the rate of change of magnetic flux."
+      }
+     ]
+    },
+    {
+     "guide": "Push a magnet in and out of the real coil connected to the LED/multimeter. Today's task from the plan: Move a magnet through a coil and detect current with an LED or multimeter. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why does the current reverse direction when the magnet is pulled out?",
+       "a": "The magnetic field through the coil is now decreasing instead of increasing, so the induced current reverses (Lenz's law)."
+      }
+     ]
+    },
+    {
+     "guide": "Build the homopolar motor (magnet under battery, bent wire touching top and magnet). Today's task from the plan: Build a simple homopolar motor with battery, magnet, and wire. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What makes the wire spin?",
+       "a": "A current-carrying wire in a magnetic field experiences a force, producing rotation (electrical → mechanical energy)."
+      }
+     ]
+    },
+    {
+     "guide": "Read about hydro, wind, and natural gas plants; compare how each spins its turbine. Today's task from the plan: Explain how power plants generate electricity; compare hydro, wind, and gas. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What do hydro, wind, and natural gas plants have in common?",
+       "a": "Each spins a turbine (by falling water, wind, or hot gas/steam) that turns a generator, where coils rotate in a magnetic field to induce current."
+      }
+     ]
+    },
+    {
+     "guide": "CER: motors and generators are reverse processes. Today's task from the plan: CER on how generators and motors are reversible. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Give the energy conversions of a motor and a generator.",
+       "a": "Motor: electrical → mechanical. Generator: mechanical → electrical."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric (4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning). Claim: answers the question about why motors and generators are reversible in one sentence. Evidence: specific data from the student's own lab/simulation with numbers and units. Reasoning: connects the evidence to the scientific principle. A proficient response: the homopolar motor (current + magnetic field → motion) and the coil experiment (motion of magnet → current) as evidence, and reasoning that both depend on the interaction between magnetic fields and moving charges, so the same device can convert energy either way."
+  },
+  {
+   "week": 17,
+   "prep": "Samples to test: copper wire, aluminum foil, plastic spoon, rubber band, glass, wood, pencil graphite (sharpened at both ends), salt water. The circuit tester from Week 14.",
+   "misconceptions": [
+    "Thinking all nonmetals are insulators. Graphite (carbon) conducts because of delocalized electrons in its layers.",
+    "Thinking semiconductors are just poor conductors. Their conductivity can be precisely controlled by doping, light, and voltage, which is why they make switches (transistors)."
+   ],
+   "days": [
+    {
+     "guide": "The student predicts, then tests each sample in the circuit and records whether the bulb lights. Today's task from the plan: Test household materials in a circuit for conductivity. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Which samples conduct and why?",
+       "a": "Copper, aluminum, graphite, and salt water: metals and graphite have free electrons; salt water has mobile ions."
+      }
+     ]
+    },
+    {
+     "guide": "Research how bonding gives properties: metals (sea of electrons), polymers (long chains), ceramics/glass (rigid networks). Today's task from the plan: Research how molecular structure gives polymers flexibility and metals conductivity. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why are metals good conductors and malleable?",
+       "a": "Their valence electrons are delocalized: they move freely to carry current, and the layers of ions can slide without breaking bonds."
+      }
+     ]
+    },
+    {
+     "guide": "Read about silicon chips and doping. Today's task from the plan: Read about silicon chips and how doping works. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What is doping?",
+       "a": "Adding small amounts of impurity: phosphorus adds extra electrons (n-type), boron creates 'holes' (p-type), changing how silicon conducts."
+      }
+     ]
+    },
+    {
+     "guide": "The student builds an infographic on Kevlar, Gore-Tex, or graphene explaining structure → property → use. Today's task from the plan: Make an infographic on a designed material (Kevlar, Gore-Tex, graphene). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why is Kevlar so strong?",
+       "a": "Its long, rigid polymer chains line up and are linked by hydrogen bonds between chains, so force spreads across many bonds."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents the infographic (3–5 minutes). Today's task from the plan: Present the infographic. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why is graphene a promising material?",
+       "a": "It is a single layer of carbon atoms in a hexagonal lattice; it is extremely strong, thin, and conducts electricity and heat very well."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Infographic rubric (4-point per row): accurate molecular/atomic structure; clear link from structure to property; real-world application; at least two credible cited sources; readable design. Proficient = correct structure-property explanation with one minor gap."
+  },
+  {
+   "week": 18,
+   "prep": "Semester review packet (questions from Units 1–4); a practice CER prompt with data; two quiet exam blocks.",
+   "misconceptions": [
+    "Studying by rereading notes only. Use mixed practice problems and explain answers aloud.",
+    "Dropping units. Require units at every step; many exam errors come from unit mistakes."
+   ],
+   "days": [
+    {
+     "guide": "Review Newton's laws, momentum, and gravitation problems. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A 3.0 kg object has a net force of 12 N. Acceleration?",
+       "a": "4.0 m/s²."
+      },
+      {
+       "q": "A 0.5 kg ball at 6 m/s hits a wall and bounces back at 4 m/s. Impulse?",
+       "a": "Δp = 0.5(−4 − 6) = −5 kg·m/s (5 N·s directed away from the wall)."
+      }
+     ]
+    },
+    {
+     "guide": "Review energy conservation and thermal transfer. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Speed of an object after falling 10 m from rest?",
+       "a": "v = √(2 × 9.8 × 10) = 14 m/s."
+      }
+     ]
+    },
+    {
+     "guide": "Review circuits and electromagnetism. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Current through a 10 Ω resistor with 5 V?",
+       "a": "0.5 A."
+      },
+      {
+       "q": "How can you induce current in a coil?",
+       "a": "Change the magnetic field through it, e.g., by moving a magnet in or out."
+      }
+     ]
+    },
+    {
+     "guide": "Exam part 1: multiple choice and short answer (50 minutes). Today's task from the plan: Multiple-choice and short-answer. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Define inertia.",
+       "a": "An object's tendency to resist changes in its motion; it depends on mass."
+      }
+     ]
+    },
+    {
+     "guide": "Exam part 2: data analysis and CER (50 minutes). Today's task from the plan: Data-analysis and CER section. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What three parts must a CER include?",
+       "a": "A claim answering the question, evidence (specific data), and reasoning that links the evidence to a scientific principle."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester exam key (sample items): F = ma (5 kg, 2 m/s² → 10 N); third-law pair; momentum conservation (2 kg at 5 m/s sticks to 3 kg at rest → 2 m/s); gravitation inverse square; Kepler's third law; KE/PE calculations; power; Q = mcΔT; Ohm's law; series vs parallel; induction. Part 2 CER scored with the 4-point CER rubric. Grade bands: 90%+ excellent, 75–89% proficient, below 75% review weak units in January."
+  },
+  {
+   "week": 19,
+   "prep": "A Slinky (metal preferred), a 3–5 m rope, stopwatch, meter stick; PhET Wave on a String.",
+   "misconceptions": [
+    "Thinking waves carry matter along. Waves carry energy; the medium oscillates in place.",
+    "Thinking increasing frequency increases wave speed. Speed depends on the medium; changing frequency changes wavelength (v = fλ)."
+   ],
+   "days": [
+    {
+     "guide": "Stretch the Slinky on the floor. Make transverse waves (side to side) and longitudinal waves (push-pull); tie a ribbon on one coil to watch its motion.",
+     "questions": [
+      {
+       "q": "How does the ribbon move in each type of wave?",
+       "a": "Transverse: perpendicular to the wave direction (side to side). Longitudinal: back and forth parallel to the wave direction."
+      }
+     ]
+    },
+    {
+     "guide": "Shake the rope steadily; measure wavelength with the meter stick and count oscillations per second for frequency; compute v = fλ. Today's task from the plan: Measure wavelength and frequency on a rope; calculate v = fλ. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "A rope wave has frequency 2.0 Hz and wavelength 1.5 m. Wave speed?",
+       "a": "v = 2.0 × 1.5 = 3.0 m/s."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, vary tension and frequency separately and record wave speed. Today's task from the plan: Use PhET Wave on a String to explore tension and wave speed. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "What happens to wave speed when tension increases?",
+       "a": "It increases; the wavelength gets longer at the same frequency."
+      }
+     ]
+    },
+    {
+     "guide": "Give speeds of sound: air ≈ 343 m/s, water ≈ 1,480 m/s, steel ≈ 5,900 m/s. Solve problems. Today's task from the plan: Compare sound speed in air, water, and steel; solve problems. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How long does sound take to travel 1,000 m in air and in water?",
+       "a": "Air: 1,000/343 ≈ 2.9 s. Water: 1,000/1,480 ≈ 0.68 s."
+      },
+      {
+       "q": "Why does sound travel faster in steel than in air?",
+       "a": "Particles in solids are tightly bonded, so vibrations are passed along much faster."
+      }
+     ]
+    },
+    {
+     "guide": "Wave quiz (30 minutes). Today's task from the plan: Quiz on wave calculations. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "A 440 Hz sound in air (343 m/s) has what wavelength?",
+       "a": "λ = 343/440 ≈ 0.78 m."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (sample): 1) label crest, trough, amplitude, wavelength on a diagram. 2) v = fλ: 5 Hz, 0.4 m → 2 m/s. 3) λ for 680 Hz in air = 0.50 m. 4) period of 4 Hz wave = 0.25 s. 5) sound is longitudinal; light is transverse. 6) speed depends on medium, not frequency. 7) thunder heard 3 s after lightning → ≈ 1 km away."
+  },
+  {
+   "week": 20,
+   "prep": "Glass bottles, water, a spoon; a free tone-generator app; two phones or a laptop with stereo speakers. Keep volume low to protect hearing.",
+   "misconceptions": [
+    "Thinking louder means higher pitch. Pitch depends on frequency; loudness depends on amplitude.",
+    "Thinking two sound waves always make sound louder. They can cancel (destructive interference) where crest meets trough."
+   ],
+   "days": [
+    {
+     "guide": "Play tones from 100 Hz to 10,000 Hz; the student notes the pitch and the highest frequency they can hear. Today's task from the plan: Use a phone tone generator and observe the effect of frequency on pitch. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What property of a sound wave determines pitch?",
+       "a": "Frequency: higher frequency → higher pitch. (Humans hear about 20–20,000 Hz.)"
+      }
+     ]
+    },
+    {
+     "guide": "Fill bottles to different levels; blow across the tops and tap the sides; compare pitches. Today's task from the plan: Tune water bottles and explain standing waves. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Blowing across a bottle, does more water give a higher or lower pitch? Why?",
+       "a": "Higher: the air column is shorter, so the standing wave's wavelength is shorter and its frequency is higher."
+      }
+     ]
+    },
+    {
+     "guide": "Play the same tone (e.g., 500 Hz) from two speakers 1 m apart; walk slowly across the room and listen for quiet spots. Today's task from the plan: Use two phone speakers to find quiet spots of destructive interference. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why are there quiet spots?",
+       "a": "At those points, waves from the two speakers arrive out of phase (crest meets trough) and cancel by destructive interference."
+      }
+     ]
+    },
+    {
+     "guide": "Explain the Doppler effect with an ambulance siren; connect to radar guns and redshift. Today's task from the plan: Explain Doppler effect and its use in radar and astronomy. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What happens to the pitch of a siren as it approaches, then passes?",
+       "a": "Higher while approaching (waves compressed), lower after it passes (waves stretched)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes an explanation of how noise-canceling headphones work. Today's task from the plan: Explain how noise-canceling headphones work. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Summarize how noise-canceling headphones work.",
+       "a": "A microphone detects outside noise, and the electronics produce an inverted wave (opposite phase) that cancels it by destructive interference."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Explanation rubric (4-point): 4 = explains microphone sensing, inverted (180° out of phase) signal, destructive interference, and why it works best for steady low-frequency noise; includes a labeled wave diagram. 3 = correct with less detail. 2 = mentions 'canceling' without interference. 1 = incorrect."
+  },
+  {
+   "week": 21,
+   "prep": "UV-sensitive beads (online/craft stores), sunscreen of different SPF, plastic wrap, sunglasses, fabric samples. Access to credible sources (FDA, WHO, National Cancer Institute, FCC).",
+   "misconceptions": [
+    "Thinking all 'radiation' is dangerous. Only high-frequency radiation (UV-C/X-ray/gamma, and high-energy UV) is ionizing; radio waves and visible light are not.",
+    "Thinking a source is credible because it sounds scientific. Check author expertise, evidence, peer review, and conflicts of interest."
+   ],
+   "days": [
+    {
+     "guide": "Build a scale model of the spectrum (radio → gamma) on a long strip with example uses and wavelengths. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "List the EM spectrum from lowest to highest frequency.",
+       "a": "Radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray."
+      },
+      {
+       "q": "What is the wavelength of 2.4 GHz Wi-Fi?",
+       "a": "λ = c/f = 3 × 10⁸ / 2.4 × 10⁹ = 0.125 m (12.5 cm)."
+      }
+     ]
+    },
+    {
+     "guide": "Test UV beads in sunlight under plastic wrap, sunscreen-coated wrap, sunglasses, and fabrics; record color intensity. Today's task from the plan: Test sunscreen and fabrics with UV beads. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What do UV beads that stay white under sunscreen-coated wrap show?",
+       "a": "The sunscreen absorbs or blocks UV radiation."
+      }
+     ]
+    },
+    {
+     "guide": "Research ionizing vs non-ionizing radiation. Today's task from the plan: Research ionizing vs. non-ionizing radiation. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why is UV more harmful than visible light?",
+       "a": "UV photons have higher frequency and therefore more energy (E = hf), enough to damage DNA in skin cells."
+      }
+     ]
+    },
+    {
+     "guide": "The student evaluates two online claims about cell phones/5G health effects using credible sources. Today's task from the plan: Evaluate claims about cell phones and 5G health effects using credible sources. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What do major health agencies conclude about 5G?",
+       "a": "5G uses non-ionizing radio waves; at exposure levels within guidelines, agencies like the FCC and WHO have found no established health risk."
+      }
+     ]
+    },
+    {
+     "guide": "Write the claim evaluation report. Today's task from the plan: Write a claim evaluation report. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What criteria should be used to evaluate a health claim?",
+       "a": "Source expertise and credibility, quality of evidence (peer-reviewed, replicated), whether it explains a physical mechanism, and possible bias."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Claim evaluation report rubric (4-point per row): states the claim and source; evaluates evidence with at least two credible sources; explains the physics (ionizing vs non-ionizing, photon energy); reaches a justified conclusion. Proficient = recognizes 5G as non-ionizing and cites agency evidence."
+  },
+  {
+   "week": 22,
+   "prep": "Laser pointer (class 2, adult supervision; never point at eyes), a strand of hair, a CD, tape, a white wall; PhET Photoelectric Effect.",
+   "misconceptions": [
+    "Thinking light must be either a wave or a particle. Light shows both behaviors depending on the experiment.",
+    "Thinking brighter light ejects electrons in the photoelectric effect. Only light above a threshold frequency ejects electrons, regardless of intensity."
+   ],
+   "days": [
+    {
+     "guide": "Tape a hair across a card hole and shine the laser past it onto a wall; also reflect the laser off a CD. Today's task from the plan: Shine a laser past a hair and through a CD to observe diffraction patterns. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What does the pattern of bright and dark spots show?",
+       "a": "Diffraction and interference: light waves bend around the hair and overlap, adding in some places and canceling in others—wave behavior."
+      }
+     ]
+    },
+    {
+     "guide": "Study Young's double-slit experiment (diagram or video). Today's task from the plan: Study Young's double-slit experiment as evidence for the wave model. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Why does the double-slit pattern support the wave model?",
+       "a": "Only waves produce alternating bright and dark fringes through constructive and destructive interference."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, vary the light's frequency and intensity and note electron emission. Today's task from the plan: Use PhET Photoelectric Effect to gather evidence for the particle model. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What happens if dim UV light hits the metal vs bright red light?",
+       "a": "Dim UV ejects electrons (above threshold frequency); bright red ejects none (photon energy too low)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a CER: why both models are needed. Today's task from the plan: Write a CER on why both models are needed. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What did Einstein propose to explain the photoelectric effect?",
+       "a": "Light comes in packets (photons) with energy E = hf; one photon must have enough energy to free one electron."
+      }
+     ]
+    },
+    {
+     "guide": "Wave-particle quiz. Today's task from the plan: Quiz on wave-particle duality. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Give one piece of evidence for each model of light.",
+       "a": "Wave: interference/diffraction patterns. Particle: photoelectric effect."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric (4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning). Claim: answers the question about why light needs both wave and particle models in one sentence. Evidence: specific data from the student's own lab/simulation with numbers and units. Reasoning: connects the evidence to the scientific principle. A proficient response: the diffraction pattern (wave evidence) and the PhET result that only frequencies above a threshold eject electrons regardless of intensity (particle evidence), with reasoning that neither model alone explains both. Quiz key: photon energy E = hf; higher frequency → more energy; interference → wave; photoelectric → particle; electrons also show diffraction (wave-particle duality applies to matter)."
+  },
+  {
+   "week": 23,
+   "prep": "Flashlight; laser pointer and a clear plastic bottle of water with a hole near the bottom (do over a sink); a dark room.",
+   "misconceptions": [
+    "Thinking digital is always 'better quality.' Digital is more resistant to noise and easy to copy and compress, but it samples the analog signal.",
+    "Thinking light can't bend in a fiber. Total internal reflection keeps light inside as long as the angle is greater than the critical angle."
+   ],
+   "days": [
+    {
+     "guide": "Compare analog (continuous) and digital (discrete) signals. The student encodes their initials in 8-bit binary ASCII. Today's task from the plan: Compare analog and digital signals; encode a message in binary. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Encode 'H' (ASCII 72) in 8-bit binary.",
+       "a": "72 = 64 + 8 → 01001000."
+      }
+     ]
+    },
+    {
+     "guide": "Send a message by flashlight Morse code while someone waves a hand to add 'noise'; discuss error correction (repeats, check bits). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How can digital signals correct errors?",
+       "a": "By adding redundant information like parity/check bits or repeating the message, the receiver can detect and fix flipped bits."
+      }
+     ]
+    },
+    {
+     "guide": "Shine the laser through the bottle into the water stream in a dark room. Today's task from the plan: Demonstrate total internal reflection in a stream of water with a laser. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why does the light follow the curved water stream?",
+       "a": "Total internal reflection: light hits the water–air boundary at an angle greater than the critical angle (about 49° for water), so it reflects instead of leaving."
+      }
+     ]
+    },
+    {
+     "guide": "The student researches one technology (MRI, solar cell, Wi-Fi) and how it uses waves. Today's task from the plan: Research how a device (MRI, solar cell, Wi-Fi) uses waves. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How does a solar cell use light?",
+       "a": "Photons with enough energy free electrons in a semiconductor (photoelectric effect), creating current."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 5 test. Today's task from the plan: Unit 5 test on waves and EM radiation. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why is fiber optic cable better than copper for long distances?",
+       "a": "Light signals lose less energy, carry more data, and are not affected by electrical interference."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Technology report rubric: explains which waves are used, the physics principle, and a benefit/limitation; sources cited. Unit 5 test key (sample): v = fλ; sound faster in solids; Doppler; interference; EM order; ionizing vs non-ionizing; E = hf; total internal reflection; binary encoding."
+  },
+  {
+   "week": 24,
+   "prep": "A hard-boiled egg and a knife; P- and S-wave shadow-zone diagram (USGS or textbook); a pot, water, oatmeal flakes or rice, stove (adult supervision).",
+   "misconceptions": [
+    "Thinking the mantle is liquid magma. The mantle is solid rock that flows very slowly over millions of years.",
+    "Thinking we have drilled to the core. All evidence for the interior is indirect (seismic waves, meteorites, gravity)."
+   ],
+   "days": [
+    {
+     "guide": "Cut the egg in half: shell = crust, white = mantle, yolk = core. Compare proportions to Earth's actual layers. Today's task from the plan: Model Earth's layers with a hard-boiled egg; compare to seismic data. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Name Earth's layers from outside in.",
+       "a": "Crust, mantle, outer core (liquid), inner core (solid)."
+      }
+     ]
+    },
+    {
+     "guide": "Show a diagram of P- and S-wave paths through Earth with the shadow zones marked. The student traces where each wave type arrives and explains why S-waves vanish beyond about 104° from the epicenter while P-waves bend (refract) and leave a 104°–140° gap.",
+     "questions": [
+      {
+       "q": "What evidence shows the outer core is liquid?",
+       "a": "S-waves cannot travel through liquids, and they disappear on the far side of Earth (S-wave shadow zone beyond about 104°)."
+      }
+     ]
+    },
+    {
+     "guide": "Heat water with oatmeal flakes on low; watch flakes rise in the middle and sink at edges. Today's task from the plan: Heat water with oatmeal flakes to model mantle convection. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What drives mantle convection?",
+       "a": "Hotter, less dense rock rises and cooler, denser rock sinks, forming slow circulating currents."
+      }
+     ]
+    },
+    {
+     "guide": "Explain the two heat sources with a simple model: a warm potato cooling (leftover heat of formation) plus a hand warmer inside it (radioactive decay adding heat). The student lists the radioactive elements involved and explains why the interior is still hot after 4.5 billion years.",
+     "questions": [
+      {
+       "q": "Where does Earth's internal heat come from?",
+       "a": "Leftover (primordial) heat from Earth's formation and heat from radioactive decay of elements like uranium, thorium, and potassium."
+      }
+     ]
+    },
+    {
+     "guide": "The student draws a cross-section of Earth showing a convection cell: hot rock rising under a ridge, spreading, cooling, and sinking at a subduction zone. Check that arrows, labels, and an explanation of density differences are all present.",
+     "questions": [
+      {
+       "q": "How does mantle convection relate to plate movement?",
+       "a": "Convection currents and the pull of sinking slabs move the lithospheric plates above."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Convection model rubric (4-point): labeled layers; arrows for rising hot and sinking cool material; explanation of density differences; energy sources (radioactive decay, primordial heat); connection to plate motion."
+  },
+  {
+   "week": 25,
+   "prep": "Seafloor age map (NOAA), world map for cutting continent shapes, fossil distribution map (Mesosaurus, Glossopteris).",
+   "misconceptions": [
+    "Thinking continents plow through the ocean. Plates include both continental and oceanic lithosphere moving together.",
+    "Thinking the oldest rocks are on the seafloor. Oceanic crust is young (under about 200 million years); the oldest rocks are on continents (about 4 billion years)."
+   ],
+   "days": [
+    {
+     "guide": "Print a world map, cut out the continents along the continental shelf edges, and fit them together. The student then adds fossil locations (Mesosaurus, Glossopteris, Lystrosaurus) and matching rock belts as evidence for Wegener's continental drift.",
+     "questions": [
+      {
+       "q": "What fossil evidence supports continental drift?",
+       "a": "Fossils of the same land reptile (Mesosaurus) and plants (Glossopteris) are found on continents now separated by oceans."
+      }
+     ]
+    },
+    {
+     "guide": "Show the NOAA seafloor-age map and a diagram of magnetic stripes at a ridge. The student measures how far rock of a given age is from the Mid-Atlantic Ridge and computes a spreading rate (distance ÷ age).",
+     "questions": [
+      {
+       "q": "What pattern shows seafloor spreading?",
+       "a": "Rock is youngest at mid-ocean ridges and gets older with distance, with symmetric magnetic stripes on both sides."
+      }
+     ]
+    },
+    {
+     "guide": "On a world map, the student colors divergent, convergent, and transform boundaries using a USGS plate map, then adds one landform example for each (ridge/rift, trench/mountain range, fault).",
+     "questions": [
+      {
+       "q": "Give an example of each boundary.",
+       "a": "Divergent: Mid-Atlantic Ridge. Convergent: Cascadia subduction zone or Himalayas. Transform: San Andreas Fault."
+      }
+     ]
+    },
+    {
+     "guide": "Look at a map of California's faults. The student explains how the San Andreas (transform) and the Cascadia subduction zone (convergent, northern California to British Columbia) produce different kinds of earthquakes and hazards.",
+     "questions": [
+      {
+       "q": "What type of boundary is the San Andreas Fault?",
+       "a": "Transform: the Pacific Plate slides northwest past the North American Plate."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a CER answering 'Why are seafloor rocks so much younger than continental rocks?' using seafloor-age map data and the idea of subduction.",
+     "questions": [
+      {
+       "q": "Why is oceanic crust younger than continental crust?",
+       "a": "Oceanic crust is constantly created at ridges and destroyed by subduction; continental crust is less dense and isn't subducted."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric (4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning). Claim: answers the question about why oceanic crust is younger than continental crust in one sentence. Evidence: specific data from the student's own lab/simulation with numbers and units. Reasoning: connects the evidence to the scientific principle. A proficient response: seafloor age map data (youngest at ridges, oldest about 180–200 million years) vs continental rocks up to about 4 billion years, and reasoning about seafloor spreading, subduction, and density."
+  },
+  {
+   "week": 26,
+   "prep": "USGS real-time earthquake map; a tray, sand, water, a heavy object; toothpicks and mini marshmallows; a baking pan as a shake table.",
+   "misconceptions": [
+    "Thinking earthquakes happen randomly. They cluster along plate boundaries.",
+    "Thinking taller buildings always fail first. Design and soil matter more."
+   ],
+   "days": [
+    {
+     "guide": "Open the USGS 'Latest Earthquakes' map and set it to 30 days, magnitude 2.5+. The student describes the global pattern, then zooms into California and notes where quakes cluster.",
+     "questions": [
+      {
+       "q": "Where do most earthquakes occur?",
+       "a": "Along plate boundaries, especially the Pacific 'Ring of Fire.'"
+      }
+     ]
+    },
+    {
+     "guide": "Fill a tray with sand, add water until just saturated, and set a heavy object (a brick or full can) on top. Tap or shake the tray and watch the object sink or tilt as the sand behaves like a liquid.",
+     "questions": [
+      {
+       "q": "What is liquefaction?",
+       "a": "Shaking makes water-saturated sand lose strength and act like a liquid, so buildings sink or tilt."
+      }
+     ]
+    },
+    {
+     "guide": "The student builds a toothpick-and-marshmallow tower (at least 20 cm tall) and tests it on a baking pan resting on marbles or rubber balls shaken by hand for 10 seconds; redesign once with cross-bracing.",
+     "questions": [
+      {
+       "q": "What design features improve earthquake resistance?",
+       "a": "Cross-bracing (triangles), wide base, low center of mass, flexible connections."
+      }
+     ]
+    },
+    {
+     "guide": "The student researches two major California earthquakes and the laws or code changes they triggered, then writes a short paragraph on how science shaped public policy.",
+     "questions": [
+      {
+       "q": "Name a California earthquake that led to building code changes.",
+       "a": "1933 Long Beach (Field Act for schools); 1971 San Fernando (Alquist-Priolo Act); 1994 Northridge (steel frame updates)."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 6 test. Today's task from the plan: Unit 6 test on Earth's interior and plate tectonics. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why did the Marina District suffer heavy damage in 1989?",
+       "a": "It was built on loose landfill that liquefied during the Loma Prieta earthquake."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Shake table rubric: structure survives test, design explained with physics. Unit 6 test key: Earth's layers; S-wave shadow zone; convection; seafloor spreading; boundary types; San Andreas transform; liquefaction."
+  },
+  {
+   "week": 27,
+   "prep": "Materials for a pinhole projector (two pieces of cardboard, foil, pin); NASA SDO images. NEVER look directly at the Sun.",
+   "misconceptions": [
+    "Thinking the Sun burns like fire. It shines from nuclear fusion.",
+    "Thinking the Sun will explode as a supernova. It's not massive enough."
+   ],
+   "days": [
+    {
+     "guide": "Look at NASA Solar Dynamics Observatory images in different wavelengths. The student draws and labels the Sun's layers and notes the temperature of the core (about 15 million °C) versus the photosphere (about 5,500 °C).",
+     "questions": [
+      {
+       "q": "List the Sun's layers from the center out.",
+       "a": "Core, radiative zone, convective zone, photosphere, chromosphere, corona."
+      }
+     ]
+    },
+    {
+     "guide": "Make a pinhole in foil taped over a hole in cardboard; stand with your back to the Sun and project its image onto a second card. Look for sunspots (larger pinhole images or binocular projection work better) and record their positions. Never look at the Sun through the pinhole or any optics.",
+     "questions": [
+      {
+       "q": "Why must you never look at the Sun directly?",
+       "a": "Intense light (including UV and IR) can permanently damage the retina."
+      }
+     ]
+    },
+    {
+     "guide": "Show that four hydrogen-1 nuclei (total mass 4.032 u) fuse into one helium-4 (4.003 u), losing about 0.7% of the mass. The student uses E = mc² to compute energy released per kilogram of hydrogen fused (≈ 0.007 × 9 × 10¹⁶ ≈ 6 × 10¹⁴ J).",
+     "questions": [
+      {
+       "q": "How much energy is released if 1 kg of mass is converted?",
+       "a": "E = 1 × (3 × 10⁸)² = 9 × 10¹⁶ J."
+      }
+     ]
+    },
+    {
+     "guide": "Using the Sun's mass, the fraction of hydrogen it can fuse in its core (about 10%), and its luminosity (3.8 × 10²⁶ W), the student estimates its main-sequence lifetime and compares it with the accepted ~10 billion years.",
+     "questions": [
+      {
+       "q": "How long will the Sun remain on the main sequence?",
+       "a": "About 10 billion years total; it is about 4.6 billion years old."
+      }
+     ]
+    },
+    {
+     "guide": "Sun quiz. Today's task from the plan: Quiz on the Sun. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What are sunspots?",
+       "a": "Cooler, darker regions on the photosphere caused by intense magnetic activity."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (sample): layers; fusion of hydrogen into helium; E = mc²; sunspots cooler regions; Sun's age 4.6 billion years; future red giant → white dwarf."
+  },
+  {
+   "week": 28,
+   "prep": "Pennies or M&Ms (100), cup, graph paper; PhET Nuclear Fission.",
+   "misconceptions": [
+    "Thinking half-life means the substance is gone after two half-lives. After two half-lives, 1/4 remains.",
+    "Confusing fission and fusion."
+   ],
+   "days": [
+    {
+     "guide": "Review atomic number (protons) and mass number (protons + neutrons) and write isotopes in nuclear notation (e.g., ¹⁴₆C). The student identifies protons and neutrons for five isotopes.",
+     "questions": [
+      {
+       "q": "How many protons and neutrons are in carbon-14?",
+       "a": "6 protons, 8 neutrons."
+      }
+     ]
+    },
+    {
+     "guide": "Model each decay type by moving beads (protons and neutrons) on paper and balancing mass and atomic numbers. The student writes three balanced decay equations.",
+     "questions": [
+      {
+       "q": "What happens to uranium-238 in alpha decay?",
+       "a": "It becomes thorium-234 (loses 2 protons and 2 neutrons)."
+      }
+     ]
+    },
+    {
+     "guide": "Put 100 pennies in a cup, shake, dump, and remove all heads each round (one round = one half-life); repeat until none remain. Graph pennies remaining vs round and compare with 100 × (½)ⁿ.",
+     "questions": [
+      {
+       "q": "After three half-lives, what fraction remains?",
+       "a": "1/8."
+      }
+     ]
+    },
+    {
+     "guide": "Use PhET Nuclear Fission to fire a neutron at uranium-235 and watch the chain reaction; then compare to fusion in the Sun. The student builds a T-chart: fuel, products, where it happens, waste, and uses.",
+     "questions": [
+      {
+       "q": "Difference between fission and fusion?",
+       "a": "Fission splits heavy nuclei; fusion combines light nuclei."
+      }
+     ]
+    },
+    {
+     "guide": "Nuclear quiz. Today's task from the plan: Quiz on nuclear processes. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What happens in beta decay?",
+       "a": "A neutron changes into a proton, emitting an electron; atomic number increases by 1."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Half-life lab rubric (4-point): data table for every round; graph of pennies remaining vs round with a smooth decay curve; comparison with 100 × (½)ⁿ; explanation that decay is random for each nucleus but predictable for large numbers. Quiz key (sample): 1) ²³⁵₉₂U has 92 protons, 143 neutrons. 2) alpha decay of ²²⁶₈₈Ra → ²²²₈₆Rn + ⁴₂He. 3) beta decay of ¹⁴₆C → ¹⁴₇N + electron. 4) gamma rays change neither mass number nor atomic number. 5) 80 g with 5-day half-life after 15 days → 10 g. 6) fission splits heavy nuclei (power plants); fusion joins light nuclei (stars). 7) both release energy because mass is converted (E = mc²)."
+  },
+  {
+   "week": 29,
+   "prep": "Star data table (name, temperature, luminosity relative to the Sun, color) of about 20 stars; a shoebox, a CD (or piece of one), tape, foil for a slit; light sources: incandescent bulb, LED, fluorescent/CFL, sodium streetlight if available. Never point the spectroscope at the Sun.",
+   "misconceptions": [
+    "Thinking star color is random. Color shows surface temperature: blue stars are hottest, red stars coolest.",
+    "Thinking all elements formed in the Big Bang. Only hydrogen, helium, and a little lithium did; heavier elements were made in stars and stellar explosions."
+   ],
+   "days": [
+    {
+     "guide": "The student plots the stars on an H-R diagram (temperature decreasing to the right, luminosity up) and labels main sequence, giants, supergiants, white dwarfs.",
+     "questions": [
+      {
+       "q": "Where is the Sun on the H-R diagram?",
+       "a": "On the main sequence, in the middle (a yellow G-type star, about 5,800 K)."
+      }
+     ]
+    },
+    {
+     "guide": "Trace life cycles with a flowchart for low-mass vs high-mass stars. Today's task from the plan: Trace life cycles of low- and high-mass stars. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Describe the life cycle of a Sun-like star.",
+       "a": "Nebula → protostar → main sequence → red giant → planetary nebula → white dwarf."
+      },
+      {
+       "q": "What happens to a star much more massive than the Sun?",
+       "a": "Main sequence → red supergiant → supernova → neutron star or black hole."
+      }
+     ]
+    },
+    {
+     "guide": "Build the CD spectroscope and compare spectra of light sources. Today's task from the plan: Build a CD spectroscope and view different light sources. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why does a fluorescent bulb show bright lines but an incandescent bulb a continuous rainbow?",
+       "a": "The fluorescent bulb's excited gas atoms emit only specific wavelengths (emission lines); the hot filament emits all wavelengths (continuous spectrum)."
+      }
+     ]
+    },
+    {
+     "guide": "The student color-codes a periodic table by element origin (Big Bang, low-mass stars, massive stars/supernovae, neutron-star mergers, cosmic rays). Today's task from the plan: Create a periodic table color-coded by element origin. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why does fusion in stars stop producing energy at iron?",
+       "a": "Fusing iron consumes energy rather than releasing it; heavier elements form in supernovae and neutron-star mergers."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents (5 minutes) how stars produce elements. Today's task from the plan: Present how stars produce elements. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What does 'we are made of star stuff' mean?",
+       "a": "The carbon, oxygen, calcium, and iron in our bodies were made by nuclear fusion in earlier stars and scattered by stellar explosions."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Presentation rubric (4-point per row): accurate life cycles for low- and high-mass stars; explanation of fusion up to iron and heavier elements from supernovae/mergers; use of the H-R diagram or periodic table as evidence; clear visuals and delivery. Proficient = correct sequence of element formation with one example from each source."
+  },
+  {
+   "week": 30,
+   "prep": "A free star chart app (e.g., Stellarium); binoculars; a clear evening and a dark spot. Check weather and Moon phase (a new Moon is best).",
+   "misconceptions": [
+    "Thinking stars are all the same distance away. The 'constellation' stars can be at very different distances.",
+    "Thinking a light-year measures time. It is a distance: how far light travels in one year (about 9.46 trillion km)."
+   ],
+   "days": [
+    {
+     "guide": "Hold a thumb at arm's length; close one eye, then the other, and watch it shift against the background. Relate to stellar parallax. Today's task from the plan: Measure parallax with thumb and objects; relate to stellar distances. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "A star has a parallax of 0.5 arcseconds. How far away is it?",
+       "a": "d = 1/p = 2 parsecs ≈ 6.5 light-years."
+      }
+     ]
+    },
+    {
+     "guide": "Observe the night sky for 30 minutes; record constellations, bright stars, planets, and the Moon. Today's task from the plan: Observe the night sky and record constellations and planets. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "How can you tell a planet from a star?",
+       "a": "Planets usually shine steadily (twinkle less), lie along the ecliptic, and move against the background stars over days."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate distances in light-years and light travel times. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How long does sunlight take to reach Earth?",
+       "a": "1.5 × 10¹¹ m ÷ 3 × 10⁸ m/s = 500 s ≈ 8.3 minutes."
+      },
+      {
+       "q": "Proxima Centauri is 4.24 light-years away. What does that mean?",
+       "a": "Its light took 4.24 years to reach us; we see it as it was then."
+      }
+     ]
+    },
+    {
+     "guide": "Research how telescopes detect different wavelengths (radio, infrared/JWST, X-ray/Chandra). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Why are X-ray telescopes placed in space?",
+       "a": "Earth's atmosphere absorbs X-rays, so they can only be observed above it."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 7 test. Today's task from the plan: Unit 7 test on the Sun and stars. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why do we see distant galaxies as they were in the past?",
+       "a": "Their light took millions or billions of years to reach us."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test key (sample): Sun's layers and fusion; E = mc²; half-life (1/8 after 3); alpha/beta decay equations; H-R diagram regions; life cycles; parallax (d = 1/p); light-year definition; spectra (emission vs continuous)."
+  },
+  {
+   "week": 31,
+   "prep": "A round balloon and a marker; a ruler; a short video or diagrams of galaxy spectra and the CMB map (NASA/ESA Planck).",
+   "misconceptions": [
+    "Thinking the Big Bang was an explosion into empty space from one point. Space itself expanded everywhere.",
+    "Thinking galaxies are moving through space away from us at the center. Every observer sees others receding; there is no center."
+   ],
+   "days": [
+    {
+     "guide": "Draw dots on a partly inflated balloon, measure distances between dots, inflate more, measure again. Today's task from the plan: Draw dots on a balloon and inflate it to model expansion. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Which dots moved apart fastest, and what does it model?",
+       "a": "The dots farthest apart moved apart most: in an expanding universe, more distant galaxies recede faster."
+      }
+     ]
+    },
+    {
+     "guide": "Show a hydrogen spectrum from a lab lamp and the same lines in a distant galaxy shifted toward red. The student measures the shift and explains what it means about the galaxy's motion.",
+     "questions": [
+      {
+       "q": "What is redshift and what does it show?",
+       "a": "Spectral lines shifted toward longer (redder) wavelengths, showing the galaxy is moving away from us."
+      }
+     ]
+    },
+    {
+     "guide": "Give a table of galaxy distances (Mpc) and recession velocities (km/s). The student graphs velocity vs distance, draws a best-fit line through the origin, and finds the slope (Hubble's constant), then estimates the universe's age as 1/H₀.",
+     "questions": [
+      {
+       "q": "If H₀ ≈ 70 km/s/Mpc, how fast is a galaxy 100 Mpc away receding?",
+       "a": "v = H₀d = 7,000 km/s."
+      },
+      {
+       "q": "How does Hubble's constant estimate the age of the universe?",
+       "a": "Age ≈ 1/H₀ ≈ 14 billion years (current best value 13.8 billion years)."
+      }
+     ]
+    },
+    {
+     "guide": "Show the Planck all-sky CMB map and explain it is the oldest light we can see. The student writes how the CMB was predicted, discovered accidentally in 1965 by Penzias and Wilson, and why its near-uniform 2.7 K temperature supports the Big Bang.",
+     "questions": [
+      {
+       "q": "What is the cosmic microwave background?",
+       "a": "Leftover radiation from about 380,000 years after the Big Bang, now cooled to about 2.7 K and filling the whole sky."
+      }
+     ]
+    },
+    {
+     "guide": "CER on the Big Bang. Today's task from the plan: Write a CER on the Big Bang. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Name three pieces of evidence for the Big Bang.",
+       "a": "Redshift of distant galaxies (Hubble's law), the CMB, and the observed abundance of light elements (~75% hydrogen, ~25% helium by mass)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric (4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning). Claim: answers the question about the evidence for the Big Bang in one sentence. Evidence: specific data from the student's own lab/simulation with numbers and units. Reasoning: connects the evidence to the scientific principle. A proficient response: redshift and Hubble's law (velocity proportional to distance), the uniform CMB at 2.7 K, and light-element abundances, explaining how each matches predictions of an expanding universe that began hot and dense."
+  },
+  {
+   "week": 32,
+   "prep": "NASA element-abundance chart; string, washers, a tube (pen barrel) for the rotation model; NASA's dark matter and dark energy overviews.",
+   "misconceptions": [
+    "Thinking dark matter is just dark dust or black holes. It does not emit, absorb, or reflect light and doesn't interact with normal matter except through gravity.",
+    "Confusing dark matter and dark energy. Dark matter pulls (gravity); dark energy is causing the expansion of the universe to accelerate."
+   ],
+   "days": [
+    {
+     "guide": "Give the cosmic abundance data (by mass: H ≈ 74%, He ≈ 24%, everything else ≈ 2%). The student makes a bar or pie chart and explains why so much H and He points to Big Bang nucleosynthesis.",
+     "questions": [
+      {
+       "q": "Why does the ~75% hydrogen / ~25% helium mix support the Big Bang?",
+       "a": "Big Bang nucleosynthesis predicts these ratios from the first few minutes, matching observations."
+      }
+     ]
+    },
+    {
+     "guide": "Swing a washer on a string threaded through a pen barrel with a weight hanging below; then look at a real galaxy rotation curve. The student compares the expected (Keplerian, falling) curve with the observed flat curve.",
+     "questions": [
+      {
+       "q": "If most of a galaxy's mass were in its bright center, how should outer star speeds behave?",
+       "a": "They should decrease with distance (like planets around the Sun); instead they stay roughly flat, suggesting unseen mass."
+      }
+     ]
+    },
+    {
+     "guide": "Read NASA's dark matter overview together; the student lists three independent lines of evidence and explains each in one sentence. Today's task from the plan: Read NASA's dark matter overview and list three independent lines of evidence (rotation curves, lensing, cluster motions). Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Name three pieces of evidence for dark matter.",
+       "a": "Flat galaxy rotation curves, gravitational lensing stronger than visible mass explains, and galaxy cluster motions too fast for visible mass."
+      }
+     ]
+    },
+    {
+     "guide": "Read about the 1998 supernova discovery; debate evidence for unseen things. Today's task from the plan: Read about the 1998 Type Ia supernova discovery and sketch a graph of expansion rate over time; hold a structured debate on what counts as 'evidence' for something unseen. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What did the 1998 Type Ia supernova observations show?",
+       "a": "Distant supernovae were dimmer than expected, meaning the expansion of the universe is accelerating—attributed to dark energy."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz on the composition of the universe. Today's task from the plan: Quiz on composition of the universe with two short CER items. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What are the approximate shares of ordinary matter, dark matter, and dark energy?",
+       "a": "About 5%, 27%, and 68%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) universe ≈ 5% ordinary matter, 27% dark matter, 68% dark energy. 2) H ≈ 75%, He ≈ 25% by mass. 3) dark matter evidence: rotation curves, lensing, cluster motions. 4) dark energy evidence: Type Ia supernovae. CER items scored with the 4-point CER rubric."
+  },
+  {
+   "week": 33,
+   "prep": "Two colors of candy or beans (100 of one color) in a bag; images of Moon craters; a roll of toilet paper or 4.6 m of string; NASA solar system formation overview.",
+   "misconceptions": [
+    "Thinking Earth's oldest rocks date Earth's formation. Plate tectonics and erosion recycle crust; meteorites and Moon rocks preserve older ages.",
+    "Thinking radiometric dating measures how much of an element is in a rock. It uses the ratio of parent to daughter isotopes and the known half-life."
+   ],
+   "days": [
+    {
+     "guide": "Read NASA's overview of solar system formation. The student draws a 5-step diagram: collapsing nebula → spinning disk → planetesimals (accretion) → molten young Earth → differentiated layers (iron sinks to form the core).",
+     "questions": [
+      {
+       "q": "What is accretion?",
+       "a": "Dust and rock clump together by collisions and gravity into larger bodies (planetesimals and planets)."
+      }
+     ]
+    },
+    {
+     "guide": "Shake the bag; replace 'decayed' candies with the other color each round. Use ratios to date mystery samples. Today's task from the plan: Shake a bag of 100 'parent' candies, swap 'decayed' ones for a second color each round, and use the parent/daughter ratio to date mystery samples. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A sample has 25% parent and 75% daughter. If the half-life is 1.3 billion years, how old is it?",
+       "a": "Two half-lives: 2.6 billion years."
+      }
+     ]
+    },
+    {
+     "guide": "Give data on ages: Jack Hills zircons (~4.4 billion years), oldest rocks (~4.0 billion), meteorites (~4.57 billion), Moon rocks (up to ~4.5 billion). The student explains why these differ and what they tell us about Earth's age.",
+     "questions": [
+      {
+       "q": "Why are Earth's oldest rocks (~4.0 billion years) younger than meteorites (~4.57 billion years)?",
+       "a": "Earth's surface is constantly recycled by plate tectonics, erosion, and early melting; meteorites have been unchanged since the solar system formed."
+      }
+     ]
+    },
+    {
+     "guide": "Unroll 4.6 m of string or toilet paper on the floor (1 m = 1 billion years). The student marks Earth's formation, oldest minerals, first life, oxygen rise, first animals, dinosaurs, and humans, then reflects on how recent humans are.",
+     "questions": [
+      {
+       "q": "How far from 'now' is the dinosaurs' extinction (66 million years ago)?",
+       "a": "6.6 cm."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 8 test. Today's task from the plan: Unit 8 test on Big Bang evidence, stellar elements, and Earth's origin. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "How old is Earth?",
+       "a": "About 4.54 billion years."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Timeline rubric: key events placed at correct scale (formation 4.6 m, oldest zircons 4.4 m, first life ~3.5–3.8 m, oxygen rise ~2.4 m, Cambrian 0.54 m, dinosaurs extinct 6.6 cm, humans ~0.3 mm). Unit 8 test key: Big Bang evidence; dark matter/dark energy; stellar nucleosynthesis; radiometric dating; age of Earth."
+  },
+  {
+   "week": 34,
+   "prep": "California Energy Commission electricity-mix data (energy.ca.gov 'Total System Electric Generation'); a home electric bill; appliance labels.",
+   "misconceptions": [
+    "Thinking any one energy source is perfect. Every source has trade-offs (cost, land use, emissions, reliability).",
+    "Confusing kW (power) with kWh (energy)."
+   ],
+   "days": [
+    {
+     "guide": "Download the California Energy Commission 'Total System Electric Generation' data. The student graphs the share of each source for at least three years since 2010 and describes the trends.",
+     "questions": [
+      {
+       "q": "What trends are visible in California's electricity mix since 2010?",
+       "a": "Solar and wind have grown sharply, coal has nearly disappeared, and natural gas remains a large share."
+      }
+     ]
+    },
+    {
+     "guide": "Use a home electric bill to find monthly kWh, then appliance labels to estimate which devices use the most. Multiply kWh by an emissions factor (use the utility's stated value, or about 0.2 kg CO₂/kWh) to estimate emissions.",
+     "questions": [
+      {
+       "q": "A home uses 500 kWh/month; with an emissions factor of 0.2 kg CO₂/kWh, how much CO₂?",
+       "a": "100 kg CO₂ per month."
+      }
+     ]
+    },
+    {
+     "guide": "The student builds a matrix comparing solar, wind, natural gas, nuclear, and geothermal on cost per kWh, land use, CO₂ emissions, and reliability (can it run at night or on calm days?), citing a source for each row.",
+     "questions": [
+      {
+       "q": "Why can't solar alone meet evening peak demand?",
+       "a": "Solar output drops after sunset when demand peaks, requiring storage or other sources."
+      }
+     ]
+    },
+    {
+     "guide": "Pose the scenario: a town of 10,000 homes needs power during the 6–9 p.m. peak. The student defines criteria (reliability, low emissions) and constraints (budget, land, existing grid) and considers batteries or other storage.",
+     "questions": [
+      {
+       "q": "Name one criterion and one constraint for a town energy plan.",
+       "a": "Criterion: meet peak demand reliably. Constraint: budget or land available."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a one-page recommendation for the town and presents it in 5 minutes, defending trade-offs with data from the matrix. Today's task from the plan: Write and present a one-page recommendation for a community energy plan defending trade-offs. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "What makes a strong energy recommendation?",
+       "a": "Clear criteria, evidence-based comparison, and honest trade-offs."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Recommendation rubric (4-point): states criteria/constraints; compares at least three sources with data; addresses evening peak and storage; justifies trade-offs."
+  },
+  {
+   "week": 35,
+   "prep": "Small 3–6 V DC hobby motor (to use as a generator), cardboard or cut plastic-bottle blades, a hub (bottle cap or cork), hot glue (adult), an LED (or multimeter), a box fan, a ruler and protractor. Safety: keep fingers clear of spinning blades and fan.",
+   "misconceptions": [
+    "Thinking more blades always means more power. Extra blades add drag and mass; real turbines usually use three as a balance of efficiency, cost, and stability.",
+    "Changing several things between tests and recording nothing. Keep a data table and change one variable (blade angle OR number) at a time."
+   ],
+   "days": [
+    {
+     "guide": "Set criteria (light the LED; maximize voltage at the highest fan speed) and constraints (materials list, 30 cm maximum blade length). Read how turbines convert wind energy using induction.",
+     "questions": [
+      {
+       "q": "How does a wind turbine produce electricity?",
+       "a": "Wind pushes on angled blades, turning a shaft connected to a generator; coils rotating in a magnetic field induce current (electromagnetic induction)."
+      }
+     ]
+    },
+    {
+     "guide": "Use a wind-turbine simulation (or online interactive) to explore blade number and pitch; sketch three designs and choose one with a decision matrix. Today's task from the plan: Use a PhET or online wind simulation to explore blade number and angle, then sketch three designs and pick one with a decision matrix. Before the student writes conclusions, check that the data table has units and repeated trials, and ask them to explain one result in their own words.",
+     "questions": [
+      {
+       "q": "Why does blade angle (pitch) matter?",
+       "a": "The angle determines how much of the wind's push becomes rotation; too flat catches little force, too steep creates drag and stalls."
+      }
+     ]
+    },
+    {
+     "guide": "Build the turbine: attach blades evenly to the hub, press the hub onto the motor shaft, wire the motor leads to the LED (try both polarities, since LEDs conduct one way).",
+     "questions": [
+      {
+       "q": "Why can a DC motor act as a generator?",
+       "a": "Turning its shaft spins coils inside the motor's magnetic field, which induces a voltage across its leads."
+      }
+     ]
+    },
+    {
+     "guide": "Test at three fan speeds and two blade angles, recording voltage or LED brightness (3 trials each). Revise once based on the data and retest. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What should the data table contain?",
+       "a": "Fan speed setting, blade angle, number of blades, trial number, and voltage (or brightness rating), plus averages."
+      }
+     ]
+    },
+    {
+     "guide": "The student gives a 5-minute engineering briefing: final design, data table, the revision and why, and an efficiency discussion. Today's task from the plan: Present the final device, data table, and efficiency discussion in a 5-minute engineering briefing. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "Why is a small homemade turbine's efficiency low?",
+       "a": "Energy is lost to air passing between blades, friction in the motor, electrical resistance (heat), and turbulence; real turbines can capture at most about 59% of wind energy (Betz limit)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Capstone design rubric (4-point per row): Problem definition (criteria and constraints stated); Design process (three sketches and decision matrix); Data (multiple conditions with repeated trials, organized table/graph); Iteration (one change justified by data, with retest results); Explanation (correct physics of induction and energy conversion, honest efficiency discussion). Proficient = LED lights or measurable voltage, data supports the chosen revision, explanation uses induction correctly."
+  },
+  {
+   "week": 36,
+   "prep": "Final review packet with mixed problems from all nine units; the student's lab notebook and returned tests; two quiet 60-minute exam blocks.",
+   "misconceptions": [
+    "Studying only favorite or easy topics. Use earlier test errors to choose what to review first.",
+    "Skipping data-analysis practice. Part 2 of the exam uses unfamiliar data; practice reading axes, units, and trends."
+   ],
+   "days": [
+    {
+     "guide": "The student reworks every missed problem from Units 1–3 tests, then completes a mixed set on momentum and energy conservation. Today's task from the plan: Rework missed problems from Units 1–3 tests and complete a mixed problem set on momentum and energy conservation. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "A 1,500 kg car at 20 m/s hits a stopped 1,000 kg car and they lock together. What is their speed afterward?",
+       "a": "Total momentum 30,000 kg·m/s ÷ 2,500 kg = 12 m/s."
+      }
+     ]
+    },
+    {
+     "guide": "Concept map linking charges, fields, induction, and EM waves; then 10 wave/circuit problems. Today's task from the plan: Complete a concept map linking fields, induction, and EM waves, then solve 10 wave/circuit problems. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "How are electromagnetic waves produced?",
+       "a": "Accelerating (oscillating) charges create changing electric fields that create changing magnetic fields, and vice versa; the linked fields travel as an EM wave at the speed of light."
+      },
+      {
+       "q": "A radio station broadcasts at 100 MHz. Wavelength?",
+       "a": "λ = 3 × 10⁸ / 1 × 10⁸ = 3 m."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a one-page study sheet on plate tectonics, stellar life cycles, and Big Bang evidence. Today's task from the plan: Make a one-page study sheet on plate tectonics, stellar life cycles, and Big Bang evidence. Use the questions below as a quick oral check; if an answer is shaky, reteach with one more example before moving on.",
+     "questions": [
+      {
+       "q": "Give three lines of evidence for plate tectonics.",
+       "a": "Seafloor age increasing from ridges with symmetric magnetic striping, matching fossils and rocks across oceans, and earthquakes/volcanoes concentrated along plate boundaries."
+      }
+     ]
+    },
+    {
+     "guide": "Final exam part 1: multiple-choice and short answer across all nine units (60 minutes). Today's task from the plan: Multiple-choice and short-answer covering all nine units. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "State Newton's third law and give an example.",
+       "a": "For every force one object exerts on another, the second exerts an equal and opposite force on the first; e.g., a rocket pushes gas backward and the gas pushes the rocket forward."
+      }
+     ]
+    },
+    {
+     "guide": "Final exam part 2: interpret two unfamiliar data sets and write CER explanations (60 minutes). Today's task from the plan: Data-analysis section: interpret two unfamiliar data sets and write CER explanations. Grade it the same day with the key below and have the student correct every missed item with a one-line note on what went wrong.",
+     "questions": [
+      {
+       "q": "What steps should the student follow with an unfamiliar graph?",
+       "a": "Read the title, axes, and units; describe the trend with numbers; identify the relevant principle; then write a CER linking the data to that principle."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final exam key (representative items): 1) a = Δv/Δt (0→30 m/s in 6 s = 5 m/s²). 2) F = ma (1,200 kg × 2 m/s² = 2,400 N). 3) momentum conservation (12 m/s above). 4) PE→KE speed after 20 m drop ≈ 19.8 m/s. 5) Q = mcΔT. 6) Ohm's law (24 V, 8 Ω → 3 A). 7) induction requires a changing field. 8) v = fλ. 9) photoelectric effect → particle model. 10) S-wave shadow zone → liquid outer core. 11) high-mass star → supernova → neutron star/black hole. 12) redshift + CMB + light-element abundance → Big Bang. Part 2 CERs scored with the 4-point rubric. Grade bands: 90%+ excellent, 75–89% proficient, below 75% revisit weak units."
+  }
+ ]
+}

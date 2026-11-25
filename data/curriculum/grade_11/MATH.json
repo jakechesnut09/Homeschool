@@ -1,0 +1,1975 @@
+{
+ "grade": 11,
+ "subject": "MATH",
+ "title": "Algebra II",
+ "description": "Algebra II extends the function families of Algebra I to polynomial, rational, radical, exponential, logarithmic, and trigonometric functions, and introduces complex numbers, sequences and series, and statistical inference. Each unit pairs procedural fluency with modeling tasks drawn from real data, consistent with the 2023 California Mathematics Framework's emphasis on big ideas and data science. Graphing technology (Desmos) is used throughout.",
+ "framework": "California Common Core State Standards for Mathematics (Algebra II, traditional pathway); 2023 California Mathematics Framework",
+ "minutes_per_day": 60,
+ "ag_requirement": "c",
+ "credits": 10,
+ "standards": {
+  "N-RN.1": "Explain how the meaning of rational exponents follows from extending properties of integer exponents.",
+  "N-RN.2": "Rewrite expressions involving radicals and rational exponents using properties of exponents.",
+  "N-CN.1": "Know there is a complex number i such that i² = –1; every complex number has the form a + bi.",
+  "N-CN.2": "Use the relation i² = –1 and properties of operations to add, subtract, and multiply complex numbers.",
+  "N-CN.7": "Solve quadratic equations with real coefficients that have complex solutions.",
+  "N-CN.8": "(+) Extend polynomial identities to the complex numbers.",
+  "N-CN.9": "(+) Know the Fundamental Theorem of Algebra; show it is true for quadratic polynomials.",
+  "A-SSE.1": "Interpret expressions that represent a quantity in terms of its context.",
+  "A-SSE.2": "Use the structure of an expression to identify ways to rewrite it.",
+  "A-SSE.3c": "Use the properties of exponents to transform expressions for exponential functions.",
+  "A-SSE.4": "Derive the formula for the sum of a finite geometric series and use it to solve problems.",
+  "A-APR.1": "Understand that polynomials form a system closed under addition, subtraction, and multiplication; perform these operations.",
+  "A-APR.2": "Know and apply the Remainder Theorem.",
+  "A-APR.3": "Identify zeros of polynomials when suitable factorizations are available and use them to sketch graphs.",
+  "A-APR.4": "Prove polynomial identities and use them to describe numerical relationships.",
+  "A-APR.5": "(+) Know and apply the Binomial Theorem for the expansion of (x + y)^n.",
+  "A-APR.6": "Rewrite simple rational expressions in different forms using inspection, long division, or a CAS.",
+  "A-APR.7": "(+) Understand that rational expressions form a system analogous to the rational numbers; add, subtract, multiply, and divide them.",
+  "A-CED.1": "Create equations and inequalities in one variable and use them to solve problems.",
+  "A-CED.2": "Create equations in two or more variables to represent relationships; graph them.",
+  "A-CED.3": "Represent constraints by equations or inequalities and by systems; interpret solutions as viable or nonviable.",
+  "A-CED.4": "Rearrange formulas to highlight a quantity of interest.",
+  "A-REI.2": "Solve simple rational and radical equations in one variable, and explain how extraneous solutions may arise.",
+  "A-REI.4b": "Solve quadratic equations by inspection, square roots, completing the square, the quadratic formula, and factoring; recognize complex solutions.",
+  "A-REI.6": "Solve systems of linear equations exactly and approximately, focusing on pairs of linear equations in two variables.",
+  "A-REI.7": "Solve a simple system consisting of a linear equation and a quadratic equation algebraically and graphically.",
+  "A-REI.11": "Explain why x-coordinates of intersection points of y = f(x) and y = g(x) are solutions of f(x) = g(x); find them approximately using technology.",
+  "F-IF.4": "Interpret key features of graphs and tables of functions in terms of the quantities, and sketch graphs showing key features.",
+  "F-IF.6": "Calculate and interpret the average rate of change of a function over a specified interval.",
+  "F-IF.7b": "Graph square root, cube root, and piecewise-defined functions, including step and absolute value functions.",
+  "F-IF.7c": "Graph polynomial functions, identifying zeros when suitable factorizations are available and showing end behavior.",
+  "F-IF.7e": "Graph exponential and logarithmic functions, showing intercepts and end behavior, and trigonometric functions showing period, midline, and amplitude.",
+  "F-IF.8": "Write a function defined by an expression in different but equivalent forms to reveal and explain different properties.",
+  "F-IF.9": "Compare properties of two functions each represented in a different way.",
+  "F-BF.1b": "Combine standard function types using arithmetic operations.",
+  "F-BF.2": "Write arithmetic and geometric sequences both recursively and with an explicit formula, and use them to model situations.",
+  "F-BF.3": "Identify the effect on the graph of replacing f(x) by f(x)+k, k f(x), f(kx), and f(x+k); find k from graphs.",
+  "F-BF.4a": "Solve an equation of the form f(x) = c for a simple invertible function and write an expression for the inverse.",
+  "F-LE.2": "Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, description, or table.",
+  "F-LE.4": "For exponential models, express as a logarithm the solution to ab^(ct) = d and evaluate the logarithm using technology.",
+  "F-LE.4.1": "(CA) Prove simple laws of logarithms.",
+  "F-LE.4.2": "(CA) Use the definition of logarithms to translate between logarithms in any base.",
+  "F-LE.4.3": "(CA) Understand and use the properties of logarithms to simplify logarithmic numeric expressions and to identify their approximate values.",
+  "F-LE.5": "Interpret the parameters in a linear or exponential function in terms of a context.",
+  "F-TF.1": "Understand radian measure of an angle as the length of the arc on the unit circle subtended by the angle.",
+  "F-TF.2": "Explain how the unit circle in the coordinate plane enables the extension of trigonometric functions to all real numbers.",
+  "F-TF.2.1": "(CA) Graph all six basic trigonometric functions.",
+  "F-TF.5": "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.",
+  "F-TF.8": "Prove the Pythagorean identity sin²θ + cos²θ = 1 and use it to find trig values given one value and the quadrant.",
+  "S-ID.4": "Use the mean and standard deviation of a data set to fit it to a normal distribution and estimate population percentages.",
+  "S-IC.1": "Understand statistics as a process for making inferences about population parameters based on a random sample.",
+  "S-IC.2": "Decide if a specified model is consistent with results from a given data-generating process, e.g., using simulation.",
+  "S-IC.3": "Recognize the purposes of and differences among sample surveys, experiments, and observational studies; explain how randomization relates to each.",
+  "S-IC.4": "Use data from a sample survey to estimate a population mean or proportion; develop a margin of error through simulation.",
+  "S-IC.5": "Use data from a randomized experiment to compare two treatments; use simulations to decide if differences are significant.",
+  "S-IC.6": "Evaluate reports based on data.",
+  "S-MD.6": "(+) Use probabilities to make fair decisions (e.g., drawing by lots, using a random number generator).",
+  "S-MD.7": "(+) Analyze decisions and strategies using probability concepts."
+ },
+ "resources": [
+  {
+   "name": "Khan Academy – Algebra 2",
+   "url": "https://www.khanacademy.org/math/algebra2",
+   "note": "Videos and mastery practice aligned to every unit"
+  },
+  {
+   "name": "OpenStax College Algebra 2e",
+   "url": "https://openstax.org/details/books/college-algebra-2e",
+   "note": "Free textbook for extra exercises and worked examples"
+  },
+  {
+   "name": "Desmos Graphing Calculator",
+   "url": "https://www.desmos.com/calculator",
+   "note": "Free graphing used daily for transformations and modeling"
+  },
+  {
+   "name": "Illustrative Mathematics / Open Up Resources Algebra 2",
+   "url": "https://openupresources.org/",
+   "note": "Free problem-based Algebra 2 tasks"
+  },
+  {
+   "name": "CK-12 Algebra II",
+   "url": "https://www.ck12.org/",
+   "note": "Free FlexBook readings and adaptive practice"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Functions, Transformations, and Systems",
+   "start_week": 1,
+   "end_week": 3,
+   "big_idea": "Every function family can be moved and stretched the same ways, and systems model competing constraints.",
+   "standards": [
+    "F-BF.3",
+    "F-IF.4",
+    "F-IF.7b",
+    "A-CED.1",
+    "F-IF.6",
+    "A-REI.6",
+    "A-CED.3",
+    "A-CED.2",
+    "A-REI.11"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Quadratic Functions and Complex Numbers",
+   "start_week": 4,
+   "end_week": 7,
+   "big_idea": "Quadratics can be written in forms that reveal different features, and complex numbers complete their solutions.",
+   "standards": [
+    "F-IF.8",
+    "F-IF.4",
+    "A-SSE.2",
+    "F-BF.3",
+    "A-REI.4b",
+    "A-CED.1",
+    "N-CN.1",
+    "N-CN.2",
+    "N-CN.7",
+    "N-CN.8",
+    "A-REI.7",
+    "F-IF.6",
+    "A-REI.11"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Polynomial Functions",
+   "start_week": 8,
+   "end_week": 12,
+   "big_idea": "Polynomials behave like integers: they can be factored, divided, and their zeros determine their graphs.",
+   "standards": [
+    "A-APR.1",
+    "A-SSE.2",
+    "A-APR.4",
+    "A-APR.2",
+    "A-APR.6",
+    "A-APR.3",
+    "N-CN.9",
+    "N-CN.8",
+    "F-IF.7c",
+    "F-IF.4",
+    "F-IF.9",
+    "A-APR.5",
+    "A-CED.2",
+    "F-BF.1b"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Rational Expressions and Functions",
+   "start_week": 13,
+   "end_week": 15,
+   "big_idea": "Rational functions are quotients of polynomials whose restrictions create asymptotes and holes.",
+   "standards": [
+    "A-APR.6",
+    "A-APR.7",
+    "A-SSE.2",
+    "F-IF.4",
+    "F-BF.3",
+    "F-IF.7c",
+    "A-REI.2",
+    "A-CED.1",
+    "A-CED.4"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Radical Functions, Rational Exponents, and Inverses",
+   "start_week": 16,
+   "end_week": 18,
+   "big_idea": "Radicals and rational exponents are two notations for the same idea, and inverses undo functions.",
+   "standards": [
+    "N-RN.1",
+    "N-RN.2",
+    "A-SSE.2",
+    "F-IF.7b",
+    "A-REI.2",
+    "F-BF.4a",
+    "F-BF.1b",
+    "F-IF.4",
+    "A-REI.4b",
+    "A-APR.3",
+    "F-BF.3"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Exponential and Logarithmic Functions",
+   "start_week": 19,
+   "end_week": 23,
+   "big_idea": "Exponential functions model constant-percent change, and logarithms are the tool to solve for the exponent.",
+   "standards": [
+    "F-IF.7e",
+    "F-LE.2",
+    "F-LE.5",
+    "F-IF.6",
+    "A-SSE.3c",
+    "A-SSE.1",
+    "F-IF.8",
+    "F-BF.4a",
+    "F-LE.4",
+    "F-LE.4.2",
+    "F-LE.4.1",
+    "F-LE.4.3",
+    "A-SSE.2",
+    "A-REI.11",
+    "A-CED.1"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Trigonometric Functions",
+   "start_week": 24,
+   "end_week": 28,
+   "big_idea": "The unit circle extends trigonometry to all real numbers and lets us model periodic phenomena.",
+   "standards": [
+    "F-TF.1",
+    "F-TF.2",
+    "F-TF.8",
+    "F-IF.7e",
+    "F-BF.3",
+    "F-TF.5",
+    "F-TF.2.1",
+    "F-IF.4",
+    "F-LE.5"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Sequences and Series",
+   "start_week": 29,
+   "end_week": 30,
+   "big_idea": "Patterns of repeated addition or multiplication can be written recursively, explicitly, and summed.",
+   "standards": [
+    "F-BF.2",
+    "F-LE.2",
+    "F-IF.4",
+    "A-SSE.4"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Statistics and Inference",
+   "start_week": 31,
+   "end_week": 34,
+   "big_idea": "Randomization and variability let us draw conclusions about populations and treatments from samples.",
+   "standards": [
+    "S-IC.1",
+    "S-IC.3",
+    "S-IC.6",
+    "S-ID.4",
+    "S-IC.2",
+    "S-IC.4",
+    "S-MD.6",
+    "S-IC.5",
+    "S-MD.7"
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Modeling Capstone and Final Exam",
+   "start_week": 35,
+   "end_week": 36,
+   "big_idea": "Choosing the right function family is the heart of mathematical modeling.",
+   "standards": [
+    "F-IF.4",
+    "F-LE.5",
+    "A-CED.2",
+    "F-IF.9",
+    "F-BF.3",
+    "F-LE.4",
+    "F-TF.5",
+    "S-IC.1",
+    "A-REI.4b"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "Parent functions and transformations",
+   "objectives": [
+    "Identify parent functions",
+    "Apply vertical/horizontal shifts, stretches, and reflections"
+   ],
+   "standards": [
+    "F-BF.3",
+    "F-IF.4",
+    "F-IF.7b"
+   ],
+   "vocabulary": [
+    "parent function",
+    "translation",
+    "reflection",
+    "vertical stretch",
+    "domain",
+    "range"
+   ],
+   "materials": [
+    "Desmos",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "Parent function gallery",
+     "work": "Graph linear, quadratic, absolute value, square root, cube root, and cubic parents in Desmos; record domain, range, and intercepts."
+    },
+    {
+     "title": "Translations",
+     "work": "Use sliders for f(x)+k and f(x−h); write rules for 10 transformed graphs from pictures."
+    },
+    {
+     "title": "Stretches & reflections",
+     "work": "Investigate a·f(x) and f(bx); match 12 equation cards to graphs."
+    },
+    {
+     "title": "Combined transformations",
+     "work": "Graph g(x) = −2|x−3|+1 and similar by hand by transforming key points; check with Desmos."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: describe transformations and write equations from graphs (10 items)."
+    }
+   ],
+   "assessment": "Transformations quiz."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "Piecewise and absolute value functions",
+   "objectives": [
+    "Graph piecewise and step functions",
+    "Solve absolute value equations and inequalities"
+   ],
+   "standards": [
+    "F-IF.7b",
+    "F-IF.4",
+    "A-CED.1",
+    "F-IF.6"
+   ],
+   "vocabulary": [
+    "piecewise function",
+    "step function",
+    "greatest integer",
+    "absolute value inequality"
+   ],
+   "materials": [
+    "Desmos",
+    "postal rate or tax bracket tables"
+   ],
+   "days": [
+    {
+     "title": "Piecewise graphs",
+     "work": "Graph piecewise functions by hand with open/closed endpoints; evaluate at boundary values."
+    },
+    {
+     "title": "Step functions",
+     "work": "Model USPS postage or parking-garage prices with a step function; graph and interpret."
+    },
+    {
+     "title": "Absolute value equations",
+     "work": "Solve |2x−5| = 9 type equations and check for extraneous answers."
+    },
+    {
+     "title": "Absolute value inequalities",
+     "work": "Solve and graph compound inequalities; model a manufacturing tolerance problem."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on piecewise evaluation, graphing, and absolute value solutions; average rate of change on each piece."
+    }
+   ],
+   "assessment": "Quiz on piecewise and absolute value."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "Systems of equations and inequalities",
+   "objectives": [
+    "Solve linear systems in two and three variables",
+    "Model constraints with inequalities"
+   ],
+   "standards": [
+    "A-REI.6",
+    "A-CED.3",
+    "A-CED.2",
+    "A-REI.11"
+   ],
+   "vocabulary": [
+    "system",
+    "elimination",
+    "substitution",
+    "feasible region",
+    "ordered triple"
+   ],
+   "materials": [
+    "Desmos",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "2×2 systems review",
+     "work": "Solve systems by graphing, substitution, and elimination; classify one, none, or infinite solutions."
+    },
+    {
+     "title": "3×3 systems",
+     "work": "Solve three-variable systems by elimination; model a ticket-sales problem with three prices."
+    },
+    {
+     "title": "Systems of inequalities",
+     "work": "Graph a feasible region for a budget-and-time constraint problem."
+    },
+    {
+     "title": "Linear programming",
+     "work": "Find the maximum profit at the vertices of a feasible region for a bakery problem."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 1 test: transformations, piecewise functions, and systems."
+    }
+   ],
+   "assessment": "Unit 1 test."
+  },
+  {
+   "week": 4,
+   "unit": 2,
+   "topic": "Quadratic functions in three forms",
+   "objectives": [
+    "Graph quadratics in standard, vertex, and factored form",
+    "Convert between forms"
+   ],
+   "standards": [
+    "F-IF.8",
+    "F-IF.4",
+    "A-SSE.2",
+    "F-BF.3"
+   ],
+   "vocabulary": [
+    "vertex form",
+    "standard form",
+    "factored form",
+    "axis of symmetry",
+    "completing the square"
+   ],
+   "materials": [
+    "Desmos",
+    "algebra tiles or drawn area models"
+   ],
+   "days": [
+    {
+     "title": "Vertex form",
+     "work": "Graph y = a(x−h)²+k using transformations; identify vertex, axis, and max/min."
+    },
+    {
+     "title": "Factored form",
+     "work": "Graph from zeros; find vertex via the midpoint of the zeros."
+    },
+    {
+     "title": "Completing the square",
+     "work": "Use area models to complete the square and convert standard form to vertex form."
+    },
+    {
+     "title": "Comparing forms",
+     "work": "For one context (a launched ball), use each form to answer a different question."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on converting forms and graphing key features."
+    }
+   ],
+   "assessment": "Quiz on quadratic forms."
+  },
+  {
+   "week": 5,
+   "unit": 2,
+   "topic": "Solving quadratic equations",
+   "objectives": [
+    "Solve by factoring, square roots, completing the square, and the quadratic formula",
+    "Use the discriminant"
+   ],
+   "standards": [
+    "A-REI.4b",
+    "A-SSE.2",
+    "A-CED.1"
+   ],
+   "vocabulary": [
+    "quadratic formula",
+    "discriminant",
+    "zero product property",
+    "root"
+   ],
+   "materials": [
+    "index cards",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Factoring review",
+     "work": "Factor trinomials with a ≠ 1, difference of squares, and GCF; solve by zero-product property."
+    },
+    {
+     "title": "Square roots & completing the square",
+     "work": "Solve equations by taking square roots and completing the square."
+    },
+    {
+     "title": "Quadratic formula",
+     "work": "Derive the quadratic formula by completing the square on ax²+bx+c = 0; solve 8 equations."
+    },
+    {
+     "title": "Discriminant",
+     "work": "Predict number and type of solutions using b²−4ac; connect to x-intercepts in Desmos."
+    },
+    {
+     "title": "Review & check",
+     "work": "Choose the most efficient method for 12 equations and justify each choice."
+    }
+   ],
+   "assessment": "Method-choice assessment."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Complex numbers",
+   "objectives": [
+    "Define i and complex numbers",
+    "Perform operations and solve quadratics with complex solutions"
+   ],
+   "standards": [
+    "N-CN.1",
+    "N-CN.2",
+    "N-CN.7",
+    "N-CN.8"
+   ],
+   "vocabulary": [
+    "imaginary unit",
+    "complex number",
+    "complex conjugate",
+    "complex plane"
+   ],
+   "materials": [
+    "graph paper for the complex plane"
+   ],
+   "days": [
+    {
+     "title": "Defining i",
+     "work": "Explore why x²+1 = 0 has no real solutions; define i and simplify powers of i."
+    },
+    {
+     "title": "Operations",
+     "work": "Add, subtract, and multiply complex numbers; plot sums on the complex plane."
+    },
+    {
+     "title": "Conjugates & division",
+     "work": "Use conjugates to divide complex numbers and rationalize denominators."
+    },
+    {
+     "title": "Complex solutions",
+     "work": "Solve quadratics with negative discriminants; factor x²+4 as (x+2i)(x−2i)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on complex arithmetic and complex solutions."
+    }
+   ],
+   "assessment": "Complex numbers quiz."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "Quadratic modeling and linear-quadratic systems",
+   "objectives": [
+    "Model projectile and area problems",
+    "Solve linear-quadratic systems"
+   ],
+   "standards": [
+    "A-REI.7",
+    "A-CED.1",
+    "F-IF.4",
+    "F-IF.6",
+    "A-REI.11"
+   ],
+   "vocabulary": [
+    "projectile motion",
+    "regression",
+    "intersection"
+   ],
+   "materials": [
+    "tennis ball, stopwatch, phone video",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Projectile lab",
+     "work": "Toss a ball, video it, record height vs. time points, and fit a quadratic regression in Desmos."
+    },
+    {
+     "title": "Interpreting the model",
+     "work": "Use the regression to find max height and landing time; compare to h = −16t² + v₀t + h₀."
+    },
+    {
+     "title": "Linear-quadratic systems",
+     "work": "Solve algebraically and graphically (e.g., a line crossing a parabola)."
+    },
+    {
+     "title": "Optimization",
+     "work": "Solve a fencing/area and a revenue (price × quantity) maximization problem."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 2 test: forms, solving methods, complex numbers, and modeling."
+    }
+   ],
+   "assessment": "Projectile lab report and Unit 2 test."
+  },
+  {
+   "week": 8,
+   "unit": 3,
+   "topic": "Polynomial operations",
+   "objectives": [
+    "Add, subtract, multiply polynomials",
+    "Recognize closure"
+   ],
+   "standards": [
+    "A-APR.1",
+    "A-SSE.2",
+    "A-APR.4"
+   ],
+   "vocabulary": [
+    "polynomial",
+    "degree",
+    "leading coefficient",
+    "closure",
+    "identity"
+   ],
+   "materials": [
+    "algebra tiles or area-model templates"
+   ],
+   "days": [
+    {
+     "title": "Polynomial vocabulary",
+     "work": "Classify polynomials by degree and terms; write in standard form."
+    },
+    {
+     "title": "Add & subtract",
+     "work": "Combine polynomials and discuss closure compared with integers."
+    },
+    {
+     "title": "Multiplication",
+     "work": "Multiply polynomials with area models and distribution, including (x+2)³."
+    },
+    {
+     "title": "Polynomial identities",
+     "work": "Prove (a+b)² and a³−b³ identities; use x²+y² identity to generate Pythagorean triples."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on operations and a written proof of one identity."
+    }
+   ],
+   "assessment": "Operations quiz with proof."
+  },
+  {
+   "week": 9,
+   "unit": 3,
+   "topic": "Dividing polynomials and the Remainder Theorem",
+   "objectives": [
+    "Divide polynomials using long and synthetic division",
+    "Apply the Remainder and Factor Theorems"
+   ],
+   "standards": [
+    "A-APR.2",
+    "A-APR.6",
+    "A-APR.3"
+   ],
+   "vocabulary": [
+    "synthetic division",
+    "remainder theorem",
+    "factor theorem",
+    "quotient"
+   ],
+   "materials": [
+    "practice set"
+   ],
+   "days": [
+    {
+     "title": "Long division",
+     "work": "Divide polynomials by binomials using long division, connecting to numerical long division."
+    },
+    {
+     "title": "Synthetic division",
+     "work": "Use synthetic division for divisors of the form x−a; compare speed."
+    },
+    {
+     "title": "Remainder Theorem",
+     "work": "Verify that p(a) equals the remainder; use it to evaluate p(3) quickly."
+    },
+    {
+     "title": "Factor Theorem",
+     "work": "Determine whether x−a is a factor and fully factor cubics given one root."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on division methods and theorems."
+    }
+   ],
+   "assessment": "Division quiz."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Factoring and zeros of polynomials",
+   "objectives": [
+    "Factor higher-degree polynomials",
+    "Find all zeros including complex"
+   ],
+   "standards": [
+    "A-APR.3",
+    "A-SSE.2",
+    "N-CN.9",
+    "N-CN.8"
+   ],
+   "vocabulary": [
+    "sum of cubes",
+    "rational root theorem",
+    "multiplicity",
+    "Fundamental Theorem of Algebra"
+   ],
+   "materials": [
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Special factoring",
+     "work": "Factor sums/differences of cubes and quadratic-form polynomials like x⁴−5x²+4."
+    },
+    {
+     "title": "Grouping",
+     "work": "Factor four-term polynomials by grouping."
+    },
+    {
+     "title": "Rational Root Theorem",
+     "work": "List possible rational roots and test with synthetic division."
+    },
+    {
+     "title": "Fundamental Theorem of Algebra",
+     "work": "Find all real and complex zeros of degree-3 and degree-4 polynomials."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: find all zeros of five polynomials and state multiplicities."
+    }
+   ],
+   "assessment": "Zeros quiz."
+  },
+  {
+   "week": 11,
+   "unit": 3,
+   "topic": "Graphing polynomial functions",
+   "objectives": [
+    "Sketch polynomial graphs from zeros and end behavior",
+    "Interpret key features"
+   ],
+   "standards": [
+    "F-IF.7c",
+    "F-IF.4",
+    "A-APR.3",
+    "F-IF.9"
+   ],
+   "vocabulary": [
+    "end behavior",
+    "turning point",
+    "relative maximum",
+    "multiplicity"
+   ],
+   "materials": [
+    "Desmos",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "End behavior",
+     "work": "Investigate how degree and leading coefficient determine end behavior using Desmos."
+    },
+    {
+     "title": "Multiplicity",
+     "work": "Explore how even vs. odd multiplicity affects the graph at a zero."
+    },
+    {
+     "title": "Sketching",
+     "work": "Sketch y = (x+2)(x−1)²(x−4) by hand from features; check with Desmos."
+    },
+    {
+     "title": "Compare functions",
+     "work": "Compare a polynomial given by graph to one given by equation (max, zeros, end behavior)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: sketch three polynomials and write equations from two graphs."
+    }
+   ],
+   "assessment": "Graphing quiz."
+  },
+  {
+   "week": 12,
+   "unit": 3,
+   "topic": "Polynomial modeling and the Binomial Theorem",
+   "objectives": [
+    "Model with polynomial functions",
+    "Expand binomials"
+   ],
+   "standards": [
+    "A-APR.5",
+    "A-CED.2",
+    "F-IF.4",
+    "F-BF.1b"
+   ],
+   "vocabulary": [
+    "Pascal's triangle",
+    "binomial coefficient",
+    "volume model"
+   ],
+   "materials": [
+    "cardstock, scissors, ruler"
+   ],
+   "days": [
+    {
+     "title": "Open-box lab",
+     "work": "Cut squares from cardstock corners to make boxes; model V(x) = x(L−2x)(W−2x) and find max volume."
+    },
+    {
+     "title": "Pascal's Triangle",
+     "work": "Build Pascal's triangle and connect rows to (a+b)^n coefficients."
+    },
+    {
+     "title": "Binomial Theorem",
+     "work": "Expand (2x−3)⁴ and find a specific term using combinations."
+    },
+    {
+     "title": "Combining functions",
+     "work": "Add and multiply functions (e.g., revenue minus cost = profit) and interpret."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 3 test on polynomial operations, zeros, graphs, and modeling."
+    }
+   ],
+   "assessment": "Box lab and Unit 3 test."
+  },
+  {
+   "week": 13,
+   "unit": 4,
+   "topic": "Rational expressions",
+   "objectives": [
+    "Simplify, multiply, divide, add, and subtract rational expressions"
+   ],
+   "standards": [
+    "A-APR.6",
+    "A-APR.7",
+    "A-SSE.2"
+   ],
+   "vocabulary": [
+    "rational expression",
+    "excluded value",
+    "LCD",
+    "complex fraction"
+   ],
+   "materials": [
+    "practice set"
+   ],
+   "days": [
+    {
+     "title": "Simplifying",
+     "work": "Factor and simplify rational expressions, stating excluded values."
+    },
+    {
+     "title": "Multiply & divide",
+     "work": "Multiply and divide rational expressions with factoring."
+    },
+    {
+     "title": "Add & subtract",
+     "work": "Find LCDs and add/subtract rational expressions."
+    },
+    {
+     "title": "Complex fractions",
+     "work": "Simplify complex fractions by two methods and compare."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on rational expression operations."
+    }
+   ],
+   "assessment": "Rational expressions quiz."
+  },
+  {
+   "week": 14,
+   "unit": 4,
+   "topic": "Rational functions and graphs",
+   "objectives": [
+    "Graph rational functions with asymptotes and holes",
+    "Rewrite rational functions"
+   ],
+   "standards": [
+    "F-IF.4",
+    "A-APR.6",
+    "F-BF.3",
+    "F-IF.7c"
+   ],
+   "vocabulary": [
+    "vertical asymptote",
+    "horizontal asymptote",
+    "hole",
+    "inverse variation"
+   ],
+   "materials": [
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Inverse variation",
+     "work": "Model Boyle's law-type inverse variation and graph y = k/x."
+    },
+    {
+     "title": "Transformations of 1/x",
+     "work": "Graph y = a/(x−h)+k and identify asymptotes."
+    },
+    {
+     "title": "General rational functions",
+     "work": "Find vertical asymptotes, holes, and horizontal asymptotes from factored forms."
+    },
+    {
+     "title": "Rewriting",
+     "work": "Use long division to rewrite (2x+3)/(x−1) as 2 + 5/(x−1) and interpret the graph."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: graph three rational functions with all features labeled."
+    }
+   ],
+   "assessment": "Rational graphs quiz."
+  },
+  {
+   "week": 15,
+   "unit": 4,
+   "topic": "Rational equations and applications",
+   "objectives": [
+    "Solve rational equations and identify extraneous solutions",
+    "Model work and rate problems"
+   ],
+   "standards": [
+    "A-REI.2",
+    "A-CED.1",
+    "A-CED.4"
+   ],
+   "vocabulary": [
+    "extraneous solution",
+    "work rate",
+    "cross-multiplication"
+   ],
+   "materials": [
+    "practice set"
+   ],
+   "days": [
+    {
+     "title": "Solving",
+     "work": "Solve rational equations by multiplying by the LCD; check for extraneous solutions."
+    },
+    {
+     "title": "Work problems",
+     "work": "Solve 'two pipes fill a tank' and shared-job problems."
+    },
+    {
+     "title": "Rate problems",
+     "work": "Solve upstream/downstream and average-speed problems."
+    },
+    {
+     "title": "Formulas",
+     "work": "Rearrange formulas like 1/f = 1/a + 1/b (lens formula) to isolate variables."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 4 test on rational expressions, functions, and equations."
+    }
+   ],
+   "assessment": "Unit 4 test."
+  },
+  {
+   "week": 16,
+   "unit": 5,
+   "topic": "Rational exponents and radicals",
+   "objectives": [
+    "Convert between radical and rational exponent form",
+    "Simplify radical expressions"
+   ],
+   "standards": [
+    "N-RN.1",
+    "N-RN.2",
+    "A-SSE.2"
+   ],
+   "vocabulary": [
+    "nth root",
+    "index",
+    "rational exponent",
+    "radicand"
+   ],
+   "materials": [
+    "practice set"
+   ],
+   "days": [
+    {
+     "title": "Nth roots",
+     "work": "Evaluate nth roots and explain why 8^(1/3) = 2 using exponent properties."
+    },
+    {
+     "title": "Rational exponents",
+     "work": "Convert and simplify expressions like 27^(2/3) and x^(3/4)·x^(1/2)."
+    },
+    {
+     "title": "Simplifying radicals",
+     "work": "Simplify and multiply radicals with different indices."
+    },
+    {
+     "title": "Operations",
+     "work": "Add, subtract, and rationalize denominators with radicals."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on rational exponents and radical simplification."
+    }
+   ],
+   "assessment": "Radicals quiz."
+  },
+  {
+   "week": 17,
+   "unit": 5,
+   "topic": "Radical functions, equations, and inverses",
+   "objectives": [
+    "Graph square and cube root functions",
+    "Solve radical equations",
+    "Find inverse functions"
+   ],
+   "standards": [
+    "F-IF.7b",
+    "A-REI.2",
+    "F-BF.4a",
+    "F-BF.1b"
+   ],
+   "vocabulary": [
+    "inverse function",
+    "one-to-one",
+    "composition",
+    "extraneous root"
+   ],
+   "materials": [
+    "Desmos",
+    "pendulum (string and washer)"
+   ],
+   "days": [
+    {
+     "title": "Radical graphs",
+     "work": "Graph transformations of √x and ∛x and state domain and range."
+    },
+    {
+     "title": "Radical equations",
+     "work": "Solve √(x+3) = x−3 type equations and identify extraneous roots."
+    },
+    {
+     "title": "Composition",
+     "work": "Compose functions and evaluate f(g(x)) in context (currency conversions)."
+    },
+    {
+     "title": "Inverses",
+     "work": "Find inverses algebraically, verify by composition, and graph reflections over y = x; model pendulum period T = 2π√(L/g) and invert to find length."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on radical equations and inverses."
+    }
+   ],
+   "assessment": "Radical functions quiz."
+  },
+  {
+   "week": 18,
+   "unit": 5,
+   "topic": "Semester 1 review and exam",
+   "objectives": [
+    "Demonstrate mastery of Units 1–5"
+   ],
+   "standards": [
+    "F-IF.4",
+    "A-REI.4b",
+    "A-APR.3",
+    "A-REI.2",
+    "F-BF.3"
+   ],
+   "vocabulary": [
+    "review"
+   ],
+   "materials": [
+    "semester review packet"
+   ],
+   "days": [
+    {
+     "title": "Review: functions & quadratics",
+     "work": "Mixed review on transformations, systems, quadratics, and complex numbers."
+    },
+    {
+     "title": "Review: polynomials & rationals",
+     "work": "Mixed review on polynomial zeros, graphs, and rational functions."
+    },
+    {
+     "title": "Review: radicals",
+     "work": "Mixed review on radicals and inverses; make a one-page formula sheet."
+    },
+    {
+     "title": "Semester exam part 1",
+     "work": "Non-calculator section (25 problems)."
+    },
+    {
+     "title": "Semester exam part 2",
+     "work": "Calculator and modeling section with two extended-response tasks."
+    }
+   ],
+   "assessment": "Semester exam."
+  },
+  {
+   "week": 19,
+   "unit": 6,
+   "topic": "Exponential growth and decay",
+   "objectives": [
+    "Graph and interpret exponential functions",
+    "Model growth and decay"
+   ],
+   "standards": [
+    "F-IF.7e",
+    "F-LE.2",
+    "F-LE.5",
+    "F-IF.6"
+   ],
+   "vocabulary": [
+    "exponential growth",
+    "decay factor",
+    "asymptote",
+    "growth rate",
+    "half-life"
+   ],
+   "materials": [
+    "coins or M&Ms (decay simulation)",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Linear vs. exponential",
+     "work": "Compare constant difference vs. constant ratio in tables."
+    },
+    {
+     "title": "Graphs",
+     "work": "Graph y = ab^x and transformations; identify asymptote and intercept."
+    },
+    {
+     "title": "Decay simulation",
+     "work": "Shake 100 coins, remove heads each round, record counts, and fit an exponential model."
+    },
+    {
+     "title": "Writing models",
+     "work": "Write models from two points and from percent rate statements (population, depreciation)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on graphs and writing exponential models."
+    }
+   ],
+   "assessment": "Decay lab and quiz."
+  },
+  {
+   "week": 20,
+   "unit": 6,
+   "topic": "Compound interest and e",
+   "objectives": [
+    "Model compound and continuous growth",
+    "Transform exponential expressions"
+   ],
+   "standards": [
+    "A-SSE.3c",
+    "F-LE.5",
+    "A-SSE.1",
+    "F-IF.8"
+   ],
+   "vocabulary": [
+    "compound interest",
+    "continuous compounding",
+    "e",
+    "effective rate"
+   ],
+   "materials": [
+    "calculator",
+    "spreadsheet"
+   ],
+   "days": [
+    {
+     "title": "Compound interest",
+     "work": "Use A = P(1 + r/n)^(nt) to compare savings accounts."
+    },
+    {
+     "title": "Discovering e",
+     "work": "Increase n in a spreadsheet to see (1 + 1/n)^n approach e."
+    },
+    {
+     "title": "Continuous growth",
+     "work": "Use A = Pe^(rt) for continuous compounding and bacterial growth."
+    },
+    {
+     "title": "Rewriting expressions",
+     "work": "Rewrite 1.15^t as (1.15^(1/12))^(12t) to find monthly rates."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on interest problems and equivalent forms."
+    }
+   ],
+   "assessment": "Interest quiz."
+  },
+  {
+   "week": 21,
+   "unit": 6,
+   "topic": "Logarithms and their graphs",
+   "objectives": [
+    "Define logarithms as inverses of exponentials",
+    "Graph logarithmic functions"
+   ],
+   "standards": [
+    "F-BF.4a",
+    "F-IF.7e",
+    "F-LE.4",
+    "F-LE.4.2"
+   ],
+   "vocabulary": [
+    "logarithm",
+    "common log",
+    "natural log",
+    "change of base"
+   ],
+   "materials": [
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Defining logs",
+     "work": "Convert between exponential and logarithmic form; evaluate log₂32 mentally."
+    },
+    {
+     "title": "Common & natural logs",
+     "work": "Evaluate log and ln with a calculator; use the change-of-base formula."
+    },
+    {
+     "title": "Graphs",
+     "work": "Graph y = log_b x as the inverse of y = b^x; identify asymptote and domain."
+    },
+    {
+     "title": "Transformations",
+     "work": "Graph transformed log functions in Desmos and state features."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on log conversions and graphs."
+    }
+   ],
+   "assessment": "Logarithm quiz."
+  },
+  {
+   "week": 22,
+   "unit": 6,
+   "topic": "Properties of logarithms",
+   "objectives": [
+    "Prove and apply log properties",
+    "Expand and condense log expressions"
+   ],
+   "standards": [
+    "F-LE.4.1",
+    "F-LE.4.3",
+    "A-SSE.2"
+   ],
+   "vocabulary": [
+    "product property",
+    "quotient property",
+    "power property"
+   ],
+   "materials": [
+    "practice set"
+   ],
+   "days": [
+    {
+     "title": "Product & quotient",
+     "work": "Derive the product and quotient properties from exponent rules."
+    },
+    {
+     "title": "Power property",
+     "work": "Derive and apply the power property."
+    },
+    {
+     "title": "Expand & condense",
+     "work": "Expand and condense log expressions (10 items)."
+    },
+    {
+     "title": "Estimating",
+     "work": "Estimate values like log 50 using known logs and properties."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz with a written proof of one property."
+    }
+   ],
+   "assessment": "Properties quiz with proof."
+  },
+  {
+   "week": 23,
+   "unit": 6,
+   "topic": "Exponential and logarithmic equations and modeling",
+   "objectives": [
+    "Solve exponential and log equations",
+    "Use logs in real models"
+   ],
+   "standards": [
+    "F-LE.4",
+    "A-REI.11",
+    "A-CED.1",
+    "F-LE.5"
+   ],
+   "vocabulary": [
+    "logarithmic scale",
+    "pH",
+    "decibel",
+    "Richter"
+   ],
+   "materials": [
+    "Desmos",
+    "cooling cup of hot water and thermometer"
+   ],
+   "days": [
+    {
+     "title": "Solving exponential equations",
+     "work": "Solve ab^(ct) = d using logarithms (doubling time, half-life)."
+    },
+    {
+     "title": "Solving log equations",
+     "work": "Solve log equations and check extraneous solutions."
+    },
+    {
+     "title": "Newton's cooling lab",
+     "work": "Record a cooling cup's temperature every 2 minutes and fit an exponential model."
+    },
+    {
+     "title": "Log scales",
+     "work": "Compute pH, decibel, and earthquake magnitude comparisons."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 6 test on exponential and logarithmic functions."
+    }
+   ],
+   "assessment": "Cooling lab and Unit 6 test."
+  },
+  {
+   "week": 24,
+   "unit": 7,
+   "topic": "Radian measure and the unit circle",
+   "objectives": [
+    "Measure angles in radians",
+    "Use the unit circle to evaluate trig functions"
+   ],
+   "standards": [
+    "F-TF.1",
+    "F-TF.2"
+   ],
+   "vocabulary": [
+    "radian",
+    "unit circle",
+    "reference angle",
+    "coterminal",
+    "arc length"
+   ],
+   "materials": [
+    "paper plate, string, protractor"
+   ],
+   "days": [
+    {
+     "title": "Radians",
+     "work": "Wrap string around a paper plate to construct one radian; convert between degrees and radians."
+    },
+    {
+     "title": "Arc length",
+     "work": "Use s = rθ to solve arc length and angular speed problems."
+    },
+    {
+     "title": "Unit circle",
+     "work": "Build a unit circle with special angles from 30-60-90 and 45-45-90 triangles."
+    },
+    {
+     "title": "Extending trig",
+     "work": "Evaluate sine, cosine, and tangent for any angle using reference angles."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: fill in a blank unit circle and evaluate 10 expressions."
+    }
+   ],
+   "assessment": "Unit circle quiz."
+  },
+  {
+   "week": 25,
+   "unit": 7,
+   "topic": "The Pythagorean identity and other trig values",
+   "objectives": [
+    "Prove the Pythagorean identity",
+    "Find trig values from one value and quadrant"
+   ],
+   "standards": [
+    "F-TF.8",
+    "F-TF.2"
+   ],
+   "vocabulary": [
+    "identity",
+    "reciprocal function",
+    "secant",
+    "cosecant",
+    "cotangent"
+   ],
+   "materials": [
+    "unit circle"
+   ],
+   "days": [
+    {
+     "title": "Proof",
+     "work": "Prove sin²θ + cos²θ = 1 from the unit circle and the Pythagorean theorem."
+    },
+    {
+     "title": "Using the identity",
+     "work": "Given sin θ = 3/5 in Quadrant II, find cos θ and tan θ."
+    },
+    {
+     "title": "Reciprocal functions",
+     "work": "Define sec, csc, cot and evaluate them on the unit circle."
+    },
+    {
+     "title": "Mixed practice",
+     "work": "Solve 12 problems finding all six trig values from one value."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the identity and reciprocal functions."
+    }
+   ],
+   "assessment": "Identity quiz."
+  },
+  {
+   "week": 26,
+   "unit": 7,
+   "topic": "Graphing sine and cosine",
+   "objectives": [
+    "Graph sinusoids with amplitude, period, midline, and phase shift"
+   ],
+   "standards": [
+    "F-IF.7e",
+    "F-BF.3",
+    "F-TF.5"
+   ],
+   "vocabulary": [
+    "amplitude",
+    "period",
+    "midline",
+    "phase shift",
+    "frequency"
+   ],
+   "materials": [
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Unwrapping the circle",
+     "work": "Plot unit-circle y-values against angle to create the sine graph."
+    },
+    {
+     "title": "Amplitude & midline",
+     "work": "Graph y = a sin x + d and interpret amplitude and midline."
+    },
+    {
+     "title": "Period",
+     "work": "Graph y = sin(bx) and derive period = 2π/b."
+    },
+    {
+     "title": "Phase shift",
+     "work": "Graph y = a sin(b(x−h)) + d and write equations from graphs."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: graph two sinusoids and write two equations from graphs."
+    }
+   ],
+   "assessment": "Sinusoid quiz."
+  },
+  {
+   "week": 27,
+   "unit": 7,
+   "topic": "Other trig graphs",
+   "objectives": [
+    "Graph tangent and reciprocal trig functions"
+   ],
+   "standards": [
+    "F-TF.2.1",
+    "F-IF.7e",
+    "F-BF.3"
+   ],
+   "vocabulary": [
+    "asymptote",
+    "tangent graph",
+    "reciprocal graph"
+   ],
+   "materials": [
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Tangent",
+     "work": "Graph y = tan x from sin/cos ratios and identify asymptotes and period π."
+    },
+    {
+     "title": "Cosecant & secant",
+     "work": "Graph csc and sec from their reciprocal sine and cosine graphs."
+    },
+    {
+     "title": "Cotangent",
+     "work": "Graph cot x and compare with tan x."
+    },
+    {
+     "title": "Transformations",
+     "work": "Apply transformations to tangent and secant graphs."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz matching six trig function graphs and equations."
+    }
+   ],
+   "assessment": "Trig graphs quiz."
+  },
+  {
+   "week": 28,
+   "unit": 7,
+   "topic": "Modeling periodic phenomena",
+   "objectives": [
+    "Model real periodic data with sinusoids"
+   ],
+   "standards": [
+    "F-TF.5",
+    "F-IF.4",
+    "F-LE.5"
+   ],
+   "vocabulary": [
+    "periodic",
+    "sinusoidal regression",
+    "tide",
+    "daylight hours"
+   ],
+   "materials": [
+    "NOAA tide data or daylight-hours table for your city",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Ferris wheel",
+     "work": "Write a sinusoidal model for a rider's height on a Ferris wheel from given dimensions."
+    },
+    {
+     "title": "Daylight data",
+     "work": "Collect monthly daylight hours for your California city and fit a sinusoidal model."
+    },
+    {
+     "title": "Tides",
+     "work": "Use NOAA tide data for a California station to model water height."
+    },
+    {
+     "title": "Interpreting",
+     "work": "Use models to predict values and compare to actual data; discuss model limits."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 7 test on radians, unit circle, identity, and trig graphs/models."
+    }
+   ],
+   "assessment": "Daylight model report and Unit 7 test."
+  },
+  {
+   "week": 29,
+   "unit": 8,
+   "topic": "Arithmetic and geometric sequences",
+   "objectives": [
+    "Write sequences recursively and explicitly",
+    "Model with sequences"
+   ],
+   "standards": [
+    "F-BF.2",
+    "F-LE.2",
+    "F-IF.4"
+   ],
+   "vocabulary": [
+    "sequence",
+    "common difference",
+    "common ratio",
+    "recursive",
+    "explicit"
+   ],
+   "materials": [
+    "stacking cups or blocks"
+   ],
+   "days": [
+    {
+     "title": "Patterns",
+     "work": "Build a stacking-cup pattern and write recursive and explicit rules."
+    },
+    {
+     "title": "Arithmetic sequences",
+     "work": "Find terms and write formulas a_n = a₁ + (n−1)d."
+    },
+    {
+     "title": "Geometric sequences",
+     "work": "Find terms and write formulas a_n = a₁·r^(n−1); connect to exponential functions."
+    },
+    {
+     "title": "Modeling",
+     "work": "Model a savings plan and a bouncing-ball height sequence with real measurement."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on sequence formulas."
+    }
+   ],
+   "assessment": "Sequences quiz."
+  },
+  {
+   "week": 30,
+   "unit": 8,
+   "topic": "Series and sigma notation",
+   "objectives": [
+    "Use sigma notation",
+    "Derive and apply finite geometric series formula"
+   ],
+   "standards": [
+    "A-SSE.4",
+    "F-BF.2"
+   ],
+   "vocabulary": [
+    "series",
+    "sigma notation",
+    "partial sum",
+    "annuity"
+   ],
+   "materials": [
+    "spreadsheet"
+   ],
+   "days": [
+    {
+     "title": "Sigma notation",
+     "work": "Write and evaluate sums in sigma notation."
+    },
+    {
+     "title": "Arithmetic series",
+     "work": "Derive Gauss's formula for arithmetic series and apply it."
+    },
+    {
+     "title": "Geometric series",
+     "work": "Derive S_n = a(1−r^n)/(1−r) and apply to mortgage/loan payment problems."
+    },
+    {
+     "title": "Infinite geometric series",
+     "work": "Explore convergence when |r| < 1 with a spreadsheet."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 8 test on sequences and series."
+    }
+   ],
+   "assessment": "Unit 8 test."
+  },
+  {
+   "week": 31,
+   "unit": 9,
+   "topic": "Data collection: surveys, experiments, and observational studies",
+   "objectives": [
+    "Distinguish study types",
+    "Explain role of randomization"
+   ],
+   "standards": [
+    "S-IC.1",
+    "S-IC.3",
+    "S-IC.6"
+   ],
+   "vocabulary": [
+    "population",
+    "sample",
+    "bias",
+    "random assignment",
+    "observational study",
+    "experiment"
+   ],
+   "materials": [
+    "random number generator",
+    "news articles citing studies"
+   ],
+   "days": [
+    {
+     "title": "Study types",
+     "work": "Classify 12 study descriptions as surveys, experiments, or observational studies."
+    },
+    {
+     "title": "Sampling methods",
+     "work": "Compare simple random, stratified, cluster, and convenience samples; identify bias."
+    },
+    {
+     "title": "Experimental design",
+     "work": "Design a randomized experiment testing whether music affects reaction time."
+    },
+    {
+     "title": "Evaluating reports",
+     "work": "Critique two news articles reporting on data; write an evaluation."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on study design and bias."
+    }
+   ],
+   "assessment": "Study design quiz."
+  },
+  {
+   "week": 32,
+   "unit": 9,
+   "topic": "Normal distributions",
+   "objectives": [
+    "Use mean and standard deviation to fit a normal model",
+    "Estimate population percentages"
+   ],
+   "standards": [
+    "S-ID.4"
+   ],
+   "vocabulary": [
+    "normal distribution",
+    "standard deviation",
+    "z-score",
+    "empirical rule"
+   ],
+   "materials": [
+    "data on heights or SAT scores",
+    "calculator/Desmos normal distribution tool"
+   ],
+   "days": [
+    {
+     "title": "Distributions",
+     "work": "Make histograms of a real data set (e.g., 100 measured hand spans) and describe shape."
+    },
+    {
+     "title": "Empirical rule",
+     "work": "Apply the 68-95-99.7 rule to estimate percentages."
+    },
+    {
+     "title": "Z-scores",
+     "work": "Calculate and compare z-scores (e.g., comparing ACT and SAT performance)."
+    },
+    {
+     "title": "Areas",
+     "work": "Use technology to find areas under the normal curve; recognize when a normal model is not appropriate."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on normal distributions."
+    }
+   ],
+   "assessment": "Normal distribution quiz."
+  },
+  {
+   "week": 33,
+   "unit": 9,
+   "topic": "Simulation and margin of error",
+   "objectives": [
+    "Use simulation to estimate a margin of error",
+    "Decide if a model is consistent with data"
+   ],
+   "standards": [
+    "S-IC.2",
+    "S-IC.4",
+    "S-MD.6"
+   ],
+   "vocabulary": [
+    "simulation",
+    "sampling distribution",
+    "margin of error",
+    "confidence"
+   ],
+   "materials": [
+    "coins, dice, spreadsheet random functions"
+   ],
+   "days": [
+    {
+     "title": "Is it fair?",
+     "work": "Flip a coin 50 times; simulate 100 sets in a spreadsheet to judge whether results are consistent with fairness."
+    },
+    {
+     "title": "Sampling distributions",
+     "work": "Simulate many samples of size 50 from a known population proportion and plot proportions."
+    },
+    {
+     "title": "Margin of error",
+     "work": "Estimate margin of error from simulation and compare to 1/√n."
+    },
+    {
+     "title": "Fair decisions",
+     "work": "Use random number generators to make fair decisions and analyze strategies."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz interpreting a poll's margin of error."
+    }
+   ],
+   "assessment": "Simulation quiz."
+  },
+  {
+   "week": 34,
+   "unit": 9,
+   "topic": "Comparing treatments and statistics project",
+   "objectives": [
+    "Use randomization tests to compare treatments",
+    "Conduct a statistical study"
+   ],
+   "standards": [
+    "S-IC.5",
+    "S-IC.6",
+    "S-MD.7",
+    "S-IC.3"
+   ],
+   "vocabulary": [
+    "randomization test",
+    "statistical significance",
+    "treatment group",
+    "control"
+   ],
+   "materials": [
+    "materials for chosen experiment (e.g., paper airplanes, plant seeds)"
+   ],
+   "days": [
+    {
+     "title": "Randomization test",
+     "work": "Shuffle data cards from a two-treatment experiment to test whether a difference is significant."
+    },
+    {
+     "title": "Project design",
+     "work": "Design a randomized experiment with two treatments (e.g., paper airplane wing design) and collect data."
+    },
+    {
+     "title": "Data collection",
+     "work": "Run the experiment with at least 20 trials per treatment."
+    },
+    {
+     "title": "Analysis",
+     "work": "Analyze results with a randomization test and summary statistics."
+    },
+    {
+     "title": "Unit check",
+     "work": "Submit a statistics project report and take the Unit 9 test."
+    }
+   ],
+   "assessment": "Statistics project and Unit 9 test."
+  },
+  {
+   "week": 35,
+   "unit": 10,
+   "topic": "Modeling capstone",
+   "objectives": [
+    "Select and justify a function model for real data"
+   ],
+   "standards": [
+    "F-IF.4",
+    "F-LE.5",
+    "A-CED.2",
+    "F-IF.9"
+   ],
+   "vocabulary": [
+    "model selection",
+    "residual",
+    "regression"
+   ],
+   "materials": [
+    "public data set (CA population, COVID, temperature)",
+    "Desmos"
+   ],
+   "days": [
+    {
+     "title": "Choose data",
+     "work": "Choose a real data set and graph it."
+    },
+    {
+     "title": "Model fitting",
+     "work": "Fit linear, quadratic, exponential, and sinusoidal models; compare residuals."
+    },
+    {
+     "title": "Justification",
+     "work": "Write a justification for the best model, including limitations."
+    },
+    {
+     "title": "Presentation",
+     "work": "Prepare a 5-minute presentation of the model and predictions."
+    },
+    {
+     "title": "Present",
+     "work": "Present the capstone and answer questions."
+    }
+   ],
+   "assessment": "Capstone presentation rubric."
+  },
+  {
+   "week": 36,
+   "unit": 10,
+   "topic": "Final exam",
+   "objectives": [
+    "Demonstrate mastery of Algebra II"
+   ],
+   "standards": [
+    "F-IF.4",
+    "F-BF.3",
+    "F-LE.4",
+    "F-TF.5",
+    "S-IC.1",
+    "A-REI.4b"
+   ],
+   "vocabulary": [
+    "review"
+   ],
+   "materials": [
+    "final review packet"
+   ],
+   "days": [
+    {
+     "title": "Review: Units 1–5",
+     "work": "Mixed review on quadratics, polynomials, rationals, and radicals."
+    },
+    {
+     "title": "Review: Units 6–9",
+     "work": "Mixed review on exponentials, logs, trig, sequences, and statistics."
+    },
+    {
+     "title": "Final exam part 1",
+     "work": "Non-calculator section."
+    },
+    {
+     "title": "Final exam part 2",
+     "work": "Calculator section with modeling tasks."
+    },
+    {
+     "title": "Reflection",
+     "work": "Review exam errors and write a reflection on growth and readiness for Precalculus."
+    }
+   ],
+   "assessment": "Final exam."
+  }
+ ]
+}

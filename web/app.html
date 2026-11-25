@@ -1,0 +1,650 @@
+<title>Golden State Homeschool</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="California standards-aligned homeschool curriculum, grades 1-12: daily lesson plans, free resources, funding and required paperwork.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a school-year planner. Sticky top bar, breadcrumb trail, then one view at a time (grade grid -> grade -> course -> week -> day). */
+:root {
+  --paper: #f4f7f6; --surface: #ffffff; --sunk: #e9eeed; --ink: #15233b; --muted: #57637a; --line: #d6dee0;
+  --poppy: #c8540a; --poppy-soft: #fde9da; --pacific: #0d6b75; --pacific-soft: #dcf0f1;
+  --s-ela: #8a3ffc; --s-math: #0f62fe; --s-sci: #198038; --s-hss: #b28600; --s-wl: #d02670;
+  --s-vapa: #e8590c; --s-pe: #007d79; --s-health: #da1e28; --s-elec: #5a6872;
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0e141b; --surface: #151d27; --sunk: #1b2531; --ink: #e7ecf2; --muted: #9ba7b8; --line: #2a3644;
+  --poppy: #ff8f45; --poppy-soft: #3a2414; --pacific: #54c4cc; --pacific-soft: #13303a;
+  --s-ela: #b48cff; --s-math: #78a9ff; --s-sci: #6fdc8c; --s-hss: #f1c21b; --s-wl: #ff7eb6;
+  --s-vapa: #ff9a52; --s-pe: #3ddbd9; --s-health: #ff8389; --s-elec: #a6b4c0; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #0e141b; --surface: #151d27; --sunk: #1b2531; --ink: #e7ecf2; --muted: #9ba7b8; --line: #2a3644;
+  --poppy: #ff8f45; --poppy-soft: #3a2414; --pacific: #54c4cc; --pacific-soft: #13303a;
+  --s-ela: #b48cff; --s-math: #78a9ff; --s-sci: #6fdc8c; --s-hss: #f1c21b; --s-wl: #ff7eb6;
+  --s-vapa: #ff9a52; --s-pe: #3ddbd9; --s-health: #ff8389; --s-elec: #a6b4c0; color-scheme: dark }
+
+* { box-sizing: border-box }
+body { background: var(--paper); color: var(--ink); font: 16px/1.55 var(--f-body); margin: 0 }
+a { color: var(--pacific); text-underline-offset: 3px }
+a:hover { color: var(--poppy) }
+:focus-visible { outline: 3px solid var(--poppy); outline-offset: 2px; border-radius: 4px }
+h1, h2, h3 { font-family: var(--f-display); line-height: 1.15; text-wrap: balance; margin: 0 }
+h1 { font-size: clamp(1.9rem, 4.5vw, 2.8rem); font-weight: 800; letter-spacing: -0.02em }
+h2 { font-size: 1.45rem; font-weight: 700 }
+h3 { font-size: 1.1rem; font-weight: 700 }
+p { margin: 0 }
+code, .code { font-family: var(--f-mono); font-size: 0.82em }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface) }
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line) }
+.topbar .wrap { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-block: 10px }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font: 800 1.1rem var(--f-display); letter-spacing: -0.01em }
+.brand svg { flex: none }
+.nav { display: flex; gap: 4px; flex-wrap: wrap; margin-left: auto }
+.nav a { text-decoration: none; color: var(--muted); padding: 6px 10px; border-radius: 999px; font-size: 0.92rem }
+.nav a:hover, .nav a[aria-current="page"] { background: var(--sunk); color: var(--ink) }
+
+main { padding-block: 22px 64px }
+.crumbs { display: flex; flex-wrap: wrap; gap: 6px; font-size: 0.9rem; color: var(--muted); margin-bottom: 14px }
+.crumbs a { color: var(--muted) }
+.crumbs span[aria-hidden] { opacity: 0.6 }
+.stack { display: grid; gap: 22px }
+.lede { color: var(--muted); max-width: 68ch; font-size: 1.05rem }
+.eyebrow { font: 600 0.75rem var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--poppy) }
+.muted { color: var(--muted) }
+.small { font-size: 0.88rem }
+
+.hero { display: grid; gap: 12px; padding-block: 8px 4px }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 0.92rem; color: var(--muted) }
+.facts b { color: var(--ink); font-variant-numeric: tabular-nums }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 18px }
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)) }
+.grid.wide { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)) }
+.band-title { display: flex; align-items: baseline; gap: 10px; margin: 6px 0 10px }
+
+.tile { display: grid; gap: 6px; align-content: start; text-decoration: none; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; transition: border-color .15s, transform .15s }
+.tile:hover { border-color: var(--poppy); color: var(--ink); transform: translateY(-1px) }
+.tile .num { font: 800 2.4rem/1 var(--f-display); color: var(--poppy); letter-spacing: -0.03em }
+.tile .num sup { font-size: 0.45em; vertical-align: 0.9em; margin-left: 1px }
+.tile .num small { font-size: 0.9rem; font-weight: 700; color: var(--muted); letter-spacing: 0; margin-left: 6px }
+.tile .chip, .hero .chip { justify-self: start }
+.tile .t { font-weight: 700 }
+.dots { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c) }
+
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font-size: 0.78rem; font-weight: 700; color: var(--c); background: color-mix(in srgb, var(--c) 13%, transparent); white-space: nowrap }
+.chip.plain { --c: var(--muted) }
+.subj-ELA { --c: var(--s-ela) } .subj-MATH { --c: var(--s-math) } .subj-SCI { --c: var(--s-sci) }
+.subj-HSS { --c: var(--s-hss) } .subj-WL { --c: var(--s-wl) } .subj-VAPA { --c: var(--s-vapa) }
+.subj-PE { --c: var(--s-pe) } .subj-HEALTH { --c: var(--s-health) } .subj-ELEC { --c: var(--s-elec) }
+
+.course { border-left: 4px solid var(--c) }
+.course .meta { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 0.85rem; color: var(--muted) }
+
+/* School-year calendar: 4 quarters x 9 weeks */
+.year { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) }
+.quarter h3 { font: 600 0.75rem var(--f-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 6px }
+.weeks { display: grid; grid-template-columns: repeat(9, 1fr); gap: 4px }
+.wk { display: grid; place-items: center; aspect-ratio: 1; max-width: 100%; border-radius: 7px; background: var(--sunk); color: var(--ink); text-decoration: none; font: 600 0.85rem var(--f-mono); font-variant-numeric: tabular-nums }
+.wk:hover { background: var(--poppy); color: var(--surface) }
+
+.units { display: grid; gap: 10px }
+.unit { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 8px }
+.unit-head { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: baseline }
+.week-links { display: grid; gap: 2px }
+.week-links a { display: grid; grid-template-columns: 4.2em 1fr; gap: 8px; padding: 5px 8px; border-radius: 6px; text-decoration: none; color: var(--ink) }
+.week-links a:hover { background: var(--sunk) }
+.week-links .wn { font: 600 0.8rem var(--f-mono); color: var(--muted); padding-top: 2px }
+
+.days { display: grid; gap: 10px }
+.day { display: grid; grid-template-columns: 7.5em 1fr; gap: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px }
+.day .dn { font: 700 1rem var(--f-display) }
+.day .dn small { display: block; font: 400 0.78rem var(--f-mono); color: var(--muted) }
+.day .body { min-width: 0; display: grid; gap: 4px }
+
+.tabs { display: flex; gap: 6px; flex-wrap: wrap }
+.tab { font: inherit; font-weight: 700; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 7px 14px; cursor: pointer }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink) }
+.tab small { font-weight: 400; opacity: 0.75; margin-left: 4px }
+
+.lesson { display: grid; grid-template-columns: auto 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line) }
+.lesson:first-child { border-top: 0 }
+.lesson input { width: 20px; height: 20px; margin-top: 3px; accent-color: var(--poppy) }
+.lesson .body { min-width: 0; display: grid; gap: 3px }
+.lesson.done .body { opacity: 0.55 }
+.lesson-top { display: flex; gap: 8px; flex-wrap: wrap; align-items: center }
+
+.kv { display: grid; grid-template-columns: 9em 1fr; gap: 8px 16px }
+.kv dt { color: var(--muted); font-size: 0.88rem }
+.kv dd { margin: 0; min-width: 0; overflow-wrap: anywhere }
+.kv ul { margin: 0; padding-left: 1.1em }
+.std { display: grid; grid-template-columns: minmax(7em, auto) 1fr; gap: 4px 12px; font-size: 0.92rem }
+.std code { color: var(--pacific); font-weight: 600 }
+.pager { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 700; font-size: 0.92rem }
+.btn:hover { border-color: var(--poppy); color: var(--ink) }
+.btn.gh { background: var(--ink); color: var(--paper); border-color: var(--ink) }
+.btn.gh:hover { color: var(--paper); opacity: 0.88 }
+.btns { display: flex; gap: 8px; flex-wrap: wrap }
+
+.list { display: grid; gap: 10px }
+.item { overflow-wrap: anywhere; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 6px }
+.item-head { display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; justify-content: space-between }
+.badge-submit { --c: var(--poppy) } .badge-keep_on_file { --c: var(--pacific) } .badge-recommended { --c: var(--muted) }
+.filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: end }
+.filters label { display: grid; gap: 4px; font-size: 0.82rem; color: var(--muted) }
+select, input[type="search"] { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; min-width: 0; max-width: 100% }
+input[type="search"] { width: min(420px, 100%) }
+.note { background: var(--poppy-soft); border-radius: var(--r); padding: 12px 16px; font-size: 0.92rem }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface) }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top }
+th { font: 600 0.75rem var(--f-mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); background: var(--sunk) }
+tr:last-child td { border-bottom: 0 }
+.teacher { --tc: var(--pacific) }
+section.teacher.panel, .teacher .panel { border-color: color-mix(in srgb, var(--pacific) 45%, var(--line)); background: color-mix(in srgb, var(--pacific-soft) 55%, var(--surface)) }
+.teacher .eyebrow { color: var(--pacific) }
+.qa { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 8px }
+.qa li { border-left: 3px solid var(--pacific); padding: 2px 0 2px 10px; display: grid; gap: 2px }
+.qa .q { font-weight: 700 }
+details summary { cursor: pointer; color: var(--pacific); font-size: 0.88rem; font-weight: 700; width: fit-content }
+details .a { margin-top: 4px; padding: 8px 10px; border-radius: 8px; background: var(--sunk); white-space: pre-line }
+details.key { margin-top: 8px }
+.toggle { display: flex; gap: 10px; align-items: center; font-weight: 700; background: var(--pacific-soft); border-radius: var(--r); padding: 10px 14px; cursor: pointer }
+.toggle input { width: 20px; height: 20px; accent-color: var(--pacific) }
+.teacher-inline { margin-top: 6px; padding: 10px 12px; border-radius: 8px; background: var(--pacific-soft); display: grid; gap: 4px }
+.loading { padding: 40px 0; color: var(--muted) }
+footer { border-top: 1px solid var(--line); padding-block: 22px; color: var(--muted); font-size: 0.88rem }
+footer .wrap { display: flex; gap: 8px 20px; flex-wrap: wrap; justify-content: space-between }
+
+@media (max-width: 640px) {
+  .day { grid-template-columns: 1fr; gap: 6px }
+  .kv { grid-template-columns: 1fr; gap: 2px }
+  .kv dd { margin-bottom: 8px }
+  .std { grid-template-columns: 1fr; gap: 0 }
+  .std code { margin-top: 6px }
+  .nav { margin-left: 0 }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Golden State Homeschool home">
+      <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="13" fill="var(--poppy)"/><path d="M14 5c3 3 4 6 0 13C10 11 11 8 14 5z" fill="var(--surface)"/><path d="M14 18v6" stroke="var(--surface)" stroke-width="2" stroke-linecap="round"/></svg>
+      Golden State Homeschool
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#home" data-nav="home">Grades</a>
+      <a href="#search" data-nav="search">Search</a>
+      <a href="#legal" data-nav="legal">Getting started</a>
+      <a href="#paperwork" data-nav="paperwork">Paperwork</a>
+      <a href="#funding" data-nav="funding">Funding</a>
+      <a href="#resources" data-nav="resources">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="app" tabindex="-1"><p class="loading">Loading the curriculum…</p></main>
+
+<footer>
+  <div class="wrap">
+    <span>Aligned to California content standards · 36 weeks × 5 days = 180 school days per grade</span>
+    <span id="repo-links"></span>
+  </div>
+</footer>
+
+<script>
+(() => {
+  const app = document.getElementById("app");
+  const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  const state = { index: null, grades: {}, teacher: {}, teacherView: false, dayTab: {}, search: "", searchGrade: "", pwOption: "", fundCat: "", resSubj: "", resGrade: "" };
+
+  // ---------- helpers ----------
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const ordinal = g => g === 1 ? "1st" : g === 2 ? "2nd" : g === 3 ? "3rd" : g + "th";
+  const gradeName = g => `${ordinal(g)} Grade`;
+  const subjName = code => (state.index.subjects.find(s => s.code === code) || {}).name || code;
+  const chip = code => `<span class="chip subj-${esc(code)}">${esc(subjName(code))}</span>`;
+  const gh = path => `${state.index.repo}/blob/${state.index.branch}/${path}`;
+  const ghBtn = (path, label) => `<a class="btn gh" href="${esc(gh(path))}" target="_blank" rel="noopener">${ghIcon()} ${esc(label)}</a>`;
+  const ghIcon = () => `<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>`;
+  const ext = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text || url)}</a>` : "";
+  const crumbs = items => `<nav class="crumbs" aria-label="Breadcrumb">${items.map((it, i) =>
+    (i ? `<span aria-hidden="true">/</span>` : "") + (it[1] ? `<a href="#${it[1]}">${esc(it[0])}</a>` : `<span aria-current="page">${esc(it[0])}</span>`)).join("")}</nav>`;
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem(k) || "null") } catch { return null } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)) } catch {} }
+  };
+  const list = arr => Array.isArray(arr) ? arr : (arr ? [arr] : []);
+
+  async function getJSON(path) {
+    const r = await fetch(path);
+    if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+    return r.json();
+  }
+  async function loadGrade(g) {
+    if (!state.grades[g]) state.grades[g] = await getJSON(`data/grade_${String(g).padStart(2, "0")}.json`);
+    return state.grades[g];
+  }
+  async function loadTeacher(g) {
+    if (!(g in state.teacher)) {
+      try { state.teacher[g] = await getJSON(`data/teacher_${String(g).padStart(2, "0")}.json`) }
+      catch { state.teacher[g] = null }
+    }
+    return state.teacher[g];
+  }
+  const guideFor = (tg, subj) => tg && tg.guides && tg.guides[subj.toUpperCase()];
+  const qaList = qs => `<ul class="qa">${list(qs).map(q => `<li><span class="q">${esc(q.q)}</span>
+    <details><summary>Show answer</summary><div class="a">${esc(q.a)}</div></details></li>`).join("")}</ul>`;
+  const findCourse = (gd, subj) => gd.courses.find(c => c.subject.toLowerCase() === subj.toLowerCase());
+
+  // ---------- views ----------
+  function viewHome() {
+    const idx = state.index;
+    const totalCourses = idx.grades.reduce((n, g) => n + g.courses.length, 0);
+    const bands = ["Elementary", "Middle", "High"];
+    const bandLabel = { Elementary: "Elementary · grades 1–5", Middle: "Middle school · grades 6–8", High: "High school · grades 9–12" };
+    return `<div class="stack">
+      <section class="hero">
+        <span class="eyebrow">California standards · grades 1–12</span>
+        <h1>A full homeschool year for every grade</h1>
+        <p class="lede">Pick a grade to see its courses and a 36-week calendar. Every week has five days of planned lessons for each subject, tied to the California standards, with free resources, the legal paperwork and funding programs alongside.</p>
+        <div class="facts"><span><b>12</b> grades</span><span><b>${totalCourses}</b> courses</span><span><b>${(totalCourses * 180).toLocaleString()}</b> daily lessons</span><span><b>${idx.resources.length}</b> free resources</span><span><b>${idx.funding.length}</b> funding programs</span></div>
+      </section>
+      ${bands.map(b => `<section>
+        <div class="band-title"><h2>${bandLabel[b]}</h2></div>
+        <div class="grid">${idx.grades.filter(g => g.band === b).map(g => `
+          <a class="tile" href="#grade-${g.grade}">
+            <span class="num">${g.grade}<sup>${ordinal(g.grade).slice(-2)}</sup><small>grade</small></span>
+            <span class="muted small">${esc(g.theme)}</span>
+            <span class="dots" aria-label="${g.courses.length} courses">${g.courses.map(c => `<span class="dot subj-${c.subject}" title="${esc(c.title)}"></span>`).join("")}</span>
+          </a>`).join("")}</div>
+      </section>`).join("")}
+      <section class="grid wide">
+        <a class="tile" href="#legal"><span class="t">Start here: homeschooling legally in California</span><span class="muted small">Five legal options compared: Private School Affidavit, PSP, charter, tutor, district independent study.</span></a>
+        <a class="tile" href="#paperwork"><span class="t">Paperwork checklist</span><span class="muted small">What to file each October and what to keep on file, with the Education Code behind each item.</span></a>
+        <a class="tile" href="#funding"><span class="t">Grants and funding</span><span class="muted small">Charter funds, grants, 529 rules, dual enrollment, passes and discounts.</span></a>
+      </section>
+    </div>`;
+  }
+
+  async function viewGrade(g) {
+    const gd = await loadGrade(g);
+    const meta = state.index.grades.find(x => x.grade === g);
+    const mins = gd.courses.reduce((n, c) => n + (c.minutes_per_day || 0), 0);
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], [gradeName(g)]])}
+      <section class="hero">
+        <span class="eyebrow">${esc(meta.band)} · ${esc(meta.theme)}</span>
+        <h1>${gradeName(g)}</h1>
+        <div class="facts"><span><b>${gd.courses.length}</b> courses</span><span>about <b>${Math.round(mins / 6) / 10}</b> hours a day</span><span><b>180</b> school days</span></div>
+      </section>
+      <section class="stack" style="gap:10px">
+        <h2>School year</h2>
+        <p class="muted small">Open a week to see every subject, Monday through Friday.</p>
+        <div class="year">${[1, 2, 3, 4].map(q => `<div class="quarter panel"><h3>Quarter ${q} · weeks ${q * 9 - 8}–${q * 9}</h3>
+          <div class="weeks">${Array.from({ length: 9 }, (_, i) => q * 9 - 8 + i).map(w => `<a class="wk" href="#grade-${g}-week-${w}" aria-label="Week ${w}">${w}</a>`).join("")}</div></div>`).join("")}</div>
+      </section>
+      <section class="stack" style="gap:10px">
+        <h2>Courses</h2>
+        <div class="grid wide">${gd.courses.map(c => `
+          <a class="tile course subj-${c.subject}" href="#grade-${g}-${c.subject.toLowerCase()}">
+            ${chip(c.subject)}
+            <span class="t">${esc(c.title)}</span>
+            <span class="meta"><span>${c.minutes_per_day} min/day</span><span>${c.units.length} units</span>${(meta.courses.find(x => x.subject === c.subject) || {}).teacher ? `<span>Teacher's guide</span>` : ""}${c.ag_requirement ? `<span>UC/CSU “${esc(c.ag_requirement)}”</span>` : ""}${c.credits ? `<span>${c.credits} credits</span>` : ""}</span>
+          </a>`).join("")}</div>
+      </section>
+      <div class="btns">${ghBtn(`data/curriculum/grade_${String(g).padStart(2, "0")}`, "Grade files on GitHub")}${ghBtn(`docs/plans/grade_${String(g).padStart(2, "0")}`, "Printable weekly plans")}</div>
+    </div>`;
+  }
+
+  async function viewCourse(g, subj) {
+    const gd = await loadGrade(g);
+    const c = findCourse(gd, subj);
+    if (!c) return notFound();
+    const gg = String(g).padStart(2, "0");
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], [gradeName(g), `grade-${g}`], [c.title]])}
+      <section class="hero">
+        ${chip(c.subject)}
+        <h1>${esc(c.title)}</h1>
+        <p class="lede">${esc(c.description)}</p>
+        <div class="facts"><span><b>${c.minutes_per_day}</b> min/day</span><span><b>${c.units.length}</b> units</span><span><b>36</b> weeks</span>${c.ag_requirement ? `<span>UC/CSU a–g <b>${esc(c.ag_requirement)}</b></span>` : ""}${c.credits ? `<span><b>${c.credits}</b> credits</span>` : ""}</div>
+        <p class="muted small">Framework: ${esc(c.framework)}</p>
+      </section>
+      ${await (async () => { const tg = guideFor(await loadTeacher(g), c.subject); return tg ? `<section class="teacher panel"><span class="eyebrow">Teacher's guide</span><p>${esc(tg.overview)}</p><p class="small muted">Open any week below for step-by-step teaching notes, check questions with answers and the answer key.</p></section>` : "" })()}
+      <div class="btns">${ghBtn(c.source, "Course file on GitHub")}${ghBtn(`docs/plans/grade_${gg}/course_${c.subject}.md`, "Scope & sequence")}</div>
+      <section class="stack" style="gap:10px">
+        <h2>Units and weeks</h2>
+        <div class="units">${c.units.map(u => `<div class="unit">
+          <div class="unit-head"><h3>Unit ${u.number}: ${esc(u.title)}</h3><span class="chip plain">Weeks ${u.start_week}–${u.end_week}</span></div>
+          ${u.big_idea ? `<p class="muted">${esc(u.big_idea)}</p>` : ""}
+          <div class="week-links">${c.weeks.filter(w => w.unit === u.number).map(w => `<a href="#grade-${g}-${c.subject.toLowerCase()}-week-${w.week}"><span class="wn">Wk ${w.week}</span><span>${esc(w.topic)}</span></a>`).join("")}</div>
+        </div>`).join("")}</div>
+      </section>
+      ${c.resources?.length ? `<section class="stack" style="gap:10px"><h2>Free resources</h2><div class="list">${c.resources.map(r => `<div class="item">${ext(r.url, r.name)}${r.note ? `<span class="muted small">${esc(r.note)}</span>` : ""}</div>`).join("")}</div></section>` : ""}
+      <section class="stack" style="gap:10px"><h2>California standards</h2>
+        <div class="panel std">${Object.entries(c.standards).map(([k, v]) => `<code>${esc(k)}</code><span>${esc(v)}</span>`).join("")}</div>
+      </section>
+    </div>`;
+  }
+
+  async function viewCourseWeek(g, subj, wk) {
+    const gd = await loadGrade(g);
+    const c = findCourse(gd, subj);
+    const w = c && c.weeks.find(x => x.week === wk);
+    if (!w) return notFound();
+    const u = c.units.find(x => x.number === w.unit);
+    const base = `grade-${g}-${c.subject.toLowerCase()}`;
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], [gradeName(g), `grade-${g}`], [c.title, base], [`Week ${wk}`]])}
+      <section class="hero">
+        <span class="eyebrow">Week ${wk} · Quarter ${Math.ceil(wk / 9)}${u ? ` · Unit ${u.number}: ${esc(u.title)}` : ""}</span>
+        <h1>${esc(w.topic)}</h1>
+        <div>${chip(c.subject)}</div>
+      </section>
+      <section class="panel"><dl class="kv">
+        <dt>Objectives</dt><dd><ul>${list(w.objectives).map(o => `<li>${esc(o)}</li>`).join("")}</ul></dd>
+        ${w.vocabulary?.length ? `<dt>Vocabulary</dt><dd>${esc(list(w.vocabulary).join(", "))}</dd>` : ""}
+        ${w.materials?.length ? `<dt>Materials</dt><dd>${esc(list(w.materials).join(", "))}</dd>` : ""}
+        <dt>Assessment</dt><dd>${esc(w.assessment)}</dd>
+      </dl></section>
+      <section class="stack" style="gap:10px"><h2>Daily lessons</h2>
+        <div class="days">${w.days.map((d, i) => `<div class="day">
+          <div class="dn">${DAYS[i]}<small>Day ${(wk - 1) * 5 + i + 1} of 180</small></div>
+          <div class="body"><strong>${esc(d.title)}</strong><span>${esc(d.work)}</span></div>
+        </div>`).join("")}</div>
+      </section>
+      ${await (async () => {
+        const tg = guideFor(await loadTeacher(g), c.subject);
+        const tw = tg && tg.weeks.find(x => x.week === wk);
+        if (!tw) return "";
+        return `<section class="teacher stack" style="gap:12px" id="teacher-guide">
+          <div><span class="eyebrow">For the parent-teacher</span><h2>Teacher's guide</h2></div>
+          <div class="panel"><dl class="kv">
+            <dt>Prepare</dt><dd>${esc(tw.prep)}</dd>
+            <dt>Watch for</dt><dd><ul>${list(tw.misconceptions).map(m => `<li>${esc(m)}</li>`).join("")}</ul></dd>
+          </dl></div>
+          <div class="days">${list(tw.days).map((d, i) => `<div class="day">
+            <div class="dn">${DAYS[i]}<small>${esc(w.days[i] ? w.days[i].title : "")}</small></div>
+            <div class="body"><span><strong>How to teach:</strong> ${esc(d.guide)}</span>${qaList(d.questions)}</div>
+          </div>`).join("")}</div>
+          <div class="panel"><strong>Assessment:</strong> ${esc(w.assessment)}
+            <details class="key"><summary>Show answer key</summary><div class="a">${esc(tw.assessment_key)}</div></details></div>
+          <div class="btns">${ghBtn(tg.source, "Teacher's guide file on GitHub")}</div>
+        </section>`;
+      })()}
+      <section class="stack" style="gap:10px"><h2>Standards this week</h2>
+        <div class="panel std">${list(w.standards).map(s => `<code>${esc(s)}</code><span>${esc(c.standards[s] || "")}</span>`).join("")}</div>
+      </section>
+      ${pager(wk, n => `${base}-week-${n}`, `#grade-${g}-week-${wk}`, "All subjects this week")}
+    </div>`;
+  }
+
+  async function viewGradeWeek(g, wk) {
+    const gd = await loadGrade(g);
+    const key = `${g}-${wk}`;
+    const day = state.dayTab[key] ?? 0;
+    const doneKey = `done-${g}-${wk}`;
+    const done = store.get(doneKey) || {};
+    const rows = gd.courses.map(c => ({ c, w: c.weeks.find(x => x.week === wk) })).filter(r => r.w);
+    const tg = await loadTeacher(g);
+    const dayMins = d => rows.reduce((n, r) => n + (r.c.minutes_per_day || 0), 0);
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], [gradeName(g), `grade-${g}`], [`Week ${wk}`]])}
+      <section class="hero">
+        <span class="eyebrow">${gradeName(g)} · Quarter ${Math.ceil(wk / 9)} · school days ${(wk - 1) * 5 + 1}–${wk * 5}</span>
+        <h1>Week ${wk}</h1>
+      </section>
+      <section class="stack" style="gap:10px">
+        <h2>Week at a glance</h2>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Subject</th><th>Unit</th><th>This week</th></tr></thead>
+          <tbody>${rows.map(({ c, w }) => {
+            const u = c.units.find(x => x.number === w.unit);
+            return `<tr><td>${chip(c.subject)}</td><td class="muted">${esc(u ? u.title : "")}</td><td><a href="#grade-${g}-${c.subject.toLowerCase()}-week-${wk}">${esc(w.topic)}</a></td></tr>`;
+          }).join("")}</tbody>
+        </table></div>
+      </section>
+      <section class="stack" style="gap:12px">
+        <h2>Day by day</h2>
+        ${tg ? `<label class="toggle" for="teacher-toggle"><input type="checkbox" id="teacher-toggle" ${state.teacherView ? "checked" : ""}> Teacher view: show how to teach each lesson, with questions and answers</label>` : ""}
+        <div class="tabs" role="tablist">${DAYS.map((d, i) => `<button class="tab" role="tab" id="tab-${i}" aria-selected="${i === day}" data-day="${i}" data-key="${key}">${d}<small>day ${(wk - 1) * 5 + i + 1}</small></button>`).join("")}</div>
+        <div class="panel" role="tabpanel" aria-labelledby="tab-${day}">
+          <p class="muted small" style="margin-bottom:6px">${DAYS[day]} · about ${dayMins(day)} minutes · checkmarks are saved in this browser</p>
+          ${rows.map(({ c, w }) => {
+            const d = w.days[day]; const id = `${c.subject}-${day}`;
+            return `<div class="lesson ${done[id] ? "done" : ""}">
+              <input type="checkbox" id="chk-${id}" data-done="${doneKey}" data-id="${id}" ${done[id] ? "checked" : ""} aria-label="Mark ${esc(c.title)} done">
+              <div class="body"><div class="lesson-top">${chip(c.subject)}<strong>${esc(d.title)}</strong><span class="muted small">${c.minutes_per_day} min</span></div>
+              <span>${esc(d.work)}</span>
+              ${(() => { if (!state.teacherView) return ""; const t = guideFor(tg, c.subject); const td = t && (t.weeks.find(x => x.week === wk) || {}).days?.[day];
+                return td ? `<div class="teacher-inline"><span><strong>How to teach:</strong> ${esc(td.guide)}</span>${qaList(td.questions)}</div>` : ""; })()}
+              <a class="small" href="#grade-${g}-${c.subject.toLowerCase()}-week-${wk}">${esc(c.title)}: week ${wk} plan</a></div>
+            </div>`;
+          }).join("")}
+        </div>
+      </section>
+      <div class="btns">${ghBtn(`docs/plans/grade_${String(g).padStart(2, "0")}/week_${String(wk).padStart(2, "0")}.md`, "Printable week on GitHub")}</div>
+      ${pager(wk, n => `grade-${g}-week-${n}`)}
+    </div>`;
+  }
+
+  function pager(wk, route, extraHref, extraLabel) {
+    return `<div class="pager">
+      ${wk > 1 ? `<a class="btn" href="#${route(wk - 1)}">← Week ${wk - 1}</a>` : "<span></span>"}
+      ${extraHref ? `<a class="btn" href="${extraHref}">${esc(extraLabel)}</a>` : ""}
+      ${wk < 36 ? `<a class="btn" href="#${route(wk + 1)}">Week ${wk + 1} →</a>` : "<span></span>"}
+    </div>`;
+  }
+
+  function viewLegal() {
+    const opts = state.index.legal;
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], ["Getting started"]])}
+      <section class="hero"><span class="eyebrow">California law</span><h1>Five legal ways to homeschool</h1>
+        <p class="lede">California has no separate homeschool law. Families homeschool under one of these options. Most file a Private School Affidavit and run a home-based private school.</p></section>
+      <div class="list">${opts.map(o => `<article class="item">
+        <div class="item-head"><h2>${esc(o.name)}</h2><span class="chip plain">${esc(o.code)}</span></div>
+        <p>${esc(o.description)}</p>
+        <dl class="kv">
+          <dt>Requirements</dt><dd><ul>${list(o.requirements).map(x => `<li>${esc(x)}</li>`).join("")}</ul></dd>
+          <dt>Pros</dt><dd><ul>${list(o.pros).map(x => `<li>${esc(x)}</li>`).join("")}</ul></dd>
+          <dt>Cons</dt><dd><ul>${list(o.cons).map(x => `<li>${esc(x)}</li>`).join("")}</ul></dd>
+          <dt>Legal basis</dt><dd>${esc(o.legal_basis)}</dd>
+        </dl>
+        <div class="btns"><a class="btn" href="#paperwork" data-pw="${esc(o.code)}">Paperwork for this option</a>${o.url ? `<a class="btn" href="${esc(o.url)}" target="_blank" rel="noopener">Official source ↗</a>` : ""}</div>
+      </article>`).join("")}</div>
+    </div>`;
+  }
+
+  function viewPaperwork() {
+    const opt = state.pwOption;
+    const order = { submit: 0, keep_on_file: 1, recommended: 2 };
+    const label = { submit: "Submit", keep_on_file: "Keep on file", recommended: "Recommended" };
+    const items = state.index.paperwork
+      .filter(p => !opt || list(p.homeschool_option).join(",").split(/[,\s|]+/).some(x => x === opt || x === "ALL"))
+      .sort((a, b) => (order[a.action] ?? 9) - (order[b.action] ?? 9) || a.name.localeCompare(b.name));
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], ["Paperwork"]])}
+      <section class="hero"><span class="eyebrow">Required documents</span><h1>Paperwork checklist</h1>
+        <p class="lede">What to file with the state, what to keep in your school records, and what's good practice. Filter by the way you homeschool.</p></section>
+      <div class="note">Not legal advice. Entries were checked against official sources in November 2026; confirm with the CDE, your charter or your PSP.</div>
+      <div class="filters"><label for="pw-opt">Homeschool option
+        <select id="pw-opt"><option value="">All options</option>${state.index.legal.map(o => `<option value="${esc(o.code)}" ${opt === o.code ? "selected" : ""}>${esc(o.name)}</option>`).join("")}</select></label>
+        <span class="muted small">${items.length} items</span></div>
+      <div class="list">${items.map(p => `<article class="item">
+        <div class="item-head"><h3>${esc(p.name)}</h3><span class="chip badge-${esc(p.action)}">${esc(label[p.action] || p.action)}</span></div>
+        <p>${esc(p.description)}</p>
+        <dl class="kv small">
+          <dt>Applies to</dt><dd>${esc(list(p.homeschool_option).join(", "))}</dd>
+          ${p.deadline ? `<dt>Deadline</dt><dd>${esc(p.deadline)}</dd>` : ""}
+          ${p.frequency ? `<dt>How often</dt><dd>${esc(p.frequency)}</dd>` : ""}
+          ${p.legal_basis ? `<dt>Legal basis</dt><dd>${esc(p.legal_basis)}</dd>` : ""}
+          ${p.url ? `<dt>Source</dt><dd>${ext(p.url)}</dd>` : ""}
+        </dl>
+      </article>`).join("")}</div>
+    </div>`;
+  }
+
+  function viewFunding() {
+    const cat = state.fundCat;
+    const names = { charter_funding: "Charter school funds", grant: "Grants", tax_advantaged: "Tax-advantaged accounts", scholarship: "Scholarships", dual_enrollment: "Dual enrollment", free_access: "Free passes & access", discount: "Discounts", financial_aid: "College financial aid" };
+    const all = state.index.funding;
+    const cats = [...new Set(all.map(f => f.category))];
+    const items = all.filter(f => !cat || f.category === cat);
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], ["Funding"]])}
+      <section class="hero"><span class="eyebrow">Money & access</span><h1>Grants and funding programs</h1>
+        <p class="lede">California has no statewide homeschool grant. These are the programs, accounts and passes that California homeschool families can use.</p></section>
+      <div class="note">Not tax advice. Rules for 529 plans, Coverdell accounts and the federal tax-credit scholarship change often; check with a tax adviser.</div>
+      <div class="filters"><label for="fund-cat">Category
+        <select id="fund-cat"><option value="">All categories</option>${cats.map(c => `<option value="${esc(c)}" ${cat === c ? "selected" : ""}>${esc(names[c] || c)}</option>`).join("")}</select></label>
+        <span class="muted small">${items.length} programs</span></div>
+      <div class="list">${items.map(f => `<article class="item">
+        <div class="item-head"><h3>${esc(f.name)}</h3><span class="chip plain">${esc(names[f.category] || f.category)}</span></div>
+        <dl class="kv small">
+          ${f.provider ? `<dt>Provider</dt><dd>${esc(f.provider)}</dd>` : ""}
+          <dt>Benefit</dt><dd>${esc(f.benefit)}</dd>
+          <dt>Who qualifies</dt><dd>${esc(f.eligibility)}</dd>
+          ${f.how_to_apply ? `<dt>How to apply</dt><dd>${esc(f.how_to_apply)}</dd>` : ""}
+          ${f.california_notes ? `<dt>California notes</dt><dd>${esc(f.california_notes)}</dd>` : ""}
+          ${f.url ? `<dt>Website</dt><dd>${ext(f.url)}</dd>` : ""}
+          <dt>Last checked</dt><dd>${esc(f.last_verified || "")}</dd>
+        </dl>
+      </article>`).join("")}</div>
+    </div>`;
+  }
+
+  function viewResources() {
+    const { resSubj, resGrade } = state;
+    const items = state.index.resources.filter(r =>
+      (!resSubj || list(r.subjects).includes(resSubj) || list(r.subjects).includes("ALL")) &&
+      (!resGrade || ((r.grade_min ?? 1) <= +resGrade && (r.grade_max ?? 12) >= +resGrade)))
+      .sort((a, b) => a.name.localeCompare(b.name));
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], ["Resources"]])}
+      <section class="hero"><span class="eyebrow">Free materials</span><h1>Free curriculum resources</h1>
+        <p class="lede">Free curricula, practice sites, libraries, primary sources and simulations. Each course page also lists the resources picked for that course.</p></section>
+      <div class="filters">
+        <label for="res-subj">Subject<select id="res-subj"><option value="">All subjects</option>${state.index.subjects.map(s => `<option value="${s.code}" ${resSubj === s.code ? "selected" : ""}>${esc(s.name)}</option>`).join("")}</select></label>
+        <label for="res-grade">Grade<select id="res-grade"><option value="">All grades</option>${Array.from({ length: 12 }, (_, i) => i + 1).map(g => `<option value="${g}" ${+resGrade === g ? "selected" : ""}>${gradeName(g)}</option>`).join("")}</select></label>
+        <span class="muted small">${items.length} resources</span></div>
+      <div class="grid wide">${items.map(r => `<article class="item">
+        <div class="item-head"><h3>${ext(r.url, r.name)}</h3><span class="chip plain">${esc(r.cost || "free")}</span></div>
+        <p class="small">${esc(r.description)}</p>
+        <div class="dots" style="gap:6px">${list(r.subjects).filter(s => s !== "ALL").map(chip).join("")}${list(r.subjects).includes("ALL") ? `<span class="chip plain">All subjects</span>` : ""}<span class="chip plain">Grades ${r.grade_min ?? 1}–${r.grade_max ?? 12}</span></div>
+      </article>`).join("")}</div>
+    </div>`;
+  }
+
+  async function viewSearch() {
+    const q = state.search.trim().toLowerCase();
+    let results = "";
+    if (q.length >= 3) {
+      const grades = state.searchGrade ? [+state.searchGrade] : state.index.grades.map(g => g.grade);
+      await Promise.all(grades.map(loadGrade));
+      const hits = [];
+      outer: for (const g of grades) for (const c of state.grades[g].courses) for (const w of c.weeks) {
+        const topicHit = w.topic.toLowerCase().includes(q);
+        w.days.forEach((d, i) => {
+          if (topicHit || d.title.toLowerCase().includes(q) || d.work.toLowerCase().includes(q)) hits.push({ g, c, w, d, i });
+        });
+        if (hits.length >= 300) break outer;
+      }
+      results = hits.length ? `<p class="muted small">${hits.length >= 300 ? "First 300" : hits.length} matching lessons</p>
+        <div class="list">${hits.map(h => `<a class="item" style="text-decoration:none;color:inherit" href="#grade-${h.g}-${h.c.subject.toLowerCase()}-week-${h.w.week}">
+          <div class="lesson-top">${chip(h.c.subject)}<span class="muted small">${gradeName(h.g)} · Week ${h.w.week} · ${DAYS[h.i]}</span></div>
+          <strong>${esc(h.d.title)}</strong><span class="small">${esc(h.d.work)}</span></a>`).join("")}</div>`
+        : `<p class="muted">No lessons match “${esc(state.search)}”. Try a shorter word.</p>`;
+    } else if (q) {
+      results = `<p class="muted">Type at least 3 letters.</p>`;
+    }
+    return `<div class="stack">
+      ${crumbs([["Grades", "home"], ["Search"]])}
+      <section class="hero"><span class="eyebrow">All 16,200 lessons</span><h1>Search lessons</h1></section>
+      <form class="filters" id="search-form" role="search">
+        <label for="q">Topic, book or skill<input type="search" id="q" value="${esc(state.search)}" placeholder="fractions, Gold Rush, photosynthesis…"></label>
+        <label for="q-grade">Grade<select id="q-grade"><option value="">All grades</option>${Array.from({ length: 12 }, (_, i) => i + 1).map(g => `<option value="${g}" ${+state.searchGrade === g ? "selected" : ""}>${gradeName(g)}</option>`).join("")}</select></label>
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <div id="search-results">${results}</div>
+    </div>`;
+  }
+
+  const notFound = () => `<div class="stack"><h1>Page not found</h1><p><a href="#home">Back to all grades</a></p></div>`;
+
+  // ---------- router ----------
+  async function route(keepScroll) {
+    const h = (location.hash || "#home").slice(1);
+    let m, html, nav = "home";
+    try {
+      if (h === "home" || h === "") html = viewHome();
+      else if (h === "legal") { html = viewLegal(); nav = "legal" }
+      else if (h === "paperwork") { html = viewPaperwork(); nav = "paperwork" }
+      else if (h === "funding") { html = viewFunding(); nav = "funding" }
+      else if (h === "resources") { html = viewResources(); nav = "resources" }
+      else if (h === "search") { app.innerHTML = `<p class="loading">Searching…</p>`; html = await viewSearch(); nav = "search" }
+      else if ((m = h.match(/^grade-(\d{1,2})$/))) html = await viewGrade(+m[1]);
+      else if ((m = h.match(/^grade-(\d{1,2})-week-(\d{1,2})$/))) html = await viewGradeWeek(+m[1], +m[2]);
+      else if ((m = h.match(/^grade-(\d{1,2})-([a-z]+)-week-(\d{1,2})$/))) html = await viewCourseWeek(+m[1], m[2], +m[3]);
+      else if ((m = h.match(/^grade-(\d{1,2})-([a-z]+)$/))) html = await viewCourse(+m[1], m[2]);
+      else html = notFound();
+    } catch (e) {
+      html = `<div class="stack"><h1>Couldn't load this page</h1><p class="muted">${esc(e.message)}. If you opened the file directly from disk, serve the folder instead: <code>python3 -m http.server</code> inside <code>web/</code>.</p></div>`;
+    }
+    app.innerHTML = html;
+    document.querySelectorAll("[data-nav]").forEach(a => a.dataset.nav === nav ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+    if (!keepScroll) window.scrollTo(0, 0);
+  }
+
+  // ---------- events ----------
+  app.addEventListener("click", e => {
+    const tab = e.target.closest(".tab");
+    if (tab) { state.dayTab[tab.dataset.key] = +tab.dataset.day; route(true); return }
+    const pw = e.target.closest("[data-pw]");
+    if (pw) state.pwOption = pw.dataset.pw;
+  });
+  app.addEventListener("change", e => {
+    const t = e.target;
+    if (t.dataset.done) {
+      const d = store.get(t.dataset.done) || {}; d[t.dataset.id] = t.checked; store.set(t.dataset.done, d);
+      t.closest(".lesson").classList.toggle("done", t.checked); return;
+    }
+    if (t.id === "teacher-toggle") { state.teacherView = t.checked; store.set("teacherView", t.checked); route(true); return }
+    if (t.id === "pw-opt") state.pwOption = t.value;
+    else if (t.id === "fund-cat") state.fundCat = t.value;
+    else if (t.id === "res-subj") state.resSubj = t.value;
+    else if (t.id === "res-grade") state.resGrade = t.value;
+    else if (t.id === "q-grade") { state.searchGrade = t.value; if (state.search) route(true); return }
+    else return;
+    route(true);
+  });
+  app.addEventListener("submit", e => {
+    if (e.target.id !== "search-form") return;
+    e.preventDefault();
+    state.search = document.getElementById("q").value;
+    route(true).then(() => document.getElementById("q")?.focus());
+  });
+  window.addEventListener("hashchange", () => route(false));
+
+  state.teacherView = !!store.get("teacherView");
+  getJSON("data/index.json").then(idx => {
+    state.index = idx;
+    document.getElementById("repo-links").innerHTML =
+      `<a href="${esc(idx.repo)}/tree/${esc(idx.branch)}" target="_blank" rel="noopener">Repository on GitHub</a> · ` +
+      `<a href="${esc(gh("README.md"))}" target="_blank" rel="noopener">README</a> · ` +
+      `<a href="${esc(gh("homeschool.db"))}" target="_blank" rel="noopener">SQLite database</a>`;
+    route(true);
+  }).catch(e => {
+    app.innerHTML = `<div class="stack"><h1>Couldn't load the curriculum</h1><p class="muted">${esc(e.message)}. Serve the <code>web/</code> folder over HTTP (for example <code>python3 -m http.server</code>) rather than opening the file directly.</p></div>`;
+  });
+})();
+</script>

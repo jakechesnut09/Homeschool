@@ -1,0 +1,343 @@
+{
+  "grade": 7,
+  "subject": "SCI",
+  "title": "Science 7 (Integrated)",
+  "description": "Grade 7 integrated science following the California preferred integrated model: matter is made of atoms that rearrange in chemical reactions, matter cycles and energy flows through organisms and ecosystems, Earth's materials cycle and its surface records a long history, and humans must sustain biodiversity and resources. Every week includes a hands-on investigation with household materials, science notebooks with claim-evidence-reasoning writing, and engineering design challenges.",
+  "framework": "California Next Generation Science Standards (CA NGSS); 2016 CA Science Framework, Grade 7 Preferred Integrated Model",
+  "minutes_per_day": 50,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "MS-PS1-1": "Develop models to describe the atomic composition of simple molecules and extended structures.",
+    "MS-PS1-2": "Analyze and interpret data on the properties of substances before and after interaction to determine if a chemical reaction occurred.",
+    "MS-PS1-3": "Gather and make sense of information to describe that synthetic materials come from natural resources and impact society.",
+    "MS-PS1-5": "Develop and use a model to describe how the total number of atoms does not change in a chemical reaction and thus mass is conserved.",
+    "MS-PS1-6": "Undertake a design project to construct, test and modify a device that either releases or absorbs thermal energy by chemical processes.",
+    "MS-LS1-6": "Construct a scientific explanation based on evidence for the role of photosynthesis in the cycling of matter and flow of energy into and out of organisms.",
+    "MS-LS1-7": "Develop a model to describe how food is rearranged through chemical reactions forming new molecules that support growth and/or release energy.",
+    "MS-LS2-1": "Analyze and interpret data to provide evidence for the effects of resource availability on organisms and populations in an ecosystem.",
+    "MS-LS2-2": "Construct an explanation that predicts patterns of interactions among organisms across multiple ecosystems.",
+    "MS-LS2-3": "Develop a model to describe the cycling of matter and flow of energy among living and nonliving parts of an ecosystem.",
+    "MS-LS2-4": "Construct an argument supported by empirical evidence that changes to physical or biological components of an ecosystem affect populations.",
+    "MS-LS2-5": "Evaluate competing design solutions for maintaining biodiversity and ecosystem services.",
+    "MS-LS4-1": "Analyze and interpret data for patterns in the fossil record that document the existence, diversity, extinction and change of life forms.",
+    "MS-ESS1-4": "Construct a scientific explanation based on evidence from rock strata for how the geologic time scale is used to organize Earth's 4.6-billion-year history.",
+    "MS-ESS2-1": "Develop a model to describe the cycling of Earth's materials and the flow of energy that drives this process.",
+    "MS-ESS2-2": "Construct an explanation based on evidence for how geoscience processes have changed Earth's surface at varying time and spatial scales.",
+    "MS-ESS2-3": "Analyze and interpret data on the distribution of fossils and rocks, continental shapes and seafloor structures to provide evidence of past plate motions.",
+    "MS-ESS3-1": "Construct a scientific explanation based on evidence for how the uneven distributions of Earth's mineral, energy and groundwater resources are the result of past and current geoscience processes.",
+    "MS-ESS3-3": "Apply scientific principles to design a method for monitoring and minimizing a human impact on the environment.",
+    "MS-ESS3-4": "Construct an argument supported by evidence for how increases in human population and per-capita consumption of natural resources impact Earth's systems.",
+    "MS-ETS1-1": "Define the criteria and constraints of a design problem with sufficient precision to ensure a successful solution.",
+    "MS-ETS1-2": "Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints.",
+    "MS-ETS1-3": "Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each.",
+    "MS-ETS1-4": "Develop a model to generate data for iterative testing and modification of a proposed object, tool or process."
+  },
+  "resources": [
+    {"name": "PhET Interactive Simulations", "url": "https://phet.colorado.edu/", "note": "Build an Atom, Build a Molecule, Balancing Chemical Equations, States of Matter"},
+    {"name": "CK-12 Middle School Science", "url": "https://www.ck12.org/student/", "note": "Free readings and practice on chemistry, life and earth science"},
+    {"name": "Khan Academy – Middle school biology and earth science", "url": "https://www.khanacademy.org/science", "note": "Videos on photosynthesis, ecosystems, plate tectonics"},
+    {"name": "OpenSciEd Middle School", "url": "https://www.openscied.org/", "note": "Free NGSS units with phenomena-based investigations"},
+    {"name": "USGS Education", "url": "https://www.usgs.gov/educational-resources", "note": "Earthquake maps, geologic time, minerals and water resources"},
+    {"name": "Smithsonian Learning Lab", "url": "https://learninglab.si.edu/", "note": "Fossil and natural history collections"}
+  ],
+  "units": [
+    {"number": 1, "title": "Atoms, Molecules and Materials", "start_week": 1, "end_week": 5, "big_idea": "All matter, living and nonliving, is made of atoms that combine into molecules and extended structures; people turn natural resources into synthetic materials.", "standards": ["MS-PS1-1", "MS-PS1-3"]},
+    {"number": 2, "title": "Chemical Reactions and Conservation of Matter", "start_week": 6, "end_week": 10, "big_idea": "In a chemical reaction atoms rearrange into new substances with new properties, mass is conserved, and energy can be released or absorbed.", "standards": ["MS-PS1-2", "MS-PS1-5", "MS-PS1-6", "MS-ETS1-1", "MS-ETS1-2", "MS-ETS1-3", "MS-ETS1-4"]},
+    {"number": 3, "title": "Matter and Energy in Organisms", "start_week": 11, "end_week": 14, "big_idea": "Plants capture light energy to build sugar from carbon dioxide and water; organisms rearrange food molecules to grow and release energy.", "standards": ["MS-LS1-6", "MS-LS1-7", "MS-PS1-2"]},
+    {"number": 4, "title": "Ecosystems: Interactions, Matter and Energy", "start_week": 15, "end_week": 19, "big_idea": "Resource availability and interactions shape populations; matter cycles and energy flows through ecosystems.", "standards": ["MS-LS2-1", "MS-LS2-2", "MS-LS2-3"]},
+    {"number": 5, "title": "Earth's Materials and Resources", "start_week": 20, "end_week": 24, "big_idea": "Earth's materials cycle through the rock cycle driven by internal heat and the sun, and geologic processes leave resources unevenly distributed.", "standards": ["MS-ESS2-1", "MS-ESS3-1", "MS-PS1-1"]},
+    {"number": 6, "title": "Earth's History and Plate Tectonics", "start_week": 25, "end_week": 30, "big_idea": "Rock layers, fossils and plate motions record Earth's 4.6-billion-year history at many time and spatial scales.", "standards": ["MS-ESS1-4", "MS-ESS2-2", "MS-ESS2-3", "MS-LS4-1"]},
+    {"number": 7, "title": "Sustaining Biodiversity and Earth's Systems", "start_week": 31, "end_week": 36, "big_idea": "Changes to ecosystems affect populations; human population and consumption impact Earth, and engineers design solutions to monitor and reduce those impacts.", "standards": ["MS-LS2-4", "MS-LS2-5", "MS-ESS3-3", "MS-ESS3-4", "MS-ETS1-1", "MS-ETS1-2"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "What is everything made of? Particles and atoms", "objectives": ["Use evidence that matter is made of tiny particles", "Set up a science notebook and lab safety habits"], "standards": ["MS-PS1-1"], "vocabulary": ["matter", "particle", "atom", "mass", "volume"], "materials": ["food coloring", "hot and cold water", "clear cups", "balloon", "vanilla extract"],
+     "days": [
+      {"title": "Safety & notebook", "work": "Set up a science notebook with a table of contents and sign a home lab safety contract after reviewing goggles, heat and chemical rules."},
+      {"title": "Phenomenon: food coloring", "work": "Drop food coloring into hot and cold water, time how long it takes to spread, and sketch a particle model of what is happening."},
+      {"title": "Scent in a balloon", "work": "Put vanilla extract inside a balloon, inflate and tie it, then smell the outside and explain using particles."},
+      {"title": "Atoms and elements", "work": "Use the PhET 'Build an Atom' simulation to build hydrogen, carbon and oxygen atoms and record protons, neutrons and electrons."},
+      {"title": "Review & check", "work": "Write a claim-evidence-reasoning paragraph answering 'Is matter continuous or made of particles?' and take a vocabulary quiz."}
+     ], "assessment": "CER paragraph and particle model sketches."},
+    {"week": 2, "unit": 1, "topic": "Elements and the periodic table", "objectives": ["Distinguish elements, compounds and mixtures", "Read basic periodic-table information"], "standards": ["MS-PS1-1"], "vocabulary": ["element", "compound", "mixture", "periodic table", "symbol"], "materials": ["periodic table printout", "salt", "sand", "iron filings or paper clips", "magnet"],
+     "days": [
+      {"title": "Element hunt", "work": "Find 10 elements in household items (aluminum foil, copper wire, carbon pencil lead) and locate them on a periodic table."},
+      {"title": "Reading the table", "work": "Identify atomic number, symbol and mass for 15 elements and color-code metals, nonmetals and metalloids."},
+      {"title": "Mixtures lab", "work": "Separate a mixture of salt, sand and paper-clip bits using a magnet, filtering and evaporation."},
+      {"title": "Compounds vs. mixtures", "work": "Sort 12 substances (water, air, salt, trail mix, sugar) as element, compound or mixture with justification."},
+      {"title": "Review & check", "work": "Take a quiz on elements, compounds, mixtures and periodic-table reading."}
+     ], "assessment": "Separation lab write-up and quiz."},
+    {"week": 3, "unit": 1, "topic": "Modeling molecules and extended structures", "objectives": ["Build models of simple molecules", "Contrast molecules with extended structures like salt and diamond"], "standards": ["MS-PS1-1"], "vocabulary": ["molecule", "chemical formula", "bond", "crystal", "extended structure"], "materials": ["gumdrops or mini marshmallows", "toothpicks", "salt and sugar crystals", "magnifying glass"],
+     "days": [
+      {"title": "Chemical formulas", "work": "Interpret formulas H2O, CO2, O2, CH4 and C6H12O6 by counting atoms of each element."},
+      {"title": "Gumdrop molecules", "work": "Build gumdrop-and-toothpick models of water, carbon dioxide, methane and ammonia using a color key."},
+      {"title": "PhET Build a Molecule", "work": "Use PhET 'Build a Molecule' to assemble 8 molecules and record formulas and names."},
+      {"title": "Crystals", "work": "Examine salt and sugar crystals with a magnifier and build a repeating NaCl lattice model to show an extended structure."},
+      {"title": "Review & check", "work": "Draw labeled models of three molecules and one extended structure and explain the difference."}
+     ], "assessment": "Molecule models and labeled drawings."},
+    {"week": 4, "unit": 1, "topic": "Properties of substances", "objectives": ["Measure characteristic properties", "Use density, melting point and solubility to identify substances"], "standards": ["MS-PS1-1", "MS-PS1-2"], "vocabulary": ["density", "solubility", "melting point", "characteristic property"], "materials": ["kitchen scale", "measuring cup", "water", "oil", "corn syrup", "salt", "sugar", "baking soda"],
+     "days": [
+      {"title": "Density", "work": "Measure mass and volume of water, oil and corn syrup and calculate density for each."},
+      {"title": "Density column", "work": "Build a density column with corn syrup, water and oil and predict where a grape, cork and coin will settle."},
+      {"title": "Solubility", "work": "Test how many teaspoons of salt, sugar and baking soda dissolve in 100 mL of water and graph results."},
+      {"title": "Mystery powders", "work": "Identify three unlabeled white powders using solubility, texture and reaction with vinegar or iodine."},
+      {"title": "Review & check", "work": "Write a lab report on the mystery-powder investigation with a data table and conclusion."}
+     ], "assessment": "Density calculations and mystery-powder lab report."},
+    {"week": 5, "unit": 1, "topic": "Natural resources to synthetic materials", "objectives": ["Trace synthetic materials back to natural resources", "Evaluate societal impact of a synthetic material"], "standards": ["MS-PS1-3"], "vocabulary": ["synthetic", "natural resource", "polymer", "petroleum"], "materials": ["milk", "vinegar", "cornstarch", "glue", "borax (adult supervision)"],
+     "days": [
+      {"title": "Natural vs. synthetic", "work": "Sort 15 household items as natural or synthetic and trace three synthetics back to their raw resources."},
+      {"title": "Milk plastic", "work": "Make casein plastic from warm milk and vinegar, mold it and let it dry."},
+      {"title": "Polymer slime", "work": "Make glue-and-borax slime and compare its properties to the starting materials."},
+      {"title": "Research a material", "work": "Research nylon, polyester or plastic bags and write how they are made and how they affect society and the environment."},
+      {"title": "Unit 1 assessment", "work": "Take the unit 1 test and present a one-page infographic on a synthetic material."}
+     ], "assessment": "Unit 1 test and synthetic-material infographic."},
+    {"week": 6, "unit": 2, "topic": "Evidence of chemical reactions", "objectives": ["Identify evidence of chemical change", "Distinguish physical and chemical changes"], "standards": ["MS-PS1-2"], "vocabulary": ["chemical reaction", "physical change", "precipitate", "reactant", "product"], "materials": ["baking soda", "vinegar", "steel wool", "milk", "lemon juice", "ice"],
+     "days": [
+      {"title": "Phenomenon: rusty nail", "work": "Compare a new and rusted nail and list differences in properties; start a steel-wool rusting jar to observe all week."},
+      {"title": "Signs of reactions", "work": "Run four mini-reactions (baking soda + vinegar, milk + lemon juice, Alka-Seltzer + water, steel wool + vinegar) and record evidence."},
+      {"title": "Physical vs. chemical", "work": "Test melting ice, dissolving sugar, burning a candle and toasting bread; classify each with evidence."},
+      {"title": "Before and after data", "work": "Analyze a data table of properties before and after interactions to decide if new substances formed."},
+      {"title": "Review & check", "work": "Write a CER on whether rusting is a chemical reaction using the week's steel-wool observations."}
+     ], "assessment": "Reaction evidence chart and CER."},
+    {"week": 7, "unit": 2, "topic": "Atoms rearrange: chemical equations", "objectives": ["Model reactions as rearrangements of atoms", "Read simple chemical equations"], "standards": ["MS-PS1-5", "MS-PS1-1"], "vocabulary": ["chemical equation", "coefficient", "subscript", "balanced"], "materials": ["LEGO bricks or gumdrops", "PhET Balancing Chemical Equations"],
+     "days": [
+      {"title": "Reading equations", "work": "Identify reactants, products, coefficients and subscripts in five chemical equations."},
+      {"title": "Modeling with LEGO", "work": "Use colored LEGO bricks to model methane burning (CH4 + 2O2 → CO2 + 2H2O) and count atoms before and after."},
+      {"title": "Balancing simulation", "work": "Complete PhET 'Balancing Chemical Equations' intro and game levels 1–2."},
+      {"title": "Baking soda and vinegar equation", "work": "Model the baking soda + vinegar reaction and explain where the gas comes from."},
+      {"title": "Review & check", "work": "Quiz: count atoms and balance three simple equations with models."}
+     ], "assessment": "Balancing quiz and model photos."},
+    {"week": 8, "unit": 2, "topic": "Conservation of mass", "objectives": ["Collect evidence that mass is conserved", "Explain open vs. closed systems"], "standards": ["MS-PS1-5"], "vocabulary": ["conservation of mass", "closed system", "open system"], "materials": ["kitchen scale", "plastic bottle", "balloon", "baking soda", "vinegar", "Alka-Seltzer"],
+     "days": [
+      {"title": "Open system", "work": "Mass baking soda and vinegar before and after reacting in an open cup and calculate the apparent mass loss."},
+      {"title": "Closed system", "work": "Repeat the reaction in a bottle sealed with a balloon and compare before-and-after masses."},
+      {"title": "Explaining results", "work": "Draw particle models explaining why mass seemed to change in the open cup but not the sealed bottle."},
+      {"title": "Lavoisier", "work": "Read about Antoine Lavoisier's experiments and summarize how he established conservation of mass."},
+      {"title": "Review & check", "work": "Write a full lab report with data, graph and conclusion."}
+     ], "assessment": "Conservation of mass lab report."},
+    {"week": 9, "unit": 2, "topic": "Energy in reactions: hot and cold", "objectives": ["Classify reactions as exothermic or endothermic", "Measure temperature changes"], "standards": ["MS-PS1-6", "MS-PS1-2"], "vocabulary": ["exothermic", "endothermic", "thermal energy", "temperature"], "materials": ["thermometer", "baking soda", "vinegar", "hydrogen peroxide", "yeast", "steel wool", "calcium chloride (ice melt)"],
+     "days": [
+      {"title": "Measuring change", "work": "Measure temperature change for baking soda + vinegar every 30 seconds and graph it."},
+      {"title": "Hot reaction", "work": "Measure temperature change for yeast + hydrogen peroxide and for steel wool + vinegar in a jar."},
+      {"title": "Comparing reactions", "work": "Compare graphs and classify each reaction as exothermic or endothermic."},
+      {"title": "Hand warmers & cold packs", "work": "Read how commercial hand warmers and instant cold packs work and identify their chemicals."},
+      {"title": "Review & check", "work": "Quiz on exothermic and endothermic reactions with graph interpretation."}
+     ], "assessment": "Temperature graphs and quiz."},
+    {"week": 10, "unit": 2, "topic": "Engineering challenge: design a hand warmer or cold pack", "objectives": ["Define criteria and constraints", "Test, compare and iterate a design"], "standards": ["MS-PS1-6", "MS-ETS1-1", "MS-ETS1-2", "MS-ETS1-3", "MS-ETS1-4"], "vocabulary": ["criteria", "constraints", "prototype", "iteration"], "materials": ["zip bags", "calcium chloride", "baking soda", "citric acid", "thermometer"],
+     "days": [
+      {"title": "Define the problem", "work": "Write criteria (e.g., warms 10 °C for 5 minutes) and constraints (safe, cheap, under 50 g) for a chemical warmer or cooler."},
+      {"title": "Prototype 1", "work": "Build and test two designs with different amounts of reactants and record temperature over time."},
+      {"title": "Analyze and improve", "work": "Compare test data in a decision matrix and redesign to better meet criteria."},
+      {"title": "Prototype 2", "work": "Test the improved design three times and calculate the average temperature change."},
+      {"title": "Unit 2 assessment", "work": "Present the final design with data and take the unit 2 test."}
+     ], "assessment": "Design portfolio and unit 2 test."},
+    {"week": 11, "unit": 3, "topic": "Photosynthesis: where does a plant's mass come from?", "objectives": ["Gather evidence about inputs and outputs of photosynthesis", "Model how plants make sugar"], "standards": ["MS-LS1-6"], "vocabulary": ["photosynthesis", "chloroplast", "glucose", "carbon dioxide"], "materials": ["spinach leaves", "baking soda", "syringe", "cups", "lamp"],
+     "days": [
+      {"title": "Phenomenon: a growing tree", "work": "Read about van Helmont's willow tree experiment and predict where the tree's mass came from."},
+      {"title": "Floating leaf disks", "work": "Use a syringe to infiltrate spinach leaf disks with baking-soda water and count how many float under a lamp every minute."},
+      {"title": "Light variable", "work": "Repeat the leaf-disk test at different lamp distances and graph floating rate versus light."},
+      {"title": "Photosynthesis equation", "work": "Build a gumdrop model of 6CO2 + 6H2O → C6H12O6 + 6O2 and explain how atoms are rearranged."},
+      {"title": "Review & check", "work": "Write a CER answering 'Where does a plant's mass come from?' using leaf-disk evidence."}
+     ], "assessment": "Leaf-disk data and CER."},
+    {"week": 12, "unit": 3, "topic": "Cellular respiration", "objectives": ["Explain how organisms release energy from food", "Measure carbon dioxide production"], "standards": ["MS-LS1-7", "MS-PS1-2"], "vocabulary": ["cellular respiration", "mitochondria", "energy", "fermentation"], "materials": ["yeast", "sugar", "warm water", "balloons", "bottles", "bromothymol blue or red cabbage indicator"],
+     "days": [
+      {"title": "Yeast balloons", "work": "Feed yeast different amounts of sugar in bottles topped with balloons and measure balloon circumference every 10 minutes."},
+      {"title": "Breath test", "work": "Blow through a straw into red-cabbage indicator before and after exercise and compare color changes as evidence of CO2."},
+      {"title": "Respiration equation", "work": "Compare photosynthesis and respiration equations and draw a diagram of how they are linked."},
+      {"title": "Food to body", "work": "Model how digested food molecules are rearranged to build body tissue or release energy."},
+      {"title": "Review & check", "work": "Quiz on respiration and its relationship to photosynthesis."}
+     ], "assessment": "Yeast data table and quiz."},
+    {"week": 13, "unit": 3, "topic": "Food, energy and the body", "objectives": ["Explain food as fuel and building material", "Measure energy in food"], "standards": ["MS-LS1-7"], "vocabulary": ["calorie", "carbohydrate", "protein", "fat", "digestion"], "materials": ["nutrition labels", "iodine", "bread", "potato", "brown paper bag"],
+     "days": [
+      {"title": "Nutrient tests", "work": "Test foods for starch with iodine and for fat with brown paper and record results."},
+      {"title": "Nutrition labels", "work": "Analyze five nutrition labels to compare calories from carbohydrates, fats and proteins."},
+      {"title": "Energy in a peanut (demo)", "work": "With an adult, burn a cheese puff under a can of water and calculate the temperature change as evidence of stored energy."},
+      {"title": "Growth and repair", "work": "Read about how proteins are broken into amino acids and rebuilt into body proteins and summarize in a flowchart."},
+      {"title": "Review & check", "work": "Write an explanation of how a sandwich becomes both energy and muscle."}
+     ], "assessment": "Food-testing results and written explanation."},
+    {"week": 14, "unit": 3, "topic": "Matter and energy in organisms: synthesis", "objectives": ["Integrate photosynthesis and respiration in one model", "Demonstrate unit mastery"], "standards": ["MS-LS1-6", "MS-LS1-7"], "vocabulary": ["carbon cycle", "producer", "consumer"], "materials": ["sealed jar with plant and snail (optional)", "poster paper"],
+     "days": [
+      {"title": "Sealed ecosystem", "work": "Analyze data from a sealed jar containing a plant (and optionally a snail) and explain how both survive."},
+      {"title": "Carbon atom journey", "work": "Write a story following one carbon atom from the air into a leaf, a rabbit and back into the air."},
+      {"title": "Model poster", "work": "Create a poster model linking photosynthesis and respiration with matter and energy arrows."},
+      {"title": "Unit review", "work": "Review with flashcards and a practice set on unit 3 concepts."},
+      {"title": "Unit 3 assessment", "work": "Take the unit 3 test."}
+     ], "assessment": "Carbon story, model poster and unit 3 test."},
+    {"week": 15, "unit": 4, "topic": "Resources and populations", "objectives": ["Analyze data on resource availability and population size", "Identify limiting factors"], "standards": ["MS-LS2-1"], "vocabulary": ["population", "limiting factor", "carrying capacity", "resource"], "materials": ["dried beans", "graph paper", "radish seeds", "cups of soil"],
+     "days": [
+      {"title": "Oh Deer! simulation", "work": "Play a tabletop version of 'Oh Deer!' with beans for food, water and shelter over 15 rounds and graph the deer population."},
+      {"title": "Population graphs", "work": "Interpret real data on the lynx-hare population cycle and describe the pattern."},
+      {"title": "Crowding experiment", "work": "Plant radish seeds at 3 different densities to investigate competition for resources."},
+      {"title": "Carrying capacity", "work": "Analyze a graph of a population reaching carrying capacity and identify limiting factors."},
+      {"title": "Review & check", "work": "Quiz on limiting factors and population graphs."}
+     ], "assessment": "Population graph and quiz."},
+    {"week": 16, "unit": 4, "topic": "Interactions among organisms", "objectives": ["Classify predation, competition and symbiosis", "Predict interaction patterns across ecosystems"], "standards": ["MS-LS2-2"], "vocabulary": ["predation", "competition", "mutualism", "commensalism", "parasitism"], "materials": ["ecosystem cards", "outdoor observation area"],
+     "days": [
+      {"title": "Interaction types", "work": "Sort 20 organism-pair cards into predation, competition, mutualism, commensalism and parasitism."},
+      {"title": "Backyard survey", "work": "Observe a yard or park for 30 minutes and record organisms and any interactions seen."},
+      {"title": "Across ecosystems", "work": "Compare interactions in a kelp forest, desert and tropical rainforest and identify repeating patterns."},
+      {"title": "Sea otters", "work": "Read about California sea otters, urchins and kelp and explain the predator-prey pattern."},
+      {"title": "Review & check", "work": "Write an explanation predicting what would happen if a predator were removed from an ecosystem."}
+     ], "assessment": "Survey log and written prediction."},
+    {"week": 17, "unit": 4, "topic": "Food webs and energy flow", "objectives": ["Build food webs", "Explain why energy decreases up trophic levels"], "standards": ["MS-LS2-3"], "vocabulary": ["food web", "trophic level", "decomposer", "energy pyramid"], "materials": ["yarn", "index cards", "owl pellet (optional)"],
+     "days": [
+      {"title": "Food chains", "work": "Build food chains for a California chaparral ecosystem and label producers, consumers and decomposers."},
+      {"title": "Yarn web", "work": "Connect organism cards with yarn into a food web and observe the effect of 'removing' one organism."},
+      {"title": "Owl pellet", "work": "Dissect an owl pellet (or virtual pellet) and identify prey bones to build the owl's food web."},
+      {"title": "Energy pyramid", "work": "Calculate energy available at each level using the 10% rule and draw an energy pyramid."},
+      {"title": "Review & check", "work": "Quiz on food webs and energy pyramids."}
+     ], "assessment": "Food-web model and quiz."},
+    {"week": 18, "unit": 4, "topic": "Decomposers and cycling matter", "objectives": ["Investigate decomposition", "Model how matter cycles in ecosystems"], "standards": ["MS-LS2-3"], "vocabulary": ["decomposition", "nutrient cycle", "compost", "fungi"], "materials": ["clear jars", "soil", "food scraps", "leaves", "bread"],
+     "days": [
+      {"title": "Decomposition jars", "work": "Set up decomposition jars with bread, apple and leaves under moist and dry conditions to observe over weeks."},
+      {"title": "Mold growth", "work": "Observe moldy bread with a magnifier and draw hyphae and spores."},
+      {"title": "Nitrogen and carbon", "work": "Diagram how carbon and nitrogen cycle among plants, animals, decomposers and soil."},
+      {"title": "Compost design", "work": "Design a small compost bin and explain how it returns matter to the soil."},
+      {"title": "Semester review & check", "work": "Take a cumulative semester 1 checkpoint on units 1–4."}
+     ], "assessment": "Decomposition observations and semester checkpoint."},
+    {"week": 19, "unit": 4, "topic": "Ecosystem model project", "objectives": ["Build and monitor an ecosystem model", "Demonstrate unit mastery"], "standards": ["MS-LS2-1", "MS-LS2-3"], "vocabulary": ["terrarium", "biotic", "abiotic"], "materials": ["2-liter bottle", "soil", "gravel", "small plants", "pill bugs or snails"],
+     "days": [
+      {"title": "Build a terrarium", "work": "Build a bottle terrarium with plants, soil, water and small invertebrates and diagram its biotic and abiotic parts."},
+      {"title": "Decomposition check", "work": "Record changes in the decomposition jars and explain which conditions sped up decomposition."},
+      {"title": "Matter and energy diagram", "work": "Draw arrows showing matter cycling and energy flowing through the terrarium."},
+      {"title": "Unit review", "work": "Review unit 4 vocabulary and practice data-analysis questions."},
+      {"title": "Unit 4 assessment", "work": "Take the unit 4 test; continue terrarium observation weekly."}
+     ], "assessment": "Terrarium diagram and unit 4 test."},
+    {"week": 20, "unit": 5, "topic": "Minerals and rocks", "objectives": ["Identify minerals by properties", "Classify rocks by formation"], "standards": ["MS-ESS2-1", "MS-PS1-1"], "vocabulary": ["mineral", "crystal", "hardness", "streak", "igneous", "sedimentary", "metamorphic"], "materials": ["rock samples from yard", "nail", "penny", "unglazed tile", "vinegar"],
+     "days": [
+      {"title": "Mineral properties", "work": "Test samples for luster, streak and hardness using a fingernail, penny and nail on the Mohs scale."},
+      {"title": "Grow crystals", "work": "Grow salt or sugar crystals from a supersaturated solution and connect to how minerals form."},
+      {"title": "Rock types", "work": "Classify yard and store-bought rocks into igneous, sedimentary and metamorphic with an ID key."},
+      {"title": "Fizz test", "work": "Test rocks with vinegar to identify limestone/calcite and explain the chemical reaction."},
+      {"title": "Review & check", "work": "Quiz on mineral properties and rock types."}
+     ], "assessment": "Rock and mineral ID chart and quiz."},
+    {"week": 21, "unit": 5, "topic": "The rock cycle and energy that drives it", "objectives": ["Model the rock cycle", "Identify the energy sources driving it"], "standards": ["MS-ESS2-1"], "vocabulary": ["rock cycle", "weathering", "erosion", "magma", "compaction"], "materials": ["crayons", "pencil sharpener", "foil", "hot water"],
+     "days": [
+      {"title": "Crayon rock cycle", "work": "Shave crayons into sediment, press into 'sedimentary rock', heat-press into 'metamorphic', and melt into 'igneous'."},
+      {"title": "Energy sources", "work": "Label a rock cycle diagram with energy from the sun (weathering, erosion) and Earth's interior (melting, metamorphism)."},
+      {"title": "Weathering lab", "work": "Shake sugar cubes in a jar for different times to model mechanical weathering and graph the results."},
+      {"title": "California rocks", "work": "Research California's state rock serpentine and granite of the Sierra Nevada and place each in the rock cycle."},
+      {"title": "Review & check", "work": "Draw and explain a complete rock cycle model with at least 8 processes."}
+     ], "assessment": "Rock-cycle model."},
+    {"week": 22, "unit": 5, "topic": "Weathering, erosion and deposition shape the surface", "objectives": ["Investigate surface processes", "Compare fast and slow changes"], "standards": ["MS-ESS2-1", "MS-ESS2-2"], "vocabulary": ["deposition", "delta", "glacier", "landslide"], "materials": ["baking pan", "sand", "soil", "watering can", "ice cubes"],
+     "days": [
+      {"title": "Stream table", "work": "Build a stream table in a baking pan with sand and observe erosion and delta formation as water flows."},
+      {"title": "Changing slope", "work": "Repeat with steeper slope and record differences in erosion and deposition."},
+      {"title": "Glaciers", "work": "Drag an ice cube with embedded sand across clay to model glacial erosion and compare to Yosemite Valley."},
+      {"title": "Fast vs. slow", "work": "Compare landslides, floods and canyon formation on a timeline from seconds to millions of years."},
+      {"title": "Review & check", "work": "Write a CER on how water shaped a California landform."}
+     ], "assessment": "Stream-table data and CER."},
+    {"week": 23, "unit": 5, "topic": "Earth's resources: minerals, energy, groundwater", "objectives": ["Explain why resources are unevenly distributed", "Model groundwater"], "standards": ["MS-ESS3-1"], "vocabulary": ["ore", "fossil fuel", "aquifer", "groundwater", "renewable"], "materials": ["clear cup", "gravel", "sand", "clay", "water", "food coloring"],
+     "days": [
+      {"title": "Gold Rush geology", "work": "Read about how California gold formed in quartz veins and concentrated in streams, then explain the geologic processes."},
+      {"title": "Aquifer model", "work": "Build an aquifer in a cup with gravel, sand and clay layers and add colored 'pollution' to see it spread."},
+      {"title": "Oil and gas", "work": "Read about how oil formed in California's Central Valley and map where fossil fuels are found."},
+      {"title": "Resource map", "work": "Analyze a USGS map of mineral and groundwater resources and explain uneven distribution."},
+      {"title": "Review & check", "work": "Quiz on resource formation and distribution."}
+     ], "assessment": "Aquifer model and quiz."},
+    {"week": 24, "unit": 5, "topic": "Resource use and unit assessment", "objectives": ["Evaluate how resource extraction affects people and environment", "Demonstrate unit mastery"], "standards": ["MS-ESS3-1", "MS-ESS2-1"], "vocabulary": ["extraction", "mining", "groundwater depletion"], "materials": ["chocolate chip cookies", "toothpicks", "graph paper"],
+     "days": [
+      {"title": "Cookie mining", "work": "Mine chocolate chips from a cookie with toothpicks, track 'costs' and 'profits', and discuss environmental damage."},
+      {"title": "Central Valley groundwater", "work": "Analyze data on Central Valley land subsidence from groundwater pumping and graph the change."},
+      {"title": "Resource essay", "work": "Write a short explanation of why one California resource is found where it is."},
+      {"title": "Unit review", "work": "Review rocks, minerals, rock cycle and resources with a practice set."},
+      {"title": "Unit 5 assessment", "work": "Take the unit 5 test."}
+     ], "assessment": "Cookie-mining analysis and unit 5 test."},
+    {"week": 25, "unit": 6, "topic": "Rock layers and relative dating", "objectives": ["Apply superposition and cross-cutting relationships", "Sequence events from rock layers"], "standards": ["MS-ESS1-4"], "vocabulary": ["strata", "superposition", "relative age", "unconformity", "index fossil"], "materials": ["colored play dough", "clear jar", "sand", "soil", "gravel"],
+     "days": [
+      {"title": "Layers in a jar", "work": "Pour sand, soil and gravel into a jar of water and observe how layers settle."},
+      {"title": "Play-dough strata", "work": "Build play-dough layers, add a 'fault' and an 'intrusion', and have a family member sequence the events."},
+      {"title": "Grand Canyon", "work": "Analyze a Grand Canyon cross-section and order the layers and events from oldest to youngest."},
+      {"title": "Index fossils", "work": "Use index fossils to correlate layers between two cliff diagrams."},
+      {"title": "Review & check", "work": "Quiz on relative dating principles."}
+     ], "assessment": "Strata-sequencing quiz."},
+    {"week": 26, "unit": 6, "topic": "The geologic time scale", "objectives": ["Construct a scaled model of geologic time", "Explain how time scale is organized by major events"], "standards": ["MS-ESS1-4", "MS-LS4-1"], "vocabulary": ["eon", "era", "period", "mass extinction", "radiometric dating"], "materials": ["roll of receipt paper or toilet paper", "meter stick", "markers"],
+     "days": [
+      {"title": "Toilet-paper timeline", "work": "Build a 46-meter (or 46-square) timeline of Earth's history and mark major events to scale."},
+      {"title": "Reflecting on scale", "work": "Calculate what fraction of the timeline includes humans and write a reflection."},
+      {"title": "Absolute dating", "work": "Model radioactive half-life with 100 pennies flipped and removed each round, and graph the decay."},
+      {"title": "Eras and extinctions", "work": "Read about the five mass extinctions and label them on the timeline."},
+      {"title": "Review & check", "work": "Write an explanation of how rock strata and fossils were used to build the geologic time scale."}
+     ], "assessment": "Timeline project and written explanation."},
+    {"week": 27, "unit": 6, "topic": "Fossils and the history of life", "objectives": ["Explain how fossils form", "Analyze patterns in the fossil record"], "standards": ["MS-LS4-1"], "vocabulary": ["fossil", "mold", "cast", "trace fossil", "extinction"], "materials": ["plaster of Paris or salt dough", "shells", "leaves", "petroleum jelly"],
+     "days": [
+      {"title": "Making fossils", "work": "Make mold and cast fossils of shells and leaves in salt dough and plaster."},
+      {"title": "Fossil types", "work": "Compare body, trace, mold, cast and amber fossils using Smithsonian Learning Lab images."},
+      {"title": "La Brea Tar Pits", "work": "Explore the La Brea Tar Pits fossils and explain what they reveal about Ice Age Los Angeles."},
+      {"title": "Fossil record data", "work": "Analyze a chart of first and last appearances of life forms and identify patterns of diversification and extinction."},
+      {"title": "Review & check", "work": "Quiz on fossil formation and the fossil record."}
+     ], "assessment": "Fossil models and data analysis quiz."},
+    {"week": 28, "unit": 6, "topic": "Continental drift and seafloor evidence", "objectives": ["Analyze evidence for past plate motions", "Model seafloor spreading"], "standards": ["MS-ESS2-3"], "vocabulary": ["continental drift", "Pangaea", "seafloor spreading", "mid-ocean ridge"], "materials": ["printed continent outlines", "scissors", "paper strips", "shoebox"],
+     "days": [
+      {"title": "Puzzle continents", "work": "Cut out continents with fossil and rock evidence marked and fit them into Pangaea."},
+      {"title": "Wegener's evidence", "work": "Read about Alfred Wegener and list four lines of evidence and why scientists first rejected his idea."},
+      {"title": "Seafloor spreading model", "work": "Pull paper strips through a slit in a shoebox to model seafloor spreading and magnetic striping."},
+      {"title": "Ocean data", "work": "Analyze maps of seafloor age and ocean depth to identify ridges and trenches."},
+      {"title": "Review & check", "work": "Write a CER on whether continents have moved, using three types of evidence."}
+     ], "assessment": "CER on continental drift."},
+    {"week": 29, "unit": 6, "topic": "Plate tectonics and California", "objectives": ["Explain plate boundary types", "Connect plate motion to California earthquakes and mountains"], "standards": ["MS-ESS2-3", "MS-ESS2-2"], "vocabulary": ["convergent", "divergent", "transform", "fault", "San Andreas"], "materials": ["graham crackers", "frosting", "USGS earthquake map"],
+     "days": [
+      {"title": "Plate boundaries", "work": "Model convergent, divergent and transform boundaries with graham crackers on frosting."},
+      {"title": "Earthquake map", "work": "Plot recent earthquakes from the USGS map and identify plate boundaries from the patterns."},
+      {"title": "San Andreas Fault", "work": "Study how the Pacific and North American plates slide along the San Andreas and calculate how far LA moves in 1,000 years at 5 cm/yr."},
+      {"title": "Mountains and volcanoes", "work": "Explain the formation of the Sierra Nevada and Mount Shasta in terms of plate motions."},
+      {"title": "Review & check", "work": "Quiz on plate boundaries and California geology."}
+     ], "assessment": "Plotted earthquake map and quiz."},
+    {"week": 30, "unit": 6, "topic": "Changes at many scales and unit assessment", "objectives": ["Explain processes at different time and spatial scales", "Demonstrate unit mastery"], "standards": ["MS-ESS2-2", "MS-ESS1-4", "MS-LS4-1"], "vocabulary": ["uplift", "time scale", "spatial scale"], "materials": ["poster paper"],
+     "days": [
+      {"title": "Scale chart", "work": "Create a chart of Earth processes from fast/small (landslide) to slow/large (mountain building)."},
+      {"title": "Earthquake-safe design", "work": "Build a structure from toothpicks and marshmallows and test it on a gelatin 'shake table'."},
+      {"title": "Story of a landform", "work": "Write the geologic history of a California landform (e.g., Yosemite, Death Valley) across time scales."},
+      {"title": "Unit review", "work": "Review unit 6 concepts with a practice set."},
+      {"title": "Unit 6 assessment", "work": "Take the unit 6 test."}
+     ], "assessment": "Landform history and unit 6 test."},
+    {"week": 31, "unit": 7, "topic": "Disrupting ecosystems", "objectives": ["Argue how changes to ecosystems affect populations", "Analyze invasive-species data"], "standards": ["MS-LS2-4"], "vocabulary": ["invasive species", "disturbance", "succession", "biodiversity"], "materials": ["population data sets", "graph paper"],
+     "days": [
+      {"title": "Phenomenon: wildfire", "work": "Compare before-and-after images of a California wildfire area and predict population changes."},
+      {"title": "Succession", "work": "Read about ecological succession after fire and sequence the stages."},
+      {"title": "Invasive species", "work": "Analyze data on quagga mussels or Argentine ants in California and graph native species decline."},
+      {"title": "Argument", "work": "Write an argument supported by data on how one change affected a population."},
+      {"title": "Review & check", "work": "Quiz on ecosystem disruptions."}
+     ], "assessment": "Data-based argument."},
+    {"week": 32, "unit": 7, "topic": "Biodiversity and ecosystem services", "objectives": ["Explain why biodiversity matters", "Measure local biodiversity"], "standards": ["MS-LS2-5", "MS-LS2-4"], "vocabulary": ["ecosystem services", "biodiversity index", "pollination", "habitat"], "materials": ["hula hoop or string", "field guide or iNaturalist app"],
+     "days": [
+      {"title": "Ecosystem services", "work": "List services ecosystems provide (pollination, water filtering, flood control) and give a California example of each."},
+      {"title": "Biodiversity survey", "work": "Survey a 1-square-meter plot in two locations and count species and individuals."},
+      {"title": "Biodiversity index", "work": "Calculate a simple biodiversity index for each plot and compare."},
+      {"title": "Pollinators", "work": "Read about declining pollinators and explain how that affects food crops."},
+      {"title": "Review & check", "work": "Write a report comparing the two plots' biodiversity."}
+     ], "assessment": "Biodiversity survey report."},
+    {"week": 33, "unit": 7, "topic": "Human population and resource consumption", "objectives": ["Analyze population and consumption data", "Argue how they affect Earth systems"], "standards": ["MS-ESS3-4"], "vocabulary": ["per-capita consumption", "ecological footprint", "exponential growth"], "materials": ["online footprint calculator", "household utility bills"],
+     "days": [
+      {"title": "Population growth", "work": "Graph world population from 1800 to today and describe the pattern."},
+      {"title": "Ecological footprint", "work": "Use an ecological footprint calculator for the household and compare with world averages."},
+      {"title": "Household audit", "work": "Audit household water and electricity use from bills for one month and calculate per-person use."},
+      {"title": "Argument", "work": "Write an argument with evidence on how increased consumption affects one Earth system."},
+      {"title": "Review & check", "work": "Quiz on population and consumption impacts."}
+     ], "assessment": "Household audit and argument."},
+    {"week": 34, "unit": 7, "topic": "Engineering to monitor and reduce human impact", "objectives": ["Define a human-impact problem", "Design a monitoring or mitigation method"], "standards": ["MS-ESS3-3", "MS-ETS1-1"], "vocabulary": ["mitigation", "monitoring", "runoff", "pollution"], "materials": ["coffee filters", "sand", "gravel", "charcoal", "plastic bottles", "muddy water"],
+     "days": [
+      {"title": "Problem definition", "work": "Choose a local impact (stormwater runoff, plastic waste, air quality) and write criteria and constraints for a solution."},
+      {"title": "Water filter design", "work": "Build a water filter from sand, gravel, charcoal and coffee filters and test it on muddy water."},
+      {"title": "Monitoring tool", "work": "Design a method to monitor the impact (e.g., petroleum-jelly air particle cards placed around the house)."},
+      {"title": "Testing", "work": "Collect data from the filter and monitoring cards and record results."},
+      {"title": "Review & check", "work": "Summarize results and propose improvements."}
+     ], "assessment": "Design notebook entries."},
+    {"week": 35, "unit": 7, "topic": "Evaluating competing solutions for biodiversity", "objectives": ["Evaluate design solutions systematically", "Compare test data"], "standards": ["MS-LS2-5", "MS-ETS1-2", "MS-ETS1-3"], "vocabulary": ["decision matrix", "trade-off", "stakeholder"], "materials": ["research articles", "decision matrix template"],
+     "days": [
+      {"title": "Case study", "work": "Research solutions to protect a California species (e.g., wildlife crossings for mountain lions, fish ladders for salmon)."},
+      {"title": "Decision matrix", "work": "Rate three competing solutions on cost, effectiveness, community impact and ecosystem services."},
+      {"title": "Filter redesign", "work": "Redesign the water filter based on test data and compare versions."},
+      {"title": "Stakeholder views", "work": "Role-play a town meeting with a farmer, developer and biologist debating a solution."},
+      {"title": "Review & check", "work": "Write a recommendation letter to a city council supporting the best solution with evidence."}
+     ], "assessment": "Decision matrix and recommendation letter."},
+    {"week": 36, "unit": 7, "topic": "Science fair and final assessment", "objectives": ["Communicate an investigation", "Demonstrate year-end mastery"], "standards": ["MS-LS2-4", "MS-ESS3-3", "MS-ESS3-4", "MS-ETS1-2"], "vocabulary": ["presentation", "conclusion"], "materials": ["tri-fold board"],
+     "days": [
+      {"title": "Prepare display", "work": "Create a display board on the human-impact engineering project with problem, design, data and conclusion."},
+      {"title": "Present", "work": "Present the project to family or a homeschool group and answer questions."},
+      {"title": "Terrarium wrap-up", "work": "Make final terrarium observations and write what the year-long model revealed about matter cycling."},
+      {"title": "Final review", "work": "Review all seven units with a cumulative practice set."},
+      {"title": "Final exam", "work": "Take the year-end science exam."}
+     ], "assessment": "Project presentation and final exam."}
+  ]
+}

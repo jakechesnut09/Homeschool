@@ -1,0 +1,350 @@
+{
+  "grade": 7,
+  "subject": "MATH",
+  "title": "Mathematics 7",
+  "description": "Grade 7 mathematics centered on proportional reasoning, operations with rational numbers, expressions and equations, geometry of scale, circles, angles, area, surface area and volume, and probability and sampling. The sequence mirrors the Illustrative Mathematics Grade 7 scope used by many California districts, with rich tasks, number talks, and real-world modeling aligned to the 2023 CA Mathematics Framework's big ideas.",
+  "framework": "California Common Core State Standards for Mathematics; 2023 CA Mathematics Framework",
+  "minutes_per_day": 60,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "7.RP.A.1": "Compute unit rates associated with ratios of fractions, including ratios of lengths, areas and other quantities.",
+    "7.RP.A.2": "Recognize and represent proportional relationships between quantities.",
+    "7.RP.A.2a": "Decide whether two quantities are in a proportional relationship using tables or graphs through the origin.",
+    "7.RP.A.2b": "Identify the constant of proportionality (unit rate) in tables, graphs, equations, diagrams and verbal descriptions.",
+    "7.RP.A.2c": "Represent proportional relationships by equations such as y = kx.",
+    "7.RP.A.2d": "Explain what a point (x, y) on the graph of a proportional relationship means, including (0,0) and (1, r).",
+    "7.RP.A.3": "Use proportional relationships to solve multistep ratio and percent problems (tax, tips, markups, discounts, interest, percent error).",
+    "7.NS.A.1": "Apply and extend understandings of addition and subtraction to add and subtract rational numbers; represent on a number line.",
+    "7.NS.A.2": "Apply and extend understandings of multiplication and division to multiply and divide rational numbers.",
+    "7.NS.A.2d": "Convert a rational number to a decimal using long division; know it terminates or repeats.",
+    "7.NS.A.3": "Solve real-world and mathematical problems involving the four operations with rational numbers.",
+    "7.EE.A.1": "Apply properties of operations to add, subtract, factor and expand linear expressions with rational coefficients.",
+    "7.EE.A.2": "Understand that rewriting an expression in different forms can shed light on how quantities are related.",
+    "7.EE.B.3": "Solve multistep real-life problems with positive and negative rational numbers in any form; assess reasonableness with estimation.",
+    "7.EE.B.4": "Use variables to represent quantities and construct simple equations and inequalities to solve problems.",
+    "7.EE.B.4a": "Solve word problems leading to equations px + q = r and p(x + q) = r fluently; compare algebraic and arithmetic solutions.",
+    "7.EE.B.4b": "Solve word problems leading to inequalities px + q > r or px + q < r; graph and interpret the solution set.",
+    "7.G.A.1": "Solve problems involving scale drawings of geometric figures, including computing actual lengths and areas and reproducing a drawing at a different scale.",
+    "7.G.A.2": "Draw geometric shapes with given conditions; construct triangles from three measures of angles or sides and note when a unique triangle results.",
+    "7.G.A.3": "Describe the two-dimensional figures that result from slicing three-dimensional figures.",
+    "7.G.B.4": "Know and use the formulas for the area and circumference of a circle; give an informal derivation of the relationship.",
+    "7.G.B.5": "Use facts about supplementary, complementary, vertical and adjacent angles to write and solve equations for an unknown angle.",
+    "7.G.B.6": "Solve real-world problems involving area, volume and surface area of 2-D and 3-D objects composed of triangles, quadrilaterals, polygons, cubes and right prisms.",
+    "7.SP.A.1": "Understand that statistics can be used to gain information about a population by examining a representative sample; random sampling.",
+    "7.SP.A.2": "Use data from a random sample to draw inferences about a population; gauge variation in estimates from multiple samples.",
+    "7.SP.B.3": "Informally assess the degree of visual overlap of two numerical data distributions with similar variabilities.",
+    "7.SP.B.4": "Use measures of center and variability from random samples to draw informal comparative inferences about two populations.",
+    "7.SP.C.5": "Understand that the probability of a chance event is a number between 0 and 1 expressing likelihood.",
+    "7.SP.C.6": "Approximate the probability of a chance event by collecting data and observing long-run relative frequency.",
+    "7.SP.C.7": "Develop a probability model and use it to find probabilities of events; compare to observed frequencies.",
+    "7.SP.C.8": "Find probabilities of compound events using organized lists, tables, tree diagrams and simulation."
+  },
+  "resources": [
+    {"name": "Khan Academy – 7th grade math", "url": "https://www.khanacademy.org/math/cc-seventh-grade-math", "note": "Videos and mastery practice for every unit"},
+    {"name": "Illustrative Mathematics Grade 7 (Open Up Resources)", "url": "https://openupresources.org/math-curriculum/", "note": "Free open curriculum that this sequence follows; lessons, practice problems, unit assessments"},
+    {"name": "Desmos Classroom & Graphing Calculator", "url": "https://www.desmos.com/calculator", "note": "Graph proportional relationships and check equations"},
+    {"name": "CK-12 Middle School Math Grade 7", "url": "https://www.ck12.org/fbbrowse/", "note": "Free FlexBooks with practice for each topic"},
+    {"name": "Math Playground / Visual Patterns", "url": "https://www.visualpatterns.org/", "note": "Warm-up patterns for writing expressions"}
+  ],
+  "units": [
+    {"number": 1, "title": "Scale Drawings", "start_week": 1, "end_week": 4, "big_idea": "Scaled copies keep angles and multiply every length by the same scale factor; areas scale by the square of the factor.", "standards": ["7.G.A.1", "7.RP.A.2"]},
+    {"number": 2, "title": "Introducing Proportional Relationships", "start_week": 5, "end_week": 9, "big_idea": "A proportional relationship has a constant of proportionality that appears in tables, equations y = kx and graphs through the origin.", "standards": ["7.RP.A.1", "7.RP.A.2", "7.RP.A.2a", "7.RP.A.2b", "7.RP.A.2c", "7.RP.A.2d"]},
+    {"number": 3, "title": "Measuring Circles", "start_week": 10, "end_week": 12, "big_idea": "Circumference is proportional to diameter with constant pi; area of a circle is pi r squared.", "standards": ["7.G.B.4", "7.RP.A.2"]},
+    {"number": 4, "title": "Proportional Relationships and Percentages", "start_week": 13, "end_week": 16, "big_idea": "Percent change, tax, tips, discounts, interest and error are all proportional reasoning.", "standards": ["7.RP.A.1", "7.RP.A.3", "7.EE.B.3"]},
+    {"number": 5, "title": "Rational Number Arithmetic", "start_week": 17, "end_week": 22, "big_idea": "Positive and negative numbers obey consistent rules for all four operations, modeled with number lines and real contexts.", "standards": ["7.NS.A.1", "7.NS.A.2", "7.NS.A.2d", "7.NS.A.3", "7.EE.B.3"]},
+    {"number": 6, "title": "Expressions, Equations, and Inequalities", "start_week": 23, "end_week": 28, "big_idea": "Equivalent expressions and balanced equations let us solve for unknowns; inequalities describe ranges of solutions.", "standards": ["7.EE.A.1", "7.EE.A.2", "7.EE.B.3", "7.EE.B.4", "7.EE.B.4a", "7.EE.B.4b"]},
+    {"number": 7, "title": "Angles, Triangles, and Prisms", "start_week": 29, "end_week": 32, "big_idea": "Angle relationships produce equations; triangles are determined by certain measures; prisms have measurable surface area and volume.", "standards": ["7.G.A.2", "7.G.A.3", "7.G.B.5", "7.G.B.6"]},
+    {"number": 8, "title": "Probability and Sampling", "start_week": 33, "end_week": 36, "big_idea": "Probability measures likelihood; random samples let us make inferences and compare populations.", "standards": ["7.SP.A.1", "7.SP.A.2", "7.SP.B.3", "7.SP.B.4", "7.SP.C.5", "7.SP.C.6", "7.SP.C.7", "7.SP.C.8"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "What are scaled copies?", "objectives": ["Distinguish scaled copies from non-scaled copies", "Find corresponding parts and scale factors"], "standards": ["7.G.A.1"], "vocabulary": ["scaled copy", "corresponding", "scale factor"], "materials": ["graph paper", "ruler", "colored pencils"],
+     "days": [
+      {"title": "Pre-assessment & math autobiography", "work": "Take a 20-question grade 6 readiness check (ratios, fractions, decimals, area) and write a half-page math autobiography describing strengths and goals."},
+      {"title": "Scaled copies", "work": "Compare five versions of a letter 'F' drawn on grid paper and decide which are scaled copies, explaining which lengths changed and how."},
+      {"title": "Corresponding parts", "work": "Label corresponding points, segments and angles on pairs of polygons; measure angles with a protractor to see that angles stay the same."},
+      {"title": "Making scaled copies", "work": "Draw a scaled copy of a grid polygon with scale factor 3, then 1/2, and write how each side length changed."},
+      {"title": "Review & check", "work": "Complete a 6-problem quiz identifying scale factors and drawing a scaled copy; correct mistakes in a different color."}
+     ], "assessment": "Quiz on scale factor and scaled-copy drawing; readiness check used to plan review."},
+    {"week": 2, "unit": 1, "topic": "Scale factor, distance and area", "objectives": ["Use scale factors to find unknown lengths", "Explain how area changes by the square of the scale factor"], "standards": ["7.G.A.1"], "vocabulary": ["scale factor", "reciprocal", "area"], "materials": ["graph paper", "pattern blocks or paper squares"],
+     "days": [
+      {"title": "Finding scale factors", "work": "Find the scale factor between pairs of figures, including factors less than 1, and use them to compute missing side lengths."},
+      {"title": "Reversing a scale", "work": "Scale a triangle up by 4 then back down by 1/4 and explain why the reciprocal undoes the scaling."},
+      {"title": "Scaling area", "work": "Build squares and triangles from pattern blocks at scale factors 2 and 3, count pieces, and record that area grows by 4 and 9."},
+      {"title": "Area problems", "work": "Solve 8 problems finding the area of scaled rectangles and triangles from the original area and scale factor."},
+      {"title": "Review & check", "work": "Quiz on scale factor, reciprocal scaling and area scaling with one written explanation."}
+     ], "assessment": "Quiz and written explanation of why area scales by the square of the factor."},
+    {"week": 3, "unit": 1, "topic": "Scale drawings and maps", "objectives": ["Use scales with units to find actual distances", "Convert between scales with and without units"], "standards": ["7.G.A.1", "7.RP.A.2"], "vocabulary": ["scale drawing", "scale", "scale without units"], "materials": ["printed city map", "ruler", "tape measure"],
+     "days": [
+      {"title": "Reading a scale", "work": "Use the scale 1 cm to 50 km on a California map to find road distances between five cities."},
+      {"title": "Creating a scale drawing", "work": "Measure a bedroom or kitchen with a tape measure and plan a scale drawing using 1 inch to 2 feet."},
+      {"title": "Scales without units", "work": "Rewrite scales like 1 in to 10 ft as 1 to 120 and compare which of two map scales shows more detail."},
+      {"title": "Equivalent scales", "work": "Decide which of six scales are equivalent and redraw a basketball court at a new scale."},
+      {"title": "Review & check", "work": "Finish the room floor plan in scale with labeled actual dimensions and answer 5 map distance questions."}
+     ], "assessment": "Floor-plan scale drawing scored with a rubric (accuracy, labels, scale) plus map quiz."},
+    {"week": 4, "unit": 1, "topic": "Scale drawing project & unit test", "objectives": ["Apply scale to a real design", "Demonstrate mastery of unit 1"], "standards": ["7.G.A.1"], "vocabulary": ["blueprint", "actual area"], "materials": ["poster paper", "ruler"],
+     "days": [
+      {"title": "Dream space design", "work": "Design a dream classroom or park at a chosen scale, listing at least six objects with actual and scaled dimensions."},
+      {"title": "Actual area", "work": "Compute actual area of each region in the design using the scale and record in a table."},
+      {"title": "Redraw at new scale", "work": "Redraw one part of the design at half the original scale and compare the two drawings' areas."},
+      {"title": "Unit review", "work": "Work a mixed review set of 12 problems on scaled copies, scale factor, maps and area."},
+      {"title": "Unit 1 test", "work": "Take the unit 1 test and present the design poster aloud, explaining how the scale was used."}
+     ], "assessment": "Unit 1 test and scale design project."},
+    {"week": 5, "unit": 2, "topic": "Proportional relationships in tables", "objectives": ["Identify proportional relationships in tables", "Find the constant of proportionality"], "standards": ["7.RP.A.2", "7.RP.A.2a", "7.RP.A.2b"], "vocabulary": ["proportional relationship", "constant of proportionality", "unit rate"], "materials": ["measuring cups", "water"],
+     "days": [
+      {"title": "One of these things", "work": "Compare recipes for lemonade that taste the same versus different and organize the amounts in tables."},
+      {"title": "Constant of proportionality", "work": "Find k in tables of cost versus pounds and miles versus hours, writing k as a unit rate with units."},
+      {"title": "Both directions", "work": "Find the constant of proportionality from x to y and y to x in a currency-conversion table and note they are reciprocals."},
+      {"title": "Not proportional", "work": "Sort 8 tables into proportional and not proportional, explaining with ratios that are or are not equivalent."},
+      {"title": "Review & check", "work": "Quiz: identify proportional tables, find k, and fill in missing table values."}
+     ], "assessment": "Quiz on tables and constant of proportionality."},
+    {"week": 6, "unit": 2, "topic": "Unit rates with fractions", "objectives": ["Compute unit rates from ratios of fractions", "Use complex fractions in context"], "standards": ["7.RP.A.1", "7.RP.A.2b"], "vocabulary": ["complex fraction", "rate per 1"], "materials": ["measuring tape", "stopwatch"],
+     "days": [
+      {"title": "Walking rates", "work": "Time how long it takes to walk 1/4 mile and compute miles per hour using a ratio of fractions."},
+      {"title": "Complex fractions", "work": "Simplify complex fractions like (1/2)/(3/4) by multiplying by the reciprocal and connect to unit rate."},
+      {"title": "Recipe rates", "work": "Find cups of flour per batch and batches per cup from a recipe using 2/3 cup for 1/2 batch."},
+      {"title": "Area rates", "work": "Find how much paint covers 1 square yard if 1/3 gallon covers 2 1/2 square yards; solve 6 similar problems."},
+      {"title": "Review & check", "work": "Complete a 10-problem fraction unit-rate set and correct errors."}
+     ], "assessment": "Problem set on unit rates with fractions."},
+    {"week": 7, "unit": 2, "topic": "Equations for proportional relationships", "objectives": ["Write equations of form y = kx", "Use equations to solve problems"], "standards": ["7.RP.A.2", "7.RP.A.2c", "7.RP.A.2b"], "vocabulary": ["equation", "independent variable", "dependent variable"], "materials": ["grocery receipts"],
+     "days": [
+      {"title": "From table to equation", "work": "Write y = kx equations for tables of gas cost, hourly pay and unit price taken from real receipts."},
+      {"title": "Using equations", "work": "Use y = 3.25x to answer forward and backward questions about cost and quantity."},
+      {"title": "Two equations", "work": "Write both y = kx and x = (1/k)y for a recipe and explain what each tells you."},
+      {"title": "Proportional or not?", "work": "Decide whether equations like y = 4x, y = x + 4 and y = 4/x are proportional and justify with tables."},
+      {"title": "Review & check", "work": "Quiz writing and using equations for proportional relationships."}
+     ], "assessment": "Quiz on writing and interpreting y = kx."},
+    {"week": 8, "unit": 2, "topic": "Graphs of proportional relationships", "objectives": ["Recognize proportional graphs", "Interpret (0,0) and (1,k) on a graph"], "standards": ["7.RP.A.2a", "7.RP.A.2d"], "vocabulary": ["origin", "coordinate plane", "slope (informal)"], "materials": ["graph paper", "Desmos"],
+     "days": [
+      {"title": "Graphing tables", "work": "Graph three tables on the coordinate plane and identify which form straight lines through the origin."},
+      {"title": "Meaning of points", "work": "Explain what (0,0), (1,k) and (5,y) mean on a graph of distance versus time for a cyclist."},
+      {"title": "Comparing graphs", "work": "Graph two runners' distance-time lines on Desmos and decide who is faster using the constant of proportionality."},
+      {"title": "Four representations", "work": "Complete a card match linking descriptions, tables, equations and graphs for six relationships."},
+      {"title": "Review & check", "work": "Quiz interpreting points and steepness on proportional graphs."}
+     ], "assessment": "Graph-interpretation quiz and card-match accuracy."},
+    {"week": 9, "unit": 2, "topic": "Proportional reasoning project & unit test", "objectives": ["Model a real situation proportionally", "Demonstrate mastery of unit 2"], "standards": ["7.RP.A.1", "7.RP.A.2"], "vocabulary": ["model", "representation"], "materials": ["phone timer", "graph paper"],
+     "days": [
+      {"title": "Collecting data", "work": "Measure how much water drips from a faucet in 1, 2, 3, 4 and 5 minutes and record in a table."},
+      {"title": "Modeling", "work": "Graph the drip data, find k, write an equation, and predict water wasted in a day and a year."},
+      {"title": "Report", "work": "Write a one-page report explaining whether the relationship is proportional and what the constant means."},
+      {"title": "Unit review", "work": "Complete a mixed review on tables, equations, graphs and unit rates with fractions."},
+      {"title": "Unit 2 test", "work": "Take the unit 2 test covering all representations of proportional relationships."}
+     ], "assessment": "Unit 2 test and dripping-faucet modeling report."},
+    {"week": 10, "unit": 3, "topic": "Circumference", "objectives": ["Discover pi as the ratio of circumference to diameter", "Use C = pi d"], "standards": ["7.G.B.4", "7.RP.A.2"], "vocabulary": ["circle", "radius", "diameter", "circumference", "pi"], "materials": ["string", "ruler", "cans and lids of different sizes"],
+     "days": [
+      {"title": "Parts of a circle", "work": "Use a compass to draw circles and label center, radius, diameter and circumference; note d = 2r."},
+      {"title": "Measuring around", "work": "Measure diameter and circumference of 6 household circles with string, record in a table and graph circumference versus diameter."},
+      {"title": "Discovering pi", "work": "Compute C/d for each object, average the ratios, and compare to 3.14 and 22/7."},
+      {"title": "Applying circumference", "work": "Solve problems such as how far a bike wheel travels in 10 rotations and finding diameter from circumference."},
+      {"title": "Review & check", "work": "Quiz on circle vocabulary, C = pi d and C = 2 pi r."}
+     ], "assessment": "Measurement lab table and circumference quiz."},
+    {"week": 11, "unit": 3, "topic": "Area of a circle", "objectives": ["Derive the area formula informally", "Use A = pi r squared"], "standards": ["7.G.B.4"], "vocabulary": ["area", "squared", "sector"], "materials": ["paper plates", "scissors", "grid paper"],
+     "days": [
+      {"title": "Estimating area", "work": "Trace a circle on grid paper and estimate its area by counting squares, comparing to r squared."},
+      {"title": "Cutting the circle", "work": "Cut a paper plate into 16 sectors and rearrange them into a near-parallelogram to show area is pi r times r."},
+      {"title": "Using the formula", "work": "Find areas of pizzas, sprinkler regions and circular gardens given radius or diameter."},
+      {"title": "Area vs circumference", "work": "Decide whether 8 situations need area or circumference (fencing vs sod, crust vs cheese) and solve each."},
+      {"title": "Review & check", "work": "Quiz on area of circles and choosing the correct measure."}
+     ], "assessment": "Quiz and written derivation explaining the plate rearrangement."},
+    {"week": 12, "unit": 3, "topic": "Composite circular figures & unit test", "objectives": ["Find areas and perimeters of composite shapes with circles", "Demonstrate mastery of unit 3"], "standards": ["7.G.B.4", "7.G.B.6"], "vocabulary": ["semicircle", "quarter circle", "composite figure"], "materials": ["grid paper", "calculator"],
+     "days": [
+      {"title": "Semicircles and quarters", "work": "Find perimeter and area of semicircles and quarter circles, including the straight edges."},
+      {"title": "Composite figures", "work": "Find areas of a running track shape and a window shaped like a rectangle topped with a semicircle."},
+      {"title": "Expressing in terms of pi", "work": "Write answers both as exact expressions with pi and as decimal approximations and compare."},
+      {"title": "Unit review", "work": "Solve a review set of 10 problems on circumference, area and composite shapes."},
+      {"title": "Unit 3 test", "work": "Take the unit 3 test on circles."}
+     ], "assessment": "Unit 3 test."},
+    {"week": 13, "unit": 4, "topic": "Percent increase and decrease", "objectives": ["Represent percent change with tape diagrams and equations", "Compute percent increase and decrease"], "standards": ["7.RP.A.3"], "vocabulary": ["percent increase", "percent decrease", "tape diagram"], "materials": ["store ads or flyers"],
+     "days": [
+      {"title": "Lots of fractions", "work": "Use tape diagrams to show 1/4 more and 1/4 less than a quantity and connect to 125% and 75%."},
+      {"title": "Percent increase", "work": "Compute new prices after increases of 10%, 15% and 120% using multiplication by 1.10, 1.15 and 2.20."},
+      {"title": "Percent decrease", "work": "Compute sale prices after discounts and find the original price given the sale price."},
+      {"title": "Finding percent change", "work": "Find percent change from old to new values for populations, prices and test scores."},
+      {"title": "Review & check", "work": "Quiz on percent increase and decrease with tape diagrams and equations."}
+     ], "assessment": "Percent change quiz."},
+    {"week": 14, "unit": 4, "topic": "Tax, tips, commission and markup", "objectives": ["Solve multistep percent problems", "Use percent equations in shopping contexts"], "standards": ["7.RP.A.3", "7.EE.B.3"], "vocabulary": ["sales tax", "tip", "commission", "markup", "markdown"], "materials": ["restaurant menu", "receipts"],
+     "days": [
+      {"title": "Sales tax", "work": "Compute California sales tax (use local rate) on five purchases and find the tax rate from a receipt."},
+      {"title": "Tips", "work": "Compute 15%, 18% and 20% tips on menu orders using mental math (10% then adjust)."},
+      {"title": "Markup and markdown", "work": "Solve problems where a store marks up wholesale cost by 40% then discounts the retail price by 25%."},
+      {"title": "Commission and fees", "work": "Calculate salesperson commission and service fees, then solve 'which deal is better' comparisons."},
+      {"title": "Review & check", "work": "Plan a restaurant meal for a family within $60 including tax and tip and show all calculations."}
+     ], "assessment": "Restaurant budget task and short quiz."},
+    {"week": 15, "unit": 4, "topic": "Interest and percent error", "objectives": ["Compute simple interest", "Find percent error in measurements"], "standards": ["7.RP.A.3", "7.EE.B.3"], "vocabulary": ["simple interest", "principal", "percent error"], "materials": ["kitchen scale", "measuring cups"],
+     "days": [
+      {"title": "Simple interest", "work": "Compute simple interest on savings and loans using I = Prt for different rates and years."},
+      {"title": "Comparing accounts", "work": "Compare two savings accounts and one loan in a table and decide which is best for a goal."},
+      {"title": "Percent error lab", "work": "Estimate the masses of 5 objects, weigh them on a kitchen scale, and compute percent error for each estimate."},
+      {"title": "Error and tolerance", "work": "Solve problems about manufacturing tolerance, e.g., a 500 g bag allowed 2% error."},
+      {"title": "Review & check", "work": "Quiz on simple interest and percent error."}
+     ], "assessment": "Percent-error lab sheet and quiz."},
+    {"week": 16, "unit": 4, "topic": "Percent project & unit test", "objectives": ["Apply percent reasoning to a budget", "Demonstrate mastery of unit 4"], "standards": ["7.RP.A.1", "7.RP.A.3", "7.EE.B.3"], "vocabulary": ["budget", "discount"], "materials": ["online store pages or flyers"],
+     "days": [
+      {"title": "Shopping project", "work": "Choose a $200 back-to-school budget and select items from ads, applying discounts and coupons."},
+      {"title": "Adding tax", "work": "Add sales tax, compute total savings as a percent of original price, and adjust to stay within budget."},
+      {"title": "Presentation", "work": "Create a one-page receipt-style summary showing every calculation and the percent saved."},
+      {"title": "Unit review", "work": "Mixed review of percent change, tax, tips, interest and error."},
+      {"title": "Unit 4 test", "work": "Take the unit 4 test on percentages."}
+     ], "assessment": "Unit 4 test and budget project."},
+    {"week": 17, "unit": 5, "topic": "Positive and negative numbers; adding rational numbers", "objectives": ["Represent signed numbers in context", "Add integers and rational numbers on a number line"], "standards": ["7.NS.A.1"], "vocabulary": ["rational number", "opposite", "absolute value", "additive inverse"], "materials": ["two-color counters or coins", "thermometer"],
+     "days": [
+      {"title": "Interpreting negatives", "work": "Describe temperatures, elevations and bank balances with signed numbers and order them on a number line."},
+      {"title": "Adding with arrows", "work": "Model sums such as -5 + 8 and 3 + (-7) with arrows on a number line and with two-color counters."},
+      {"title": "Zero pairs", "work": "Use zero pairs to explain why a number plus its opposite is 0 and solve 12 addition problems."},
+      {"title": "Adding fractions and decimals", "work": "Add signed fractions and decimals such as -2.5 + 1.75 and -3/4 + (-1/2)."},
+      {"title": "Review & check", "work": "Quiz on adding rational numbers in context."}
+     ], "assessment": "Addition quiz and number-line explanations."},
+    {"week": 18, "unit": 5, "topic": "Subtracting rational numbers", "objectives": ["Understand subtraction as adding the opposite", "Find distance between numbers as absolute value of difference"], "standards": ["7.NS.A.1", "7.NS.A.3"], "vocabulary": ["difference", "distance", "change"], "materials": ["number line", "two-color counters"],
+     "days": [
+      {"title": "Subtracting with counters", "work": "Model 3 - 5 and -2 - (-6) with counters, adding zero pairs when needed."},
+      {"title": "Add the opposite", "work": "Rewrite 15 subtraction problems as addition of the opposite and solve."},
+      {"title": "Distance", "work": "Find distances between elevations like Death Valley (-282 ft) and Mt. Whitney (14,505 ft) using |a - b|."},
+      {"title": "Changes in temperature", "work": "Compute temperature changes over a week from a weather table and graph them."},
+      {"title": "Semester review & check", "work": "Take a cumulative semester 1 checkpoint covering units 1–5 so far."}
+     ], "assessment": "Semester 1 cumulative checkpoint."},
+    {"week": 19, "unit": 5, "topic": "Multiplying rational numbers", "objectives": ["Explain sign rules for multiplication", "Multiply signed fractions and decimals"], "standards": ["7.NS.A.2", "7.NS.A.3"], "vocabulary": ["product", "sign rule"], "materials": ["number line", "toy car (optional)"],
+     "days": [
+      {"title": "Position and velocity", "work": "Model multiplication with a toy car moving at positive or negative velocities for positive or negative time."},
+      {"title": "Sign patterns", "work": "Complete a multiplication table from -5 to 5 and describe the patterns that produce the sign rules."},
+      {"title": "Distributive reasoning", "work": "Use -3(4 + -4) = 0 to justify why -3 times -4 must equal positive 12."},
+      {"title": "Fractions and decimals", "work": "Multiply 15 signed fraction and decimal problems including multiple factors."},
+      {"title": "Review & check", "work": "Quiz on multiplying rational numbers."}
+     ], "assessment": "Multiplication quiz and written justification of sign rules."},
+    {"week": 20, "unit": 5, "topic": "Dividing rational numbers and decimals", "objectives": ["Divide signed numbers", "Convert fractions to terminating or repeating decimals"], "standards": ["7.NS.A.2", "7.NS.A.2d"], "vocabulary": ["quotient", "terminating decimal", "repeating decimal"], "materials": ["calculator"],
+     "days": [
+      {"title": "Dividing signed numbers", "work": "Use multiplication facts to determine sign rules for division and solve 15 division problems."},
+      {"title": "Dividing by zero", "work": "Explore why division by zero is undefined using related multiplication sentences and write an explanation."},
+      {"title": "Long division to decimals", "work": "Convert 1/8, 3/11, 5/6 and 7/16 to decimals by long division and mark repeating parts with bar notation."},
+      {"title": "Which fractions terminate?", "work": "Investigate which denominators give terminating decimals and state a rule based on factors of 2 and 5."},
+      {"title": "Review & check", "work": "Quiz on division and fraction-to-decimal conversion."}
+     ], "assessment": "Division and decimal conversion quiz."},
+    {"week": 21, "unit": 5, "topic": "Four operations with rational numbers in context", "objectives": ["Solve multistep problems with rational numbers", "Use estimation to check answers"], "standards": ["7.NS.A.3", "7.EE.B.3"], "vocabulary": ["order of operations", "estimate"], "materials": ["bank statement template"],
+     "days": [
+      {"title": "Money in and out", "work": "Track a month of deposits and withdrawals in a check register using signed decimals."},
+      {"title": "Order of operations", "work": "Evaluate expressions like -2(3 - 7)^2 / 4 + (-1.5) step by step."},
+      {"title": "Rate problems", "work": "Solve problems about a diver descending at -1.5 m/s and a tank draining at -2.25 gal/min."},
+      {"title": "Estimation", "work": "Estimate answers to 8 multistep problems before solving and compare estimate to exact answer."},
+      {"title": "Review & check", "work": "Quiz on multistep rational-number problems."}
+     ], "assessment": "Multistep problem quiz."},
+    {"week": 22, "unit": 5, "topic": "Rational numbers unit test", "objectives": ["Apply rational number operations to solving equations", "Demonstrate mastery of unit 5"], "standards": ["7.NS.A.1", "7.NS.A.2", "7.NS.A.3"], "vocabulary": ["solution", "variable"], "materials": ["index cards"],
+     "days": [
+      {"title": "Solving simple equations", "work": "Solve one-step equations with negative numbers like x + 4.5 = -2 and -3x = 18."},
+      {"title": "Representing contexts", "work": "Write and solve equations for situations involving temperature drops and debt."},
+      {"title": "Game day", "work": "Play an integer card game (red = negative, black = positive) for sums and products and record 20 rounds."},
+      {"title": "Unit review", "work": "Mixed review of all four operations with rational numbers."},
+      {"title": "Unit 5 test", "work": "Take the unit 5 test on rational number arithmetic."}
+     ], "assessment": "Unit 5 test."},
+    {"week": 23, "unit": 6, "topic": "Tape diagrams and equations", "objectives": ["Represent situations with tape diagrams", "Write equations p(x + q) = r and px + q = r"], "standards": ["7.EE.B.4", "7.EE.B.4a"], "vocabulary": ["tape diagram", "equation", "coefficient"], "materials": ["grid paper"],
+     "days": [
+      {"title": "Relationships and diagrams", "work": "Match 6 stories to tape diagrams showing px + q = r or p(x + q) = r."},
+      {"title": "Writing equations", "work": "Write equations for situations such as 4 friends each buying a $2.50 snack plus a shared $6 pizza."},
+      {"title": "Hanger diagrams", "work": "Use balanced hanger diagrams to reason about solving 3x + 2 = 11."},
+      {"title": "Solving with balance", "work": "Solve 10 equations by doing the same to each side and checking solutions."},
+      {"title": "Review & check", "work": "Quiz on writing equations from diagrams and stories."}
+     ], "assessment": "Quiz on tape diagrams and equation writing."},
+    {"week": 24, "unit": 6, "topic": "Solving two-step equations", "objectives": ["Solve px + q = r and p(x + q) = r fluently", "Compare arithmetic and algebraic solutions"], "standards": ["7.EE.B.4a", "7.EE.B.3"], "vocabulary": ["inverse operation", "distributive property"], "materials": ["algebra tiles (paper)"],
+     "days": [
+      {"title": "Two methods", "work": "Solve 2(x + 3) = 14 by dividing first and by distributing first, comparing steps."},
+      {"title": "Negative coefficients", "work": "Solve equations with negative and fractional coefficients like -2/3 x + 5 = -7."},
+      {"title": "Word problems", "work": "Solve 8 word problems leading to two-step equations and check reasonableness."},
+      {"title": "Arithmetic vs algebra", "work": "Solve a problem by working backward arithmetically and by equation, then write which made more sense and why."},
+      {"title": "Review & check", "work": "Quiz on two-step equations."}
+     ], "assessment": "Two-step equation quiz."},
+    {"week": 25, "unit": 6, "topic": "Inequalities", "objectives": ["Write and graph inequalities", "Solve and interpret px + q > r"], "standards": ["7.EE.B.4b"], "vocabulary": ["inequality", "solution set", "open circle", "closed circle"], "materials": ["number line"],
+     "days": [
+      {"title": "Representing situations", "work": "Write inequalities for situations like 'at least 13 to ride' and graph them on number lines."},
+      {"title": "Finding solutions", "work": "Test values in inequalities and discover the reverse when multiplying or dividing by a negative."},
+      {"title": "Solving inequalities", "work": "Solve 10 inequalities like 5x - 3 ≥ 22 and -2x + 4 < 10 and graph the solutions."},
+      {"title": "Inequalities in context", "work": "Solve a budget problem: earning $8 per hour with $40 saved, how many hours to have more than $150? Interpret the solution."},
+      {"title": "Review & check", "work": "Quiz on writing, solving and graphing inequalities."}
+     ], "assessment": "Inequality quiz."},
+    {"week": 26, "unit": 6, "topic": "Equivalent expressions", "objectives": ["Use the distributive property", "Combine like terms"], "standards": ["7.EE.A.1", "7.EE.A.2"], "vocabulary": ["term", "like terms", "equivalent expressions", "factor"], "materials": ["area model templates"],
+     "days": [
+      {"title": "Subtraction in expressions", "work": "Rewrite expressions with subtraction as adding the opposite and evaluate to test equivalence."},
+      {"title": "Distributive property", "work": "Expand and factor expressions like 6(2x - 5) and 12x + 18 using area models."},
+      {"title": "Combining like terms", "work": "Simplify expressions such as 3x - 4 - 7x + 2.5 and check by substituting values."},
+      {"title": "Rewriting for meaning", "work": "Explain why 'increase by 5%' can be written as a + 0.05a or 1.05a and solve 4 similar problems."},
+      {"title": "Review & check", "work": "Quiz on equivalent expressions."}
+     ], "assessment": "Equivalent expressions quiz."},
+    {"week": 27, "unit": 6, "topic": "Expressions and equations in context", "objectives": ["Model real problems with expressions, equations and inequalities", "Choose an appropriate representation"], "standards": ["7.EE.A.2", "7.EE.B.3", "7.EE.B.4"], "vocabulary": ["model", "constraint"], "materials": ["Visual Patterns website"],
+     "days": [
+      {"title": "Visual patterns", "work": "Write expressions for the nth step of two visual patterns and show the expressions are equivalent."},
+      {"title": "Fundraiser problem", "work": "Model a bake sale with costs and revenue using expressions and find the break-even point."},
+      {"title": "Phone plans", "work": "Compare two phone plans with equations and an inequality to decide when one is cheaper."},
+      {"title": "Error analysis", "work": "Find and correct errors in 6 worked solutions to equations and inequalities."},
+      {"title": "Review & check", "work": "Short quiz combining expressions, equations and inequalities."}
+     ], "assessment": "Quiz and fundraiser model write-up."},
+    {"week": 28, "unit": 6, "topic": "Unit 6 review & test", "objectives": ["Demonstrate mastery of unit 6"], "standards": ["7.EE.A.1", "7.EE.B.4a", "7.EE.B.4b"], "vocabulary": ["review"], "materials": ["index cards"],
+     "days": [
+      {"title": "Equation sort", "work": "Sort 15 equations and inequalities by solution and solving strategy."},
+      {"title": "Create a problem", "work": "Write two original word problems—one equation and one inequality—and solve them with full work."},
+      {"title": "Partner swap", "work": "Solve a parent's or sibling's version of the original problems and check each other's answers."},
+      {"title": "Unit review", "work": "Mixed review of unit 6 problems from the IM practice set."},
+      {"title": "Unit 6 test", "work": "Take the unit 6 test on expressions, equations and inequalities."}
+     ], "assessment": "Unit 6 test."},
+    {"week": 29, "unit": 7, "topic": "Angle relationships", "objectives": ["Identify complementary, supplementary, vertical and adjacent angles", "Write and solve equations for unknown angles"], "standards": ["7.G.B.5"], "vocabulary": ["complementary", "supplementary", "vertical angles", "adjacent"], "materials": ["protractor", "paper strips", "brads"],
+     "days": [
+      {"title": "Angles on a line", "work": "Measure angles formed by intersecting lines with a protractor and record which pairs sum to 180 or are equal."},
+      {"title": "Complementary and supplementary", "work": "Find unknown complements and supplements and write equations like x + 47 = 90."},
+      {"title": "Vertical angles", "work": "Build intersecting lines with paper strips and a brad to show vertical angles stay equal as you rotate."},
+      {"title": "Angle equations", "work": "Solve 10 problems like (2x + 10) + 3x = 180 from diagrams."},
+      {"title": "Review & check", "work": "Quiz on angle relationships and equations."}
+     ], "assessment": "Angle relationships quiz."},
+    {"week": 30, "unit": 7, "topic": "Drawing triangles", "objectives": ["Construct triangles from given conditions", "Determine when conditions give a unique triangle"], "standards": ["7.G.A.2"], "vocabulary": ["unique", "triangle inequality", "included angle"], "materials": ["straws", "ruler", "protractor", "compass"],
+     "days": [
+      {"title": "Building with straws", "work": "Cut straws to given lengths and test which sets of three form a triangle; state the triangle inequality."},
+      {"title": "Angle conditions", "work": "Try to draw triangles with angles 50, 60, 70 and note that many sizes exist (not unique)."},
+      {"title": "Side-angle-side", "work": "Construct triangles from two sides and the included angle using ruler and protractor and compare with a sibling's copy."},
+      {"title": "Unique or not?", "work": "Classify 8 sets of conditions as giving no triangle, one unique triangle, or many triangles."},
+      {"title": "Review & check", "work": "Quiz on triangle constructions."}
+     ], "assessment": "Construction quiz and straw-lab table."},
+    {"week": 31, "unit": 7, "topic": "Cross sections and volume of prisms", "objectives": ["Describe cross sections of 3-D figures", "Find volume of right prisms"], "standards": ["7.G.A.3", "7.G.B.6"], "vocabulary": ["cross section", "base", "prism", "volume"], "materials": ["clay or play dough", "dental floss", "cereal box"],
+     "days": [
+      {"title": "Slicing solids", "work": "Shape clay into a cube, cylinder and pyramid and slice with floss parallel and perpendicular to the base; sketch each cross section."},
+      {"title": "Volume of prisms", "work": "Find volume as area of base times height for rectangular and triangular prisms."},
+      {"title": "Composite prisms", "work": "Find the volume of a step-shaped and L-shaped prism by decomposing."},
+      {"title": "Measuring real prisms", "work": "Measure a cereal box and a triangular Toblerone-style box and compute their volumes."},
+      {"title": "Review & check", "work": "Quiz on cross sections and prism volume."}
+     ], "assessment": "Cross-section sketches and volume quiz."},
+    {"week": 32, "unit": 7, "topic": "Surface area & unit test", "objectives": ["Find surface area of prisms using nets", "Distinguish surface area from volume problems"], "standards": ["7.G.B.6"], "vocabulary": ["surface area", "net", "lateral face"], "materials": ["cardstock", "tape"],
+     "days": [
+      {"title": "Nets", "work": "Draw and cut out nets of a triangular and a rectangular prism and fold them to check."},
+      {"title": "Surface area", "work": "Find surface area of prisms from nets and from dimensions, including a prism with a hole."},
+      {"title": "Which measure?", "work": "Decide whether 8 situations (wrapping a gift, filling a pool) need surface area or volume, then solve them."},
+      {"title": "Unit review", "work": "Mixed review of angles, triangles, cross sections, surface area and volume."},
+      {"title": "Unit 7 test", "work": "Take the unit 7 test."}
+     ], "assessment": "Unit 7 test."},
+    {"week": 33, "unit": 8, "topic": "Chance experiments and probability", "objectives": ["Describe probability as a number from 0 to 1", "Compare experimental and theoretical probability"], "standards": ["7.SP.C.5", "7.SP.C.6", "7.SP.C.7"], "vocabulary": ["probability", "outcome", "sample space", "relative frequency"], "materials": ["coins", "dice", "paper bag with colored tiles"],
+     "days": [
+      {"title": "Likelihood", "work": "Place 10 events on a 0-to-1 likelihood line from impossible to certain and justify placement."},
+      {"title": "Sample spaces", "work": "List sample spaces for rolling a die, flipping two coins and spinning a 4-color spinner."},
+      {"title": "Experimental probability", "work": "Draw from a bag of colored tiles 50 times with replacement and compute relative frequencies."},
+      {"title": "Theory vs experiment", "work": "Compare results to theoretical probability and explain how more trials bring them closer."},
+      {"title": "Review & check", "work": "Quiz on probability language and models."}
+     ], "assessment": "Probability quiz and experiment record."},
+    {"week": 34, "unit": 8, "topic": "Compound events and simulation", "objectives": ["Find probabilities of compound events", "Design simulations"], "standards": ["7.SP.C.8", "7.SP.C.7"], "vocabulary": ["compound event", "tree diagram", "simulation"], "materials": ["two dice", "coins", "random number generator"],
+     "days": [
+      {"title": "Tree diagrams", "work": "Draw tree diagrams for outfit choices and coin-die combinations and count outcomes."},
+      {"title": "Tables of outcomes", "work": "Make a 6x6 table of sums of two dice and find P(sum = 7) and P(doubles)."},
+      {"title": "Designing a simulation", "work": "Design a coin-flip simulation for 'a family with 3 children has at least 2 girls' and run 30 trials."},
+      {"title": "Simulating with technology", "work": "Use a random number generator to simulate a 30% free-throw shooter taking 5 shots and estimate P(at least 2 makes)."},
+      {"title": "Review & check", "work": "Quiz on compound events and simulation design."}
+     ], "assessment": "Compound probability quiz and simulation write-up."},
+    {"week": 35, "unit": 8, "topic": "Sampling and comparing populations", "objectives": ["Explain representative and random samples", "Compare two populations with measures of center and variability"], "standards": ["7.SP.A.1", "7.SP.A.2", "7.SP.B.3", "7.SP.B.4"], "vocabulary": ["population", "sample", "random sample", "mean absolute deviation", "bias"], "materials": ["book with many pages", "dot plots"],
+     "days": [
+      {"title": "Populations and samples", "work": "Identify populations and samples in 8 survey scenarios and judge which are biased."},
+      {"title": "Random sampling", "work": "Use random page numbers to sample word lengths in a novel and estimate the mean word length."},
+      {"title": "Variation in samples", "work": "Take 5 random samples of 10 words, compare sample means and describe the variability."},
+      {"title": "Comparing groups", "work": "Compare two dot plots (e.g., heights of two plant groups) using means and MAD and decide if the difference is meaningful."},
+      {"title": "Review & check", "work": "Quiz on sampling and comparing populations."}
+     ], "assessment": "Sampling quiz and word-length sampling report."},
+    {"week": 36, "unit": 8, "topic": "Statistics project & final exam", "objectives": ["Conduct a statistical investigation", "Demonstrate year-end mastery"], "standards": ["7.SP.A.1", "7.SP.A.2", "7.SP.B.4", "7.SP.C.8"], "vocabulary": ["investigation", "inference"], "materials": ["survey form", "graph paper"],
+     "days": [
+      {"title": "Plan an investigation", "work": "Write a statistical question comparing two groups (e.g., reaction times of kids vs adults) and plan a random sample."},
+      {"title": "Collect and display", "work": "Collect data from at least 10 people per group with a ruler-drop test and create dot plots or box plots."},
+      {"title": "Analyze and report", "work": "Compute means and MADs, write conclusions, and present findings to the family."},
+      {"title": "Final review", "work": "Complete a cumulative review covering all 8 units."},
+      {"title": "Final exam", "work": "Take the year-end grade 7 math exam and set goals for Math 8."}
+     ], "assessment": "Final exam and statistics investigation report."}
+  ]
+}

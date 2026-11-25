@@ -1,0 +1,2180 @@
+{
+ "grade": 8,
+ "subject": "MATH",
+ "overview": "Mathematics 8 follows the Illustrative Mathematics sequence: transformations and similarity, linear relationships, equations and systems, functions and volume, data, exponents, and the Pythagorean theorem. Teach each day by modeling one example, doing one together, then letting the child work independently while you check the first few problems. Emphasize explaining reasoning in words and checking answers by substitution or estimation, and use Desmos to verify graphs.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Print or copy a 15-problem Grade 7 readiness check (proportions, integers, expressions). Gather tracing paper, graph paper, a protractor, a ruler and a cardboard cutout (e.g., an L-shape or flag) that is not symmetric so flips are visible.",
+   "misconceptions": [
+    "Confusing rotation and reflection. Correct it by tracing the figure: if you must flip the tracing paper over to match, it is a reflection; if you only turn it, it is a rotation.",
+    "Describing moves vaguely ('it moved over'). Require precise language: direction and distance for translations, center/angle/direction for rotations, and the line for reflections."
+   ],
+   "days": [
+    {
+     "guide": "Give the readiness check untimed and note which skills (proportions, integer operations, expressions) need review in later warm-ups. Then hand the child the cutout on tracing paper and ask them to slide, turn and flip it, saying aloud exactly what each move did; model one precise sentence such as 'I turned it a quarter turn clockwise around its corner.'",
+     "questions": [
+      {
+       "q": "Solve 3/4 = x/20.",
+       "a": "x = 15, because 20 ÷ 4 = 5 and 3 × 5 = 15."
+      },
+      {
+       "q": "Compute -7 + 12 - (-3).",
+       "a": "8 (−7 + 12 = 5, and subtracting −3 adds 3)."
+      },
+      {
+       "q": "You flip the cutout over so it faces the other way. Which move is that?",
+       "a": "A reflection (flip)."
+      }
+     ]
+    },
+    {
+     "guide": "Model translating a triangle: draw a directed segment (arrow) and move every vertex the same distance in the same direction, labeling A→A', B→B', C→C'. The child draws 4 images; check that every vertex moved by the same arrow and that the image is the same shape facing the same way.",
+     "questions": [
+      {
+       "q": "Point A(2, 3) is translated 4 units right and 5 units down. What are the coordinates of A'?",
+       "a": "A'(6, −2)."
+      },
+      {
+       "q": "Does a translation change which way a figure faces?",
+       "a": "No. A translation slides every point the same distance and direction, so orientation and size stay the same."
+      }
+     ]
+    },
+    {
+     "guide": "Show how to pin tracing paper at the center of rotation with a pencil tip, trace the figure, and turn it 90°, 180° or 270°, using a protractor or the grid corners to measure. Have the child record center, angle and direction (clockwise/counterclockwise) for each; check that a vertex's distance from the center is unchanged.",
+     "questions": [
+      {
+       "q": "Rotate the point (3, 1) 90° clockwise about the origin.",
+       "a": "(1, −3)."
+      },
+      {
+       "q": "Is a 270° clockwise rotation the same as some counterclockwise rotation?",
+       "a": "Yes — 270° clockwise is the same as 90° counterclockwise."
+      }
+     ]
+    },
+    {
+     "guide": "Model reflecting across a vertical line by counting each vertex's distance to the line and placing the image the same distance on the other side; repeat for a horizontal line and the diagonal y = x (fold the paper on the line to check). The child completes the 8 mixed practice problems and names each move.",
+     "questions": [
+      {
+       "q": "Reflect (4, −2) across the x-axis.",
+       "a": "(4, 2)."
+      },
+      {
+       "q": "Reflect (2, 5) across the line y = x.",
+       "a": "(5, 2) — the coordinates swap."
+      },
+      {
+       "q": "A reflected point is 3 units left of the mirror line. Where is its image?",
+       "a": "3 units right of the line, on a perpendicular to it."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 6-item quiz (see assessment key) without help, then have the child correct errors in the notebook in a different color, writing why the original was wrong. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Describe precisely the move that takes (1, 2) to (−1, −2).",
+       "a": "A rotation of 180° about the origin (equivalently, a reflection across the x-axis followed by one across the y-axis)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Use these 6 items on a grid with triangle A(1,2), B(4,2), C(1,4): 1) Translate 3 left, 2 up → A'(-2,4), B'(1,4), C'(-2,6). 2) Reflect over the x-axis → (1,-2),(4,-2),(1,-4). 3) Reflect over the y-axis → (-1,2),(-4,2),(-1,4). 4) Rotate 180° about the origin → (-1,-2),(-4,-2),(-1,-4). 5) Rotate 90° counterclockwise about the origin → (-2,1),(-2,4),(-4,1). 6) Identify a pictured move and describe it precisely (e.g., 'a reflection across the line y = x'). Each item: 1 point for correct image, 1 point for a precise description (type + direction/distance, center/angle/direction, or line). 80% = 10/12."
+  },
+  {
+   "week": 2,
+   "prep": "Gather graph paper, tracing paper, ruler, protractor; open GeoGebra (free at geogebra.org) and practice drawing a line and using the Rotate tool yourself first.",
+   "misconceptions": [
+    "Mixing up the rotation rules. Have the child test with one point, e.g., (2, 0) rotated 90° counterclockwise must land on the positive y-axis at (0, 2), so the rule is (x, y) → (−y, x).",
+    "Writing a translation rule with the wrong sign (moving left as +). Remind: right/up add, left/down subtract."
+   ],
+   "days": [
+    {
+     "guide": "Have the child measure all sides and angles of a quadrilateral, then perform a translation, a rotation and a reflection and measure the images. Ask them to write a conclusion; guide them to 'side lengths and angle measures stay the same.'",
+     "questions": [
+      {
+       "q": "A triangle has sides 3, 4 and 5 cm and a 90° angle. After a reflection then a rotation, what are the image's measures?",
+       "a": "The same: sides 3, 4, 5 cm and a 90° angle, because rigid motions preserve lengths and angles."
+      }
+     ]
+    },
+    {
+     "guide": "In GeoGebra draw two parallel lines and a point not on them; rotate both lines 180° about the point. Ask the child to explain why the images are parallel to the originals and to each other.",
+     "questions": [
+      {
+       "q": "Why is a line's image under a 180° rotation parallel to the original line?",
+       "a": "A 180° rotation sends every direction to its exact opposite, so the image line runs in the same direction (same slope) as the original; and because rigid motions keep lines that never meet from meeting, parallel lines stay parallel."
+      }
+     ]
+    },
+    {
+     "guide": "Model one translation on the coordinate plane and build a before/after table of coordinates; ask what was added to x and to y. The child writes the rule (x, y) → (x + a, y + b) for 6 examples.",
+     "questions": [
+      {
+       "q": "Apply (x, y) → (x − 3, y + 2) to the point (5, 1).",
+       "a": "(2, 3)."
+      },
+      {
+       "q": "A point moves from (−1, 4) to (3, 0). Write the rule.",
+       "a": "(x, y) → (x + 4, y − 4)."
+      }
+     ]
+    },
+    {
+     "guide": "Have the child plot a triangle, reflect/rotate it with tracing paper, then list original and image coordinates side by side to discover each rule. Summarize on an index card: x-axis (x, −y); y-axis (−x, y); 90° CCW (−y, x); 90° CW (y, −x); 180° (−x, −y).",
+     "questions": [
+      {
+       "q": "Rotate (2, −5) 90° counterclockwise about the origin.",
+       "a": "(5, 2), using (x, y) → (−y, x)."
+      },
+      {
+       "q": "Reflect (−3, 7) over the y-axis.",
+       "a": "(3, 7)."
+      }
+     ]
+    },
+    {
+     "guide": "Child completes the 10-problem worksheet, then is given before-and-after coordinate lists and names the rule. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Before: (1, 2), (3, 4). After: (−1, 2), (−3, 4). Which transformation?",
+       "a": "A reflection over the y-axis: (x, y) → (−x, y)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Four rules (1 point each): 1) translation 5 left, 1 up: (x, y) → (x − 5, y + 1); 2) reflection over the x-axis: (x, y) → (x, −y); 3) rotation 180° about origin: (x, y) → (−x, −y); 4) rotation 90° counterclockwise about origin: (x, y) → (−y, x). Justification (2 points): rigid motions preserve side lengths, angle measures and parallelism, so the image is congruent to the original; full credit names at least lengths and angles."
+  },
+  {
+   "week": 3,
+   "prep": "Gather tracing paper, graph paper, cardstock, scissors. Cut 4–6 quadrilaterals from cardstock in advance, including two that are congruent but mirror images and one pair that is close but not congruent.",
+   "misconceptions": [
+    "Saying figures are congruent because they 'look the same.' Require a sequence of rigid motions that maps one exactly onto the other.",
+    "Thinking a flipped (mirror-image) figure is not congruent. A reflection is a rigid motion, so mirror images are congruent."
+   ],
+   "days": [
+    {
+     "guide": "Show 8 pairs of figures; for each, the child decides congruent or not and must justify with a move ('a 90° rotation maps one onto the other') or a measurement that breaks congruence. Check understanding with: \"A 2-by-6 rectangle and a 3-by-4 rectangle both have area 12. Are they congruent?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "A 2-by-6 rectangle and a 3-by-4 rectangle both have area 12. Are they congruent?",
+       "a": "No. Their side lengths differ, and rigid motions preserve lengths, so no sequence of moves can map one onto the other."
+      }
+     ]
+    },
+    {
+     "guide": "Model finding a sequence: first match one vertex (translate), then line up a side (rotate), then flip if needed (reflect). The child solves 6 grid problems and compares two different valid sequences for one problem.",
+     "questions": [
+      {
+       "q": "Find a move taking triangle (1,1),(3,1),(1,4) to (−1,−1),(−3,−1),(−1,−4).",
+       "a": "A 180° rotation about the origin (or a reflection over the x-axis followed by a reflection over the y-axis)."
+      }
+     ]
+    },
+    {
+     "guide": "The child traces and moves cardstock quadrilaterals onto each other and records the sequence used. Ask: if you had to flip it over, does that still count?",
+     "questions": [
+      {
+       "q": "One quadrilateral only fits on another after you flip it over. Are they congruent?",
+       "a": "Yes — flipping is a reflection, a rigid motion, so they are congruent."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss: how can you prove any two segments of length 5 are congruent? Model: translate one endpoint onto the other, rotate until the segments lie on the same ray, and the far endpoints match because lengths are equal. Repeat the argument for circles of equal radius.",
+     "questions": [
+      {
+       "q": "Explain why two circles with radius 4 cm are congruent.",
+       "a": "Translate one circle so its center lands on the other's center. Every point of each circle is 4 cm from that center, so the circles now coincide."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (4 pairs + 1 impossible pair); child writes full sentences for each sequence. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "What single fact is enough to show two triangles are NOT congruent?",
+       "a": "A pair of corresponding sides (or angles) with different measures, since rigid motions preserve all lengths and angles."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Rubric per pair (4 pairs, 3 points each): correct sequence of moves (e.g., 'reflect across the y-axis, then translate 2 down'), moves stated precisely, and verification that vertices match. Sample answers: a pair related by rotation 90° CCW about origin then 3 right; a pair related by a single reflection across x = 1. The non-congruent pair: full credit explains a specific mismatch, e.g., 'one side is 3 units and the corresponding side is 4 units, and rigid motions preserve length, so no sequence works.'"
+  },
+  {
+   "week": 4,
+   "prep": "Gather a protractor, ruler, scissors and a few paper triangles. Prepare the Unit 1 test (items in the assessment key) and review your own notes on angle vocabulary.",
+   "misconceptions": [
+    "Assuming alternate interior angles are equal when lines are NOT parallel. Point out the angle facts about transversals only hold when the lines are parallel.",
+    "Adding angles to 360° in a triangle. Revisit the torn-corners activity: the three angles form a straight line, 180°.",
+    "Solving for x and stopping. Always substitute x back to find the actual angle measures the question asks for."
+   ],
+   "days": [
+    {
+     "guide": "Draw two intersecting lines and label the 4 angles. Rotate a tracing 180° about the intersection point to show vertical angles swap places, so they are equal. The child solves 8 missing-angle problems.",
+     "questions": [
+      {
+       "q": "Two lines intersect; one angle is 47°. Find the other three.",
+       "a": "47° (vertical), and 133° and 133° (each supplementary to 47°)."
+      }
+     ]
+    },
+    {
+     "guide": "Child draws two parallel lines (use both edges of a ruler) cut by a transversal, measures all 8 angles, and colors equal angles the same. Explain that translating one intersection along the transversal lands it on the other, so corresponding angles match.",
+     "questions": [
+      {
+       "q": "Parallel lines are cut by a transversal and one angle is 65°. Give the corresponding, alternate interior and same-side interior angles.",
+       "a": "Corresponding 65°, alternate interior 65°, same-side (consecutive) interior 115°."
+      }
+     ]
+    },
+    {
+     "guide": "Child tears the three corners off a paper triangle and lines them up; they form a straight angle. Then model the proof: draw a line through one vertex parallel to the opposite side; alternate interior angles show the three angles fill 180°.",
+     "questions": [
+      {
+       "q": "A triangle has angles of 48° and 67°. Find the third angle.",
+       "a": "65°, because 180 − 48 − 67 = 65."
+      }
+     ]
+    },
+    {
+     "guide": "Explain that an exterior angle equals the sum of the two remote interior angles (both equal 180° minus the adjacent interior angle). Do one algebra example together, then the child solves 6.",
+     "questions": [
+      {
+       "q": "Solve (2x + 10) + (3x − 5) = 120 and find both angles.",
+       "a": "5x + 5 = 120, so x = 23; the angles are 56° and 64°."
+      },
+      {
+       "q": "Remote interior angles are 40° and 75°. Find the exterior angle.",
+       "a": "115°."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test (key below) with no notes. Afterward the child picks two missed items and writes what went wrong and the correct solution.",
+     "questions": [
+      {
+       "q": "What three angle relationships come from parallel lines and a transversal?",
+       "a": "Corresponding angles are equal, alternate interior angles are equal, and same-side interior angles are supplementary."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test suggested items and answers: 1) Reflect (3, −2) over the y-axis → (−3, −2). 2) Rotate (2, 5) 90° clockwise about origin → (5, −2). 3) Translate (−4, 1) by (x + 6, y − 3) → (2, −2). 4) Write the rule for a 180° rotation → (x, y) → (−x, −y). 5) Two triangles: give a sequence showing congruence (accept any valid sequence). 6) Angle supplementary to 72° → 108°. 7) Vertical angle to 3x + 5 is 50° → x = 15. 8) Parallel lines cut by a transversal, one angle 65°: alternate interior = 65°, same-side interior = 115°. 9) Triangle with angles 35° and 90° → third angle 55°. 10) Exterior angle with remote interior angles 40° and 75° → 115°. 11) (2x + 10) + (3x − 5) = 120 → x = 23, angles 56° and 64°. Score: 1 point each, plus reflection on two missed items."
+  },
+  {
+   "week": 5,
+   "prep": "Gather ruler, compass, graph paper; open GeoGebra's Dilate tool. Draw a sample triangle and point P for Day 1.",
+   "misconceptions": [
+    "Measuring from a vertex of the figure rather than from the center of dilation. Every distance is measured from the center along a ray.",
+    "Thinking dilations change angles. Have the child measure: angles stay the same, only lengths scale."
+   ],
+   "days": [
+    {
+     "guide": "Model: draw rays from P through each vertex, measure the distance, and mark the image at 2 times that distance (and at half for k = 1/2). The child compares side lengths and angles of the images to the original.",
+     "questions": [
+      {
+       "q": "Vertex A is 3 cm from center P. Where is A' for scale factor 2?",
+       "a": "On ray PA, 6 cm from P."
+      },
+      {
+       "q": "A side is 4 cm. How long is its image for k = 1/2?",
+       "a": "2 cm."
+      }
+     ]
+    },
+    {
+     "guide": "Dilate shapes on a circular grid where circles are evenly spaced from the center. Ask the child to measure angles before and after and explain.",
+     "questions": [
+      {
+       "q": "Why do dilations keep angles the same but change lengths?",
+       "a": "Each segment is scaled by the same factor and stays parallel to the original (or on the same line), so the directions of sides — and therefore the angles between them — don't change, while every length is multiplied by k."
+      }
+     ]
+    },
+    {
+     "guide": "With center at the origin, the rule is (x, y) → (kx, ky). Do one example together, then the child dilates polygons for k = 3, 1/2 and 1.5.",
+     "questions": [
+      {
+       "q": "Dilate (4, −2) with center at the origin by k = 1/2, 3 and 1.5.",
+       "a": "(2, −1), (12, −6) and (6, −3)."
+      }
+     ]
+    },
+    {
+     "guide": "Show how to find the scale factor (image length ÷ original length) and the center (draw lines through corresponding points; they meet at the center). The child solves 6 problems.",
+     "questions": [
+      {
+       "q": "A segment of length 6 has an image of length 4. What is the scale factor?",
+       "a": "4/6 = 2/3 — a reduction since k < 1."
+      },
+      {
+       "q": "If k = 1, what does the dilation do?",
+       "a": "Nothing — the image is identical to the original."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz (key below). Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Is a dilation a rigid motion? Explain.",
+       "a": "No (unless k = 1) — it changes lengths, though it keeps angles."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Dilate A(2, 4), B(6, 2), C(4, 0) with center origin, k = 1/2 → A'(1, 2), B'(3, 1), C'(2, 0). 2) Same triangle, k = 3 → (6, 12), (18, 6), (12, 0). 3) A side of length 5 has an image of length 15 → k = 3; the center is found where lines through corresponding vertices (A to A', B to B') intersect. 4) A 12-unit side becomes 8 → k = 2/3 (a reduction). 3 points per item for correct image/value with work shown."
+  },
+  {
+   "week": 6,
+   "prep": "Gather ruler, protractor, graph paper, a small mirror and a tape measure. Choose a tree or doorway for Thursday's mirror lab and check the floor/ground is safe and flat.",
+   "misconceptions": [
+    "Believing all rectangles are similar. Compare a 2×4 and a 2×3 rectangle: ratios 2/2 and 4/3 differ, so they are not similar.",
+    "Setting up proportions with mismatched sides. Have the child label corresponding sides in the same color before writing the ratio."
+   ],
+   "days": [
+    {
+     "guide": "Explain: two figures are similar if a sequence of rigid motions and dilations maps one onto the other. Model one grid problem (dilate by 2 from the origin, then translate), and the child does 4.",
+     "questions": [
+      {
+       "q": "Triangle (0,0),(2,0),(0,1) maps to (3,0),(7,0),(3,2). Describe a sequence.",
+       "a": "Dilate by scale factor 2 with center at the origin to get (0,0),(4,0),(0,2), then translate 3 units right."
+      }
+     ]
+    },
+    {
+     "guide": "Child tests pairs of rectangles and triangles by comparing side ratios and angles, then explains why all squares are similar but not all rectangles. Check understanding with: \"Are a 4×6 rectangle and a 6×9 rectangle similar?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Are a 4×6 rectangle and a 6×9 rectangle similar?",
+       "a": "Yes: 4/6 = 6/9 = 2/3, and all angles are 90°."
+      },
+      {
+       "q": "Why are all squares similar?",
+       "a": "Every square has four 90° angles and four equal sides, so one square can be dilated by (its side ÷ the other's side) to match any other."
+      }
+     ]
+    },
+    {
+     "guide": "Child draws two triangles with angles 50° and 60° at different sizes, measures sides and computes ratios. State the AA criterion: if two angles of one triangle equal two angles of another, the triangles are similar.",
+     "questions": [
+      {
+       "q": "Triangle 1 has angles 40° and 60°; triangle 2 has angles 40° and 80°. Similar?",
+       "a": "Yes. The third angles are 80° and 60°, so both have 40°, 60°, 80° — similar by AA."
+      }
+     ]
+    },
+    {
+     "guide": "Place the mirror on the floor; the child backs up until they see the top of the object in it. Measure eye height, child-to-mirror distance and mirror-to-object distance; the two triangles are similar because the angles of reflection are equal and both have right angles.",
+     "questions": [
+      {
+       "q": "Eye height 1.5 m, you stand 2 m from the mirror, mirror is 6 m from the tree. How tall is the tree?",
+       "a": "1.5/2 = h/6, so h = 4.5 m."
+      }
+     ]
+    },
+    {
+     "guide": "Child solves 6 missing-side problems and writes one AA justification. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Similar triangles have sides 3, 4, 5 and 9, x, 15. Find x.",
+       "a": "Scale factor 3, so x = 12."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab write-up rubric (4 levels): 4 = labeled diagram showing two similar right triangles, correct proportion (eye height / distance from person to mirror = object height / distance from mirror to object), computed height, comparison to tape-measure value with percent error and sources of error; 3 = all parts with a minor error; 2 = proportion set up but missing comparison or diagram; 1 = incomplete. Problem set sample answers: triangles with sides 3, 4, 5 and 9, x, 15 → x = 12; a 4×6 rectangle and a 6×9 rectangle are similar (ratio 2/3); triangles with angles 40°, 60° and 40°, 80° are similar by AA (third angles 80° and 60°)."
+  },
+  {
+   "week": 7,
+   "prep": "Graph paper, colored pencils, Desmos (desmos.com/calculator). Prepare the Unit 2 review set and test.",
+   "misconceptions": [
+    "Computing run/rise instead of rise/run. Always say 'rise over run' — vertical change on top.",
+    "Thinking slope depends on which two points you choose. Similar slope triangles show it is the same everywhere on a line."
+   ],
+   "days": [
+    {
+     "guide": "Child draws a line and three different-size slope triangles on it. Ask: why are these triangles similar? (They each have a right angle and the same angle where the line meets the horizontal — AA.) So rise/run is the same for all.",
+     "questions": [
+      {
+       "q": "Why is rise/run the same for any slope triangle on one line?",
+       "a": "All slope triangles on the same line are similar (AA: a right angle and a shared angle with the line), so the ratio of their vertical to horizontal sides is constant."
+      }
+     ]
+    },
+    {
+     "guide": "Child computes slopes of 10 lines from two grid points, then types the points in Desmos to check. To check, ask: \"Find the slope through (1, 2) and (4, 8).\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Find the slope through (1, 2) and (4, 8).",
+       "a": "(8 − 2)/(4 − 1) = 6/3 = 2."
+      },
+      {
+       "q": "Find the slope through (−2, 5) and (2, −3).",
+       "a": "(−3 − 5)/(2 − (−2)) = −8/4 = −2."
+      }
+     ]
+    },
+    {
+     "guide": "Model: for a line through (0, b) with slope m, a general point (x, y) gives the slope triangle (y − b)/x = m, so y = mx + b. The child derives y = mx for a line through the origin.",
+     "questions": [
+      {
+       "q": "Write the equation of the line through (0, 3) with slope 2.",
+       "a": "y = 2x + 3."
+      },
+      {
+       "q": "A line through the origin contains (4, 10). What is its equation?",
+       "a": "y = 2.5x (slope 10/4)."
+      }
+     ]
+    },
+    {
+     "guide": "Partner-check review (you are the partner): child works the mixed set, then checks with the key and reworks errors. Before moving on, ask: \"Dilate (−1, 2) by scale factor 4 with center at the origin.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Dilate (−1, 2) by scale factor 4 with center at the origin.",
+       "a": "(−4, 8)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test (key below). Check understanding with: \"Two triangles each have a 90° angle and a 30° angle. Must they be similar?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Two triangles each have a 90° angle and a 30° angle. Must they be similar?",
+       "a": "Yes, by AA (the third angles are both 60°)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test suggested items: 1) Dilate (−1, 2) by 4 from origin → (−4, 8). 2) Scale factor from 10 to 25 → 2.5. 3) Are 3×5 and 6×10 rectangles similar? Yes, ratio 1/2. 4) Triangles with angles 35°, 75° and 35°, 70° → similar by AA (the third angles are 70° and 75°, so both triangles have 35°, 70°, 75°). 5) Missing side: similar triangles 5, 12, 13 and 10, 24, x → x = 26. 6) Slope through (1, 2) and (4, 8) → 2. 7) Slope through (−2, 5) and (2, −3) → −2. 8) Equation of line through (0, 3) with slope 1/2 → y = (1/2)x + 3. 9) Explain why slope triangles on one line are similar (AA: right angle + equal angle with the line). 1 point each; 2 for item 9."
+  },
+  {
+   "week": 8,
+   "prep": "Graph paper, a stopwatch, a measuring tape (10/20/30 m marked outside), Desmos. Find two real cell-plan prices for Thursday or use the ones in the questions.",
+   "misconceptions": [
+    "Putting the wrong quantity on top of the unit rate (minutes per mile vs miles per minute). Ask 'per one what?' and label units.",
+    "Graphing a proportional relationship that does not start at (0, 0). Proportional graphs always pass through the origin."
+   ],
+   "days": [
+    {
+     "guide": "Review: unit rate = output per 1 input. Model finding k from a table, graph and story, then writing y = kx; the child completes the set.",
+     "questions": [
+      {
+       "q": "3 miles in 45 minutes: what is the speed in miles per hour, and the equation?",
+       "a": "45 min = 0.75 h, so 3 ÷ 0.75 = 4 mph; y = 4x (x in hours)."
+      }
+     ]
+    },
+    {
+     "guide": "Child graphs 4 relationships, choosing axis scales that fit the data, and marks the unit rate as the rise for a run of 1. Finish by asking: \"The graph of a proportional relationship passes through (2, 5). What is the slope and equation?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "The graph of a proportional relationship passes through (2, 5). What is the slope and equation?",
+       "a": "Slope 2.5; y = 2.5x."
+      }
+     ]
+    },
+    {
+     "guide": "Outside, time the child and a family member walking 10, 20 and 30 m. Graph distance vs time for both on one set of axes and compare slopes.",
+     "questions": [
+      {
+       "q": "Someone walks 30 m in 20 s. What is their speed and which feature of the graph shows it?",
+       "a": "1.5 m/s; the slope of the distance-time line."
+      },
+      {
+       "q": "Which walker is faster on the graph?",
+       "a": "The one with the steeper line (greater slope)."
+      }
+     ]
+    },
+    {
+     "guide": "Present Plan A as a table (4 GB for $30, 10 GB for $75) and Plan B as y = 8x. The child finds each unit rate and writes a justified comparison.",
+     "questions": [
+      {
+       "q": "Which plan costs more per gigabyte?",
+       "a": "Plan A is $30/4 = $7.50 per GB; Plan B is $8 per GB, so Plan B costs more."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 5-problem quiz and collect the lab graph. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Is y = 3x + 2 proportional? Why?",
+       "a": "No — its graph does not pass through the origin (at x = 0, y = 2)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz (5 problems): 1) Table (2, 7), (4, 14), (6, 21) → k = 3.5, y = 3.5x. 2) Graph through (0,0) and (5, 20) → unit rate 4. 3) Which is faster: Ana y = 4.5x (miles in x hours) or Ben's table 9 miles in 2.5 hours? Ana 4.5 mph vs Ben 3.6 mph → Ana. 4) 3 miles in 45 min → 4 mph, y = 4x. 5) Plan A $30 for 4 GB vs Plan B y = 8x → A is $7.50/GB, B costs more. Lab graph: both lines start at the origin, labeled axes with units, steeper line identified as faster walker."
+  },
+  {
+   "week": 9,
+   "prep": "8 paper or plastic cups, ruler, a clear cup or jar, 10–15 marbles or coins, water, graph paper, Desmos.",
+   "misconceptions": [
+    "Treating every linear relationship as proportional. Point to the y-intercept: when it is not 0, the relationship is linear but not proportional.",
+    "Swapping slope and intercept in context. Ask: what is the value at the start (x = 0)? That's b. What changes per one unit? That's m."
+   ],
+   "days": [
+    {
+     "guide": "Measure stacks of 1 to 8 cups and graph height vs number of cups. Find the slope (height added per cup) and the intercept (the extra base height).",
+     "questions": [
+      {
+       "q": "If 1 cup is 9 cm tall and each added cup adds 1.5 cm, write the equation and find the height of 8 cups.",
+       "a": "h = 1.5n + 7.5; 8 cups: 1.5(8) + 7.5 = 19.5 cm."
+      }
+     ]
+    },
+    {
+     "guide": "For each story, ask 'what is the starting amount?' and 'what changes per unit?' The child writes y = mx + b for 6 stories. Before moving on, ask: \"A gym charges $25 to sign up plus $15 per month. Write the equation.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "A gym charges $25 to sign up plus $15 per month. Write the equation.",
+       "a": "y = 15x + 25 (x = months)."
+      },
+      {
+       "q": "A pool has 200 gallons and fills at 50 gallons per minute. Write the equation.",
+       "a": "y = 50x + 200."
+      }
+     ]
+    },
+    {
+     "guide": "Child matches 8 equations to graphs and tables, explaining slope and intercept in each context. Check understanding with: \"Which graph matches y = −3x + 12?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Which graph matches y = −3x + 12?",
+       "a": "The line crossing the y-axis at 12 and falling 3 units for every 1 unit right (x-intercept 4)."
+      }
+     ]
+    },
+    {
+     "guide": "In Desmos graph y = 2x and y = 2x + 3 together and ask what changed. The child graphs 4 pairs and states that y = mx + b is y = mx translated b units up (down if b < 0).",
+     "questions": [
+      {
+       "q": "How is y = 2x + 3 related to y = 2x?",
+       "a": "It is the same line translated 3 units up; same slope, y-intercept 3."
+      }
+     ]
+    },
+    {
+     "guide": "Mini lab: drop marbles one at a time into a cup of water and record the water level; write the linear equation. Then give the quiz.",
+     "questions": [
+      {
+       "q": "Water starts at 8 cm and rises 0.4 cm per marble. What is the level after 10 marbles?",
+       "a": "y = 0.4(10) + 8 = 12 cm."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Gym: $25 sign-up + $15/month → y = 15x + 25; slope = cost per month, intercept = sign-up fee. 2) Pool starts at 200 gal, fills 50 gal/min → y = 50x + 200. 3) Line through (0, 12) and (4, 0) → y = −3x + 12. 4) Interpret y = 1.5n + 7.5 for cups → each added cup adds 1.5 cm; 7.5 cm is the part of a cup that does not nest (the first cup's 9 cm minus one 1.5-cm lip). Lab equation: example y = 0.4x + 8 (cm) — accept any equation matching the child's data with slope = rise per marble and intercept = starting water level."
+  },
+  {
+   "week": 10,
+   "prep": "Graph paper and Desmos. Prepare 10 point pairs for Wednesday and 8 graphs/tables for Thursday.",
+   "misconceptions": [
+    "Sign errors in the slope formula, e.g., subtracting in different orders on top and bottom. Keep the order: (y2 − y1)/(x2 − x1).",
+    "Thinking a horizontal line has no slope and a vertical line has zero slope. Horizontal: slope 0; vertical: slope undefined."
+   ],
+   "days": [
+    {
+     "guide": "Model spending a $50 gift card at $5 per week: make a table, graph it, and ask what the negative slope means. Before moving on, ask: \"Write the equation for a $50 gift card spent at $5 per week. When is it empty?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Write the equation for a $50 gift card spent at $5 per week. When is it empty?",
+       "a": "y = 50 − 5x; empty at x = 10 weeks."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = 4 and x = −2. Compute slope using two points on each.",
+     "questions": [
+      {
+       "q": "What are the slopes of y = 4 and x = −2?",
+       "a": "y = 4 has slope 0; x = −2 has undefined slope (run is 0)."
+      },
+      {
+       "q": "Why is x = −2 not a function of x?",
+       "a": "The single input x = −2 is paired with infinitely many y-values."
+      }
+     ]
+    },
+    {
+     "guide": "Teach (y2 − y1)/(x2 − x1), then substitute one point into y = mx + b to find b. Child completes 10 pairs.",
+     "questions": [
+      {
+       "q": "Write the equation of the line through (2, 3) and (6, 11).",
+       "a": "m = 8/4 = 2; 3 = 2(2) + b gives b = −1; y = 2x − 1."
+      },
+      {
+       "q": "Through (−1, 4) and (3, −4)?",
+       "a": "m = −8/4 = −2; 4 = −2(−1) + b gives b = 2; y = −2x + 2."
+      }
+     ]
+    },
+    {
+     "guide": "Child writes equations for 8 lines from graphs and tables and checks each in Desmos. Finish by asking: \"x: 0, 1, 2, 3 and y: 5, 8, 11, 14. Write the equation.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "x: 0, 1, 2, 3 and y: 5, 8, 11, 14. Write the equation.",
+       "a": "y = 3x + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "A line has slope −1/2 and passes through (4, 1). Find the equation.",
+       "a": "1 = −2 + b, so b = 3; y = −(1/2)x + 3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Slope through (2, 3) and (6, 11) → 2; equation y = 2x − 1. 2) Through (−1, 4) and (3, −4) → slope −2; y = −2x + 2. 3) Table x: 0,1,2,3; y: 5,8,11,14 → y = 3x + 5. 4) Graph crossing (0, −2) and (3, 4) → y = 2x − 2. 5) Story: $50 gift card, spend $5 per week → y = −5x + 50. 6) Equation of horizontal line through (1, 4) → y = 4; vertical line through (−2, 3) → x = −2. 1 point each."
+  },
+  {
+   "week": 11,
+   "prep": "Graph paper, Desmos. Prepare the Unit 3 review stations and test.",
+   "misconceptions": [
+    "Thinking only one point satisfies an equation like 2x + 3y = 12. Every point on its line is a solution.",
+    "Dividing only some terms when solving for y. Divide every term by the coefficient of y."
+   ],
+   "days": [
+    {
+     "guide": "Give a line equation; child substitutes 8 ordered pairs and checks if each makes it true, then plots them to see true ones fall on the line. Check understanding with: \"Is (3, 1) a solution of 2x + 3y = 9? Is (0, 4)?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Is (3, 1) a solution of 2x + 3y = 9? Is (0, 4)?",
+       "a": "(3, 1): 6 + 3 = 9, yes. (0, 4): 0 + 12 = 12 ≠ 9, no."
+      }
+     ]
+    },
+    {
+     "guide": "Set up the budget story: apples $2, pears $3, $12 total → 2x + 3y = 12. Find intercepts by setting x = 0 then y = 0; graph.",
+     "questions": [
+      {
+       "q": "Find the intercepts of 2x + 3y = 12 and explain them.",
+       "a": "(6, 0): 6 apples, no pears; (0, 4): 4 pears, no apples."
+      }
+     ]
+    },
+    {
+     "guide": "Model solving for y step by step, then the child rewrites 6 equations and interprets slope. Finish by asking: \"Rewrite 2x + 3y = 12 in slope-intercept form.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Rewrite 2x + 3y = 12 in slope-intercept form.",
+       "a": "3y = −2x + 12, so y = −(2/3)x + 4."
+      }
+     ]
+    },
+    {
+     "guide": "Set up stations (proportional vs nonproportional, slope, intercepts, equations from stories); child rotates and you check each. Before moving on, ask: \"Rewrite 4x − 2y = 10 in slope-intercept form.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Rewrite 4x − 2y = 10 in slope-intercept form.",
+       "a": "−2y = −4x + 10, so y = 2x − 5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test. Check understanding with: \"What does a point on the graph of 2x + 3y = 12 represent?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What does a point on the graph of 2x + 3y = 12 represent?",
+       "a": "A combination of apples and pears that costs exactly $12."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test suggested items: 1) Is (3, 1) a solution of 2x + 3y = 9? Yes. 2) Intercepts of 2x + 3y = 12 → (6, 0) and (0, 4). 3) Rewrite 4x − 2y = 10 in slope-intercept form → y = 2x − 5. 4) Proportional or not: y = 7x (yes), y = 7x + 1 (no). 5) Slope through (0, −1) and (2, 5) → 3. 6) Story: $3 delivery fee + $2 per item → y = 2x + 3. 7) Interpret slope −15 in y = −15x + 300 (gallons, minutes) → drains 15 gallons per minute. 1–2 points each."
+  },
+  {
+   "week": 12,
+   "prep": "Hanger-diagram worksheet (Illustrative Math style), algebra tiles or paper cutouts; optional balance scale.",
+   "misconceptions": [
+    "Distributing only to the first term: 3(x + 4) = 3x + 4. Draw arrows from the 3 to each term: 3x + 12.",
+    "Sign errors when subtracting a negative term or distributing a negative. Rewrite subtraction as adding the opposite before moving terms."
+   ],
+   "days": [
+    {
+     "guide": "Show a hanger with 3 triangles and 1 square on one side, 1 triangle and 7 squares on the other. Remove the same thing from both sides and record each move as an equation.",
+     "questions": [
+      {
+       "q": "Solve 3x + 1 = x + 7 using balanced moves.",
+       "a": "Subtract x: 2x + 1 = 7; subtract 1: 2x = 6; divide by 2: x = 3."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss which moves keep balance (same operation on both sides). Child solves 8 equations.",
+     "questions": [
+      {
+       "q": "Solve 5x − 7 = 18.",
+       "a": "5x = 25, x = 5."
+      },
+      {
+       "q": "Solve −3x + 4 = 19.",
+       "a": "−3x = 15, x = −5."
+      }
+     ]
+    },
+    {
+     "guide": "Model distributing to every term, including negatives, then collecting like terms. Child shows every step.",
+     "questions": [
+      {
+       "q": "Solve 4(x − 3) = 2x + 6.",
+       "a": "4x − 12 = 2x + 6 → 2x = 18 → x = 9."
+      },
+      {
+       "q": "Solve −2(5 − x) = 3x + 1.",
+       "a": "−10 + 2x = 3x + 1 → x = −11. Check: −2(16) = −32 and 3(−11) + 1 = −32."
+      }
+     ]
+    },
+    {
+     "guide": "Child finds and fixes errors in 5 worked solutions and writes a rule for each error type. Check understanding with: \"A student wrote 3(x + 4) = 3x + 4. Fix it.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "A student wrote 3(x + 4) = 3x + 4. Fix it.",
+       "a": "3(x + 4) = 3x + 12 — multiply the 3 by both terms."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; require substitution checks. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Solve 2(3x − 1) = 4(x + 2).",
+       "a": "6x − 2 = 4x + 8 → 2x = 10 → x = 5."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz (check each by substitution): 1) 2x + 5 = 17 → x = 6. 2) −4x + 3 = −13 → x = 4. 3) 3(x + 2) = 24 → x = 6. 4) 5x − 2 = 2x + 10 → x = 4. 5) −2(x − 4) = 14 → x = −3. 6) 6x − (2x + 3) = 13 → x = 4. 7) 7 − 3x = 2x − 8 → x = 3. 8) 2(3x − 1) = 4(x + 2) → x = 5. 80% = 7/8 with checks shown."
+  },
+  {
+   "week": 13,
+   "prep": "Notebook; calculator for checking only.",
+   "misconceptions": [
+    "Multiplying only the fraction terms by the LCD. Every term on both sides must be multiplied.",
+    "Misplacing decimals when distributing, e.g., 0.4(x + 5) = 0.4x + 5. Remind: 0.4 × 5 = 2."
+   ],
+   "days": [
+    {
+     "guide": "Model collecting variable terms on the side with the larger coefficient to avoid negatives. Child solves 10.",
+     "questions": [
+      {
+       "q": "Solve 7x − 4 = 3x + 12.",
+       "a": "4x = 16, x = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Model multiplying every term by the LCD to clear fractions. Child solves 6.",
+     "questions": [
+      {
+       "q": "Solve (2/3)x + 5 = (1/2)x + 7.",
+       "a": "Multiply by 6: 4x + 30 = 3x + 42, so x = 12. Check: 8 + 5 = 13 and 6 + 7 = 13."
+      }
+     ]
+    },
+    {
+     "guide": "Child solves decimal equations (optionally multiply by 10 to clear decimals) and checks with a calculator. Check understanding with: \"Solve 0.4(x + 5) = 1.2x − 3.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Solve 0.4(x + 5) = 1.2x − 3.",
+       "a": "0.4x + 2 = 1.2x − 3 → 5 = 0.8x → x = 6.25."
+      }
+     ]
+    },
+    {
+     "guide": "Model defining the variable, writing each side as an expression, and setting them equal. Child writes and solves 5.",
+     "questions": [
+      {
+       "q": "Plan A: $20 + $0.10/min. Plan B: $5 + $0.25/min. When do they cost the same?",
+       "a": "20 + 0.1m = 5 + 0.25m → 15 = 0.15m → m = 100 minutes (both $30)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Solve x/4 + 2 = x/3.",
+       "a": "Multiply by 12: 3x + 24 = 4x, so x = 24."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 5x + 3 = 2x + 18 → x = 5. 2) x/4 + 2 = x/3 → x = 24. 3) 0.5x − 1.5 = 0.2x + 3 → x = 15. 4) (3/4)(x − 8) = x/2 → x = 24. 5) 1.5(2x + 4) = 4x − 1 → x = 7. 6) (1/5)x − 2 = (1/10)x + 1 → x = 30. 7) Taxi A: $3 + $2/mile; Taxi B: $5 + $1.50/mile → equal at 4 miles ($11). 8) Sam has $45 and saves $6/week; Ana has $81 and spends $3/week → equal after 4 weeks ($69)."
+  },
+  {
+   "week": 14,
+   "prep": "Index cards (12 equations written out), Desmos.",
+   "misconceptions": [
+    "Thinking 0 = 0 means x = 0. Explain: a true statement with no variable means every value of x works.",
+    "Thinking 'no solution' means the answer is 0. x = 0 is a solution; no solution means a false statement like 5 = 1."
+   ],
+   "days": [
+    {
+     "guide": "Child solves 12 card equations and sorts them by the final line: x = number, false statement, or true statement. Before moving on, ask: \"Solve 2(x + 3) = 2x + 6.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Solve 2(x + 3) = 2x + 6.",
+       "a": "2x + 6 = 2x + 6 → 6 = 6, true for all x: infinitely many solutions."
+      },
+      {
+       "q": "Solve 2x + 5 = 2x + 1.",
+       "a": "5 = 1 is false: no solution."
+      }
+     ]
+    },
+    {
+     "guide": "Graph each side as y = left side and y = right side in Desmos. One intersection, parallel lines, or the same line.",
+     "questions": [
+      {
+       "q": "Graph y = 2x + 5 and y = 2x + 1. What does the picture say about 2x + 5 = 2x + 1?",
+       "a": "The lines are parallel (same slope, different intercepts), never meet, so there is no solution."
+      }
+     ]
+    },
+    {
+     "guide": "Child writes two equations of each type, trades with you to solve, then checks. To check, ask: \"Give an example of an equation with infinitely many solutions.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Give an example of an equation with infinitely many solutions.",
+       "a": "Example: 3(x + 1) = 3x + 3 (both sides are equivalent expressions)."
+      }
+     ]
+    },
+    {
+     "guide": "Model a savings-account problem and interpret 'no solution' in context. Finish by asking: \"Account A has $100 and gains $10/week; B has $50 and gains $10/week. When are they equal?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Account A has $100 and gains $10/week; B has $50 and gains $10/week. When are they equal?",
+       "a": "Never: 100 + 10w = 50 + 10w gives 100 = 50, false. Same rate, different starts."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz with one written justification for each type. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Solve 9 − 2x = 3x − 6.",
+       "a": "15 = 5x, x = 3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 4x − 3 = 4x + 5 → no solution. 2) 3(x − 2) = 3x − 6 → infinitely many. 3) 5x + 1 = 2x + 10 → x = 3. 4) 2(2x + 1) = 4x + 2 → infinitely many. 5) 6 − x = −(x − 6) → infinitely many. 6) 0.5(4x + 6) = 2x + 1 → no solution (3 = 1). 7) 3x + 4 = −x − 8 → x = −3. 8) 9 − 2x = 3x − 6 → x = 3. Written justification: one solution ends x = number; no solution ends with a false statement; infinitely many ends with a true statement like 6 = 6."
+  },
+  {
+   "week": 15,
+   "prep": "Graph paper, Desmos.",
+   "misconceptions": [
+    "Reading the intersection inaccurately from a hand graph. Always verify the point in both equations.",
+    "Thinking a system solution is one number. It is an ordered pair (x, y) that works in both equations."
+   ],
+   "days": [
+    {
+     "guide": "Use two runners: A starts at 0 m running 5 m/s; B starts 30 m ahead at 3 m/s. Make tables and graphs to find when they're even.",
+     "questions": [
+      {
+       "q": "When and where does runner A catch runner B?",
+       "a": "5t = 30 + 3t → t = 15 s, at 75 m."
+      }
+     ]
+    },
+    {
+     "guide": "Child graphs 6 systems by hand and checks each intersection in both equations. To check, ask: \"Solve y = x + 1 and y = −x + 5 by graphing.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Solve y = x + 1 and y = −x + 5 by graphing.",
+       "a": "(2, 3); check: 3 = 2 + 1 and 3 = −2 + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Graph systems with parallel and identical lines; connect to no solution and infinitely many. Finish by asking: \"How many solutions: y = 3x + 1 and y = 3x − 2?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "How many solutions: y = 3x + 1 and y = 3x − 2?",
+       "a": "None — parallel lines (same slope, different intercepts)."
+      },
+      {
+       "q": "How many solutions: y = 2x + 4 and 2y = 4x + 8?",
+       "a": "Infinitely many — the second simplifies to y = 2x + 4, the same line."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing two equations for the ticket problem; child writes systems for 4 contexts and estimates from Desmos. Before moving on, ask: \"100 tickets sold; adult $8, student $5; total $650. Write and solve the system.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "100 tickets sold; adult $8, student $5; total $650. Write and solve the system.",
+       "a": "a + s = 100 and 8a + 5s = 650 → a = 50 adults, s = 50 students."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "What does the intersection point of two lines represent?",
+       "a": "The one (x, y) pair that makes both equations true at the same time."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz (solve by graphing, verify, interpret): 1) y = 2x − 1 and y = −x + 5 → (2, 3). 2) y = x + 4 and y = −2x + 1 → (−1, 3). 3) y = 0.5x + 1 and y = −x + 4 → (2, 2). 4) y = 3x and y = x + 4 → (2, 6). Context interpretation example: 'at 2 hours both tanks hold 6 gallons.' 2 points each (graph + interpretation)."
+  },
+  {
+   "week": 16,
+   "prep": "Notebook; Desmos for checking. Prepare the Unit 4 test.",
+   "misconceptions": [
+    "Substituting and then forgetting to find the second variable. A solution needs both x and y.",
+    "Comparing intercepts but not slopes in inspection. Different slopes always mean exactly one solution."
+   ],
+   "days": [
+    {
+     "guide": "Model: when both are y = ..., set the expressions equal. To check, ask: \"Solve y = 2x + 1 and y = −x + 7.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Solve y = 2x + 1 and y = −x + 7.",
+       "a": "2x + 1 = −x + 7 → 3x = 6 → x = 2, y = 5. Solution (2, 5)."
+      }
+     ]
+    },
+    {
+     "guide": "Model solving one equation for a variable and substituting. Child solves 6 and checks with Desmos.",
+     "questions": [
+      {
+       "q": "Solve 2x + y = 7 and x − y = 2.",
+       "a": "x = y + 2; 2(y + 2) + y = 7 → 3y = 3 → y = 1, x = 3. Solution (3, 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Rewrite each equation in y = mx + b and compare: different slopes → one solution; same slope, different intercept → none; same line → infinitely many. Before moving on, ask: \"Without solving: y = −x + 1 and 2x + 2y = 2.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Without solving: y = −x + 1 and 2x + 2y = 2.",
+       "a": "The second is y = −x + 1, the same line: infinitely many solutions."
+      },
+      {
+       "q": "y = 2x and y = 3x?",
+       "a": "Different slopes: exactly one solution (0, 0)."
+      }
+     ]
+    },
+    {
+     "guide": "Child defines variables, writes two equations and solves 4 word problems. Check understanding with: \"A jar has 20 coins (dimes and quarters) worth $3.20. How many of each?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "A jar has 20 coins (dimes and quarters) worth $3.20. How many of each?",
+       "a": "d + q = 20 and 0.10d + 0.25q = 3.20 → q = 8 quarters, d = 12 dimes."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test. To check, ask: \"Solve y = x − 4 and y = 3x + 2.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Solve y = x − 4 and y = 3x + 2.",
+       "a": "x − 4 = 3x + 2 → x = −3, y = −7."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 4 test suggested items: 1) 3x + 5 = x − 7 → x = −6. 2) (1/2)(x + 6) = x − 1 → x = 8. 3) 2(x + 4) = 2x + 8 → infinitely many. 4) y = 2x + 1, y = −x + 7 → (2, 5). 5) 2x + y = 7, x − y = 2 → (3, 1). 6) Inspection: y = 4x − 3 and y = 4x + 2 → no solution. 7) 20 dimes and quarters worth $3.20 → 12 dimes, 8 quarters. 8) Explain what the solution of a system means. 1–2 points each."
+  },
+  {
+   "week": 17,
+   "prep": "Index cards for 'guess my rule', graph paper.",
+   "misconceptions": [
+    "Thinking a function cannot repeat outputs. Repeated outputs are fine; repeated inputs with different outputs are not.",
+    "Reading f(3) as f times 3. Explain f(3) means 'the output when the input is 3.'"
+   ],
+   "days": [
+    {
+     "guide": "Play 'guess my rule': you think of a rule, the child gives inputs and you give outputs until they guess. Then swap roles. Ask which rules always give one output per input.",
+     "questions": [
+      {
+       "q": "Rule: double and add 1. What is the output for input 4?",
+       "a": "9."
+      },
+      {
+       "q": "Is 'give a number whose square is the input' a function?",
+       "a": "No — input 9 could give 3 or −3."
+      }
+     ]
+    },
+    {
+     "guide": "Teach: each input has exactly one output. Child classifies 10 relations and uses the vertical line test on graphs.",
+     "questions": [
+      {
+       "q": "Is {(1, 2), (1, 3), (2, 4)} a function?",
+       "a": "No — input 1 has two different outputs."
+      },
+      {
+       "q": "Is 'each student → their birthday' a function? What about 'birthday → student'?",
+       "a": "Student → birthday is a function (one birthday each); birthday → student is not (several students can share a birthday)."
+      }
+     ]
+    },
+    {
+     "guide": "Model statements like 'distance is a function of time' (time is the input). Evaluate functions from equations and graphs.",
+     "questions": [
+      {
+       "q": "If f(x) = 3x − 2, find f(4).",
+       "a": "f(4) = 12 − 2 = 10."
+      }
+     ]
+    },
+    {
+     "guide": "Child writes equations for perimeter of a square, cost of n tickets, etc., naming independent and dependent variables. To check, ask: \"Write the perimeter of a square as a function of its side length. Name the variables.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Write the perimeter of a square as a function of its side length. Name the variables.",
+       "a": "P = 4s; s (side length) is independent, P (perimeter) is dependent."
+      },
+      {
+       "q": "Tickets cost $12 each. Write the cost as a function of n.",
+       "a": "C = 12n."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Does a vertical line graph represent a function?",
+       "a": "No — one x-value has infinitely many y-values."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) {(1, 2), (2, 4), (1, 5)} → not a function (input 1 has two outputs). 2) {(1, 3), (2, 3), (3, 3)} → function. 3) A graph failing the vertical line test (a circle) → not a function. 4) f(x) = 3x − 2: f(4) = 10. 5) From a graph through (2, 5): output at input 2 is 5. 6) Table: input 0, 1, 2 → output 7, 9, 11; output at 2 is 11. 1 point each."
+  },
+  {
+   "week": 18,
+   "prep": "Graph paper, Desmos. Prepare the semester exam (Units 1–5 so far) and a blank sheet for the formula/strategy page.",
+   "misconceptions": [
+    "Thinking any curve that goes up is linear. Check a table: equal steps in x must give equal changes in y.",
+    "Comparing functions by intercept only. 'Grows faster' is about the rate of change (slope)."
+   ],
+   "days": [
+    {
+     "guide": "Present Company A as a table (0 mi $40, 100 mi $65, 200 mi $90) and Company B as C = 0.30m + 30. Child finds each rate and decides which grows faster and when they cost the same.",
+     "questions": [
+      {
+       "q": "Which grows faster, and when do they cost the same?",
+       "a": "A's rate is $0.25/mile, B's is $0.30/mile, so B grows faster. 40 + 0.25m = 30 + 0.30m → m = 200 miles ($90)."
+      }
+     ]
+    },
+    {
+     "guide": "Child makes tables and graphs of y = 2x + 1, y = x² and A = πr² and checks first differences. Check understanding with: \"Why is y = x² not linear?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Why is y = x² not linear?",
+       "a": "For x = 0, 1, 2, 3, y = 0, 1, 4, 9; the changes 1, 3, 5 are not constant, and the graph curves."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of Units 1–3; child corrects each miss with a written reason. To check, ask: \"Find the slope through (−1, 2) and (3, 10).\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Find the slope through (−1, 2) and (3, 10).",
+       "a": "8/4 = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of equations, systems and functions; child builds a one-page formula and strategy sheet. Finish by asking: \"Solve y = x + 2 and y = −2x + 8.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Solve y = x + 2 and y = −2x + 8.",
+       "a": "3x = 6 → x = 2, y = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the semester exam; allow the formula sheet only if you choose to. Before moving on, ask: \"Solve 3(x − 4) = x + 6.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Solve 3(x − 4) = x + 6.",
+       "a": "3x − 12 = x + 6 → 2x = 18 → x = 9."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester 1 exam: grade with the item answers you write from Weeks 1–17; suggested items and answers: 1) Rotate (3, −1) 180° → (−3, 1). 2) Dilate (2, 6) by 1/2 from origin → (1, 3). 3) Triangle angles 52° and 71° → 57°. 4) Slope through (−1, 2) and (3, 10) → 2. 5) y-intercept of y = −4x + 9 → 9. 6) 3(x − 4) = x + 6 → x = 9. 7) 2x + 3 = 2x − 1 → no solution. 8) y = x + 2 and y = −2x + 8 → (2, 4). 9) Is {(2, 3), (3, 3), (4, 5)} a function? Yes. 10) Which grows faster: table rate $0.25/mi or y = 0.30x + 30? The second. Score by percent; 80% = proficient."
+  },
+  {
+   "week": 19,
+   "prep": "Graph paper, Desmos. Draw 6 story graphs (distance vs time) for Tuesday.",
+   "misconceptions": [
+    "Reading a distance-time graph as a picture of the path (e.g., thinking a hill shape means riding up a hill). The graph shows distance vs time, not the route.",
+    "Forgetting that horizontal segments mean 'no change' (stopped), not 'moving at constant speed.'"
+   ],
+   "days": [
+    {
+     "guide": "Build the battery model: start 100%, −8% per hour. Ask what the rate and initial value mean.",
+     "questions": [
+      {
+       "q": "Write the function and find when the battery reaches 0%.",
+       "a": "B = 100 − 8h; 0 = 100 − 8h → h = 12.5 hours."
+      }
+     ]
+    },
+    {
+     "guide": "Child matches 6 stories to graphs and labels intervals as increasing, decreasing or constant. To check, ask: \"On a distance-from-home vs time graph, what does a horizontal segment mean?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "On a distance-from-home vs time graph, what does a horizontal segment mean?",
+       "a": "The rider is stopped — distance is not changing."
+      }
+     ]
+    },
+    {
+     "guide": "Child sketches graphs from descriptions and writes a story for 3 given graphs. Finish by asking: \"Sketch water level in a bathtub that fills, is used for a bath, then drains.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Sketch water level in a bathtub that fills, is used for a bath, then drains.",
+       "a": "Rises (increasing), then roughly flat (constant) with a small jump when the person gets in, then falls to 0 (decreasing)."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the water-tank graph piece by piece, computing each rate of change. Before moving on, ask: \"A tank goes from 0 to 60 gallons in 4 minutes, stays full until minute 6, then empties by minute 10. Find each rate.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "A tank goes from 0 to 60 gallons in 4 minutes, stays full until minute 6, then empties by minute 10. Find each rate.",
+       "a": "15 gal/min, 0 gal/min, and −15 gal/min."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "A function's graph is a line falling from (0, 30) to (6, 0). Find the rate of change.",
+       "a": "−30/6 = −5 per unit."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Battery at 100% drains 8% per hour → B = 100 − 8h; empty at 12.5 h. 2) Match a bike ride with a 10-minute stop → graph with a flat segment. 3) Tank fills 0→60 gal in 4 min (15 gal/min), stays constant 4–6 min (0), drains 60→0 in 6–10 min (−15 gal/min). 4) Describe where a given graph increases/decreases/is constant. 5) Write a story for a given graph (rubric: matches every segment, mentions rates). 1–3 points each."
+  },
+  {
+   "week": 20,
+   "prep": "Several cans of different sizes, a cereal box, paper and tape to build a cone, rice or dry beans, ruler, measuring cup (mL).",
+   "misconceptions": [
+    "Using diameter instead of radius in πr²h. Have the child write r = d ÷ 2 first.",
+    "Forgetting the 1/3 in the cone formula. Recall the lab: 3 cones fill 1 cylinder."
+   ],
+   "days": [
+    {
+     "guide": "Review V = Bh. Child measures a cereal box and computes its volume.",
+     "questions": [
+      {
+       "q": "A box is 19 cm by 7 cm by 28 cm. Find its volume.",
+       "a": "19 × 7 × 28 = 3,724 cm³."
+      }
+     ]
+    },
+    {
+     "guide": "Child measures 3 cans, computes V = πr²h, then fills with water and pours into a measuring cup to compare (1 mL = 1 cm³). Finish by asking: \"A can has radius 4 cm and height 10 cm. Find its volume.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "A can has radius 4 cm and height 10 cm. Find its volume.",
+       "a": "π(16)(10) = 160π ≈ 502.7 cm³ (about 503 mL)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a paper cone with the same base and height as a can; count cones of rice to fill the can. Before moving on, ask: \"How many cones fill the matching cylinder, and what formula results?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "How many cones fill the matching cylinder, and what formula results?",
+       "a": "About 3, so V(cone) = (1/3)πr²h."
+      },
+      {
+       "q": "Find the volume of a cone with r = 3 cm and h = 8 cm.",
+       "a": "(1/3)π(9)(8) = 24π ≈ 75.4 cm³."
+      }
+     ]
+    },
+    {
+     "guide": "Model solving the volume formula for h or r. Child solves 6.",
+     "questions": [
+      {
+       "q": "A cylinder has volume 100π and radius 5. Find h.",
+       "a": "100π = 25πh → h = 4."
+      },
+      {
+       "q": "A cone has volume 12π and height 4. Find r.",
+       "a": "12π = (1/3)πr²(4) → r² = 9 → r = 3."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "A cone-shaped cup has r = 4 cm, h = 9 cm. How much does it hold?",
+       "a": "(1/3)π(16)(9) = 48π ≈ 150.8 cm³ ≈ 151 mL."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab write-up rubric: 4 = measured r and h, computed both volumes, found ~3 cones fill the cylinder, explained V = (1/3)πr²h; 3 = minor errors; 2 = data without conclusion; 1 = incomplete. Quiz: 1) Cylinder r = 4, h = 10 → 160π ≈ 502.7 cm³. 2) Cone r = 3, h = 8 → 24π ≈ 75.4 cm³. 3) Cylinder V = 100π, r = 5 → h = 4. 4) Cone V = 12π, h = 4 → r = 3. 5) Cylinder d = 6, h = 5 → 45π ≈ 141.4. 6) Paper cup cone r = 4 cm, h = 9 cm → 48π ≈ 150.8 cm³ (about 151 mL)."
+  },
+  {
+   "week": 21,
+   "prep": "A ball, an orange, rice, Desmos. Prepare the Unit 5 review set and test.",
+   "misconceptions": [
+    "Using r² instead of r³ for sphere volume. Volume is three-dimensional, so the unit is cubed.",
+    "Thinking doubling the radius doubles the volume. For a cylinder it quadruples (r²); for a sphere it multiplies by 8."
+   ],
+   "days": [
+    {
+     "guide": "Explain that a sphere fills 2/3 of a cylinder with the same radius and height 2r: (2/3)(πr²·2r) = (4/3)πr³. Child measures and computes the volume of 4 balls.",
+     "questions": [
+      {
+       "q": "Find the volume of a sphere with radius 3 cm.",
+       "a": "(4/3)π(27) = 36π ≈ 113.1 cm³."
+      }
+     ]
+    },
+    {
+     "guide": "Model splitting a composite solid into parts and adding. Child does the ice-cream cone and silo.",
+     "questions": [
+      {
+       "q": "Ice cream cone r = 3 cm, h = 10 cm, topped by a hemisphere r = 3 cm. Total volume?",
+       "a": "Cone 30π + hemisphere 18π = 48π ≈ 150.8 cm³."
+      }
+     ]
+    },
+    {
+     "guide": "In Desmos graph V = π(2²)h (r fixed at 2) and V = πr²(5) (h fixed at 5); compare shapes. Check understanding with: \"Which graph is linear and why?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Which graph is linear and why?",
+       "a": "V = 4πh is linear (h to the first power); V = 5πr² is a curve because r is squared."
+      },
+      {
+       "q": "If radius doubles (h fixed), what happens to cylinder volume?",
+       "a": "It multiplies by 4."
+      }
+     ]
+    },
+    {
+     "guide": "Child completes the 12-problem mixed review; check and rework errors. To check, ask: \"f(x) = −2x + 5. Find f(−3).\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "f(x) = −2x + 5. Find f(−3).",
+       "a": "11."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 5 test. Finish by asking: \"Find the volume of a hemisphere of radius 6.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Find the volume of a hemisphere of radius 6.",
+       "a": "(1/2)(4/3)π(216) = 144π ≈ 452.4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 5 test suggested items: 1) Is {(0, 1), (1, 1), (2, 3)} a function? Yes. 2) f(x) = −2x + 5, f(−3) = 11. 3) Compare rates: table +4 per step vs y = 3x + 10 → table grows faster. 4) Cylinder r = 3, h = 7 → 63π ≈ 197.9. 5) Cone r = 6, h = 5 → 60π ≈ 188.5. 6) Sphere r = 3 → 36π ≈ 113.1. 7) Hemisphere r = 6 → 144π ≈ 452.4. 8) Composite ice cream: cone r = 3, h = 10 plus hemisphere r = 3 → 48π ≈ 150.8. 9) Is V = 4πh linear? Yes. Is V = 5πr²? No. 1–2 points each."
+  },
+  {
+   "week": 22,
+   "prep": "Tape measure; recruit 8 people for arm-span/height (or use a provided dataset); graph paper. Find or make a car age vs value dataset.",
+   "misconceptions": [
+    "Thinking an association proves cause. Arm span doesn't cause height; both relate to body size.",
+    "Choosing axis scales that start at 0 and squash the data. Start the axes near the smallest values and mark a break."
+   ],
+   "days": [
+    {
+     "guide": "Measure arm span and height (fingertip to fingertip, arms straight) of 8+ people and record in a table with units. Before moving on, ask: \"Which variable should go on the x-axis and why?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Which variable should go on the x-axis and why?",
+       "a": "Arm span, if we're using it to predict height — the explanatory variable goes on x."
+      }
+     ]
+    },
+    {
+     "guide": "Child chooses scales and plots by hand; describe the pattern. Check understanding with: \"What pattern do you expect for arm span vs height?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What pattern do you expect for arm span vs height?",
+       "a": "A positive, roughly linear association — arm span is close to height for most people."
+      }
+     ]
+    },
+    {
+     "guide": "Child classifies 8 scatter plots by direction (positive/negative/none) and form (linear/nonlinear), marking outliers and clusters. To check, ask: \"What association do you expect between a car's age and its value?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What association do you expect between a car's age and its value?",
+       "a": "Negative — older cars are generally worth less."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss the car data's outliers and possible reasons. Finish by asking: \"An old car worth much more than others its age is an outlier. Give a reason.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "An old car worth much more than others its age is an outlier. Give a reason.",
+       "a": "It may be a classic or collectible car, or exceptionally well kept, so its value rose instead of falling."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz: child builds and describes a scatter plot from a 12-row table. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "What does 'no association' look like on a scatter plot?",
+       "a": "Points scattered with no upward or downward trend."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Project rubric: 4 = labeled axes with units and consistent scales, all points plotted accurately, correct description (direction, form, strength, outliers/clusters); 3 = minor plotting or labeling errors; 2 = plot present but description missing or wrong; 1 = incomplete. Quiz on the 12-row table: accept the description that matches the data, e.g., 'strong positive linear association; one outlier at (x, y).'"
+  },
+  {
+   "week": 23,
+   "prep": "Spaghetti strand or clear ruler, graph paper, last week's arm-span data, Desmos.",
+   "misconceptions": [
+    "Drawing a line that connects the first and last points. A good line of fit has about as many points above as below and follows the trend.",
+    "Trusting predictions far outside the data. Extrapolation can give impossible results (e.g., a negative car price)."
+   ],
+   "days": [
+    {
+     "guide": "Lay spaghetti on the scatter plot to fit a line. Compare with a second placement and ask which is closer to more points.",
+     "questions": [
+      {
+       "q": "What makes a good line of fit?",
+       "a": "It follows the trend with points roughly balanced above and below and small distances from the points."
+      }
+     ]
+    },
+    {
+     "guide": "Pick two points ON the line (not necessarily data points), compute slope and intercept, and interpret. To check, ask: \"A fitted line passes through (150, 150) and (180, 180) (arm span, height in cm). Write it and interpret the slope.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "A fitted line passes through (150, 150) and (180, 180) (arm span, height in cm). Write it and interpret the slope.",
+       "a": "Slope 30/30 = 1, so y = x: about 1 cm more height per 1 cm more arm span."
+      }
+     ]
+    },
+    {
+     "guide": "Use a model to predict and judge reasonableness. Finish by asking: \"Price model p = −0.1m + 20,000 (m = miles). Predict at 80,000 miles. Is 250,000 miles reasonable?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Price model p = −0.1m + 20,000 (m = miles). Predict at 80,000 miles. Is 250,000 miles reasonable?",
+       "a": "At 80,000: −8,000 + 20,000 = $12,000. At 250,000 the model gives −$5,000, which is impossible — too far beyond the data."
+      }
+     ]
+    },
+    {
+     "guide": "Teach residual = actual − predicted. Child computes 5 residuals for two lines and compares; check with Desmos regression (y1 ~ mx1 + b).",
+     "questions": [
+      {
+       "q": "Actual height 165 cm, predicted 162 cm. Residual?",
+       "a": "+3 cm (the point is 3 cm above the line)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "A model of test score vs study hours is y = 5x + 60. Interpret 5 and 60.",
+       "a": "Each extra hour of study is associated with about 5 more points; 60 is the predicted score with 0 hours."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz rubric: line drawn through the middle of the cloud (2), equation from two points on the line correct (2), slope interpreted with units, e.g., 'about 1 cm of height per cm of arm span' (2), intercept interpreted or noted as not meaningful (1), one prediction with reasonableness comment (1). Example: line through (150, 150) and (180, 180) → y = x."
+  },
+  {
+   "week": 24,
+   "prep": "Survey sheet with two yes/no questions; calculator. Prepare the Unit 6 review and test.",
+   "misconceptions": [
+    "Comparing raw counts when group sizes differ. Use relative frequencies (percents) within each row or column.",
+    "Computing the percent of the wrong total. Ask: 'percent of what?' — the row total or column total."
+   ],
+   "days": [
+    {
+     "guide": "Survey 20 people (or use data) and fill in a two-way table with totals. To check, ask: \"Table: instrument & likes math 8; instrument & not 2; no instrument & likes math 4; no instrument & not 6. How many surveyed? How many like math?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Table: instrument & likes math 8; instrument & not 2; no instrument & likes math 4; no instrument & not 6. How many surveyed? How many like math?",
+       "a": "20 surveyed; 12 like math."
+      }
+     ]
+    },
+    {
+     "guide": "Compute row percents and compare. Finish by asking: \"Using that table, is there an association?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Using that table, is there an association?",
+       "a": "Yes: 8/10 = 80% of instrument players like math vs 4/10 = 40% of non-players — a big difference."
+      }
+     ]
+    },
+    {
+     "guide": "Child analyzes 3 data sets and writes claims with relative-frequency evidence. Before moving on, ask: \"If 60% of teens with a curfew do chores and 58% without a curfew do chores, is there an association?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "If 60% of teens with a curfew do chores and 58% without a curfew do chores, is there an association?",
+       "a": "Little or none — the percents are nearly equal."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review: scatter plots, lines of fit, two-way tables. Check understanding with: \"Line through (2, 10) and (6, 22). Equation?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Line through (2, 10) and (6, 22). Equation?",
+       "a": "m = 12/4 = 3; y = 3x + 4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test. To check, ask: \"Does a strong association prove one variable causes the other?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Does a strong association prove one variable causes the other?",
+       "a": "No — a third factor or coincidence may explain it."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 6 test suggested items: 1) Describe a scatter plot (direction, form, strength, outliers). 2) Line through (2, 10) and (6, 22) → y = 3x + 4. 3) Predict y at x = 8 → 28. 4) Residual if actual is 30 → +2. 5) Two-way table: instrument yes: 8 like math, 2 don't; no: 4 like, 6 don't → 80% vs 40%, so there is an association. 6) Explain why association ≠ causation. 1–3 points each."
+  },
+  {
+   "week": 25,
+   "prep": "Several sheets of paper for folding; notebook.",
+   "misconceptions": [
+    "Multiplying the bases: 2³ × 2⁴ = 4⁷. The base stays the same; only exponents add.",
+    "Adding exponents for a power of a power: (5²)³ = 5⁵. Expand to see it is 5⁶."
+   ],
+   "days": [
+    {
+     "guide": "Fold a sheet in half repeatedly, recording layers: 2, 4, 8 ... as powers of 2. Finish by asking: \"How many layers after 10 folds?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "How many layers after 10 folds?",
+       "a": "2¹⁰ = 1,024."
+      }
+     ]
+    },
+    {
+     "guide": "Expand 10³ × 10⁴ into factors and count. Child states the rule and practices 12.",
+     "questions": [
+      {
+       "q": "Simplify 2⁵ × 2³ and evaluate.",
+       "a": "2⁸ = 256."
+      },
+      {
+       "q": "Why don't you multiply the exponents in a^m × a^n?",
+       "a": "Writing out the factors shows m factors of a followed by n more, for m + n factors in total."
+      }
+     ]
+    },
+    {
+     "guide": "Expand (5²)³ as 5² · 5² · 5² to see 5⁶. Check understanding with: \"Simplify (5²)³.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Simplify (5²)³.",
+       "a": "5⁶ = 15,625."
+      }
+     ]
+    },
+    {
+     "guide": "Expand 7⁶ / 7² and cancel to see 7⁴. Child solves 12 mixed problems.",
+     "questions": [
+      {
+       "q": "Simplify 7⁶ ÷ 7².",
+       "a": "7⁴ = 2,401."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Simplify (4²)³ ÷ 4⁵.",
+       "a": "4⁶ ÷ 4⁵ = 4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 10³ × 10⁴ = 10⁷. 2) 2⁵ × 2³ = 2⁸ = 256. 3) (5²)³ = 5⁶. 4) 7⁶ ÷ 7² = 7⁴. 5) x³ · x⁵ = x⁸. 6) (x⁴)² = x⁸. 7) 3⁷ ÷ 3⁴ = 3³ = 27. 8) (2³)² = 2⁶ = 64. 9) a⁹ ÷ a = a⁸. 10) 10² × 10⁵ ÷ 10³ = 10⁴. 11) (4²)³ ÷ 4⁵ = 4. 12) 6³ × 6 = 6⁴. Explanation: e.g., 10³ × 10⁴ = (10·10·10)(10·10·10·10) = 7 tens multiplied."
+  },
+  {
+   "week": 26,
+   "prep": "Notebook; make a 20-card exponent sort (10 pairs of equivalent expressions).",
+   "misconceptions": [
+    "Thinking a negative exponent makes a number negative. 10⁻² = 1/100, a small positive number.",
+    "Thinking a⁰ = 0. Use the pattern (each step down divides by a) to show a⁰ = 1."
+   ],
+   "days": [
+    {
+     "guide": "Table: 10³ = 1000, 10² = 100, 10¹ = 10; each step divides by 10, so 10⁰ = 1. Repeat with base 2.",
+     "questions": [
+      {
+       "q": "Why is 10⁰ = 1?",
+       "a": "Each time the exponent drops by 1 we divide by 10; 10¹ ÷ 10 = 1."
+      }
+     ]
+    },
+    {
+     "guide": "Continue the pattern below 0. Child rewrites 10 expressions with positive exponents.",
+     "questions": [
+      {
+       "q": "Evaluate 10⁻² and 2⁻³.",
+       "a": "1/100 and 1/8."
+      }
+     ]
+    },
+    {
+     "guide": "Show 2³ × 5³ = (2·5)(2·5)(2·5) = 10³. Child evaluates 8 expressions.",
+     "questions": [
+      {
+       "q": "Evaluate 2³ × 5³ and 4² × 25².",
+       "a": "10³ = 1,000 and 100² = 10,000."
+      }
+     ]
+    },
+    {
+     "guide": "Child completes the 20-card sort matching equivalents. Finish by asking: \"Simplify 3⁻² × 3⁵.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Simplify 3⁻² × 3⁵.",
+       "a": "3³ = 27."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Simplify 6⁴ ÷ 6⁶.",
+       "a": "6⁻² = 1/36."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 7⁰ = 1. 2) 10⁻² = 1/100. 3) 2⁻³ = 1/8. 4) 5⁻¹ = 1/5. 5) 3⁻² × 3⁵ = 27. 6) 2³ × 5³ = 1,000. 7) 4⁻² = 1/16. 8) (10⁻¹)² = 10⁻² = 1/100. 9) 6⁴ ÷ 6⁶ = 6⁻² = 1/36. 10) (−3)⁰ = 1. 11) 2⁻² × 2⁻¹ = 1/8. 12) (3 × 4)² = 144 = 3² × 4²."
+  },
+  {
+   "week": 27,
+   "prep": "Print the NASA planetary fact sheet (nssdc.gsfc.nasa.gov/planetary/factsheet); calculator; number lines labeled 10⁻⁴ to 10⁸.",
+   "misconceptions": [
+    "Writing 35 × 10⁴ as scientific notation. The coefficient must be at least 1 and less than 10: 3.5 × 10⁵.",
+    "Moving the decimal the wrong way for small numbers. Small numbers (less than 1) have negative exponents."
+   ],
+   "days": [
+    {
+     "guide": "Place 3 × 10⁵ and 7 × 10⁻³ on number lines marked with powers of 10. Check understanding with: \"Between which powers of 10 is 3 × 10⁵?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Between which powers of 10 is 3 × 10⁵?",
+       "a": "Between 10⁵ and 10⁶."
+      }
+     ]
+    },
+    {
+     "guide": "Model moving the decimal and counting places; child converts 12 quantities. To check, ask: \"Write 93,000,000 miles (Earth–Sun distance) in scientific notation.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Write 93,000,000 miles (Earth–Sun distance) in scientific notation.",
+       "a": "9.3 × 10⁷ miles."
+      },
+      {
+       "q": "Write 0.00045 in scientific notation.",
+       "a": "4.5 × 10⁻⁴."
+      }
+     ]
+    },
+    {
+     "guide": "Use powers of 10 to estimate ratios. Finish by asking: \"Earth's mass ≈ 6 × 10²⁴ kg, the Moon's ≈ 7 × 10²² kg. About how many times more massive is Earth?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Earth's mass ≈ 6 × 10²⁴ kg, the Moon's ≈ 7 × 10²² kg. About how many times more massive is Earth?",
+       "a": "6/7 × 10² ≈ 86, so roughly 80–90 times (actual ≈ 81)."
+      }
+     ]
+    },
+    {
+     "guide": "Show calculator 'E' notation (1.496E11 = 1.496 × 10¹¹). Child converts NASA data.",
+     "questions": [
+      {
+       "q": "What does 1.496E11 mean?",
+       "a": "1.496 × 10¹¹ — Earth's average distance from the Sun in meters."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Order: 3 × 10⁻², 5 × 10⁻⁴, 2 × 10⁻³.",
+       "a": "5 × 10⁻⁴ < 2 × 10⁻³ < 3 × 10⁻²."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 45,000 = 4.5 × 10⁴. 2) 0.00045 = 4.5 × 10⁻⁴. 3) 93,000,000 = 9.3 × 10⁷. 4) 6.02 × 10³ = 6,020. 5) 7 × 10⁻³ = 0.007. 6) Larger: 3 × 10⁵ or 9 × 10⁴? 3 × 10⁵. 7) Order: 2 × 10⁻³, 5 × 10⁻⁴, 1 × 10⁻², 3 × 10⁻² → 5 × 10⁻⁴ < 2 × 10⁻³ < 1 × 10⁻² < 3 × 10⁻². 8) How many times larger is 6 × 10⁸ than 2 × 10⁵? 3,000. 9) 1.2E7 = 1.2 × 10⁷. 10) 0.000000052 = 5.2 × 10⁻⁸."
+  },
+  {
+   "week": 28,
+   "prep": "Calculator, NASA planetary distance data. Prepare the self-checking review puzzle and the Unit 7 test.",
+   "misconceptions": [
+    "Adding exponents when adding numbers in scientific notation. To add, first rewrite with the same power of 10, then add coefficients.",
+    "Leaving answers like 30 × 10⁷. Adjust to 3 × 10⁸."
+   ],
+   "days": [
+    {
+     "guide": "Multiply coefficients, add exponents, then fix the coefficient if needed. To check, ask: \"(5 × 10⁴)(6 × 10³)?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "(5 × 10⁴)(6 × 10³)?",
+       "a": "30 × 10⁷ = 3 × 10⁸."
+      },
+      {
+       "q": "(8 × 10⁶) ÷ (4 × 10⁹)?",
+       "a": "2 × 10⁻³."
+      }
+     ]
+    },
+    {
+     "guide": "Rewrite with a common power before adding/subtracting. Child completes 8.",
+     "questions": [
+      {
+       "q": "3.2 × 10⁵ + 4.1 × 10⁴?",
+       "a": "3.2 × 10⁵ + 0.41 × 10⁵ = 3.61 × 10⁵."
+      }
+     ]
+    },
+    {
+     "guide": "Child computes light travel time = distance ÷ (3 × 10⁸ m/s) for each planet. Before moving on, ask: \"Earth is 1.5 × 10¹¹ m from the Sun. How long does sunlight take?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Earth is 1.5 × 10¹¹ m from the Sun. How long does sunlight take?",
+       "a": "5 × 10² s = 500 s ≈ 8.3 minutes."
+      },
+      {
+       "q": "Jupiter is about 7.8 × 10¹¹ m away. Light time?",
+       "a": "2.6 × 10³ s ≈ 43 minutes."
+      }
+     ]
+    },
+    {
+     "guide": "Child works the self-checking puzzle. Check understanding with: \"Simplify (10³)⁻².\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Simplify (10³)⁻².",
+       "a": "10⁻⁶."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test. To check, ask: \"(3 × 10⁸)(2 × 10³)?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "(3 × 10⁸)(2 × 10³)?",
+       "a": "6 × 10¹¹."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test suggested items: 1) (3 × 10⁸)(2 × 10³) = 6 × 10¹¹. 2) (8 × 10⁶) ÷ (4 × 10⁹) = 2 × 10⁻³. 3) (5 × 10⁴)(6 × 10³) = 3 × 10⁸. 4) 3.2 × 10⁵ + 4.1 × 10⁴ = 3.61 × 10⁵. 5) 2⁴ × 2⁻⁶ = 1/4. 6) (10³)⁻² = 10⁻⁶. 7) Light from Sun to Earth: 1.5 × 10¹¹ ÷ 3 × 10⁸ = 500 s. 8) 0.00072 → 7.2 × 10⁻⁴. 1–2 points each."
+  },
+  {
+   "week": 29,
+   "prep": "Graph paper, ruler. Make a perfect-squares chart 1² to 15².",
+   "misconceptions": [
+    "Thinking √50 ≈ 25. Square root asks 'what times itself', not 'half of'.",
+    "Forgetting x² = p has two solutions. x² = 81 → x = 9 or −9."
+   ],
+   "days": [
+    {
+     "guide": "Child draws a tilted square with vertices (0,0), (3,1), (2,4), (−1,3) and finds the area by surrounding it with a 4×4 square and subtracting four triangles. Finish by asking: \"Area of that tilted square?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Area of that tilted square?",
+       "a": "16 − 4(1.5) = 10 square units."
+      }
+     ]
+    },
+    {
+     "guide": "Side length is √(area). Child writes side lengths as square roots and estimates.",
+     "questions": [
+      {
+       "q": "Between which two whole numbers is √10?",
+       "a": "3 and 4 (closer to 3, since 9 < 10 < 16)."
+      }
+     ]
+    },
+    {
+     "guide": "Drill perfect squares 1–225. Solve x² = p for 10 values.",
+     "questions": [
+      {
+       "q": "Solve x² = 81 and x² = 20.",
+       "a": "x = ±9; x = ±√20 ≈ ±4.47."
+      }
+     ]
+    },
+    {
+     "guide": "Estimate by squaring guesses to the tenth. To check, ask: \"Estimate √50, √72 and √130 to the tenth.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Estimate √50, √72 and √130 to the tenth.",
+       "a": "√50 ≈ 7.1, √72 ≈ 8.5, √130 ≈ 11.4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Place √30 on a number line.",
+       "a": "Between 5 and 6, about 5.5 (5.48)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Tilted square with side from (0,0) to (3,1): area 10, side √10. 2) Tilted square side from (0,0) to (2,2): area 8, side √8. 3) x² = 81 → ±9. 4) x² = 20 → ±√20 ≈ ±4.47. 5) x² = 144 → ±12. 6) Place √10 (≈3.16), √30 (≈5.48), √2 (≈1.41) on a number line. 7) √50 between 7 and 8 (≈7.07)."
+  },
+  {
+   "week": 30,
+   "prep": "Graph paper, scissors, ruler, a long string with 12 equally spaced knots (for a 3-4-5 triangle).",
+   "misconceptions": [
+    "Adding legs then squaring: (a + b)² instead of a² + b². Square each first.",
+    "Using a² + b² = c² where c isn't the longest side. c is always the hypotenuse, opposite the right angle."
+   ],
+   "days": [
+    {
+     "guide": "Draw right triangles on grid, build squares on each side, record areas. Before moving on, ask: \"For a 3-4-5 right triangle, what are the areas of the squares?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "For a 3-4-5 right triangle, what are the areas of the squares?",
+       "a": "9, 16 and 25; 9 + 16 = 25."
+      }
+     ]
+    },
+    {
+     "guide": "Cut four congruent right triangles and arrange them in an (a + b) square two ways. Check understanding with: \"Explain the 'two squares' proof.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Explain the 'two squares' proof.",
+       "a": "Both big squares have side a + b and contain the same four triangles. The uncovered area is c² in one and a² + b² in the other, so a² + b² = c²."
+      }
+     ]
+    },
+    {
+     "guide": "Child solves 10 missing-side problems, leaving answers as square roots and decimals. To check, ask: \"Legs 6 and 8: hypotenuse?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Legs 6 and 8: hypotenuse?",
+       "a": "10."
+      },
+      {
+       "q": "Hypotenuse 13, leg 5: other leg?",
+       "a": "√(169 − 25) = √144 = 12."
+      },
+      {
+       "q": "Legs 5 and 7?",
+       "a": "√74 ≈ 8.60."
+      }
+     ]
+    },
+    {
+     "guide": "Test triples with the converse; check a room corner with the 3-4-5 knotted string. Finish by asking: \"Is 6-7-9 a right triangle?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Is 6-7-9 a right triangle?",
+       "a": "No: 36 + 49 = 85, not 81."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz plus written proof explanation. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Is 5-12-13 a right triangle?",
+       "a": "Yes: 25 + 144 = 169 = 13²."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Proof explanation rubric (4 levels): 4 = describes a square of side a + b containing four congruent right triangles; the leftover area is c² in one arrangement and a² + b² in the other, so a² + b² = c²; 3 = correct idea with a gap; 2 = describes the picture without the area reasoning; 1 = restates the formula only. Quiz: 1) legs 6, 8 → 10. 2) legs 5, 7 → √74 ≈ 8.60. 3) hyp 13, leg 5 → 12. 4) legs 2, 3 → √13 ≈ 3.61. 5) Is 5-12-13 right? Yes (25 + 144 = 169). 6) Is 6-7-9 right? No (36 + 49 = 85 ≠ 81)."
+  },
+  {
+   "week": 31,
+   "prep": "A rectangular box (shoe box), tape measure, straw or string, graph paper. Measure a TV's width, height and diagonal.",
+   "misconceptions": [
+    "Forgetting to square-root at the end. a² + b² gives c², not c.",
+    "Using the face diagonal instead of the space diagonal in 3-D. Do two steps: face diagonal first, then use it with the height."
+   ],
+   "days": [
+    {
+     "guide": "Model the ladder problem and measure a TV. Check understanding with: \"A 13-ft ladder's base is 5 ft from the wall. How high does it reach?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "A 13-ft ladder's base is 5 ft from the wall. How high does it reach?",
+       "a": "√(169 − 25) = 12 ft."
+      },
+      {
+       "q": "A TV screen is 48 × 27 in. Diagonal?",
+       "a": "√(2304 + 729) = √3033 ≈ 55.1 in (a '55-inch' TV)."
+      }
+     ]
+    },
+    {
+     "guide": "Compute the shoe box's space diagonal in two steps and check with a straw. To check, ask: \"Box 30 × 18 × 12 cm. Space diagonal?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Box 30 × 18 × 12 cm. Space diagonal?",
+       "a": "√(30² + 18² + 12²) = √1368 ≈ 37.0 cm."
+      }
+     ]
+    },
+    {
+     "guide": "Draw the right triangle under the segment; legs are differences of coordinates. Finish by asking: \"Distance from (1, 2) to (4, 6)?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Distance from (1, 2) to (4, 6)?",
+       "a": "Legs 3 and 4, distance 5."
+      },
+      {
+       "q": "Distance from (−2, 1) to (3, −3)?",
+       "a": "√(25 + 16) = √41 ≈ 6.40."
+      }
+     ]
+    },
+    {
+     "guide": "Child solves 6 multi-step problems. Before moving on, ask: \"A park is 300 m by 400 m. How much shorter is walking the diagonal than walking around two sides?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "A park is 300 m by 400 m. How much shorter is walking the diagonal than walking around two sides?",
+       "a": "Diagonal 500 m vs 700 m: 200 m shorter."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Space diagonal of a 10-cm cube?",
+       "a": "√300 ≈ 17.3 cm."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 13-ft ladder, base 5 ft from wall → 12 ft high. 2) TV 48 × 27 in → √3033 ≈ 55.1 in. 3) Ramp 12 ft long, rises 2 ft → horizontal √140 ≈ 11.8 ft. 4) Box 30 × 18 × 12 cm → √1368 ≈ 37.0 cm. 5) Cube 10 cm → √300 ≈ 17.3 cm. 6) (1, 2) to (4, 6) → 5. 7) (−2, 1) to (3, −3) → √41 ≈ 6.40. 8) (0, 0) to (−6, 8) → 10."
+  },
+  {
+   "week": 32,
+   "prep": "Sugar cubes or snap cubes (at least 64), calculator.",
+   "misconceptions": [
+    "Confusing cube root with dividing by 3. ∛27 = 3 because 3 × 3 × 3 = 27, not 27 ÷ 3.",
+    "Thinking every decimal that goes on forever is irrational. Repeating decimals are rational."
+   ],
+   "days": [
+    {
+     "guide": "Build cubes of side 1–5 and count small cubes. Solve x³ = p.",
+     "questions": [
+      {
+       "q": "Solve x³ = 64.",
+       "a": "x = 4."
+      },
+      {
+       "q": "Estimate ∛30.",
+       "a": "Between 3 (27) and 4 (64), about 3.1."
+      }
+     ]
+    },
+    {
+     "guide": "Long division of 5/11 and 7/12; mark repeating parts. Finish by asking: \"Write 5/11 and 7/12 as decimals.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Write 5/11 and 7/12 as decimals.",
+       "a": "0.454545... (45 repeats) and 0.58333... (3 repeats)."
+      }
+     ]
+    },
+    {
+     "guide": "Model: x = 0.777..., 10x = 7.777..., subtract: 9x = 7. Before moving on, ask: \"Convert 0.2727... to a fraction.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Convert 0.2727... to a fraction.",
+       "a": "100x − x = 27, so x = 27/99 = 3/11."
+      },
+      {
+       "q": "Convert 1.1666...",
+       "a": "100x − 10x = 116.666... − 11.666... = 105, so x = 105/90 = 7/6."
+      }
+     ]
+    },
+    {
+     "guide": "Child sorts 16 numbers into rational/irrational with justification. Check understanding with: \"Classify √16, π, 0.1212..., √2, 22/7.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Classify √16, π, 0.1212..., √2, 22/7.",
+       "a": "√16 = 4 rational; π irrational; 0.1212... = 4/33 rational; √2 irrational; 22/7 rational (it only approximates π)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Review & check day: have the child redo any missed problem in the notebook and explain the error in one sentence.",
+     "questions": [
+      {
+       "q": "Convert 0.777... to a fraction.",
+       "a": "7/9."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) ∛64 = 4. 2) ∛125 = 5. 3) x³ = 30 → between 3 and 4 (≈3.1). 4) 5/11 = 0.454545... 5) 7/12 = 0.58333... 6) 0.777... = 7/9. 7) 0.2727... = 3/11. 8) 1.1666... = 7/6. 9) Classify: √16 rational, π irrational, 0.1212... rational (4/33), √2 irrational, 22/7 rational, √7 irrational."
+  },
+  {
+   "week": 33,
+   "prep": "Number line strips, calculator (for checking only Monday). Prepare the Unit 8 test.",
+   "misconceptions": [
+    "Thinking 22/7 equals π. It is a rational approximation (3.142857...).",
+    "Ordering numbers by looking at the radicand only. Convert each to a decimal approximation first."
+   ],
+   "days": [
+    {
+     "guide": "Trap √2 with successive number lines. Finish by asking: \"Between which tenths and hundredths is √2?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Between which tenths and hundredths is √2?",
+       "a": "1.4² = 1.96 and 1.5² = 2.25, so between 1.4 and 1.5; 1.41² = 1.9881 and 1.42² = 2.0164, so between 1.41 and 1.42."
+      }
+     ]
+    },
+    {
+     "guide": "Convert each number to a decimal and order on a number line. Before moving on, ask: \"Order π, √10, 3.1, 22/7, 3.15.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Order π, √10, 3.1, 22/7, 3.15.",
+       "a": "3.1 < π (3.1416) < 22/7 (3.1429) < 3.15 < √10 (3.1623)."
+      }
+     ]
+    },
+    {
+     "guide": "Estimate then check with calculator. Check understanding with: \"Estimate π² and 2√5 + 1.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Estimate π² and 2√5 + 1.",
+       "a": "π² ≈ 9.87; √5 ≈ 2.24, so 2√5 + 1 ≈ 5.47."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of the unit. To check, ask: \"Distance from (−1, −1) to (5, 7)?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Distance from (−1, −1) to (5, 7)?",
+       "a": "Legs 6 and 8: 10."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test. Finish by asking: \"Is √50 rational?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Is √50 rational?",
+       "a": "No — 50 is not a perfect square, so √50 is irrational (≈ 7.07)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 8 test suggested items: 1) √2 is between 1.41 and 1.42. 2) Order π, √10, 3.1, 22/7, 3.15 → 3.1 < π < 22/7 < 3.15 < √10. 3) Legs 9, 12 → 15. 4) Distance (−1, −1) to (5, 7) → 10. 5) Is 8-15-17 right? Yes. 6) ∛216 = 6. 7) 0.4545... = 5/11. 8) Estimate 2√5 + 1 ≈ 5.47. 9) Classify √49 (rational) and √50 (irrational). 1–2 points each."
+  },
+  {
+   "week": 34,
+   "prep": "Measuring tape, calculator, a ping-pong ball or marble; poster paper and markers.",
+   "misconceptions": [
+    "Demanding an exact answer. A Fermi estimate aims for the right order of magnitude with stated assumptions.",
+    "Forgetting unit consistency (meters vs centimeters). Convert everything before multiplying."
+   ],
+   "days": [
+    {
+     "guide": "Measure the living room; estimate how many 4-cm ping-pong balls fit. Before moving on, ask: \"Room 5 m × 4 m × 2.5 m; ball volume ≈ 33.5 cm³. Estimate.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Room 5 m × 4 m × 2.5 m; ball volume ≈ 33.5 cm³. Estimate.",
+       "a": "Room = 50 m³ = 5 × 10⁷ cm³. 5 × 10⁷ ÷ 33.5 ≈ 1.5 × 10⁶; with packing gaps (≈ 64% filled) about 1 × 10⁶ balls."
+      }
+     ]
+    },
+    {
+     "guide": "Estimate lifetime heartbeats. Check understanding with: \"At 70 beats/min for 80 years, about how many heartbeats?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "At 70 beats/min for 80 years, about how many heartbeats?",
+       "a": "70 × 60 × 24 × 365 × 80 ≈ 2.9 × 10⁹, about 3 billion."
+      }
+     ]
+    },
+    {
+     "guide": "Child picks a question, researches a few facts, builds an estimate. To check, ask: \"California has about 39 million people. If each eats about 1/2 pizza per week, how many pizzas per year?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "California has about 39 million people. If each eats about 1/2 pizza per week, how many pizzas per year?",
+       "a": "3.9 × 10⁷ × 0.5 × 52 ≈ 1 × 10⁹ pizzas."
+      }
+     ]
+    },
+    {
+     "guide": "Child presents the poster; you ask about assumptions. Finish by asking: \"How do you check reasonableness?\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "How do you check reasonableness?",
+       "a": "Compare with a known quantity or re-estimate with different assumptions; the result should be in the same order of magnitude."
+      }
+     ]
+    },
+    {
+     "guide": "Score with the rubric together; child completes 6 cumulative review problems. Before moving on, ask: \"(6 × 10⁴)(5 × 10³)?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "(6 × 10⁴)(5 × 10³)?",
+       "a": "3 × 10⁸."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Poster rubric (4 levels): 4 = clear question, listed assumptions with sources, step-by-step calculation with units, answer in scientific notation, order-of-magnitude reasonableness check; 3 = all steps, one weak assumption or unit slip; 2 = answer with few steps or no assumptions; 1 = guess only. Cumulative review answers: give 6 items, e.g., 2³ × 2⁴ = 128; (6 × 10⁴)(5 × 10³) = 3 × 10⁸; cylinder r = 2, h = 5 → 20π ≈ 62.8; cone r = 3, h = 4 → 12π ≈ 37.7; sphere r = 1 → (4/3)π ≈ 4.19; 10⁻³ = 0.001."
+  },
+  {
+   "week": 35,
+   "prep": "Desmos or a spreadsheet, graph paper; prepare a 30-problem cumulative review set.",
+   "misconceptions": [
+    "Confusing profit with revenue. Profit = revenue − cost.",
+    "Thinking break-even means zero sales. It's where revenue equals cost."
+   ],
+   "days": [
+    {
+     "guide": "Child chooses a business and writes a cost function. Check understanding with: \"Lemonade: $20 fixed (pitcher, sign) + $0.25 per cup. Cost function?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Lemonade: $20 fixed (pitcher, sign) + $0.25 per cup. Cost function?",
+       "a": "C = 20 + 0.25x."
+      }
+     ]
+    },
+    {
+     "guide": "Write revenue; solve the system. To check, ask: \"Selling for $1 per cup, find break-even.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Selling for $1 per cup, find break-even.",
+       "a": "x = 20 + 0.25x → 0.75x = 20 → x ≈ 26.7, so 27 cups."
+      }
+     ]
+    },
+    {
+     "guide": "Fit a line to price vs sales data and predict. Finish by asking: \"Sales are 50 at $1.00 and 30 at $1.50. Predict sales at $1.25 with a line.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Sales are 50 at $1.00 and 30 at $1.50. Predict sales at $1.25 with a line.",
+       "a": "Slope −20/0.5 = −40 per dollar; at $1.25: 50 − 40(0.25) = 40 cups."
+      }
+     ]
+    },
+    {
+     "guide": "30-problem cumulative review; mark items to revisit. Before moving on, ask: \"Solve 4x − 7 = 2x + 9.\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Solve 4x − 7 = 2x + 9.",
+       "a": "x = 8."
+      }
+     ]
+    },
+    {
+     "guide": "Child presents the plan. Check understanding with: \"What is profit at 50 cups for the lemonade stand?\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "What is profit at 50 cups for the lemonade stand?",
+       "a": "R − C = 50 − (20 + 12.50) = $17.50."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Project rubric (4 levels): 4 = cost function with fixed and per-item cost, revenue function, correct break-even point from solving the system and the graph, data-based line of fit with prediction, clear recommendation; 3 = one error; 2 = functions but no break-even or no recommendation; 1 = incomplete. Example check: cost C = 20 + 0.25x, revenue R = 1x → break-even at about 27 cups."
+  },
+  {
+   "week": 36,
+   "prep": "Notebook, formula sheet, calculator; prepare a two-part cumulative final.",
+   "misconceptions": [
+    "Rushing on multistep problems. Encourage writing each step and checking.",
+    "Leaving irrational answers unrounded or unlabeled. State whether the answer is exact or approximate."
+   ],
+   "days": [
+    {
+     "guide": "15 geometry review problems. To check, ask: \"Reflect (2, −3) over the x-axis.\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "Reflect (2, −3) over the x-axis.",
+       "a": "(2, 3)."
+      }
+     ]
+    },
+    {
+     "guide": "15 algebra review problems. Finish by asking: \"Solve 5(x − 2) = 3x + 4.\" — look for the specific points in the model answer.",
+     "questions": [
+      {
+       "q": "Solve 5(x − 2) = 3x + 4.",
+       "a": "5x − 10 = 3x + 4 → x = 7."
+      }
+     ]
+    },
+    {
+     "guide": "Final exam part 1. Before moving on, ask: \"Legs 7 and 24: hypotenuse?\" and have the child point to evidence or show work.",
+     "questions": [
+      {
+       "q": "Legs 7 and 24: hypotenuse?",
+       "a": "25."
+      }
+     ]
+    },
+    {
+     "guide": "Final exam part 2. Check understanding with: \"Solve y = 2x − 3 and y = −x + 6.\" If the answer misses the key idea, revisit today's model together.",
+     "questions": [
+      {
+       "q": "Solve y = 2x − 3 and y = −x + 6.",
+       "a": "(3, 3)."
+      }
+     ]
+    },
+    {
+     "guide": "Correct exam errors; write reflection; organize portfolio for Algebra I. To check, ask: \"What does 3⁻² equal?\" and compare the answer with the model below.",
+     "questions": [
+      {
+       "q": "What does 3⁻² equal?",
+       "a": "1/9."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final exam suggested items: Part 1: 1) Reflect (2, −3) over the x-axis → (2, 3). 2) Similar triangles 4, 6 and 10, x → x = 15. 3) Triangle angles 90° and 38° → 52°. 4) Legs 7 and 24 → 25. 5) Cylinder r = 3, h = 4 → 36π ≈ 113.1. 6) 0.6... = 2/3. 7) Scatter plot description. Part 2: 8) 5(x − 2) = 3x + 4 → x = 7. 9) y = 2x − 3 and y = −x + 6 → (3, 3). 10) Function? {(1, 4), (2, 4)} yes. 11) (2 × 10⁵)(4 × 10⁻²) = 8 × 10³. 12) 3⁻² = 1/9. Portfolio reflection rubric: names 3 skills with evidence (before/after work samples)."
+  }
+ ]
+}

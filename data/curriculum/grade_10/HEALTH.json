@@ -1,0 +1,1852 @@
+{
+  "grade": 10,
+  "subject": "HEALTH",
+  "title": "Driver Education (S1) & First Aid/CPR + Health II (S2)",
+  "description": "Semester 1 is a classroom Driver Education course built on the California DMV Driver Handbook, covering the topics required before a minor may apply for an instruction permit at 15½: licensing and the provisional (GDL) rules, vehicle controls, signs and pavement markings, right-of-way, speed laws, lane use and parking, freeway driving, sharing the road, hazardous conditions, impaired and distracted driving, and collisions and insurance; it ends with full-length practice knowledge tests. Semester 2 combines First Aid, CPR and AED skills with Health II topics: mental and emotional health, substance use prevention (including fentanyl awareness), nutrition and consumer health, healthy relationships, and community and environmental health.",
+  "framework": "California DMV Driver Handbook (current edition) and CA Education Code driver-education requirements; 2008 California Health Education Content Standards (Grades 9–12); 2019 CA Health Education Framework",
+  "minutes_per_day": 40,
+  "ag_requirement": null,
+  "credits": 10,
+  "standards": {
+    "DE-1": "Licensing: instruction permit requirements (age 15½, driver ed, knowledge and vision tests), provisional license rules (6-month permit, 50 supervised hours incl. 10 at night, passenger and 11 p.m.–5 a.m. restrictions), and license classes.",
+    "DE-2": "Vehicle readiness: controls, instruments, pre-drive checks, seat/mirror adjustment, seat belts, airbags, and child passenger restraints.",
+    "DE-3": "Traffic signs (shapes and colors), traffic signals, and pavement markings and lane lines; curb colors.",
+    "DE-4": "Right-of-way rules at intersections, roundabouts, crosswalks, and for pedestrians and emergency vehicles.",
+    "DE-5": "Turning, signaling, lane changes, passing, U-turns, lane positioning, and parking (including hills and parallel parking).",
+    "DE-6": "Speed laws: the Basic Speed Law, maximum and posted limits, school and residential zones, and following distance.",
+    "DE-7": "Sharing the road with pedestrians, bicyclists (3-foot rule), motorcyclists, large trucks, buses, light rail, and slow-moving vehicles.",
+    "DE-8": "Freeway driving: entering, merging, exiting, carpool/HOV lanes, and interchanges.",
+    "DE-9": "Hazardous conditions and defensive driving: night, rain, fog, wind, smoke, skids, space cushions, scanning, and the Move Over law.",
+    "DE-10": "Alcohol and drugs: effects on driving, BAC limits (0.08 adults; 0.01 under 21), implied consent, open-container and DUI penalties.",
+    "DE-11": "Distracted and drowsy driving: California cell-phone laws (minors may not use any wireless device), and fatigue management.",
+    "DE-12": "Collisions and emergencies: what to do after a collision, reporting (SR-1), insurance and financial responsibility, vehicle emergencies, and the point count system.",
+    "DE-13": "Railroad crossings, school buses, work zones, and special road situations.",
+    "DE-14": "Preparation for the DMV knowledge test: test-taking strategies and full practice examinations.",
+    "H-HS.1.1.S": "Describe ways to reduce the risk of injuries as a driver or passenger, including seat belt use and avoiding impaired driving.",
+    "H-HS.1.4.S": "Explain the relationship between substance use, distraction, and fatigue and the risk of motor-vehicle injuries.",
+    "H-HS.1.9.S": "Describe the procedures for basic first aid, CPR, choking, and use of an AED.",
+    "H-HS.5.1.S": "Use a decision-making process to evaluate risky situations, such as riding with an impaired or distracted driver.",
+    "H-HS.7.2.S": "Demonstrate basic first aid and CPR/AED procedures.",
+    "H-HS.8.1.S": "Encourage others to adopt safe behaviors, including safe driving practices.",
+    "H-HS.1.2.M": "Describe the signs, symptoms, and treatment of common mental health conditions, including depression and anxiety.",
+    "H-HS.1.5.M": "Identify warning signs of suicide and appropriate ways to seek help for self and others.",
+    "H-HS.3.1.M": "Identify trusted adults and community resources (including 988) for mental health support.",
+    "H-HS.7.1.M": "Practice stress management and coping strategies.",
+    "H-HS.4.1.M": "Use effective communication and conflict-resolution skills.",
+    "H-HS.1.2.A": "Explain the short- and long-term effects of alcohol, cannabis, nicotine/vaping, and other drugs, including fentanyl.",
+    "H-HS.2.1.A": "Analyze influences such as media, peers, and advertising on substance use.",
+    "H-HS.4.2.A": "Demonstrate refusal and negotiation skills to avoid substance use.",
+    "H-HS.3.2.A": "Locate valid information and services for substance use prevention and treatment, including naloxone access.",
+    "H-HS.1.1.N": "Explain the relationship between nutrition, physical activity, and health, and interpret food labels.",
+    "H-HS.6.1.N": "Develop a personal plan for healthy eating and physical activity.",
+    "H-HS.2.1.P": "Evaluate health products, services, and advertising claims as an informed consumer.",
+    "H-HS.1.6.P": "Explain how environmental factors such as air quality and water affect personal and community health.",
+    "H-HS.1.3.G": "Describe characteristics of healthy and unhealthy relationships, consent, and how to prevent dating violence.",
+    "H-HS.1.6.G": "Explain how to access reproductive and sexual health services and accurate information (CA Healthy Youth Act)."
+  },
+  "resources": [
+    {
+      "name": "California Driver Handbook (CA DMV)",
+      "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+      "note": "Official handbook—the source for every Semester 1 lesson and the permit test"
+    },
+    {
+      "name": "CA DMV – Driver Education and Safety",
+      "url": "https://www.dmv.ca.gov/portal/driver-education-and-safety/",
+      "note": "Teen driver info, educational materials and sample tests"
+    },
+    {
+      "name": "CA DMV – Driver Licenses",
+      "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/driver-licenses-dl/",
+      "note": "Permit and provisional license application steps"
+    },
+    {
+      "name": "American Red Cross – Classes",
+      "url": "https://www.redcross.org/take-a-class",
+      "note": "First Aid/CPR/AED certification classes and free app"
+    },
+    {
+      "name": "American Heart Association CPR",
+      "url": "https://cpr.heart.org/",
+      "note": "Hands-Only CPR videos and certification options"
+    },
+    {
+      "name": "KidsHealth for Teens",
+      "url": "https://kidshealth.org/en/teens/",
+      "note": "Medically reviewed teen health articles"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Licensing, the Vehicle and Driver Readiness",
+      "start_week": 1,
+      "end_week": 3,
+      "big_idea": "Driving is a privilege earned step by step through California's graduated licensing system.",
+      "standards": [
+        "DE-1",
+        "H-HS.1.1.S",
+        "DE-2",
+        "H-HS.8.1.S"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Signs, Signals, Markings and Right-of-Way",
+      "start_week": 4,
+      "end_week": 7,
+      "big_idea": "Shared rules make traffic predictable and safe.",
+      "standards": [
+        "DE-3",
+        "DE-5",
+        "DE-4",
+        "DE-13",
+        "DE-6"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Navigating Roadways and Sharing the Road",
+      "start_week": 8,
+      "end_week": 12,
+      "big_idea": "Safe drivers position, signal and communicate with every road user.",
+      "standards": [
+        "DE-5",
+        "DE-6",
+        "DE-3",
+        "DE-8",
+        "DE-7",
+        "DE-4",
+        "H-HS.8.1.S"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Hazards, Impairment and Distraction",
+      "start_week": 13,
+      "end_week": 16,
+      "big_idea": "Most collisions are preventable when drivers manage risk, stay sober and stay focused.",
+      "standards": [
+        "DE-9",
+        "H-HS.1.1.S",
+        "DE-13",
+        "DE-10",
+        "H-HS.1.4.S",
+        "H-HS.5.1.S",
+        "H-HS.1.2.A",
+        "DE-11",
+        "H-HS.8.1.S"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Collisions, Insurance and Permit Test Prep",
+      "start_week": 17,
+      "end_week": 18,
+      "big_idea": "Knowing the law and what to do in emergencies prepares you for the permit test and the road.",
+      "standards": [
+        "DE-12",
+        "DE-13",
+        "DE-14",
+        "DE-1",
+        "DE-3",
+        "DE-4",
+        "DE-6",
+        "DE-10"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "First Aid, CPR and AED",
+      "start_week": 19,
+      "end_week": 23,
+      "big_idea": "Trained bystanders save lives in the first minutes of an emergency.",
+      "standards": [
+        "H-HS.1.9.S",
+        "H-HS.7.2.S"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Mental and Emotional Health",
+      "start_week": 24,
+      "end_week": 26,
+      "big_idea": "Mental health is health; skills and support help everyone cope.",
+      "standards": [
+        "H-HS.1.2.M",
+        "H-HS.3.1.M",
+        "H-HS.7.1.M",
+        "H-HS.4.1.M",
+        "H-HS.1.5.M"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Substance Use Prevention",
+      "start_week": 27,
+      "end_week": 29,
+      "big_idea": "Accurate information and refusal skills protect health and futures.",
+      "standards": [
+        "H-HS.1.2.A",
+        "H-HS.2.1.A",
+        "H-HS.3.2.A",
+        "H-HS.4.2.A"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Nutrition, Consumer and Environmental Health",
+      "start_week": 30,
+      "end_week": 32,
+      "big_idea": "Informed choices about food, products and environment shape lifelong health.",
+      "standards": [
+        "H-HS.1.1.N",
+        "H-HS.6.1.N",
+        "H-HS.2.1.P",
+        "H-HS.1.6.P"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Healthy Relationships and Final Assessment",
+      "start_week": 33,
+      "end_week": 36,
+      "big_idea": "Respect, consent and communication are the foundation of healthy relationships.",
+      "standards": [
+        "H-HS.1.3.G",
+        "H-HS.4.1.M",
+        "H-HS.1.6.G",
+        "H-HS.1.9.S",
+        "H-HS.1.2.M",
+        "H-HS.1.2.A",
+        "H-HS.7.2.S",
+        "H-HS.6.1.N"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Graduated driver licensing in California",
+      "objectives": [
+        "Explain permit and provisional license requirements"
+      ],
+      "standards": [
+        "DE-1",
+        "H-HS.1.1.S"
+      ],
+      "vocabulary": [
+        "instruction permit",
+        "provisional license",
+        "GDL",
+        "supervised driving"
+      ],
+      "materials": [
+        "CA Driver Handbook",
+        "DMV Driver Licenses page"
+      ],
+      "days": [
+        {
+          "title": "Why GDL?",
+          "work": "Read teen crash statistics and explain why California uses graduated licensing; write three questions you want answered this semester."
+        },
+        {
+          "title": "Permit requirements",
+          "work": "Read the handbook licensing section and list every requirement to get a permit at 15½ (driver ed, application, vision and knowledge tests, parent signature)."
+        },
+        {
+          "title": "Provisional rules",
+          "work": "Create a one-page chart of provisional license restrictions: 11 p.m.–5 a.m. limit, no passengers under 20 without a 25+ licensed adult for 12 months, and exceptions."
+        },
+        {
+          "title": "Practice hours plan",
+          "work": "With a parent, draft a 50-hour supervised driving log template including 10 night hours and behind-the-wheel training sessions."
+        },
+        {
+          "title": "Quiz",
+          "work": "Take a 15-question handbook-style quiz on licensing rules."
+        }
+      ],
+      "assessment": "Licensing quiz."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Vehicle controls and pre-drive routine",
+      "objectives": [
+        "Identify vehicle controls and gauges",
+        "Perform a pre-drive check"
+      ],
+      "standards": [
+        "DE-2",
+        "H-HS.1.1.S"
+      ],
+      "vocabulary": [
+        "ignition",
+        "gear selector",
+        "parking brake",
+        "blind spot",
+        "dashboard warning light"
+      ],
+      "materials": [
+        "family car (parked)",
+        "owner's manual"
+      ],
+      "days": [
+        {
+          "title": "Controls tour",
+          "work": "Sitting in a parked car with a parent, locate and explain every control: lights, wipers, hazards, defroster, parking brake and gear selector."
+        },
+        {
+          "title": "Dashboard",
+          "work": "Use the owner's manual to identify 10 dashboard warning lights and what action each requires."
+        },
+        {
+          "title": "Pre-drive check",
+          "work": "Do a walk-around check (tires, lights, fluids under the car, windows) and a cockpit check (seat, mirrors, belt) and time yourself."
+        },
+        {
+          "title": "Mirrors & blind spots",
+          "work": "Adjust mirrors using the BGE method and have a family member walk around the car to map blind spots."
+        },
+        {
+          "title": "Check",
+          "work": "Demonstrate the full pre-drive routine for a parent with a checklist."
+        }
+      ],
+      "assessment": "Pre-drive checklist."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Occupant protection",
+      "objectives": [
+        "Explain seat belt, airbag and child restraint laws"
+      ],
+      "standards": [
+        "DE-2",
+        "H-HS.1.1.S",
+        "H-HS.8.1.S"
+      ],
+      "vocabulary": [
+        "seat belt law",
+        "airbag",
+        "child safety seat",
+        "crash forces"
+      ],
+      "materials": [
+        "egg, toy car and rubber band (crash demo)",
+        "handbook"
+      ],
+      "days": [
+        {
+          "title": "Crash physics",
+          "work": "Run an egg 'passenger' crash demo on a ramp with and without a rubber-band seat belt and explain inertia."
+        },
+        {
+          "title": "Belt & airbag laws",
+          "work": "Read handbook rules on seat belts and child restraints (children under 2 rear-facing; under 8 in a car seat or booster in the back seat)."
+        },
+        {
+          "title": "Airbag safety",
+          "work": "Explain safe seating distance from airbags and why children ride in back."
+        },
+        {
+          "title": "Persuade",
+          "work": "Create a 30-second PSA script encouraging peers to buckle up every ride."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Unit 1 test on licensing, controls and occupant protection."
+        }
+      ],
+      "assessment": "Unit 1 test."
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "Traffic signs",
+      "objectives": [
+        "Identify signs by shape, color and meaning"
+      ],
+      "standards": [
+        "DE-3"
+      ],
+      "vocabulary": [
+        "regulatory sign",
+        "warning sign",
+        "guide sign",
+        "octagon",
+        "pennant"
+      ],
+      "materials": [
+        "handbook sign pages",
+        "index cards"
+      ],
+      "days": [
+        {
+          "title": "Shapes & colors",
+          "work": "Make flashcards for sign shapes and colors (octagon stop, triangle yield, pentagon school, round railroad, pennant no passing)."
+        },
+        {
+          "title": "Regulatory signs",
+          "work": "Study regulatory signs and sort 20 sign images into must-do and must-not-do."
+        },
+        {
+          "title": "Warning & guide signs",
+          "work": "Study warning and guide signs and explain each to a family member."
+        },
+        {
+          "title": "Sign hunt",
+          "work": "On a ride as a passenger, photograph or list 15 different signs and explain what a driver must do at each."
+        },
+        {
+          "title": "Quiz",
+          "work": "Sign identification quiz (40 signs, 90% goal)."
+        }
+      ],
+      "assessment": "Sign quiz."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Traffic signals and pavement markings",
+      "objectives": [
+        "Interpret signals, lane lines and curb colors"
+      ],
+      "standards": [
+        "DE-3",
+        "DE-5"
+      ],
+      "vocabulary": [
+        "flashing red",
+        "protected turn",
+        "solid yellow line",
+        "double solid line",
+        "curb color"
+      ],
+      "materials": [
+        "handbook",
+        "street view maps"
+      ],
+      "days": [
+        {
+          "title": "Signals",
+          "work": "Study solid, flashing and arrow signals and what to do when a signal is out (treat as all-way stop)."
+        },
+        {
+          "title": "Lane lines",
+          "work": "Diagram yellow vs. white lines, broken vs. solid, double solid and two-way left-turn lanes."
+        },
+        {
+          "title": "Curb colors",
+          "work": "Learn curb colors: red no stopping, yellow loading, white passenger loading, green limited time, blue disabled parking."
+        },
+        {
+          "title": "Street view",
+          "work": "Use an online street-view map to identify markings at three local intersections."
+        },
+        {
+          "title": "Quiz",
+          "work": "Quiz on signals and markings."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Right-of-way at intersections",
+      "objectives": [
+        "Apply right-of-way rules"
+      ],
+      "standards": [
+        "DE-4",
+        "DE-13"
+      ],
+      "vocabulary": [
+        "right-of-way",
+        "uncontrolled intersection",
+        "four-way stop",
+        "T-intersection",
+        "roundabout"
+      ],
+      "materials": [
+        "toy cars",
+        "intersection diagrams"
+      ],
+      "days": [
+        {
+          "title": "Intersections",
+          "work": "Use toy cars on paper intersections to model four-way stops, uncontrolled and T-intersections."
+        },
+        {
+          "title": "Roundabouts",
+          "work": "Study roundabout rules (yield to traffic in the circle, travel counterclockwise) and diagram entering and exiting."
+        },
+        {
+          "title": "Pedestrians",
+          "work": "Learn pedestrian right-of-way at marked and unmarked crosswalks and blind pedestrians with white canes or guide dogs."
+        },
+        {
+          "title": "Emergency vehicles & school buses",
+          "work": "Learn to pull right and stop for emergency vehicles and to stop for flashing red school bus lights."
+        },
+        {
+          "title": "Scenario quiz",
+          "work": "Solve 15 right-of-way scenarios and explain each answer."
+        }
+      ],
+      "assessment": "Scenario quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Speed laws and following distance",
+      "objectives": [
+        "Apply the Basic Speed Law",
+        "Use the 3-second rule"
+      ],
+      "standards": [
+        "DE-6",
+        "DE-13"
+      ],
+      "vocabulary": [
+        "Basic Speed Law",
+        "prima facie limit",
+        "3-second rule",
+        "school zone"
+      ],
+      "materials": [
+        "handbook",
+        "stopwatch"
+      ],
+      "days": [
+        {
+          "title": "Basic Speed Law",
+          "work": "Read and explain the Basic Speed Law: never drive faster than is safe for conditions."
+        },
+        {
+          "title": "Speed limits",
+          "work": "Make a chart of limits: 65 mph max on most highways, 55 for two-lane undivided roads and when towing, 25 in residential and school zones, 15 at blind intersections and railroad crossings."
+        },
+        {
+          "title": "Stopping distance",
+          "work": "Calculate reaction and braking distance at 25, 45 and 65 mph and graph how distance grows with speed."
+        },
+        {
+          "title": "3-second rule",
+          "work": "As a passenger, practice counting 3 seconds behind the vehicle ahead and note when to increase following distance."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Unit 2 test on signs, signals, right-of-way and speed."
+        }
+      ],
+      "assessment": "Unit 2 test."
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "Turns, signals and lane changes",
+      "objectives": [
+        "Describe correct turning and lane-change procedures"
+      ],
+      "standards": [
+        "DE-5"
+      ],
+      "vocabulary": [
+        "signal 100 feet",
+        "bike lane turn",
+        "U-turn",
+        "SMOG lane change"
+      ],
+      "materials": [
+        "handbook diagrams",
+        "toy cars"
+      ],
+      "days": [
+        {
+          "title": "Signaling",
+          "work": "Learn hand and turn signals; signal at least 100 feet before turning and 5 seconds before a freeway lane change."
+        },
+        {
+          "title": "Right & left turns",
+          "work": "Diagram right turns (merging into bike lane within 200 feet) and left turns from two-way and one-way streets."
+        },
+        {
+          "title": "U-turns",
+          "work": "List where U-turns are legal and illegal in California."
+        },
+        {
+          "title": "Lane changes",
+          "work": "Learn the signal–mirror–over-shoulder–go sequence and practice the head check as a passenger."
+        },
+        {
+          "title": "Check",
+          "work": "Diagram quiz on turns and lane changes."
+        }
+      ],
+      "assessment": "Diagram quiz."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Passing and lane positioning",
+      "objectives": [
+        "Explain safe passing and lane choice"
+      ],
+      "standards": [
+        "DE-5",
+        "DE-6"
+      ],
+      "vocabulary": [
+        "passing",
+        "no-passing zone",
+        "center left-turn lane",
+        "lane position"
+      ],
+      "materials": [
+        "handbook"
+      ],
+      "days": [
+        {
+          "title": "Lane choice",
+          "work": "Learn which lane to use for through traffic, passing and turning."
+        },
+        {
+          "title": "Passing",
+          "work": "Learn when passing is illegal (curves, hills, intersections, solid lines) and the steps to pass safely."
+        },
+        {
+          "title": "Being passed",
+          "work": "Learn what to do when another driver passes you."
+        },
+        {
+          "title": "Center turn lane",
+          "work": "Learn rules for two-way center left-turn lanes (no more than 200 feet)."
+        },
+        {
+          "title": "Check",
+          "work": "Scenario quiz."
+        }
+      ],
+      "assessment": "Scenario quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Parking",
+      "objectives": [
+        "Explain parking rules and hill parking"
+      ],
+      "standards": [
+        "DE-5",
+        "DE-3"
+      ],
+      "vocabulary": [
+        "parallel parking",
+        "curb wheel",
+        "hill parking",
+        "fire hydrant"
+      ],
+      "materials": [
+        "toy car",
+        "book ramp",
+        "handbook"
+      ],
+      "days": [
+        {
+          "title": "Parking rules",
+          "work": "List places you may never park (within 15 feet of a fire hydrant, in crosswalks, bike lanes, etc.)."
+        },
+        {
+          "title": "Hill parking",
+          "work": "Model hill parking with a toy car on a book ramp: uphill/downhill, with and without curb."
+        },
+        {
+          "title": "Parallel parking",
+          "work": "Watch a demonstration and write the step-by-step parallel parking procedure."
+        },
+        {
+          "title": "Accessible parking",
+          "work": "Learn disabled-parking rules and penalties."
+        },
+        {
+          "title": "Check",
+          "work": "Parking quiz."
+        }
+      ],
+      "assessment": "Parking quiz."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Freeway driving",
+      "objectives": [
+        "Explain merging, exiting and HOV lanes"
+      ],
+      "standards": [
+        "DE-8",
+        "DE-6"
+      ],
+      "vocabulary": [
+        "acceleration lane",
+        "merge",
+        "deceleration lane",
+        "HOV/carpool lane",
+        "interchange"
+      ],
+      "materials": [
+        "handbook",
+        "local freeway map"
+      ],
+      "days": [
+        {
+          "title": "Entering",
+          "work": "Learn to use the on-ramp acceleration lane to match speed and merge into a gap."
+        },
+        {
+          "title": "Freeway travel",
+          "work": "Learn lane choice, following distance and scanning on freeways."
+        },
+        {
+          "title": "Exiting",
+          "work": "Learn to plan exits early and use the deceleration lane."
+        },
+        {
+          "title": "HOV lanes",
+          "work": "Learn carpool lane rules and markings."
+        },
+        {
+          "title": "Check",
+          "work": "Freeway quiz with diagrams."
+        }
+      ],
+      "assessment": "Freeway quiz."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Sharing the road",
+      "objectives": [
+        "Describe how to share the road with vulnerable users and large vehicles"
+      ],
+      "standards": [
+        "DE-7",
+        "DE-4",
+        "H-HS.8.1.S"
+      ],
+      "vocabulary": [
+        "vulnerable road user",
+        "3-foot rule",
+        "no-zone",
+        "lane splitting",
+        "light rail"
+      ],
+      "materials": [
+        "handbook",
+        "bicycle"
+      ],
+      "days": [
+        {
+          "title": "Pedestrians & cyclists",
+          "work": "Learn the 3-foot passing rule for bicycles and how to share bike lanes when turning."
+        },
+        {
+          "title": "Motorcycles",
+          "work": "Learn about motorcycle visibility and lane splitting in California."
+        },
+        {
+          "title": "Trucks & buses",
+          "work": "Learn about truck 'no-zones' and wide turns; sit in a parked car near a truck diagram to visualize blind spots."
+        },
+        {
+          "title": "Light rail & slow vehicles",
+          "work": "Learn light rail rules and slow-moving vehicle signs."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Unit 3 test on navigating roadways and sharing the road."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Hazardous conditions",
+      "objectives": [
+        "Adjust driving for weather and night"
+      ],
+      "standards": [
+        "DE-9",
+        "H-HS.1.1.S"
+      ],
+      "vocabulary": [
+        "hydroplaning",
+        "skid",
+        "fog",
+        "headlights",
+        "smoke"
+      ],
+      "materials": [
+        "handbook"
+      ],
+      "days": [
+        {
+          "title": "Night driving",
+          "work": "Learn headlight rules (30 min after sunset; when wipers are on) and high-beam use."
+        },
+        {
+          "title": "Rain & fog",
+          "work": "Learn about slippery first rain, hydroplaning and fog driving with low beams."
+        },
+        {
+          "title": "Skids",
+          "work": "Learn skid recovery: ease off pedals and steer where you want to go."
+        },
+        {
+          "title": "Wildfire smoke & wind",
+          "work": "Learn California-specific hazards: wildfire smoke, high winds and mountain driving."
+        },
+        {
+          "title": "Check",
+          "work": "Hazard scenario quiz."
+        }
+      ],
+      "assessment": "Scenario quiz."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Defensive driving and the Move Over law",
+      "objectives": [
+        "Apply scanning and space-management"
+      ],
+      "standards": [
+        "DE-9",
+        "DE-13"
+      ],
+      "vocabulary": [
+        "scanning",
+        "space cushion",
+        "Move Over law",
+        "work zone"
+      ],
+      "materials": [
+        "handbook",
+        "dash-cam videos"
+      ],
+      "days": [
+        {
+          "title": "Scanning",
+          "work": "Practice looking 10–15 seconds ahead while a passenger and call out hazards."
+        },
+        {
+          "title": "Space cushion",
+          "work": "Learn to keep space ahead, behind and to the sides."
+        },
+        {
+          "title": "Hazard perception",
+          "work": "Watch dash-cam clips and identify hazards before they happen."
+        },
+        {
+          "title": "Move Over & work zones",
+          "work": "Learn the Move Over law and double fines in work zones."
+        },
+        {
+          "title": "Check",
+          "work": "Hazard perception test."
+        }
+      ],
+      "assessment": "Hazard perception test."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Alcohol, drugs and driving",
+      "objectives": [
+        "Explain effects of alcohol and drugs on driving",
+        "Know DUI laws"
+      ],
+      "standards": [
+        "DE-10",
+        "H-HS.1.4.S",
+        "H-HS.5.1.S",
+        "H-HS.1.2.A"
+      ],
+      "vocabulary": [
+        "BAC",
+        "implied consent",
+        "zero tolerance",
+        "DUI"
+      ],
+      "materials": [
+        "handbook",
+        "impairment goggles video"
+      ],
+      "days": [
+        {
+          "title": "Effects",
+          "work": "Learn how alcohol, cannabis and medications affect judgment, vision and reaction time."
+        },
+        {
+          "title": "BAC laws",
+          "work": "Learn BAC limits (0.08 adults, 0.01 under 21) and implied consent."
+        },
+        {
+          "title": "Penalties",
+          "work": "Research DUI penalties for minors in California, including license suspension."
+        },
+        {
+          "title": "Decision-making",
+          "work": "Role-play refusing a ride with an impaired driver."
+        },
+        {
+          "title": "Check",
+          "work": "DUI law quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Distracted and drowsy driving",
+      "objectives": [
+        "Explain distraction types and phone laws"
+      ],
+      "standards": [
+        "DE-11",
+        "H-HS.1.4.S",
+        "H-HS.8.1.S"
+      ],
+      "vocabulary": [
+        "visual distraction",
+        "manual distraction",
+        "cognitive distraction",
+        "drowsy driving"
+      ],
+      "materials": [
+        "handbook",
+        "reaction-time app"
+      ],
+      "days": [
+        {
+          "title": "Types",
+          "work": "Learn visual, manual and cognitive distraction."
+        },
+        {
+          "title": "Phone laws",
+          "work": "Learn California phone laws (minors may not use any device, even hands-free)."
+        },
+        {
+          "title": "Reaction test",
+          "work": "Test reaction time with and without texting on an online reaction test."
+        },
+        {
+          "title": "Drowsy driving",
+          "work": "Learn signs of drowsiness and prevention."
+        },
+        {
+          "title": "Unit 4 test",
+          "work": "Unit 4 test."
+        }
+      ],
+      "assessment": "Unit 4 test."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Collisions, insurance and emergencies",
+      "objectives": [
+        "Explain what to do after a collision",
+        "Know financial responsibility"
+      ],
+      "standards": [
+        "DE-12",
+        "DE-13"
+      ],
+      "vocabulary": [
+        "SR-1",
+        "financial responsibility",
+        "point count",
+        "negligent operator"
+      ],
+      "materials": [
+        "handbook"
+      ],
+      "days": [
+        {
+          "title": "After a collision",
+          "work": "Learn steps: stop, help injured, call 911, exchange information, report SR-1 within 10 days if required."
+        },
+        {
+          "title": "Insurance",
+          "work": "Learn minimum insurance and financial responsibility."
+        },
+        {
+          "title": "Point count",
+          "work": "Learn the negligent operator point system and teen penalties."
+        },
+        {
+          "title": "Emergencies",
+          "work": "Learn what to do for brake failure, tire blowout and stalled on railroad tracks."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Permit test preparation and semester final",
+      "objectives": [
+        "Pass full-length practice knowledge tests"
+      ],
+      "standards": [
+        "DE-14",
+        "DE-1",
+        "DE-3",
+        "DE-4",
+        "DE-6",
+        "DE-10"
+      ],
+      "vocabulary": [
+        "knowledge test"
+      ],
+      "materials": [
+        "DMV sample tests",
+        "handbook"
+      ],
+      "days": [
+        {
+          "title": "Practice test 1",
+          "work": "Take a full-length DMV-style practice test and review missed questions."
+        },
+        {
+          "title": "Targeted review",
+          "work": "Review handbook sections for missed questions."
+        },
+        {
+          "title": "Practice test 2",
+          "work": "Take a second practice test aiming for 90%."
+        },
+        {
+          "title": "Semester final",
+          "work": "Take the semester final exam."
+        },
+        {
+          "title": "Next steps",
+          "work": "Complete a checklist for applying for a permit (DL 44 form online, documents, appointment)."
+        }
+      ],
+      "assessment": "Semester final and practice tests."
+    },
+    {
+      "week": 19,
+      "unit": 6,
+      "topic": "Emergency action steps",
+      "objectives": [
+        "Apply check-call-care"
+      ],
+      "standards": [
+        "H-HS.1.9.S",
+        "H-HS.7.2.S"
+      ],
+      "vocabulary": [
+        "check-call-care",
+        "scene safety",
+        "Good Samaritan law",
+        "consent"
+      ],
+      "materials": [
+        "Red Cross First Aid app",
+        "first aid kit"
+      ],
+      "days": [
+        {
+          "title": "Check-Call-Care",
+          "work": "Learn the emergency action steps and practice scene-safety checks."
+        },
+        {
+          "title": "Calling 911",
+          "work": "Practice what to tell a 911 dispatcher."
+        },
+        {
+          "title": "Good Samaritan",
+          "work": "Learn California's Good Samaritan protections and consent."
+        },
+        {
+          "title": "First aid kit",
+          "work": "Build or inventory a home and car first aid kit."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "CPR and AED",
+      "objectives": [
+        "Perform adult CPR and use an AED"
+      ],
+      "standards": [
+        "H-HS.1.9.S",
+        "H-HS.7.2.S"
+      ],
+      "vocabulary": [
+        "compressions",
+        "rescue breaths",
+        "AED",
+        "chain of survival"
+      ],
+      "materials": [
+        "CPR manikin or firm pillow",
+        "AHA Hands-Only CPR video"
+      ],
+      "days": [
+        {
+          "title": "Chain of survival",
+          "work": "Learn the chain of survival."
+        },
+        {
+          "title": "Compressions",
+          "work": "Practice compressions at 100–120 per minute to 'Stayin' Alive' on a pillow or manikin."
+        },
+        {
+          "title": "Breaths",
+          "work": "Practice rescue breaths on a manikin."
+        },
+        {
+          "title": "AED",
+          "work": "Learn AED steps with a trainer video."
+        },
+        {
+          "title": "Skills check",
+          "work": "Demonstrate CPR for 2 minutes."
+        }
+      ],
+      "assessment": "Skills check."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Choking and child/infant CPR",
+      "objectives": [
+        "Perform choking relief",
+        "Adapt CPR for children and infants"
+      ],
+      "standards": [
+        "H-HS.1.9.S",
+        "H-HS.7.2.S"
+      ],
+      "vocabulary": [
+        "abdominal thrusts",
+        "back blows",
+        "infant CPR"
+      ],
+      "materials": [
+        "doll"
+      ],
+      "days": [
+        {
+          "title": "Adult choking",
+          "work": "Practice abdominal thrusts on a pillow-wrapped chair back and back blows, then self-rescue thrusts against a chair."
+        },
+        {
+          "title": "Child CPR",
+          "work": "Learn child CPR differences (one or two hands, about 2 inches deep) and practice 5 cycles of 30:2 on a manikin or pillow."
+        },
+        {
+          "title": "Infant CPR",
+          "work": "Practice infant CPR on a doll using two fingers or two thumbs, about 1.5 inches deep, at 100–120 per minute."
+        },
+        {
+          "title": "Infant choking",
+          "work": "Practice infant choking relief with 5 back blows and 5 chest thrusts on a doll, supporting the head."
+        },
+        {
+          "title": "Skills check",
+          "work": "Demonstrate adult, child and infant choking relief and child/infant CPR for a parent using a skills checklist."
+        }
+      ],
+      "assessment": "Choking and pediatric CPR skills checklist."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Injuries and sudden illness",
+      "objectives": [
+        "Treat bleeding, burns, fractures and sudden illness"
+      ],
+      "standards": [
+        "H-HS.1.9.S",
+        "H-HS.7.2.S"
+      ],
+      "vocabulary": [
+        "tourniquet",
+        "burn",
+        "splint",
+        "stroke FAST",
+        "anaphylaxis"
+      ],
+      "materials": [
+        "bandages",
+        "first aid kit"
+      ],
+      "days": [
+        {
+          "title": "Bleeding control",
+          "work": "Practice direct pressure, wound packing on a rolled towel, and applying a commercial or improvised tourniquet 2–3 inches above a wound (Stop the Bleed method)."
+        },
+        {
+          "title": "Burns",
+          "work": "Learn first aid for thermal, chemical and electrical burns: cool with running water 10+ minutes, cover loosely, and know when to call 911."
+        },
+        {
+          "title": "Fractures & sprains",
+          "work": "Splint a 'forearm fracture' with a rolled magazine and triangular bandage and practice RICE for sprains."
+        },
+        {
+          "title": "Sudden illness",
+          "work": "Learn signs and responses for stroke (BE-FAST), heart attack, seizures, diabetic emergencies and anaphylaxis using an epinephrine auto-injector trainer video."
+        },
+        {
+          "title": "Scenario quiz",
+          "work": "Respond to 10 written emergency scenarios, listing the correct first aid steps for each."
+        }
+      ],
+      "assessment": "Scenario quiz."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Environmental emergencies and certification",
+      "objectives": [
+        "Respond to heat, cold and water emergencies"
+      ],
+      "standards": [
+        "H-HS.1.9.S",
+        "H-HS.7.2.S"
+      ],
+      "vocabulary": [
+        "heat stroke",
+        "hypothermia",
+        "drowning"
+      ],
+      "materials": [
+        "first aid kit"
+      ],
+      "days": [
+        {
+          "title": "Heat & cold",
+          "work": "Compare heat exhaustion vs. heat stroke and frostbite vs. hypothermia; make a quick-reference card for hiking and sports."
+        },
+        {
+          "title": "Water safety",
+          "work": "Learn drowning signs (quiet, vertical, no waving) and reach-throw-don't-go rescue; practice a throw with a rope and floating bottle."
+        },
+        {
+          "title": "Mock emergencies",
+          "work": "Run three mock scenarios with family (unresponsive adult, bleeding cyclist, choking child), rotating rescuer and patient roles."
+        },
+        {
+          "title": "Certification",
+          "work": "Complete an online/blended Red Cross or AHA First Aid/CPR/AED course module or schedule an in-person skills session."
+        },
+        {
+          "title": "Unit test",
+          "work": "Unit 6 test: written exam plus timed CPR/AED skills demonstration."
+        }
+      ],
+      "assessment": "Unit 6 written and skills test."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Understanding mental health",
+      "objectives": [
+        "Describe common conditions and treatments"
+      ],
+      "standards": [
+        "H-HS.1.2.M",
+        "H-HS.3.1.M"
+      ],
+      "vocabulary": [
+        "depression",
+        "anxiety",
+        "stigma",
+        "therapy"
+      ],
+      "materials": [
+        "KidsHealth"
+      ],
+      "days": [
+        {
+          "title": "Mental health continuum",
+          "work": "Learn the mental health continuum (thriving to struggling) and place everyday examples on it."
+        },
+        {
+          "title": "Conditions",
+          "work": "Research anxiety disorders and depression on KidsHealth and list symptoms, causes and treatments (therapy, medication, lifestyle)."
+        },
+        {
+          "title": "Brain & body",
+          "work": "Explain how sleep, exercise and social connection affect mood, using evidence from a reliable article."
+        },
+        {
+          "title": "Stigma",
+          "work": "Analyze how media portray mental illness in two examples and rewrite one stigmatizing message."
+        },
+        {
+          "title": "Quiz",
+          "work": "Quiz on common conditions and treatments."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Stress, coping and communication",
+      "objectives": [
+        "Practice stress management"
+      ],
+      "standards": [
+        "H-HS.7.1.M",
+        "H-HS.4.1.M"
+      ],
+      "vocabulary": [
+        "coping",
+        "mindfulness",
+        "I-statement"
+      ],
+      "materials": [
+        "journal"
+      ],
+      "days": [
+        {
+          "title": "Stress log",
+          "work": "Track stressors and physical stress responses for three days and identify patterns."
+        },
+        {
+          "title": "Coping strategies",
+          "work": "Practice box breathing, progressive muscle relaxation and a 10-minute mindfulness exercise; rate which helped most."
+        },
+        {
+          "title": "I-statements",
+          "work": "Practice assertive communication by rewriting five blaming statements as I-statements and role-playing two."
+        },
+        {
+          "title": "Conflict resolution",
+          "work": "Use a five-step conflict-resolution model to role-play a disagreement with a sibling or friend."
+        },
+        {
+          "title": "Wellness plan",
+          "work": "Write a personal wellness plan with three coping strategies, two trusted adults and daily habits."
+        }
+      ],
+      "assessment": "Wellness plan."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Suicide prevention",
+      "objectives": [
+        "Recognize warning signs and get help"
+      ],
+      "standards": [
+        "H-HS.1.5.M",
+        "H-HS.3.1.M"
+      ],
+      "vocabulary": [
+        "warning signs",
+        "988",
+        "trusted adult"
+      ],
+      "materials": [
+        "988 information"
+      ],
+      "days": [
+        {
+          "title": "Warning signs",
+          "work": "Learn suicide warning signs and risk and protective factors from a reliable source."
+        },
+        {
+          "title": "Ask, care, tell",
+          "work": "Practice asking directly and caringly ('Are you thinking about suicide?') and listening without judgment through scripted role-plays."
+        },
+        {
+          "title": "988 and resources",
+          "work": "Learn how the 988 Suicide & Crisis Lifeline works (call, text, chat) and list school, county and online resources."
+        },
+        {
+          "title": "Safety plan",
+          "work": "Complete a sample safety plan template and identify who you would tell if a friend were at risk."
+        },
+        {
+          "title": "Unit test",
+          "work": "Unit 7 test on mental health, coping and suicide prevention."
+        }
+      ],
+      "assessment": "Unit 7 test."
+    },
+    {
+      "week": 27,
+      "unit": 8,
+      "topic": "Alcohol, nicotine and vaping",
+      "objectives": [
+        "Explain effects"
+      ],
+      "standards": [
+        "H-HS.1.2.A",
+        "H-HS.2.1.A"
+      ],
+      "vocabulary": [
+        "nicotine",
+        "vaping",
+        "addiction",
+        "BAC",
+        "alcohol poisoning"
+      ],
+      "materials": [
+        "NIDA for Teens articles",
+        "vape advertisement examples"
+      ],
+      "days": [
+        {
+          "title": "Alcohol",
+          "work": "Learn how alcohol affects the brain and body, BAC factors, and signs of alcohol poisoning (call 911)."
+        },
+        {
+          "title": "Nicotine & vaping",
+          "work": "Read NIDA information on nicotine addiction and vaping ingredients; analyze a vape ad for targeting of teens."
+        },
+        {
+          "title": "Teen brain",
+          "work": "Explain why the developing adolescent brain is more vulnerable to addiction."
+        },
+        {
+          "title": "Influences",
+          "work": "List peer, family, media and advertising influences on substance use and rate their strength."
+        },
+        {
+          "title": "Quiz",
+          "work": "Quiz on alcohol and nicotine effects."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "Cannabis, opioids and fentanyl",
+      "objectives": [
+        "Explain risks"
+      ],
+      "standards": [
+        "H-HS.1.2.A",
+        "H-HS.3.2.A"
+      ],
+      "vocabulary": [
+        "cannabis",
+        "opioid",
+        "fentanyl",
+        "counterfeit pill",
+        "naloxone",
+        "overdose"
+      ],
+      "materials": [
+        "NIDA resources",
+        "naloxone training video"
+      ],
+      "days": [
+        {
+          "title": "Cannabis",
+          "work": "Learn short- and long-term effects of cannabis, including on memory, mental health and driving."
+        },
+        {
+          "title": "Prescription misuse",
+          "work": "Learn risks of misusing prescription stimulants and opioids and how to dispose of medicines safely."
+        },
+        {
+          "title": "Fentanyl",
+          "work": "Learn why counterfeit pills can contain lethal fentanyl and the signs of opioid overdose."
+        },
+        {
+          "title": "Naloxone",
+          "work": "Watch a naloxone (Narcan) nasal-spray training video and practice the steps; learn California pharmacies provide it without a prescription."
+        },
+        {
+          "title": "Quiz",
+          "work": "Quiz on cannabis, opioids and overdose response."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Refusal skills and advocacy",
+      "objectives": [
+        "Demonstrate refusal skills",
+        "Advocate for substance-free choices"
+      ],
+      "standards": [
+        "H-HS.4.2.A",
+        "H-HS.2.1.A"
+      ],
+      "vocabulary": [
+        "refusal skill",
+        "advocacy",
+        "peer pressure"
+      ],
+      "materials": [
+        "scenario cards",
+        "poster materials or phone"
+      ],
+      "days": [
+        {
+          "title": "Refusal skills",
+          "work": "Learn refusal strategies (say no firmly, give a reason, suggest an alternative, leave) and practice five scenarios."
+        },
+        {
+          "title": "Media literacy",
+          "work": "Analyze an alcohol or cannabis ad for target audience and persuasive techniques."
+        },
+        {
+          "title": "Getting help",
+          "work": "Locate local treatment and prevention services and a confidential youth helpline."
+        },
+        {
+          "title": "Advocacy",
+          "work": "Create a poster or 60-second video encouraging peers to stay substance-free with accurate facts."
+        },
+        {
+          "title": "Unit test",
+          "work": "Unit 8 test on substance use prevention."
+        }
+      ],
+      "assessment": "Unit 8 test."
+    },
+    {
+      "week": 30,
+      "unit": 9,
+      "topic": "Nutrition for health and performance",
+      "objectives": [
+        "Interpret food labels",
+        "Plan balanced meals for an active teen"
+      ],
+      "standards": [
+        "H-HS.1.1.N",
+        "H-HS.6.1.N"
+      ],
+      "vocabulary": [
+        "added sugar",
+        "sodium",
+        "macronutrient",
+        "hydration",
+        "eating disorder"
+      ],
+      "materials": [
+        "food labels",
+        "MyPlate website"
+      ],
+      "days": [
+        {
+          "title": "Food labels",
+          "work": "Read three food labels and compare serving size, added sugars, sodium and fiber."
+        },
+        {
+          "title": "Food log",
+          "work": "Log meals for three days and compare to MyPlate recommendations for an active teen."
+        },
+        {
+          "title": "Fueling performance",
+          "work": "Plan pre- and post-activity snacks and hydration for a sports day."
+        },
+        {
+          "title": "Disordered eating",
+          "work": "Learn warning signs of eating disorders and where to get help."
+        },
+        {
+          "title": "Meal plan",
+          "work": "Create a one-day balanced meal plan within a budget and cook one meal."
+        }
+      ],
+      "assessment": "Meal plan."
+    },
+    {
+      "week": 31,
+      "unit": 9,
+      "topic": "Consumer health and health care access",
+      "objectives": [
+        "Evaluate health products and claims",
+        "Explain how to access health services"
+      ],
+      "standards": [
+        "H-HS.2.1.P"
+      ],
+      "vocabulary": [
+        "health claim",
+        "supplement",
+        "insurance",
+        "confidentiality"
+      ],
+      "materials": [
+        "product ads",
+        "health websites"
+      ],
+      "days": [
+        {
+          "title": "Advertising claims",
+          "work": "Analyze five supplement or skin-care ads for health claims and evidence."
+        },
+        {
+          "title": "Reliable information",
+          "work": "Evaluate three health websites using the CRAAP test."
+        },
+        {
+          "title": "Health care access",
+          "work": "Learn how to make an appointment, use insurance cards, and what confidential services minors can access in California."
+        },
+        {
+          "title": "Product comparison",
+          "work": "Compare cost per use of two health products (sunscreen, toothpaste) and their active ingredients."
+        },
+        {
+          "title": "Consumer project",
+          "work": "Write a consumer guide on choosing a safe product or app."
+        }
+      ],
+      "assessment": "Consumer guide."
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Environmental health in California",
+      "objectives": [
+        "Explain how air, water and heat affect health"
+      ],
+      "standards": [
+        "H-HS.1.6.P"
+      ],
+      "vocabulary": [
+        "AQI",
+        "contaminant",
+        "carbon monoxide",
+        "heat illness"
+      ],
+      "materials": [
+        "AirNow website",
+        "local water quality report"
+      ],
+      "days": [
+        {
+          "title": "Air quality",
+          "work": "Check AirNow AQI for your city and learn health actions for each AQI level, especially during wildfire smoke."
+        },
+        {
+          "title": "Water",
+          "work": "Read your local water quality report and explain one contaminant tested."
+        },
+        {
+          "title": "Heat & climate",
+          "work": "Learn about extreme heat health risks and community cooling centers."
+        },
+        {
+          "title": "Home safety",
+          "work": "Do a home environmental health audit (smoke/CO detectors, mold, chemicals storage)."
+        },
+        {
+          "title": "Unit test",
+          "work": "Unit 9 test on nutrition, consumer and environmental health."
+        }
+      ],
+      "assessment": "Unit 9 test."
+    },
+    {
+      "week": 33,
+      "unit": 10,
+      "topic": "Healthy relationships and consent",
+      "objectives": [
+        "Describe healthy relationships",
+        "Explain affirmative consent"
+      ],
+      "standards": [
+        "H-HS.1.3.G",
+        "H-HS.4.1.M"
+      ],
+      "vocabulary": [
+        "consent",
+        "boundary",
+        "dating violence",
+        "digital abuse"
+      ],
+      "materials": [
+        "relationship continuum handout"
+      ],
+      "days": [
+        {
+          "title": "Healthy vs. unhealthy",
+          "work": "Sort relationship behaviors on a continuum from healthy to abusive."
+        },
+        {
+          "title": "Consent",
+          "work": "Learn affirmative consent and practice clear communication of boundaries in scenarios."
+        },
+        {
+          "title": "Digital relationships",
+          "work": "Discuss online safety, sexting laws and digital dating abuse."
+        },
+        {
+          "title": "Getting help",
+          "work": "Learn signs of dating violence and resources such as Love Is Respect."
+        },
+        {
+          "title": "Quiz",
+          "work": "Quiz on healthy relationships and consent."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 34,
+      "unit": 10,
+      "topic": "Sexual health and services",
+      "objectives": [
+        "Explain how to access accurate information and confidential services"
+      ],
+      "standards": [
+        "H-HS.1.6.G",
+        "H-HS.1.3.G"
+      ],
+      "vocabulary": [
+        "STI",
+        "contraception",
+        "confidential services",
+        "abstinence"
+      ],
+      "materials": [
+        "CA Healthy Youth Act information"
+      ],
+      "days": [
+        {
+          "title": "Accurate information",
+          "work": "Review medically accurate information on preventing pregnancy and STIs as required by the CA Healthy Youth Act."
+        },
+        {
+          "title": "Services",
+          "work": "Locate confidential sexual and reproductive health services for teens in your county."
+        },
+        {
+          "title": "Decision-making",
+          "work": "Apply a decision-making model to a relationship scenario."
+        },
+        {
+          "title": "Communication",
+          "work": "Practice talking with a parent or trusted adult about health questions."
+        },
+        {
+          "title": "Quiz",
+          "work": "Quiz on sexual health and services."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 35,
+      "unit": 10,
+      "topic": "Cumulative review",
+      "objectives": [
+        "Review driver education, first aid and Health II content"
+      ],
+      "standards": [
+        "H-HS.1.9.S",
+        "H-HS.1.2.M",
+        "H-HS.1.2.A"
+      ],
+      "vocabulary": [
+        "review"
+      ],
+      "materials": [
+        "notes",
+        "practice test"
+      ],
+      "days": [
+        {
+          "title": "Driver ed review",
+          "work": "Review Semester 1 driver education with a practice DMV knowledge test."
+        },
+        {
+          "title": "First aid review",
+          "work": "Review first aid and CPR with scenario cards and a 2-minute CPR practice."
+        },
+        {
+          "title": "Health II review",
+          "work": "Review mental health, substances, nutrition and relationships with flashcards."
+        },
+        {
+          "title": "Practice exam",
+          "work": "Take a practice final exam."
+        },
+        {
+          "title": "Targeted study",
+          "work": "Study weak areas from the practice exam."
+        }
+      ],
+      "assessment": "Practice final."
+    },
+    {
+      "week": 36,
+      "unit": 10,
+      "topic": "Final exam and personal health plan",
+      "objectives": [
+        "Demonstrate mastery of course knowledge and skills"
+      ],
+      "standards": [
+        "H-HS.7.2.S",
+        "H-HS.6.1.N"
+      ],
+      "vocabulary": [
+        "final"
+      ],
+      "materials": [
+        "notes"
+      ],
+      "days": [
+        {
+          "title": "Final exam",
+          "work": "Take the written final exam."
+        },
+        {
+          "title": "Skills final",
+          "work": "Demonstrate CPR/AED and one first aid skill."
+        },
+        {
+          "title": "Personal health plan",
+          "work": "Write a personal health plan with goals in three areas."
+        },
+        {
+          "title": "Permit check",
+          "work": "Confirm next steps toward the learner's permit."
+        },
+        {
+          "title": "Reflection",
+          "work": "Reflect on how the course will change your choices."
+        }
+      ],
+      "assessment": "Final exam."
+    }
+  ]
+}

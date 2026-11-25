@@ -1,0 +1,1830 @@
+{
+  "grade": 2,
+  "subject": "HEALTH",
+  "title": "Health 2",
+  "description": "Health 2 helps children build healthy habits and safe choices: naming and managing feelings, friendship, standing up to bullying and appreciating families; germs, dental care, sleep and sun protection; MyPlate, breakfast, snacks, food labels, farm-to-table and food safety; daily activity and screen balance; body systems and growth; pedestrian, bike, water, fire, earthquake and personal safety; medicine, poison, tobacco and alcohol awareness; and community health helpers and a healthy environment.",
+  "framework": "2008 California Health Education Content Standards; 2019 CA Health Education Framework",
+  "minutes_per_day": 20,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "H-2.1.1.M": "Identify a variety of feelings and describe healthy ways to express and cope with them.",
+    "H-2.1.2.M": "Describe qualities of a good friend and ways to include others.",
+    "H-2.1.3.M": "Explain how families and family members are different and how they support one another.",
+    "H-2.4.1.M": "Demonstrate listening skills and 'I-messages' to resolve conflicts and express feelings.",
+    "H-2.4.2.M": "Demonstrate how to respond to bullying, including telling a trusted adult and helping others.",
+    "H-2.7.1.M": "Practice strategies to manage stress and strong emotions (deep breathing, counting, asking for help).",
+    "H-2.1.1.P": "Explain how germs cause illness and how handwashing, covering coughs, and vaccines help prevent disease.",
+    "H-2.1.2.P": "Describe proper dental care, including brushing, flossing, limiting sugary foods, and the role of dentists.",
+    "H-2.1.3.P": "Explain why adequate sleep, rest, and limited screen time are important for health.",
+    "H-2.1.4.P": "Describe ways to protect skin, eyes, and ears (sun protection, eye safety, loud noise).",
+    "H-2.3.1.P": "Identify trusted adults and health professionals in the community who promote health.",
+    "H-2.6.1.P": "Set a personal health goal (e.g., brushing twice daily) and track progress.",
+    "H-2.7.1.P": "Demonstrate personal hygiene and dental-care practices.",
+    "H-2.8.1.P": "Encourage others to reduce, reuse, and recycle and to keep the environment healthy.",
+    "H-2.1.1.N": "Identify the five food groups on MyPlate and recommended daily amounts for children.",
+    "H-2.1.2.N": "Describe the benefits of eating a variety of fruits and vegetables and drinking water.",
+    "H-2.1.3.N": "Explain the importance of eating breakfast and choosing healthy snacks low in added sugar, fat, and salt.",
+    "H-2.1.4.N": "Identify where food comes from and how it gets from farms to the table.",
+    "H-2.1.5.N": "Explain how physical activity and limiting screen time benefit the body and mind.",
+    "H-2.2.1.N": "Explain how media and advertising influence food choices.",
+    "H-2.3.1.N": "Use simple information on food labels (serving size, sugar) to compare foods.",
+    "H-2.5.1.N": "Use a decision-making process to choose healthy meals and snacks.",
+    "H-2.6.1.N": "Set a goal to increase daily physical activity or healthy food choices and monitor progress.",
+    "H-2.7.1.N": "Practice food safety: handwashing, washing produce, and keeping foods at safe temperatures.",
+    "H-2.1.1.G": "Describe the basic structure and functions of the skeletal, muscular, digestive, circulatory, and respiratory systems.",
+    "H-2.1.2.G": "Explain that people grow and develop at different rates and that each person is unique.",
+    "H-2.1.3.G": "Describe how the senses work and how to protect sense organs.",
+    "H-2.1.4.G": "Identify life stages (infant, child, teen, adult, older adult) and how needs change.",
+    "H-2.1.1.S": "Identify safety rules for walking, biking, riding in vehicles, and using playgrounds.",
+    "H-2.1.2.S": "Describe fire, earthquake, and emergency safety, including a family emergency plan and kit.",
+    "H-2.1.3.S": "Explain water and sun safety rules.",
+    "H-2.1.4.S": "Distinguish between safe and unsafe touch and situations, including online and with strangers.",
+    "H-2.1.5.S": "Identify dangers of weapons and what to do if a weapon is found.",
+    "H-2.4.1.S": "Demonstrate how to call 911, give accurate information, and ask a trusted adult for help.",
+    "H-2.7.1.S": "Practice safety behaviors such as wearing a helmet, using a seat belt or booster seat, and following drills.",
+    "H-2.1.1.A": "Explain the difference between medicines and other drugs and the rules for using medicines safely.",
+    "H-2.1.2.A": "Identify household products that are poisonous and how to read warning labels.",
+    "H-2.1.3.A": "Describe the harmful effects of tobacco, vaping, secondhand smoke, and alcohol on the body.",
+    "H-2.2.1.A": "Identify how family, friends, and media influence decisions about alcohol, tobacco, and other drugs.",
+    "H-2.4.1.A": "Demonstrate refusal skills to avoid unsafe substances and situations."
+  },
+  "resources": [
+    {
+      "name": "MyPlate (USDA) – Kids",
+      "url": "https://www.myplate.gov/",
+      "note": "Food group activity sheets, games and family tips"
+    },
+    {
+      "name": "KidsHealth – For Kids",
+      "url": "https://kidshealth.org/",
+      "note": "Kid-friendly articles on germs, teeth, feelings, safety and the body"
+    },
+    {
+      "name": "California Department of Education – Health Education",
+      "url": "https://www.cde.ca.gov/ci/he/",
+      "note": "CA Health Education Content Standards and Framework"
+    },
+    {
+      "name": "PBS LearningMedia",
+      "url": "https://www.pbslearningmedia.org/",
+      "note": "Videos on feelings, hygiene, safety and healthy eating"
+    },
+    {
+      "name": "Ready.gov – Kids",
+      "url": "https://www.ready.gov/kids",
+      "note": "Family emergency plans and kit checklists"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Feelings, Friends and Families",
+      "start_week": 1,
+      "end_week": 5,
+      "big_idea": "Understanding feelings and treating others with kindness help everyone feel safe and included.",
+      "standards": [
+        "H-2.1.1.M",
+        "H-2.1.2.M",
+        "H-2.1.3.M",
+        "H-2.4.1.M",
+        "H-2.4.2.M",
+        "H-2.7.1.M"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Personal Health and Hygiene",
+      "start_week": 6,
+      "end_week": 10,
+      "big_idea": "Daily habits like washing hands, caring for teeth and sleeping well protect our health.",
+      "standards": [
+        "H-2.1.1.P",
+        "H-2.1.2.P",
+        "H-2.1.3.P",
+        "H-2.1.4.P",
+        "H-2.6.1.P",
+        "H-2.7.1.P"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Nutrition: Fuel for Growing Bodies",
+      "start_week": 11,
+      "end_week": 16,
+      "big_idea": "A variety of foods from every food group, plus water, fuels our bodies and brains.",
+      "standards": [
+        "H-2.1.1.N",
+        "H-2.1.2.N",
+        "H-2.1.3.N",
+        "H-2.1.4.N",
+        "H-2.2.1.N",
+        "H-2.3.1.N",
+        "H-2.5.1.N",
+        "H-2.7.1.N"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Active Living",
+      "start_week": 17,
+      "end_week": 18,
+      "big_idea": "Daily movement and less screen time help our bodies and minds.",
+      "standards": [
+        "H-2.1.5.N",
+        "H-2.6.1.N",
+        "H-2.1.3.P"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "How My Body Works and Grows",
+      "start_week": 19,
+      "end_week": 23,
+      "big_idea": "Body systems work together, and everyone grows in their own way.",
+      "standards": [
+        "H-2.1.1.G",
+        "H-2.1.2.G",
+        "H-2.1.3.G",
+        "H-2.1.4.G"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Injury Prevention and Safety",
+      "start_week": 24,
+      "end_week": 29,
+      "big_idea": "Knowing safety rules and having a plan help us prevent injuries and act in emergencies.",
+      "standards": [
+        "H-2.1.1.S",
+        "H-2.1.2.S",
+        "H-2.1.3.S",
+        "H-2.1.4.S",
+        "H-2.1.5.S",
+        "H-2.4.1.S",
+        "H-2.7.1.S"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Medicines, Poisons, Tobacco and Alcohol",
+      "start_week": 30,
+      "end_week": 32,
+      "big_idea": "Some substances help and some harm; we make safe choices and ask trusted adults.",
+      "standards": [
+        "H-2.1.1.A",
+        "H-2.1.2.A",
+        "H-2.1.3.A",
+        "H-2.2.1.A",
+        "H-2.4.1.A"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Healthy Communities",
+      "start_week": 33,
+      "end_week": 36,
+      "big_idea": "Health helpers and caring citizens keep our community and environment healthy.",
+      "standards": [
+        "H-2.3.1.P",
+        "H-2.8.1.P",
+        "H-2.6.1.N",
+        "H-2.6.1.P"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Feelings and how we show them",
+      "objectives": [
+        "Name a wide range of feelings",
+        "Describe healthy ways to express feelings"
+      ],
+      "standards": [
+        "H-2.1.1.M"
+      ],
+      "vocabulary": [
+        "emotion",
+        "frustrated",
+        "proud",
+        "express"
+      ],
+      "materials": [
+        "feelings chart",
+        "'In My Heart: A Book of Feelings' by Jo Witek (library)"
+      ],
+      "days": [
+        {
+          "title": "Feelings book",
+          "work": "Read 'In My Heart' by Jo Witek and list every feeling word in the book."
+        },
+        {
+          "title": "Feelings thermometer",
+          "work": "Make a feelings thermometer from calm to very upset and color where you are today."
+        },
+        {
+          "title": "Same situation, different feelings",
+          "work": "Discuss how two people might feel differently about the same event (a thunderstorm, a new baby)."
+        },
+        {
+          "title": "Healthy vs. unhealthy",
+          "work": "Sort cards of ways to show anger (yelling, hitting, talking, drawing, walking away) into healthy and unhealthy."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write 3 sentences: 'I feel ___ when ___. I can ___.'"
+        }
+      ],
+      "assessment": "Feeling sentences and sorting activity."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Calming strategies",
+      "objectives": [
+        "Use strategies to manage strong feelings"
+      ],
+      "standards": [
+        "H-2.7.1.M",
+        "H-2.1.1.M"
+      ],
+      "vocabulary": [
+        "calm down",
+        "deep breath",
+        "stress"
+      ],
+      "materials": [
+        "calm-down jar materials (jar, water, glitter)",
+        "GoNoodle Flow videos"
+      ],
+      "days": [
+        {
+          "title": "Breathing tools",
+          "work": "Practice balloon breathing, five-finger breathing and counting to 10."
+        },
+        {
+          "title": "Calm-down jar",
+          "work": "Make a glitter calm-down jar and watch the glitter settle while breathing slowly."
+        },
+        {
+          "title": "Calm corner",
+          "work": "Set up a calm corner at home with a pillow, book and feelings chart."
+        },
+        {
+          "title": "Mindful movement",
+          "work": "Do a GoNoodle Flow or kids yoga video and notice how your body feels after."
+        },
+        {
+          "title": "Review & check",
+          "work": "Role-play a frustrating moment (losing a game) and use one calming strategy."
+        }
+      ],
+      "assessment": "Role-play demonstration of a calming strategy."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Being a good friend",
+      "objectives": [
+        "Describe qualities of a good friend",
+        "Include others"
+      ],
+      "standards": [
+        "H-2.1.2.M",
+        "H-2.4.1.M"
+      ],
+      "vocabulary": [
+        "friend",
+        "include",
+        "respect",
+        "empathy"
+      ],
+      "materials": [
+        "'The Invisible Boy' by Trudy Ludwig (library)",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Read aloud",
+          "work": "Read 'The Invisible Boy' by Trudy Ludwig and discuss how Brian felt left out."
+        },
+        {
+          "title": "Friend recipe",
+          "work": "Write a 'Recipe for a Good Friend' listing ingredients like kindness, sharing and listening."
+        },
+        {
+          "title": "Listening skills",
+          "work": "Practice active listening: eyes on speaker, nod, ask a question; take turns telling about your weekend."
+        },
+        {
+          "title": "I-messages",
+          "work": "Learn 'I feel ___ when ___ because ___' and use it in 3 friend-problem role-plays."
+        },
+        {
+          "title": "Review & check",
+          "work": "Name 3 qualities of a good friend and show one I-message."
+        }
+      ],
+      "assessment": "Friend recipe and I-message role-play."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Standing up to bullying",
+      "objectives": [
+        "Recognize bullying",
+        "Respond safely and help others"
+      ],
+      "standards": [
+        "H-2.4.2.M",
+        "H-2.1.2.M"
+      ],
+      "vocabulary": [
+        "bullying",
+        "bystander",
+        "upstander",
+        "report"
+      ],
+      "materials": [
+        "'Stand Tall, Molly Lou Melon' by Patty Lovell (library)"
+      ],
+      "days": [
+        {
+          "title": "Read aloud",
+          "work": "Read 'Stand Tall, Molly Lou Melon' and talk about how Molly handled being teased."
+        },
+        {
+          "title": "What is bullying",
+          "work": "Learn the difference between rude, mean and bullying (repeated, on purpose, hurtful)."
+        },
+        {
+          "title": "Upstander moves",
+          "work": "Practice 3 upstander moves: say 'Stop', walk away with the target, tell a trusted adult."
+        },
+        {
+          "title": "Trusted adults",
+          "work": "Draw a hand and write a trusted adult on each finger."
+        },
+        {
+          "title": "Review & check",
+          "work": "Respond correctly to 3 bullying scenarios and explain the difference between telling and tattling."
+        }
+      ],
+      "assessment": "Scenario responses."
+    },
+    {
+      "week": 5,
+      "unit": 1,
+      "topic": "Families are different and special",
+      "objectives": [
+        "Describe how families differ and support each other"
+      ],
+      "standards": [
+        "H-2.1.3.M",
+        "H-2.1.1.M"
+      ],
+      "vocabulary": [
+        "family",
+        "support",
+        "responsibility"
+      ],
+      "materials": [
+        "family photos",
+        "'The Family Book' by Todd Parr (library)"
+      ],
+      "days": [
+        {
+          "title": "Read aloud",
+          "work": "Read 'The Family Book' by Todd Parr and list ways families are alike and different."
+        },
+        {
+          "title": "Family portrait",
+          "work": "Draw your family and label how each person helps the family."
+        },
+        {
+          "title": "Family jobs",
+          "work": "Make a chore chart and choose two jobs you will do this week."
+        },
+        {
+          "title": "Family meeting",
+          "work": "Hold a short family meeting to share feelings and plan a fun activity together."
+        },
+        {
+          "title": "Review & check",
+          "work": "Tell 3 ways your family supports you and 2 ways you support your family."
+        }
+      ],
+      "assessment": "Family portrait and oral explanation."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Germs and handwashing",
+      "objectives": [
+        "Explain how germs spread",
+        "Wash hands correctly"
+      ],
+      "standards": [
+        "H-2.1.1.P",
+        "H-2.7.1.P"
+      ],
+      "vocabulary": [
+        "germs",
+        "bacteria",
+        "virus",
+        "spread"
+      ],
+      "materials": [
+        "glitter",
+        "lotion",
+        "soap",
+        "timer"
+      ],
+      "days": [
+        {
+          "title": "Glitter germs",
+          "work": "Put lotion and glitter on hands, shake hands with family and see how 'germs' spread."
+        },
+        {
+          "title": "Handwashing steps",
+          "work": "Learn the 5 handwashing steps (wet, lather, scrub 20 seconds, rinse, dry) and sing 'Happy Birthday' twice."
+        },
+        {
+          "title": "Pepper experiment",
+          "work": "Sprinkle pepper on water and touch it with a soapy finger to see soap push 'germs' away."
+        },
+        {
+          "title": "Cover coughs",
+          "work": "Practice coughing and sneezing into an elbow and learn how vaccines help protect us."
+        },
+        {
+          "title": "Review & check",
+          "work": "Demonstrate handwashing correctly and list 3 times you should wash hands."
+        }
+      ],
+      "assessment": "Handwashing demonstration checklist."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Healthy teeth",
+      "objectives": [
+        "Brush and floss correctly",
+        "Explain how sugar affects teeth"
+      ],
+      "standards": [
+        "H-2.1.2.P",
+        "H-2.7.1.P"
+      ],
+      "vocabulary": [
+        "plaque",
+        "cavity",
+        "enamel",
+        "floss"
+      ],
+      "materials": [
+        "toothbrush",
+        "floss",
+        "eggs",
+        "vinegar",
+        "soda",
+        "water",
+        "cups"
+      ],
+      "days": [
+        {
+          "title": "Tooth parts",
+          "work": "Learn tooth parts (enamel, gum) and how plaque causes cavities; count your teeth in a mirror."
+        },
+        {
+          "title": "Egg experiment",
+          "work": "Soak hard-boiled eggs in water, soda and vinegar overnight to model how drinks affect enamel."
+        },
+        {
+          "title": "Check the eggs",
+          "work": "Observe and record the eggs; discuss why limiting sugary drinks helps teeth."
+        },
+        {
+          "title": "Brush & floss",
+          "work": "Practice 2-minute brushing in circles and flossing with a parent; start a brushing chart."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain the egg experiment results and demonstrate proper brushing."
+        }
+      ],
+      "assessment": "Experiment record and brushing demonstration."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Sleep, rest and screen time",
+      "objectives": [
+        "Explain why sleep matters",
+        "Plan a bedtime routine"
+      ],
+      "standards": [
+        "H-2.1.3.P",
+        "H-2.6.1.P"
+      ],
+      "vocabulary": [
+        "sleep",
+        "routine",
+        "screen time"
+      ],
+      "materials": [
+        "sleep log",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Why sleep",
+          "work": "Learn that kids need 9–12 hours of sleep and how sleep helps the brain and growth."
+        },
+        {
+          "title": "Sleep log",
+          "work": "Start a 4-night sleep log noting bedtime and wake time."
+        },
+        {
+          "title": "Bedtime routine",
+          "work": "Draw a picture schedule for a calm bedtime routine (bath, teeth, book, lights out)."
+        },
+        {
+          "title": "Screen limits",
+          "work": "Discuss how screens before bed affect sleep; make a family 'screens off' time."
+        },
+        {
+          "title": "Review & check",
+          "work": "Total your sleep hours from the log and set a bedtime goal."
+        }
+      ],
+      "assessment": "Sleep log and bedtime goal."
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "Protecting skin, eyes and ears",
+      "objectives": [
+        "Use sun protection",
+        "Protect eyes and ears"
+      ],
+      "standards": [
+        "H-2.1.4.P",
+        "H-2.7.1.P"
+      ],
+      "vocabulary": [
+        "sunscreen",
+        "SPF",
+        "UV rays",
+        "decibel"
+      ],
+      "materials": [
+        "sunscreen bottle",
+        "UV beads (optional)",
+        "construction paper"
+      ],
+      "days": [
+        {
+          "title": "Sun print",
+          "work": "Leave construction paper with objects on it in the sun to see how UV rays fade it; discuss skin."
+        },
+        {
+          "title": "Sun safety",
+          "work": "Learn 'Slip, Slop, Slap, Wrap' (shirt, sunscreen, hat, sunglasses) and read an SPF label."
+        },
+        {
+          "title": "Eye safety",
+          "work": "Discuss safety goggles, never looking at the sun and screen breaks (20-20-20 rule)."
+        },
+        {
+          "title": "Ear safety",
+          "work": "Compare quiet and loud sounds, and learn why loud music and noise can hurt hearing."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a poster about protecting skin, eyes and ears."
+        }
+      ],
+      "assessment": "Poster with three protection tips."
+    },
+    {
+      "week": 10,
+      "unit": 2,
+      "topic": "My healthy habits goal",
+      "objectives": [
+        "Set and track a personal hygiene goal"
+      ],
+      "standards": [
+        "H-2.6.1.P",
+        "H-2.7.1.P",
+        "H-2.1.1.P"
+      ],
+      "vocabulary": [
+        "goal",
+        "habit",
+        "track"
+      ],
+      "materials": [
+        "goal chart",
+        "stickers"
+      ],
+      "days": [
+        {
+          "title": "Habit check",
+          "work": "Review habits from this unit and rate yourself on each with a smiley scale."
+        },
+        {
+          "title": "Pick a goal",
+          "work": "Choose one habit to improve (brush twice daily, wash hands before meals) and write it as a goal."
+        },
+        {
+          "title": "Make a tracker",
+          "work": "Make a 2-week sticker tracker for your goal."
+        },
+        {
+          "title": "Hygiene kit",
+          "work": "Pack a personal hygiene kit (toothbrush, tissues, travel soap) and explain each item."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: germs, teeth, sleep and sun protection (10 oral questions); begin tracking your goal."
+        }
+      ],
+      "assessment": "Unit quiz and goal tracker."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "MyPlate food groups",
+      "objectives": [
+        "Classify foods into the five food groups"
+      ],
+      "standards": [
+        "H-2.1.1.N"
+      ],
+      "vocabulary": [
+        "MyPlate",
+        "grains",
+        "protein",
+        "dairy",
+        "serving"
+      ],
+      "materials": [
+        "MyPlate printable",
+        "grocery flyers",
+        "scissors",
+        "glue"
+      ],
+      "days": [
+        {
+          "title": "MyPlate",
+          "work": "Learn the 5 food groups using MyPlate and name 3 foods in each."
+        },
+        {
+          "title": "Flyer sort",
+          "work": "Cut foods from grocery flyers and glue them onto a MyPlate poster."
+        },
+        {
+          "title": "Plate check",
+          "work": "Draw your dinner and check which food groups it had and which were missing."
+        },
+        {
+          "title": "Food group game",
+          "work": "Play 'food group freeze': run to the corner for the food group called."
+        },
+        {
+          "title": "Review & check",
+          "work": "Sort 15 food cards into groups and plan one balanced lunch."
+        }
+      ],
+      "assessment": "Food sort and balanced lunch plan."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Fruits, vegetables and water",
+      "objectives": [
+        "Explain benefits of fruits, vegetables and water"
+      ],
+      "standards": [
+        "H-2.1.2.N",
+        "H-2.1.4.N"
+      ],
+      "vocabulary": [
+        "vitamin",
+        "nutrient",
+        "hydrate"
+      ],
+      "materials": [
+        "fruits and vegetables",
+        "cups",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Eat the rainbow",
+          "work": "Make a color chart of fruits and vegetables and taste one new produce item."
+        },
+        {
+          "title": "Plant parts we eat",
+          "work": "Sort vegetables by plant part (root, stem, leaf, seed, fruit), connecting to the Science plant unit."
+        },
+        {
+          "title": "Water for life",
+          "work": "Learn why the body needs water; track water cups drunk today."
+        },
+        {
+          "title": "Rethink your drink",
+          "work": "Compare sugar in juice, soda and milk by measuring teaspoons of sugar into cups."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write 3 reasons to eat fruits and vegetables and drink water."
+        }
+      ],
+      "assessment": "Written reasons and rainbow chart."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Breakfast and healthy snacks",
+      "objectives": [
+        "Explain why breakfast matters",
+        "Choose snacks low in added sugar, fat and salt"
+      ],
+      "standards": [
+        "H-2.1.3.N",
+        "H-2.5.1.N"
+      ],
+      "vocabulary": [
+        "breakfast",
+        "snack",
+        "added sugar",
+        "decide"
+      ],
+      "materials": [
+        "snack foods",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Breakfast power",
+          "work": "Learn how breakfast fuels the brain; plan 3 balanced breakfasts."
+        },
+        {
+          "title": "Snack sort",
+          "work": "Sort snacks into 'go' (every day), 'slow' (sometimes) and 'whoa' (once in a while)."
+        },
+        {
+          "title": "Decision steps",
+          "work": "Use a 3-step decision process (choices, think about results, choose) to pick an after-school snack."
+        },
+        {
+          "title": "Snack lab",
+          "work": "Make a healthy snack like apple 'nachos' or veggie wraps and wash produce first."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain your snack choice using the decision steps."
+        }
+      ],
+      "assessment": "Decision-making worksheet and explanation."
+    },
+    {
+      "week": 14,
+      "unit": 3,
+      "topic": "Food labels and advertising",
+      "objectives": [
+        "Compare foods with labels",
+        "Recognize advertising tricks"
+      ],
+      "standards": [
+        "H-2.3.1.N",
+        "H-2.2.1.N"
+      ],
+      "vocabulary": [
+        "label",
+        "serving size",
+        "advertisement",
+        "influence"
+      ],
+      "materials": [
+        "cereal boxes",
+        "food labels"
+      ],
+      "days": [
+        {
+          "title": "Label hunt",
+          "work": "Find the serving size and sugar on 3 cereal boxes."
+        },
+        {
+          "title": "Compare cereals",
+          "work": "Rank the cereals from least to most sugar per serving."
+        },
+        {
+          "title": "Ad detectives",
+          "work": "Watch or look at food ads and identify tricks (cartoon characters, toys, bright colors)."
+        },
+        {
+          "title": "Design an ad",
+          "work": "Design a cereal box or ad for a healthy food using honest claims."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how ads try to influence kids and how labels help you choose."
+        }
+      ],
+      "assessment": "Label comparison and ad design."
+    },
+    {
+      "week": 15,
+      "unit": 3,
+      "topic": "Farm to table",
+      "objectives": [
+        "Describe how food gets from farms to our plates"
+      ],
+      "standards": [
+        "H-2.1.4.N",
+        "H-2.1.2.N"
+      ],
+      "vocabulary": [
+        "farm",
+        "producer",
+        "market"
+      ],
+      "materials": [
+        "local produce",
+        "'From Seed to Plant' by Gail Gibbons (library)"
+      ],
+      "days": [
+        {
+          "title": "Where food comes from",
+          "work": "Trace a food (e.g., strawberries, milk) from a California farm to the table; draw the steps."
+        },
+        {
+          "title": "Farmers market",
+          "work": "Visit a farmers market or grocery produce section and list 5 local foods."
+        },
+        {
+          "title": "Seasonal foods",
+          "work": "Learn which fruits and vegetables grow in each season in California."
+        },
+        {
+          "title": "Grow a snack",
+          "work": "Plant a quick herb or sprout lettuce seeds in a cup."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain the farm-to-table path for one food."
+        }
+      ],
+      "assessment": "Farm-to-table drawing."
+    },
+    {
+      "week": 16,
+      "unit": 3,
+      "topic": "Food safety and meal planning",
+      "objectives": [
+        "Practice food safety",
+        "Plan balanced meals"
+      ],
+      "standards": [
+        "H-2.7.1.N",
+        "H-2.5.1.N",
+        "H-2.1.1.N"
+      ],
+      "vocabulary": [
+        "food safety",
+        "cross-contamination",
+        "refrigerate"
+      ],
+      "materials": [
+        "kitchen",
+        "recipe card"
+      ],
+      "days": [
+        {
+          "title": "Clean, separate, cook, chill",
+          "work": "Learn the 4 food safety steps and find examples in your kitchen."
+        },
+        {
+          "title": "Fridge check",
+          "work": "Check fridge temperature with a parent and see where foods are stored."
+        },
+        {
+          "title": "Plan a meal",
+          "work": "Plan a balanced family dinner using MyPlate."
+        },
+        {
+          "title": "Cook together",
+          "work": "Help cook the planned meal, washing hands and produce first."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit quiz on food groups, snacks, labels and food safety."
+        }
+      ],
+      "assessment": "Nutrition unit quiz."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Active every day",
+      "objectives": [
+        "Explain how activity helps body and mind",
+        "Find ways to be active"
+      ],
+      "standards": [
+        "H-2.1.5.N",
+        "H-2.6.1.N"
+      ],
+      "vocabulary": [
+        "physical activity",
+        "60 minutes",
+        "energy"
+      ],
+      "materials": [
+        "activity log"
+      ],
+      "days": [
+        {
+          "title": "60 minutes",
+          "work": "Learn kids need 60 minutes of activity daily; brainstorm active things to do."
+        },
+        {
+          "title": "Mood and movement",
+          "work": "Rate your mood before and after a 10-minute walk."
+        },
+        {
+          "title": "Activity log",
+          "work": "Start a week-long activity log of minutes moved."
+        },
+        {
+          "title": "Family challenge",
+          "work": "Plan a family active challenge (dance party, bike ride, hike)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Total your active minutes and set a goal for next week."
+        }
+      ],
+      "assessment": "Activity log and goal."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Screens and balance",
+      "objectives": [
+        "Balance screen time and active time"
+      ],
+      "standards": [
+        "H-2.1.5.N",
+        "H-2.1.3.P",
+        "H-2.6.1.N"
+      ],
+      "vocabulary": [
+        "screen time",
+        "balance",
+        "sedentary"
+      ],
+      "materials": [
+        "activity log",
+        "timer"
+      ],
+      "days": [
+        {
+          "title": "Screen count",
+          "work": "Track screen time for 2 days and compare with active minutes."
+        },
+        {
+          "title": "Swap list",
+          "work": "Make a list of 10 active swaps for screen time."
+        },
+        {
+          "title": "Screen-free day",
+          "work": "Plan and enjoy a screen-free afternoon outdoors."
+        },
+        {
+          "title": "Goal check",
+          "work": "Check progress on last week's activity goal and update the log."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how balancing screens and movement helps your health."
+        }
+      ],
+      "assessment": "Activity goal progress and explanation."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Bones and muscles",
+      "objectives": [
+        "Describe the skeletal and muscular systems"
+      ],
+      "standards": [
+        "H-2.1.1.G"
+      ],
+      "vocabulary": [
+        "skeleton",
+        "bone",
+        "muscle",
+        "joint"
+      ],
+      "materials": [
+        "paper bones template",
+        "brads",
+        "chicken bone (optional)"
+      ],
+      "days": [
+        {
+          "title": "Skeleton",
+          "work": "Learn major bones (skull, ribs, spine) and their jobs; feel them on your body."
+        },
+        {
+          "title": "Paper skeleton",
+          "work": "Build a paper skeleton with brad joints and label 6 bones."
+        },
+        {
+          "title": "Muscles pull",
+          "work": "Feel the biceps and triceps when bending and straightening your arm."
+        },
+        {
+          "title": "Strong bones",
+          "work": "Learn how calcium and exercise build strong bones."
+        },
+        {
+          "title": "Review & check",
+          "work": "Label bones and explain how muscles and bones work together."
+        }
+      ],
+      "assessment": "Labeled skeleton."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Heart, lungs and blood",
+      "objectives": [
+        "Describe the circulatory and respiratory systems"
+      ],
+      "standards": [
+        "H-2.1.1.G"
+      ],
+      "vocabulary": [
+        "heart",
+        "lungs",
+        "blood",
+        "oxygen"
+      ],
+      "materials": [
+        "balloons",
+        "straw",
+        "plastic bottle"
+      ],
+      "days": [
+        {
+          "title": "Heart pump",
+          "work": "Squeeze a tennis ball to feel how hard the heart works; learn it pumps blood."
+        },
+        {
+          "title": "Lung model",
+          "work": "Build a balloon lung model in a plastic bottle."
+        },
+        {
+          "title": "Breathing count",
+          "work": "Count breaths per minute at rest and after jumping."
+        },
+        {
+          "title": "Healthy heart",
+          "work": "List ways to keep heart and lungs healthy (exercise, no smoking)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how heart and lungs work together to move oxygen."
+        }
+      ],
+      "assessment": "Oral explanation using models."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Digestion",
+      "objectives": [
+        "Describe the path of food through the body"
+      ],
+      "standards": [
+        "H-2.1.1.G"
+      ],
+      "vocabulary": [
+        "digestion",
+        "stomach",
+        "intestine",
+        "nutrients"
+      ],
+      "materials": [
+        "zip bag",
+        "crackers",
+        "water",
+        "stocking"
+      ],
+      "days": [
+        {
+          "title": "Food journey",
+          "work": "Learn the path: mouth, esophagus, stomach, intestines."
+        },
+        {
+          "title": "Stomach model",
+          "work": "Mash crackers and water in a zip bag to model the stomach."
+        },
+        {
+          "title": "Intestine model",
+          "work": "Squeeze mush through a stocking to model the intestines."
+        },
+        {
+          "title": "Fiber & water",
+          "work": "Discuss why fiber and water help digestion."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw and label the digestive system."
+        }
+      ],
+      "assessment": "Labeled diagram."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Senses and protecting them",
+      "objectives": [
+        "Describe how senses work and how to protect them"
+      ],
+      "standards": [
+        "H-2.1.3.G",
+        "H-2.1.4.P"
+      ],
+      "vocabulary": [
+        "senses",
+        "nerve",
+        "brain"
+      ],
+      "materials": [
+        "mystery bags",
+        "blindfold",
+        "foods for tasting"
+      ],
+      "days": [
+        {
+          "title": "Senses stations",
+          "work": "Do touch, smell and taste mystery stations with a blindfold."
+        },
+        {
+          "title": "Brain messages",
+          "work": "Learn that sense organs send messages to the brain."
+        },
+        {
+          "title": "Eyes & ears check",
+          "work": "Do a simple eye chart and whisper test; learn about vision and hearing checkups."
+        },
+        {
+          "title": "Protect senses",
+          "work": "Make a list of ways to protect each sense organ."
+        },
+        {
+          "title": "Review & check",
+          "work": "Match each sense to its organ and one protection tip."
+        }
+      ],
+      "assessment": "Senses matching."
+    },
+    {
+      "week": 23,
+      "unit": 5,
+      "topic": "Growing and changing",
+      "objectives": [
+        "Explain that people grow at different rates",
+        "Identify life stages"
+      ],
+      "standards": [
+        "H-2.1.2.G",
+        "H-2.1.4.G"
+      ],
+      "vocabulary": [
+        "growth",
+        "life stage",
+        "unique"
+      ],
+      "materials": [
+        "baby photos",
+        "measuring tape"
+      ],
+      "days": [
+        {
+          "title": "Then and now",
+          "work": "Compare a baby photo to now; list what you can do now."
+        },
+        {
+          "title": "Measure me",
+          "work": "Measure height, hand span and foot; compare with family members."
+        },
+        {
+          "title": "Life stages",
+          "work": "Make a life-stage timeline (infant to older adult) and note needs at each."
+        },
+        {
+          "title": "Everyone is unique",
+          "work": "Discuss how kids grow at different rates and that differences are normal."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present your timeline and one way you have grown."
+        }
+      ],
+      "assessment": "Life-stage timeline."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Pedestrian, bike and car safety",
+      "objectives": [
+        "Follow safety rules walking, biking and riding"
+      ],
+      "standards": [
+        "H-2.1.1.S",
+        "H-2.7.1.S"
+      ],
+      "vocabulary": [
+        "pedestrian",
+        "helmet",
+        "booster seat",
+        "crosswalk"
+      ],
+      "materials": [
+        "bike",
+        "helmet",
+        "chalk"
+      ],
+      "days": [
+        {
+          "title": "Street smart",
+          "work": "Practice stop, look left-right-left, and listen at a crosswalk with a parent."
+        },
+        {
+          "title": "Helmet fit",
+          "work": "Check helmet fit with the 2-V-1 rule."
+        },
+        {
+          "title": "Bike skills",
+          "work": "Practice hand signals and stopping on a chalk course."
+        },
+        {
+          "title": "Car safety",
+          "work": "Learn why kids ride in booster seats in the back seat with seat belts."
+        },
+        {
+          "title": "Review & check",
+          "work": "Demonstrate crosswalk safety and helmet fit."
+        }
+      ],
+      "assessment": "Safety demonstration checklist."
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "Playground and water safety",
+      "objectives": [
+        "Follow playground, water and sun safety rules"
+      ],
+      "standards": [
+        "H-2.1.1.S",
+        "H-2.1.3.S"
+      ],
+      "vocabulary": [
+        "lifeguard",
+        "life jacket",
+        "buddy"
+      ],
+      "materials": [
+        "life jacket",
+        "pictures"
+      ],
+      "days": [
+        {
+          "title": "Playground rules",
+          "work": "Visit a playground and identify safe and unsafe behaviors."
+        },
+        {
+          "title": "Water safety",
+          "work": "Learn rules: swim with an adult, wear a life jacket, never swim alone."
+        },
+        {
+          "title": "Reach or throw",
+          "work": "Practice 'reach or throw, don't go' to help someone in water."
+        },
+        {
+          "title": "Sun & heat",
+          "work": "Review sun safety and signs of overheating."
+        },
+        {
+          "title": "Review & check",
+          "work": "Sort scenario cards into safe and unsafe."
+        }
+      ],
+      "assessment": "Scenario sort."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Fire safety",
+      "objectives": [
+        "Know fire safety rules and a home escape plan"
+      ],
+      "standards": [
+        "H-2.1.2.S",
+        "H-2.7.1.S"
+      ],
+      "vocabulary": [
+        "smoke alarm",
+        "escape plan",
+        "meeting place"
+      ],
+      "materials": [
+        "paper",
+        "smoke alarm"
+      ],
+      "days": [
+        {
+          "title": "Fire facts",
+          "work": "Learn about smoke alarms and test one with a parent."
+        },
+        {
+          "title": "Stop, drop, roll",
+          "work": "Practice stop, drop and roll and crawling low under smoke."
+        },
+        {
+          "title": "Escape map",
+          "work": "Draw a home escape map with two ways out of each room."
+        },
+        {
+          "title": "Fire drill",
+          "work": "Hold a family fire drill to the outside meeting place."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain your escape plan and fire rules."
+        }
+      ],
+      "assessment": "Escape map and drill."
+    },
+    {
+      "week": 27,
+      "unit": 6,
+      "topic": "Earthquakes and emergencies",
+      "objectives": [
+        "Prepare for earthquakes and emergencies",
+        "Call 911"
+      ],
+      "standards": [
+        "H-2.1.2.S",
+        "H-2.4.1.S"
+      ],
+      "vocabulary": [
+        "earthquake",
+        "drop cover hold on",
+        "emergency kit",
+        "911"
+      ],
+      "materials": [
+        "backpack",
+        "flashlight",
+        "water bottles"
+      ],
+      "days": [
+        {
+          "title": "Drop, cover, hold on",
+          "work": "Learn and practice the earthquake drill in several rooms."
+        },
+        {
+          "title": "Emergency kit",
+          "work": "Help build a family emergency kit."
+        },
+        {
+          "title": "Calling 911",
+          "work": "Role-play a 911 call stating name, address and the emergency."
+        },
+        {
+          "title": "Know your info",
+          "work": "Memorize your address and a parent's phone number."
+        },
+        {
+          "title": "Review & check",
+          "work": "Do a surprise earthquake drill and recite your address and phone number."
+        }
+      ],
+      "assessment": "Drill and memorization check."
+    },
+    {
+      "week": 28,
+      "unit": 6,
+      "topic": "Safe and unsafe touch and strangers",
+      "objectives": [
+        "Distinguish safe and unsafe situations",
+        "Use No-Go-Tell"
+      ],
+      "standards": [
+        "H-2.1.4.S",
+        "H-2.4.1.S"
+      ],
+      "vocabulary": [
+        "safe touch",
+        "unsafe touch",
+        "No-Go-Tell",
+        "trusted adult"
+      ],
+      "materials": [
+        "scenario cards"
+      ],
+      "days": [
+        {
+          "title": "Safe vs unsafe",
+          "work": "Discuss safe touches (hugs from family) and unsafe ones, and that your body belongs to you."
+        },
+        {
+          "title": "No-Go-Tell",
+          "work": "Practice saying No, getting away and telling a trusted adult."
+        },
+        {
+          "title": "Strangers & tricky people",
+          "work": "Learn about tricky people and never going anywhere without permission."
+        },
+        {
+          "title": "Secrets vs surprises",
+          "work": "Distinguish surprises (fun, temporary) from unsafe secrets."
+        },
+        {
+          "title": "Review & check",
+          "work": "Respond to 4 scenarios with No-Go-Tell."
+        }
+      ],
+      "assessment": "Scenario responses."
+    },
+    {
+      "week": 29,
+      "unit": 6,
+      "topic": "Online safety and weapons",
+      "objectives": [
+        "Stay safe online",
+        "Know what to do if a weapon is found"
+      ],
+      "standards": [
+        "H-2.1.4.S",
+        "H-2.1.5.S",
+        "H-2.4.1.S"
+      ],
+      "vocabulary": [
+        "online",
+        "personal information",
+        "weapon"
+      ],
+      "materials": [
+        "computer",
+        "scenario cards"
+      ],
+      "days": [
+        {
+          "title": "Personal info",
+          "work": "Learn which information stays private online (name, address, school, photos)."
+        },
+        {
+          "title": "Online rules",
+          "work": "Make family online rules: ask first, tell an adult about anything uncomfortable."
+        },
+        {
+          "title": "Weapon safety",
+          "work": "Learn: if you see a gun, don't touch it, leave the area, tell an adult."
+        },
+        {
+          "title": "Practice",
+          "work": "Role-play scenarios about online messages and finding a weapon."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit quiz on safety rules from weeks 24–29."
+        }
+      ],
+      "assessment": "Safety unit quiz."
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "Medicine safety",
+      "objectives": [
+        "Explain safe medicine use"
+      ],
+      "standards": [
+        "H-2.1.1.A"
+      ],
+      "vocabulary": [
+        "medicine",
+        "drug",
+        "dose",
+        "prescription"
+      ],
+      "materials": [
+        "empty medicine box",
+        "labels"
+      ],
+      "days": [
+        {
+          "title": "Medicine vs drug",
+          "work": "Learn medicines help when used correctly and that drugs can harm."
+        },
+        {
+          "title": "Label reading",
+          "work": "Look at an empty medicine box label with a parent; find the dose and warnings."
+        },
+        {
+          "title": "Only from trusted adults",
+          "work": "Discuss why only trusted adults give medicine."
+        },
+        {
+          "title": "Candy or medicine?",
+          "work": "Compare look-alike candies and pills and discuss why to never guess."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain 3 rules for medicine safety."
+        }
+      ],
+      "assessment": "Oral rules."
+    },
+    {
+      "week": 31,
+      "unit": 7,
+      "topic": "Poisons and household products",
+      "objectives": [
+        "Identify poisonous products and warning labels"
+      ],
+      "standards": [
+        "H-2.1.2.A",
+        "H-2.4.1.A"
+      ],
+      "vocabulary": [
+        "poison",
+        "warning label",
+        "Poison Control"
+      ],
+      "materials": [
+        "product labels",
+        "stickers"
+      ],
+      "days": [
+        {
+          "title": "Label hunt",
+          "work": "Find warning labels and the poison symbol on household products with a parent."
+        },
+        {
+          "title": "Safe storage",
+          "work": "Help check that cleaners are stored up high or locked."
+        },
+        {
+          "title": "Poison Control",
+          "work": "Learn the Poison Control number (1-800-222-1222) and add it to the phone."
+        },
+        {
+          "title": "Saying no",
+          "work": "Practice saying no to tasting unknown substances."
+        },
+        {
+          "title": "Review & check",
+          "work": "Identify 5 dangerous products and explain what to do if someone swallows one."
+        }
+      ],
+      "assessment": "Identification check."
+    },
+    {
+      "week": 32,
+      "unit": 7,
+      "topic": "Tobacco, vaping and alcohol",
+      "objectives": [
+        "Describe harmful effects",
+        "Use refusal skills"
+      ],
+      "standards": [
+        "H-2.1.3.A",
+        "H-2.2.1.A",
+        "H-2.4.1.A"
+      ],
+      "vocabulary": [
+        "tobacco",
+        "vape",
+        "secondhand smoke",
+        "refuse"
+      ],
+      "materials": [
+        "paper",
+        "sponges"
+      ],
+      "days": [
+        {
+          "title": "Harmful effects",
+          "work": "Learn how tobacco and vaping harm lungs, heart and teeth."
+        },
+        {
+          "title": "Lung model",
+          "work": "Model clean and smoker lungs with sponges and discuss secondhand smoke."
+        },
+        {
+          "title": "Influences",
+          "work": "Discuss how friends, family and ads influence choices."
+        },
+        {
+          "title": "Refusal skills",
+          "work": "Practice saying no, giving a reason and walking away."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a 'Smoke-Free Me' poster and role-play a refusal."
+        }
+      ],
+      "assessment": "Poster and refusal role-play."
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Community health helpers",
+      "objectives": [
+        "Identify community health helpers"
+      ],
+      "standards": [
+        "H-2.3.1.P"
+      ],
+      "vocabulary": [
+        "doctor",
+        "nurse",
+        "pharmacist",
+        "public health"
+      ],
+      "materials": [
+        "'Community Helpers' books (library)"
+      ],
+      "days": [
+        {
+          "title": "Health helpers",
+          "work": "Learn about doctors, nurses, dentists, pharmacists and school nurses."
+        },
+        {
+          "title": "Interview",
+          "work": "Interview a health helper or family member about their job."
+        },
+        {
+          "title": "Checkups",
+          "work": "Learn what happens at a checkup and why vaccines matter."
+        },
+        {
+          "title": "Thank-you card",
+          "work": "Write a thank-you card to a health helper."
+        },
+        {
+          "title": "Review & check",
+          "work": "Match 6 helpers to their jobs."
+        }
+      ],
+      "assessment": "Matching and interview notes."
+    },
+    {
+      "week": 34,
+      "unit": 8,
+      "topic": "Healthy environment",
+      "objectives": [
+        "Reduce, reuse, recycle",
+        "Keep air and water clean"
+      ],
+      "standards": [
+        "H-2.8.1.P"
+      ],
+      "vocabulary": [
+        "recycle",
+        "pollution",
+        "environment"
+      ],
+      "materials": [
+        "recycling bins",
+        "trash bag",
+        "gloves"
+      ],
+      "days": [
+        {
+          "title": "Three Rs",
+          "work": "Sort household items into reduce, reuse, recycle and trash."
+        },
+        {
+          "title": "Clean air & water",
+          "work": "Discuss how pollution affects health."
+        },
+        {
+          "title": "Neighborhood cleanup",
+          "work": "Do a park or street cleanup with gloves and an adult."
+        },
+        {
+          "title": "Reuse craft",
+          "work": "Make something useful from recyclables."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain how a clean environment helps people stay healthy."
+        }
+      ],
+      "assessment": "Cleanup reflection."
+    },
+    {
+      "week": 35,
+      "unit": 8,
+      "topic": "Health advocacy",
+      "objectives": [
+        "Encourage others to make healthy choices"
+      ],
+      "standards": [
+        "H-2.8.1.P",
+        "H-2.6.1.N"
+      ],
+      "vocabulary": [
+        "advocate",
+        "encourage",
+        "message"
+      ],
+      "materials": [
+        "poster paper",
+        "markers"
+      ],
+      "days": [
+        {
+          "title": "Choose a message",
+          "work": "Choose a health topic from this year to teach others."
+        },
+        {
+          "title": "Plan",
+          "work": "Plan a poster or short video message."
+        },
+        {
+          "title": "Create",
+          "work": "Create the poster or video."
+        },
+        {
+          "title": "Share",
+          "work": "Share your message with family or neighbors."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain why your message matters."
+        }
+      ],
+      "assessment": "Advocacy project rubric."
+    },
+    {
+      "week": 36,
+      "unit": 8,
+      "topic": "My healthy year",
+      "objectives": [
+        "Reflect on health goals and plan for summer"
+      ],
+      "standards": [
+        "H-2.6.1.P",
+        "H-2.6.1.N",
+        "H-2.3.1.P"
+      ],
+      "vocabulary": [
+        "reflect",
+        "goal",
+        "plan"
+      ],
+      "materials": [
+        "health portfolio"
+      ],
+      "days": [
+        {
+          "title": "Look back",
+          "work": "Review your health portfolio from the year."
+        },
+        {
+          "title": "Goal review",
+          "work": "Check progress on hygiene and activity goals."
+        },
+        {
+          "title": "Summer plan",
+          "work": "Write a summer health plan with food, activity, sleep and safety goals."
+        },
+        {
+          "title": "Health fair",
+          "work": "Hold a family health fair showcasing projects."
+        },
+        {
+          "title": "Review & check",
+          "work": "Year-end oral review of key health ideas."
+        }
+      ],
+      "assessment": "Portfolio and summer plan."
+    }
+  ]
+}

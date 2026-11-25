@@ -1,0 +1,343 @@
+{
+  "grade": 6,
+  "subject": "SCI",
+  "title": "Science 6 (Integrated)",
+  "description": "Grade 6 integrated science follows the California Preferred Integrated Model, connecting physical, Earth and life science through energy. Students investigate thermal energy and design an insulated cooler, explain weather and climate through energy transfer in the atmosphere and ocean, examine natural hazards, explore forces that act at a distance and kinetic and potential energy, and study cells, body systems and senses. Every week includes hands-on investigations with household materials and science notebook writing using claim-evidence-reasoning.",
+  "framework": "California Next Generation Science Standards (CA NGSS); 2016 CA Science Framework, Preferred Integrated Course Model, Grade 6",
+  "minutes_per_day": 50,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "MS-PS1-4": "Develop a model that predicts and describes changes in particle motion, temperature and state of a pure substance when thermal energy is added or removed.",
+    "MS-PS2-3": "Ask questions about data to determine the factors that affect the strength of electric and magnetic forces.",
+    "MS-PS2-4": "Construct and present arguments using evidence that gravitational interactions are attractive and depend on the masses of interacting objects.",
+    "MS-PS2-5": "Conduct an investigation to provide evidence that fields exist between objects exerting forces on each other even though the objects are not in contact.",
+    "MS-PS3-1": "Construct and interpret graphical displays of data to describe the relationships of kinetic energy to the mass and speed of an object.",
+    "MS-PS3-2": "Develop a model to describe that when the arrangement of objects interacting at a distance changes, different amounts of potential energy are stored in the system.",
+    "MS-PS3-3": "Apply scientific principles to design, construct and test a device that either minimizes or maximizes thermal energy transfer.",
+    "MS-PS3-4": "Plan an investigation to determine the relationships among the energy transferred, the type of matter, the mass, and the change in average kinetic energy of particles (temperature).",
+    "MS-PS3-5": "Construct, use and present arguments to support the claim that when the kinetic energy of an object changes, energy is transferred to or from the object.",
+    "MS-ESS2-4": "Develop a model to describe the cycling of water through Earth's systems driven by energy from the sun and the force of gravity.",
+    "MS-ESS2-5": "Collect data to provide evidence for how the motions and complex interactions of air masses result in changes in weather conditions.",
+    "MS-ESS2-6": "Develop and use a model to describe how unequal heating and rotation of the Earth cause patterns of atmospheric and oceanic circulation that determine regional climates.",
+    "MS-ESS3-2": "Analyze and interpret data on natural hazards to forecast future catastrophic events and inform the development of technologies to mitigate their effects.",
+    "MS-ESS3-5": "Ask questions to clarify evidence of the factors that have caused the rise in global temperatures over the past century.",
+    "MS-LS1-1": "Conduct an investigation to provide evidence that living things are made of cells, either one cell or many different numbers and types of cells.",
+    "MS-LS1-2": "Develop and use a model to describe the function of a cell as a whole and ways the parts of cells contribute to the function.",
+    "MS-LS1-3": "Use argument supported by evidence for how the body is a system of interacting subsystems composed of groups of cells.",
+    "MS-LS1-8": "Gather and synthesize information that sensory receptors respond to stimuli by sending messages to the brain for immediate behavior or storage as memories.",
+    "MS-ETS1-1": "Define the criteria and constraints of a design problem with sufficient precision to ensure a successful solution.",
+    "MS-ETS1-2": "Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem.",
+    "MS-ETS1-3": "Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each.",
+    "MS-ETS1-4": "Develop a model to generate data for iterative testing and modification of a proposed object, tool or process."
+  },
+  "resources": [
+    {"name": "PhET Interactive Simulations", "url": "https://phet.colorado.edu/", "note": "States of Matter, Energy Skate Park, Magnets and Electromagnets, Gravity and Orbits simulations"},
+    {"name": "NASA Climate Kids", "url": "https://climatekids.nasa.gov/", "note": "Weather, climate, water cycle and global temperature explainers and data"},
+    {"name": "Khan Academy – Middle school Earth and space science", "url": "https://www.khanacademy.org/science/ms-earth-and-space-science", "note": "Weather, climate and natural hazard lessons"},
+    {"name": "Khan Academy – Middle school physics", "url": "https://www.khanacademy.org/science/ms-physics", "note": "Thermal energy, forces and energy lessons"},
+    {"name": "Khan Academy – Middle school biology", "url": "https://www.khanacademy.org/science/ms-biology", "note": "Cells and body systems"},
+    {"name": "CK-12 Science", "url": "https://www.ck12.org/", "note": "Free middle school science FlexBooks and simulations"}
+  ],
+  "units": [
+    {"number": 1, "title": "Thinking Like Scientists and Engineers", "start_week": 1, "end_week": 2, "big_idea": "Scientists ask questions and investigate; engineers define problems with criteria and constraints and test solutions.", "standards": ["MS-ETS1-1", "MS-ETS1-2"]},
+    {"number": 2, "title": "Thermal Energy and Matter", "start_week": 3, "end_week": 7, "big_idea": "Temperature measures particle motion; thermal energy moves from warmer to cooler matter and can be controlled by design.", "standards": ["MS-PS1-4", "MS-PS3-3", "MS-PS3-4", "MS-PS3-5", "MS-ETS1-3", "MS-ETS1-4"]},
+    {"number": 3, "title": "Weather and the Water Cycle", "start_week": 8, "end_week": 12, "big_idea": "The sun's energy and gravity drive the water cycle, and moving air masses produce changing weather.", "standards": ["MS-ESS2-4", "MS-ESS2-5", "MS-PS1-4"]},
+    {"number": 4, "title": "Climate and Global Change", "start_week": 13, "end_week": 15, "big_idea": "Unequal heating and Earth's rotation set up global circulation patterns that create climates; human activities are warming the planet.", "standards": ["MS-ESS2-6", "MS-ESS3-5"]},
+    {"number": 5, "title": "Natural Hazards", "start_week": 16, "end_week": 17, "big_idea": "Data on past hazards help forecast future events and design ways to reduce harm.", "standards": ["MS-ESS3-2", "MS-ETS1-1"]},
+    {"number": 6, "title": "Forces, Fields and Energy", "start_week": 18, "end_week": 23, "big_idea": "Objects can push and pull without touching through fields, and energy is stored and transferred as objects move and interact.", "standards": ["MS-PS2-3", "MS-PS2-4", "MS-PS2-5", "MS-PS3-1", "MS-PS3-2", "MS-PS3-5"]},
+    {"number": 7, "title": "Cells: The Building Blocks of Life", "start_week": 24, "end_week": 28, "big_idea": "All living things are made of cells, and the parts of a cell work together to keep it alive.", "standards": ["MS-LS1-1", "MS-LS1-2"]},
+    {"number": 8, "title": "Body Systems and the Senses", "start_week": 29, "end_week": 33, "big_idea": "The body is a system of interacting subsystems; sensory receptors send messages the brain uses to act and remember.", "standards": ["MS-LS1-3", "MS-LS1-8"]},
+    {"number": 9, "title": "Engineering Capstone: Solar Oven", "start_week": 34, "end_week": 36, "big_idea": "Engineers use science ideas and iterative testing to optimize a design.", "standards": ["MS-ETS1-1", "MS-ETS1-2", "MS-ETS1-3", "MS-ETS1-4", "MS-PS3-3"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "Scientific investigations and the science notebook", "objectives": ["Ask testable questions", "Identify variables and plan a fair test", "Write claim-evidence-reasoning conclusions"], "standards": ["MS-ETS1-1"], "vocabulary": ["hypothesis", "independent variable", "dependent variable", "control", "claim", "evidence", "reasoning"], "materials": ["paper towels of 3 brands", "water", "measuring cup", "notebook"],
+     "days": [
+      {"title": "Notebook setup", "work": "Set up a science notebook with table of contents, safety rules and a page explaining what scientists and engineers do differently."},
+      {"title": "Testable questions", "work": "Turn 10 'wonder' questions into testable questions and identify independent and dependent variables in each."},
+      {"title": "Paper towel investigation", "work": "Design and run a fair test of which paper towel absorbs the most water, keeping water amount and soaking time constant."},
+      {"title": "Data and graphs", "work": "Organize results in a data table, calculate averages of three trials and draw a bar graph."},
+      {"title": "Review & check", "work": "Write a claim-evidence-reasoning conclusion for the paper towel test and quiz on variables."}
+     ], "assessment": "CER conclusion and variables quiz."},
+    {"week": 2, "unit": 1, "topic": "The engineering design process", "objectives": ["Define criteria and constraints", "Evaluate design solutions with a decision matrix"], "standards": ["MS-ETS1-1", "MS-ETS1-2"], "vocabulary": ["criteria", "constraints", "prototype", "iterate", "decision matrix"], "materials": ["index cards", "tape", "pennies", "straws"],
+     "days": [
+      {"title": "Defining problems", "work": "Analyze three everyday products (e.g., a lunch box) and list their criteria and constraints."},
+      {"title": "Index card bridge", "work": "Design and build a bridge from 10 index cards and 30 cm of tape that spans 20 cm and holds the most pennies."},
+      {"title": "Test and redesign", "work": "Test the bridge, record the penny count, then redesign and retest once."},
+      {"title": "Decision matrix", "work": "Score three bridge designs (yours and two sketches) in a weighted decision matrix and choose the best."},
+      {"title": "Review & check", "work": "Write a short engineering report: problem, criteria, constraints, designs tested and results."}
+     ], "assessment": "Engineering report."},
+    {"week": 3, "unit": 2, "topic": "Temperature and particle motion", "objectives": ["Model matter as moving particles", "Relate temperature to average kinetic energy"], "standards": ["MS-PS1-4"], "vocabulary": ["particle", "kinetic energy", "temperature", "thermal energy", "thermometer"], "materials": ["food coloring", "cups of hot and cold water", "thermometer", "PhET States of Matter"],
+     "days": [
+      {"title": "Food coloring in hot and cold water", "work": "Add a drop of food coloring to cups of hot and cold water at the same time, time how long each takes to mix, and record observations."},
+      {"title": "Particle model", "work": "Draw particle models of the two cups and explain the difference using particle motion."},
+      {"title": "Simulation", "work": "Use the PhET States of Matter simulation to heat and cool a substance and record how particle speed changes with temperature."},
+      {"title": "How thermometers work", "work": "Build a simple thermometer from a bottle, colored water and a straw, and test it in warm and cool water baths."},
+      {"title": "Review & check", "work": "Write a CER explaining why food coloring spreads faster in hot water; quiz on temperature vs. thermal energy."}
+     ], "assessment": "CER and quiz."},
+    {"week": 4, "unit": 2, "topic": "Changes of state", "objectives": ["Model what happens to particles during melting, freezing, evaporating and condensing", "Interpret a heating curve"], "standards": ["MS-PS1-4"], "vocabulary": ["melting point", "boiling point", "condensation", "evaporation", "heating curve"], "materials": ["ice cubes", "pot", "kitchen thermometer", "stopwatch", "graph paper"],
+     "days": [
+      {"title": "Heating curve lab", "work": "With adult help, heat ice in a pot, recording temperature every 30 seconds until the water boils."},
+      {"title": "Graph the data", "work": "Graph temperature vs. time and identify the flat sections where the state changes."},
+      {"title": "Why the plateau?", "work": "Use particle models to explain why temperature stays constant while ice melts and water boils."},
+      {"title": "Condensation and freezing", "work": "Observe condensation on a cold glass and freeze water in a cup; model particles during cooling."},
+      {"title": "Review & check", "work": "Draw and label a complete particle model of all state changes and take a quiz on heating curves."}
+     ], "assessment": "Particle model poster and quiz."},
+    {"week": 5, "unit": 2, "topic": "Energy transfer: conduction, convection, radiation", "objectives": ["Distinguish the three methods of thermal energy transfer", "Explain transfer from hot to cold"], "standards": ["MS-PS3-4", "MS-PS3-5"], "vocabulary": ["conduction", "convection", "radiation", "conductor", "insulator", "equilibrium"], "materials": ["metal, wooden and plastic spoons", "butter", "hot water", "lamp", "black and white paper"],
+     "days": [
+      {"title": "Spoon conduction race", "work": "Put a dab of butter on metal, wooden and plastic spoons standing in hot water and record which melts first."},
+      {"title": "Convection currents", "work": "Drop cold blue-dyed water into warm water in a clear container and sketch the convection current."},
+      {"title": "Radiation", "work": "Place thermometers under black and white paper in sunlight or under a lamp and record temperatures every 2 minutes for 20 minutes."},
+      {"title": "Reaching equilibrium", "work": "Mix equal amounts of hot and cold water and measure the final temperature; explain energy flow from hot to cold."},
+      {"title": "Review & check", "work": "Label conduction, convection and radiation in a diagram of a campfire and a kitchen; quiz on transfer methods."}
+     ], "assessment": "Transfer diagram and quiz."},
+    {"week": 6, "unit": 2, "topic": "Mass, material and temperature change", "objectives": ["Plan an investigation of how mass and type of matter affect temperature change"], "standards": ["MS-PS3-4"], "vocabulary": ["specific heat", "mass", "energy transferred"], "materials": ["two cups", "water and sand (or vegetable oil)", "kitchen scale", "thermometer", "lamp or sunny window"],
+     "days": [
+      {"title": "Plan the investigation", "work": "Plan an investigation comparing temperature change of 100 g vs. 200 g of water given equal heating time; identify variables."},
+      {"title": "Mass investigation", "work": "Run the mass investigation under a lamp, recording temperature every 2 minutes."},
+      {"title": "Sand vs. water", "work": "Heat equal masses of sand and water for 15 minutes and compare temperature changes; connect to beaches and coastal climates."},
+      {"title": "Analyze", "work": "Graph both investigations and write how mass and type of matter affect temperature change."},
+      {"title": "Review & check", "work": "Write a CER answering why the beach sand is hotter than the ocean on a sunny afternoon."}
+     ], "assessment": "Lab report with graphs and CER."},
+    {"week": 7, "unit": 2, "topic": "Design challenge: keep it cold", "objectives": ["Design, build and test a device that minimizes thermal energy transfer", "Analyze test data to improve a design"], "standards": ["MS-PS3-3", "MS-ETS1-3", "MS-ETS1-4"], "vocabulary": ["insulation", "prototype", "optimize", "trade-off"], "materials": ["small boxes or cups", "foil", "cotton balls", "bubble wrap", "newspaper", "ice cubes", "kitchen scale"],
+     "days": [
+      {"title": "Define the problem", "work": "Define criteria (an ice cube loses the least mass in 60 minutes) and constraints (materials list, size) for an ice cube keeper."},
+      {"title": "Design and build", "work": "Sketch two designs, choose one using science ideas about conduction, convection and radiation, and build it."},
+      {"title": "Test", "work": "Weigh an ice cube, keep it in your device for 60 minutes alongside a control cup, then weigh the remaining ice."},
+      {"title": "Redesign", "work": "Analyze which features worked, modify the design and retest."},
+      {"title": "Present and check", "work": "Present your data and final design, explaining how it reduces each type of heat transfer; take the unit test."}
+     ], "assessment": "Design challenge rubric and Unit 2 test."},
+    {"week": 8, "unit": 3, "topic": "The water cycle", "objectives": ["Model how sun and gravity drive water through Earth's systems"], "standards": ["MS-ESS2-4", "MS-PS1-4"], "vocabulary": ["evaporation", "transpiration", "condensation", "precipitation", "runoff", "groundwater"], "materials": ["large bowl", "plastic wrap", "small cup", "ice", "plastic bag", "a houseplant or leafy branch"],
+     "days": [
+      {"title": "Water cycle in a bowl", "work": "Build a mini water cycle (bowl with warm salty water, cup in middle, plastic wrap and ice on top) and observe after an hour."},
+      {"title": "Transpiration", "work": "Tie a plastic bag around a leafy branch and record water collected after 24 hours; explain transpiration."},
+      {"title": "Energy in the cycle", "work": "Draw a water cycle model labeling where energy from the sun and the force of gravity drive each process."},
+      {"title": "California's water", "work": "Trace how Sierra Nevada snowmelt reaches California homes using a map; discuss droughts and the snowpack."},
+      {"title": "Review & check", "work": "Explain why the water in the bowl's center cup was not salty (CER) and quiz on water cycle processes."}
+     ], "assessment": "Water cycle model and quiz."},
+    {"week": 9, "unit": 3, "topic": "The atmosphere and air pressure", "objectives": ["Describe atmospheric layers", "Investigate air pressure and its relationship to temperature"], "standards": ["MS-ESS2-5"], "vocabulary": ["atmosphere", "troposphere", "air pressure", "barometer", "density"], "materials": ["balloon", "jar", "straw", "tape", "empty plastic bottle", "hot water"],
+     "days": [
+      {"title": "Layers of air", "work": "Create a scaled drawing of atmospheric layers and note where weather happens."},
+      {"title": "Air has pressure", "work": "Demonstrate air pressure with the index-card-on-a-cup-of-water trick and the crushed bottle (warm air cooling inside a capped bottle)."},
+      {"title": "Build a barometer", "work": "Build a jar-and-balloon barometer with a straw pointer and begin recording daily readings."},
+      {"title": "Warm air rises", "work": "Hold a paper spiral above a warm lamp or radiator and explain the motion using density."},
+      {"title": "Review & check", "work": "Quiz on atmosphere and air pressure; compare your barometer readings with the weather."}
+     ], "assessment": "Quiz and barometer log."},
+    {"week": 10, "unit": 3, "topic": "Humidity, clouds and precipitation", "objectives": ["Explain cloud formation", "Measure humidity and dew point"], "standards": ["MS-ESS2-4", "MS-ESS2-5"], "vocabulary": ["humidity", "dew point", "cloud", "cumulus", "stratus", "cirrus"], "materials": ["clear jar", "warm water", "ice", "match (with adult) or aerosol", "cloud chart"],
+     "days": [
+      {"title": "Cloud in a jar", "work": "With adult help, make a cloud in a jar using warm water, ice and a little smoke, and explain the role of cooling and particles."},
+      {"title": "Dew point", "work": "Add ice slowly to water in a metal can, stirring, and record the temperature when dew forms."},
+      {"title": "Cloud types", "work": "Observe and photograph clouds daily, identify them with a cloud chart and relate them to weather that followed."},
+      {"title": "Precipitation", "work": "Read about how droplets grow into rain, snow, sleet and hail, and make a diagram of each."},
+      {"title": "Review & check", "work": "Quiz on humidity, clouds and precipitation types."}
+     ], "assessment": "Cloud log and quiz."},
+    {"week": 11, "unit": 3, "topic": "Air masses and fronts", "objectives": ["Identify air mass types", "Explain how fronts change weather"], "standards": ["MS-ESS2-5"], "vocabulary": ["air mass", "cold front", "warm front", "stationary front", "high pressure", "low pressure"], "materials": ["two containers", "warm water", "cold blue-dyed water", "cardboard divider", "weather maps from NOAA"],
+     "days": [
+      {"title": "Air mass types", "work": "Learn the four air mass types (maritime/continental, tropical/polar) and identify which ones affect California."},
+      {"title": "Front model", "work": "Model a front with warm red water and cold blue water separated by a divider; remove it and sketch what happens."},
+      {"title": "Reading weather maps", "work": "Interpret front symbols, highs and lows on three daily NOAA weather maps."},
+      {"title": "Weather data", "work": "Collect a week of local temperature, pressure, wind and humidity data and connect changes to fronts on maps."},
+      {"title": "Review & check", "work": "Write a CER explaining a weather change you observed using air mass and front data."}
+     ], "assessment": "Weather data analysis CER."},
+    {"week": 12, "unit": 3, "topic": "Forecasting and severe weather", "objectives": ["Use data to make forecasts", "Explain how storms form"], "standards": ["MS-ESS2-5"], "vocabulary": ["forecast", "meteorologist", "thunderstorm", "hurricane", "tornado", "atmospheric river"], "materials": ["weather log", "National Weather Service website"],
+     "days": [
+      {"title": "Make a forecast", "work": "Use your barometer, cloud and wind observations to forecast tomorrow's weather and check the next day."},
+      {"title": "Thunderstorms", "work": "Diagram the stages of a thunderstorm and explain the roles of rising warm air and condensation."},
+      {"title": "Atmospheric rivers", "work": "Read about atmospheric rivers that bring California winter storms and trace one on a satellite image."},
+      {"title": "Weather report", "work": "Write and record a 2-minute TV-style weather report for your town using real data."},
+      {"title": "Review & check", "work": "Take the Unit 3 test on water cycle, air pressure, air masses and forecasting."}
+     ], "assessment": "Weather report and Unit 3 test."},
+    {"week": 13, "unit": 4, "topic": "Uneven heating and global winds", "objectives": ["Explain why the equator receives more energy than the poles", "Model global wind patterns and the Coriolis effect"], "standards": ["MS-ESS2-6"], "vocabulary": ["latitude", "angle of insolation", "global winds", "Coriolis effect", "jet stream"], "materials": ["flashlight", "graph paper", "globe or ball", "lazy Susan or paper plate", "marker"],
+     "days": [
+      {"title": "Flashlight angles", "work": "Shine a flashlight on graph paper straight down and at an angle; count squares lit to model why the equator is warmer."},
+      {"title": "Convection cells", "work": "Draw global convection cells (Hadley, Ferrel, polar) and explain how they form from uneven heating."},
+      {"title": "Coriolis effect", "work": "Draw a straight line on a spinning paper plate to model the Coriolis effect and explain curved winds."},
+      {"title": "Global wind map", "work": "Label trade winds, westerlies and polar easterlies on a world map and explain which affects California."},
+      {"title": "Review & check", "work": "Quiz on uneven heating and global winds."}
+     ], "assessment": "Global wind map and quiz."},
+    {"week": 14, "unit": 4, "topic": "Ocean currents and regional climate", "objectives": ["Explain how ocean currents distribute energy", "Explain how geography shapes regional climates"], "standards": ["MS-ESS2-6"], "vocabulary": ["ocean current", "California Current", "upwelling", "rain shadow", "climate", "El Nino"], "materials": ["baking dish", "warm and cold colored water", "hair dryer or straw", "climate data for two cities"],
+     "days": [
+      {"title": "Wind-driven currents", "work": "Blow across water in a baking dish with pepper flakes to model wind-driven currents and sketch the pattern."},
+      {"title": "California Current", "work": "Compare San Francisco and Washington, D.C. temperatures at similar latitudes and explain the role of the cold California Current."},
+      {"title": "Rain shadow", "work": "Model a rain shadow with a cardboard mountain and spray bottle; compare rainfall on both sides of the Sierra Nevada using data."},
+      {"title": "Climographs", "work": "Make climographs for San Diego, Sacramento and Death Valley and explain their differences."},
+      {"title": "Review & check", "work": "Write a CER on why two places at the same latitude have different climates."}
+     ], "assessment": "Climographs and CER."},
+    {"week": 15, "unit": 4, "topic": "Global temperature rise", "objectives": ["Analyze data on global temperatures", "Ask questions about factors causing warming"], "standards": ["MS-ESS3-5"], "vocabulary": ["greenhouse effect", "greenhouse gas", "carbon dioxide", "fossil fuels", "climate change"], "materials": ["two jars", "thermometers", "plastic wrap", "lamp", "NASA Climate Kids graphs"],
+     "days": [
+      {"title": "Greenhouse model", "work": "Place thermometers in a covered and an uncovered jar under a lamp and record temperatures every 2 minutes for 20 minutes."},
+      {"title": "Reading the graphs", "work": "Analyze NASA global temperature and atmospheric CO2 graphs and describe trends since 1900."},
+      {"title": "Asking questions", "work": "Write 8 questions to clarify evidence about causes of warming (solar output, volcanoes, CO2) and research answers on NASA Climate Kids."},
+      {"title": "California impacts", "work": "Read about changes to California's snowpack and wildfire seasons and discuss solutions families and communities use."},
+      {"title": "Review & check", "work": "Take the Unit 4 test on climate, circulation and global temperature change."}
+     ], "assessment": "Greenhouse lab write-up and Unit 4 test."},
+    {"week": 16, "unit": 5, "topic": "Earthquakes, volcanoes and landslides", "objectives": ["Analyze patterns in natural hazard data", "Describe how forecasts are made"], "standards": ["MS-ESS3-2"], "vocabulary": ["natural hazard", "fault", "magnitude", "epicenter", "forecast", "landslide"], "materials": ["USGS earthquake map", "graph paper", "tray of sand and water"],
+     "days": [
+      {"title": "Earthquake data", "work": "Use the USGS 'Latest Earthquakes' map to record 20 California earthquakes from the past month and plot them on a map."},
+      {"title": "Patterns along faults", "work": "Compare your map with a map of the San Andreas fault system and describe the pattern."},
+      {"title": "Landslide tray", "work": "Build a sand slope in a tray and add water gradually to observe when a landslide happens; relate to wildfire burn scars and storms."},
+      {"title": "Volcano monitoring", "work": "Read how scientists monitor Mount Shasta and Lassen with seismometers and gas sensors."},
+      {"title": "Review & check", "work": "Quiz on hazard patterns and forecasting."}
+     ], "assessment": "Earthquake map analysis and quiz."},
+    {"week": 17, "unit": 5, "topic": "Mitigating hazards", "objectives": ["Design solutions to reduce hazard damage", "Evaluate technologies such as early warning systems"], "standards": ["MS-ESS3-2", "MS-ETS1-1"], "vocabulary": ["mitigation", "early warning", "retrofit", "base isolation", "defensible space"], "materials": ["sugar cubes or blocks", "cardboard", "rubber bands", "pan of gelatin or tray"],
+     "days": [
+      {"title": "Shake table", "work": "Build a simple shake table from cardboard and rubber bands and test a sugar-cube tower."},
+      {"title": "Earthquake-resistant design", "work": "Redesign the tower with cross-bracing or base isolation and test again, recording results."},
+      {"title": "Early warning", "work": "Learn how California's MyShake/ShakeAlert early warning system uses data and write how seconds of warning help."},
+      {"title": "Family hazard plan", "work": "Create a family emergency plan and kit list for an earthquake or wildfire."},
+      {"title": "Review & check", "work": "Present your shake-table results and family plan; take the Unit 5 test."}
+     ], "assessment": "Shake-table design report and Unit 5 test."},
+    {"week": 18, "unit": 6, "topic": "Magnetic forces and fields", "objectives": ["Investigate factors affecting magnetic force", "Map magnetic fields"], "standards": ["MS-PS2-3", "MS-PS2-5"], "vocabulary": ["magnet", "magnetic field", "pole", "attract", "repel", "field lines"], "materials": ["bar magnets", "paper clips", "iron filings or compass", "ruler", "paper"],
+     "days": [
+      {"title": "Magnet exploration", "work": "Test which household objects are attracted to a magnet and how poles interact; record results."},
+      {"title": "Distance and strength", "work": "Measure how many paper clips a magnet holds at different distances through layers of paper; graph the data."},
+      {"title": "Mapping fields", "work": "Map the magnetic field around a bar magnet using a compass or iron filings under paper and draw field lines."},
+      {"title": "Earth's field", "work": "Make a compass by magnetizing a needle and floating it on a cork; explain Earth's magnetic field."},
+      {"title": "Review & check", "work": "Write a CER on how distance affects magnetic force using your graph."}
+     ], "assessment": "Lab data graph and CER."},
+    {"week": 19, "unit": 6, "topic": "Electric forces and electromagnets", "objectives": ["Investigate static electric forces", "Determine factors affecting electromagnet strength"], "standards": ["MS-PS2-3", "MS-PS2-5"], "vocabulary": ["static electricity", "charge", "electromagnet", "current", "coil"], "materials": ["balloons", "tissue paper bits", "iron nail", "insulated copper wire", "D battery", "paper clips"],
+     "days": [
+      {"title": "Static electricity", "work": "Rub a balloon on hair and test its pull on tissue bits and a stream of tap water at different distances."},
+      {"title": "Charges", "work": "Model positive and negative charges and explain attraction and repulsion between two charged balloons."},
+      {"title": "Build an electromagnet", "work": "With adult supervision, wrap wire around a nail, connect to a battery and count paper clips picked up."},
+      {"title": "Variables", "work": "Test how the number of coils (10, 20, 30) affects electromagnet strength and graph results."},
+      {"title": "Review & check", "work": "Quiz on electric and magnetic forces and write questions you would investigate next."}
+     ], "assessment": "Electromagnet data and quiz."},
+    {"week": 20, "unit": 6, "topic": "Gravity", "objectives": ["Argue that gravity is attractive and depends on mass", "Explain orbits"], "standards": ["MS-PS2-4"], "vocabulary": ["gravity", "mass", "weight", "orbit", "gravitational force"], "materials": ["PhET Gravity and Orbits simulation", "ball on a string", "objects of different masses"],
+     "days": [
+      {"title": "Falling objects", "work": "Drop objects of different masses (a book and a crumpled paper) and test whether they fall at the same rate."},
+      {"title": "Mass vs. weight", "work": "Calculate your weight on the Moon, Mars and Jupiter using gravity ratios and explain why mass stays the same."},
+      {"title": "Orbits simulation", "work": "Use PhET Gravity and Orbits to change the Sun's and Earth's masses and record effects on the orbit."},
+      {"title": "Ball on a string", "work": "Swing a ball on a string to model an orbit and explain what happens when the string (gravity) is removed."},
+      {"title": "Review & check", "work": "Write an argument with evidence that gravitational force depends on mass and distance."}
+     ], "assessment": "Written argument."},
+    {"week": 21, "unit": 6, "topic": "Kinetic energy", "objectives": ["Graph the relationship of kinetic energy to mass and speed"], "standards": ["MS-PS3-1"], "vocabulary": ["kinetic energy", "speed", "mass", "collision"], "materials": ["ramp (board and books)", "toy car", "balls of different masses", "paper cup"],
+     "days": [
+      {"title": "Energy of motion", "work": "Roll a ball down a ramp into a paper cup and measure how far the cup slides as evidence of kinetic energy."},
+      {"title": "Mass investigation", "work": "Use balls of different mass from the same ramp height and record cup distance in three trials each."},
+      {"title": "Speed investigation", "work": "Release the same ball from three ramp heights (different speeds) and record cup distance."},
+      {"title": "Graph it", "work": "Graph cup distance vs. mass and vs. speed and describe which relationship is steeper."},
+      {"title": "Review & check", "work": "Write a CER explaining why a speeding car is much more dangerous than a slow one (speed squared relationship)."}
+     ], "assessment": "Graphs and CER."},
+    {"week": 22, "unit": 6, "topic": "Potential energy", "objectives": ["Model how changing arrangement changes stored potential energy"], "standards": ["MS-PS3-2"], "vocabulary": ["potential energy", "gravitational potential energy", "elastic potential energy", "system"], "materials": ["rubber bands", "ruler", "ball", "magnets", "PhET Energy Skate Park"],
+     "days": [
+      {"title": "Height and energy", "work": "Drop a ball into flour or sand from 3 heights and measure crater depth as evidence of stored energy."},
+      {"title": "Elastic energy", "work": "Launch rubber bands from a ruler at different stretch lengths and measure distance traveled."},
+      {"title": "Magnetic potential energy", "work": "Hold two magnets at different separations and explain where energy is stored in the system."},
+      {"title": "Energy Skate Park", "work": "Use PhET Energy Skate Park to track potential and kinetic energy bar graphs as the skater moves."},
+      {"title": "Review & check", "work": "Draw energy models for a roller coaster at four points and take a quiz on potential energy."}
+     ], "assessment": "Energy model and quiz."},
+    {"week": 23, "unit": 6, "topic": "Energy transfer and conservation", "objectives": ["Argue that changing kinetic energy means energy is transferred", "Design a marble roller coaster"], "standards": ["MS-PS3-5", "MS-PS3-1", "MS-PS3-2"], "vocabulary": ["energy transfer", "conservation of energy", "friction", "thermal energy"], "materials": ["foam pipe insulation cut in half", "marbles", "tape", "rubber bands"],
+     "days": [
+      {"title": "Where does energy go?", "work": "Rub hands together and bounce a ball until it stops; explain the energy transfers to thermal energy and sound."},
+      {"title": "Roller coaster design", "work": "Design a marble roller coaster from foam pipe insulation with a loop, defining criteria and constraints."},
+      {"title": "Build and test", "work": "Build and test the coaster, adjusting starting height so the marble completes the loop."},
+      {"title": "Energy argument", "work": "Write an argument explaining energy transfers at each part of your coaster, including friction."},
+      {"title": "Review & check", "work": "Take the Unit 6 test on forces, fields and energy."}
+     ], "assessment": "Coaster argument and Unit 6 test."},
+    {"week": 24, "unit": 7, "topic": "Discovering cells and using a microscope", "objectives": ["Describe the history of cell discovery", "Use a microscope or magnifier to observe cells"], "standards": ["MS-LS1-1"], "vocabulary": ["cell", "cell theory", "microscope", "magnification", "specimen"], "materials": ["microscope (or smartphone clip-on microscope)", "onion", "cork", "slides or clear tape"],
+     "days": [
+      {"title": "Cell theory history", "work": "Read about Hooke, Leeuwenhoek and the cell theory and make a timeline of discoveries."},
+      {"title": "Microscope skills", "work": "Learn microscope parts and practice focusing on a newspaper letter 'e', noting how the image flips."},
+      {"title": "Cork cells", "work": "Observe a thin slice of cork as Hooke did and sketch what you see with magnification noted."},
+      {"title": "Onion cells", "work": "Prepare an onion skin wet mount with iodine or food coloring and draw the cells."},
+      {"title": "Review & check", "work": "Quiz on cell theory and microscope parts and use."}
+     ], "assessment": "Observation drawings and quiz."},
+    {"week": 25, "unit": 7, "topic": "Living things are made of cells", "objectives": ["Provide evidence that living things are unicellular or multicellular", "Distinguish living from nonliving"], "standards": ["MS-LS1-1"], "vocabulary": ["unicellular", "multicellular", "organism", "yeast", "bacteria"], "materials": ["dry yeast", "sugar", "warm water", "balloon", "bottle", "pond water (optional)", "cotton swab"],
+     "days": [
+      {"title": "Is it alive?", "work": "Sort 15 items as living, once living or nonliving using characteristics of life."},
+      {"title": "Yeast are alive", "work": "Mix yeast, sugar and warm water in a bottle with a balloon on top, and record balloon size every 10 minutes."},
+      {"title": "Pond water", "work": "Observe pond water or a hay infusion under the microscope and sketch single-celled organisms."},
+      {"title": "Cheek cells", "work": "Gently swab your inner cheek, stain with food coloring and observe human cells; compare with onion cells."},
+      {"title": "Review & check", "work": "Write a CER that yeast is a living, single-celled organism using balloon data."}
+     ], "assessment": "Yeast CER."},
+    {"week": 26, "unit": 7, "topic": "Cell parts and their functions", "objectives": ["Identify organelles and their functions", "Compare plant and animal cells"], "standards": ["MS-LS1-2"], "vocabulary": ["nucleus", "cell membrane", "cytoplasm", "mitochondria", "chloroplast", "cell wall", "vacuole"], "materials": ["plastic bag", "gelatin or cornstarch", "small food items as organelles"],
+     "days": [
+      {"title": "Organelles", "work": "Learn the function of each major organelle and complete a labeled diagram of an animal cell."},
+      {"title": "Plant vs. animal", "work": "Compare plant and animal cells in a Venn diagram and relate differences to how plants make food."},
+      {"title": "Edible cell model", "work": "Build a cell model in a bag of gelatin using food items for organelles, with a key explaining each choice."},
+      {"title": "Cell analogy", "work": "Write a 'cell is like a city' analogy explaining the role of at least 7 organelles."},
+      {"title": "Review & check", "work": "Quiz on organelle functions."}
+     ], "assessment": "Cell model, analogy and quiz."},
+    {"week": 27, "unit": 7, "topic": "The cell membrane and getting materials", "objectives": ["Model how the membrane controls what enters and leaves", "Investigate osmosis"], "standards": ["MS-LS1-2"], "vocabulary": ["diffusion", "osmosis", "selectively permeable", "concentration"], "materials": ["raw egg", "vinegar", "corn syrup", "water", "potato slices", "salt"],
+     "days": [
+      {"title": "Naked egg", "work": "Soak a raw egg in vinegar to dissolve the shell, measuring circumference before and after."},
+      {"title": "Egg osmosis", "work": "Move the shell-less egg into corn syrup and later water, measuring and explaining size changes with osmosis."},
+      {"title": "Potato osmosis", "work": "Soak potato slices in plain and salty water and compare their mass and stiffness after an hour."},
+      {"title": "Diffusion", "work": "Place a scented extract in a balloon and detect diffusion through the membrane; model particle movement."},
+      {"title": "Review & check", "work": "Write a lab report explaining how the egg membrane acts like a cell membrane."}
+     ], "assessment": "Osmosis lab report."},
+    {"week": 28, "unit": 7, "topic": "Cells to organisms", "objectives": ["Explain levels of organization", "Explain cell division for growth and repair"], "standards": ["MS-LS1-1", "MS-LS1-2"], "vocabulary": ["tissue", "organ", "organ system", "specialized cell", "cell division"], "materials": ["images of specialized cells", "paper for flip book"],
+     "days": [
+      {"title": "Specialized cells", "work": "Compare nerve, muscle, red blood and skin cells and explain how shape fits function."},
+      {"title": "Levels of organization", "work": "Create a nested diagram from cell to tissue to organ to organ system to organism with examples."},
+      {"title": "Cell division", "work": "Make a flip book showing a cell dividing and explain why cells divide for growth and repair."},
+      {"title": "Unit review", "work": "Review cells with a concept map linking all unit vocabulary."},
+      {"title": "Unit 7 test", "work": "Take the Unit 7 test on cells and their parts."}
+     ], "assessment": "Unit 7 test."},
+    {"week": 29, "unit": 8, "topic": "Skeletal and muscular systems", "objectives": ["Explain how bones and muscles work together", "Model a joint"], "standards": ["MS-LS1-3"], "vocabulary": ["skeleton", "joint", "ligament", "tendon", "skeletal muscle", "contract"], "materials": ["cardboard", "straws", "string", "chicken wing (cooked or raw with gloves)"],
+     "days": [
+      {"title": "Bones", "work": "Identify 15 major bones on a diagram and feel the bones of your hand and arm."},
+      {"title": "Joints", "work": "Test range of motion of hinge, ball-and-socket and pivot joints on your body and record findings."},
+      {"title": "Muscle pairs", "work": "Build a cardboard arm model with string 'muscles' to show biceps and triceps working in pairs."},
+      {"title": "Chicken wing", "work": "With gloves, examine a chicken wing to find muscles, tendons and bone and sketch them."},
+      {"title": "Review & check", "work": "Quiz on bones, joints and muscle pairs."}
+     ], "assessment": "Arm model and quiz."},
+    {"week": 30, "unit": 8, "topic": "Circulatory and respiratory systems", "objectives": ["Explain how the heart and lungs work together", "Measure heart rate and breathing rate"], "standards": ["MS-LS1-3"], "vocabulary": ["heart", "artery", "vein", "capillary", "lungs", "alveoli", "oxygen"], "materials": ["stopwatch", "plastic bottle", "balloons", "straw", "clay"],
+     "days": [
+      {"title": "Heart rate investigation", "work": "Measure resting heart rate and heart rate after 1 minute of jumping jacks, three trials each, and graph."},
+      {"title": "Path of blood", "work": "Trace the path of blood through the heart, lungs and body on a diagram."},
+      {"title": "Lung model", "work": "Build a bottle-and-balloon lung model and explain how the diaphragm moves air."},
+      {"title": "Systems interact", "work": "Explain in writing how the circulatory and respiratory systems interact during exercise using your heart rate data."},
+      {"title": "Review & check", "work": "Write a CER arguing that the body is a system of interacting subsystems using exercise data."}
+     ], "assessment": "Heart rate graph and CER."},
+    {"week": 31, "unit": 8, "topic": "Digestive and excretory systems", "objectives": ["Model digestion", "Explain how digestion connects to circulation and cells"], "standards": ["MS-LS1-3"], "vocabulary": ["digestion", "enzyme", "stomach", "small intestine", "nutrient", "kidney"], "materials": ["zip bag", "crackers", "water", "vinegar", "old pantyhose or sieve", "string 9 m long"],
+     "days": [
+      {"title": "Digestion in a bag", "work": "Model chemical and mechanical digestion by mashing crackers with water and vinegar in a bag, then squeezing through a 'small intestine' stocking."},
+      {"title": "Length of the gut", "work": "Measure out 9 meters of string to represent the digestive tract and label each organ's section."},
+      {"title": "Saliva enzyme", "work": "Chew a plain cracker for 1 minute and note the change in taste; explain how enzymes break starch into sugar."},
+      {"title": "System connections", "work": "Map how nutrients travel from the small intestine through blood to cells and how kidneys remove waste."},
+      {"title": "Review & check", "work": "Quiz on the digestive and excretory systems."}
+     ], "assessment": "Digestion model write-up and quiz."},
+    {"week": 32, "unit": 8, "topic": "The nervous system and senses", "objectives": ["Explain how sensory receptors send messages to the brain", "Investigate reaction time and senses"], "standards": ["MS-LS1-8"], "vocabulary": ["neuron", "stimulus", "sensory receptor", "reflex", "brain", "spinal cord"], "materials": ["ruler", "paper clips", "blindfold", "jelly beans or flavored candy"],
+     "days": [
+      {"title": "Neurons and messages", "work": "Diagram a neuron and the pathway from receptor to spinal cord to brain to muscle."},
+      {"title": "Reaction time", "work": "Run the ruler-drop reaction test 10 times with each hand and compare averages."},
+      {"title": "Touch receptors", "work": "Use a two-point test with paper clips on fingertip, palm and forearm to map receptor density."},
+      {"title": "Taste and smell", "work": "Blindfolded, taste jelly beans with and without holding your nose and record identification accuracy."},
+      {"title": "Review & check", "work": "Write a CER explaining why smell affects taste, using your data."}
+     ], "assessment": "Sense investigation data and CER."},
+    {"week": 33, "unit": 8, "topic": "Memory and the brain", "objectives": ["Gather information on how the brain stores memories", "Synthesize body systems learning"], "standards": ["MS-LS1-8", "MS-LS1-3"], "vocabulary": ["short-term memory", "long-term memory", "perception", "optical illusion"], "materials": ["tray of 20 objects", "towel", "optical illusion images"],
+     "days": [
+      {"title": "Memory tray", "work": "Study a tray of 20 objects for 1 minute, cover it, and list what you remember; repeat with a memory strategy and compare."},
+      {"title": "Optical illusions", "work": "Investigate three optical illusions and explain how the brain interprets signals from the eyes."},
+      {"title": "Research", "work": "Read two sources about how memories form and summarize them in a one-page infographic."},
+      {"title": "Body systems poster", "work": "Create a poster showing how at least four body systems work together when you catch a ball."},
+      {"title": "Review & check", "work": "Take the Unit 8 test on body systems and senses."}
+     ], "assessment": "Infographic, poster and Unit 8 test."},
+    {"week": 34, "unit": 9, "topic": "Solar oven: define and design", "objectives": ["Define criteria and constraints for a solar oven", "Apply thermal energy ideas to a design"], "standards": ["MS-ETS1-1", "MS-ETS1-2", "MS-PS3-3"], "vocabulary": ["reflect", "absorb", "insulate", "solar energy"], "materials": ["pizza box", "foil", "black paper", "plastic wrap", "tape", "newspaper"],
+     "days": [
+      {"title": "The problem", "work": "Research how solar ovens are used around the world and define criteria (reach 60 C) and constraints (materials, cost)."},
+      {"title": "Science ideas", "work": "List how reflection, absorption, insulation and the greenhouse effect could each help the oven."},
+      {"title": "Sketch designs", "work": "Sketch three designs and evaluate them with a decision matrix."},
+      {"title": "Build prototype", "work": "Build the chosen solar oven from a pizza box and household materials."},
+      {"title": "Check-in", "work": "Write a design brief explaining your choices and predict the maximum temperature."}
+     ], "assessment": "Design brief and decision matrix."},
+    {"week": 35, "unit": 9, "topic": "Solar oven: test and iterate", "objectives": ["Collect test data", "Modify the design based on data"], "standards": ["MS-ETS1-3", "MS-ETS1-4", "MS-PS3-3"], "vocabulary": ["iteration", "optimize", "data"], "materials": ["solar oven", "oven thermometer", "s'mores ingredients"],
+     "days": [
+      {"title": "First test", "work": "Test the oven in direct sun, recording internal temperature every 5 minutes for 45 minutes."},
+      {"title": "Analyze", "work": "Graph results and compare with a classmate's, family member's or online design data to find the best features."},
+      {"title": "Modify", "work": "Make one change (extra reflector, insulation, angle) and record why you chose it."},
+      {"title": "Second test", "work": "Retest and try to melt a s'more; compare the two graphs."},
+      {"title": "Check-in", "work": "Write a paragraph explaining how the modification affected thermal energy transfer."}
+     ], "assessment": "Test data and iteration analysis."},
+    {"week": 36, "unit": 9, "topic": "Capstone presentation and year review", "objectives": ["Communicate design results", "Review major ideas of grade 6 science"], "standards": ["MS-ETS1-2", "MS-ETS1-3"], "vocabulary": [], "materials": ["science notebook", "slides or poster"],
+     "days": [
+      {"title": "Prepare presentation", "work": "Create a presentation of your solar oven design process with photos, graphs and conclusions."},
+      {"title": "Present", "work": "Present to your family or co-op and answer questions about the science behind your design."},
+      {"title": "Year review: energy", "work": "Make a concept map showing how energy connects thermal energy, weather, forces and living systems."},
+      {"title": "Final assessment", "work": "Take a cumulative assessment covering all units."},
+      {"title": "Reflection", "work": "Write a reflection on your favorite investigation and a question you want to explore in grade 7."}
+     ], "assessment": "Capstone presentation rubric and cumulative assessment."}
+  ]
+}

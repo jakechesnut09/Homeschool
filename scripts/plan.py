@@ -5,6 +5,7 @@ Examples:
   python3 scripts/plan.py week  --grade 3 --week 5          # one week, all subjects, day by day
   python3 scripts/plan.py day   --grade 3 --week 5 --day 2  # a single day's checklist
   python3 scripts/plan.py course --grade 9 --subject MATH   # course scope & sequence
+  python3 scripts/plan.py teacher --grade 3 --week 5 [--subject MATH]  # teacher's guide with answers
   python3 scripts/plan.py search "photosynthesis"           # full-text search of lessons
   python3 scripts/plan.py paperwork [--option PSA]          # required documents
   python3 scripts/plan.py funding                           # grants / funding programs
@@ -13,6 +14,7 @@ Examples:
 """
 import argparse
 import pathlib
+import signal
 import sqlite3
 import sys
 
@@ -90,12 +92,46 @@ def course_md(con, grade, subject):
     return "\n".join(out)
 
 
+def teacher_md(con, grade, week, subject=None):
+    g = con.execute("SELECT * FROM grades WHERE grade=?", (grade,)).fetchone()
+    q = ("SELECT c.id, c.title, c.subject_code, w.id AS wid, w.topic, w.assessment, tw.prep, tw.misconceptions,"
+         " tw.assessment_key FROM weekly_plans w JOIN courses c ON c.id=w.course_id"
+         " JOIN subjects s ON s.code=c.subject_code LEFT JOIN teacher_weeks tw ON tw.weekly_plan_id=w.id"
+         " WHERE c.grade=? AND w.week=?")
+    args = [grade, week]
+    if subject:
+        q += " AND c.subject_code=?"; args.append(subject.upper())
+    out = [f"# Teacher's Guide — {g['name']}, Week {week}", ""]
+    for c in con.execute(q + " ORDER BY s.sort_order", args).fetchall():
+        out += [f"## {c['title']}: {c['topic']}", ""]
+        if c["prep"]:
+            out += [f"**Prepare:** {c['prep']}", ""]
+        if c["misconceptions"]:
+            out += ["**Watch for:**"] + [f"- {m}" for m in c["misconceptions"].split("\n")] + [""]
+        for d in con.execute("SELECT d.id, d.day, d.day_name, d.title, d.work, td.guide FROM daily_lessons d"
+                             " LEFT JOIN teacher_days td ON td.daily_lesson_id=d.id"
+                             " WHERE d.weekly_plan_id=? ORDER BY d.day", (c["wid"],)):
+            out += [f"### Day {d['day']} ({d['day_name']}): {d['title']}", f"*Student:* {d['work']}", ""]
+            if d["guide"]:
+                out += [f"*How to teach:* {d['guide']}", ""]
+            for qa in con.execute("SELECT question, answer FROM teacher_questions WHERE daily_lesson_id=? ORDER BY seq", (d["id"],)):
+                out += [f"- **Q:** {qa['question']}", f"  **A:** {qa['answer']}"]
+            out.append("")
+        out += [f"**Assessment:** {c['assessment']}", ""]
+        if c["assessment_key"]:
+            out += [f"**Answer key:** {c['assessment_key']}", ""]
+    return "\n".join(out)
+
+
 def main():
+    if hasattr(signal, "SIGPIPE"):
+        signal.signal(signal.SIGPIPE, signal.SIG_DFL)  # allow piping into head
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("week"); p.add_argument("--grade", type=int, required=True); p.add_argument("--week", type=int, required=True)
     p = sub.add_parser("day"); p.add_argument("--grade", type=int, required=True); p.add_argument("--week", type=int, required=True); p.add_argument("--day", type=int, required=True)
     p = sub.add_parser("course"); p.add_argument("--grade", type=int, required=True); p.add_argument("--subject", required=True)
+    p = sub.add_parser("teacher"); p.add_argument("--grade", type=int, required=True); p.add_argument("--week", type=int, required=True); p.add_argument("--subject")
     p = sub.add_parser("search"); p.add_argument("query"); p.add_argument("--grade", type=int)
     p = sub.add_parser("paperwork"); p.add_argument("--option")
     sub.add_parser("funding")
@@ -108,6 +144,8 @@ def main():
         print(week_md(con, a.grade, a.week))
     elif a.cmd == "day":
         print(week_md(con, a.grade, a.week, a.day))
+    elif a.cmd == "teacher":
+        print(teacher_md(con, a.grade, a.week, a.subject))
     elif a.cmd == "course":
         print(course_md(con, a.grade, a.subject.upper()))
     elif a.cmd == "search":
@@ -121,7 +159,7 @@ def main():
         q, args = "SELECT * FROM paperwork", []
         if a.option:
             q += " WHERE homeschool_option LIKE ? OR homeschool_option LIKE '%ALL%'"; args = [f"%{a.option.upper()}%"]
-        for r in con.execute(q + " ORDER BY action, name", args):
+        for r in con.execute(q + " ORDER BY CASE action WHEN 'submit' THEN 0 WHEN 'keep_on_file' THEN 1 ELSE 2 END, name", args):
             print(f"[{r['action']}] {r['name']} ({r['homeschool_option']}) — {r['deadline'] or r['frequency'] or ''}\n"
                   f"    {r['description']}\n    Basis: {r['legal_basis'] or '-'}  {r['url'] or ''}\n")
     elif a.cmd == "funding":
@@ -147,6 +185,14 @@ def main():
             for wk in range(1, 37):
                 (gd / f"week_{wk:02d}.md").write_text(week_md(con, g["grade"], wk))
                 n += 1
+        tdir = out.parent / "teacher"
+        if con.execute("SELECT count(*) FROM teacher_weeks").fetchone()[0]:
+            for g in con.execute("SELECT grade FROM grades ORDER BY grade").fetchall():
+                gd = tdir / f"grade_{g['grade']:02d}"
+                gd.mkdir(parents=True, exist_ok=True)
+                for wk in range(1, 37):
+                    (gd / f"week_{wk:02d}.md").write_text(teacher_md(con, g["grade"], wk))
+            print(f"Wrote teacher's guides to {tdir}")
         print(f"Wrote {n} weekly plans to {out}")
 
 

@@ -1,0 +1,2012 @@
+{
+  "grade": 10,
+  "subject": "ELA",
+  "title": "English 10",
+  "description": "A tenth-grade English course organized around world literature and the rhetoric of power, conflict, and freedom, paired with Modern World History. Students read short fiction, Greek and Shakespearean tragedy, Things Fall Apart, Night, Fahrenheit 451, A Doll's House, war poetry and landmark speeches. Every unit weaves close reading, grammar and vocabulary, discussion, and a major written product (narrative, literary analysis, argument, and a multi-source research paper).",
+  "framework": "California Common Core State Standards for ELA/Literacy (grades 9–10); 2014 CA ELA/ELD Framework",
+  "minutes_per_day": 55,
+  "ag_requirement": "b",
+  "credits": 10,
+  "standards": {
+    "RL.9-10.1": "Cite strong and thorough textual evidence to support analysis of what a literary text says explicitly and by inference.",
+    "RL.9-10.2": "Determine a theme of a literary text, analyze its development, and provide an objective summary.",
+    "RL.9-10.3": "Analyze how complex characters develop, interact, and advance the plot or develop the theme.",
+    "RL.9-10.4": "Determine the meaning of words and phrases, including figurative language, and analyze the cumulative impact of word choice on meaning and tone.",
+    "RL.9-10.5": "Analyze how an author's choices about structure, order of events, and manipulation of time create mystery, tension, or surprise.",
+    "RL.9-10.6": "Analyze a particular point of view or cultural experience reflected in a work of literature from outside the United States.",
+    "RL.9-10.7": "Analyze the representation of a subject or key scene in two different artistic mediums.",
+    "RL.9-10.9": "Analyze how an author draws on and transforms source material in a specific work.",
+    "RL.9-10.10": "Read and comprehend literature, including stories, dramas, and poems, in the grades 9–10 text complexity band independently and proficiently.",
+    "RI.9-10.1": "Cite strong and thorough textual evidence to support analysis of what an informational text says explicitly and by inference.",
+    "RI.9-10.2": "Determine a central idea of an informational text, analyze its development, and provide an objective summary.",
+    "RI.9-10.3": "Analyze how an author unfolds an analysis or series of ideas or events and the connections drawn between them.",
+    "RI.9-10.4": "Determine the meaning of words and phrases in informational text and analyze the cumulative impact of word choice on meaning and tone.",
+    "RI.9-10.5": "Analyze in detail how an author's ideas or claims are developed and refined by particular sentences, paragraphs, or sections.",
+    "RI.9-10.6": "Determine an author's point of view or purpose and analyze how rhetoric advances it.",
+    "RI.9-10.7": "Analyze various accounts of a subject told in different mediums, determining which details are emphasized in each.",
+    "RI.9-10.8": "Delineate and evaluate the argument and specific claims in a text, assessing reasoning and evidence and identifying false statements and fallacies.",
+    "RI.9-10.9": "Analyze seminal U.S. and world documents of historical and literary significance, including how they address related themes and concepts.",
+    "RI.9-10.10": "Read and comprehend literary nonfiction in the grades 9–10 text complexity band independently and proficiently.",
+    "W.9-10.1": "Write arguments to support claims using valid reasoning and relevant and sufficient evidence.",
+    "W.9-10.2": "Write informative/explanatory texts to examine and convey complex ideas clearly and accurately.",
+    "W.9-10.3": "Write narratives to develop real or imagined experiences using effective technique, well-chosen details, and well-structured event sequences.",
+    "W.9-10.4": "Produce clear and coherent writing appropriate to task, purpose, and audience.",
+    "W.9-10.5": "Develop and strengthen writing by planning, revising, editing, rewriting, or trying a new approach.",
+    "W.9-10.6": "Use technology, including the Internet, to produce, publish, and update individual or shared writing products.",
+    "W.9-10.7": "Conduct short and sustained research projects to answer a question or solve a problem, synthesizing multiple sources.",
+    "W.9-10.8": "Gather relevant information from multiple authoritative sources, assess usefulness, and integrate information while avoiding plagiarism and following a standard citation format.",
+    "W.9-10.9": "Draw evidence from literary or informational texts to support analysis, reflection, and research.",
+    "W.9-10.10": "Write routinely over extended and shorter time frames for a range of tasks, purposes, and audiences.",
+    "SL.9-10.1": "Initiate and participate effectively in collaborative discussions, building on others' ideas and expressing their own clearly and persuasively.",
+    "SL.9-10.2": "Integrate multiple sources of information presented in diverse media or formats, evaluating credibility and accuracy.",
+    "SL.9-10.3": "Evaluate a speaker's point of view, reasoning, and use of evidence and rhetoric.",
+    "SL.9-10.4": "Present information, findings, and evidence clearly, concisely, and logically so listeners can follow the line of reasoning.",
+    "SL.9-10.5": "Make strategic use of digital media in presentations to enhance understanding.",
+    "SL.9-10.6": "Adapt speech to a variety of contexts and tasks, demonstrating command of formal English.",
+    "L.9-10.1": "Demonstrate command of grammar and usage, including parallel structure and various types of phrases and clauses.",
+    "L.9-10.2": "Demonstrate command of capitalization, punctuation, and spelling, including semicolons, colons, and conjunctive adverbs.",
+    "L.9-10.3": "Apply knowledge of language to make effective choices for meaning or style; write and edit work to conform to a style manual (MLA).",
+    "L.9-10.4": "Determine or clarify the meaning of unknown words using context, word parts (roots and affixes), and reference materials.",
+    "L.9-10.5": "Demonstrate understanding of figurative language, word relationships, and nuances in word meanings.",
+    "L.9-10.6": "Acquire and use accurately general academic and domain-specific words and phrases."
+  },
+  "resources": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/",
+      "note": "Free texts: Antigone, Julius Caesar, A Doll's House, Poe, Maupassant, Bierce, Owen"
+    },
+    {
+      "name": "CommonLit",
+      "url": "https://www.commonlit.org/",
+      "note": "Free leveled short stories, poems and speeches with questions"
+    },
+    {
+      "name": "Folger Shakespeare",
+      "url": "https://www.folger.edu/",
+      "note": "Free Folger edition of Julius Caesar with notes and audio"
+    },
+    {
+      "name": "Purdue OWL",
+      "url": "https://owl.purdue.edu/",
+      "note": "MLA format, citation and essay-writing guides"
+    },
+    {
+      "name": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org/",
+      "note": "War poetry and world poetry texts"
+    },
+    {
+      "name": "Khan Academy – Grammar",
+      "url": "https://www.khanacademy.org/humanities/grammar",
+      "note": "Grammar practice for clauses, punctuation and usage"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "The Short Story: Craft and Suspense",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Writers manipulate structure, point of view and detail to create tension and meaning.",
+      "standards": [
+        "RL.9-10.1",
+        "RL.9-10.2",
+        "RL.9-10.5",
+        "L.9-10.1",
+        "SL.9-10.1",
+        "RL.9-10.3",
+        "RL.9-10.4",
+        "L.9-10.4",
+        "RL.9-10.6",
+        "W.9-10.9",
+        "W.9-10.3",
+        "W.9-10.5",
+        "L.9-10.2",
+        "L.9-10.3"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Greek Tragedy: Antigone",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Conflicts between individual conscience and state law are as old as drama.",
+      "standards": [
+        "RL.9-10.3",
+        "RL.9-10.6",
+        "RL.9-10.10",
+        "SL.9-10.2",
+        "RL.9-10.1",
+        "RL.9-10.4",
+        "L.9-10.5",
+        "RL.9-10.2",
+        "RL.9-10.7",
+        "SL.9-10.1",
+        "W.9-10.1",
+        "W.9-10.5",
+        "W.9-10.9",
+        "RI.9-10.9",
+        "L.9-10.1"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Julius Caesar and the Power of Rhetoric",
+      "start_week": 9,
+      "end_week": 13,
+      "big_idea": "Language can win crowds, topple leaders and justify violence.",
+      "standards": [
+        "RL.9-10.3",
+        "RL.9-10.4",
+        "RL.9-10.10",
+        "L.9-10.4",
+        "RL.9-10.1",
+        "RL.9-10.5",
+        "SL.9-10.1",
+        "RI.9-10.6",
+        "SL.9-10.3",
+        "L.9-10.5",
+        "RL.9-10.2",
+        "RL.9-10.7",
+        "W.9-10.1",
+        "SL.9-10.4",
+        "SL.9-10.6",
+        "L.9-10.3"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Things Fall Apart: Colonialism and Culture",
+      "start_week": 14,
+      "end_week": 18,
+      "big_idea": "A culture's story looks different when told from inside it.",
+      "standards": [
+        "RL.9-10.3",
+        "RL.9-10.6",
+        "RL.9-10.10",
+        "SL.9-10.2",
+        "RL.9-10.1",
+        "RL.9-10.4",
+        "L.9-10.4",
+        "RL.9-10.2",
+        "RL.9-10.9",
+        "RI.9-10.7",
+        "W.9-10.2",
+        "W.9-10.4",
+        "W.9-10.5",
+        "W.9-10.9",
+        "L.9-10.2",
+        "L.9-10.3",
+        "W.9-10.1",
+        "W.9-10.10",
+        "L.9-10.1"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Literature of War and Witness",
+      "start_week": 19,
+      "end_week": 23,
+      "big_idea": "Testimony and poetry make the cost of war personal and unforgettable.",
+      "standards": [
+        "RL.9-10.4",
+        "RL.9-10.2",
+        "RL.9-10.1",
+        "L.9-10.5",
+        "RI.9-10.1",
+        "RI.9-10.3",
+        "RI.9-10.10",
+        "RL.9-10.6",
+        "RI.9-10.2",
+        "RI.9-10.4",
+        "RI.9-10.6",
+        "SL.9-10.1",
+        "W.9-10.2",
+        "W.9-10.8",
+        "W.9-10.9",
+        "L.9-10.6",
+        "RL.9-10.7",
+        "RI.9-10.7",
+        "SL.9-10.2",
+        "SL.9-10.5"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Rhetoric of Freedom: Research and Argument",
+      "start_week": 24,
+      "end_week": 27,
+      "big_idea": "Seminal speeches and documents shaped how the modern world defines human rights.",
+      "standards": [
+        "RI.9-10.6",
+        "RI.9-10.9",
+        "RI.9-10.8",
+        "SL.9-10.3",
+        "RI.9-10.5",
+        "W.9-10.1",
+        "W.9-10.7",
+        "W.9-10.8",
+        "SL.9-10.2",
+        "L.9-10.6",
+        "W.9-10.6",
+        "SL.9-10.4",
+        "L.9-10.3"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Dystopia: Fahrenheit 451",
+      "start_week": 28,
+      "end_week": 31,
+      "big_idea": "Societies that suppress ideas reveal what makes free thought valuable.",
+      "standards": [
+        "RL.9-10.2",
+        "RL.9-10.4",
+        "RL.9-10.3",
+        "L.9-10.5",
+        "RL.9-10.1",
+        "SL.9-10.1",
+        "RI.9-10.4",
+        "RI.9-10.6",
+        "RI.9-10.8",
+        "L.9-10.3",
+        "W.9-10.2",
+        "W.9-10.3",
+        "W.9-10.5",
+        "RL.9-10.9"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "A Doll's House and Poetry of Identity",
+      "start_week": 32,
+      "end_week": 34,
+      "big_idea": "Individuals push against the roles their societies assign them.",
+      "standards": [
+        "RL.9-10.3",
+        "RL.9-10.6",
+        "RL.9-10.10",
+        "RL.9-10.2",
+        "RL.9-10.4",
+        "SL.9-10.1",
+        "W.9-10.3",
+        "SL.9-10.6",
+        "L.9-10.5"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Portfolio, Reflection and Final Assessment",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "Growth as a reader and writer is visible when you revisit and revise your work.",
+      "standards": [
+        "W.9-10.5",
+        "W.9-10.6",
+        "W.9-10.10",
+        "L.9-10.1",
+        "L.9-10.2",
+        "RL.9-10.1",
+        "RI.9-10.1",
+        "W.9-10.1",
+        "SL.9-10.4",
+        "SL.9-10.5"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Suspense and structure: 'The Most Dangerous Game'",
+      "objectives": [
+        "Analyze how Connell builds suspense",
+        "Write an objective summary"
+      ],
+      "standards": [
+        "RL.9-10.1",
+        "RL.9-10.2",
+        "RL.9-10.5",
+        "L.9-10.1",
+        "SL.9-10.1"
+      ],
+      "vocabulary": [
+        "suspense",
+        "foreshadowing",
+        "antagonist",
+        "objective summary"
+      ],
+      "materials": [
+        "'The Most Dangerous Game' (Richard Connell, CommonLit)",
+        "reading journal"
+      ],
+      "days": [
+        {
+          "title": "Course launch & reading survey",
+          "work": "Complete a reading-history survey, set up a reading journal, and write a one-page 'reader autobiography' as a writing baseline."
+        },
+        {
+          "title": "Read Connell, part 1",
+          "work": "Read the first half of 'The Most Dangerous Game' and annotate every foreshadowing clue on Ship-Trap Island with sticky notes or margin marks."
+        },
+        {
+          "title": "Read Connell, part 2",
+          "work": "Finish the story and chart the rising tension on a plot diagram, quoting one sentence for each stage."
+        },
+        {
+          "title": "Grammar: phrases",
+          "work": "Identify prepositional, participial and appositive phrases in ten sentences from the story, then write five sentences imitating Connell's participial openers."
+        },
+        {
+          "title": "Summary & discussion",
+          "work": "Write a 150-word objective summary (no opinion) and discuss with a parent: is Rainsford changed by the end? Cite two lines."
+        }
+      ],
+      "assessment": "Objective summary scored for accuracy and no opinion; plot diagram with quoted evidence."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Unreliable narrators: Poe's 'The Cask of Amontillado'",
+      "objectives": [
+        "Analyze point of view and irony",
+        "Use textual evidence to infer motive"
+      ],
+      "standards": [
+        "RL.9-10.1",
+        "RL.9-10.3",
+        "RL.9-10.4",
+        "RL.9-10.5",
+        "L.9-10.4"
+      ],
+      "vocabulary": [
+        "verbal irony",
+        "dramatic irony",
+        "unreliable narrator",
+        "connotation"
+      ],
+      "materials": [
+        "'The Cask of Amontillado' (Gutenberg)",
+        "highlighters"
+      ],
+      "days": [
+        {
+          "title": "Read Poe",
+          "work": "Read 'The Cask of Amontillado' aloud and highlight every instance of verbal irony in Montresor's speech to Fortunato."
+        },
+        {
+          "title": "Irony chart",
+          "work": "Build a three-column chart (quote / what it says / what it really means) for six ironic moments, labeling each verbal or dramatic."
+        },
+        {
+          "title": "Word study: Latin roots",
+          "work": "Study roots (ven-, mort-, cred-, jur-) from the story's vocabulary (impunity, immolation, retribution) and build a 12-word root web."
+        },
+        {
+          "title": "Analytical paragraph",
+          "work": "Write a TIQA paragraph (topic, intro to quote, quote, analysis) answering: Is Montresor a reliable narrator? Cite two pieces of evidence."
+        },
+        {
+          "title": "Quiz & revise",
+          "work": "Take a short quiz on irony and point of view, then revise the paragraph using teacher feedback on quote integration."
+        }
+      ],
+      "assessment": "Analytical paragraph rubric (claim, evidence, analysis) and irony quiz."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Time and twist: 'An Occurrence at Owl Creek Bridge' and 'The Necklace'",
+      "objectives": [
+        "Analyze manipulation of time",
+        "Compare situational irony in two stories"
+      ],
+      "standards": [
+        "RL.9-10.5",
+        "RL.9-10.6",
+        "RL.9-10.2",
+        "W.9-10.9",
+        "SL.9-10.1"
+      ],
+      "vocabulary": [
+        "flashback",
+        "stream of consciousness",
+        "situational irony",
+        "denouement"
+      ],
+      "materials": [
+        "Bierce and Maupassant stories (Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Read Bierce",
+          "work": "Read 'An Occurrence at Owl Creek Bridge' and mark where time slows, jumps back, and resumes; sketch a timeline of real vs. imagined time."
+        },
+        {
+          "title": "Film comparison",
+          "work": "Watch the 1961 short film of Owl Creek Bridge (library/streaming) and list three choices the director made differently than Bierce (RL.9-10.7 preview)."
+        },
+        {
+          "title": "Read Maupassant",
+          "work": "Read 'The Necklace' and annotate details of 19th-century French class and status that drive Mathilde's choices."
+        },
+        {
+          "title": "Compare endings",
+          "work": "Write a 250-word comparison of the twist endings: how does each author plant clues so the surprise feels earned?"
+        },
+        {
+          "title": "Socratic discussion",
+          "work": "Lead a 15-minute discussion with family on 'Which twist is more meaningful, and why?' using three prepared questions and evidence."
+        }
+      ],
+      "assessment": "Comparison response scored on evidence and analysis of structure; discussion participation checklist."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Narrative writing workshop",
+      "objectives": [
+        "Write an original short story using suspense techniques",
+        "Revise for pacing and dialogue punctuation"
+      ],
+      "standards": [
+        "W.9-10.3",
+        "W.9-10.5",
+        "L.9-10.2",
+        "L.9-10.3"
+      ],
+      "vocabulary": [
+        "pacing",
+        "dialogue tag",
+        "in medias res",
+        "sensory detail"
+      ],
+      "materials": [
+        "writing notebook",
+        "mentor stories from Unit 1"
+      ],
+      "days": [
+        {
+          "title": "Plan the story",
+          "work": "Brainstorm a 1,000–1,500 word suspense story and plan it on a plot mountain, choosing a narrator and one structural trick (flashback, twist, in medias res)."
+        },
+        {
+          "title": "Draft opening",
+          "work": "Draft the opening scene starting in medias res, using at least three sensory details and one foreshadowing clue."
+        },
+        {
+          "title": "Draft middle & end",
+          "work": "Complete the draft, writing a climax scene where sentences shorten to speed pacing."
+        },
+        {
+          "title": "Revise & edit",
+          "work": "Revise using a checklist (dialogue punctuation, varied sentence openers, show-don't-tell), then peer/parent-read aloud for confusing spots."
+        },
+        {
+          "title": "Publish & unit test",
+          "work": "Type the final story in MLA format and take the Unit 1 test on literary terms and a cold-read short passage."
+        }
+      ],
+      "assessment": "Narrative rubric (W.9-10.3) and Unit 1 test."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Greek theater and Antigone, Prologue–Ode 1",
+      "objectives": [
+        "Explain conventions of Greek tragedy",
+        "Identify the central conflict"
+      ],
+      "standards": [
+        "RL.9-10.3",
+        "RL.9-10.6",
+        "RL.9-10.10",
+        "SL.9-10.2"
+      ],
+      "vocabulary": [
+        "tragic hero",
+        "chorus",
+        "ode",
+        "hubris",
+        "catharsis"
+      ],
+      "materials": [
+        "Antigone (Sophocles; Gutenberg or library translation)"
+      ],
+      "days": [
+        {
+          "title": "Greek theater background",
+          "work": "Watch a short video on Greek theater (masks, chorus, Dionysia) and take Cornell notes on Aristotle's elements of tragedy."
+        },
+        {
+          "title": "Oedipus family backstory",
+          "work": "Read a summary of the Theban myth and create a family tree of Oedipus, Jocasta, Antigone, Ismene, Polyneices, Eteocles and Creon."
+        },
+        {
+          "title": "Read Prologue",
+          "work": "Read the Prologue aloud in two voices and chart how Antigone and Ismene differ in values, citing three lines each."
+        },
+        {
+          "title": "Read Parodos & Scene 1",
+          "work": "Read the Parodos and Scene 1 and paraphrase Creon's opening speech on loyalty to the state."
+        },
+        {
+          "title": "Check & reflect",
+          "work": "Take a reading-check quiz and write a journal entry: which law matters more, divine law or civic law?"
+        }
+      ],
+      "assessment": "Reading quiz; character-values chart."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Antigone: Creon vs. Antigone",
+      "objectives": [
+        "Analyze how conflict develops character",
+        "Track the role of the chorus"
+      ],
+      "standards": [
+        "RL.9-10.1",
+        "RL.9-10.3",
+        "RL.9-10.4",
+        "L.9-10.5"
+      ],
+      "vocabulary": [
+        "foil",
+        "stichomythia",
+        "decree",
+        "conscience"
+      ],
+      "materials": [
+        "Antigone text",
+        "character chart"
+      ],
+      "days": [
+        {
+          "title": "Read Scene 2",
+          "work": "Read Scene 2 (the confrontation) and annotate each rhetorical move Antigone and Creon make."
+        },
+        {
+          "title": "Stichomythia practice",
+          "work": "Perform the rapid line exchange aloud with a partner and explain how the form heightens conflict."
+        },
+        {
+          "title": "Ode 2 & figurative language",
+          "work": "Read Ode 2 and identify the extended metaphor of the curse as a storm; explain its effect in a short paragraph."
+        },
+        {
+          "title": "Read Scene 3 – Haemon",
+          "work": "Read Scene 3 and evaluate Haemon's arguments to his father; list his three strongest points."
+        },
+        {
+          "title": "Quiz & journal",
+          "work": "Complete a quiz on Scenes 2–3 and a journal entry on whether Creon is a tyrant or a ruler doing his duty."
+        }
+      ],
+      "assessment": "Quiz and annotation check."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Antigone: Downfall and the tragic hero",
+      "objectives": [
+        "Determine who is the tragic hero",
+        "Analyze theme"
+      ],
+      "standards": [
+        "RL.9-10.2",
+        "RL.9-10.3",
+        "RL.9-10.7",
+        "SL.9-10.1"
+      ],
+      "vocabulary": [
+        "anagnorisis",
+        "peripeteia",
+        "catastrophe",
+        "theme"
+      ],
+      "materials": [
+        "Antigone text",
+        "filmed production (library or streaming)"
+      ],
+      "days": [
+        {
+          "title": "Read Scenes 4–5",
+          "work": "Read Antigone's farewell and Teiresias's warning; mark the moment Creon's reversal begins."
+        },
+        {
+          "title": "Exodos",
+          "work": "Finish the play and complete a cause-effect chain from Creon's decree to the deaths."
+        },
+        {
+          "title": "Compare a staging",
+          "work": "Watch one scene from a filmed production and compare how actors portray Creon versus your reading."
+        },
+        {
+          "title": "Seminar",
+          "work": "Hold a Socratic seminar on 'Who is the tragic hero, Antigone or Creon?' using at least four cited lines."
+        },
+        {
+          "title": "Theme statement",
+          "work": "Write three possible theme statements for the play and choose the strongest with a justification."
+        }
+      ],
+      "assessment": "Seminar rubric and theme statements."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Argument essay: Antigone and civil disobedience",
+      "objectives": [
+        "Write a claim-driven argument",
+        "Address counterclaims"
+      ],
+      "standards": [
+        "W.9-10.1",
+        "W.9-10.5",
+        "W.9-10.9",
+        "RI.9-10.9",
+        "L.9-10.1"
+      ],
+      "vocabulary": [
+        "claim",
+        "counterclaim",
+        "rebuttal",
+        "warrant"
+      ],
+      "materials": [
+        "Antigone",
+        "excerpt of Thoreau's 'Civil Disobedience' (Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Read Thoreau excerpt",
+          "work": "Read an excerpt of Thoreau's 'Civil Disobedience' and note parallels with Antigone's position."
+        },
+        {
+          "title": "Outline",
+          "work": "Outline an argument essay: Is Antigone right to break Creon's law? Include claim, two reasons, a counterclaim and rebuttal."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft the 700–900 word essay, integrating quotes from both the play and Thoreau."
+        },
+        {
+          "title": "Grammar: parallel structure",
+          "work": "Mini-lesson on parallel structure; revise three sentences in your draft to use parallelism for emphasis."
+        },
+        {
+          "title": "Final draft & unit test",
+          "work": "Submit the final essay and take the Unit 2 test on tragic conventions and vocabulary."
+        }
+      ],
+      "assessment": "Argument essay rubric and Unit 2 test."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Shakespeare's Rome: Julius Caesar Act 1",
+      "objectives": [
+        "Read Shakespearean language with fluency",
+        "Analyze characterization through dialogue"
+      ],
+      "standards": [
+        "RL.9-10.3",
+        "RL.9-10.4",
+        "RL.9-10.10",
+        "L.9-10.4"
+      ],
+      "vocabulary": [
+        "blank verse",
+        "iambic pentameter",
+        "soliloquy",
+        "aside"
+      ],
+      "materials": [
+        "Folger Julius Caesar",
+        "historical background reading on Caesar"
+      ],
+      "days": [
+        {
+          "title": "Context",
+          "work": "Read a short history of Julius Caesar and the Roman Republic and note why senators feared him."
+        },
+        {
+          "title": "Iambic pentameter",
+          "work": "Scan five lines of blank verse, marking stressed syllables, and notice when prose is used instead."
+        },
+        {
+          "title": "Act 1 scenes 1–2",
+          "work": "Read 1.1–1.2 with the Folger audio and chart how Cassius manipulates Brutus."
+        },
+        {
+          "title": "Act 1 scene 3",
+          "work": "Read 1.3 and list omens and their effect on mood."
+        },
+        {
+          "title": "Check",
+          "work": "Act 1 quiz and journal: Is Cassius a patriot or a schemer?"
+        }
+      ],
+      "assessment": "Act 1 quiz; scansion practice."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Julius Caesar Acts 2–3.1: Conspiracy and assassination",
+      "objectives": [
+        "Analyze Brutus's internal conflict",
+        "Evaluate motives"
+      ],
+      "standards": [
+        "RL.9-10.1",
+        "RL.9-10.3",
+        "RL.9-10.5",
+        "SL.9-10.1"
+      ],
+      "vocabulary": [
+        "motive",
+        "internal conflict",
+        "tragic flaw",
+        "foreshadowing"
+      ],
+      "materials": [
+        "Folger Julius Caesar"
+      ],
+      "days": [
+        {
+          "title": "Brutus's soliloquy",
+          "work": "Read 2.1 and paraphrase Brutus's 'It must be by his death' soliloquy line by line, identifying his flawed reasoning."
+        },
+        {
+          "title": "Portia and Calpurnia",
+          "work": "Read 2.2–2.4 and compare the two wives' roles and warnings."
+        },
+        {
+          "title": "Act 3.1",
+          "work": "Read the assassination scene aloud and track stage directions; discuss why Brutus lets Antony speak."
+        },
+        {
+          "title": "Motive debate",
+          "work": "Debate with a parent: Was the assassination justified? Each side cites three lines."
+        },
+        {
+          "title": "Check",
+          "work": "Quiz on Acts 2–3.1 and a timeline of the conspiracy."
+        }
+      ],
+      "assessment": "Quiz and debate notes."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "The funeral orations: rhetoric in action",
+      "objectives": [
+        "Identify ethos, pathos, logos",
+        "Compare speeches' persuasive techniques"
+      ],
+      "standards": [
+        "RI.9-10.6",
+        "SL.9-10.3",
+        "RL.9-10.4",
+        "L.9-10.5"
+      ],
+      "vocabulary": [
+        "ethos",
+        "pathos",
+        "logos",
+        "repetition",
+        "rhetorical question",
+        "verbal irony"
+      ],
+      "materials": [
+        "Folger Julius Caesar 3.2",
+        "video of Antony's speech"
+      ],
+      "days": [
+        {
+          "title": "Rhetorical appeals",
+          "work": "Learn ethos/pathos/logos and identify each in three modern ads or speeches."
+        },
+        {
+          "title": "Brutus's speech",
+          "work": "Analyze Brutus's prose oration for logos and parallel structure, marking each device."
+        },
+        {
+          "title": "Antony's speech",
+          "work": "Analyze 'Friends, Romans, countrymen' tracking the repetition of 'honourable man' and how meaning shifts."
+        },
+        {
+          "title": "Performance",
+          "work": "Memorize and perform 12–20 lines of Antony's speech with intentional pauses and emphasis."
+        },
+        {
+          "title": "Comparison response",
+          "work": "Write a timed 40-minute response: Why does Antony's speech succeed where Brutus's fails?"
+        }
+      ],
+      "assessment": "Performance rubric and timed response."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Julius Caesar Acts 4–5: Consequences",
+      "objectives": [
+        "Trace the fall of the conspirators",
+        "Determine theme"
+      ],
+      "standards": [
+        "RL.9-10.2",
+        "RL.9-10.3",
+        "RL.9-10.7"
+      ],
+      "vocabulary": [
+        "denouement",
+        "tragic hero",
+        "theme",
+        "nemesis"
+      ],
+      "materials": [
+        "Folger Julius Caesar",
+        "film clip (1953 or 2012 version)"
+      ],
+      "days": [
+        {
+          "title": "Act 4",
+          "work": "Read the quarrel scene (4.3) and analyze how Brutus and Cassius's friendship unravels."
+        },
+        {
+          "title": "Act 5",
+          "work": "Read Act 5 and record how each conspirator dies and what Antony says of Brutus."
+        },
+        {
+          "title": "Medium comparison",
+          "work": "Compare the funeral scene in two film versions and write which interpretation is more persuasive."
+        },
+        {
+          "title": "Tragic hero",
+          "work": "Decide whether Caesar or Brutus is the tragic hero, completing an Aristotelian criteria chart."
+        },
+        {
+          "title": "Test",
+          "work": "Unit test on the play: passage identification, rhetoric analysis, and short essay."
+        }
+      ],
+      "assessment": "Julius Caesar unit test."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Speech writing: persuasive oration",
+      "objectives": [
+        "Write and deliver a persuasive speech using rhetorical devices"
+      ],
+      "standards": [
+        "W.9-10.1",
+        "SL.9-10.4",
+        "SL.9-10.6",
+        "L.9-10.3"
+      ],
+      "vocabulary": [
+        "anaphora",
+        "antithesis",
+        "call to action",
+        "tricolon"
+      ],
+      "materials": [
+        "speech planning sheet",
+        "video recorder/phone"
+      ],
+      "days": [
+        {
+          "title": "Choose an issue",
+          "work": "Choose a contemporary community issue and research two credible facts and one quotation to support a position."
+        },
+        {
+          "title": "Draft speech",
+          "work": "Draft a 3–4 minute speech using at least anaphora, antithesis, a rhetorical question and a tricolon."
+        },
+        {
+          "title": "Revise for audience",
+          "work": "Revise for audience and timing; mark the script for pauses and emphasis."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse twice on video and self-score eye contact, pace and volume."
+        },
+        {
+          "title": "Deliver",
+          "work": "Deliver the speech to family and answer two audience questions."
+        }
+      ],
+      "assessment": "Speech rubric (content, rhetoric, delivery)."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Things Fall Apart Part 1: Igbo society",
+      "objectives": [
+        "Analyze cultural perspective in a non-U.S. novel",
+        "Characterize Okonkwo"
+      ],
+      "standards": [
+        "RL.9-10.3",
+        "RL.9-10.6",
+        "RL.9-10.10",
+        "SL.9-10.2"
+      ],
+      "vocabulary": [
+        "proverb",
+        "chi",
+        "egwugwu",
+        "patriarchy"
+      ],
+      "materials": [
+        "Things Fall Apart (Chinua Achebe, library)",
+        "map of Nigeria"
+      ],
+      "days": [
+        {
+          "title": "Context",
+          "work": "Read about Nigeria, the Igbo people and British colonization; locate Igboland on a map."
+        },
+        {
+          "title": "Ch. 1–4",
+          "work": "Read chapters 1–4 and record Okonkwo's fears and their roots in his father Unoka."
+        },
+        {
+          "title": "Proverbs",
+          "work": "Collect eight proverbs from the novel and explain what each reveals about Igbo values."
+        },
+        {
+          "title": "Ch. 5–8",
+          "work": "Read chapters 5–8 and write a journal entry on Ikemefuna's death and Okonkwo's choice."
+        },
+        {
+          "title": "Check",
+          "work": "Reading quiz and character chart for Okonkwo, Nwoye and Ekwefi."
+        }
+      ],
+      "assessment": "Quiz and proverb log."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Things Fall Apart Part 1 (cont.): Tradition and change",
+      "objectives": [
+        "Analyze how characters develop through conflict"
+      ],
+      "standards": [
+        "RL.9-10.1",
+        "RL.9-10.3",
+        "RL.9-10.4",
+        "L.9-10.4"
+      ],
+      "vocabulary": [
+        "exile",
+        "ogbanje",
+        "ritual",
+        "tragic flaw"
+      ],
+      "materials": [
+        "Things Fall Apart"
+      ],
+      "days": [
+        {
+          "title": "Ch. 9–10",
+          "work": "Read chapters 9–10 on Ezinma and the egwugwu trial; note how justice works in Umuofia."
+        },
+        {
+          "title": "Ch. 11–13",
+          "work": "Read chapters 11–13 and explain how Okonkwo's exile happens."
+        },
+        {
+          "title": "Vocabulary in context",
+          "work": "Define 10 Igbo words from context clues and the glossary, then use five in sentences about the novel."
+        },
+        {
+          "title": "Analysis paragraph",
+          "work": "Write a paragraph analyzing Okonkwo's tragic flaw with three cited examples."
+        },
+        {
+          "title": "Discussion",
+          "work": "Discuss with family: Which Igbo traditions does the novel present as strengths, and which as weaknesses?"
+        }
+      ],
+      "assessment": "Analysis paragraph and vocabulary check."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Things Fall Apart Parts 2–3: Colonial arrival",
+      "objectives": [
+        "Analyze the colonial encounter from an Igbo perspective",
+        "Connect title to Yeats"
+      ],
+      "standards": [
+        "RL.9-10.2",
+        "RL.9-10.6",
+        "RL.9-10.9",
+        "RI.9-10.7"
+      ],
+      "vocabulary": [
+        "missionary",
+        "colonialism",
+        "District Commissioner",
+        "allusion"
+      ],
+      "materials": [
+        "Things Fall Apart",
+        "Yeats 'The Second Coming' (Poetry Foundation)"
+      ],
+      "days": [
+        {
+          "title": "Yeats allusion",
+          "work": "Read 'The Second Coming' and explain how Achebe transforms Yeats's line into his title."
+        },
+        {
+          "title": "Part 2",
+          "work": "Read chapters 14–19 and track Nwoye's conversion and why Christianity appeals to outcasts."
+        },
+        {
+          "title": "Part 3",
+          "work": "Read chapters 20–25 and annotate the actions of Mr. Brown versus Reverend Smith."
+        },
+        {
+          "title": "The ending",
+          "work": "Analyze the District Commissioner's final paragraph: what is Achebe saying about who writes history?"
+        },
+        {
+          "title": "Quiz",
+          "work": "Quiz on Parts 2–3 and a cause-effect chart of colonial change."
+        }
+      ],
+      "assessment": "Quiz and final-paragraph analysis."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Literary analysis essay: Things Fall Apart",
+      "objectives": [
+        "Write a multi-paragraph literary analysis",
+        "Use MLA citations"
+      ],
+      "standards": [
+        "W.9-10.2",
+        "W.9-10.4",
+        "W.9-10.5",
+        "W.9-10.9",
+        "L.9-10.2",
+        "L.9-10.3"
+      ],
+      "vocabulary": [
+        "thesis",
+        "MLA in-text citation",
+        "embedded quotation",
+        "semicolon"
+      ],
+      "materials": [
+        "Things Fall Apart",
+        "Purdue OWL MLA guide"
+      ],
+      "days": [
+        {
+          "title": "Choose prompt",
+          "work": "Choose a prompt (e.g., How does Achebe use Okonkwo's fall to represent the fall of Umuofia?) and write a working thesis."
+        },
+        {
+          "title": "Evidence map",
+          "work": "Gather eight quotations and map them to three body paragraphs."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft the 1,000-word essay with MLA in-text citations."
+        },
+        {
+          "title": "Grammar: semicolons & colons",
+          "work": "Mini-lesson on semicolons, colons and conjunctive adverbs; add three correct uses to the draft."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise using a rubric and read the essay aloud to catch errors."
+        }
+      ],
+      "assessment": "Draft checkpoint conference."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Semester 1 final",
+      "objectives": [
+        "Demonstrate semester mastery in reading and writing"
+      ],
+      "standards": [
+        "RL.9-10.1",
+        "RL.9-10.2",
+        "W.9-10.1",
+        "W.9-10.10",
+        "L.9-10.1"
+      ],
+      "vocabulary": [
+        "synthesis",
+        "timed writing"
+      ],
+      "materials": [
+        "semester notes",
+        "Unit texts"
+      ],
+      "days": [
+        {
+          "title": "Final essay due",
+          "work": "Submit the polished Things Fall Apart essay with a Works Cited page."
+        },
+        {
+          "title": "Review terms",
+          "work": "Review literary and rhetorical terms from Units 1–4 with a self-made flashcard set."
+        },
+        {
+          "title": "Cold read practice",
+          "work": "Complete a practice cold-read passage with multiple-choice and short-answer questions."
+        },
+        {
+          "title": "Semester exam",
+          "work": "Take the semester exam: cold-read analysis, terms, grammar, and a timed argument essay."
+        },
+        {
+          "title": "Reflection",
+          "work": "Write a semester reflection comparing your Week 1 writing sample to your Week 18 essay."
+        }
+      ],
+      "assessment": "Semester exam and final essay."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Poetry of the Great War",
+      "objectives": [
+        "Analyze tone and imagery in WWI poetry",
+        "Compare perspectives on war"
+      ],
+      "standards": [
+        "RL.9-10.4",
+        "RL.9-10.2",
+        "RL.9-10.1",
+        "L.9-10.5"
+      ],
+      "vocabulary": [
+        "imagery",
+        "tone",
+        "irony",
+        "elegy",
+        "caesura"
+      ],
+      "materials": [
+        "Owen 'Dulce et Decorum Est', 'Anthem for Doomed Youth'; Brooke 'The Soldier'; McCrae 'In Flanders Fields'; Sassoon 'Suicide in the Trenches'"
+      ],
+      "days": [
+        {
+          "title": "Context",
+          "work": "Read about WWI trench warfare and recruitment propaganda; examine two recruitment posters (Library of Congress)."
+        },
+        {
+          "title": "Brooke vs. Owen",
+          "work": "Read 'The Soldier' and 'Dulce et Decorum Est' and chart contrasting tone words and images."
+        },
+        {
+          "title": "Imagery",
+          "work": "Analyze sensory imagery in Owen's gas attack stanza and its effect on the reader."
+        },
+        {
+          "title": "Sassoon & McCrae",
+          "work": "Read 'Suicide in the Trenches' and 'In Flanders Fields'; identify the speaker's attitude in each."
+        },
+        {
+          "title": "Comparative response",
+          "work": "Write a 400-word comparison of how two poets use imagery and tone to convey a view of war."
+        }
+      ],
+      "assessment": "Comparative poetry response."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Night by Elie Wiesel, sections 1–3",
+      "objectives": [
+        "Analyze memoir as testimony",
+        "Trace Eliezer's faith"
+      ],
+      "standards": [
+        "RI.9-10.1",
+        "RI.9-10.3",
+        "RI.9-10.10",
+        "RL.9-10.6"
+      ],
+      "vocabulary": [
+        "memoir",
+        "Holocaust",
+        "ghetto",
+        "deportation",
+        "Sighet"
+      ],
+      "materials": [
+        "Night (Elie Wiesel, library)",
+        "USHMM website"
+      ],
+      "days": [
+        {
+          "title": "Context",
+          "work": "Use the U.S. Holocaust Memorial Museum encyclopedia to create a timeline of the Holocaust 1933–1945."
+        },
+        {
+          "title": "Section 1",
+          "work": "Read section 1 and analyze why the Jews of Sighet ignore Moishe the Beadle."
+        },
+        {
+          "title": "Section 2",
+          "work": "Read section 2 (the train and Madame Schächter) and discuss symbolism of fire."
+        },
+        {
+          "title": "Section 3",
+          "work": "Read section 3 (arrival at Birkenau) and track changes in Eliezer's faith with quotes."
+        },
+        {
+          "title": "Reflect",
+          "work": "Reading quiz and a journal entry responding to 'Never shall I forget' passage."
+        }
+      ],
+      "assessment": "Reading quiz and faith-tracking chart."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Night sections 4–9",
+      "objectives": [
+        "Analyze father-son relationship",
+        "Determine central idea"
+      ],
+      "standards": [
+        "RI.9-10.2",
+        "RI.9-10.4",
+        "RI.9-10.6",
+        "SL.9-10.1"
+      ],
+      "vocabulary": [
+        "dehumanization",
+        "selection",
+        "death march",
+        "liberation"
+      ],
+      "materials": [
+        "Night"
+      ],
+      "days": [
+        {
+          "title": "Sections 4–5",
+          "work": "Read sections 4–5 and record moments of dehumanization and resistance."
+        },
+        {
+          "title": "Sections 6–7",
+          "work": "Read sections 6–7 (the march and train) and chart Eliezer's responsibility toward his father."
+        },
+        {
+          "title": "Sections 8–9",
+          "work": "Finish the book and analyze the mirror image in the final paragraph."
+        },
+        {
+          "title": "Nobel speech",
+          "work": "Read Wiesel's 1986 Nobel acceptance speech and connect his call 'to take sides' to the memoir."
+        },
+        {
+          "title": "Seminar",
+          "work": "Socratic seminar: Why does Wiesel say silence helps the tormentor?"
+        }
+      ],
+      "assessment": "Seminar participation and written exit response."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Informative essay on witness literature",
+      "objectives": [
+        "Write an informative essay synthesizing literary and informational texts"
+      ],
+      "standards": [
+        "W.9-10.2",
+        "W.9-10.8",
+        "W.9-10.9",
+        "L.9-10.6"
+      ],
+      "vocabulary": [
+        "synthesis",
+        "paraphrase",
+        "attributive tag"
+      ],
+      "materials": [
+        "Night",
+        "WWI poems",
+        "USHMM articles"
+      ],
+      "days": [
+        {
+          "title": "Prompt & thesis",
+          "work": "Plan an informative essay explaining how witness literature (Night and WWI poetry) preserves memory."
+        },
+        {
+          "title": "Source notes",
+          "work": "Take paraphrase and quote notes from two USHMM articles, citing each in MLA."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft a 900-word essay with attributive tags for every source."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise for academic vocabulary and objective tone; remove first person."
+        },
+        {
+          "title": "Final & test",
+          "work": "Submit final essay and take the Unit 5 test."
+        }
+      ],
+      "assessment": "Informative essay rubric and Unit 5 test."
+    },
+    {
+      "week": 23,
+      "unit": 5,
+      "topic": "Comparing mediums: war in film and text",
+      "objectives": [
+        "Compare text and film representations"
+      ],
+      "standards": [
+        "RL.9-10.7",
+        "RI.9-10.7",
+        "SL.9-10.2",
+        "SL.9-10.5"
+      ],
+      "vocabulary": [
+        "cinematography",
+        "montage",
+        "adaptation"
+      ],
+      "materials": [
+        "documentary clip (e.g., 'They Shall Not Grow Old' trailer)",
+        "WWI poems"
+      ],
+      "days": [
+        {
+          "title": "Film vocabulary",
+          "work": "Learn shot types and editing terms and identify them in a 3-minute WWI documentary clip."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare how the clip and 'Dulce et Decorum Est' emphasize different details of the trenches."
+        },
+        {
+          "title": "Plan presentation",
+          "work": "Plan a 5-slide presentation pairing one poem with archival images (Library of Congress)."
+        },
+        {
+          "title": "Build slides",
+          "work": "Build the slides with captions citing image sources."
+        },
+        {
+          "title": "Present",
+          "work": "Present for 4 minutes, explaining how image and text work together."
+        }
+      ],
+      "assessment": "Multimedia presentation rubric."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Seminal speeches of the 20th century",
+      "objectives": [
+        "Analyze rhetoric in world documents"
+      ],
+      "standards": [
+        "RI.9-10.6",
+        "RI.9-10.9",
+        "RI.9-10.8",
+        "SL.9-10.3"
+      ],
+      "vocabulary": [
+        "rhetoric",
+        "allusion",
+        "fallacy",
+        "seminal document"
+      ],
+      "materials": [
+        "FDR 'Four Freedoms' (1941)",
+        "Churchill 'We Shall Fight on the Beaches'",
+        "Gandhi 'Quit India'",
+        "Mandela 'I Am Prepared to Die'"
+      ],
+      "days": [
+        {
+          "title": "FDR",
+          "work": "Read and listen to FDR's Four Freedoms speech and identify his four claims and supporting reasons."
+        },
+        {
+          "title": "Churchill",
+          "work": "Analyze Churchill's 'Beaches' speech for anaphora and tone."
+        },
+        {
+          "title": "Gandhi",
+          "work": "Read the 'Quit India' speech and evaluate how Gandhi frames nonviolence as strength."
+        },
+        {
+          "title": "Mandela",
+          "work": "Read Mandela's 1964 Rivonia statement excerpt and identify his justification for armed resistance."
+        },
+        {
+          "title": "Synthesis chart",
+          "work": "Complete a chart comparing purpose, audience and key appeals across the four speeches."
+        }
+      ],
+      "assessment": "Rhetorical analysis chart."
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "Letter from Birmingham Jail and the UDHR",
+      "objectives": [
+        "Evaluate argument and reasoning",
+        "Connect documents across time"
+      ],
+      "standards": [
+        "RI.9-10.8",
+        "RI.9-10.9",
+        "RI.9-10.5",
+        "W.9-10.1"
+      ],
+      "vocabulary": [
+        "just law",
+        "unjust law",
+        "refutation",
+        "human rights"
+      ],
+      "materials": [
+        "MLK 'Letter from Birmingham Jail'",
+        "Universal Declaration of Human Rights (UN)"
+      ],
+      "days": [
+        {
+          "title": "Read Letter part 1",
+          "work": "Read the first half of the Letter and outline King's refutations of the clergymen's claims."
+        },
+        {
+          "title": "Read Letter part 2",
+          "work": "Finish the Letter and analyze King's definition of just vs. unjust laws; connect to Antigone."
+        },
+        {
+          "title": "UDHR",
+          "work": "Read the 30 articles of the UDHR and choose three that King's letter supports."
+        },
+        {
+          "title": "Fallacies",
+          "work": "Learn eight logical fallacies and identify fallacies in sample op-eds."
+        },
+        {
+          "title": "Rhetorical analysis",
+          "work": "Write a timed rhetorical analysis of one paragraph from the Letter."
+        }
+      ],
+      "assessment": "Timed rhetorical analysis."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Research paper: question, sources and notes",
+      "objectives": [
+        "Develop a research question",
+        "Evaluate source credibility"
+      ],
+      "standards": [
+        "W.9-10.7",
+        "W.9-10.8",
+        "SL.9-10.2",
+        "L.9-10.6"
+      ],
+      "vocabulary": [
+        "research question",
+        "credibility",
+        "database",
+        "annotated bibliography"
+      ],
+      "materials": [
+        "public library databases",
+        "Purdue OWL"
+      ],
+      "days": [
+        {
+          "title": "Question",
+          "work": "Choose a human-rights topic from the 20th–21st century and draft a focused research question."
+        },
+        {
+          "title": "Source search",
+          "work": "Locate six sources using library databases and evaluate each with the CRAAP test."
+        },
+        {
+          "title": "Annotated bibliography",
+          "work": "Write MLA annotated bibliography entries for four sources."
+        },
+        {
+          "title": "Note-taking",
+          "work": "Take organized notes, labeling paraphrase, summary and direct quote."
+        },
+        {
+          "title": "Thesis & outline",
+          "work": "Write a thesis and detailed outline with source assignments."
+        }
+      ],
+      "assessment": "Annotated bibliography check."
+    },
+    {
+      "week": 27,
+      "unit": 6,
+      "topic": "Research paper: drafting and presenting",
+      "objectives": [
+        "Write a 1,500-word research-based argument",
+        "Present findings"
+      ],
+      "standards": [
+        "W.9-10.1",
+        "W.9-10.7",
+        "W.9-10.8",
+        "W.9-10.6",
+        "SL.9-10.4",
+        "L.9-10.3"
+      ],
+      "vocabulary": [
+        "Works Cited",
+        "hanging indent",
+        "signal phrase"
+      ],
+      "materials": [
+        "outline and notes",
+        "word processor"
+      ],
+      "days": [
+        {
+          "title": "Draft body",
+          "work": "Draft body paragraphs with at least two sources per paragraph."
+        },
+        {
+          "title": "Intro & conclusion",
+          "work": "Draft the introduction hook and conclusion that addresses 'so what?'"
+        },
+        {
+          "title": "Revise & cite",
+          "work": "Revise, check every citation and build the Works Cited page."
+        },
+        {
+          "title": "Edit & submit",
+          "work": "Final edit for grammar and MLA format; submit the paper."
+        },
+        {
+          "title": "Present",
+          "work": "Give a 5-minute presentation of findings with Q&A."
+        }
+      ],
+      "assessment": "Research paper rubric and presentation rubric."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Fahrenheit 451 Part 1: The Hearth and the Salamander",
+      "objectives": [
+        "Analyze dystopian setting and symbolism"
+      ],
+      "standards": [
+        "RL.9-10.2",
+        "RL.9-10.4",
+        "RL.9-10.3",
+        "L.9-10.5"
+      ],
+      "vocabulary": [
+        "dystopia",
+        "censorship",
+        "symbol",
+        "conformity"
+      ],
+      "materials": [
+        "Fahrenheit 451 (Ray Bradbury, library)"
+      ],
+      "days": [
+        {
+          "title": "Dystopia intro",
+          "work": "Define dystopia traits and list examples; discuss why governments censor."
+        },
+        {
+          "title": "Part 1 opening",
+          "work": "Read through Montag's meeting with Clarisse and analyze fire and mirror symbolism."
+        },
+        {
+          "title": "Mildred",
+          "work": "Read through the Mechanical Hound scenes and analyze technology's effect on Mildred."
+        },
+        {
+          "title": "Beatty's speech",
+          "work": "Analyze Beatty's history of censorship speech: which claims sound plausible today?"
+        },
+        {
+          "title": "Quiz",
+          "work": "Part 1 quiz and symbolism log."
+        }
+      ],
+      "assessment": "Quiz and symbolism log."
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Fahrenheit 451 Parts 2–3",
+      "objectives": [
+        "Trace Montag's transformation",
+        "Determine theme"
+      ],
+      "standards": [
+        "RL.9-10.2",
+        "RL.9-10.3",
+        "RL.9-10.1",
+        "SL.9-10.1"
+      ],
+      "vocabulary": [
+        "allusion",
+        "Phoenix",
+        "dynamic character"
+      ],
+      "materials": [
+        "Fahrenheit 451",
+        "Dover Beach (Matthew Arnold)"
+      ],
+      "days": [
+        {
+          "title": "Part 2 & Faber",
+          "work": "Read Part 2 and analyze Faber's three things missing from society."
+        },
+        {
+          "title": "Dover Beach",
+          "work": "Read Arnold's 'Dover Beach' and explain why it makes Mrs. Phelps cry."
+        },
+        {
+          "title": "Part 3",
+          "work": "Read Part 3 and analyze the phoenix allusion and book people."
+        },
+        {
+          "title": "Seminar",
+          "work": "Seminar: Does Fahrenheit 451 describe our world? Use novel evidence plus one current article."
+        },
+        {
+          "title": "Theme essay outline",
+          "work": "Outline a literary analysis on a theme in the novel."
+        }
+      ],
+      "assessment": "Seminar rubric and outline."
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "Orwell and language",
+      "objectives": [
+        "Analyze how language can control thought"
+      ],
+      "standards": [
+        "RI.9-10.4",
+        "RI.9-10.6",
+        "RI.9-10.8",
+        "L.9-10.3"
+      ],
+      "vocabulary": [
+        "euphemism",
+        "propaganda",
+        "doublespeak",
+        "jargon"
+      ],
+      "materials": [
+        "Orwell 'Politics and the English Language'",
+        "excerpts of Animal Farm"
+      ],
+      "days": [
+        {
+          "title": "Orwell essay",
+          "work": "Read 'Politics and the English Language' and list Orwell's six rules."
+        },
+        {
+          "title": "Revise like Orwell",
+          "work": "Apply Orwell's rules to revise a jargon-filled paragraph."
+        },
+        {
+          "title": "Animal Farm excerpt",
+          "work": "Read the chapter where the commandments change and analyze propaganda techniques."
+        },
+        {
+          "title": "Propaganda hunt",
+          "work": "Find three examples of euphemism or doublespeak in ads or news and explain them."
+        },
+        {
+          "title": "Short essay",
+          "work": "Write a 500-word response linking Orwell's essay to Fahrenheit 451."
+        }
+      ],
+      "assessment": "Response essay."
+    },
+    {
+      "week": 31,
+      "unit": 7,
+      "topic": "Dystopian writing and Unit 7 assessment",
+      "objectives": [
+        "Write a literary analysis or dystopian narrative"
+      ],
+      "standards": [
+        "W.9-10.2",
+        "W.9-10.3",
+        "W.9-10.5",
+        "RL.9-10.9"
+      ],
+      "vocabulary": [
+        "world-building",
+        "satire"
+      ],
+      "materials": [
+        "Fahrenheit 451",
+        "notes"
+      ],
+      "days": [
+        {
+          "title": "Choose task",
+          "work": "Choose to write either a theme analysis of Fahrenheit 451 or an original dystopian short story that transforms Bradbury's premise."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft 900–1,200 words."
+        },
+        {
+          "title": "Peer review",
+          "work": "Exchange with a peer/parent using a rubric and give two glows and two grows."
+        },
+        {
+          "title": "Final",
+          "work": "Revise and submit final draft."
+        },
+        {
+          "title": "Unit test",
+          "work": "Unit 7 test with a cold-read dystopian excerpt."
+        }
+      ],
+      "assessment": "Writing rubric and unit test."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "A Doll's House Acts 1–2",
+      "objectives": [
+        "Analyze character and social roles in realist drama"
+      ],
+      "standards": [
+        "RL.9-10.3",
+        "RL.9-10.6",
+        "RL.9-10.10"
+      ],
+      "vocabulary": [
+        "realism",
+        "stage directions",
+        "dramatic irony",
+        "gender roles"
+      ],
+      "materials": [
+        "A Doll's House (Henrik Ibsen, Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Context",
+          "work": "Read about 19th-century Norwegian society and women's legal status; note what Nora cannot do legally."
+        },
+        {
+          "title": "Act 1",
+          "work": "Read Act 1 and chart Torvald's pet names for Nora and what they reveal."
+        },
+        {
+          "title": "Act 2",
+          "work": "Read Act 2 and analyze the tarantella as a symbol."
+        },
+        {
+          "title": "Dramatic irony",
+          "work": "List secrets audiences know that Torvald doesn't and explain the tension created."
+        },
+        {
+          "title": "Quiz",
+          "work": "Quiz on Acts 1–2."
+        }
+      ],
+      "assessment": "Quiz and character analysis."
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "A Doll's House Act 3 and poetry of identity",
+      "objectives": [
+        "Evaluate the ending",
+        "Compare poems of identity"
+      ],
+      "standards": [
+        "RL.9-10.2",
+        "RL.9-10.4",
+        "RL.9-10.6",
+        "SL.9-10.1"
+      ],
+      "vocabulary": [
+        "epiphany",
+        "free verse",
+        "persona"
+      ],
+      "materials": [
+        "A Doll's House",
+        "Langston Hughes 'Let America Be America Again'",
+        "Rabindranath Tagore 'Where the Mind is Without Fear'",
+        "Claude McKay 'If We Must Die'"
+      ],
+      "days": [
+        {
+          "title": "Act 3",
+          "work": "Read Act 3 and analyze Nora's final speech line by line."
+        },
+        {
+          "title": "The door slam",
+          "work": "Debate: Is Nora's leaving justified? Discuss the play's 1879 reception."
+        },
+        {
+          "title": "Tagore",
+          "work": "Read Tagore's poem and connect its vision of freedom to Unit 6 speeches."
+        },
+        {
+          "title": "Hughes & McKay",
+          "work": "Read Hughes and McKay poems and analyze form and tone."
+        },
+        {
+          "title": "Response",
+          "work": "Write a comparative response: how do Nora and one poem's speaker claim identity?"
+        }
+      ],
+      "assessment": "Comparative response."
+    },
+    {
+      "week": 34,
+      "unit": 8,
+      "topic": "Writing poetry and dramatic monologue",
+      "objectives": [
+        "Write original poems using figurative techniques",
+        "Perform a monologue"
+      ],
+      "standards": [
+        "W.9-10.3",
+        "SL.9-10.6",
+        "L.9-10.5",
+        "RL.9-10.4"
+      ],
+      "vocabulary": [
+        "enjambment",
+        "extended metaphor",
+        "monologue"
+      ],
+      "materials": [
+        "poetry notebook"
+      ],
+      "days": [
+        {
+          "title": "Imitation poem",
+          "work": "Write an imitation of Tagore's structure ('Where…') about your own vision of freedom."
+        },
+        {
+          "title": "Extended metaphor",
+          "work": "Write a poem built on one extended metaphor for identity."
+        },
+        {
+          "title": "Monologue",
+          "work": "Write a 1-minute dramatic monologue for a minor character from any text this year."
+        },
+        {
+          "title": "Perform",
+          "work": "Rehearse and perform the monologue or a poem for family."
+        },
+        {
+          "title": "Unit 8 check",
+          "work": "Unit 8 test on drama and poetry terms with a cold-read poem."
+        }
+      ],
+      "assessment": "Creative portfolio pieces and unit test."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Portfolio revision",
+      "objectives": [
+        "Revise prior work for growth",
+        "Reflect on learning"
+      ],
+      "standards": [
+        "W.9-10.5",
+        "W.9-10.6",
+        "W.9-10.10",
+        "L.9-10.1",
+        "L.9-10.2"
+      ],
+      "vocabulary": [
+        "metacognition",
+        "portfolio"
+      ],
+      "materials": [
+        "all graded work",
+        "digital portfolio folder"
+      ],
+      "days": [
+        {
+          "title": "Select pieces",
+          "work": "Select three best pieces (narrative, analysis, argument/research) for a final portfolio."
+        },
+        {
+          "title": "Revise piece 1",
+          "work": "Deeply revise one essay based on earlier feedback, tracking changes."
+        },
+        {
+          "title": "Revise piece 2",
+          "work": "Revise a second piece for style: sentence variety, precise verbs, parallelism."
+        },
+        {
+          "title": "Reflective letter",
+          "work": "Write a 600-word reflective letter explaining your growth as a reader and writer."
+        },
+        {
+          "title": "Publish",
+          "work": "Publish the portfolio as a digital document or website."
+        }
+      ],
+      "assessment": "Portfolio rubric."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Final exam and presentation",
+      "objectives": [
+        "Demonstrate year-end mastery"
+      ],
+      "standards": [
+        "RL.9-10.1",
+        "RI.9-10.1",
+        "W.9-10.1",
+        "SL.9-10.4",
+        "SL.9-10.5",
+        "L.9-10.1"
+      ],
+      "vocabulary": [
+        "synthesis"
+      ],
+      "materials": [
+        "review notes"
+      ],
+      "days": [
+        {
+          "title": "Review",
+          "work": "Review key texts and terms with a self-made study guide."
+        },
+        {
+          "title": "Practice exam",
+          "work": "Complete a CAASPP-style practice performance task."
+        },
+        {
+          "title": "Final exam",
+          "work": "Take the final: cold reads (literary and informational), grammar, and a timed argument essay."
+        },
+        {
+          "title": "Portfolio presentation",
+          "work": "Present the portfolio in a 6-minute talk with slides."
+        },
+        {
+          "title": "Summer reading plan",
+          "work": "Create a summer reading list of five books and set reading goals."
+        }
+      ],
+      "assessment": "Final exam and portfolio presentation."
+    }
+  ]
+}

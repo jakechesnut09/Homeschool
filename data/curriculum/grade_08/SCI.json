@@ -1,0 +1,1914 @@
+{
+ "grade": 8,
+ "subject": "SCI",
+ "title": "Science 8 (Integrated)",
+ "description": "Integrated Grade 8 science following the California preferred integrated model. Students investigate forces, motion and energy; gravity and the solar system; waves and information technology; Earth's history and the fossil record; heredity; and natural selection. Each week includes a hands-on investigation with household materials, data analysis, and written scientific explanations, ending with an engineering design capstone.",
+ "framework": "California Next Generation Science Standards (CA NGSS); 2016 California Science Framework (Preferred Integrated Model, Grade 8)",
+ "minutes_per_day": 50,
+ "ag_requirement": null,
+ "credits": null,
+ "standards": {
+  "MS-PS2-1": "Apply Newton's Third Law to design a solution to a problem involving the motion of two colliding objects.",
+  "MS-PS2-2": "Plan an investigation showing that the change in an object's motion depends on the sum of the forces on it and its mass.",
+  "MS-PS2-4": "Argue from evidence that gravitational interactions are attractive and depend on the masses of interacting objects.",
+  "MS-PS3-1": "Construct and interpret graphical displays of data describing the relationships of kinetic energy to mass and to speed.",
+  "MS-PS3-2": "Develop a model showing that changing the arrangement of objects interacting at a distance changes the potential energy stored.",
+  "MS-PS3-5": "Argue that when the kinetic energy of an object changes, energy is transferred to or from the object.",
+  "MS-PS4-1": "Use mathematical representations to describe a simple model for waves including how amplitude relates to energy.",
+  "MS-PS4-2": "Develop and use a model describing how waves are reflected, absorbed, or transmitted through various materials.",
+  "MS-PS4-3": "Integrate information to support the claim that digitized signals are a more reliable way to encode and transmit information than analog signals.",
+  "MS-ESS1-1": "Develop and use a model of the Earth-sun-moon system to describe cyclic patterns of lunar phases, eclipses, and seasons.",
+  "MS-ESS1-2": "Develop and use a model describing the role of gravity in the motions within galaxies and the solar system.",
+  "MS-ESS1-3": "Analyze and interpret data to determine scale properties of objects in the solar system.",
+  "MS-ESS1-4": "Construct an explanation from rock-strata evidence for how the geologic time scale organizes Earth's 4.6-billion-year history.",
+  "MS-LS3-1": "Develop and use a model of why mutations in genes may have harmful, beneficial, or neutral effects on the structure and function of the organism.",
+  "MS-LS3-2": "Model why asexual reproduction produces genetically identical offspring and sexual reproduction produces genetic variation.",
+  "MS-LS4-1": "Analyze and interpret data for patterns in the fossil record documenting the existence, diversity, extinction, and change of life forms.",
+  "MS-LS4-2": "Explain anatomical similarities and differences among modern and fossil organisms to infer evolutionary relationships.",
+  "MS-LS4-3": "Analyze pictorial data to compare patterns of similarity in embryological development across species.",
+  "MS-LS4-4": "Explain how genetic variations of traits in a population increase some individuals' probability of surviving and reproducing.",
+  "MS-LS4-5": "Gather and synthesize information about technologies that have changed the way humans influence the inheritance of desired traits.",
+  "MS-LS4-6": "Use mathematical representations to explain how natural selection may lead to increases and decreases of specific traits over time.",
+  "MS-ETS1-1": "Define the criteria and constraints of a design problem.",
+  "MS-ETS1-2": "Evaluate competing design solutions using a systematic process.",
+  "MS-ETS1-3": "Analyze data from tests to determine similarities and differences among design solutions and combine their best characteristics.",
+  "MS-ETS1-4": "Develop a model to generate data for iterative testing and modification of a proposed design."
+ },
+ "resources": [
+  {
+   "name": "PhET Interactive Simulations",
+   "url": "https://phet.colorado.edu",
+   "note": "Forces and Motion, Energy Skate Park, Gravity and Orbits, Waves, Natural Selection sims"
+  },
+  {
+   "name": "OpenSciEd Middle School",
+   "url": "https://www.openscied.org",
+   "note": "Free storyline units on forces, waves, genetics and natural selection"
+  },
+  {
+   "name": "Khan Academy – Middle school physics",
+   "url": "https://www.khanacademy.org/science/ms-physics",
+   "note": "Forces, energy and waves review"
+  },
+  {
+   "name": "Khan Academy – Middle school biology",
+   "url": "https://www.khanacademy.org/science/ms-biology",
+   "note": "Heredity and evolution review"
+  },
+  {
+   "name": "HHMI BioInteractive",
+   "url": "https://www.biointeractive.org",
+   "note": "Short films and data activities (rock pocket mice, stickleback, finches)"
+  },
+  {
+   "name": "NASA Space Place",
+   "url": "https://spaceplace.nasa.gov",
+   "note": "Solar system scale, eclipses, seasons"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Forces and Motion",
+   "start_week": 1,
+   "end_week": 5,
+   "big_idea": "An object's motion changes only when the forces on it are unbalanced, and every force comes in an equal and opposite pair.",
+   "standards": [
+    "MS-PS2-1",
+    "MS-PS2-2",
+    "MS-ETS1-1",
+    "MS-ETS1-2",
+    "MS-ETS1-3",
+    "MS-ETS1-4"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Energy in Motion and at a Distance",
+   "start_week": 6,
+   "end_week": 9,
+   "big_idea": "Kinetic energy depends on mass and speed; energy stored in fields changes with position and transfers whenever motion changes.",
+   "standards": [
+    "MS-PS3-1",
+    "MS-PS3-2",
+    "MS-PS3-5"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Gravity and the Solar System",
+   "start_week": 10,
+   "end_week": 14,
+   "big_idea": "Gravity, which depends on mass, shapes orbits, tides, and the cyclic patterns we see in the sky.",
+   "standards": [
+    "MS-PS2-4",
+    "MS-ESS1-1",
+    "MS-ESS1-2",
+    "MS-ESS1-3"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Waves, Light, and Information",
+   "start_week": 15,
+   "end_week": 19,
+   "big_idea": "Waves carry energy and information; materials reflect, absorb or transmit them, and digital signals carry information reliably.",
+   "standards": [
+    "MS-PS4-1",
+    "MS-PS4-2",
+    "MS-PS4-3"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Earth's History and the Fossil Record",
+   "start_week": 20,
+   "end_week": 24,
+   "big_idea": "Rock layers and fossils record 4.6 billion years of Earth and life history and reveal shared ancestry.",
+   "standards": [
+    "MS-ESS1-4",
+    "MS-LS4-1",
+    "MS-LS4-2",
+    "MS-LS4-3"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Heredity: Genes and Reproduction",
+   "start_week": 25,
+   "end_week": 29,
+   "big_idea": "Genes code for proteins that shape traits; reproduction and mutations create variation, and people now influence inheritance with technology.",
+   "standards": [
+    "MS-LS3-1",
+    "MS-LS3-2",
+    "MS-LS4-5"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Natural Selection and Adaptation",
+   "start_week": 30,
+   "end_week": 33,
+   "big_idea": "Variation plus environmental pressures change trait frequencies in populations over generations.",
+   "standards": [
+    "MS-LS4-4",
+    "MS-LS4-6",
+    "MS-LS4-2"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Engineering Design Capstone",
+   "start_week": 34,
+   "end_week": 36,
+   "big_idea": "Engineers define problems, test competing solutions, and iterate using data.",
+   "standards": [
+    "MS-ETS1-1",
+    "MS-ETS1-2",
+    "MS-ETS1-3",
+    "MS-ETS1-4",
+    "MS-PS2-1"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "Describing motion",
+   "objectives": [
+    "Describe motion using position, distance, speed and a frame of reference",
+    "Make and interpret distance-time graphs"
+   ],
+   "standards": [
+    "MS-PS2-2"
+   ],
+   "vocabulary": [
+    "motion",
+    "reference frame",
+    "position",
+    "speed",
+    "velocity",
+    "distance-time graph"
+   ],
+   "materials": [
+    "toy car",
+    "masking tape",
+    "meter stick",
+    "stopwatch or phone timer",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "Science notebook & frames of reference",
+     "work": "Set up a science notebook; observe a toy car rolling past from two viewpoints and write how each observer would describe its motion."
+    },
+    {
+     "title": "Measuring speed",
+     "work": "Mark 0.5 m intervals with tape, time a toy car over 3 m, and calculate average speed in m/s for 3 trials."
+    },
+    {
+     "title": "Distance-time graphs",
+     "work": "Graph your toy-car data and walking data; interpret steepness as speed and flat segments as stopping."
+    },
+    {
+     "title": "Velocity and direction",
+     "work": "Use the PhET 'Forces and Motion: Basics' motion screen to compare speed and velocity; record 3 observations."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on speed calculations and interpreting 4 distance-time graphs; write a one-paragraph summary of the lab."
+    }
+   ],
+   "assessment": "Speed lab data table and graph plus Friday quiz."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "Forces, net force and friction",
+   "objectives": [
+    "Identify contact and non-contact forces",
+    "Calculate net force and predict motion from balanced or unbalanced forces"
+   ],
+   "standards": [
+    "MS-PS2-2"
+   ],
+   "vocabulary": [
+    "force",
+    "newton",
+    "net force",
+    "balanced forces",
+    "unbalanced forces",
+    "friction"
+   ],
+   "materials": [
+    "rubber bands",
+    "small spring scale or rubber band 'force meter'",
+    "shoe",
+    "different floor surfaces",
+    "string"
+   ],
+   "days": [
+    {
+     "title": "Pushes and pulls",
+     "work": "Draw force diagrams (arrows) for 6 everyday situations such as a book on a table and a tug-of-war."
+    },
+    {
+     "title": "Net force",
+     "work": "Use the PhET Forces and Motion tug-of-war screen to predict and test motion for 8 combinations of forces; record net force calculations."
+    },
+    {
+     "title": "Friction investigation",
+     "work": "Pull a shoe across carpet, tile and wood with a rubber-band force meter; measure stretch and rank surfaces by friction."
+    },
+    {
+     "title": "Analyzing friction data",
+     "work": "Graph friction results, identify variables held constant, and write a claim-evidence-reasoning (CER) paragraph."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on net force diagrams and the friction CER."
+    }
+   ],
+   "assessment": "Friction CER and force diagram quiz."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "Newton's second law: force, mass and acceleration",
+   "objectives": [
+    "Plan an investigation of how mass and force affect acceleration",
+    "Use F = ma qualitatively and quantitatively"
+   ],
+   "standards": [
+    "MS-PS2-2"
+   ],
+   "vocabulary": [
+    "acceleration",
+    "mass",
+    "inertia",
+    "Newton's first law",
+    "Newton's second law"
+   ],
+   "materials": [
+    "toy car or small cart",
+    "coins or washers for added mass",
+    "ramp (board and books)",
+    "meter stick",
+    "stopwatch"
+   ],
+   "days": [
+    {
+     "title": "Inertia",
+     "work": "Do the coin-on-card flick and tablecloth-style demonstrations; explain Newton's first law in your notebook."
+    },
+    {
+     "title": "Planning the investigation",
+     "work": "Write a plan to test how added mass changes the speed of a car released down a ramp: question, variables, procedure, data table."
+    },
+    {
+     "title": "Carrying out the investigation",
+     "work": "Run 3 trials each with 0, 2, 4 and 6 washers taped to the car; calculate average times and speeds."
+    },
+    {
+     "title": "Force & mass math",
+     "work": "Graph your results; solve 8 F = ma problems and relate the math to your data."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a lab report conclusion and take a quiz on Newton's first and second laws."
+    }
+   ],
+   "assessment": "Lab report on mass and motion; quiz."
+  },
+  {
+   "week": 4,
+   "unit": 1,
+   "topic": "Newton's third law and collisions",
+   "objectives": [
+    "Identify action-reaction force pairs",
+    "Explain collisions using Newton's third law"
+   ],
+   "standards": [
+    "MS-PS2-1"
+   ],
+   "vocabulary": [
+    "Newton's third law",
+    "action-reaction pair",
+    "collision",
+    "momentum"
+   ],
+   "materials": [
+    "balloons",
+    "string",
+    "straw",
+    "tape",
+    "marbles",
+    "ruler with a groove"
+   ],
+   "days": [
+    {
+     "title": "Balloon rocket",
+     "work": "Build a balloon rocket on a string line; measure distance traveled for small, medium and large balloon inflations and identify the force pair."
+    },
+    {
+     "title": "Force pairs",
+     "work": "Label action-reaction pairs in 8 scenarios (swimmer, rocket, rowing, hammer and nail) and explain why the pairs do not cancel."
+    },
+    {
+     "title": "Marble collisions",
+     "work": "Roll marbles of the same and different sizes along a ruler groove into each other; record and explain what happens after collisions."
+    },
+    {
+     "title": "Collision analysis",
+     "work": "Watch slow-motion crash test footage and explain the forces on the car and the dummy; connect to seatbelts and airbags."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on Newton's third law; draw force-pair diagrams for two collisions."
+    }
+   ],
+   "assessment": "Collision lab notes and quiz."
+  },
+  {
+   "week": 5,
+   "unit": 1,
+   "topic": "Engineering challenge: protect the egg",
+   "objectives": [
+    "Define criteria and constraints for a collision-protection device",
+    "Test, compare and improve designs using Newton's third law"
+   ],
+   "standards": [
+    "MS-PS2-1",
+    "MS-ETS1-1",
+    "MS-ETS1-2",
+    "MS-ETS1-3",
+    "MS-ETS1-4"
+   ],
+   "vocabulary": [
+    "criteria",
+    "constraints",
+    "prototype",
+    "iterate",
+    "impact force"
+   ],
+   "materials": [
+    "raw eggs or water balloons",
+    "straws",
+    "tape",
+    "cardboard",
+    "cotton balls",
+    "rubber bands",
+    "plastic bags"
+   ],
+   "days": [
+    {
+     "title": "Define the problem",
+     "work": "Write criteria and constraints for a device that protects an egg in a 2-meter drop or a cart crash, using limited materials."
+    },
+    {
+     "title": "Design & decision matrix",
+     "work": "Sketch 3 designs and choose one with a decision matrix scoring cost, mass and expected protection."
+    },
+    {
+     "title": "Build & test",
+     "work": "Build the prototype and test it; record results and observe how the device increases collision time."
+    },
+    {
+     "title": "Iterate",
+     "work": "Redesign based on test data, retest, and compare results with a family member's design."
+    },
+    {
+     "title": "Unit 1 test",
+     "work": "Unit test on motion, forces and Newton's laws; submit engineering notebook pages."
+    }
+   ],
+   "assessment": "Engineering notebook rubric and Unit 1 test."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Kinetic energy",
+   "objectives": [
+    "Describe kinetic energy as energy of motion",
+    "Graph how kinetic energy depends on mass and speed"
+   ],
+   "standards": [
+    "MS-PS3-1"
+   ],
+   "vocabulary": [
+    "energy",
+    "kinetic energy",
+    "joule",
+    "proportional",
+    "nonlinear"
+   ],
+   "materials": [
+    "ramp",
+    "marbles or balls of different masses",
+    "paper cup with a door cut in it",
+    "ruler"
+   ],
+   "days": [
+    {
+     "title": "Energy of motion",
+     "work": "Brainstorm examples of moving objects and rank them by kinetic energy; read an introduction to KE = 1/2 m v^2."
+    },
+    {
+     "title": "Mass and kinetic energy",
+     "work": "Roll balls of different mass from the same ramp height into a cup; measure how far the cup slides as evidence of energy."
+    },
+    {
+     "title": "Speed and kinetic energy",
+     "work": "Roll the same ball from increasing ramp heights (faster speeds) and measure cup distance."
+    },
+    {
+     "title": "Graphing KE",
+     "work": "Graph both data sets and use KE calculations to explain why doubling speed has a bigger effect than doubling mass."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on interpreting KE graphs and 5 KE calculations."
+    }
+   ],
+   "assessment": "Kinetic energy graphs and quiz."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "Potential energy and fields",
+   "objectives": [
+    "Model gravitational, elastic and magnetic potential energy",
+    "Explain how changing distance between interacting objects changes stored energy"
+   ],
+   "standards": [
+    "MS-PS3-2"
+   ],
+   "vocabulary": [
+    "potential energy",
+    "gravitational potential energy",
+    "elastic potential energy",
+    "magnetic field",
+    "system"
+   ],
+   "materials": [
+    "rubber bands",
+    "magnets",
+    "paper clips",
+    "books",
+    "ruler"
+   ],
+   "days": [
+    {
+     "title": "Gravitational PE",
+     "work": "Drop a ball from 3 heights onto a tray of flour or sand and measure crater size; model energy stored by height."
+    },
+    {
+     "title": "Elastic PE",
+     "work": "Launch rubber bands stretched 5, 10 and 15 cm and measure distance traveled; relate stretch to stored energy."
+    },
+    {
+     "title": "Magnetic PE",
+     "work": "Measure the distance at which a paper clip jumps to a magnet; model how arrangement changes stored energy with diagrams."
+    },
+    {
+     "title": "Modeling systems",
+     "work": "Draw energy models (before/after diagrams) for a roller coaster, bow and arrow and two magnets."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on potential energy types and models."
+    }
+   ],
+   "assessment": "Potential energy model diagrams and quiz."
+  },
+  {
+   "week": 8,
+   "unit": 2,
+   "topic": "Energy transfer and transformation",
+   "objectives": [
+    "Track energy transfer between kinetic and potential forms",
+    "Argue that changes in kinetic energy mean energy was transferred"
+   ],
+   "standards": [
+    "MS-PS3-5"
+   ],
+   "vocabulary": [
+    "energy transfer",
+    "energy transformation",
+    "conservation of energy",
+    "thermal energy"
+   ],
+   "materials": [
+    "foam pipe insulation cut in half (or paper track)",
+    "marbles",
+    "tape",
+    "string",
+    "washers"
+   ],
+   "days": [
+    {
+     "title": "Energy Skate Park",
+     "work": "Use the PhET Energy Skate Park sim to observe energy bar graphs as the skater moves; record 3 patterns."
+    },
+    {
+     "title": "Pendulum lab",
+     "work": "Build a string-and-washer pendulum and observe energy changes; explain why it eventually stops (thermal energy)."
+    },
+    {
+     "title": "Marble roller coaster",
+     "work": "Build a foam-tube coaster with a loop; find the minimum starting height for the marble to complete the loop."
+    },
+    {
+     "title": "Argument writing",
+     "work": "Write a CER argument: 'When the marble slows down, where did its energy go?' using evidence from labs."
+    },
+    {
+     "title": "Review & check",
+     "work": "Peer/parent review of CER using a rubric; quiz on energy transfer."
+    }
+   ],
+   "assessment": "Roller coaster design and energy CER."
+  },
+  {
+   "week": 9,
+   "unit": 2,
+   "topic": "Collisions and energy review",
+   "objectives": [
+    "Analyze energy transfers in collisions",
+    "Synthesize unit learning about kinetic and potential energy"
+   ],
+   "standards": [
+    "MS-PS3-1",
+    "MS-PS3-5",
+    "MS-PS3-2"
+   ],
+   "vocabulary": [
+    "elastic collision",
+    "inelastic collision",
+    "energy dissipation"
+   ],
+   "materials": [
+    "balls of different materials",
+    "meter stick",
+    "phone camera (slow motion)"
+   ],
+   "days": [
+    {
+     "title": "Bounce test",
+     "work": "Drop tennis, rubber and clay balls from 1 m; measure rebound heights and calculate the percent energy retained."
+    },
+    {
+     "title": "Slow-motion analysis",
+     "work": "Film collisions in slow motion and identify where energy goes (sound, heat, deformation)."
+    },
+    {
+     "title": "Unit review",
+     "work": "Create a concept map connecting force, motion, kinetic energy, potential energy and energy transfer."
+    },
+    {
+     "title": "Practice assessment",
+     "work": "Answer 3 data-analysis questions using kinetic energy graphs."
+    },
+    {
+     "title": "Unit 2 test",
+     "work": "Unit test on energy."
+    }
+   ],
+   "assessment": "Unit 2 test."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Gravity is attractive and depends on mass",
+   "objectives": [
+    "Use evidence to argue that gravity depends on mass and distance",
+    "Compare weight on different planets"
+   ],
+   "standards": [
+    "MS-PS2-4"
+   ],
+   "vocabulary": [
+    "gravity",
+    "gravitational force",
+    "mass",
+    "weight",
+    "distance"
+   ],
+   "materials": [
+    "bathroom scale",
+    "NASA planet data",
+    "balls",
+    "stretchy fabric or bedsheet"
+   ],
+   "days": [
+    {
+     "title": "What is gravity?",
+     "work": "Drop objects of different mass and observe they land together; discuss mass vs weight."
+    },
+    {
+     "title": "Gravity well model",
+     "work": "Stretch a sheet or fabric and place heavy and light balls on it; roll marbles to model gravitational attraction."
+    },
+    {
+     "title": "Data on gravity",
+     "work": "Use NASA data to compute your weight on each planet and graph planet mass vs surface gravity."
+    },
+    {
+     "title": "Arguing from evidence",
+     "work": "Write an argument that gravitational interaction depends on mass, using planet data and the PhET 'Gravity Force Lab' sim."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on gravity, mass and weight."
+    }
+   ],
+   "assessment": "Gravity argument and quiz."
+  },
+  {
+   "week": 11,
+   "unit": 3,
+   "topic": "Moon phases and eclipses",
+   "objectives": [
+    "Model the cause of lunar phases",
+    "Explain solar and lunar eclipses"
+   ],
+   "standards": [
+    "MS-ESS1-1"
+   ],
+   "vocabulary": [
+    "lunar phase",
+    "waxing",
+    "waning",
+    "gibbous",
+    "crescent",
+    "solar eclipse",
+    "lunar eclipse",
+    "umbra"
+   ],
+   "materials": [
+    "lamp without shade",
+    "foam or Styrofoam ball on a pencil",
+    "moon observation chart"
+   ],
+   "days": [
+    {
+     "title": "Moon journal",
+     "work": "Begin a 14-day moon observation log (sketch shape and time nightly); research tonight's phase."
+    },
+    {
+     "title": "Modeling phases",
+     "work": "In a dark room, hold a ball on a pencil at arm's length around a lamp to model all 8 phases; sketch each."
+    },
+    {
+     "title": "Phase sequence",
+     "work": "Order phase photos and explain why we always see the same side of the Moon."
+    },
+    {
+     "title": "Eclipses",
+     "work": "Use the lamp model to show solar and lunar eclipses; explain why eclipses do not happen every month (tilted orbit)."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz with diagrams of phases and eclipses; update moon log."
+    }
+   ],
+   "assessment": "Phase model sketches and quiz."
+  },
+  {
+   "week": 12,
+   "unit": 3,
+   "topic": "Seasons",
+   "objectives": [
+    "Explain that seasons result from Earth's tilt, not distance from the Sun",
+    "Analyze day-length and sunlight-angle data"
+   ],
+   "standards": [
+    "MS-ESS1-1"
+   ],
+   "vocabulary": [
+    "axis",
+    "tilt",
+    "solstice",
+    "equinox",
+    "direct sunlight",
+    "indirect sunlight"
+   ],
+   "materials": [
+    "flashlight",
+    "graph paper",
+    "globe or ball",
+    "sunrise/sunset data for your city"
+   ],
+   "days": [
+    {
+     "title": "Misconceptions",
+     "work": "Write what causes seasons; examine Earth-Sun distance data showing Earth is closest to the Sun in January."
+    },
+    {
+     "title": "Light angle lab",
+     "work": "Shine a flashlight straight down and at an angle on graph paper; count squares lit to compare energy concentration."
+    },
+    {
+     "title": "Day-length data",
+     "work": "Graph monthly day length for your city and a city in the Southern Hemisphere; describe patterns."
+    },
+    {
+     "title": "Modeling the orbit",
+     "work": "Walk a tilted globe around a lamp and explain solstices and equinoxes; finish moon log."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a scientific explanation of seasons and complete a quiz."
+    }
+   ],
+   "assessment": "Seasons explanation and quiz."
+  },
+  {
+   "week": 13,
+   "unit": 3,
+   "topic": "Gravity, orbits and galaxies",
+   "objectives": [
+    "Explain how gravity keeps planets and moons in orbit",
+    "Describe the role of gravity in forming the solar system and galaxies"
+   ],
+   "standards": [
+    "MS-ESS1-2"
+   ],
+   "vocabulary": [
+    "orbit",
+    "inertia",
+    "solar nebula",
+    "galaxy",
+    "Milky Way"
+   ],
+   "materials": [
+    "string",
+    "small ball or eraser",
+    "PhET Gravity and Orbits sim"
+   ],
+   "days": [
+    {
+     "title": "Orbit model",
+     "work": "Swing a ball on a string in a circle (outdoors) and release it to see inertia; relate the string to gravity."
+    },
+    {
+     "title": "Gravity and Orbits sim",
+     "work": "Use PhET 'Gravity and Orbits' to turn gravity off and change masses; record effects on orbits."
+    },
+    {
+     "title": "Solar system formation",
+     "work": "Read about the solar nebula hypothesis and draw a 4-panel model of gravity forming the Sun and planets."
+    },
+    {
+     "title": "Galaxies",
+     "work": "Explore NASA images of galaxies; explain how gravity holds billions of stars in the Milky Way."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on orbits and gravity's role in the universe."
+    }
+   ],
+   "assessment": "Formation model and quiz."
+  },
+  {
+   "week": 14,
+   "unit": 3,
+   "topic": "Scale of the solar system",
+   "objectives": [
+    "Analyze data on sizes and distances of solar system objects",
+    "Build scale models and explain their limitations"
+   ],
+   "standards": [
+    "MS-ESS1-3"
+   ],
+   "vocabulary": [
+    "astronomical unit",
+    "scale model",
+    "diameter",
+    "light-year"
+   ],
+   "materials": [
+    "toilet paper roll",
+    "calculator",
+    "NASA planetary fact sheet",
+    "marker"
+   ],
+   "days": [
+    {
+     "title": "Size data",
+     "work": "Compare planet diameters from NASA data; calculate how many Earths fit across Jupiter and the Sun."
+    },
+    {
+     "title": "Toilet paper solar system",
+     "work": "Make a distance scale model on a toilet-paper roll (1 square = about 10 million km) in a hallway or outside."
+    },
+    {
+     "title": "Size vs distance models",
+     "work": "Explain why one model cannot show both sizes and distances to the same scale; calculate a scale where Earth is a peppercorn."
+    },
+    {
+     "title": "Unit review",
+     "work": "Review gravity, moon phases, eclipses, seasons and scale with a self-made study guide."
+    },
+    {
+     "title": "Unit 3 test",
+     "work": "Unit test on gravity and the solar system."
+    }
+   ],
+   "assessment": "Scale model and Unit 3 test."
+  },
+  {
+   "week": 15,
+   "unit": 4,
+   "topic": "Wave properties",
+   "objectives": [
+    "Identify wavelength, amplitude and frequency",
+    "Relate amplitude to energy"
+   ],
+   "standards": [
+    "MS-PS4-1"
+   ],
+   "vocabulary": [
+    "wave",
+    "crest",
+    "trough",
+    "wavelength",
+    "amplitude",
+    "frequency",
+    "transverse",
+    "longitudinal"
+   ],
+   "materials": [
+    "Slinky or long rope",
+    "ruler",
+    "pan of water",
+    "PhET Wave on a String"
+   ],
+   "days": [
+    {
+     "title": "Making waves",
+     "work": "Use a Slinky or rope to make transverse and longitudinal waves; sketch and label each."
+    },
+    {
+     "title": "Wave on a String",
+     "work": "Use PhET to change amplitude and frequency; measure wavelength and record how frequency affects wavelength."
+    },
+    {
+     "title": "Amplitude and energy",
+     "work": "Drop a pebble from different heights into a pan of water and observe wave height; relate amplitude to energy."
+    },
+    {
+     "title": "Wave math",
+     "work": "Use v = frequency x wavelength to solve 8 problems and graph amplitude vs energy data."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on labeling waves and wave math."
+    }
+   ],
+   "assessment": "Wave diagram labels and quiz."
+  },
+  {
+   "week": 16,
+   "unit": 4,
+   "topic": "Sound waves",
+   "objectives": [
+    "Explain that sound is a mechanical wave that needs a medium",
+    "Relate pitch to frequency and loudness to amplitude"
+   ],
+   "standards": [
+    "MS-PS4-1",
+    "MS-PS4-2"
+   ],
+   "vocabulary": [
+    "sound wave",
+    "medium",
+    "pitch",
+    "loudness",
+    "decibel",
+    "vibration"
+   ],
+   "materials": [
+    "paper cups",
+    "string",
+    "rubber bands",
+    "tissue box",
+    "glasses of water",
+    "spoon"
+   ],
+   "days": [
+    {
+     "title": "Vibrations",
+     "work": "Stretch rubber bands over a tissue box and pluck; change tension and length to change pitch and record observations."
+    },
+    {
+     "title": "Sound through materials",
+     "work": "Make a cup-and-string telephone and compare how well sound travels through string, air and a table."
+    },
+    {
+     "title": "Water glass xylophone",
+     "work": "Tap glasses filled to different levels and explain pitch differences using frequency."
+    },
+    {
+     "title": "Sound absorption",
+     "work": "Test how towels, foam and cardboard reduce sound from a phone speaker using a free decibel meter app."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on sound properties; write up the absorption test."
+    }
+   ],
+   "assessment": "Sound absorption investigation report."
+  },
+  {
+   "week": 17,
+   "unit": 4,
+   "topic": "Light: reflection, refraction, absorption, transmission",
+   "objectives": [
+    "Model how light interacts with materials",
+    "Explain reflection and refraction"
+   ],
+   "standards": [
+    "MS-PS4-2"
+   ],
+   "vocabulary": [
+    "reflection",
+    "refraction",
+    "absorption",
+    "transmission",
+    "transparent",
+    "translucent",
+    "opaque"
+   ],
+   "materials": [
+    "flashlight",
+    "mirror",
+    "glass of water",
+    "pencil",
+    "wax paper",
+    "aluminum foil",
+    "cardboard"
+   ],
+   "days": [
+    {
+     "title": "Light behavior sort",
+     "work": "Shine a flashlight through clear plastic, wax paper, foil and cardboard; classify as transparent, translucent or opaque."
+    },
+    {
+     "title": "Reflection",
+     "work": "Use a mirror and flashlight to test the law of reflection; measure angles with a protractor."
+    },
+    {
+     "title": "Refraction",
+     "work": "Observe a pencil in water and a coin that 'appears' in a cup when water is added; draw ray diagrams."
+    },
+    {
+     "title": "Bending Light sim",
+     "work": "Use PhET 'Bending Light' to explore how materials change light's path."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz with ray diagrams for reflection and refraction."
+    }
+   ],
+   "assessment": "Ray diagram quiz."
+  },
+  {
+   "week": 18,
+   "unit": 4,
+   "topic": "Light and color; semester review",
+   "objectives": [
+    "Explain color as reflected and absorbed wavelengths",
+    "Review semester 1 concepts"
+   ],
+   "standards": [
+    "MS-PS4-2"
+   ],
+   "vocabulary": [
+    "visible spectrum",
+    "white light",
+    "prism",
+    "pigment"
+   ],
+   "materials": [
+    "glass of water or prism",
+    "white paper",
+    "colored cellophane or plastic",
+    "flashlight"
+   ],
+   "days": [
+    {
+     "title": "Making a spectrum",
+     "work": "Use a glass of water in sunlight or a prism to make a rainbow; explain how white light separates."
+    },
+    {
+     "title": "Colored filters",
+     "work": "Look at colored objects through red and blue cellophane and explain the results with absorption and reflection."
+    },
+    {
+     "title": "Semester review: forces & energy",
+     "work": "Review Units 1–2 with a practice test and corrections."
+    },
+    {
+     "title": "Semester review: space & waves",
+     "work": "Review Units 3–4 with a concept map."
+    },
+    {
+     "title": "Semester 1 exam",
+     "work": "Cumulative semester exam."
+    }
+   ],
+   "assessment": "Semester 1 exam."
+  },
+  {
+   "week": 19,
+   "unit": 4,
+   "topic": "Analog vs digital signals",
+   "objectives": [
+    "Compare analog and digital signals",
+    "Explain why digital signals are more reliable for transmitting information"
+   ],
+   "standards": [
+    "MS-PS4-3"
+   ],
+   "vocabulary": [
+    "analog signal",
+    "digital signal",
+    "binary",
+    "encode",
+    "noise",
+    "bandwidth"
+   ],
+   "materials": [
+    "flashlight",
+    "paper and pencil",
+    "phone"
+   ],
+   "days": [
+    {
+     "title": "Encoding messages",
+     "work": "Send a message to a family member using flashlight blinks in binary code; discuss errors."
+    },
+    {
+     "title": "Analog vs digital",
+     "work": "Read about records, cassettes and digital audio; list advantages of each in a T-chart."
+    },
+    {
+     "title": "Telephone game",
+     "work": "Play 'telephone' with a spoken message vs a written numeric code to model noise in analog vs digital transmission."
+    },
+    {
+     "title": "Research reading",
+     "work": "Read about how cell phones and Wi-Fi use waves to transmit digitized data; summarize in a paragraph."
+    },
+    {
+     "title": "Unit 4 test",
+     "work": "Unit test on waves and information technology."
+    }
+   ],
+   "assessment": "Unit 4 test."
+  },
+  {
+   "week": 20,
+   "unit": 5,
+   "topic": "Rock layers and relative dating",
+   "objectives": [
+    "Apply the law of superposition to interpret rock strata",
+    "Use index fossils to correlate layers"
+   ],
+   "standards": [
+    "MS-ESS1-4"
+   ],
+   "vocabulary": [
+    "strata",
+    "sedimentary rock",
+    "superposition",
+    "relative age",
+    "index fossil",
+    "unconformity"
+   ],
+   "materials": [
+    "clear jar",
+    "sand, soil and gravel",
+    "colored clay or play-dough",
+    "plastic straws"
+   ],
+   "days": [
+    {
+     "title": "Layering jar",
+     "work": "Pour sand, soil and gravel into a jar of water in stages; let it settle and observe layering."
+    },
+    {
+     "title": "Superposition",
+     "work": "Build play-dough layers with 'fossils' and a 'fault'; core-sample with a straw and interpret the sequence."
+    },
+    {
+     "title": "Cross-cutting relationships",
+     "work": "Order events in 4 rock-layer diagrams with intrusions and faults."
+    },
+    {
+     "title": "Index fossils",
+     "work": "Correlate layers from three 'sites' using index fossils."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz: sequence events in two geologic cross sections."
+    }
+   ],
+   "assessment": "Cross-section sequencing quiz."
+  },
+  {
+   "week": 21,
+   "unit": 5,
+   "topic": "The geologic time scale",
+   "objectives": [
+    "Construct a model of geologic time to scale",
+    "Explain major events used to divide Earth's history"
+   ],
+   "standards": [
+    "MS-ESS1-4"
+   ],
+   "vocabulary": [
+    "eon",
+    "era",
+    "period",
+    "epoch",
+    "mass extinction",
+    "absolute dating",
+    "half-life"
+   ],
+   "materials": [
+    "adding machine tape or toilet paper (5 m)",
+    "meter stick",
+    "markers",
+    "coins or M&Ms for half-life model"
+   ],
+   "days": [
+    {
+     "title": "Timeline to scale",
+     "work": "Make a 4.6 m timeline (1 mm = 1 million years) and mark major events like first life and dinosaurs."
+    },
+    {
+     "title": "Eras and extinctions",
+     "work": "Research the 5 mass extinctions and add them to the timeline."
+    },
+    {
+     "title": "Absolute dating",
+     "work": "Model radioactive half-life by shaking coins and removing 'decayed' ones; graph the results."
+    },
+    {
+     "title": "Explanation",
+     "work": "Write a scientific explanation of how rock-strata evidence is used to build the time scale."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on the geologic time scale and dating methods."
+    }
+   ],
+   "assessment": "Timeline model and written explanation."
+  },
+  {
+   "week": 22,
+   "unit": 5,
+   "topic": "Patterns in the fossil record",
+   "objectives": [
+    "Analyze fossil data for patterns of diversity, extinction and change",
+    "Interpret whale evolution fossil evidence"
+   ],
+   "standards": [
+    "MS-LS4-1"
+   ],
+   "vocabulary": [
+    "fossil record",
+    "extinction",
+    "diversity",
+    "transitional fossil"
+   ],
+   "materials": [
+    "fossil images (online museum sites)",
+    "graph paper"
+   ],
+   "days": [
+    {
+     "title": "How fossils form",
+     "work": "Make a shell impression in clay and a 'cast' with plaster or glue; explain fossilization conditions."
+    },
+    {
+     "title": "Diversity data",
+     "work": "Graph number of marine animal families over time and identify mass extinctions."
+    },
+    {
+     "title": "Whale ancestors",
+     "work": "Analyze fossils of Pakicetus, Ambulocetus and Rodhocetus in order and describe changes in limbs and habitat."
+    },
+    {
+     "title": "Fossil gallery",
+     "work": "Explore a natural history museum virtual collection and record 5 fossils with age and significance."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz interpreting fossil data tables."
+    }
+   ],
+   "assessment": "Fossil data analysis quiz."
+  },
+  {
+   "week": 23,
+   "unit": 5,
+   "topic": "Anatomical similarities",
+   "objectives": [
+    "Compare homologous and analogous structures",
+    "Infer evolutionary relationships from anatomy"
+   ],
+   "standards": [
+    "MS-LS4-2"
+   ],
+   "vocabulary": [
+    "homologous structure",
+    "analogous structure",
+    "vestigial structure",
+    "common ancestor"
+   ],
+   "materials": [
+    "forelimb diagram handout",
+    "chicken wing (optional, cooked)",
+    "colored pencils"
+   ],
+   "days": [
+    {
+     "title": "Forelimbs compared",
+     "work": "Color-code bones in human, cat, whale and bat forelimbs and describe similarities."
+    },
+    {
+     "title": "Chicken wing dissection",
+     "work": "Examine a cooked chicken wing to identify bones homologous to the human arm."
+    },
+    {
+     "title": "Vestigial structures",
+     "work": "Research 4 vestigial structures (whale pelvis, human tailbone) and explain their significance."
+    },
+    {
+     "title": "Cladograms",
+     "work": "Build a simple cladogram from a table of shared traits for 6 animals."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on homologous and analogous structures and cladograms."
+    }
+   ],
+   "assessment": "Cladogram and quiz."
+  },
+  {
+   "week": 24,
+   "unit": 5,
+   "topic": "Embryological evidence",
+   "objectives": [
+    "Compare embryos across species",
+    "Synthesize fossil, anatomical and embryological evidence"
+   ],
+   "standards": [
+    "MS-LS4-3"
+   ],
+   "vocabulary": [
+    "embryo",
+    "embryology",
+    "pharyngeal arches",
+    "ancestry"
+   ],
+   "materials": [
+    "embryo image cards (printed)"
+   ],
+   "days": [
+    {
+     "title": "Embryo comparison",
+     "work": "Compare images of fish, chicken, pig and human embryos at early and late stages; note similarities."
+    },
+    {
+     "title": "Explaining patterns",
+     "work": "Write a paragraph explaining what embryological similarities suggest about common ancestry."
+    },
+    {
+     "title": "Evidence synthesis",
+     "work": "Make a graphic organizer with three lines of evidence for evolution."
+    },
+    {
+     "title": "Unit review",
+     "work": "Review rock strata, geologic time and fossil evidence with a practice test."
+    },
+    {
+     "title": "Unit 5 test",
+     "work": "Unit test on Earth's history and evidence for common ancestry."
+    }
+   ],
+   "assessment": "Unit 5 test."
+  },
+  {
+   "week": 25,
+   "unit": 6,
+   "topic": "Asexual and sexual reproduction",
+   "objectives": [
+    "Compare asexual and sexual reproduction",
+    "Explain why sexual reproduction produces variation"
+   ],
+   "standards": [
+    "MS-LS3-2"
+   ],
+   "vocabulary": [
+    "asexual reproduction",
+    "sexual reproduction",
+    "clone",
+    "gamete",
+    "offspring",
+    "variation"
+   ],
+   "materials": [
+    "potato or onion",
+    "cutting from a houseplant (pothos)",
+    "glass of water",
+    "bread for mold (optional)"
+   ],
+   "days": [
+    {
+     "title": "Plant cuttings",
+     "work": "Start a pothos cutting in water and a sprouting potato eye; predict traits of offspring."
+    },
+    {
+     "title": "Comparing reproduction",
+     "work": "Compare budding, binary fission and fragmentation with sexual reproduction using a Venn diagram."
+    },
+    {
+     "title": "Variation modeling",
+     "work": "Model gametes by randomly drawing one of two cards per trait from each 'parent'; compare 5 offspring."
+    },
+    {
+     "title": "Pros and cons",
+     "work": "Write a short argument on the advantages of each reproduction type in changing environments."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on reproduction and variation."
+    }
+   ],
+   "assessment": "Variation model and quiz."
+  },
+  {
+   "week": 26,
+   "unit": 6,
+   "topic": "Genes, chromosomes and Punnett squares",
+   "objectives": [
+    "Explain that genes on chromosomes come in pairs from two parents",
+    "Predict offspring probabilities with Punnett squares"
+   ],
+   "standards": [
+    "MS-LS3-2"
+   ],
+   "vocabulary": [
+    "gene",
+    "allele",
+    "chromosome",
+    "dominant",
+    "recessive",
+    "genotype",
+    "phenotype",
+    "Punnett square"
+   ],
+   "materials": [
+    "coins",
+    "paper",
+    "colored pencils"
+   ],
+   "days": [
+    {
+     "title": "Mendel's peas",
+     "work": "Read about Gregor Mendel's pea experiments and analyze his F1 and F2 data."
+    },
+    {
+     "title": "Alleles",
+     "work": "Model alleles with two coins (heads = dominant); flip 50 times to predict offspring ratios."
+    },
+    {
+     "title": "Punnett squares",
+     "work": "Complete 10 Punnett squares and give phenotype and genotype ratios."
+    },
+    {
+     "title": "Family traits survey",
+     "work": "Survey family members for traits like attached earlobes and tongue rolling; consider limits of single-gene models."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on Punnett squares and genetics vocabulary."
+    }
+   ],
+   "assessment": "Punnett square quiz."
+  },
+  {
+   "week": 27,
+   "unit": 6,
+   "topic": "DNA, genes and proteins",
+   "objectives": [
+    "Describe DNA structure and how genes code for proteins",
+    "Extract DNA from strawberries"
+   ],
+   "standards": [
+    "MS-LS3-1"
+   ],
+   "vocabulary": [
+    "DNA",
+    "nucleotide",
+    "base pair",
+    "protein",
+    "amino acid",
+    "genetic code"
+   ],
+   "materials": [
+    "strawberries",
+    "zip bag",
+    "dish soap",
+    "salt",
+    "rubbing alcohol (cold)",
+    "coffee filter",
+    "candy or beads for model"
+   ],
+   "days": [
+    {
+     "title": "DNA structure",
+     "work": "Build a DNA ladder model using candy or beads for bases (A-T, C-G)."
+    },
+    {
+     "title": "Strawberry DNA extraction",
+     "work": "Mash strawberries with soap and salt, filter, and add cold alcohol to see DNA strands; record observations."
+    },
+    {
+     "title": "Genes to proteins",
+     "work": "Use a codon chart to 'translate' a short DNA sequence into amino acids."
+    },
+    {
+     "title": "Proteins and traits",
+     "work": "Read about how proteins such as melanin and hemoglobin affect traits; write a summary."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on DNA structure and the gene-protein-trait connection."
+    }
+   ],
+   "assessment": "Lab report and quiz."
+  },
+  {
+   "week": 28,
+   "unit": 6,
+   "topic": "Mutations",
+   "objectives": [
+    "Model how mutations change proteins",
+    "Classify mutations as harmful, beneficial or neutral"
+   ],
+   "standards": [
+    "MS-LS3-1"
+   ],
+   "vocabulary": [
+    "mutation",
+    "substitution",
+    "insertion",
+    "deletion",
+    "sickle cell"
+   ],
+   "materials": [
+    "codon chart",
+    "paper strips"
+   ],
+   "days": [
+    {
+     "title": "Mutation model",
+     "work": "Change one letter in a sentence ('THE CAT ATE THE RAT') to model substitution, insertion and deletion."
+    },
+    {
+     "title": "Codon mutations",
+     "work": "Apply mutations to a DNA sequence and translate; see which change the protein."
+    },
+    {
+     "title": "Case studies",
+     "work": "Research sickle cell trait and malaria resistance, and lactase persistence; classify effects."
+    },
+    {
+     "title": "Modeling effects",
+     "work": "Draw a model connecting gene change -> protein change -> trait change for one case."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on mutation types and effects."
+    }
+   ],
+   "assessment": "Mutation model and quiz."
+  },
+  {
+   "week": 29,
+   "unit": 6,
+   "topic": "Technology and inheritance",
+   "objectives": [
+    "Describe selective breeding and genetic engineering",
+    "Evaluate benefits and risks of genetic technologies"
+   ],
+   "standards": [
+    "MS-LS4-5"
+   ],
+   "vocabulary": [
+    "artificial selection",
+    "selective breeding",
+    "genetic engineering",
+    "GMO",
+    "CRISPR"
+   ],
+   "materials": [
+    "images of dog breeds, corn and wild teosinte"
+   ],
+   "days": [
+    {
+     "title": "Artificial selection",
+     "work": "Compare wild teosinte to modern corn and dog breeds to wolves; list traits humans selected for."
+    },
+    {
+     "title": "Genetic engineering",
+     "work": "Read about insulin-producing bacteria and Golden Rice; summarize the steps."
+    },
+    {
+     "title": "CRISPR & ethics",
+     "work": "Read about CRISPR and write a balanced pro/con chart about editing crop and human genes."
+    },
+    {
+     "title": "Unit review",
+     "work": "Review heredity concepts with a practice test."
+    },
+    {
+     "title": "Unit 6 test",
+     "work": "Unit test on heredity and genetic technologies."
+    }
+   ],
+   "assessment": "Unit 6 test."
+  },
+  {
+   "week": 30,
+   "unit": 7,
+   "topic": "Variation and survival",
+   "objectives": [
+    "Explain how variation affects survival and reproduction",
+    "Simulate predation on a population"
+   ],
+   "standards": [
+    "MS-LS4-4"
+   ],
+   "vocabulary": [
+    "natural selection",
+    "adaptation",
+    "variation",
+    "predator",
+    "prey",
+    "fitness"
+   ],
+   "materials": [
+    "colored beads, dried beans or paper dots",
+    "patterned fabric or wrapping paper",
+    "tweezers, spoons, clothespins"
+   ],
+   "days": [
+    {
+     "title": "Bird beak lab",
+     "work": "Use tweezers, spoons and clothespins as 'beaks' to collect different 'foods'; record which beaks survive."
+    },
+    {
+     "title": "Camouflage simulation",
+     "work": "Scatter colored paper dots on patterned fabric; 'hunt' for 30 seconds and record which colors survive."
+    },
+    {
+     "title": "Next generation",
+     "work": "Let survivors 'reproduce' and repeat the hunt for 3 generations; track color frequencies."
+    },
+    {
+     "title": "Explaining the data",
+     "work": "Write a CER explaining how variation led to change in the population."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on natural selection vocabulary and scenarios."
+    }
+   ],
+   "assessment": "Simulation data and CER."
+  },
+  {
+   "week": 31,
+   "unit": 7,
+   "topic": "Natural selection in numbers",
+   "objectives": [
+    "Use graphs and percentages to show changes in trait frequency",
+    "Interpret data from the PhET Natural Selection sim"
+   ],
+   "standards": [
+    "MS-LS4-6"
+   ],
+   "vocabulary": [
+    "allele frequency",
+    "generation",
+    "selective pressure",
+    "population"
+   ],
+   "materials": [
+    "PhET Natural Selection sim",
+    "graph paper",
+    "calculator"
+   ],
+   "days": [
+    {
+     "title": "PhET Natural Selection",
+     "work": "Add a mutation (brown fur) and a selection factor (wolves) and record population data for 10 generations."
+    },
+    {
+     "title": "Graphing trait frequency",
+     "work": "Convert counts to percentages and graph trait frequency over time."
+    },
+    {
+     "title": "Rock pocket mice",
+     "work": "Watch the HHMI 'Making of the Fittest: Rock Pocket Mouse' film and analyze its data."
+    },
+    {
+     "title": "Predicting change",
+     "work": "Calculate how a 10% survival advantage changes trait frequency over 5 generations."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz with graph interpretation questions."
+    }
+   ],
+   "assessment": "Graph analysis quiz."
+  },
+  {
+   "week": 32,
+   "unit": 7,
+   "topic": "Case studies: finches, moths and bacteria",
+   "objectives": [
+    "Explain natural selection in real populations",
+    "Analyze data on antibiotic resistance"
+   ],
+   "standards": [
+    "MS-LS4-4",
+    "MS-LS4-6"
+   ],
+   "vocabulary": [
+    "antibiotic resistance",
+    "peppered moth",
+    "Galapagos finches",
+    "speciation"
+   ],
+   "materials": [
+    "finch beak data table",
+    "peppered moth data"
+   ],
+   "days": [
+    {
+     "title": "Darwin's finches",
+     "work": "Analyze Grant beak-depth data before and after the 1977 drought."
+    },
+    {
+     "title": "Peppered moths",
+     "work": "Graph moth color frequencies before and after the Industrial Revolution; explain the change."
+    },
+    {
+     "title": "Antibiotic resistance",
+     "work": "Model resistance with beans or candies; explain why finishing prescribed antibiotics matters."
+    },
+    {
+     "title": "Writing a case study",
+     "work": "Choose one case and write a 4-paragraph explanation of the selection process."
+    },
+    {
+     "title": "Review & check",
+     "work": "Peer/parent review of case study with a rubric."
+    }
+   ],
+   "assessment": "Case study essay."
+  },
+  {
+   "week": 33,
+   "unit": 7,
+   "topic": "Adaptation and unit review",
+   "objectives": [
+    "Distinguish adaptations from individual changes",
+    "Synthesize evidence for evolution"
+   ],
+   "standards": [
+    "MS-LS4-4",
+    "MS-LS4-6",
+    "MS-LS4-2"
+   ],
+   "vocabulary": [
+    "adaptation",
+    "acclimation",
+    "common descent"
+   ],
+   "materials": [
+    "notebook"
+   ],
+   "days": [
+    {
+     "title": "Adaptation vs acclimation",
+     "work": "Sort 10 examples (tanning vs dark skin, polar bear fur) into inherited adaptations or individual changes."
+    },
+    {
+     "title": "Local adaptations",
+     "work": "Research a California species (e.g., island fox) and its adaptations; make an infographic."
+    },
+    {
+     "title": "Evolution review",
+     "work": "Build a concept map linking fossils, anatomy, embryos, genetics and selection."
+    },
+    {
+     "title": "Practice assessment",
+     "work": "Complete a data-based practice test."
+    },
+    {
+     "title": "Unit 7 test",
+     "work": "Unit test on natural selection."
+    }
+   ],
+   "assessment": "Unit 7 test."
+  },
+  {
+   "week": 34,
+   "unit": 8,
+   "topic": "Capstone: define and design",
+   "objectives": [
+    "Define a real design problem with criteria and constraints",
+    "Generate and evaluate solutions"
+   ],
+   "standards": [
+    "MS-ETS1-1",
+    "MS-ETS1-2",
+    "MS-PS2-1"
+   ],
+   "vocabulary": [
+    "design brief",
+    "criteria",
+    "constraints",
+    "decision matrix"
+   ],
+   "materials": [
+    "recyclable materials",
+    "tape",
+    "cardboard",
+    "rubber bands",
+    "scale"
+   ],
+   "days": [
+    {
+     "title": "Choose a problem",
+     "work": "Choose a capstone challenge (bike helmet padding test, phone-drop protector, soundproof box or solar oven) and write a design brief."
+    },
+    {
+     "title": "Research",
+     "work": "Research existing solutions and the science behind them (forces, energy, waves)."
+    },
+    {
+     "title": "Brainstorm & sketch",
+     "work": "Sketch at least 3 solutions with labels."
+    },
+    {
+     "title": "Decision matrix",
+     "work": "Score designs against criteria and choose one to build."
+    },
+    {
+     "title": "Plan check",
+     "work": "Write a materials list and test plan with measurable outcomes."
+    }
+   ],
+   "assessment": "Design brief and decision matrix."
+  },
+  {
+   "week": 35,
+   "unit": 8,
+   "topic": "Capstone: build, test, iterate",
+   "objectives": [
+    "Build and test a prototype",
+    "Use test data to improve the design"
+   ],
+   "standards": [
+    "MS-ETS1-3",
+    "MS-ETS1-4"
+   ],
+   "vocabulary": [
+    "prototype",
+    "iteration",
+    "test data",
+    "optimization"
+   ],
+   "materials": [
+    "project materials",
+    "measuring tools"
+   ],
+   "days": [
+    {
+     "title": "Build",
+     "work": "Build prototype version 1."
+    },
+    {
+     "title": "Test 1",
+     "work": "Run 3 tests and record data in a table."
+    },
+    {
+     "title": "Analyze & redesign",
+     "work": "Analyze data and identify the weakest part; redesign."
+    },
+    {
+     "title": "Test 2",
+     "work": "Build and test version 2; compare results with version 1."
+    },
+    {
+     "title": "Final review",
+     "work": "Review the year's key science ideas with a cumulative study guide."
+    }
+   ],
+   "assessment": "Testing data and iteration log."
+  },
+  {
+   "week": 36,
+   "unit": 8,
+   "topic": "Capstone presentation and final exam",
+   "objectives": [
+    "Communicate design results",
+    "Demonstrate mastery of grade 8 science"
+   ],
+   "standards": [
+    "MS-ETS1-2",
+    "MS-ETS1-3"
+   ],
+   "vocabulary": [
+    "evidence",
+    "claim",
+    "communication"
+   ],
+   "materials": [
+    "poster board or slides"
+   ],
+   "days": [
+    {
+     "title": "Presentation prep",
+     "work": "Create slides or a poster showing problem, designs, data and final solution."
+    },
+    {
+     "title": "Presentation",
+     "work": "Present the capstone to family and answer questions."
+    },
+    {
+     "title": "Final exam part 1",
+     "work": "Physical science (forces, energy, waves) and Earth science."
+    },
+    {
+     "title": "Final exam part 2",
+     "work": "Life science (heredity, evolution)."
+    },
+    {
+     "title": "Reflection",
+     "work": "Write a reflection on growth as a scientist and set goals for high school Biology."
+    }
+   ],
+   "assessment": "Capstone presentation rubric and final exam."
+  }
+ ]
+}

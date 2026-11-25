@@ -1,0 +1,2103 @@
+{
+ "grade": 11,
+ "subject": "ELA",
+ "title": "English 11 – American Literature",
+ "description": "A chronological survey of American literature from Puritan writing through contemporary voices, read alongside the founding documents and speeches that shaped the nation. Students write rhetorical analyses, literary arguments, a personal narrative suitable for college applications, and a sustained research paper, with grammar and vocabulary woven into each week. Seminars and recitations build formal speaking skills.",
+ "framework": "California Common Core State Standards for ELA/Literacy (grades 11–12); 2014 California ELA/ELD Framework",
+ "minutes_per_day": 60,
+ "ag_requirement": "b",
+ "credits": 10,
+ "standards": {
+  "RL.11-12.1": "Cite strong and thorough textual evidence, including where the text leaves matters uncertain.",
+  "RL.11-12.2": "Determine two or more themes and analyze their development and interaction; provide an objective summary.",
+  "RL.11-12.3": "Analyze the impact of an author's choices about how to develop and relate elements of a story or drama.",
+  "RL.11-12.4": "Determine meanings of words and phrases, including figurative and connotative language, and their impact on meaning and tone.",
+  "RL.11-12.5": "Analyze how an author's choices concerning structure contribute to meaning and aesthetic impact.",
+  "RL.11-12.6": "Analyze a case in which grasping point of view requires distinguishing what is directly stated from what is meant (satire, sarcasm, irony, understatement).",
+  "RL.11-12.7": "Analyze multiple interpretations of a story, drama, or poem (recorded or live production), evaluating how each interprets the source text.",
+  "RL.11-12.9": "Demonstrate knowledge of 18th-, 19th- and early-20th-century foundational works of American literature, including how two or more texts treat similar themes.",
+  "RL.11-12.10": "Read and comprehend literature, including stories, dramas, and poems, independently and proficiently in the grades 11–CCR text complexity band.",
+  "RI.11-12.1": "Cite strong and thorough textual evidence to support analysis of informational text.",
+  "RI.11-12.2": "Determine two or more central ideas and analyze their development; provide an objective summary.",
+  "RI.11-12.3": "Analyze a complex set of ideas or sequence of events and explain how specific individuals, ideas, or events interact and develop.",
+  "RI.11-12.4": "Determine the meaning of words and phrases, including how an author refines the meaning of a key term over a text.",
+  "RI.11-12.5": "Analyze and evaluate the effectiveness of the structure an author uses in an exposition or argument.",
+  "RI.11-12.6": "Determine an author's point of view or purpose in a text in which the rhetoric is particularly effective.",
+  "RI.11-12.7": "Integrate and evaluate multiple sources of information presented in different media or formats to address a question.",
+  "RI.11-12.8": "Delineate and evaluate the reasoning in seminal U.S. texts, including constitutional principles and use of legal reasoning.",
+  "RI.11-12.9": "Analyze 17th-, 18th-, and 19th-century foundational U.S. documents of historical and literary significance for their themes, purposes, and rhetorical features.",
+  "W.11-12.1": "Write arguments to support claims using valid reasoning and relevant and sufficient evidence.",
+  "W.11-12.2": "Write informative/explanatory texts to examine and convey complex ideas clearly and accurately.",
+  "W.11-12.3": "Write narratives to develop real or imagined experiences using effective technique, details, and sequence.",
+  "W.11-12.4": "Produce clear and coherent writing appropriate to task, purpose, and audience.",
+  "W.11-12.5": "Develop and strengthen writing by planning, revising, editing, rewriting, or trying a new approach.",
+  "W.11-12.6": "Use technology to produce, publish, and update individual or shared writing products.",
+  "W.11-12.7": "Conduct short and sustained research projects to answer a question or solve a problem, synthesizing multiple sources.",
+  "W.11-12.8": "Gather relevant information from authoritative print and digital sources, assess strengths and limitations, and integrate information avoiding plagiarism.",
+  "W.11-12.9": "Draw evidence from literary or informational texts to support analysis, reflection, and research.",
+  "W.11-12.10": "Write routinely over extended and shorter time frames for a range of tasks, purposes, and audiences.",
+  "SL.11-12.1": "Initiate and participate effectively in a range of collaborative discussions, building on others' ideas and expressing their own clearly and persuasively.",
+  "SL.11-12.3": "Evaluate a speaker's point of view, reasoning, and use of evidence and rhetoric.",
+  "SL.11-12.4": "Present information, findings, and supporting evidence conveying a clear and distinct perspective.",
+  "SL.11-12.5": "Make strategic use of digital media in presentations to enhance understanding and add interest.",
+  "SL.11-12.6": "Adapt speech to a variety of contexts and tasks, demonstrating command of formal English.",
+  "L.11-12.1": "Demonstrate command of the conventions of standard English grammar and usage; observe hyphenation conventions and resolve usage issues with references.",
+  "L.11-12.2": "Demonstrate command of capitalization, punctuation, and spelling conventions.",
+  "L.11-12.3": "Apply knowledge of language to understand how it functions in different contexts and to vary syntax for effect.",
+  "L.11-12.4": "Determine or clarify the meaning of unknown and multiple-meaning words using context, word parts, and reference materials.",
+  "L.11-12.5": "Demonstrate understanding of figurative language, word relationships, and nuances in word meanings.",
+  "L.11-12.6": "Acquire and use accurately general academic and domain-specific words and phrases."
+ },
+ "resources": [
+  {
+   "name": "Project Gutenberg",
+   "url": "https://www.gutenberg.org/",
+   "note": "Free texts: Bradford, Franklin, Douglass, Thoreau, Hawthorne, Twain, Chopin, The Great Gatsby"
+  },
+  {
+   "name": "CommonLit",
+   "url": "https://www.commonlit.org/",
+   "note": "Free leveled American literature texts with questions (Poe, Dickinson, Hughes, King)"
+  },
+  {
+   "name": "Poetry Foundation",
+   "url": "https://www.poetryfoundation.org/",
+   "note": "Poems and biographies for Bradstreet, Whitman, Dickinson, Frost, Hughes, Harjo"
+  },
+  {
+   "name": "National Archives – America's Founding Documents",
+   "url": "https://www.archives.gov/founding-docs",
+   "note": "Declaration, Constitution, and Bill of Rights transcripts"
+  },
+  {
+   "name": "Purdue OWL",
+   "url": "https://owl.purdue.edu/",
+   "note": "MLA 9 formatting and citation guide for the research paper"
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Puritan and Colonial Voices",
+   "start_week": 1,
+   "end_week": 4,
+   "big_idea": "Early American writing reveals how faith, fear, and community shaped a new society—and how drama can use that past to critique the present.",
+   "standards": [
+    "RL.11-12.1",
+    "RL.11-12.2",
+    "RI.11-12.6",
+    "W.11-12.10",
+    "L.11-12.4",
+    "RL.11-12.4",
+    "RI.11-12.4",
+    "L.11-12.5",
+    "SL.11-12.1",
+    "RL.11-12.3",
+    "RL.11-12.5",
+    "RL.11-12.9",
+    "RI.11-12.7",
+    "L.11-12.6",
+    "RL.11-12.7",
+    "W.11-12.1",
+    "W.11-12.9",
+    "L.11-12.1"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "The Rhetoric of Revolution",
+   "start_week": 5,
+   "end_week": 7,
+   "big_idea": "The founders used persuasion and reasoned argument to justify independence and define American ideals.",
+   "standards": [
+    "RI.11-12.3",
+    "RI.11-12.6",
+    "RL.11-12.6",
+    "W.11-12.2",
+    "L.11-12.3",
+    "RI.11-12.5",
+    "RI.11-12.8",
+    "RI.11-12.9",
+    "SL.11-12.3",
+    "RL.11-12.4",
+    "W.11-12.5",
+    "L.11-12.2"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Romanticism and Transcendentalism",
+   "start_week": 8,
+   "end_week": 11,
+   "big_idea": "American Romantics celebrated the individual, nature, and intuition while Dark Romantics probed sin and the irrational.",
+   "standards": [
+    "RL.11-12.3",
+    "RL.11-12.5",
+    "RL.11-12.1",
+    "L.11-12.5",
+    "RI.11-12.2",
+    "RI.11-12.4",
+    "RI.11-12.6",
+    "W.11-12.1",
+    "SL.11-12.1",
+    "RL.11-12.2",
+    "RL.11-12.4",
+    "RL.11-12.6",
+    "RL.11-12.9",
+    "L.11-12.4",
+    "W.11-12.2",
+    "SL.11-12.6"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Voices of Freedom: Slavery and Civil War",
+   "start_week": 12,
+   "end_week": 15,
+   "big_idea": "Enslaved and free Americans used narrative and oratory to claim the nation's promise of liberty.",
+   "standards": [
+    "RI.11-12.1",
+    "RI.11-12.2",
+    "RI.11-12.3",
+    "RI.11-12.6",
+    "L.11-12.6",
+    "RI.11-12.5",
+    "RL.11-12.9",
+    "W.11-12.9",
+    "SL.11-12.1",
+    "RI.11-12.8",
+    "RI.11-12.9",
+    "SL.11-12.3",
+    "SL.11-12.6",
+    "W.11-12.1",
+    "W.11-12.4",
+    "W.11-12.5",
+    "L.11-12.1",
+    "L.11-12.2"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Realism and Regionalism",
+   "start_week": 16,
+   "end_week": 18,
+   "big_idea": "After the Civil War, writers turned to ordinary lives, local speech, and the gap between ideals and reality.",
+   "standards": [
+    "RL.11-12.6",
+    "RL.11-12.4",
+    "RL.11-12.3",
+    "L.11-12.3",
+    "RL.11-12.5",
+    "RL.11-12.2",
+    "W.11-12.2",
+    "RL.11-12.9",
+    "RL.11-12.10",
+    "RI.11-12.9",
+    "W.11-12.10",
+    "L.11-12.1"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Modernism and the Harlem Renaissance",
+   "start_week": 19,
+   "end_week": 23,
+   "big_idea": "Modern writers fractured old forms to capture disillusionment, the city, and the search for identity and the American Dream.",
+   "standards": [
+    "RL.11-12.4",
+    "RL.11-12.5",
+    "RL.11-12.2",
+    "L.11-12.5",
+    "RL.11-12.1",
+    "RL.11-12.3",
+    "RL.11-12.6",
+    "L.11-12.4",
+    "RL.11-12.7",
+    "W.11-12.1",
+    "W.11-12.9",
+    "RL.11-12.9",
+    "SL.11-12.4",
+    "SL.11-12.5",
+    "W.11-12.3",
+    "L.11-12.3"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "The Research Paper",
+   "start_week": 24,
+   "end_week": 26,
+   "big_idea": "Sustained research means asking a real question, weighing sources, and building an original argument with honest citation.",
+   "standards": [
+    "W.11-12.7",
+    "W.11-12.8",
+    "RI.11-12.7",
+    "L.11-12.6",
+    "W.11-12.2",
+    "W.11-12.1",
+    "L.11-12.2",
+    "W.11-12.5",
+    "W.11-12.6",
+    "SL.11-12.4",
+    "SL.11-12.5",
+    "L.11-12.1"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Mid-Century America: Drama and Civil Rights",
+   "start_week": 27,
+   "end_week": 30,
+   "big_idea": "Postwar drama and civil rights rhetoric tested whether the American Dream was open to all.",
+   "standards": [
+    "RL.11-12.3",
+    "RL.11-12.2",
+    "RL.11-12.1",
+    "RI.11-12.7",
+    "RL.11-12.7",
+    "RL.11-12.5",
+    "SL.11-12.1",
+    "SL.11-12.6",
+    "RI.11-12.5",
+    "RI.11-12.6",
+    "RI.11-12.8",
+    "SL.11-12.3",
+    "W.11-12.2",
+    "W.11-12.3",
+    "W.11-12.4",
+    "W.11-12.5",
+    "L.11-12.3"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Contemporary and Diverse American Voices",
+   "start_week": 31,
+   "end_week": 34,
+   "big_idea": "Contemporary writers expand who tells the American story, exploring language, memory, war, and belonging.",
+   "standards": [
+    "RL.11-12.5",
+    "RL.11-12.3",
+    "RL.11-12.6",
+    "W.11-12.9",
+    "RI.11-12.6",
+    "RL.11-12.4",
+    "RI.11-12.4",
+    "L.11-12.3",
+    "L.11-12.5",
+    "RL.11-12.2",
+    "SL.11-12.4",
+    "SL.11-12.6",
+    "RI.11-12.7",
+    "W.11-12.1",
+    "W.11-12.8",
+    "SL.11-12.3",
+    "L.11-12.1"
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Synthesis and Final Portfolio",
+   "start_week": 35,
+   "end_week": 36,
+   "big_idea": "Revisiting the year's texts shows how American literature argues with itself across centuries.",
+   "standards": [
+    "RL.11-12.9",
+    "RL.11-12.10",
+    "W.11-12.5",
+    "W.11-12.6",
+    "SL.11-12.4",
+    "RI.11-12.9",
+    "W.11-12.1",
+    "W.11-12.10",
+    "L.11-12.2"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "unit": 1,
+   "topic": "Origins: Native American and Puritan narratives",
+   "objectives": [
+    "Compare an Iroquois creation story with Bradford's account",
+    "Summarize objectively and identify worldview"
+   ],
+   "standards": [
+    "RL.11-12.1",
+    "RL.11-12.2",
+    "RI.11-12.6",
+    "W.11-12.10",
+    "L.11-12.4"
+   ],
+   "vocabulary": [
+    "worldview",
+    "Puritan",
+    "plain style",
+    "providence"
+   ],
+   "materials": [
+    "The Iroquois Constitution excerpt / 'The World on the Turtle's Back'",
+    "Bradford, Of Plymouth Plantation (Gutenberg)",
+    "reading journal"
+   ],
+   "days": [
+    {
+     "title": "Course launch",
+     "work": "Set up a reading journal and take a 20-minute diagnostic writing sample responding to 'What makes someone an American?'"
+    },
+    {
+     "title": "Creation story",
+     "work": "Read 'The World on the Turtle's Back' and annotate values it reveals; write a 150-word objective summary."
+    },
+    {
+     "title": "Of Plymouth Plantation",
+     "work": "Read Bradford's chapters on the Mayflower voyage and first winter; chart evidence of 'providence' language."
+    },
+    {
+     "title": "Comparing worldviews",
+     "work": "Build a two-column comparison of the two texts' views of nature and community; vocabulary: build 10 cards from roots in the readings."
+    },
+    {
+     "title": "Review & check",
+     "work": "Timed paragraph: how does each text explain hardship? Cite two quotations each; quiz on Puritan terms."
+    }
+   ],
+   "assessment": "Timed comparative paragraph scored on evidence and summary; vocabulary quiz."
+  },
+  {
+   "week": 2,
+   "unit": 1,
+   "topic": "Puritan poetry and sermon",
+   "objectives": [
+    "Analyze figurative language and tone in Bradstreet and Edwards",
+    "Identify rhetorical appeals"
+   ],
+   "standards": [
+    "RL.11-12.4",
+    "RI.11-12.4",
+    "RI.11-12.6",
+    "L.11-12.5",
+    "SL.11-12.1"
+   ],
+   "vocabulary": [
+    "conceit",
+    "imagery",
+    "ethos",
+    "pathos",
+    "logos",
+    "sermon"
+   ],
+   "materials": [
+    "Bradstreet, 'To My Dear and Loving Husband', 'Upon the Burning of Our House'",
+    "Edwards, 'Sinners in the Hands of an Angry God'"
+   ],
+   "days": [
+    {
+     "title": "Bradstreet",
+     "work": "Read two Bradstreet poems aloud; annotate the extended metaphors and identify the conflict between earthly and heavenly love."
+    },
+    {
+     "title": "Edwards' sermon",
+     "work": "Read the first half of 'Sinners'; highlight imagery of spiders, fire, and flood and label each as an appeal."
+    },
+    {
+     "title": "Rhetorical appeals",
+     "work": "Finish 'Sinners'; complete a SOAPSTone chart and explain why fear was an effective strategy for his audience."
+    },
+    {
+     "title": "Grammar: sentence variety",
+     "work": "Analyze Edwards' long periodic sentences; rewrite three of your own sentences as periodic and cumulative sentences."
+    },
+    {
+     "title": "Seminar & check",
+     "work": "Hold a recorded 15-minute discussion with a parent on 'Is fear a legitimate persuasive tool?'; submit a SOAPSTone analysis."
+    }
+   ],
+   "assessment": "SOAPSTone chart and discussion rubric (evidence, building on ideas)."
+  },
+  {
+   "week": 3,
+   "unit": 1,
+   "topic": "The Crucible, Acts I–II",
+   "objectives": [
+    "Analyze characterization and conflict in drama",
+    "Connect allegory to McCarthyism"
+   ],
+   "standards": [
+    "RL.11-12.3",
+    "RL.11-12.5",
+    "RL.11-12.9",
+    "RI.11-12.7",
+    "L.11-12.6"
+   ],
+   "vocabulary": [
+    "allegory",
+    "hysteria",
+    "McCarthyism",
+    "dramatic irony",
+    "protagonist"
+   ],
+   "materials": [
+    "Arthur Miller, The Crucible (library copy)",
+    "short video/article on the Red Scare"
+   ],
+   "days": [
+    {
+     "title": "Context",
+     "work": "Read a short article on the Salem trials of 1692 and one on the 1950s House Un-American Activities Committee; list parallels."
+    },
+    {
+     "title": "Act I",
+     "work": "Read Act I aloud, taking several roles; track each character's motives (Abigail, Parris, Putnam, Proctor) in a chart."
+    },
+    {
+     "title": "Act I analysis",
+     "work": "Write a paragraph on how Miller's stage directions shape Proctor before he speaks."
+    },
+    {
+     "title": "Act II",
+     "work": "Read Act II; identify three moments of dramatic irony and explain the poppet's role in the plot."
+    },
+    {
+     "title": "Review & check",
+     "work": "Reading quiz on Acts I–II and a one-paragraph prediction defended with evidence."
+    }
+   ],
+   "assessment": "Reading quiz and characterization paragraph."
+  },
+  {
+   "week": 4,
+   "unit": 1,
+   "topic": "The Crucible, Acts III–IV and literary argument",
+   "objectives": [
+    "Analyze theme development",
+    "Write a literary argument essay"
+   ],
+   "standards": [
+    "RL.11-12.2",
+    "RL.11-12.3",
+    "RL.11-12.7",
+    "W.11-12.1",
+    "W.11-12.9",
+    "L.11-12.1"
+   ],
+   "vocabulary": [
+    "integrity",
+    "tragic hero",
+    "theme",
+    "claim",
+    "counterclaim"
+   ],
+   "materials": [
+    "The Crucible",
+    "film clip of the 1996 adaptation (library/streaming)"
+   ],
+   "days": [
+    {
+     "title": "Act III",
+     "work": "Read the courtroom act; trace how logic breaks down and cite the line where Hale turns."
+    },
+    {
+     "title": "Act IV",
+     "work": "Read Act IV; discuss why Proctor refuses to sign and what 'my name' means; draft a thesis on integrity."
+    },
+    {
+     "title": "Two interpretations",
+     "work": "Watch the courtroom scene from the 1996 film and compare to the script; note choices about Abigail's power."
+    },
+    {
+     "title": "Essay drafting",
+     "work": "Write a 700-word literary argument: Is John Proctor a tragic hero? Include a counterclaim; edit for subject-verb agreement."
+    },
+    {
+     "title": "Unit check",
+     "work": "Revise essay with a checklist and take the Unit 1 test (passages from Edwards and Miller)."
+    }
+   ],
+   "assessment": "Literary argument essay (rubric) and Unit 1 test."
+  },
+  {
+   "week": 5,
+   "unit": 2,
+   "topic": "Franklin and the Enlightenment self",
+   "objectives": [
+    "Analyze Franklin's voice and purpose",
+    "Evaluate satire and self-presentation"
+   ],
+   "standards": [
+    "RI.11-12.3",
+    "RI.11-12.6",
+    "RL.11-12.6",
+    "W.11-12.2",
+    "L.11-12.3"
+   ],
+   "vocabulary": [
+    "aphorism",
+    "Enlightenment",
+    "satire",
+    "rationalism"
+   ],
+   "materials": [
+    "Franklin, Autobiography excerpt (thirteen virtues) and Poor Richard's aphorisms (Gutenberg)"
+   ],
+   "days": [
+    {
+     "title": "Autobiography",
+     "work": "Read Franklin's 'project of arriving at moral perfection'; list his 13 virtues and mark his tone toward himself."
+    },
+    {
+     "title": "Aphorisms",
+     "work": "Read 20 Poor Richard sayings; rewrite five in modern English and explain the reasoning each assumes."
+    },
+    {
+     "title": "Satire",
+     "work": "Read 'Remarks Concerning the Savages of North America'; identify verbal irony and its target."
+    },
+    {
+     "title": "Expository writing",
+     "work": "Track one personal virtue for three days Franklin-style and draft a 400-word reflective explanation."
+    },
+    {
+     "title": "Review & check",
+     "work": "Short-answer quiz on Enlightenment ideas and irony; submit the virtue reflection."
+    }
+   ],
+   "assessment": "Quiz and reflective explanatory piece."
+  },
+  {
+   "week": 6,
+   "unit": 2,
+   "topic": "Paine, Henry, and the Declaration",
+   "objectives": [
+    "Analyze rhetorical structure of founding documents",
+    "Evaluate reasoning in seminal U.S. texts"
+   ],
+   "standards": [
+    "RI.11-12.5",
+    "RI.11-12.6",
+    "RI.11-12.8",
+    "RI.11-12.9",
+    "SL.11-12.3"
+   ],
+   "vocabulary": [
+    "self-evident",
+    "grievance",
+    "syllogism",
+    "rhetorical question",
+    "unalienable"
+   ],
+   "materials": [
+    "Paine, The Crisis No. 1 and Common Sense excerpt",
+    "Patrick Henry, Speech to the Virginia Convention",
+    "Declaration of Independence (archives.gov)"
+   ],
+   "days": [
+    {
+     "title": "Common Sense & The Crisis",
+     "work": "Read excerpts and label appeals and parallel structure; note how Paine addresses a mass audience."
+    },
+    {
+     "title": "Henry's speech",
+     "work": "Read and deliver the final paragraph aloud; chart rhetorical questions, allusions, and their effect."
+    },
+    {
+     "title": "Declaration structure",
+     "work": "Outline the Declaration as a syllogism (major premise, minor premise/grievances, conclusion)."
+    },
+    {
+     "title": "Evaluating reasoning",
+     "work": "Write a paragraph evaluating the strongest and weakest grievance as evidence; note who is excluded from 'all men'."
+    },
+    {
+     "title": "Review & check",
+     "work": "Compare two openings (Paine vs. Jefferson) in a timed 30-minute rhetorical paragraph."
+    }
+   ],
+   "assessment": "Timed rhetorical analysis paragraph."
+  },
+  {
+   "week": 7,
+   "unit": 2,
+   "topic": "Rhetorical analysis essay: voices excluded and included",
+   "objectives": [
+    "Write a full rhetorical analysis essay",
+    "Analyze Wheatley and Adams as counter-voices"
+   ],
+   "standards": [
+    "RI.11-12.6",
+    "RI.11-12.9",
+    "RL.11-12.4",
+    "W.11-12.2",
+    "W.11-12.5",
+    "L.11-12.2"
+   ],
+   "vocabulary": [
+    "rhetorical situation",
+    "exigence",
+    "audience",
+    "diction"
+   ],
+   "materials": [
+    "Phillis Wheatley, 'On Being Brought from Africa to America' and letter to Samson Occom",
+    "Abigail Adams, 'Remember the Ladies' letter"
+   ],
+   "days": [
+    {
+     "title": "Wheatley",
+     "work": "Read Wheatley's poem and Occom letter; analyze how she uses her audience's own beliefs to argue for freedom."
+    },
+    {
+     "title": "Abigail Adams",
+     "work": "Read 'Remember the Ladies'; identify tone shifts and the argument beneath the playful diction."
+    },
+    {
+     "title": "Essay plan",
+     "work": "Choose one founding-era text and outline a rhetorical analysis essay (situation, choices, effect)."
+    },
+    {
+     "title": "Draft & edit",
+     "work": "Write a 750-word rhetorical analysis; punctuation focus: semicolons and colons with quoted evidence."
+    },
+    {
+     "title": "Unit check",
+     "work": "Revise and submit essay; Unit 2 test on rhetorical terms and an unseen passage (Washington's Farewell Address excerpt)."
+    }
+   ],
+   "assessment": "Rhetorical analysis essay and Unit 2 test."
+  },
+  {
+   "week": 8,
+   "unit": 3,
+   "topic": "Romantic fiction: Irving and Poe",
+   "objectives": [
+    "Identify characteristics of Romanticism and Gothic fiction",
+    "Analyze how structure creates suspense"
+   ],
+   "standards": [
+    "RL.11-12.3",
+    "RL.11-12.5",
+    "RL.11-12.1",
+    "L.11-12.5"
+   ],
+   "vocabulary": [
+    "Romanticism",
+    "Gothic",
+    "unreliable narrator",
+    "atmosphere",
+    "foreshadowing"
+   ],
+   "materials": [
+    "Irving, 'The Devil and Tom Walker'",
+    "Poe, 'The Fall of the House of Usher', 'The Tell-Tale Heart'"
+   ],
+   "days": [
+    {
+     "title": "Romantic traits",
+     "work": "Take notes on Romantic traits; read 'The Devil and Tom Walker' and mark satire of greed."
+    },
+    {
+     "title": "Poe's narrator",
+     "work": "Read 'The Tell-Tale Heart'; annotate evidence the narrator is unreliable and chart sentence length vs. tension."
+    },
+    {
+     "title": "House of Usher",
+     "work": "Read 'The Fall of the House of Usher'; trace setting as a symbol of Roderick's mind."
+    },
+    {
+     "title": "Structure",
+     "work": "Write an analytical paragraph on how Poe's choice of ending structure produces 'unity of effect'."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on Romantic/Gothic conventions; one-paragraph comparison of Irving's and Poe's narrators."
+    }
+   ],
+   "assessment": "Quiz and analytical paragraph."
+  },
+  {
+   "week": 9,
+   "unit": 3,
+   "topic": "Transcendentalism: Emerson and Thoreau",
+   "objectives": [
+    "Determine central ideas of Transcendentalist essays",
+    "Connect ideas to modern life"
+   ],
+   "standards": [
+    "RI.11-12.2",
+    "RI.11-12.4",
+    "RI.11-12.6",
+    "W.11-12.1",
+    "SL.11-12.1"
+   ],
+   "vocabulary": [
+    "Transcendentalism",
+    "self-reliance",
+    "nonconformity",
+    "civil disobedience",
+    "Oversoul"
+   ],
+   "materials": [
+    "Emerson, 'Self-Reliance' and 'Nature' excerpts",
+    "Thoreau, Walden ('Where I Lived...') and 'Civil Disobedience'"
+   ],
+   "days": [
+    {
+     "title": "Emerson",
+     "work": "Read excerpts of 'Self-Reliance'; select five aphorisms and explain each in plain language."
+    },
+    {
+     "title": "Nature",
+     "work": "Read the 'transparent eyeball' passage from 'Nature'; take a 20-minute solo nature walk and write a journal entry in imitation."
+    },
+    {
+     "title": "Walden",
+     "work": "Read 'Where I Lived, and What I Lived For'; list Thoreau's arguments for simplicity and test one against your own daily schedule."
+    },
+    {
+     "title": "Civil Disobedience",
+     "work": "Read excerpts; trace how Thoreau refines the term 'government' and connect to later activists."
+    },
+    {
+     "title": "Seminar & check",
+     "work": "Socratic seminar: 'Would Thoreau approve of smartphones?'; write a 300-word argument response."
+    }
+   ],
+   "assessment": "Seminar participation rubric and short argument."
+  },
+  {
+   "week": 10,
+   "unit": 3,
+   "topic": "Dark Romanticism: Hawthorne and Melville",
+   "objectives": [
+    "Analyze allegory and symbol",
+    "Compare Romantic and Dark Romantic views of human nature"
+   ],
+   "standards": [
+    "RL.11-12.2",
+    "RL.11-12.4",
+    "RL.11-12.6",
+    "RL.11-12.9",
+    "L.11-12.4"
+   ],
+   "vocabulary": [
+    "allegory",
+    "symbol",
+    "ambiguity",
+    "Dark Romanticism"
+   ],
+   "materials": [
+    "Hawthorne, 'Young Goodman Brown' and 'The Minister's Black Veil'",
+    "Melville, 'Bartleby, the Scrivener'"
+   ],
+   "days": [
+    {
+     "title": "Young Goodman Brown",
+     "work": "Read and annotate symbols (Faith's ribbons, staff, forest); decide whether the journey was a dream."
+    },
+    {
+     "title": "Black Veil",
+     "work": "Read 'The Minister's Black Veil'; chart the community's reactions and explain the veil's meaning in a paragraph."
+    },
+    {
+     "title": "Bartleby I",
+     "work": "Read the first half of 'Bartleby'; analyze the narrator's attitude and the phrase 'I would prefer not to'."
+    },
+    {
+     "title": "Bartleby II",
+     "work": "Finish the story; compare Bartleby's refusal to Thoreau's civil disobedience in a T-chart."
+    },
+    {
+     "title": "Review & check",
+     "work": "Timed essay (40 min): How do two Dark Romantic texts challenge Emerson's optimism?"
+    }
+   ],
+   "assessment": "Timed comparative essay."
+  },
+  {
+   "week": 11,
+   "unit": 3,
+   "topic": "Poetry of a new nation: Whitman and Dickinson",
+   "objectives": [
+    "Analyze form and style in poetry",
+    "Write a poetry comparison"
+   ],
+   "standards": [
+    "RL.11-12.4",
+    "RL.11-12.5",
+    "RL.11-12.9",
+    "W.11-12.2",
+    "SL.11-12.6",
+    "L.11-12.5"
+   ],
+   "vocabulary": [
+    "free verse",
+    "catalog",
+    "slant rhyme",
+    "dash",
+    "enjambment",
+    "common meter"
+   ],
+   "materials": [
+    "Whitman, 'Song of Myself' sections 1, 6, 52 and 'I Hear America Singing'",
+    "Dickinson, 'Because I could not stop for Death', 'Hope is the thing with feathers', 'Tell all the truth but tell it slant'"
+   ],
+   "days": [
+    {
+     "title": "Whitman",
+     "work": "Read 'Song of Myself' sections aloud; identify catalogs and anaphora and their effect."
+    },
+    {
+     "title": "Dickinson",
+     "work": "Read four Dickinson poems; scan meter, mark dashes and slant rhymes, and paraphrase each."
+    },
+    {
+     "title": "Comparison",
+     "work": "Plan a comparison of how Whitman and Dickinson treat death or the self; collect six quotations."
+    },
+    {
+     "title": "Write",
+     "work": "Draft a 600-word poetry comparison essay, then memorize and recite one poem (12+ lines)."
+    },
+    {
+     "title": "Unit check",
+     "work": "Submit revised essay and take the Unit 3 test on Romantic and Transcendentalist texts."
+    }
+   ],
+   "assessment": "Poetry comparison essay, recitation, Unit 3 test."
+  },
+  {
+   "week": 12,
+   "unit": 4,
+   "topic": "Narrative of the Life of Frederick Douglass, Ch. 1–6",
+   "objectives": [
+    "Analyze how Douglass develops central ideas",
+    "Evaluate rhetorical purpose of a slave narrative"
+   ],
+   "standards": [
+    "RI.11-12.1",
+    "RI.11-12.2",
+    "RI.11-12.3",
+    "RI.11-12.6",
+    "L.11-12.6"
+   ],
+   "vocabulary": [
+    "abolitionist",
+    "slave narrative",
+    "dehumanization",
+    "literacy"
+   ],
+   "materials": [
+    "Douglass, Narrative of the Life (Gutenberg)"
+   ],
+   "days": [
+    {
+     "title": "Context & preface",
+     "work": "Read Garrison's preface and Douglass' Ch. 1; note how prefaces were used to authenticate narratives."
+    },
+    {
+     "title": "Ch. 2–4",
+     "work": "Read and record examples of slavery's effect on enslavers as well as the enslaved."
+    },
+    {
+     "title": "Ch. 5–6",
+     "work": "Read about Baltimore and learning letters; explain why Douglass calls literacy 'the pathway from slavery to freedom'."
+    },
+    {
+     "title": "Close reading",
+     "work": "Analyze one paragraph's diction and syntax (balanced sentences, antithesis) in a 300-word response."
+    },
+    {
+     "title": "Review & check",
+     "work": "Reading quiz Ch. 1–6 and central-idea tracker check."
+    }
+   ],
+   "assessment": "Reading quiz and close-reading response."
+  },
+  {
+   "week": 13,
+   "unit": 4,
+   "topic": "Douglass Ch. 7–11 and Harriet Jacobs",
+   "objectives": [
+    "Analyze turning points in narrative",
+    "Compare male and female slave narratives"
+   ],
+   "standards": [
+    "RI.11-12.3",
+    "RI.11-12.5",
+    "RL.11-12.9",
+    "W.11-12.9",
+    "SL.11-12.1"
+   ],
+   "vocabulary": [
+    "chiasmus",
+    "turning point",
+    "emancipation",
+    "perspective"
+   ],
+   "materials": [
+    "Douglass, Narrative Ch. 7–11",
+    "Harriet Jacobs, Incidents in the Life of a Slave Girl excerpts (Gutenberg)"
+   ],
+   "days": [
+    {
+     "title": "Ch. 7–9",
+     "work": "Read; identify how learning to read changes Douglass' self-understanding."
+    },
+    {
+     "title": "Ch. 10",
+     "work": "Read the Covey chapter; analyze the chiasmus 'You have seen how a man was made a slave...' and its placement."
+    },
+    {
+     "title": "Ch. 11 & Appendix",
+     "work": "Finish the Narrative; explain why Douglass withholds escape details and how the appendix addresses religion."
+    },
+    {
+     "title": "Harriet Jacobs",
+     "work": "Read the 'loophole of retreat' excerpt; compare Jacobs' appeals to women readers with Douglass' appeals."
+    },
+    {
+     "title": "Discussion & check",
+     "work": "Recorded discussion comparing the two narratives; written exit response on structure."
+    }
+   ],
+   "assessment": "Discussion rubric and comparative exit response."
+  },
+  {
+   "week": 14,
+   "unit": 4,
+   "topic": "Oratory of the Civil War era",
+   "objectives": [
+    "Analyze structure and rhetoric of speeches",
+    "Evaluate speakers' reasoning"
+   ],
+   "standards": [
+    "RI.11-12.5",
+    "RI.11-12.6",
+    "RI.11-12.8",
+    "RI.11-12.9",
+    "SL.11-12.3",
+    "SL.11-12.6"
+   ],
+   "vocabulary": [
+    "anaphora",
+    "antithesis",
+    "parallelism",
+    "allusion",
+    "jeremiad"
+   ],
+   "materials": [
+    "Douglass, 'What to the Slave Is the Fourth of July?'",
+    "Sojourner Truth, 'Ain't I a Woman?' (both versions)",
+    "Lincoln, Gettysburg Address and Second Inaugural"
+   ],
+   "days": [
+    {
+     "title": "Fourth of July speech",
+     "work": "Read the central section; chart how Douglass turns the audience's celebration into an indictment."
+    },
+    {
+     "title": "Sojourner Truth",
+     "work": "Compare the 1851 Robinson transcription with the 1863 Gage version; discuss how editing changed her voice."
+    },
+    {
+     "title": "Lincoln",
+     "work": "Read the Gettysburg Address and Second Inaugural; mark antithesis and biblical allusion and explain the shift in purpose."
+    },
+    {
+     "title": "Deliver a speech",
+     "work": "Memorize and deliver the Gettysburg Address or a 2-minute excerpt with deliberate pauses; self-evaluate from video."
+    },
+    {
+     "title": "Review & check",
+     "work": "Timed rhetorical analysis (40 min) of the Second Inaugural."
+    }
+   ],
+   "assessment": "Speech delivery rubric and timed rhetorical analysis."
+  },
+  {
+   "week": 15,
+   "unit": 4,
+   "topic": "Argument essay: the American promise",
+   "objectives": [
+    "Write an evidence-based argument synthesizing multiple texts"
+   ],
+   "standards": [
+    "W.11-12.1",
+    "W.11-12.4",
+    "W.11-12.5",
+    "W.11-12.9",
+    "L.11-12.1",
+    "L.11-12.2"
+   ],
+   "vocabulary": [
+    "synthesis",
+    "warrant",
+    "concession",
+    "rebuttal"
+   ],
+   "materials": [
+    "Unit 4 texts",
+    "essay planning template"
+   ],
+   "days": [
+    {
+     "title": "Prompt & claim",
+     "work": "Respond to 'Did the founding documents contain the seeds of abolition?' Draft a claim and gather evidence from three Unit 4 texts."
+    },
+    {
+     "title": "Outline",
+     "work": "Build an outline with claim, reasons, evidence, warrants, and a counterclaim with rebuttal."
+    },
+    {
+     "title": "Draft",
+     "work": "Write a 900-word argument essay; grammar focus: parallel structure in thesis and topic sentences."
+    },
+    {
+     "title": "Revise",
+     "work": "Peer/parent review with a rubric; revise for warrants and transitions; edit for comma splices."
+    },
+    {
+     "title": "Unit check",
+     "work": "Submit the final essay and take the Unit 4 test (unseen passage from Lincoln-Douglas debates)."
+    }
+   ],
+   "assessment": "Argument essay and Unit 4 test."
+  },
+  {
+   "week": 16,
+   "unit": 5,
+   "topic": "Mark Twain and regional humor",
+   "objectives": [
+    "Analyze satire and dialect",
+    "Distinguish stated vs. intended meaning"
+   ],
+   "standards": [
+    "RL.11-12.6",
+    "RL.11-12.4",
+    "RL.11-12.3",
+    "L.11-12.3"
+   ],
+   "vocabulary": [
+    "Realism",
+    "regionalism",
+    "local color",
+    "dialect",
+    "satire",
+    "vernacular"
+   ],
+   "materials": [
+    "Twain, 'The Notorious Jumping Frog of Calaveras County'",
+    "Twain, Adventures of Huckleberry Finn Ch. 1, 16, 31 (Gutenberg)"
+   ],
+   "days": [
+    {
+     "title": "Realism intro",
+     "work": "Notes on Realism vs. Romanticism; read 'The Jumping Frog' (a California story) and identify the frame narrative."
+    },
+    {
+     "title": "Huck Finn Ch. 1 & 16",
+     "work": "Read; analyze how Huck's vernacular voice creates humor and irony."
+    },
+    {
+     "title": "Ch. 31 'All right, then, I'll go to hell'",
+     "work": "Read the climax of Huck's conscience; explain the irony of his decision."
+    },
+    {
+     "title": "Debating Huck Finn",
+     "work": "Read two short critical views on teaching the novel; write a 300-word position response."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on Realism terms and satire; paragraph on the irony in Ch. 31."
+    }
+   ],
+   "assessment": "Quiz and irony analysis paragraph."
+  },
+  {
+   "week": 17,
+   "unit": 5,
+   "topic": "Realist and Naturalist short fiction",
+   "objectives": [
+    "Analyze how authors develop and relate story elements",
+    "Analyze irony and point of view"
+   ],
+   "standards": [
+    "RL.11-12.3",
+    "RL.11-12.5",
+    "RL.11-12.6",
+    "RL.11-12.2",
+    "W.11-12.2"
+   ],
+   "vocabulary": [
+    "Naturalism",
+    "situational irony",
+    "stream of consciousness",
+    "determinism"
+   ],
+   "materials": [
+    "Kate Chopin, 'The Story of an Hour'",
+    "Ambrose Bierce, 'An Occurrence at Owl Creek Bridge'",
+    "Charlotte Perkins Gilman, 'The Yellow Wallpaper'",
+    "Jack London, 'To Build a Fire'"
+   ],
+   "days": [
+    {
+     "title": "Chopin",
+     "work": "Read 'The Story of an Hour'; annotate the open window imagery and explain the final irony."
+    },
+    {
+     "title": "Bierce",
+     "work": "Read 'Owl Creek Bridge'; diagram the three-part structure and analyze the manipulation of time."
+    },
+    {
+     "title": "Gilman",
+     "work": "Read 'The Yellow Wallpaper'; track the narrator's changing descriptions of the wallpaper."
+    },
+    {
+     "title": "London",
+     "work": "Read 'To Build a Fire'; identify Naturalist ideas about nature and fate; compare to Emerson's 'Nature'."
+    },
+    {
+     "title": "Review & check",
+     "work": "Write a 600-word explanatory essay on how two of these authors use structure to create a surprise ending."
+    }
+   ],
+   "assessment": "Explanatory essay on structure."
+  },
+  {
+   "week": 18,
+   "unit": 5,
+   "topic": "Semester review and exam",
+   "objectives": [
+    "Synthesize semester texts",
+    "Demonstrate reading and writing growth"
+   ],
+   "standards": [
+    "RL.11-12.9",
+    "RL.11-12.10",
+    "RI.11-12.9",
+    "W.11-12.10",
+    "L.11-12.1"
+   ],
+   "vocabulary": [
+    "canon",
+    "literary period",
+    "synthesis"
+   ],
+   "materials": [
+    "semester reading journal",
+    "practice exam"
+   ],
+   "days": [
+    {
+     "title": "Timeline review",
+     "work": "Build a literary-period timeline (Puritan to Realism) with two texts, traits, and a key quotation per period."
+    },
+    {
+     "title": "Practice passages",
+     "work": "Complete a practice set of unseen prose and poetry passages with multiple choice and short response."
+    },
+    {
+     "title": "Writing review",
+     "work": "Revise the weakest essay of the semester using teacher comments; write a reflection on growth."
+    },
+    {
+     "title": "Semester exam I",
+     "work": "Reading section: three unseen passages with multiple-choice and short constructed responses."
+    },
+    {
+     "title": "Semester exam II",
+     "work": "Timed 50-minute synthesis essay: how American writers defined freedom from Bradford to Chopin."
+    }
+   ],
+   "assessment": "Two-part semester exam and revised essay portfolio."
+  },
+  {
+   "week": 19,
+   "unit": 6,
+   "topic": "Modernism and the poetry of disillusionment",
+   "objectives": [
+    "Identify features of Modernism",
+    "Analyze fragmented structure and imagery"
+   ],
+   "standards": [
+    "RL.11-12.4",
+    "RL.11-12.5",
+    "RL.11-12.2",
+    "L.11-12.5"
+   ],
+   "vocabulary": [
+    "Modernism",
+    "Imagism",
+    "fragmentation",
+    "dramatic monologue",
+    "Lost Generation"
+   ],
+   "materials": [
+    "T.S. Eliot, 'The Love Song of J. Alfred Prufrock'",
+    "Ezra Pound, 'In a Station of the Metro'",
+    "William Carlos Williams, 'The Red Wheelbarrow'",
+    "Robert Frost, 'Mending Wall' and 'The Road Not Taken'"
+   ],
+   "days": [
+    {
+     "title": "Modernism intro",
+     "work": "Notes on WWI, urbanization, and Modernism; read Imagist poems by Pound and Williams and write two Imagist poems of your own."
+    },
+    {
+     "title": "Prufrock I",
+     "work": "Read 'Prufrock' aloud; annotate the fog/cat image and the refrain about Michelangelo."
+    },
+    {
+     "title": "Prufrock II",
+     "work": "Analyze fragmentation and allusion; write a paragraph on Prufrock's paralysis."
+    },
+    {
+     "title": "Frost",
+     "work": "Read 'Mending Wall' and 'The Road Not Taken'; argue about the commonly misread meaning of the 'road' poem."
+    },
+    {
+     "title": "Review & check",
+     "work": "Quiz on Modernist traits and a short poetry explication of an unseen Frost poem."
+    }
+   ],
+   "assessment": "Quiz and poetry explication."
+  },
+  {
+   "week": 20,
+   "unit": 6,
+   "topic": "The Great Gatsby, Ch. 1–3",
+   "objectives": [
+    "Analyze narrator and setting",
+    "Trace symbols of the American Dream"
+   ],
+   "standards": [
+    "RL.11-12.1",
+    "RL.11-12.3",
+    "RL.11-12.6",
+    "L.11-12.4"
+   ],
+   "vocabulary": [
+    "Jazz Age",
+    "narrator",
+    "symbol",
+    "conspicuous consumption"
+   ],
+   "materials": [
+    "F. Scott Fitzgerald, The Great Gatsby (Gutenberg/public domain)"
+   ],
+   "days": [
+    {
+     "title": "Context",
+     "work": "Read a short Jazz Age/Prohibition overview; read Ch. 1 and analyze Nick's claim that he is 'inclined to reserve all judgments'."
+    },
+    {
+     "title": "Ch. 1 symbols",
+     "work": "Analyze the green light and East/West Egg geography; start a symbol tracker."
+    },
+    {
+     "title": "Ch. 2",
+     "work": "Read the Valley of Ashes chapter; explain the eyes of Doctor T. J. Eckleburg."
+    },
+    {
+     "title": "Ch. 3",
+     "work": "Read Gatsby's party; collect rumors about Gatsby and evaluate Nick's reliability."
+    },
+    {
+     "title": "Review & check",
+     "work": "Reading quiz Ch. 1–3 and a paragraph on setting as social commentary."
+    }
+   ],
+   "assessment": "Reading quiz and setting paragraph."
+  },
+  {
+   "week": 21,
+   "unit": 6,
+   "topic": "The Great Gatsby, Ch. 4–9",
+   "objectives": [
+    "Analyze theme development",
+    "Evaluate interpretations of the novel"
+   ],
+   "standards": [
+    "RL.11-12.2",
+    "RL.11-12.3",
+    "RL.11-12.5",
+    "RL.11-12.7",
+    "W.11-12.1",
+    "W.11-12.9"
+   ],
+   "vocabulary": [
+    "American Dream",
+    "tragedy",
+    "nostalgia",
+    "class"
+   ],
+   "materials": [
+    "The Great Gatsby",
+    "film adaptation clip (1974 or 2013)"
+   ],
+   "days": [
+    {
+     "title": "Ch. 4–5",
+     "work": "Read; analyze Gatsby's invented biography and the reunion scene's use of weather."
+    },
+    {
+     "title": "Ch. 6–7",
+     "work": "Read; trace the confrontation at the Plaza and how money divides 'old' and 'new' wealth."
+    },
+    {
+     "title": "Ch. 8–9",
+     "work": "Finish the novel; annotate the final page's 'boats against the current' passage."
+    },
+    {
+     "title": "Interpretations",
+     "work": "Compare the 1974 and 2013 party or ending scenes; evaluate how each interprets Fitzgerald."
+    },
+    {
+     "title": "Essay & check",
+     "work": "Write a 900-word literary argument: Is The Great Gatsby a critique or a celebration of the American Dream?"
+    }
+   ],
+   "assessment": "Literary argument essay on Gatsby."
+  },
+  {
+   "week": 22,
+   "unit": 6,
+   "topic": "The Harlem Renaissance",
+   "objectives": [
+    "Analyze voice and form in Harlem Renaissance poetry and fiction",
+    "Connect art to the Great Migration"
+   ],
+   "standards": [
+    "RL.11-12.4",
+    "RL.11-12.9",
+    "RL.11-12.2",
+    "SL.11-12.4",
+    "SL.11-12.5"
+   ],
+   "vocabulary": [
+    "Harlem Renaissance",
+    "Great Migration",
+    "blues form",
+    "double consciousness"
+   ],
+   "materials": [
+    "Langston Hughes, 'The Negro Speaks of Rivers', 'Harlem', 'I, Too'",
+    "Claude McKay, 'If We Must Die'",
+    "Countee Cullen, 'Incident'",
+    "Zora Neale Hurston, 'How It Feels to Be Colored Me'"
+   ],
+   "days": [
+    {
+     "title": "Hughes",
+     "work": "Read three Hughes poems; listen to a blues recording and identify blues structure in 'The Weary Blues'."
+    },
+    {
+     "title": "McKay & Cullen",
+     "work": "Read 'If We Must Die' (sonnet) and 'Incident'; compare how traditional forms carry protest."
+    },
+    {
+     "title": "Hurston",
+     "work": "Read 'How It Feels to Be Colored Me'; analyze tone and figurative language."
+    },
+    {
+     "title": "Presentation prep",
+     "work": "Research one Harlem Renaissance artist (writer, musician, painter) and build a 5-slide presentation."
+    },
+    {
+     "title": "Present & check",
+     "work": "Deliver a 5-minute multimedia presentation and answer questions; quiz on the poems."
+    }
+   ],
+   "assessment": "Presentation rubric and poetry quiz."
+  },
+  {
+   "week": 23,
+   "unit": 6,
+   "topic": "Hemingway, Faulkner, and the Modern short story",
+   "objectives": [
+    "Analyze style (iceberg theory, stream of consciousness)",
+    "Write an imitation and analysis"
+   ],
+   "standards": [
+    "RL.11-12.3",
+    "RL.11-12.5",
+    "RL.11-12.6",
+    "W.11-12.3",
+    "L.11-12.3"
+   ],
+   "vocabulary": [
+    "iceberg theory",
+    "minimalism",
+    "stream of consciousness",
+    "nonlinear plot",
+    "Southern Gothic"
+   ],
+   "materials": [
+    "Hemingway, 'Hills Like White Elephants' (library anthology)",
+    "Faulkner, 'A Rose for Emily' (library anthology)"
+   ],
+   "days": [
+    {
+     "title": "Hemingway",
+     "work": "Read 'Hills Like White Elephants'; list what is never stated and infer the conflict from dialogue alone."
+    },
+    {
+     "title": "Faulkner",
+     "work": "Read 'A Rose for Emily'; reconstruct the chronology on a timeline and explain the effect of the nonlinear order."
+    },
+    {
+     "title": "Narrator 'we'",
+     "work": "Analyze the communal narrator in 'Emily' and how it builds suspense."
+    },
+    {
+     "title": "Style imitation",
+     "work": "Write a 500-word scene in Hemingway's minimalist style using only dialogue and gesture."
+    },
+    {
+     "title": "Unit check",
+     "work": "Unit 6 test: unseen Modernist passage analysis plus terms."
+    }
+   ],
+   "assessment": "Style imitation and Unit 6 test."
+  },
+  {
+   "week": 24,
+   "unit": 7,
+   "topic": "Research: question, sources, and evaluation",
+   "objectives": [
+    "Develop a research question",
+    "Evaluate source credibility"
+   ],
+   "standards": [
+    "W.11-12.7",
+    "W.11-12.8",
+    "RI.11-12.7",
+    "L.11-12.6"
+   ],
+   "vocabulary": [
+    "research question",
+    "primary source",
+    "secondary source",
+    "credibility",
+    "annotated bibliography",
+    "database"
+   ],
+   "materials": [
+    "public library databases (e.g., JSTOR free articles, Gale via library card)",
+    "Purdue OWL MLA guide"
+   ],
+   "days": [
+    {
+     "title": "Choose a topic",
+     "work": "Brainstorm topics linking an American author to historical context; narrow to an arguable research question."
+    },
+    {
+     "title": "Library databases",
+     "work": "Use public library databases to locate at least six sources, including two scholarly articles."
+    },
+    {
+     "title": "Evaluate sources",
+     "work": "Apply the CRAAP test to each source and discard weak ones."
+    },
+    {
+     "title": "Annotated bibliography",
+     "work": "Write MLA 9 entries with 3-sentence annotations for five sources."
+    },
+    {
+     "title": "Check",
+     "work": "Submit research question, working thesis, and annotated bibliography for feedback."
+    }
+   ],
+   "assessment": "Annotated bibliography rubric."
+  },
+  {
+   "week": 25,
+   "unit": 7,
+   "topic": "Research: notes, outline, and drafting",
+   "objectives": [
+    "Integrate sources and avoid plagiarism",
+    "Draft a sustained research paper"
+   ],
+   "standards": [
+    "W.11-12.7",
+    "W.11-12.8",
+    "W.11-12.2",
+    "W.11-12.1",
+    "L.11-12.2"
+   ],
+   "vocabulary": [
+    "paraphrase",
+    "signal phrase",
+    "in-text citation",
+    "plagiarism"
+   ],
+   "materials": [
+    "research notes",
+    "outline template"
+   ],
+   "days": [
+    {
+     "title": "Note-taking",
+     "work": "Take notes using quotation, paraphrase, and summary, labeling each with source and page."
+    },
+    {
+     "title": "Paraphrase practice",
+     "work": "Practice paraphrasing three tricky passages and compare with originals to avoid patchwriting."
+    },
+    {
+     "title": "Outline",
+     "work": "Build a detailed outline with thesis, sub-claims, and assigned evidence."
+    },
+    {
+     "title": "Draft I",
+     "work": "Draft introduction and first two body sections (about 1,000 words) with signal phrases and in-text citations."
+    },
+    {
+     "title": "Draft II & check",
+     "work": "Draft remaining sections and conclusion; submit full rough draft (1,800–2,200 words)."
+    }
+   ],
+   "assessment": "Rough draft checkpoint."
+  },
+  {
+   "week": 26,
+   "unit": 7,
+   "topic": "Research: revision and presentation",
+   "objectives": [
+    "Revise for argument and style",
+    "Present findings orally"
+   ],
+   "standards": [
+    "W.11-12.5",
+    "W.11-12.6",
+    "W.11-12.7",
+    "SL.11-12.4",
+    "SL.11-12.5",
+    "L.11-12.1"
+   ],
+   "vocabulary": [
+    "revision",
+    "works cited",
+    "abstract",
+    "hanging indent"
+   ],
+   "materials": [
+    "word processor",
+    "slide software"
+   ],
+   "days": [
+    {
+     "title": "Revision for argument",
+     "work": "Reverse-outline the draft; revise so each paragraph advances the thesis."
+    },
+    {
+     "title": "Line editing",
+     "work": "Edit for concision, active voice, and varied syntax; check hyphenation of compound modifiers."
+    },
+    {
+     "title": "Format",
+     "work": "Format to MLA 9 with Works Cited; run a self-check for plagiarism and citation accuracy."
+    },
+    {
+     "title": "Presentation",
+     "work": "Create a 6-minute presentation of findings with visuals and practice delivery."
+    },
+    {
+     "title": "Final & present",
+     "work": "Submit final research paper and deliver the presentation with Q&A."
+    }
+   ],
+   "assessment": "Final research paper and presentation rubrics."
+  },
+  {
+   "week": 27,
+   "unit": 8,
+   "topic": "A Raisin in the Sun, Acts I–II",
+   "objectives": [
+    "Analyze character and conflict in drama",
+    "Connect the play to housing discrimination history"
+   ],
+   "standards": [
+    "RL.11-12.3",
+    "RL.11-12.2",
+    "RL.11-12.1",
+    "RI.11-12.7"
+   ],
+   "vocabulary": [
+    "deferred dream",
+    "redlining",
+    "foil",
+    "matriarch"
+   ],
+   "materials": [
+    "Lorraine Hansberry, A Raisin in the Sun (library)",
+    "Hughes, 'Harlem'"
+   ],
+   "days": [
+    {
+     "title": "Context",
+     "work": "Reread 'Harlem'; read a short article on redlining and restrictive covenants in Chicago."
+    },
+    {
+     "title": "Act I",
+     "work": "Read Act I; chart each Younger family member's dream and conflicts."
+    },
+    {
+     "title": "Act I analysis",
+     "work": "Analyze Mama's plant as a symbol in a paragraph with two quotations."
+    },
+    {
+     "title": "Act II",
+     "work": "Read Act II; analyze Karl Lindner's visit and his euphemistic language."
+    },
+    {
+     "title": "Review & check",
+     "work": "Reading quiz and a character foil chart (Walter vs. Beneatha)."
+    }
+   ],
+   "assessment": "Quiz and foil chart."
+  },
+  {
+   "week": 28,
+   "unit": 8,
+   "topic": "A Raisin in the Sun, Act III and performance",
+   "objectives": [
+    "Analyze resolution and theme",
+    "Evaluate interpretations of drama"
+   ],
+   "standards": [
+    "RL.11-12.2",
+    "RL.11-12.7",
+    "RL.11-12.5",
+    "SL.11-12.1",
+    "SL.11-12.6"
+   ],
+   "vocabulary": [
+    "climax",
+    "dignity",
+    "interpretation",
+    "staging"
+   ],
+   "materials": [
+    "A Raisin in the Sun",
+    "1961 film clip"
+   ],
+   "days": [
+    {
+     "title": "Act III",
+     "work": "Read Act III; trace Walter's transformation and what 'come into his manhood' means."
+    },
+    {
+     "title": "Compare productions",
+     "work": "Watch the 1961 film's final scene and compare it to the script's stage directions."
+    },
+    {
+     "title": "Scene work",
+     "work": "Rehearse and perform a 3-minute scene with family members, focusing on subtext."
+    },
+    {
+     "title": "Theme essay",
+     "work": "Write a 600-word essay on how Hansberry answers Hughes' question 'What happens to a dream deferred?'"
+    },
+    {
+     "title": "Check",
+     "work": "Submit essay; short test on the play."
+    }
+   ],
+   "assessment": "Theme essay and play test."
+  },
+  {
+   "week": 29,
+   "unit": 8,
+   "topic": "Civil rights rhetoric",
+   "objectives": [
+    "Analyze rhetoric and reasoning in seminal civil rights texts",
+    "Evaluate effectiveness of structure"
+   ],
+   "standards": [
+    "RI.11-12.5",
+    "RI.11-12.6",
+    "RI.11-12.8",
+    "SL.11-12.3",
+    "W.11-12.2"
+   ],
+   "vocabulary": [
+    "nonviolent direct action",
+    "just/unjust law",
+    "rebuttal",
+    "kairos"
+   ],
+   "materials": [
+    "Martin Luther King Jr., 'Letter from Birmingham Jail'",
+    "Malcolm X, 'The Ballot or the Bullet' excerpt",
+    "John F. Kennedy, Inaugural Address"
+   ],
+   "days": [
+    {
+     "title": "Kennedy",
+     "work": "Read/listen to the Inaugural Address; mark antimetabole and parallel structure."
+    },
+    {
+     "title": "Letter I",
+     "work": "Read the first half of 'Letter from Birmingham Jail'; outline how King rebuts each criticism from the clergymen."
+    },
+    {
+     "title": "Letter II",
+     "work": "Finish the Letter; analyze King's definition of just and unjust laws and his appeal to Founders."
+    },
+    {
+     "title": "Malcolm X",
+     "work": "Read 'The Ballot or the Bullet' excerpt; compare purpose and audience with King."
+    },
+    {
+     "title": "Check",
+     "work": "Timed rhetorical analysis essay (40 min) on an excerpt from the Letter."
+    }
+   ],
+   "assessment": "Timed rhetorical analysis."
+  },
+  {
+   "week": 30,
+   "unit": 8,
+   "topic": "Personal narrative and the college essay",
+   "objectives": [
+    "Write a reflective personal narrative",
+    "Use narrative techniques"
+   ],
+   "standards": [
+    "W.11-12.3",
+    "W.11-12.4",
+    "W.11-12.5",
+    "L.11-12.3"
+   ],
+   "vocabulary": [
+    "reflection",
+    "anecdote",
+    "pacing",
+    "voice",
+    "personal insight"
+   ],
+   "materials": [
+    "UC Personal Insight Questions (universityofcalifornia.edu)",
+    "model essays"
+   ],
+   "days": [
+    {
+     "title": "Models",
+     "work": "Read two model personal essays (e.g., Amy Tan's 'Mother Tongue' as a model of voice); note structure and reflection."
+    },
+    {
+     "title": "Brainstorm",
+     "work": "Read the UC Personal Insight Questions; brainstorm with a memory map and choose two prompts."
+    },
+    {
+     "title": "Draft",
+     "work": "Draft a 350-word response focused on a single scene and what it reveals."
+    },
+    {
+     "title": "Revise",
+     "work": "Revise for specificity and reflection; cut clichés; read aloud for voice."
+    },
+    {
+     "title": "Check",
+     "work": "Submit a polished personal insight essay and write a second draft for another prompt."
+    }
+   ],
+   "assessment": "Personal narrative rubric."
+  },
+  {
+   "week": 31,
+   "unit": 9,
+   "topic": "War and memory: The Things They Carried",
+   "objectives": [
+    "Analyze structure and truth in fiction",
+    "Interpret metafiction"
+   ],
+   "standards": [
+    "RL.11-12.5",
+    "RL.11-12.3",
+    "RL.11-12.6",
+    "W.11-12.9"
+   ],
+   "vocabulary": [
+    "metafiction",
+    "story-truth",
+    "happening-truth",
+    "Vietnam War"
+   ],
+   "materials": [
+    "Tim O'Brien, The Things They Carried (library) – title story, 'On the Rainy River', 'How to Tell a True War Story'"
+   ],
+   "days": [
+    {
+     "title": "Title story",
+     "work": "Read 'The Things They Carried'; chart tangible vs. intangible burdens."
+    },
+    {
+     "title": "Rainy River",
+     "work": "Read 'On the Rainy River'; analyze the choice between courage and shame."
+    },
+    {
+     "title": "True war story",
+     "work": "Read 'How to Tell a True War Story'; define story-truth vs. happening-truth."
+    },
+    {
+     "title": "Interviews",
+     "work": "Watch a veteran interview from the Library of Congress Veterans History Project; compare oral history to fiction."
+    },
+    {
+     "title": "Check",
+     "work": "Write a 500-word response analyzing how O'Brien's structure blurs fact and fiction."
+    }
+   ],
+   "assessment": "Analytical response."
+  },
+  {
+   "week": 32,
+   "unit": 9,
+   "topic": "Language and identity",
+   "objectives": [
+    "Analyze how authors use language to explore identity",
+    "Write an analytical essay"
+   ],
+   "standards": [
+    "RI.11-12.6",
+    "RL.11-12.4",
+    "RI.11-12.4",
+    "L.11-12.3",
+    "L.11-12.5"
+   ],
+   "vocabulary": [
+    "code-switching",
+    "identity",
+    "vignette",
+    "bilingualism"
+   ],
+   "materials": [
+    "Amy Tan, 'Mother Tongue'",
+    "Sandra Cisneros, The House on Mango Street (selected vignettes)",
+    "Richard Rodriguez, 'Aria' excerpt",
+    "Gloria Anzaldúa, 'How to Tame a Wild Tongue' excerpt"
+   ],
+   "days": [
+    {
+     "title": "Tan",
+     "work": "Read 'Mother Tongue'; list the 'Englishes' she describes and evaluate her argument about language and judgment."
+    },
+    {
+     "title": "Cisneros",
+     "work": "Read six Mango Street vignettes; analyze how compressed form conveys identity."
+    },
+    {
+     "title": "Rodriguez & Anzaldúa",
+     "work": "Read excerpts; compare positions on public and private language."
+    },
+    {
+     "title": "Write a vignette",
+     "work": "Write two Cisneros-style vignettes about your own neighborhood or name."
+    },
+    {
+     "title": "Check",
+     "work": "Write an 800-word analytical essay comparing two authors' views on language and identity."
+    }
+   ],
+   "assessment": "Analytical comparison essay."
+  },
+  {
+   "week": 33,
+   "unit": 9,
+   "topic": "Contemporary poetry and Native American voices",
+   "objectives": [
+    "Analyze contemporary poetic forms",
+    "Present a poetry interpretation"
+   ],
+   "standards": [
+    "RL.11-12.4",
+    "RL.11-12.5",
+    "RL.11-12.2",
+    "SL.11-12.4",
+    "SL.11-12.6"
+   ],
+   "vocabulary": [
+    "spoken word",
+    "persona",
+    "prose poem",
+    "sovereignty"
+   ],
+   "materials": [
+    "Joy Harjo, 'Remember' and 'Perhaps the World Ends Here'",
+    "Rita Dove, 'Testimonial'",
+    "Li-Young Lee, 'Persimmons'",
+    "Natalie Diaz, 'The Facts of Art' (Poetry Foundation)"
+   ],
+   "days": [
+    {
+     "title": "Harjo",
+     "work": "Read two Harjo poems; analyze repetition and the connection between land and identity."
+    },
+    {
+     "title": "Lee & Dove",
+     "work": "Read 'Persimmons' and 'Testimonial'; trace imagery of fruit, memory, and language."
+    },
+    {
+     "title": "Diaz",
+     "work": "Read 'The Facts of Art'; discuss how humor and history combine in the poem."
+    },
+    {
+     "title": "Performance prep",
+     "work": "Choose a contemporary American poem and prepare an oral interpretation with a written introduction."
+    },
+    {
+     "title": "Check",
+     "work": "Perform the poem (recorded) and submit a 300-word explication."
+    }
+   ],
+   "assessment": "Performance and explication rubric."
+  },
+  {
+   "week": 34,
+   "unit": 9,
+   "topic": "Argument and media: the American Dream today",
+   "objectives": [
+    "Synthesize multiple sources in different media",
+    "Write a synthesis argument"
+   ],
+   "standards": [
+    "RI.11-12.7",
+    "W.11-12.1",
+    "W.11-12.8",
+    "SL.11-12.3",
+    "L.11-12.1"
+   ],
+   "vocabulary": [
+    "synthesis",
+    "bias",
+    "data",
+    "op-ed"
+   ],
+   "materials": [
+    "Pew Research Center short reports on economic mobility",
+    "two op-eds on the American Dream",
+    "a TED talk or podcast segment"
+   ],
+   "days": [
+    {
+     "title": "Sources",
+     "work": "Read two op-eds and a data report on economic mobility; annotate claims and evidence quality."
+    },
+    {
+     "title": "Media",
+     "work": "Watch or listen to a talk; evaluate the speaker's evidence and rhetoric with an SL.3 checklist."
+    },
+    {
+     "title": "Plan",
+     "work": "Outline a synthesis argument using at least four sources, including one literary text from the year."
+    },
+    {
+     "title": "Draft",
+     "work": "Write a 900-word synthesis essay: 'Is the American Dream still achievable?'"
+    },
+    {
+     "title": "Check",
+     "work": "Revise and submit; Unit 9 vocabulary and grammar test (usage, hyphenation, punctuation)."
+    }
+   ],
+   "assessment": "Synthesis essay and grammar test."
+  },
+  {
+   "week": 35,
+   "unit": 10,
+   "topic": "Year-end synthesis and portfolio",
+   "objectives": [
+    "Connect texts across periods",
+    "Curate and reflect on a writing portfolio"
+   ],
+   "standards": [
+    "RL.11-12.9",
+    "RL.11-12.10",
+    "W.11-12.5",
+    "W.11-12.6",
+    "SL.11-12.4"
+   ],
+   "vocabulary": [
+    "portfolio",
+    "reflection",
+    "thematic thread"
+   ],
+   "materials": [
+    "all year's texts",
+    "digital portfolio (Google Sites or similar)"
+   ],
+   "days": [
+    {
+     "title": "Thematic threads",
+     "work": "Choose a theme (freedom, identity, the frontier, dissent) and map it across six texts from different periods."
+    },
+    {
+     "title": "Portfolio selection",
+     "work": "Select four best pieces and revise one substantially."
+    },
+    {
+     "title": "Reflection",
+     "work": "Write a 600-word reflective letter on growth as reader and writer."
+    },
+    {
+     "title": "Publish",
+     "work": "Build a digital portfolio site with pieces, reflection, and a reading list."
+    },
+    {
+     "title": "Present",
+     "work": "Present portfolio and thematic map to family in a 10-minute talk."
+    }
+   ],
+   "assessment": "Portfolio and presentation rubric."
+  },
+  {
+   "week": 36,
+   "unit": 10,
+   "topic": "Final exam",
+   "objectives": [
+    "Demonstrate year-long reading, writing, and language mastery"
+   ],
+   "standards": [
+    "RL.11-12.10",
+    "RI.11-12.9",
+    "W.11-12.1",
+    "W.11-12.10",
+    "L.11-12.2"
+   ],
+   "vocabulary": [
+    "review",
+    "exam strategies"
+   ],
+   "materials": [
+    "final exam packet"
+   ],
+   "days": [
+    {
+     "title": "Review I",
+     "work": "Review literary periods and key rhetorical terms with a self-made study guide and flashcards."
+    },
+    {
+     "title": "Review II",
+     "work": "Practice an unseen poem and a nonfiction passage with timed responses."
+    },
+    {
+     "title": "Final exam I",
+     "work": "Reading comprehension: unseen literary and informational passages with multiple-choice and short answers."
+    },
+    {
+     "title": "Final exam II",
+     "work": "Timed 60-minute argument essay drawing on at least three texts from the year."
+    },
+    {
+     "title": "Wrap-up",
+     "work": "Review exam results, set summer reading goals, and choose three books for senior year."
+    }
+   ],
+   "assessment": "Final exam (reading and essay)."
+  }
+ ]
+}

@@ -1,0 +1,2171 @@
+{
+ "grade": 9,
+ "subject": "HSS",
+ "overview": "Semester 1 (World Geography) blends map work, data, and California case studies; Semester 2 (Ethnic Studies) centers primary sources, family and community voices, and civic action. Each day: brief reading or source work, discussion with the check questions, then the product. Preview primary sources — several describe racism, violence, and genocide — and establish respectful discussion norms; emphasize sourcing (who, when, why) for every document.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "World atlas (or online), printed blank world map with latitude/longitude lines, list of 15 cities with coordinates (e.g., Los Angeles 34°N 118°W; London 51.5°N 0°; Cairo 30°N 31°E; Tokyo 35.7°N 139.7°E; Sydney 34°S 151°E; Rio de Janeiro 23°S 43°W).",
+   "misconceptions": [
+    "Reversing latitude and longitude: latitude (N/S of the equator) comes first; longitude (E/W of the prime meridian) second.",
+    "Confusing location and place: location is where (absolute or relative); place is what it's like (physical and human characteristics).",
+    "Forgetting the hemisphere letter: 34°N 118°W and 34°S 118°E are on opposite sides of the world."
+   ],
+   "days": [
+    {
+     "guide": "Teach the five themes (location, place, human-environment interaction, movement, region) with neighborhood examples; your child fills a one-page chart.",
+     "questions": [
+      {
+       "q": "Name the five themes of geography.",
+       "a": "Location, place, human-environment interaction, movement, and region."
+      },
+      {
+       "q": "Which theme is a freeway bringing commuters to your town an example of?",
+       "a": "Movement (also human-environment interaction for building it)."
+      }
+     ]
+    },
+    {
+     "guide": "Model plotting one city; your child plots 15.",
+     "questions": [
+      {
+       "q": "Which city is near 34°S, 151°E?",
+       "a": "Sydney, Australia."
+      },
+      {
+       "q": "What lines measure distance north or south of the equator?",
+       "a": "Lines of latitude (parallels)."
+      }
+     ]
+    },
+    {
+     "guide": "Describe relative location using directions and landmarks.",
+     "questions": [
+      {
+       "q": "Describe the relative location of Paris.",
+       "a": "Example: in northern France on the Seine River, about 340 km (210 mi) southeast of London across the English Channel."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a world map from memory; compare to an atlas.",
+     "questions": [
+      {
+       "q": "Why are mental maps often distorted?",
+       "a": "We exaggerate places we know or care about and shrink unfamiliar regions; many people also learned from Mercator maps."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz on themes and coordinates.",
+     "questions": [
+      {
+       "q": "What are the latitude and longitude of the point where the equator meets the prime meridian?",
+       "a": "0°, 0° (in the Gulf of Guinea off West Africa)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Coordinates quiz answers: 1) Los Angeles ≈ 34°N, 118°W. 2) Cairo ≈ 30°N, 31°E. 3) Tokyo ≈ 36°N, 140°E. 4) Rio ≈ 23°S, 43°W. 5) Equator = 0° latitude; prime meridian = 0° longitude through Greenwich, England. 6) The five themes (above). 7) Example of place: Sacramento's hot, dry summers and capitol buildings. Five-themes chart: proficient = an accurate, specific local example for each theme."
+  },
+  {
+   "week": 2,
+   "prep": "An orange and a marker; printouts of Mercator, Robinson, and Gall-Peters maps; a Library of Congress historical map (loc.gov/maps); Google Earth or ArcGIS Online (free).",
+   "misconceptions": [
+    "Believing Greenland is as big as Africa: Mercator inflates areas near the poles; Africa is about 14 times larger.",
+    "Thinking any map is 'correct': every flat map distorts shape, area, distance, or direction.",
+    "Misusing scale: 1:100,000 means 1 unit on the map = 100,000 of the same units on the ground."
+   ],
+   "days": [
+    {
+     "guide": "Draw continents on an orange, peel it, and flatten; compare projections.",
+     "questions": [
+      {
+       "q": "What does the Mercator projection preserve and distort?",
+       "a": "It preserves shapes locally and compass direction (useful for navigation) but greatly distorts area near the poles."
+      },
+      {
+       "q": "What does the Gall-Peters projection preserve?",
+       "a": "Relative area (equal-area), while distorting shapes."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze a historical map's purpose and point of view.",
+     "questions": [
+      {
+       "q": "What questions should you ask about a historical map?",
+       "a": "Who made it, when, for whom, for what purpose, and what it emphasizes or leaves out."
+      }
+     ]
+    },
+    {
+     "guide": "Layer population and rivers in GIS.",
+     "questions": [
+      {
+       "q": "What pattern often appears when population and rivers are layered?",
+       "a": "Dense populations cluster along rivers (water, farmland, transport) — e.g., the Nile, Ganges, Yangtze."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate real distances with scales.",
+     "questions": [
+      {
+       "q": "On a 1:100,000 map, two towns are 7.5 cm apart. Real distance?",
+       "a": "7.5 × 100,000 cm = 750,000 cm = 7.5 km."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz.",
+     "questions": [
+      {
+       "q": "Which projection is a compromise that distorts everything a little?",
+       "a": "The Robinson projection."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Mercator — conformal, area distortion at high latitudes. 2) Gall-Peters — equal area. 3) Robinson — compromise. 4) Thematic map shows a topic (e.g., population density); reference map shows locations. 5) GIS layers data on maps. 6) Scale problem: 1 inch = 50 miles, 3.5 inches → 175 miles. GIS screenshot analysis: proficient = identifies layers and describes a spatial pattern with an explanation."
+  },
+  {
+   "week": 3,
+   "prep": "Colored pencils, U.S. map, blank world regions map. Survey 5+ family members/friends.",
+   "misconceptions": [
+    "Thinking regions have exact natural boundaries: many regions (perceptual) have fuzzy, debated boundaries.",
+    "Mixing up formal and functional regions: formal = shared characteristic (Corn Belt); functional = organized around a central node (a TV market, a delivery area).",
+    "Lumping 'Africa' as one region: North Africa is often grouped with Southwest Asia; Sub-Saharan Africa is a separate cultural region."
+   ],
+   "days": [
+    {
+     "guide": "Classify 12 regions as formal, functional, or perceptual.",
+     "questions": [
+      {
+       "q": "Classify the Corn Belt, a pizza delivery area, and 'the South.'",
+       "a": "Formal; functional; perceptual (vernacular)."
+      },
+      {
+       "q": "What kind of region is the Sun Belt?",
+       "a": "Usually perceptual (vernacular), though it is loosely tied to warm climate (formal traits)."
+      }
+     ]
+    },
+    {
+     "guide": "Survey people on where 'Southern California' begins; map the results.",
+     "questions": [
+      {
+       "q": "Why do survey answers about where Southern California begins differ?",
+       "a": "It is a perceptual region — boundaries depend on people's experiences and identities."
+      }
+     ]
+    },
+    {
+     "guide": "Label world cultural regions and a unifying trait for each.",
+     "questions": [
+      {
+       "q": "Give one unifying trait of Latin America.",
+       "a": "Predominance of Spanish and Portuguese languages and Roman Catholic heritage from Iberian colonization."
+      }
+     ]
+    },
+    {
+     "guide": "Write a paragraph defining a region you belong to.",
+     "questions": [
+      {
+       "q": "What makes a good region definition?",
+       "a": "It names the criteria (physical or human traits), describes boundaries, and gives examples."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test.",
+     "questions": [
+      {
+       "q": "What theme of geography groups places with shared traits?",
+       "a": "Region."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test sample answers: five themes; coordinates of given cities; absolute vs. relative location; projection distortions; scale calculation; region types (formal, functional, perceptual) with examples; GIS definition. Paragraph rubric: 4 = clear claim, two specific pieces of evidence (with source names/dates), explanation of how evidence supports the claim, accurate history; 3 = claim and evidence with thin explanation; 2 = general statements without evidence; 1 = inaccurate."
+  },
+  {
+   "week": 4,
+   "prep": "Graham crackers, frosting (mantle), wax paper; USGS Latest Earthquakes map (earthquake.usgs.gov). Photos of landforms (canyon, delta, dunes, glacial valley like Yosemite).",
+   "misconceptions": [
+    "Believing California will 'fall into the ocean': the San Andreas is a transform fault — plates slide horizontally past each other.",
+    "Thinking all earthquakes occur on plate boundaries: most do, but some are intraplate.",
+    "Confusing weathering and erosion: weathering breaks rock down; erosion moves it."
+   ],
+   "days": [
+    {
+     "guide": "Model convergent, divergent, transform boundaries.",
+     "questions": [
+      {
+       "q": "What happens at each boundary type?",
+       "a": "Convergent: plates collide (mountains, subduction, volcanoes). Divergent: plates separate (rifts, mid-ocean ridges). Transform: plates slide past (earthquakes)."
+      }
+     ]
+    },
+    {
+     "guide": "Map the San Andreas Fault and recent earthquakes.",
+     "questions": [
+      {
+       "q": "Which plates meet along the San Andreas Fault and how do they move?",
+       "a": "The Pacific Plate moves northwest relative to the North American Plate — a transform boundary."
+      }
+     ]
+    },
+    {
+     "guide": "Identify landforms by agent.",
+     "questions": [
+      {
+       "q": "What formed Yosemite Valley's U shape?",
+       "a": "Glaciers carved it (with granite formed underground and uplifted)."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze hazards' effects on settlement.",
+     "questions": [
+      {
+       "q": "What happened in San Francisco in 1906?",
+       "a": "A magnitude ~7.9 earthquake on April 18 and the fires that followed destroyed much of the city and killed an estimated 3,000 people; it led to rebuilding and later stronger building codes."
+      }
+     ]
+    },
+    {
+     "guide": "Tectonics quiz.",
+     "questions": [
+      {
+       "q": "What landform forms where an ocean plate subducts under a continental plate?",
+       "a": "A volcanic mountain range (e.g., the Cascades) and an ocean trench."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Three boundary types. 2) San Andreas = transform. 3) Himalayas = continental–continental convergence. 4) Mid-Atlantic Ridge = divergent. 5) Ring of Fire = zone of volcanoes and earthquakes around the Pacific. 6) Weathering vs. erosion. 7) 1906 earthquake impacts."
+  },
+  {
+   "week": 5,
+   "prep": "Monthly temperature and precipitation data for Sacramento and Singapore (e.g., NOAA or climate-data.org); graph paper; Köppen climate map.",
+   "misconceptions": [
+    "Confusing weather and climate.",
+    "Thinking elevation doesn't matter: temperature drops about 6.5°C per 1,000 m (3.5°F per 1,000 ft).",
+    "Believing deserts are always hot: deserts are defined by low precipitation (e.g., Antarctica, Gobi)."
+   ],
+   "days": [
+    {
+     "guide": "Teach climate controls: latitude, elevation, ocean currents, prevailing winds.",
+     "questions": [
+      {
+       "q": "Why is San Francisco's summer cooler than Sacramento's?",
+       "a": "The cold California Current and ocean fog cool coastal San Francisco; inland Sacramento lacks that marine influence."
+      }
+     ]
+    },
+    {
+     "guide": "Build and compare climographs.",
+     "questions": [
+      {
+       "q": "How do Sacramento's and Singapore's climographs differ?",
+       "a": "Sacramento: hot, dry summers and mild, wet winters (Mediterranean). Singapore: warm (~27°C) all year with heavy rain every month (tropical rainforest)."
+      }
+     ]
+    },
+    {
+     "guide": "Model a rain shadow.",
+     "questions": [
+      {
+       "q": "Explain the rain shadow east of the Sierra Nevada.",
+       "a": "Moist Pacific air rises up the western slopes, cools, and drops rain/snow; descending air on the east side warms and dries, leaving deserts like the Owens Valley and Death Valley."
+      }
+     ]
+    },
+    {
+     "guide": "Map Köppen regions and adaptations.",
+     "questions": [
+      {
+       "q": "What Köppen climate type is most of coastal California?",
+       "a": "Mediterranean (Csa/Csb) — dry summers, wet winters."
+      }
+     ]
+    },
+    {
+     "guide": "Climate quiz.",
+     "questions": [
+      {
+       "q": "Why does latitude affect temperature?",
+       "a": "Near the equator, sunlight strikes more directly year-round; at high latitudes it strikes at a low angle, spreading energy out."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Climograph analysis: proficient = correct bars (precipitation) and line (temperature), identifies climate type for each city with reasons. Quiz answers: four climate controls; rain shadow; Mediterranean climate; ocean currents (warm Gulf Stream, cold California Current); lapse rate; weather vs. climate."
+  },
+  {
+   "week": 6,
+   "prep": "Biome maps (National Geographic Education). News articles on drought or wildfire in California. Prepare the Unit 2 test.",
+   "misconceptions": [
+    "Thinking wildfire is purely 'natural' or purely 'human': ignition, fuel buildup, climate, and building in the wildland-urban interface all matter.",
+    "Treating biomes as having sharp borders (they transition gradually).",
+    "Assuming people in harsh climates are 'less developed': they show sophisticated adaptations."
+   ],
+   "days": [
+    {
+     "guide": "Create a biome chart.",
+     "questions": [
+      {
+       "q": "Which biome has the greatest biodiversity?",
+       "a": "Tropical rainforest."
+      },
+      {
+       "q": "Describe chaparral.",
+       "a": "Hot, dry summers and mild, wet winters; dense shrubs adapted to fire; found in California and other Mediterranean climates."
+      }
+     ]
+    },
+    {
+     "guide": "Compare desert and Arctic adaptations.",
+     "questions": [
+      {
+       "q": "Give one traditional adaptation for desert living and one for the Arctic.",
+       "a": "Desert: thick-walled adobe homes, loose light clothing, oasis settlement. Arctic: insulated fur/skin clothing, snow houses, diet of marine mammals."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze drought and wildfire in California.",
+     "questions": [
+      {
+       "q": "How does drought increase wildfire risk?",
+       "a": "Drought dries vegetation into fuel and weakens trees; combined with heat and wind, fires spread faster."
+      }
+     ]
+    },
+    {
+     "guide": "Relate a current news event to physical geography.",
+     "questions": [
+      {
+       "q": "What makes a good geography connection to news?",
+       "a": "It explains how a physical feature or process (climate, landform, hazard) shaped the event and people's response."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test.",
+     "questions": [
+      {
+       "q": "What is the wildland-urban interface?",
+       "a": "Areas where homes are built next to or within wildland vegetation."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test sample answers: plate boundaries; San Andreas transform; landforms by agent; climate controls; climograph reading; rain shadow; Köppen Mediterranean; biome characteristics; human adaptations; drought–wildfire link. Scoring: 80%+ proficient."
+  },
+  {
+   "week": 7,
+   "prep": "Gapminder Tools (gapminder.org/tools); population pyramids (populationpyramid.net) for Japan, Nigeria, U.S.; world population density map.",
+   "misconceptions": [
+    "Equating dense with overpopulated: density alone doesn't show whether resources are sufficient.",
+    "Thinking population pyramids show one moment only: their shape reveals past birth rates and predicts the future.",
+    "Assuming the demographic transition model fits every country exactly."
+   ],
+   "days": [
+    {
+     "guide": "Map population density and explain clusters.",
+     "questions": [
+      {
+       "q": "Name the world's major population clusters.",
+       "a": "East Asia, South Asia, Europe, and (smaller) the northeastern U.S.; also the Nile Valley and West Africa."
+      }
+     ]
+    },
+    {
+     "guide": "Compare pyramids.",
+     "questions": [
+      {
+       "q": "Describe Nigeria's and Japan's pyramids and what they mean.",
+       "a": "Nigeria: wide base — high birth rate, young population, rapid growth. Japan: narrow base and wide top — low birth rate, aging population, shrinking."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the demographic transition model and place countries.",
+     "questions": [
+      {
+       "q": "What happens in stage 2 of the demographic transition?",
+       "a": "Death rates fall (better food, medicine, sanitation) while birth rates stay high, so population grows rapidly."
+      }
+     ]
+    },
+    {
+     "guide": "Use Gapminder for life expectancy and income.",
+     "questions": [
+      {
+       "q": "What general trend does Gapminder show since 1800?",
+       "a": "Most countries moved toward longer lives and higher incomes, especially since 1950, though gaps remain."
+      }
+     ]
+    },
+    {
+     "guide": "Population quiz.",
+     "questions": [
+      {
+       "q": "What is the rate of natural increase?",
+       "a": "Birth rate minus death rate (usually as a percent)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Population density = people per area. 2) Pyramid shapes (expansive vs. constrictive). 3) DTM stages 1–4/5. 4) Japan stage 5 (declining); U.S. stage 4; Nigeria stage 2–3. 5) Natural increase: birth rate 30‰ − death rate 10‰ = 2%. 6) Dependency ratio = dependents (young + old) to working-age."
+  },
+  {
+   "week": 8,
+   "prep": "Migration maps (Great Migration, Dust Bowl); family interview questions. Be sensitive: family migration stories can include trauma, and some children may not know details — any family story (even recent moves) works.",
+   "misconceptions": [
+    "Thinking migration is only about poverty: people move for safety, family, education, environment, and opportunity.",
+    "Confusing immigrant, emigrant, and refugee: a refugee flees persecution/conflict and is recognized under international law.",
+    "Viewing push and pull as separate: most migrations combine both."
+   ],
+   "days": [
+    {
+     "guide": "Classify push and pull factors in 10 cases.",
+     "questions": [
+      {
+       "q": "Classify: war, job opportunities, drought, family reunification.",
+       "a": "Push: war, drought. Pull: job opportunities, family reunification."
+      }
+     ]
+    },
+    {
+     "guide": "Interview a family member about migration history.",
+     "questions": [
+      {
+       "q": "Give two good interview questions.",
+       "a": "'Why did our family move to where we live now?' and 'What was hardest about moving?'"
+      }
+     ]
+    },
+    {
+     "guide": "Analyze maps of the Great Migration and Dust Bowl.",
+     "questions": [
+      {
+       "q": "What pushed African Americans to leave the South during the Great Migration?",
+       "a": "Jim Crow segregation, racial violence and lynching, limited economic opportunity (sharecropping, the boll weevil)."
+      },
+      {
+       "q": "What pulled Dust Bowl migrants to California in the 1930s?",
+       "a": "Farm work, a mild climate, and hope of a fresh start after drought, dust storms, and farm foreclosures in Oklahoma, Texas, and Arkansas."
+      }
+     ]
+    },
+    {
+     "guide": "Read about a current refugee crisis.",
+     "questions": [
+      {
+       "q": "What is the legal definition of a refugee?",
+       "a": "A person outside their country who cannot return because of a well-founded fear of persecution (race, religion, nationality, social group, political opinion) — 1951 Refugee Convention."
+      }
+     ]
+    },
+    {
+     "guide": "Write a migration case-study paragraph.",
+     "questions": [
+      {
+       "q": "About how many African Americans moved in the Great Migration (1910s–1970)?",
+       "a": "About 6 million."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Case study paragraph: Paragraph rubric: 4 = clear claim, two specific pieces of evidence (with source names/dates), explanation of how evidence supports the claim, accurate history; 3 = claim and evidence with thin explanation; 2 = general statements without evidence; 1 = inaccurate. Proficient content (Great Migration): pushes — Jim Crow, violence; pulls — industrial jobs in Northern and Western cities (e.g., wartime shipyards in Richmond and Oakland), less legal segregation; map evidence of routes from the South to Chicago, Detroit, New York, Los Angeles, Oakland. (Dust Bowl): pushes — drought, dust storms, foreclosures, Depression; pulls — farm jobs, Route 66 access to California."
+  },
+  {
+   "week": 9,
+   "prep": "Topographic maps of San Francisco and Sacramento (USGS or Google Terrain), sketch paper. Prepare the Unit 3 test.",
+   "misconceptions": [
+    "Confusing site and situation: site = physical characteristics of the place itself; situation = location relative to other places.",
+    "Expecting real cities to match models exactly: models are simplifications.",
+    "Ignoring transportation in urban growth."
+   ],
+   "days": [
+    {
+     "guide": "Analyze site and situation for SF and Sacramento.",
+     "questions": [
+      {
+       "q": "Describe San Francisco's site and situation.",
+       "a": "Site: hilly peninsula beside a large, deep natural harbor. Situation: gateway between the Pacific Ocean and the interior; port for the Gold Rush and Pacific trade."
+      },
+      {
+       "q": "Why did Sacramento grow where it did?",
+       "a": "At the confluence of the Sacramento and American Rivers, near the gold fields — a river port and later the western terminus of the Central Pacific Railroad."
+      }
+     ]
+    },
+    {
+     "guide": "Compare clustered and dispersed rural settlement.",
+     "questions": [
+      {
+       "q": "Where would you expect dispersed settlement?",
+       "a": "In areas of large farms or ranches (e.g., the U.S. Great Plains), where farmhouses are spread out."
+      }
+     ]
+    },
+    {
+     "guide": "Sketch concentric zone and sector models; test against a city map.",
+     "questions": [
+      {
+       "q": "Why doesn't Los Angeles fit the concentric zone model well?",
+       "a": "LA has many centers (downtown, Hollywood, Long Beach, etc.) and grew along rail and freeway corridors — closer to multiple-nuclei and sector patterns."
+      }
+     ]
+    },
+    {
+     "guide": "Map your town's land uses.",
+     "questions": [
+      {
+       "q": "Where do commercial strips usually develop?",
+       "a": "Along major roads and highways with high traffic."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test.",
+     "questions": [
+      {
+       "q": "What model shows the city as rings around the CBD?",
+       "a": "Burgess's concentric zone model."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test sample answers: population clusters; pyramid interpretation; DTM stages; push/pull classification; refugee definition; Great Migration/Dust Bowl; site vs. situation; settlement patterns; urban models (concentric zone, sector, multiple nuclei). Scoring: 80%+ proficient."
+  },
+  {
+   "week": 10,
+   "prep": "Blank world maps for language families and religions; arrows/colored pencils.",
+   "misconceptions": [
+    "Confusing language family with language: Indo-European is a family containing English, Spanish, Hindi, Russian, and more.",
+    "Thinking religions stayed in their hearths: universalizing religions (Christianity, Islam, Buddhism) spread widely; ethnic religions (Hinduism, Judaism) are more concentrated.",
+    "Treating culture as fixed: cultures change through diffusion."
+   ],
+   "days": [
+    {
+     "guide": "Define culture and list traits of your own.",
+     "questions": [
+      {
+       "q": "What is culture?",
+       "a": "The shared beliefs, practices, language, foods, arts, and values of a group, learned and passed on."
+      }
+     ]
+    },
+    {
+     "guide": "Map language families; explain Spanish in the Americas.",
+     "questions": [
+      {
+       "q": "Which language family has the most speakers?",
+       "a": "Indo-European."
+      },
+      {
+       "q": "How did Spanish spread to the Americas?",
+       "a": "Through Spanish conquest and colonization beginning in the late 1400s and 1500s (relocation diffusion)."
+      }
+     ]
+    },
+    {
+     "guide": "Map religious hearths and diffusion.",
+     "questions": [
+      {
+       "q": "Where are the hearths of Islam and Buddhism?",
+       "a": "Islam: the Arabian Peninsula (Mecca and Medina), 7th century CE. Buddhism: northeastern India/Nepal region, around the 5th century BCE."
+      }
+     ]
+    },
+    {
+     "guide": "Trace diffusion of chili peppers or hip-hop.",
+     "questions": [
+      {
+       "q": "How did chili peppers reach India and Thailand?",
+       "a": "Native to the Americas, they were carried by Portuguese and Spanish traders after 1492 (the Columbian Exchange) and spread across Asia in the 1500s."
+      },
+      {
+       "q": "Where and when did hip-hop begin?",
+       "a": "The Bronx, New York City, in the 1970s."
+      }
+     ]
+    },
+    {
+     "guide": "Cultural geography quiz.",
+     "questions": [
+      {
+       "q": "What type of diffusion spreads through direct contact, like a wave?",
+       "a": "Contagious diffusion (a type of expansion diffusion)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: 1) Culture definition. 2) Indo-European largest family. 3) Hearths of five religions (Hinduism — Indus/Ganges region; Judaism — Levant; Christianity — Levant; Islam — Arabia; Buddhism — NE India). 4) Universalizing vs. ethnic religions. 5) Relocation vs. expansion diffusion. 6) Columbian Exchange example."
+  },
+  {
+   "week": 11,
+   "prep": "Political world map; a map of Africa's borders after the Berlin Conference; two or three news sources on a current border dispute.",
+   "misconceptions": [
+    "Using 'country,' 'state,' and 'nation' interchangeably: a state is a political unit with sovereignty; a nation is a people with shared identity.",
+    "Thinking straight-line borders are natural: geometric borders often ignore physical and cultural realities.",
+    "Relying on one news source."
+   ],
+   "days": [
+    {
+     "guide": "Distinguish state, nation, nation-state.",
+     "questions": [
+      {
+       "q": "Give an example of a nation without a state.",
+       "a": "The Kurds (spread across Turkey, Iraq, Iran, and Syria) — also Palestinians are often cited."
+      },
+      {
+       "q": "Give an example of a nation-state.",
+       "a": "Japan (largely one nation in one state); also Iceland."
+      }
+     ]
+    },
+    {
+     "guide": "Classify borders.",
+     "questions": [
+      {
+       "q": "Classify the U.S.–Canada border west of the Great Lakes and the Rio Grande border.",
+       "a": "Geometric (49th parallel); physical (river)."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the Berlin Conference (1884–85).",
+     "questions": [
+      {
+       "q": "What was decided at the Berlin Conference, and who was absent?",
+       "a": "European powers set rules for claiming African territory; no Africans were represented."
+      },
+      {
+       "q": "What is a lasting effect of colonial borders?",
+       "a": "Borders split ethnic groups and combined rivals in one state, contributing to later conflicts."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze a current border conflict using multiple sources.",
+     "questions": [
+      {
+       "q": "How can you detect bias in news coverage of a conflict?",
+       "a": "Compare word choices, which voices are quoted, what's left out, and the outlet's ownership/perspective across several sources."
+      }
+     ]
+    },
+    {
+     "guide": "Political geography quiz.",
+     "questions": [
+      {
+       "q": "Which two African countries were not colonized by 1914?",
+       "a": "Ethiopia and Liberia."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: state, nation, nation-state definitions with examples; border types; Berlin Conference date and effect; sovereignty definition; enclave/exclave example (e.g., Lesotho is an enclave in South Africa); bias check method."
+  },
+  {
+   "week": 12,
+   "prep": "UN (un.org) and EU (european-union.europa.eu) websites; UN Charter preamble; Antarctic Treaty summary. Prepare the Unit 4 test.",
+   "misconceptions": [
+    "Thinking the UN is a world government: it relies on member states' cooperation; only the Security Council can make binding decisions.",
+    "Confusing the EU with Europe: not all European countries are EU members (e.g., Norway, Switzerland, UK since 2020).",
+    "Thinking Antarctica belongs to one country: territorial claims are frozen by the Antarctic Treaty."
+   ],
+   "days": [
+    {
+     "guide": "Research UN and EU functions.",
+     "questions": [
+      {
+       "q": "When was the UN founded, and how many member states does it have?",
+       "a": "1945; 193 member states."
+      },
+      {
+       "q": "What is one main purpose of the EU?",
+       "a": "Economic and political cooperation — a single market with free movement of goods, services, capital, and people (and the euro in many members)."
+      }
+     ]
+    },
+    {
+     "guide": "Compare UN and EU in a chart.",
+     "questions": [
+      {
+       "q": "Name the five permanent members of the UN Security Council.",
+       "a": "United States, United Kingdom, France, Russia, China."
+      },
+      {
+       "q": "How many members does the EU have?",
+       "a": "27 (since the UK left in 2020)."
+      }
+     ]
+    },
+    {
+     "guide": "Read the UN Charter preamble; identify its goals.",
+     "questions": [
+      {
+       "q": "What are the preamble's four main goals?",
+       "a": "Save future generations from war; reaffirm faith in fundamental human rights and equal rights; establish conditions for justice and respect for international law; promote social progress and better standards of life in larger freedom."
+      },
+      {
+       "q": "How did World War II shape it?",
+       "a": "'The scourge of war, which twice in our lifetime has brought untold sorrow' — the world wars motivated preventing war and protecting human rights."
+      }
+     ]
+    },
+    {
+     "guide": "Read the Antarctic Treaty summary.",
+     "questions": [
+      {
+       "q": "What does the 1959 Antarctic Treaty require?",
+       "a": "Antarctica is used for peaceful purposes only; scientific cooperation and freedom; military activity and nuclear explosions banned; territorial claims frozen."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test.",
+     "questions": [
+      {
+       "q": "What is a supranational organization?",
+       "a": "An organization of three or more states that cooperate for shared goals, giving up some sovereignty (e.g., EU, UN)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 4 test sample answers: culture; language families; religious hearths; diffusion types; state/nation; border types; Berlin Conference; UN founding/purpose and Security Council; EU purpose and members; Antarctic Treaty. Scoring: 80%+ proficient."
+  },
+  {
+   "week": 13,
+   "prep": "CIA World Factbook, Gapminder, list of 25 jobs.",
+   "misconceptions": [
+    "Equating GDP with well-being: HDI adds health and education.",
+    "Assuming development is only about effort: geography, colonial history, trade, and governance shape outcomes.",
+    "Ignoring change: many countries (e.g., China, India) rose rapidly in recent decades."
+   ],
+   "days": [
+    {
+     "guide": "Classify 25 jobs into sectors; compare the U.S. and Ethiopia.",
+     "questions": [
+      {
+       "q": "Classify: farmer, autoworker, nurse, software engineer.",
+       "a": "Primary; secondary; tertiary; quaternary (information/knowledge)."
+      },
+      {
+       "q": "How do U.S. and Ethiopian workforces differ?",
+       "a": "Most U.S. workers are in services (tertiary/quaternary), with ~1–2% in agriculture; most Ethiopian workers are in agriculture (primary)."
+      }
+     ]
+    },
+    {
+     "guide": "Collect indicators for 8 countries; rank two ways.",
+     "questions": [
+      {
+       "q": "What three dimensions does the Human Development Index combine?",
+       "a": "Health (life expectancy), education (years of schooling), and standard of living (income per person)."
+      }
+     ]
+    },
+    {
+     "guide": "Trace China, India, Nigeria on Gapminder from 1960.",
+     "questions": [
+      {
+       "q": "What major change does Gapminder show for China since 1960?",
+       "a": "Huge increases in income and life expectancy, especially after economic reforms starting in 1978."
+      }
+     ]
+    },
+    {
+     "guide": "Paragraph linking one cause of uneven development to a trend.",
+     "questions": [
+      {
+       "q": "Why are landlocked countries often poorer?",
+       "a": "No direct sea access raises transportation and trade costs and makes them depend on neighbors' ports."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz with a data table.",
+     "questions": [
+      {
+       "q": "Country A: GDP per capita $60,000, life expectancy 72. Country B: $40,000, life expectancy 83. Which may rank higher on HDI?",
+       "a": "Possibly Country B — HDI also weighs health and education, not just income."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: four sectors; HDI components; GDP per capita definition; development indicators (literacy, infant mortality); causes of uneven development (colonialism, landlocked status, trade, governance). Data analysis proficient: correct ranking by two indicators and explanation of why rankings differ."
+  },
+  {
+   "week": 14,
+   "prep": "Clothing and electronics labels around the house; world map; data on Port of Los Angeles/Long Beach (portoflosangeles.org lists top trading partners). Lithium and cobalt readings.",
+   "misconceptions": [
+    "Thinking 'Made in' means all parts came from one place: global supply chains span many countries.",
+    "Believing resources are fixed in value: a resource's importance changes with technology (lithium for batteries).",
+    "Assuming countries with resources are always rich (the 'resource curse')."
+   ],
+   "days": [
+    {
+     "guide": "Map reserves of oil, lithium, fresh water, arable land.",
+     "questions": [
+      {
+       "q": "Which region holds the largest lithium reserves?",
+       "a": "The 'Lithium Triangle' of Chile, Argentina, and Bolivia (Australia is the largest producer)."
+      }
+     ]
+    },
+    {
+     "guide": "Record origins of 15 items and plot them.",
+     "questions": [
+      {
+       "q": "What pattern usually appears in a label hunt?",
+       "a": "Many manufactured goods come from Asia (China, Vietnam, Bangladesh, etc.)."
+      }
+     ]
+    },
+    {
+     "guide": "Research a smartphone's supply chain.",
+     "questions": [
+      {
+       "q": "Where does most of the world's cobalt come from?",
+       "a": "The Democratic Republic of the Congo (around 70%)."
+      },
+      {
+       "q": "Where are most advanced chips made?",
+       "a": "Taiwan (TSMC), with others in South Korea and elsewhere; final assembly is largely in China (also India, Vietnam)."
+      }
+     ]
+    },
+    {
+     "guide": "Identify California's top trading partners via port data.",
+     "questions": [
+      {
+       "q": "Name the top trading partner through the ports of Los Angeles and Long Beach.",
+       "a": "China (followed by partners such as Japan, Vietnam, South Korea, and Taiwan)."
+      }
+     ]
+    },
+    {
+     "guide": "Paragraph on how a resource's meaning changed.",
+     "questions": [
+      {
+       "q": "How has lithium's importance changed?",
+       "a": "Once a niche mineral (used in ceramics and medicine), it became 'white gold' for rechargeable batteries in phones and electric vehicles."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Supply chain map: proficient = at least 5 locations labeled with role (mining, refining, chip making, assembly), arrows and approximate distances. Resource paragraph: Paragraph rubric: 4 = clear claim, two specific pieces of evidence (with source names/dates), explanation of how evidence supports the claim, accurate history; 3 = claim and evidence with thin explanation; 2 = general statements without evidence; 1 = inaccurate."
+  },
+  {
+   "week": 15,
+   "prep": "Calisphere photos of Owens Lake and the Los Angeles Aqueduct (search 'Owens Lake' and 'Los Angeles Aqueduct'); USGS subsidence images (the famous 1977 photo near Mendota showing ~9 m of sinking since 1925); SGMA summary. Prepare the Unit 5 test.",
+   "misconceptions": [
+    "Thinking the aqueduct dispute was simple theft or simple progress: it involved quiet land purchases, legal water rights, and fierce local resistance — weigh perspectives.",
+    "Believing groundwater is unlimited: overpumping causes land to sink permanently and aquifers to lose capacity.",
+    "Ignoring who bears costs of policy."
+   ],
+   "days": [
+    {
+     "guide": "Examine before-and-after photos.",
+     "questions": [
+      {
+       "q": "What happened to Owens Lake after the aqueduct opened in 1913?",
+       "a": "Water diversions dried it up by the mid-1920s, leaving a dry lakebed that became a major source of dust pollution."
+      }
+     ]
+    },
+    {
+     "guide": "Read about Mulholland and resistance; build a cause-and-effect chart.",
+     "questions": [
+      {
+       "q": "How did Owens Valley residents resist?",
+       "a": "Farmers and ranchers seized the aqueduct's gates (1924) and dynamited sections of it in the 1920s."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze subsidence images.",
+     "questions": [
+      {
+       "q": "Why does the Central Valley sink?",
+       "a": "Pumping groundwater faster than it recharges compacts clay layers in the aquifer, so the land surface drops — in places by more than 8 meters since the 1920s."
+      }
+     ]
+    },
+    {
+     "guide": "Evaluate SGMA (2014).",
+     "questions": [
+      {
+       "q": "What does SGMA require?",
+       "a": "Local groundwater sustainability agencies must create plans to bring overdrafted basins into balance over about 20 years (by 2040–2042)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 5 test.",
+     "questions": [
+      {
+       "q": "Who led the building of the Los Angeles Aqueduct?",
+       "a": "William Mulholland (chief engineer of LA's water department)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 5 test sample answers: economic sectors; HDI; GDP per capita; landlocked disadvantage; lithium/cobalt locations; supply chains; Owens Valley and the 1913 aqueduct; subsidence; SGMA; resource curse. Scoring: 80%+ proficient."
+  },
+  {
+   "week": 16,
+   "prep": "UN World Urbanization Prospects summary (percent urban: about 30% in 1950, over 50% by about 2007–2008, about 55% in 2018, projected ~68% by 2050). Megacity readings. Historic and modern LA maps.",
+   "misconceptions": [
+    "Assuming all megacities are in rich countries: most of the fastest-growing are in Asia and Africa.",
+    "Viewing informal settlements as only problems: they also house dynamic economies and communities.",
+    "Thinking freeways were neutral: their routes displaced many communities, often low-income communities of color."
+   ],
+   "days": [
+    {
+     "guide": "Graph percent urban 1950–2050.",
+     "questions": [
+      {
+       "q": "About when did more than half the world's people begin living in cities?",
+       "a": "Around 2007–2008."
+      },
+      {
+       "q": "Which regions are urbanizing fastest?",
+       "a": "Africa and Asia."
+      }
+     ]
+    },
+    {
+     "guide": "Profile Lagos, Mumbai, or Mexico City.",
+     "questions": [
+      {
+       "q": "What is an informal settlement?",
+       "a": "Housing built without legal title or permits, often lacking services — e.g., Mumbai's Dharavi."
+      }
+     ]
+    },
+    {
+     "guide": "Compare 1920s and today's LA maps; analyze freeways.",
+     "questions": [
+      {
+       "q": "How did freeway building affect neighborhoods like Boyle Heights?",
+       "a": "Multiple freeways (including the East LA Interchange) cut through the neighborhood, displacing residents and dividing the community."
+      }
+     ]
+    },
+    {
+     "guide": "Design a walkable neighborhood plan.",
+     "questions": [
+      {
+       "q": "Name two features of a walkable neighborhood.",
+       "a": "Mixed land use (homes near shops/schools), sidewalks and safe crossings, transit stops, parks within a short walk."
+      }
+     ]
+    },
+    {
+     "guide": "Urbanization quiz.",
+     "questions": [
+      {
+       "q": "What is urban sprawl?",
+       "a": "Low-density development spreading outward from a city, dependent on cars."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Urban plan rubric: 4 = labeled map with housing, transit, parks, shops; justification using concepts (density, mixed use, access); 3 = minor gaps; 2 = drawing without justification; 1 = incomplete. Quiz answers: urbanization definition; percent urban trend; megacity (10+ million); informal settlements; sprawl; gentrification definition."
+  },
+  {
+   "week": 17,
+   "prep": "Two opposing articles on globalization; California relief map; Census data (California population about 10.6 million in 1950 and about 39.5 million in 2020).",
+   "misconceptions": [
+    "Treating globalization as all good or all bad: it brings both gains (cheaper goods, exports, exchange) and costs (job losses in some sectors, cultural homogenization).",
+    "Thinking California is one region: its regions differ greatly in climate and economy.",
+    "Recommending priorities without data."
+   ],
+   "days": [
+    {
+     "guide": "Chart claims about globalization.",
+     "questions": [
+      {
+       "q": "Give one argument for and one against globalization.",
+       "a": "For: lower prices and access to global markets for exports. Against: manufacturing job losses and environmental harm from long supply chains."
+      }
+     ]
+    },
+    {
+     "guide": "Map California's regions with economy/climate notes.",
+     "questions": [
+      {
+       "q": "Describe the Central Valley's economy and climate.",
+       "a": "Hot, dry summers and mild winters; one of the world's most productive agricultural regions (almonds, grapes, tomatoes, dairy) relying on irrigation."
+      }
+     ]
+    },
+    {
+     "guide": "Compare 1950 and present census data.",
+     "questions": [
+      {
+       "q": "How has California's population changed since 1950?",
+       "a": "From about 10.6 million to about 39.5 million (2020), with much greater ethnic diversity and a shift toward technology and service industries."
+      }
+     ]
+    },
+    {
+     "guide": "Recommend a 20-year priority using data.",
+     "questions": [
+      {
+       "q": "What makes a recommendation strong?",
+       "a": "Clear priority, supporting data, consideration of costs and trade-offs, and specific actions."
+      }
+     ]
+    },
+    {
+     "guide": "Short regional report.",
+     "questions": [
+      {
+       "q": "What should a regional report include?",
+       "a": "Location and boundaries, physical features and climate, population and economy, and a current challenge."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "California regional report rubric: 4 = accurate physical and human geography, a map, data with sources, analysis of one challenge; 3 = minor gaps; 2 = descriptive only; 1 = inaccurate."
+  },
+  {
+   "week": 18,
+   "prep": "Atlas, World Factbook, Gapminder, populationpyramid.net. Plan a 90-minute exam block. Semester vocabulary list.",
+   "misconceptions": [
+    "Profiles that list facts without connections: explain how physical geography shapes how people live.",
+    "Thematic maps without legends or sources.",
+    "Cramming: review over several days."
+   ],
+   "days": [
+    {
+     "guide": "Research a country's physical, climate, population, culture, and economic data.",
+     "questions": [
+      {
+       "q": "Which World Factbook sections help with a population profile?",
+       "a": "People and Society (population, age structure, growth rate, urbanization, languages, religions)."
+      }
+     ]
+    },
+    {
+     "guide": "Create physical and thematic maps and a population pyramid.",
+     "questions": [
+      {
+       "q": "What must every thematic map include?",
+       "a": "Title, legend/key, scale, orientation (north arrow), and data source."
+      }
+     ]
+    },
+    {
+     "guide": "Present a 5-minute country profile.",
+     "questions": [
+      {
+       "q": "Give an example of connecting physical geography to daily life.",
+       "a": "Egypt: nearly all people live along the Nile because the rest is desert."
+      }
+     ]
+    },
+    {
+     "guide": "Review vocabulary and map skills.",
+     "questions": [
+      {
+       "q": "Define 'situation'.",
+       "a": "A place's location relative to other places and features."
+      }
+     ]
+    },
+    {
+     "guide": "Give the semester exam.",
+     "questions": [
+      {
+       "q": "Which model describes population change as countries industrialize?",
+       "a": "The demographic transition model."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Profile presentation rubric: 4 = accurate data, two maps and a pyramid, clear links between physical geography and human life, within time; 3 = minor gaps; 2 = facts without connections; 1 = incomplete. Semester exam: map skills, concepts from Units 1–5, and a data-based essay scored with the paragraph rubric expanded to essay length. Paragraph rubric: 4 = clear claim, two specific pieces of evidence (with source names/dates), explanation of how evidence supports the claim, accurate history; 3 = claim and evidence with thin explanation; 2 = general statements without evidence; 1 = inaccurate."
+  },
+  {
+   "week": 19,
+   "prep": "CDE Ethnic Studies Model Curriculum overview; a reading on the 1968–69 Third World Liberation Front strike at San Francisco State; George Ella Lyon's 'Where I'm From' (georgeellalyon.com); Census race-category history (Pew Research has a clear summary). Note: Ethnic Studies discussions can be personal — set norms of respect, listening, and the right to pass.",
+   "misconceptions": [
+    "Equating race and ethnicity: race is a social category often based on perceived physical traits; ethnicity refers to shared culture, ancestry, language, or national origin.",
+    "Thinking census categories are scientific or fixed: they have changed nearly every census, reflecting politics and social ideas.",
+    "Believing Ethnic Studies is only for some students: it examines histories that shape everyone's society."
+   ],
+   "days": [
+    {
+     "guide": "Read about the 1968 TWLF strike at SF State.",
+     "questions": [
+      {
+       "q": "What did the 1968–69 Third World Liberation Front strike at San Francisco State achieve?",
+       "a": "After a months-long student strike (the longest in U.S. history), the university created the nation's first College of Ethnic Studies in 1969."
+      }
+     ]
+    },
+    {
+     "guide": "Create an identity chart; write about seen and unseen parts.",
+     "questions": [
+      {
+       "q": "What is the difference between parts of identity that are visible and those that are not?",
+       "a": "Some aspects (e.g., perceived race, age) are seen by others; others (beliefs, family history, languages) are not unless shared."
+      }
+     ]
+    },
+    {
+     "guide": "Read definitions; analyze Census changes 1790–2020.",
+     "questions": [
+      {
+       "q": "How did the 2000 Census change race reporting?",
+       "a": "For the first time, people could select more than one race."
+      },
+      {
+       "q": "What did the 1790 Census count?",
+       "a": "Free white males and females, all other free persons, and enslaved people."
+      }
+     ]
+    },
+    {
+     "guide": "Read 'Where I'm From'; write your own.",
+     "questions": [
+      {
+       "q": "What kinds of details does Lyon use in 'Where I'm From'?",
+       "a": "Concrete objects, foods, family sayings, places, and names (e.g., 'I am from clothespins')."
+      }
+     ]
+    },
+    {
+     "guide": "Share poems; vocabulary check.",
+     "questions": [
+      {
+       "q": "Define 'ethnicity'.",
+       "a": "A shared cultural heritage — ancestry, language, traditions, or national origin."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "'Where I'm From' rubric: 4 = vivid, specific sensory details from home, family, place, and heritage; repeated 'I am from' structure; meaningful ending; 3 = some specifics; 2 = general; 1 = incomplete. Vocabulary check: race, ethnicity, identity, culture, Ethnic Studies, Third World Liberation Front, stereotype, community."
+  },
+  {
+   "week": 20,
+   "prep": "Examples of vintage advertisements and mascots (Smithsonian's National Museum of African American History and Culture and other museums have online examples); a summary of Kenneth and Mamie Clark's doll study. Preview images — some are racist; frame them as evidence of history.",
+   "misconceptions": [
+    "Thinking stereotypes are harmless if 'positive': all stereotypes flatten individuals and can justify unequal treatment.",
+    "Seeing bias only as individual meanness: it also exists in institutions and ideas.",
+    "Misidentifying internalized oppression as personal weakness: it results from repeated societal messages."
+   ],
+   "days": [
+    {
+     "guide": "Analyze stereotypes in ads and mascots.",
+     "questions": [
+      {
+       "q": "What message does a mascot that caricatures Native Americans send?",
+       "a": "It reduces diverse living peoples to a cartoonish image from the past, reinforcing stereotypes."
+      }
+     ]
+    },
+    {
+     "guide": "Read about the doll study.",
+     "questions": [
+      {
+       "q": "What did the Clarks' doll study find, and how was it used?",
+       "a": "Many Black children preferred white dolls and assigned positive traits to them, showing internalized effects of segregation; it was cited in Brown v. Board of Education (1954)."
+      }
+     ]
+    },
+    {
+     "guide": "Sort 12 scenarios into four levels.",
+     "questions": [
+      {
+       "q": "Classify: a law banning certain groups from owning land.",
+       "a": "Institutional."
+      },
+      {
+       "q": "Classify: a child believing their home language is 'worse.'",
+       "a": "Internalized."
+      }
+     ]
+    },
+    {
+     "guide": "Write a 300-word review of a counter-story.",
+     "questions": [
+      {
+       "q": "What is a counter-story?",
+       "a": "A narrative by or about a marginalized group that challenges dominant stereotypes."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz with scenario analysis.",
+     "questions": [
+      {
+       "q": "Name the four levels (four I's) of oppression.",
+       "a": "Ideological, institutional, interpersonal, internalized."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: definitions of stereotype, prejudice, discrimination; four levels with correct classification of scenarios (e.g., a slur → interpersonal; redlining → institutional; belief that a group is inferior → ideological; self-doubt from messages → internalized); doll study significance. Counter-story review rubric: 4 = names the work, the stereotype it challenges, and specific evidence of how it does so."
+  },
+  {
+   "week": 21,
+   "prep": "Recording device; consent/release form (simple statement giving permission to record and share); 12 open-ended questions. Arrange an interviewee early.",
+   "misconceptions": [
+    "Asking yes/no questions: open-ended questions ('Tell me about…') produce stories.",
+    "Recording without permission: always get informed consent and respect requests to stop or keep things private.",
+    "Treating memory as perfect fact: oral histories are valuable perspectives; cross-check facts with other sources."
+   ],
+   "days": [
+    {
+     "guide": "Learn interview ethics; write 12 questions.",
+     "questions": [
+      {
+       "q": "Turn 'Did you like school?' into an open-ended question.",
+       "a": "'What do you remember most about school when you were my age?'"
+      }
+     ]
+    },
+    {
+     "guide": "Conduct and record a 30-minute interview with permission.",
+     "questions": [
+      {
+       "q": "What should you do before you start recording?",
+       "a": "Explain the purpose, how it will be used, and get the person's permission (ideally in writing)."
+      }
+     ]
+    },
+    {
+     "guide": "Transcribe a 5-minute excerpt.",
+     "questions": [
+      {
+       "q": "Should a transcript 'fix' the speaker's grammar?",
+       "a": "No — transcribe accurately; you may note [inaudible] or clarify in brackets."
+      }
+     ]
+    },
+    {
+     "guide": "Write a 1-page reflection linking the interview to history.",
+     "questions": [
+      {
+       "q": "How do you connect a personal story to history?",
+       "a": "Identify the time and place, research the broader event (e.g., a war, migration, economic change), and explain how the person's experience reflects or differs from it."
+      }
+     ]
+    },
+    {
+     "guide": "Share excerpt; submit transcript and reflection.",
+     "questions": [
+      {
+       "q": "Why are oral histories valuable sources?",
+       "a": "They preserve perspectives and experiences often missing from official records."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Oral history rubric: 4 = consent obtained, open-ended questions, accurate transcript excerpt, reflection connecting to a specific historical event with outside research; 3 = minor gaps; 2 = shallow connection; 1 = incomplete."
+  },
+  {
+   "week": 22,
+   "prep": "Map of California Native territories and languages (Native-land.ca or the California Indian Heritage Center); readings on cultural burning and acorn processing; Pablo Tac excerpt; Toypurina reading. Note: mission history includes forced labor and high death rates — handle with care and accuracy.",
+   "misconceptions": [
+    "Thinking California Native peoples were one group: there were many distinct nations speaking more than 100 languages/dialects.",
+    "Viewing missions only as peaceful or only as prisons: sources reveal coercion, disease, and resistance, as well as survival and adaptation; weigh perspectives.",
+    "Speaking of Native peoples only in the past tense: California has over 100 federally recognized tribes today."
+   ],
+   "days": [
+    {
+     "guide": "Map Native nations; identify whose land you live on.",
+     "questions": [
+      {
+       "q": "Roughly how many languages were spoken in Native California before European contact?",
+       "a": "More than 100 (languages and dialects), from many language families."
+      }
+     ]
+    },
+    {
+     "guide": "Read about cultural burning and acorns.",
+     "questions": [
+      {
+       "q": "What was the purpose of cultural burning?",
+       "a": "Controlled fires managed landscapes — reducing fuel, encouraging food and basketry plants, and improving habitat for game."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze mission primary sources, including Pablo Tac.",
+     "questions": [
+      {
+       "q": "Who was Pablo Tac?",
+       "a": "A Luiseño (Quechnajuichom) man raised at Mission San Luis Rey who wrote in the 1830s about his people and mission life — a rare Native-authored mission source."
+      }
+     ]
+    },
+    {
+     "guide": "Read about the 1785 Toypurina-led uprising.",
+     "questions": [
+      {
+       "q": "What caused the 1785 uprising at Mission San Gabriel?",
+       "a": "Tongva resentment over loss of land, forced labor, and Spanish bans on traditional dances and ceremonies; Toypurina helped organize it."
+      }
+     ]
+    },
+    {
+     "guide": "Write a source-based paragraph evaluating mission impacts.",
+     "questions": [
+      {
+       "q": "Name one major impact of the missions on Native peoples.",
+       "a": "Severe population decline from disease, poor conditions, and violence; loss of land and suppression of cultural practices."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Source-based paragraph: Paragraph rubric: 4 = clear claim, two specific pieces of evidence (with source names/dates), explanation of how evidence supports the claim, accurate history; 3 = claim and evidence with thin explanation; 2 = general statements without evidence; 1 = inaccurate. Proficient content: uses two sources (e.g., Pablo Tac and a padre's report or population data) to evaluate impacts such as disease, forced labor, cultural suppression, and resistance (Toypurina)."
+  },
+  {
+   "week": 23,
+   "prep": "Excerpts of the 1850 Act for the Government and Protection of Indians and Gov. Peter Burnett's 1851 annual message; a summary of the 18 unratified treaties; Gov. Newsom's 2019 executive order apology. Parental note: these documents describe violence and genocide; preview.",
+   "misconceptions": [
+    "Thinking the 1850 Act protected Native people as its title says: it allowed the indenture of Native children and adults.",
+    "Assuming treaties were honored: the U.S. Senate rejected all 18 treaties in 1852 and kept them secret until 1905.",
+    "Treating apology as the end of the story: tribes continue to seek land, recognition, and repair."
+   ],
+   "days": [
+    {
+     "guide": "Read the 1850 Act excerpts.",
+     "questions": [
+      {
+       "q": "How did the 1850 Act allow exploitation of Native people?",
+       "a": "It allowed whites to take custody of Native children as 'apprentices' and let Native adults arrested for 'vagrancy' be hired out to the highest bidder; it also barred convicting a white man based on Native testimony."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze Burnett's 1851 message.",
+     "questions": [
+      {
+       "q": "What did Governor Burnett predict in 1851?",
+       "a": "That 'a war of extermination will continue to be waged between the races until the Indian race becomes extinct.'"
+      },
+      {
+       "q": "What was the effect of such rhetoric?",
+       "a": "It encouraged state-funded militia campaigns and violence against Native Californians."
+      }
+     ]
+    },
+    {
+     "guide": "Learn about the 18 unratified treaties.",
+     "questions": [
+      {
+       "q": "What happened to the 18 treaties signed in 1851–52?",
+       "a": "Tribes agreed to give up land in exchange for reservations (about 7.5 million acres), but the U.S. Senate refused to ratify them and sealed them; tribes lost land without receiving the promised reservations."
+      }
+     ]
+    },
+    {
+     "guide": "Read Newsom's 2019 apology; compare with 1851 sources.",
+     "questions": [
+      {
+       "q": "What did Governor Newsom's 2019 apology acknowledge?",
+       "a": "That the state committed violence, exploitation, and genocide against California Native peoples; it created a Truth and Healing Council."
+      }
+     ]
+    },
+    {
+     "guide": "Source analysis comparing two documents.",
+     "questions": [
+      {
+       "q": "Why is comparing an 1851 and a 2019 document useful?",
+       "a": "It shows how state perspectives and official language changed, and what has and hasn't been addressed."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Source-analysis rubric: 4 = identifies author, date, audience, and purpose (sourcing); accurately summarizes content; explains historical context; evaluates reliability/perspective and connects to the question with quotations; 3 = sourcing and content with limited context or evaluation; 2 = summary only; 1 = inaccurate or missing."
+  },
+  {
+   "week": 24,
+   "prep": "The 1969 Alcatraz Proclamation (Indians of All Tribes); readings on termination (1953) and relocation (Relocation Act of 1956); news about a California tribe today.",
+   "misconceptions": [
+    "Thinking Alcatraz was just a protest stunt: the 19-month occupation (1969–71) drew national attention to Native rights and influenced federal policy.",
+    "Assuming tribal sovereignty means separation: tribes are sovereign nations with government-to-government relations with the U.S.",
+    "Missing satire: the Proclamation's offer to buy Alcatraz for glass beads and cloth mocks historical land deals."
+   ],
+   "days": [
+    {
+     "guide": "Read about termination and relocation.",
+     "questions": [
+      {
+       "q": "What were the federal termination and relocation policies of the 1950s?",
+       "a": "Termination ended federal recognition of some tribes and their services; relocation encouraged Native people to move from reservations to cities like Los Angeles and the San Francisco Bay Area."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the Alcatraz Proclamation's satire and claims.",
+     "questions": [
+      {
+       "q": "What did the Proclamation offer to pay for Alcatraz, and why?",
+       "a": "$24 in glass beads and red cloth — satirizing the legendary purchase of Manhattan and unfair land deals."
+      },
+      {
+       "q": "Why did it say Alcatraz was suitable for an Indian reservation?",
+       "a": "Satirically: it lacked running water, sanitation, jobs, health care, and productive land — just like many reservations."
+      }
+     ]
+    },
+    {
+     "guide": "Connect Alcatraz to self-determination policy.",
+     "questions": [
+      {
+       "q": "Which 1975 law expanded tribal control over programs?",
+       "a": "The Indian Self-Determination and Education Assistance Act."
+      },
+      {
+       "q": "How did President Nixon change policy in 1970?",
+       "a": "He called for ending termination and supporting tribal self-determination."
+      }
+     ]
+    },
+    {
+     "guide": "Research and profile a California tribe today.",
+     "questions": [
+      {
+       "q": "Give an example of contemporary Native sovereignty work in California.",
+       "a": "Language revitalization programs, land-back efforts (e.g., land returned to tribes), and tribal management of resources and cultural burning."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 8 DBQ.",
+     "questions": [
+      {
+       "q": "When did the Alcatraz occupation take place?",
+       "a": "November 1969 to June 1971."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 8 DBQ rubric: 4 = thesis answering the question (e.g., how California Native peoples resisted and survived from the Mission era to today), uses at least four documents accurately with sourcing, adds outside knowledge, explains change over time; 3 = thesis and three documents; 2 = summary of documents; 1 = no thesis or inaccurate. Source-analysis rubric: 4 = identifies author, date, audience, and purpose (sourcing); accurately summarizes content; explains historical context; evaluates reliability/perspective and connects to the question with quotations; 3 = sourcing and content with limited context or evaluation; 2 = summary only; 1 = inaccurate or missing."
+  },
+  {
+   "week": 25,
+   "prep": "Excerpt from Narrative of the Life of Frederick Douglass (Chapter 6–7, learning to read); Biddy Mason biography; Archy Lee case summary.",
+   "misconceptions": [
+    "Thinking enslaved people only resisted through revolts: daily resistance (slowing work, preserving culture, learning to read) and escape were common.",
+    "Believing slavery never existed in California: although California entered as a free state (1850), slaveholders brought enslaved people, and courts and the 1852 Fugitive Slave Law enabled it.",
+    "Ignoring Black Californians' agency: individuals like Biddy Mason used the courts to win freedom."
+   ],
+   "days": [
+    {
+     "guide": "Read the Douglass excerpt.",
+     "questions": [
+      {
+       "q": "Why did Mr. Auld forbid teaching Douglass to read, and how did Douglass respond?",
+       "a": "He said learning would 'unfit him to be a slave'; Douglass realized literacy was 'the pathway from slavery to freedom' and kept learning secretly (e.g., trading bread for lessons from poor white boys)."
+      }
+     ]
+    },
+    {
+     "guide": "Categorize forms of resistance.",
+     "questions": [
+      {
+       "q": "Classify: breaking tools, the Underground Railroad, Nat Turner's 1831 rebellion.",
+       "a": "Daily resistance; escape; revolt."
+      }
+     ]
+    },
+    {
+     "guide": "Study Biddy Mason's freedom suit.",
+     "questions": [
+      {
+       "q": "How did Biddy Mason win her freedom?",
+       "a": "In 1856, when her enslaver planned to take her family to Texas, she petitioned a Los Angeles court; Judge Benjamin Hayes ruled she and her family were free because California was a free state."
+      },
+      {
+       "q": "What did she do afterward?",
+       "a": "Worked as a nurse and midwife, bought land in Los Angeles, became wealthy, and helped found the city's First AME Church."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the Archy Lee case.",
+     "questions": [
+      {
+       "q": "What happened in the Archy Lee case (1858)?",
+       "a": "The California Supreme Court allowed Charles Stovall to keep Archy Lee as a slave despite California being free; Black Californians organized, and Lee was later freed by a federal commissioner."
+      }
+     ]
+    },
+    {
+     "guide": "Source analysis on Mason or Lee.",
+     "questions": [
+      {
+       "q": "What did California's 1852 Fugitive Slave Law do?",
+       "a": "It allowed enslavers to reclaim people who had been brought to California before statehood and treated them as fugitives."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Source-analysis rubric: 4 = identifies author, date, audience, and purpose (sourcing); accurately summarizes content; explains historical context; evaluates reliability/perspective and connects to the question with quotations; 3 = sourcing and content with limited context or evaluation; 2 = summary only; 1 = inaccurate or missing."
+  },
+  {
+   "week": 26,
+   "prep": "Mapping Inequality website (HOLC maps for Oakland or Los Angeles); Brown v. Board excerpt; Black Panther Party Ten-Point Program (1966); examples of Jim Crow laws and a Pauli Murray excerpt (from States' Laws on Race and Color, 1951).",
+   "misconceptions": [
+    "Thinking segregation existed only in the South: redlining, restrictive covenants, and school segregation shaped California cities too.",
+    "Reducing the Black Panther Party to guns: it also ran community programs like free breakfasts and health clinics.",
+    "Seeing nonviolence and Black Power as simple opposites: both sought freedom and equality with different strategies, and many people engaged with both."
+   ],
+   "days": [
+    {
+     "guide": "Read three Jim Crow laws and a Pauli Murray excerpt.",
+     "questions": [
+      {
+       "q": "Give an example of how Jim Crow laws controlled daily life.",
+       "a": "Separate schools, railroad cars, waiting rooms, and restrooms; bans on interracial marriage; poll taxes and literacy tests limiting voting."
+      }
+     ]
+    },
+    {
+     "guide": "Examine HOLC maps; compare to present data.",
+     "questions": [
+      {
+       "q": "What did a red 'D' grade on a 1930s HOLC map mean?",
+       "a": "'Hazardous' for lending — often assigned because Black or immigrant families lived there, which blocked loans and investment."
+      },
+      {
+       "q": "What long-term effects can be seen today?",
+       "a": "Formerly redlined areas often have lower home values, less tree cover, more pollution, and poorer health outcomes."
+      }
+     ]
+    },
+    {
+     "guide": "Read Brown v. Board; connect to the doll study.",
+     "questions": [
+      {
+       "q": "What did the Court rule in Brown v. Board (1954)?",
+       "a": "'Separate educational facilities are inherently unequal' — school segregation violated the 14th Amendment's Equal Protection Clause."
+      }
+     ]
+    },
+    {
+     "guide": "Compare nonviolence and Black Power, including the Ten-Point Program.",
+     "questions": [
+      {
+       "q": "When and where was the Black Panther Party founded and by whom?",
+       "a": "October 1966 in Oakland, by Huey P. Newton and Bobby Seale."
+      },
+      {
+       "q": "Name a Black Panther community program.",
+       "a": "Free Breakfast for Children (also free health clinics)."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz with document analysis.",
+     "questions": [
+      {
+       "q": "Which Supreme Court case Brown overturned?",
+       "a": "Plessy v. Ferguson (1896), 'separate but equal.'"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz answers: Jim Crow definition; HOLC grades; redlining effects; Brown v. Board ruling and date (May 17, 1954); doll study citation; Black Panther founding; Ten-Point Program demands (freedom, employment, decent housing, education, an end to police brutality). Redlining analysis rubric: 4 = reads map legend correctly, compares to current data with specifics, explains causal links."
+  },
+  {
+   "week": 27,
+   "prep": "Langston Hughes poems ('I, Too'; 'The Negro Speaks of Rivers'); Duke Ellington recording (e.g., 'Take the \"A\" Train' — composed by Billy Strayhorn for Ellington's orchestra); research on a Black Californian leader; data source (e.g., Kidsdata.org, Census).",
+   "misconceptions": [
+    "Treating the Harlem Renaissance as only art: it was also a political assertion of Black identity and dignity.",
+    "Using single data points to make sweeping claims: compare over time and across groups.",
+    "Reflections without evidence."
+   ],
+   "days": [
+    {
+     "guide": "Read Hughes; listen to Ellington; analyze identity themes.",
+     "questions": [
+      {
+       "q": "What is the message of Hughes's 'I, Too'?",
+       "a": "Black Americans are fully American ('I, too, sing America'); though sent to 'eat in the kitchen,' the speaker will one day sit at the table, and others will 'be ashamed.'"
+      }
+     ]
+    },
+    {
+     "guide": "Research a Black Californian leader.",
+     "questions": [
+      {
+       "q": "Who was Tom Bradley?",
+       "a": "Los Angeles's first Black mayor, serving five terms (1973–1993)."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze data on an equity issue.",
+     "questions": [
+      {
+       "q": "What questions should you ask about equity data?",
+       "a": "Source, date, how groups are defined, sample size, and what factors might explain differences."
+      }
+     ]
+    },
+    {
+     "guide": "Write a reflection connecting history to today.",
+     "questions": [
+      {
+       "q": "Give an example of a historical policy with present effects.",
+       "a": "Redlining in the 1930s and lower homeownership and wealth in those neighborhoods today."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 9 assessment.",
+     "questions": [
+      {
+       "q": "Who wrote Narrative of the Life of Frederick Douglass?",
+       "a": "Frederick Douglass (1845)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 9 assessment answers: key terms (resistance, Jim Crow, redlining, Great Migration, Black Power, Harlem Renaissance); people (Douglass, Biddy Mason, Archy Lee, Huey Newton, Bobby Seale, Langston Hughes, Tom Bradley); document paragraph scored with the paragraph rubric. Paragraph rubric: 4 = clear claim, two specific pieces of evidence (with source names/dates), explanation of how evidence supports the claim, accurate history; 3 = claim and evidence with thin explanation; 2 = general statements without evidence; 1 = inaccurate."
+  },
+  {
+   "week": 28,
+   "prep": "Treaty of Guadalupe Hidalgo (National Archives; Articles VIII and IX); Land Act of 1851 summary; excerpt from María Amparo Ruiz de Burton's The Squatter and the Don (1885); historical border maps (1848, 1853 Gadsden Purchase, today).",
+   "misconceptions": [
+    "Thinking Mexicans 'crossed the border' into California: as the saying goes, the border crossed them in 1848.",
+    "Assuming treaty promises were kept: the Land Act's costly legal process led many Californios to lose land.",
+    "Viewing Californios as one group: they ranged from elite rancheros to laborers."
+   ],
+   "days": [
+    {
+     "guide": "Read Articles VIII and IX.",
+     "questions": [
+      {
+       "q": "What did Article VIII promise Mexicans living in the ceded territory?",
+       "a": "They could stay or leave, keep their property, and choose U.S. citizenship (automatically after one year if they didn't declare Mexican citizenship); property was to be 'inviolably respected.'"
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the Land Act of 1851.",
+     "questions": [
+      {
+       "q": "How did the Land Act of 1851 cause Californios to lose land?",
+       "a": "It required landowners to prove their titles before a federal commission; cases took years (often over a decade), legal fees and squatters forced many to sell or lose land."
+      }
+     ]
+    },
+    {
+     "guide": "Read the Ruiz de Burton excerpt.",
+     "questions": [
+      {
+       "q": "What perspective does The Squatter and the Don present?",
+       "a": "A Californio family's (the Alamars') view of losing their rancho to American squatters and unjust laws — written by a Mexican American woman in English."
+      }
+     ]
+    },
+    {
+     "guide": "Trace the border on maps 1848–today.",
+     "questions": [
+      {
+       "q": "What changed the border in 1853?",
+       "a": "The Gadsden Purchase added southern Arizona and southwestern New Mexico."
+      }
+     ]
+    },
+    {
+     "guide": "One-page analysis comparing promises and outcomes.",
+     "questions": [
+      {
+       "q": "When was the Treaty of Guadalupe Hidalgo signed?",
+       "a": "February 2, 1848."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Treaty analysis rubric: 4 = quotes Articles VIII/IX accurately, explains the Land Act process with specifics, gives examples of outcomes (land loss, legal costs, squatters), evaluates the gap between promise and reality; 3 = mostly complete; 2 = summary; 1 = inaccurate. Source-analysis rubric: 4 = identifies author, date, audience, and purpose (sourcing); accurately summarizes content; explains historical context; evaluates reliability/perspective and connects to the question with quotations; 3 = sourcing and content with limited context or evaluation; 2 = summary only; 1 = inaccurate or missing."
+  },
+  {
+   "week": 29,
+   "prep": "Plan de Delano (1966); bracero contract and photos (Bracero History Archive, braceroarchive.org); Delano strike photos; readings on Larry Itliong, Cesar Chavez, and Dolores Huerta.",
+   "misconceptions": [
+    "Crediting the 1965 strike only to Cesar Chavez: Filipino workers of the AWOC, led by Larry Itliong, walked out first on September 8, 1965; Chavez's NFWA joined about a week later.",
+    "Thinking the Bracero Program was purely beneficial: workers often faced poor housing, withheld wages, and abuse.",
+    "Seeing boycotts as passive: the grape boycott required national organizing."
+   ],
+   "days": [
+    {
+     "guide": "Read about the Bracero Program; analyze a contract and photos.",
+     "questions": [
+      {
+       "q": "What was the Bracero Program?",
+       "a": "A U.S.–Mexico agreement (1942–1964) bringing millions of Mexican men on temporary contracts to work in agriculture and railroads."
+      }
+     ]
+    },
+    {
+     "guide": "Learn about the Delano grape strike.",
+     "questions": [
+      {
+       "q": "Who began the Delano grape strike and when?",
+       "a": "Filipino farmworkers of the Agricultural Workers Organizing Committee, led by Larry Itliong, on September 8, 1965."
+      }
+     ]
+    },
+    {
+     "guide": "Read the Plan de Delano.",
+     "questions": [
+      {
+       "q": "What religious imagery does the Plan de Delano use, and why?",
+       "a": "It describes the 1966 march to Sacramento as a pilgrimage and invokes the Virgin of Guadalupe, appealing to farmworkers' Catholic faith and framing the cause as moral."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the grape boycott.",
+     "questions": [
+      {
+       "q": "How did the grape boycott pressure growers?",
+       "a": "Millions of consumers stopped buying table grapes, and stores were pressured to stop selling them, cutting growers' profits until they signed union contracts in 1970."
+      }
+     ]
+    },
+    {
+     "guide": "Paragraph on the Filipino–Mexican coalition.",
+     "questions": [
+      {
+       "q": "What union formed when the AWOC and NFWA merged?",
+       "a": "The United Farm Workers Organizing Committee (later the United Farm Workers, UFW)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Coalition paragraph: Paragraph rubric: 4 = clear claim, two specific pieces of evidence (with source names/dates), explanation of how evidence supports the claim, accurate history; 3 = claim and evidence with thin explanation; 2 = general statements without evidence; 1 = inaccurate. Proficient content: AWOC (Itliong, Filipino) and NFWA (Chavez, Huerta, Mexican American) joined forces in 1965 and merged in 1966; shared goals (wages, conditions, union recognition); strategies — strikes, the march to Sacramento, nonviolence, and the national boycott — produced 1970 contracts."
+  },
+  {
+   "week": 30,
+   "prep": "Mendez v. Westminster ruling excerpt (1946); 1968 East LA walkout demands; images of Judith Baca's Great Wall of Los Angeles (SPARC website); data on Latino diversity in California. Prepare the Unit 10 assessment.",
+   "misconceptions": [
+    "Thinking Brown v. Board was the first school desegregation case: Mendez v. Westminster (1946) ended segregation of Mexican American students in Orange County schools years earlier.",
+    "Treating 'Latino' as one culture: Latinos in California include people of Mexican, Salvadoran, Guatemalan, Puerto Rican, Cuban, and many other origins, with Indigenous and Afro-Latino identities.",
+    "Seeing murals only as decoration: Chicano murals tell community histories and make political statements."
+   ],
+   "days": [
+    {
+     "guide": "Read the Mendez ruling; connect to Brown.",
+     "questions": [
+      {
+       "q": "What did Mendez v. Westminster (1946) decide?",
+       "a": "A federal court ruled that segregating Mexican American children into separate schools violated the 14th Amendment; it was upheld on appeal in 1947."
+      },
+      {
+       "q": "How is Mendez connected to Brown v. Board?",
+       "a": "Thurgood Marshall filed a brief in the Mendez appeal, and Governor Earl Warren signed a 1947 law ending school segregation in California — Warren later wrote the Brown decision."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the 1968 East LA walkouts.",
+     "questions": [
+      {
+       "q": "What did students demand in the 1968 East LA walkouts?",
+       "a": "Bilingual/bicultural education, Mexican American history, more Mexican American teachers and administrators, smaller classes, better facilities, and an end to punishment for speaking Spanish."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze Chicano murals.",
+     "questions": [
+      {
+       "q": "What does Judith Baca's Great Wall of Los Angeles depict?",
+       "a": "A half-mile-long mural in the Tujunga Wash showing California history from the perspectives of people of color, women, and immigrants."
+      }
+     ]
+    },
+    {
+     "guide": "Research Latino diversity in California.",
+     "questions": [
+      {
+       "q": "What is the difference between Hispanic and Latino?",
+       "a": "Hispanic refers to Spanish-speaking origin (includes Spain); Latino refers to Latin American origin (includes Brazil, not Spain)."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 10 assessment.",
+     "questions": [
+      {
+       "q": "Who was Sal Castro?",
+       "a": "A Lincoln High School teacher who supported the 1968 walkouts."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 10 assessment answers: Treaty of Guadalupe Hidalgo; Land Act of 1851; Bracero Program; Delano strike (Itliong, Chavez, Huerta); Plan de Delano; grape boycott; Mendez v. Westminster; East LA walkouts; Great Wall of LA. Source analysis of Mendez scored with the source rubric; short essay on student activism scored with the paragraph rubric. Source-analysis rubric: 4 = identifies author, date, audience, and purpose (sourcing); accurately summarizes content; explains historical context; evaluates reliability/perspective and connects to the question with quotations; 3 = sourcing and content with limited context or evaluation; 2 = summary only; 1 = inaccurate or missing."
+  },
+  {
+   "week": 31,
+   "prep": "Chinese Exclusion Act (DocsTeach); Angel Island poems (Angel Island Immigration Station Foundation, aiisf.org); Wong Kim Ark case summary; reading on Chinese railroad workers (Stanford's Chinese Railroad Workers in North America Project).",
+   "misconceptions": [
+    "Thinking Chinese immigrants came only for railroads: they came for the Gold Rush (1849+), farming, fishing, and businesses, and many faced violence and discriminatory taxes.",
+    "Believing exclusion was brief: it lasted from 1882 until repeal in 1943, with strict quotas until 1965.",
+    "Confusing Angel Island with Ellis Island: Angel Island (1910–1940) detained many Asian immigrants, sometimes for months."
+   ],
+   "days": [
+    {
+     "guide": "Read about Chinese railroad workers.",
+     "questions": [
+      {
+       "q": "What role did Chinese workers play in building the Transcontinental Railroad?",
+       "a": "They made up most of the Central Pacific's workforce (about 12,000–20,000 workers), doing dangerous work blasting through the Sierra Nevada, for lower pay than white workers."
+      }
+     ]
+    },
+    {
+     "guide": "Read the Chinese Exclusion Act.",
+     "questions": [
+      {
+       "q": "What did the 1882 Chinese Exclusion Act do?",
+       "a": "Suspended immigration of Chinese laborers for 10 years and barred Chinese immigrants from becoming naturalized citizens — the first U.S. law to ban immigration by nationality."
+      },
+      {
+       "q": "What reason did the Act give?",
+       "a": "It claimed Chinese laborers 'endanger the good order of certain localities.'"
+      }
+     ]
+    },
+    {
+     "guide": "Read Angel Island poems.",
+     "questions": [
+      {
+       "q": "Why did detainees carve poems into the walls at Angel Island?",
+       "a": "To express frustration, loneliness, and anger at long detentions and interrogations under exclusion laws."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze Wong Kim Ark (1898).",
+     "questions": [
+      {
+       "q": "What did the Supreme Court decide in United States v. Wong Kim Ark (1898)?",
+       "a": "That a person born in the U.S. to Chinese parents is a citizen by birth under the 14th Amendment — establishing birthright citizenship regardless of parents' status."
+      }
+     ]
+    },
+    {
+     "guide": "Source analysis of one Angel Island poem.",
+     "questions": [
+      {
+       "q": "When was the Chinese Exclusion Act repealed?",
+       "a": "1943 (Magnuson Act), during World War II when China was a U.S. ally."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Source-analysis rubric: 4 = identifies author, date, audience, and purpose (sourcing); accurately summarizes content; explains historical context; evaluates reliability/perspective and connects to the question with quotations; 3 = sourcing and content with limited context or evaluation; 2 = summary only; 1 = inaccurate or missing."
+  },
+  {
+   "week": 32,
+   "prep": "Executive Order 9066 (National Archives); Dorothea Lange's Manzanar photos (Library of Congress/National Archives); Densho (densho.org) for Korematsu and redress; Civil Liberties Act of 1988.",
+   "misconceptions": [
+    "Calling it 'internment' only: about two-thirds of the roughly 120,000 people removed were U.S. citizens; many historians use 'incarceration.'",
+    "Believing there was evidence of disloyalty: government reports found none; the 1983 court ruling found evidence had been suppressed.",
+    "Thinking Korematsu was overturned in 1983: his conviction was vacated in 1983; the Supreme Court repudiated the decision in 2018 (Trump v. Hawaii)."
+   ],
+   "days": [
+    {
+     "guide": "Read EO 9066; identify euphemisms.",
+     "questions": [
+      {
+       "q": "When did President Roosevelt sign Executive Order 9066, and what did it authorize?",
+       "a": "February 19, 1942; it authorized the military to designate 'military areas' from which 'any or all persons may be excluded' — used to remove Japanese Americans from the West Coast."
+      },
+      {
+       "q": "Does EO 9066 name Japanese Americans?",
+       "a": "No — it uses neutral language, though it was used to target them."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze three Lange photos.",
+     "questions": [
+      {
+       "q": "Why did the Army impound many of Lange's photos?",
+       "a": "They showed the dignity of Japanese Americans and the injustice and harsh conditions of removal, which contradicted government messaging."
+      }
+     ]
+    },
+    {
+     "guide": "Read about Korematsu.",
+     "questions": [
+      {
+       "q": "What happened in Korematsu v. United States (1944) and in 1983?",
+       "a": "The Supreme Court upheld Fred Korematsu's conviction for defying removal (6–3); in 1983 a federal court vacated his conviction after finding the government suppressed evidence."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze the Civil Liberties Act of 1988.",
+     "questions": [
+      {
+       "q": "What did the Civil Liberties Act of 1988 provide?",
+       "a": "A formal apology and $20,000 to each surviving incarcerated person; it said the causes were 'race prejudice, war hysteria, and a failure of political leadership.'"
+      }
+     ]
+    },
+    {
+     "guide": "Argument on lessons of incarceration.",
+     "questions": [
+      {
+       "q": "Where was Manzanar located?",
+       "a": "In the Owens Valley of eastern California."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Argument paragraph rubric: 4 = clear claim about a lesson (e.g., civil liberties must be protected in crises), evidence from EO 9066, Lange photos, Korematsu, and the 1988 Act, reasoning connecting to today; 3 = claim and two pieces of evidence; 2 = one; 1 = none."
+  },
+  {
+   "week": 33,
+   "prep": "Readings and oral histories: Filipino manongs and Stockton's Little Manila; Vietnamese, Cambodian, and Hmong refugee accounts; Native Hawaiian sovereignty or Samoan communities; Pew Research data on Asian American income by origin group. Prepare the Unit 11 assessment.",
+   "misconceptions": [
+    "Treating 'Asian American' as one group: it includes dozens of origin groups with different histories and outcomes.",
+    "The model minority myth: averages hide groups with high poverty (e.g., some Southeast Asian communities) and pit minorities against each other.",
+    "Grouping Pacific Islanders with Asian Americans without distinction: Native Hawaiians and Pacific Islanders have distinct Indigenous histories."
+   ],
+   "days": [
+    {
+     "guide": "Read about manongs and Little Manila.",
+     "questions": [
+      {
+       "q": "Who were the manongs?",
+       "a": "Filipino men who came in the 1920s–30s to work in agriculture and service jobs; restrictive laws (including anti-miscegenation laws) kept many single, and Stockton's Little Manila was their center."
+      }
+     ]
+    },
+    {
+     "guide": "Read refugee accounts.",
+     "questions": [
+      {
+       "q": "Why did many Hmong refugees come to California?",
+       "a": "Many Hmong had allied with the U.S. during the CIA's 'Secret War' in Laos; after 1975 they faced persecution and fled, resettling in places like Fresno and Sacramento."
+      }
+     ]
+    },
+    {
+     "guide": "Research Native Hawaiian sovereignty or Samoan communities.",
+     "questions": [
+      {
+       "q": "What happened in Hawaii in 1893?",
+       "a": "American businessmen, backed by U.S. Marines, overthrew Queen Liliʻuokalani; the U.S. formally apologized in 1993."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze income data and the model minority myth.",
+     "questions": [
+      {
+       "q": "Why does the 'model minority' label mislead?",
+       "a": "Averages for 'Asian Americans' mask large differences between groups — some have high median incomes while others (such as Hmong and Burmese Americans) have high poverty rates."
+      }
+     ]
+    },
+    {
+     "guide": "Unit 11 assessment.",
+     "questions": [
+      {
+       "q": "About how many Japanese Americans were incarcerated during WWII?",
+       "a": "About 120,000."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 11 assessment answers: Chinese Exclusion Act (1882); Angel Island; Wong Kim Ark (1898); EO 9066 (1942); Korematsu; Civil Liberties Act (1988); manongs; Southeast Asian refugees; 1893 overthrow; model minority myth. Document paragraph (EO 9066 and the 1988 Act): proficient = compares the government's 1942 action and language with its 1988 findings and apology, citing both. Paragraph rubric: 4 = clear claim, two specific pieces of evidence (with source names/dates), explanation of how evidence supports the claim, accurate history; 3 = claim and evidence with thin explanation; 2 = general statements without evidence; 1 = inaccurate."
+  },
+  {
+   "week": 34,
+   "prep": "1968 Third World Liberation Front demands (SF State); timeline cards for movements studied; strategy comparison chart.",
+   "misconceptions": [
+    "Thinking movements were separate: many overlapped and supported each other (e.g., TWLF coalition; Filipino and Mexican farmworkers).",
+    "Claiming a single strategy 'caused' change: change usually results from many factors.",
+    "Choosing an action project too big to act on: keep it local and specific."
+   ],
+   "days": [
+    {
+     "guide": "Build a movement timeline marking overlaps.",
+     "questions": [
+      {
+       "q": "Put in order: Delano grape strike, Alcatraz occupation, East LA walkouts, Civil Liberties Act.",
+       "a": "Delano strike (1965), East LA walkouts (1968), Alcatraz occupation (1969), Civil Liberties Act (1988)."
+      }
+     ]
+    },
+    {
+     "guide": "Read the TWLF demands; identify coalition members.",
+     "questions": [
+      {
+       "q": "Which groups formed the Third World Liberation Front at SF State?",
+       "a": "The Black Students Union with Latino, Asian American (Chinese, Filipino, Japanese American), and Native American student organizations."
+      }
+     ]
+    },
+    {
+     "guide": "Compare strategies in a chart.",
+     "questions": [
+      {
+       "q": "Give an example of a lawsuit that produced lasting change.",
+       "a": "Mendez v. Westminster (1946) or Brown v. Board (1954) ending legal school segregation."
+      }
+     ]
+    },
+    {
+     "guide": "Brainstorm local issues and choose one.",
+     "questions": [
+      {
+       "q": "What makes a good community action issue?",
+       "a": "Local, specific, researchable, connected to community well-being, with a decision-maker you can address."
+      }
+     ]
+    },
+    {
+     "guide": "Submit a one-page proposal.",
+     "questions": [
+      {
+       "q": "What should the proposal include?",
+       "a": "Research question, stakeholders, background, and intended action."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Strategies chart: proficient = at least five strategies with examples from the course, outcomes, and limits of attributing cause. Proposal approved if issue is local and specific, has a clear research question, identifies stakeholders and a decision-maker, and proposes a feasible respectful action."
+  },
+  {
+   "week": 35,
+   "prep": "Local newspaper archives; city council or school board agendas/minutes; interview questions; rubric for evidence and respectful tone.",
+   "misconceptions": [
+    "Treating all sources as equally credible.",
+    "Writing an action that only complains: include evidence and a clear, specific request.",
+    "Ignoring the other side: summarize the strongest opposing arguments fairly."
+   ],
+   "days": [
+    {
+     "guide": "Find and annotate four sources.",
+     "questions": [
+      {
+       "q": "How do you check a local news source for bias?",
+       "a": "Check author and outlet, distinguish news from opinion, see whose voices are quoted, and compare with other sources."
+      }
+     ]
+    },
+    {
+     "guide": "Interview a stakeholder.",
+     "questions": [
+      {
+       "q": "Write one strong stakeholder interview question.",
+       "a": "'What do you see as the biggest obstacle to solving this issue, and what would help?'"
+      }
+     ]
+    },
+    {
+     "guide": "Summarize both sides; flag fallacies.",
+     "questions": [
+      {
+       "q": "Name a fallacy common in public debates.",
+       "a": "Slippery slope, straw man, or ad hominem."
+      }
+     ]
+    },
+    {
+     "guide": "Draft the action product.",
+     "questions": [
+      {
+       "q": "What are the parts of an effective letter to an official?",
+       "a": "Introduction of yourself, the issue with evidence, a clear specific request, and a respectful closing."
+      }
+     ]
+    },
+    {
+     "guide": "Revise after feedback.",
+     "questions": [
+      {
+       "q": "Why does respectful tone matter in civic action?",
+       "a": "Officials and community members are more likely to listen and act when arguments are respectful and evidence-based."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Research notes rubric: 4 = four credible sources annotated for credibility/bias, interview notes, both sides summarized fairly. Draft action rubric: 4 = clear issue, specific evidence, specific request to the right decision-maker, respectful tone, correct format; 3 = minor gaps; 2 = vague request; 1 = incomplete."
+  },
+  {
+   "week": 36,
+   "prep": "Presentation slides; final action product; plan an audience for Day 2. Prepare the Ethnic Studies final.",
+   "misconceptions": [
+    "Presenting only the problem: include history, evidence, and your proposal.",
+    "Reflection essays without sources: cite two primary sources.",
+    "Expecting immediate results: civic change takes time; record any response."
+   ],
+   "days": [
+    {
+     "guide": "Finalize the product; build 5 slides.",
+     "questions": [
+      {
+       "q": "What should the 5 slides cover?",
+       "a": "Issue, history, evidence, your proposal, and how others can help."
+      }
+     ]
+    },
+    {
+     "guide": "Present for 8 minutes; answer questions.",
+     "questions": [
+      {
+       "q": "How should you answer a challenging question?",
+       "a": "Listen fully, acknowledge the point, respond with evidence, and stay respectful."
+      }
+     ]
+    },
+    {
+     "guide": "Send the letter or submit the comment; record responses.",
+     "questions": [
+      {
+       "q": "Where can you submit a public comment locally?",
+       "a": "At a city council or school board meeting (in person or written comment per the agenda instructions)."
+      }
+     ]
+    },
+    {
+     "guide": "Write a 600-word reflection citing two primary sources.",
+     "questions": [
+      {
+       "q": "Give an example of citing a primary source in a reflection.",
+       "a": "'As Executive Order 9066 (1942) shows, neutral-sounding language can hide targeted injustice…'"
+      }
+     ]
+    },
+    {
+     "guide": "Final exam.",
+     "questions": [
+      {
+       "q": "Name the four levels of oppression.",
+       "a": "Ideological, institutional, interpersonal, internalized."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Presentation rubric: 4 = clear issue and history, strong evidence, specific proposal, engaging delivery within time, thoughtful answers; 3 = minor gaps; 2 = thin evidence; 1 = incomplete. Reflection essay: 4 = specific growth in understanding of identity/community, two accurately cited primary sources, personal insight. Final exam: key terms, primary source analysis (Source-analysis rubric: 4 = identifies author, date, audience, and purpose (sourcing); accurately summarizes content; explains historical context; evaluates reliability/perspective and connects to the question with quotations; 3 = sourcing and content with limited context or evaluation; 2 = summary only; 1 = inaccurate or missing.), short essay on a movement's strategies (proficient = names movement, strategies, outcomes, evidence)."
+  }
+ ]
+}

@@ -1,0 +1,2331 @@
+{
+ "grade": 10,
+ "subject": "MATH",
+ "overview": "Geometry is taught in 60-minute lessons: a short demonstration, guided examples worked together, then independent practice from Khan Academy, CK-12 or Illustrative Mathematics with GeoGebra for constructions. Proof is the heart of the course — require a marked diagram and a reason for every statement, and have the student explain proofs aloud. Grade each Friday check together, log errors, and revisit weak skills before the unit test.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Gather compass, straightedge, protractor and a notebook for a vocabulary/theorem log. Preview Khan Academy 'Geometry foundations' videos. Write the 7 vocabulary words on cards.",
+   "misconceptions": [
+    "Students treat a line and a segment as the same thing. Insist on notation: line AB has arrows on both ends and no length; segment AB has endpoints and a length.",
+    "Reading a protractor from the wrong scale (getting 130° for a 50° angle). Have the student first decide 'acute or obtuse?' before reading the number."
+   ],
+   "assessment_key": "Quiz items and answers: 1) Define a ray using only undefined terms — part of a line that starts at one point and extends forever in one direction through another point. 2) B is between A and C; AB = 2x + 3, BC = x + 1, AC = 19. Find x and AB — 3x + 4 = 19, x = 5, AB = 13. 3) D is in the interior of ∠ABC; m∠ABD = (3x + 5)°, m∠DBC = 2x°, m∠ABC = 75°. Find x — 5x + 5 = 75, x = 14. 4) Complement and supplement of 38° — 52° and 142°. 5) Vertical angles measure (4x − 10)° and (2x + 30)°. Find each — x = 20, each 70°. 6) A linear pair measures (5x + 10)° and (3x + 10)° — x = 20; 110° and 70°. Score 1 point each; 5–6 = mastery, 3–4 = reteach angle equations.",
+   "days": [
+    {
+     "guide": "Explain that point, line and plane are 'undefined' — we describe them but every other term is built from them. Model sketching and labeling each (point A, line AB or line ℓ, plane ABC or plane M), then have the student write definitions of segment, ray and angle using only those words. Check that each definition mentions points and lines only.",
+     "questions": [
+      {
+       "q": "Using only undefined terms, define a segment.",
+       "a": "A segment AB is the part of a line consisting of two points A and B and all the points between them."
+      },
+      {
+       "q": "How many points determine a plane, and what condition must they meet?",
+       "a": "Three points that are not on the same line (noncollinear) determine exactly one plane."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a number line and show AB + BC = AC when B is between A and C; distance is the absolute value of the difference of coordinates. Work one algebra example together, then assign the 10 problems, checking that the student substitutes x back to find the actual lengths asked.",
+     "questions": [
+      {
+       "q": "On a number line A is at −3 and C is at 9. What is AC, and where is the midpoint?",
+       "a": "AC = |9 − (−3)| = 12; the midpoint is at 3."
+      },
+      {
+       "q": "B is between A and C. AB = 3x − 1, BC = 2x + 4, AC = 23. Find x and BC.",
+       "a": "(3x − 1) + (2x + 4) = 23 → 5x + 3 = 23 → x = 4, so BC = 12."
+      }
+     ]
+    },
+    {
+     "guide": "Model placing the protractor's center on the vertex and the zero line on one ray, then reading the scale that starts at 0 on that ray. Classify angles as acute, right, obtuse or straight, then solve angle-addition equations together before independent practice.",
+     "questions": [
+      {
+       "q": "m∠PQS = (3x + 5)°, m∠SQR = (x + 15)°, and m∠PQR = 100°. Find x and m∠PQS.",
+       "a": "4x + 20 = 100 → x = 20, so m∠PQS = 65°."
+      },
+      {
+       "q": "Classify a 90°, a 135° and a 180° angle.",
+       "a": "Right, obtuse, straight."
+      }
+     ]
+    },
+    {
+     "guide": "Define each pair with a quick sketch: complementary sum to 90°, supplementary to 180°, vertical angles are congruent, a linear pair is adjacent and supplementary. Have the student label a diagram of two intersecting lines and then write and solve an equation for each problem.",
+     "questions": [
+      {
+       "q": "Two angles are complementary. One is 4 times the other. Find both.",
+       "a": "x + 4x = 90 → x = 18; the angles are 18° and 72°."
+      },
+      {
+       "q": "Two lines intersect and one angle is 47°. Give the other three angles.",
+       "a": "133°, 47° (its vertical angle), and 133°."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key without notes (about 25 minutes). Grade together, and have the student redo any missed item and explain the error aloud.",
+     "questions": [
+      {
+       "q": "Are all linear pairs supplementary? Are all supplementary angles linear pairs?",
+       "a": "Yes, every linear pair is supplementary. No — supplementary angles need not be adjacent, so they are not always a linear pair."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "prep": "Compass (one that locks is easiest), straightedge, patty paper or tracing paper, and GeoGebra (geogebra.org/geometry) open on a device. Practice the four constructions yourself first so you can demonstrate them.",
+   "misconceptions": [
+    "Changing the compass width in the middle of a construction. Explain that every step relies on 'same radius means same distance.'",
+    "Using the ruler's markings to measure. In a construction the straightedge only draws lines; lengths are copied with the compass."
+   ],
+   "assessment_key": "Performance check (3 constructions from memory, observe each): Perpendicular bisector — arcs from both endpoints with the same radius larger than half the segment; line through the two intersections. Angle bisector — arc from vertex hits both sides; equal arcs from those two points meet; ray from vertex through that point. Parallel through a point — draw a transversal through P and copy the angle at P (corresponding angles). Rubric per construction: 3 = accurate with no erased re-dos and a correct 'why' (equal radii make congruent segments/triangles); 2 = accurate but explanation vague; 1 = steps out of order or radius changed; 0 = not attempted.",
+   "days": [
+    {
+     "guide": "Demonstrate copying a segment (set compass to AB, swing from a new point) and copying an angle (arc on original, same arc on new ray, then copy the chord width). The student does each twice and writes numbered steps.",
+     "questions": [
+      {
+       "q": "When copying an angle, why do you set the compass to the distance between where the arc crosses the two sides?",
+       "a": "That distance is the third side of a triangle; copying it makes the two triangles congruent by SSS, so the angles are congruent."
+      }
+     ]
+    },
+    {
+     "guide": "Model the perpendicular bisector and angle bisector, then have the student fold patty paper (segment endpoint onto endpoint; one side of the angle onto the other) to see the fold lands on the constructed line.",
+     "questions": [
+      {
+       "q": "Why must the compass opening be more than half the segment for a perpendicular bisector?",
+       "a": "Otherwise the arcs from the two endpoints do not intersect."
+      },
+      {
+       "q": "Every point on a perpendicular bisector has what property?",
+       "a": "It is equidistant from the two endpoints of the segment."
+      }
+     ]
+    },
+    {
+     "guide": "Show the perpendicular through a point (on or off the line) by marking two points on the line equidistant from P and bisecting. For a parallel line, draw a transversal through P and copy the angle. The student does both and labels the congruent angles.",
+     "questions": [
+      {
+       "q": "Which angle relationship justifies the parallel-line construction?",
+       "a": "Congruent corresponding angles: if corresponding angles are congruent, the lines are parallel."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student use GeoGebra's circle-with-center-through-point and intersect tools (not the built-in bisector button) to rebuild each construction, then drag the original points. A correct construction stays correct when dragged.",
+     "questions": [
+      {
+       "q": "Why does a correct GeoGebra construction keep working when you drag the points?",
+       "a": "Because it is built from relationships (circles of equal radius, intersections), not from fixed measurements."
+      }
+     ]
+    },
+    {
+     "guide": "Run the performance check in the assessment key: the student performs three constructions from memory and explains each aloud. Score with the rubric.",
+     "questions": [
+      {
+       "q": "Explain why the angle-bisector construction works.",
+       "a": "The arc from the vertex gives two equal segments on the sides, the two equal arcs give two more equal segments, and the shared ray is common; the two triangles are congruent by SSS, so the two angles at the vertex are congruent."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "prep": "Graph paper, compass, calculator. Review the Pythagorean theorem with the student before Day 2. Prepare the Unit 1 test items listed in the assessment key.",
+   "misconceptions": [
+    "Subtracting coordinates in mixed order in the distance formula. Remind the student squaring removes sign, but both differences must be in the same order (x2 − x1 and y2 − y1).",
+    "For partitioning, using the ratio 2:3 as the fraction 2/3. The point is 2/5 of the way, because the whole has 2 + 3 = 5 parts."
+   ],
+   "assessment_key": "Unit 1 test (sample items with answers): 1) Midpoint of (−4, 7) and (6, −1) → (1, 3). 2) M(2, 5) is the midpoint of AB with A(−1, 8); find B → (5, 2). 3) Distance from (−2, 1) to (4, 9) → √(36 + 64) = 10. 4) Point 1/4 of the way from A(0, 0) to B(8, 12) → (2, 3). 5) Complement of 27° → 63°. 6) Construction: perpendicular bisector of a given segment (graded with the Week 2 rubric). 7) Explain why the inscribed hexagon construction uses the radius as the side length → a regular hexagon is six equilateral triangles whose sides equal the radius. Mastery: 80% or better.",
+   "days": [
+    {
+     "guide": "Show that the midpoint averages the coordinates, using a segment on graph paper. Practice finding midpoints, then the reverse problem: given a midpoint and one endpoint, find the other by 'stepping' the same change again.",
+     "questions": [
+      {
+       "q": "Find the midpoint of (2, −3) and (8, 5).",
+       "a": "((2 + 8)/2, (−3 + 5)/2) = (5, 1)."
+      },
+      {
+       "q": "M(4, 1) is the midpoint of AB and A = (1, −2). Find B.",
+       "a": "From A to M is +3 in x and +3 in y, so B = (7, 4)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a segment on the grid, build a right triangle under it, and use a² + b² = c² to derive d = √((x2 − x1)² + (y2 − y1)²). Then have the student find the perimeter of a polygon given by vertices.",
+     "questions": [
+      {
+       "q": "Find the distance from (1, 2) to (7, 10).",
+       "a": "√(6² + 8²) = √100 = 10."
+      },
+      {
+       "q": "Find the perimeter of the triangle with vertices (0, 0), (3, 0), (0, 4).",
+       "a": "Sides 3, 4 and 5, so the perimeter is 12."
+      }
+     ]
+    },
+    {
+     "guide": "Explain that a 2:3 ratio splits the segment into 5 equal parts, so the point is 2/5 of the way from A. Compute A + (2/5)(B − A) in each coordinate, and check by graphing.",
+     "questions": [
+      {
+       "q": "Find the point dividing A(0, 0) to B(10, 5) in a 2:3 ratio from A.",
+       "a": "2/5 of the change (10, 5) is (4, 2), so the point is (4, 2)."
+      },
+      {
+       "q": "Find the point 1/3 of the way from (−3, 6) to (9, 0).",
+       "a": "Change is (12, −6); 1/3 is (4, −2); the point is (1, 4)."
+      }
+     ]
+    },
+    {
+     "guide": "Construct the hexagon by marking the radius six times around the circle; connect every other vertex for the equilateral triangle. For the square, draw a diameter, construct its perpendicular bisector to get a second diameter, and connect the four endpoints.",
+     "questions": [
+      {
+       "q": "Why can you step the radius around a circle exactly six times?",
+       "a": "Each chord equal to the radius forms an equilateral triangle with the center, giving a 60° central angle; 360° ÷ 60° = 6."
+      },
+      {
+       "q": "How do you inscribe a square in a circle?",
+       "a": "Draw two perpendicular diameters and connect their four endpoints."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test from the assessment key (about 50 minutes, compass allowed). Grade together and log missed skills for review. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "What does the midpoint formula have in common with an average?",
+       "a": "Each coordinate of the midpoint is the average (mean) of the two endpoints' coordinates."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "prep": "Graph paper, patty paper, colored pencils, GeoGebra. Read through the reflection rules so you can check quickly: over x-axis (x, −y); y-axis (−x, y); y = x (y, x); y = −x (−y, −x).",
+   "misconceptions": [
+    "Mixing up reflections over the x-axis and y-axis. Reflecting over the x-axis keeps x the same and negates y — the figure flips up/down across the x-axis.",
+    "Thinking a stretch is a rigid motion because the shape 'looks the same.' Measure: rigid motions preserve every length and angle."
+   ],
+   "assessment_key": "Quiz with answers: 1) Translate (2, 4) by (x, y) → (x + 3, y − 5) → (5, −1). 2) Write the rule that moves (1, 1) to (−2, 6) → (x, y) → (x − 3, y + 5), vector ⟨−3, 5⟩. 3) Reflect (3, −2) over the x-axis → (3, 2); y-axis → (−3, −2); y = x → (−2, 3); y = −x → (2, −3). 4) A(1, 2) maps to A'(5, 2) by a reflection; name the line → x = 3. 5) Is (x, y) → (2x, y) a rigid motion? → No, it changes horizontal lengths. Score out of 8 points (item 3 = 4 points).",
+   "days": [
+    {
+     "guide": "Plot a triangle and apply (x, y) → (x + 2, y), then (x, y) → (2x, y). Have the student measure sides and angles in each image and decide which preserve distance and angle; introduce 'rigid motion' and the idea of a transformation as a function from points to points.",
+     "questions": [
+      {
+       "q": "Does (x, y) → (x, 3y) preserve distance? Explain.",
+       "a": "No. Vertical distances triple, so lengths change (it is a stretch, not a rigid motion)."
+      },
+      {
+       "q": "What two things does every rigid motion preserve?",
+       "a": "Distance (segment lengths) and angle measure."
+      }
+     ]
+    },
+    {
+     "guide": "Model translating a quadrilateral using a rule and using vector notation ⟨a, b⟩. Then the student translates figures and writes the rule from a pre-image and image pair.",
+     "questions": [
+      {
+       "q": "Translate (−1, 4) by the vector ⟨3, −5⟩.",
+       "a": "(2, −1)."
+      },
+      {
+       "q": "A(2, 3) maps to A'(−1, 7). Write the translation rule.",
+       "a": "(x, y) → (x − 3, y + 4)."
+      }
+     ]
+    },
+    {
+     "guide": "Reflect a triangle over each axis and over y = x and y = −x on graph paper, recording coordinates in a table so the student discovers each rule.",
+     "questions": [
+      {
+       "q": "Reflect (4, −1) over y = x and over y = −x.",
+       "a": "Over y = x: (−1, 4). Over y = −x: (1, −4)."
+      },
+      {
+       "q": "Reflect (−3, 5) over the y-axis.",
+       "a": "(3, 5)."
+      }
+     ]
+    },
+    {
+     "guide": "Trace a figure and its reflection on patty paper, connect each point to its image, and fold to show the mirror line meets every connecting segment at 90° at its midpoint. The student writes the definition of a reflection in their own words.",
+     "questions": [
+      {
+       "q": "State the definition of a reflection across line ℓ.",
+       "a": "Each point P maps to P' so that ℓ is the perpendicular bisector of PP' (points on ℓ map to themselves)."
+      },
+      {
+       "q": "A(2, 1) reflects to A'(2, 7). What is the line of reflection?",
+       "a": "y = 4, the perpendicular bisector of the segment from (2, 1) to (2, 7)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Have the student check reflection answers by plotting. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Which reflection rule swaps the coordinates?",
+       "a": "Reflection over y = x: (x, y) → (y, x)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "prep": "Protractor, patty paper, compass, phone camera for Day 4, GeoGebra. Memorize the counterclockwise rotation rules about the origin: 90° (−y, x), 180° (−x, −y), 270° (y, −x).",
+   "misconceptions": [
+    "Rotating clockwise when the problem says 90° (positive rotations are counterclockwise). Have the student turn the paper to check direction.",
+    "Saying a rectangle has 4 lines of symmetry (its diagonals are not lines of symmetry unless it is a square)."
+   ],
+   "assessment_key": "Quiz with answers: 1) Rotate (2, 5) 90° counterclockwise about the origin → (−5, 2). 2) Rotate (−3, 1) 180° → (3, −1). 3) Rotate (4, −2) 270° counterclockwise → (−2, −4). 4) Lines of symmetry and rotational symmetry: regular pentagon → 5 lines, 72° rotations; rectangle (non-square) → 2 lines, 180°; rhombus (non-square) → 2 lines (diagonals), 180°; square → 4 lines, 90°. Photo set rubric: 3 = three objects, each symmetry correctly named (line count and/or rotation angle); 2 = one error; 1 = symmetries named vaguely; 0 = missing.",
+   "days": [
+    {
+     "guide": "Rotate a triangle 90° about the origin with patty paper (pin at origin, turn counterclockwise) and record coordinates in a table to find each rule.",
+     "questions": [
+      {
+       "q": "Rotate (3, 1) 90° counterclockwise about the origin.",
+       "a": "(−1, 3)."
+      },
+      {
+       "q": "What is the rule for a 180° rotation about the origin?",
+       "a": "(x, y) → (−x, −y)."
+      }
+     ]
+    },
+    {
+     "guide": "Model rotating about point P: draw segment from P to each vertex, use the protractor to make the rotation angle at P, and use the compass to keep the same distance. The student rotates a triangle 60° about a non-origin point.",
+     "questions": [
+      {
+       "q": "When rotating point A about P, what must be equal for A and its image A'?",
+       "a": "PA = PA' (same distance from the center), and m∠APA' equals the rotation angle."
+      },
+      {
+       "q": "Rotate (5, 2) 180° about P(1, 1).",
+       "a": "Shift so P is the origin: (4, 1) → (−4, −1); shift back: (−3, 0)."
+      }
+     ]
+    },
+    {
+     "guide": "Use cut-out shapes to find lines of symmetry by folding and rotation symmetry by turning in place. Summarize in a table for regular polygons: an n-gon has n lines and rotations by multiples of 360°/n.",
+     "questions": [
+      {
+       "q": "What rotations carry a regular hexagon onto itself?",
+       "a": "Multiples of 60°: 60°, 120°, 180°, 240°, 300° (and 360°)."
+      },
+      {
+       "q": "How many lines of symmetry does a non-square rhombus have?",
+       "a": "Two — its diagonals."
+      }
+     ]
+    },
+    {
+     "guide": "The student photographs three symmetric objects at home and writes the line and/or rotational symmetry of each. Discuss one together to model precise wording.",
+     "questions": [
+      {
+       "q": "A hubcap with 5 identical spokes has what rotational symmetry?",
+       "a": "72° (and multiples of 72°); it also has 5 lines of symmetry if each spoke is itself symmetric."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and score the photo set using the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Rotate (0, 4) 270° counterclockwise about the origin.",
+       "a": "(4, 0)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 6,
+   "prep": "Graph paper, colored pencils, scissors, tape, cardstock for tessellation; GeoGebra. Look up a few M.C. Escher tessellations to show the student.",
+   "misconceptions": [
+    "Assuming order doesn't matter in compositions. Show a translation then reflection versus the reverse can give different images.",
+    "Forgetting that two reflections over parallel lines give a translation of twice the distance between the lines."
+   ],
+   "assessment_key": "Quiz: 1) Translate (1, 2) by ⟨3, 0⟩ then reflect over the y-axis → (−4, 2); reverse order → (2, 2) — different. 2) Reflect over x = 1 then x = 4 → equivalent to a translation 6 units right. 3) Reflect over two lines meeting at 35° → rotation of 70° about their intersection. 4) Give a sequence mapping triangle A(1, 1), B(3, 1), C(1, 2) to A'(−1, −1), B'(−3, −1), C'(−1, −2) → a 180° rotation about the origin (or reflect over the x-axis then y-axis). Tessellation rubric: 4 = tiles fit without gaps/overlaps, correct transformation named and explained, neat color; 3 = tiles fit, explanation minor gaps; 2 = gaps or wrong transformation named; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Have the student translate a triangle and then reflect it, and then do the steps in the reverse order. Compare final images and discuss that compositions are applied one after another like functions.",
+     "questions": [
+      {
+       "q": "Point (2, 3): translate by ⟨0, −5⟩, then reflect over the x-axis. Where does it end up?",
+       "a": "(2, −2) after translating, then (2, 2) after reflecting."
+      }
+     ]
+    },
+    {
+     "guide": "In GeoGebra reflect a figure over x = 1 and then x = 4; measure the shift (6 units = twice the distance). Then reflect over two lines meeting at 40° and measure the rotation (80°).",
+     "questions": [
+      {
+       "q": "Two reflections over intersecting lines that meet at 50° equal what single transformation?",
+       "a": "A rotation of 100° about the intersection point."
+      }
+     ]
+    },
+    {
+     "guide": "Model working backward: compare orientation (a flip means a reflection is needed), then match one vertex with a translation or rotation. The student writes sequences for the 8 problems and checks by performing them.",
+     "questions": [
+      {
+       "q": "If the image has the opposite orientation (clockwise vs. counterclockwise labels), what must the sequence include?",
+       "a": "An odd number of reflections."
+      }
+     ]
+    },
+    {
+     "guide": "Show how to cut a piece from one side of a square and tape it to the opposite side (translation) or rotate it about a corner (rotation). The student traces the tile repeatedly to fill a page and colors it.",
+     "questions": [
+      {
+       "q": "Why does a modified square still tessellate?",
+       "a": "Whatever is removed from one side is added to the matching side, so the tiles still fit together without gaps or overlaps."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and have the student explain their tessellation aloud: which transformation, and why it fills the plane. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Can every composition of rigid motions be described as a single rigid motion?",
+       "a": "Yes — a composition of rigid motions is itself a rigid motion (a translation, rotation, reflection or glide reflection)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 7,
+   "prep": "Patty paper, straws or paper strips cut to lengths (e.g., 4, 5, 6, 7, 9 inches), brads or tape, protractor, GeoGebra. Prepare the Unit 2 test from the assessment key.",
+   "misconceptions": [
+    "Believing SSA or AAA proves congruence. Build counterexamples with straws: AAA gives same shape different sizes; SSA can give two different triangles.",
+    "Writing congruence statements with vertices in the wrong order. The order must match corresponding parts: △ABC ≅ △DEF means A↔D, B↔E, C↔F."
+   ],
+   "assessment_key": "Unit 2 test with answers: 1) Rotate (−2, 5) 90° counterclockwise → (−5, −2). 2) Reflect (4, 1) over y = −x → (−1, −4). 3) Lines of symmetry of a regular octagon → 8. 4) △PQR ≅ △XYZ; list corresponding parts → PQ ≅ XY, QR ≅ YZ, PR ≅ XZ, ∠P ≅ ∠X, ∠Q ≅ ∠Y, ∠R ≅ ∠Z. 5) Which are valid criteria: SSS, SAS, ASA, SSA, AAA → SSS, SAS, ASA (and AAS); not SSA or AAA. 6) Short answer: explain with rigid motions why two triangles with SAS are congruent → translate to match the included vertex, rotate to align one side, the equal side lengths make endpoints match, reflect if needed; the equal included angle makes the second side lie on the same ray and its equal length makes the endpoints coincide, so all three vertices match. 7) Write a sequence mapping one given figure to another (any correct sequence). Mastery 80%.",
+   "days": [
+    {
+     "guide": "Define congruent figures as figures related by a rigid motion. For each pair, the student uses patty paper to try to map one onto the other and names the motion or explains why none exists (different side lengths).",
+     "questions": [
+      {
+       "q": "Two triangles have the same angles but different side lengths. Are they congruent?",
+       "a": "No — no rigid motion maps one onto the other because rigid motions preserve length."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing △ABC ≅ △DEF so that matching vertices are in the same order, then listing six pairs of congruent parts. Introduce CPCTC.",
+     "questions": [
+      {
+       "q": "If △JKL ≅ △RST, which angle is congruent to ∠K and which side to LJ?",
+       "a": "∠K ≅ ∠S, and LJ ≅ TR."
+      }
+     ]
+    },
+    {
+     "guide": "Give the student sets of straws and challenge them to build two different triangles for each case. SSS, SAS, ASA always produce one triangle; AAA and SSA may not.",
+     "questions": [
+      {
+       "q": "Why does AAA not prove triangles congruent?",
+       "a": "Triangles can have the same angles but be different sizes (similar, not congruent)."
+      },
+      {
+       "q": "Show SSA can fail.",
+       "a": "With sides 5 and 7 and a 30° angle not between them, the side of length 5 can swing to two different positions, making two different triangles."
+      }
+     ]
+    },
+    {
+     "guide": "Talk through the argument together using patty paper, then the student writes a paragraph: map the included angle's vertex, rotate to line up one side, use equal lengths and equal angle to land the other vertices.",
+     "questions": [
+      {
+       "q": "In SAS, why must the angle be the included angle?",
+       "a": "The angle between the two sides fixes the direction of both sides from the common vertex; a non-included angle does not lock the triangle in place."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test from the assessment key; review errors together. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Name the four triangle congruence shortcuts for general triangles.",
+       "a": "SSS, SAS, ASA and AAS."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 8,
+   "prep": "Notebook. Prepare examples of conditional statements from everyday life (ads, rules). Know these logic terms: converse (swap), inverse (negate both), contrapositive (swap and negate).",
+   "misconceptions": [
+    "Thinking the converse of a true statement is always true. Use 'If it's a dog, then it's a mammal' — its converse is false.",
+    "Confusing the Law of Detachment with affirming the conclusion. Knowing q is true does not let you conclude p."
+   ],
+   "assessment_key": "Quiz with answers: 1) Find a counterexample to 'All prime numbers are odd' → 2. 2) Write 'Right angles are congruent' in if-then form → If two angles are right angles, then they are congruent. 3) For 'If a figure is a square, then it is a rectangle': converse (If a rectangle, then a square) false; inverse (If not a square, then not a rectangle) false; contrapositive (If not a rectangle, then not a square) true. 4) 'If it rains, the game is canceled. It rains.' → The game is canceled (Detachment). 5) 'If A then B; if B then C' → If A then C (Syllogism). 6) Two-column proof: 3(x − 2) = 15 → x − 2 = 5 or 3x − 6 = 15 (Distributive), 3x = 21 (Addition Prop.), x = 7 (Division Prop.). Score 1 point per item; item 3 and 6 worth 3.",
+   "days": [
+    {
+     "guide": "Show a pattern (sums of consecutive odd numbers: 1, 4, 9, 16) and have the student make a conjecture (inductive), then show how a counterexample disproves a false conjecture. Contrast with deductive reasoning from definitions.",
+     "questions": [
+      {
+       "q": "Conjecture: 'The square of any number is greater than the number.' Give a counterexample.",
+       "a": "1/2 (since (1/2)² = 1/4 < 1/2), or 1, or 0."
+      },
+      {
+       "q": "Is a conjecture from many examples proven?",
+       "a": "No — inductive reasoning suggests a conjecture but only a deductive proof establishes it."
+      }
+     ]
+    },
+    {
+     "guide": "Model rewriting statements in if-then form and then generating converse, inverse and contrapositive; the student marks each true or false with a counterexample when false. Note the contrapositive always has the same truth value as the original.",
+     "questions": [
+      {
+       "q": "Write the contrapositive of 'If two angles are vertical, then they are congruent.' Is it true?",
+       "a": "If two angles are not congruent, then they are not vertical angles. True."
+      },
+      {
+       "q": "Write the converse of 'If x = 3, then x² = 9.' Is it true?",
+       "a": "If x² = 9, then x = 3. False, since x could be −3."
+      }
+     ]
+    },
+    {
+     "guide": "Introduce the Law of Detachment (if p→q and p, then q) and the Law of Syllogism (p→q and q→r gives p→r) with silly and real examples, and have the student decide whether conclusions are valid.",
+     "questions": [
+      {
+       "q": "'If you finish chores, you get screen time. You got screen time.' Can you conclude you finished chores?",
+       "a": "No — that is affirming the conclusion; screen time could have another cause."
+      },
+      {
+       "q": "'If a shape is a square, it has four right angles. If a shape has four right angles, it is a rectangle.' What follows?",
+       "a": "If a shape is a square, it is a rectangle (Law of Syllogism)."
+      }
+     ]
+    },
+    {
+     "guide": "Model a two-column proof that solves 2x + 5 = 17 with a reason for every step (Given, Subtraction Prop. of Equality, Division Prop.). The student writes proofs for 4–5 equations, including one with the Distributive Property.",
+     "questions": [
+      {
+       "q": "Give the reasons: 5x − 4 = 21 → 5x = 25 → x = 5.",
+       "a": "Given; Addition Property of Equality; Division Property of Equality."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz from the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Which statement is logically equivalent to a conditional: its converse, inverse, or contrapositive?",
+       "a": "Its contrapositive."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 9,
+   "prep": "GeoGebra and protractor. Make a theorem reference sheet listing postulates the student may cite: Linear Pair Postulate, Corresponding Angles Postulate, and the definitions of congruent and supplementary angles.",
+   "misconceptions": [
+    "Citing a theorem's converse when using the theorem (e.g., using 'if lines are parallel...' to prove lines parallel). Ask, 'What do you know, and what are you trying to prove?'",
+    "Assuming all angle pairs formed by a transversal are congruent; consecutive (same-side) interior angles are supplementary."
+   ],
+   "assessment_key": "Proof quiz: Proof 1 (vertical angles congruent) — Statements/reasons: ∠1 and ∠2 are a linear pair, ∠2 and ∠3 are a linear pair (definition/diagram); m∠1 + m∠2 = 180, m∠2 + m∠3 = 180 (Linear Pair Postulate); m∠1 + m∠2 = m∠2 + m∠3 (Substitution); m∠1 = m∠3 (Subtraction); ∠1 ≅ ∠3 (def. of congruent). Proof 2 (lines parallel ⇒ alternate interior congruent) — ℓ ∥ m (Given); ∠1 ≅ ∠5 corresponding (Corresponding Angles Postulate); ∠5 ≅ ∠3 vertical (Vertical Angles Theorem); ∠1 ≅ ∠3 (Transitive). Rubric each proof: 4 = every statement valid with correct reason, logical order; 3 = one missing/incorrect reason; 2 = key step missing; 1 = statements without reasons.",
+   "days": [
+    {
+     "guide": "Label two intersecting lines with ∠1–∠4. Model the proof statement by statement, then have the student write it again from a blank page.",
+     "questions": [
+      {
+       "q": "What postulate gives m∠1 + m∠2 = 180° when they form a linear pair?",
+       "a": "The Linear Pair Postulate (angles that form a linear pair are supplementary)."
+      }
+     ]
+    },
+    {
+     "guide": "In GeoGebra draw two parallel lines and a transversal; measure all 8 angles and drag the transversal. The student records which pairs stay congruent and which stay supplementary.",
+     "questions": [
+      {
+       "q": "Two parallel lines are cut by a transversal; one angle is 65°. Name the measure of its alternate interior, corresponding, and same-side interior angles.",
+       "a": "Alternate interior 65°, corresponding 65°, same-side interior 115°."
+      }
+     ]
+    },
+    {
+     "guide": "Prove alternate interior angles congruent using the corresponding angles postulate and vertical angles. The student then proves same-side interior angles are supplementary.",
+     "questions": [
+      {
+       "q": "Outline why same-side interior angles are supplementary.",
+       "a": "One of them forms a linear pair with an angle that is congruent (alternate interior) to the other, so their measures add to 180°."
+      }
+     ]
+    },
+    {
+     "guide": "Explain converses: congruent corresponding, alternate interior, or alternate exterior angles (or supplementary same-side interior) prove lines parallel. Solve algebra problems where the student finds x that makes lines parallel.",
+     "questions": [
+      {
+       "q": "Alternate interior angles are (3x + 10)° and (5x − 30)°. What x makes the lines parallel, and what is each angle?",
+       "a": "3x + 10 = 5x − 30 → x = 20; each angle is 70°."
+      },
+      {
+       "q": "Same-side interior angles are (2x)° and (x + 30)°. For what x are the lines parallel?",
+       "a": "3x + 30 = 180 → x = 50."
+      }
+     ]
+    },
+    {
+     "guide": "Give the two-proof quiz from the assessment key; the student works independently with the theorem reference sheet. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "What is the difference between a postulate and a theorem?",
+       "a": "A postulate is accepted without proof; a theorem is proven from definitions, postulates and earlier theorems."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 10,
+   "prep": "Patty paper, scissors, paper triangles to tear, GeoGebra, graph paper. Review what centroid, incenter and circumcenter are.",
+   "misconceptions": [
+    "Confusing which segments meet at which center. Memory aid: medians → centroid; angle bisectors → incenter (center of inscribed circle); perpendicular bisectors → circumcenter.",
+    "Thinking the exterior angle equals the adjacent interior angle. The exterior angle equals the sum of the two remote interior angles."
+   ],
+   "assessment_key": "Quiz with answers: 1) Two angles of a triangle are 48° and 77°; the third → 55°. 2) Remote interior angles 40° and 65°; the exterior angle → 105°. 3) An isosceles triangle's vertex angle is 40°; base angles → 70° each. 4) A midsegment is parallel to a side of length 18; its length → 9. 5) Median from vertex A is 12 long; distance from A to the centroid → 8. 6) Which center is equidistant from the three vertices? → circumcenter. From the three sides? → incenter. 7) Short proof: triangle angle sum using a line through one vertex parallel to the opposite side (alternate interior angles + straight angle = 180°).",
+   "days": [
+    {
+     "guide": "Have the student tear the three corners of a paper triangle and line them up to form a straight angle. Then model the formal proof: draw a line through one vertex parallel to the opposite side and use alternate interior angles. Apply the Exterior Angle Theorem.",
+     "questions": [
+      {
+       "q": "A triangle has angles (2x)°, (3x)° and (4x)°. Find each angle.",
+       "a": "9x = 180 → x = 20; angles 40°, 60°, 80°."
+      },
+      {
+       "q": "An exterior angle measures 130° and one remote interior angle is 55°. Find the other remote interior angle.",
+       "a": "75°."
+      }
+     ]
+    },
+    {
+     "guide": "Fold an isosceles triangle along its line of symmetry to show base angles match. Then write the proof: draw the bisector of the vertex angle and use SAS to get congruent triangles, so the base angles are congruent by CPCTC.",
+     "questions": [
+      {
+       "q": "In isosceles △ABC with AB = AC, m∠B = 52°. Find m∠A.",
+       "a": "m∠C = 52°, so m∠A = 180 − 104 = 76°."
+      }
+     ]
+    },
+    {
+     "guide": "Place a triangle at A(0, 0), B(2a, 0), C(2b, 2c). Find the midpoints of AC and BC, then show the segment joining them has slope 0 (parallel to AB) and length a, half of AB.",
+     "questions": [
+      {
+       "q": "In the coordinate proof, why use 2a, 2b, 2c instead of a, b, c?",
+       "a": "So the midpoints come out without fractions: midpoints (b, c) and (a + b, c)."
+      },
+      {
+       "q": "A midsegment of a triangle is 7.5 cm. How long is the parallel side?",
+       "a": "15 cm."
+      }
+     ]
+    },
+    {
+     "guide": "Construct medians, angle bisectors and perpendicular bisectors of one triangle each (or in GeoGebra) and locate the centroid, incenter and circumcenter. Balance the cardboard triangle on a pencil at the centroid.",
+     "questions": [
+      {
+       "q": "Which point of concurrency is the center of the circle that passes through all three vertices?",
+       "a": "The circumcenter (intersection of the perpendicular bisectors)."
+      },
+      {
+       "q": "The centroid divides each median in what ratio?",
+       "a": "2:1, with the longer part from the vertex to the centroid."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Where is the circumcenter of a right triangle?",
+       "a": "At the midpoint of the hypotenuse."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 11,
+   "prep": "Print or draw proof templates (two columns, numbered). Make a list of reasons: Given, Reflexive Property, Vertical Angles Theorem, definitions of midpoint/bisector, alternate interior angles, SSS, SAS, ASA, AAS, HL, CPCTC.",
+   "misconceptions": [
+    "Using CPCTC before proving the triangles congruent. CPCTC can only be used after a congruence statement.",
+    "Forgetting the shared side (Reflexive Property) or vertical angles in a diagram. Teach the student to mark the diagram with every given, then look for 'free' parts."
+   ],
+   "assessment_key": "Unit 3 test key: 1) Contrapositive of 'If an angle measures 30°, it is acute' → If an angle is not acute, then it does not measure 30° (true). 2) Lines parallel; alternate interior angles (4x + 6)° and (6x − 20)° → x = 13, 58°. 3) Proof: Given AB ≅ CB and D the midpoint of AC, prove △ABD ≅ △CBD → AD ≅ CD (def. midpoint), BD ≅ BD (Reflexive), SSS. 4) Proof: Given AB ∥ DC and AB ≅ DC (quadrilateral ABCD with diagonal AC), prove △ABC ≅ △CDA → ∠BAC ≅ ∠DCA (alternate interior), AC ≅ CA (Reflexive), SAS. 5) Then prove BC ≅ DA → CPCTC. 6) Which criterion: two angles and a non-included side → AAS; right triangles with congruent hypotenuses and one leg → HL. Proof rubric as in Week 9 (4-point scale).",
+   "days": [
+    {
+     "guide": "Model one SSS and one SAS proof, marking the diagram with tick marks and arcs first. The student writes the other two, saying the reason for each line aloud.",
+     "questions": [
+      {
+       "q": "Given: M is the midpoint of AB, and PM ⊥ AB. Prove △PMA ≅ △PMB. Which criterion?",
+       "a": "SAS: AM ≅ BM (midpoint), ∠PMA ≅ ∠PMB (both right angles), PM ≅ PM (Reflexive)."
+      }
+     ]
+    },
+    {
+     "guide": "Introduce AAS (it follows from ASA because the third angles match) and HL for right triangles. Show again why SSA fails except in the HL case.",
+     "questions": [
+      {
+       "q": "Two right triangles have congruent hypotenuses and one pair of congruent legs. Are they congruent? Why?",
+       "a": "Yes, by HL (Hypotenuse-Leg)."
+      },
+      {
+       "q": "Two triangles share two angles and a side that is not between them. Which criterion applies?",
+       "a": "AAS."
+      }
+     ]
+    },
+    {
+     "guide": "Model a proof that ends by proving a segment or angle congruent: first prove the triangles congruent, then write CPCTC. The student does three such proofs.",
+     "questions": [
+      {
+       "q": "In a proof, AC and BD bisect each other at E. What triangles can be proven congruent and what follows?",
+       "a": "△AEB ≅ △CED by SAS (bisected segments and vertical angles), so AB ≅ CD by CPCTC (and ∠A ≅ ∠C, which makes AB ∥ CD)."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student trace the overlapping figure and redraw the two triangles separately, transferring the given marks. Then complete two proofs.",
+     "questions": [
+      {
+       "q": "Why redraw overlapping triangles separately?",
+       "a": "To see clearly which sides and angles correspond and which part (often a shared angle or side) belongs to both."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test from the assessment key; allow the reasons list but not worked examples. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Can you use HL on triangles that are not right triangles?",
+       "a": "No — HL applies only to right triangles."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 12,
+   "prep": "GeoGebra, graph paper. Prepare cut-out quadrilaterals (or GeoGebra files) for the parallelogram tests.",
+   "misconceptions": [
+    "Using (n − 2)·180 for each interior angle rather than the sum. Divide by n for one angle of a regular polygon.",
+    "Thinking a quadrilateral with one pair of parallel sides and the other pair congruent must be a parallelogram (an isosceles trapezoid is a counterexample)."
+   ],
+   "assessment_key": "Quiz with answers: 1) Sum of interior angles of a hexagon → 720°. 2) Each interior angle of a regular octagon → 135°; each exterior → 45°. 3) A regular polygon has exterior angles of 24°; number of sides → 15. 4) In parallelogram ABCD, m∠A = 65°; find ∠B, ∠C, ∠D → 115°, 65°, 115°. 5) Diagonals of parallelogram bisect each other; AE = 3x − 2, EC = x + 8 → x = 5, AC = 26. 6) Is a quadrilateral with both pairs of opposite angles congruent a parallelogram? → Yes. 7) Short proof: opposite sides of a parallelogram are congruent (draw diagonal; alternate interior angles; ASA; CPCTC).",
+   "days": [
+    {
+     "guide": "Have the student split polygons into triangles from one vertex to find the pattern (n − 2)·180°. Then compute interior and exterior angles of regular polygons, noting exterior angles always sum to 360°.",
+     "questions": [
+      {
+       "q": "Find the interior angle sum of a decagon and one interior angle of a regular decagon.",
+       "a": "(10 − 2)·180 = 1440°; 1440 ÷ 10 = 144°."
+      },
+      {
+       "q": "Each exterior angle of a regular polygon is 30°. How many sides?",
+       "a": "360 ÷ 30 = 12 sides."
+      }
+     ]
+    },
+    {
+     "guide": "Draw diagonal AC in parallelogram ABCD. Use the parallel sides to find two pairs of alternate interior angles, AC as a shared side, ASA for congruent triangles, and CPCTC for opposite sides.",
+     "questions": [
+      {
+       "q": "In parallelogram ABCD, AB = 2x + 3 and CD = 5x − 9. Find AB.",
+       "a": "2x + 3 = 5x − 9 → x = 4, AB = 11."
+      },
+      {
+       "q": "Consecutive angles of a parallelogram are (3y)° and (2y + 30)°. Find y.",
+       "a": "They are supplementary: 5y + 30 = 180 → y = 30."
+      }
+     ]
+    },
+    {
+     "guide": "Prove that the diagonals bisect each other using the triangles formed at the intersection (ASA with alternate interior angles and opposite sides). The student practices algebra problems with diagonals.",
+     "questions": [
+      {
+       "q": "Diagonals of parallelogram PQRS meet at T. PT = x + 4, TR = 2x − 1. Find PR.",
+       "a": "x + 4 = 2x − 1 → x = 5, PT = 9, PR = 18."
+      }
+     ]
+    },
+    {
+     "guide": "List the five tests: both pairs opposite sides parallel; both pairs opposite sides congruent; both pairs opposite angles congruent; diagonals bisect each other; one pair of sides both parallel and congruent. The student decides for several given quadrilaterals and cites the test.",
+     "questions": [
+      {
+       "q": "Quadrilateral has vertices (0, 0), (4, 1), (5, 4), (1, 3). Is it a parallelogram?",
+       "a": "Yes: slopes of opposite sides are 1/4 and 1/4, and 3 and 3, so both pairs are parallel ; also the diagonals share the midpoint (2.5, 2)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Must a parallelogram's diagonals be congruent?",
+       "a": "No — only in a rectangle."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 13,
+   "prep": "GeoGebra, paper for a large Venn diagram/hierarchy, colored pencils.",
+   "misconceptions": [
+    "Thinking a square is not a rectangle or rhombus. Use definitions: a square has four right angles (rectangle) and four congruent sides (rhombus).",
+    "Thinking kite diagonals bisect each other. Only one diagonal is bisected (the one between the vertices where unequal sides meet); they are perpendicular."
+   ],
+   "assessment_key": "Quiz with answers: 1) Rectangle diagonals AC = 3x + 4, BD = 5x − 8 → x = 6, each 22. 2) Rhombus with diagonals 10 and 24 → side = √(5² + 12²) = 13. 3) In a rhombus, m∠ABD = 35° where BD is a diagonal → m∠ABC = 70°. 4) Trapezoid bases 10 and 16 → midsegment 13. 5) Kite diagonals → perpendicular, one bisects the other. 6) True/False: every square is a rhombus (T); every rhombus is a square (F); every rectangle is a parallelogram (T); a trapezoid is a parallelogram (F, under the exclusive definition). Hierarchy rubric: 3 = quadrilateral → parallelogram/trapezoid/kite; parallelogram → rectangle and rhombus; square in both; each placement justified by a definition; 2 = one misplacement; 1 = several.",
+   "days": [
+    {
+     "guide": "Have the student prove rectangle diagonals congruent with SAS (two right angles, opposite sides congruent, shared side). Solve algebra problems using equal diagonals.",
+     "questions": [
+      {
+       "q": "Rectangle ABCD has diagonal AC = 2x + 6 and BD = 4x − 10. Find x and AC.",
+       "a": "2x + 6 = 4x − 10 → x = 8, AC = 22."
+      }
+     ]
+    },
+    {
+     "guide": "Prove rhombus diagonals are perpendicular using SSS on the four small triangles, and that they bisect the vertex angles. Practice problems combining the Pythagorean theorem with diagonals.",
+     "questions": [
+      {
+       "q": "A rhombus has diagonals 12 and 16. Find a side length.",
+       "a": "Half-diagonals 6 and 8, so side = 10."
+      },
+      {
+       "q": "Why is every square a rhombus?",
+       "a": "A square has four congruent sides, which is the definition of a rhombus."
+      }
+     ]
+    },
+    {
+     "guide": "In GeoGebra, measure a trapezoid's midsegment and compare to the bases; measure the diagonals of a kite. The student writes conjectures.",
+     "questions": [
+      {
+       "q": "A trapezoid's midsegment is 11 and one base is 8. Find the other base.",
+       "a": "(8 + b)/2 = 11 → b = 14."
+      },
+      {
+       "q": "Name a property of an isosceles trapezoid's diagonals.",
+       "a": "They are congruent."
+      }
+     ]
+    },
+    {
+     "guide": "Build the hierarchy diagram together, asking 'Is every ___ a ___?' for each link. The student justifies each placement with a definition.",
+     "questions": [
+      {
+       "q": "Is every rectangle a square? Is every square a rectangle?",
+       "a": "No; yes."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key and check the hierarchy diagram. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Which quadrilaterals have perpendicular diagonals?",
+       "a": "Rhombi (including squares) and kites."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 14,
+   "prep": "Graph paper, Desmos, calculator. Prepare the Unit 4 test from the assessment key.",
+   "misconceptions": [
+    "Making the perpendicular slope only negative or only reciprocal. Both: slope 2/3 → −3/2.",
+    "Using a single property to classify (e.g., 4 equal sides ⇒ square). Students must also show right angles (perpendicular slopes) to prove a square."
+   ],
+   "assessment_key": "Unit 4 test with answers: 1) Slope of the line through (1, 2) and (4, 8) → 2; perpendicular slope → −1/2. 2) Line parallel to y = 2x + 1 through (3, 4) → y = 2x − 2. 3) Line perpendicular to y = 2x + 1 through (3, 4) → y = −½x + 5.5. 4) Prove A(0, 0), B(4, 0), C(4, 3), D(0, 3) is a rectangle → opposite sides parallel (slopes 0, 0, undefined, undefined) and adjacent sides perpendicular (horizontal and vertical). 5) Classify P(0, 0), Q(3, 4), R(8, 4), S(5, 0) → all sides 5, diagonals PR = √80 and QS = √20 unequal → rhombus, not a square. 6) Area of triangle (0, 0), (6, 0), (2, 5) → 15. 7) Exterior angle of a regular pentagon → 72°. Mastery 80%.",
+   "days": [
+    {
+     "guide": "Rotate a line 90° in GeoGebra or on graph paper: a slope triangle with run a and rise b becomes run −b and rise a, so m becomes −a/b. Have the student verify with several examples.",
+     "questions": [
+      {
+       "q": "Line ℓ has slope 3/4. Give the slope of a parallel line and a perpendicular line.",
+       "a": "Parallel 3/4; perpendicular −4/3."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing lines in point-slope form, then converting to slope-intercept. The student writes several and checks with Desmos.",
+     "questions": [
+      {
+       "q": "Write the line parallel to y = −3x + 2 through (1, 5).",
+       "a": "y − 5 = −3(x − 1) → y = −3x + 8."
+      },
+      {
+       "q": "Write the line perpendicular to y = ½x − 4 through (2, 1).",
+       "a": "Slope −2: y − 1 = −2(x − 2) → y = −2x + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Show the checklist: compute all side lengths (distance) and slopes. Rectangle: parallelogram + perpendicular sides; rhombus: 4 equal sides; square: both. The student classifies several quadrilaterals with full justification.",
+     "questions": [
+      {
+       "q": "Classify A(1, 1), B(4, 2), C(3, 5), D(0, 4).",
+       "a": "Slopes AB = 1/3, BC = −3, CD = 1/3, DA = −3, so adjacent sides are perpendicular; lengths all √10. It is a square."
+      }
+     ]
+    },
+    {
+     "guide": "For an irregular polygon, show the 'box' method: draw a rectangle around it and subtract right triangles, or split it into triangles. The student finds areas of three polygons.",
+     "questions": [
+      {
+       "q": "Find the area of the triangle with vertices (1, 1), (5, 1), (3, 6).",
+       "a": "Base 4, height 5, area = ½·4·5 = 10."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test from the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "How do you show two segments are perpendicular on the coordinate plane?",
+       "a": "Show their slopes are negative reciprocals (product −1), or one is horizontal and the other vertical."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 15,
+   "prep": "Ruler, graph paper, GeoGebra, colored pencils.",
+   "misconceptions": [
+    "Measuring the scale factor from the original vertex to the image vertex instead of from the center. All distances in a dilation are measured from the center.",
+    "Applying (kx, ky) when the center is not the origin. Subtract the center, scale, then add the center back."
+   ],
+   "assessment_key": "Quiz with answers: 1) Dilate (4, −2) by k = ½ about the origin → (2, −1). 2) Dilate (3, 4) by k = 2 about (1, 1) → (5, 7). 3) A segment of length 6 is dilated by k = 1.5 → 9. 4) A dilation maps line y = 2x + 3 (not through the center at origin) by k = 2 → y = 2x + 6, a parallel line. 5) A'(6, 9) is the image of A(2, 3) about the origin; k → 3. 6) Describe a similarity transformation mapping △ABC with A(0, 0), B(2, 0), C(0, 1) to A'(1, 1), B'(5, 1), C'(1, 3) → dilate by 2 about the origin, then translate ⟨1, 1⟩.",
+   "days": [
+    {
+     "guide": "Choose a center O outside a triangle. The student measures OA, multiplies by 2 (and ½), and marks A' on ray OA; repeat for B and C. Compare side lengths and angles of image and pre-image.",
+     "questions": [
+      {
+       "q": "If OA = 3 cm and the scale factor is 2, how far is A' from O?",
+       "a": "6 cm, on ray OA."
+      },
+      {
+       "q": "Does a dilation preserve angle measure? Side length?",
+       "a": "Angle measure yes; side lengths are multiplied by k."
+      }
+     ]
+    },
+    {
+     "guide": "In GeoGebra dilate a line not through the center and a line through the center. The student observes the first is parallel and the second maps to itself, and lengths scale by k.",
+     "questions": [
+      {
+       "q": "What happens to a line through the center of dilation?",
+       "a": "It maps onto itself."
+      }
+     ]
+    },
+    {
+     "guide": "Practice the origin rule (kx, ky), then dilations about another center (subtract center, scale, add back).",
+     "questions": [
+      {
+       "q": "Dilate (−6, 3) by k = 1/3 about the origin.",
+       "a": "(−2, 1)."
+      },
+      {
+       "q": "Dilate (5, 2) by k = 3 about (2, 0).",
+       "a": "(5 − 2, 2 − 0) = (3, 2) → (9, 6) → add back → (11, 6)."
+      }
+     ]
+    },
+    {
+     "guide": "Define similarity as a dilation followed by rigid motions. Given pairs of similar figures, the student finds the scale factor from corresponding sides and then the motions.",
+     "questions": [
+      {
+       "q": "Two similar triangles have corresponding sides 4 and 10. What is the scale factor from small to large?",
+       "a": "10/4 = 2.5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "If k is between 0 and 1, is the dilation an enlargement or reduction?",
+       "a": "A reduction."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 16,
+   "prep": "Small mirror, tape measure, a sunny day for shadows (Day 3), notebook for lab report. Pick a tree or flagpole outdoors.",
+   "misconceptions": [
+    "Mismatching corresponding sides in proportions. Write the similarity statement first, then set up ratios in the same order.",
+    "Thinking SSA works for similarity. Valid criteria: AA, SSS~, SAS~ (with the included angle)."
+   ],
+   "assessment_key": "Quiz with answers: 1) △ABC has angles 50° and 60°; △DEF has 60° and 70°. Similar? → Yes, AA (third angles 70° and 50°). 2) Sides 6, 8, 10 and 9, 12, 15 → similar SSS~, k = 1.5. 3) △ABC ~ △DEF, AB = 8, DE = 12, BC = 10; EF → 15. 4) Sides 4 and 6 with included 40°, and 6 and 9 with included 40° → similar by SAS~. Lab report rubric: 4 = diagram, measurements with units, proportions correctly set up, both methods computed, comparison and error sources discussed; 3 = minor calculation slips; 2 = only one method or missing diagram; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Explain: dilate one triangle so a side matches; with two equal angle pairs, the dilated copy is congruent to the other by ASA, so the triangles are similar. The student finds missing sides in AA-similar triangles.",
+     "questions": [
+      {
+       "q": "Two triangles each have a 35° angle and a 90° angle. Are they similar?",
+       "a": "Yes, by AA."
+      }
+     ]
+    },
+    {
+     "guide": "Model checking SSS~ (all side ratios equal) and SAS~ (two side ratios equal and included angles congruent). The student writes similarity statements in correct order.",
+     "questions": [
+      {
+       "q": "Are triangles with sides 5, 7, 9 and 10, 14, 17 similar?",
+       "a": "No — 10/5 = 2 and 14/7 = 2, but 17/9 ≠ 2."
+      }
+     ]
+    },
+    {
+     "guide": "Mirror method: place a mirror on the ground, step back until you see the treetop, measure eye height and both distances. Shadow method: measure your shadow and the tree's shadow at the same time. Set up proportions for each.",
+     "questions": [
+      {
+       "q": "Eye height 1.6 m, you stand 2 m from the mirror, the mirror is 10 m from the tree. Tree height?",
+       "a": "h/10 = 1.6/2 → h = 8 m."
+      },
+      {
+       "q": "A 1.8 m person casts a 1.2 m shadow; a tree casts a 6 m shadow. Tree height?",
+       "a": "h/6 = 1.8/1.2 → h = 9 m."
+      }
+     ]
+    },
+    {
+     "guide": "Model one similarity proof (e.g., parallel line creating AA through corresponding angles). The student writes a second proof independently.",
+     "questions": [
+      {
+       "q": "In △ABC, DE ∥ BC with D on AB and E on AC. Why is △ADE ~ △ABC?",
+       "a": "∠A is shared and ∠ADE ≅ ∠ABC (corresponding angles), so AA similarity."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the lab report; score both with the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "If two triangles are similar with scale factor 3, how do their perimeters compare?",
+       "a": "The larger perimeter is 3 times the smaller."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 17,
+   "prep": "GeoGebra, centimeter cubes or sugar cubes (Day 5), graph paper.",
+   "misconceptions": [
+    "Setting up side-splitter proportions using the whole side in one ratio and a part in the other inconsistently. Use part/part = part/part.",
+    "Assuming area scales by k (not k²). Build 2×2×2 cubes from unit cubes to see area ×4 and volume ×8."
+   ],
+   "assessment_key": "Exit tickets with answers: Day 1) AD = 4, DB = 6, AE = 5, DE ∥ BC → EC = 7.5. Day 2) Angle bisector from A in triangle with AB = 6, AC = 9, BC = 10 → BD = 4, DC = 6. Day 3) Altitude to hypotenuse splits it into 4 and 9 → altitude 6. Day 5) Scale factor 3 → perimeter ×3, area ×9, volume ×27. Proof write-up rubric (Pythagorean theorem via similar triangles): 4 = states the three similar triangles, writes a/c = x/a and b/c = y/b, gets a² = cx and b² = cy, adds to a² + b² = c(x + y) = c²; 3 = one step unjustified; 2 = similarity named but algebra incomplete; 1 = only the statement.",
+   "days": [
+    {
+     "guide": "Use AA similarity of △ADE and △ABC (DE ∥ BC) to derive AD/DB = AE/EC. The student solves several side-splitter problems.",
+     "questions": [
+      {
+       "q": "DE ∥ BC, AD = 4, DB = 6, AE = 5. Find EC.",
+       "a": "4/6 = 5/EC → EC = 7.5."
+      }
+     ]
+    },
+    {
+     "guide": "State the theorem: an angle bisector divides the opposite side in the same ratio as the adjacent sides. Work examples and have the student check in GeoGebra.",
+     "questions": [
+      {
+       "q": "In △ABC, AD bisects ∠A, AB = 6, AC = 9, BC = 10. Find BD and DC.",
+       "a": "BD/DC = 6/9 = 2/3; BD = 4, DC = 6."
+      }
+     ]
+    },
+    {
+     "guide": "Draw the altitude to the hypotenuse and cut out the three triangles to show they are similar. Derive the geometric mean relationships: altitude² = product of hypotenuse segments; each leg² = hypotenuse × adjacent segment.",
+     "questions": [
+      {
+       "q": "The altitude to the hypotenuse divides it into segments of 4 and 9. Find the altitude.",
+       "a": "h² = 4·9 = 36 → h = 6."
+      },
+      {
+       "q": "Hypotenuse 13 is split into 4 and 9 (with 4 adjacent to leg a). Find a.",
+       "a": "a² = 13·4 = 52 → a = 2√13 ≈ 7.2."
+      }
+     ]
+    },
+    {
+     "guide": "Use the three similar triangles to prove a² + b² = c², then show a dissection (four copies of the triangle inside a square). The student writes the similarity proof.",
+     "questions": [
+      {
+       "q": "In the similarity proof, the hypotenuse is split into x and y. What does a² + b² equal?",
+       "a": "cx + cy = c(x + y) = c·c = c²."
+      }
+     ]
+    },
+    {
+     "guide": "Build cubes of side 1, 2 and 3 from unit cubes; record perimeter of one face, surface area and volume in a table. The student generalizes to k, k², k³.",
+     "questions": [
+      {
+       "q": "A model car is scaled by 1/20. Its paint area compares how to the real car's?",
+       "a": "(1/20)² = 1/400 of the real paint area."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 18,
+   "prep": "Assemble a review packet (Khan Academy unit tests or CK-12 practice) covering Units 1–5, plus the semester exam described in the assessment key. Have compass, protractor, calculator.",
+   "misconceptions": [
+    "Rushing proofs without marking the diagram. Require marking givens first on every review proof.",
+    "Over-relying on memorized rules for rotations without sketching. Encourage a quick sketch to check every coordinate answer."
+   ],
+   "assessment_key": "Semester 1 exam (sample items, 1 point unless noted): 1) Midpoint of (−2, 8) and (6, 0) → (2, 4). 2) Distance (−1, −1) to (5, 7) → 10. 3) Rotate (3, −4) 90° counterclockwise → (4, 3). 4) Reflect (5, 2) over y = x → (2, 5). 5) Supplement of 3x when x = 25 → 105°. 6) Interior angle of a regular 12-gon → 150°. 7) Rhombus diagonals 10 and 24 → side 13. 8) Line ⊥ to y = −4x + 1 through (0, 3) → y = ¼x + 3. 9) △ABC ~ △DEF, AB = 5, DE = 15, AC = 7 → DF = 21. 10) Shadow problem: 2 m pole, 3 m shadow; building shadow 30 m → 20 m. 11) Proof (4 pts): parallelogram opposite sides congruent. 12) Proof (4 pts): given AB ≅ AD and AC bisects ∠BAD, prove △ABC ≅ △ADC (SAS with reflexive AC). Grade: 90%+ A, 80% B, 70% C.",
+   "days": [
+    {
+     "guide": "Work mixed transformation and congruence problems; the student works first, and you check each set of 5 before continuing.",
+     "questions": [
+      {
+       "q": "Rotate (−1, 6) 180° about the origin, then reflect over the x-axis.",
+       "a": "(1, −6), then (1, 6)."
+      }
+     ]
+    },
+    {
+     "guide": "The student completes four proofs from Units 3–4 with the reasons list; discuss one aloud as if teaching it to you.",
+     "questions": [
+      {
+       "q": "In parallelogram ABCD, what reason justifies ∠BAC ≅ ∠DCA when AC is a diagonal?",
+       "a": "AB ∥ DC, so they are alternate interior angles (congruent)."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed similarity practice including side splitter and indirect measurement problems.",
+     "questions": [
+      {
+       "q": "A 6-ft person casts a 4-ft shadow when a flagpole casts a 22-ft shadow. How tall is the pole?",
+       "a": "6/4 = h/22 → h = 33 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Give the semester exam (about 90 minutes) from the assessment key. No notes; calculator and tools allowed. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "(Self-check after exam) Which topic felt hardest, and what's one problem type to review?",
+       "a": "Answers vary; the student names a specific skill (e.g., overlapping-triangle proofs)."
+      }
+     ]
+    },
+    {
+     "guide": "Return the graded exam. For each missed item the student writes what went wrong and redoes the problem correctly.",
+     "questions": [
+      {
+       "q": "What is the difference between a careless error and a concept error?",
+       "a": "A careless error is a slip (arithmetic, sign) on a skill you know; a concept error is misunderstanding the idea, which needs reteaching."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 19,
+   "prep": "Square tiles or graph paper, scientific calculator. Know √2 ≈ 1.414 and √3 ≈ 1.732.",
+   "misconceptions": [
+    "Using a² + b² = c² with c as a leg. The hypotenuse (longest side, opposite the right angle) is always c.",
+    "Mixing up the 30-60-90 ratios: the short leg is opposite 30°, the hypotenuse is twice the short leg, the long leg is short leg × √3."
+   ],
+   "assessment_key": "Quiz with answers: 1) Legs 9 and 12 → hypotenuse 15. 2) Ladder 13 ft, base 5 ft from wall → reaches 12 ft. 3) Classify 6, 8, 11 → 121 > 100 → obtuse. 4) 7, 24, 25 → right. 5) 45-45-90 with leg 5 → hypotenuse 5√2 ≈ 7.07. 6) 45-45-90 with hypotenuse 10 → legs 5√2 ≈ 7.07. 7) 30-60-90 with short leg 4 → long leg 4√3 ≈ 6.93, hypotenuse 8. 8) 30-60-90 with hypotenuse 14 → short leg 7, long leg 7√3 ≈ 12.12.",
+   "days": [
+    {
+     "guide": "Review the theorem with a tile square-on-each-side model, then solve applied problems: draw a sketch, label the right angle and hypotenuse, write the equation.",
+     "questions": [
+      {
+       "q": "A 13-ft ladder's base is 5 ft from a wall. How high up the wall does it reach?",
+       "a": "√(169 − 25) = √144 = 12 ft."
+      },
+      {
+       "q": "A TV screen is 32 in wide and 18 in tall. What is the diagonal?",
+       "a": "√(1024 + 324) = √1348 ≈ 36.7 in."
+      }
+     ]
+    },
+    {
+     "guide": "Teach: if c² = a² + b² right; c² > a² + b² obtuse; c² < a² + b² acute (c longest). The student classifies a list of triangles.",
+     "questions": [
+      {
+       "q": "Classify a triangle with sides 6, 8, 11.",
+       "a": "121 > 36 + 64 = 100, so obtuse."
+      },
+      {
+       "q": "Classify sides 5, 6, 7.",
+       "a": "49 < 25 + 36 = 61, so acute."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a square with side 1 and its diagonal: √(1 + 1) = √2. Generalize to leg x → hypotenuse x√2, and practice both directions.",
+     "questions": [
+      {
+       "q": "A square has side 8. Find its diagonal.",
+       "a": "8√2 ≈ 11.31."
+      },
+      {
+       "q": "A 45-45-90 triangle has hypotenuse 6. Find a leg.",
+       "a": "6/√2 = 3√2 ≈ 4.24."
+      }
+     ]
+    },
+    {
+     "guide": "Cut an equilateral triangle of side 2 in half: short leg 1, hypotenuse 2, long leg √3. Generalize and practice.",
+     "questions": [
+      {
+       "q": "In a 30-60-90 triangle the long leg is 9. Find the short leg and hypotenuse.",
+       "a": "Short leg 9/√3 = 3√3 ≈ 5.20; hypotenuse 6√3 ≈ 10.39."
+      },
+      {
+       "q": "Find the height of an equilateral triangle with side 10.",
+       "a": "5√3 ≈ 8.66."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Is a triangle with sides 8, 15, 17 a right triangle?",
+       "a": "Yes: 64 + 225 = 289 = 17²."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 20,
+   "prep": "Protractor, ruler, scientific calculator set to DEGREE mode (check this first!).",
+   "misconceptions": [
+    "Calculator in radian mode. sin 30 should be 0.5; if it shows −0.988, switch to degrees.",
+    "Labeling 'opposite' and 'adjacent' without reference to an angle. They depend on which acute angle you are using."
+   ],
+   "assessment_key": "Quiz with answers: 1) Right triangle with legs 3 (opposite A) and 4, hypotenuse 5: sin A = 3/5, cos A = 4/5, tan A = 3/4. 2) sin 35° ≈ 0.574, cos 35° ≈ 0.819, tan 35° ≈ 0.700. 3) If sin x = 0.6, what is cos(90° − x)? → 0.6. 4) Solve sin(2x + 10)° = cos(x + 20)° → 3x + 30 = 90, x = 20. 5) Hypotenuse 20, angle 40°, opposite side → 20 sin 40° ≈ 12.86. 6) Adjacent 15, angle 28°, opposite → 15 tan 28° ≈ 7.98. 7) Opposite 7, angle 50°, hypotenuse → 7/sin 50° ≈ 9.14.",
+   "days": [
+    {
+     "guide": "The student draws three right triangles of different sizes with a 35° angle, measures sides, and computes opposite/hypotenuse, adjacent/hypotenuse, opposite/adjacent. Discuss why the ratios match (AA similarity).",
+     "questions": [
+      {
+       "q": "Why are the side ratios the same for every right triangle with a 35° angle?",
+       "a": "All such triangles are similar by AA, so corresponding side ratios are equal."
+      }
+     ]
+    },
+    {
+     "guide": "Teach SOH-CAH-TOA, label sides relative to an angle, and check values on the calculator.",
+     "questions": [
+      {
+       "q": "In right △ABC with right angle C, AC = 12, BC = 5, AB = 13. Find sin A, cos A, tan A.",
+       "a": "sin A = 5/13, cos A = 12/13, tan A = 5/12."
+      }
+     ]
+    },
+    {
+     "guide": "Show that the opposite side of one acute angle is the adjacent side of the other, so sin x = cos(90° − x). Solve equations using this.",
+     "questions": [
+      {
+       "q": "cos 72° equals the sine of which angle?",
+       "a": "sin 18°."
+      },
+      {
+       "q": "Solve sin(x + 15)° = cos(2x)°.",
+       "a": "x + 15 + 2x = 90 → x = 25."
+      }
+     ]
+    },
+    {
+     "guide": "Model the steps: label, choose the ratio that uses the known side and the unknown, set up an equation, and solve (note when the unknown is in the denominator). The student completes 12 problems.",
+     "questions": [
+      {
+       "q": "Angle 40°, hypotenuse 20. Find the opposite side.",
+       "a": "20 sin 40° ≈ 12.86."
+      },
+      {
+       "q": "Angle 55°, adjacent 10. Find the hypotenuse.",
+       "a": "10/cos 55° ≈ 17.43."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Can the sine of an acute angle be greater than 1? Why?",
+       "a": "No — the opposite side is always shorter than the hypotenuse."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 21,
+   "prep": "Clinometer materials: protractor, straw, string, a washer or nut, tape. Tape measure. Pick a building or tree with flat ground in front. Look up ADA ramp rule: maximum slope 1:12.",
+   "misconceptions": [
+    "Forgetting to add eye height in the clinometer lab. The trig calculation gives height above eye level.",
+    "Reading the clinometer angle directly when the string shows the complement. Depending on construction, the angle of elevation may be 90° minus the reading; test with a level line (should read 0° elevation)."
+   ],
+   "assessment_key": "Quiz with answers: 1) Opposite 5, adjacent 12 → angle tan⁻¹(5/12) ≈ 22.6°. 2) Solve right triangle with legs 7 and 10 → hypotenuse ≈ 12.21, angles ≈ 35.0° and 55.0°. 3) Angle of elevation 35° from 50 ft away, eye height 5 ft → 50 tan 35° + 5 ≈ 40.0 ft. 4) ADA ramp (1:12) rising 30 in → 360 in = 30 ft run; angle ≈ 4.76°. 5) A ship sails 40 km at bearing that makes 30° east of north; distance east → 40 sin 30° = 20 km. Lab report rubric: 4 = diagram with angle, distance, eye height; correct tan calculation; final height with units; 2+ error sources; 3 = minor slips; 2 = eye height omitted or wrong ratio; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Introduce sin⁻¹, cos⁻¹, tan⁻¹ as 'what angle has this ratio?' Model completely solving a right triangle (all sides and angles).",
+     "questions": [
+      {
+       "q": "Legs 7 and 10. Find the angle opposite the 7.",
+       "a": "tan⁻¹(7/10) ≈ 35.0°."
+      },
+      {
+       "q": "Hypotenuse 10, one leg 6. Find the angle opposite the 6.",
+       "a": "sin⁻¹(0.6) ≈ 36.9°."
+      }
+     ]
+    },
+    {
+     "guide": "Build the clinometer: tape a straw along the protractor's straight edge, hang the weighted string from the center hole. Test: sighting a level line should give 0° elevation. Make a conversion note if the string reads 90°.",
+     "questions": [
+      {
+       "q": "Your clinometer string reads 60° on the protractor (measured from the straw's side). What is the angle of elevation?",
+       "a": "90° − 60° = 30° (for a design where level reads 90°)."
+      }
+     ]
+    },
+    {
+     "guide": "Outside, the student measures distance to the base, sights the top, records the angle and eye height, and repeats 3 times to average. Compute height = d·tan θ + eye height and write the lab report.",
+     "questions": [
+      {
+       "q": "Standing 40 ft from a tree with angle of elevation 32° and eye height 5 ft, how tall is the tree?",
+       "a": "40 tan 32° + 5 ≈ 25.0 + 5 = 30.0 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Work ADA ramp problems (1 in rise per 12 in run maximum) and navigation problems using sketches.",
+     "questions": [
+      {
+       "q": "A porch is 24 inches high. What minimum ramp length (horizontal run) meets ADA?",
+       "a": "24 × 12 = 288 in = 24 ft."
+      },
+      {
+       "q": "A plane descends at 3° and is 1,500 ft high. How far horizontally until touchdown?",
+       "a": "1500/tan 3° ≈ 28,600 ft (about 5.4 miles)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Which inverse function do you use if you know the opposite and hypotenuse?",
+       "a": "Inverse sine, sin⁻¹(opposite/hypotenuse)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 22,
+   "prep": "Scientific calculator in degree mode; Unit 6 test from the assessment key. Review the formulas: Area = ½ab sin C; a/sin A = b/sin B = c/sin C; c² = a² + b² − 2ab cos C.",
+   "misconceptions": [
+    "Using the Law of Sines for SAS or SSS (it needs an angle-opposite-side pair). Choose Law of Cosines for SAS and SSS.",
+    "Missing the second solution in the SSA ambiguous case. If sin B gives angle B, also check 180° − B."
+   ],
+   "assessment_key": "Unit 6 test with answers: 1) sin 52° ≈ 0.788. 2) Right triangle angle 25°, hypotenuse 30 → opposite ≈ 12.68. 3) Angle of elevation for a 6 ft rise over 20 ft → tan⁻¹(0.3) ≈ 16.7°. 4) Area with a = 8, b = 10, C = 30° → 20. 5) A = 40°, B = 60°, a = 10 → b ≈ 13.47. 6) a = 7, b = 8, C = 60° → c = √57 ≈ 7.55. 7) Sides 5, 7, 8 → angle opposite 7 = 60°. 8) SSA: a = 6, b = 8, A = 30° → sin B = 0.667, B ≈ 41.8° or 138.2° (two triangles). Mastery 80%.",
+   "days": [
+    {
+     "guide": "Draw an oblique triangle, drop the altitude from B to side b; h = a sin C, so Area = ½ab sin C. The student applies it to several triangles.",
+     "questions": [
+      {
+       "q": "Find the area of a triangle with sides 8 and 10 and included angle 30°.",
+       "a": "½·8·10·sin 30° = 20."
+      },
+      {
+       "q": "Sides 12 and 15 with included 110°. Area?",
+       "a": "½·12·15·sin 110° ≈ 84.6."
+      }
+     ]
+    },
+    {
+     "guide": "Derive the Law of Sines from two expressions for the same altitude. Solve AAS/ASA problems, then show SSA can give 0, 1, or 2 triangles.",
+     "questions": [
+      {
+       "q": "A = 40°, B = 60°, a = 10. Find b.",
+       "a": "b = 10·sin 60°/sin 40° ≈ 13.47."
+      },
+      {
+       "q": "a = 6, b = 8, A = 30°. How many triangles?",
+       "a": "sin B = 8 sin 30°/6 ≈ 0.667 → B ≈ 41.8° or 138.2°; both work (138.2 + 30 < 180), so two triangles."
+      }
+     ]
+    },
+    {
+     "guide": "Derive the Law of Cosines by placing C at the origin and using the distance formula (or the altitude). Note it becomes the Pythagorean theorem when C = 90°.",
+     "questions": [
+      {
+       "q": "a = 7, b = 8, C = 60°. Find c.",
+       "a": "c² = 49 + 64 − 112·0.5 = 57 → c ≈ 7.55."
+      },
+      {
+       "q": "Sides 5, 7, 8. Find the angle opposite 7.",
+       "a": "cos θ = (25 + 64 − 49)/(2·5·8) = 0.5 → θ = 60°."
+      }
+     ]
+    },
+    {
+     "guide": "Give mixed surveying/navigation word problems; the student sketches, identifies given parts (SAS, SSS, ASA, AAS, SSA) and chooses the law.",
+     "questions": [
+      {
+       "q": "Two hikers leave camp; one walks 3 km, the other 5 km, with 70° between their paths. How far apart are they?",
+       "a": "c² = 9 + 25 − 30 cos 70° ≈ 34 − 10.26 = 23.74 → c ≈ 4.87 km."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test from the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "What does the Law of Cosines reduce to when the angle is 90°?",
+       "a": "The Pythagorean theorem, since cos 90° = 0."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 23,
+   "prep": "Compass, string, several circular objects (cans, plates), ruler, calculator.",
+   "misconceptions": [
+    "Confusing arc measure (degrees) with arc length (distance). Arc measure equals the central angle; arc length depends on the radius.",
+    "Naming a major arc with two letters. Major arcs and semicircles need three letters (e.g., arc ACB)."
+   ],
+   "assessment_key": "Quiz with answers: 1) Identify chord, secant, tangent, radius on a diagram (visual check). 2) Central angle 70° → minor arc 70°, major arc 290°. 3) Arcs AB = 80°, BC = 45° adjacent → arc ABC = 125°. 4) Radius 10, chord 6 units from center → chord length 16. 5) Two chords in the same circle are congruent; one's arc is 100° → the other's arc is 100°. 6) Why are all circles similar? → any circle can be translated to share a center with another and dilated by k = r₂/r₁.",
+   "days": [
+    {
+     "guide": "Take two circles with different centers and radii. Show the translation that moves center to center, then the dilation with k = r₂/r₁. The student writes the argument.",
+     "questions": [
+      {
+       "q": "Circle A has center (1, 2), radius 3; circle B has center (−4, 0), radius 6. Describe a similarity mapping A to B.",
+       "a": "Translate by ⟨−5, −2⟩, then dilate about (−4, 0) by scale factor 2."
+      }
+     ]
+    },
+    {
+     "guide": "Label diagrams with chord, diameter, radius, secant, tangent, point of tangency, central angle, minor/major arc, semicircle. Quiz with flash diagrams.",
+     "questions": [
+      {
+       "q": "What is the difference between a chord and a secant?",
+       "a": "A chord is a segment with both endpoints on the circle; a secant is a line that intersects the circle at two points."
+      }
+     ]
+    },
+    {
+     "guide": "Teach: minor arc = central angle; major arc = 360° − minor; arc addition. The student solves problems including algebraic central angles.",
+     "questions": [
+      {
+       "q": "Central angles of a circle are 2x, 3x, and 4x (filling the whole circle). Find each.",
+       "a": "9x = 360 → x = 40; angles 80°, 120°, 160°."
+      }
+     ]
+    },
+    {
+     "guide": "Prove congruent chords have congruent central angles (SSS with radii) and that a radius perpendicular to a chord bisects it (HL). Solve chord-distance problems.",
+     "questions": [
+      {
+       "q": "A circle has radius 10, and a chord is 6 units from the center. How long is the chord?",
+       "a": "Half-chord = √(100 − 36) = 8, so chord = 16."
+      },
+      {
+       "q": "A chord of length 24 is 5 units from the center. Find the radius.",
+       "a": "√(12² + 5²) = 13."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "A diameter is perpendicular to a chord. What does it do to the chord and its arc?",
+       "a": "It bisects the chord and its arc."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 24,
+   "prep": "GeoGebra, compass, straightedge.",
+   "misconceptions": [
+    "Using the full arc as the inscribed angle measure. Inscribed angle = half the intercepted arc; central angle = the arc.",
+    "Forgetting that a tangent meets the radius at 90°, which creates right triangles for the Pythagorean theorem."
+   ],
+   "assessment_key": "Quiz with answers: 1) Inscribed angle intercepts a 100° arc → 50°. 2) Inscribed angle 34° → arc 68°. 3) An inscribed angle intercepts a semicircle → 90°. 4) Quadrilateral inscribed in a circle, ∠A = 75°, ∠B = 110° → ∠C = 105°, ∠D = 70°. 5) External point P is 13 from center, radius 5 → tangent length 12. 6) Two tangents from P have lengths 2x + 3 and 5x − 9 → x = 4, length 11. Construction check: incircle (bisect two angles, perpendicular from incenter to a side for radius) and circumcircle (perpendicular bisectors of two sides, radius to a vertex), scored 3/2/1 as in Week 2.",
+   "days": [
+    {
+     "guide": "In GeoGebra, place an inscribed angle and a central angle on the same arc; drag and record. Then prove the case where one side of the inscribed angle is a diameter (isosceles triangle + exterior angle theorem).",
+     "questions": [
+      {
+       "q": "An inscribed angle intercepts an arc of 140°. What is its measure?",
+       "a": "70°."
+      },
+      {
+       "q": "Why is an angle inscribed in a semicircle a right angle?",
+       "a": "It intercepts a 180° arc, and half of 180° is 90°."
+      }
+     ]
+    },
+    {
+     "guide": "Show opposite angles of an inscribed quadrilateral intercept arcs that together make 360°, so the angles sum to 180°.",
+     "questions": [
+      {
+       "q": "Quadrilateral ABCD is inscribed; m∠A = (2x)°, m∠C = (x + 30)°. Find x.",
+       "a": "3x + 30 = 180 → x = 50."
+      }
+     ]
+    },
+    {
+     "guide": "Prove the radius-tangent relationship (shortest distance argument) and the two-tangent theorem (HL on two right triangles). Practice problems.",
+     "questions": [
+      {
+       "q": "Point P is 13 units from the center of a circle of radius 5. Find the length of a tangent from P.",
+       "a": "√(169 − 25) = 12."
+      },
+      {
+       "q": "Two tangent segments from P are 3x + 1 and 7. Find x.",
+       "a": "3x + 1 = 7 → x = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Construct the incircle (angle bisectors) and circumcircle (perpendicular bisectors). For a tangent from an external point P: bisect OP to get M, draw a circle centered M through O; where it meets the circle are the tangent points.",
+     "questions": [
+      {
+       "q": "Why does the tangent construction (circle on diameter OP) work?",
+       "a": "The tangent point T lies on a circle with diameter OP, so ∠OTP is inscribed in a semicircle and equals 90°, making PT ⊥ OT."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and construction check in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "A central angle and an inscribed angle intercept the same 80° arc. Give each measure.",
+       "a": "Central 80°; inscribed 40°."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 25,
+   "prep": "Paper plates, string, ruler, scissors, calculator. Leave answers in terms of π and as decimals.",
+   "misconceptions": [
+    "Using diameter instead of radius in A = πr². Circle the radius in every problem first.",
+    "Mixing degree and radian mode on calculators when converting. Use the factor π/180 explicitly."
+   ],
+   "assessment_key": "Quiz with answers: 1) Arc length, r = 6, 60° → 2π ≈ 6.28. 2) Arc length r = 10, 3π/4 radians → 7.5π ≈ 23.56. 3) Convert 45° → π/4; 150° → 5π/6; 2 radians → ≈ 114.6°. 4) Sector area r = 10, 72° → 20π ≈ 62.83. 5) 14-inch pizza cut into 8 slices → area per slice 49π/8 ≈ 19.24 in². 6) Sprinkler radius 15 ft rotating through 120° → 75π ≈ 235.6 ft². 7) Segment area: r = 6, 90° → 9π − 18 ≈ 10.27.",
+   "days": [
+    {
+     "guide": "Have the student cut a plate into 16 sectors and arrange them alternately into a near-parallelogram: base ≈ half the circumference (πr), height ≈ r, so area ≈ πr². Measure circumference with string to check C/d ≈ π.",
+     "questions": [
+      {
+       "q": "Explain why the rearranged sectors approach a rectangle with area πr².",
+       "a": "The base is half the circumference (πr) and the height is the radius r, so area = πr·r = πr²."
+      }
+     ]
+    },
+    {
+     "guide": "Arc length = (θ/360)·2πr. The student solves forward and backward problems.",
+     "questions": [
+      {
+       "q": "Find the arc length of a 60° arc in a circle of radius 6.",
+       "a": "(60/360)·12π = 2π ≈ 6.28."
+      },
+      {
+       "q": "An arc of length 5π has a central angle of 90°. Find the radius.",
+       "a": "(1/4)·2πr = 5π → r = 10."
+      }
+     ]
+    },
+    {
+     "guide": "Wrap a string the length of the radius around the plate's edge and mark the angle: that is 1 radian (about 57.3°). Teach conversions with π radians = 180°.",
+     "questions": [
+      {
+       "q": "Convert 150° to radians.",
+       "a": "150·π/180 = 5π/6."
+      },
+      {
+       "q": "Convert 3π/2 radians to degrees.",
+       "a": "270°."
+      }
+     ]
+    },
+    {
+     "guide": "Sector area = (θ/360)·πr². Segment area = sector − triangle. Solve pizza and sprinkler problems.",
+     "questions": [
+      {
+       "q": "A sprinkler sprays 15 ft and turns through 120°. What area does it water?",
+       "a": "(1/3)·225π = 75π ≈ 235.6 ft²."
+      },
+      {
+       "q": "Find the segment area for a 90° sector of radius 6.",
+       "a": "Sector 9π minus triangle 18 → 9π − 18 ≈ 10.27."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "In radians, what is the arc length formula?",
+       "a": "s = rθ, with θ in radians."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 26,
+   "prep": "Desmos, graph paper. Prepare the Unit 7 test (assessment key).",
+   "misconceptions": [
+    "Sign errors with the center: (x + 3)² means h = −3. Rewrite as (x − (−3))².",
+    "Forgetting to add the same constants to both sides when completing the square."
+   ],
+   "assessment_key": "Unit 7 test with answers: 1) Inscribed angle on a 110° arc → 55°. 2) Tangent from a point 10 from center of radius 6 → 8. 3) Arc length r = 9, 40° → 2π ≈ 6.28. 4) Sector area r = 4, 135° → 6π ≈ 18.85. 5) Equation of circle center (2, −3), radius 5 → (x − 2)² + (y + 3)² = 25. 6) x² + y² − 6x + 4y − 12 = 0 → (x − 3)² + (y + 2)² = 25; center (3, −2), r = 5. 7) Is (6, 2) on that circle? → 9 + 16 = 25, yes. 8) Parabola focus (0, 2), directrix y = −2 → x² = 8y. 9) Convert 225° to radians → 5π/4.",
+   "days": [
+    {
+     "guide": "Take a point (x, y) on a circle with center (h, k) and radius r; the distance formula squared gives the equation. Practice writing equations and reading center/radius.",
+     "questions": [
+      {
+       "q": "Write the equation of the circle with center (2, −3) and radius 5.",
+       "a": "(x − 2)² + (y + 3)² = 25."
+      },
+      {
+       "q": "Give the center and radius of (x + 1)² + (y − 4)² = 49.",
+       "a": "Center (−1, 4), radius 7."
+      }
+     ]
+    },
+    {
+     "guide": "Model completing the square for both x and y terms, adding (b/2)² to both sides. The student converts several equations and checks in Desmos.",
+     "questions": [
+      {
+       "q": "Find the center and radius of x² + y² − 6x + 4y − 12 = 0.",
+       "a": "(x − 3)² + (y + 2)² = 12 + 9 + 4 = 25: center (3, −2), radius 5."
+      },
+      {
+       "q": "Find the center and radius of x² + y² + 8x − 9 = 0.",
+       "a": "(x + 4)² + y² = 25: center (−4, 0), radius 5."
+      }
+     ]
+    },
+    {
+     "guide": "Substitute the point into the equation, or compute its distance from the center. The student proves or disproves points on circles, including one with radius √ form.",
+     "questions": [
+      {
+       "q": "Does (1, √3) lie on the circle centered at the origin with radius 2?",
+       "a": "1 + 3 = 4 = 2², so yes."
+      }
+     ]
+    },
+    {
+     "guide": "Define a parabola as all points equidistant from a focus and a directrix. Set distance to focus equal to distance to directrix and simplify; graph in Desmos.",
+     "questions": [
+      {
+       "q": "Find the equation of the parabola with focus (0, 2) and directrix y = −2.",
+       "a": "x² + (y − 2)² = (y + 2)² → x² = 8y, or y = x²/8."
+      },
+      {
+       "q": "Where is the vertex of that parabola?",
+       "a": "At (0, 0), halfway between focus and directrix."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test from the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "What does r² represent in the circle equation?",
+       "a": "The square of the radius — the squared distance from every point on the circle to the center."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 27,
+   "prep": "Graph paper, tape measure, calculator. For Day 4, choose a room and look up the price per square foot of a flooring option (e.g., laminate around $2–$5/ft²).",
+   "misconceptions": [
+    "Using the slant side instead of the height in parallelogram/triangle area. Height is perpendicular to the base.",
+    "Forgetting to subtract cut-outs (or double-counting overlaps) in composite figures."
+   ],
+   "assessment_key": "Quiz with answers: 1) Trapezoid bases 8 and 12, height 5 → 50. 2) Parallelogram base 9, height 4 → 36. 3) Regular hexagon side 6 → apothem 3√3, area 54√3 ≈ 93.5. 4) Square with a semicircle on one side (side 10) → 100 + 12.5π ≈ 139.3. 5) Rectangle 12 × 8 with a circle of radius 2 removed → 96 − 4π ≈ 83.4. Floor plan rubric: 4 = accurate scaled drawing with measurements, correct area including any irregular parts, waste allowance (~10%), cost with units; 3 = minor calculation error; 2 = missing waste or units, or drawing not to scale; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Review derivations: parallelogram = rectangle rearranged; triangle = half a parallelogram; trapezoid = half a parallelogram made of two copies. The student derives each with sketches.",
+     "questions": [
+      {
+       "q": "Find the area of a trapezoid with bases 8 and 12 and height 5.",
+       "a": "½(8 + 12)·5 = 50."
+      },
+      {
+       "q": "A triangle has base 14 and area 63. Find the height.",
+       "a": "63 = ½·14·h → h = 9."
+      }
+     ]
+    },
+    {
+     "guide": "Show area = ½·apothem·perimeter by splitting into n isosceles triangles; find the apothem with trig (a = s / (2 tan(180°/n))).",
+     "questions": [
+      {
+       "q": "Find the area of a regular hexagon with side 6.",
+       "a": "Apothem 3√3; perimeter 36; area = ½·3√3·36 = 54√3 ≈ 93.5."
+      },
+      {
+       "q": "Find the area of a regular pentagon with side 10.",
+       "a": "a = 5/tan 36° ≈ 6.88; area ≈ ½·6.88·50 ≈ 172.0."
+      }
+     ]
+    },
+    {
+     "guide": "Split composite shapes into known pieces, adding or subtracting. The student finds areas of 6 figures with circle parts.",
+     "questions": [
+      {
+       "q": "A 12 × 8 rectangle has a circular hole of radius 2. Find the remaining area.",
+       "a": "96 − 4π ≈ 83.4."
+      }
+     ]
+    },
+    {
+     "guide": "The student measures a room, sketches it to scale, computes area, adds 10% for waste, and prices flooring.",
+     "questions": [
+      {
+       "q": "A 12 ft × 15 ft room uses flooring at $3.50/ft² with 10% waste. What is the cost?",
+       "a": "180 ft² × 1.1 = 198 ft²; 198 × 3.50 = $693."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and score the floor plan with the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "What is an apothem?",
+       "a": "The perpendicular segment from the center of a regular polygon to the midpoint of a side."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 28,
+   "prep": "Clay or play dough, dental floss, paper cutouts (rectangle, right triangle, semicircle), tape, pencil, calculator.",
+   "misconceptions": [
+    "Believing a cube's cross sections can only be squares. Slicing at angles gives rectangles, triangles, pentagons and hexagons.",
+    "Forgetting the two bases when computing surface area of a prism or cylinder."
+   ],
+   "assessment_key": "Quiz with answers: 1) Possible cross sections of a cube → square, rectangle, triangle, pentagon, hexagon (and trapezoid/parallelogram). 2) Cylinder cross sections → circle (parallel to base), rectangle (perpendicular through axis), ellipse (slanted). 3) Rotating a rectangle about one side → cylinder; right triangle about a leg → cone; semicircle about its diameter → sphere. 4) SA of a 2 × 3 × 4 prism → 52. 5) SA of a cylinder r = 3, h = 10 → 78π ≈ 245.0. 6) SA of a square pyramid with base 6 and slant height 5 → 36 + 60 = 96. Lab sketches: full credit for labeled sketches of at least 3 cross sections per solid.",
+   "days": [
+    {
+     "guide": "Sort solids (prism, pyramid, cylinder, cone, sphere) and count faces, edges, vertices. The student sketches a net for a cube, triangular prism, cylinder and square pyramid.",
+     "questions": [
+      {
+       "q": "How many faces, edges and vertices does a triangular prism have?",
+       "a": "5 faces, 9 edges, 6 vertices (F + V − E = 2)."
+      },
+      {
+       "q": "What shapes make the net of a cylinder?",
+       "a": "Two circles and a rectangle."
+      }
+     ]
+    },
+    {
+     "guide": "Mold clay cube, cylinder and cone; slice with floss at different angles and sketch each cross section.",
+     "questions": [
+      {
+       "q": "What cross sections can you get from a cone?",
+       "a": "Circle (parallel to base), triangle (through the apex vertically), ellipse, and parabola/hyperbola-shaped curves for other angles."
+      }
+     ]
+    },
+    {
+     "guide": "Tape paper shapes to a pencil and spin; the student predicts then names each solid of revolution.",
+     "questions": [
+      {
+       "q": "What solid forms when a right triangle rotates about one leg?",
+       "a": "A cone."
+      }
+     ]
+    },
+    {
+     "guide": "Compute surface area from nets: sum the areas of all faces. Practice prisms, cylinders (2πr² + 2πrh) and pyramids (base + ½·perimeter·slant height).",
+     "questions": [
+      {
+       "q": "Find the surface area of a cylinder with r = 3 and h = 10.",
+       "a": "2π(9) + 2π(3)(10) = 78π ≈ 245.0."
+      },
+      {
+       "q": "Find the surface area of a 2 × 3 × 4 rectangular prism.",
+       "a": "2(6 + 8 + 12) = 52."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key and collect lab sketches. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Can a cube have a hexagonal cross section?",
+       "a": "Yes — a slice through the midpoints of six edges gives a regular hexagon."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 29,
+   "prep": "A stack of coins, a paper cone and cylinder with the same base and height (make from cardstock), rice, calculator.",
+   "misconceptions": [
+    "Forgetting the 1/3 for pyramids and cones. Show the rice demo: three cones fill one cylinder.",
+    "Using slant height instead of height in cone/pyramid volume."
+   ],
+   "assessment_key": "Quiz with answers: 1) Cylinder r = 4, h = 10 → 160π ≈ 502.7. 2) Cone r = 4, h = 10 → 160π/3 ≈ 167.6. 3) Square pyramid base 6, height 10 → 120. 4) Sphere r = 3 → 36π ≈ 113.1. 5) Rectangular prism 5 × 4 × 3 → 60. 6) Oblique cylinder r = 2, height 7 → 28π ≈ 88.0 (same as right, by Cavalieri). 7) Ice cream cone r = 3, h = 10 topped with a hemisphere r = 3 → 30π + 18π = 48π ≈ 150.8.",
+   "days": [
+    {
+     "guide": "Stack coins straight, then push the stack slanted. The student explains why the volume stays the same: every cross section has the same area at each height (Cavalieri's principle).",
+     "questions": [
+      {
+       "q": "Why does a slanted stack of coins have the same volume as a straight stack?",
+       "a": "Each layer has the same area at each height, so by Cavalieri's principle the volumes are equal."
+      }
+     ]
+    },
+    {
+     "guide": "Volume = base area × height for prisms and cylinders (right or oblique, using perpendicular height).",
+     "questions": [
+      {
+       "q": "Find the volume of a cylinder with r = 4 and h = 10.",
+       "a": "160π ≈ 502.7."
+      },
+      {
+       "q": "A triangular prism has a base triangle with legs 3 and 4 and length 10. Volume?",
+       "a": "6 × 10 = 60."
+      }
+     ]
+    },
+    {
+     "guide": "Fill the paper cone with rice and pour into the cylinder; it takes three cones. Generalize V = ⅓Bh.",
+     "questions": [
+      {
+       "q": "Find the volume of a cone with radius 3 and height 8.",
+       "a": "⅓·9π·8 = 24π ≈ 75.4."
+      },
+      {
+       "q": "Find the volume of a square pyramid with base edge 6 and height 10.",
+       "a": "⅓·36·10 = 120."
+      }
+     ]
+    },
+    {
+     "guide": "Introduce V = (4/3)πr³ and composite solids (cone + hemisphere, cylinder + hemispheres).",
+     "questions": [
+      {
+       "q": "Find the volume of a sphere with radius 3.",
+       "a": "(4/3)π·27 = 36π ≈ 113.1."
+      },
+      {
+       "q": "A basketball has diameter 9.4 in. Find its volume.",
+       "a": "r = 4.7; (4/3)π(4.7)³ ≈ 434.9 in³."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "If a sphere's radius doubles, what happens to its volume?",
+       "a": "It multiplies by 2³ = 8."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 30,
+   "prep": "Kitchen scale (grams), measuring cup, household objects (a rock, a metal spoon, a wood block), calculator. Look up a few CA county populations and areas (census.gov or Wikipedia). Prepare the Unit 8 test.",
+   "misconceptions": [
+    "Inverting the density ratio. Density = mass/volume (or people/area): 'per' means divide by the unit after 'per'.",
+    "Mixing units (mL vs cm³ — they are equal; L vs cm³ — 1 L = 1000 cm³)."
+   ],
+   "assessment_key": "Unit 8 test with answers: 1) 5,000 people in 20 km² → 250 people/km². 2) Object with mass 270 g and volume 100 cm³ → 2.7 g/cm³. 3) Volume of a cylinder r = 5, h = 12 → 300π ≈ 942.5. 4) Sphere r = 6 → 288π ≈ 904.8. 5) Composite area: 10 × 6 rectangle with a semicircle of diameter 6 on one end → 60 + 4.5π ≈ 74.1. 6) Cross section of a cylinder sliced parallel to the base → circle. 7) A 355 mL can with r = 3.84 cm → h ≈ 7.67 cm. Design project rubric: 4 = volume equation set to 355 cm³, SA expressed in r, minimum found (table, graph or h = 2r) at r ≈ 3.84 cm, h ≈ 7.67 cm, SA ≈ 278 cm², labeled drawing and comparison to a real can; 3 = correct minimum with minor gaps; 2 = only trial values without conclusion; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Explain density as 'amount per unit.' Compute population density of a few CA counties and a BTU-per-cubic-foot heating problem (e.g., a room needs about 5 BTU per ft³ — use the given value from the problem).",
+     "questions": [
+      {
+       "q": "Los Angeles County has about 9.7 million people in about 4,060 square miles. Population density?",
+       "a": "≈ 2,390 people per square mile."
+      },
+      {
+       "q": "A room 12 × 15 × 8 ft needs 5 BTU per cubic foot. How many BTU?",
+       "a": "1440 ft³ × 5 = 7,200 BTU."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh each object, find volume by water displacement in the measuring cup (1 mL = 1 cm³), and compute density. Compare to known values (water 1 g/cm³, aluminum 2.7).",
+     "questions": [
+      {
+       "q": "A rock has mass 150 g and raises the water level 60 mL. What is its density?",
+       "a": "150/60 = 2.5 g/cm³."
+      },
+      {
+       "q": "Will an object with density 0.8 g/cm³ float in water?",
+       "a": "Yes — it is less dense than water (1 g/cm³)."
+      }
+     ]
+    },
+    {
+     "guide": "Set up V = πr²h = 355 cm³, write h = 355/(πr²), and SA = 2πr² + 2πrh = 2πr² + 710/r. The student builds a table or uses Desmos to find the minimum.",
+     "questions": [
+      {
+       "q": "For a 355 mL can, what radius minimizes surface area?",
+       "a": "About 3.84 cm (height ≈ 7.67 cm, where h = 2r), SA ≈ 278 cm²."
+      },
+      {
+       "q": "Why don't real soda cans use this shape?",
+       "a": "Real cans (r ≈ 3.3 cm, h ≈ 12.2 cm) are taller for grip, stacking, thicker top/bottom metal, and fitting machines and cupholders."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes up the design with a labeled drawing, the table/graph, and the final dimensions and comparison.",
+     "questions": [
+      {
+       "q": "What should a design write-up include?",
+       "a": "The problem, equations, method (table/graph), final dimensions with units, a drawing, and a comparison to a real can."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test from the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Why is a cylinder with h = 2r the most efficient?",
+       "a": "For a fixed volume, that shape gives the smallest surface area (it is closest to a sphere-like proportion for a cylinder)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 31,
+   "prep": "Two dice, coins, a standard 52-card deck. Remind yourself: a deck has 4 suits × 13 ranks; 12 face cards.",
+   "misconceptions": [
+    "Counting a sum like 7 as one outcome instead of 6 ordered pairs. Use the 6 × 6 table.",
+    "Adding probabilities of overlapping events without subtracting the overlap."
+   ],
+   "assessment_key": "Quiz with answers: 1) Sample space for flipping 3 coins → 8 outcomes (HHH, HHT, HTH, HTT, THH, THT, TTH, TTT). 2) P(sum of 7 with two dice) → 6/36 = 1/6. 3) P(sum of 8) → 5/36. 4) P(heart or king) → 16/52 = 4/13. 5) P(not a face card) → 40/52 = 10/13. 6) In a Venn diagram, A ∩ B means → outcomes in both A and B; A ∪ B → in A or B or both; Aᶜ → not in A.",
+   "days": [
+    {
+     "guide": "Make a tree for 3 coin flips and a 6 × 6 table for two dice. The student counts outcomes for several events.",
+     "questions": [
+      {
+       "q": "How many outcomes for rolling two dice? How many give a sum of 7?",
+       "a": "36; 6."
+      },
+      {
+       "q": "P(at least one head in 2 coin flips)?",
+       "a": "3/4."
+      }
+     ]
+    },
+    {
+     "guide": "Draw Venn diagrams for events from one die roll (A = even, B = greater than 3). Name union, intersection and complement.",
+     "questions": [
+      {
+       "q": "Roll a die: A = even {2, 4, 6}, B = greater than 3 {4, 5, 6}. Find A ∩ B and A ∪ B.",
+       "a": "A ∩ B = {4, 6}; A ∪ B = {2, 4, 5, 6}."
+      }
+     ]
+    },
+    {
+     "guide": "Derive the addition rule from the Venn diagram (overlap counted twice). The student solves card and die problems.",
+     "questions": [
+      {
+       "q": "P(heart or king) from a standard deck?",
+       "a": "13/52 + 4/52 − 1/52 = 16/52 = 4/13."
+      },
+      {
+       "q": "P(even or greater than 3) on one die?",
+       "a": "3/6 + 3/6 − 2/6 = 4/6 = 2/3."
+      }
+     ]
+    },
+    {
+     "guide": "Roll two dice 100 times and tally sums. Compare experimental frequencies to the theoretical (e.g., P(7) = 1/6 ≈ 16.7%).",
+     "questions": [
+      {
+       "q": "Why might the experimental results differ from theoretical probability?",
+       "a": "Random variation; with more trials the experimental frequencies tend to get closer (Law of Large Numbers)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Are 'rolling an even number' and 'rolling a 5' mutually exclusive?",
+       "a": "Yes — they cannot both happen, so P(even or 5) = 3/6 + 1/6 = 2/3."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 32,
+   "prep": "Deck of cards, coins. Prepare a simple medical-testing example (numbers in the guide).",
+   "misconceptions": [
+    "Confusing P(A|B) and P(B|A). Say it in words: 'probability of A given that B happened' and identify which group you restrict to.",
+    "Treating draws without replacement as independent."
+   ],
+   "assessment_key": "Quiz with answers: 1) P(heads and rolling a 6) → 1/12. 2) Are 'draw a heart' and 'draw a king' independent? → P(heart and king) = 1/52 = (1/4)(1/13), yes. 3) P(king | face card) → 4/12 = 1/3. 4) P(two aces without replacement) → 4/52 · 3/51 = 1/221. 5) P(two aces with replacement) → 1/169. 6) A test is 99% accurate for a disease that 1% have; among 10,000 people, 99 true positives and 99 false positives → P(disease | positive) = 50%.",
+   "days": [
+    {
+     "guide": "Define independence: P(A and B) = P(A)·P(B). Test with coin/die and with card events.",
+     "questions": [
+      {
+       "q": "P(heads on a coin and a 6 on a die)?",
+       "a": "1/2 · 1/6 = 1/12."
+      },
+      {
+       "q": "Are 'draw a red card' and 'draw a face card' independent?",
+       "a": "P(red and face) = 6/52 = 3/26; P(red)·P(face) = 1/2·12/52 = 6/52. Equal, so yes."
+      }
+     ]
+    },
+    {
+     "guide": "Model P(A|B) = P(A and B)/P(B) as restricting the sample space to B. Use the card deck.",
+     "questions": [
+      {
+       "q": "P(king | face card)?",
+       "a": "There are 12 face cards and 4 are kings: 4/12 = 1/3."
+      },
+      {
+       "q": "P(heart | red card)?",
+       "a": "13/26 = 1/2."
+      }
+     ]
+    },
+    {
+     "guide": "Work through: disease rate 1%, test catches 99% of sick people and wrongly flags 1% of healthy people. Of 10,000 people: 100 sick (99 test positive), 9,900 healthy (99 test positive). P(sick | positive) = 99/198 = 50%. Discuss weather forecasts similarly.",
+     "questions": [
+      {
+       "q": "In the example, why is P(sick | positive) only 50% even though the test is 99% accurate?",
+       "a": "The disease is rare, so false positives from the large healthy group equal the true positives."
+      }
+     ]
+    },
+    {
+     "guide": "Draw cards without replacement and compute multi-step probabilities, adjusting counts after each draw.",
+     "questions": [
+      {
+       "q": "P(drawing two hearts in a row without replacement)?",
+       "a": "13/52 · 12/51 = 156/2652 = 1/17."
+      },
+      {
+       "q": "P(drawing a king then a queen without replacement)?",
+       "a": "4/52 · 4/51 = 16/2652 = 4/663."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "If P(A|B) = P(A), what can you conclude?",
+       "a": "A and B are independent."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 33,
+   "prep": "Spreadsheet software; plan two yes/no survey questions with the student (e.g., 'Do you have a pet?' and 'Do you live in a house?'). Arrange to survey 20 people (family, friends, co-op).",
+   "misconceptions": [
+    "Dividing by the grand total when a conditional probability needs the row or column total.",
+    "Concluding cause and effect from an association in a two-way table."
+   ],
+   "assessment_key": "Quiz uses this table (100 students): Sports & Music 12, Sports & No music 28, No sports & Music 18, No sports & No music 42. Answers: 1) P(music) → 30/100 = 0.30. 2) P(sports and music) → 0.12. 3) P(music | sports) → 12/40 = 0.30. 4) P(sports | music) → 12/30 = 0.40. 5) Are sports and music independent? → yes, P(music | sports) = P(music) = 0.30. 6) Marginal relative frequency of sports → 0.40. Report rubric: 4 = clean table with totals, joint/marginal/conditional values, a correct independence test, a conclusion with limitations (small sample, not random); 3 = minor errors; 2 = table only with little analysis; 1 = incomplete.",
+   "days": [
+    {
+     "guide": "Build the sample table from the assessment key with row and column totals. The student computes joint (cell/grand total) and marginal (total/grand total) relative frequencies.",
+     "questions": [
+      {
+       "q": "Using the sports/music table, what is the joint relative frequency of 'no sports and no music'?",
+       "a": "42/100 = 0.42."
+      },
+      {
+       "q": "What is the marginal relative frequency of music?",
+       "a": "30/100 = 0.30."
+      }
+     ]
+    },
+    {
+     "guide": "The student surveys 20 people and organizes the results in a two-way table in a spreadsheet with totals.",
+     "questions": [
+      {
+       "q": "Why should both questions be yes/no or categorical?",
+       "a": "Two-way tables organize categorical data; each person falls into exactly one cell."
+      }
+     ]
+    },
+    {
+     "guide": "Compute conditional probabilities by row and column, then compare P(A|B) to P(A) to test independence.",
+     "questions": [
+      {
+       "q": "From the sample table, P(sports | music)?",
+       "a": "12/30 = 0.40."
+      },
+      {
+       "q": "Is P(sports | music) equal to P(sports)? What does that mean?",
+       "a": "Yes, both 0.40, so playing sports and liking music are independent in this data."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a one-page report: question, table, key probabilities, independence conclusion, and limitations.",
+     "questions": [
+      {
+       "q": "Name a limitation of a 20-person survey of friends and family.",
+       "a": "Small, non-random sample; results may not represent a larger population."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz in the assessment key and score the report. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "What does a conditional relative frequency compare?",
+       "a": "The count in a cell to the total of its row (or column), i.e., the frequency within one group."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 34,
+   "prep": "Calculator with nPr/nCr (or use the formulas). Prepare the Unit 9 test from the assessment key.",
+   "misconceptions": [
+    "Using permutations when order doesn't matter (committees, lottery picks).",
+    "Forgetting to update counts in multi-stage problems without replacement."
+   ],
+   "assessment_key": "Unit 9 test with answers: 1) P(two red marbles without replacement from 5 red, 3 blue) → 5/8 · 4/7 = 5/14. 2) 4-digit PIN with repetition → 10,000; without repetition → 5,040. 3) Gold/silver/bronze among 8 runners → 8P3 = 336. 4) Choose 3 toppings from 10 → 10C3 = 120. 5) Lottery choose 6 of 49 → 1/13,983,816. 6) P(A or B), P(A) = 0.5, P(B) = 0.4, P(A and B) = 0.2 → 0.7. 7) Game: roll a die; win $5 on a 6, lose $1 otherwise → expected value 0, fair. 8) P(king | face card) → 1/3.",
+   "days": [
+    {
+     "guide": "Teach P(A and B) = P(A)·P(B|A) with tree diagrams for multi-stage problems.",
+     "questions": [
+      {
+       "q": "A bag has 5 red and 3 blue marbles. P(two reds without replacement)?",
+       "a": "5/8 · 4/7 = 20/56 = 5/14."
+      },
+      {
+       "q": "P(first red then blue without replacement)?",
+       "a": "5/8 · 3/7 = 15/56."
+      }
+     ]
+    },
+    {
+     "guide": "Introduce the counting principle and nPr = n!/(n − r)! for arrangements where order matters.",
+     "questions": [
+      {
+       "q": "How many ways can 8 runners finish 1st, 2nd and 3rd?",
+       "a": "8 · 7 · 6 = 336."
+      },
+      {
+       "q": "How many 4-digit PINs with no repeated digits?",
+       "a": "10 · 9 · 8 · 7 = 5,040."
+      }
+     ]
+    },
+    {
+     "guide": "Show nCr = n!/(r!(n − r)!) divides out the orderings. Compute lottery odds.",
+     "questions": [
+      {
+       "q": "How many ways to choose 2 people from 5 for a committee?",
+       "a": "5C2 = 10."
+      },
+      {
+       "q": "Probability of winning a 6-of-49 lottery with one ticket?",
+       "a": "1/13,983,816."
+      }
+     ]
+    },
+    {
+     "guide": "Compute expected value to decide fairness. Discuss product-testing decisions (e.g., sampling items to estimate defect rates).",
+     "questions": [
+      {
+       "q": "A game costs $1; roll a die and win $5 (plus your dollar back) on a 6. Is it fair?",
+       "a": "Expected value = (1/6)(5) + (5/6)(−1) = 0, so it is fair."
+      },
+      {
+       "q": "Two players pick who goes first by flipping two coins: A wins if they match, B if they differ. Fair?",
+       "a": "Yes: P(match) = 2/4 = P(differ)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 9 test from the assessment key. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "When do you use combinations instead of permutations?",
+       "a": "When order does not matter (selections, groups)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 35,
+   "prep": "Assemble a cumulative review packet (one page per strand) and a practice final mirroring the final exam structure. Calculator, compass, protractor.",
+   "misconceptions": [
+    "Relying on memory for formulas without knowing when they apply. Have the student build a one-page formula sheet with a sample problem for each.",
+    "Skipping diagrams on word problems. Require a labeled sketch."
+   ],
+   "assessment_key": "Practice final (sample items with answers): 1) Reflect (2, −7) over the y-axis → (−2, −7). 2) Rhombus diagonals 6 and 8 → side 5. 3) △ABC ~ △DEF, k = 3, perimeter of △ABC 12 → △DEF perimeter 36. 4) Right triangle angle 30°, hypotenuse 18 → opposite 9. 5) Inscribed angle 40° → arc 80°. 6) Circle x² + y² − 10y = 0 → center (0, 5), r = 5. 7) Cone r = 6, h = 4 → 48π ≈ 150.8. 8) P(sum 9 with 2 dice) → 4/36 = 1/9. 9) 6C2 → 15. 10) Proof: base angles of an isosceles triangle are congruent. Grade: 90/80/70 cutoffs; use results to plan Week 36 review.",
+   "days": [
+    {
+     "guide": "Mixed review of transformations, congruence and proof. The student works problems and one proof; check after each set.",
+     "questions": [
+      {
+       "q": "Rotate (4, 1) 90° counterclockwise about the origin.",
+       "a": "(−1, 4)."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of similarity and trigonometry: give 8–10 problems (similar-triangle proportions, special right triangles, SOH-CAH-TOA, Law of Sines/Cosines). The student works one set of five, you check, then they do the next set; any miss sends them back to their notes for that problem type.",
+     "questions": [
+      {
+       "q": "A 30-60-90 triangle has hypotenuse 12. Find both legs.",
+       "a": "6 and 6√3 ≈ 10.39."
+      },
+      {
+       "q": "In right △ABC, angle A = 28°, adjacent side 15. Find the opposite side.",
+       "a": "15 tan 28° ≈ 7.98."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of circles and coordinate geometry: arcs and inscribed angles, tangents, arc length and sectors, circle equations by completing the square, and slope/distance proofs. The student works in sets of five with a check after each set and adds any formula they forgot to their one-page formula sheet.",
+     "questions": [
+      {
+       "q": "Find the center and radius of x² + y² + 4x − 2y − 4 = 0.",
+       "a": "(x + 2)² + (y − 1)² = 9: center (−2, 1), radius 3."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of area, volume and probability: composite areas, surface area and volume of solids, the addition and multiplication rules, conditional probability and counting. The student works in sets of five; for each miss, they write the correct formula and redo a similar problem.",
+     "questions": [
+      {
+       "q": "Find the volume of a sphere with diameter 10.",
+       "a": "(4/3)π(125) ≈ 523.6."
+      },
+      {
+       "q": "P(drawing a red card or an ace)?",
+       "a": "26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+      }
+     ]
+    },
+    {
+     "guide": "Give the full practice final in the assessment key under timed conditions; grade it together. Allow no notes (formula sheet only if stated); about 30–50 minutes. Grade it together right away: the student reworks every missed item and explains the error aloud, and you note any skill to revisit next week.",
+     "questions": [
+      {
+       "q": "Which three topics had the most errors?",
+       "a": "Answers vary; the student lists them to guide Week 36 targeted review."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 36,
+   "prep": "Prepare the two-part final exam (assessment key). Have the student's error log from the practice final.",
+   "misconceptions": [
+    "Cramming new methods the day before the exam. Focus on the error log topics.",
+    "Not checking answers for reasonableness (e.g., a leg longer than the hypotenuse)."
+   ],
+   "assessment_key": "Final exam (sample items with answers). Part 1: 1) Distance (−3, 4) to (3, −4) → 10. 2) Reflect (1, 5) over y = −x → (−5, −1). 3) Interior angle sum of a 9-gon → 1260°. 4) Proof: SAS congruence with a shared side. 5) Dilate (6, −3) by ⅓ → (2, −1). 6) Side splitter: 6/9 = 8/x → x = 12. Part 2: 7) sin⁻¹(0.5) → 30°. 8) Law of Cosines a = 5, b = 6, C = 50° → c ≈ 4.74. 9) Tangent from point 17 from center, radius 8 → 15. 10) Arc length r = 12, 150° → 10π ≈ 31.4. 11) Cylinder r = 3, h = 7 → 63π ≈ 197.9. 12) P(two kings without replacement) → 1/221. 13) 7P2 → 42. Grade cutoffs 90/80/70. Reflection rubric (Day 5): 3 = explains a specific proof's logic accurately and names a career with a concrete geometry use; 2 = general; 1 = minimal.",
+   "days": [
+    {
+     "guide": "The student reworks the problem types missed on the practice final, explaining each aloud.",
+     "questions": [
+      {
+       "q": "What is the most common mistake you made on the practice final, and how will you prevent it?",
+       "a": "Answers vary; a good answer names a specific error (e.g., degree/radian mode) and a check (e.g., test sin 30 = 0.5)."
+      }
+     ]
+    },
+    {
+     "guide": "Give Part 1 of the final (transformations through similarity) — about 60 minutes.",
+     "questions": [
+      {
+       "q": "(After) Dilate (6, −3) by ⅓ about the origin.",
+       "a": "(2, −1)."
+      }
+     ]
+    },
+    {
+     "guide": "Give Part 2 (trig, circles, volume, probability) — about 60 minutes.",
+     "questions": [
+      {
+       "q": "(After) Find the length of a tangent from a point 17 units from the center of a circle with radius 8.",
+       "a": "√(289 − 64) = 15."
+      }
+     ]
+    },
+    {
+     "guide": "Return the exam; the student corrects every error and writes the reason for each.",
+     "questions": [
+      {
+       "q": "Why write a reason for each correction rather than just the right answer?",
+       "a": "Explaining the error builds understanding and helps avoid repeating it."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a one-page reflection on a favorite proof and a career that uses geometry (architect, surveyor, game designer, nurse calculating dosages in volumes, etc.).",
+     "questions": [
+      {
+       "q": "Give one specific way a surveyor uses geometry.",
+       "a": "Using the Law of Sines/Cosines or trig to find distances and property boundaries that can't be measured directly."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

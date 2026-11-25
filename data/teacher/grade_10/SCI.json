@@ -1,0 +1,2631 @@
+{
+ "grade": 10,
+ "subject": "SCI",
+ "overview": "Chemistry in the Earth System runs about 60 minutes a day: a short explanation or demonstration, a hands-on investigation or PhET simulation, then practice problems and a written explanation. Insist on units and significant figures in every calculation, balanced equations, and claim-evidence-reasoning writing; supervise all flames, heat and chemicals and require goggles. The burning-candle phenomenon from Week 1 threads through the year, so keep the driving-question board visible and revisit it at the end of each unit.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Gather a kitchen scale, measuring cups, a thermometer, safety goggles and a notebook to use as a lab notebook all year. Locate the home fire extinguisher and print or write a simple safety contract (goggles on, long hair tied back, no eating in lab, adult present for flames, know where water and the extinguisher are). Preview Khan Academy 'significant figures' and 'scientific notation' videos.",
+   "misconceptions": [
+    "Students think more digits always means more accurate. Distinguish precision (how close repeated measurements are) from accuracy (how close to the true value), and show that a calculator answer cannot be more precise than the least precise measurement.",
+    "Trailing and leading zeros confuse students (counting 0.0045 as 4 significant figures). Teach the rules: leading zeros never count, captive zeros always count, trailing zeros count only if there is a decimal point.",
+    "Students drop units mid-calculation. Require every number in a dimensional-analysis setup to carry its unit and cancel units visibly."
+   ],
+   "days": [
+    {
+     "guide": "Walk through the safety contract line by line and have the student sign it. Tour the 'lab' (kitchen) together, physically locating the extinguisher, water source and first-aid kit. Then read five hazard scenarios aloud and have the student name the hazard and the correct action for each.",
+     "questions": [
+      {
+       "q": "A student heats a liquid in a sealed jar. What is the hazard?",
+       "a": "Pressure builds as the liquid and air heat and the jar can burst; never heat a closed container."
+      },
+      {
+       "q": "Why do we wear goggles even when only mixing vinegar and baking soda?",
+       "a": "Any splash can reach the eyes, and even mild acids or bases can injure eyes; goggles are worn whenever chemicals or flames are used."
+      }
+     ]
+    },
+    {
+     "guide": "Model reading a scale and a thermometer to one estimated digit beyond the smallest marking. The student measures the mass, volume and temperature of the same water sample three times, records all trials, and computes the mean and percent error = |measured − accepted| ÷ accepted × 100. Check that units are recorded on every number.",
+     "questions": [
+      {
+       "q": "Three volume readings are 99, 101 and 100 mL for a 100.0 mL sample. What is the mean and the percent error?",
+       "a": "Mean = 100 mL; percent error = 0%. The readings are both precise (close together) and accurate."
+      },
+      {
+       "q": "Readings of 92.1, 92.0 and 92.2 g for a 100.0 g mass are precise or accurate?",
+       "a": "Precise but not accurate: they agree closely with each other but are about 8% off the true value, which suggests a systematic error such as an untared scale."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the significant-figure rules with examples on a whiteboard, then the rules for calculations (multiply/divide: fewest sig figs; add/subtract: fewest decimal places). The student completes the 20 problems using his or her own measurement data, showing the rounding step. Check five problems together before the rest.",
+     "questions": [
+      {
+       "q": "How many significant figures are in 0.02030?",
+       "a": "4 (the leading zeros do not count; the 2, 0, 3 and trailing 0 after the decimal do)."
+      },
+      {
+       "q": "Calculate the density of a 25.3 g sample with a volume of 12 mL, with correct sig figs.",
+       "a": "25.3 ÷ 12 = 2.108… → 2.1 g/mL (2 sig figs, limited by 12 mL)."
+      },
+      {
+       "q": "Write 6,020,000 in scientific notation with 3 significant figures.",
+       "a": "6.02 × 10⁶"
+      }
+     ]
+    },
+    {
+     "guide": "Light a candle (adult supervision, goggles, hair tied back) and have the student observe silently for five minutes, recording at least 10 observations. Then the student writes 10 questions, including 'Where does the wax go?', on sticky notes and starts a driving-question board that will be revisited all year. Do not answer the questions yet.",
+     "questions": [
+      {
+       "q": "Is the burning of a candle a physical change, a chemical change, or both?",
+       "a": "Both: wax melting is a physical change, while wax vapor burning to form carbon dioxide and water is a chemical change."
+      },
+      {
+       "q": "What evidence suggests that the candle is getting lighter?",
+       "a": "The candle gets shorter over time and wax does not pile up underneath it; the matter is leaving as invisible gases."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz closed-book (calculator allowed) and grade it together immediately, having the student correct each missed item in a different color. Collect the measurement lab sheet and check it against the key.",
+     "questions": [
+      {
+       "q": "Convert 450 mg to grams.",
+       "a": "450 mg × 1 g/1000 mg = 0.450 g."
+      },
+      {
+       "q": "Why do scientists use SI units?",
+       "a": "So measurements are consistent and comparable worldwide; SI units are based on powers of ten, which makes conversions easy."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) Name two items of PPE for a home lab — safety goggles and closed-toe shoes or gloves/apron. 2) What to do if clothing catches fire — stop, drop and roll (or smother with a blanket); never run. 3) Sig figs in 0.00450 — 3. 4) Sig figs in 3.040 — 4. 5) Write 0.000365 in scientific notation — 3.65 × 10⁻⁴. 6) 4.56 × 1.4 = 6.4 (2 sig figs). 7) 12.11 + 18.0 + 1.013 = 31.1 (round to the tenths place). 8) Convert 2.5 L to mL — 2.5 × 10³ mL (2500 mL). 9) Convert 65 mi/h to m/s (1 mi = 1609 m) — 65 × 1609 ÷ 3600 = 29 m/s. 10) A student measures 98.5 g for a 100.0 g standard; percent error — |98.5 − 100.0| ÷ 100.0 × 100 = 1.5%. Lab sheet: full credit when all three trials are recorded with units, the mean is correct, and percent error is calculated with the formula shown. 9–10 = mastery; 7–8 = review sig-fig rules; below 7 = reteach."
+  },
+  {
+   "week": 2,
+   "prep": "Gather tea lights, three glass jars of different sizes, a metal spoon, pickling lime (calcium hydroxide) to make limewater (stir 1 tsp into 1 cup water, let settle, pour off the clear liquid), a straw, fine steel wool (0000), a 9-volt battery, a baking tray and the kitchen scale. Have water and the fire extinguisher nearby. Preview a video of steel wool burning so you know what to expect (it sparks).",
+   "misconceptions": [
+    "Students believe matter is destroyed when something burns. Emphasize that atoms are rearranged into invisible gases (CO₂ and H₂O), and show that steel wool actually gains mass because it combines with oxygen.",
+    "Students think the candle flame goes out under a jar because the jar 'runs out of air'. Clarify that it runs low on oxygen specifically; nitrogen, which is most of the air, remains.",
+    "Students confuse the wick with the fuel. The wick only carries melted wax upward; the wax vapor is what burns."
+   ],
+   "days": [
+    {
+     "guide": "Light identical tea lights and cover each with a jar of a different size at the same moment; time how long each burns. Measure each jar's volume by filling it with water and pouring into a measuring cup, then graph jar volume (x) vs. burn time (y). Ask the student to explain the trend.",
+     "questions": [
+      {
+       "q": "Predict what happens to burn time if the jar volume doubles.",
+       "a": "Burn time roughly doubles, because the jar holds about twice as much oxygen for the flame to use."
+      },
+      {
+       "q": "What reactant from the air does the candle need?",
+       "a": "Oxygen (O₂)."
+      }
+     ]
+    },
+    {
+     "guide": "Hold a cool metal spoon briefly above (not in) the flame and observe droplets; then collect candle exhaust in an inverted jar and shake with limewater. Compare with limewater the student has blown into through a straw. Discuss what both cloudy results show.",
+     "questions": [
+      {
+       "q": "What forms on the cool spoon and where did it come from?",
+       "a": "Water droplets; hydrogen atoms in the wax combined with oxygen to make water vapor, which condensed on the cool spoon. (Black soot may also appear from incomplete combustion.)"
+      },
+      {
+       "q": "Why does limewater turn cloudy?",
+       "a": "Carbon dioxide reacts with calcium hydroxide to form insoluble calcium carbonate: CO₂ + Ca(OH)₂ → CaCO₃ + H₂O."
+      }
+     ]
+    },
+    {
+     "guide": "Fluff a pad of steel wool, weigh it on a foil-lined tray, then touch the 9-V battery terminals to it (adult present, goggles, over the tray, nothing flammable nearby). After it cools, reweigh it, including any fallen bits. The student explains why mass increased.",
+     "questions": [
+      {
+       "q": "The steel wool weighed 5.20 g before and 5.45 g after burning. Explain.",
+       "a": "Mass increased by 0.25 g because iron atoms combined with oxygen atoms from the air to form iron oxide; the added mass is the oxygen."
+      },
+      {
+       "q": "Write a balanced equation for iron reacting with oxygen to form iron(III) oxide.",
+       "a": "4Fe + 3O₂ → 2Fe₂O₃"
+      }
+     ]
+    },
+    {
+     "guide": "Model drawing methane (one C with four H) and oxygen molecules as circles, then rearranging the same atoms into products. The student draws before/after particle diagrams, writes the word equation and the balanced symbol equation, and counts atoms of each element on both sides.",
+     "questions": [
+      {
+       "q": "Write the balanced equation for methane combustion.",
+       "a": "CH₄ + 2O₂ → CO₂ + 2H₂O"
+      },
+      {
+       "q": "Count the oxygen atoms on each side of that equation.",
+       "a": "Left: 2 × 2 = 4. Right: 2 (in CO₂) + 2 (in 2H₂O) = 4. Balanced."
+      }
+     ]
+    },
+    {
+     "guide": "Review the claim-evidence-reasoning structure with a model paragraph on a different topic. The student writes the CER paragraph explaining where the candle's mass goes, citing this week's data. Score with the rubric and have the student revise one weak part.",
+     "questions": [
+      {
+       "q": "What is the difference between evidence and reasoning in a CER?",
+       "a": "Evidence is the data or observations; reasoning is the scientific principle that explains why the evidence supports the claim (here, conservation of atoms in a chemical reaction)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric (4 points each for claim, evidence, reasoning): 4 = Claim states that the candle's mass goes into the air as carbon dioxide and water vapor (gases). Evidence cites at least two observations: water condensing on the cool spoon, limewater turning cloudy with candle gases, the candle getting shorter/lighter, and the flame going out sooner under smaller jars (oxygen is a reactant). Reasoning explains that atoms are conserved — carbon and hydrogen atoms from wax combine with oxygen from air to form CO₂ and H₂O, so mass is not destroyed but leaves as gas; the steel wool gaining mass shows that combustion adds oxygen atoms. 3 = correct claim with one piece of evidence and partial reasoning. 2 = claim with evidence but no atomic reasoning. 1 = claim only or incorrect claim (e.g., 'mass is destroyed')."
+  },
+  {
+   "week": 3,
+   "prep": "Gather an empty soda can, a paperclip bent into a stand, a cork or clay base, a ring stand or stack of books with a pencil to hang the can, a thermometer, a 100 mL measuring cup, cheese puffs, cashews (check for nut allergies — use another snack if needed), matches, a lighter, a scale reading to 0.01 g if possible, and nutrition labels. Prepare a fire-safe surface. Look up the California Energy Commission's 'Total System Electric Generation' page for Day 4.",
+   "misconceptions": [
+    "Students mix up the food Calorie (capital C, = 1 kilocalorie) and the calorie. Show that a 100 Calorie snack contains 100,000 calories, or about 418 kJ.",
+    "Students think heat and temperature are the same. Heat (q, in joules) is energy transferred; temperature measures average particle kinetic energy. The same heat raises a small mass of water more than a large one.",
+    "Students expect their calorimeter result to match the label. Most of the heat escapes to the air and can, so home calorimeters typically capture well under half of the label value; this is the error to analyze, not a mistake."
+   ],
+   "days": [
+    {
+     "guide": "Teach the conversions 1 cal = 4.184 J and 1 food Calorie = 1 kcal = 4184 J. Model one label conversion, then have the student convert three snack labels to kJ per serving and kJ per gram. Check that the student multiplies, not divides, when going from Calories to joules.",
+     "questions": [
+      {
+       "q": "A granola bar has 190 Calories. How many kilojoules is that?",
+       "a": "190 × 4.184 = 795 kJ (about 795,000 J)."
+      },
+      {
+       "q": "How many calories (small c) are in one food Calorie?",
+       "a": "1000 calories."
+      }
+     ]
+    },
+    {
+     "guide": "Build the calorimeter: hang the can with 100 mL (100 g) of water above a food sample stuck on a paperclip stand. Record the water's starting temperature and the food's mass, ignite the food, let it burn out, stir and record the highest temperature, then reweigh the remains. Repeat with the cashew.",
+     "questions": [
+      {
+       "q": "Why do we measure the food mass both before and after burning?",
+       "a": "To find the mass that actually burned; energy per gram uses only the mass consumed."
+      },
+      {
+       "q": "Why use water as the substance being heated?",
+       "a": "Its specific heat (4.184 J/g·°C) is known and it is easy to measure, so the energy absorbed can be calculated from its temperature change."
+      }
+     ]
+    },
+    {
+     "guide": "Write q = mcΔT on the board and model it with the student's cheese-puff data. The student calculates energy per gram for both foods, converts the label value to J/g, computes percent error, and lists reasons the measured value is low.",
+     "questions": [
+      {
+       "q": "100.0 g of water warms from 21.0 °C to 39.0 °C. How much heat did it absorb?",
+       "a": "q = 100.0 × 4.184 × 18.0 = 7530 J (7.53 kJ)."
+      },
+      {
+       "q": "A cashew lost 0.60 g while releasing 7530 J to the water. What is the measured energy per gram?",
+       "a": "7530 ÷ 0.60 = 12,550 J/g ≈ 13 kJ/g (about 3.0 Cal/g); the label value is about 23 kJ/g, so much heat was lost."
+      },
+      {
+       "q": "Give one way to reduce the error.",
+       "a": "Shield the flame and can from drafts (e.g., a foil chimney), put the can closer to the flame, or use a lid to reduce heat lost to the air."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student find California's current electricity sources on the California Energy Commission site and record the top sources (natural gas, solar, wind, hydro, nuclear, etc.). Then compare energy per gram of fuels in a table and discuss why hydrogen is energy-dense by mass but hard to store.",
+     "questions": [
+      {
+       "q": "Rank gasoline, natural gas (methane) and hydrogen by energy released per gram.",
+       "a": "Hydrogen (~120–142 kJ/g) > natural gas (~50–55 kJ/g) > gasoline (~46 kJ/g)."
+      },
+      {
+       "q": "What product does hydrogen combustion make, and why does that matter for climate?",
+       "a": "Only water (2H₂ + O₂ → 2H₂O), so burning it produces no CO₂; however, how the hydrogen is produced can still create emissions."
+      }
+     ]
+    },
+    {
+     "guide": "Give the five-question energy quiz with a calculator and formula sheet (q = mcΔT, c of water = 4.184 J/g·°C, 1 Cal = 4.184 kJ). Grade together and file corrections in the lab notebook.",
+     "questions": [
+      {
+       "q": "How much energy is needed to warm 250 g of water by 4.0 °C?",
+       "a": "q = 250 × 4.184 × 4.0 = 4184 J ≈ 4.2 kJ."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric (4 levels): 4 = Data table with mass of food before/after, water mass, initial/final temperatures; q = mcΔT calculated correctly for both foods (e.g., 100 g × 4.184 J/g·°C × 18.0 °C = 7530 J); energy per gram = q ÷ mass burned; comparison to label (label kJ/g = Calories per serving × 4.184 ÷ grams per serving); percent error; at least two specific error sources (heat lost to air and can, incomplete burning, soot) with a suggested improvement (shield, lid, closer can). 3 = correct calculations with general error analysis. 2 = calculation errors or missing comparison. 1 = incomplete data. Friday quiz key: 1) 500 Cal = 2092 kJ. 2) 200 g water warmed 20 °C → 45 °C: q = 200 × 4.184 × 25 = 20,900 J (20.9 kJ). 3) 1.20 g of food heats 50.0 g water by 30.0 °C: q = 6276 J; 6276 ÷ 1.20 = 5230 J/g (5.23 kJ/g, about 1.25 Cal/g). 4) 4184 J added to 100 g water: ΔT = 4184 ÷ (100 × 4.184) = 10.0 °C. 5) Which has more energy per gram, gasoline or hydrogen? Hydrogen (~120–142 kJ/g vs. ~46 kJ/g)."
+  },
+  {
+   "week": 4,
+   "prep": "Have a calculator, a periodic table, and the family's recent gas/utility bill and an estimate of weekly car miles and the car's mpg. Open the California Air Resources Board GHG inventory page and a spreadsheet. Print the Unit 1 test you make from the key below.",
+   "misconceptions": [
+    "Students assume 1 gallon of gasoline (about 2.8 kg) cannot produce more than 2.8 kg of CO₂. Show that each carbon atom picks up two oxygen atoms from the air, so the CO₂ mass is about three times the fuel mass.",
+    "Students confuse criteria and constraints. Criteria are what a good solution should achieve (cut CO₂, affordable); constraints are hard limits it must work within (budget, existing cars, laws).",
+    "Students think 'carbon footprint' counts only driving. Include home heating, electricity and goods."
+   ],
+   "days": [
+    {
+     "guide": "Model the calculation: a gallon of gasoline is about 2.80 kg; treat gasoline as octane, C₈H₁₈ (114.2 g/mol). Moles of octane = 2800 ÷ 114.2 = 24.5 mol; each makes 8 CO₂, so 196 mol CO₂ × 44.0 g/mol ≈ 8.6 kg. The student repeats the reasoning for a 10-gallon tank.",
+     "questions": [
+      {
+       "q": "How many kg of CO₂ are produced by burning a 10-gallon tank?",
+       "a": "About 86 kg (10 × 8.6 kg; EPA's figure of 8.89 kg/gal gives 89 kg)."
+      },
+      {
+       "q": "Write the balanced equation for octane combustion.",
+       "a": "2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O"
+      }
+     ]
+    },
+    {
+     "guide": "Help the student gather the family's weekly miles, mpg and natural-gas use (therms). Weekly car CO₂ = miles ÷ mpg × 8.89 kg; natural gas ≈ 5.3 kg CO₂ per therm. The student builds a small spreadsheet and identifies the largest source.",
+     "questions": [
+      {
+       "q": "A family drives 200 miles a week in a 25-mpg car. How much CO₂ is that?",
+       "a": "200 ÷ 25 = 8 gallons × 8.89 kg ≈ 71 kg CO₂ per week."
+      },
+      {
+       "q": "A household uses 10 therms of natural gas in a week. Estimate the CO₂.",
+       "a": "10 × 5.3 = 53 kg CO₂."
+      }
+     ]
+    },
+    {
+     "guide": "Define criteria and constraints with examples. The student builds a table for a cleaner transportation fuel (criteria: lower CO₂ per mile, cost per mile, energy density, safety; constraints: existing infrastructure, budget, state law, vehicle range) and ranks the importance of each.",
+     "questions": [
+      {
+       "q": "Is 'must work in existing gas stations' a criterion or a constraint?",
+       "a": "A constraint — it is a limit the solution must operate within."
+      },
+      {
+       "q": "Give one criterion for a cleaner fuel.",
+       "a": "For example: produces less CO₂ per mile than gasoline (or costs no more per mile)."
+      }
+     ]
+    },
+    {
+     "guide": "Pull out the Week 1 candle questions. The student redraws the candle model, now adding particle diagrams for wax + O₂ → CO₂ + H₂O and energy release, and marks which driving questions are answered. Discuss what remains unknown.",
+     "questions": [
+      {
+       "q": "Using what you know now, where does the energy of the candle flame come from?",
+       "a": "From the chemical potential energy stored in the bonds of wax and oxygen; forming the stronger bonds in CO₂ and H₂O releases more energy than is needed to break the reactant bonds."
+      },
+      {
+       "q": "Why does the flame need the wick to start?",
+       "a": "The wick holds melted wax so it can vaporize; wax burns as a vapor, and the wick's flame provides heat to melt and vaporize more wax."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test in one sitting (allow 50 minutes). Grade with the key, then have the student redo missed problems and explain one in writing.",
+     "questions": [
+      {
+       "q": "Balance: C₂H₆ + O₂ → CO₂ + H₂O.",
+       "a": "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test key (sample items): 1) Balance C₃H₈ + O₂ → CO₂ + H₂O: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. 2) Products of complete hydrocarbon combustion: CO₂ and H₂O. 3) Steel wool gains mass when burned because oxygen atoms bond to iron. 4) 150 g water warmed by 12.0 °C absorbs q = 150 × 4.184 × 12.0 = 7530 J. 5) 300 Cal = 1255 kJ. 6) Sig figs in 0.0500 — 3. 7) 7.21 × 0.32 = 2.3. 8) Burning 1 gal gasoline (2.80 kg, modeled as C₈H₁₈) makes about 8.6 kg CO₂ (EPA uses 8.89 kg). 9) Define criteria vs. constraint (see misconception). 10) Short answer: why the candle went out sooner in a small jar — less oxygen available. Score 1 point each (item 10: 2 points); 90%+ mastery, 70–89% targeted review, below 70% reteach."
+  },
+  {
+   "week": 5,
+   "prep": "Open PhET 'Build an Atom' and test it. Gather marbles, a large piece of cardboard propped on books, and a hidden shape cut from cardboard (triangle or circle). For 'beanium' gather three kinds of dried beans (e.g., 20 pinto, 15 kidney, 5 lima) and the kitchen scale. Have a periodic table.",
+   "misconceptions": [
+    "Students think the mass number is on the periodic table. The decimal number shown is the average atomic mass; the mass number (protons + neutrons) is a whole number for one isotope.",
+    "Students think isotopes of an element have different numbers of protons. Isotopes have the same protons (same element) but different neutrons.",
+    "Students treat ions as changes in protons. Ions form by gaining or losing electrons; the number of protons never changes in a chemical reaction."
+   ],
+   "days": [
+    {
+     "guide": "Have the student research each scientist and make an illustrated timeline: Dalton (c. 1803, solid indivisible spheres), Thomson (1897 discovered the electron; plum-pudding model), Rutherford (1911 gold foil; nucleus), Bohr (1913 electrons in fixed energy levels), Schrödinger/quantum model (1920s electron cloud/orbitals). For each, note the evidence that changed the model.",
+     "questions": [
+      {
+       "q": "What evidence led Thomson to propose that atoms contain smaller particles?",
+       "a": "Cathode-ray experiments showed beams of negatively charged particles much lighter than any atom, deflected by electric and magnetic fields — electrons."
+      },
+      {
+       "q": "What was wrong with the plum-pudding model?",
+       "a": "It predicted alpha particles would pass straight through gold foil; Rutherford found a few bounced back, showing charge and mass are concentrated in a tiny nucleus."
+      }
+     ]
+    },
+    {
+     "guide": "Hide a shape under the cardboard without letting the student see it. The student rolls marbles under it from many directions, marks where each enters and exits, and infers the shape. Connect: Rutherford never saw the nucleus either; he inferred it from deflections.",
+     "questions": [
+      {
+       "q": "In Rutherford's experiment, what did it mean that most alpha particles went straight through?",
+       "a": "The atom is mostly empty space."
+      },
+      {
+       "q": "How is the marble activity like the gold-foil experiment?",
+       "a": "Both use the paths of projectiles to infer the size and shape of something that cannot be seen directly."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET Build an Atom, the student builds H, He, C, O and Na, then makes ions (e.g., O²⁻, Na⁺) and records protons, neutrons, electrons, charge and mass number in a table. Ask what determines the element's identity.",
+     "questions": [
+      {
+       "q": "An atom has 8 protons, 8 neutrons and 10 electrons. What is it?",
+       "a": "An oxide ion, O²⁻ (oxygen-16 with a 2− charge)."
+      },
+      {
+       "q": "What determines which element an atom is?",
+       "a": "The number of protons (atomic number)."
+      }
+     ]
+    },
+    {
+     "guide": "Sort the beans by type, count each type and weigh each group. Model the weighted average: (fraction of type A × average mass of A) + … The student calculates the atomic mass of beanium and explains why it is not simply the average of the three masses.",
+     "questions": [
+      {
+       "q": "Chlorine is about 75% Cl-35 and 25% Cl-37. Estimate its average atomic mass.",
+       "a": "0.75 × 35 + 0.25 × 37 = 35.5 u (the table lists 35.45)."
+      },
+      {
+       "q": "Why is boron's average atomic mass (10.81) closer to 11 than to 10?",
+       "a": "Boron-11 is much more abundant (about 80%) than boron-10."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-item quiz and grade it together; collect the beanium lab sheet. Have the student redo missed isotope calculations.",
+     "questions": [
+      {
+       "q": "How many neutrons are in uranium-238 (Z = 92)?",
+       "a": "238 − 92 = 146 neutrons."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Beanium lab: full credit if mass of each bean type, count, percent abundance, and weighted average are correct. Example: 20 beans at 0.50 g, 15 at 0.80 g, 5 at 1.20 g (40 beans) → abundances 50%, 37.5%, 12.5%; average = 0.50(0.50) + 0.375(0.80) + 0.125(1.20) = 0.70 g. Quiz key: 1) Protons, neutrons, electrons in ⁵⁶Fe: 26, 30, 26. 2) Electrons in Na⁺: 10. 3) Electrons in O²⁻: 10. 4) Why most alpha particles passed through gold foil — atoms are mostly empty space. 5) Why some bounced back — a tiny, dense, positively charged nucleus. 6) Define isotope — atoms of the same element with different numbers of neutrons. 7) Copper: 69.15% ⁶³Cu (62.93 u) and 30.85% ⁶⁵Cu (64.93 u); average = 63.55 u. 8) Order the models Dalton → Thomson → Rutherford → Bohr → quantum (electron cloud). 9) Mass number of an atom with 17 protons and 20 neutrons — 37 (chlorine-37). 10) Which subatomic particle has almost no mass — the electron."
+  },
+  {
+   "week": 6,
+   "prep": "Build the spectroscope ahead with the student: a cereal box, an old CD (or DVD) as the diffraction grating, a narrow slit cut from foil, and tape (search 'CD spectroscope cereal box' for a template). Find incandescent, LED and fluorescent light sources at home. Queue a flame-test demonstration video and PhET 'Models of the Hydrogen Atom'. Print a blank periodic table.",
+   "misconceptions": [
+    "Students think the color in a flame test comes from the flame itself. The colored light comes from electrons in the metal ions dropping from excited energy levels to lower levels.",
+    "Students fill 3d before 4s or forget the order. Use the diagonal (Aufbau) chart: 1s 2s 2p 3s 3p 4s 3d 4p.",
+    "Students count all electrons as valence electrons. Valence electrons are in the outermost s and p sublevels (main-group elements: the group number's ones digit, e.g., Cl has 7)."
+   ],
+   "days": [
+    {
+     "guide": "Assemble the spectroscope and have the student look at a bright incandescent bulb, a white LED, and a fluorescent tube or CFL (never look at the Sun). The student sketches each spectrum with colored pencils and describes the differences.",
+     "questions": [
+      {
+       "q": "Which light source shows a continuous spectrum, and which shows bright lines?",
+       "a": "Incandescent shows a continuous spectrum (a hot glowing filament); fluorescent shows bright lines from excited mercury atoms."
+      },
+      {
+       "q": "What does the CD do in the spectroscope?",
+       "a": "Its closely spaced tracks act as a diffraction grating, spreading light into its component wavelengths."
+      }
+     ]
+    },
+    {
+     "guide": "Watch a flame-test video, pausing before each reveal so the student predicts. The student records element and color, then uses a reference table to identify two 'unknown' flame colors you describe.",
+     "questions": [
+      {
+       "q": "An unknown salt gives a crimson-red flame. Which ions could it contain?",
+       "a": "Lithium (crimson) or strontium (red)."
+      },
+      {
+       "q": "Why are fireworks different colors?",
+       "a": "Different metal salts are added; each metal's electrons emit characteristic wavelengths when excited (e.g., strontium red, barium green, copper blue, sodium yellow)."
+      }
+     ]
+    },
+    {
+     "guide": "Use PhET Models of the Hydrogen Atom (Bohr view) to show an electron jumping up when absorbing a photon and dropping down emitting one. Model on paper: a larger drop gives a higher-energy, shorter-wavelength photon. The student explains in writing why spectra act like fingerprints.",
+     "questions": [
+      {
+       "q": "In hydrogen, does a drop from level 3 to 2 or from level 4 to 2 give the higher-energy photon?",
+       "a": "4 → 2, because it is a larger energy difference (it produces blue-green light, 486 nm, versus red, 656 nm, for 3 → 2)."
+      },
+      {
+       "q": "Why can't a hydrogen atom emit any color it wants?",
+       "a": "Electrons can only occupy specific energy levels, so only specific energy differences — specific photon energies — are possible."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the Aufbau order and orbital diagrams (boxes with up/down arrows, Hund's rule: fill singly before pairing). The student writes configurations for elements 1–36, using noble gas shorthand after neon, and highlights valence electrons. Point out the exceptions Cr ([Ar] 4s¹ 3d⁵) and Cu ([Ar] 4s¹ 3d¹⁰).",
+     "questions": [
+      {
+       "q": "Write the electron configuration and orbital diagram for nitrogen.",
+       "a": "1s² 2s² 2p³; the three 2p electrons each occupy a separate box with parallel spins (Hund's rule)."
+      },
+      {
+       "q": "Write the configuration of calcium in noble gas notation.",
+       "a": "[Ar] 4s²"
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and grade it together. Collect the spectroscope sketches and observation write-up.",
+     "questions": [
+      {
+       "q": "How many valence electrons does phosphorus have?",
+       "a": "5 (3s² 3p³)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Spectroscope observations: full credit for sketches of each light — incandescent: continuous rainbow; fluorescent: continuous dim background with distinct bright lines (violet, green, yellow-orange lines from mercury); white LED: smooth band strongest in blue and yellow-green with a weak gap — and a sentence explaining continuous vs. line spectra. Quiz key: 1) Configuration of O: 1s² 2s² 2p⁴. 2) Na: 1s² 2s² 2p⁶ 3s¹. 3) Fe: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶ ([Ar] 4s² 3d⁶). 4) Br valence electrons: 7. 5) Why each element has a unique spectrum — each has a unique set of energy levels, so the energy differences (photon colors) are unique. 6) Higher-energy photon: violet or red? Violet. 7) Flame color of sodium — yellow-orange; copper — blue-green; strontium/lithium — red. 8) What happens when an electron absorbs energy — it jumps to a higher energy level (excited state). 9) Noble gas notation for K — [Ar] 4s¹. 10) Element with configuration [Ar] 4s² 3d¹⁰ 4p⁵ — bromine."
+  },
+  {
+   "week": 7,
+   "prep": "Make 20 element cards (name, symbol, atomic mass, a property such as metal/nonmetal, reactivity, formula of oxide). Gather graph paper or a spreadsheet with atomic radius and first ionization energy data for elements 1–20 (from PubChem or a textbook appendix). Queue an alkali-metals-in-water video (e.g., Royal Institution or Open University).",
+   "misconceptions": [
+    "Students think atoms get bigger across a period because they gain electrons. Across a period, added protons increase nuclear charge while shielding stays about the same, so electrons are pulled in and the radius shrinks.",
+    "Students think metals 'want' to lose electrons. Atoms do not have wants; lower ionization energy means the outer electron is held less tightly and is removed more easily.",
+    "Students reverse ionization energy and radius trends. Remind them that they are inverse: small atoms hold electrons tightly (high IE)."
+   ],
+   "days": [
+    {
+     "guide": "Shuffle the element cards. The student sorts them into groups by similar properties, then by increasing atomic mass, and explains the arrangement. Tell how Mendeleev (1869) left gaps for undiscovered elements and predicted their properties.",
+     "questions": [
+      {
+       "q": "Why was Mendeleev's table convincing to other scientists?",
+       "a": "He predicted properties of undiscovered elements (e.g., 'eka-silicon' = germanium) that were later found to match closely."
+      },
+      {
+       "q": "Today the table is ordered by what instead of atomic mass?",
+       "a": "Atomic number (number of protons), which fixes cases like tellurium/iodine."
+      }
+     ]
+    },
+    {
+     "guide": "The student plots atomic radius and first ionization energy versus atomic number (1–20) and describes repeating patterns. Prompt: where are the peaks and valleys?",
+     "questions": [
+      {
+       "q": "Which elements are at the peaks of the ionization energy graph?",
+       "a": "Noble gases: He, Ne, Ar."
+      },
+      {
+       "q": "What happens to atomic radius going from Li to Ne?",
+       "a": "It decreases."
+      }
+     ]
+    },
+    {
+     "guide": "Draw Bohr-style shells for Na and Cl side by side. Explain effective nuclear charge (protons minus inner shielding electrons) and shielding. The student writes explanations for each trend using these two ideas.",
+     "questions": [
+      {
+       "q": "Explain why K is larger than Na.",
+       "a": "K has an additional occupied electron shell (4 vs. 3), so its outer electron is farther from the nucleus, even though K has more protons."
+      },
+      {
+       "q": "Why is the first ionization energy of F greater than that of Li?",
+       "a": "F has a much larger effective nuclear charge pulling on electrons in the same shell, so its electrons are held more tightly."
+      }
+     ]
+    },
+    {
+     "guide": "Before showing the video, the student predicts the reaction of Li, Na and K with water, then watches and checks. Write the equation for sodium and connect reactivity to ionization energy.",
+     "questions": [
+      {
+       "q": "Write the balanced equation for sodium and water.",
+       "a": "2Na + 2H₂O → 2NaOH + H₂"
+      },
+      {
+       "q": "Predict how cesium reacts compared with potassium.",
+       "a": "More violently: cesium's outer electron is farther from the nucleus and easier to remove."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-question quiz and grade it together. Collect the graphs.",
+     "questions": [
+      {
+       "q": "Which has a larger radius, Mg or Mg²⁺?",
+       "a": "Mg — losing the two 3s electrons removes the outer shell, so Mg²⁺ is smaller."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Graphs: full credit for correctly plotted radius and ionization energy vs. atomic number for Z = 1–20, axes labeled with units (pm, kJ/mol), and written patterns: IE peaks at noble gases (He, Ne, Ar) and drops sharply at alkali metals (Li, Na, K); radius peaks at alkali metals and decreases across each period. Quiz key: 1) Larger atom: Na or Cl? Na. 2) Larger atom: Li or K? K. 3) Higher first ionization energy: Mg or Ba? Mg. 4) Most electronegative element: fluorine. 5) More reactive: Na or K? K, its outer electron is farther from the nucleus and more shielded. 6) Explain the radius decrease across period 3 — more protons (greater effective nuclear charge) with the same number of shells/shielding. 7) Why does IE jump from Na to Ne? Ne has a full shell with electrons close to the nucleus; Na's lone 3s electron is far away and shielded. 8) Group 17 name — halogens; Group 18 — noble gases. 9) Mendeleev left gaps — he predicted undiscovered elements such as gallium and germanium. 10) Rank by electronegativity: Na < C < O."
+  },
+  {
+   "week": 8,
+   "prep": "Gather 100 pennies (or M&Ms), a shoebox with a lid, graph paper. Review the nuclear symbols (mass number on top, atomic number on bottom). Read a short overview of Diablo Canyon Power Plant (PG&E) and fusion (ITER or the 2022 National Ignition Facility result at Lawrence Livermore, California).",
+   "misconceptions": [
+    "Students think half-life means the sample is gone after two half-lives. After each half-life, half of what remains decays: 100% → 50% → 25% → 12.5%.",
+    "Students think radioactive decay is a chemical reaction. Decay changes the nucleus (it can change the element); chemical reactions involve only electrons.",
+    "Students mix up fission (splitting heavy nuclei) and fusion (joining light nuclei). Use 'fusion = fuse together'."
+   ],
+   "days": [
+    {
+     "guide": "Teach nuclear notation and the three decay types: alpha (emits ⁴₂He, mass −4, atomic number −2), beta (a neutron becomes a proton, emits an electron, atomic number +1), gamma (high-energy photon, no change). Model two equations and have the student balance five more by checking that top and bottom numbers add up.",
+     "questions": [
+      {
+       "q": "Complete: ²³⁸₉₂U → ? + ⁴₂He",
+       "a": "²³⁴₉₀Th (thorium-234)."
+      },
+      {
+       "q": "Complete: ¹³¹₅₃I → ? + ⁰₋₁e",
+       "a": "¹³¹₅₄Xe (xenon-131)."
+      }
+     ]
+    },
+    {
+     "guide": "Put 100 pennies in the box, shake, remove all heads (they 'decayed'), and record the count. Repeat until none remain. The student graphs shakes vs. pennies remaining and finds the half-life from the graph.",
+     "questions": [
+      {
+       "q": "Starting with 100 pennies, about how many remain after 3 shakes?",
+       "a": "About 12–13 (100 → 50 → 25 → 12.5)."
+      },
+      {
+       "q": "Can you predict exactly which penny will 'decay' next?",
+       "a": "No; decay is random for individual nuclei, but predictable for large numbers."
+      }
+     ]
+    },
+    {
+     "guide": "Model: number of half-lives = time ÷ half-life, and fraction left = (1/2)ⁿ. Work a C-14 and a U-238 example together, then the student solves six problems.",
+     "questions": [
+      {
+       "q": "A wooden tool has 12.5% of its original C-14. How old is it?",
+       "a": "12.5% = (1/2)³, so 3 half-lives × 5,730 yr = 17,190 years."
+      },
+      {
+       "q": "Why isn't C-14 used to date dinosaur bones?",
+       "a": "Dinosaurs died over 66 million years ago; after ~50,000 years almost no C-14 remains. Longer-lived isotopes in surrounding volcanic rock (e.g., U-238, K-40) are used instead."
+      }
+     ]
+    },
+    {
+     "guide": "Compare fission and fusion in a T-chart: fuel, products, where it happens (Diablo Canyon reactor splits U-235; the Sun fuses hydrogen), waste, and energy source. Work an E = mc² example.",
+     "questions": [
+      {
+       "q": "How much energy is released if 1.0 g (0.0010 kg) of mass is converted to energy?",
+       "a": "E = 0.0010 × (3.0 × 10⁸)² = 9.0 × 10¹³ J."
+      },
+      {
+       "q": "Give one advantage and one challenge of fission power.",
+       "a": "Advantage: no CO₂ emissions during operation. Challenge: long-lived radioactive waste and safety concerns."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz with a periodic table. Grade together and collect the half-life graph.",
+     "questions": [
+      {
+       "q": "Polonium-210 has a half-life of 138 days. What fraction remains after 276 days?",
+       "a": "One quarter (two half-lives)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab: full credit for a data table of remaining pennies each shake, a graph with a smooth decay curve, and a half-life of about 1 shake (half remain each round). Quiz key: 1) Alpha decay of radium-226: ²²⁶₈₈Ra → ²²²₈₆Rn + ⁴₂He. 2) Beta decay of thorium-234: ²³⁴₉₀Th → ²³⁴₉₁Pa + ⁰₋₁e. 3) Beta decay of carbon-14: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e. 4) Gamma radiation changes neither mass number nor atomic number. 5) 80 g of iodine-131 (half-life 8 days) after 24 days: 10 g. 6) A bone has 25% of its original C-14 (half-life 5,730 yr): age 11,460 years. 7) A rock has half its original U-238 (half-life 4.5 billion yr): about 4.5 billion years old. 8) Most penetrating radiation: gamma; least: alpha. 9) Fission splits a heavy nucleus such as U-235; fusion joins light nuclei such as hydrogen into helium. 10) Source of energy in both: a small amount of mass converted to energy (E = mc²)."
+  },
+  {
+   "week": 9,
+   "prep": "Bookmark NASA's 'Star Life Cycle' and 'The Sun' pages and print a periodic table color-coded by origin (search 'Jennifer Johnson nucleosynthesis periodic table' by NASA/SDSS) to check the student's version. Gather colored pencils.",
+   "misconceptions": [
+    "Students think stars 'burn' like fire. Stars release energy through nuclear fusion, not chemical combustion; there is no oxygen burning.",
+    "Students think all elements are made in supernovae. Hydrogen and helium come from the Big Bang; carbon and nitrogen largely come from dying low-mass stars; elements up to iron form by fusion in massive stars; many heavy elements like gold come from neutron-star mergers.",
+    "Students think the Sun will become a black hole. The Sun is too small; it will become a red giant, then a white dwarf."
+   ],
+   "days": [
+    {
+     "guide": "Model the proton-proton chain simply: four hydrogen nuclei (protons) eventually fuse into one helium-4 nucleus, releasing positrons, neutrinos and energy. The products have about 0.7% less mass than the reactants; that mass becomes energy (E = mc²). The student draws a flow diagram.",
+     "questions": [
+      {
+       "q": "Four hydrogen atoms have a mass of 4.0313 u; one helium-4 atom is 4.0026 u. What fraction of the mass is converted to energy?",
+       "a": "(4.0313 − 4.0026) ÷ 4.0313 = 0.0287 ÷ 4.0313 ≈ 0.0071, about 0.7%."
+      },
+      {
+       "q": "Why does fusion require the extreme temperature of the Sun's core (~15 million K)?",
+       "a": "Nuclei are positively charged and repel; only at very high speeds (temperature) and pressure can they get close enough for the strong force to fuse them."
+      }
+     ]
+    },
+    {
+     "guide": "Using NASA resources, the student draws two branching paths: a Sun-like star (nebula → protostar → main sequence → red giant → planetary nebula → white dwarf) and a massive star (… → red supergiant → supernova → neutron star or black hole). Label what fuses in each stage.",
+     "questions": [
+      {
+       "q": "What determines whether a star ends as a white dwarf or a supernova?",
+       "a": "Its mass; stars more than about 8 times the Sun's mass end in supernovae."
+      },
+      {
+       "q": "Where is the Sun in its life cycle?",
+       "a": "On the main sequence, about halfway through its roughly 10-billion-year lifetime."
+      }
+     ]
+    },
+    {
+     "guide": "The student color-codes a blank periodic table by origin: Big Bang (H, He, some Li), low-mass dying stars (e.g., C, N, many heavy elements via slow neutron capture such as barium and lead), massive stars and supernovae (O through Fe and others), neutron-star mergers (e.g., gold, platinum), and human-made (Tc, elements beyond U). Compare to the NASA version.",
+     "questions": [
+      {
+       "q": "Where did the iron in your blood come from?",
+       "a": "Fusion and supernova explosions of stars (especially massive stars and white-dwarf supernovae)."
+      },
+      {
+       "q": "Which two elements were made mainly in the Big Bang?",
+       "a": "Hydrogen and helium."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the 1-page explainer 'You are made of stardust', using at least three specific elements in the human body (oxygen, carbon, hydrogen, nitrogen, calcium, iron) and their origins. Score with the rubric and have the student revise once.",
+     "questions": [
+      {
+       "q": "Is the hydrogen in water molecules in your body 'stardust'? Explain.",
+       "a": "Not exactly: hydrogen formed in the Big Bang, before stars; most other elements in the body were formed in stars."
+      },
+      {
+       "q": "What evidence tells astronomers which elements are in distant stars?",
+       "a": "Their absorption/emission spectra — each element produces a unique set of lines."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test (50 minutes) with a periodic table. Grade together and log errors for review.",
+     "questions": [
+      {
+       "q": "Write the configuration of sulfur and state its valence electrons.",
+       "a": "1s² 2s² 2p⁶ 3s² 3p⁴; 6 valence electrons."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Explainer rubric (4 levels): 4 = Explains that hydrogen in our bodies formed in the Big Bang, carbon/oxygen/nitrogen formed by fusion in stars and were spread by stellar winds and supernovae, iron is the endpoint of fusion in massive stars, and heavier elements (e.g., gold, iodine) form in supernovae and neutron-star mergers; cites at least two pieces of evidence (stellar spectra showing elements, solar fusion, observed 2017 neutron-star merger GW170817 with heavy-element signatures). Unit 2 test key (sample): 1) ²³⁹₉₄Pu alpha decay → ²³⁵₉₂U + ⁴₂He. 2) Half-lives in 15 days for a 5-day isotope: 3; fraction left 1/8. 3) Fe configuration [Ar] 4s² 3d⁶. 4) Larger radius: Ca or Br — Ca. 5) Ions: Mg²⁺ has 12 p, 10 e. 6) Average mass of Ga (60.1% Ga-69 at 68.93; 39.9% Ga-71 at 70.92) = 69.72. 7) The Sun's energy source: fusion of hydrogen into helium. 8) Fate of a star 20× the Sun's mass: supernova, then neutron star or black hole. 9) Why fusion stops at iron: fusing iron absorbs rather than releases energy. 10) Line spectra show which elements are in stars."
+  },
+  {
+   "week": 10,
+   "prep": "Gather table salt, a magnifier, a jar, string or a pencil for crystal growth, and parts for a conductivity tester: a 9-V battery, an LED, two insulated wires (or alligator clips), and tape. Prepare distilled or tap water, sugar and salt. Make a polyatomic ion reference card (nitrate NO₃⁻, sulfate SO₄²⁻, carbonate CO₃²⁻, hydroxide OH⁻, phosphate PO₄³⁻, ammonium NH₄⁺, acetate C₂H₃O₂⁻).",
+   "misconceptions": [
+    "Students write NaCl as a molecule. Ionic compounds are lattices of alternating ions; the formula shows the simplest ratio (a formula unit).",
+    "Students forget parentheses for multiple polyatomic ions, writing CaNO₃₂. Polyatomic ions stay intact: Ca(NO₃)₂.",
+    "Students think solid salt conducts because it is made of ions. Ions must be free to move (dissolved or melted) to conduct."
+   ],
+   "days": [
+    {
+     "guide": "Model Lewis dot diagrams for Na and Cl, then draw an arrow showing the electron transfer and the resulting ions in brackets with charges. The student repeats for MgO and CaCl₂, checking that total charge is zero.",
+     "questions": [
+      {
+       "q": "Show electron transfer in CaCl₂.",
+       "a": "Ca (2 valence electrons) gives one electron to each of two Cl atoms → Ca²⁺ and 2 Cl⁻; charges total zero."
+      },
+      {
+       "q": "Why does sodium form Na⁺ rather than Na⁻?",
+       "a": "Na has one valence electron that is easily lost (low ionization energy), leaving a stable neon-like configuration."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the criss-cross method and naming rules (metal name + nonmetal ending in -ide; polyatomic names unchanged; Roman numerals for transition metals). The student writes and names 30 compounds; check the first five together.",
+     "questions": [
+      {
+       "q": "Write the formula for aluminum sulfate.",
+       "a": "Al₂(SO₄)₃"
+      },
+      {
+       "q": "Name Cu₂O.",
+       "a": "Copper(I) oxide."
+      }
+     ]
+    },
+    {
+     "guide": "Dissolve salt in hot water until no more dissolves (saturated). Pour into a shallow dish and leave a few days (or hang a string). Examine crystals with a magnifier and sketch their cubic shape. Relate the shape to the lattice.",
+     "questions": [
+      {
+       "q": "Why do salt crystals form cubes?",
+       "a": "Na⁺ and Cl⁻ ions stack in a repeating cubic lattice; the visible crystal reflects that arrangement."
+      },
+      {
+       "q": "What makes a solution 'saturated'?",
+       "a": "It holds the maximum dissolved solute at that temperature; extra solute will not dissolve."
+      }
+     ]
+    },
+    {
+     "guide": "Build the tester: battery to LED to one probe; second probe from the battery's other terminal (adult checks LED polarity). Test dry salt, salt water, sugar water and plain water, recording brightness. The student explains each result.",
+     "questions": [
+      {
+       "q": "Why does salt water light the LED but sugar water does not?",
+       "a": "Salt dissociates into mobile Na⁺ and Cl⁻ ions that carry charge; sugar dissolves as neutral molecules."
+      },
+      {
+       "q": "Predict whether melted salt would conduct.",
+       "a": "Yes — in the liquid state the ions can move."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-item quiz with the polyatomic ion card allowed. Grade together and collect the conductivity data table.",
+     "questions": [
+      {
+       "q": "Write the formula for sodium hydroxide and for barium hydroxide.",
+       "a": "NaOH; Ba(OH)₂."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Conductivity table: dry salt — LED off (ions locked in a lattice); salt water — LED on (mobile ions); sugar water — LED off (molecules, no ions); tap water — dim or off. Quiz key: 1) Formula of magnesium chloride — MgCl₂. 2) Aluminum oxide — Al₂O₃. 3) Calcium nitrate — Ca(NO₃)₂. 4) Ammonium sulfate — (NH₄)₂SO₄. 5) Name Na₂CO₃ — sodium carbonate. 6) Name Fe₂O₃ — iron(III) oxide. 7) Name K₃PO₄ — potassium phosphate. 8) Lewis diagram of MgO: Mg transfers 2 electrons to O, forming Mg²⁺ and O²⁻. 9) Why ionic compounds have high melting points — strong electrostatic attractions among many ions in a lattice. 10) Name CuSO₄ — copper(II) sulfate."
+  },
+  {
+   "week": 11,
+   "prep": "Gather gumdrops (two or three colors) and toothpicks, a plastic comb, and a faucet that can make a thin steady stream. Open PhET 'Molecule Shapes' and test it. Make an electronegativity reference (H 2.2, C 2.6, N 3.0, O 3.4, Cl 3.2).",
+   "misconceptions": [
+    "Students draw CO₂ as bent like water. Carbon in CO₂ has no lone pairs and two double bonds, so it is linear (180°).",
+    "Students think any molecule with polar bonds is polar. A symmetric shape (CO₂, CH₄) cancels bond dipoles, making the molecule nonpolar.",
+    "Students forget lone pairs when predicting shape. Lone pairs repel more strongly and squeeze bond angles (109.5° → 107° in NH₃ → 104.5° in H₂O)."
+   ],
+   "days": [
+    {
+     "guide": "Model the steps: count valence electrons, place the least electronegative atom (not H) in the center, connect with single bonds, complete octets, and form multiple bonds if electrons run short. The student draws H₂O, CO₂, CH₄, NH₃, O₂ and N₂ and checks electron totals.",
+     "questions": [
+      {
+       "q": "How many valence electrons are in CO₂, and what is its Lewis structure?",
+       "a": "16 (4 + 6 + 6); O=C=O with two lone pairs on each oxygen."
+      },
+      {
+       "q": "Why does N₂ have a triple bond?",
+       "a": "Each N has 5 valence electrons (10 total); a triple bond plus one lone pair on each N gives both atoms an octet."
+      }
+     ]
+    },
+    {
+     "guide": "Build gumdrop models with toothpicks, using a different color for lone pairs (or leaving a bare toothpick). The student photographs and names each shape.",
+     "questions": [
+      {
+       "q": "Name the shape of NH₃ and explain why it is not flat.",
+       "a": "Trigonal pyramidal; the lone pair on nitrogen pushes the three N–H bonds down."
+      },
+      {
+       "q": "What shape is CH₄?",
+       "a": "Tetrahedral, 109.5°."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET Molecule Shapes, the student adds bonds and lone pairs to a central atom and records the electron geometry, molecular shape and bond angle for 2–6 electron domains. Discuss why lone pairs compress angles.",
+     "questions": [
+      {
+       "q": "A central atom has 4 electron domains: 2 bonds and 2 lone pairs. What is the molecular shape?",
+       "a": "Bent (about 104.5°, like water)."
+      },
+      {
+       "q": "A central atom has 3 bonding domains and no lone pairs. Shape and angle?",
+       "a": "Trigonal planar, 120° (e.g., BF₃)."
+      }
+     ]
+    },
+    {
+     "guide": "Explain bond polarity using electronegativity differences (O–H is polar because O pulls electrons more). Rub a comb on hair or wool and bring it near a thin water stream; the stream bends. The student classifies the six molecules as polar or nonpolar with reasons.",
+     "questions": [
+      {
+       "q": "Is CH₄ polar? Explain.",
+       "a": "No; C–H bonds are only slightly polar and the tetrahedral shape is symmetric, so dipoles cancel."
+      },
+      {
+       "q": "Why is water polar?",
+       "a": "O–H bonds are polar, and the bent shape means the dipoles do not cancel; oxygen is partially negative and the hydrogens partially positive."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz, then grade together. Collect model photos.",
+     "questions": [
+      {
+       "q": "Draw the Lewis structure of HCl and state whether it is polar.",
+       "a": "H–Cl with three lone pairs on Cl; polar because Cl is more electronegative than H."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Model photos: full credit for correct shapes of H₂O (bent), CO₂ (linear), CH₄ (tetrahedral), NH₃ (trigonal pyramidal) with labels. Quiz key: 1) Lewis structure of H₂O: O with two single bonds to H and two lone pairs. 2) CO₂: O=C=O with two lone pairs on each O. 3) N₂: triple bond, one lone pair on each N. 4) Shape and angle of CH₄: tetrahedral, 109.5°. 5) NH₃: trigonal pyramidal, ~107°. 6) H₂O: bent, ~104.5°. 7) Is CO₂ polar? No — linear and symmetric so dipoles cancel. 8) Is NH₃ polar? Yes. 9) Bond type in O₂: double. 10) Why a water stream bends toward a charged comb: water molecules are polar and their partial charges are attracted to the charged comb."
+  },
+  {
+   "week": 12,
+   "prep": "Gather pennies, an eyedropper, water, 70% or 91% rubbing alcohol, vegetable oil, paper towels, a thermometer, and a timer. Prepare a boiling-point data table: H₂O 100 °C, H₂S −60 °C, CH₄ −162 °C, ethanol 78 °C; halogens F₂ −188 °C, Cl₂ −34 °C, Br₂ 59 °C, I₂ 184 °C; noble gases He −269, Ne −246, Ar −186, Kr −153 °C. Keep alcohol away from flames.",
+   "misconceptions": [
+    "Students confuse intermolecular forces with covalent bonds. Boiling water separates molecules from each other (breaking hydrogen bonds); it does not break O–H bonds inside molecules.",
+    "Students think hydrogen bonds are bonds to any hydrogen. A hydrogen bond is an attraction between H attached to N, O or F and a lone pair on another N, O or F.",
+    "Students assume heavier molecules always boil higher. True within a family (London forces grow with size), but hydrogen bonding makes water boil far higher than heavier H₂S."
+   ],
+   "days": [
+    {
+     "guide": "Using the eyedropper, the student adds drops of water one at a time onto a clean, dry penny until it spills, records the count, and repeats with alcohol and oil (cleaning and drying between). Discuss why water forms a tall dome.",
+     "questions": [
+      {
+       "q": "Which liquid fit the most drops, and why?",
+       "a": "Water (typically 20–40+ drops), because hydrogen bonding gives it the strongest cohesion and highest surface tension."
+      },
+      {
+       "q": "What would adding a drop of dish soap to the water do?",
+       "a": "Fewer drops would fit; soap disrupts hydrogen bonding at the surface and lowers surface tension."
+      }
+     ]
+    },
+    {
+     "guide": "Wrap a thermometer bulb in a strip of paper towel. Dip in water, record the temperature every 30 seconds for 4 minutes while fanning gently; repeat with alcohol. Also time how long equal wet spots take to evaporate.",
+     "questions": [
+      {
+       "q": "Which liquid cooled the thermometer more, and why?",
+       "a": "Rubbing alcohol; it evaporates faster because its intermolecular forces are weaker, and evaporation removes energy from the bulb."
+      },
+      {
+       "q": "Why does sweating cool you?",
+       "a": "Water molecules with the most energy escape when sweat evaporates, lowering the average kinetic energy (temperature) of what remains on the skin."
+      }
+     ]
+    },
+    {
+     "guide": "Introduce the three forces: London dispersion (all molecules, stronger with more electrons), dipole-dipole (polar molecules), and hydrogen bonding (H on N, O, F). The student ranks water, isopropyl alcohol and oil by force strength using two lines of evidence from this week.",
+     "questions": [
+      {
+       "q": "Rank water, alcohol and oil by surface tension and support with evidence.",
+       "a": "Water highest (most drops on penny); alcohol and oil lower. Water's extensive hydrogen bonding creates the strongest cohesion."
+      },
+      {
+       "q": "Which force is present in all molecules?",
+       "a": "London dispersion forces."
+      }
+     ]
+    },
+    {
+     "guide": "Give the boiling-point table. The student graphs boiling point vs. molar mass for the noble gases and halogens and explains the trend, then explains why H₂O (18 g/mol) boils at 100 °C while H₂S (34 g/mol) boils at −60 °C.",
+     "questions": [
+      {
+       "q": "Why does boiling point increase from F₂ to I₂?",
+       "a": "Larger molecules have more electrons, so London dispersion forces are stronger and more energy is needed to separate them."
+      },
+      {
+       "q": "Why does water have such a high boiling point for its size?",
+       "a": "Strong hydrogen bonds between water molecules must be overcome; H₂S has no hydrogen bonding."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the full lab report connecting bulk properties to particle forces. Review it with the rubric and have the student revise the reasoning paragraph.",
+     "questions": [
+      {
+       "q": "Predict whether glycerin (many O–H groups) would evaporate faster or slower than water.",
+       "a": "Slower — more hydrogen bonding sites and larger molecules mean stronger attractions."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric (HS-PS1-3), 4 levels: 4 = Question and hypothesis; procedure with controlled variables (same penny, same dropper, same height); data tables (drops on a penny, evaporation time, temperature drop); claim ranking water > alcohol, oil for surface tension and alcohol evaporating faster with larger cooling; reasoning that stronger intermolecular attractions (water's hydrogen bonding) hold molecules together, producing higher surface tension and slower evaporation; error sources (drop size, room air) and a next step. 3 = correct claim and data, reasoning mentions forces but not hydrogen bonding specifically. 2 = data with weak reasoning. 1 = incomplete."
+  },
+  {
+   "week": 13,
+   "prep": "Gather aluminum foil, white school glue (PVA), borax (or contact-lens saline with boric acid plus baking soda), measuring cups, food coloring, zip bags, an HDPE bag (crinkly grocery bag, recycling code 2) and an LDPE bag (bread or zip bag, code 4), and a ruler. Borax should not be ingested; wash hands after slime.",
+   "misconceptions": [
+    "Students think metals are malleable because metal atoms are soft. Metal cations sit in a sea of mobile electrons; layers can slide without breaking the bonding, unlike ionic crystals that shatter.",
+    "Students think slime is a new compound like a reaction product. Borate ions cross-link existing PVA chains with weak, reversible bonds; that is why slime flows slowly yet stretches.",
+    "Students think 'plastic' is one material. Different polymers have different chain structures and properties (HDPE vs. LDPE)."
+   ],
+   "days": [
+    {
+     "guide": "Model metallic bonding with a diagram of positive ions in a sea of electrons. Bend and fold aluminum foil and compare to tapping a salt crystal (which shatters). The student explains malleability, ductility and conductivity using the model.",
+     "questions": [
+      {
+       "q": "Why do metals conduct electricity?",
+       "a": "Their valence electrons are delocalized and free to move through the metal."
+      },
+      {
+       "q": "Why does a salt crystal shatter when hit but a metal bends?",
+       "a": "Shifting an ionic lattice lines up like charges, which repel and split the crystal; in metals the electron sea keeps holding the ions together as layers slide."
+      }
+     ]
+    },
+    {
+     "guide": "Mix ½ cup glue with ½ cup water, then slowly stir in a borax solution (1 tsp borax in 1 cup warm water) until slime forms. The student observes stretch, flow and bounce and draws polymer chains before and after cross-linking.",
+     "questions": [
+      {
+       "q": "What does borax do to the glue?",
+       "a": "Borate ions form cross-links between long PVA polymer chains, turning the liquid into a stretchy gel."
+      },
+      {
+       "q": "Predict what adding more borax solution does.",
+       "a": "More cross-links make the slime stiffer and less stretchy (more rubbery)."
+      }
+     ]
+    },
+    {
+     "guide": "Cut equal 2 cm × 10 cm strips from an HDPE and an LDPE bag. The student pulls each slowly by hand, measuring how far it stretches before breaking, and compares. Draw linear vs. branched chains.",
+     "questions": [
+      {
+       "q": "Which bag stretched more, and why?",
+       "a": "LDPE usually stretches more because its branched chains cannot pack tightly, so they slide past each other; HDPE's linear chains pack tightly, making it stiffer and stronger."
+      },
+      {
+       "q": "What does the 2 in a recycling triangle mean?",
+       "a": "The item is high-density polyethylene (HDPE)."
+      }
+     ]
+    },
+    {
+     "guide": "The student researches one designed material using reliable sources and fills a chart: material, molecular structure, property, use, how structure causes property. Check the explanation is at the molecular level, not just 'it is strong'.",
+     "questions": [
+      {
+       "q": "How does Kevlar's structure explain its strength?",
+       "a": "Long rigid chains align parallel and are held together by many hydrogen bonds between chains, so it resists pulling apart."
+      },
+      {
+       "q": "Why is nonstick PTFE coating slippery?",
+       "a": "Its surface is covered with fluorine atoms that are tightly held and have very weak attractions to other molecules."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents a 3-minute explanation with a diagram; you ask one question. Score with the rubric.",
+     "questions": [
+      {
+       "q": "What is the general rule connecting structure and properties of materials?",
+       "a": "The arrangement of particles and the strength of forces between them determine bulk properties like strength, flexibility, melting point and conductivity."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Presentation rubric (4 levels): 4 = Names the material and its use; describes the molecular structure accurately (e.g., Kevlar: rigid, aligned polyamide chains with hydrogen bonds between chains → high tensile strength; Gore-Tex: expanded PTFE membrane with pores far smaller than liquid water droplets but larger than water vapor molecules → waterproof and breathable; PTFE nonstick: carbon chain shielded by fluorine atoms, very strong C–F bonds and weak surface attractions → nothing sticks); a clear diagram linking structure to function; within 3 minutes; answers one question. 3 = accurate but structure–function link vague. 2 = describes uses with little structure. 1 = inaccurate or incomplete."
+  },
+  {
+   "week": 14,
+   "prep": "Gather uncooked rice, a measuring cup, sugar, salt, water, and the kitchen scale. Make a periodic table available with atomic masses. Write key numbers on a card: 1 mol = 6.022 × 10²³ particles; molar mass of water 18.02 g/mol, NaCl 58.44 g/mol, sucrose (C₁₂H₂₂O₁₁) 342.30 g/mol.",
+   "misconceptions": [
+    "Students think a mole is a mass. A mole is a count (6.022 × 10²³); its mass depends on the substance.",
+    "Students add atomic masses without multiplying by subscripts (H₂O = 1 + 16 = 17). Multiply each atomic mass by the number of atoms: 2(1.01) + 16.00 = 18.02.",
+    "Students flip conversion factors. Set up units so they cancel: grams × (1 mol / g) → mol."
+   ],
+   "days": [
+    {
+     "guide": "Weigh 100 grains of rice, then weigh a full cup. The student calculates the number of grains in the cup without counting, then connects to how chemists count atoms by weighing.",
+     "questions": [
+      {
+       "q": "100 rice grains weigh 2.0 g and a cup of rice weighs 185 g. How many grains are in the cup?",
+       "a": "185 ÷ 2.0 × 100 = 9,250 grains (about 9,300)."
+      },
+      {
+       "q": "Why do chemists count atoms by weighing?",
+       "a": "Atoms are far too small and numerous to count; if you know the mass of one mole, weighing tells you how many particles you have."
+      }
+     ]
+    },
+    {
+     "guide": "Model molar mass: sum (atomic mass × number of atoms). The student calculates 15 molar masses; check H₂O, CO₂, NaCl, C₆H₁₂O₆ and Ca(NO₃)₂ first.",
+     "questions": [
+      {
+       "q": "Molar mass of CO₂?",
+       "a": "12.01 + 2(16.00) = 44.01 g/mol."
+      },
+      {
+       "q": "Molar mass of Ca(NO₃)₂?",
+       "a": "40.08 + 2(14.01) + 6(16.00) = 164.10 g/mol."
+      },
+      {
+       "q": "Molar mass of C₆H₁₂O₆?",
+       "a": "6(12.01) + 12(1.008) + 6(16.00) = 180.16 g/mol."
+      }
+     ]
+    },
+    {
+     "guide": "Draw the mole map: grams ⇄ moles (molar mass) ⇄ particles (Avogadro's number). Model two problems with full units, then assign ten.",
+     "questions": [
+      {
+       "q": "How many moles are in 36.0 g of water?",
+       "a": "36.0 g × (1 mol / 18.02 g) = 2.00 mol."
+      },
+      {
+       "q": "How many molecules is that?",
+       "a": "2.00 mol × 6.022 × 10²³ = 1.20 × 10²⁴ molecules."
+      },
+      {
+       "q": "What is the mass of 0.250 mol of NaCl?",
+       "a": "0.250 × 58.44 = 14.6 g."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh out one mole each of sugar (342 g), salt (58.4 g) and water (18.0 g, which is 18 mL) and compare their volumes in measuring cups. Discuss why the same number of particles takes up different amounts of space.",
+     "questions": [
+      {
+       "q": "Why does a mole of sugar take up far more space than a mole of water?",
+       "a": "Each sucrose molecule is much larger and heavier (342 g/mol vs. 18 g/mol), so the same number of molecules has more mass and volume."
+      },
+      {
+       "q": "How many molecules are in the 18 mL of water?",
+       "a": "About 6.02 × 10²³ (one mole)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test with a periodic table and polyatomic ion card. Grade together and log errors.",
+     "questions": [
+      {
+       "q": "How many moles of NaCl are in 117 g?",
+       "a": "117 ÷ 58.44 = 2.00 mol."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test key (sample): 1) NaCl is ionic; CH₄ covalent; Cu metallic. 2) Formula of calcium phosphate — Ca₃(PO₄)₂. 3) Shape of H₂O — bent; polar. 4) Highest boiling point: H₂O, H₂S, CH₄ — H₂O (hydrogen bonding). 5) Molar mass of CaCO₃ — 100.09 g/mol. 6) 36.0 g of H₂O = 2.00 mol = 1.20 × 10²⁴ molecules. 7) Mass of 0.500 mol NaCl — 29.2 g. 8) Moles in 90.0 g glucose (180.16 g/mol) — 0.500 mol. 9) Why salt water conducts but sugar water does not — mobile ions vs. neutral molecules. 10) Why metals are malleable — mobile electron sea allows layers to slide. 11) Molecules in 1.00 g H₂O: 3.34 × 10²² (1.00 ÷ 18.02 × 6.022 × 10²³). Score: 90%+ mastery; reteach mole conversions if items 6–8 are missed."
+  },
+  {
+   "week": 15,
+   "prep": "Gather clear cups, food coloring, hot (not boiling) and ice-cold water, a timer, a pot, ice, a stove, a thermometer that reads to at least 100 °C (candy or digital probe), and a clock. Open PhET 'States of Matter'. Supervise all stove work.",
+   "misconceptions": [
+    "Students think temperature rises steadily while ice melts. During a phase change, added energy goes into separating particles (potential energy), so temperature stays constant.",
+    "Students say 'cold' flows into objects. Heat (energy) always flows from hotter to colder; cold is just less thermal energy.",
+    "Students think particles stop moving in solids. Particles in solids vibrate in place; only at absolute zero would motion be minimal."
+   ],
+   "days": [
+    {
+     "guide": "Fill two clear cups, one with hot water and one with cold, let them settle, then add one drop of food coloring to each simultaneously. Time how long until the color is evenly spread. The student explains using particle motion.",
+     "questions": [
+      {
+       "q": "Why did the color spread faster in hot water?",
+       "a": "Water molecules in hot water have greater average kinetic energy, so they collide with dye particles more often and harder, spreading them faster."
+      },
+      {
+       "q": "What is temperature, at the particle level?",
+       "a": "A measure of the average kinetic energy of the particles."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET States of Matter, the student heats and cools water, argon and oxygen, observing particle motion in each phase and recording what changes at phase transitions.",
+     "questions": [
+      {
+       "q": "What happens to particle motion when a solid is heated to its melting point?",
+       "a": "Particles vibrate faster until they break free of fixed positions and slide past each other as a liquid."
+      },
+      {
+       "q": "In the simulation, what happens to particle spacing during boiling?",
+       "a": "It increases greatly as particles escape into the gas phase."
+      }
+     ]
+    },
+    {
+     "guide": "Fill a pot with ice and a little water; record the temperature every minute while heating on medium until it has boiled for 5 minutes (stir gently; adult at the stove). The student graphs temperature vs. time and labels phases.",
+     "questions": [
+      {
+       "q": "What did the temperature do while ice was still present?",
+       "a": "Stayed near 0 °C until all the ice melted."
+      },
+      {
+       "q": "Why might your water boil below 100 °C?",
+       "a": "At higher altitude, air pressure is lower, so water boils at a lower temperature."
+      }
+     ]
+    },
+    {
+     "guide": "Use the graph to explain plateaus: during melting and boiling, energy goes into overcoming attractions (raising potential energy) rather than raising kinetic energy. Compare the length of the melting and boiling plateaus.",
+     "questions": [
+      {
+       "q": "Why is the boiling plateau longer than the melting plateau?",
+       "a": "Vaporization requires much more energy (2260 J/g) than melting (334 J/g) because molecules must separate completely."
+      },
+      {
+       "q": "Does steam at 100 °C or water at 100 °C cause a worse burn? Why?",
+       "a": "Steam — it releases its large heat of vaporization as it condenses on skin, in addition to the heat from cooling."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and grade together. Collect the heating-curve graph.",
+     "questions": [
+      {
+       "q": "When you hold an ice cube, which way does heat flow?",
+       "a": "From your hand into the ice."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Heating curve graph: full credit for time on x-axis, temperature on y-axis, plotted points, plateau near 0 °C while ice melts, rising section, and plateau near 100 °C (slightly lower at high altitude) while boiling, each section labeled with the phase(s) present. Quiz key: 1) Temperature measures average kinetic energy of particles. 2) Heat is energy transferred because of a temperature difference. 3) Food coloring spreads faster in hot water because particles move faster. 4) Why the temperature is flat at 0 °C — energy breaks attractions between molecules (increasing potential energy), not speeding them up. 5) Thermal equilibrium — two objects in contact reach the same temperature and net heat flow stops. 6) A hot spoon in cool water: heat flows from spoon to water. 7) Which has more thermal energy: a cup of boiling water or a bathtub of warm water? The bathtub (far more particles). 8) Name the phase change at the 100 °C plateau — boiling/vaporization. 9) In which state do particles have the most freedom? Gas. 10) Absolute zero is 0 K (−273.15 °C)."
+  },
+  {
+   "week": 16,
+   "prep": "Gather foam cups with lids (nest two for insulation), a thermometer, metal washers (about 50 g), a pot of boiling water, tongs, a kitchen scale, dry sand, two identical containers and a lamp. Prepare a spreadsheet. Formula card: q = mcΔT; c(water) = 4.184 J/g·°C; heat lost by hot = heat gained by cold.",
+   "misconceptions": [
+    "Students average temperatures without weighting by mass (100 g at 80 °C + 200 g at 20 °C → 50 °C). The final temperature is mass-weighted: 40 °C.",
+    "Students think materials with high specific heat get hot quickly. High specific heat means more energy is needed per degree, so water warms and cools slowly.",
+    "Students forget that ΔT is final minus initial and get sign errors. Use magnitudes and the idea 'heat lost = heat gained'."
+   ],
+   "days": [
+    {
+     "guide": "The student predicts the final temperature of 100 g of 70 °C water mixed with 100 g of 20 °C water, then tests it in a lidded foam cup. Repeat with unequal masses. Compare predictions and measurements.",
+     "questions": [
+      {
+       "q": "Predict the final temperature when 100 g of water at 70 °C mixes with 100 g at 20 °C.",
+       "a": "45 °C (equal masses, so the simple average)."
+      },
+      {
+       "q": "Predict the final temperature for 100 g at 80 °C mixed with 200 g at 20 °C.",
+       "a": "(100 × 80 + 200 × 20) ÷ 300 = 40 °C."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh the washers, heat them in boiling water for 5 minutes (they reach ~100 °C), then transfer quickly with tongs into a cup with a known mass of room-temperature water. Record the highest temperature. Model the calculation: heat gained by water = heat lost by metal.",
+     "questions": [
+      {
+       "q": "50.0 g of metal at 100.0 °C goes into 100.0 g water at 20.0 °C; final 24.0 °C. Find the metal's specific heat.",
+       "a": "Water gains 100.0 × 4.184 × 4.0 = 1674 J. Metal: 1674 = 50.0 × c × 76.0 → c = 0.440 J/g·°C."
+      },
+      {
+       "q": "Why must the transfer be quick?",
+       "a": "The hot metal loses heat to the air while it travels, which would make the calculated specific heat too low."
+      }
+     ]
+    },
+    {
+     "guide": "Build a spreadsheet with inputs m₁, T₁, m₂, T₂ (and c₁, c₂) and a formula for Tf. The student tests it against Day 1 data and then explores 'what if' cases.",
+     "questions": [
+      {
+       "q": "What does the model predict for 150 g at 50 °C mixed with 150 g at 10 °C?",
+       "a": "30 °C."
+      },
+      {
+       "q": "50 g of iron (c = 0.45) at 100 °C is dropped into 50 g of water at 20 °C. Will the final temperature be near 60 °C, above it, or below it? Why?",
+       "a": "Well below 60 °C (about 27.7 °C): water's specific heat is about nine times larger, so the water's temperature changes much less."
+      }
+     ]
+    },
+    {
+     "guide": "Put equal masses of dry sand and water in identical containers under the same lamp for 15 minutes, recording temperatures every 3 minutes, then turn off the lamp and record cooling. Connect to coastal vs. inland California.",
+     "questions": [
+      {
+       "q": "Which heated faster, sand or water, and why?",
+       "a": "Sand, because its specific heat (~0.8 J/g·°C) is much lower than water's (4.18), so less energy raises its temperature."
+      },
+      {
+       "q": "Why are summers milder in San Francisco than in Sacramento?",
+       "a": "The Pacific Ocean's high specific heat keeps coastal air cooler in summer (and milder in winter); inland land heats up much more."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the lab report on energy conservation using this week's data. Review with the rubric.",
+     "questions": [
+      {
+       "q": "State the second law of thermodynamics in your own words for this lab.",
+       "a": "Thermal energy spontaneously flows from hotter to colder objects until they reach the same temperature; the energy becomes more evenly spread out."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Spreadsheet model: full credit if Tf = (m₁c₁T₁ + m₂c₂T₂) ÷ (m₁c₁ + m₂c₂) is entered with cell references and gives 40.0 °C for 100 g at 80 °C + 200 g at 20 °C water, and 30.0 °C for 150 g at 50 °C + 150 g at 10 °C. Lab report rubric: 4 = predictions vs. measured values, percent difference, correct metal specific heat calculation (e.g., 50.0 g washers at 100.0 °C into 100.0 g water at 20.0 °C, final 24.0 °C: water gains 100 × 4.184 × 4.0 = 1674 J; c = 1674 ÷ (50.0 × 76.0) = 0.440 J/g·°C, close to iron/steel at 0.45), explanation of heat lost to cup and air, and a statement of energy conservation and the second law (heat flows hot → cold until equilibrium)."
+  },
+  {
+   "week": 17,
+   "prep": "Gather a clear heat-safe pot (or glass saucepan), water, food coloring, a few grains of uncooked rice, and the stove. For the solar heater: a cardboard box, aluminum foil, black paint or black paper, plastic wrap, clear plastic tubing or a black-painted bottle, thermometer. Print a seismic-wave diagram showing P- and S-wave shadow zones (USGS or IRIS).",
+   "misconceptions": [
+    "Students think the mantle is liquid lava. The mantle is solid rock that flows extremely slowly (centimeters per year) over long times; only small portions melt.",
+    "Students think Earth's heat comes from the Sun. Internal heat comes from leftover (primordial) heat from Earth's formation and from radioactive decay of uranium, thorium and potassium-40.",
+    "Students think plates float on a liquid layer. They ride on the slowly flowing asthenosphere and are pulled/pushed by slab pull and mantle convection."
+   ],
+   "days": [
+    {
+     "guide": "Show the seismic diagram. Explain that S-waves cannot travel through liquids and P-waves bend at boundaries. The student infers the layers (crust, mantle, liquid outer core, solid inner core) and labels depths.",
+     "questions": [
+      {
+       "q": "What evidence shows Earth's outer core is liquid?",
+       "a": "S-waves do not pass through it, creating an S-wave shadow zone on the far side of Earth from an earthquake."
+      },
+      {
+       "q": "Why is the inner core solid even though it is hotter than the outer core?",
+       "a": "The enormous pressure at the center keeps iron-nickel in a solid state."
+      }
+     ]
+    },
+    {
+     "guide": "Fill the pot with water, add a few rice grains, and heat from one side or the center. Add a drop of food coloring at the bottom near the heat. The student sketches the circulation and labels where water rises and sinks.",
+     "questions": [
+      {
+       "q": "Why does warm water rise?",
+       "a": "It expands and becomes less dense than surrounding cooler water, so it is pushed upward; cooler, denser water sinks to replace it."
+      },
+      {
+       "q": "How is this like the mantle?",
+       "a": "Hot mantle rock rises, spreads under the plates, cools and sinks, forming slow convection cells that help move plates."
+      }
+     ]
+    },
+    {
+     "guide": "Explain the two internal heat sources and connect to last unit's nuclear chemistry. The student writes a paragraph explaining how decay of U-238, Th-232 and K-40 keeps the mantle convecting.",
+     "questions": [
+      {
+       "q": "Name two sources of Earth's internal heat.",
+       "a": "Primordial heat from Earth's formation and radioactive decay of isotopes such as uranium-238, thorium-232 and potassium-40."
+      },
+      {
+       "q": "What would happen to plate tectonics if Earth's interior cooled completely?",
+       "a": "Convection would stop and plate motion would eventually stop, as appears to have happened on Mars."
+      }
+     ]
+    },
+    {
+     "guide": "Use a plate map of California. Explain that the San Andreas Fault is a transform boundary where the Pacific Plate moves northwest relative to the North American Plate (~3–5 cm/yr). The Sierra Nevada granite formed from magma generated by subduction of the Farallon plate; the range was later uplifted and tilted along faults on its east side.",
+     "questions": [
+      {
+       "q": "What type of plate boundary is the San Andreas Fault?",
+       "a": "A transform boundary (plates slide past each other)."
+      },
+      {
+       "q": "How did the granite of Yosemite form?",
+       "a": "Magma produced by subduction of the Farallon plate cooled slowly deep underground, forming granite that was later uplifted and exposed by erosion."
+      }
+     ]
+    },
+    {
+     "guide": "The student designs and builds a solar water heater, then measures the temperature of a known mass of water before and after 30 minutes in sun. Calculate energy gained with q = mcΔT.",
+     "questions": [
+      {
+       "q": "500 g of water warms from 20 °C to 32 °C. How much energy was absorbed?",
+       "a": "500 × 4.184 × 12 = 25,100 J (25.1 kJ)."
+      },
+      {
+       "q": "Why paint the absorber black?",
+       "a": "Black surfaces absorb more visible light and convert it to thermal energy."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Device and model rubric: 4 = Labeled diagram of mantle convection (hot material rises, spreads, cools, sinks) linked to plate motion; solar heater data table with start/end temperatures, water mass and energy gained (e.g., 500 g water warming 12 °C gains 500 × 4.184 × 12 = 25,100 J); written explanation of design features (black absorbs radiation, foil reflects light onto the absorber, plastic wrap reduces convective loss) and one improvement. 3 = data and diagram correct, explanation brief. 2 = missing calculations. 1 = incomplete."
+  },
+  {
+   "week": 18,
+   "prep": "Gather the solar heater, semester notes, and a practice set. Build the semester exam from the key below (about 30 items), allowing 60 minutes with a periodic table, formula sheet and calculator.",
+   "misconceptions": [
+    "Students memorize formulas without units. Require units at every step on review problems.",
+    "Students review only what they like. Use the Week 1–17 quiz error logs to target weak areas.",
+    "Students treat the engineering summary as a list of changes. It must explain trade-offs (e.g., better insulation vs. cost or weight)."
+   ],
+   "days": [
+    {
+     "guide": "The student changes one variable of the solar heater (more insulation, a reflector, a glazing layer), retests under similar sun, and writes an engineering summary comparing results and trade-offs.",
+     "questions": [
+      {
+       "q": "Why should you change only one design feature at a time?",
+       "a": "So you can tell which change caused the difference in performance."
+      },
+      {
+       "q": "Give an example of a trade-off in the heater design.",
+       "a": "Adding a second plastic layer reduces heat loss but also blocks some sunlight and costs more material."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed practice: configurations, trends, ionic formulas, Lewis structures, moles. The student works problems, checking each with you before moving on; reteach anything missed twice.",
+     "questions": [
+      {
+       "q": "Name and give the formula of the compound formed by magnesium and nitrogen.",
+       "a": "Magnesium nitride, Mg₃N₂."
+      },
+      {
+       "q": "Which is more electronegative, N or P?",
+       "a": "N."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed practice on q = mcΔT, mixing problems, specific heat and phase-change plateaus.",
+     "questions": [
+      {
+       "q": "How much heat is released when 300 g of water cools from 90 °C to 40 °C?",
+       "a": "300 × 4.184 × 50 = 62,760 J ≈ 62.8 kJ."
+      },
+      {
+       "q": "A 40 g metal sample absorbs 720 J and warms 20 °C. Find its specific heat.",
+       "a": "c = 720 ÷ (40 × 20) = 0.90 J/g·°C (close to aluminum)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the semester exam in one 60-minute sitting with standard reference sheets. Do not help during the exam.",
+     "questions": [
+      {
+       "q": "(Exam day) After the exam, have the student name the topic that felt hardest.",
+       "a": "Answers vary; use it to plan the Day 5 corrections."
+      }
+     ]
+    },
+    {
+     "guide": "Return the exam. The student corrects every missed item with an explanation, then updates the driving-question board, moving answered candle questions to 'answered' with the evidence.",
+     "questions": [
+      {
+       "q": "Which driving question about the candle can you now answer fully?",
+       "a": "Example: 'Where does the wax go?' — wax vapor reacts with oxygen to form CO₂ and H₂O gases, conserving atoms and mass."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester exam key (sample of 15 core items): 1) Sig figs in 0.07020 — 4. 2) Balance C₂H₆ + O₂ — 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O. 3) 250 g water warmed 8.0 °C: 8370 J. 4) Average mass: 90% X-20, 10% X-22 → 20.2 u. 5) Configuration of Cl: 1s² 2s² 2p⁶ 3s² 3p⁵. 6) Larger: Na or Mg — Na. 7) Alpha decay of U-238 → Th-234. 8) 64 g of an isotope after 3 half-lives — 8 g. 9) Formula of aluminum chloride — AlCl₃. 10) Shape of NH₃ — trigonal pyramidal. 11) Why H₂O has a high boiling point — hydrogen bonding. 12) Moles in 88.0 g CO₂ — 2.00 mol. 13) Mixing 200 g water at 60 °C with 100 g at 30 °C — 50 °C. 14) Why ice-water temperature stays at 0 °C — energy goes into melting (breaking attractions). 15) Driver of mantle convection — internal heat (radioactive decay + primordial heat). Engineering summary rubric: 4 = states original vs. revised temperature gain with numbers, explains why the change worked, and discusses at least two trade-offs (cost, materials, time, size)."
+  },
+  {
+   "week": 19,
+   "prep": "Gather baking soda, vinegar, a sturdy zip-top bag, a small cup that fits inside the bag, a balloon, a bottle, and the kitchen scale (0.1 g if possible). Open PhET 'Balancing Chemical Equations'. Print 20 skeleton equations (key below includes the core ones).",
+   "misconceptions": [
+    "Students balance by changing subscripts (making H₂O into H₂O₂). Changing a subscript changes the substance; only coefficients may change.",
+    "Students think mass is lost in the open-system reaction. The 'missing' mass left as CO₂ gas; in a closed bag the mass stays the same.",
+    "Students forget that a coefficient multiplies every atom in the formula (2H₂O has 4 H and 2 O)."
+   ],
+   "days": [
+    {
+     "guide": "Put 1 tablespoon of baking soda in the bag and 50 mL of vinegar in a small cup standing upright inside; seal, weigh, then tip the cup to react and reweigh. Repeat in an open cup. The student records both masses and explains the difference.",
+     "questions": [
+      {
+       "q": "Why did the closed bag's mass stay the same?",
+       "a": "No matter could enter or leave; the CO₂ produced stayed in the bag, so total mass was conserved."
+      },
+      {
+       "q": "Write the word equation for baking soda and vinegar.",
+       "a": "Sodium bicarbonate + acetic acid → sodium acetate + water + carbon dioxide."
+      }
+     ]
+    },
+    {
+     "guide": "Model the atom-inventory method with a table of each element on each side, adjusting coefficients one at a time (save H and O for last; balance polyatomic ions as units). The student balances 20 equations, drawing particle diagrams for three.",
+     "questions": [
+      {
+       "q": "Balance: Al + O₂ → Al₂O₃",
+       "a": "4Al + 3O₂ → 2Al₂O₃"
+      },
+      {
+       "q": "Balance: C₃H₈ + O₂ → CO₂ + H₂O",
+       "a": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O"
+      }
+     ]
+    },
+    {
+     "guide": "The student plays PhET Balancing Chemical Equations levels 1–3 and records any equations that took more than two tries, then explains the fix for each.",
+     "questions": [
+      {
+       "q": "Balance: Fe + Cl₂ → FeCl₃",
+       "a": "2Fe + 3Cl₂ → 2FeCl₃"
+      },
+      {
+       "q": "How many oxygen atoms are in 3Ca(NO₃)₂?",
+       "a": "18 (3 × 2 × 3)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a CER explaining why the open system lost mass, using Day 1 data and the balanced equation. Score with the rubric.",
+     "questions": [
+      {
+       "q": "If the open cup lost 2.3 g, what does that number represent?",
+       "a": "The mass of CO₂ gas that escaped into the air (plus a little evaporated water)."
+      },
+      {
+       "q": "How could you show the gas has mass?",
+       "a": "Collect it in a balloon over the bottle; the inflated balloon traps it, or weigh the sealed system."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-equation balancing quiz. Grade together and have the student check each answer by atom inventory.",
+     "questions": [
+      {
+       "q": "Balance: H₂O₂ → H₂O + O₂",
+       "a": "2H₂O₂ → 2H₂O + O₂"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "CER rubric: 4 = Claim that the open system lost mass because CO₂ gas escaped; evidence with numbers (e.g., closed: 152.4 g before, 152.4 g after; open: 152.4 g → 150.1 g, a 2.3 g loss; bubbling observed); reasoning that atoms are rearranged, not destroyed (NaHCO₃ + CH₃COOH → NaCH₃COO + H₂O + CO₂), so mass is conserved in a closed system and the gas carried mass away in the open one. Balancing quiz key: 1) 2H₂ + O₂ → 2H₂O. 2) 4Fe + 3O₂ → 2Fe₂O₃. 3) C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. 4) 2Al + 6HCl → 2AlCl₃ + 3H₂. 5) N₂ + 3H₂ → 2NH₃. 6) 2KClO₃ → 2KCl + 3O₂. 7) CH₄ + 2O₂ → CO₂ + 2H₂O. 8) 2Na + Cl₂ → 2NaCl. 9) Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O. 10) C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O."
+  },
+  {
+   "week": 20,
+   "prep": "Gather 3% hydrogen peroxide, active dry yeast, a tall glass or bottle, wooden splints or long matches, an iron nail (sanded clean), copper sulfate root killer (toxic — gloves, goggles, keep from children and pets, dispose per label) or vinegar + salt with dull pennies, Epsom salt (magnesium sulfate), washing soda (sodium carbonate — irritant, gloves), and clear cups. Print an activity series (K, Na, Ca, Mg, Al, Zn, Fe, Pb, (H), Cu, Ag, Au).",
+   "misconceptions": [
+    "Students think any metal can replace any other. A metal replaces another only if it is higher on the activity series.",
+    "Students think the precipitate is the original solid coming back. It is a new insoluble compound formed by swapping ion partners.",
+    "Students classify combustion and synthesis interchangeably. Combustion is a reaction with oxygen releasing energy (often a hydrocarbon making CO₂ and H₂O); synthesis is any A + B → AB."
+   ],
+   "days": [
+    {
+     "guide": "Pour ~50 mL of 3% peroxide into a tall glass and add a teaspoon of yeast. Light a splint, blow it out so it glows, and lower it into the foam (adult present). The student records observations and writes the balanced equation.",
+     "questions": [
+      {
+       "q": "Why does the glowing splint relight?",
+       "a": "The reaction produces oxygen gas, which makes the glowing wood burn faster."
+      },
+      {
+       "q": "What role does the yeast play?",
+       "a": "It contains the enzyme catalase, a catalyst that speeds decomposition; it is not used up."
+      }
+     ]
+    },
+    {
+     "guide": "With gloves and goggles, place a clean iron nail in copper sulfate solution (or soak pennies in vinegar + salt, then add a nail). Observe over 20 minutes and the next day. The student writes the equation and explains using the activity series.",
+     "questions": [
+      {
+       "q": "What is the reddish coating on the nail?",
+       "a": "Copper metal; iron replaced copper in solution because iron is more active."
+      },
+      {
+       "q": "Why does the blue color fade?",
+       "a": "Blue Cu²⁺ ions are being removed from the solution and replaced by pale Fe²⁺ ions."
+      }
+     ]
+    },
+    {
+     "guide": "Dissolve a spoon of Epsom salt in one cup of water and a spoon of washing soda in another, then mix. The student observes the precipitate, writes the equation, and identifies the swapped partners.",
+     "questions": [
+      {
+       "q": "Write the balanced equation and name the precipitate.",
+       "a": "MgSO₄ + Na₂CO₃ → MgCO₃(s) + Na₂SO₄; the precipitate is magnesium carbonate."
+      },
+      {
+       "q": "Why is this called double replacement?",
+       "a": "The cations and anions of two compounds swap partners."
+      }
+     ]
+    },
+    {
+     "guide": "Model how to use the activity series. The student predicts whether 12 reactions occur and writes products for those that do.",
+     "questions": [
+      {
+       "q": "Will Al react with CuCl₂? If so, write the products.",
+       "a": "Yes; 2Al + 3CuCl₂ → 2AlCl₃ + 3Cu."
+      },
+      {
+       "q": "Will Pb react with ZnCl₂?",
+       "a": "No — lead is below zinc."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and grade together. Collect the lab notebook.",
+     "questions": [
+      {
+       "q": "Classify: 2KClO₃ → 2KCl + 3O₂",
+       "a": "Decomposition."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab notebook: full credit for observations, balanced equations and reaction types for all three labs: 2H₂O₂ → 2H₂O + O₂ (decomposition; splint relights); Fe + CuSO₄ → FeSO₄ + Cu (single replacement; copper coating, blue fades); MgSO₄ + Na₂CO₃ → MgCO₃(s) + Na₂SO₄ (double replacement; white precipitate). Quiz key: 1) 2Mg + O₂ → 2MgO — synthesis. 2) CaCO₃ → CaO + CO₂ — decomposition. 3) Zn + 2HCl → ZnCl₂ + H₂ — single replacement. 4) AgNO₃ + NaCl → AgCl(s) + NaNO₃ — double replacement. 5) CH₄ + 2O₂ → CO₂ + 2H₂O — combustion. 6) Does Cu + ZnSO₄ react? No (Cu below Zn). 7) Does Zn + CuSO₄ react? Yes → ZnSO₄ + Cu. 8) Does Ag + HCl react? No (Ag below H). 9) Does Mg + 2HCl react? Yes → MgCl₂ + H₂. 10) Does Fe + 2AgNO₃ react? Yes → Fe(NO₃)₂ + 2Ag."
+  },
+  {
+   "week": 21,
+   "prep": "Gather baking soda, vinegar, a cup, balloons, and the kitchen scale (0.01 g ideal). Formula card: NaHCO₃ = 84.01 g/mol; CO₂ = 44.01 g/mol; NaHCO₃ + CH₃COOH → NaCH₃COO + H₂O + CO₂.",
+   "misconceptions": [
+    "Students convert grams of A directly to grams of B using the coefficients. Coefficients are mole ratios; always convert to moles first.",
+    "Students use the mole ratio upside down. Write the ratio with the unknown substance on top and the known on the bottom.",
+    "Students think percent yield over 100% is great. It signals an error (e.g., wet product or measurement error)."
+   ],
+   "days": [
+    {
+     "guide": "Model reading mole ratios from coefficients. The student writes all ratios for N₂ + 3H₂ → 2NH₃ and solves mole-to-mole problems.",
+     "questions": [
+      {
+       "q": "How many moles of NH₃ form from 6.0 mol H₂ (with enough N₂)?",
+       "a": "6.0 mol H₂ × (2 mol NH₃ / 3 mol H₂) = 4.0 mol NH₃."
+      },
+      {
+       "q": "In 2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O, how many mol O₂ burn 1.0 mol octane?",
+       "a": "12.5 mol O₂."
+      }
+     ]
+    },
+    {
+     "guide": "Model the three-step road map: grams A → moles A → moles B → grams B. Work two examples, then assign eight problems.",
+     "questions": [
+      {
+       "q": "How many grams of water form when 16.0 g of CH₄ burns completely?",
+       "a": "16.0 ÷ 16.04 = 0.998 mol CH₄ × 2 = 1.995 mol H₂O × 18.02 = 35.9 g."
+      },
+      {
+       "q": "How many grams of NH₃ form from 28.0 g of N₂?",
+       "a": "28.0 ÷ 28.02 = 1.00 mol N₂ → 2.00 mol NH₃ × 17.03 = 34.1 g."
+      }
+     ]
+    },
+    {
+     "guide": "The student predicts the mass of CO₂ from 5.0 g baking soda, then weighs a cup of excess vinegar plus the baking soda on paper, adds the baking soda slowly, waits until bubbling stops, swirls, and reweighs everything (including the paper). Mass lost = CO₂ released.",
+     "questions": [
+      {
+       "q": "Predict the mass of CO₂ produced from 5.0 g of NaHCO₃.",
+       "a": "5.0 ÷ 84.01 = 0.0595 mol; 1:1 ratio → 0.0595 × 44.01 = 2.6 g CO₂."
+      },
+      {
+       "q": "Why add the baking soda slowly?",
+       "a": "To avoid foam overflowing, which would lose liquid mass and make the CO₂ loss appear too large."
+      }
+     ]
+    },
+    {
+     "guide": "The student calculates percent yield = actual ÷ theoretical × 100 and analyzes errors.",
+     "questions": [
+      {
+       "q": "You measured 2.1 g of CO₂ lost; the theoretical value is 2.6 g. What is the percent yield?",
+       "a": "2.1 ÷ 2.6 × 100 ≈ 81%."
+      },
+      {
+       "q": "Why might the measured CO₂ be low?",
+       "a": "Some CO₂ stays dissolved in the liquid; also the reaction may not be complete or readings may be imprecise."
+      }
+     ]
+    },
+    {
+     "guide": "Give the stoichiometry quiz with a periodic table. Grade together and redo missed problems.",
+     "questions": [
+      {
+       "q": "How many grams of O₂ are needed to burn 16.0 g of CH₄?",
+       "a": "0.998 mol CH₄ × 2 = 1.995 mol O₂ × 32.00 = 63.9 g."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab: full credit for predicted CO₂ (5.0 g ÷ 84.01 = 0.0595 mol → 0.0595 × 44.01 = 2.6 g), measured mass loss, percent yield, and two error sources (CO₂ staying dissolved in the liquid, splashing, water evaporating, incomplete reaction). Quiz key: 1) In 2H₂ + O₂ → 2H₂O, mol H₂O from 4.0 mol O₂ — 8.0 mol. 2) In N₂ + 3H₂ → 2NH₃, mol H₂ needed for 5.0 mol N₂ — 15 mol. 3) Grams NH₃ from 28.0 g N₂ — 34.1 g. 4) Grams H₂O from 16.0 g CH₄ burned — 35.9 g. 5) Grams O₂ needed to burn 16.0 g CH₄ — 63.9 g (≈ 64 g). 6) Theoretical yield 2.6 g, actual 2.1 g — 81% (80.8%). 7) Grams CO₂ from 10.0 g C₃H₈ (C₃H₈ + 5O₂ → 3CO₂ + 4H₂O): 10.0 ÷ 44.09 = 0.227 mol × 3 × 44.01 = 29.9 g."
+  },
+  {
+   "week": 22,
+   "prep": "Gather bread and cheese slices (or cards labeled as such), baking soda, vinegar (5% acetic acid), five identical bottles and balloons, a measuring spoon or scale, and a flexible measuring tape. Open PhET 'Reactants, Products and Leftovers'.",
+   "misconceptions": [
+    "Students assume the reactant with the smaller mass is limiting. Compare moles needed vs. moles available using the balanced ratio.",
+    "Students think that once one reactant is used up the other keeps reacting. The reaction stops when the limiting reactant is gone; the excess remains.",
+    "Students calculate product from both reactants and add them. The smaller amount of product is the correct (theoretical) yield."
+   ],
+   "days": [
+    {
+     "guide": "Model making sandwiches (2 bread + 1 cheese). Give different quantities and have the student find how many sandwiches can be made, what runs out, and what is left over.",
+     "questions": [
+      {
+       "q": "You have 12 slices of bread and 4 slices of cheese. How many sandwiches, and what is limiting?",
+       "a": "4 sandwiches; cheese is limiting; 4 slices of bread are left."
+      },
+      {
+       "q": "Relate this to a chemical reaction.",
+       "a": "The balanced equation is the recipe; the reactant that runs out first limits how much product forms."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, the student completes the sandwich and molecule screens, predicting products and leftovers before checking. Record three cases.",
+     "questions": [
+      {
+       "q": "With 4 N₂ and 9 H₂ molecules (N₂ + 3H₂ → 2NH₃), what forms and what is left?",
+       "a": "H₂ limits: 9 H₂ make 6 NH₃ using 3 N₂; 1 N₂ is left over."
+      },
+      {
+       "q": "With 3 CH₄ and 4 O₂ (CH₄ + 2O₂ → CO₂ + 2H₂O), what forms?",
+       "a": "O₂ limits: 2 CH₄ react making 2 CO₂ and 4 H₂O; 1 CH₄ left over."
+      }
+     ]
+    },
+    {
+     "guide": "Put 100 mL of vinegar in each of five bottles. Put 2, 4, 6, 8 and 10 g of baking soda into balloons, stretch each over a bottle, then lift to dump. After reactions stop, measure balloon circumference and graph.",
+     "questions": [
+      {
+       "q": "Why do the last balloons end up about the same size?",
+       "a": "The vinegar ran out (became limiting), so extra baking soda could not make more CO₂."
+      },
+      {
+       "q": "Estimate the baking soda mass at which 100 mL of 5% vinegar becomes limiting.",
+       "a": "≈ 5 g acetic acid ÷ 60.05 = 0.083 mol → 0.083 × 84.01 ≈ 7 g baking soda."
+      }
+     ]
+    },
+    {
+     "guide": "Model a limiting reactant problem for methane combustion; the student solves four more for fuels.",
+     "questions": [
+      {
+       "q": "10.0 g CH₄ reacts with 32.0 g O₂. Which is limiting and how much CO₂ forms?",
+       "a": "CH₄: 0.623 mol needs 1.25 mol O₂, but only 1.00 mol O₂ is available → O₂ limits. CO₂ = 1.00 ÷ 2 = 0.500 mol × 44.01 = 22.0 g."
+      },
+      {
+       "q": "In a car engine with too little air, what forms instead of CO₂, and why is it dangerous?",
+       "a": "Carbon monoxide (CO) and soot from incomplete combustion; CO binds to hemoglobin and blocks oxygen transport."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz. Grade together and collect the balloon graph.",
+     "questions": [
+      {
+       "q": "4.0 mol Al reacts with 4.0 mol Cl₂ (2Al + 3Cl₂ → 2AlCl₃). Which is limiting and how much AlCl₃ forms?",
+       "a": "Cl₂ limits (4.0 mol Al needs 6.0 mol Cl₂); AlCl₃ = 4.0 × 2/3 = 2.7 mol."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Balloon lab: full credit for a graph of baking soda mass (x) vs. balloon circumference (y) that rises and then levels off; identification of the leveling point. With 100 mL vinegar (≈0.083 mol acetic acid), growth should stop near 7 g baking soda (0.083 × 84.01). Explanation: before that point baking soda is limiting; after it vinegar is limiting. Quiz key: 1) 10 slices of bread and 8 cheese, sandwich = 2 bread + 1 cheese: 5 sandwiches, bread limiting, 3 cheese left. 2) 10.0 g CH₄ + 32.0 g O₂: O₂ limiting (needs 1.25 mol O₂, has 1.00 mol); CO₂ = 0.500 mol = 22.0 g; leftover CH₄ = 1.98 g. 3) 2H₂ + O₂ → 2H₂O with 4.0 mol H₂ and 3.0 mol O₂: H₂ limiting; 4.0 mol H₂O; 1.0 mol O₂ left. 4) N₂ + 3H₂ → 2NH₃ with 2.0 mol N₂ and 3.0 mol H₂: H₂ limiting; 2.0 mol NH₃."
+  },
+  {
+   "week": 23,
+   "prep": "Gather baking soda, vinegar, 3% hydrogen peroxide, yeast, two cups, and a thermometer. Prepare a bond-energy table (kJ/mol): C–H 413, O=O 498, C=O (in CO₂) 799, O–H 463, H–H 436, N≡N 945, N–H 391. Build the Unit 5 test from the key.",
+   "misconceptions": [
+    "Students think breaking bonds releases energy (like breaking a stick). Breaking bonds always requires energy; forming bonds releases energy.",
+    "Students reverse the sign: ΔH = bonds broken − bonds formed; a negative ΔH is exothermic.",
+    "Students think exothermic reactions need no activation energy. Even exothermic reactions (like burning wood) need an initial energy input to start."
+   ],
+   "days": [
+    {
+     "guide": "Mix baking soda and vinegar in a cup with a thermometer and record the temperature change; then mix yeast into peroxide and record. The student classifies each as endo- or exothermic.",
+     "questions": [
+      {
+       "q": "The baking soda reaction dropped from 21 °C to 17 °C. Endothermic or exothermic?",
+       "a": "Endothermic — it absorbed energy from the surroundings."
+      },
+      {
+       "q": "The peroxide reaction rose from 21 °C to 35 °C. What does that tell you about bonds?",
+       "a": "Exothermic — more energy was released forming bonds in H₂O and O₂ than was absorbed breaking bonds in H₂O₂."
+      }
+     ]
+    },
+    {
+     "guide": "Model an energy diagram: reactant level, hump (activation energy), product level, and ΔH arrow. The student draws one for each Day 1 reaction and labels them.",
+     "questions": [
+      {
+       "q": "On an exothermic energy diagram, are products higher or lower than reactants?",
+       "a": "Lower — energy is released."
+      },
+      {
+       "q": "What does a catalyst do to the diagram?",
+       "a": "It lowers the activation energy hump; ΔH is unchanged."
+      }
+     ]
+    },
+    {
+     "guide": "Model ΔH = Σ(bonds broken) − Σ(bonds formed) for methane combustion step by step. The student then does H₂ + Cl₂ → 2HCl and 2H₂ + O₂ → 2H₂O.",
+     "questions": [
+      {
+       "q": "Calculate ΔH for CH₄ + 2O₂ → CO₂ + 2H₂O.",
+       "a": "Broken: 4(413) + 2(498) = 2648. Formed: 2(799) + 4(463) = 3450. ΔH = 2648 − 3450 = −802 kJ/mol."
+      },
+      {
+       "q": "Calculate ΔH for 2H₂ + O₂ → 2H₂O.",
+       "a": "Broken: 2(436) + 498 = 1370. Formed: 4(463) = 1852. ΔH = −482 kJ."
+      }
+     ]
+    },
+    {
+     "guide": "Use two magnets as a model: pulling them apart takes energy (breaking), letting them snap together releases energy (forming). The student builds a written or physical model explaining why combustion is exothermic overall.",
+     "questions": [
+      {
+       "q": "Why is burning methane exothermic overall if breaking its bonds absorbs energy?",
+       "a": "The bonds formed in CO₂ and H₂O are stronger in total, releasing more energy (3450 kJ) than was absorbed breaking the reactant bonds (2648 kJ)."
+      },
+      {
+       "q": "What does the magnet model represent?",
+       "a": "Atoms attracting; separating them requires energy input and bringing them together releases energy."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 5 test (50 minutes) with periodic table, bond-energy table and activity series. Grade together.",
+     "questions": [
+      {
+       "q": "Is photosynthesis endothermic or exothermic?",
+       "a": "Endothermic — it absorbs light energy to make glucose."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 5 test key (sample): 1) Balance Fe₂O₃ + CO → Fe + CO₂: Fe₂O₃ + 3CO → 2Fe + 3CO₂. 2) Classify AgNO₃ + KCl → AgCl + KNO₃: double replacement. 3) Grams CO₂ from 12.0 g C burned (C + O₂ → CO₂): 44.0 g. 4) 5.0 mol H₂ and 2.0 mol O₂ (2H₂ + O₂ → 2H₂O): O₂ limits, 4.0 mol H₂O. 5) Percent yield, 18.0 g theoretical, 15.3 g actual: 85.0%. 6) ΔH for CH₄ + 2O₂ → CO₂ + 2H₂O from bond energies: −802 kJ/mol. 7) ΔH for H₂ + Cl₂ → 2HCl (H–H 436, Cl–Cl 242, H–Cl 431): (436 + 242) − 2(431) = −184 kJ (exothermic). 8) Endothermic or exothermic: baking soda + vinegar — endothermic (temperature drops). 9) Label an energy diagram: reactants, products, activation energy, ΔH. 10) Explain why forming bonds releases energy — atoms reach a lower, more stable energy state."
+  },
+  {
+   "week": 24,
+   "prep": "Gather two identical jars, plastic wrap, a rubber band, two thermometers, a lamp with an incandescent or halogen bulb (or sunlight), and black and white paper. Bookmark NASA's Earth energy budget diagram and PhET 'Greenhouse Effect'. Make a data table.",
+   "misconceptions": [
+    "Students think the greenhouse effect is the ozone hole. They are different problems; ozone depletion lets in more UV, while greenhouse gases absorb outgoing infrared.",
+    "Students think greenhouse gases trap sunlight coming in. Most incoming sunlight is visible light that passes through; greenhouse gases absorb the infrared Earth emits.",
+    "Students think the greenhouse effect is entirely bad. Without it Earth's average temperature would be about −18 °C instead of about +15 °C; the problem is the enhanced effect from added gases."
+   ],
+   "days": [
+    {
+     "guide": "Using NASA's diagram, the student draws Earth's energy budget: incoming sunlight (~340 W/m² average), ~30% reflected by clouds, air and surface, ~70% absorbed, and outgoing infrared, with the atmosphere re-radiating some back down. Discuss what 'balance' means.",
+     "questions": [
+      {
+       "q": "What happens to Earth's temperature if more energy comes in than goes out?",
+       "a": "Earth warms until outgoing infrared increases enough to restore balance."
+      },
+      {
+       "q": "About what fraction of incoming sunlight is reflected?",
+       "a": "About 30%."
+      }
+     ]
+    },
+    {
+     "guide": "Wrap one thermometer bulb in black paper and one in white; place both in sun for 15 minutes, reading every 3 minutes. The student graphs and explains in terms of albedo.",
+     "questions": [
+      {
+       "q": "Which warmed more and why?",
+       "a": "Black paper — it has low albedo, absorbing more light and converting it to thermal energy."
+      },
+      {
+       "q": "Why does Arctic sea ice loss speed up warming?",
+       "a": "Dark ocean replaces reflective ice, lowering albedo so more sunlight is absorbed."
+      }
+     ]
+    },
+    {
+     "guide": "Place thermometers in two jars under a lamp; cover one with plastic wrap. Record temperatures every 5 minutes for 30 minutes and graph. Discuss honestly what the model does and does not show.",
+     "questions": [
+      {
+       "q": "Why did the covered jar get warmer?",
+       "a": "Mostly because the cover traps warm air (stops convection and mixing with room air); it is a model of energy trapping but not the same mechanism as CO₂ absorbing infrared."
+      },
+      {
+       "q": "How could you better model the real greenhouse effect?",
+       "a": "Compare two covered jars, one filled with extra CO₂ (from baking soda and vinegar), keeping everything else the same."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET Greenhouse Effect (photon absorption screen), the student shines infrared on N₂, O₂, CO₂, H₂O and CH₄ and records which absorb it and how they move. Explain using bond vibrations that change the molecule's charge distribution.",
+     "questions": [
+      {
+       "q": "Why does CO₂ absorb infrared but N₂ does not?",
+       "a": "CO₂ can bend and stretch in ways that create a temporary dipole, letting it absorb IR; N₂ is a symmetric diatomic whose vibration produces no dipole change."
+      },
+      {
+       "q": "After a CO₂ molecule absorbs infrared, what happens to the energy?",
+       "a": "It is re-emitted in a random direction (some back toward Earth) or transferred to nearby molecules by collisions, warming the air."
+      }
+     ]
+    },
+    {
+     "guide": "Give the energy-balance quiz and grade together. Collect lab data.",
+     "questions": [
+      {
+       "q": "Why is water vapor considered a feedback rather than a driver of climate change?",
+       "a": "Its amount depends on temperature: warmer air holds more water vapor, which amplifies warming started by other gases like CO₂."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab data: full credit for temperature tables every 5 minutes, graphs of both trials, and correct conclusions (black paper warmed more than white; covered jar warmed more than open). The write-up should note honestly that a sealed jar warms mainly because it blocks convection, which is different from how CO₂ works in the atmosphere. Quiz key: 1) Earth reflects about 30% of incoming sunlight (albedo ≈ 0.3). 2) Earth emits energy as infrared radiation. 3) Greenhouse gases include CO₂, H₂O, CH₄, N₂O. 4) Why N₂ and O₂ don't absorb IR — symmetric two-atom molecules; vibrating doesn't change their dipole. 5) Without greenhouse gases Earth would average about −18 °C. 6) Melting ice lowers albedo, so more sunlight is absorbed. 7) If incoming energy exceeds outgoing, Earth warms until balance returns. 8) Black surfaces have low albedo and absorb more."
+  },
+  {
+   "week": 25,
+   "prep": "Print a NOAA or NASA carbon-cycle diagram with reservoirs (GtC) and fluxes (GtC/yr). Gather chalk or limestone (or seashells), vinegar, a calculator and a spreadsheet. Approximate values to use: atmosphere ~875 GtC (pre-2020 diagrams; about 900 today), surface ocean ~900, deep ocean ~37,000, vegetation ~450–650, soils ~1,500–2,400, fossil fuel reserves ~1,000+, sedimentary rocks ~60–100 million GtC; human emissions ~10 GtC/yr; 1 ppm CO₂ ≈ 2.13 GtC.",
+   "misconceptions": [
+    "Students think carbon is 'used up' in the cycle. Carbon atoms are conserved; they move among reservoirs.",
+    "Students think all human CO₂ stays in the air. About half is absorbed by oceans and land; roughly 45% remains in the atmosphere.",
+    "Students confuse reservoirs (amounts, GtC) with fluxes (rates, GtC/yr). Use units to tell them apart."
+   ],
+   "days": [
+    {
+     "guide": "Using the diagram, the student makes a table of reservoirs (GtC) and fluxes (GtC/yr): photosynthesis, respiration/decay, ocean uptake/release, volcanism, fossil fuel burning. Ask which reservoir is largest and which flux humans added.",
+     "questions": [
+      {
+       "q": "Which reservoir holds the most carbon?",
+       "a": "Sedimentary rocks (limestone and organic carbon) — tens of millions of GtC; among the fast-cycle reservoirs, the deep ocean (~37,000 GtC)."
+      },
+      {
+       "q": "What process moves carbon from the atmosphere to the biosphere?",
+       "a": "Photosynthesis (6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a spreadsheet box model: Year, Atmospheric carbon, Natural in, Natural out (equal). Start with natural fluxes balanced so the line stays flat. The student explains why a balanced system is steady.",
+     "questions": [
+      {
+       "q": "If natural inflows equal outflows, what happens to atmospheric carbon over time?",
+       "a": "It stays constant (steady state)."
+      },
+      {
+       "q": "Convert 875 GtC of atmospheric carbon to ppm of CO₂.",
+       "a": "875 ÷ 2.13 ≈ 411 ppm."
+      }
+     ]
+    },
+    {
+     "guide": "Add human emissions (10 GtC/yr) with 55% taken up by sinks. The student graphs 50 years, converts to ppm, and compares the slope to the Keeling Curve's recent ~2.4 ppm/yr.",
+     "questions": [
+      {
+       "q": "With 10 GtC/yr emitted and 45% remaining, how fast does atmospheric CO₂ rise in ppm/yr?",
+       "a": "4.5 GtC/yr ÷ 2.13 ≈ 2.1 ppm/yr."
+      },
+      {
+       "q": "Why might the model underestimate the real rise?",
+       "a": "Emissions are growing rather than constant, and sinks may absorb a smaller fraction over time."
+      }
+     ]
+    },
+    {
+     "guide": "Drop vinegar on chalk or limestone and observe fizzing. Write the reaction and connect to carbon stored in rocks and the slow carbon cycle (weathering, burial, volcanic release).",
+     "questions": [
+      {
+       "q": "Write the equation for vinegar reacting with limestone.",
+       "a": "CaCO₃ + 2CH₃COOH → Ca(CH₃COO)₂ + H₂O + CO₂"
+      },
+      {
+       "q": "How did carbon get into limestone originally?",
+       "a": "Marine organisms built shells from dissolved calcium and carbonate; the shells accumulated and became rock."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a model explanation with the spreadsheet graph, explaining reservoirs, fluxes, human perturbation and limitations. Score with the rubric.",
+     "questions": [
+      {
+       "q": "Why is burning fossil fuels a problem for the carbon cycle if the carbon was originally in the atmosphere?",
+       "a": "It moves carbon stored over millions of years in the slow cycle into the atmosphere in decades, much faster than natural processes can remove it."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Model rubric (4 levels): 4 = Spreadsheet with year column, atmospheric carbon (starting ~875 GtC), natural fluxes in and out balanced, human emissions (~10 GtC/yr) with about 55% absorbed by sinks, conversion to ppm (÷ 2.13), and a graph over 50 years showing ~2.1 ppm/yr increase (close to the observed ~2.4 ppm/yr); written explanation of assumptions, comparison to Keeling Curve data, and one limitation (e.g., constant emissions or constant sink fraction). 3 = working model but weak comparison. 2 = model errors (mixing reservoirs and fluxes). 1 = incomplete."
+  },
+  {
+   "week": 26,
+   "prep": "Download NOAA Mauna Loa annual mean CO₂ (gml.noaa.gov/ccgg/trends) and Vostok ice core CO₂ and temperature data (NOAA Paleoclimatology or CDIAC). Open NASA Climate 'Vital Signs' and Cal-Adapt (cal-adapt.org) for California projections. Prepare a spreadsheet.",
+   "misconceptions": [
+    "Students think correlation in ice cores proves CO₂ alone drove past cycles. In ice ages, orbital changes started warming and CO₂ then amplified it (a feedback); today CO₂ is rising first because of human emissions.",
+    "Students think the yearly Keeling sawtooth is pollution changing seasonally. It is Northern Hemisphere plants taking up CO₂ in summer and releasing it in winter.",
+    "Students think 'positive feedback' means good. Positive feedback amplifies a change; negative feedback dampens it."
+   ],
+   "days": [
+    {
+     "guide": "The student graphs Mauna Loa annual mean CO₂ from 1959 to the latest year, calculates the average yearly increase overall and for the last ten years, and describes the shape (accelerating). Discuss the monthly sawtooth.",
+     "questions": [
+      {
+       "q": "CO₂ was about 317 ppm in 1960 and 425 ppm in 2024. What is the average annual increase?",
+       "a": "(425 − 317) ÷ 64 ≈ 1.7 ppm/yr."
+      },
+      {
+       "q": "Why does CO₂ drop each Northern Hemisphere summer?",
+       "a": "Plants in the Northern Hemisphere, which has most of the land, absorb CO₂ through photosynthesis during the growing season."
+      }
+     ]
+    },
+    {
+     "guide": "Graph Vostok CO₂ and temperature on the same time axis (or a scatter plot). The student describes the correlation and compares the maximum ice-core value with today.",
+     "questions": [
+      {
+       "q": "What relationship do the Vostok data show?",
+       "a": "A strong positive correlation: warm interglacials have high CO₂ (~280–300 ppm) and ice ages have low CO₂ (~180 ppm)."
+      },
+      {
+       "q": "How do the bubbles in ice record past CO₂?",
+       "a": "Air trapped in the ice as snow compacts preserves samples of the ancient atmosphere."
+      }
+     ]
+    },
+    {
+     "guide": "The student draws loop diagrams for the ice-albedo and permafrost feedbacks, with + signs on each arrow, and one negative feedback for contrast (e.g., warmer Earth radiates more infrared).",
+     "questions": [
+      {
+       "q": "Explain the permafrost feedback.",
+       "a": "Warming thaws frozen soil; microbes decompose organic matter, releasing CO₂ and methane, which cause more warming."
+      },
+      {
+       "q": "Give an example of a negative feedback.",
+       "a": "A warmer Earth emits more infrared radiation to space, which tends to cool it."
+      }
+     ]
+    },
+    {
+     "guide": "Use Cal-Adapt or NASA projections to compare a lower-emissions and higher-emissions scenario for the student's region in 2050 (temperature, extreme-heat days, Sierra snowpack). The student writes a short forecast with numbers and sources.",
+     "questions": [
+      {
+       "q": "Why do forecasts give two or more scenarios?",
+       "a": "Future warming depends on how much greenhouse gas humans emit, which is uncertain; scenarios show outcomes for different emission paths."
+      },
+      {
+       "q": "Why does Sierra snowpack matter to California?",
+       "a": "It stores water that melts in spring and summer, supplying a large share of the state's water; less snowpack means less stored water when it's needed."
+      }
+     ]
+    },
+    {
+     "guide": "Give the data-analysis quiz (graph reading and calculations). Grade together.",
+     "questions": [
+      {
+       "q": "A graph shows global temperature rising 0.2 °C per decade. How much warming is that over 30 years?",
+       "a": "0.6 °C."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Forecast write-up rubric: 4 = Uses NASA/Cal-Adapt projections to state a 2050 California temperature change under lower and higher emissions (roughly +2 to +4 °F above late-20th-century averages, larger under high emissions) and the direction of snowpack change (substantial decline, larger under high emissions), cites the data source and explains uncertainty and the role of feedbacks. Quiz key: 1) Mauna Loa CO₂ rose from about 317 ppm (1960) to about 425 ppm (2024): average ≈ 1.7 ppm/yr; recent decade ≈ 2.4–2.5 ppm/yr. 2) Vostok CO₂ ranged ~180–300 ppm over 400,000 years. 3) Today's ~425 ppm is far above any value in the 800,000-year ice-core record. 4) Ice-albedo feedback: warming melts ice → lower albedo → more absorption → more warming (positive). 5) Permafrost feedback: thawing releases CO₂ and CH₄ → more warming (positive). 6) The seasonal cycle is caused by Northern Hemisphere photosynthesis/respiration."
+  },
+  {
+   "week": 27,
+   "prep": "Gather research sources: NREL or Department of Energy pages on solar and EVs, IEA or DOE pages on carbon capture, California Air Resources Board pages on cap-and-trade (renamed cap-and-invest when extended in 2025) and SB 32. Build the Unit 6 test from the key.",
+   "misconceptions": [
+    "Students think EVs produce zero emissions under all conditions. Their emissions depend on how electricity is generated and on battery manufacturing, though lifetime emissions are generally lower than gasoline cars.",
+    "Students think one solution will solve climate change. Use the trade-off matrix to show that combinations are needed.",
+    "Students confuse SB 32 targets with AB 32. AB 32 (2006): return to 1990 levels by 2020. SB 32 (2016): 40% below 1990 levels by 2030."
+   ],
+   "days": [
+    {
+     "guide": "The student researches solar PV, EVs and carbon capture, filling a table: how it works chemically, CO₂ reduced, cost, limitations. Check that chemistry is explained (e.g., electrons freed in silicon by light).",
+     "questions": [
+      {
+       "q": "How does a solar cell produce electricity?",
+       "a": "Photons give energy to electrons in a silicon semiconductor; an internal electric field at the p-n junction pushes them through a circuit."
+      },
+      {
+       "q": "How does a common carbon-capture method trap CO₂?",
+       "a": "Flue gas passes through an amine solution that chemically binds CO₂; heating later releases pure CO₂ for storage underground."
+      }
+     ]
+    },
+    {
+     "guide": "Build a decision matrix: rows = solutions, columns = criteria (cost, CO₂ reduction, feasibility, time to deploy), weighted by importance. The student scores each and totals.",
+     "questions": [
+      {
+       "q": "Why weight criteria differently?",
+       "a": "Some criteria matter more to the decision-maker (e.g., CO₂ reduction may count double), so weights reflect priorities."
+      },
+      {
+       "q": "What is a trade-off?",
+       "a": "Giving up some of one desirable quality to gain another (e.g., higher cost for greater CO₂ reduction)."
+      }
+     ]
+    },
+    {
+     "guide": "Read about California's cap-and-trade program (started 2013, extended in 2025 as cap-and-invest) and the SB 32 goal. The student summarizes how a cap works and lists one argument for and one against.",
+     "questions": [
+      {
+       "q": "What does SB 32 require?",
+       "a": "That California cut greenhouse gas emissions to 40% below 1990 levels by 2030."
+      },
+      {
+       "q": "How does cap-and-trade reduce emissions?",
+       "a": "The state sets a declining cap on total emissions and issues allowances; companies that cut emissions cheaply can sell spare allowances, so reductions happen where cheapest."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a 1-page brief recommending one solution for the city, with evidence and trade-offs. Score with the rubric; revise once.",
+     "questions": [
+      {
+       "q": "What should the brief's recommendation sentence include?",
+       "a": "The specific action, who should do it, and the main benefit (e.g., 'The city should install solar panels on all public buildings by 2030 to cut X tons of CO₂ per year')."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test. Grade together.",
+     "questions": [
+      {
+       "q": "What is the chemistry behind an EV battery's charge and discharge?",
+       "a": "Lithium ions move from the anode to the cathode through the electrolyte while electrons flow through the circuit (discharge); charging reverses the flow."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Position brief rubric: 4 = Clear recommendation for the student's city; explains the chemistry (e.g., photovoltaic silicon converting light to electricity; lithium-ion batteries moving Li⁺ ions; amines binding CO₂); uses data (cost, tons of CO₂ avoided); acknowledges trade-offs; cites ≥3 sources. Unit 6 test key (sample): 1) Albedo of Earth ≈ 0.3. 2) Why CO₂ absorbs IR — vibrations change its dipole. 3) 1 ppm CO₂ ≈ 2.13 GtC; adding 4.26 GtC raises CO₂ by 2 ppm. 4) Largest active reservoir — deep ocean. 5) Ice-albedo feedback is positive. 6) SB 32 target — 40% below 1990 by 2030. 7) Cap-and-trade sets a declining limit on total emissions and lets companies buy/sell allowances. 8) One trade-off of carbon capture — high energy cost and expense. 9) The Keeling Curve's seasonal cycle comes from Northern Hemisphere photosynthesis. 10) Mitigation vs. adaptation: mitigation reduces emissions; adaptation copes with impacts."
+  },
+  {
+   "week": 28,
+   "prep": "Gather Alka-Seltzer tablets (6+), clear cups, ice water, room-temperature water and hot tap water (~45–50 °C), a thermometer, a stopwatch, a spoon or mortar for crushing, 3% hydrogen peroxide and yeast. Open PhET 'Reactions & Rates'.",
+   "misconceptions": [
+    "Students think a catalyst is consumed. It speeds the reaction by providing a lower-activation-energy pathway and is recovered unchanged.",
+    "Students say heat makes particles collide only more often. Higher temperature also makes a larger fraction of collisions energetic enough to exceed the activation energy — the bigger effect.",
+    "Students think crushing a tablet changes how much gas forms. It changes the rate, not the total amount of product."
+   ],
+   "days": [
+    {
+     "guide": "In PhET Reactions & Rates, the student runs single collisions with low and high energy, then many-molecule runs at different temperatures, recording how often reactions happen. Introduce the four factors (temperature, concentration, surface area, catalyst).",
+     "questions": [
+      {
+       "q": "According to collision theory, what two conditions must a collision meet to cause a reaction?",
+       "a": "Enough energy (at least the activation energy) and the correct orientation."
+      },
+      {
+       "q": "Why does increasing concentration speed a reaction?",
+       "a": "More particles per volume means more frequent collisions."
+      }
+     ]
+    },
+    {
+     "guide": "Put equal volumes of ice water, room-temperature water and hot water in three cups, record temperatures, and time a whole tablet dissolving in each. Repeat once. The student graphs temperature vs. time.",
+     "questions": [
+      {
+       "q": "Predict the effect of raising the temperature by 10 °C.",
+       "a": "The reaction speeds up — for many reactions roughly doubling the rate."
+      },
+      {
+       "q": "Explain the result with collision theory.",
+       "a": "Particles in hot water move faster, colliding more often and with more energy, so more collisions exceed the activation energy."
+      }
+     ]
+    },
+    {
+     "guide": "Time a whole tablet and a crushed tablet (same mass) in equal room-temperature water. The student explains the difference and connects to real examples (flour-dust explosions, kindling vs. logs).",
+     "questions": [
+      {
+       "q": "Which dissolved faster and why?",
+       "a": "The crushed tablet — more surface area exposes more particles to collisions with water."
+      },
+      {
+       "q": "Why do grain silos risk dust explosions?",
+       "a": "Fine dust has an enormous surface area, so it can burn extremely rapidly when ignited."
+      }
+     ]
+    },
+    {
+     "guide": "Pour peroxide into two cups; add yeast to one only. Compare bubbling. The student draws an energy diagram showing the catalyzed and uncatalyzed paths.",
+     "questions": [
+      {
+       "q": "How does catalase speed the decomposition of hydrogen peroxide?",
+       "a": "It provides an alternative pathway with lower activation energy, so more collisions succeed."
+      },
+      {
+       "q": "Is the yeast used up?",
+       "a": "No — the enzyme is a catalyst; it is not consumed (though it can eventually denature)."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the rate lab report. Score with the rubric and have the student revise the explanation section.",
+     "questions": [
+      {
+       "q": "Why do we refrigerate food?",
+       "a": "Lower temperature slows the chemical reactions and bacterial growth that spoil food."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric: 4 = Question, hypothesis, controlled variables (same water volume, tablet size), data table with times for cold/room/hot and whole/crushed (with trials), graph of temperature vs. dissolving time showing time decreases as temperature rises; explanation using collision theory (faster particles → more frequent collisions and more collisions with energy ≥ activation energy; crushing increases surface area so more particles are exposed; yeast's catalase lowers activation energy); error analysis and improvement. 3 = correct data and partial collision-theory explanation. 2 = data with little explanation. 1 = incomplete."
+  },
+  {
+   "week": 29,
+   "prep": "Gather two identical clear cups, water, two straws of different diameters, a measuring cup or ruler, and graph paper. Open a sealed bottle of soda for Day 4 discussion.",
+   "misconceptions": [
+    "Students think at equilibrium the amounts of reactants and products are equal. At equilibrium the forward and reverse rates are equal; concentrations are constant but usually not equal.",
+    "Students think reactions stop at equilibrium. Both reactions continue (dynamic); there is no net change.",
+    "Students include solids and pure liquids in K expressions. Only gases and dissolved species appear."
+   ],
+   "days": [
+    {
+     "guide": "Introduce reversible reactions with examples (N₂O₄ ⇌ 2NO₂, water evaporating and condensing in a closed bottle). The student defines dynamic equilibrium and sketches a concentration vs. time graph showing curves leveling off.",
+     "questions": [
+      {
+       "q": "In a sealed water bottle, why does the water level stop dropping?",
+       "a": "The evaporation rate becomes equal to the condensation rate."
+      },
+      {
+       "q": "What does the double arrow ⇌ mean?",
+       "a": "The reaction is reversible; it proceeds in both directions."
+      }
+     ]
+    },
+    {
+     "guide": "Fill cup A with 200 mL water and leave cup B empty. Each 'turn,' the student uses the wide straw to move water A → B and the partner (or student, second hand) uses the narrow straw B → A simultaneously by pinching the straw top. Record levels every turn for 20 turns and graph.",
+     "questions": [
+      {
+       "q": "Why did the levels stop changing even though water kept moving?",
+       "a": "The amount moved A → B each turn equaled the amount moved B → A — equal forward and reverse rates."
+      },
+      {
+       "q": "Were the final volumes equal? Why or why not?",
+       "a": "No; the different straw sizes mean equal transfer happens only when the cup with the narrow straw is much fuller."
+      }
+     ]
+    },
+    {
+     "guide": "Teach K = [products]^coefficients ÷ [reactants]^coefficients. The student writes K for five reactions and interprets large and small values.",
+     "questions": [
+      {
+       "q": "Write K for 2SO₂ + O₂ ⇌ 2SO₃.",
+       "a": "K = [SO₃]² ÷ ([SO₂]²[O₂])"
+      },
+      {
+       "q": "If K = 5 × 10⁻¹⁰, which side is favored?",
+       "a": "Reactants — very little product at equilibrium."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss a sealed soda: CO₂(g) above the liquid ⇌ CO₂(aq), and CO₂(aq) + H₂O ⇌ H₂CO₃. Open the bottle and observe. The student explains what changes when the cap comes off.",
+     "questions": [
+      {
+       "q": "Why doesn't a sealed soda keep bubbling?",
+       "a": "The CO₂ in the gas space and dissolved CO₂ are at equilibrium; escape and dissolving rates are equal."
+      },
+      {
+       "q": "Why does it fizz when opened?",
+       "a": "Pressure of CO₂ above the liquid drops, so CO₂ comes out of solution faster than it dissolves until a new equilibrium (mostly flat soda) is reached."
+      }
+     ]
+    },
+    {
+     "guide": "Give the equilibrium quiz and grade together.",
+     "questions": [
+      {
+       "q": "Write K for CaCO₃(s) ⇌ CaO(s) + CO₂(g).",
+       "a": "K = [CO₂] (solids are left out)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Model graph: full credit for water level vs. transfer number for both cups, curves that level off at unequal heights, and the explanation that equilibrium was reached when the amount moved each way per turn became equal. Quiz key: 1) Define dynamic equilibrium — forward and reverse rates equal; concentrations constant. 2) K for N₂ + 3H₂ ⇌ 2NH₃: K = [NH₃]² ÷ ([N₂][H₂]³). 3) K for H₂ + I₂ ⇌ 2HI: [HI]² ÷ ([H₂][I₂]). 4) K = 1 × 10⁸ means products are strongly favored. 5) K = 1 × 10⁻⁵ means reactants favored. 6) In a sealed soda, CO₂(g) ⇌ CO₂(aq) at equilibrium. 7) Why the water levels weren't equal — different straw sizes make different transfer rates; equilibrium is about equal rates. 8) Is equilibrium static? No — dynamic."
+  },
+  {
+   "week": 30,
+   "prep": "Make red cabbage indicator: chop 2 cups of red cabbage, cover with boiling water, steep 15 minutes, strain and refrigerate. Gather vinegar, baking soda, clear cups, two sodas (one cold, one warm), and ice/warm water baths. Print a description of the Haber process.",
+   "misconceptions": [
+    "Students think Le Chatelier means the system returns to its original state. It shifts to partially counteract the stress and settles at a new equilibrium.",
+    "Students think adding a catalyst shifts equilibrium. A catalyst speeds both directions equally; it gets to equilibrium faster without changing the yield.",
+    "Students treat temperature like concentration without considering ΔH. For an exothermic reaction, heat is a 'product', so raising temperature shifts left."
+   ],
+   "days": [
+    {
+     "guide": "Teach Le Chatelier's principle with stresses: add/remove reactant or product, change temperature, change pressure. The student predicts shifts for 10 cases using N₂ + 3H₂ ⇌ 2NH₃ + heat and explains each.",
+     "questions": [
+      {
+       "q": "For N₂ + 3H₂ ⇌ 2NH₃ + heat, what happens if the temperature is raised?",
+       "a": "The equilibrium shifts left (toward N₂ and H₂), absorbing the added heat; less NH₃."
+      },
+      {
+       "q": "What happens if N₂ is added?",
+       "a": "Shifts right, using up some added N₂ and producing more NH₃."
+      }
+     ]
+    },
+    {
+     "guide": "Put cabbage indicator in three cups: add vinegar to one and baking-soda solution to another; keep one neutral. Then add base to the acid cup drop by drop and watch the color shift back. Explain that indicator molecules exist in an equilibrium between acid and base forms.",
+     "questions": [
+      {
+       "q": "What color is cabbage indicator in vinegar and in baking-soda solution?",
+       "a": "Pink/red in vinegar (acid); blue-green in baking-soda solution (base); purple near neutral."
+      },
+      {
+       "q": "Why does adding base to the pink cup change its color?",
+       "a": "Base removes H⁺ ions, shifting the indicator's equilibrium toward its base-colored form."
+      }
+     ]
+    },
+    {
+     "guide": "Open a cold soda and a warm soda (in a sink!) and compare fizz. The student explains with equilibrium: CO₂(g) ⇌ CO₂(aq) + heat.",
+     "questions": [
+      {
+       "q": "Which soda fizzed more and why?",
+       "a": "The warm soda; gas solubility decreases at higher temperature, so the equilibrium shifts toward gaseous CO₂."
+      },
+      {
+       "q": "Why does warm lake water hold less oxygen for fish?",
+       "a": "Gases are less soluble in warmer water, so less O₂ stays dissolved."
+      }
+     ]
+    },
+    {
+     "guide": "Present the Haber process and real conditions (~200 atm, ~400–450 °C, iron catalyst, NH₃ removed by cooling). The student proposes conditions to maximize yield and explains the trade-offs.",
+     "questions": [
+      {
+       "q": "Why not run the Haber process at room temperature if low temperature favors ammonia?",
+       "a": "The reaction would be far too slow; a moderate temperature with a catalyst gives an acceptable rate with a reasonable yield."
+      },
+      {
+       "q": "Why does high pressure increase the yield?",
+       "a": "The product side has fewer gas molecules (2 vs. 4), so increasing pressure shifts toward ammonia."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Le Chatelier quiz and collect the design proposal.",
+     "questions": [
+      {
+       "q": "For CO(g) + 3H₂(g) ⇌ CH₄(g) + H₂O(g), which way does decreasing pressure shift it?",
+       "a": "Left, toward the side with more gas molecules (4 vs. 2)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Design proposal rubric: 4 = For N₂ + 3H₂ ⇌ 2NH₃ (ΔH = −92 kJ): high pressure (shifts toward fewer gas moles, 2 vs. 4); removing NH₃ by condensing it; adding excess N₂/H₂; a compromise moderate temperature (~400–450 °C) because low temperature favors yield but is too slow; iron catalyst for rate; trade-offs of cost and safety of high pressure. Quiz key: 1) Adding H₂ shifts right. 2) Removing NH₃ shifts right. 3) Raising temperature of an exothermic reaction shifts left. 4) Increasing pressure for N₂ + 3H₂ ⇌ 2NH₃ shifts right. 5) Increasing pressure for H₂ + I₂ ⇌ 2HI: no shift (2 gas moles each side). 6) Catalyst: no shift. 7) Cold soda holds more CO₂ because CO₂ dissolving is exothermic / gas solubility is higher at low temperature. 8) Adding acid to cabbage indicator turns it pink-red (shifts the indicator's equilibrium to its acid form)."
+  },
+  {
+   "week": 31,
+   "prep": "Print overviews of the Contact process for sulfuric acid (2SO₂ + O₂ ⇌ 2SO₃, ΔH ≈ −198 kJ, vanadium(V) oxide catalyst, ~400–450 °C, near 1–2 atm with excess air) or methanol synthesis (CO + 2H₂ ⇌ CH₃OH, ΔH ≈ −91 kJ, copper/zinc oxide catalyst, ~250 °C, 50–100 atm). Build the Unit 7 test from the key.",
+   "misconceptions": [
+    "Students choose the highest-yield conditions regardless of cost or speed. Industrial chemists optimize rate, yield, cost and safety together.",
+    "Students think pressure always helps. Pressure only shifts equilibria involving unequal moles of gas, and high pressure is expensive and hazardous.",
+    "Students forget that recycling unreacted gases is a key way to improve overall yield."
+   ],
+   "days": [
+    {
+     "guide": "The student reads the case study and summarizes the equation, ΔH, catalyst, conditions and uses (sulfuric acid: fertilizers, batteries; methanol: fuels, plastics).",
+     "questions": [
+      {
+       "q": "For 2SO₂ + O₂ ⇌ 2SO₃ (exothermic), why is a catalyst used?",
+       "a": "To speed the reaction at a moderate temperature where yield is still good."
+      },
+      {
+       "q": "What is sulfuric acid mostly used for?",
+       "a": "Making phosphate fertilizers (also batteries and chemical processing)."
+      }
+     ]
+    },
+    {
+     "guide": "The student proposes changes to temperature, pressure, concentrations and catalyst and explains each effect on rate and yield in a table, plus trade-offs.",
+     "questions": [
+      {
+       "q": "For methanol synthesis (CO + 2H₂ ⇌ CH₃OH, exothermic), what pressure change improves yield?",
+       "a": "Higher pressure — 3 gas moles become 1."
+      },
+      {
+       "q": "What is a trade-off of very high pressure?",
+       "a": "Stronger, costlier equipment and greater safety risk."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents the design to you; ask probing questions (Why that temperature? What happens to unreacted gas? Is it safe?). The student records questions he or she could not answer.",
+     "questions": [
+      {
+       "q": "How can a plant increase overall yield without changing equilibrium?",
+       "a": "Separate the product and recycle the unreacted reactants back through the reactor."
+      },
+      {
+       "q": "Does the catalyst change the equilibrium yield?",
+       "a": "No, only how fast equilibrium is reached."
+      }
+     ]
+    },
+    {
+     "guide": "The student revises the proposal to address feedback, marking changes.",
+     "questions": [
+      {
+       "q": "Why might an engineer accept a lower yield per pass?",
+       "a": "Higher temperature gives a much faster rate, so more product is made per hour overall, especially with recycling."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test. Grade together.",
+     "questions": [
+      {
+       "q": "For H₂(g) + I₂(g) ⇌ 2HI(g), does increasing pressure change the yield?",
+       "a": "No — there are 2 moles of gas on each side."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Design proposal rubric: 4 = Correct equation and ΔH; predicted effect of temperature, pressure, concentration and catalyst on both rate and yield; chosen operating conditions with justification; at least two trade-offs (cost, safety, energy, rate); revision based on feedback. Unit 7 test key (sample): 1) Four factors affecting rate: temperature, concentration, surface area, catalyst. 2) Why temperature speeds reactions — more frequent, more energetic collisions; more exceed Ea. 3) Catalyst lowers activation energy; does not change K or yield. 4) K for 2NO₂ ⇌ N₂O₄: [N₂O₄] ÷ [NO₂]². 5) For 2SO₂ + O₂ ⇌ 2SO₃ (exothermic): increasing pressure shifts right; raising temperature shifts left; adding O₂ shifts right. 6) Equilibrium means equal rates, not equal amounts. 7) Why industry recycles unreacted gases — to convert more feedstock over repeated passes."
+  },
+  {
+   "week": 32,
+   "prep": "Gather a plastic water bottle (not glass), a marker, a ruler, the freezer, sugar cubes, chalk (calcium carbonate sidewalk chalk works), water, vinegar, a baking pan, sand, a cup with a small hole for steady flow, and books to tilt the pan.",
+   "misconceptions": [
+    "Students think ice is denser than water because solids usually are. Hydrogen bonds hold ice in an open hexagonal lattice, making it about 9% less dense than liquid water, so it floats and expands when freezing.",
+    "Students think dissolving means disappearing. The solute is still present, spread out as particles or ions among water molecules.",
+    "Students think erosion only happens in big floods. Slow, repeated processes (frost wedging, dissolution) shape landscapes over long times."
+   ],
+   "days": [
+    {
+     "guide": "Review hydrogen bonding. The student lists water's unique properties (high specific heat, ice less dense than liquid, high surface tension, excellent solvent, high heat of vaporization) and links each to hydrogen bonding and an Earth effect.",
+     "questions": [
+      {
+       "q": "Why does ice float?",
+       "a": "Hydrogen bonds lock molecules into an open lattice, making ice less dense than liquid water."
+      },
+      {
+       "q": "How does water's high specific heat affect Earth's climate?",
+       "a": "Oceans absorb and release large amounts of heat with little temperature change, moderating coastal climates."
+      }
+     ]
+    },
+    {
+     "guide": "Fill a plastic bottle to the brim, cap it, mark dimensions, and freeze overnight. Measure the bulge, or fill a container to a line and measure the new height after freezing. Connect to frost wedging in rock cracks.",
+     "questions": [
+      {
+       "q": "If 500 mL of water freezes, about what volume of ice forms?",
+       "a": "About 545 mL (roughly 9% larger)."
+      },
+      {
+       "q": "Explain frost wedging.",
+       "a": "Water seeps into cracks, freezes and expands, pushing the crack wider; repeated freeze-thaw breaks rocks apart."
+      }
+     ]
+    },
+    {
+     "guide": "Drop a sugar cube and a piece of chalk into water, and another of each into vinegar; time dissolving and observe bubbles.",
+     "questions": [
+      {
+       "q": "Why does chalk fizz and dissolve in vinegar but not much in water?",
+       "a": "Chalk is calcium carbonate, which reacts with acid: CaCO₃ + 2CH₃COOH → Ca(CH₃COO)₂ + H₂O + CO₂."
+      },
+      {
+       "q": "How does this model chemical weathering?",
+       "a": "Rainwater containing dissolved CO₂ forms weak carbonic acid that slowly dissolves limestone, forming caves and sinkholes."
+      }
+     ]
+    },
+    {
+     "guide": "Build a sand slope in a baking pan, then pour water at slow and fast rates from the same height. The student sketches channels, deltas and where sediment is deposited.",
+     "questions": [
+      {
+       "q": "Where did sand get deposited and why?",
+       "a": "Where the water slowed (at the bottom of the slope or on inside bends), because slower water has less energy to carry sediment."
+      },
+      {
+       "q": "How did faster flow change erosion?",
+       "a": "It cut deeper, wider channels and carried more and larger particles."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the investigation report. Score with the rubric and revise.",
+     "questions": [
+      {
+       "q": "Give one California example of water shaping the land.",
+       "a": "Examples: frost wedging of Sierra granite creating talus slopes; rivers carving canyons; waves eroding coastal cliffs; limestone caves such as those in the Sierra foothills."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Investigation report rubric (HS-ESS2-5): 4 = Includes all three investigations with data (bottle volume increase ≈ 9%; chalk fizzes and dissolves faster in vinegar than water while sugar dissolves faster in water; faster flow carries more and larger sediment, cutting deeper channels); explains each with water's properties (expansion on freezing due to hydrogen-bonded lattice → frost wedging; water as a polar solvent and weak acids from dissolved CO₂ → chemical weathering of limestone; water's cohesion/mass and flow energy → erosion and deposition); connects to a California example (Sierra granite frost wedging, limestone caves, coastal and river erosion). 3 = data plus partial explanations. 2 = data only. 1 = incomplete."
+  },
+  {
+   "week": 33,
+   "prep": "Gather table salt, the kitchen scale, measuring cups, a 1-cup (≈ 250 mL) container, cabbage indicator, 10 household solutions (lemon juice, vinegar, soda, coffee, milk, tap water, baking soda solution, soap solution, diluted ammonia cleaner — never mix ammonia with bleach), droppers, and clear cups. Open PhET 'pH Scale'.",
+   "misconceptions": [
+    "Students think pH 6 is twice as acidic as pH 3. Each pH unit is a factor of 10: pH 3 has 1,000 times more H₃O⁺ than pH 6.",
+    "Students think molarity uses liters of water added. Molarity = moles of solute per liter of total solution.",
+    "Students think neutralization makes something disappear. Acid and base form water and a salt."
+   ],
+   "days": [
+    {
+     "guide": "Model M = mol ÷ L. The student makes 250 mL of a 0.50 M salt solution (7.31 g NaCl dissolved, then water added to 250 mL total) and solves concentration problems.",
+     "questions": [
+      {
+       "q": "How many grams of NaCl are needed for 250 mL of 0.50 M solution?",
+       "a": "0.250 L × 0.50 mol/L = 0.125 mol × 58.44 g/mol = 7.31 g."
+      },
+      {
+       "q": "What is the molarity of 10.0 g of NaOH (40.00 g/mol) in 500 mL of solution?",
+       "a": "0.250 mol ÷ 0.500 L = 0.500 M."
+      }
+     ]
+    },
+    {
+     "guide": "The student adds indicator to each household solution, records colors, and ranks them by pH using a cabbage color chart (red ~1–2, pink ~3–4, purple ~5–7, blue ~8, green ~9–11, yellow ~12+).",
+     "questions": [
+      {
+       "q": "Which household items are acids?",
+       "a": "Lemon juice, vinegar, soda, coffee (and slightly, milk)."
+      },
+      {
+       "q": "What color would you expect for ammonia cleaner?",
+       "a": "Green (strongly basic)."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET pH Scale, the student tests items and relates [H₃O⁺] to pH using the logarithmic scale; record a table of pH vs. [H₃O⁺].",
+     "questions": [
+      {
+       "q": "A solution has [H₃O⁺] = 1 × 10⁻⁵ M. What is its pH, and is it acidic?",
+       "a": "pH 5; acidic."
+      },
+      {
+       "q": "How does [H₃O⁺] change if you dilute an acid tenfold?",
+       "a": "It drops by a factor of 10, so the pH rises by 1."
+      }
+     ]
+    },
+    {
+     "guide": "Measure 10.0 mL of vinegar into a cup with indicator. Add 0.50 M baking-soda solution (2.1 g NaHCO₃ in 50 mL solution) a milliliter at a time, swirling, until the color turns purple-blue and stays. Calculate vinegar's molarity from the volume used.",
+     "questions": [
+      {
+       "q": "It took 16.6 mL of 0.50 M NaHCO₃ to neutralize 10.0 mL of vinegar. What is the vinegar's molarity?",
+       "a": "0.0166 L × 0.50 = 0.0083 mol NaHCO₃ = 0.0083 mol acetic acid (1:1); 0.0083 ÷ 0.0100 L = 0.83 M (about 5% acetic acid)."
+      },
+      {
+       "q": "Why add base slowly near the endpoint?",
+       "a": "To avoid overshooting the exact point where the acid is just neutralized."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz with a calculator; collect the pH chart and titration data.",
+     "questions": [
+      {
+       "q": "How many times more H₃O⁺ is in lemon juice (pH 2) than in milk (pH 6.5)?",
+       "a": "About 10^4.5 ≈ 32,000 times."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "pH chart: full credit for 10 solutions ranked with color observations and approximate pH (lemon ~2, vinegar ~2.5–3, soda ~3, coffee ~5, milk ~6.5, water ~7, baking soda ~8–8.5, soap ~9–10, ammonia ~11–12). Titration data: volume of baking-soda solution needed to reach the endpoint (purple/blue color change) in a measured vinegar sample, with mole calculation (e.g., 10.0 mL of 0.83 M vinegar contains 0.0083 mol acetic acid; with 0.50 M NaHCO₃ the endpoint is about 16.6 mL). Quiz key: 1) Molarity of 0.50 mol NaCl in 2.0 L — 0.25 M. 2) Grams of NaCl for 250 mL of 0.50 M — 7.31 g. 3) pH when [H₃O⁺] = 1 × 10⁻³ M — 3. 4) How many times more acidic is pH 3 than pH 5 — 100. 5) Products of HCl + NaOH — NaCl + H₂O. 6) Acidic, basic or neutral: pH 9 — basic. 7) Moles of HCl in 25.0 mL of 0.100 M — 0.00250 mol."
+  },
+  {
+   "week": 34,
+   "prep": "Gather cabbage indicator, a straw, eggshells (from about 4 eggs, rinsed and dried) or seashells, vinegar, water, two jars, and the kitchen scale. Bookmark NOAA's Hawaii Ocean Time-series (HOT) pH/pCO₂ graph (Station ALOHA) and readings on California oyster hatcheries and pteropods (NOAA Ocean Acidification Program). Build the Unit 8 test from the key.",
+   "misconceptions": [
+    "Students think the ocean is becoming acidic (below pH 7). Seawater is still basic (~pH 8.05); 'acidification' means it is shifting toward acidic — a ~0.1 drop since preindustrial times, about a 26–30% increase in H⁺.",
+    "Students think acid directly dissolves all shells in the ocean now. The bigger problem is reduced carbonate ion availability, which makes building shells harder, especially for larvae and pteropods.",
+    "Students think vinegar is a realistic ocean model. It is far more acidic; it models the direction of the effect, not its speed."
+   ],
+   "days": [
+    {
+     "guide": "Put purple cabbage indicator water in a cup and have the student blow gently through a straw (never suck) for 1–3 minutes, watching for a color change. Write the equations.",
+     "questions": [
+      {
+       "q": "Why does the indicator turn pinker when you exhale into it?",
+       "a": "Exhaled CO₂ dissolves and forms carbonic acid (CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻), lowering the pH."
+      },
+      {
+       "q": "How is this like the ocean?",
+       "a": "The ocean absorbs about a quarter of human CO₂ emissions, which forms carbonic acid and lowers seawater pH."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh equal masses of eggshell into a jar of vinegar and a jar of water. Each day for three days, remove, pat dry, weigh, and return. The student calculates percent mass change.",
+     "questions": [
+      {
+       "q": "Shells in vinegar went from 10.0 g to 6.5 g. What percent was lost?",
+       "a": "3.5 ÷ 10.0 × 100 = 35%."
+      },
+      {
+       "q": "Why is there a control jar of water?",
+       "a": "To show that the mass loss is caused by the acid, not by soaking or handling."
+      }
+     ]
+    },
+    {
+     "guide": "Using the HOT/Station ALOHA graph, the student describes trends in seawater pCO₂ and pH since 1988 and calculates the approximate rate of pH change.",
+     "questions": [
+      {
+       "q": "What relationship do the HOT data show between ocean CO₂ and pH?",
+       "a": "As dissolved CO₂ rises (tracking atmospheric CO₂), pH falls — an inverse relationship."
+      },
+      {
+       "q": "If pH fell from 8.11 to 8.05 over 30 years, what is the rate?",
+       "a": "0.06 ÷ 30 = 0.002 pH units per year (0.02 per decade)."
+      }
+     ]
+    },
+    {
+     "guide": "The student researches effects on California and West Coast shellfish: oyster hatchery larvae failures in the late 2000s when corrosive upwelled water reached hatcheries, monitoring and buffering now used by hatcheries, and pteropod shell dissolution observed off the West Coast. Write a summary with sources.",
+     "questions": [
+      {
+       "q": "Why are oyster larvae especially vulnerable?",
+       "a": "They must build their first shells quickly, and low carbonate water makes that harder and more energy-costly."
+      },
+      {
+       "q": "Why do pteropods matter to the food web?",
+       "a": "These tiny swimming snails are food for fish such as salmon, so their decline can ripple up the food chain."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test. Grade together and collect the shell lab.",
+     "questions": [
+      {
+       "q": "Write the equation showing how added H⁺ reduces carbonate ions in seawater.",
+       "a": "H⁺ + CO₃²⁻ → HCO₃⁻"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Shell lab: full credit for daily mass table for shells in vinegar vs. water, percent mass lost (vinegar shells lose much more; water shells nearly constant), bubbles noted, equation CaCO₃ + 2CH₃COOH → Ca(CH₃COO)₂ + H₂O + CO₂, and a caveat about vinegar being far more acidic than seawater. Unit 8 test key (sample): 1) Water expands ~9% when it freezes because of its open hydrogen-bonded lattice. 2) Molarity of 1.5 mol in 3.0 L — 0.50 M. 3) pH 4 vs. pH 7: 1,000× more H₃O⁺. 4) CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. 5) Added H⁺ combines with CO₃²⁻ to make HCO₃⁻, lowering carbonate available for CaCO₃ shells. 6) Surface ocean pH dropped from about 8.2 to about 8.1 (now ~8.05). 7) Breathing into indicator turns it from purple toward pink (more acidic). 8) A buffer resists changes in pH. 9) Neutralization: HCl + NaOH → NaCl + H₂O. 10) Chalk dissolves faster in vinegar than water — acid reacts with carbonate."
+  },
+  {
+   "week": 35,
+   "prep": "Help the student choose a challenge and gather supplies for the prototype (e.g., for a water filter: a cut plastic bottle, coffee filter, sand, gravel, activated charcoal from a pet store, muddy water — the filtered water is not safe to drink; for an insulated container: boxes, foam, foil, thermometer). Prepare the capstone rubric to share at the start.",
+   "misconceptions": [
+    "Students start building before defining criteria. Require written criteria and constraints first so the test has something to measure.",
+    "Students cite only one website. Require three sources, including one government or peer-reviewed source.",
+    "Students treat a prototype failure as failure. A failed test produces data for redesign; that is engineering."
+   ],
+   "days": [
+    {
+     "guide": "Discuss three options. The student chooses one and writes a problem statement, at least three criteria (measurable) and two constraints.",
+     "questions": [
+      {
+       "q": "For an activated-charcoal water filter, give a measurable criterion.",
+       "a": "Example: reduces turbidity so text is readable through 10 cm of water, or removes a set amount of food dye color within 2 minutes."
+      },
+      {
+       "q": "Give a constraint.",
+       "a": "Example: total materials cost under $10, or uses only household materials."
+      }
+     ]
+    },
+    {
+     "guide": "The student finds three sources (at least one .gov, .edu or peer-reviewed) and writes notes on the chemistry of the problem and solution, with citations.",
+     "questions": [
+      {
+       "q": "How does activated charcoal remove contaminants?",
+       "a": "Adsorption: molecules stick to the charcoal's enormous internal surface area (hundreds of m² per gram)."
+      },
+      {
+       "q": "Why is source quality important?",
+       "a": "Reliable sources reduce the chance of basing the design on wrong information."
+      }
+     ]
+    },
+    {
+     "guide": "The student builds and tests the prototype, recording quantitative data and at least two trials.",
+     "questions": [
+      {
+       "q": "Why run more than one trial?",
+       "a": "To check that results are repeatable and to estimate variability."
+      },
+      {
+       "q": "Is filtered muddy water safe to drink?",
+       "a": "No — the filter does not reliably remove bacteria or viruses; it must be disinfected or boiled."
+      }
+     ]
+    },
+    {
+     "guide": "The student evaluates the prototype against each criterion in a table (met / partly / not met) and lists trade-offs and improvements.",
+     "questions": [
+      {
+       "q": "What is the difference between 'evaluating' and 'describing' a design?",
+       "a": "Evaluating judges performance against criteria using data; describing only tells what was built."
+      }
+     ]
+    },
+    {
+     "guide": "The student drafts a slide presentation (8–10 slides). Review with the rubric and give two specific suggestions.",
+     "questions": [
+      {
+       "q": "What should the data slide include?",
+       "a": "A graph or table with labeled units and a one-sentence takeaway."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Capstone checkpoint rubric (4 levels): 4 = Problem statement; at least three measurable criteria and two constraints; chemistry explained with three cited sources (e.g., adsorption of contaminants onto activated carbon's huge surface area; insulation reducing conduction/convection/radiation); prototype built and tested with quantitative data (e.g., turbidity rating before/after, temperature drop over time); evaluation against each criterion with trade-offs; draft slides with title, problem, chemistry, design, data, evaluation, next steps. 3 = all parts present but data or chemistry thin. 2 = missing testing or sources. 1 = idea only."
+  },
+  {
+   "week": 36,
+   "prep": "Arrange the capstone presentation with family. Build a cumulative final exam from the key (about 40 items, 90 minutes, periodic table and formula sheet allowed). Have the Week 1 candle questions and the driving-question board ready.",
+   "misconceptions": [
+    "Students memorize answers to past quizzes rather than practicing new problems. Use fresh numbers in review.",
+    "Students skip units on the final. Deduct for missing units on calculations.",
+    "Students write the final candle explanation as a list. It should be a connected explanation linking atoms, bonds, energy and the Earth system."
+   ],
+   "days": [
+    {
+     "guide": "The student presents the capstone (10 minutes) and answers questions. Score with the capstone rubric and share one strength and one improvement.",
+     "questions": [
+      {
+       "q": "Ask: What would you change if you had another month?",
+       "a": "A strong answer names a specific weakness shown by the data and a concrete redesign."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review covering all units: equations, stoichiometry, energy, bonding, equilibrium, pH, climate. Reteach anything missed.",
+     "questions": [
+      {
+       "q": "How many grams of CO₂ form from 0.10 mol of NaHCO₃ reacting with excess vinegar?",
+       "a": "0.10 mol × 44.01 = 4.4 g."
+      },
+      {
+       "q": "A reaction is endothermic. On an energy diagram, are the products higher or lower than the reactants?",
+       "a": "Higher."
+      }
+     ]
+    },
+    {
+     "guide": "Give the final exam in one 90-minute sitting.",
+     "questions": [
+      {
+       "q": "(After the exam) Which unit felt strongest and which weakest?",
+       "a": "Answers vary; use them to guide Day 4 corrections."
+      }
+     ]
+    },
+    {
+     "guide": "Return the exam. The student corrects every missed item and writes the reason for each error (concept, careless, units).",
+     "questions": [
+      {
+       "q": "Why categorize errors?",
+       "a": "It shows whether mistakes come from misunderstanding or carelessness, guiding what to practice."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes a final, connected explanation of the burning candle using ideas from every unit and compares it to the Week 1 questions.",
+     "questions": [
+      {
+       "q": "In one sentence, where does the candle's mass go and where does its energy come from?",
+       "a": "The wax's carbon and hydrogen atoms combine with oxygen to form CO₂ and H₂O gases that enter the air (conserving mass), and the energy comes from forming stronger bonds in those products than were broken in the wax and oxygen."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Capstone rubric: 4 = clear problem and criteria, accurate chemistry, data-driven evaluation, trade-offs, confident delivery, answers questions. Final exam key (sample core items): 1) Balance C₃H₈ + O₂ → 3CO₂ + 4H₂O with 5O₂. 2) 200 g water warmed 15 °C absorbs 12,550 J. 3) Neutrons in ¹⁴C — 8. 4) 40 g of an isotope with half-life 10 yr after 30 yr — 5 g. 5) Ionic formula of calcium chloride — CaCl₂. 6) Shape of CO₂ — linear, nonpolar. 7) Moles in 88 g CO₂ — 2.0. 8) Grams CO₂ from 8.4 g NaHCO₃ (0.10 mol) — 4.4 g. 9) Limiting reactant: 3.0 mol H₂ and 1.0 mol O₂ → O₂ limits, 2.0 mol H₂O. 10) ΔH for CH₄ combustion from bond energies — −802 kJ/mol. 11) Exothermic reaction, temperature raised — shifts left. 12) pH 3 vs. pH 6 — 1,000× more acidic. 13) Why CO₂ is a greenhouse gas — absorbs infrared. 14) Ocean acidification reduces carbonate ions. 15) Positive feedback example — ice-albedo. Final candle explanation rubric: 4 = connects wax hydrocarbon structure, combustion equation and conservation of mass, bond energies explaining the release of energy, CO₂'s role in the greenhouse effect and the carbon cycle, and ocean uptake."
+  }
+ ]
+}

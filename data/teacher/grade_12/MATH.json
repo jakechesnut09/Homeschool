@@ -1,0 +1,2407 @@
+{
+ "grade": 12,
+ "subject": "MATH",
+ "overview": "Precalculus with Statistics runs 60 minutes a day: the first semester builds function fluency (transformations, polynomials, rationals, exponentials/logs, and trigonometry), and the second adds vectors, matrices, series, conics, and a full statistics strand ending in an original investigation. Model one example aloud, have the student work the next with you, then let them work independently and check with Desmos or CODAP. Emphasize reasoning and checking (plug back in, graph it, estimate) over speed, and keep a running error log so reviews target real weaknesses.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Set up a free Desmos account and graph paper. Preview OpenStax Precalculus 2e sections 1.1–1.2 (functions, domain and range). Prepare 12 relations (mappings, tables, graphs) for Day 1 — include at least 3 that fail the vertical-line test.",
+   "misconceptions": [
+    "Students think a function cannot repeat outputs. Correct: inputs may not repeat with different outputs; two inputs can share an output (y = x² gives f(2) = f(−2) = 4).",
+    "Forgetting domain restrictions: an even root needs a nonnegative radicand and a denominator cannot be 0. Have them ask 'What breaks this formula?' before writing the domain.",
+    "Mixing brackets and parentheses in interval notation. Remind them ∞ always gets a parenthesis and an endpoint gets a bracket only if it is included."
+   ],
+   "days": [
+    {
+     "guide": "Show a mapping diagram, a table, and a graph; say 'a function gives each input exactly one output.' Model the vertical-line test on a circle (fails) and a parabola (passes). The student classifies the 12 relations and writes a one-sentence reason for each; check that each 'not a function' names the input with two outputs.",
+     "questions": [
+      {
+       "q": "Is {(1, 2), (2, 2), (1, 3)} a function? Why?",
+       "a": "No — the input 1 is paired with two different outputs (2 and 3). The repeated output 2 is fine."
+      },
+      {
+       "q": "Does x² + y² = 25 define y as a function of x?",
+       "a": "No. A vertical line such as x = 3 hits the circle twice, at (3, 4) and (3, −4)."
+      }
+     ]
+    },
+    {
+     "guide": "Model finding domain by asking what inputs are illegal, then write it in interval notation; find range from the graph in Desmos. The student completes the 15 functions; check each answer by graphing in Desmos and tracing the leftmost/rightmost and lowest/highest points.",
+     "questions": [
+      {
+       "q": "Find the domain of f(x) = √(x − 3) and of g(x) = 1/(x + 2) in interval notation.",
+       "a": "f: [3, ∞). g: (−∞, −2) ∪ (−2, ∞)."
+      },
+      {
+       "q": "Find the range of y = x² − 4.",
+       "a": "[−4, ∞) — the vertex (0, −4) is the minimum."
+      }
+     ]
+    },
+    {
+     "guide": "Display a temperature-vs-time graph and narrate it: where it crosses axes, where it rises and falls, and its highs and lows, with units. The student analyzes the 6 graphs and writes intervals of increase/decrease using x-values only. Check that intervals are written in terms of x (time), not y.",
+     "questions": [
+      {
+       "q": "A ball's height is h(t) = −16t² + 64t (feet, seconds). Give the t-intercepts, the interval where h increases, and the maximum.",
+       "a": "Intercepts t = 0 and t = 4; increasing on (0, 2); maximum height 64 ft at t = 2 s."
+      },
+      {
+       "q": "What is the difference between a relative maximum and the maximum value?",
+       "a": "A relative maximum is the highest point in its neighborhood; the (absolute) maximum is the highest output over the whole domain. A graph can have several relative maxima but only one maximum value."
+      }
+     ]
+    },
+    {
+     "guide": "Model graphing f(x) = {x + 2 if x < 1; 3 if x ≥ 1}, using an open circle at (1, 3) on the first piece and a closed dot at (1, 3) on the second. The student graphs the practice set by hand, then enters a phone plan in Desmos using braces, e.g. y = {x ≤ 5: 30, 30 + 10(x − 5)}. Check endpoints: each x must have only one dot filled in.",
+     "questions": [
+      {
+       "q": "A plan costs $30 for up to 5 GB and $10 per GB beyond 5. Write C(g) as a piecewise function and find C(8).",
+       "a": "C(g) = 30 for 0 ≤ g ≤ 5; C(g) = 30 + 10(g − 5) for g > 5. C(8) = 30 + 30 = $60."
+      },
+      {
+       "q": "Evaluate f(1) for f(x) = {x² if x < 1; 2x + 1 if x ≥ 1}.",
+       "a": "f(1) = 2(1) + 1 = 3 (use the piece whose condition includes 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below closed-notes (30 minutes), then grade it together and have the student redo missed items. Note any interval-notation errors for next week's warm-ups.",
+     "questions": [
+      {
+       "q": "Write 'all real numbers greater than −1 and at most 4' in interval notation.",
+       "a": "(−1, 4]"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz (6 items, use these): 1) Is {(1,2),(2,2),(1,3)} a function? No — 1 has two outputs. 2) Domain of f(x) = √(x − 3): [3, ∞). 3) Domain of g(x) = 1/(x + 2): (−∞, −2) ∪ (−2, ∞). 4) Range of y = |x| + 1: [1, ∞). 5) For h(t) = −16t² + 64t: zeros t = 0 and 4, increasing on (0, 2), decreasing on (2, 4), max 64 at t = 2. 6) C(g) = 30 if 0 ≤ g ≤ 5, 30 + 10(g − 5) if g > 5; C(8) = 60. Score 2 points each (1 for method, 1 for correct notation); 10–12 proficient."
+  },
+  {
+   "week": 2,
+   "prep": "Open Desmos and practice making a slider (type y = a(x − h)² + k and click 'add slider'). Print or draw a blank parent-function reference sheet with 8 small grids. Preview OpenStax 1.5 (Transformation of Functions).",
+   "misconceptions": [
+    "Moving the wrong way for horizontal shifts: f(x − 3) moves RIGHT 3. Have the student solve x − 3 = 0 to see the new 'starting' x is 3.",
+    "Confusing k·f(x) (vertical stretch) with f(kx) (horizontal compression by 1/k). Test a point: for f(2x), the point (4, 2) on √x moves to (2, 2).",
+    "Thinking 'even/odd' refers to the exponent only. Use the test f(−x) = f(x) (even) or f(−x) = −f(x) (odd); e.g. x² + x is neither."
+   ],
+   "days": [
+    {
+     "guide": "Sketch each parent function together, plotting 3–5 key points (for √x: (0,0), (1,1), (4,2), (9,3)). The student draws all 8 from memory on the reference sheet and states domain and range for each. Check by covering the sheet and asking for key points aloud.",
+     "questions": [
+      {
+       "q": "Give three key points of y = ∛x and its domain.",
+       "a": "(−8, −2), (−1, −1), (0, 0), (1, 1), (8, 2) — any three; domain all real numbers."
+      },
+      {
+       "q": "What is the horizontal asymptote of y = 2ˣ and of y = 1/x?",
+       "a": "y = 2ˣ: y = 0. y = 1/x: y = 0 (it also has vertical asymptote x = 0)."
+      }
+     ]
+    },
+    {
+     "guide": "Use sliders on f(x) = (x − h)² + k and ask the student to predict before dragging. Then they graph the 10 shifted functions by hand, moving key points; verify in Desmos.",
+     "questions": [
+      {
+       "q": "Describe y = (x − 2)² + 3 relative to y = x².",
+       "a": "Shift right 2 and up 3; vertex (2, 3)."
+      },
+      {
+       "q": "Write the equation of y = |x| shifted left 4 and down 1.",
+       "a": "y = |x + 4| − 1"
+      }
+     ]
+    },
+    {
+     "guide": "Explore y = a·f(x) and y = f(bx) with sliders, noting that a negative a reflects over the x-axis and negative b over the y-axis. The student writes equations for the 8 graphs by identifying the reflection, stretch, then shift. Check by graphing their equation over the target.",
+     "questions": [
+      {
+       "q": "Describe y = −√(x + 1).",
+       "a": "Reflect √x over the x-axis and shift left 1; starts at (−1, 0) and goes down-right."
+      },
+      {
+       "q": "What does y = (2x)² do to the point (2, 4) on y = x²?",
+       "a": "It compresses horizontally by 1/2, so the point moves to (1, 4)."
+      }
+     ]
+    },
+    {
+     "guide": "Model the algebraic test: substitute −x and simplify, then compare to f(x) and −f(x). Show the graph symmetry (y-axis for even, origin for odd). The student tests the 10 functions both ways; check that the algebra matches the picture.",
+     "questions": [
+      {
+       "q": "Is f(x) = x³ − x even, odd, or neither?",
+       "a": "Odd: f(−x) = −x³ + x = −(x³ − x) = −f(x)."
+      },
+      {
+       "q": "Is g(x) = x² + x even, odd, or neither?",
+       "a": "Neither: g(−x) = x² − x, which equals neither g(x) nor −g(x)."
+      }
+     ]
+    },
+    {
+     "guide": "Run the Desmos match-the-graph set; the student writes equations and checks them by overlaying. Then give the 6-item check below on paper without technology.",
+     "questions": [
+      {
+       "q": "Write the equation: y = x² reflected over the x-axis, stretched by 2, shifted right 1 and up 5.",
+       "a": "y = −2(x − 1)² + 5"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Check (6 items): 1) y = (x − 2)² + 3 → right 2, up 3, vertex (2, 3). 2) y = −√(x + 1) → reflect over x-axis, left 1, starts at (−1, 0). 3) y = 2|x| − 4 → vertical stretch 2, down 4, vertex (0, −4). 4) y = 1/(x − 3) + 1 → asymptotes x = 3, y = 1. 5) y = 2ˣ − 5 → down 5, asymptote y = −5. 6) y = −2(x − 1)² + 5. Matching challenge: 12/12 = mastery, 10–11 proficient, 7–9 developing (reteach horizontal shifts/stretches), below 7 reteach."
+  },
+  {
+   "week": 3,
+   "prep": "Preview OpenStax 1.4 (Composition of Functions) and 1.3 (Rates of Change). Have Desmos ready. Write out two function pairs for practice: f(x) = x² + 1, g(x) = 2x − 3.",
+   "misconceptions": [
+    "Treating f(g(x)) as multiplication f·g. Have the student literally replace every x in f with the whole expression g(x), in parentheses.",
+    "Forgetting the domain restriction for f/g (where g(x) = 0) or for compositions. Check: the inner function's domain AND the outer function's restrictions both apply.",
+    "In the difference quotient, writing f(x + h) as f(x) + h. Expand carefully: for f(x) = x², f(x + h) = x² + 2xh + h²."
+   ],
+   "days": [
+    {
+     "guide": "Model (f + g)(x), (f − g)(x), (fg)(x), and (f/g)(x) for f(x) = x² + 1 and g(x) = 2x − 3, stating each domain. The student completes 8 pairs; check that every quotient lists excluded x-values.",
+     "questions": [
+      {
+       "q": "For f(x) = x² + 1 and g(x) = 2x − 3, find (fg)(x) and the domain of (f/g)(x).",
+       "a": "(fg)(x) = 2x³ − 3x² + 2x − 3. Domain of f/g: all reals except x = 3/2."
+      },
+      {
+       "q": "Find (f − g)(2) for the same pair.",
+       "a": "f(2) = 5, g(2) = 1, so 5 − 1 = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Show f(g(x)) as 'do g first, then f' with a function-machine sketch. Work f(g(x)) and g(f(x)) to show order matters. The student then decomposes the 6 functions and models a stacked discount; check by plugging a number into both forms.",
+     "questions": [
+      {
+       "q": "With f(x) = x² + 1 and g(x) = 2x − 3, find f(g(x)), g(f(x)), and f(g(2)).",
+       "a": "f(g(x)) = (2x − 3)² + 1 = 4x² − 12x + 10. g(f(x)) = 2x² − 1. f(g(2)) = f(1) = 2."
+      },
+      {
+       "q": "A jacket is 20% off, then a $10 coupon is applied. Write the final price as a composition and compare to applying the coupon first.",
+       "a": "D(p) = 0.8p, C(x) = x − 10. C(D(p)) = 0.8p − 10. Coupon first: D(C(p)) = 0.8(p − 10) = 0.8p − 8, which costs $2 more."
+      },
+      {
+       "q": "Decompose h(x) = √(3x + 1) as f(g(x)).",
+       "a": "g(x) = 3x + 1, f(x) = √x."
+      }
+     ]
+    },
+    {
+     "guide": "Define average rate of change as [f(b) − f(a)]/(b − a), the slope of the secant line, and always attach units. The student computes rates from tables, graphs, and equations; check that every answer has units like 'miles per hour.'",
+     "questions": [
+      {
+       "q": "Find the average rate of change of f(x) = x² + 1 on [1, 3].",
+       "a": "(f(3) − f(1))/(3 − 1) = (10 − 2)/2 = 4."
+      },
+      {
+       "q": "A car is at mile 40 at 1 pm and mile 190 at 4 pm. Find and interpret the average rate of change.",
+       "a": "(190 − 40)/(4 − 1) = 50 miles per hour on average."
+      }
+     ]
+    },
+    {
+     "guide": "Model the difference quotient for f(x) = 3x + 5, then x², step by step: find f(x + h), subtract f(x), divide by h. The student does the linear, quadratic, and reciprocal cases; check that h cancels before stopping.",
+     "questions": [
+      {
+       "q": "Simplify [f(x + h) − f(x)]/h for f(x) = x².",
+       "a": "(x² + 2xh + h² − x²)/h = 2x + h."
+      },
+      {
+       "q": "Simplify the difference quotient for f(x) = 1/x.",
+       "a": "[1/(x + h) − 1/x]/h = [(x − (x + h))/(x(x + h))]/h = −1/(x(x + h))."
+      }
+     ]
+    },
+    {
+     "guide": "Give a table for one function and an equation for another; have the student compare rate of change on the same interval and maximum values. Then give the quiz below.",
+     "questions": [
+      {
+       "q": "f is given by the table x: 0, 2, 4; f(x): 3, 7, 11. g(x) = −x² + 4x + 5. Which has the greater average rate of change on [0, 2]? Which has the greater maximum on [0, 4]?",
+       "a": "f: (7 − 3)/2 = 2. g: (9 − 5)/2 = 2 — equal. On [0, 4], f's max is 11; g's max is g(2) = 9, so f is greater."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) f(g(x)) = 4x² − 12x + 10 (f = x² + 1, g = 2x − 3). 2) g(f(x)) = 2x² − 1. 3) f(g(2)) = 2. 4) Domain of f/g: x ≠ 3/2. 5) ARC of f on [1, 3] = 4. 6) Difference quotient of x² = 2x + h. 7) Coupon-after-discount 0.8p − 10 vs. before 0.8p − 8; discount first is cheaper. 8) h(x) = √(3x + 1): inner 3x + 1, outer √x. Proficient: 6+ of 8 with correct work."
+  },
+  {
+   "week": 4,
+   "prep": "Get patty paper (or tracing paper). Preview OpenStax 1.7 (Inverse Functions). Prepare the Unit 1 review set and an answer key (OpenStax chapter 1 review exercises work well) and the test below.",
+   "misconceptions": [
+    "Writing f⁻¹(x) as 1/f(x). Emphasize that the −1 means 'undo,' not a reciprocal: if f(x) = 2x, f⁻¹(x) = x/2, not 1/(2x).",
+    "Forgetting to restrict the domain of a non-one-to-one function before inverting, e.g. claiming √x is the inverse of x² on all reals. It is only the inverse on x ≥ 0.",
+    "Swapping x and y but not solving for y. The procedure is: write y = f(x), swap x and y, solve for y."
+   ],
+   "days": [
+    {
+     "guide": "Trace a graph on patty paper, fold along y = x, and see the reflected inverse; repeat in Desmos. The student applies the horizontal-line test to 10 functions; check that they connect 'passes' to one-to-one.",
+     "questions": [
+      {
+       "q": "Does f(x) = x² have an inverse function on all reals? Why?",
+       "a": "No. The horizontal line y = 4 hits the graph at x = 2 and x = −2, so it is not one-to-one."
+      },
+      {
+       "q": "If (3, 7) is on the graph of f, what point is on f⁻¹?",
+       "a": "(7, 3)"
+      }
+     ]
+    },
+    {
+     "guide": "Model: y = (2x + 1)/3 → x = (2y + 1)/3 → y = (3x − 1)/2, then verify f(f⁻¹(x)) = x. The student finds inverses of 10 functions and verifies each by composition.",
+     "questions": [
+      {
+       "q": "Find the inverse of f(x) = x³ − 4 and verify.",
+       "a": "f⁻¹(x) = ∛(x + 4). Check: f(f⁻¹(x)) = (∛(x + 4))³ − 4 = x."
+      },
+      {
+       "q": "Find the inverse of f(x) = 1/(x − 1).",
+       "a": "Swap: x = 1/(y − 1) → y − 1 = 1/x → f⁻¹(x) = 1/x + 1."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = (x − 2)² and show that keeping only x ≥ 2 passes the horizontal-line test. The student restricts and inverts quadratics and absolute-value functions, stating the inverse's domain and range.",
+     "questions": [
+      {
+       "q": "Restrict f(x) = (x − 2)² to make it invertible, then find f⁻¹.",
+       "a": "Restrict to x ≥ 2; f⁻¹(x) = √x + 2 with domain x ≥ 0 and range y ≥ 2."
+      },
+      {
+       "q": "Restrict f(x) = |x| + 1 and give the inverse.",
+       "a": "For x ≥ 0, f(x) = x + 1 so f⁻¹(x) = x − 1 for x ≥ 1."
+      }
+     ]
+    },
+    {
+     "guide": "The student works the mixed review independently, then self-checks with the answer key, writing a corrected solution next to each miss. Spend the last 15 minutes reteaching the most-missed topic.",
+     "questions": [
+      {
+       "q": "Describe y = −(x + 3)² − 1 and give its range.",
+       "a": "Reflect y = x² over the x-axis, shift left 3 and down 1; vertex (−3, −1); range (−∞, −1]."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test (about 50 minutes, Desmos allowed only on marked items). Grade with the key below and review errors the next day.",
+     "questions": [
+      {
+       "q": "What is the composition check that f and g are inverses?",
+       "a": "f(g(x)) = x and g(f(x)) = x for all x in the appropriate domains."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test sample key (write the test with these items): 1) Domain of √(5 − x): (−∞, 5]. 2) Domain of (x + 1)/(x² − 9): x ≠ ±3. 3) y = −2|x − 1| + 3: reflect, stretch 2, right 1, up 3, vertex (1, 3), range (−∞, 3]. 4) f(x) = x² − x is neither even nor odd. 5) f(x) = 3x − 2, g(x) = x²: f(g(x)) = 3x² − 2, g(f(x)) = 9x² − 12x + 4. 6) ARC of x² on [2, 5] = 7. 7) Difference quotient of 3x² = 6x + 3h. 8) Inverse of (2x + 1)/3 = (3x − 1)/2. 9) Inverse of (x − 2)², x ≥ 2: √x + 2. 10) Piecewise graph with correct open/closed endpoints. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing, below 60% reteach before Unit 2."
+  },
+  {
+   "week": 5,
+   "prep": "Gather an 8.5 × 11 in sheet of paper, scissors, tape, and a ruler for the box model. Preview OpenStax 5.3 (Graphs of Polynomial Functions).",
+   "misconceptions": [
+    "Determining end behavior from the first term written rather than the highest-degree term. Rewrite in standard form first: in 3x² − 2x⁵, the leading term is −2x⁵.",
+    "Thinking every zero crosses the axis. Even multiplicity bounces (touches), odd multiplicity crosses; multiplicity 3 crosses with a flattened shape.",
+    "Saying a degree-n polynomial has exactly n − 1 turning points. It has AT MOST n − 1."
+   ],
+   "days": [
+    {
+     "guide": "Graph y = x², −x², x³, −x³ and generalize: even degree means the ends match, odd means they go opposite ways; the sign of the leading coefficient decides the right end. The student classifies 12 polynomials, then checks in Desmos.",
+     "questions": [
+      {
+       "q": "Describe the end behavior of f(x) = −2x⁵ + 3x² + 1.",
+       "a": "Odd degree, negative leading coefficient: as x → −∞, f(x) → ∞; as x → ∞, f(x) → −∞."
+      },
+      {
+       "q": "Describe the end behavior of g(x) = 4x⁴ − x.",
+       "a": "Even degree, positive leading coefficient: both ends go up (→ ∞)."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = (x − 1), (x − 1)², (x − 1)³ and have the student describe what happens at x = 1. Then they investigate several factored polynomials and write the rule in their notes.",
+     "questions": [
+      {
+       "q": "Describe the behavior of f(x) = (x + 2)²(x − 1)³ at each zero.",
+       "a": "At x = −2 (multiplicity 2) the graph touches and bounces; at x = 1 (multiplicity 3) it crosses and flattens like a cubic."
+      }
+     ]
+    },
+    {
+     "guide": "Model a full sketch for f(x) = x(x − 3)(x + 2): zeros, y-intercept, end behavior, then connect. The student sketches 8 polynomials and labels intercepts, end behavior, and the maximum number of turning points.",
+     "questions": [
+      {
+       "q": "Sketch-plan f(x) = −(x − 1)²(x + 3): zeros, y-intercept, end behavior, max turning points.",
+       "a": "Zeros 1 (bounce) and −3 (cross); y-intercept −(1)(3) = −3; degree 3 with negative leading coefficient: up on the left, down on the right; at most 2 turning points."
+      }
+     ]
+    },
+    {
+     "guide": "Cut equal squares of side x from each corner of the paper, fold, and tape a box. Derive V(x) = x(8.5 − 2x)(11 − 2x) and find the maximum in Desmos. Discuss why the domain is 0 < x < 4.25.",
+     "questions": [
+      {
+       "q": "What size square gives the maximum volume and what is it?",
+       "a": "x ≈ 1.59 in gives V ≈ 66.1 in³."
+      },
+      {
+       "q": "Why is the domain 0 < x < 4.25?",
+       "a": "x must be positive, and 2x must be less than the shorter side 8.5, so x < 4.25."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below; allow Desmos only to check the last item after writing it by hand. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Write a cubic with a bounce at x = −2, a crossing at x = 1, and y-intercept −8.",
+       "a": "f(x) = a(x + 2)²(x − 1). f(0) = a(4)(−1) = −8, so a = 2: f(x) = 2(x + 2)²(x − 1)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) −2x⁵ + …: up-left, down-right. 2) 4x⁴ − x: both up. 3) (x + 2)²(x − 1)³: bounce at −2, cross/flatten at 1. 4) x(x − 3)(x + 2): zeros 0, 3, −2; y-int 0; down-left, up-right. 5) Equation from graph: f(x) = 2(x + 2)²(x − 1). Box model rubric: correct V(x) = x(8.5 − 2x)(11 − 2x), domain 0 < x < 4.25, max ≈ 66.1 in³ at x ≈ 1.59 in, physical box built and measured. Proficient = all four parts with only minor rounding errors."
+  },
+  {
+   "week": 6,
+   "prep": "Preview OpenStax 5.4 (Dividing Polynomials) and 5.5 (Zeros of Polynomial Functions). Prepare a list of 10 polynomials for synthetic division practice.",
+   "misconceptions": [
+    "Leaving out placeholder zeros for missing terms in long or synthetic division. Write x³ − 8 as x³ + 0x² + 0x − 8.",
+    "Using the wrong sign in synthetic division: to divide by (x + 2), use −2.",
+    "Listing p/q backwards in the Rational Root Theorem. p = factors of the constant term, q = factors of the leading coefficient."
+   ],
+   "days": [
+    {
+     "guide": "Model (x³ − 2x² − 5x + 6) ÷ (x − 1) with long division, then x³ − 8 ÷ (x − 2) with placeholders. The student does 8 problems; check by multiplying quotient × divisor + remainder.",
+     "questions": [
+      {
+       "q": "Divide x³ − 2x² − 5x + 6 by x − 1.",
+       "a": "x² − x − 6, remainder 0. So x³ − 2x² − 5x + 6 = (x − 1)(x − 3)(x + 2)."
+      },
+      {
+       "q": "Divide x³ − 8 by x − 2.",
+       "a": "x² + 2x + 4, remainder 0."
+      }
+     ]
+    },
+    {
+     "guide": "Teach synthetic division and state the Remainder Theorem: the remainder when P(x) is divided by (x − c) equals P(c). The student evaluates and tests factors for 10 polynomials; check one with direct substitution.",
+     "questions": [
+      {
+       "q": "Use the Remainder Theorem to find the remainder of P(x) = x³ + 2x² − x + 4 divided by x + 2.",
+       "a": "P(−2) = −8 + 8 + 2 + 4 = 6."
+      },
+      {
+       "q": "Is (x − 3) a factor of x³ − 4x² + x + 6?",
+       "a": "P(3) = 27 − 36 + 3 + 6 = 0, so yes."
+      }
+     ]
+    },
+    {
+     "guide": "List candidates ±p/q, test with synthetic division, and factor the remaining quadratic. The student fully factors 6 cubics/quartics.",
+     "questions": [
+      {
+       "q": "List the possible rational zeros of 2x³ − 3x² − 11x + 6 and find all zeros.",
+       "a": "±1, ±2, ±3, ±6, ±1/2, ±3/2. P(3) = 0; quotient 2x² + 3x − 2 = (2x − 1)(x + 2). Zeros: 3, 1/2, −2."
+      }
+     ]
+    },
+    {
+     "guide": "Factor x³ − x² + 4x − 4 by grouping to get (x − 1)(x² + 4) and find ±2i. Show that complex zeros of real polynomials come in conjugate pairs; compute modulus and a quotient using the conjugate.",
+     "questions": [
+      {
+       "q": "Find all zeros of x³ − x² + 4x − 4.",
+       "a": "(x − 1)(x² + 4) = 0 → x = 1, 2i, −2i."
+      },
+      {
+       "q": "Find |3 + 4i| and (2 + 3i)/(1 − i).",
+       "a": "|3 + 4i| = √(9 + 16) = 5. (2 + 3i)(1 + i)/((1 − i)(1 + i)) = (2 + 5i + 3i²)/2 = (−1 + 5i)/2."
+      },
+      {
+       "q": "A polynomial with real coefficients has zeros 2 and 1 + i. What other zero must it have?",
+       "a": "1 − i (the conjugate)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below (no calculator). Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "State the Factor Theorem.",
+       "a": "(x − c) is a factor of P(x) if and only if P(c) = 0."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) (x³ − 2x² − 5x + 6) ÷ (x − 1) = x² − x − 6. 2) Remainder of x³ + 2x² − x + 4 ÷ (x + 2) = 6. 3) (x − 3) is a factor of x³ − 4x² + x + 6 (P(3) = 0); full factorization (x − 3)(x − 2)(x + 1). 4) Zeros of 2x³ − 3x² − 11x + 6: 3, 1/2, −2. 5) Zeros of x³ − x² + 4x − 4: 1, ±2i. 6) (2 + 3i)/(1 − i) = −1/2 + (5/2)i. Proficient: 5 of 6 with work shown."
+  },
+  {
+   "week": 7,
+   "prep": "Preview OpenStax 5.6 (Rational Functions). Have Desmos ready. Write the Unit 2 test from the key below (or use OpenStax chapter 5 review).",
+   "misconceptions": [
+    "Cancelling a common factor and forgetting it leaves a HOLE, not a vertical asymptote. Factor fully; a cancelled factor gives a hole, a remaining denominator factor gives a VA.",
+    "Thinking graphs never cross a horizontal asymptote. A horizontal asymptote describes end behavior only; the graph may cross it in the middle.",
+    "Not checking rational-equation solutions in the original equation. Any solution that makes a denominator zero is extraneous."
+   ],
+   "days": [
+    {
+     "guide": "Model the three horizontal-asymptote cases by comparing degrees, and find a slant asymptote by long division. The student finds all asymptotes and holes for 10 functions.",
+     "questions": [
+      {
+       "q": "Find holes and asymptotes of f(x) = (x² − 1)/(x² − x − 2).",
+       "a": "f = (x − 1)(x + 1)/((x − 2)(x + 1)). Hole at x = −1 (point (−1, 2/3)); VA x = 2; HA y = 1."
+      },
+      {
+       "q": "Find the slant asymptote of (x² + 1)/(x − 1).",
+       "a": "(x² + 1)/(x − 1) = x + 1 + 2/(x − 1), so y = x + 1."
+      }
+     ]
+    },
+    {
+     "guide": "Sketch f(x) = (x + 1)/(x − 2) using intercepts, asymptotes, and a sign chart. The student sketches 6, then overlays in Desmos.",
+     "questions": [
+      {
+       "q": "Give intercepts and asymptotes of f(x) = (x + 1)/(x − 2).",
+       "a": "x-intercept (−1, 0); y-intercept (0, −1/2); VA x = 2; HA y = 1."
+      }
+     ]
+    },
+    {
+     "guide": "Review operations by analogy to fractions: factor, find a common denominator, simplify. Solve a rational equation and check for extraneous roots.",
+     "questions": [
+      {
+       "q": "Solve x/(x − 3) = 3/(x − 3) + 2.",
+       "a": "Multiply by (x − 3): x = 3 + 2(x − 3) → x = 3. But x = 3 makes a denominator 0, so there is no solution."
+      },
+      {
+       "q": "Simplify 1/x + 1/(x + 1).",
+       "a": "(2x + 1)/(x(x + 1))"
+      }
+     ]
+    },
+    {
+     "guide": "Model a business: fixed cost $5000, $12 per item, average cost C(x) = (5000 + 12x)/x. Graph it, find the horizontal asymptote, and interpret.",
+     "questions": [
+      {
+       "q": "Find C(1000) and the horizontal asymptote; interpret.",
+       "a": "C(1000) = (5000 + 12000)/1000 = $17 per item. HA y = 12: as production grows, average cost per item approaches the $12 variable cost."
+      },
+      {
+       "q": "How many items must be produced for average cost to fall to $14?",
+       "a": "(5000 + 12x)/x = 14 → 5000 = 2x → x = 2500 items."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test (about 55 minutes). Grade with the key and have the student correct every error. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Which function has a hole: (x − 2)/(x² − 4) or (x + 2)/(x² − 9)?",
+       "a": "(x − 2)/(x² − 4) = 1/(x + 2) for x ≠ 2, so it has a hole at x = 2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test sample key: 1) End behavior of −x⁴ + x: both ends down. 2) Sketch (x + 1)²(x − 2): bounce at −1, cross at 2, y-int −2. 3) Zeros of x³ − 2x² − 5x + 6: 1, 3, −2. 4) Zeros of x⁴ − 1: ±1, ±i. 5) (4 − 2i)/(1 + i) = 1 − 3i. 6) (x² − 1)/(x² − x − 2): hole (−1, 2/3), VA x = 2, HA y = 1. 7) Slant asymptote of (x² + 1)/(x − 1): y = x + 1. 8) x/(x − 3) = 3/(x − 3) + 2: no solution. 9) Average cost (5000 + 12x)/x → $12. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing, below 60% reteach."
+  },
+  {
+   "week": 8,
+   "prep": "Calculator with ln and log keys. Preview OpenStax 6.1–6.6. Pre-make a table for $1000 at 5% for 10 years with columns for annual, monthly, daily, continuous compounding.",
+   "misconceptions": [
+    "Thinking log(a + b) = log a + log b. The product rule is log(ab) = log a + log b; there is no rule for a sum.",
+    "Confusing growth and decay: y = a·bˣ decays when 0 < b < 1 (or k < 0 in e^(kx)).",
+    "Mis-reading log_b(x) = y. Say it aloud: 'b to the y equals x.'"
+   ],
+   "days": [
+    {
+     "guide": "Graph y = 2ˣ, (1/2)ˣ, eˣ and transformations like eˣ − 3. The student identifies growth/decay, y-intercept, and horizontal asymptote for each.",
+     "questions": [
+      {
+       "q": "Give the y-intercept and asymptote of y = 3(0.5)ˣ + 2.",
+       "a": "y-intercept 3 + 2 = 5; horizontal asymptote y = 2; decay."
+      }
+     ]
+    },
+    {
+     "guide": "Fill in the compounding table using A = P(1 + r/n)^(nt) and A = Pe^(rt). Then compute (1 + 1/n)^n for n = 1, 10, 100, 10000 to see it approach e ≈ 2.71828.",
+     "questions": [
+      {
+       "q": "$1000 at 5% for 10 years: annual vs. monthly vs. continuous?",
+       "a": "Annual $1628.89; monthly $1647.01; continuous 1000e^0.5 ≈ $1648.72."
+      },
+      {
+       "q": "What does (1 + 1/n)^n approach as n grows?",
+       "a": "e ≈ 2.71828."
+      }
+     ]
+    },
+    {
+     "guide": "Teach 'log_b x = y means b^y = x' and convert both directions. Graph y = 2ˣ and y = log₂ x together with y = x to show they are inverses.",
+     "questions": [
+      {
+       "q": "Evaluate log₂ 8, log 1000, ln e⁵, log₃(1/9).",
+       "a": "3, 3, 5, −2."
+      },
+      {
+       "q": "Rewrite 5² = 25 in log form.",
+       "a": "log₅ 25 = 2"
+      }
+     ]
+    },
+    {
+     "guide": "Model expanding and condensing, connecting each rule to an exponent rule. Teach change of base: log_b x = ln x / ln b. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Expand log(x³y/z).",
+       "a": "3 log x + log y − log z"
+      },
+      {
+       "q": "Condense 2 ln x − ln(x + 1).",
+       "a": "ln(x²/(x + 1))"
+      },
+      {
+       "q": "Evaluate log₅ 20 to 3 decimals.",
+       "a": "ln 20 / ln 5 ≈ 1.861"
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below (calculator allowed for the last two items). Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Is ln 0 defined?",
+       "a": "No. eʸ is always positive, so no y gives eʸ = 0; the domain of ln x is x > 0."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) y = 3(0.5)ˣ + 2: y-int 5, HA y = 2, decay. 2) log₂ 8 = 3. 3) log₃(1/9) = −2. 4) Expand log(x³y/z) = 3log x + log y − log z. 5) Condense 2 ln x − ln(x + 1) = ln(x²/(x + 1)). 6) log₅ 20 ≈ 1.861. 7) $1000 at 5% compounded monthly for 10 years ≈ $1647.01. 8) Continuous ≈ $1648.72. Proficient: 6 of 8."
+  },
+  {
+   "week": 9,
+   "prep": "Gather a mug, hot (not boiling) water, a kitchen or digital thermometer, and a timer for the cooling lab — supervise hot water. Preview OpenStax 6.6–6.7. Record room temperature before starting.",
+   "misconceptions": [
+    "Taking the log of only one side or of individual terms. Isolate the exponential first, then take the log of both sides.",
+    "Keeping extraneous log solutions. Every answer must make each log's argument positive in the original equation.",
+    "Fitting the cooling data with y = ab^t, which ignores room temperature. Newton's model is T(t) = T_room + (T₀ − T_room)e^(−kt); the curve levels off at room temperature, not 0."
+   ],
+   "days": [
+    {
+     "guide": "Model solving 5e^(2x) = 40: divide, take ln, solve. Then a log equation with a check. The student solves 12 equations. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Solve 5e^(2x) = 40.",
+       "a": "e^(2x) = 8 → x = ln 8 / 2 ≈ 1.040."
+      },
+      {
+       "q": "Solve log₂ x + log₂(x − 2) = 3.",
+       "a": "log₂(x(x − 2)) = 3 → x² − 2x − 8 = 0 → x = 4 or −2. Reject −2 (negative argument). x = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Set up A = A₀(1/2)^(t/h) for half-life and solve for t with logs. Do doubling time for continuous growth: t = ln 2 / r. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Carbon-14 has half-life 5730 years. How old is a sample with 30% of its C-14 remaining?",
+       "a": "0.3 = (1/2)^(t/5730) → t = 5730·ln 0.3 / ln 0.5 ≈ 9950 years."
+      },
+      {
+       "q": "How long to double money at 7% compounded continuously?",
+       "a": "t = ln 2 / 0.07 ≈ 9.9 years."
+      }
+     ]
+    },
+    {
+     "guide": "Pour hot water, insert the thermometer, and record temperature every 2 minutes for 30 minutes along with room temperature. The student keeps a neat data table and notes sources of error.",
+     "questions": [
+      {
+       "q": "Predict the shape of the temperature graph and its long-run value.",
+       "a": "Decreasing quickly at first, then more slowly, leveling off toward room temperature (a horizontal asymptote at T_room)."
+      }
+     ]
+    },
+    {
+     "guide": "Enter the data in Desmos and fit T = R + (T₀ − R)e^(−kt) with R fixed at room temperature (or y₁ ~ a·e^(−kx₁) + R). Interpret k and solve for when T = 40 °C.",
+     "questions": [
+      {
+       "q": "Room 20 °C, start 90 °C, 60 °C after 10 min. Find k and when it reaches 40 °C.",
+       "a": "40 = 70e^(−10k) → k = ln(70/40)/10 ≈ 0.0560 per minute. 20 = 70e^(−0.056t) → t = ln 3.5 / 0.056 ≈ 22.4 minutes."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test; collect the cooling-lab report. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Solve 3^(x + 1) = 27.",
+       "a": "3^(x + 1) = 3³ → x = 2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test sample key: 1) 3^(x+1) = 27 → x = 2. 2) 5e^(2x) = 40 → x ≈ 1.040. 3) log₂x + log₂(x − 2) = 3 → x = 4. 4) 30% C-14 → ≈ 9950 years. 5) Doubling at 7% continuous ≈ 9.9 years. 6) log₅ 20 ≈ 1.861. 7) Graph of log₂(x − 1): VA x = 1, passes (2, 0), (3, 1). Lab report rubric (4 levels): 4 = complete data table, graph, correct Newton model with fitted k and units, prediction for 40 °C, discussion of error sources; 3 = model and prediction correct, minor gaps; 2 = data present but model ignores room temperature or is misinterpreted; 1 = incomplete."
+  },
+  {
+   "week": 10,
+   "prep": "Paper plate, string, scissors, protractor, marker. Preview OpenStax 7.1–7.3. Print a blank unit circle for daily practice.",
+   "misconceptions": [
+    "Thinking a radian is a fixed number of degrees 'like 1°.' One radian ≈ 57.3°; it is the angle whose arc equals the radius.",
+    "Using degrees in s = rθ. The formula only works with θ in radians.",
+    "Sign errors outside Quadrant I. Use 'All Students Take Calculus': QI all positive, QII sine, QIII tangent, QIV cosine."
+   ],
+   "days": [
+    {
+     "guide": "Cut string equal to the radius and wrap it along the plate's edge, marking off radians (about 6.28 fit). Teach degrees × π/180 = radians. The student converts 15 angles.",
+     "questions": [
+      {
+       "q": "Convert 150° to radians and 7π/4 to degrees.",
+       "a": "150° = 5π/6; 7π/4 = 315°."
+      },
+      {
+       "q": "About how many degrees is 1 radian?",
+       "a": "180/π ≈ 57.3°."
+      }
+     ]
+    },
+    {
+     "guide": "Model s = rθ and A = ½r²θ. Then a bicycle wheel: distance per rotation equals circumference. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "r = 10 cm, θ = π/3. Find arc length and sector area.",
+       "a": "s = 10π/3 ≈ 10.47 cm; A = ½(100)(π/3) = 50π/3 ≈ 52.36 cm²."
+      },
+      {
+       "q": "A 26-inch-diameter bike wheel turns once. How far does the bike travel?",
+       "a": "26π ≈ 81.7 inches."
+      }
+     ]
+    },
+    {
+     "guide": "Draw 30-60-90 and 45-45-90 triangles with hypotenuse 1 to get (√3/2, 1/2) and (√2/2, √2/2), then reflect into all quadrants. The student builds a full unit circle.",
+     "questions": [
+      {
+       "q": "Give the coordinates for π/3 and 3π/4 on the unit circle.",
+       "a": "π/3: (1/2, √3/2). 3π/4: (−√2/2, √2/2)."
+      }
+     ]
+    },
+    {
+     "guide": "Model finding the reference angle and sign for 4π/3 and 7π/4. The student evaluates sin, cos, tan in all quadrants. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Evaluate sin(5π/6), cos(4π/3), tan(7π/4).",
+       "a": "1/2, −1/2, −1."
+      },
+      {
+       "q": "Evaluate sin 225°.",
+       "a": "−√2/2 (reference angle 45°, Quadrant III)."
+      }
+     ]
+    },
+    {
+     "guide": "Time the student filling a blank unit circle (goal: under 5 minutes), then give the evaluation quiz. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Evaluate cos(π/2) and tan(π/2).",
+       "a": "cos(π/2) = 0; tan(π/2) is undefined."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Timed unit circle: all 16 special angles (0, π/6, π/4, π/3, π/2 … 11π/6) with correct coordinates in under 5 minutes = mastery. Evaluation quiz: 1) 150° = 5π/6. 2) 7π/4 = 315°. 3) Arc length r = 10, θ = π/3: 10π/3. 4) sin(5π/6) = 1/2. 5) cos(4π/3) = −1/2. 6) tan(7π/4) = −1. 7) sin 225° = −√2/2. 8) sec(π/3) = 2. Proficient: 7 of 8."
+  },
+  {
+   "week": 11,
+   "prep": "Desmos; find the Desmos 'unit circle to sine graph' animation or build one with a point (cos t, sin t). Look up daylight hours by month for your California city on timeanddate.com (sunrise/sunset table).",
+   "misconceptions": [
+    "Confusing period with b. The period is 2π/b, so y = sin(2x) has period π, not 2.",
+    "Reading the amplitude as the max value. Amplitude = (max − min)/2; midline = (max + min)/2.",
+    "Sign of phase shift: y = sin(x − π/4) shifts RIGHT π/4."
+   ],
+   "days": [
+    {
+     "guide": "Animate the point moving around the circle and trace its y-value (sine) and x-value (cosine) against angle. Discuss why cos is even (symmetric about the y-axis) and sin is odd.",
+     "questions": [
+      {
+       "q": "Why is cos(−x) = cos x?",
+       "a": "Angles x and −x reflect across the x-axis on the unit circle, so they have the same x-coordinate. Cosine is even."
+      },
+      {
+       "q": "What are the period and range of y = sin x?",
+       "a": "Period 2π; range [−1, 1]."
+      }
+     ]
+    },
+    {
+     "guide": "Graph y = 3 sin(2x) by finding the period, dividing it into four quarters, and plotting max/zero/min points. The student graphs 8 by hand.",
+     "questions": [
+      {
+       "q": "Amplitude and period of y = 3 sin(2x)?",
+       "a": "Amplitude 3; period π."
+      },
+      {
+       "q": "Amplitude, period, and midline of y = −2 cos(x/2) + 1?",
+       "a": "Amplitude 2; period 4π; midline y = 1; reflected so it starts at a minimum of −1."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing an equation from a graph: midline, amplitude, period → b, then a starting point for h. The student graphs and writes several.",
+     "questions": [
+      {
+       "q": "A sinusoid has max 5, min −1, period 12, and a max at x = 0. Write its equation.",
+       "a": "Midline 2, amplitude 3, b = 2π/12 = π/6: y = 3 cos(πx/6) + 2."
+      }
+     ]
+    },
+    {
+     "guide": "Enter monthly daylight data (day of year vs. hours) and fit y = a sin(b(x − h)) + k with b = 2π/365. Interpret each parameter.",
+     "questions": [
+      {
+       "q": "For a California city with about 14.4 hours of daylight in late June and 9.9 hours in late December, give the amplitude and midline.",
+       "a": "Amplitude ≈ (14.4 − 9.9)/2 ≈ 2.25 hours; midline ≈ 12.15 hours."
+      },
+      {
+       "q": "Why is b = 2π/365?",
+       "a": "The pattern repeats every 365 days, so the period is 365."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below; collect the daylight model. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Write y = sin x shifted right π/4 and up 2.",
+       "a": "y = sin(x − π/4) + 2"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) y = 3 sin 2x: A = 3, P = π. 2) y = −2cos(x/2) + 1: A = 2, P = 4π, midline y = 1. 3) Max 5, min −1, period 12, max at 0: y = 3cos(πx/6) + 2. 4) y = sin(x − π/4) + 2: right π/4, up 2. 5) Graph of y = 2 sin(πx) + 1 with key points (0,1), (0.5,3), (1,1), (1.5,−1), (2,1). Daylight model rubric: 4 = data cited, b = 2π/365, amplitude/midline/shift match data, residuals discussed; 3 = good fit, minor errors; 2 = wrong period or midline; 1 = incomplete."
+  },
+  {
+   "week": 12,
+   "prep": "Desmos; print NOAA tide predictions (tidesandcurrents.noaa.gov) for a California station such as San Francisco or La Jolla for 2–3 days.",
+   "misconceptions": [
+    "Treating tangent like sine with amplitude and a period of 2π. tan x has period π and no amplitude.",
+    "Placing secant asymptotes at the zeros of sine. sec x = 1/cos x has asymptotes where cos x = 0.",
+    "Ferris-wheel models that start at the wrong place. If the rider boards at the bottom at t = 0, use h = center − radius·cos(2πt/P)."
+   ],
+   "days": [
+    {
+     "guide": "Graph y = tan x, noting asymptotes at x = π/2 + kπ and zeros at kπ. Transform to y = tan(2x) and y = tan(x) + 1. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Period and asymptotes of y = tan(2x)?",
+       "a": "Period π/2; asymptotes x = π/4 + kπ/2."
+      }
+     ]
+    },
+    {
+     "guide": "Graph cos x lightly, then draw sec x as its reciprocal: asymptotes where cos x = 0, U-shapes touching at the max/min. Repeat for csc and sin.",
+     "questions": [
+      {
+       "q": "Where are the asymptotes of y = csc x?",
+       "a": "Where sin x = 0: x = kπ."
+      },
+      {
+       "q": "What is the range of y = sec x?",
+       "a": "(−∞, −1] ∪ [1, ∞)."
+      }
+     ]
+    },
+    {
+     "guide": "Model: diameter 50 m, center 30 m above the ground, one rotation every 10 min, boarding at the bottom: h(t) = 30 − 25 cos(πt/5). The student writes and checks values at quarter turns.",
+     "questions": [
+      {
+       "q": "Using h(t) = 30 − 25 cos(πt/5), find h(0), h(2.5), and h(5).",
+       "a": "h(0) = 5 m (bottom), h(2.5) = 30 m (center height), h(5) = 55 m (top)."
+      }
+     ]
+    },
+    {
+     "guide": "Use high/low tide times and heights to estimate amplitude, midline, and period (about 12.4 hours for a semidiurnal tide). Fit and compare predictions with NOAA's.",
+     "questions": [
+      {
+       "q": "High tide 5.8 ft and low tide 0.2 ft. Amplitude and midline?",
+       "a": "Amplitude 2.8 ft; midline 3.0 ft."
+      },
+      {
+       "q": "Why might a single sinusoid fit California tides only roughly?",
+       "a": "California tides are mixed semidiurnal — the two daily highs (and lows) differ in height — so a single sinusoid can't capture both."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed graphing review; the student corrects errors with the key and explains one correction aloud. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Write a sine model with amplitude 4, period 6, midline y = −1.",
+       "a": "y = 4 sin(πx/3) − 1"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Ferris wheel rubric: correct center (midline), radius (amplitude), period → b = 2π/P, correct starting position; e.g. h(t) = 30 − 25cos(πt/5) with h(0) = 5, h(5) = 55. Tide rubric: amplitude = (high − low)/2, midline = (high + low)/2, period ≈ 12.4 h, model compared to at least 3 NOAA predictions with errors stated. 4 = all parts correct and explained; 3 = small errors; 2 = one major parameter wrong; 1 = incomplete."
+  },
+  {
+   "week": 13,
+   "prep": "Calculator in RADIAN mode (check!). Preview OpenStax 7.5 and 8.3. Have last week's Ferris wheel and daylight models handy. Prepare the Unit 4 test.",
+   "misconceptions": [
+    "Expecting arcsin to return all solutions. Inverse trig functions return one principal value (arcsin, arctan in [−π/2, π/2], arccos in [0, π]); use the unit circle to find the others.",
+    "Dividing both sides by a trig function and losing solutions (e.g. dividing sin 2x = cos x by cos x). Factor instead.",
+    "Calculator in degree mode. Check by computing sin(π/2) — it should be 1."
+   ],
+   "days": [
+    {
+     "guide": "Show y = sin x fails the horizontal-line test, then restrict to [−π/2, π/2] and reflect over y = x. Repeat for cos ([0, π]) and tan ((−π/2, π/2)).",
+     "questions": [
+      {
+       "q": "What is the range of y = arccos x and why?",
+       "a": "[0, π] — cosine is restricted to [0, π] where it is one-to-one and covers all values −1 to 1."
+      }
+     ]
+    },
+    {
+     "guide": "Evaluate exact values with the unit circle, then compositions with a right triangle sketch. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Evaluate arcsin(1/2), arccos(−1/2), arctan(−1).",
+       "a": "π/6, 2π/3, −π/4."
+      },
+      {
+       "q": "Evaluate sin(arccos(3/5)).",
+       "a": "Draw a triangle with adjacent 3, hypotenuse 5, so opposite 4: sin = 4/5."
+      },
+      {
+       "q": "Evaluate tan(arcsin(5/13)).",
+       "a": "Opposite 5, hypotenuse 13, adjacent 12: 5/12."
+      }
+     ]
+    },
+    {
+     "guide": "Model 2 sin x − 1 = 0 and a quadratic 2cos²x − cos x − 1 = 0 by factoring. Write general solutions with +2πk. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Solve 2 sin x − 1 = 0 on [0, 2π) and give the general solution.",
+       "a": "x = π/6, 5π/6; general x = π/6 + 2πk, 5π/6 + 2πk."
+      },
+      {
+       "q": "Solve 2cos²x − cos x − 1 = 0 on [0, 2π).",
+       "a": "(2cos x + 1)(cos x − 1) = 0 → x = 0, 2π/3, 4π/3."
+      }
+     ]
+    },
+    {
+     "guide": "Set the Ferris wheel model equal to a target height and solve with arccos, finding both times in a rotation. Repeat with the daylight model.",
+     "questions": [
+      {
+       "q": "When is a rider at 42.5 m if h(t) = 30 − 25cos(πt/5)?",
+       "a": "cos(πt/5) = −0.5 → πt/5 = 2π/3 or 4π/3 → t = 10/3 ≈ 3.33 min and t = 20/3 ≈ 6.67 min (then every 10 min)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Why is arcsin(2) undefined?",
+       "a": "Sine values lie in [−1, 1], so no angle has sine 2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 4 test sample key: 1) 210° = 7π/6. 2) cos(5π/3) = 1/2. 3) Arc length r = 6, θ = 2π/3: 4π. 4) y = −3sin(2(x − π/4)) + 1: A = 3, P = π, shift right π/4, midline 1. 5) Asymptotes of tan(2x): x = π/4 + kπ/2. 6) arccos(−√2/2) = 3π/4. 7) sin(arccos(3/5)) = 4/5. 8) 2cos²x − cos x − 1 = 0: 0, 2π/3, 4π/3. 9) Ferris wheel: 42.5 m at t ≈ 3.33 and 6.67 min. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing."
+  },
+  {
+   "week": 14,
+   "prep": "Make an identity reference sheet (reciprocal, quotient, Pythagorean, sum/difference, double-angle). Preview OpenStax 9.1–9.3.",
+   "misconceptions": [
+    "Working both sides of an identity at once as if solving an equation. Work one side (usually the more complicated) until it matches the other.",
+    "Thinking sin(A + B) = sin A + sin B. Test with A = B = 30°: sin 60° ≈ 0.866 ≠ 1.",
+    "Wrong sign when finding a trig value from the Pythagorean identity. Use the quadrant to choose the sign of the square root."
+   ],
+   "days": [
+    {
+     "guide": "On the unit circle the point (cos θ, sin θ) is distance 1 from the origin, so cos²θ + sin²θ = 1 by Pythagoras. Use it to find missing ratios given a quadrant.",
+     "questions": [
+      {
+       "q": "sin θ = 3/5 and θ is in Quadrant II. Find cos θ and tan θ.",
+       "a": "cos θ = −4/5; tan θ = −3/4."
+      },
+      {
+       "q": "Derive 1 + tan²θ = sec²θ.",
+       "a": "Divide sin²θ + cos²θ = 1 by cos²θ: tan²θ + 1 = sec²θ."
+      }
+     ]
+    },
+    {
+     "guide": "Model a verification by rewriting in sines and cosines and simplifying one side. The student verifies 10 identities. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Verify sec²θ − tan²θ = 1.",
+       "a": "Rearrange 1 + tan²θ = sec²θ (shown above) — subtract tan²θ."
+      },
+      {
+       "q": "Verify sin θ·cot θ = cos θ.",
+       "a": "sin θ·(cos θ/sin θ) = cos θ."
+      }
+     ]
+    },
+    {
+     "guide": "Walk through the distance-formula proof of cos(A − B) = cos A cos B + sin A sin B, then use the formulas for exact values.",
+     "questions": [
+      {
+       "q": "Find sin 75° exactly.",
+       "a": "sin(45° + 30°) = (√2/2)(√3/2) + (√2/2)(1/2) = (√6 + √2)/4."
+      },
+      {
+       "q": "Find cos 15° exactly.",
+       "a": "cos(45° − 30°) = (√2/2)(√3/2) + (√2/2)(1/2) = (√6 + √2)/4."
+      }
+     ]
+    },
+    {
+     "guide": "Set A = B in the sum formulas to get sin 2x = 2 sin x cos x and cos 2x = cos²x − sin²x. Solve sin 2x = cos x by factoring.",
+     "questions": [
+      {
+       "q": "Solve sin 2x = cos x on [0, 2π).",
+       "a": "2 sin x cos x − cos x = 0 → cos x(2 sin x − 1) = 0 → x = π/2, 3π/2, π/6, 5π/6."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below: two proofs and four exact values. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Give the three forms of cos 2x.",
+       "a": "cos²x − sin²x = 2cos²x − 1 = 1 − 2sin²x."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: Proof 1) sec²θ − tan²θ = 1 (from Pythagorean identity ÷ cos²θ). Proof 2) (1 − cos²x)/sin x = sin x (numerator = sin²x). Exact: 3) sin 75° = (√6 + √2)/4. 4) cos 15° = (√6 + √2)/4. 5) tan 15° = 2 − √3. 6) sin 2θ if sin θ = 3/5 in QII: 2(3/5)(−4/5) = −24/25. Proofs scored 0–3 (3 = every step justified, one side transformed). Proficient: 14/18."
+  },
+  {
+   "week": 15,
+   "prep": "Tape measure, protractor (or a phone inclinometer/compass app), notebook. Preview OpenStax 10.1–10.2. Scout a safe triangular region (three trees, corners of a yard).",
+   "misconceptions": [
+    "Using the Law of Sines on SAS or SSS triangles, where it can't start. Use the Law of Cosines first for those cases.",
+    "Missing the second triangle in the SSA ambiguous case. If sin B < 1, check whether 180° − B also works with the given angle.",
+    "Calculator in radian mode for degree problems."
+   ],
+   "days": [
+    {
+     "guide": "Drop an altitude h = b sin C to get A = ½ab sin C. The student finds 6 areas. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Find the area of a triangle with a = 8, b = 11, C = 40°.",
+       "a": "½(8)(11) sin 40° ≈ 28.3 square units."
+      }
+     ]
+    },
+    {
+     "guide": "Prove a/sin A = b/sin B using two altitude expressions. Solve AAS and the ambiguous case. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "A = 40°, B = 60°, a = 10. Find b and c.",
+       "a": "C = 80°; b = 10 sin 60°/sin 40° ≈ 13.47; c = 10 sin 80°/sin 40° ≈ 15.32."
+      },
+      {
+       "q": "a = 8, b = 10, A = 40°. How many triangles?",
+       "a": "sin B = 10 sin 40°/8 ≈ 0.8035 → B ≈ 53.5° or 126.5°. Both work (126.5° + 40° < 180°), so two triangles, with C ≈ 86.5° or 13.5°."
+      }
+     ]
+    },
+    {
+     "guide": "Prove c² = a² + b² − 2ab cos C by placing the triangle on coordinates. Solve SAS and SSS and use Heron's formula. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "a = 5, b = 7, C = 60°. Find c.",
+       "a": "c² = 25 + 49 − 70(0.5) = 39 → c ≈ 6.24."
+      },
+      {
+       "q": "A triangle has sides 7, 8, 9. Find the largest angle and the area.",
+       "a": "cos C = (49 + 64 − 81)/112 ≈ 0.2857 → C ≈ 73.4°. Heron: s = 12, A = √(12·5·4·3) = √720 ≈ 26.8."
+      }
+     ]
+    },
+    {
+     "guide": "Outside, measure two sides and the included angle of a triangle, compute the third side (Law of Cosines) and area, then measure the third side to check. Compute percent error.",
+     "questions": [
+      {
+       "q": "Why measure the included angle rather than any angle?",
+       "a": "SAS determines a unique triangle and lets you use the Law of Cosines directly; SSA may be ambiguous."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz with a navigation problem; collect the field report. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "A ship sails 30 mi due east, then turns 40° to the north (bearing N50°E) and sails 20 mi. How far is it from the start?",
+       "a": "The angle between the legs is 180° − 40° = 140°. d² = 900 + 400 − 1200 cos 140° ≈ 1300 + 919.3 = 2219.3 → d ≈ 47.1 mi."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Area with a = 8, b = 11, C = 40° ≈ 28.3. 2) A = 40°, B = 60°, a = 10: b ≈ 13.47, c ≈ 15.32. 3) SSA a = 8, b = 10, A = 40°: two triangles (B ≈ 53.5°, C ≈ 86.5°; or B ≈ 126.5°, C ≈ 13.5°). 4) SAS 5, 7, 60°: c ≈ 6.24. 5) SSS 7, 8, 9: largest angle ≈ 73.4°, area ≈ 26.8. 6) Navigation: ≈ 47.1 mi. Field report rubric: 4 = diagram, measurements with units, correct Law of Cosines and area, percent error explained; 3 = correct with minor omissions; 2 = method error; 1 = incomplete."
+  },
+  {
+   "week": 16,
+   "prep": "Polar graph paper (print free), Desmos. Preview OpenStax 10.3–10.5. Prepare the Unit 5 test.",
+   "misconceptions": [
+    "Using θ = arctan(y/x) without checking the quadrant. For (−1, 1), arctan(−1) = −π/4, but the point is in QII, so θ = 3π/4.",
+    "Adding moduli when multiplying complex numbers. Multiply moduli, ADD arguments.",
+    "Miscounting petals: r = a sin(nθ) has n petals if n is odd and 2n if n is even."
+   ],
+   "days": [
+    {
+     "guide": "Plot (r, θ) by rotating θ then moving r. Convert with x = r cos θ, y = r sin θ, r = √(x² + y²), and a quadrant check. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Convert (3, π/3) to rectangular.",
+       "a": "(1.5, 3√3/2) ≈ (1.5, 2.60)."
+      },
+      {
+       "q": "Convert (−1, 1) to polar.",
+       "a": "(√2, 3π/4)"
+      }
+     ]
+    },
+    {
+     "guide": "Graph r = 2cos θ, r = 1 + cos θ, r = 3 sin 2θ in Desmos, predicting shapes first; discuss symmetry. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "How many petals does r = 3 sin 2θ have? r = cos 3θ?",
+       "a": "4 petals; 3 petals."
+      },
+      {
+       "q": "Describe r = 2 cos θ.",
+       "a": "A circle with center (1, 0) and radius 1."
+      }
+     ]
+    },
+    {
+     "guide": "Plot complex numbers as points; show addition as vector addition and the conjugate as reflection over the real axis. Distance is |z₁ − z₂|.",
+     "questions": [
+      {
+       "q": "Find the distance between 2 + 3i and 5 − i.",
+       "a": "|(2 + 3i) − (5 − i)| = |−3 + 4i| = 5."
+      }
+     ]
+    },
+    {
+     "guide": "Write 1 + i = √2(cos π/4 + i sin π/4). Multiply in polar form and apply De Moivre's Theorem. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Compute (1 + i)⁸ with De Moivre's Theorem.",
+       "a": "(√2)⁸(cos 2π + i sin 2π) = 16."
+      },
+      {
+       "q": "Multiply 2(cos 30° + i sin 30°) · 3(cos 60° + i sin 60°).",
+       "a": "6(cos 90° + i sin 90°) = 6i."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 5 test. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Write −2 in polar form.",
+       "a": "2(cos π + i sin π)"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 5 test sample key: 1) cos θ given sin θ = 3/5 in QII: −4/5. 2) Verify sec²θ − tan²θ = 1. 3) sin 75° = (√6 + √2)/4. 4) sin 2x = cos x: π/6, π/2, 5π/6, 3π/2. 5) A = 40°, B = 60°, a = 10: b ≈ 13.47. 6) SAS 5, 7, 60°: c ≈ 6.24. 7) (−1, 1) → (√2, 3π/4). 8) |(2 + 3i) − (5 − i)| = 5. 9) (1 + i)⁸ = 16. 10) r = 3 sin 2θ has 4 petals. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing."
+  },
+  {
+   "week": 17,
+   "prep": "Ruler, protractor, graph paper. Preview OpenStax 10.8 (Vectors). Clarify heading/bearing conventions before Day 3.",
+   "misconceptions": [
+    "Adding magnitudes of vectors that point in different directions. Add components, then find the magnitude.",
+    "Using arctan(y/x) for direction without checking the quadrant.",
+    "In wind problems, confusing 'wind from the west' with 'wind toward the west.' Wind FROM the west blows TOWARD the east."
+   ],
+   "days": [
+    {
+     "guide": "Draw ⟨3, 4⟩ from the origin; compute |v| = 5 and direction θ = arctan(4/3) ≈ 53.1°. Convert between ⟨a, b⟩ and ai + bj. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Find the magnitude and direction of v = ⟨3, 4⟩.",
+       "a": "|v| = 5; direction ≈ 53.1° above the positive x-axis."
+      },
+      {
+       "q": "Write a vector of magnitude 10 at 30° in component form.",
+       "a": "⟨10 cos 30°, 10 sin 30°⟩ = ⟨5√3, 5⟩ ≈ ⟨8.66, 5⟩."
+      }
+     ]
+    },
+    {
+     "guide": "Show tip-to-tail and parallelogram methods on graph paper, then components. Scalar multiples stretch or reverse. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Compute ⟨2, −1⟩ + ⟨−3, 5⟩ and 3⟨2, −1⟩.",
+       "a": "⟨−1, 4⟩ and ⟨6, −3⟩."
+      },
+      {
+       "q": "Find u − v for u = ⟨4, 1⟩, v = ⟨1, 3⟩.",
+       "a": "⟨3, −2⟩"
+      }
+     ]
+    },
+    {
+     "guide": "Model a plane heading due north at 200 mph with a 30 mph wind from the west. Find ground speed and direction; then a boat crossing a river.",
+     "questions": [
+      {
+       "q": "Find ground speed and direction for the plane.",
+       "a": "Velocity ⟨30, 200⟩: speed √40900 ≈ 202.2 mph, about 8.5° east of north."
+      },
+      {
+       "q": "A boat heads straight across at 4 mph; the current is 3 mph downstream. Resultant?",
+       "a": "5 mph at about 36.9° downstream from straight across."
+      }
+     ]
+    },
+    {
+     "guide": "Two people pull a wagon: 50 N at 20° and 40 N at −30°. Add components to find the resultant; then find the third force for equilibrium.",
+     "questions": [
+      {
+       "q": "Find the resultant force.",
+       "a": "x: 50cos20° + 40cos30° ≈ 46.98 + 34.64 = 81.6; y: 50sin20° − 40sin30° ≈ 17.10 − 20 = −2.90. Magnitude ≈ 81.7 N at about −2.0°."
+      },
+      {
+       "q": "What third force puts the wagon in equilibrium?",
+       "a": "The opposite of the resultant: ≈ ⟨−81.6, 2.9⟩, about 81.7 N."
+      }
+     ]
+    },
+    {
+     "guide": "Give the vectors quiz with a navigation problem. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "What is a unit vector in the direction of ⟨3, 4⟩?",
+       "a": "⟨3/5, 4/5⟩"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) |⟨3, 4⟩| = 5, direction ≈ 53.1°. 2) ⟨2, −1⟩ + ⟨−3, 5⟩ = ⟨−1, 4⟩. 3) 3⟨2, −1⟩ = ⟨6, −3⟩. 4) 10 at 30° = ⟨8.66, 5⟩. 5) Unit vector of ⟨3, 4⟩ = ⟨0.6, 0.8⟩. 6) Plane north 200 mph, wind from west 30 mph: ≈ 202.2 mph at ≈ 8.5° east of north. Proficient: 5 of 6 with diagrams."
+  },
+  {
+   "week": 18,
+   "prep": "Assemble a review packet from OpenStax chapter reviews (chapters 1, 5, 6, 7, 9, 10) and set up Khan Academy precalculus unit tests. Write the semester final (sample key below).",
+   "misconceptions": [
+    "Rushing through review without error analysis. Have the student label each missed problem by topic and cause (concept, careless, or time).",
+    "Memorizing procedures without checking. Require a check: plug back in, graph in Desmos, or estimate.",
+    "Treating the practice exam score as the goal. Its purpose is to find the two weakest topics."
+   ],
+   "days": [
+    {
+     "guide": "The student completes the function review; check answers together and reteach the most-missed type. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Find the inverse of f(x) = 2ˣ − 3.",
+       "a": "y + 3 = 2ˣ → f⁻¹(x) = log₂(x + 3)."
+      },
+      {
+       "q": "Find the horizontal asymptote of (3x² + 1)/(x² − 4).",
+       "a": "y = 3"
+      }
+     ]
+    },
+    {
+     "guide": "The student completes the trig review; ask them to explain one unit-circle value and one triangle problem aloud. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Evaluate cos(11π/6).",
+       "a": "√3/2"
+      },
+      {
+       "q": "Write a cosine model with amplitude 2, period π, midline y = 3.",
+       "a": "y = 2 cos(2x) + 3"
+      }
+     ]
+    },
+    {
+     "guide": "Give a timed practice exam (90 minutes). Grade it and have the student tally errors by topic. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Solve e^(x) = 20.",
+       "a": "x = ln 20 ≈ 3.00"
+      }
+     ]
+    },
+    {
+     "guide": "Assign Khan Academy practice on the two weakest topics until 'Proficient.' Sit with the student for the first few problems.",
+     "questions": [
+      {
+       "q": "What does 'error analysis' tell you about a missed problem?",
+       "a": "Whether the miss was a concept gap, a careless slip, or a time issue — which tells you what to practice."
+      }
+     ]
+    },
+    {
+     "guide": "Administer the cumulative Semester 1 final (2 hours, scientific calculator; Desmos for marked items). Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "State the Law of Cosines.",
+       "a": "c² = a² + b² − 2ab cos C"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester 1 final sample key: 1) Domain of √(x − 3)/(x − 5): [3, 5) ∪ (5, ∞). 2) f(g(x)) for f = x² + 1, g = 2x − 3: 4x² − 12x + 10. 3) Inverse of (2x + 1)/3: (3x − 1)/2. 4) Zeros of x³ − x² + 4x − 4: 1, ±2i. 5) Asymptotes of (x² − 1)/(x² − x − 2): VA x = 2, HA y = 1, hole x = −1. 6) 5e^(2x) = 40 → x ≈ 1.04. 7) C-14 30% → ≈ 9950 yr. 8) sin(5π/6) = 1/2. 9) y = 3cos(πx/6) + 2 from max 5, min −1, period 12. 10) sin 75° = (√6 + √2)/4. 11) SSS 7, 8, 9: largest angle ≈ 73.4°. 12) (1 + i)⁸ = 16. 13) Plane problem: ≈ 202.2 mph. Scoring: 90%+ A, 80–89% B, 70–79% C; below 70% schedule targeted review."
+  },
+  {
+   "week": 19,
+   "prep": "Open the Desmos Matrix Calculator (desmos.com/matrix). Preview OpenStax 11.5–11.8. Prepare the Unit 6 test on vectors and matrices.",
+   "misconceptions": [
+    "Multiplying matrices entry-by-entry. Teach row-times-column, and check dimensions: (m × n)(n × p) gives m × p.",
+    "Assuming AB = BA. Show a quick counterexample; matrix multiplication is generally not commutative.",
+    "Thinking every square matrix has an inverse. If det A = 0, A has no inverse (the system has no unique solution)."
+   ],
+   "days": [
+    {
+     "guide": "Put two stores' inventories into 2 × 3 matrices and add/subtract them; scalar-multiply by 1.1 for a 10% increase. Label rows and columns.",
+     "questions": [
+      {
+       "q": "A = [[4, 2], [1, 3]], B = [[1, 0], [5, 2]]. Find A + B and 2A.",
+       "a": "A + B = [[5, 2], [6, 5]]; 2A = [[8, 4], [2, 6]]."
+      }
+     ]
+    },
+    {
+     "guide": "Model row-by-column multiplication. A sales matrix [[10, 5], [8, 12]] (rows = days, columns = items) times prices [[3], [4]] gives revenue per day.",
+     "questions": [
+      {
+       "q": "Compute [[10, 5], [8, 12]]·[[3], [4]] and interpret.",
+       "a": "[[50], [72]]: $50 revenue on day 1 and $72 on day 2."
+      },
+      {
+       "q": "Can a 2 × 3 matrix be multiplied by a 2 × 3 matrix?",
+       "a": "No — the inner dimensions (3 and 2) don't match."
+      }
+     ]
+    },
+    {
+     "guide": "Teach det [[a, b], [c, d]] = ad − bc and A⁻¹ = (1/det)[[d, −b], [−c, a]]. Verify AA⁻¹ = I. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Find det and inverse of A = [[2, 1], [5, 3]].",
+       "a": "det = 6 − 5 = 1; A⁻¹ = [[3, −1], [−5, 2]]. Check: AA⁻¹ = [[1, 0], [0, 1]]."
+      },
+      {
+       "q": "Does [[2, 4], [1, 2]] have an inverse?",
+       "a": "No: det = 4 − 4 = 0."
+      }
+     ]
+    },
+    {
+     "guide": "Write x + y + z = 6, 2x − y + z = 3, x + 2y − z = 2 as AX = B and solve X = A⁻¹B in Desmos. Then set up a nutrition-mix problem the same way.",
+     "questions": [
+      {
+       "q": "Solve the system above.",
+       "a": "x = 1, y = 2, z = 3 (check: 1+2+3 = 6, 2−2+3 = 3, 1+4−3 = 2)."
+      },
+      {
+       "q": "Write 2x + 3y = 8, x − y = −1 as a matrix equation and solve.",
+       "a": "[[2, 3], [1, −1]][x, y]ᵀ = [8, −1]ᵀ; det = −5; x = 1, y = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "What does the identity matrix do in multiplication?",
+       "a": "AI = IA = A, like multiplying a number by 1."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 6 test sample key: 1) |⟨3, 4⟩| = 5, ≈ 53.1°. 2) ⟨2, −1⟩ + ⟨−3, 5⟩ = ⟨−1, 4⟩. 3) Plane: ≈ 202.2 mph, ≈ 8.5° E of N. 4) Wagon resultant ≈ 81.7 N. 5) [[10, 5], [8, 12]]·[[3], [4]] = [[50], [72]]. 6) Inverse of [[2, 1], [5, 3]] = [[3, −1], [−5, 2]]. 7) det [[2, 4], [1, 2]] = 0, no inverse. 8) 3 × 3 system: (1, 2, 3). Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing."
+  },
+  {
+   "week": 20,
+   "prep": "Preview OpenStax 13.1–13.4. Have a rubber ball and tape measure if you want to measure bounce heights.",
+   "misconceptions": [
+    "Using n instead of n − 1 in aₙ = a₁ + (n − 1)d or aₙ = a₁rⁿ⁻¹.",
+    "Applying the infinite-series formula when |r| ≥ 1. The sum a/(1 − r) exists only if |r| < 1.",
+    "Miscounting terms in sigma notation. Σ from k = 1 to 5 has 5 terms; from k = 0 to 5 has 6."
+   ],
+   "days": [
+    {
+     "guide": "Model 5, 8, 11, …: recursive a₁ = 5, aₙ = aₙ₋₁ + 3; explicit aₙ = 3n + 2. Derive Sₙ = n(a₁ + aₙ)/2 with the Gauss pairing trick.",
+     "questions": [
+      {
+       "q": "Find a₂₀ and S₂₀ for 5, 8, 11, ….",
+       "a": "a₂₀ = 5 + 19·3 = 62; S₂₀ = 20(5 + 62)/2 = 670."
+      }
+     ]
+    },
+    {
+     "guide": "Model 3, 6, 12, …: a₁ = 3, aₙ = 2aₙ₋₁; aₙ = 3·2ⁿ⁻¹. Bouncing ball dropped from 10 ft rebounding 80%. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Write the rebound height after the nth bounce for a ball dropped from 10 ft with 80% rebound.",
+       "a": "hₙ = 10(0.8)ⁿ; after the 3rd bounce, 10(0.512) = 5.12 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Derive Sₙ = a₁(1 − rⁿ)/(1 − r) by writing S − rS. Apply to an annuity. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Find 2 + 6 + 18 + … + 2·3⁹.",
+       "a": "S₁₀ = 2(3¹⁰ − 1)/(3 − 1) = 59,048."
+      },
+      {
+       "q": "$200 is deposited each month at 6%/yr compounded monthly for 10 years. Value?",
+       "a": "200[(1.005)¹²⁰ − 1]/0.005 ≈ $32,776."
+      }
+     ]
+    },
+    {
+     "guide": "Show partial sums of 12 + 6 + 3 + … approaching 24. Convert repeating decimals using a/(1 − r). Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Sum 12 + 6 + 3 + ….",
+       "a": "12/(1 − 1/2) = 24."
+      },
+      {
+       "q": "Write 0.272727… as a fraction.",
+       "a": "0.27/(1 − 0.01) = 27/99 = 3/11."
+      },
+      {
+       "q": "Does 1 + 1.5 + 2.25 + … converge?",
+       "a": "No, r = 1.5 > 1, so it diverges."
+      }
+     ]
+    },
+    {
+     "guide": "Give the sequences and series quiz. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Evaluate Σ_{k=1}^{5} (2k + 1).",
+       "a": "3 + 5 + 7 + 9 + 11 = 35"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) aₙ for 5, 8, 11: 3n + 2. 2) S₂₀ = 670. 3) aₙ for 3, 6, 12: 3·2ⁿ⁻¹. 4) Σ_{k=1}^{5}(2k + 1) = 35. 5) Σ_{k=0}^{9} 2·3ᵏ = 59,048. 6) 12 + 6 + 3 + … = 24. 7) 0.2727… = 3/11. 8) Total distance of a ball dropped 10 ft with 80% rebound (forever): 10 + 2·(8/(1 − 0.8)) = 10 + 80 = 90 ft. Proficient: 6 of 8."
+  },
+  {
+   "week": 21,
+   "prep": "String, two pushpins, cardboard, pencil, flashlight. Preview OpenStax 12.1–12.4. Prepare the Unit 7 test.",
+   "misconceptions": [
+    "Mixing up a and c: for an ellipse c² = a² − b²; for a hyperbola c² = a² + b².",
+    "Forgetting to balance both sides when completing the square with a coefficient: 4(x² − 4x + 4) adds 16, not 4.",
+    "Identifying the conic from x² terms alone. Use the signs/coefficients of both squared terms: same coefficient → circle; same sign different → ellipse; opposite signs → hyperbola; only one squared → parabola."
+   ],
+   "days": [
+    {
+     "guide": "Shine a flashlight at a wall at different tilts to see the conics. Then derive the parabola with focus (0, p) and directrix y = −p: x² = 4py.",
+     "questions": [
+      {
+       "q": "Find the equation of the parabola with focus (0, 2) and directrix y = −2.",
+       "a": "x² = 8y"
+      }
+     ]
+    },
+    {
+     "guide": "Loop string around two pins and trace an ellipse: the sum of distances to the foci is constant (= 2a). Graph from standard form.",
+     "questions": [
+      {
+       "q": "For x²/25 + y²/9 = 1, give a, b, c, vertices, and foci.",
+       "a": "a = 5, b = 3, c = 4; vertices (±5, 0); foci (±4, 0)."
+      }
+     ]
+    },
+    {
+     "guide": "Graph x²/16 − y²/9 = 1 using the box and asymptotes. Discuss LORAN: a constant difference in signal arrival time places a ship on a hyperbola.",
+     "questions": [
+      {
+       "q": "Foci and asymptotes of x²/16 − y²/9 = 1?",
+       "a": "c = 5, foci (±5, 0); asymptotes y = ±(3/4)x."
+      }
+     ]
+    },
+    {
+     "guide": "Model completing the square for a circle and an ellipse. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Write x² + y² − 6x + 4y − 3 = 0 in standard form.",
+       "a": "(x − 3)² + (y + 2)² = 16: circle, center (3, −2), radius 4."
+      },
+      {
+       "q": "Identify 4x² + 9y² − 16x + 18y − 11 = 0.",
+       "a": "4(x − 2)² + 9(y + 1)² = 36 → (x − 2)²/9 + (y + 1)²/4 = 1, an ellipse centered at (2, −1)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Identify y² − x² = 1.",
+       "a": "A hyperbola opening up and down."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test sample key: 1) 3n + 2 and S₂₀ = 670. 2) hₙ = 10(0.8)ⁿ. 3) 2 + 6 + … + 2·3⁹ = 59,048. 4) 0.2727… = 3/11. 5) Focus (0, 2), directrix y = −2: x² = 8y. 6) x²/25 + y²/9 = 1: foci (±4, 0). 7) x²/16 − y²/9 = 1: foci (±5, 0), asymptotes y = ±3x/4. 8) x² + y² − 6x + 4y − 3 = 0: circle (3, −2), r = 4. 9) 4x² + 9y² − 16x + 18y − 11 = 0: ellipse (x − 2)²/9 + (y + 1)²/4 = 1. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing."
+  },
+  {
+   "week": 22,
+   "prep": "Ruler (30 cm), a helper, CODAP (codap.concord.org). Ruler-drop conversion: time t = √(2d/980) seconds with d in cm. Preview OpenStax Introductory Statistics ch. 2.",
+   "misconceptions": [
+    "Describing a distribution with numbers only. Always address shape, outliers, center, and spread (SOCS) in context.",
+    "Using mean and standard deviation for strongly skewed data. Use median and IQR when the data are skewed or have outliers.",
+    "Confusing histograms (quantitative, touching bars) with bar graphs (categorical)."
+   ],
+   "days": [
+    {
+     "guide": "Model the ruler drop: helper holds the ruler at 0 cm between the student's open fingers, drops without warning, and the catch distance is recorded. Collect 30 trials per hand; convert to seconds.",
+     "questions": [
+      {
+       "q": "A catch at 15 cm corresponds to what reaction time?",
+       "a": "t = √(2·15/980) ≈ 0.175 s."
+      }
+     ]
+    },
+    {
+     "guide": "Enter data in CODAP and make dot plot, histogram, box plot. Model a SOCS description. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "What does a long right tail on a histogram indicate?",
+       "a": "The distribution is skewed right — a few unusually large values; the mean will be pulled above the median."
+      }
+     ]
+    },
+    {
+     "guide": "Compute mean, median, standard deviation, IQR, and check outliers with the 1.5·IQR rule. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "For 2, 4, 4, 5, 7, 9, 20: mean, median, IQR, and outliers?",
+       "a": "Mean ≈ 7.29, median 5, Q1 = 4, Q3 = 9, IQR = 5; upper fence 9 + 7.5 = 16.5, so 20 is an outlier."
+      },
+      {
+       "q": "Which center is better for these data?",
+       "a": "The median — the outlier 20 pulls the mean up."
+      }
+     ]
+    },
+    {
+     "guide": "Make parallel box plots for dominant vs. non-dominant hand. The student writes a paragraph comparing all four SOCS features with numbers.",
+     "questions": [
+      {
+       "q": "What makes a comparison statement complete?",
+       "a": "It compares shape, center, spread, and outliers using values from both groups and in context (e.g., 'the dominant hand's median was 0.02 s faster')."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; collect the write-up. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "If every value increases by 5, what happens to the mean and SD?",
+       "a": "Mean increases by 5; SD is unchanged."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) SOCS description of a given histogram. 2) For 2, 4, 4, 5, 7, 9, 20: mean ≈ 7.29, median 5, IQR 5, outlier 20. 3) Median/IQR for skewed data. 4) Adding 5: mean +5, SD same. 5) Multiplying by 2: mean and SD both double. Write-up rubric: 4 = graphs, all SOCS features compared with numbers, context, and variability discussed; 3 = complete but one feature missing; 2 = numbers without comparison; 1 = incomplete."
+  },
+  {
+   "week": 23,
+   "prep": "CODAP and a calculator with normalcdf/invNorm (or Desmos 'normaldist'). Preview Intro Stats ch. 6.",
+   "misconceptions": [
+    "Applying the 68-95-99.7 rule to any data. It only applies to approximately normal distributions.",
+    "Sign of z: values below the mean have negative z-scores.",
+    "Reporting a z-score as a probability. Convert with a normal table or technology."
+   ],
+   "days": [
+    {
+     "guide": "Draw a normal curve with ticks at μ ± σ, 2σ, 3σ. Apply 68-95-99.7 to heights (μ = 64 in, σ = 2.5 in). Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Between which heights are the middle 95% of women (μ = 64, σ = 2.5)?",
+       "a": "59 to 69 inches."
+      },
+      {
+       "q": "About what percent are taller than 66.5 in?",
+       "a": "16% (half of the 32% outside ±1σ)."
+      }
+     ]
+    },
+    {
+     "guide": "Teach z = (x − μ)/σ and compare scores on different scales. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "SAT: 1300 (μ = 1050, σ = 200). ACT: 28 (μ = 21, σ = 5). Which is more unusual?",
+       "a": "SAT z = 1.25, ACT z = 1.4; the ACT score is relatively higher."
+      }
+     ]
+    },
+    {
+     "guide": "Use normalcdf(lower, upper, μ, σ) and invNorm(area, μ, σ) in Desmos or a calculator. The student does 10 problems. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "P(height < 70) with μ = 64, σ = 2.5?",
+       "a": "z = 2.4 → ≈ 0.992."
+      },
+      {
+       "q": "Find the 90th percentile height.",
+       "a": "64 + 1.2816·2.5 ≈ 67.2 in."
+      }
+     ]
+    },
+    {
+     "guide": "Look at the reaction-time histogram and a normal probability plot. Discuss right skew and when a normal model isn't appropriate.",
+     "questions": [
+      {
+       "q": "Why might reaction times be right-skewed?",
+       "a": "There's a physical lower limit to how fast you can react, but occasional slow reactions (distraction) create a long right tail."
+      }
+     ]
+    },
+    {
+     "guide": "Give the normal-distribution quiz. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "P(60 < X < 68) for μ = 64, σ = 2.5?",
+       "a": "z from −1.6 to 1.6 → ≈ 0.890."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Middle 95% for μ = 64, σ = 2.5: 59–69. 2) Percent above 66.5: 16%. 3) SAT z = 1.25, ACT z = 1.4 → ACT more unusual. 4) P(X < 70) ≈ 0.992. 5) P(60 < X < 68) ≈ 0.890. 6) 90th percentile ≈ 67.2 in. 7) z of 59 = −2. Proficient: 6 of 7 with notation shown."
+  },
+  {
+   "week": 24,
+   "prep": "Draft a two-question survey and a way to collect it (paper or online form). Have CODAP ready. Collect at least 30 responses during the week.",
+   "misconceptions": [
+    "Confusing joint, marginal, and conditional relative frequencies. Say which total is the denominator: grand total (joint/marginal) or a row/column total (conditional).",
+    "Concluding there's an association from raw counts with unequal group sizes. Compare conditional percentages.",
+    "Writing leading or double-barreled questions. Keep categories mutually exclusive and wording neutral."
+   ],
+   "days": [
+    {
+     "guide": "Model writing two categorical questions with clear choices. The student drafts, gets feedback, and starts collecting responses.",
+     "questions": [
+      {
+       "q": "Why is 'Don't you agree studying at night is better?' a poor question?",
+       "a": "It is leading — it pushes respondents toward 'yes.' Use 'When do you prefer to study? Morning / Afternoon / Evening.'"
+      }
+     ]
+    },
+    {
+     "guide": "Build a two-way table with totals. Model joint and marginal relative frequencies. Example: grades 9–10: morning 8, evening 12; grades 11–12: morning 4, evening 16.",
+     "questions": [
+      {
+       "q": "Joint relative frequency of '9–10 and morning'? Marginal for morning?",
+       "a": "8/40 = 0.20; 12/40 = 0.30."
+      }
+     ]
+    },
+    {
+     "guide": "Compute row conditional percentages and make segmented bar graphs. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "P(morning | 9–10) and P(morning | 11–12)?",
+       "a": "8/20 = 0.40 and 4/20 = 0.20."
+      }
+     ]
+    },
+    {
+     "guide": "If conditional distributions differ noticeably across groups, there's an association. The student writes a justified conclusion.",
+     "questions": [
+      {
+       "q": "Is there an association in the example?",
+       "a": "Yes: 40% of 9th–10th graders prefer morning vs. 20% of 11th–12th graders. With only 40 responses the difference may be due to chance."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the one-page report: question, method, table, segmented bar graph, conclusion, limitations. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Name one limitation of a family/co-op sample.",
+       "a": "It is a convenience sample, not random, so results may not represent all students."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Survey report rubric: 4 = neutral questions, 30+ responses, correct two-way table with totals, correct joint/marginal/conditional frequencies, segmented bar graph, conclusion justified with conditional percentages, limitations (convenience sample, small n); 3 = minor computational or labeling errors; 2 = conclusion from raw counts or missing graph; 1 = incomplete."
+  },
+  {
+   "week": 25,
+   "prep": "Download life expectancy vs. GDP per capita from Gapminder (gapminder.org/data) into CODAP or Desmos. Prepare the Unit 8 test.",
+   "misconceptions": [
+    "'Correlation proves causation.' Require naming a lurking variable and noting only randomized experiments establish cause.",
+    "Thinking r measures any relationship. r measures LINEAR strength only.",
+    "Interpreting the intercept when x = 0 is outside the data. Say whether it is meaningful."
+   ],
+   "days": [
+    {
+     "guide": "Plot life expectancy vs. GDP per capita. Model describing direction, form, strength, unusual points. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Describe the relationship.",
+       "a": "Positive, curved (rises steeply at low GDP and levels off), fairly strong, with some outliers."
+      },
+      {
+       "q": "What transformation might straighten it?",
+       "a": "Taking log of GDP per capita."
+      }
+     ]
+    },
+    {
+     "guide": "Fit least squares in Desmos (y₁ ~ mx₁ + b) and interpret. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "A model is ŷ = 40 + 2.5x (x = hours studied, y = score). Interpret slope and intercept.",
+       "a": "Each extra hour predicts a 2.5-point higher score; a student who studies 0 hours is predicted to score 40."
+      },
+      {
+       "q": "If r = 0.8, what is r² and its meaning?",
+       "a": "0.64: about 64% of the variation in scores is explained by the linear model."
+      }
+     ]
+    },
+    {
+     "guide": "Residual = observed − predicted. A residual plot should show no pattern. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Using ŷ = 40 + 2.5x, a student who studied 4 hours scored 55. Residual?",
+       "a": "Predicted 50, residual 55 − 50 = +5."
+      },
+      {
+       "q": "What does a curved residual pattern mean?",
+       "a": "A linear model is not appropriate."
+      }
+     ]
+    },
+    {
+     "guide": "Look at spurious correlations; for each, identify a lurking variable. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Ice cream sales and drownings are correlated. Explain.",
+       "a": "Lurking variable: hot weather increases both swimming and ice cream sales."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Can r be greater than 1?",
+       "a": "No. −1 ≤ r ≤ 1."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 8 test sample key: 1) SOCS comparison. 2) Mean ≈ 7.29, median 5, IQR 5, outlier 20. 3) z-scores 1.25 vs. 1.4. 4) P(X < 70) ≈ 0.992. 5) Two-way table: P(morning | 9–10) = 0.40, P(morning | 11–12) = 0.20 → association. 6) Slope/intercept interpretation. 7) Residual = +5. 8) r² = 0.64. 9) Lurking variable. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing."
+  },
+  {
+   "week": 26,
+   "prep": "Two dice, a standard 52-card deck, coins. Preview OpenStax Introductory Statistics ch. 3. Draw a 6 × 6 grid of two-dice sums for Day 2.",
+   "misconceptions": [
+    "Adding probabilities of overlapping events without subtracting the overlap. Draw the Venn diagram and point to the double-counted region.",
+    "Expecting 100 rolls to match theory exactly. Results vary in the short run; the law of large numbers describes the long run.",
+    "Treating 'at least one' as a single case. Use the complement: P(at least one) = 1 − P(none)."
+   ],
+   "days": [
+    {
+     "guide": "Say: 'A sample space lists every possible outcome; an event is a subset of it.' List the sample spaces for 3 coin flips and one die, then draw a Venn diagram for A = hearts and B = face cards and shade A ∪ B, A ∩ B, and Aᶜ. The student does the rest of the set; check that unions and intersections are shaded correctly.",
+     "questions": [
+      {
+       "q": "How many outcomes are in the sample space for flipping 3 coins? List them.",
+       "a": "8: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT."
+      },
+      {
+       "q": "In a standard deck, how many cards are hearts AND face cards?",
+       "a": "3 (jack, queen, king of hearts)."
+      }
+     ]
+    },
+    {
+     "guide": "Have the student predict the most common sum, then roll two dice 100 times and tally sums. Fill in the 6 × 6 grid to get theoretical probabilities and compare with a bar graph of experimental relative frequencies; discuss why they differ.",
+     "questions": [
+      {
+       "q": "Theoretical P(sum = 7) and P(sum = 2)?",
+       "a": "6/36 = 1/6 and 1/36."
+      },
+      {
+       "q": "Why is 7 the most likely sum?",
+       "a": "It can be made 6 ways (1+6, 2+5, 3+4, 4+3, 5+2, 6+1), more than any other sum."
+      }
+     ]
+    },
+    {
+     "guide": "State the Addition Rule and model it with 'heart or king,' pointing out that the king of hearts would be counted twice. The student solves card and survey problems; check that each answer subtracts the overlap unless the events are mutually exclusive.",
+     "questions": [
+      {
+       "q": "P(heart or king)?",
+       "a": "13/52 + 4/52 − 1/52 = 16/52 = 4/13."
+      },
+      {
+       "q": "P(A) = 0.5, P(B) = 0.4, P(A and B) = 0.2. Find P(A or B).",
+       "a": "0.5 + 0.4 − 0.2 = 0.7."
+      }
+     ]
+    },
+    {
+     "guide": "Model 'at least one six in 4 rolls' as 1 − (5/6)⁴. Then set up the birthday problem as 1 − (365/365)(364/365)…, compute it for 23 people, and simulate with a random-number generator.",
+     "questions": [
+      {
+       "q": "P(at least one six in 4 rolls)?",
+       "a": "1 − (5/6)⁴ = 1 − 625/1296 ≈ 0.518."
+      },
+      {
+       "q": "P(at least two of 23 people share a birthday)?",
+       "a": "≈ 0.507 — just over half."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below (calculator allowed), then review any errors. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "If P(A) = 0.3, what is P(not A)?",
+       "a": "0.7"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) 3 coins: 8 outcomes. 2) P(sum 7) = 1/6. 3) P(heart or king) = 4/13. 4) P(at least one six in 4 rolls) ≈ 0.518. 5) P(A or B) with P(A) = 0.5, P(B) = 0.4, P(A and B) = 0.2: 0.7. 6) Birthday problem, 23 people: ≈ 0.507. Proficient: 5 of 6."
+  },
+  {
+   "week": 27,
+   "prep": "Bring back the Week 24 two-way table (example used below: grades 9–10 morning 8, evening 12; grades 11–12 morning 4, evening 16; total 40). Deck of cards. Preview Intro Stats 3.2–3.4.",
+   "misconceptions": [
+    "Confusing P(A|B) with P(B|A). Underline the 'given' condition — that group's total is the denominator.",
+    "Confusing independent with mutually exclusive. Mutually exclusive events (with positive probabilities) are always dependent: if one happens the other can't.",
+    "Ignoring base rates in medical testing. Translate to counts in 10,000 people."
+   ],
+   "days": [
+    {
+     "guide": "Say: 'Given B means we shrink the world to just B.' Compute P(A|B) = P(A and B)/P(B) from the table and from a Venn diagram, then have the student say each result in an everyday sentence.",
+     "questions": [
+      {
+       "q": "Find P(11–12 | evening).",
+       "a": "16/28 ≈ 0.571: of students who prefer evening, about 57% are 11th–12th graders."
+      },
+      {
+       "q": "Find P(evening | 11–12).",
+       "a": "16/20 = 0.80."
+      }
+     ]
+    },
+    {
+     "guide": "Model both tests for independence: P(A and B) = P(A)P(B), or P(A|B) = P(A). The student applies them to their own survey data and states a conclusion.",
+     "questions": [
+      {
+       "q": "Are 'morning' and 'grade 9–10' independent in the example?",
+       "a": "P(morning) = 12/40 = 0.30 but P(morning | 9–10) = 0.40. Not equal, so not independent."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a tree for drawing two cards without replacement, writing conditional probabilities on the second branches. Multiply along branches.",
+     "questions": [
+      {
+       "q": "P(two aces) drawing without replacement?",
+       "a": "(4/52)(3/51) = 12/2652 = 1/221 ≈ 0.0045."
+      },
+      {
+       "q": "P(two aces) with replacement?",
+       "a": "(4/52)² = 1/169 ≈ 0.0059."
+      }
+     ]
+    },
+    {
+     "guide": "Present: a disease affects 1% of people; the test catches 90% of cases but gives 9% false positives. Build a tree and a table for 10,000 people and find P(disease | positive). Discuss why base rates matter.",
+     "questions": [
+      {
+       "q": "Compute P(disease | positive).",
+       "a": "100 sick → 90 test positive; 9900 healthy → 891 false positives. 90/(90 + 891) = 90/981 ≈ 0.092, about 9%."
+      },
+      {
+       "q": "Why is the answer so low?",
+       "a": "The disease is rare, so false positives from the large healthy group outnumber true positives."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz below. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "A and B are independent, P(A) = 0.4, P(B) = 0.5. Find P(A and B).",
+       "a": "0.20"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) P(11–12 | evening) = 16/28 ≈ 0.571. 2) Not independent: P(morning | 9–10) = 0.40 ≠ P(morning) = 0.30. 3) Two aces without replacement = 1/221. 4) Medical test P(disease | +) ≈ 0.092. 5) Independent P(A and B) = 0.20. 6) Short answer: a positive result for a rare disease is often false because false positives from the large healthy group outnumber true positives. Proficient: 5 of 6."
+  },
+  {
+   "week": 28,
+   "prep": "Calculator with nPr and nCr keys (or Desmos nPr/nCr). Look up California SuperLotto Plus rules: pick 5 of 47 plus a Mega number 1 of 27.",
+   "misconceptions": [
+    "Using permutations when order doesn't matter. Ask: 'Would swapping two choices make a different outcome?' If not, use combinations.",
+    "Forgetting to divide by repeated letters' factorials when arranging words.",
+    "Treating with-repetition and without-repetition situations alike (passwords allow repeats; race finishes don't)."
+   ],
+   "days": [
+    {
+     "guide": "Model the fundamental counting principle with a tree for outfits, then generalize to license plates and passwords. The student completes the set; check that each answer multiplies the number of choices per position.",
+     "questions": [
+      {
+       "q": "How many plates of 3 letters followed by 3 digits?",
+       "a": "26³ · 10³ = 17,576,000."
+      },
+      {
+       "q": "How many 4-character PINs using digits 0–9 with repeats allowed?",
+       "a": "10⁴ = 10,000."
+      }
+     ]
+    },
+    {
+     "guide": "Define n! and nPr = n!/(n − r)!, and model with a race. Then arrangements with repeated letters: divide by the factorial of each repeat count.",
+     "questions": [
+      {
+       "q": "In how many ways can 8 runners finish 1st, 2nd, 3rd?",
+       "a": "8P3 = 8·7·6 = 336."
+      },
+      {
+       "q": "How many distinct arrangements of MISSISSIPPI?",
+       "a": "11!/(4!·4!·2!) = 34,650."
+      }
+     ]
+    },
+    {
+     "guide": "Define nCr = n!/(r!(n − r)!) and contrast committees (order doesn't matter) with officer slates (order matters). Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Choose a 3-person committee from 10 people.",
+       "a": "10C3 = 120."
+      },
+      {
+       "q": "Choose president, VP, and secretary from 10 people.",
+       "a": "10P3 = 720 (6 times as many, since each committee can be ordered 3! = 6 ways)."
+      }
+     ]
+    },
+    {
+     "guide": "Compute the SuperLotto Plus jackpot probability: C(47, 5) ways for the five numbers times 27 Mega numbers. Compare to everyday risks (e.g., lightning strike lifetime odds are commonly cited around 1 in 15,000).",
+     "questions": [
+      {
+       "q": "What is the probability of winning the jackpot?",
+       "a": "C(47, 5) = 1,533,939; × 27 = 41,416,353. Probability 1 in 41,416,353."
+      }
+     ]
+    },
+    {
+     "guide": "Give the counting and probability quiz. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "P(a 5-card hand is all hearts)?",
+       "a": "C(13, 5)/C(52, 5) = 1287/2,598,960 ≈ 0.000495."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Plates: 17,576,000. 2) 8P3 = 336. 3) MISSISSIPPI: 34,650. 4) 10C3 = 120. 5) 10P3 = 720. 6) Jackpot: 1 in 41,416,353. 7) All-hearts hand ≈ 0.000495. Proficient: 6 of 7."
+  },
+  {
+   "week": 29,
+   "prep": "Dice, coins, a spreadsheet. Find a census table of household size (data.census.gov, table on household size) or use the illustrative distribution in Day 4. Prepare the Unit 9 test.",
+   "misconceptions": [
+    "Thinking the expected value must be a possible outcome. E(X) = 2.5 for a die is a long-run average.",
+    "Using the binomial formula when conditions fail. Check BINS: Binary outcomes, Independent trials, fixed Number, Same probability.",
+    "Probabilities in a distribution that don't sum to 1. Always check the total."
+   ],
+   "days": [
+    {
+     "guide": "Define X = number of heads in 4 flips. List all 16 outcomes, count heads, and build the table; graph it as a histogram. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Give the probability distribution of X.",
+       "a": "P(0) = 1/16, P(1) = 4/16, P(2) = 6/16, P(3) = 4/16, P(4) = 1/16."
+      },
+      {
+       "q": "What is E(X)?",
+       "a": "2 heads."
+      }
+     ]
+    },
+    {
+     "guide": "Teach E(X) = Σ x·P(x) and model a game. The student decides whether each game is fair (E = 0). Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Pay $1 to roll a die; win $5 (net +$4) on a 6, otherwise lose $1. Expected value?",
+       "a": "(4)(1/6) + (−1)(5/6) = −1/6 ≈ −$0.17 per play; not fair."
+      },
+      {
+       "q": "What prize on a 6 would make it fair?",
+       "a": "Net win w with w/6 − 5/6 = 0 → w = $5 net (a $6 prize including the $1 back)."
+      }
+     ]
+    },
+    {
+     "guide": "Introduce P(X = k) = C(n, k)pᵏ(1 − p)ⁿ⁻ᵏ and binompdf/binomcdf. Model a 70% free-throw shooter taking 10 shots. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "P(exactly 7 of 10)?",
+       "a": "C(10, 7)(0.7)⁷(0.3)³ ≈ 0.267."
+      },
+      {
+       "q": "P(at least 8 of 10)?",
+       "a": "≈ 0.383."
+      },
+      {
+       "q": "2% of items are defective. P(no defects in 20)?",
+       "a": "0.98²⁰ ≈ 0.668."
+      }
+     ]
+    },
+    {
+     "guide": "Build an empirical distribution from census data and compute its mean. Illustrative distribution: size 1: 0.28, 2: 0.35, 3: 0.15, 4: 0.13, 5: 0.06, 6: 0.03.",
+     "questions": [
+      {
+       "q": "Mean household size from the illustrative table?",
+       "a": "0.28 + 0.70 + 0.45 + 0.52 + 0.30 + 0.18 = 2.43 people."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 9 test. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Mean of a binomial with n = 10, p = 0.7?",
+       "a": "np = 7."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 9 test sample key: 1) P(heart or king) = 4/13. 2) At least one six in 4 rolls ≈ 0.518. 3) P(11–12 | evening) ≈ 0.571. 4) Medical test ≈ 0.092. 5) 10C3 = 120; 8P3 = 336. 6) Distribution of heads in 4 flips: 1/16, 4/16, 6/16, 4/16, 1/16; E = 2. 7) Game EV = −$0.17. 8) Binomial P(7 of 10) ≈ 0.267. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing."
+  },
+  {
+   "week": 30,
+   "prep": "Collect 2–3 recent news articles that cite a study (health or education). Random number generator (random.org or calculator). Preview Intro Stats ch. 1.",
+   "misconceptions": [
+    "Thinking a bigger sample fixes bias. Bias from a bad method doesn't shrink as n grows.",
+    "Confusing random sampling (generalize to population) with random assignment (allows cause-and-effect).",
+    "Calling any study with data an 'experiment.' Experiments impose a treatment."
+   ],
+   "days": [
+    {
+     "guide": "Define population, sample, parameter, statistic. Practice SRS, stratified, and cluster sampling on a class list with a random number generator.",
+     "questions": [
+      {
+       "q": "In 'A poll of 1,000 California voters found 54% support,' what is the parameter and what is the statistic?",
+       "a": "Parameter: the true proportion of all California voters who support it. Statistic: 54% from the sample."
+      }
+     ]
+    },
+    {
+     "guide": "Present the bias types; the student identifies the bias in each of 8 examples and suggests a fix. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "A radio station asks listeners to call in. What bias?",
+       "a": "Voluntary response bias."
+      }
+     ]
+    },
+    {
+     "guide": "Model a randomized experiment design: control, randomization, replication. The student designs the music-and-memory experiment.",
+     "questions": [
+      {
+       "q": "Why randomly assign participants?",
+       "a": "To balance unknown variables between groups so differences can be attributed to the treatment."
+      }
+     ]
+    },
+    {
+     "guide": "Read two articles; the student identifies study type and whether causal claims are justified. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "An observational study finds coffee drinkers live longer. Can we conclude coffee causes longer life?",
+       "a": "No — observational studies can't establish cause; lurking variables could explain it."
+      }
+     ]
+    },
+    {
+     "guide": "Give the study-design quiz. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "What is a placebo and why is it used?",
+       "a": "An inactive treatment used to control for the placebo effect."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) Parameter vs statistic. 2) Bias: radio call-in = voluntary response. 3) Phone survey of landlines = undercoverage. 4) 'Don't you agree…' = question wording. 5) Experiment design. 6) Observational vs experiment. Article critique rubric: 4 = study type identified, sample/population discussed, causal language evaluated, a specific improvement proposed; 3 = minor gaps; 2 = study type wrong; 1 = summary only."
+  },
+  {
+   "week": 31,
+   "prep": "CODAP (use its 'Sampler' plugin), 40+ index cards, a timer, and the Week 30 memory-experiment design. Recruit at least 10 participants (family, co-op). Preview Intro Stats 8.3 (confidence interval for a proportion).",
+   "misconceptions": [
+    "Saying '95% confident' means a 95% chance the true value is in THIS interval. It means the method captures the true value in about 95% of samples.",
+    "Thinking margin of error covers bias. It only accounts for random sampling variability.",
+    "Calling any difference between groups 'significant.' Compare it to the shuffle distribution: if differences that large happen often by chance alone, it is not convincing."
+   ],
+   "days": [
+    {
+     "guide": "In CODAP, draw 500 samples of size 25 and then 100 from a population with p = 0.5 and plot the sample proportions. Ask the student to describe center, shape, and spread and how spread changes with n.",
+     "questions": [
+      {
+       "q": "What happens to the spread of sample proportions as n increases from 25 to 100?",
+       "a": "It gets smaller — the standard deviation is √(p(1 − p)/n), so quadrupling n halves it (0.10 to 0.05 when p = 0.5)."
+      }
+     ]
+    },
+    {
+     "guide": "Teach ME = 1.96√(p̂(1 − p̂)/n) and the interval p̂ ± ME. Model with a poll and have the student interpret in a full sentence.",
+     "questions": [
+      {
+       "q": "A poll of 1,000 finds 54% support. Find the 95% margin of error and interval.",
+       "a": "ME = 1.96√(0.54·0.46/1000) ≈ 0.031. Interval ≈ 0.509 to 0.571: we're 95% confident the true support is between about 51% and 57%."
+      },
+      {
+       "q": "How large a sample cuts the margin of error in half?",
+       "a": "About 4 times as large."
+      }
+     ]
+    },
+    {
+     "guide": "Randomly assign participants (draw names from a hat) to music vs. silence; each studies a 20-word list for 2 minutes and recalls for 2 minutes. Record recall counts in a table.",
+     "questions": [
+      {
+       "q": "Why must assignment be random and not by choice?",
+       "a": "People who choose music may differ (habits, ability); random assignment balances those differences between groups."
+      }
+     ]
+    },
+    {
+     "guide": "Write every score on an index card, shuffle, deal into two groups of the original sizes, and record the difference in means; repeat 100+ times (or use CODAP). Locate the observed difference in the shuffle distribution.",
+     "questions": [
+      {
+       "q": "If 3 of 200 shuffled differences were as large as the observed one, what do you conclude?",
+       "a": "Only 1.5% by chance, so the observed difference is statistically significant — evidence the treatment matters."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the lab report: question, design, data table, graph, shuffle result, conclusion, limitations. Check that the conclusion matches the evidence.",
+     "questions": [
+      {
+       "q": "Name one limitation of a 10-person experiment.",
+       "a": "Small sample — chance has a big effect; results may not generalize beyond the volunteers."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric: 4 = clear question and hypothesis; random assignment described; control of other variables; table and comparative graph; randomization test with 100+ shuffles and the proportion as extreme stated; conclusion that matches the evidence and avoids overgeneralizing; 2+ limitations. 3 = all parts present with a small error. 2 = conclusion not supported by the simulation or randomization missing. 1 = incomplete."
+  },
+  {
+   "week": 32,
+   "prep": "Find two sample insurance quotes (or use the numbers below) and a phone-warranty price. Spreadsheet. Prepare the Unit 10 test.",
+   "misconceptions": [
+    "Thinking the lowest expected cost is always the best choice. Expected value is a long-run average; risk tolerance and ability to pay a large bill matter too.",
+    "Confusing false positives with false negatives. False positive: test says yes, truth is no.",
+    "Assuming 'random' means fair. Fair means each outcome has the intended equal chance."
+   ],
+   "days": [
+    {
+     "guide": "Compare Plan A: $1,200/yr premium, $500 deductible; Plan B: $800/yr, $1,500 deductible, with a 10% chance of a claim exceeding the deductible. Compute expected annual cost.",
+     "questions": [
+      {
+       "q": "Expected annual cost of each plan?",
+       "a": "A: 1200 + 0.10(500) = $1,250. B: 800 + 0.10(1500) = $950. B is cheaper on average."
+      },
+      {
+       "q": "When might someone still choose Plan A?",
+       "a": "If they couldn't afford a $1,500 surprise bill or expect frequent claims."
+      }
+     ]
+    },
+    {
+     "guide": "A 2-year warranty costs $150; the chance the phone needs a $300 repair is 15%. Compute expected repair cost and decide. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Is the warranty worth it on expected value?",
+       "a": "Expected repair cost = 0.15 × 300 = $45 < $150, so no on average."
+      }
+     ]
+    },
+    {
+     "guide": "Design a fair chore-assignment method with random numbers (e.g., assign each person a die face, reroll extras). Justify why each person has equal probability.",
+     "questions": [
+      {
+       "q": "Four people; roll a die and reroll 5 or 6. Is it fair?",
+       "a": "Yes — each of 1–4 is equally likely, 1/4 each."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze a drug-test scenario: which error is worse (false positive vs. negative) and how a threshold trades them off. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "For an airport security screen, which error is more serious?",
+       "a": "A false negative (missing a real threat), so the threshold is set to catch nearly all threats even at the cost of more false positives."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 10 test. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "What does a randomization test tell you?",
+       "a": "How often a difference as large as observed would happen by chance alone if the treatment had no effect."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 10 test sample key: 1) Parameter/statistic identification. 2) Voluntary response bias example. 3) Experiment design with control, randomization, replication. 4) 54%, n = 1000: ME ≈ 3.1%, CI 50.9%–57.1%. 5) Shuffle distribution: 1.5% as extreme → significant. 6) Insurance: A $1,250 vs. B $950. 7) Warranty $45 expected < $150. 8) Fair die method. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing."
+  },
+  {
+   "week": 33,
+   "prep": "Desmos; a ball and a phone that records video (slow-motion helps) near a wall with a measuring tape. Preview OpenStax Precalculus 12.1–12.4 (limits preview).",
+   "misconceptions": [
+    "Thinking a limit is just f(a). A limit describes what f approaches near a, even when f(a) is undefined.",
+    "Stopping at 0/0. That form means 'simplify more' (factor, rationalize).",
+    "Confusing average velocity over an interval with instantaneous velocity at a moment."
+   ],
+   "days": [
+    {
+     "guide": "Make tables approaching x = 2 from both sides for f(x) = (x² − 4)/(x − 2) and graph it showing the hole. Explain the notation lim_{x→2}.",
+     "questions": [
+      {
+       "q": "Estimate lim_{x→2} (x² − 4)/(x − 2).",
+       "a": "4 — values near 2 approach 4, though f(2) is undefined."
+      }
+     ]
+    },
+    {
+     "guide": "Model direct substitution, then factoring, then rationalizing. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "lim_{x→3} (x² − 9)/(x − 3)",
+       "a": "6"
+      },
+      {
+       "q": "lim_{x→0} (√(x + 9) − 3)/x",
+       "a": "Multiply by the conjugate: 1/(√(x + 9) + 3) → 1/6."
+      }
+     ]
+    },
+    {
+     "guide": "In Desmos draw f(x) = x² and a secant from (1, 1) to (1 + h, (1 + h)²) with an h slider; shrink h and watch the slope approach 2.",
+     "questions": [
+      {
+       "q": "Slope of the secant on [1, 1.1]?",
+       "a": "(1.21 − 1)/0.1 = 2.1; as h → 0 the slope approaches 2."
+      }
+     ]
+    },
+    {
+     "guide": "Video a dropped ball against a measuring tape, record height at several frames, and fit h = h₀ − 4.9t². Estimate velocity at t = 0.5 s using shrinking intervals.",
+     "questions": [
+      {
+       "q": "For h = 2 − 4.9t², estimate the velocity at t = 0.5 s.",
+       "a": "Average velocity over [0.5, 0.5 + h] = −4.9(1 + h) → −4.9 m/s as h → 0."
+      }
+     ]
+    },
+    {
+     "guide": "Give the limits preview quiz. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "lim_{x→4} (3x + 1)?",
+       "a": "13"
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz: 1) lim_{x→2}(x² − 4)/(x − 2) = 4. 2) lim_{x→3}(x² − 9)/(x − 3) = 6. 3) lim_{x→0}(√(x + 9) − 3)/x = 1/6. 4) Secant slope of x² on [1, 1.1] = 2.1; tangent slope 2. 5) Velocity of h = 2 − 4.9t² at t = 0.5: −4.9 m/s. 6) lim_{x→4}(3x + 1) = 13. Proficient: 5 of 6."
+  },
+  {
+   "week": 34,
+   "prep": "Browse data.ca.gov or census tables with the student before Day 1. Set up a capstone folder. Schedule the Day 5 check-in conference.",
+   "misconceptions": [
+    "Questions that aren't statistical ('How old is the mayor?'). A statistical question anticipates variability in data.",
+    "Skipping a data-cleaning log. Record every change so the analysis is reproducible.",
+    "Choosing a question the available data can't answer."
+   ],
+   "days": [
+    {
+     "guide": "Model turning a topic into a statistical question naming population and variables. The student drafts three questions and picks one.",
+     "questions": [
+      {
+       "q": "Rewrite 'Is air pollution bad in California?' as a statistical question.",
+       "a": "'How did average annual PM2.5 levels differ between California counties in 2023?' — it names variables and expects variability."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes the plan: variables (type, units), source or sampling method, sample size, and possible bias. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Why identify potential bias before collecting?",
+       "a": "So you can design around it or acknowledge it as a limitation."
+      }
+     ]
+    },
+    {
+     "guide": "Download or collect data; clean it (duplicates, missing values, units), logging each step. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "How should missing values be handled?",
+       "a": "Note how many, decide to exclude or mark them, and report the decision."
+      }
+     ]
+    },
+    {
+     "guide": "Make at least three displays and summary statistics; write one observation for each. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Which display suits comparing a quantitative variable across 3 groups?",
+       "a": "Parallel box plots or dot plots."
+      }
+     ]
+    },
+    {
+     "guide": "Hold a 15-minute conference: the student presents question, plan, and graphs; give feedback. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "What should the student be able to state at the checkpoint?",
+       "a": "The question, population, variables, data source, cleaning steps, and one preliminary finding."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Checkpoint rubric (4 levels): 4 = statistical question with population/variables, detailed plan with bias identified, clean documented data, three appropriate displays with summaries; 3 = one element thin; 2 = question non-statistical or data unusable; 1 = incomplete."
+  },
+  {
+   "week": 35,
+   "prep": "Slides tool (Google Slides or similar), CODAP/Desmos. Arrange an audience for Day 5.",
+   "misconceptions": [
+    "Overstating conclusions (claiming cause from observational data).",
+    "Too many graphs in a presentation. Choose the three that answer the question.",
+    "Listing limitations generically. Tie each to the study."
+   ],
+   "days": [
+    {
+     "guide": "The student chooses a regression or simulation comparison that fits the question and runs it; check residuals or shuffle distribution.",
+     "questions": [
+      {
+       "q": "When is a randomization test better than regression?",
+       "a": "When comparing two groups on a quantitative response rather than relating two quantitative variables."
+      }
+     ]
+    },
+    {
+     "guide": "The student writes interpretations in context and lists at least three limitations. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Give an example of a well-worded conclusion from observational data.",
+       "a": "'Counties with higher median income tended to have lower PM2.5 (r = −0.4), but this association doesn't show income causes cleaner air.'"
+      }
+     ]
+    },
+    {
+     "guide": "The student drafts the 4–6 page report (intro, methods, results with graphs, conclusion, limitations). Review a draft section.",
+     "questions": [
+      {
+       "q": "What belongs in Methods?",
+       "a": "Data source, sampling, variables, cleaning, and the analysis used."
+      }
+     ]
+    },
+    {
+     "guide": "Build a 7-minute presentation with three key visuals; rehearse once with a timer. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "What makes a good presentation graph?",
+       "a": "Titled, labeled axes with units, readable fonts, one clear message."
+      }
+     ]
+    },
+    {
+     "guide": "The student presents and answers questions. Use the rubric below. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "What should the student do if they can't answer a question?",
+       "a": "Acknowledge it and explain how they could find out."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Rubric (4 levels): Report — 4 = clear question, documented methods, correct analysis with appropriate graphs, conclusions in context matching study type, 3+ specific limitations; 3 = minor errors; 2 = analysis inappropriate or conclusions overstated; 1 = incomplete. Presentation — 4 = within 7 min, 3 clear visuals, confident answers; 3 = slightly over time or one weak visual; 2 = disorganized; 1 = not delivered."
+  },
+  {
+   "week": 36,
+   "prep": "Assemble a cumulative review packet (OpenStax chapter reviews) and the final exam. Find a calculus-readiness diagnostic (e.g., MAA-style placement practice online).",
+   "misconceptions": [
+    "Studying only the most recent units. Use the practice final to target all.",
+    "Not showing work on technology items.",
+    "Treating the calculus diagnostic as a grade. It is a summer study plan."
+   ],
+   "days": [
+    {
+     "guide": "The student completes the functions/trig/vectors/matrices review; check and reteach top misses. Before moving on, have the student answer the check questions below without notes, then compare with the answers and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Find the inverse of [[2, 1], [5, 3]].",
+       "a": "[[3, −1], [−5, 2]]"
+      },
+      {
+       "q": "Solve 2 sin x − 1 = 0 on [0, 2π).",
+       "a": "π/6, 5π/6"
+      }
+     ]
+    },
+    {
+     "guide": "The student completes the statistics review. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Find P(disease | positive) for 1% prevalence, 90% sensitivity, 9% false positives.",
+       "a": "≈ 0.092"
+      }
+     ]
+    },
+    {
+     "guide": "Give the timed practice final; the student corrects every error. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Interpret r² = 0.64.",
+       "a": "64% of the variation in y is explained by the linear model."
+      }
+     ]
+    },
+    {
+     "guide": "Give the calculus-readiness diagnostic; the student writes a summer review list. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "Simplify (x² − 9)/(x² + x − 6).",
+       "a": "(x − 3)/(x − 2), x ≠ −3"
+      }
+     ]
+    },
+    {
+     "guide": "Administer the cumulative final exam. Before moving on, have the student answer the check question below without notes, then compare with the answer and reteach anything missed.",
+     "questions": [
+      {
+       "q": "State the 68-95-99.7 rule.",
+       "a": "In a normal distribution, about 68%, 95%, 99.7% of data lie within 1, 2, 3 SDs of the mean."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final exam sample key: 1) f(g(x)) = 4x² − 12x + 10. 2) Zeros of x³ − x² + 4x − 4: 1, ±2i. 3) 5e^(2x) = 40 → x ≈ 1.04. 4) sin 75° = (√6 + √2)/4. 5) SAS c ≈ 6.24. 6) Inverse of [[2, 1], [5, 3]]. 7) Σ(2k + 1), k = 1..5 = 35. 8) Ellipse foci (±4, 0). 9) Mean/median/IQR of 2, 4, 4, 5, 7, 9, 20. 10) z-scores 1.25 vs 1.4. 11) P(heart or king) = 4/13. 12) 10C3 = 120. 13) ME ≈ 3.1%. 14) lim_{x→3}(x² − 9)/(x − 3) = 6. Scoring: 90%+ A, 80–89% B, 70–79% C."
+  }
+ ]
+}

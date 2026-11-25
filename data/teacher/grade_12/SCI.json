@@ -1,0 +1,2135 @@
+{
+ "grade": 12,
+ "subject": "SCI",
+ "overview": "Earth & Space / Environmental Science runs 60 minutes a day as a lab course: a short reading or explanation, then a hands-on investigation or real NASA/USGS/NOAA data analysis, then a written claim with evidence. Do the calculations alongside the student the first time, insist on units and labeled graphs, and keep everything in one lab notebook. Review safety notes in each week's prep (never view the Sun directly, supervise heat sources, gloves for field water), and leave extra time in the spring for the engineering project and capstone investigation.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Gather two colors of clay, a flashlight, and cardboard and foil for a pinhole projector. Preview NASA's Sun pages and the live Solar Dynamics Observatory (SDO) image site. Useful constants: c = 3.00 × 10⁸ m/s; 1 u = 1.66 × 10⁻²⁷ kg; H atom 1.00783 u; He-4 atom 4.00260 u; Sun's luminosity 3.83 × 10²⁶ W; mass 1.99 × 10³⁰ kg. SAFETY: never look at the Sun directly or through binoculars/telescopes; view only the projected image.",
+   "misconceptions": [
+    "Thinking the Sun 'burns' like a fire. It is powered by nuclear fusion, not chemical combustion (no oxygen involved).",
+    "Believing light from the core reaches us in 8 minutes. Energy takes on the order of 100,000+ years to random-walk out of the radiative zone; only the trip from the surface to Earth takes about 8.3 minutes.",
+    "Expecting the Sun to explode as a supernova. It is too low-mass; it will become a red giant, then a white dwarf."
+   ],
+   "days": [
+    {
+     "guide": "Read about the Sun's layers. The student builds a clay cross-section labeling core (fusion, ~15 million K), radiative zone, convection zone, photosphere (visible surface, ~5,800 K), chromosphere, and corona. Check the order from center outward.",
+     "questions": [
+      {
+       "q": "List the Sun's layers from the center outward.",
+       "a": "Core, radiative zone, convection zone, photosphere, chromosphere, corona."
+      },
+      {
+       "q": "How is energy transported in the radiative zone vs. the convection zone?",
+       "a": "Radiative zone: by photons slowly absorbed and re-emitted (radiation). Convection zone: by rising hot plasma and sinking cooler plasma (convection)."
+      }
+     ]
+    },
+    {
+     "guide": "Model 4 ¹H → ¹He with clay (two protons become neutrons, releasing positrons and neutrinos). Then compute the mass defect and energy with E = mc².",
+     "questions": [
+      {
+       "q": "Calculate the mass lost and energy released when 4 hydrogen atoms (1.00783 u each) form one helium-4 atom (4.00260 u).",
+       "a": "4 × 1.00783 = 4.03132 u; Δm = 0.02872 u (≈0.7%). Δm = 0.02872 × 1.66 × 10⁻²⁷ kg ≈ 4.77 × 10⁻²⁹ kg; E = mc² ≈ 4.3 × 10⁻¹² J (≈26.7 MeV)."
+      },
+      {
+       "q": "The Sun's luminosity is 3.83 × 10²⁶ W. How much mass does it convert to energy each second?",
+       "a": "m = E/c² = 3.83 × 10²⁶ ÷ (9.0 × 10¹⁶) ≈ 4.3 × 10⁹ kg per second (about 4 million metric tons)."
+      }
+     ]
+    },
+    {
+     "guide": "Build the pinhole projector (pinhole in foil, image on white card 1 m away) and observe the solar disk safely; compare with today's SDO HMI image and sketch sunspots.",
+     "questions": [
+      {
+       "q": "Why do sunspots appear dark?",
+       "a": "They are cooler (about 3,500–4,500 K) than the surrounding photosphere because strong magnetic fields inhibit convection; they're still very bright, just darker by contrast."
+      }
+     ]
+    },
+    {
+     "guide": "Estimate main-sequence life: about 10% of the Sun's mass (core hydrogen) can fuse, converting 0.7% of it to energy. Lifetime = 0.1 × 0.007 × Mc² ÷ L. Draw its future.",
+     "questions": [
+      {
+       "q": "Estimate the Sun's main-sequence lifetime with the formula above.",
+       "a": "0.1 × 0.007 × 1.99 × 10³⁰ × 9.0 × 10¹⁶ ≈ 1.25 × 10⁴⁴ J; ÷ 3.83 × 10²⁶ W ≈ 3.3 × 10¹⁷ s ≈ 1.0 × 10¹⁰ years (~10 billion)."
+      },
+      {
+       "q": "What will happen to the Sun at the end of its main-sequence life?",
+       "a": "In about 5 billion years it will exhaust core hydrogen, swell into a red giant, shed its outer layers as a planetary nebula, and leave a white dwarf."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a CER on how fusion energy reaches Earth; give a short quiz.",
+     "questions": [
+      {
+       "q": "Trace energy from the core to Earth.",
+       "a": "Fusion in the core releases energy (gamma rays/neutrinos) → photons slowly diffuse through the radiative zone → convection carries energy to the photosphere → it radiates as electromagnetic radiation (mostly visible, IR, UV) across space in about 8.3 minutes to Earth."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Fusion model: proficient = shows 4 H → He-4 with conservation of charge noted (2 protons → neutrons, positrons, neutrinos) and correct Δm ≈ 0.029 u, E ≈ 4.3 × 10⁻¹² J. CER rubric: Claim – fusion energy reaches Earth as electromagnetic radiation; Evidence – E = mc² calculation, layer structure (radiative/convective), sunlight takes ~8.3 min; Reasoning – explains radiation, convection, and radiation through space. 4 = all parts accurate with numbers; 3 = accurate with minor gaps; 2 = missing a transfer step; 1 = inaccurate. Quiz key: 1) Fusion of H to He in the core. 2) Layers in order. 3) Sunspots cooler due to magnetic fields. 4) ~10-billion-year lifetime, now ~4.6 billion years old. 5) Future: red giant → white dwarf."
+  },
+  {
+   "week": 2,
+   "prep": "Old CD/DVD, cardboard tube (paper towel roll), tape, foil with a thin slit; incandescent, LED, and fluorescent (CFL) light sources. Balloon and marker, ruler. Print element emission spectra (H, He, Na, Hg) from a NASA or university site.",
+   "misconceptions": [
+    "Picturing the Big Bang as an explosion into empty space from a center. Space itself expands everywhere; there is no center.",
+    "Thinking redshift means objects are red. It means wavelengths are shifted toward longer (redder) values.",
+    "Assuming individual galaxies or bound objects expand. Gravity holds galaxies together; expansion acts on large scales between galaxy groups."
+   ],
+   "days": [
+    {
+     "guide": "Build the spectroscope (slit at one end, CD piece at an angle at the other). View an incandescent bulb (continuous rainbow), an LED (smooth with a strong blue peak), and a CFL (bright lines: violet-blue, green, yellow-orange from mercury and phosphors). Sketch each.",
+     "questions": [
+      {
+       "q": "Why does an incandescent bulb give a continuous spectrum while a fluorescent lamp shows bright lines?",
+       "a": "A hot filament emits all wavelengths (thermal radiation); a fluorescent tube's excited mercury atoms (and phosphors) emit only specific wavelengths matching electron energy-level transitions."
+      }
+     ]
+    },
+    {
+     "guide": "Match unknown spectra to element spectra; explain that each element's absorption/emission lines are a fingerprint, so star spectra reveal composition.",
+     "questions": [
+      {
+       "q": "How do astronomers know what stars are made of?",
+       "a": "Dark absorption lines in a star's spectrum occur at wavelengths unique to each element; matching them to lab spectra identifies the elements present."
+      }
+     ]
+    },
+    {
+     "guide": "Mark 5 dots on a balloon; measure distances from one 'home' dot at three inflation stages. Compute speeds (change in distance ÷ time step) and graph velocity vs. distance — a straight line (Hubble's law).",
+     "questions": [
+      {
+       "q": "In the balloon model, dots 2 cm and 4 cm from home move to 3 cm and 6 cm in one step. What are their speeds, and what does this show?",
+       "a": "1 cm/step and 2 cm/step — twice as far moves twice as fast, so v ∝ d (Hubble's law)."
+      },
+      {
+       "q": "A galaxy's hydrogen line (656.3 nm in the lab) is observed at 662.9 nm. Find its recession speed and distance (H₀ = 70 km/s/Mpc).",
+       "a": "z = 6.6/656.3 ≈ 0.0101; v ≈ cz ≈ 3,000 km/s; d = v/H₀ ≈ 43 Mpc."
+      }
+     ]
+    },
+    {
+     "guide": "Read about three lines of evidence and organize them in a table: redshift/expansion (Hubble, 1929), cosmic microwave background (discovered 1965; mapped by COBE, WMAP, Planck; ~2.7 K), and the abundance of light elements (~75% H, ~25% He by mass).",
+     "questions": [
+      {
+       "q": "What is the cosmic microwave background?",
+       "a": "The leftover radiation from about 380,000 years after the Big Bang, when the universe cooled enough for atoms to form; now redshifted to microwaves at about 2.7 K, nearly uniform in every direction."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a 1-page scientific explanation of the Big Bang citing all three lines of evidence.",
+     "questions": [
+      {
+       "q": "About how old is the universe?",
+       "a": "About 13.8 billion years."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Big Bang explanation rubric. 4 – Clearly states the theory (universe expanded from a hot, dense state ~13.8 billion years ago); explains all three evidence lines with specifics (redshift proportional to distance/Hubble's law, CMB ~2.7 K uniform radiation, ~3:1 H:He mass ratio predicted by Big Bang nucleosynthesis); reasoning links each to the model; corrects the 'explosion from a center' misconception. 3 (proficient) – Three lines of evidence accurately explained. 2 – One or two lines or vague reasoning. 1 – Inaccurate."
+  },
+  {
+   "week": 3,
+   "prep": "Prepare or download a 30-star data table (temperature in K, luminosity in L☉) including the Sun (5,800 K, 1 L☉), Sirius A, Sirius B, Betelgeuse, Rigel, Proxima Centauri, Aldebaran. Colored pencils, periodic table (print a blank one). Preview a 'nucleosynthesis periodic table' image (e.g., from NASA or Jennifer Johnson/OSU).",
+   "misconceptions": [
+    "Plotting the H-R diagram with temperature increasing to the right. By convention, temperature decreases to the right (hot blue stars on the left).",
+    "Thinking stars 'move along' the main sequence as they age. Stars stay at nearly one main-sequence position for most of their lives, then leave it.",
+    "Believing all elements came from supernovae. H and He came mostly from the Big Bang; many elements come from ordinary stars and neutron-star mergers."
+   ],
+   "days": [
+    {
+     "guide": "Plot 30 stars on a log-luminosity vs. temperature graph (temperature reversed). Identify main sequence (diagonal), giants/supergiants (upper right), white dwarfs (lower left).",
+     "questions": [
+      {
+       "q": "Where would a hot but very dim star appear on the H-R diagram, and what is it?",
+       "a": "Lower left — a white dwarf (e.g., Sirius B)."
+      },
+      {
+       "q": "Why is the temperature axis reversed?",
+       "a": "Historical convention from spectral classes (O B A F G K M, hottest to coolest) — hot stars are on the left."
+      }
+     ]
+    },
+    {
+     "guide": "Create a branching flowchart: low-mass (< ~8 M☉): nebula → protostar → main sequence → red giant → planetary nebula → white dwarf. High-mass: nebula → protostar → main sequence → red supergiant → supernova → neutron star or black hole.",
+     "questions": [
+      {
+       "q": "What determines a star's life path?",
+       "a": "Its initial mass."
+      }
+     ]
+    },
+    {
+     "guide": "Color-code a periodic table by origin: H, He (Big Bang; some Li); C, N and s-process elements (low-mass stars); O through Fe-group (massive stars and supernovae); heavy r-process elements like gold and platinum (neutron-star mergers and some supernovae).",
+     "questions": [
+      {
+       "q": "Why can't normal fusion in stars make elements heavier than iron for energy?",
+       "a": "Iron-56 is among the most tightly bound nuclei; fusing heavier elements consumes energy rather than releasing it, so they form by neutron capture (s- and r-processes) instead."
+      }
+     ]
+    },
+    {
+     "guide": "Trace H (Big Bang), C (mainly low-mass/intermediate stars), O (massive stars), Ca (massive stars/supernovae), Fe (supernovae, especially Type Ia). Write a short explainer for a younger reader.",
+     "questions": [
+      {
+       "q": "Where did the hydrogen in your body's water come from?",
+       "a": "The Big Bang — it formed in the first minutes and has never been fused."
+      }
+     ]
+    },
+    {
+     "guide": "Student presents a 3-minute infographic/podcast; give a quiz.",
+     "questions": [
+      {
+       "q": "What is nucleosynthesis?",
+       "a": "The creation of new atomic nuclei by nuclear reactions — in the Big Bang, in stellar cores, and in explosive events."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Infographic/podcast rubric. 4 – Accurately explains Big Bang, stellar, supernova, and neutron-star-merger nucleosynthesis with examples, includes star life-cycle path, visually clear, cites sources. 3 (proficient) – Accurate origins for at least four element groups and life cycles. 2 – Some errors (e.g., all elements from supernovae). 1 – Inaccurate. Quiz key: 1) Main sequence = core hydrogen fusion. 2) Sun → red giant → white dwarf. 3) Massive star → supernova → neutron star/black hole. 4) Fe is the fusion endpoint. 5) Gold mainly from neutron-star mergers (r-process). 6) H-R axes: luminosity vs. temperature (reversed)."
+  },
+  {
+   "week": 4,
+   "prep": "String, two pushpins, cardboard, paper; PhET 'Gravity and Orbits' (free online); NASA Planetary Fact Sheet. Constants: G = 6.67 × 10⁻¹¹ N·m²/kg², Earth mass 5.97 × 10²⁴ kg, radius 6,371 km. Prepare the Unit 1 test (key below).",
+   "misconceptions": [
+    "Thinking seasons come from Earth's elliptical orbit. Earth's orbit is nearly circular (e = 0.017); seasons come from axial tilt.",
+    "Believing satellites stay up because there's no gravity in space. They are in constant free fall, moving sideways fast enough to keep missing Earth.",
+    "Using a in km and T in days in T² = a³. That simple form works only with years and AU for objects orbiting the Sun."
+   ],
+   "days": [
+    {
+     "guide": "Draw ellipses with the string loop around two pins at 2, 5, and 8 cm apart. Measure major axis and focal distance; e = (distance between foci) ÷ (major axis). Compare to Earth (0.017), Mars (0.093), Mercury (0.206).",
+     "questions": [
+      {
+       "q": "Foci are 6 cm apart and the major axis is 20 cm. What is the eccentricity?",
+       "a": "e = 6/20 = 0.30."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, show equal areas swept in equal times; observe speed changes.",
+     "questions": [
+      {
+       "q": "Why does a planet move fastest at perihelion?",
+       "a": "It's closest to the Sun, where gravity is strongest; conservation of angular momentum means it must move faster to sweep equal areas in equal times."
+      }
+     ]
+    },
+    {
+     "guide": "Graph T² (years²) vs. a³ (AU³) for 8 planets — slope = 1. Predict periods.",
+     "questions": [
+      {
+       "q": "Mars's semi-major axis is 1.52 AU. Find its period.",
+       "a": "T = √(1.52³) = √3.51 ≈ 1.87 years (actual 1.88)."
+      },
+      {
+       "q": "Using T² = 4π²a³/(GM), predict the Moon's period (a = 3.84 × 10⁸ m, GM_Earth = 3.99 × 10¹⁴).",
+       "a": "T = 2π√(a³/GM) ≈ 2π√(1.42 × 10¹¹) ≈ 2.37 × 10⁶ s ≈ 27.4 days (actual sidereal 27.3 days)."
+      }
+     ]
+    },
+    {
+     "guide": "Derive v = √(GM/r) from setting gravity equal to centripetal force. Calculate the ISS (altitude ~420 km) and a geostationary satellite (r = 42,164 km).",
+     "questions": [
+      {
+       "q": "Calculate the ISS orbital speed and period.",
+       "a": "r = 6.79 × 10⁶ m; v = √(3.99 × 10¹⁴ / 6.79 × 10⁶) ≈ 7.66 km/s; T = 2πr/v ≈ 5,570 s ≈ 93 minutes."
+      },
+      {
+       "q": "Calculate the geostationary orbital speed.",
+       "a": "v = √(3.99 × 10¹⁴ / 4.22 × 10⁷) ≈ 3.07 km/s (period 24 h, matching Earth's rotation)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test.",
+     "questions": [
+      {
+       "q": "State Kepler's three laws.",
+       "a": "1) Planets orbit in ellipses with the Sun at one focus. 2) A line from Sun to planet sweeps equal areas in equal times. 3) T² ∝ a³."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test key (sample items): 1) Fusion of H→He in the core; mass converted via E = mc². 2) Layers: core, radiative, convective, photosphere, chromosphere, corona. 3) Big Bang evidence: redshift/Hubble's law, CMB, H/He abundances. 4) v = H₀d; 7,000 km/s ÷ 70 = 100 Mpc. 5) H-R diagram regions. 6) Low-mass vs. high-mass life cycles. 7) Fe endpoint; heavy elements by neutron capture. 8) Kepler's laws. 9) Jupiter a = 5.2 AU → T ≈ 11.9 yr. 10) e = c/a concept; Earth's orbit nearly circular. 11) v = √(GM/r). Scoring: 90%+ advanced, 75–89% proficient."
+  },
+  {
+   "week": 5,
+   "prep": "Flour, cocoa powder, baking pan, marbles of different sizes, meter stick, ruler. 100 pennies or M&Ms and a cup. NASA images of chondrite meteorites. Background: the solar system is ~4.57 billion years old (from meteorite inclusions); oldest Earth minerals are ~4.4-billion-year-old zircons from Jack Hills, Australia.",
+   "misconceptions": [
+    "Thinking Earth's oldest rocks date the planet. Plate tectonics and erosion recycled Earth's earliest crust, so meteorites date the solar system.",
+    "Believing half-life means half the time is left. It's the time for half of the remaining parent atoms to decay.",
+    "Assuming the Moon has more impacts than Earth. Earth was hit as much or more, but erosion, plate tectonics, and the atmosphere erased most craters."
+   ],
+   "days": [
+    {
+     "guide": "Read about the solar nebula: a collapsing cloud spun into a disk; dust stuck together (accretion) into planetesimals and planets; rocky planets formed inside the frost line, gas giants beyond. Draw a 6-panel storyboard.",
+     "questions": [
+      {
+       "q": "Why are inner planets rocky and outer planets gas giants?",
+       "a": "Near the Sun it was too hot for ices to condense, so only rock/metal accreted; beyond the frost line ices made larger cores that captured hydrogen and helium gas."
+      }
+     ]
+    },
+    {
+     "guide": "Drop marbles from 25, 50, 100, 150 cm into the flour/cocoa pan; measure crater diameters (3 trials each), graph diameter vs. height.",
+     "questions": [
+      {
+       "q": "What happens to crater size as drop height increases, and why?",
+       "a": "Crater diameter increases (but less than proportionally) because the marble has more kinetic energy at impact (KE = mgh)."
+      },
+      {
+       "q": "Why does the Moon preserve ancient craters?",
+       "a": "It has no atmosphere, liquid water, or plate tectonics to erode or recycle its surface."
+      }
+     ]
+    },
+    {
+     "guide": "Examine chondrite images; explain that they are unaltered material from the solar nebula, and radiometric dating of their calcium-aluminum-rich inclusions gives ~4.567 billion years.",
+     "questions": [
+      {
+       "q": "Why do meteorites give the age of the solar system?",
+       "a": "Many are primitive leftovers from the solar nebula, never melted or recycled, so their radiometric ages record when solid material first formed."
+      }
+     ]
+    },
+    {
+     "guide": "Half-life model: shake 100 coins, remove 'decayed' (heads), repeat; graph remaining vs. round. Solve problems.",
+     "questions": [
+      {
+       "q": "A rock has 25% of its original U-235 (half-life 704 million years). How old is it?",
+       "a": "Two half-lives: 2 × 704 = 1.41 billion years."
+      },
+      {
+       "q": "A sample has 12.5% of its original parent remaining. How many half-lives have passed?",
+       "a": "Three (100 → 50 → 25 → 12.5)."
+      }
+     ]
+    },
+    {
+     "guide": "Write an evidence-based account of Earth's formation citing meteorites (~4.57 Ga), lunar rocks (up to ~4.46 Ga; Apollo samples), and zircons (~4.4 Ga, suggesting early continental crust and liquid water).",
+     "questions": [
+      {
+       "q": "What do 4.4-billion-year-old zircons tell us?",
+       "a": "That solid crust — and probably liquid water — existed within about 150 million years of Earth's formation."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Account of early Earth (HS-ESS1-6) rubric. 4 – Coherent timeline from solar nebula to differentiated Earth; cites meteorite ages (~4.57 Ga), lunar samples (~4.4–4.5 Ga, giant-impact origin), and Jack Hills zircons (~4.4 Ga) with explanation of radiometric dating; explains why Earth's own oldest rocks are younger. 3 (proficient) – Uses all three evidence types correctly. 2 – One or two evidence types or errors. 1 – Unsupported."
+  },
+  {
+   "week": 6,
+   "prep": "Paper strips (two colors), markers, a box with a slit (or two desks). Print continent outlines, fossil distribution map (Mesosaurus, Glossopteris, Lystrosaurus, Cynognathus), and the NOAA seafloor age map.",
+   "misconceptions": [
+    "Thinking Wegener's idea was rejected for lack of evidence of drift. He had strong evidence; it was rejected mainly because he lacked a convincing mechanism.",
+    "Believing magnetic stripes are caused by the ocean. They record reversals of Earth's magnetic field frozen into cooling basalt.",
+    "Thinking oceanic crust is as old as continents. Oceanic crust is recycled by subduction, so none is older than ~180–200 million years."
+   ],
+   "days": [
+    {
+     "guide": "Fit continents (especially South America and Africa) together; mark matching fossils and rock belts.",
+     "questions": [
+      {
+       "q": "Name two lines of evidence Wegener used.",
+       "a": "Fit of continents, matching fossils (Mesosaurus, Glossopteris) across oceans, matching rock types and mountain belts, and paleoclimate clues (glacial deposits in tropics, coal in Antarctica)."
+      }
+     ]
+    },
+    {
+     "guide": "Pull two strips up through a slit in opposite directions, coloring alternating bands (normal/reversed polarity) as they emerge, producing symmetric stripes.",
+     "questions": [
+      {
+       "q": "Why are magnetic stripes symmetric about the ridge?",
+       "a": "New crust forms at the ridge and moves away on both sides, so each polarity band is recorded on both sides equally."
+      }
+     ]
+    },
+    {
+     "guide": "Use the age map: measure distance from the Mid-Atlantic Ridge to crust of known age (e.g., 1,000 km to 50-million-year-old crust) and calculate rate.",
+     "questions": [
+      {
+       "q": "Crust 50 million years old is 1,000 km from the ridge. What is the spreading (half) rate in cm/yr?",
+       "a": "1,000 km = 10⁸ cm; 10⁸ ÷ (5 × 10⁷ yr) = 2 cm/yr."
+      }
+     ]
+    },
+    {
+     "guide": "Compare oldest oceanic crust (~180 Ma, western Pacific) with continental rocks (~4.0 Ga, Acasta Gneiss; zircons 4.4 Ga).",
+     "questions": [
+      {
+       "q": "Why is oceanic crust so much younger than continental crust?",
+       "a": "Oceanic crust is dense and sinks back into the mantle at subduction zones; buoyant continental crust is not subducted and survives for billions of years."
+      }
+     ]
+    },
+    {
+     "guide": "Student evaluates three lines of evidence; give a quiz.",
+     "questions": [
+      {
+       "q": "What is paleomagnetism?",
+       "a": "The record of Earth's past magnetic field preserved in the alignment of magnetic minerals in rocks."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Evidence evaluation rubric. 4 – Evaluates at least three evidence lines (continental fit/fossils/rocks, seafloor magnetic stripes, seafloor ages increasing from ridges, earthquake/volcano distribution) for strength and limitations, includes the spreading-rate calculation, explains why Wegener lacked a mechanism. 3 (proficient) – Three accurate evidence lines with reasoning. 2 – Description without evaluation. 1 – Inaccurate. Quiz key: 1) Mid-ocean ridge = divergent boundary where crust forms. 2) Stripes = magnetic reversals. 3) Oldest seafloor ~180–200 Ma. 4) Subduction recycles crust. 5) Rate = distance ÷ age."
+  },
+  {
+   "week": 7,
+   "prep": "Adding-machine tape or 4.6 m string, meter stick, clear cup, colored sand or paper layers. Prepare 4 rock-layer diagrams. Find a reading on California's geologic assembly (e.g., California Geological Survey or USGS).",
+   "misconceptions": [
+    "Assuming the oldest layer is always at the bottom. Folding, overturning, or faults can change order; use cross-cutting and inclusions too.",
+    "Thinking an unconformity is a layer. It's a surface representing missing time (erosion or nondeposition).",
+    "Underestimating how recent humans are. On a 4.6 m timeline, Homo sapiens occupy the last ~0.3 mm."
+   ],
+   "days": [
+    {
+     "guide": "Teach superposition, original horizontality, cross-cutting relationships, and inclusions; sequence events in 4 diagrams.",
+     "questions": [
+      {
+       "q": "A fault cuts layers A–C but not layer D above it. What is the order?",
+       "a": "A, B, C deposited (A oldest at bottom), then faulting, then D deposited (after the fault)."
+      }
+     ]
+    },
+    {
+     "guide": "Build layered strata in a clear cup; add a 'fault' (cut and shift) and 'intrusion' (vertical colored band); a family member determines the sequence.",
+     "questions": [
+      {
+       "q": "What does the law of inclusions say?",
+       "a": "Fragments of one rock included in another must be older than the rock containing them."
+      }
+     ]
+    },
+    {
+     "guide": "Build the timeline (1 mm = 1 million years): Earth forms (4,600 mm), oldest zircons (4,400), first life evidence (~3,700–3,500), Great Oxidation (~2,400), Cambrian explosion (~539), first land plants (~470), Permian extinction (252), dinosaurs' end (66), Homo sapiens (~0.3 mm).",
+     "questions": [
+      {
+       "q": "Where does the dinosaur extinction fall on a 4.6 m timeline at 1 mm = 1 Myr?",
+       "a": "66 mm (6.6 cm) from the present end."
+      },
+      {
+       "q": "What fraction of Earth history has had animals visible to the naked eye (since ~540 Ma)?",
+       "a": "About 540/4,600 ≈ 12%."
+      }
+     ]
+    },
+    {
+     "guide": "Read how California was assembled: accreted terranes added to the continent's edge; Sierra Nevada batholith formed from subduction-related magma (~140–80 Ma, Cretaceous peak); San Andreas transform began ~30 Ma when the Pacific Plate met North America.",
+     "questions": [
+      {
+       "q": "What formed the granite of the Sierra Nevada?",
+       "a": "Magma generated by subduction of an ocean plate beneath North America cooled underground into a huge batholith (mostly Cretaceous), later uplifted and exposed by erosion."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test.",
+     "questions": [
+      {
+       "q": "What is an index fossil?",
+       "a": "A fossil of an organism that was widespread but lived for a short time, used to date and correlate rock layers."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test key (sample): 1) Solar nebula and accretion; frost line. 2) Solar system age ~4.57 Ga from meteorites. 3) Half-life problems (e.g., 1/8 remaining = 3 half-lives). 4) Zircons ~4.4 Ga. 5) Wegener's evidence; lacked mechanism. 6) Magnetic stripes symmetric. 7) Spreading rate calc. 8) Superposition, cross-cutting, inclusions sequence. 9) Unconformity = gap in record. 10) California: terranes, Sierra batholith from subduction, San Andreas transform ~30 Ma. Timeline rubric: proficient = correct scale, at least 12 events placed accurately (±5%), labeled."
+  },
+  {
+   "week": 8,
+   "prep": "Slinky, glass pan, water, food coloring, candle or low stovetop (adult supervision), seismic shadow zone diagram, Hawaiian island age data (Kauai ~5.1 Ma, Oahu ~3 Ma, Maui ~1.3 Ma, Big Island 0–0.4 Ma; Kauai ~520 km from Kilauea).",
+   "misconceptions": [
+    "Thinking the mantle is liquid magma. It is mostly solid rock that flows very slowly (plastic) over geologic time.",
+    "Believing the core is cold or that the inner core is liquid. The outer core is liquid; the inner core is solid due to immense pressure.",
+    "Assuming the hot spot moves. The plate moves over a (relatively) fixed mantle plume."
+   ],
+   "days": [
+    {
+     "guide": "Slinky: push/pull for P-waves (compressional, particles move parallel to wave), shake sideways for S-waves (shear, perpendicular). Explain liquids can't transmit shear.",
+     "questions": [
+      {
+       "q": "Why can't S-waves travel through liquids?",
+       "a": "S-waves require the material to resist shearing and spring back; liquids have no shear strength."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze shadow zones: no direct S-waves beyond ~104° from the epicenter; no direct P-waves between ~104° and 140° (refraction). Infer a liquid outer core. Draw layers to scale (crust 5–70 km, mantle to 2,900 km, outer core to 5,150 km, inner core to 6,371 km).",
+     "questions": [
+      {
+       "q": "What evidence shows Earth's outer core is liquid?",
+       "a": "S-waves don't pass through it, creating a large S-wave shadow zone on the side of Earth opposite an earthquake."
+      }
+     ]
+    },
+    {
+     "guide": "Heat water in a glass pan over a low flame; add food coloring near the heat and observe rising, spreading, sinking loops. Relate to mantle convection.",
+     "questions": [
+      {
+       "q": "Why does heated fluid rise?",
+       "a": "It expands and becomes less dense than surrounding cooler fluid, so buoyancy lifts it; cooler, denser fluid sinks."
+      }
+     ]
+    },
+    {
+     "guide": "Calculate Pacific Plate speed: Kauai is ~520 km from Kilauea and ~5.1 million years old.",
+     "questions": [
+      {
+       "q": "Calculate the Pacific Plate's speed over the Hawaii hot spot.",
+       "a": "520 km ÷ 5.1 Myr ≈ 102 km/Myr = 10.2 cm/yr, moving northwest (islands get older to the northwest)."
+      }
+     ]
+    },
+    {
+     "guide": "Student draws a labeled interior model showing convection, ridge push, and slab pull; give a quiz.",
+     "questions": [
+      {
+       "q": "What is slab pull?",
+       "a": "The pull of a cold, dense subducting plate sinking into the mantle, dragging the rest of the plate — considered a major plate-driving force."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Interior/convection model rubric. 4 – Layers to scale with depths and states (solid inner core, liquid outer core, plastic mantle, rigid lithosphere), seismic evidence, convection cells linked to ridges and subduction, ridge push and slab pull, mantle plume. 3 (proficient) – Accurate layers, states, convection-plate connection. 2 – Errors in states or mechanism. 1 – Incomplete. Quiz key: 1) P-waves compressional, S-waves shear. 2) S-wave shadow → liquid outer core. 3) Mantle is solid but flows slowly. 4) Hawaii rate ~10 cm/yr NW. 5) Convection driven by density differences from heat."
+  },
+  {
+   "week": 9,
+   "prep": "Graham crackers, frosting, wax paper. Download the USGS 'latest earthquakes' list (M4.5+ past 30 days). Wallace Creek images (offset ~130 m over ~3,700 years). California geomorphic provinces map.",
+   "misconceptions": [
+    "Thinking the San Andreas is a subduction zone or that California will 'fall into the ocean.' It is a transform boundary; plates slide past horizontally.",
+    "Believing all mountains form from collisions. The Sierra Nevada is a tilted fault block uplifted along its eastern side.",
+    "Assuming earthquakes happen randomly. Most occur along plate boundaries."
+   ],
+   "days": [
+    {
+     "guide": "On frosting ('asthenosphere'), push crackers apart (divergent: rift/ridge), together (convergent: one dips under — subduction — or they crumple — mountains), and slide past (transform: offset).",
+     "questions": [
+      {
+       "q": "Match each boundary to a landform: Mid-Atlantic Ridge, Andes, San Andreas.",
+       "a": "Mid-Atlantic Ridge — divergent; Andes — convergent (ocean–continent subduction); San Andreas — transform."
+      }
+     ]
+    },
+    {
+     "guide": "Plot 30 days of M4.5+ earthquakes on a world map; outline plate boundaries.",
+     "questions": [
+      {
+       "q": "Where do earthquakes cluster?",
+       "a": "Along plate boundaries — especially the Pacific 'Ring of Fire,' mid-ocean ridges, and the Himalayan collision zone."
+      }
+     ]
+    },
+    {
+     "guide": "Study Wallace Creek: the channel is offset ~130 m by the San Andreas over ~3,700 years. Calculate slip rate.",
+     "questions": [
+      {
+       "q": "Calculate the slip rate at Wallace Creek.",
+       "a": "130 m ÷ 3,700 yr ≈ 0.035 m/yr = 35 mm/yr (about 3.5 cm/yr)."
+      }
+     ]
+    },
+    {
+     "guide": "Compare Cascadia subduction (Gorda/Juan de Fuca Plate under North America; Mt. Shasta, Lassen Peak volcanoes) with Sierra Nevada fault-block uplift; map CA landforms by process.",
+     "questions": [
+      {
+       "q": "Why are there volcanoes in far northern California but not along the San Andreas?",
+       "a": "Northern California sits above the Cascadia subduction zone, where the sinking plate releases water that melts the mantle; the transform San Andreas has no subduction to generate magma."
+      }
+     ]
+    },
+    {
+     "guide": "Student draws an annotated cross-section from the Pacific to Nevada (Pacific Plate, San Andreas, Coast Ranges, Great Valley, Sierra Nevada, Basin and Range); quiz.",
+     "questions": [
+      {
+       "q": "What process is stretching Nevada into the Basin and Range?",
+       "a": "Crustal extension (stretching) producing normal faults with alternating ranges and basins."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Annotated California cross-section rubric. 4 – Correct west-to-east order (Pacific Plate, San Andreas transform, Coast Ranges/Franciscan, Great Valley, Sierra Nevada batholith/tilted block, eastern Sierra fault, Basin and Range extension), arrows for plate motion, annotations explaining processes, Cascadia noted for northern CA. 3 (proficient) – Correct order and processes. 2 – Some misplacements. 1 – Inaccurate. Quiz key: divergent/convergent/transform; slip ~35 mm/yr; Shasta and Lassen = Cascade volcanoes."
+  },
+  {
+   "week": 10,
+   "prep": "Two identical containers, water, sand, lamp, 2 thermometers; chalk, white vinegar, kitchen scale (0.1 g if possible); plaster of Paris and a straw (to mold a hole), freezer; baking pan, sand, watering can, books for slope. Prepare a lab report template.",
+   "misconceptions": [
+    "Thinking weathering and erosion are the same. Weathering breaks rock down in place; erosion moves the pieces.",
+    "Believing ice shrinks. Water expands about 9% when it freezes, which wedges cracks open.",
+    "Changing multiple variables in the stream table at once."
+   ],
+   "days": [
+    {
+     "guide": "Heat equal masses of water and sand under a lamp, recording temperature every 2 minutes for 20 minutes. Graph.",
+     "questions": [
+      {
+       "q": "Why does the sand warm faster than the water?",
+       "a": "Water's specific heat (4.18 J/g·°C) is much higher than sand's (~0.8 J/g·°C), so water needs more energy to change temperature."
+      },
+      {
+       "q": "How does water's high heat capacity affect coastal climates?",
+       "a": "Oceans warm and cool slowly, giving coastal areas milder temperatures than inland areas."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh chalk pieces; place one in water and one in vinegar for 24 hours; dry and reweigh; calculate percent mass loss.",
+     "questions": [
+      {
+       "q": "Chalk lost 3.2 g of 8.0 g in vinegar. Percent loss?",
+       "a": "40%."
+      },
+      {
+       "q": "Write the reaction responsible.",
+       "a": "CaCO₃ + 2CH₃COOH → Ca(CH₃COO)₂ + H₂O + CO₂ — acid dissolves calcium carbonate, as carbonic acid in rain dissolves limestone."
+      }
+     ]
+    },
+    {
+     "guide": "Fill the plaster block's hole with water; freeze/thaw for several cycles (one per day over the week, continuing the observations), recording cracks.",
+     "questions": [
+      {
+       "q": "Explain frost wedging.",
+       "a": "Water in cracks freezes and expands ~9%, widening the cracks; repeated freeze-thaw cycles break rock apart."
+      }
+     ]
+    },
+    {
+     "guide": "Stream table: vary slope (1 vs. 3 books) at constant flow; measure distance of erosion and deposition (delta) size.",
+     "questions": [
+      {
+       "q": "Predict how increasing slope affects erosion.",
+       "a": "Steeper slope → faster water → more erosion and sediment carried farther."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a full lab report on one investigation.",
+     "questions": [
+      {
+       "q": "In the chalk experiment, name the independent, dependent, and controlled variables.",
+       "a": "Independent: liquid (water vs. vinegar). Dependent: mass lost. Controlled: chalk size/type, volume of liquid, time, temperature."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Lab report rubric (HS-ESS2-5). 4 – Testable question, hypothesis, variables identified, procedure, data table with units and trials, appropriate graph, conclusion that connects results to water's properties and Earth processes, error analysis. 3 (proficient) – All sections with correct variables, graph, and evidence-based conclusion. 2 – Missing sections or weak conclusion. 1 – Incomplete."
+  },
+  {
+   "week": 11,
+   "prep": "Black and white paper, ice cubes of equal size, lamp, 2 thermometers. Find global temperature data after the June 1991 Pinatubo eruption (NASA). Read about Matilija Dam (Ventura River, built 1947, now mostly filled with sediment; removal planned). Prepare the Unit 3 test.",
+   "misconceptions": [
+    "Thinking 'positive feedback' means good. It means a change is amplified; negative feedback dampens change.",
+    "Assuming volcanoes only warm climate. Large explosive eruptions inject sulfur dioxide that forms reflective aerosols, cooling the planet for 1–3 years.",
+    "Treating Earth's spheres separately. Events in one sphere ripple through the others."
+   ],
+   "days": [
+    {
+     "guide": "Diagram a wildfire across spheres: atmosphere (smoke, CO₂), biosphere (vegetation loss), geosphere (soil hydrophobic, landslides/debris flows), hydrosphere (runoff, water quality).",
+     "questions": [
+      {
+       "q": "How can a wildfire lead to a debris flow?",
+       "a": "Fire removes vegetation and creates water-repellent soil; heavy rain then runs off rapidly, carrying soil and rock downhill."
+      }
+     ]
+    },
+    {
+     "guide": "Albedo lab: ice cubes on black vs. white paper under a lamp; record melt time and paper temperature.",
+     "questions": [
+      {
+       "q": "Explain the ice-albedo feedback.",
+       "a": "Warming melts sea ice, exposing dark ocean (albedo ~0.06 vs. ~0.5–0.7 for ice), which absorbs more sunlight, causing more warming and melting — a positive feedback."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze temperature data after Pinatubo: global average cooled about 0.5 °C in 1992.",
+     "questions": [
+      {
+       "q": "Why did Pinatubo cool the planet?",
+       "a": "It injected ~15–20 million tons of SO₂ into the stratosphere, forming sulfate aerosols that reflected sunlight back to space."
+      }
+     ]
+    },
+    {
+     "guide": "Matilija Dam: traps sediment → less sand to the Ventura River mouth → beach erosion and loss of steelhead habitat. Draw the chain.",
+     "questions": [
+      {
+       "q": "How can a dam cause beaches downstream to shrink?",
+       "a": "It traps sediment that would otherwise reach the coast to replenish beaches, so waves erode beaches faster than they're resupplied."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test.",
+     "questions": [
+      {
+       "q": "Give an example of a negative feedback in the climate system.",
+       "a": "Example: warmer temperatures increase outgoing infrared radiation (Earth radiates more as it warms), or more plant growth with more CO₂ removes some CO₂."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test key (sample): 1) P- and S-waves; liquid outer core evidence. 2) Mantle convection drives plates; slab pull. 3) Hot spot calculation. 4) Boundaries and California landforms. 5) San Andreas slip ~3.5 cm/yr. 6) Water's high heat capacity; frost wedging; acid weathering. 7) Weathering vs. erosion. 8) Positive vs. negative feedback with examples (ice-albedo positive). 9) Pinatubo aerosols cooled ~0.5 °C. 10) Dams trap sediment → beach erosion. 90%+ advanced, 75–89% proficient."
+  },
+  {
+   "week": 12,
+   "prep": "Two jars, plastic wrap, 2 thermometers, lamp, timer; PhET 'Greenhouse Effect' simulation; NASA Earth energy budget diagram (incoming ~340 W/m²); Vostok or EPICA ice-core temperature/CO₂ graph.",
+   "misconceptions": [
+    "Thinking the greenhouse effect is the same as the ozone hole. They are separate issues.",
+    "Believing greenhouse gases trap heat like a glass greenhouse. A real greenhouse mainly blocks convection; greenhouse gases absorb and re-emit infrared radiation.",
+    "Assuming Milankovitch cycles explain current warming. They act over tens of thousands of years; current warming is far faster and tracks CO₂."
+   ],
+   "days": [
+    {
+     "guide": "Label NASA's budget: ~340 W/m² incoming; ~100 reflected (≈29–30%); ~240 absorbed by atmosphere and surface; ~240 emitted to space as infrared. Confirm balance.",
+     "questions": [
+      {
+       "q": "If incoming is 340 W/m² and 100 W/m² is reflected, what must be emitted as infrared for balance?",
+       "a": "240 W/m²."
+      },
+      {
+       "q": "What is Earth's albedo from these numbers?",
+       "a": "100/340 ≈ 0.29 (29%)."
+      }
+     ]
+    },
+    {
+     "guide": "Covered vs. uncovered jar under a lamp, 30 minutes, readings every 3 minutes. Graph; discuss limits (wrap blocks convection — not identical to the atmospheric greenhouse effect).",
+     "questions": [
+      {
+       "q": "What is a limitation of the jar model?",
+       "a": "The plastic wrap mainly traps warm air (stops convection) rather than absorbing and re-emitting infrared like greenhouse gases."
+      }
+     ]
+    },
+    {
+     "guide": "In PhET, vary greenhouse gas concentration and record equilibrium temperature.",
+     "questions": [
+      {
+       "q": "Why does more greenhouse gas raise the equilibrium temperature?",
+       "a": "More IR is absorbed and re-radiated back toward the surface, so the surface must warm until outgoing energy again balances incoming."
+      }
+     ]
+    },
+    {
+     "guide": "Milankovitch: eccentricity (~100,000 yr), obliquity/tilt (22.1°–24.5°, ~41,000 yr), precession (~23,000 yr). Match to ice-age cycles (~100,000-year glacial cycles over the last ~800,000 years) in ice-core data.",
+     "questions": [
+      {
+       "q": "Name the three Milankovitch cycles and their approximate periods.",
+       "a": "Eccentricity ~100,000 years; obliquity (tilt) ~41,000 years; precession ~23,000 years (19,000–26,000)."
+      }
+     ]
+    },
+    {
+     "guide": "Student explains how energy-flow changes at different time scales change climate; quiz.",
+     "questions": [
+      {
+       "q": "Give one climate driver for each time scale: years, millennia, millions of years.",
+       "a": "Years: volcanic aerosols, El Niño, solar cycle. Tens of thousands of years: Milankovitch orbital cycles. Millions of years: plate tectonics (continent positions, mountain building and weathering), long-term CO₂ changes, gradual brightening of the Sun."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Energy flow explanation rubric. 4 – Uses the energy budget to explain balance; explains greenhouse mechanism (IR absorption/re-emission); describes drivers at short (volcanoes, solar), intermediate (Milankovitch), and long (tectonic, solar evolution) scales with evidence; discusses human CO₂ as current driver. 3 (proficient) – Accurate budget, mechanism, and three time scales. 2 – Partial. 1 – Inaccurate. Quiz key: 1) 340 in, ~100 reflected, ~240 out. 2) Albedo ~0.3. 3) Greenhouse gases: CO₂, CH₄, H₂O, N₂O. 4) Milankovitch periods. 5) Jar model limitation."
+  },
+  {
+   "week": 13,
+   "prep": "Bromothymol blue (aquarium/pool kits) or red cabbage indicator, straws, Elodea (aquarium store), clear tubes or jars, lamp, foil. Reservoir sizes (approx. GtC): atmosphere ~880; vegetation ~450–650; soils ~1,500–2,400; surface ocean ~900; deep ocean ~37,000; fossil fuels ~1,000–2,000+; sedimentary rocks ~tens of millions. Fluxes: photosynthesis ~120 GtC/yr; ocean–air exchange ~80–90 each way; human emissions ~10 GtC/yr. 1 ppm CO₂ ≈ 2.13 GtC.",
+   "misconceptions": [
+    "Thinking plants get their mass from soil. Most plant mass comes from CO₂ taken from the air.",
+    "Believing the ocean absorbing CO₂ is harmless. It lowers ocean pH (acidification), harming shell-building organisms.",
+    "Assuming all emitted CO₂ stays in the air. About half is absorbed by oceans and land."
+   ],
+   "days": [
+    {
+     "guide": "Build a box-and-arrow model with reservoirs and annual fluxes.",
+     "questions": [
+      {
+       "q": "Which reservoir holds the most carbon?",
+       "a": "Sedimentary rocks (limestone, etc.); of the active reservoirs, the deep ocean (~37,000 GtC)."
+      }
+     ]
+    },
+    {
+     "guide": "Blow through a straw into bromothymol blue (blue → green → yellow as CO₂ forms carbonic acid).",
+     "questions": [
+      {
+       "q": "Write the reaction that acidifies the water.",
+       "a": "CO₂ + H₂O → H₂CO₃ (carbonic acid) → H⁺ + HCO₃⁻; more H⁺ lowers pH."
+      }
+     ]
+    },
+    {
+     "guide": "Place Elodea in acidified (yellow) indicator: one tube in light, one wrapped in foil, plus a control tube with no plant. Observe for 24 hours.",
+     "questions": [
+      {
+       "q": "Predict the color change in the lit tube vs. the dark tube.",
+       "a": "Lit: turns blue/green as photosynthesis removes CO₂. Dark: stays yellow (or becomes more yellow) because the plant only respires, adding CO₂."
+      }
+     ]
+    },
+    {
+     "guide": "Use the Keeling Curve: CO₂ rises ~2.4 ppm/yr. Convert to GtC and compare to human emissions.",
+     "questions": [
+      {
+       "q": "If CO₂ rises 2.4 ppm/yr and 1 ppm = 2.13 GtC, how much carbon accumulates in the air each year? What fraction of ~10 GtC human emissions is that?",
+       "a": "2.4 × 2.13 ≈ 5.1 GtC/yr — about half of human emissions; the rest is absorbed by the ocean and land."
+      },
+      {
+       "q": "Why does the Keeling Curve zigzag each year?",
+       "a": "Northern Hemisphere plants take up CO₂ in spring/summer and release it in fall/winter."
+      }
+     ]
+    },
+    {
+     "guide": "Student revises the model to include human emissions and the fates of excess carbon.",
+     "questions": [
+      {
+       "q": "Where does the excess carbon go?",
+       "a": "Roughly half stays in the atmosphere, about a quarter goes into the ocean (causing acidification), and about a quarter into land vegetation and soils."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quantitative carbon cycle model rubric. 4 – Reservoirs with sizes (GtC) and fluxes (GtC/yr) from cited data, balanced natural fluxes, human fossil-fuel and land-use emissions (~10–11 GtC/yr), partition (≈half atmosphere, ≈quarter ocean, ≈quarter land), ocean acidification explained with chemistry, uses lab evidence. 3 (proficient) – Reservoirs and fluxes with numbers, human input, and fate of excess. 2 – Qualitative only. 1 – Incomplete."
+  },
+  {
+   "week": 14,
+   "prep": "Steel wool, vinegar, jars with lids (or a balloon over the mouth), thermometer; the Week 7 timeline; images of stromatolites (Shark Bay) and banded iron formations. Prepare the Unit 4 test.",
+   "misconceptions": [
+    "Thinking Earth always had oxygen. Free O₂ accumulated only after the Great Oxidation Event (~2.4–2.1 Ga).",
+    "Believing life just adapted to Earth. Life also changed Earth (atmosphere, soils, rocks) — coevolution.",
+    "Assuming mass extinctions all had the same cause."
+   ],
+   "days": [
+    {
+     "guide": "Read about cyanobacteria producing O₂ by photosynthesis; stromatolites (layered microbial mats) date back ~3.5 Ga; the Great Oxidation Event ~2.4 Ga.",
+     "questions": [
+      {
+       "q": "What organisms caused the Great Oxidation Event?",
+       "a": "Cyanobacteria, through oxygenic photosynthesis."
+      }
+     ]
+    },
+    {
+     "guide": "Seal vinegar-soaked steel wool in a jar with a thermometer or balloon; observe rust and oxygen consumption (balloon pulled in, temperature rises slightly).",
+     "questions": [
+      {
+       "q": "How does the steel wool model banded iron formations?",
+       "a": "Dissolved iron in early oceans reacted with oxygen from cyanobacteria to form iron oxides that settled as red layers — just as iron in the jar consumes oxygen and rusts."
+      }
+     ]
+    },
+    {
+     "guide": "Trace Devonian land plants (419–359 Ma): roots deepened weathering and built soils, pulling down CO₂ and cooling climate.",
+     "questions": [
+      {
+       "q": "How did land plants lower atmospheric CO₂?",
+       "a": "Roots accelerated chemical weathering of silicate rocks (which consumes CO₂) and plants buried organic carbon in soils and sediments (later coal)."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze end-Permian (252 Ma; Siberian Traps volcanism, ~90%+ of marine species lost) and end-Cretaceous (66 Ma; Chicxulub asteroid impact plus Deccan Traps; ~75% of species lost including non-avian dinosaurs).",
+     "questions": [
+      {
+       "q": "What evidence supports an asteroid impact at the end of the Cretaceous?",
+       "a": "A worldwide iridium-rich clay layer, shocked quartz, tektites, and the Chicxulub crater (~180 km) in Mexico's Yucatán dated to 66 Ma."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes an argument on coevolution; give the Unit 4 test.",
+     "questions": [
+      {
+       "q": "Give an example of life changing the geosphere.",
+       "a": "Cyanobacteria oxidized the atmosphere/ocean producing banded iron formations; plants built soils; corals and plankton built limestone."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Coevolution argument rubric. 4 – Claim that Earth's systems and life coevolved; at least three examples with dates (GOE ~2.4 Ga and BIFs, Devonian plants and CO₂/soils, mass extinctions from Earth-system changes); explains feedback both ways. 3 (proficient) – Two or three accurate examples with reasoning. 2 – One example. 1 – Unsupported. Unit 4 test key: 1) Energy budget numbers. 2) Greenhouse mechanism. 3) Milankovitch periods. 4) Carbon reservoirs/fluxes; ~half of emissions stay airborne. 5) Ocean acidification chemistry. 6) Keeling Curve seasonality. 7) GOE and cyanobacteria. 8) BIFs. 9) Devonian plants. 10) End-Permian vs. end-Cretaceous causes."
+  },
+  {
+   "week": 15,
+   "prep": "Sand, water, pan, small weights (coins, small toy houses), the Cal OES MyHazards website; CAL FIRE statistics page; readings on the 1906 San Francisco earthquake and the Great Flood of 1862. Family emergency plan template (ready.gov).",
+   "misconceptions": [
+    "Confusing hazard and risk. Hazard is the natural event; risk combines likelihood and vulnerability/exposure.",
+    "Thinking earthquakes can be predicted to the day. Scientists give probabilities, not predictions.",
+    "Believing wildfire is only a climate problem. Fuel buildup, ignition sources, and building in the wildland-urban interface all matter."
+   ],
+   "days": [
+    {
+     "guide": "Look up your address on MyHazards; record earthquake, flood, fire, and tsunami levels.",
+     "questions": [
+      {
+       "q": "Define hazard vs. risk.",
+       "a": "A hazard is a potentially damaging natural event; risk is the likelihood of harm, depending on the hazard's probability and the exposure and vulnerability of people and property."
+      }
+     ]
+    },
+    {
+     "guide": "Saturate sand in a pan, place weights on top, tap the pan repeatedly; observe sinking and water rising. Relate to the Marina District in 1989 Loma Prieta (M6.9), built on artificial fill.",
+     "questions": [
+      {
+       "q": "What causes liquefaction?",
+       "a": "Shaking increases water pressure between grains in loose, saturated sediment, so grains lose contact and the soil behaves like a liquid."
+      }
+     ]
+    },
+    {
+     "guide": "Graph CAL FIRE acres burned by decade; explain links to warming/drought, fuels, longer fire seasons, and WUI development.",
+     "questions": [
+      {
+       "q": "What is the wildland-urban interface?",
+       "a": "Areas where homes and development meet or mix with undeveloped wildland vegetation, increasing wildfire risk to people and ignitions from people."
+      }
+     ]
+    },
+    {
+     "guide": "Research how the 1906 earthquake (M7.9) or the 1862 flood changed building and settlement.",
+     "questions": [
+      {
+       "q": "How did the Great Flood of 1862 change Sacramento?",
+       "a": "The city was flooded for months; afterward it raised its downtown streets (roughly 10–15 ft) and built stronger levees."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a family emergency plan and supply checklist for the top two hazards.",
+     "questions": [
+      {
+       "q": "How much water should an emergency kit contain?",
+       "a": "At least 1 gallon per person per day for several days (ready.gov recommends a minimum of 3 days; 2 weeks for home is better)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Family hazard plan rubric. 4 – Uses MyHazards data to choose two hazards, includes meeting places, out-of-area contact, evacuation routes, specific actions (drop-cover-hold on; evacuate early for fire), supply checklist with quantities, and case-study summary linking past events to current codes/land use. 3 (proficient) – Plan with contacts, routes, actions, supplies, and accurate case study. 2 – Generic plan. 1 – Incomplete."
+  },
+  {
+   "week": 16,
+   "prep": "Chocolate chip cookies (2 types), toothpicks, graph paper, 'mining' budget sheet (land cost per square, tool rental, reclamation cost). California water map (State Water Project and Central Valley Project). USGS/DWR Central Valley subsidence data.",
+   "misconceptions": [
+    "Thinking groundwater is an underground lake. It fills pores and fractures in rock and sediment (aquifers).",
+    "Confusing reserve and resource. A reserve is the portion economically recoverable now.",
+    "Believing subsidence reverses when wells refill. Compaction of clay layers is largely permanent, reducing aquifer storage."
+   ],
+   "days": [
+    {
+     "guide": "Cookie mining: buy a cookie, trace it on graph paper, mine chips with toothpicks within 5 minutes, then reclaim. Calculate profit = chip value − costs (purchase, tools, time, reclamation per damaged square).",
+     "questions": [
+      {
+       "q": "A miner earns $2 per chip and gets 8 chips; costs are cookie $3, tool $2, time $1/min × 5 min, and reclamation $1 × 6 damaged squares. What is the profit?",
+       "a": "Revenue $16; costs 3 + 2 + 5 + 6 = $16; profit = $0."
+      }
+     ]
+    },
+    {
+     "guide": "Read about the Gold Rush (Coloma, 1848) and Kern County oil; explain settlement and environmental effects (hydraulic mining debris, ban in 1884).",
+     "questions": [
+      {
+       "q": "Why was hydraulic mining banned in California in 1884?",
+       "a": "It washed massive amounts of sediment into rivers, flooding farms and clogging waterways (Woodruff v. North Bloomfield ruling)."
+      }
+     ]
+    },
+    {
+     "guide": "Map SWP (Oroville Dam, California Aqueduct) and CVP (Shasta Dam, federal) — water from wetter north to drier south and the San Joaquin Valley.",
+     "questions": [
+      {
+       "q": "Why does California move water north to south?",
+       "a": "Most precipitation falls in the north and Sierra, while much farmland and population are in the drier south and San Joaquin Valley."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze subsidence (San Joaquin Valley land sank nearly 30 ft near Mendota from 1925–1977; renewed rapid subsidence during recent droughts).",
+     "questions": [
+      {
+       "q": "Explain the link between drought and subsidence.",
+       "a": "During drought, less surface water means more groundwater pumping; as water is removed, clay layers compact and the land surface sinks."
+      }
+     ]
+    },
+    {
+     "guide": "Student explains how one resource shaped their region; quiz.",
+     "questions": [
+      {
+       "q": "Renewable or nonrenewable: groundwater in the Central Valley?",
+       "a": "Technically renewable, but when pumped faster than it recharges (overdraft) it behaves as nonrenewable on human time scales."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Regional resource explanation rubric. 4 – Specific resource with data/dates, explains how it shaped settlement, economy, and environment, and current sustainability issues. 3 (proficient) – Accurate explanation with evidence. 2 – General. 1 – Inaccurate. Quiz key: 1) Renewable vs. nonrenewable. 2) Aquifer = permeable rock/sediment holding groundwater. 3) Reserve vs. resource. 4) Gold Rush 1848; hydraulic mining ban 1884. 5) SWP state, CVP federal. 6) Subsidence from groundwater overdraft."
+  },
+  {
+   "week": 17,
+   "prep": "Household utility bill (kWh and cost), spreadsheet, California Energy Commission 'Total System Electric Generation' page (current and ~10 years ago). Emission factor: use the utility's stated factor or about 0.2 kg CO₂ per kWh for the California grid.",
+   "misconceptions": [
+    "Thinking renewables have zero environmental impact. All sources have life-cycle impacts (mining, land use).",
+    "Comparing sources by installed capacity alone. Capacity factor (how much they actually produce) matters.",
+    "Ignoring payback time in cost-benefit."
+   ],
+   "days": [
+    {
+     "guide": "Analyze the in-state mix now vs. 10 years ago; note growth of solar and decline of others.",
+     "questions": [
+      {
+       "q": "What does capacity factor mean?",
+       "a": "The ratio of actual energy produced over a period to the maximum possible if running at full capacity all the time."
+      }
+     ]
+    },
+    {
+     "guide": "Spreadsheet comparing solar, wind, gas, geothermal, nuclear: cost (levelized cost), emissions, land use, reliability (capacity factor).",
+     "questions": [
+      {
+       "q": "A 100 MW solar farm has a 25% capacity factor. How much energy per year?",
+       "a": "100 MW × 8,760 h × 0.25 = 219,000 MWh (219 GWh)."
+      }
+     ]
+    },
+    {
+     "guide": "Evaluate Salton Sea geothermal-brine lithium (lower land disturbance, uses existing geothermal plants; technology still scaling) vs. hard-rock mining (proven, larger land and water impacts).",
+     "questions": [
+      {
+       "q": "Why is the Salton Sea area called 'Lithium Valley'?",
+       "a": "Its hot geothermal brines contain dissolved lithium that can be extracted at geothermal power plants."
+      }
+     ]
+    },
+    {
+     "guide": "From the bill: monthly kWh × emission factor = CO₂. Test an LED swap: 60 W → 9 W bulb used 3 h/day.",
+     "questions": [
+      {
+       "q": "Your household uses 500 kWh/month. Estimate CO₂ at 0.2 kg/kWh.",
+       "a": "100 kg CO₂ per month."
+      },
+      {
+       "q": "Swapping a 60 W bulb for a 9 W LED used 3 h/day saves how much energy per month, and at $0.30/kWh what is the payback on a $3 bulb?",
+       "a": "51 W × 3 h × 30 = 4.59 kWh/month ≈ $1.38/month; payback ≈ 2.2 months."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a one-page decision memo for a California town with cost-benefit reasoning.",
+     "questions": [
+      {
+       "q": "What is a cost-benefit ratio?",
+       "a": "Benefits divided by costs (or the reverse), used to compare options; a benefit/cost ratio above 1 means benefits exceed costs."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Energy decision memo rubric. 4 – Clear recommendation for a specific town; compares at least three options with data (cost, emissions, capacity factor, land/water use); quantified cost-benefit; addresses trade-offs and equity; cites CEC data. 3 (proficient) – Recommendation with data comparison and cost-benefit reasoning. 2 – Little data. 1 – Unsupported."
+  },
+  {
+   "week": 18,
+   "prep": "Notes, lab notebook, large paper for concept map, CK-12 Earth Science readings for weak areas. Prepare a data-analysis review set (graphs from each unit) and the semester final.",
+   "misconceptions": [
+    "Studying by rereading only. Use practice questions and explain answers aloud.",
+    "Concept maps without linking words. Every arrow needs a verb phrase.",
+    "Ignoring units in calculations."
+   ],
+   "days": [
+    {
+     "guide": "Build a concept map linking stars → elements → Earth formation → plate tectonics → climate → resources.",
+     "questions": [
+      {
+       "q": "Give one linking statement between stars and plate tectonics.",
+       "a": "Example: Supernovae produced radioactive elements (U, Th, K) whose decay heats Earth's interior, driving mantle convection and plate motion."
+      }
+     ]
+    },
+    {
+     "guide": "Complete a data-analysis set (H-R diagram, Hubble plot, seafloor age, ice cores, Keeling Curve).",
+     "questions": [
+      {
+       "q": "A graph of velocity vs. distance for galaxies is a straight line with slope 70 km/s/Mpc. What does the slope represent?",
+       "a": "The Hubble constant — the expansion rate of the universe."
+      }
+     ]
+    },
+    {
+     "guide": "Practice exam; target weak areas with CK-12 readings.",
+     "questions": [
+      {
+       "q": "What is the half-life if 1/16 of a parent remains after 20,000 years?",
+       "a": "4 half-lives in 20,000 years → 5,000 years per half-life."
+      }
+     ]
+    },
+    {
+     "guide": "Summarize claim and evidence from five investigations in the lab notebook.",
+     "questions": [
+      {
+       "q": "What made your best lab conclusion strong?",
+       "a": "Answers vary; it should cite specific data, explain the scientific reasoning, and note error sources."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Semester 1 final.",
+     "questions": [
+      {
+       "q": "What evidence shows the outer core is liquid?",
+       "a": "The S-wave shadow zone — S-waves can't pass through liquid."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester 1 final key (sample): 1) Fusion and E = mc². 2) Big Bang evidence (3). 3) H-R diagram/star life cycles. 4) Element origins. 5) Kepler's laws and T² = a³. 6) v = √(GM/r). 7) Solar nebula; meteorite age 4.57 Ga; half-life. 8) Plate tectonics evidence; spreading rate. 9) Relative dating laws. 10) Seismic waves and interior. 11) Boundaries; San Andreas transform. 12) Water's properties; weathering. 13) Feedbacks; albedo. 14) Energy budget; greenhouse; Milankovitch. 15) Carbon cycle numbers. 16) GOE. 17) Hazards vs. risk; liquefaction. 18) Resources; subsidence. 19) Capacity factor calc. 90%+ advanced, 75–89% proficient."
+  },
+  {
+   "week": 19,
+   "prep": "Meter stick and string to make a 1 m² quadrat, field notebook, iNaturalist app (with parent account settings for privacy). Sea otter–urchin–kelp data (e.g., from Monterey Bay Aquarium or NOAA). Note: since 2013–14, sea star wasting disease killed sunflower sea stars (urchin predators), and northern California bull kelp declined by more than 90%.",
+   "misconceptions": [
+    "Thinking stable ecosystems have constant populations. Populations fluctuate within a range around carrying capacity.",
+    "Equating biodiversity with number of species only. It includes genetic and ecosystem diversity and evenness.",
+    "Believing keystone species are the most abundant. They have effects disproportionate to their abundance."
+   ],
+   "days": [
+    {
+     "guide": "Define genetic, species, ecosystem diversity. Calculate Simpson's diversity index D = 1 − Σn(n−1)/[N(N−1)] from sample counts.",
+     "questions": [
+      {
+       "q": "A quadrat has species counts A = 10, B = 6, C = 3, D = 1. Calculate Simpson's index.",
+       "a": "N = 20; Σn(n−1) = 90 + 30 + 6 + 0 = 126; N(N−1) = 380; D = 1 − 126/380 ≈ 0.67."
+      }
+     ]
+    },
+    {
+     "guide": "Survey a 1 m² quadrat; identify and count organisms using iNaturalist.",
+     "questions": [
+      {
+       "q": "Why use a quadrat instead of counting a whole area?",
+       "a": "It gives a manageable, repeatable sample that can be scaled up to estimate the whole area."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze otter–urchin–kelp data: otters eat urchins; when otters were removed by the fur trade, urchins overgrazed kelp ('urchin barrens'); where otters recovered, kelp returned.",
+     "questions": [
+      {
+       "q": "Why is the sea otter a keystone species?",
+       "a": "By eating sea urchins, otters keep urchins from overgrazing kelp, maintaining entire kelp forest ecosystems — a much larger effect than their numbers suggest."
+      }
+     ]
+    },
+    {
+     "guide": "Compare secondary succession after a chaparral fire (soil remains; crown-sprouting shrubs and fire-following annuals return quickly) with primary succession on new lava (lichens and mosses build soil first).",
+     "questions": [
+      {
+       "q": "Which succession is faster, after a fire or on new lava, and why?",
+       "a": "After a fire (secondary) — soil, seeds, and roots remain; on lava (primary) soil must first form."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a CER evaluating 'stable ecosystems maintain consistent numbers' using kelp data.",
+     "questions": [
+      {
+       "q": "What is carrying capacity?",
+       "a": "The maximum population size an environment can support sustainably given its resources."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quadrat data: proficient = species list with counts, photos/iNaturalist IDs, correctly calculated Simpson's index. CER rubric: Claim – stable ecosystems maintain populations within a range but can shift dramatically after large disturbances (the 'consistent numbers' claim holds only for modest disturbances). Evidence – kelp/urchin/otter data, including urchin barrens after otter loss and after sea-star die-off. Reasoning – carrying capacity, keystone effects, resilience thresholds. 4 = nuanced and data-rich; 3 = accurate with data; 2 = partial; 1 = unsupported."
+  },
+  {
+   "week": 20,
+   "prep": "California Department of Fish and Wildlife (CDFW) species pages, map of global biodiversity hotspots, condor population data (22 individuals in 1982; last wild bird captured 1987; releases began 1992; now several hundred, more than half in the wild).",
+   "misconceptions": [
+    "Thinking extinction is only from hunting. Habitat loss is the leading cause globally.",
+    "Believing invasive species are any non-native species. Invasives are non-natives that spread and cause harm.",
+    "Assuming recovered species are 'saved' forever. Condors still need management (lead poisoning remains a major threat)."
+   ],
+   "days": [
+    {
+     "guide": "Teach HIPPO and sort 10 case examples.",
+     "questions": [
+      {
+       "q": "Classify: quagga mussels in Lake Mead; draining Central Valley wetlands; overfishing sardines.",
+       "a": "Invasive species; habitat loss; overharvesting."
+      }
+     ]
+    },
+    {
+     "guide": "Explain why the California Floristic Province is a hotspot (thousands of native plant species, more than half endemic, with much original habitat lost). List five endemics.",
+     "questions": [
+      {
+       "q": "Name five species endemic to California.",
+       "a": "Examples: giant sequoia, valley oak, Monterey cypress, island fox, California tiger salamander."
+      }
+     ]
+    },
+    {
+     "guide": "Investigate one invasive: quagga mussel (clogs water pipes, filters plankton from food webs), Argentine ant (displaces native ants; coast horned lizards decline), or ice plant (smothers native dune plants).",
+     "questions": [
+      {
+       "q": "How do Argentine ants harm coast horned lizards?",
+       "a": "They displace native harvester ants, the lizards' main food, and the lizards don't eat Argentine ants."
+      }
+     ]
+    },
+    {
+     "guide": "Graph condor data and identify interventions: captive breeding, releases, lead-ammunition ban (fully in effect 2019), monitoring and chelation treatment.",
+     "questions": [
+      {
+       "q": "What is the biggest ongoing threat to wild condors?",
+       "a": "Lead poisoning from eating carcasses containing lead ammunition fragments."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz plus a paragraph on the most serious threat in the region.",
+     "questions": [
+      {
+       "q": "What does HIPPO stand for?",
+       "a": "Habitat loss, Invasive species, Pollution, Population (human), Overharvesting."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) HIPPO. 2) Hotspot = high endemism + major habitat loss. 3) Endemic = found only in one region. 4) Invasive example and effect. 5) Condor 22 in 1982; captive breeding; lead. 6) Keystone species. Paragraph rubric: proficient = names a regional threat, supports with specific local evidence, explains mechanism, suggests action."
+  },
+  {
+   "week": 21,
+   "prep": "Goldfish crackers or dried beans (a large bowl as the 'ocean'), spreadsheet. Logistic model: N_next = N + rN(1 − N/K) − H.",
+   "misconceptions": [
+    "Thinking a fixed quota is always safe. When populations drop, a fixed quota takes a larger share and can cause collapse.",
+    "Assuming maximum harvest happens at maximum population. Maximum sustainable yield occurs near K/2 in the logistic model.",
+    "Treating model output as exact predictions. Models depend on assumptions (parameters)."
+   ],
+   "days": [
+    {
+     "guide": "Fishing game: 4 players fish from a shared pool; remaining fish double each round (up to a limit). Record collapse.",
+     "questions": [
+      {
+       "q": "What is the tragedy of the commons?",
+       "a": "When individuals acting in self-interest overuse a shared resource, depleting it for everyone."
+      }
+     ]
+    },
+    {
+     "guide": "Build the logistic spreadsheet with r, K, harvest H.",
+     "questions": [
+      {
+       "q": "With r = 0.5, K = 1,000, and N = 500, what is growth before harvest?",
+       "a": "0.5 × 500 × (1 − 0.5) = 125 fish per year."
+      },
+      {
+       "q": "What is the maximum sustainable yield for r = 0.5, K = 1,000?",
+       "a": "rK/4 = 125 fish per year, at N = K/2 = 500."
+      }
+     ]
+    },
+    {
+     "guide": "Test three policies (fixed quota, fixed percentage, no-take zones) over 50 years; graph.",
+     "questions": [
+      {
+       "q": "Why is a fixed-percentage harvest more stable than a fixed quota?",
+       "a": "Harvest automatically falls as the population falls, reducing pressure when the stock is low."
+      }
+     ]
+    },
+    {
+     "guide": "Add a marine protected area (portion of the population not harvested, which spills over) and measure effect.",
+     "questions": [
+      {
+       "q": "How do marine protected areas help fisheries?",
+       "a": "Protected populations grow larger and older, produce more young, and spill over into fished areas."
+      }
+     ]
+    },
+    {
+     "guide": "Report recommending a strategy with graphs.",
+     "questions": [
+      {
+       "q": "What is a parameter in a model?",
+       "a": "A fixed input value (like growth rate or carrying capacity) that sets the model's behavior."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Simulation and recommendation report rubric. 4 – Correct logistic spreadsheet, three policies compared over 50 years with graphs, MPA added, sensitivity to r or K noted, recommendation justified with data and limitations. 3 (proficient) – Working model, graphs, justified recommendation. 2 – Model errors or no comparison. 1 – Incomplete."
+  },
+  {
+   "week": 22,
+   "prep": "Native plant seeds or a pollinator plant (check Calscape.org for local natives), optional wood scraps and drill for a bee hotel, window decals. Read about the Wallis Annenberg Wildlife Crossing (Liberty Canyon, Agoura Hills; groundbreaking April 2022) built so mountain lions and other wildlife can cross the 101 Freeway. Prepare the Unit 6 test.",
+   "misconceptions": [
+    "Thinking any plant helps pollinators. Native plants support far more native insects.",
+    "Designing without criteria and constraints.",
+    "Believing small actions don't matter. Many backyard habitats together create corridors."
+   ],
+   "days": [
+    {
+     "guide": "Study the crossing: problem (freeway isolates Santa Monica Mountains lions, causing inbreeding), criteria (width, vegetation, noise/light shielding), constraints (cost, traffic).",
+     "questions": [
+      {
+       "q": "Why do mountain lions in the Santa Monica Mountains need a wildlife crossing?",
+       "a": "Freeways isolate the population, leading to inbreeding, low genetic diversity, and road deaths; a crossing reconnects habitat."
+      }
+     ]
+    },
+    {
+     "guide": "Choose a local problem; write criteria and constraints.",
+     "questions": [
+      {
+       "q": "Distinguish criteria from constraints.",
+       "a": "Criteria are what a successful solution must achieve; constraints are limits (budget, space, time, rules)."
+      }
+     ]
+    },
+    {
+     "guide": "Design a solution with sketch and budget.",
+     "questions": [
+      {
+       "q": "Give an example of a bird-safe window solution.",
+       "a": "Decals or patterns spaced ≤2 inches apart horizontally / 4 inches vertically (the '2×4 rule'), external screens, or UV-patterned glass."
+      }
+     ]
+    },
+    {
+     "guide": "Implement a small version and document with photos.",
+     "questions": [
+      {
+       "q": "How can you measure your solution's success?",
+       "a": "Count pollinator visits per 10 minutes before and after, track bird strikes, or record species observed via iNaturalist."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test.",
+     "questions": [
+      {
+       "q": "What is a wildlife corridor?",
+       "a": "A connected strip of habitat allowing animals to move between otherwise isolated areas."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Solution design portfolio: proficient = defined problem, criteria/constraints, sketch and budget, implemented small-scale version with photos, plan to measure success. Unit 6 test key: 1) Three levels of biodiversity. 2) Simpson's index calculation. 3) Keystone species (sea otter). 4) Primary vs. secondary succession. 5) HIPPO. 6) Hotspot definition. 7) Invasive species example. 8) Condor recovery and lead. 9) Tragedy of the commons; MSY = rK/4. 10) Wildlife corridors."
+  },
+  {
+   "week": 23,
+   "prep": "Water test strips (pH, nitrate, hardness), clear jars, small amount of garden fertilizer, coffee filters, sand, gravel, activated charcoal (aquarium store), 2-liter bottle cut in half. EPA 'How's My Waterway.' SAFETY: wear gloves for stream samples; don't drink filtered water.",
+   "misconceptions": [
+    "Thinking clear water is clean water. Dissolved pollutants and microbes can be invisible.",
+    "Believing the homemade filter makes water safe to drink. It reduces turbidity but doesn't remove microbes or dissolved chemicals reliably.",
+    "Assuming only factories pollute. Nonpoint sources (runoff from lawns, farms, streets) are the leading cause of water-quality problems."
+   ],
+   "days": [
+    {
+     "guide": "Find your watershed and listed impairments.",
+     "questions": [
+      {
+       "q": "Define watershed.",
+       "a": "The land area that drains to a common water body, such as a river, lake, or bay."
+      }
+     ]
+    },
+    {
+     "guide": "Test tap, stream/pond, and rain water; record pH, nitrate, hardness.",
+     "questions": [
+      {
+       "q": "Why is normal rain slightly acidic (pH ~5.6)?",
+       "a": "CO₂ dissolves in rain to form carbonic acid."
+      },
+      {
+       "q": "What is the EPA drinking-water limit for nitrate?",
+       "a": "10 mg/L as nitrogen."
+      }
+     ]
+    },
+    {
+     "guide": "Two jars of pond water; add a pinch of fertilizer to one; observe daily for algae.",
+     "questions": [
+      {
+       "q": "Explain eutrophication.",
+       "a": "Excess nutrients (nitrogen, phosphorus) cause algae blooms; when algae die, decomposers use up dissolved oxygen, causing hypoxia and fish kills."
+      }
+     ]
+    },
+    {
+     "guide": "Build a gravel-sand-charcoal filter; measure turbidity before and after (Secchi-style: view a printed mark through the water, or rate clarity 1–5).",
+     "questions": [
+      {
+       "q": "What does activated charcoal do in a filter?",
+       "a": "Adsorbs some dissolved organic chemicals, odors, and colors onto its huge surface area."
+      }
+     ]
+    },
+    {
+     "guide": "Write a watershed report connecting results to land use; quiz.",
+     "questions": [
+      {
+       "q": "Point vs. nonpoint source: storm drain runoff from a city?",
+       "a": "Nonpoint source (though storm drains discharge at points, the pollution originates diffusely across the landscape)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Watershed report rubric. 4 – Identifies watershed and impairments, data table of tests with units, compares to standards, connects to land use (agriculture, urban runoff), eutrophication observations, filter results, recommendations. 3 (proficient) – Data, comparisons, and land-use connections. 2 – Data without interpretation. 1 – Incomplete. Quiz key: 1) Watershed. 2) Point vs. nonpoint. 3) Eutrophication steps. 4) Nitrate limit 10 mg/L N. 5) Turbidity = cloudiness."
+  },
+  {
+   "week": 24,
+   "prep": "Index cards, petroleum jelly, tape, magnifying glass, ruler; AirNow app/website. Place cards on Day 1 in four locations for 3 days.",
+   "misconceptions": [
+    "Thinking ozone is always good. Stratospheric ozone protects; ground-level ozone is a harmful pollutant.",
+    "Believing indoor air is always cleaner. Cooking, cleaning products, and infiltrating smoke can make indoor air worse.",
+    "Assuming only visible particles matter. PM2.5 is invisible individually and most harmful to lungs."
+   ],
+   "days": [
+    {
+     "guide": "Coat cards with petroleum jelly; place near a road, indoors, backyard, garage (labeled with dates).",
+     "questions": [
+      {
+       "q": "What is PM2.5?",
+       "a": "Particulate matter 2.5 micrometers or smaller in diameter — small enough to penetrate deep into lungs and the bloodstream."
+      }
+     ]
+    },
+    {
+     "guide": "Explain the LA basin inversion: a warm air layer above cooler marine air traps pollutants under it, surrounded by mountains. Diagram ozone formation: NOx + VOCs + sunlight → O₃.",
+     "questions": [
+      {
+       "q": "What is a temperature inversion?",
+       "a": "A layer where temperature increases with height, so cooler air near the ground can't rise and pollutants are trapped."
+      },
+      {
+       "q": "Why is ozone smog worse on hot sunny afternoons?",
+       "a": "Ozone forms from NOx and VOCs in sunlight, and heat speeds the reactions."
+      }
+     ]
+    },
+    {
+     "guide": "Graph a month of local AQI; identify causes of high days.",
+     "questions": [
+      {
+       "q": "What AQI range is 'unhealthy for sensitive groups'?",
+       "a": "101–150."
+      }
+     ]
+    },
+    {
+     "guide": "Count particles in a 1 cm² square on each card under a magnifier; compare.",
+     "questions": [
+      {
+       "q": "Predict which location will have the most particles and why.",
+       "a": "Near the road — vehicle exhaust, brake/tire wear, and road dust."
+      }
+     ]
+    },
+    {
+     "guide": "Lab report with recommendations.",
+     "questions": [
+      {
+       "q": "Give one recommendation to reduce particulate exposure.",
+       "a": "Use HEPA filtration indoors, check AQI before outdoor exercise, avoid busy roads, keep windows closed during smoke events."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Particulate lab report rubric. 4 – Clear question/hypothesis, controlled method (same card size, exposure time, counting square), data table with replicate counts and means, graph, explanation tied to sources (traffic, indoor activities), limitations (can't measure PM2.5 directly), recommendations. 3 (proficient) – Data, graph, explanation, recommendations. 2 – Missing analysis. 1 – Incomplete."
+  },
+  {
+   "week": 25,
+   "prep": "Kitchen scale, gloves, household trash sorted for one week (recycling, organics, landfill), spreadsheet, coffee filters, magnifier, compost bin. Read about SB 1383 (2016): cut organic waste sent to landfills 75% from 2014 levels by 2025 and recover 20% of edible food. Prepare the Unit 7 test.",
+   "misconceptions": [
+    "Thinking food in landfills just decomposes harmlessly. Without oxygen it produces methane, a potent greenhouse gas.",
+    "Believing everything in the recycling bin gets recycled. Contamination and limited markets mean much is landfilled.",
+    "Assuming technology alone solves pollution. Reduction at the source is usually most effective."
+   ],
+   "days": [
+    {
+     "guide": "Weigh and sort the week's trash; record in a spreadsheet; calculate percentages.",
+     "questions": [
+      {
+       "q": "A household throws out 12 kg landfill, 6 kg recycling, 8 kg organics. What percent is organic?",
+       "a": "8 ÷ 26 ≈ 31%."
+      }
+     ]
+    },
+    {
+     "guide": "Filter sand or laundry rinse water; look for colored fibers and fragments.",
+     "questions": [
+      {
+       "q": "What are microplastics?",
+       "a": "Plastic pieces smaller than 5 mm, including fibers from synthetic clothing and fragments of larger plastics."
+      }
+     ]
+    },
+    {
+     "guide": "Start compost (browns and greens, moisture, turning); explain how SB 1383 reduces methane.",
+     "questions": [
+      {
+       "q": "Why does composting produce less methane than landfilling?",
+       "a": "Composting is aerobic (with oxygen), so microbes produce mainly CO₂; landfills are anaerobic, producing methane."
+      }
+     ]
+    },
+    {
+     "guide": "Evaluate one technology (catalytic converter: converts CO, NOx, hydrocarbons to CO₂, N₂, H₂O; scrubbers: remove SO₂; Ocean Cleanup: collects floating plastic) on cost, effectiveness, side effects.",
+     "questions": [
+      {
+       "q": "What does a catalytic converter do?",
+       "a": "Uses catalysts (platinum, palladium, rhodium) to convert CO, NOx, and unburned hydrocarbons into CO₂, N₂, and water."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test.",
+     "questions": [
+      {
+       "q": "Which is more potent as a greenhouse gas over 100 years, CO₂ or methane?",
+       "a": "Methane — roughly 28–34 times more warming per ton over 100 years (about 80 times over 20 years)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Waste audit analysis: proficient = weights by category, percentages, comparison to SB 1383 goals, three reduction actions with estimated impact. Unit 7 test key: 1) Watershed; point vs. nonpoint. 2) Eutrophication. 3) Nitrate standard. 4) PM2.5 and health. 5) Inversion and ozone formation. 6) AQI categories. 7) Microplastics <5 mm. 8) Methane from landfills; composting aerobic. 9) SB 1383. 10) Catalytic converter chemistry."
+  },
+  {
+   "week": 26,
+   "prep": "NASA GISS global temperature data (GISTEMP, anomalies vs. 1951–1980), NOAA sea-level data, NSIDC Arctic sea-ice extent, ice-core CO₂ (800,000 years; EPICA Dome C), spreadsheet. Local 30-year climate normals from NOAA.",
+   "misconceptions": [
+    "Confusing weather and climate. Weather is day-to-day; climate is the long-term (30-year) average and variability.",
+    "Using one cold day or year to dismiss warming.",
+    "Thinking anomaly means unusual event. It's the difference from a baseline average."
+   ],
+   "days": [
+    {
+     "guide": "Compare a week's local weather to 30-year normals.",
+     "questions": [
+      {
+       "q": "Define climate.",
+       "a": "The long-term average and variability of weather in a region, typically over 30 years."
+      }
+     ]
+    },
+    {
+     "guide": "Graph global temperature anomalies since 1880; calculate warming per decade since ~1980.",
+     "questions": [
+      {
+       "q": "If the anomaly rose from 0.27 °C in 1980 to 1.17 °C in 2023 (GISTEMP vs. 1951–1980), what is the rate per decade?",
+       "a": "0.90 °C over 4.3 decades ≈ 0.21 °C per decade."
+      }
+     ]
+    },
+    {
+     "guide": "Graph Arctic September sea-ice extent and sea-level data; calculate rates.",
+     "questions": [
+      {
+       "q": "Satellite sea level rose about 100 mm from 1993 to 2023. Average rate?",
+       "a": "About 3.3 mm per year (and the rate has been accelerating)."
+      }
+     ]
+    },
+    {
+     "guide": "Compare current CO₂ (above 420 ppm) to the 800,000-year range (~180–300 ppm).",
+     "questions": [
+      {
+       "q": "How does today's CO₂ compare to the ice-core record?",
+       "a": "It is far higher than any value in 800,000 years (~180–300 ppm), and the rise of 100+ ppm in under two centuries is much faster than natural glacial–interglacial changes, which took thousands of years."
+      }
+     ]
+    },
+    {
+     "guide": "Data-interpretation quiz.",
+     "questions": [
+      {
+       "q": "What is proxy data?",
+       "a": "Indirect evidence of past climate, such as ice cores, tree rings, corals, and sediment layers."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Data-interpretation quiz key (sample): 1) Weather vs. climate. 2) Anomaly = difference from baseline. 3) Warming rate ≈ 0.2 °C/decade since 1980. 4) Global temperature ~1.2–1.3 °C above late-1800s levels in recent years. 5) Sea-level rise ~3–4 mm/yr in satellite era, accelerating. 6) Arctic summer sea ice declining ~12–13% per decade. 7) CO₂ >420 ppm vs. 180–300 ppm natural range. 8) Proxy data examples. Scoring: 90%+ advanced, 75–89% proficient."
+  },
+  {
+   "week": 27,
+   "prep": "Cal-Adapt (cal-adapt.org) and En-ROADS (en-roads.climateinteractive.org). Read a short explainer on how climate models work (NASA or NOAA). IPCC AR6 scenario summary: by 2081–2100, about 1.8 °C (very low emissions, SSP1-2.6) to about 4.4 °C (very high, SSP5-8.5) warming above 1850–1900.",
+   "misconceptions": [
+    "Thinking projections are predictions of exact weather. They project ranges of long-term climate under assumed emission scenarios.",
+    "Believing uncertainty means models are unreliable. Models successfully hindcast past climate; uncertainty is quantified in ranges.",
+    "Assuming one policy solves everything. En-ROADS shows many combined actions are needed."
+   ],
+   "days": [
+    {
+     "guide": "Read how models divide Earth into 3-D grid cells and solve physics equations; tested by hindcasting.",
+     "questions": [
+      {
+       "q": "What is hindcasting?",
+       "a": "Running a model for past periods and comparing results with observed data to test its accuracy."
+      }
+     ]
+    },
+    {
+     "guide": "Compare low vs. high scenario projections for 2100 temperature and sea level.",
+     "questions": [
+      {
+       "q": "Approximately how much global sea-level rise is projected by 2100 under low vs. very high emissions (IPCC AR6, likely range)?",
+       "a": "Low (SSP1-2.6): about 0.3–0.6 m; very high (SSP5-8.5): about 0.6–1.0 m (higher if ice sheets respond faster)."
+      }
+     ]
+    },
+    {
+     "guide": "Use Cal-Adapt for extreme heat days and snowpack for your county under two scenarios.",
+     "questions": [
+      {
+       "q": "Why do projections show more extreme heat days in inland California?",
+       "a": "Warmer average temperatures shift the whole distribution, so days above the historical extreme threshold become much more frequent."
+      }
+     ]
+    },
+    {
+     "guide": "En-ROADS: test policies; record the most effective changes.",
+     "questions": [
+      {
+       "q": "In En-ROADS, which kinds of actions typically have large effects?",
+       "a": "Carbon pricing, rapid shift from coal and fossil fuels to renewables, electrification, and reducing methane and other gases; single actions alone rarely reach 1.5–2 °C."
+      }
+     ]
+    },
+    {
+     "guide": "Student writes a forecast of regional 2050 impacts with uncertainty.",
+     "questions": [
+      {
+       "q": "What is an emission scenario?",
+       "a": "A plausible future pathway of greenhouse gas emissions based on assumptions about population, economy, technology, and policy."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Regional climate forecast rubric. 4 – Uses Cal-Adapt data for at least three variables (heat days, precipitation/snowpack, sea level or fire) under two scenarios with numbers, explains uncertainty (scenario, model, natural variability), and impacts on people and ecosystems. 3 (proficient) – Data-based forecast for two variables with uncertainty noted. 2 – General. 1 – Unsupported."
+  },
+  {
+   "week": 28,
+   "prep": "DWR snow survey data (April 1 statewide snowpack, percent of average), ice cubes, pan with sand beach model, ruler. Facts: April 1 snowpack was 5% of average in 2015 and about 237% in 2023; a series of atmospheric rivers hit California from late December 2022 to March 2023 after severe drought.",
+   "misconceptions": [
+    "Thinking more winter rain makes up for less snow. Snow acts as a natural reservoir releasing water in spring/summer; rain runs off quickly.",
+    "Believing melting sea ice raises sea level. Floating ice doesn't; land ice and thermal expansion do.",
+    "Assuming seawalls protect beaches. They protect property but can increase beach loss in front of them."
+   ],
+   "days": [
+    {
+     "guide": "Graph April 1 snowpack; explain it typically supplies about 30% of California's water.",
+     "questions": [
+      {
+       "q": "Why does Sierra snowpack matter for water supply?",
+       "a": "It stores winter precipitation and melts gradually in spring/summer, filling reservoirs when demand is highest."
+      }
+     ]
+    },
+    {
+     "guide": "Analyze drought-to-flood whiplash (2020–2022 drought → winter 2022–23 atmospheric rivers).",
+     "questions": [
+      {
+       "q": "What is an atmospheric river?",
+       "a": "A long, narrow band of concentrated water vapor in the atmosphere that can deliver extreme rain and snow when it makes landfall."
+      }
+     ]
+    },
+    {
+     "guide": "Sand beach model: add water, then ice (a) floating in water and (b) on the 'land'; measure shoreline retreat as ice melts.",
+     "questions": [
+      {
+       "q": "In your model, which ice raised water level when melting: floating or on land?",
+       "a": "Ice on land; floating ice already displaces its own mass of water."
+      }
+     ]
+    },
+    {
+     "guide": "Compare adaptation strategies (managed retreat, seawalls, living shorelines, groundwater recharge with floodwater 'Flood-MAR').",
+     "questions": [
+      {
+       "q": "Give one benefit and one drawback of seawalls.",
+       "a": "Benefit: protect buildings/infrastructure. Drawback: expensive and can cause the beach in front to erode away ('coastal squeeze')."
+      }
+     ]
+    },
+    {
+     "guide": "Quiz and a paragraph on the most urgent impact.",
+     "questions": [
+      {
+       "q": "Name two causes of sea-level rise.",
+       "a": "Thermal expansion of warming ocean water and melting land ice (glaciers and ice sheets)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Impact quiz key: 1) Snowpack as reservoir (~30% of supply). 2) 2015 ~5% vs. 2023 ~237% of average. 3) Atmospheric rivers. 4) Sea-level rise from thermal expansion and land ice. 5) Floating ice doesn't raise sea level. 6) Adaptation vs. mitigation. 7) Managed retreat definition. Paragraph rubric: proficient = names a regional impact, uses data, explains mechanism, suggests adaptation."
+  },
+  {
+   "week": 29,
+   "prep": "EPA household carbon footprint calculator, spreadsheet, utility bills and mileage estimates. Read summaries of AB 32 (2006), SB 32 (2016), cap-and-trade (began 2012), SB 100 (100% clean electricity by 2045), and AB 1279 (2022, carbon neutrality by 2045). Prepare the Unit 8 test.",
+   "misconceptions": [
+    "Thinking individual action and policy are opposites. Both matter; policy shapes choices at scale.",
+    "Believing tree planting alone can offset emissions. Land is limited and forests can burn; deep emission cuts are still required.",
+    "Confusing mitigation (reducing causes) with adaptation (adjusting to impacts)."
+   ],
+   "days": [
+    {
+     "guide": "Calculate household footprint; identify three largest sources.",
+     "questions": [
+      {
+       "q": "A car gets 25 mpg and drives 12,000 miles/year. Each gallon of gasoline emits about 8.9 kg CO₂. Annual emissions?",
+       "a": "480 gallons × 8.9 ≈ 4,270 kg ≈ 4.3 metric tons CO₂."
+      }
+     ]
+    },
+    {
+     "guide": "Model three changes over 5 years in a spreadsheet.",
+     "questions": [
+      {
+       "q": "Switching that car to 50 mpg cuts emissions by how much per year?",
+       "a": "From 480 to 240 gallons → saves ~2,140 kg (≈2.1 t) CO₂ per year."
+      }
+     ]
+    },
+    {
+     "guide": "Summarize California policy.",
+     "questions": [
+      {
+       "q": "What did AB 32 require?",
+       "a": "Reduce California's greenhouse gas emissions to 1990 levels by 2020 (met in 2016); SB 32 extended the target to 40% below 1990 by 2030."
+      },
+      {
+       "q": "How does cap-and-trade work?",
+       "a": "The state sets a declining cap on total emissions from large sources and issues allowances; companies must hold allowances for their emissions and can trade them, putting a price on carbon."
+      }
+     ]
+    },
+    {
+     "guide": "Compare sequestration: forests/wetlands/soils (low cost, ~$10–100/t, but limited and reversible) vs. direct air capture (currently hundreds of dollars per ton, small scale, durable storage).",
+     "questions": [
+      {
+       "q": "Why is direct air capture expensive?",
+       "a": "CO₂ is very dilute in air (~0.04%), so capturing it takes large amounts of energy and equipment."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test.",
+     "questions": [
+      {
+       "q": "Define net zero.",
+       "a": "Balancing remaining greenhouse gas emissions with an equal amount of removals so net emissions are zero."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Footprint reduction model: proficient = baseline footprint by category, three changes with correct calculations, 5-year cumulative savings graph. Unit 8 test key: 1) Weather vs. climate. 2) Temperature, sea-level, sea-ice trends. 3) CO₂ vs. ice-core range. 4) Models and hindcasting. 5) Scenarios and ranges (~1.8 °C low vs. ~4.4 °C very high by 2100). 6) Snowpack and atmospheric rivers. 7) Thermal expansion and land ice. 8) Mitigation vs. adaptation. 9) AB 32/SB 32/cap-and-trade/2045 neutrality. 10) Sequestration comparison."
+  },
+  {
+   "week": 30,
+   "prep": "Engineering notebook. Data sources: WHO/UNICEF JMP (water access), EPA heat island pages, ReFED or FAO (food waste). Problem tree template.",
+   "misconceptions": [
+    "Jumping to a solution before defining the problem.",
+    "Criteria that can't be measured ('works well'). Make them quantitative where possible.",
+    "Ignoring who is affected (equity, culture, cost)."
+   ],
+   "days": [
+    {
+     "guide": "Choose a challenge and research scale with data.",
+     "questions": [
+      {
+       "q": "About how many people lack safely managed drinking water (WHO/UNICEF, 2022)?",
+       "a": "About 2.2 billion people."
+      }
+     ]
+    },
+    {
+     "guide": "Write criteria and constraints.",
+     "questions": [
+      {
+       "q": "Write a quantitative criterion for a household water filter.",
+       "a": "Example: 'Removes ≥99% of bacteria and produces at least 10 L per day for under $20.'"
+      }
+     ]
+    },
+    {
+     "guide": "Decompose into three sub-problems with a problem tree.",
+     "questions": [
+      {
+       "q": "Why decompose a big problem?",
+       "a": "Smaller problems can be solved, tested, and combined; it clarifies causes and effects."
+      }
+     ]
+    },
+    {
+     "guide": "Brainstorm and sketch five solutions to one sub-problem.",
+     "questions": [
+      {
+       "q": "What brainstorming rule helps creativity?",
+       "a": "Defer judgment — generate many ideas before evaluating."
+      }
+     ]
+    },
+    {
+     "guide": "Present the definition and refine criteria.",
+     "questions": [
+      {
+       "q": "What is a trade-off?",
+       "a": "Giving up some of one quality to gain another (e.g., lower cost vs. higher performance)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Problem definition and criteria sheet rubric. 4 – Data-supported problem statement, measurable criteria prioritized, realistic constraints (cost, materials, safety, social), problem tree with three sub-problems, five sketches, revisions after feedback. 3 (proficient) – Clear problem, measurable criteria/constraints, sub-problems. 2 – Vague criteria. 1 – Incomplete."
+  },
+  {
+   "week": 31,
+   "prep": "Cardboard box, aluminum foil, plastic wrap, black paper, tape, oven thermometer (or other materials for a cool-roof model or water filter). Choose a sunny day for testing. SAFETY: solar ovens can exceed 90 °C; use oven mitts.",
+   "misconceptions": [
+    "Changing multiple variables between versions.",
+    "Testing at different times of day or weather and comparing directly. Control conditions or test side by side.",
+    "Stopping after one version. Iteration is the heart of engineering."
+   ],
+   "days": [
+    {
+     "guide": "Decision matrix: score options against weighted criteria; choose the best.",
+     "questions": [
+      {
+       "q": "Option A scores 4 (weight 3) and 2 (weight 1); Option B scores 3 and 5. Which wins?",
+       "a": "A: 4×3 + 2×1 = 14. B: 3×3 + 5×1 = 14. A tie — use another criterion or refine weights."
+      }
+     ]
+    },
+    {
+     "guide": "Build version 1.",
+     "questions": [
+      {
+       "q": "Why does a solar oven use black paper inside and foil flaps?",
+       "a": "Foil reflects sunlight into the box; black surfaces absorb light and convert it to heat."
+      }
+     ]
+    },
+    {
+     "guide": "Test v1: temperature every 5 minutes for an hour.",
+     "questions": [
+      {
+       "q": "Why does plastic wrap help a solar oven?",
+       "a": "It lets sunlight in but traps warm air (reduces convection heat loss)."
+      }
+     ]
+    },
+    {
+     "guide": "Modify one variable (e.g., add insulation or a second reflector) to make v2.",
+     "questions": [
+      {
+       "q": "Why change only one variable?",
+       "a": "So any performance change can be attributed to that change."
+      }
+     ]
+    },
+    {
+     "guide": "Retest v2 side by side or under similar conditions; graph both.",
+     "questions": [
+      {
+       "q": "v1 peaked at 65 °C, v2 at 82 °C. Percent improvement?",
+       "a": "(82 − 65) ÷ 65 ≈ 26%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Prototype test data rubric. 4 – Decision matrix with weighted criteria, v1 and v2 built, controlled testing with data tables every 5 min, graph comparing versions, analysis of the one changed variable, ideas for v3. 3 (proficient) – Two versions tested with data and graph. 2 – One version or uncontrolled tests. 1 – Incomplete."
+  },
+  {
+   "week": 32,
+   "prep": "Spreadsheet; En-ROADS or a simple spreadsheet model; design brief template.",
+   "misconceptions": [
+    "Assuming impact scales perfectly. Adoption, maintenance, and behavior vary.",
+    "Ignoring negative side effects in trade-off analysis.",
+    "Presenting only positive results; good engineers report limitations."
+   ],
+   "days": [
+    {
+     "guide": "Score the solution on cost, safety, reliability, aesthetics, social/environmental impact.",
+     "questions": [
+      {
+       "q": "What does life-cycle assessment consider?",
+       "a": "Environmental impacts from raw materials, manufacturing, use, and disposal."
+      }
+     ]
+    },
+    {
+     "guide": "Simulate 10,000 households adopting it.",
+     "questions": [
+      {
+       "q": "A solar oven saves 0.5 kg of firewood per day per household. How much for 10,000 households in a year?",
+       "a": "0.5 × 10,000 × 365 = 1,825,000 kg ≈ 1,825 metric tons per year."
+      }
+     ]
+    },
+    {
+     "guide": "Sensitivity: change assumptions (adoption rate, days of use) and report.",
+     "questions": [
+      {
+       "q": "If only 60% of households use it on 200 days/year, what are the savings?",
+       "a": "0.5 × 6,000 × 200 = 600,000 kg = 600 metric tons."
+      }
+     ]
+    },
+    {
+     "guide": "Write a 2-page design brief.",
+     "questions": [
+      {
+       "q": "What sections belong in a design brief?",
+       "a": "Problem, criteria and constraints, design description, test results, trade-offs, simulated impact, recommendations."
+      }
+     ]
+    },
+    {
+     "guide": "5-minute pitch and Q&A.",
+     "questions": [
+      {
+       "q": "What is scalability?",
+       "a": "The ability of a solution to be expanded to many more users while staying effective and affordable."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Design brief and pitch rubric. 4 – Brief covers all sections with data, trade-off scoring, simulation with sensitivity analysis, honest limitations; pitch clear within 5 minutes with confident answers. 3 (proficient) – Complete brief with data and simulation; clear pitch. 2 – Missing simulation or trade-offs. 1 – Incomplete."
+  },
+  {
+   "week": 33,
+   "prep": "Field notebook, test kits (water strips, thermometers, particle cards) from earlier units. Help the student choose a feasible local question; review safety (traffic, water, private property, parent accompanies).",
+   "misconceptions": [
+    "Questions too broad to answer in three field days.",
+    "No replicates. Multiple samples per site increase reliability.",
+    "Changing methods midway without documenting."
+   ],
+   "days": [
+    {
+     "guide": "Choose a local, testable question.",
+     "questions": [
+      {
+       "q": "Rewrite 'Is pollution bad here?' as a testable question.",
+       "a": "Example: 'Is nitrate concentration higher downstream of the golf course than upstream after rain?'"
+      }
+     ]
+    },
+    {
+     "guide": "Find three credible sources; summarize.",
+     "questions": [
+      {
+       "q": "How do you judge a source's credibility?",
+       "a": "Author expertise, peer review or government/academic origin, evidence cited, date, and purpose/bias."
+      }
+     ]
+    },
+    {
+     "guide": "Write procedure: variables, sampling locations, replicates, safety plan.",
+     "questions": [
+      {
+       "q": "Why include replicates?",
+       "a": "To check consistency, reduce the effect of random error, and calculate averages."
+      }
+     ]
+    },
+    {
+     "guide": "Collect pilot data; adjust methods.",
+     "questions": [
+      {
+       "q": "What is a pilot study?",
+       "a": "A small trial run to test methods before full data collection."
+      }
+     ]
+    },
+    {
+     "guide": "Approval conference.",
+     "questions": [
+      {
+       "q": "What is a control in a field study?",
+       "a": "A comparison site or condition without the factor being tested (e.g., upstream site or shaded vs. unshaded)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Approved capstone plan rubric. 4 – Testable question and hypothesis, three credible sources summarized, clear independent/dependent/controlled variables, at least 3 sites with 3 replicates, data sheet, safety plan, pilot results and adjustments. 3 (proficient) – All plan elements present. 2 – Missing replicates or safety plan. 1 – Not approvable."
+  },
+  {
+   "week": 34,
+   "prep": "Thermometer or infrared thermometer, test strips, camera, data sheets, spreadsheet. Plan field days at similar times/conditions.",
+   "misconceptions": [
+    "Recording data without metadata (time, weather), which makes comparisons impossible.",
+    "Rounding inconsistently or mixing units.",
+    "Ignoring outliers without explanation."
+   ],
+   "days": [
+    {
+     "guide": "Field day 1: collect data with date, time, conditions, photos.",
+     "questions": [
+      {
+       "q": "What is metadata?",
+       "a": "Information about the data — when, where, how, and under what conditions it was collected."
+      }
+     ]
+    },
+    {
+     "guide": "Field day 2: identical methods at the second set of sites.",
+     "questions": [
+      {
+       "q": "Why keep methods identical?",
+       "a": "So differences reflect the variable studied, not the method."
+      }
+     ]
+    },
+    {
+     "guide": "Field day 3: replicate data.",
+     "questions": [
+      {
+       "q": "How does replication improve reliability?",
+       "a": "It shows whether results are consistent and reduces the influence of random errors."
+      }
+     ]
+    },
+    {
+     "guide": "Enter data; calculate means; note uncertainty (instrument precision, range).",
+     "questions": [
+      {
+       "q": "Readings: 31.2, 30.8, 31.6 °C. Mean and range?",
+       "a": "Mean 31.2 °C; range 0.8 °C (30.8–31.6)."
+      }
+     ]
+    },
+    {
+     "guide": "Graph results; draft findings.",
+     "questions": [
+      {
+       "q": "Which graph suits comparing means at several sites?",
+       "a": "A bar graph with error bars (range or standard deviation)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Organized data set: proficient = all field data in a spreadsheet with metadata, units, replicates, correctly calculated means and ranges, uncertainty noted, appropriate graphs with labels, draft findings. 4 adds error bars and outlier discussion; 2 = gaps; 1 = incomplete."
+  },
+  {
+   "week": 35,
+   "prep": "Data, graphs, poster board or slide software; contact information for a local official, school, or water district.",
+   "misconceptions": [
+    "Claiming the data 'prove' the hypothesis. Data support or fail to support it.",
+    "Recommendations not tied to findings.",
+    "Letters that are too technical or too long for stakeholders."
+   ],
+   "days": [
+    {
+     "guide": "Interpret patterns; state whether evidence supports the hypothesis.",
+     "questions": [
+      {
+       "q": "Shaded sites averaged 31 °C and unshaded 41 °C surface temperature. What do you conclude?",
+       "a": "Data support the hypothesis that tree cover lowers surface temperature (by ~10 °C in this sample), with limits from sample size and conditions."
+      }
+     ]
+    },
+    {
+     "guide": "Propose a local solution and evaluate trade-offs.",
+     "questions": [
+      {
+       "q": "Give a trade-off of planting more street trees.",
+       "a": "Benefits: shade, cooling, habitat. Costs: water use, maintenance, root damage to sidewalks, leaf litter."
+      }
+     ]
+    },
+    {
+     "guide": "Write the report: introduction, methods, results, discussion, recommendation.",
+     "questions": [
+      {
+       "q": "What belongs in the discussion section?",
+       "a": "Interpretation of results, comparison to sources, limitations and errors, and implications."
+      }
+     ]
+    },
+    {
+     "guide": "Write a stakeholder letter.",
+     "questions": [
+      {
+       "q": "What makes a stakeholder letter effective?",
+       "a": "Brief, respectful, clear finding with one key graph or number, specific request, and contact information."
+      }
+     ]
+    },
+    {
+     "guide": "Create poster or slides.",
+     "questions": [
+      {
+       "q": "What is the most important element of a science poster?",
+       "a": "A clear main finding (graph and conclusion) readable at a glance."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Capstone report and stakeholder letter rubric. 4 – Full report with all sections, data-based conclusion with uncertainty, solution with trade-offs, polished letter with a specific ask, poster communicates key finding. 3 (proficient) – Complete report and letter with data support. 2 – Missing sections or weak links to data. 1 – Incomplete."
+  },
+  {
+   "week": 36,
+   "prep": "Poster, review notes, concept map paper. Prepare the cumulative final (key below). Arrange the audience for the capstone presentation.",
+   "misconceptions": [
+    "Memorizing facts without connections. Use the concept map to link units.",
+    "Skipping review of calculations (half-life, Kepler, logistic, footprint).",
+    "Reflections without concrete actions."
+   ],
+   "days": [
+    {
+     "guide": "Present capstone and answer questions.",
+     "questions": [
+      {
+       "q": "How do you handle a question about a limitation?",
+       "a": "Acknowledge it, explain its effect on conclusions, and suggest how future work could address it."
+      }
+     ]
+    },
+    {
+     "guide": "Concept map linking biodiversity, pollution, climate, engineering.",
+     "questions": [
+      {
+       "q": "Link climate change to biodiversity with an example.",
+       "a": "Warming oceans and disease (e.g., sea-star wasting) contributed to kelp forest loss, reducing habitat for many species."
+      }
+     ]
+    },
+    {
+     "guide": "Practice final; correct errors.",
+     "questions": [
+      {
+       "q": "What is the MSY in a logistic model with r = 0.4, K = 2,000?",
+       "a": "rK/4 = 200 per year."
+      }
+     ]
+    },
+    {
+     "guide": "Give the cumulative final.",
+     "questions": [
+      {
+       "q": "State the main cause of current global warming.",
+       "a": "Increased greenhouse gases (mainly CO₂ from burning fossil fuels) enhancing the greenhouse effect."
+      }
+     ]
+    },
+    {
+     "guide": "Reflection on the most important environmental action as an adult.",
+     "questions": [
+      {
+       "q": "What makes an action plan strong?",
+       "a": "It is specific, measurable, and based on evidence of impact."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Capstone presentation rubric: proficient = clear question, methods, data graphs, conclusion with uncertainty, recommendation, answers questions accurately. Cumulative final key (sample): 1) Fusion/E = mc². 2) Big Bang evidence. 3) Star life cycles/nucleosynthesis. 4) Kepler's laws. 5) Earth formation/half-life. 6) Plate tectonics evidence and boundaries. 7) Seismic evidence for interior. 8) Feedbacks. 9) Energy budget/greenhouse/Milankovitch. 10) Carbon cycle. 11) Coevolution (GOE). 12) Hazards and resources. 13) Biodiversity, keystone, HIPPO. 14) Logistic/MSY. 15) Water and air pollution. 16) Climate evidence, models, California impacts, mitigation policy. 17) Engineering design process. 90%+ advanced, 75–89% proficient."
+  }
+ ]
+}

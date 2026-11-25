@@ -1,0 +1,2419 @@
+{
+  "grade": 5,
+  "subject": "MATH",
+  "overview": "Teach each day as model → guided practice → independent practice: show the strategy with a concrete model (disks, strips, cubes), do one or two together, then let your child work alone while you watch for the misconceptions listed each week. Ask for an estimate before every computation and a check after. Plan about 60 minutes a day; Fridays are quizzes or unit tests — grade them with the keys and reteach what was missed before moving on.",
+  "weeks": [
+    {
+      "week": 1,
+      "prep": "Print or draw a place value chart from millions to thousandths; gather place value disks (or paper squares labeled 1,000,000 down to 0.001) and a whiteboard. Prepare a list of 10 numbers to dictate, e.g. 4,382,615.207.",
+      "misconceptions": [
+        "Thinking the decimal point moves when multiplying by 10. Show on the chart that the digits shift one place left while the point stays put.",
+        "Reading 0.07 as 'seven tenths.' Have the child say the name of the place of the last digit: 7 hundredths.",
+        "Believing a longer decimal is larger. Compare values with disks: 0.4 (four tenths disks) beats 0.399."
+      ],
+      "days": [
+        {
+          "guide": "Draw the chart together, naming each place aloud from millions to thousandths. Dictate 10 numbers; the child writes each in the chart and names the value of the digit you underline. Check that zeros hold empty places.",
+          "questions": [
+            {
+              "q": "In 4,382,615.207, what is the value of the 8? Of the 7?",
+              "a": "8 is in the ten-thousands place, so 80,000. 7 is in the thousandths place, so 7 thousandths (0.007)."
+            },
+            {
+              "q": "Write 'two million, fifty thousand, three and six hundredths' in standard form.",
+              "a": "2,050,003.06"
+            }
+          ]
+        },
+        {
+          "guide": "Lay out 4 tenths disks, then show 10 groups of them: trade every 10 tenths for a one to get 4 ones, then repeat to get 40. The child records 8 'times 10' statements with arrows showing each digit moving one place left.",
+          "questions": [
+            {
+              "q": "What is 0.36 × 10? Explain with place value.",
+              "a": "3.6 — the 3 tenths become 3 ones and the 6 hundredths become 6 tenths; each digit moves one place left."
+            },
+            {
+              "q": "0.4 × 10 × 10 = ?",
+              "a": "40"
+            }
+          ]
+        },
+        {
+          "guide": "Model 300 ÷ 10 by trading each hundred disk for 10 tens and sharing into 10 groups (30 each); repeat for 30 and 3 (3 becomes 30 tenths, so 0.3 each). The child writes 8 '1/10 of' statements and draws digits shifting one place right.",
+          "questions": [
+            {
+              "q": "What is 1/10 of 0.7?",
+              "a": "0.07 (7 hundredths)."
+            },
+            {
+              "q": "What is 1/10 of 30? Of 0.5?",
+              "a": "3; 0.05."
+            }
+          ]
+        },
+        {
+          "guide": "Write 555.555 and have the child give the value of each 5 (500, 50, 5, 0.5, 0.05, 0.005). Ask how each compares to its neighbor: 10 times the one on its right, 1/10 the one on its left. Then work the 10 'how many times greater' problems.",
+          "questions": [
+            {
+              "q": "In 555.555, how many times greater is the 5 in the tens place than the 5 in the tenths place?",
+              "a": "100 times (50 is 100 × 0.5)."
+            },
+            {
+              "q": "In 7,707, how does the value of the first 7 compare to the second 7?",
+              "a": "The first 7 is 7,000 and the second is 700, so it is 10 times greater."
+            }
+          ]
+        },
+        {
+          "guide": "Give the 12-question quiz below without help, then have the child write one sentence explaining why the decimal point stays fixed. Correct together using disks or the chart.",
+          "questions": [
+            {
+              "q": "Why does the decimal point never move when you multiply by 10?",
+              "a": "The decimal point marks the boundary between ones and tenths; multiplying by 10 makes each digit worth 10 times as much, so the digits shift one place left past the fixed point."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested quiz and key: 1) Value of 6 in 2,465,301 = 60,000. 2) Value of 3 in 7.034 = 0.03 (3 hundredths). 3) 0.9 × 10 = 9. 4) 0.05 × 10 = 0.5. 5) 1/10 of 400 = 40. 6) 1/10 of 0.2 = 0.02. 7) 6 × 100 = 600. 8) In 33.3, the 3 in the ones place is 10 times the 3 in the tenths place. 9) In 444, the first 4 is 100 times the last 4. 10) 0.008 is 1/10 of 0.08. 11) 70 is 10 times 7. 12) Standard form of 5 million 4 thousand 2 hundredths = 5,004,000.02. Written explanation (proficient): each place is worth 10 times the place to its right, so ×10 shifts digits one place left (÷10 one place right) while the decimal point stays fixed between ones and tenths."
+    },
+    {
+      "week": 2,
+      "prep": "Place value chart, metric ruler or tape measure, calculator for checking only. Choose 5 household objects to measure (book, spoon, pencil, remote, cup).",
+      "misconceptions": [
+        "Counting zeros in the power of 10 but 'adding zeros' to decimals (3.42 × 100 = 3.4200). Use the chart: digits shift left two places, giving 342.",
+        "Reading 10^3 as 10 × 3 = 30. Have the child write 10^3 = 10 × 10 × 10 = 1,000.",
+        "Forgetting placeholder zeros when dividing (45 ÷ 1,000 written as 0.45). Shift digits three places right and fill empty places with zeros: 0.045."
+      ],
+      "days": [
+        {
+          "guide": "Write 3.42 on the chart and multiply by 10, 100 and 1,000, moving digits left one, two, three places. The child solves 20 problems and writes the pattern: the number of zeros in the power of 10 tells how many places digits shift left.",
+          "questions": [
+            {
+              "q": "3.42 × 100 = ?",
+              "a": "342"
+            },
+            {
+              "q": "0.075 × 1,000 = ?",
+              "a": "75"
+            }
+          ]
+        },
+        {
+          "guide": "Model 45 ÷ 10, ÷ 100, ÷ 1,000 on the chart, shifting digits right and filling empty places with zeros. The child solves 20 problems and explains why placeholder zeros are needed.",
+          "questions": [
+            {
+              "q": "45 ÷ 1,000 = ?",
+              "a": "0.045 — digits shift three places right; a zero holds the tenths place."
+            },
+            {
+              "q": "6.2 ÷ 100 = ?",
+              "a": "0.062"
+            }
+          ]
+        },
+        {
+          "guide": "Show 10^1 = 10, 10^2 = 100, 10^3 = 1,000, 10^4 = 10,000: the exponent tells how many 10s are multiplied (and how many zeros). Do 6 × 10^3 = 6,000 together, then the child solves 15 mixed problems.",
+          "questions": [
+            {
+              "q": "Write 10,000 as a power of 10.",
+              "a": "10^4"
+            },
+            {
+              "q": "2.5 × 10^2 = ?",
+              "a": "250"
+            },
+            {
+              "q": "73.2 ÷ 10^2 = ?",
+              "a": "0.732"
+            }
+          ]
+        },
+        {
+          "guide": "Measure 5 objects in centimeters and record in a table. Convert to millimeters (× 10) and meters (÷ 100). Check each conversion makes sense (meters should be the smallest number).",
+          "questions": [
+            {
+              "q": "A pencil is 18 cm long. How long is it in mm and in m?",
+              "a": "180 mm and 0.18 m."
+            },
+            {
+              "q": "Why do you divide by 100 to go from cm to m?",
+              "a": "There are 100 centimeters in a meter, so a centimeter is 1/100 of a meter."
+            }
+          ]
+        },
+        {
+          "guide": "Give the 15-problem quiz; the child then fixes each error on the place value chart and says what went wrong. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "4 × 10^3 + 5 × 10^1 = ?",
+              "a": "4,050"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested 15-item key: 1) 2.7 × 10 = 27 2) 0.48 × 100 = 48 3) 5.6 × 1,000 = 5,600 4) 39 ÷ 10 = 3.9 5) 7 ÷ 100 = 0.07 6) 254 ÷ 1,000 = 0.254 7) 10^3 = 1,000 8) 10^5 = 100,000 9) 8 × 10^2 = 800 10) 3.1 × 10^3 = 3,100 11) 64 ÷ 10^2 = 0.64 12) 0.9 × 10^1 = 9 13) 1,000,000 = 10^6 14) 12.5 ÷ 10 = 1.25 15) 0.006 × 100 = 0.6. Metric table: each cm value × 10 = mm and ÷ 100 = m (e.g., 25 cm = 250 mm = 0.25 m); all 5 rows correct = proficient."
+    },
+    {
+      "week": 3,
+      "prep": "Thousandths grid paper (10×10 squares each split into 10 strips, or print 1,000-square grids), index cards, place value chart. Write a list of Olympic-style race times (e.g., 9.58, 9.63, 9.69, 9.79 seconds).",
+      "misconceptions": [
+        "Thinking 0.35 < 0.305 because 305 > 35. Line up digits by place value or annex zeros: 0.350 vs 0.305.",
+        "Using 'and' for whole numbers (three hundred and five). 'And' only marks the decimal point.",
+        "Thinking 0.4 and 0.400 are different amounts. Shade the grids to see the same area."
+      ],
+      "days": [
+        {
+          "guide": "Model 3.052 in all three forms: standard, word ('three and fifty-two thousandths') and expanded (3 × 1 + 5 × (1/100) + 2 × (1/1,000)). The child converts 12 decimals, checking that 'and' appears only at the decimal point.",
+          "questions": [
+            {
+              "q": "Write 3.052 in word form and expanded form.",
+              "a": "Three and fifty-two thousandths; 3 × 1 + 0 × (1/10) + 5 × (1/100) + 2 × (1/1,000)."
+            },
+            {
+              "q": "Write 'forty and seven hundredths' in standard form.",
+              "a": "40.07"
+            }
+          ]
+        },
+        {
+          "guide": "Shade 4 columns (0.4), then 40 small squares (0.40), then 400 tiny pieces (0.400) on three grids. The child writes why they are equal: the same area is shaded; only the size of the pieces changes.",
+          "questions": [
+            {
+              "q": "Are 0.4, 0.40 and 0.400 equal? Why?",
+              "a": "Yes. 4 tenths = 40 hundredths = 400 thousandths; the shaded area is identical."
+            }
+          ]
+        },
+        {
+          "guide": "Line up 0.305 and 0.35 by place value, annexing a zero (0.350), and compare from the left. The child compares 20 pairs with <, >, =.",
+          "questions": [
+            {
+              "q": "Compare 0.305 __ 0.35.",
+              "a": "0.305 < 0.35 (3 tenths each, but 0 hundredths < 5 hundredths)."
+            },
+            {
+              "q": "Compare 2.09 __ 2.1.",
+              "a": "2.09 < 2.1"
+            }
+          ]
+        },
+        {
+          "guide": "Play 'Decimal Line-Up': draw 5 cards and place them on a number line, explaining each placement. Then order the race times from fastest (least) to slowest.",
+          "questions": [
+            {
+              "q": "Order least to greatest: 0.5, 0.45, 0.405, 0.054.",
+              "a": "0.054, 0.405, 0.45, 0.5"
+            },
+            {
+              "q": "Race times 9.69, 9.58, 9.63: who won?",
+              "a": "9.58 — the least time is the fastest."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz below, then have the child describe one error a student might make (e.g., thinking longer means larger) and how to avoid it. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Write 0.608 in expanded form.",
+              "a": "6 × (1/10) + 8 × (1/1,000), or 0.6 + 0.008."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 'five and twenty-three thousandths' = 5.023 2) 0.716 in words = seven hundred sixteen thousandths 3) 8.409 expanded = 8 × 1 + 4 × (1/10) + 9 × (1/1,000) 4) 2 × 10 + 3 × (1/100) = 20.03 5) 0.7 > 0.69 6) 1.250 = 1.25 7) 3.08 < 3.8 8) 0.099 < 0.1 9) Order 4.5, 4.05, 4.505, 4.055 → 4.05, 4.055, 4.5, 4.505 10) Order 0.3, 0.033, 0.303 → 0.033, 0.3, 0.303. Error explanation (proficient): names a real error such as 'more digits means bigger' and explains lining up place values. Ordering game observation: child compares from the greatest place first."
+    },
+    {
+      "week": 4,
+      "prep": "Vertical number line template (draw one), a grocery receipt with 6–10 items, Unit 1 test (write from the key below). Review weeks 1–3 notes.",
+      "misconceptions": [
+        "Rounding by looking at the wrong digit. Circle the rounding place, then underline the digit just to its right.",
+        "Writing 7.96 rounded to the tenth as 7.10 or 7.9. Show on a number line it falls between 7.9 and 8.0; the answer is 8.0.",
+        "Dropping trailing zeros that show the place (8.0 vs 8). Explain 8.0 tells that it was rounded to tenths."
+      ],
+      "days": [
+        {
+          "guide": "Draw a vertical number line from 2.3 to 2.4 with 2.35 marked as the midpoint. Place 2.37, decide which benchmark it is closer to, and round. The child rounds 12 decimals this way.",
+          "questions": [
+            {
+              "q": "Round 2.37 to the nearest tenth.",
+              "a": "2.4 (2.37 is above the midpoint 2.35)."
+            },
+            {
+              "q": "Round 6.349 to the nearest tenth.",
+              "a": "6.3"
+            }
+          ]
+        },
+        {
+          "guide": "Make a table with columns whole / tenth / hundredth. Round 4.386 together, then the child completes 10 rows and notes how the answers differ.",
+          "questions": [
+            {
+              "q": "Round 4.386 to the nearest whole, tenth and hundredth.",
+              "a": "4; 4.4; 4.39"
+            },
+            {
+              "q": "Round 7.96 to the nearest tenth.",
+              "a": "8.0"
+            }
+          ]
+        },
+        {
+          "guide": "Round each receipt price to the nearest dollar and add for an estimate, then compare with the real total. Discuss whether the estimate was over or under and why.",
+          "questions": [
+            {
+              "q": "Estimate $3.49 + $5.72 + $1.15 by rounding to the nearest dollar.",
+              "a": "$3 + $6 + $1 = $10 (actual $10.36)."
+            }
+          ]
+        },
+        {
+          "guide": "Do a mixed review of the unit's skills, then the child builds a one-page reference sheet with a place value chart, powers of 10, comparing steps and a rounding example. Quiz orally as they go: 'What is 10 times 0.3? Round 2.65 to the tenth.' The reference sheet should include one worked example of each skill.",
+          "questions": [
+            {
+              "q": "Write 4.6 × 10^2 in standard form, then round 3.482 to the nearest hundredth.",
+              "a": "460; 3.48."
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 1 test independently. Then the child writes a short reflection on the hardest item and what helped.",
+          "questions": [
+            {
+              "q": "Which is greater, 0.6 or 0.599? Explain.",
+              "a": "0.6, because 6 tenths > 5 tenths."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 1 test key (suggested 15 items): 1) Value of 4 in 3.245 = 0.04 2) 0.8 is 10 times 0.08 3) 1/10 of 6 = 0.6 4) 5.3 × 100 = 530 5) 72 ÷ 1,000 = 0.072 6) 10^4 = 10,000 7) 9 × 10^3 = 9,000 8) 'six and fourteen thousandths' = 6.014 9) 0.42 > 0.402 10) Order 1.1, 1.01, 1.101 → 1.01, 1.1, 1.101 11) Round 3.649 to the tenth = 3.6 12) Round 3.649 to the hundredth = 3.65 13) Round 12.5 to the nearest whole = 13 14) Round 0.996 to the hundredth = 1.00 15) Explain why 2.5 × 10 = 25 (digits shift one place left). Scoring: 14–15 mastery, 11–13 proficient, 8–10 developing, below 8 reteach."
+    },
+    {
+      "week": 5,
+      "prep": "Grid paper (1 digit per square keeps columns aligned), multiplication fact cards, a timer for the 3-minute fact check.",
+      "misconceptions": [
+        "Forgetting the placeholder zero in the second partial product (multiplying by the tens digit). Say 'I'm multiplying by 30, not 3' and write the zero first.",
+        "Adding carried digits before multiplying. Multiply first, then add the regrouped digit.",
+        "Misaligned columns. Use grid paper and check against an estimate."
+      ],
+      "days": [
+        {
+          "guide": "Model rounding each factor to one non-zero digit: 389 × 42 ≈ 400 × 40 = 16,000 (4 × 4 = 16, then add three zeros). The child estimates 15 products, then does a 3-minute fact check.",
+          "questions": [
+            {
+              "q": "Estimate 389 × 42.",
+              "a": "About 400 × 40 = 16,000 (actual 16,338)."
+            },
+            {
+              "q": "Estimate 612 × 28.",
+              "a": "About 600 × 30 = 18,000."
+            }
+          ]
+        },
+        {
+          "guide": "Draw a rectangle split into 200 + 30 + 6 by 30 + 4 and fill the 6 boxes. Add the partial products. The child solves 8 problems.",
+          "questions": [
+            {
+              "q": "Use an area model for 236 × 34.",
+              "a": "6,000 + 900 + 180 + 800 + 120 + 24 = 8,024."
+            }
+          ]
+        },
+        {
+          "guide": "Solve 236 × 34 with the algorithm next to the area model: 236 × 4 = 944 and 236 × 30 = 7,080 are the two rows. The child does 10 three-by-two problems on grid paper.",
+          "questions": [
+            {
+              "q": "472 × 23 = ?",
+              "a": "472 × 3 = 1,416; 472 × 20 = 9,440; total 10,856."
+            }
+          ]
+        },
+        {
+          "guide": "Model 2,407 × 56 with an estimate first (2,400 × 60 = 144,000). The child solves 10 larger problems (4-by-2 and 3-by-3) and compares each answer to its estimate.",
+          "questions": [
+            {
+              "q": "2,407 × 56 = ?",
+              "a": "120,350 + 14,442 = 134,792."
+            },
+            {
+              "q": "315 × 124 = ?",
+              "a": "1,260 + 6,300 + 31,500 = 39,060."
+            }
+          ]
+        },
+        {
+          "guide": "Give the 10-problem quiz. Then show three worked examples with errors (a missing placeholder zero, a regrouping slip, misaligned columns); the child finds and fixes each.",
+          "questions": [
+            {
+              "q": "A student wrote 53 × 27 = 477. Find the error.",
+              "a": "They multiplied 53 × 2 = 106 without the placeholder zero and added 371 + 106 = 477. Correct: 371 + 1,060 = 1,431."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 34 × 26 = 884 2) 58 × 47 = 2,726 3) 213 × 32 = 6,816 4) 407 × 15 = 6,105 5) 625 × 48 = 30,000 6) 1,234 × 21 = 25,914 7) 3,050 × 64 = 195,200 8) 248 × 135 = 33,480 9) 512 × 206 = 105,472 10) 999 × 12 = 11,988. Each answer should be close to its estimate (e.g., #8 ≈ 200 × 100 = 20,000 or 250 × 140 = 35,000). Error analysis: student names and corrects each error."
+    },
+    {
+      "week": 6,
+      "prep": "Make expression cards (e.g., (6 + 4) × 3, 6 + 4 × 3, 2 × {5 + [12 − (3 × 2)]}) and gather 4 dice for 'Target 24'. Review order of operations.",
+      "misconceptions": [
+        "Working left to right and ignoring grouping symbols. Highlight the innermost group and do it first.",
+        "Writing 'add 8 and 7, then multiply by 2' as 8 + 7 × 2. Parentheses are needed: (8 + 7) × 2.",
+        "Thinking you must calculate to compare expressions. Point out the shared part (18,932 + 921) and what is done to it."
+      ],
+      "days": [
+        {
+          "guide": "Evaluate (6 + 4) × 3 and 6 + 4 × 3 side by side and discuss why one is 30 and one is 18. The child evaluates 15 expressions, circling what to do first.",
+          "questions": [
+            {
+              "q": "(6 + 4) × 3 vs 6 + 4 × 3?",
+              "a": "30 vs 18. Parentheses make you add first; without them you multiply first."
+            },
+            {
+              "q": "20 − (8 − 3) = ?",
+              "a": "15"
+            }
+          ]
+        },
+        {
+          "guide": "Model working inside out: parentheses, then brackets, then braces. The child rewrites each step on a new line for 12 problems.",
+          "questions": [
+            {
+              "q": "2 × {5 + [12 − (3 × 2)]} = ?",
+              "a": "3 × 2 = 6; 12 − 6 = 6; 5 + 6 = 11; 2 × 11 = 22."
+            },
+            {
+              "q": "[(9 + 3) ÷ 4] × 5 = ?",
+              "a": "15"
+            }
+          ]
+        },
+        {
+          "guide": "Translate words to expressions and back, underlining action words (add, then, multiply). The child writes 12 expressions and phrases for given expressions.",
+          "questions": [
+            {
+              "q": "Write: add 8 and 7, then multiply by 2.",
+              "a": "(8 + 7) × 2, which equals 30."
+            },
+            {
+              "q": "Write a phrase for 4 × (9 − 2).",
+              "a": "Subtract 2 from 9, then multiply by 4."
+            }
+          ]
+        },
+        {
+          "guide": "Ask why 3 × (18,932 + 921) is three times as large as 18,932 + 921 without calculating (it is the same sum tripled). Then the child solves 5 multi-step multiplication word problems with labeled answers.",
+          "questions": [
+            {
+              "q": "Without calculating, compare 5 × (234 + 76) to 234 + 76.",
+              "a": "It is 5 times as large because the same sum is multiplied by 5."
+            },
+            {
+              "q": "Tickets cost $14. A family buys 3 adult and 4 child tickets at the same price. Write and solve an expression.",
+              "a": "14 × (3 + 4) = 14 × 7 = $98."
+            }
+          ]
+        },
+        {
+          "guide": "Play 'Target 24': roll four dice and build an expression with grouping symbols equal to 24. Then give the 12-item quiz.",
+          "questions": [
+            {
+              "q": "Using 2, 3, 4, 6 once each, make 24.",
+              "a": "One answer: 6 × 4 × (3 − 2) = 24. Another: (6 + 2) × (4 − 3) × 3 = 24. Accept any correct expression that uses each number once."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested 12-item key: 1) 4 + 5 × 2 = 14 2) (4 + 5) × 2 = 18 3) 30 − (12 + 6) = 12 4) 48 ÷ (4 × 3) = 4 5) 3 × [10 − (2 + 5)] = 9 6) {20 − [3 × (8 − 5)]} × 2 = 22 7) 'multiply 6 by 5, then add 4' = 6 × 5 + 4 8) 'subtract 3 from 11, then divide by 2' = (11 − 3) ÷ 2 9) phrase for 7 × (2 + 9): add 2 and 9, then multiply by 7 10) (1,284 + 37) × 4 is 4 times 1,284 + 37 11) 2 × (15 + 25) = 80 12) [6 × (4 + 1)] − 10 = 20. Word problems: full credit requires an expression, correct computation and a labeled unit."
+    },
+    {
+      "week": 7,
+      "prep": "Grid paper, base-ten blocks or quick drawings (squares, sticks, dots). Review multiplication facts for 2-digit multiples (24 × 10, × 5, × 2).",
+      "misconceptions": [
+        "Dropping zeros: 2,400 ÷ 60 = 4. Rewrite as 240 tens ÷ 6 tens = 40, then check 60 × 40 = 2,400.",
+        "Remainder larger than the divisor. If the remainder ≥ divisor, the quotient can go up by 1.",
+        "Forgetting to add the partial quotients at the end. Circle each one and total them."
+      ],
+      "days": [
+        {
+          "guide": "Use basic facts: 2,400 ÷ 60 is like 24 ÷ 6 = 4, then think 60 × 40 = 2,400. The child solves 15 problems, checking each by multiplying.",
+          "questions": [
+            {
+              "q": "2,400 ÷ 60 = ?",
+              "a": "40"
+            },
+            {
+              "q": "420 ÷ 30 = ?",
+              "a": "14 (30 × 14 = 420)"
+            }
+          ]
+        },
+        {
+          "guide": "Draw a rectangle with height 24 and an unknown width; take off chunks such as 24 × 60 = 1,440, leaving 72 = 24 × 3. Add the widths. The child solves 8 problems this way.",
+          "questions": [
+            {
+              "q": "1,512 ÷ 24 = ?",
+              "a": "24 × 60 = 1,440; 1,512 − 1,440 = 72; 24 × 3 = 72. Quotient 63."
+            }
+          ]
+        },
+        {
+          "guide": "List friendly multiples of the divisor (10×, 5×, 2×) at the side, then subtract chunks. The child solves 8 four-digit by two-digit problems.",
+          "questions": [
+            {
+              "q": "3,456 ÷ 27 = ?",
+              "a": "27 × 100 = 2,700 (756 left); 27 × 20 = 540 (216 left); 27 × 8 = 216. 100 + 20 + 8 = 128."
+            }
+          ]
+        },
+        {
+          "guide": "Solve each problem, then check: quotient × divisor + remainder = dividend. The child writes one sentence on why that proves the answer.",
+          "questions": [
+            {
+              "q": "845 ÷ 23 = ? Check it.",
+              "a": "36 R17; 23 × 36 = 828 and 828 + 17 = 845."
+            },
+            {
+              "q": "Why does the check work?",
+              "a": "Division undoes multiplication: equal groups times the number of groups, plus leftovers, rebuilds the total."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz of 8 problems; the child shows an area model or partial quotients for every one. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "1,950 ÷ 65 = ?",
+              "a": "30"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 3,600 ÷ 90 = 40 2) 1,488 ÷ 31 = 48 3) 2,856 ÷ 42 = 68 4) 4,368 ÷ 52 = 84 5) 945 ÷ 15 = 63 6) 2,047 ÷ 23 = 89 7) 5,000 ÷ 25 = 200 8) 1,000 ÷ 37 = 27 R1. Full credit needs a correct answer and a model or partial quotients that matches it."
+    },
+    {
+      "week": 8,
+      "prep": "Word problem cards (write 8 problems such as 230 students on buses holding 48; 150 pencils in packs of 24). Prepare the Unit 2 test from the key.",
+      "misconceptions": [
+        "Always rounding remainders down. Ask 'what does the leftover mean?' — extra students still need a bus (round up).",
+        "Picking non-compatible estimates (3,476 ÷ 58 ≈ 3,500 ÷ 60). Choose numbers that divide easily: 3,600 ÷ 60.",
+        "Not adjusting a trial quotient that's too big. If the product is larger than the part being divided, lower the digit by one."
+      ],
+      "days": [
+        {
+          "guide": "Model compatible numbers: 3,476 ÷ 58 ≈ 3,600 ÷ 60 = 60. Since 3,476 < 3,600, the real quotient is a bit less. The child estimates 15 quotients and predicts greater/less.",
+          "questions": [
+            {
+              "q": "Estimate 3,476 ÷ 58. Is the real answer greater or less?",
+              "a": "≈ 3,600 ÷ 60 = 60; the real quotient is less (59 R54)."
+            },
+            {
+              "q": "Estimate 2,712 ÷ 39.",
+              "a": "≈ 2,800 ÷ 40 = 70."
+            }
+          ]
+        },
+        {
+          "guide": "Model a trial quotient that is too high: 245 ÷ 35, try 8 → 280 is too big, try 7 → 245. The child solves 8 problems, showing crossed-out trials.",
+          "questions": [
+            {
+              "q": "245 ÷ 35 = ?",
+              "a": "7 (8 × 35 = 280 is too high)."
+            },
+            {
+              "q": "612 ÷ 18 = ?",
+              "a": "34"
+            }
+          ]
+        },
+        {
+          "guide": "Read each problem and ask what the remainder means. Decide: round up, drop it, or use it as the answer. The child solves 8 word problems and writes the decision.",
+          "questions": [
+            {
+              "q": "230 students ride buses holding 48 each. How many buses?",
+              "a": "230 ÷ 48 = 4 R38, so 5 buses (round up)."
+            },
+            {
+              "q": "150 pencils are packed 24 to a box. How many full boxes?",
+              "a": "6 R6, so 6 full boxes (drop the remainder)."
+            },
+            {
+              "q": "How many pencils are left over?",
+              "a": "6 (use the remainder)."
+            }
+          ]
+        },
+        {
+          "guide": "Mixed review of multiplication, expressions and division. For each problem type, the child writes and solves an original word problem.",
+          "questions": [
+            {
+              "q": "Evaluate (125 × 12) ÷ 25.",
+              "a": "1,500 ÷ 25 = 60"
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 2 test independently, then review mistakes together. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "A theater has 1,248 seats in rows of 32. How many rows?",
+              "a": "39"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 2 test key (suggested): 1) 345 × 26 = 8,970 2) 1,207 × 43 = 51,901 3) 268 × 154 = 41,272 4) (9 + 6) × 4 − 10 = 50 5) 3 × [20 − (4 × 2)] = 36 6) 'add 12 and 8, then divide by 4' = (12 + 8) ÷ 4 = 5 7) 7 × (45 + 13) is 7 times 45 + 13 8) 1,680 ÷ 40 = 42 9) 2,914 ÷ 31 = 94 10) 6,525 ÷ 75 = 87 11) 4,000 ÷ 64 = 62 R32 12) 230 students, vans of 12 → 230 ÷ 12 = 19 R2, so 20 vans. Scoring: 11–12 mastery, 9–10 proficient, 6–8 developing."
+    },
+    {
+      "week": 9,
+      "prep": "Hundredths grids, play money, a store flyer or printed online prices. Set a $50 budget for the shopping scenarios.",
+      "misconceptions": [
+        "Lining up the right-most digits (4.7 + 12.35 as 4.7 under 2.35). Line up decimal points and write 4.70.",
+        "Subtracting 8 − 2.36 as 2.36 − 8 or getting 6.36. Write 8.00 and regroup.",
+        "Forgetting to carry when tenths sum past 10. Use grids: 10 tenths make a whole."
+      ],
+      "days": [
+        {
+          "guide": "Shade 0.46 in one color and 0.38 in another on a hundredths grid, count the total, then write 0.46 + 0.38 = 0.84 with a place value equation. The child models 10 pairs.",
+          "questions": [
+            {
+              "q": "0.46 + 0.38 = ?",
+              "a": "0.84 (4 tenths + 3 tenths = 7 tenths; 6 + 8 hundredths = 14 hundredths = 1 tenth 4 hundredths)."
+            }
+          ]
+        },
+        {
+          "guide": "Line up decimal points, annex zeros so places match, and add with regrouping. The child solves 15 problems.",
+          "questions": [
+            {
+              "q": "4.7 + 12.35 = ?",
+              "a": "4.70 + 12.35 = 17.05"
+            },
+            {
+              "q": "9.68 + 3.5 = ?",
+              "a": "13.18"
+            }
+          ]
+        },
+        {
+          "guide": "Model 8 − 2.36 by writing 8.00 and regrouping, then check by adding 5.64 + 2.36 = 8. The child solves 15 problems with an addition check.",
+          "questions": [
+            {
+              "q": "8 − 2.36 = ?",
+              "a": "5.64"
+            },
+            {
+              "q": "12.4 − 7.85 = ?",
+              "a": "4.55"
+            }
+          ]
+        },
+        {
+          "guide": "Give the child the flyer and $50. For each of 5 scenarios, list items, add prices and subtract from $50 to find the change.",
+          "questions": [
+            {
+              "q": "You buy items for $12.49, $8.75 and $19.99. How much is left from $50?",
+              "a": "Total $41.23; change $8.77."
+            }
+          ]
+        },
+        {
+          "guide": "Give the 12-problem quiz independently, including 2 word problems; check work by estimating. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "A runner ran 3.75 km then 2.6 km. How far in all?",
+              "a": "6.35 km"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 0.27 + 0.65 = 0.92 2) 3.4 + 5.89 = 9.29 3) 12.06 + 7.9 = 19.96 4) 0.8 + 0.25 = 1.05 5) 15 + 2.75 = 17.75 6) 6.3 − 2.8 = 3.5 7) 10 − 4.27 = 5.73 8) 7.05 − 3.6 = 3.45 9) 20.1 − 9.99 = 10.11 10) 5.5 − 0.55 = 4.95 11) Word: $20 − $13.47 = $6.53 12) Word: 1.25 L + 0.8 L = 2.05 L. Budget scenarios: totals correct and stay at or under $50."
+    },
+    {
+      "week": 10,
+      "prep": "Hundredths grids and colored pencils; a price per pound for apples (e.g., $1.29/lb) for the word problems.",
+      "misconceptions": [
+        "Lining up decimal points to multiply. In multiplication, multiply as whole numbers, then place the point.",
+        "Believing multiplication always makes bigger. Show 0.5 × 0.4 = 0.2 as 'half of 4 tenths.'",
+        "Counting decimal places but dropping a needed zero (0.3 × 0.6 = 1.8). The product has 2 decimal places: 0.18."
+      ],
+      "days": [
+        {
+          "guide": "Solve 4 × 0.36 three ways: 0.36 + 0.36 + 0.36 + 0.36, with disks, and 4 × 36 = 144 → 1.44. The child solves 12 problems and compares methods.",
+          "questions": [
+            {
+              "q": "4 × 0.36 = ?",
+              "a": "1.44"
+            },
+            {
+              "q": "6 × 0.7 = ?",
+              "a": "4.2"
+            }
+          ]
+        },
+        {
+          "guide": "Shade 3 columns (0.3) in one color and 6 rows (0.6) in another; the overlap is 18 small squares = 0.18. The child models 8 problems.",
+          "questions": [
+            {
+              "q": "0.3 × 0.6 = ?",
+              "a": "0.18"
+            },
+            {
+              "q": "0.5 × 0.5 = ?",
+              "a": "0.25"
+            }
+          ]
+        },
+        {
+          "guide": "Multiply 24 × 13 = 312, then estimate 2.4 × 1.3 ≈ 2 × 1 = 2 or 3 to place the point: 3.12. Confirm by counting two decimal places. The child solves 12 problems both ways.",
+          "questions": [
+            {
+              "q": "2.4 × 1.3 = ?",
+              "a": "3.12"
+            },
+            {
+              "q": "0.25 × 1.6 = ?",
+              "a": "0.4 (0.400)"
+            }
+          ]
+        },
+        {
+          "guide": "Solve the apple problem together with an estimate (3.5 × 1.3 ≈ 4.55). The child solves 6 context problems, rounding money to the cent.",
+          "questions": [
+            {
+              "q": "3.5 lb of apples at $1.29 per pound costs?",
+              "a": "3.5 × 1.29 = 4.515, about $4.52."
+            }
+          ]
+        },
+        {
+          "guide": "Give the 10-problem quiz and have the child explain in writing why 0.5 × 0.4 is smaller than both factors. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Why is 0.5 × 0.4 = 0.2 smaller than both factors?",
+              "a": "You are taking half of 0.4 (less than 0.4), and 0.4 of 0.5 (less than 0.5). Multiplying by a number less than 1 makes the product smaller."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 3 × 0.8 = 2.4 2) 7 × 0.25 = 1.75 3) 0.4 × 0.7 = 0.28 4) 0.9 × 0.9 = 0.81 5) 1.5 × 2.2 = 3.3 6) 3.6 × 0.5 = 1.8 7) 4.25 × 6 = 25.5 8) 0.2 × 0.05 = 0.01 9) 12.3 × 1.1 = 13.53 10) 2.75 × 4 = 11. Explanation (proficient): states that multiplying by a factor less than 1 takes a part of the other number, so the product is smaller than each factor."
+    },
+    {
+      "week": 11,
+      "prep": "Place value disks (ones, tenths, hundredths) and hundredths grids. Practice 7.5 ÷ 6 yourself so you can model annexing zeros.",
+      "misconceptions": [
+        "Misplacing the decimal point in the quotient. Write the point in the quotient directly above the dividend's point before dividing.",
+        "Stopping with a remainder. Annex zeros (7.5 = 7.50) and keep dividing.",
+        "Thinking dividing always gives a smaller answer. 2 ÷ 0.5 = 4: there are 4 halves in 2."
+      ],
+      "days": [
+        {
+          "guide": "Share 4.8 (4 ones and 8 tenths disks) among 4 groups: 1 one and 2 tenths each = 1.2. Then show the written method for 6.24 ÷ 3. The child solves 12 problems.",
+          "questions": [
+            {
+              "q": "4.8 ÷ 4 = ?",
+              "a": "1.2"
+            },
+            {
+              "q": "6.24 ÷ 3 = ?",
+              "a": "2.08"
+            }
+          ]
+        },
+        {
+          "guide": "Divide 7.5 ÷ 6: 6 goes into 7 once (1 left), 15 tenths ÷ 6 = 2 R3, annex a zero: 30 hundredths ÷ 6 = 5. The child solves 10 such problems.",
+          "questions": [
+            {
+              "q": "7.5 ÷ 6 = ?",
+              "a": "1.25"
+            },
+            {
+              "q": "3 ÷ 4 = ?",
+              "a": "0.75"
+            }
+          ]
+        },
+        {
+          "guide": "Ask 'how many halves in 2?' and shade it: 4. Then 3.6 ÷ 0.4 as 'how many 4 tenths in 36 tenths' = 9. The child solves 10 problems with grids.",
+          "questions": [
+            {
+              "q": "2 ÷ 0.5 = ?",
+              "a": "4"
+            },
+            {
+              "q": "3.6 ÷ 0.4 = ?",
+              "a": "9"
+            }
+          ]
+        },
+        {
+          "guide": "Show that multiplying dividend and divisor by the same power of 10 keeps the quotient: 1.44 ÷ 0.12 = 144 ÷ 12 = 12. The child rewrites and solves 10 problems.",
+          "questions": [
+            {
+              "q": "1.44 ÷ 0.12 = ?",
+              "a": "12"
+            },
+            {
+              "q": "4.5 ÷ 0.15 = ?",
+              "a": "450 ÷ 15 = 30"
+            }
+          ]
+        },
+        {
+          "guide": "Give the 10-problem quiz; the child checks two answers by multiplying quotient × divisor. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Check 6.24 ÷ 3 = 2.08.",
+              "a": "2.08 × 3 = 6.24 ✓"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 9.6 ÷ 3 = 3.2 2) 8.45 ÷ 5 = 1.69 3) 0.72 ÷ 8 = 0.09 4) 5.4 ÷ 4 = 1.35 5) 9 ÷ 0.3 = 30 6) 2.4 ÷ 0.6 = 4 7) 6.3 ÷ 0.07 = 90 8) 1.2 ÷ 0.04 = 30 9) 13.5 ÷ 0.5 = 27 10) 0.96 ÷ 0.12 = 8. Two checks shown with multiplication that returns the dividend."
+    },
+    {
+      "week": 12,
+      "prep": "A recipe card with decimal amounts (e.g., 1.5 cups flour, 0.75 cup sugar, 2.25 tsp baking powder) and grocery ads or prices with sizes. Write the Unit 3 test.",
+      "misconceptions": [
+        "Choosing operations by key words alone ('each' always means multiply). Draw a bar model to see whether you are combining, comparing, grouping or sharing.",
+        "Comparing total prices instead of unit prices. Divide price by size to compare cost per ounce.",
+        "Rounding money in the middle of a problem. Keep all digits until the final answer."
+      ],
+      "days": [
+        {
+          "guide": "Read each problem and sketch a bar model before choosing an operation. The child sorts 12 problems into +, −, ×, ÷ and solves 6.",
+          "questions": [
+            {
+              "q": "A 2.4 m ribbon is cut into 6 equal pieces. How long is each? Which operation?",
+              "a": "Division: 2.4 ÷ 6 = 0.4 m."
+            }
+          ]
+        },
+        {
+          "guide": "Divide price by ounces for each item. The child compares 4 pairs and states the better buy.",
+          "questions": [
+            {
+              "q": "12 oz for $3.48 or 16 oz for $4.32 — which is the better buy?",
+              "a": "$3.48 ÷ 12 = $0.29/oz; $4.32 ÷ 16 = $0.27/oz. The 16 oz is cheaper per ounce."
+            }
+          ]
+        },
+        {
+          "guide": "Multiply each recipe amount by 2.5 and divide each by 2, recording two new recipes. Ask your child to estimate first (2.5 times is between 2 and 3 times as much). Have them write the scaled recipes in a table: original, × 2.5, ÷ 2.",
+          "questions": [
+            {
+              "q": "1.5 cups of flour × 2.5 = ? And ÷ 2 = ?",
+              "a": "3.75 cups; 0.75 cup."
+            },
+            {
+              "q": "0.75 cup sugar × 2.5 = ?",
+              "a": "1.875 cups"
+            }
+          ]
+        },
+        {
+          "guide": "Do a mixed review of all four decimal operations, then the child starts a 'my mistakes' log listing errors and the fix for each. Pull problems your child missed on earlier quizzes. For each log entry they write the wrong step, the correct step and a tip to remember.",
+          "questions": [
+            {
+              "q": "4.2 × 0.3 + 1.74 ÷ 0.6 = ?",
+              "a": "1.26 + 2.9 = 4.16"
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 3 test independently and review errors against the mistakes log. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Pencils cost $0.35 each. How many can you buy with $5?",
+              "a": "5 ÷ 0.35 ≈ 14.28, so 14 pencils."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 3 test key (suggested): 1) 6.75 + 3.8 = 10.55 2) 15 − 6.42 = 8.58 3) 3.4 × 0.6 = 2.04 4) 12 × 1.25 = 15 5) 7.2 ÷ 9 = 0.8 6) 4.8 ÷ 0.16 = 30 7) 5.1 ÷ 2 = 2.55 8) Unit price: 24 oz for $5.04 → $0.21/oz 9) 3 notebooks at $2.89 = $8.67 10) $20 − $8.67 = $11.33 change 11) 2.5 kg split into 4 bags = 0.625 kg each 12) A 0.75 L bottle refilled 6 times = 4.5 L. Scoring: 11–12 mastery, 9–10 proficient."
+    },
+    {
+      "week": 13,
+      "prep": "Fraction strips (or paper strips folded into halves, fourths, eighths, thirds, sixths), and a set of fraction cards for matching (e.g., 6/8 and 3/4).",
+      "misconceptions": [
+        "Adding the same number to top and bottom (1/2 = 2/3). Equivalent fractions multiply or divide both by the same number.",
+        "Not simplifying fully (12/18 → 6/9). Use the greatest common factor or keep dividing until no common factor remains.",
+        "Thinking bigger denominators mean bigger fractions. Compare 1/3 and 1/8 with strips."
+      ],
+      "days": [
+        {
+          "guide": "Fold a strip in half, then fourths, then eighths to show 1/2 = 2/4 = 4/8. The child generates 3 equivalent fractions for each of 10 fractions by multiplying top and bottom by the same number.",
+          "questions": [
+            {
+              "q": "Give 3 fractions equal to 2/3.",
+              "a": "4/6, 6/9, 8/12 (any n×2 / n×3)."
+            }
+          ]
+        },
+        {
+          "guide": "Find common factors of numerator and denominator and divide. The child simplifies 15 fractions, then matches cards.",
+          "questions": [
+            {
+              "q": "Simplify 12/18.",
+              "a": "2/3 (divide by 6)."
+            },
+            {
+              "q": "Simplify 15/20.",
+              "a": "3/4"
+            }
+          ]
+        },
+        {
+          "guide": "List multiples of each denominator to find the least common multiple; rename both fractions. The child does 12 pairs.",
+          "questions": [
+            {
+              "q": "Rename 2/3 and 3/4 with a common denominator.",
+              "a": "8/12 and 9/12."
+            },
+            {
+              "q": "Rename 5/6 and 1/4.",
+              "a": "10/12 and 3/12."
+            }
+          ]
+        },
+        {
+          "guide": "Compare 3/5 and 4/7 by renaming (21/35 vs 20/35). Also compare by benchmarks: 5/8 > 1/2 > 3/7. The child compares 12 pairs.",
+          "questions": [
+            {
+              "q": "Compare 3/5 and 4/7.",
+              "a": "3/5 > 4/7 (21/35 > 20/35)."
+            },
+            {
+              "q": "Compare 5/8 and 3/7 using 1/2.",
+              "a": "5/8 is more than 1/2 and 3/7 is less than 1/2, so 5/8 > 3/7."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz independently; correct with strips. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Is 9/12 equivalent to 3/4?",
+              "a": "Yes, divide both by 3."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 3/4 = 9/12 2) 2/5 = 8/20 3) simplify 8/12 = 2/3 4) simplify 10/25 = 2/5 5) simplify 18/24 = 3/4 6) common denominator for 1/6 and 3/8 = 24: 4/24 and 9/24 7) 2/3 and 1/5 → 10/15 and 3/15 8) 3/4 > 5/8 9) 2/3 < 7/9 10) 4/9 < 1/2 < 5/9. Full credit: correct equivalent forms shown."
+    },
+    {
+      "week": 14,
+      "prep": "Fraction strips; optional free Math Learning Center Fractions app. Review finding common denominators.",
+      "misconceptions": [
+        "Adding numerators and denominators (1/2 + 1/3 = 2/5). Show with strips that 2/5 is less than 1/2 — impossible for a sum.",
+        "Renaming only one fraction. Both fractions must have the common denominator.",
+        "Leaving improper answers or unsimplified answers. Convert to a mixed number and simplify."
+      ],
+      "days": [
+        {
+          "guide": "Lay a 1/2 and a 1/3 strip end to end and find which single strip size fits exactly: sixths, 5/6. Record 3/6 + 2/6 = 5/6. The child models 8 more pairs.",
+          "questions": [
+            {
+              "q": "1/2 + 1/3 = ?",
+              "a": "3/6 + 2/6 = 5/6"
+            },
+            {
+              "q": "1/4 + 1/8 = ?",
+              "a": "2/8 + 1/8 = 3/8"
+            }
+          ]
+        },
+        {
+          "guide": "Rename both fractions with a common denominator, add numerators, then convert sums > 1 to mixed numbers. The child solves 15.",
+          "questions": [
+            {
+              "q": "3/4 + 5/6 = ?",
+              "a": "9/12 + 10/12 = 19/12 = 1 7/12"
+            },
+            {
+              "q": "2/5 + 1/2 = ?",
+              "a": "4/10 + 5/10 = 9/10"
+            }
+          ]
+        },
+        {
+          "guide": "Draw a number line in twelfths; mark 3/4 (9/12) and jump back 1/6 (2/12) to land on 7/12. The child models 8 more.",
+          "questions": [
+            {
+              "q": "3/4 − 1/6 = ?",
+              "a": "7/12"
+            }
+          ]
+        },
+        {
+          "guide": "Rename, subtract numerators, simplify. The child solves 15 problems.",
+          "questions": [
+            {
+              "q": "5/6 − 3/8 = ?",
+              "a": "20/24 − 9/24 = 11/24"
+            },
+            {
+              "q": "7/10 − 1/2 = ?",
+              "a": "7/10 − 5/10 = 2/10 = 1/5"
+            }
+          ]
+        },
+        {
+          "guide": "Give the 12-problem quiz independently and check answers with benchmark estimates. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "2/3 + 1/4 = ?",
+              "a": "8/12 + 3/12 = 11/12"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 1/3 + 1/6 = 1/2 2) 2/3 + 1/5 = 13/15 3) 3/8 + 1/4 = 5/8 4) 5/6 + 3/4 = 1 7/12 5) 1/2 + 4/5 = 1 3/10 6) 2/7 + 1/2 = 11/14 7) 3/4 − 1/3 = 5/12 8) 5/8 − 1/4 = 3/8 9) 9/10 − 2/5 = 1/2 10) 1 − 3/7 = 4/7 11) 2/3 − 1/4 = 5/12 12) 7/8 − 1/6 = 17/24."
+    },
+    {
+      "week": 15,
+      "prep": "Fraction circles, measuring cups (1/2, 1/3, 2/3, 1 cup) and a clear container that holds at least 3 cups of water.",
+      "misconceptions": [
+        "Subtracting the smaller fraction from the larger regardless of order (5 1/4 − 2 2/3 = 3 5/12). Rename first: 3/12 − 8/12 needs regrouping.",
+        "Regrouping a whole as 10 (like base ten). One whole = 12/12, 4/4, etc., matching the denominator.",
+        "Leaving 3 17/12 as a final answer. Rename 17/12 as 1 5/12 and add the whole: 4 5/12."
+      ],
+      "days": [
+        {
+          "guide": "Show 2 3/4 with fraction circles and count the fourths: 11/4. Then the shortcut: 2 × 4 + 3 = 11. Reverse: 17/5 → 3 wholes and 2/5. The child converts 15 numbers.",
+          "questions": [
+            {
+              "q": "Write 2 3/4 as an improper fraction.",
+              "a": "11/4"
+            },
+            {
+              "q": "Write 17/5 as a mixed number.",
+              "a": "3 2/5"
+            },
+            {
+              "q": "Write 4 3/8 as an improper fraction.",
+              "a": "35/8"
+            }
+          ]
+        },
+        {
+          "guide": "Add wholes and fractions separately after renaming: 2 9/12 + 1 8/12 = 3 17/12 = 4 5/12. The child solves 12.",
+          "questions": [
+            {
+              "q": "2 3/4 + 1 2/3 = ?",
+              "a": "4 5/12"
+            },
+            {
+              "q": "1 1/2 + 2 1/4 = ?",
+              "a": "3 3/4"
+            }
+          ]
+        },
+        {
+          "guide": "Rename, check if the fraction part can be subtracted, and if not, regroup one whole: 5 3/12 → 4 15/12. The child solves 12.",
+          "questions": [
+            {
+              "q": "5 1/4 − 2 2/3 = ?",
+              "a": "4 15/12 − 2 8/12 = 2 7/12"
+            },
+            {
+              "q": "6 − 1 3/5 = ?",
+              "a": "4 2/5"
+            }
+          ]
+        },
+        {
+          "guide": "Pour 1 1/2 cups and 2/3 cup of water into the container. Compute the total, then how much more makes 3 cups; check by pouring.",
+          "questions": [
+            {
+              "q": "1 1/2 + 2/3 cups = ? How much more to make 3 cups?",
+              "a": "2 1/6 cups; 5/6 cup more."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz independently; check with estimation (each answer should be near the whole-number estimate). Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "3 5/6 + 2 1/3 = ?",
+              "a": "6 1/6"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 1 2/3 = 5/3 2) 23/6 = 3 5/6 3) 3 1/2 + 1 1/3 = 4 5/6 4) 2 5/8 + 1 3/4 = 4 3/8 5) 4 2/5 + 3 7/10 = 8 1/10 6) 6 3/4 − 2 1/2 = 4 1/4 7) 5 1/3 − 1 5/6 = 3 1/2 8) 8 − 3 2/7 = 4 5/7 9) 7 1/8 − 4 1/2 = 2 5/8 10) 3 1/6 − 1 3/4 = 1 5/12."
+    },
+    {
+      "week": 16,
+      "prep": "Number lines labeled 0, 1/2, 1, 1 1/2, 2…; word problem cards. Write out the 8 'reasonable?' solutions for Day 3.",
+      "misconceptions": [
+        "Rounding every fraction to 1. Use the 0, 1/2, 1 benchmarks: is the numerator about half the denominator, near zero, or near the denominator?",
+        "Accepting answers without checking. Always compare the exact answer to the estimate.",
+        "Using the wrong operation for 'how much farther' (adds instead of subtracting). Draw a comparison bar model."
+      ],
+      "days": [
+        {
+          "guide": "Model: 7/8 is close to 1, 4/9 is close to 1/2, so 7/8 + 4/9 ≈ 1 1/2. The child estimates 15 sums and differences on number lines.",
+          "questions": [
+            {
+              "q": "Estimate 7/8 + 4/9.",
+              "a": "About 1 + 1/2 = 1 1/2."
+            },
+            {
+              "q": "Estimate 11/12 − 1/10.",
+              "a": "About 1 − 0 = 1."
+            }
+          ]
+        },
+        {
+          "guide": "Draw a bar for 2 1/3 and another for 1 3/4 joined, then solve with an equation. The child solves 6 problems with bar models and labeled answers.",
+          "questions": [
+            {
+              "q": "A hiker walked 2 1/3 miles then 1 3/4 miles. How far in all?",
+              "a": "2 4/12 + 1 9/12 = 3 13/12 = 4 1/12 miles."
+            }
+          ]
+        },
+        {
+          "guide": "Present each worked solution; the child compares it to a benchmark estimate, labels reasonable/not, and fixes wrong ones. Model one: 2/5 + 1/2 must be more than 1/2, so 3/7 can't be right. Your child writes the benchmark reasoning for each of the 8.",
+          "questions": [
+            {
+              "q": "Is 2/5 + 1/2 = 3/7 reasonable?",
+              "a": "No. 3/7 is less than 1/2, but the sum must be more than 1/2. Correct: 4/10 + 5/10 = 9/10."
+            }
+          ]
+        },
+        {
+          "guide": "The child writes and solves 4 garden or recipe word problems, including one subtraction requiring regrouping. Check each solution together.",
+          "questions": [
+            {
+              "q": "Write and solve a regrouping subtraction: a 4 1/4 ft board, cut off 1 3/4 ft.",
+              "a": "4 1/4 − 1 3/4 = 3 5/4 − 1 3/4 = 2 2/4 = 2 1/2 ft."
+            }
+          ]
+        },
+        {
+          "guide": "Give the word-problem quiz; each answer needs a model, equation, answer and estimate check. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Jo had 3 1/2 cups of flour and used 1 2/3. How much is left?",
+              "a": "1 5/6 cups (estimate 3 1/2 − 1 1/2 = 2)."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Rubric per problem (4 pts): model (bar/number line) 1, equation 1, correct labeled answer 1, estimate check 1. Suggested problems and answers: 1) 1 1/2 + 2 2/3 = 4 1/6 2) 5 − 2 3/8 = 2 5/8 3) 3/4 + 5/6 = 1 7/12 4) 4 1/3 − 2 1/2 = 1 5/6. 14–16 proficient/mastery, 10–13 developing."
+    },
+    {
+      "week": 17,
+      "prep": "Ruler marked in eighths of an inch, 12 pencils or leaves, measuring cups. Practice reading eighths on the ruler.",
+      "misconceptions": [
+        "Reading the ruler from 1 instead of 0. Line the object up at 0.",
+        "Spacing a line plot unevenly. Mark every 1/8 at equal intervals even if no data falls there.",
+        "Adding line plot values by counting Xs instead of their values. Multiply each value by its number of Xs, then add."
+      ],
+      "days": [
+        {
+          "guide": "Show how to read eighths on the ruler (1/4 = 2/8, 1/2 = 4/8). The child measures 12 items to the nearest 1/8 inch and records them in a table.",
+          "questions": [
+            {
+              "q": "A pencil ends 3 marks past the 5. Each mark is 1/8. How long is it?",
+              "a": "5 3/8 inches."
+            }
+          ]
+        },
+        {
+          "guide": "Draw a number line covering the data's range in eighths, add an X per measurement, a title and units. Check that marks are evenly spaced.",
+          "questions": [
+            {
+              "q": "Why include 5 1/8 on the line if no item measured that?",
+              "a": "The scale must have equal intervals; empty values show there is no data there."
+            }
+          ]
+        },
+        {
+          "guide": "Use the plot to find total length and the difference between longest and shortest. Then solve the beaker problem: redistribute liquid equally.",
+          "questions": [
+            {
+              "q": "Beakers hold 1/4, 1/2, 1/2 and 3/4 L. If shared equally, how much in each?",
+              "a": "Total 2 L ÷ 4 = 1/2 L each."
+            },
+            {
+              "q": "Longest 6 7/8 in, shortest 4 3/8 in. Difference?",
+              "a": "2 1/2 inches."
+            }
+          ]
+        },
+        {
+          "guide": "Mixed review of unlike fractions, mixed numbers and a short line plot problem. Work two problems of each type together first, then your child finishes independently while you check every third answer.",
+          "questions": [
+            {
+              "q": "2 5/8 + 1 1/2 = ?",
+              "a": "4 1/8"
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 4 test independently, including a graded line plot. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "A line plot shows three Xs at 3/8. What is their total?",
+              "a": "9/8 = 1 1/8."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 4 test key (suggested): 1) 2/3 + 1/4 = 11/12 2) 5/6 − 1/4 = 7/12 3) 3 1/2 + 2 3/5 = 6 1/10 4) 6 1/3 − 2 3/4 = 3 7/12 5) Estimate 9/10 + 5/12 ≈ 1 1/2 6) 2/3 + 1/6 = 3/6 is unreasonable; correct 5/6. Line plot data: 1/8, 3/8, 3/8, 1/2, 1/2, 1/2, 5/8, 7/8 — 7) most common 1/2 8) total 31/8 = 3 7/8 9) range 7/8 − 1/8 = 3/4 10) equal share 31/8 ÷ 8 = 31/64. Line plot rubric: title, units, even eighth scale, accurate Xs."
+    },
+    {
+      "week": 18,
+      "prep": "Paper circles ('pizzas') or tortillas and scissors. Plan 5 sharing situations (3 among 4, 2 among 3, 5 among 2, 4 among 6, 7 among 3).",
+      "misconceptions": [
+        "Writing the fraction upside down (3 pizzas ÷ 4 people = 4/3). The thing being shared is the numerator.",
+        "Thinking a fraction can't be a division answer. a ÷ b = a/b every time.",
+        "Ignoring the remainder in context (50 lb ÷ 8 = 6 R2). Express it as a fraction: 6 2/8 = 6 1/4 lb."
+      ],
+      "days": [
+        {
+          "guide": "Cut each of 3 pizzas into 4 pieces and deal them out: each person gets 3/4. Record 3 ÷ 4 = 3/4. The child repeats 4 sharing situations.",
+          "questions": [
+            {
+              "q": "3 pizzas shared by 4 people — how much each?",
+              "a": "3/4 of a pizza."
+            },
+            {
+              "q": "2 pizzas shared by 3 people?",
+              "a": "2/3 of a pizza."
+            }
+          ]
+        },
+        {
+          "guide": "Write division as fraction and fraction as division; change improper fractions to mixed numbers. The child completes 15.",
+          "questions": [
+            {
+              "q": "7 ÷ 3 = ?",
+              "a": "7/3 = 2 1/3"
+            },
+            {
+              "q": "Write 5/8 as a division expression.",
+              "a": "5 ÷ 8"
+            }
+          ]
+        },
+        {
+          "guide": "Use multiplication facts to find which wholes a quotient falls between: 47 ÷ 6 → 6 × 7 = 42, 6 × 8 = 48. The child does 10.",
+          "questions": [
+            {
+              "q": "47 ÷ 6 is between which two whole numbers? As a mixed number?",
+              "a": "Between 7 and 8; 7 5/6."
+            }
+          ]
+        },
+        {
+          "guide": "Solve sharing problems with a picture or equation, stating answers as fractions or mixed numbers with units. Model the rice problem: 50 ÷ 8 = 6 R2, and the 2 leftover pounds are split 8 ways, giving 2/8 = 1/4. Your child draws a picture for at least two problems.",
+          "questions": [
+            {
+              "q": "50 pounds of rice shared among 8 families?",
+              "a": "50/8 = 6 2/8 = 6 1/4 pounds each."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz and have the child explain one problem with a drawing. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "5 friends share 2 sandwiches equally. How much each?",
+              "a": "2/5 of a sandwich."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 4 ÷ 5 = 4/5 2) 9 ÷ 4 = 2 1/4 3) 11/3 = 11 ÷ 3 = 3 2/3 4) 23 ÷ 5 is between 4 and 5 = 4 3/5 5) 6 people share 4 pies = 2/3 pie each 6) 15 yd of ribbon for 4 bows = 3 3/4 yd each 7) 3 L of juice in 8 cups = 3/8 L each. Drawing explanation: shows wholes split into equal parts and dealt out."
+    },
+    {
+      "week": 19,
+      "prep": "24 counters (beans, coins), paper for tape diagrams.",
+      "misconceptions": [
+        "Dividing by the numerator instead of the denominator (3/4 of 24 = 24 ÷ 3). Split into 4 equal groups (denominator), take 3 of them.",
+        "Multiplying both numerator and denominator by the whole number (6 × 2/3 = 12/18). Only the numerator is multiplied.",
+        "Leaving improper answers. Simplify 12/3 to 4."
+      ],
+      "days": [
+        {
+          "guide": "Split 24 counters into 3 equal groups: 1/3 = 8, 2/3 = 16. Repeat with fourths and sixths. Write each as multiplication (2/3 × 24 = 16).",
+          "questions": [
+            {
+              "q": "3/4 of 24?",
+              "a": "18"
+            },
+            {
+              "q": "5/6 of 24?",
+              "a": "20"
+            }
+          ]
+        },
+        {
+          "guide": "Draw a tape for 40 split into 5 parts of 8; shade 3 parts = 24. The child solves 10 problems.",
+          "questions": [
+            {
+              "q": "3/5 × 40 = ?",
+              "a": "24"
+            },
+            {
+              "q": "2/7 × 35 = ?",
+              "a": "10"
+            }
+          ]
+        },
+        {
+          "guide": "Show 6 × 2/3 as 2/3 added 6 times = 12/3 = 4, then (6 × 2)/3. The child solves 12 problems both ways.",
+          "questions": [
+            {
+              "q": "6 × 2/3 = ?",
+              "a": "12/3 = 4"
+            },
+            {
+              "q": "5 × 3/4 = ?",
+              "a": "15/4 = 3 3/4"
+            }
+          ]
+        },
+        {
+          "guide": "Draw a tape diagram for each story problem. The child solves 6 problems with labeled answers.",
+          "questions": [
+            {
+              "q": "Maria read 3/4 of a 220-page book. How many pages?",
+              "a": "220 ÷ 4 = 55; 55 × 3 = 165 pages."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz independently; let the child use tape diagrams. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "2/3 × 18 = ?",
+              "a": "12"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 1/4 × 32 = 8 2) 3/8 × 40 = 15 3) 4 × 2/5 = 8/5 = 1 3/5 4) 7 × 1/3 = 2 1/3 5) 5/6 × 36 = 30 6) 9 × 2/3 = 6 7) 3/10 of 150 students = 45 8) 3 × 3/4 cup = 2 1/4 cups."
+    },
+    {
+      "week": 20,
+      "prep": "Paper squares for folding, grid paper, colored pencils, ruler. Optional: cut a 3/4 in by 2/3 in rectangle and squares of 1/4 by 1/3 in.",
+      "misconceptions": [
+        "Finding a common denominator to multiply. That's for adding; to multiply, multiply numerators and denominators.",
+        "Expecting the product to be larger. Fraction × fraction (both < 1) is smaller than both.",
+        "Multiplying mixed numbers by whole parts only (2 1/2 × 1 1/3 = 2 1/6). Convert to improper fractions or use all four partial products."
+      ],
+      "days": [
+        {
+          "guide": "Fold a paper in thirds, shade 1/3, fold in half the other way and double-shade half of the third: 1/6 of the paper. The child folds and records 6 problems.",
+          "questions": [
+            {
+              "q": "1/2 of 1/3 = ?",
+              "a": "1/6"
+            },
+            {
+              "q": "2/3 of 3/4 = ?",
+              "a": "6/12 = 1/2"
+            }
+          ]
+        },
+        {
+          "guide": "Draw a square, shade 2/3 vertically and 4/5 horizontally; count overlap: 8/15. After 10 problems, ask the child to state the rule.",
+          "questions": [
+            {
+              "q": "2/3 × 4/5 = ?",
+              "a": "8/15"
+            },
+            {
+              "q": "What rule do you notice?",
+              "a": "Multiply numerators and multiply denominators: (a × c)/(b × d)."
+            }
+          ]
+        },
+        {
+          "guide": "Tile a 3/4 in by 2/3 in rectangle with 1/4-by-1/3 squares (each 1/12 sq in): 3 × 2 = 6 tiles = 6/12 = 1/2 sq in. The child finds 8 more areas by multiplying sides.",
+          "questions": [
+            {
+              "q": "Area of a 3/4 in × 2/3 in rectangle?",
+              "a": "1/2 square inch."
+            },
+            {
+              "q": "Area of a 1 1/2 ft × 2/3 ft rectangle?",
+              "a": "3/2 × 2/3 = 1 square foot."
+            }
+          ]
+        },
+        {
+          "guide": "Draw a 2 1/2 by 1 1/3 area model split into four parts: 2 × 1, 2 × 1/3, 1/2 × 1, 1/2 × 1/3. The child solves 8 problems and checks with improper fractions.",
+          "questions": [
+            {
+              "q": "2 1/2 × 1 1/3 = ?",
+              "a": "2 + 2/3 + 1/2 + 1/6 = 3 1/3 (also 5/2 × 4/3 = 20/6 = 3 1/3)."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz independently. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "3/8 × 2/5 = ?",
+              "a": "6/40 = 3/20"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 1/2 × 1/4 = 1/8 2) 3/4 × 1/3 = 1/4 3) 2/5 × 5/6 = 1/3 4) 5/8 × 4/5 = 1/2 5) 1 1/2 × 2/3 = 1 6) 3 × 1 1/4 = 3 3/4 7) 2 1/3 × 1 1/2 = 3 1/2 8) area 4/5 m × 1/2 m = 2/5 sq m 9) area 2 1/4 ft × 2 ft = 4 1/2 sq ft."
+    },
+    {
+      "week": 21,
+      "prep": "A simple picture drawn on grid paper (e.g., a house 8 squares wide, 6 tall), blank grid paper.",
+      "misconceptions": [
+        "Thinking any multiplication makes a number bigger. Multiplying by a fraction less than 1 shrinks; by more than 1 enlarges; by 1 keeps it the same.",
+        "Scaling only one dimension of a picture. Both width and height change by the scale factor.",
+        "Forgetting to convert mixed numbers before multiplying."
+      ],
+      "days": [
+        {
+          "guide": "Ask: is 3/4 × 12 more or less than 12? Less, since you take only part of 12. Then 1 1/2 × 12: more. The child decides 15 cases with a reason.",
+          "questions": [
+            {
+              "q": "Is 3/4 × 12 greater than, less than or equal to 12?",
+              "a": "Less (it's 9), because 3/4 < 1."
+            },
+            {
+              "q": "Is 1 1/2 × 12 greater or less than 12?",
+              "a": "Greater (18), because 1 1/2 > 1."
+            },
+            {
+              "q": "5/5 × 12?",
+              "a": "Equal to 12, because 5/5 = 1."
+            }
+          ]
+        },
+        {
+          "guide": "Redraw the grid picture at 1/2 size and 1 1/2 size, scaling every length. The child explains how the factor changed it.",
+          "questions": [
+            {
+              "q": "An 8-square-wide house at 1 1/2 size is how wide?",
+              "a": "12 squares."
+            },
+            {
+              "q": "At 1/2 size?",
+              "a": "4 squares wide."
+            }
+          ]
+        },
+        {
+          "guide": "Solve real-world scaling problems with an estimate first. Model: before solving 3/8 of 2 1/2, predict 'less than 2 1/2 because 3/8 < 1.' Your child writes an estimate sentence for each problem.",
+          "questions": [
+            {
+              "q": "3/8 of a 2 1/2 mile trail?",
+              "a": "3/8 × 5/2 = 15/16 mile."
+            },
+            {
+              "q": "Scale 1 1/2 cups of oats by 2/3.",
+              "a": "1 cup."
+            }
+          ]
+        },
+        {
+          "guide": "The child completes 15 mixed fraction multiplication problems and simplifies every answer. Remind your child to simplify before or after multiplying. Spot-check 5 answers and have them redo any not fully simplified.",
+          "questions": [
+            {
+              "q": "4/9 × 3/8 = ?",
+              "a": "12/72 = 1/6"
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz with scaling questions and multi-step word problems. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "A 24-inch plant grows to 1 1/4 times its height. How tall now?",
+              "a": "30 inches."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 2/3 × 15 < 15 2) 7/4 × 15 > 15 3) 1 × 15 = 15 4) Without computing: 5 × 3/4 < 5 5) 5/6 × 3/5 = 1/2 6) 2 1/4 × 4 = 9 7) Recipe 2 1/4 cups × 2/3 = 1 1/2 cups 8) Multi-step: a 3/4 acre field, 2/3 planted with corn, of which 1/2 is harvested: 3/4 × 2/3 × 1/2 = 1/4 acre. Scaling explanations must name factor > 1, < 1 or = 1."
+    },
+    {
+      "week": 22,
+      "prep": "Fraction strips, paper strips, number lines; draw a 'pan of brownies' rectangle.",
+      "misconceptions": [
+        "Confusing 1/2 ÷ 3 with 3 ÷ 1/2. Read it as a story: half a pan shared by 3 vs. how many halves in 3.",
+        "Thinking division always gives a smaller number. 3 ÷ 1/4 = 12 because quarters are small pieces.",
+        "Not connecting to multiplication. Check: quotient × divisor = dividend."
+      ],
+      "days": [
+        {
+          "guide": "Draw a pan, shade half, split the half into 3 equal pieces: each is 1/6 of the pan. The child solves 8 problems with drawings.",
+          "questions": [
+            {
+              "q": "1/2 ÷ 3 = ?",
+              "a": "1/6"
+            },
+            {
+              "q": "1/3 ÷ 4 = ?",
+              "a": "1/12"
+            }
+          ]
+        },
+        {
+          "guide": "Draw a number line 0 to 3 in fourths and count jumps of 1/4: 12. The child solves 8 problems.",
+          "questions": [
+            {
+              "q": "How many 1/4s are in 3?",
+              "a": "12"
+            },
+            {
+              "q": "5 ÷ 1/3 = ?",
+              "a": "15"
+            }
+          ]
+        },
+        {
+          "guide": "Check each quotient with multiplication: 1/3 ÷ 4 = 1/12 because 1/12 × 4 = 1/3. The child checks 10 answers and explains the inverse relationship.",
+          "questions": [
+            {
+              "q": "Check 4 ÷ 1/5 = 20.",
+              "a": "20 × 1/5 = 4 ✓"
+            }
+          ]
+        },
+        {
+          "guide": "Write a story for 1/4 ÷ 2 (1/4 of a pizza shared by 2 people) and 6 ÷ 1/2 (how many half-cup servings in 6 cups), then solve with models. Your child draws a picture for each story and writes the equation beneath it. Ask: 'Why is one answer smaller than the starting amount and one larger?'",
+          "questions": [
+            {
+              "q": "1/4 ÷ 2 = ?",
+              "a": "1/8"
+            },
+            {
+              "q": "6 ÷ 1/2 = ?",
+              "a": "12"
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz with a model for each problem. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "1/5 ÷ 2 = ?",
+              "a": "1/10"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 1/2 ÷ 4 = 1/8 2) 1/6 ÷ 2 = 1/12 3) 1/3 ÷ 3 = 1/9 4) 2 ÷ 1/3 = 6 5) 4 ÷ 1/4 = 16 6) 7 ÷ 1/2 = 14 7) 3 people share 1/4 lb of cheese = 1/12 lb each 8) 5 yd of ribbon cut into 1/3-yd pieces = 15 pieces. Each needs a matching model."
+    },
+    {
+      "week": 23,
+      "prep": "Measuring cups (1/3, 1/4, 1/2 cup), 2 cups of dry rice or water, bowls. Write the Unit 5 test from the key.",
+      "misconceptions": [
+        "Multiplying when the question asks 'how many servings'. 'How many 1/3s fit in 2?' is division.",
+        "Skipping a step in multi-step problems. Underline each question and answer it in order.",
+        "Forgetting units in answers."
+      ],
+      "days": [
+        {
+          "guide": "Scoop 2 cups of rice with a 1/3 cup measure and count: 6 servings. Write 2 ÷ 1/3 = 6. The child solves 5 similar problems.",
+          "questions": [
+            {
+              "q": "How many 1/3-cup servings in 2 cups?",
+              "a": "6"
+            },
+            {
+              "q": "How many 1/4-cup servings in 3 cups?",
+              "a": "12"
+            }
+          ]
+        },
+        {
+          "guide": "For each problem ask 'Am I finding a part of an amount (multiply) or how many groups / size of each share (divide)?' The child sorts 10 and solves with diagrams.",
+          "questions": [
+            {
+              "q": "Ana has 4 yards of yarn and uses 3/4 of it. Multiply or divide?",
+              "a": "Multiply: 3/4 × 4 = 3 yards."
+            },
+            {
+              "q": "4 yards cut into 1/2-yard pieces — how many?",
+              "a": "Divide: 4 ÷ 1/2 = 8."
+            }
+          ]
+        },
+        {
+          "guide": "Solve multi-step problems step by step, writing each step's equation. Your child underlines each question in the problem, numbers the steps, and labels each intermediate answer with units.",
+          "questions": [
+            {
+              "q": "A 3-cup bag of trail mix: 2/3 of it is eaten, then the rest is split into 1/4-cup bags. How many bags?",
+              "a": "Eaten 2 cups; 1 cup left; 1 ÷ 1/4 = 4 bags."
+            }
+          ]
+        },
+        {
+          "guide": "Cumulative review of fractions as division, multiplication, scaling and division. Mix one problem of each type; for each, have your child say first whether the answer should be bigger or smaller than the starting number.",
+          "questions": [
+            {
+              "q": "7 ÷ 2 as a fraction?",
+              "a": "7/2 = 3 1/2"
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 5 test independently. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "1/2 ÷ 5 = ?",
+              "a": "1/10"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 5 test key (suggested): 1) 5 ÷ 6 = 5/6 2) 17 ÷ 4 = 4 1/4 3) 3/4 × 20 = 15 4) 2/3 × 5/8 = 5/12 5) 1 1/2 × 2 2/3 = 4 6) 4/5 × 9 is less than 9 7) area of 1/2 m × 3/4 m = 3/8 sq m 8) 1/4 ÷ 3 = 1/12 9) 6 ÷ 1/4 = 24 10) 3 friends share 1/2 lb of grapes = 1/6 lb each 11) 8 cups of soup in 1/2-cup servings: 8 ÷ 1/2 = 16 servings 12) 12 ft board, 1/3 is cut off; rest split in 4 equal pieces → 8 ÷ 4 = 2 ft each."
+    },
+    {
+      "week": 24,
+      "prep": "Sugar cubes or centimeter cubes (about 100), 3 small boxes, printed box nets (e.g., 3×2×2 and 4×2×1 cm), scissors, tape.",
+      "misconceptions": [
+        "Counting only visible cubes in a picture. Count one layer, then multiply by the number of layers to include hidden cubes.",
+        "Confusing volume with area. Area covers a surface (square units); volume fills space (cubic units).",
+        "Leaving gaps or overlaps. Unit cubes must pack with no gaps."
+      ],
+      "days": [
+        {
+          "guide": "Fill 3 boxes with cubes and count. Define a unit cube (1 unit on each edge) and cubic unit. Discuss which box holds most.",
+          "questions": [
+            {
+              "q": "What does it mean that a box has a volume of 24 cubic centimeters?",
+              "a": "24 one-centimeter cubes fill it with no gaps or overlaps."
+            }
+          ]
+        },
+        {
+          "guide": "Build prisms of given dimensions (e.g., 3 × 2 × 4) and record the cube count. Give dimensions such as 3 × 2 × 4, 5 × 1 × 2 and 2 × 2 × 3. Your child records length, width, height and the number of cubes in a table, then looks for a shortcut.",
+          "questions": [
+            {
+              "q": "How many cubes in a 3 × 2 × 4 prism?",
+              "a": "24"
+            }
+          ]
+        },
+        {
+          "guide": "Count cubes in the bottom layer (length × width), then multiply by the number of layers. The child does 8 pictures.",
+          "questions": [
+            {
+              "q": "A prism has 5 × 3 cubes in each layer and 4 layers. Volume?",
+              "a": "15 × 4 = 60 cubic units."
+            }
+          ]
+        },
+        {
+          "guide": "Cut and fold nets; predict the number of centimeter cubes that fill each, then test. Your child writes the prediction (layer × layers) before filling, then counts the cubes to test it.",
+          "questions": [
+            {
+              "q": "A box net folds to 4 cm × 2 cm × 3 cm. How many cm cubes fill it?",
+              "a": "24"
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz on finding volume by counting cubes and layers. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "A prism is 2 cubes long, 2 wide, 2 high. Volume?",
+              "a": "8 cubic units."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 4 × 3 × 2 = 24 cubic units 2) layer of 6, 5 layers = 30 3) 2 × 2 × 6 = 24 4) 5 × 5 × 1 = 25 5) layer 3 × 4, 3 layers = 36 6) Which is larger: 3×3×3 (27) or 2×4×3 (24)? 3×3×3. Observation: child builds without gaps and counts by layers."
+    },
+    {
+      "week": 25,
+      "prep": "Rulers, 4 household boxes (cereal, shoe, tissue, small gift box).",
+      "misconceptions": [
+        "Adding the dimensions instead of multiplying.",
+        "Using square units for volume. Volume is cubic units (in³, cm³).",
+        "Thinking the base must be the bottom as placed. Any face can be the base B if height is measured perpendicular to it."
+      ],
+      "days": [
+        {
+          "guide": "Connect 'layer × layers' to length × width × height. The child finds volumes of 12 prisms.",
+          "questions": [
+            {
+              "q": "V of a 6 × 4 × 3 prism?",
+              "a": "72 cubic units."
+            },
+            {
+              "q": "V of a 10 cm × 5 cm × 2 cm box?",
+              "a": "100 cubic cm."
+            }
+          ]
+        },
+        {
+          "guide": "Find base area B = l × w, then V = B × h. Show (6 × 4) × 3 = 6 × (4 × 3): same volume. The child does 10.",
+          "questions": [
+            {
+              "q": "B = 20 sq in, h = 7 in. Volume?",
+              "a": "140 cubic inches."
+            },
+            {
+              "q": "Show 5 × 3 × 4 two ways.",
+              "a": "(5 × 3) × 4 = 60 and 5 × (3 × 4) = 60."
+            }
+          ]
+        },
+        {
+          "guide": "Measure 4 boxes to the nearest inch, record l, w, h, and compute V in cubic inches. Show how to line up the ruler at zero and round to the nearest inch. Your child records l, w, h for each box in a table and multiplies.",
+          "questions": [
+            {
+              "q": "A shoebox is 13 in × 8 in × 5 in. Volume?",
+              "a": "520 cubic inches."
+            }
+          ]
+        },
+        {
+          "guide": "Use V ÷ (two known dimensions) to find the missing one. The child solves 8.",
+          "questions": [
+            {
+              "q": "V = 120, l = 5, w = 4. Find h.",
+              "a": "120 ÷ 20 = 6."
+            },
+            {
+              "q": "V = 96 cubic ft, B = 16 sq ft. h?",
+              "a": "6 ft"
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz on formulas and missing dimensions. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "V of a cube with 5 cm edges?",
+              "a": "125 cubic cm."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 8 × 3 × 2 = 48 2) 12 × 5 × 4 = 240 3) B = 36, h = 5 → 180 4) cube edge 4 = 64 5) V = 200, l = 10, w = 5 → h = 4 6) V = 84, B = 12 → h = 7 7) units: cubic inches/cm. Box table: correct measurements and products for each box."
+    },
+    {
+      "week": 26,
+      "prep": "Cardstock, tape, rulers, unit cubes. Draw 8 L-shaped/step figures with dimensions labeled. Write Unit 6 test.",
+      "misconceptions": [
+        "Double-counting the overlap when decomposing. Draw a line to split the figure into two non-overlapping prisms.",
+        "Using the whole figure's length for both parts. Find each part's own dimensions by subtracting.",
+        "Thinking same volume means same amount of cardboard. Compare surface area of designs."
+      ],
+      "days": [
+        {
+          "guide": "Split an L-shape into two rectangular prisms, find each volume and add. Show it can be split two ways with the same total.",
+          "questions": [
+            {
+              "q": "An L-shape: one prism 5 × 4 × 2 and another 3 × 4 × 2. Total volume?",
+              "a": "40 + 24 = 64 cubic units."
+            }
+          ]
+        },
+        {
+          "guide": "Find volumes of a two-level planter (e.g., bottom 6 × 2 × 1 ft, top 3 × 2 × 1 ft) and a staircase of blocks. Have your child sketch each figure and draw a line where it splits into two prisms. They label each part's dimensions before computing.",
+          "questions": [
+            {
+              "q": "Planter: bottom 6 × 2 × 1 ft, top 3 × 2 × 1 ft. Volume?",
+              "a": "12 + 6 = 18 cubic ft."
+            }
+          ]
+        },
+        {
+          "guide": "List boxes with V = 72 cubic inches (6 × 4 × 3, 6 × 6 × 2, 8 × 3 × 3, 9 × 4 × 2…). Compute the cardboard (surface area: 2 × (lw + lh + wh)) and choose the least.",
+          "questions": [
+            {
+              "q": "Which uses less cardboard: 6 × 4 × 3 or 6 × 6 × 2?",
+              "a": "6 × 4 × 3 uses 108 sq in; 6 × 6 × 2 uses 120 sq in. The 6 × 4 × 3 box."
+            }
+          ]
+        },
+        {
+          "guide": "Build the chosen box from cardstock and present dimensions, volume and reasoning. Your child draws a net of the box first, then cuts, folds and tapes it. In the presentation they show the 3 designs and why they chose this one.",
+          "questions": [
+            {
+              "q": "Show your box holds 72 cubic inches.",
+              "a": "Example: 6 × 4 × 3 = 72."
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 6 test. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Volume of a 4 × 4 × 4 cube plus a 4 × 2 × 4 prism?",
+              "a": "64 + 32 = 96 cubic units."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 6 test key (suggested): 1) 3 × 5 × 2 = 30 2) B = 18, h = 4 → 72 3) V = 150, l = 6, w = 5 → h = 5 4) composite 4×3×2 + 2×3×2 = 24 + 12 = 36 5) cube edge 3 = 27 6) explain volume as cubic units. Project rubric (4 levels): 4 = box measures exactly 72 cu in, three designs compared with surface area, clear presentation; 3 = correct volume, comparison mostly correct; 2 = volume error or no comparison; 1 = incomplete."
+    },
+    {
+      "week": 27,
+      "prep": "Measuring tape, kitchen scale (ounces/pounds), measuring cups, pint/quart containers, a gallon jug.",
+      "misconceptions": [
+        "Multiplying when converting to a larger unit. Big unit → small unit: multiply; small → big: divide.",
+        "Borrowing 10 instead of 12 inches (or 16 oz). 1 ft = 12 in; 1 lb = 16 oz.",
+        "Confusing fluid ounces with weight ounces."
+      ],
+      "days": [
+        {
+          "guide": "Measure room length in feet; convert to inches (× 12) and yards (÷ 3). The child solves 15 conversions.",
+          "questions": [
+            {
+              "q": "12 ft = ? in = ? yd",
+              "a": "144 in; 4 yd."
+            },
+            {
+              "q": "5 yd = ? ft",
+              "a": "15 ft"
+            }
+          ]
+        },
+        {
+          "guide": "Weigh items in ounces and convert to pounds (÷ 16). Solve 12 problems including fractional pounds.",
+          "questions": [
+            {
+              "q": "2 1/4 lb = ? oz",
+              "a": "36 oz"
+            },
+            {
+              "q": "40 oz = ? lb",
+              "a": "2 1/2 lb"
+            }
+          ]
+        },
+        {
+          "guide": "Fill a gallon jug using cups, pints, quarts; build the chart 1 gal = 4 qt = 8 pt = 16 c. Solve 12 problems.",
+          "questions": [
+            {
+              "q": "How many cups in 3 quarts?",
+              "a": "12 cups"
+            },
+            {
+              "q": "10 pints = ? quarts",
+              "a": "5 quarts"
+            }
+          ]
+        },
+        {
+          "guide": "Compute with mixed units, regrouping 1 ft as 12 in or 1 lb as 16 oz. Model regrouping: borrow 1 ft as 12 in, or carry 16 oz as 1 lb. Your child solves 6 problems, checking that inches stay under 12 and ounces under 16.",
+          "questions": [
+            {
+              "q": "5 ft 8 in − 3 ft 10 in = ?",
+              "a": "4 ft 20 in − 3 ft 10 in = 1 ft 10 in."
+            },
+            {
+              "q": "2 lb 6 oz × 3 = ?",
+              "a": "6 lb 18 oz = 7 lb 2 oz."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz including 5 word problems. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "A 3/4 lb bag of nuts is how many ounces?",
+              "a": "12 oz"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) 7 ft = 84 in 2) 48 in = 4 ft 3) 2 mi = 10,560 ft 4) 3 lb = 48 oz 5) 1 1/2 lb = 24 oz 6) 2 gal = 32 c 7) 6 c = 3 pt 8) 3 qt 1 pt = 7 pt 9) Word: 4 ribbons of 2 ft 9 in = 11 ft 10) Word: 3 gal of punch = 48 one-cup servings 11) Word: 64 oz of flour = 4 lb 12) Word: 6 ft − 4 ft 7 in = 1 ft 5 in 13) Word: 5 lb ÷ 8 bags = 10 oz each."
+    },
+    {
+      "week": 28,
+      "prep": "Meter stick, liter bottle, measuring cup with mL, kitchen scale with grams. Write Unit 7 test.",
+      "misconceptions": [
+        "Mixing up prefixes. kilo = 1,000; centi = 1/100; milli = 1/1,000.",
+        "Moving the decimal the wrong way. Bigger unit → smaller unit gives a bigger number.",
+        "Forgetting to convert all quantities to the same unit before computing."
+      ],
+      "days": [
+        {
+          "guide": "Measure objects in mm, cm, and m and convert using powers of 10. The child converts 15 measurements.",
+          "questions": [
+            {
+              "q": "2.5 m = ? cm = ? mm",
+              "a": "250 cm; 2,500 mm."
+            },
+            {
+              "q": "450 mm = ? cm",
+              "a": "45 cm"
+            }
+          ]
+        },
+        {
+          "guide": "Measure water in mL/L and masses in g/kg; convert 12 problems. Pour water into a measuring cup in mL, then into a liter bottle. Your child converts 12 problems, using × 1,000 for L → mL and kg → g.",
+          "questions": [
+            {
+              "q": "3.2 kg = ? g",
+              "a": "3,200 g"
+            },
+            {
+              "q": "750 mL = ? L",
+              "a": "0.75 L"
+            }
+          ]
+        },
+        {
+          "guide": "Solve multi-step problems by converting first, then computing. Model the 250 mL cup problem step by step. Your child converts first in every problem, then computes, labeling units.",
+          "questions": [
+            {
+              "q": "How many 250 mL cups can be filled from three 2 L bottles?",
+              "a": "6 L = 6,000 mL; 6,000 ÷ 250 = 24 cups."
+            }
+          ]
+        },
+        {
+          "guide": "Mixed review of customary and metric conversions; the child makes a reference card. Your child solves a mix of customary and metric problems and makes a card listing key equivalences (12 in = 1 ft, 1,000 mL = 1 L, etc.).",
+          "questions": [
+            {
+              "q": "Which is longer: 1 yard or 1 meter?",
+              "a": "1 meter (about 39 inches)."
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 7 test. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "A 1.5 km walk is how many meters?",
+              "a": "1,500 m"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 7 test key (suggested): 1) 4 ft = 48 in 2) 5 yd = 15 ft 3) 2 1/2 lb = 40 oz 4) 3 gal = 12 qt 5) 6 c = 48 fl oz 6) 3.6 m = 360 cm 7) 85 mm = 8.5 cm 8) 2.4 L = 2,400 mL 9) 500 g = 0.5 kg 10) 4 boxes of 750 g = 3 kg 11) 5 ft 3 in + 2 ft 11 in = 8 ft 2 in 12) A 2 m board cut into 25 cm pieces = 8 pieces."
+    },
+    {
+      "week": 29,
+      "prep": "Masking tape to make a floor grid (about 6 × 6), graph paper, a mystery-picture list of ordered pairs.",
+      "misconceptions": [
+        "Plotting (3, 5) as 3 up, 5 over. x first: 'walk along the hall, then climb the stairs.'",
+        "Starting at 1 instead of the origin (0, 0).",
+        "Counting the starting point when finding distance. Subtract coordinates: (2, 7) to (2, 3) is 7 − 3 = 4."
+      ],
+      "days": [
+        {
+          "guide": "Tape x- and y-axes on the floor and number them. Call out pairs; the child walks x first, then y. Name origin, axes, coordinates.",
+          "questions": [
+            {
+              "q": "From the origin, how do you get to (3, 5)?",
+              "a": "Move 3 right along the x-axis, then 5 up."
+            },
+            {
+              "q": "What are the coordinates of the origin?",
+              "a": "(0, 0)"
+            }
+          ]
+        },
+        {
+          "guide": "The child plots 20 points and names 10 given points on graph paper. Model plotting by tracing with your finger: over on the x-axis, then up. Your child plots 20 points and names 10 points you mark.",
+          "questions": [
+            {
+              "q": "A point is 4 right and 0 up. Name it.",
+              "a": "(4, 0) — on the x-axis."
+            }
+          ]
+        },
+        {
+          "guide": "Plot and connect a mystery list in order, then the child designs a picture and writes its list. Give a short mystery list (a house or star). Your child plots in order, then designs a picture and writes the coordinate list for someone else.",
+          "questions": [
+            {
+              "q": "Plot (1,1), (5,1), (5,4), (1,4). What shape?",
+              "a": "A rectangle 4 units by 3 units."
+            }
+          ]
+        },
+        {
+          "guide": "Find distances between points with the same x or y by subtracting the other coordinate. Model with (2, 7) and (2, 3): same x, so subtract y-values: 4. Your child solves 10 problems, checking by counting grid units.",
+          "questions": [
+            {
+              "q": "Distance from (2, 7) to (2, 3)?",
+              "a": "4 units"
+            },
+            {
+              "q": "Distance from (1, 6) to (9, 6)?",
+              "a": "8 units"
+            }
+          ]
+        },
+        {
+          "guide": "Play coordinate Battleship, then the quiz. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Which axis is horizontal?",
+              "a": "The x-axis."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) origin = (0, 0) 2) first number = x-coordinate (horizontal distance) 3) x-axis is horizontal, y-axis vertical 4) points plotted correctly (check each) 5) point A at 3 right, 6 up = (3, 6) 6) (0, 5) lies on the y-axis 7) distance (4, 2) to (4, 9) = 7 8) distance (3, 5) to (10, 5) = 7."
+    },
+    {
+      "week": 30,
+      "prep": "Graph paper, outdoor thermometer, a plant or a stick to measure shadows. Choose a day to record hourly temperature.",
+      "misconceptions": [
+        "Uneven scales (1, 2, 5, 10 spaced equally). Each grid step must represent the same amount.",
+        "Starting a scale far from the data so points squash. Choose a scale that fits the range.",
+        "Misreading a point's meaning. Say both parts: 'After 2 hours, 18 miles.'"
+      ],
+      "days": [
+        {
+          "guide": "Record temperature each hour for 6 hours and graph (hour, temperature). Your child reads the thermometer at the same spot each hour and records it in a table. After the last reading they choose a scale and plot the points.",
+          "questions": [
+            {
+              "q": "What does the point (3, 68) mean?",
+              "a": "At hour 3 the temperature was 68 degrees."
+            }
+          ]
+        },
+        {
+          "guide": "Choose axis scales that fit each data set (by 1s, 5s, 10s). Graph savings over weeks and plant height over days.",
+          "questions": [
+            {
+              "q": "Savings range from $0 to $80. What scale for the y-axis?",
+              "a": "Count by 10s (0–80) — 8 equal intervals."
+            }
+          ]
+        },
+        {
+          "guide": "Use a bike-trip graph (time, distance) to answer questions about points and changes. Draw or print a simple time–distance graph. Your child answers questions about what each point means, including flat sections.",
+          "questions": [
+            {
+              "q": "(2, 18) on a bike-trip graph means?",
+              "a": "After 2 hours the rider had traveled 18 miles."
+            },
+            {
+              "q": "If the graph is flat from hour 2 to 3, what happened?",
+              "a": "The rider stopped; distance did not change."
+            }
+          ]
+        },
+        {
+          "guide": "Draw a neighborhood map on a grid with labeled locations; write directions using coordinates. Your child places home, park, store, school at grid points, then writes directions like 'from (2, 3) go 4 right to (6, 3).'",
+          "questions": [
+            {
+              "q": "Home (2, 3) to park (6, 3): how far and which direction?",
+              "a": "4 units right (east)."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz graphing and interpreting a real-world data set. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Hours 0–4, pages read 0, 15, 30, 45, 60. How many pages per hour?",
+              "a": "15 pages per hour."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: given data hours 0–5 and savings $0, $5, $10, $15, $20, $25: 1) scale by 5s 2) points (0,0),(1,5)…(5,25) plotted 3) (3, 15) means after 3 weeks, $15 saved 4) saved $5 each week 5) predicted week 8 = $40. Rubric: title, labeled axes, even scale, accurate points, correct interpretations."
+    },
+    {
+      "week": 31,
+      "prep": "Graph paper, pattern tables with two columns.",
+      "misconceptions": [
+        "Reading only one rule's pattern. Compare corresponding terms (same position) in both lists.",
+        "Swapping x and y when making pairs. First pattern = x, second = y.",
+        "Thinking 'add 6' is 'add 3' plus 3 each time in the corresponding terms. Corresponding terms are doubled, not +3."
+      ],
+      "days": [
+        {
+          "guide": "Generate 'add 3' and 'add 6' from 0 in a table; compare terms in the same position. Make a two-column table with five rows. Your child fills both columns, then compares terms in the same row.",
+          "questions": [
+            {
+              "q": "List 5 terms of each starting at 0.",
+              "a": "Add 3: 0, 3, 6, 9, 12. Add 6: 0, 6, 12, 18, 24."
+            },
+            {
+              "q": "How do corresponding terms compare?",
+              "a": "Each term in the add-6 list is twice the add-3 term."
+            }
+          ]
+        },
+        {
+          "guide": "Form ordered pairs (0,0), (3,6), (6,12), (9,18) and graph them; notice a straight line through the origin. Your child plots each pair and connects the points with a ruler. Ask: 'Why is it a straight line?'",
+          "questions": [
+            {
+              "q": "Rules 'add 2' and 'add 8' from 0 — what is the 4th ordered pair?",
+              "a": "(6, 24)"
+            }
+          ]
+        },
+        {
+          "guide": "Build tables for tickets at $4 and $8 per ticket and graph both. Compare.",
+          "questions": [
+            {
+              "q": "5 tickets cost? at $4 and $8",
+              "a": "$20 and $40; the $8 cost is always double."
+            }
+          ]
+        },
+        {
+          "guide": "Mixed review of coordinate plane, graphing and patterns. Include plotting, distance, interpreting a graph and generating two patterns. Check each section before moving on.",
+          "questions": [
+            {
+              "q": "Distance from (0, 4) to (0, 11)?",
+              "a": "7"
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 8 test. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Rule 'add 5' starting at 0, 4th term?",
+              "a": "15 (0, 5, 10, 15)"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 8 test key (suggested): 1) (4, 2) is 4 right, 2 up 2) name a plotted point correctly 3) (0, 7) lies on the y-axis 4) distance (5,1) to (5,8) = 7 5) 'add 4' from 0: 0,4,8,12; 'add 12' from 0: 0,12,24,36 6) each y is 3 times x 7) pairs (0,0),(4,12),(8,24),(12,36) plotted 8) graph point (3, 45) on a pages-read graph means 45 pages after 3 days."
+    },
+    {
+      "week": 32,
+      "prep": "Protractor, ruler, about 20 shape cut-outs (triangles, quadrilaterals, pentagons, hexagons), 12 triangle drawings.",
+      "misconceptions": [
+        "Thinking a triangle's orientation changes its type. Measure, don't judge by looks.",
+        "Believing a triangle can have two right angles. The angles sum to 180°.",
+        "Mixing up classification by sides (equilateral, isosceles, scalene) and by angles (acute, right, obtuse)."
+      ],
+      "days": [
+        {
+          "guide": "Sort shapes by number of sides, pairs of parallel sides, and right angles; record in a table. Your child sorts the cut-outs three ways and records attributes in a table. Ask which shapes ended up in more than one group.",
+          "questions": [
+            {
+              "q": "A shape has 4 sides, 2 pairs of parallel sides and 4 right angles. Name it.",
+              "a": "Rectangle (possibly a square)."
+            }
+          ]
+        },
+        {
+          "guide": "Measure sides and angles of 12 triangles and classify each two ways. Model measuring an angle with the protractor (line up the center and baseline). Your child records side lengths and angles and classifies each triangle by sides and by angles.",
+          "questions": [
+            {
+              "q": "Sides 5, 5, 8 cm; angles 34°, 34°, 112°. Classify.",
+              "a": "Isosceles obtuse triangle."
+            },
+            {
+              "q": "Angles 60°, 60°, 60°?",
+              "a": "Equilateral, acute."
+            }
+          ]
+        },
+        {
+          "guide": "Try to draw 8 triangles; explain which are impossible using the 180° angle sum. Your child tries to draw each triangle and explains why some are impossible (e.g., two right angles would already total 180°).",
+          "questions": [
+            {
+              "q": "Can a triangle be right and obtuse?",
+              "a": "No — 90° + more than 90° already exceeds 180°."
+            },
+            {
+              "q": "Can a right triangle be isosceles?",
+              "a": "Yes, angles 90°, 45°, 45°."
+            }
+          ]
+        },
+        {
+          "guide": "Write 5 'Who am I?' riddles using precise attributes; solve the partner's. Model one riddle with 3 clues. Your child writes 5 riddles and solves yours; check that clues use precise words like parallel, right angle, congruent.",
+          "questions": [
+            {
+              "q": "I have 3 sides, all different lengths, and one angle of 90°. Who am I?",
+              "a": "A scalene right triangle."
+            }
+          ]
+        },
+        {
+          "guide": "Give the quiz on polygon attributes and triangle classification. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Can an equilateral triangle be right?",
+              "a": "No — all its angles are 60°."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) pentagon = 5 sides 2) hexagon = 6 sides 3) a trapezoid has at least one pair of parallel sides 4) angles 90°, 30°, 60° = right scalene 5) sides 4, 4, 4 = equilateral acute 6) angles 100°, 40°, 40° = obtuse isosceles 7) impossible: two obtuse angles 8) a parallelogram has 2 pairs of parallel sides."
+    },
+    {
+      "week": 33,
+      "prep": "Geoboard and rubber bands or the free Math Learning Center Geoboard app; chart paper. Note: some books define trapezoid as 'exactly one' pair of parallel sides and others 'at least one'; check which definition your materials use and stay consistent.",
+      "misconceptions": [
+        "Thinking a square is not a rectangle. A square has all rectangle properties (4 right angles), so it is a special rectangle.",
+        "Reversing the hierarchy (all rhombuses are squares). Only squares that have right angles; a rhombus is sometimes a square.",
+        "Mixing trapezoid definitions. Use the one your materials state."
+      ],
+      "days": [
+        {
+          "guide": "Build each quadrilateral on the geoboard and list defining properties (sides, parallel pairs, angles). Your child builds a square, rectangle, rhombus, parallelogram, trapezoid and kite and lists sides, parallel pairs and angles for each.",
+          "questions": [
+            {
+              "q": "What makes a rhombus?",
+              "a": "4 equal sides (opposite sides parallel)."
+            },
+            {
+              "q": "What makes a rectangle?",
+              "a": "4 right angles (opposite sides parallel and equal)."
+            }
+          ]
+        },
+        {
+          "guide": "Draw a hierarchy: quadrilateral → parallelogram → rectangle and rhombus → square, labeling the property gained at each arrow. Your child draws the diagram on chart paper. Ask: 'What does a square have that a rectangle might not?'",
+          "questions": [
+            {
+              "q": "Where does a square belong in the hierarchy?",
+              "a": "Under both rectangle and rhombus — it has 4 right angles and 4 equal sides."
+            }
+          ]
+        },
+        {
+          "guide": "Decide always/sometimes/never for 12 statements, drawing proof. Your child marks each statement always, sometimes or never and draws a figure as proof, especially for 'sometimes'.",
+          "questions": [
+            {
+              "q": "A rhombus is a square.",
+              "a": "Sometimes — only when it has right angles."
+            },
+            {
+              "q": "A square is a rectangle.",
+              "a": "Always."
+            },
+            {
+              "q": "A rectangle is a parallelogram.",
+              "a": "Always."
+            }
+          ]
+        },
+        {
+          "guide": "Review triangles and quadrilaterals using a Venn diagram (e.g., rectangles and rhombuses overlap in squares). Your child places shapes in a Venn diagram (e.g., rectangles and rhombuses overlapping in squares) and explains each placement.",
+          "questions": [
+            {
+              "q": "What goes in the overlap of rectangles and rhombuses?",
+              "a": "Squares."
+            }
+          ]
+        },
+        {
+          "guide": "Give the Unit 9 test and collect the hierarchy diagram. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "A parallelogram has a right angle — always, sometimes, never?",
+              "a": "Sometimes (when it's a rectangle)."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Unit 9 test key (suggested): 1) A square is a rhombus: always 2) A rhombus is a rectangle: sometimes 3) A parallelogram is a quadrilateral: always 4) A triangle can have two right angles: never 5) A rectangle has 4 right angles: always 6) Squares are in both rectangle and rhombus categories 7) a kite is a quadrilateral 8) classify a figure with 2 pairs of parallel sides, no right angles, unequal adjacent sides = parallelogram. Hierarchy diagram: correct order quadrilateral → parallelogram → rectangle/rhombus → square with property labels."
+    },
+    {
+      "week": 34,
+      "prep": "Review task cards (write 20 decimal cards to hide around the house), timer.",
+      "misconceptions": [
+        "Rushing a timed set and skipping the estimate check. Estimate first.",
+        "Forgetting how to interpret remainders. Reread the question.",
+        "Mixing conversion directions."
+      ],
+      "days": [
+        {
+          "guide": "Time 10 multi-digit multiplication problems; record accuracy and time. Have your child estimate before each problem. Record time and accuracy; accuracy matters more than speed.",
+          "questions": [
+            {
+              "q": "426 × 37 = ?",
+              "a": "15,762"
+            }
+          ]
+        },
+        {
+          "guide": "Solve 8 division problems and interpret remainders in 3 word problems. Your child solves 8 problems with checks and decides for 3 word problems whether to round up, drop or use the remainder.",
+          "questions": [
+            {
+              "q": "1,750 ÷ 42 = ?",
+              "a": "41 R28"
+            },
+            {
+              "q": "100 cookies in boxes of 12: how many boxes to hold all?",
+              "a": "9 boxes (8 R4, round up)."
+            }
+          ]
+        },
+        {
+          "guide": "Hide 20 decimal task cards; the child finds and solves each. Hide cards around the house. Your child records each answer on a sheet and you check with the key.",
+          "questions": [
+            {
+              "q": "6.4 × 0.5 = ?",
+              "a": "3.2"
+            },
+            {
+              "q": "9.1 − 4.75 = ?",
+              "a": "4.35"
+            }
+          ]
+        },
+        {
+          "guide": "Evaluate 8 grouping-symbol expressions and 5 conversion problems. Your child evaluates expressions inside out and solves conversions, labeling all units.",
+          "questions": [
+            {
+              "q": "3 × [8 + (12 ÷ 4)] = ?",
+              "a": "33"
+            },
+            {
+              "q": "4.2 km = ? m",
+              "a": "4,200 m"
+            }
+          ]
+        },
+        {
+          "guide": "Give the cumulative quiz. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "Round 8.456 to the nearest tenth.",
+              "a": "8.5"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Suggested key: 1) value of 7 in 3.072 = 0.07 2) 4.5 × 10^3 = 4,500 3) 0.67 > 0.607 4) 532 × 48 = 25,536 5) 3,276 ÷ 36 = 91 6) 7.3 + 2.85 = 10.15 7) 2.4 × 0.3 = 0.72 8) 4.2 ÷ 0.6 = 7 9) (5 + 7) × 3 − 6 = 30 10) 3 ft 4 in = 40 in 11) 2.5 L = 2,500 mL 12) round 4.375 to hundredth = 4.38."
+    },
+    {
+      "week": 35,
+      "prep": "Fraction strips, graph paper, review packet; write the end-of-year assessment from the key (about 25 items across domains).",
+      "misconceptions": [
+        "Using a common denominator to multiply fractions.",
+        "Adding instead of multiplying dimensions for volume.",
+        "Forgetting x comes first in ordered pairs."
+      ],
+      "days": [
+        {
+          "guide": "Solve 12 mixed-number add/subtract problems and 2 word problems. Your child solves the problems with estimates. Check every answer as they finish each set.",
+          "questions": [
+            {
+              "q": "3 2/3 + 2 3/4 = ?",
+              "a": "6 5/12"
+            },
+            {
+              "q": "5 1/6 − 2 1/2 = ?",
+              "a": "2 2/3"
+            }
+          ]
+        },
+        {
+          "guide": "Solve 12 multiplication and unit-fraction division problems; explain one with a model. Your child solves the problems and draws a model (area model or number line) for one, explaining it aloud.",
+          "questions": [
+            {
+              "q": "3/4 × 2/5 = ?",
+              "a": "3/10"
+            },
+            {
+              "q": "4 ÷ 1/3 = ?",
+              "a": "12"
+            }
+          ]
+        },
+        {
+          "guide": "Find volumes of prisms and composite figures; classify 6 quadrilaterals. Your child shows the formula used for each volume and lists the properties behind each classification.",
+          "questions": [
+            {
+              "q": "Volume of 7 × 3 × 2?",
+              "a": "42 cubic units."
+            },
+            {
+              "q": "4 equal sides, no right angles?",
+              "a": "Rhombus."
+            }
+          ]
+        },
+        {
+          "guide": "Graph a pattern table and a data set; interpret points. Your child graphs one pattern table and one data set, then explains what two points mean.",
+          "questions": [
+            {
+              "q": "Rules 'add 2' and 'add 6' from 0: 3rd pair?",
+              "a": "(4, 12)"
+            }
+          ]
+        },
+        {
+          "guide": "Give the end-of-year cumulative assessment. Score it with the assessment key, then have your child rework each missed problem aloud, naming the error, before you move on.",
+          "questions": [
+            {
+              "q": "7/8 − 1/4 = ?",
+              "a": "5/8"
+            }
+          ]
+        }
+      ],
+      "assessment_key": "End-of-year key (suggested sample items): 1) value of 5 in 2.354 = 0.05 2) 0.38 × 100 = 38 3) round 6.947 to tenth = 6.9 4) 307 × 24 = 7,368 5) 2,592 ÷ 48 = 54 6) 2 × [3 + (10 − 4)] = 18 7) 5.6 + 3.75 = 9.35 8) 1.2 × 0.4 = 0.48 9) 6.3 ÷ 0.9 = 7 10) 2/3 + 3/5 = 1 4/15 11) 4 1/2 − 1 2/3 = 2 5/6 12) 3/4 × 16 = 12 13) 2/3 × 3/8 = 1/4 14) 1/3 ÷ 2 = 1/6 15) 5 ÷ 1/4 = 20 16) 9 ÷ 4 = 2 1/4 17) volume 5 × 4 × 3 = 60 18) composite 3×2×2 + 4×2×2 = 12 + 16 = 28 19) 6 ft = 72 in 20) 3.5 kg = 3,500 g 21) (5, 2) is 5 right, 2 up 22) a square is always a rhombus 23) 'add 3'/'add 9' pairs: (3, 9) 24) 3/4 × 8 < 8. Scoring: 90%+ mastery, 75–89% proficient, 60–74% developing."
+    },
+    {
+      "week": 36,
+      "prep": "Graph paper, a garden store flyer or website prices for seeds, soil and boards, calculator for checking only. Set a $150 budget.",
+      "misconceptions": [
+        "Mixing units (inches and feet) in volume. Convert all dimensions to feet before computing cubic feet.",
+        "Confusing area (square feet for planting) with volume (cubic feet of soil).",
+        "Rounding prices too early in the budget."
+      ],
+      "days": [
+        {
+          "guide": "The child draws the garden on a coordinate grid, labeling each bed's corners with ordered pairs. Give the grid size (e.g., 20 × 20 feet). Your child labels each bed's corners and checks dimensions by subtracting coordinates.",
+          "questions": [
+            {
+              "q": "A bed has corners (2,2), (8,2), (8,5), (2,5). What are its dimensions?",
+              "a": "6 units by 3 units."
+            }
+          ]
+        },
+        {
+          "guide": "Compute soil volume for two planters (one composite), converting to cubic feet. Help convert inches to feet first (12 in = 1 ft). Your child shows V = l × w × h for each planter and adds the parts of the composite one.",
+          "questions": [
+            {
+              "q": "A planter is 6 ft × 2 ft × 1 1/2 ft. Volume?",
+              "a": "18 cubic feet."
+            },
+            {
+              "q": "A planter is 24 in × 36 in × 12 in. Volume in cubic feet?",
+              "a": "2 ft × 3 ft × 1 ft = 6 cubic feet."
+            }
+          ]
+        },
+        {
+          "guide": "Decide what fraction of each bed gets each plant; compute area with fraction multiplication. Your child decides on fractions (e.g., 1/2 tomatoes, 1/4 herbs) and multiplies each by the bed's area.",
+          "questions": [
+            {
+              "q": "A 6 ft × 3 ft bed; 2/3 is tomatoes. How many square feet?",
+              "a": "18 × 2/3 = 12 sq ft."
+            }
+          ]
+        },
+        {
+          "guide": "Total seeds, soil and boards using decimal prices; stay under $150. Your child lists items with prices in a table, totals them and subtracts from $150.",
+          "questions": [
+            {
+              "q": "Soil $7.49 × 4 bags + seeds $12.75 = ?",
+              "a": "$29.96 + $12.75 = $42.71"
+            }
+          ]
+        },
+        {
+          "guide": "The child presents the plan to family, explaining each calculation, and writes a year-end reflection. Your child presents each calculation step by step. Then they write a reflection on their favorite math topic and biggest growth.",
+          "questions": [
+            {
+              "q": "Why did you multiply to find the soil needed?",
+              "a": "Volume = length × width × height tells how many cubic feet of soil fill the box."
+            }
+          ]
+        }
+      ],
+      "assessment_key": "Capstone rubric (4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning). Accuracy of calculations: proficient = all volume, area and budget computations correct (minor slip at most). Use of grid and units: proficient = every bed corner labeled with correct ordered pairs; square feet for area, cubic feet for volume, dollars for cost. Clarity: proficient = explains each step and why that operation was used; total cost under $150."
+    }
+  ]
+}

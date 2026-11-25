@@ -1,0 +1,2009 @@
+{
+  "grade": 7,
+  "subject": "WL",
+  "title": "Spanish 1A",
+  "description": "Spanish 1A is the first half of Spanish I, taking students from Novice Low to Novice Mid. Students learn greetings, numbers, dates, time, weather, personal description with ser, likes with gustar, school vocabulary, food, family, places in town, and present-tense regular -ar/-er/-ir verbs plus tener, estar, and ir (with ir a + infinitive). Culture threads include the 21 Spanish-speaking countries, greeting customs, school life, regional foods, family naming customs, and town plazas. Spanish 1B in grade 8 completes Spanish I.",
+  "framework": "2019 California World Languages Standards; 2020 CA World Languages Framework (Novice Low to Novice Mid)",
+  "minutes_per_day": 45,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "WL-COMM1-NL": "Interpretive communication (Novice Low): recognize familiar words and memorized phrases in simple spoken and written texts.",
+    "WL-COMM2-NL": "Interpersonal communication (Novice Low): greet, introduce oneself, and answer simple questions using memorized words and phrases.",
+    "WL-COMM3-NL": "Presentational communication (Novice Low): present basic information about oneself using memorized words and phrases.",
+    "WL-COMM1-NM": "Interpretive communication (Novice Mid): understand words, phrases, and some simple sentences in texts on familiar topics.",
+    "WL-COMM2-NM": "Interpersonal communication (Novice Mid): exchange information on familiar topics using practiced phrases and simple questions.",
+    "WL-COMM3-NM": "Presentational communication (Novice Mid): present information on familiar topics using practiced phrases and some simple sentences.",
+    "WL-CULT1-NM": "Cultures (Novice Mid): identify products and practices of Spanish-speaking cultures and compare them with one's own.",
+    "WL-CULT2-NM": "Intercultural interaction (Novice Mid): use culturally appropriate gestures, greetings, and forms of address in familiar situations.",
+    "WL-STRUC1-NL": "Structures (Novice Low): use sound-symbol correspondence, numbers, and memorized patterns to communicate.",
+    "WL-STRUC1-NM": "Structures (Novice Mid): use gender/number agreement, articles, and regular and common irregular present-tense verbs to communicate.",
+    "WL-CONN1-NM": "Connections (Novice Mid): use Spanish to reinforce knowledge of geography, science, and health."
+  },
+  "resources": [
+    {
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com",
+      "note": "Daily vocabulary and sentence practice aligned to each unit"
+    },
+    {
+      "name": "Language Transfer – Complete Spanish",
+      "url": "https://www.languagetransfer.org",
+      "note": "Free audio course that builds verb and sentence intuition"
+    },
+    {
+      "name": "SpanishDict",
+      "url": "https://www.spanishdict.com",
+      "note": "Dictionary, pronunciation audio, and grammar guides"
+    },
+    {
+      "name": "Conjuguemos",
+      "url": "https://conjuguemos.com",
+      "note": "Free verb conjugation and vocabulary drills"
+    },
+    {
+      "name": "Señor Wooly",
+      "url": "https://senorwooly.com",
+      "note": "Free music videos for comprehensible input"
+    },
+    {
+      "name": "Spanish Proficiency Exercises (UT Austin)",
+      "url": "https://www.laits.utexas.edu/spe/",
+      "note": "Videos of native speakers performing everyday tasks"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "¡Hola! Greetings and the Spanish-Speaking World",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Greetings, names, and numbers open every conversation, and Spanish connects us to 21 countries.",
+      "standards": [
+        "WL-COMM1-NL",
+        "WL-COMM2-NL",
+        "WL-COMM3-NL",
+        "WL-STRUC1-NL",
+        "WL-COMM1-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NM",
+        "WL-CONN1-NM"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "El calendario, la hora y el tiempo",
+      "start_week": 5,
+      "end_week": 7,
+      "big_idea": "Dates, time, and weather organize daily life, and seasons differ across hemispheres.",
+      "standards": [
+        "WL-COMM1-NL",
+        "WL-COMM2-NL",
+        "WL-COMM3-NL",
+        "WL-STRUC1-NL",
+        "WL-COMM1-NM",
+        "WL-CULT1-NM",
+        "WL-CONN1-NM"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "¿Cómo eres? Describing People",
+      "start_week": 8,
+      "end_week": 11,
+      "big_idea": "Ser and agreeing adjectives let us describe who people are.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CONN1-NM"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Me gusta: Activities and Free Time",
+      "start_week": 12,
+      "end_week": 14,
+      "big_idea": "Sharing likes and dislikes builds friendships across cultures.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NM"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "La escuela",
+      "start_week": 15,
+      "end_week": 18,
+      "big_idea": "Talking about school introduces regular -ar verbs and numbers to 100.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "¡A comer! Food and Healthy Eating",
+      "start_week": 19,
+      "end_week": 23,
+      "big_idea": "Food reveals culture; -er and -ir verbs let us talk about what we eat and drink.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NM",
+        "WL-CONN1-NM"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Mi familia",
+      "start_week": 24,
+      "end_week": 27,
+      "big_idea": "Families and their celebrations are central to identity in Spanish-speaking cultures.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CONN1-NM"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Mi ciudad: Places and Directions",
+      "start_week": 28,
+      "end_week": 32,
+      "big_idea": "Estar and ir help us locate places and move through a community.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CONN1-NM"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "El tiempo libre: Sports, Plans, and Invitations",
+      "start_week": 33,
+      "end_week": 34,
+      "big_idea": "Ir a + infinitive lets us make plans and invite others.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NM"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Repaso y evaluación final",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "We show what we can do in Spanish across all three modes.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "¡Hola! Greetings, farewells, and names",
+      "objectives": [
+        "Greet and say goodbye appropriately",
+        "Ask for and give names"
+      ],
+      "standards": [
+        "WL-COMM2-NL",
+        "WL-COMM1-NL",
+        "WL-CULT2-NM"
+      ],
+      "vocabulary": [
+        "hola",
+        "buenos días",
+        "buenas tardes",
+        "adiós",
+        "hasta luego",
+        "¿Cómo te llamas?",
+        "me llamo",
+        "mucho gusto"
+      ],
+      "materials": [
+        "Spanish notebook",
+        "mirror",
+        "Duolingo account"
+      ],
+      "days": [
+        {
+          "title": "Saludos",
+          "work": "Watch a short greeting dialogue, then practice hola, buenos días/tardes/noches aloud and label a time-of-day chart with the right greeting."
+        },
+        {
+          "title": "¿Cómo te llamas?",
+          "work": "Practice the exchange ¿Cómo te llamas? / Me llamo... / Mucho gusto / Igualmente with a parent playing a new classmate; record it twice."
+        },
+        {
+          "title": "Despedidas",
+          "work": "Learn adiós, hasta luego, hasta mañana, nos vemos; write and act out three 4-line mini-dialogues that open with a greeting and close with a farewell."
+        },
+        {
+          "title": "Culture: el saludo",
+          "work": "Read about greeting customs (handshake, cheek kiss in Spain and much of Latin America) and compare them with greetings in your family in a two-column chart."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete Duolingo's first unit and perform an unscripted greet-introduce-farewell exchange with a parent."
+        }
+      ],
+      "assessment": "Oral exchange checklist: greets, gives name, responds to mucho gusto, uses a farewell."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "¿Cómo estás? Feelings and formal vs. informal address",
+      "objectives": [
+        "Ask how someone is and respond",
+        "Choose tú or usted appropriately"
+      ],
+      "standards": [
+        "WL-COMM2-NL",
+        "WL-COMM1-NL",
+        "WL-STRUC1-NL",
+        "WL-CULT2-NM"
+      ],
+      "vocabulary": [
+        "¿Cómo estás?",
+        "¿Cómo está usted?",
+        "bien",
+        "mal",
+        "regular",
+        "cansado/a",
+        "tú",
+        "usted"
+      ],
+      "materials": [
+        "emoji feeling cards",
+        "index cards"
+      ],
+      "days": [
+        {
+          "title": "¿Cómo estás?",
+          "work": "Learn bien, muy bien, regular, mal, así así and practice responding to ¿Cómo estás? with emoji cards drawn at random."
+        },
+        {
+          "title": "Tú vs. usted",
+          "work": "Sort 12 people (best friend, grandmother, doctor, teacher, cousin) into tú or usted and write the matching greeting for each."
+        },
+        {
+          "title": "Listening",
+          "work": "Watch a Spanish Proficiency Exercises (UT Austin) greeting clip twice and note each speaker's name and how they feel."
+        },
+        {
+          "title": "Role-play",
+          "work": "Role-play meeting a neighbor (usted) and then a new teammate (tú), switching the forms correctly."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a 15-item quiz matching questions to responses and choosing tú/usted, then do a 1-minute oral check-in with a parent."
+        }
+      ],
+      "assessment": "Quiz (80%+) and oral check-in rubric."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "El alfabeto y los números 0–31",
+      "objectives": [
+        "Spell names using the Spanish alphabet",
+        "Count and use numbers 0–31"
+      ],
+      "standards": [
+        "WL-COMM1-NL",
+        "WL-COMM3-NL",
+        "WL-STRUC1-NL"
+      ],
+      "vocabulary": [
+        "el alfabeto",
+        "la ñ",
+        "la ll",
+        "la rr",
+        "¿Cómo se escribe?",
+        "cero",
+        "quince",
+        "treinta y uno"
+      ],
+      "materials": [
+        "alphabet chart",
+        "playing cards",
+        "dice"
+      ],
+      "days": [
+        {
+          "title": "El alfabeto",
+          "work": "Learn the Spanish alphabet with a song, then practice the five pure vowel sounds and the letters ñ, ll, rr, j, and h (silent)."
+        },
+        {
+          "title": "¿Cómo se escribe?",
+          "work": "Spell your full name, your town, and five family members' names aloud; a parent writes what they hear to check accuracy."
+        },
+        {
+          "title": "Números 0–15",
+          "work": "Learn numbers 0–15 and play a card game (draw two cards, say the sum in Spanish) for 15 minutes."
+        },
+        {
+          "title": "Números 16–31",
+          "work": "Learn 16–31 (dieciséis, veintiuno), then do a listening dictation of 15 phone-style number strings."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a spelling dictation of 8 Spanish words and a numbers 0–31 listening quiz."
+        }
+      ],
+      "assessment": "Spelling dictation and number listening quiz."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "El mundo hispanohablante",
+      "objectives": [
+        "Identify the 21 Spanish-speaking countries and capitals",
+        "Present a short self-introduction"
+      ],
+      "standards": [
+        "WL-COMM1-NM",
+        "WL-COMM3-NL",
+        "WL-CULT1-NM",
+        "WL-CONN1-NM"
+      ],
+      "vocabulary": [
+        "el país",
+        "la capital",
+        "¿De dónde eres?",
+        "soy de",
+        "España",
+        "México",
+        "Argentina",
+        "Guinea Ecuatorial"
+      ],
+      "materials": [
+        "blank world map",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "Mapa",
+          "work": "Label the 21 Spanish-speaking countries and their capitals on a blank map, color-coding Spain, Mexico/Central America, the Caribbean, South America, and Equatorial Guinea."
+        },
+        {
+          "title": "¿De dónde eres?",
+          "work": "Practice ¿De dónde eres? / Soy de... and learn that Spanish is spoken widely in California and the U.S.; list five California place names of Spanish origin."
+        },
+        {
+          "title": "Map quiz practice",
+          "work": "Use an online map game or flashcards to drill countries and capitals until you can place all 21 in under five minutes."
+        },
+        {
+          "title": "Presentación",
+          "work": "Write and record a self-introduction: greeting, name, how you are, age in numbers, where you are from, and farewell."
+        },
+        {
+          "title": "Unit 1 assessment",
+          "work": "Take the unit test (greetings listening, numbers, alphabet, map of 21 countries) and submit the recorded introduction."
+        }
+      ],
+      "assessment": "Unit 1 test and presentational recording rubric."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Los días, los meses y la fecha",
+      "objectives": [
+        "Name days and months",
+        "Say and write dates and birthdays"
+      ],
+      "standards": [
+        "WL-COMM1-NL",
+        "WL-COMM2-NL",
+        "WL-STRUC1-NL",
+        "WL-CULT1-NM"
+      ],
+      "vocabulary": [
+        "lunes",
+        "domingo",
+        "enero",
+        "diciembre",
+        "¿Qué día es hoy?",
+        "¿Cuál es la fecha?",
+        "el cumpleaños",
+        "el primero de"
+      ],
+      "materials": [
+        "printable calendar",
+        "markers"
+      ],
+      "days": [
+        {
+          "title": "Los días",
+          "work": "Learn the days of the week (lowercase, week starts on lunes) and write tomorrow/today/yesterday statements: Hoy es martes, mañana es miércoles."
+        },
+        {
+          "title": "Los meses",
+          "work": "Learn the 12 months and fill in a blank Spanish calendar for this month with family events."
+        },
+        {
+          "title": "La fecha",
+          "work": "Learn the date format (el 5 de mayo, el primero de enero) and write 10 family birthdays: El cumpleaños de mi mamá es el...."
+        },
+        {
+          "title": "Culture: días festivos",
+          "work": "Read about three holidays (16 de septiembre, 12 de octubre, 6 de enero Día de Reyes) and mark them on your calendar with a one-line note each."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer ¿Qué día es hoy? and ¿Cuál es la fecha? orally for five random dates and take a written dates quiz."
+        }
+      ],
+      "assessment": "Dates quiz and oral calendar questions."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "¿Qué hora es? Telling time",
+      "objectives": [
+        "Tell time on the hour, half hour, and quarter hour",
+        "Say at what time events happen"
+      ],
+      "standards": [
+        "WL-COMM1-NL",
+        "WL-COMM2-NL",
+        "WL-STRUC1-NL"
+      ],
+      "vocabulary": [
+        "¿Qué hora es?",
+        "es la una",
+        "son las dos",
+        "y media",
+        "y cuarto",
+        "menos",
+        "¿A qué hora?",
+        "de la mañana"
+      ],
+      "materials": [
+        "paper-plate clock",
+        "TV or event schedule"
+      ],
+      "days": [
+        {
+          "title": "¿Qué hora es?",
+          "work": "Build a paper-plate clock and practice es la una / son las... with y cuarto, y media, and menos diez."
+        },
+        {
+          "title": "Times of day",
+          "work": "Add de la mañana, de la tarde, de la noche and write the time of 10 daily events on your own schedule."
+        },
+        {
+          "title": "¿A qué hora?",
+          "work": "Contrast ¿Qué hora es? with ¿A qué hora es...?; ask a parent five questions about family events and record answers."
+        },
+        {
+          "title": "24-hour clock",
+          "work": "Read a Spanish train timetable or TV listing that uses 24-hour time and convert 10 times into spoken Spanish."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a listening quiz (hear a time, draw the clock hands) and say the time for 10 clocks."
+        }
+      ],
+      "assessment": "Time listening quiz and oral clock reading."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "¿Qué tiempo hace? Weather and seasons",
+      "objectives": [
+        "Describe weather and seasons",
+        "Compare seasons in the northern and southern hemispheres"
+      ],
+      "standards": [
+        "WL-COMM1-NM",
+        "WL-COMM3-NL",
+        "WL-CULT1-NM",
+        "WL-CONN1-NM"
+      ],
+      "vocabulary": [
+        "hace calor",
+        "hace frío",
+        "hace sol",
+        "llueve",
+        "nieva",
+        "está nublado",
+        "la primavera",
+        "el invierno"
+      ],
+      "materials": [
+        "weather website",
+        "world map"
+      ],
+      "days": [
+        {
+          "title": "El tiempo",
+          "work": "Learn hace calor/frío/sol/viento, llueve, nieva, está nublado and give a daily weather report for your town."
+        },
+        {
+          "title": "Las estaciones",
+          "work": "Learn the four seasons and match months to seasons for California and for Argentina, explaining why they are reversed."
+        },
+        {
+          "title": "Weather report",
+          "work": "Read a Spanish-language weather forecast for Mexico City and Buenos Aires and record the temperature and conditions for both."
+        },
+        {
+          "title": "El pronóstico",
+          "work": "Write and record a 45-second TV-style weather report for three Spanish-speaking capitals, using the date and time."
+        },
+        {
+          "title": "Unit 2 assessment",
+          "work": "Take the unit test on days, months, dates, time, and weather, including a listening section."
+        }
+      ],
+      "assessment": "Unit 2 test and weather report recording."
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "Subject pronouns and the verb ser",
+      "objectives": [
+        "Use subject pronouns",
+        "Conjugate ser in the present"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "yo",
+        "tú",
+        "él/ella/usted",
+        "nosotros",
+        "vosotros",
+        "ellos/ustedes",
+        "ser",
+        "soy/eres/es"
+      ],
+      "materials": [
+        "pronoun chart",
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "Subject pronouns",
+          "work": "Learn the subject pronouns (including vosotros in Spain and ustedes in Latin America) and assign the correct pronoun to 20 pictures of people."
+        },
+        {
+          "title": "Ser",
+          "work": "Learn soy, eres, es, somos, sois, son; complete a Conjuguemos ser drill until you score 90%."
+        },
+        {
+          "title": "Ser for origin",
+          "work": "Write 10 sentences about where people are from using ser de (Shakira es de Colombia...)."
+        },
+        {
+          "title": "Pair questions",
+          "work": "Answer and ask ¿Eres...? yes/no questions with a parent, practicing no + verb for negatives."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a ser conjugation and pronoun quiz."
+        }
+      ],
+      "assessment": "Ser and subject pronoun quiz (80%+)."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "¿Cómo eres? Personality adjectives and agreement",
+      "objectives": [
+        "Describe personality",
+        "Make adjectives agree in gender and number"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "simpático/a",
+        "gracioso/a",
+        "serio/a",
+        "trabajador/a",
+        "perezoso/a",
+        "inteligente",
+        "deportista",
+        "muy"
+      ],
+      "materials": [
+        "adjective flashcards"
+      ],
+      "days": [
+        {
+          "title": "Personality words",
+          "work": "Learn 16 personality adjectives with flashcards and describe yourself in five sentences using soy and no soy."
+        },
+        {
+          "title": "Agreement",
+          "work": "Learn masculine/feminine and singular/plural adjective endings (-o/-a/-os/-as, -e, consonant) and complete a 20-item agreement worksheet."
+        },
+        {
+          "title": "Intensifiers",
+          "work": "Add muy, un poco, bastante, and pero/y to describe three family members in connected sentences."
+        },
+        {
+          "title": "Entrevista",
+          "work": "Interview a parent: ¿Cómo eres? ¿Eres...? and write a five-sentence description of them from the answers."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an adjective agreement quiz and record a 30-second self-description."
+        }
+      ],
+      "assessment": "Agreement quiz and oral self-description."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Physical descriptions, articles, and nationalities",
+      "objectives": [
+        "Describe physical appearance",
+        "Use definite/indefinite articles and nationalities"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM"
+      ],
+      "vocabulary": [
+        "alto/a",
+        "bajo/a",
+        "pelirrojo/a",
+        "el pelo",
+        "los ojos",
+        "un/una",
+        "el/la",
+        "mexicano/a"
+      ],
+      "materials": [
+        "magazine photos",
+        "famous-person photo cards"
+      ],
+      "days": [
+        {
+          "title": "Physical traits",
+          "work": "Learn alto, bajo, rubio, moreno, pelirrojo, tiene el pelo/los ojos... and describe 6 magazine photos."
+        },
+        {
+          "title": "Articles",
+          "work": "Learn el/la/los/las and un/una/unos/unas and complete a sorting activity with 20 nouns."
+        },
+        {
+          "title": "Nationalities",
+          "work": "Learn 12 nationality adjectives and their agreement (español/española) and write who each famous person is and where they are from."
+        },
+        {
+          "title": "¿Quién es?",
+          "work": "Play a guess-who game with a parent using only Spanish yes/no questions about appearance and personality."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a reading quiz: read four short profiles and match each to the correct picture."
+        }
+      ],
+      "assessment": "Reading comprehension quiz and guess-who participation."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Proyecto: Una persona famosa del mundo hispano",
+      "objectives": [
+        "Research a notable Hispanic figure",
+        "Present a description in simple sentences"
+      ],
+      "standards": [
+        "WL-COMM3-NM",
+        "WL-COMM1-NM",
+        "WL-CULT1-NM",
+        "WL-CONN1-NM"
+      ],
+      "vocabulary": [
+        "el/la artista",
+        "el/la atleta",
+        "el/la escritor/a",
+        "famoso/a",
+        "importante"
+      ],
+      "materials": [
+        "poster board or slides",
+        "library books"
+      ],
+      "days": [
+        {
+          "title": "Choose and research",
+          "work": "Choose a figure (e.g., Frida Kahlo, Lionel Messi, Sonia Sotomayor, Ellen Ochoa) and collect five facts in English, then key Spanish words."
+        },
+        {
+          "title": "Write",
+          "work": "Write an 8–10 sentence profile in Spanish using ser, nationalities, personality, and physical description."
+        },
+        {
+          "title": "Revise",
+          "work": "Check adjective agreement and articles with a checklist; look up three new words on SpanishDict."
+        },
+        {
+          "title": "Present",
+          "work": "Create a poster or 3-slide presentation and practice presenting it without reading word for word."
+        },
+        {
+          "title": "Unit 3 assessment",
+          "work": "Present the profile (1–2 minutes) and take the unit 3 written test on ser and adjective agreement."
+        }
+      ],
+      "assessment": "Presentational rubric and unit 3 test."
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "¿Qué te gusta hacer? Activities and gustar",
+      "objectives": [
+        "Name leisure activities",
+        "Say what you and others like to do"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "nadar",
+        "bailar",
+        "cantar",
+        "dibujar",
+        "leer",
+        "montar en bicicleta",
+        "me gusta",
+        "te gusta"
+      ],
+      "materials": [
+        "activity picture cards"
+      ],
+      "days": [
+        {
+          "title": "Actividades",
+          "work": "Learn 18 activity infinitives with picture cards and act them out for a parent to guess."
+        },
+        {
+          "title": "Me gusta / no me gusta",
+          "work": "Write 10 sentences: Me gusta nadar, No me gusta cantar, Me gusta más leer."
+        },
+        {
+          "title": "¿Te gusta...?",
+          "work": "Ask a family member ten ¿Te gusta...? questions and record answers in a chart."
+        },
+        {
+          "title": "Listening",
+          "work": "Listen to two teens on a Spanish podcast or video describe hobbies and note each one's likes and dislikes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a vocabulary and gustar quiz."
+        }
+      ],
+      "assessment": "Activities vocabulary and gustar quiz."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "A mí también, a mí tampoco: agreeing, disagreeing, and le gusta",
+      "objectives": [
+        "Agree and disagree with others' likes",
+        "Report others' likes with le gusta"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "a mí también",
+        "a mí tampoco",
+        "a mí no",
+        "a mí sí",
+        "le gusta",
+        "ni...ni",
+        "tampoco"
+      ],
+      "materials": [
+        "survey sheet"
+      ],
+      "days": [
+        {
+          "title": "También/tampoco",
+          "work": "Learn a mí también, a mí tampoco, a mí sí/no and practice reacting to 15 statements read by a parent."
+        },
+        {
+          "title": "Le gusta",
+          "work": "Use a él/a ella le gusta to report what three relatives like; write a paragraph about each."
+        },
+        {
+          "title": "Negatives",
+          "work": "Practice no...nada, ni...ni, and tampoco in 10 written sentences."
+        },
+        {
+          "title": "Encuesta",
+          "work": "Survey five people (in person or by video call) on their favorite activities and graph the results with Spanish labels."
+        },
+        {
+          "title": "Review & check",
+          "work": "Hold a 2-minute unscripted conversation about likes and dislikes and take a short writing check."
+        }
+      ],
+      "assessment": "Interpersonal conversation rubric and writing check."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Unit 4: Free time in the Spanish-speaking world",
+      "objectives": [
+        "Compare teen free-time activities across cultures",
+        "Write a pen-pal email about likes"
+      ],
+      "standards": [
+        "WL-COMM1-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NM"
+      ],
+      "vocabulary": [
+        "el fútbol",
+        "el béisbol",
+        "el pasatiempo",
+        "el/la amigo/a por correspondencia",
+        "querido/a"
+      ],
+      "materials": [
+        "sample pen-pal email"
+      ],
+      "days": [
+        {
+          "title": "Culture reading",
+          "work": "Read about popular pastimes (fútbol in Argentina, béisbol in the Dominican Republic, paseo in Spain) and list three products and practices."
+        },
+        {
+          "title": "Señor Wooly",
+          "work": "Watch a free Señor Wooly music video, identify every activity word you hear, and summarize the story in five English sentences."
+        },
+        {
+          "title": "Pen-pal email",
+          "work": "Write a 10-sentence email to a pen pal introducing yourself and your likes and asking three questions."
+        },
+        {
+          "title": "Comparación",
+          "work": "Make a Venn diagram comparing your free time with a teen in Mexico or Spain, then write three comparison sentences in Spanish."
+        },
+        {
+          "title": "Unit 4 assessment",
+          "work": "Take the unit test: listening to likes, reading a pen-pal letter, and writing a reply."
+        }
+      ],
+      "assessment": "Unit 4 test and pen-pal email rubric."
+    },
+    {
+      "week": 15,
+      "unit": 5,
+      "topic": "En la clase: classroom objects, gender, plurals, and hay",
+      "objectives": [
+        "Name classroom objects",
+        "Use hay and form plurals"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "el lápiz",
+        "la mochila",
+        "el cuaderno",
+        "la carpeta",
+        "la computadora",
+        "hay",
+        "¿Cuántos?",
+        "los/las"
+      ],
+      "materials": [
+        "school supplies",
+        "sticky notes"
+      ],
+      "days": [
+        {
+          "title": "Objects",
+          "work": "Label 20 school supplies and furniture at home with sticky notes in Spanish with el/la."
+        },
+        {
+          "title": "Plurals",
+          "work": "Learn plural rules (-s, -es, lápiz→lápices) and write the plural of 20 nouns."
+        },
+        {
+          "title": "Hay",
+          "work": "Describe your backpack and desk using hay and numbers: En mi mochila hay dos cuadernos y un lápiz."
+        },
+        {
+          "title": "Classroom commands",
+          "work": "Learn and respond physically to 12 classroom expressions (Saquen una hoja, ¿Cómo se dice...?, Repitan) in a TPR game."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a vocabulary, plural, and hay quiz."
+        }
+      ],
+      "assessment": "Classroom vocabulary quiz."
+    },
+    {
+      "week": 16,
+      "unit": 5,
+      "topic": "Mi horario: school subjects and numbers to 100",
+      "objectives": [
+        "Discuss class schedules",
+        "Use numbers 32–100"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-CULT1-NM"
+      ],
+      "vocabulary": [
+        "las matemáticas",
+        "las ciencias",
+        "la clase de español",
+        "el almuerzo",
+        "primero/a",
+        "segundo/a",
+        "cuarenta",
+        "cien"
+      ],
+      "materials": [
+        "blank schedule",
+        "price ads"
+      ],
+      "days": [
+        {
+          "title": "Subjects",
+          "work": "Learn the school subjects and ordinal numbers 1st–8th and fill out your weekly schedule in Spanish with times."
+        },
+        {
+          "title": "Números 32–100",
+          "work": "Learn tens and combinations (treinta y dos ... cien) and play number bingo with a parent."
+        },
+        {
+          "title": "Opinions",
+          "work": "Write opinions about each subject using es interesante/difícil/aburrida and me gusta."
+        },
+        {
+          "title": "Culture: la escuela",
+          "work": "Read about school in Mexico or Chile (uniforms, recreo, schedules) and list four differences from your homeschool day."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer schedule questions in a short interview and take a numbers-to-100 dictation."
+        }
+      ],
+      "assessment": "Schedule interview and number dictation."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Present tense of -ar verbs",
+      "objectives": [
+        "Conjugate regular -ar verbs",
+        "Describe daily activities using -ar verbs"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "hablar",
+        "estudiar",
+        "trabajar",
+        "usar",
+        "necesitar",
+        "enseñar",
+        "practicar",
+        "tocar"
+      ],
+      "materials": [
+        "verb chart",
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "-ar endings",
+          "work": "Learn infinitive, stem, and endings (-o, -as, -a, -amos, -áis, -an) and conjugate hablar and estudiar in a chart."
+        },
+        {
+          "title": "Drill",
+          "work": "Complete Conjuguemos -ar verb practice until you score 90%, then write 10 original sentences."
+        },
+        {
+          "title": "Who does what?",
+          "work": "Describe what each family member does on a weekday using -ar verbs and time expressions."
+        },
+        {
+          "title": "Questions",
+          "work": "Form yes/no and question-word questions (¿Qué estudias? ¿Cuándo trabajas?) and interview a parent."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an -ar verb conjugation and sentence-writing quiz."
+        }
+      ],
+      "assessment": "-ar verb quiz (80%+)."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Semester 1 review and exam",
+      "objectives": [
+        "Review all semester 1 content",
+        "Demonstrate proficiency across three modes"
+      ],
+      "standards": [
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-STRUC1-NM"
+      ],
+      "vocabulary": [
+        "repaso",
+        "el examen"
+      ],
+      "materials": [
+        "unit tests from semester 1",
+        "flashcards"
+      ],
+      "days": [
+        {
+          "title": "Review: units 1–2",
+          "work": "Review greetings, numbers, dates, time, and weather with a self-made flashcard set and a practice listening quiz."
+        },
+        {
+          "title": "Review: units 3–5",
+          "work": "Review ser, adjectives, gustar, classroom vocabulary, and -ar verbs with a practice test."
+        },
+        {
+          "title": "Speaking exam",
+          "work": "Do a 3-minute interpersonal interview with a parent covering name, origin, personality, likes, and schedule."
+        },
+        {
+          "title": "Written exam",
+          "work": "Take the semester written exam (listening, reading, grammar, and a 10-sentence writing prompt)."
+        },
+        {
+          "title": "Reflection",
+          "work": "Fill in a can-do checklist for semester 1 and set two goals for semester 2."
+        }
+      ],
+      "assessment": "Semester 1 exam (written and oral)."
+    },
+    {
+      "week": 19,
+      "unit": 6,
+      "topic": "El desayuno y el almuerzo: food vocabulary",
+      "objectives": [
+        "Name breakfast and lunch foods",
+        "Say what you eat and drink"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "el desayuno",
+        "el almuerzo",
+        "el pan",
+        "los huevos",
+        "la fruta",
+        "el sándwich",
+        "el jugo",
+        "la leche"
+      ],
+      "materials": [
+        "grocery ads",
+        "food pictures"
+      ],
+      "days": [
+        {
+          "title": "Breakfast foods",
+          "work": "Learn 12 breakfast foods and drinks and label a picture of your own breakfast."
+        },
+        {
+          "title": "Lunch foods",
+          "work": "Learn 12 lunch foods and drinks and sort all foods into a category chart (frutas, verduras, carnes, bebidas)."
+        },
+        {
+          "title": "Me encanta / me gustan",
+          "work": "Learn me gusta(n) and me encanta(n) with plural nouns and write 10 sentences about foods."
+        },
+        {
+          "title": "Encuesta",
+          "work": "Ask three family members ¿Qué comes en el desayuno? and summarize the answers."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a food vocabulary and gustar/encantar quiz."
+        }
+      ],
+      "assessment": "Food vocabulary quiz."
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "Present tense of -er and -ir verbs",
+      "objectives": [
+        "Conjugate regular -er and -ir verbs",
+        "Talk about eating and drinking habits"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "comer",
+        "beber",
+        "comprender",
+        "leer",
+        "escribir",
+        "compartir",
+        "vivir",
+        "siempre",
+        "nunca"
+      ],
+      "materials": [
+        "verb chart",
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "-er verbs",
+          "work": "Learn the -er endings and conjugate comer, beber, and leer in a chart."
+        },
+        {
+          "title": "-ir verbs",
+          "work": "Learn the -ir endings, noting nosotros -imos, and conjugate vivir, escribir, compartir."
+        },
+        {
+          "title": "Drill",
+          "work": "Complete Conjuguemos -er/-ir practice to 90%, then write 10 sentences with frequency words (siempre, a veces, nunca)."
+        },
+        {
+          "title": "Interview",
+          "work": "Interview a parent about their eating habits with eight questions using -er/-ir verbs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an -ar/-er/-ir conjugation quiz."
+        }
+      ],
+      "assessment": "Regular present-tense quiz (80%+)."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Para mantener la salud: healthy eating and plural adjectives",
+      "objectives": [
+        "Discuss healthy and unhealthy foods",
+        "Use plural adjectives and ser with foods"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM",
+        "WL-CONN1-NM"
+      ],
+      "vocabulary": [
+        "la salud",
+        "las verduras",
+        "los guisantes",
+        "la grasa",
+        "sabroso/a",
+        "horrible",
+        "malo/a para la salud",
+        "deber"
+      ],
+      "materials": [
+        "MyPlate graphic",
+        "nutrition labels"
+      ],
+      "days": [
+        {
+          "title": "Comida sana",
+          "work": "Learn 12 vegetable and protein words and classify foods as bueno/malo para la salud."
+        },
+        {
+          "title": "Plural adjectives",
+          "work": "Describe 10 foods with ser and agreeing adjectives: Las zanahorias son sabrosas."
+        },
+        {
+          "title": "Nutrition labels",
+          "work": "Read a Spanish nutrition label (información nutricional) and answer questions about grasa, azúcar, and calorías."
+        },
+        {
+          "title": "Mi plato",
+          "work": "Draw a balanced plate and write a 6-sentence description of a healthy lunch, using para mantener la salud debes..."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a reading quiz on a short healthy-eating article and present your plate orally."
+        }
+      ],
+      "assessment": "Reading quiz and oral presentation."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Culture: food traditions and markets",
+      "objectives": [
+        "Identify traditional foods of several countries",
+        "Compare food practices"
+      ],
+      "standards": [
+        "WL-CULT1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM",
+        "WL-CULT2-NM"
+      ],
+      "vocabulary": [
+        "la tortilla",
+        "el mercado",
+        "los churros",
+        "el gazpacho",
+        "las arepas",
+        "típico/a"
+      ],
+      "materials": [
+        "world map",
+        "ingredients for a simple recipe"
+      ],
+      "days": [
+        {
+          "title": "Regional foods",
+          "work": "Research one traditional dish each from Mexico, Spain, Venezuela, and Peru and add photos and captions to your map."
+        },
+        {
+          "title": "Tortilla: two meanings",
+          "work": "Compare the Mexican corn tortilla and the Spanish tortilla española; write five comparison sentences."
+        },
+        {
+          "title": "El mercado",
+          "work": "Watch a video of a Latin American market and list 10 foods you recognize in Spanish."
+        },
+        {
+          "title": "Cocina",
+          "work": "Prepare a simple recipe (guacamole or tortilla española) with a parent, narrating each step in Spanish."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a short reflection comparing a family meal tradition with one you studied."
+        }
+      ],
+      "assessment": "Cultural comparison writing rubric."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Unit 6 assessment: a restaurant menu",
+      "objectives": [
+        "Create a menu",
+        "Order and describe foods"
+      ],
+      "standards": [
+        "WL-COMM3-NM",
+        "WL-COMM2-NM",
+        "WL-COMM1-NM"
+      ],
+      "vocabulary": [
+        "el menú",
+        "¿Qué quieres?",
+        "quisiera",
+        "la cuenta",
+        "el precio"
+      ],
+      "materials": [
+        "paper or slides for a menu"
+      ],
+      "days": [
+        {
+          "title": "Menu design",
+          "work": "Design a bilingual café menu with 12 items and prices in pesos or euros."
+        },
+        {
+          "title": "Descriptions",
+          "work": "Write a one-sentence Spanish description for each menu item using adjectives."
+        },
+        {
+          "title": "Ordering chunks",
+          "work": "Learn the chunks ¿Qué quieres comer? and Quisiera... and practice ordering from your menu."
+        },
+        {
+          "title": "Role-play",
+          "work": "Run a café role-play with a family member as customer, using numbers for prices."
+        },
+        {
+          "title": "Unit 6 test",
+          "work": "Take the unit 6 test: food listening, -er/-ir verbs, and a short writing on your eating habits."
+        }
+      ],
+      "assessment": "Menu project rubric and unit 6 test."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Mi familia: family members",
+      "objectives": [
+        "Name family members",
+        "Describe family relationships"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "el padre",
+        "la madre",
+        "el hermano",
+        "los abuelos",
+        "el tío",
+        "la prima",
+        "el padrastro",
+        "la mascota"
+      ],
+      "materials": [
+        "family photos"
+      ],
+      "days": [
+        {
+          "title": "Family words",
+          "work": "Learn 20 family words and label a photo collage of your family."
+        },
+        {
+          "title": "Relationships",
+          "work": "Read a family tree of a fictional Spanish-speaking family and answer 10 ¿Quién es...? questions."
+        },
+        {
+          "title": "Describing family",
+          "work": "Write six sentences describing family members' personalities and appearance with ser."
+        },
+        {
+          "title": "Mascotas",
+          "work": "Add pets and describe them; share a short video tour of family photos in Spanish."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a family vocabulary quiz."
+        }
+      ],
+      "assessment": "Family vocabulary quiz."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "The verb tener and possessive adjectives",
+      "objectives": [
+        "Conjugate tener",
+        "Use possessive adjectives and ages"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "tener",
+        "tengo",
+        "mi/mis",
+        "tu/tus",
+        "su/sus",
+        "nuestro/a",
+        "¿Cuántos años tienes?",
+        "mayor/menor"
+      ],
+      "materials": [
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "Tener",
+          "work": "Learn the forms of tener (tengo, tienes...) and complete a Conjuguemos tener drill."
+        },
+        {
+          "title": "Ages",
+          "work": "Ask and answer ¿Cuántos años tiene...? for 10 family members and friends."
+        },
+        {
+          "title": "Possessives",
+          "work": "Learn mi/tu/su/nuestro/vuestro and their plurals and complete a 20-item practice."
+        },
+        {
+          "title": "Conversation",
+          "work": "Discuss your family with a parent: how many siblings, cousins, and pets, and who is older or younger."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a tener and possessives quiz."
+        }
+      ],
+      "assessment": "Tener and possessives quiz (80%+)."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Tener expressions and celebrations",
+      "objectives": [
+        "Use idiomatic tener expressions",
+        "Describe a family celebration"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM"
+      ],
+      "vocabulary": [
+        "tener hambre",
+        "tener sed",
+        "tener frío",
+        "tener calor",
+        "tener sueño",
+        "tener que",
+        "la fiesta",
+        "el pastel"
+      ],
+      "materials": [
+        "party photos"
+      ],
+      "days": [
+        {
+          "title": "Expressions",
+          "work": "Learn tener hambre, sed, frío, calor, sueño, miedo, prisa, razón and caption 10 pictures."
+        },
+        {
+          "title": "Tener que",
+          "work": "Write a to-do list using tener que + infinitive for each family member this week."
+        },
+        {
+          "title": "Celebrations",
+          "work": "Read about the quinceañera and the cumpleaños tradition of las mañanitas; listen to Las mañanitas and write down five words you hear."
+        },
+        {
+          "title": "Mi fiesta",
+          "work": "Describe your last family party in present-tense sentences: who is there, what they eat, what they have."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a tener expressions quiz with a listening section."
+        }
+      ],
+      "assessment": "Tener expressions quiz."
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Unit 7 project: Mi árbol genealógico",
+      "objectives": [
+        "Present your family tree",
+        "Explain Spanish naming customs"
+      ],
+      "standards": [
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CONN1-NM"
+      ],
+      "vocabulary": [
+        "el apellido",
+        "el árbol genealógico",
+        "paterno/a",
+        "materno/a",
+        "casado/a"
+      ],
+      "materials": [
+        "poster board",
+        "family photos"
+      ],
+      "days": [
+        {
+          "title": "Apellidos",
+          "work": "Learn how Spanish double surnames (apellido paterno y materno) work and write your name in that format."
+        },
+        {
+          "title": "Build the tree",
+          "work": "Create a family tree poster with at least 12 relatives, labels, and ages."
+        },
+        {
+          "title": "Script",
+          "work": "Write a 10–12 sentence presentation of your family using tener, ser, possessives, and gustar."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Practice presenting with notes on index cards (key words only) and record a practice run."
+        },
+        {
+          "title": "Unit 7 assessment",
+          "work": "Present the family tree (2 minutes) and take the unit 7 written test."
+        }
+      ],
+      "assessment": "Family tree presentation rubric and unit test."
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "¿Dónde está? Estar and location",
+      "objectives": [
+        "Conjugate estar",
+        "Describe location with prepositions"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "estar",
+        "encima de",
+        "debajo de",
+        "al lado de",
+        "delante de",
+        "detrás de",
+        "cerca de",
+        "lejos de"
+      ],
+      "materials": [
+        "stuffed animal",
+        "household objects"
+      ],
+      "days": [
+        {
+          "title": "Estar",
+          "work": "Learn estoy, estás, está, estamos, estáis, están and when to use estar for location and feelings."
+        },
+        {
+          "title": "Prepositions",
+          "work": "Place a stuffed animal in 12 locations and describe each: El gato está debajo de la mesa."
+        },
+        {
+          "title": "Where is it?",
+          "work": "Hide five objects and give a parent Spanish clues to find them; then switch roles."
+        },
+        {
+          "title": "Ser vs. estar intro",
+          "work": "Sort 15 sentences into ser (origin, description) or estar (location, feelings) and explain each choice."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an estar and prepositions quiz."
+        }
+      ],
+      "assessment": "Estar and prepositions quiz."
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Lugares en la ciudad",
+      "objectives": [
+        "Name places in a town",
+        "Ask and say where places are"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM"
+      ],
+      "vocabulary": [
+        "la biblioteca",
+        "el parque",
+        "el centro comercial",
+        "la iglesia",
+        "la plaza",
+        "el cine",
+        "el gimnasio",
+        "la playa"
+      ],
+      "materials": [
+        "town map",
+        "Google Maps"
+      ],
+      "days": [
+        {
+          "title": "Places",
+          "work": "Learn 16 places in a town and label a hand-drawn map of your neighborhood."
+        },
+        {
+          "title": "Map questions",
+          "work": "Answer ¿Dónde está la biblioteca? questions using prepositions on your map."
+        },
+        {
+          "title": "La plaza",
+          "work": "Read about the central plaza in Spanish and Latin American towns and compare it with a California downtown."
+        },
+        {
+          "title": "Virtual tour",
+          "work": "Use Google Maps Street View to tour a plaza in Oaxaca or Salamanca and write 8 sentences about what is there."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a places vocabulary quiz with a map-reading section."
+        }
+      ],
+      "assessment": "Places vocabulary and map quiz."
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "¿Adónde vas? The verb ir and question words",
+      "objectives": [
+        "Conjugate ir",
+        "Say where people go and when"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "ir",
+        "voy",
+        "vas",
+        "al",
+        "a la",
+        "¿Adónde?",
+        "¿Con quién?",
+        "los fines de semana"
+      ],
+      "materials": [
+        "weekly planner"
+      ],
+      "days": [
+        {
+          "title": "Ir",
+          "work": "Learn voy, vas, va, vamos, vais, van and the contraction a + el = al."
+        },
+        {
+          "title": "Question words",
+          "work": "Review ¿Qué? ¿Quién? ¿Dónde? ¿Adónde? ¿Cuándo? ¿Con quién? ¿Por qué? and write 10 questions about weekend plans."
+        },
+        {
+          "title": "My week",
+          "work": "Fill a planner with where you go each day and write 7 sentences with ir and time expressions."
+        },
+        {
+          "title": "Interview",
+          "work": "Interview a family member about where they go during the week and write a short report."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an ir and question words quiz."
+        }
+      ],
+      "assessment": "Ir and question words quiz."
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Las direcciones: getting around town",
+      "objectives": [
+        "Follow and give simple directions",
+        "Read a city map in Spanish"
+      ],
+      "standards": [
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-CONN1-NM"
+      ],
+      "vocabulary": [
+        "a la derecha",
+        "a la izquierda",
+        "derecho",
+        "la cuadra",
+        "la esquina",
+        "cruzar",
+        "doblar"
+      ],
+      "materials": [
+        "printed city map"
+      ],
+      "days": [
+        {
+          "title": "Direction words",
+          "work": "Learn derecha, izquierda, todo derecho, cuadra, esquina and follow parent's spoken directions around the house."
+        },
+        {
+          "title": "Map practice",
+          "work": "Trace routes on a printed map of a Spanish city center as you listen to recorded directions."
+        },
+        {
+          "title": "Giving directions",
+          "work": "Write directions from your house to three local places using memorized chunks (dobla a la derecha, sigue derecho)."
+        },
+        {
+          "title": "Info gap",
+          "work": "Play an information-gap map game with a parent: each has half the places and must ask ¿Dónde está...?"
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a listening quiz following directions on a map."
+        }
+      ],
+      "assessment": "Direction-following listening quiz."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Unit 8 assessment: Mi ciudad",
+      "objectives": [
+        "Create a guided tour of your town",
+        "Integrate estar, ir, and places"
+      ],
+      "standards": [
+        "WL-COMM3-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "el turista",
+        "la visita",
+        "visitar"
+      ],
+      "materials": [
+        "camera or phone",
+        "map"
+      ],
+      "days": [
+        {
+          "title": "Plan",
+          "work": "Choose five places in your town and write two sentences about each: where it is and what people do there."
+        },
+        {
+          "title": "Record",
+          "work": "Film or photograph the places and record a narrated tour in Spanish (2 minutes)."
+        },
+        {
+          "title": "Reading",
+          "work": "Read a short tourist brochure about a Spanish-speaking city and answer comprehension questions."
+        },
+        {
+          "title": "Conversation",
+          "work": "Role-play a tourist asking a local for directions to three places."
+        },
+        {
+          "title": "Unit 8 test",
+          "work": "Take the unit 8 test on estar, ir, places, and directions."
+        }
+      ],
+      "assessment": "Town tour video rubric and unit test."
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Los deportes e ir a + infinitive",
+      "objectives": [
+        "Name sports and leisure plans",
+        "Talk about future plans with ir a + infinitive"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM"
+      ],
+      "vocabulary": [
+        "jugar al fútbol",
+        "el básquetbol",
+        "el partido",
+        "ir a + infinitivo",
+        "mañana",
+        "esta noche",
+        "el próximo fin de semana"
+      ],
+      "materials": [
+        "sports schedule"
+      ],
+      "days": [
+        {
+          "title": "Sports",
+          "work": "Learn 12 sports and jugar a and describe which sports family members play."
+        },
+        {
+          "title": "Ir a + infinitive",
+          "work": "Learn voy a jugar, vas a ver... and write 10 sentences about plans for next weekend."
+        },
+        {
+          "title": "Culture: fútbol",
+          "work": "Read about a famous soccer rivalry (Real Madrid–Barcelona or Boca–River) and summarize it in five Spanish sentences."
+        },
+        {
+          "title": "Plans calendar",
+          "work": "Make a two-week plans calendar and tell a parent your plans using time expressions."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an ir a + infinitive quiz."
+        }
+      ],
+      "assessment": "Ir a + infinitive quiz."
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Invitations: accepting and declining",
+      "objectives": [
+        "Extend, accept, and decline invitations",
+        "Give excuses politely"
+      ],
+      "standards": [
+        "WL-COMM2-NM",
+        "WL-CULT2-NM",
+        "WL-STRUC1-NM"
+      ],
+      "vocabulary": [
+        "¿Quieres...?",
+        "¡Claro que sí!",
+        "lo siento",
+        "no puedo",
+        "estoy ocupado/a",
+        "¡Qué pena!",
+        "¿A qué hora?"
+      ],
+      "materials": [
+        "phone"
+      ],
+      "days": [
+        {
+          "title": "Invitation chunks",
+          "work": "Learn ¿Quieres ir...?, ¡Claro que sí!, Lo siento, no puedo, tengo que... and practice in pairs."
+        },
+        {
+          "title": "Texting",
+          "work": "Write a Spanish text-message exchange inviting a friend to a game, including time and place."
+        },
+        {
+          "title": "Phone call",
+          "work": "Make a simulated phone call to invite a family member to an event and respond to their excuse."
+        },
+        {
+          "title": "Cultural norms",
+          "work": "Read about punctuality and social plans in Latin America and Spain and discuss differences."
+        },
+        {
+          "title": "Review & check",
+          "work": "Hold a recorded unscripted invitation conversation."
+        }
+      ],
+      "assessment": "Interpersonal invitation rubric."
+    },
+    {
+      "week": 35,
+      "unit": 10,
+      "topic": "Spanish 1A review",
+      "objectives": [
+        "Review all Spanish 1A content",
+        "Prepare for the final assessment"
+      ],
+      "standards": [
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-STRUC1-NM"
+      ],
+      "vocabulary": [
+        "repaso"
+      ],
+      "materials": [
+        "flashcards",
+        "unit tests"
+      ],
+      "days": [
+        {
+          "title": "Review: units 1–5",
+          "work": "Review greetings, calendar, ser, gustar, school, and -ar verbs with a practice test."
+        },
+        {
+          "title": "Review: units 6–9",
+          "work": "Review food, -er/-ir verbs, family, tener, estar, ir, and ir a + infinitive with Conjuguemos drills."
+        },
+        {
+          "title": "Reading practice",
+          "work": "Read three short Spanish texts (menu, family profile, town brochure) and answer questions."
+        },
+        {
+          "title": "Speaking practice",
+          "work": "Do a mock 3-minute interview covering all topics of the year."
+        },
+        {
+          "title": "Writing practice",
+          "work": "Write a practice paragraph about yourself, your family, and your weekend plans."
+        }
+      ],
+      "assessment": "Self-scored practice test."
+    },
+    {
+      "week": 36,
+      "unit": 10,
+      "topic": "Final integrated performance assessment",
+      "objectives": [
+        "Demonstrate Novice Mid proficiency in all three modes"
+      ],
+      "standards": [
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM"
+      ],
+      "vocabulary": [
+        "el examen final"
+      ],
+      "materials": [
+        "final exam packet"
+      ],
+      "days": [
+        {
+          "title": "Interpretive",
+          "work": "Read an authentic text (a pen-pal profile or town website) and listen to a short audio, answering comprehension questions."
+        },
+        {
+          "title": "Interpersonal",
+          "work": "Hold a 4-minute conversation with a parent about yourself, family, school, food, and plans."
+        },
+        {
+          "title": "Presentational",
+          "work": "Write and present 'Mi vida' (12–15 sentences) covering all 1A topics."
+        },
+        {
+          "title": "Cultures",
+          "work": "Present one cultural comparison from the year (food, greetings, plazas, or celebrations)."
+        },
+        {
+          "title": "Reflection",
+          "work": "Complete a can-do self-assessment and set goals for Spanish 1B."
+        }
+      ],
+      "assessment": "Integrated performance assessment rubric (interpretive, interpersonal, presentational)."
+    }
+  ]
+}

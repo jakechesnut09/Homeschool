@@ -69,3 +69,31 @@ Subject codes:
 * `funding.json` – grants, funded programs, tax-advantaged accounts, discounts (`name, category, provider, url, eligibility, benefit, how_to_apply, california_notes, last_verified`)
 * `paperwork.json` – required / recommended documents (`name, homeschool_option, action (submit|keep_on_file|recommended), frequency, deadline, legal_basis, url, description`)
 * `legal_options.json` – the legal ways to homeschool in California (`code, name, description, requirements[], pros[], cons[], legal_basis, url`)
+
+## Teacher's guides — `data/teacher/grade_XX/<SUBJECT>.json`
+
+One file per course, matching `data/curriculum/grade_XX/<SUBJECT>.json` week for week and day for day.
+
+```jsonc
+{
+  "grade": 3,
+  "subject": "MATH",
+  "overview": "2–4 sentences for the parent-teacher: how the course is taught, pacing, what to emphasize.",
+  "weeks": [                              // exactly 36, matching the curriculum weeks
+    {
+      "week": 1,
+      "prep": "What to gather / read / set up before the week starts.",
+      "misconceptions": ["Common mistake and how to correct it"],      // 1–3
+      "days": [                           // exactly 5, matching the curriculum days
+        {
+          "guide": "Step-by-step how to teach today's lesson (2–4 sentences: model, guided practice, independent).",
+          "questions": [                  // 1–3 check-for-understanding questions WITH answers
+            {"q": "What is 4 × 6? Draw it as an array.", "a": "24 — 4 rows of 6 dots."}
+          ]
+        }
+      ],
+      "assessment_key": "Answer key / scoring rubric for the week's assessment, with the actual expected answers."
+    }
+  ]
+}
+```

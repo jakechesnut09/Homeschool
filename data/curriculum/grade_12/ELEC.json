@@ -1,0 +1,1942 @@
+{
+  "grade": 12,
+  "subject": "ELEC",
+  "title": "Personal Finance (S1) & College/Career Readiness (S2)",
+  "description": "Semester 1 is a full personal finance course aligned to the Jump$tart National Standards and California's personal finance graduation requirement (AB 2927): earning income and paychecks, budgeting, banking, credit and debt, federal and California taxes, insurance, investing and retirement, consumer protection and fraud, and renting. Semester 2 is college and career readiness for a California homeschool senior: career exploration, UC/CSU applications and Personal Insight Questions, the FAFSA or California Dream Act Application, Cal Grant and Middle Class Scholarship, community college transfer paths, resumes, job applications, work permits and interviews, and a finished homeschool transcript and private-school diploma. Because UC/CSU applications and the FAFSA/CADAA open in the fall, week 1 sets a deadline calendar so real submissions happen on time; Semester 2 then completes, verifies, and builds on them.",
+  "framework": "Jump$tart National Standards for Personal Financial Education (2021) and California AB 2927 personal finance topics; California College and Career Readiness (CSAC, UC, CSU, CCC guidance)",
+  "minutes_per_day": 50,
+  "ag_requirement": "g",
+  "credits": 10,
+  "standards": {
+    "PF-EARN-1": "Explain how education, skills, and career choices affect lifetime income, and compare sources of income (wages, salary, tips, self-employment, benefits).",
+    "PF-EARN-2": "Read a paycheck and pay stub: gross vs. net pay, payroll deductions (federal/CA withholding, FICA, CA SDI), and complete Form W-4 and the CA DE 4.",
+    "PF-EARN-3": "Explain federal and California income taxes and file a basic return (Form W-2, Form 1040, CA Form 540, CA Franchise Tax Board, CalEITC/Young Child Tax Credit, free filing options).",
+    "PF-SPEND-1": "Create, follow, and revise a spending plan (budget) that balances needs, wants, savings, and goals.",
+    "PF-SPEND-2": "Make informed consumer decisions: comparison shopping, opportunity cost, transportation costs, and housing choices including renting and leases.",
+    "PF-SPEND-3": "Recognize consumer rights and protections, and prevent and respond to fraud, scams, and identity theft (CFPB, FTC, CA DFPI, CA tenant law).",
+    "PF-SAVE-1": "Compare financial institutions and accounts (banks, credit unions, checking, savings, debit, digital payments, FDIC/NCUA insurance) and manage an account.",
+    "PF-SAVE-2": "Set savings goals, build an emergency fund, and calculate simple and compound interest and the time value of money.",
+    "PF-INVEST-1": "Explain the relationship between risk and return and describe stocks, bonds, mutual funds, and index funds.",
+    "PF-INVEST-2": "Compare retirement accounts (401(k)/403(b), traditional and Roth IRA, CalSavers, employer match) and their tax treatment.",
+    "PF-INVEST-3": "Apply diversification, dollar-cost averaging, and fee comparison, and recognize behavioral biases and investment fraud.",
+    "PF-CREDIT-1": "Explain credit reports and credit scores, how they are built and used, and how to obtain free reports and dispute errors.",
+    "PF-CREDIT-2": "Compare the costs of credit cards, auto loans, personal loans, and predatory products (APR, fees, minimum payments, payday loans, buy-now-pay-later).",
+    "PF-CREDIT-3": "Manage and repay debt, including student loans (federal vs. private, subsidized vs. unsubsidized, repayment plans) and debt-reduction strategies.",
+    "PF-RISK-1": "Explain how insurance manages risk (premium, deductible, copay, coinsurance, out-of-pocket maximum) and when to self-insure.",
+    "PF-RISK-2": "Compare auto, health (Covered California, Medi-Cal, employer plans), renters, disability, and life insurance and choose appropriate coverage.",
+    "CCR-1": "Assess interests, skills, and values and research careers using labor-market data to set postsecondary and career goals.",
+    "CCR-2": "Compare postsecondary pathways in California: UC, CSU, California Community Colleges, private/independent colleges, apprenticeships, military, and direct employment.",
+    "CCR-3": "Complete UC and CSU applications, including a–g course reporting, activities, and the UC Personal Insight Questions.",
+    "CCR-4": "Complete the FAFSA or California Dream Act Application (CADAA), including the FSA ID/StudentAid.gov account, contributors, and the Student Aid Index.",
+    "CCR-5": "Apply for California state aid and scholarships (Cal Grant, Middle Class Scholarship, California College Promise Grant, WebGrants) and compare financial aid offers.",
+    "CCR-6": "Plan community college and transfer paths (Associate Degree for Transfer, UC Transfer Admission Guarantee, ASSIST.org articulation, CTE certificates).",
+    "CCR-7": "Write a professional resume, cover letter, and references list tailored to a specific job or program.",
+    "CCR-8": "Prepare for and perform in interviews and professional communication (STAR answers, email etiquette, follow-up, workplace conduct).",
+    "CCR-9": "Complete job applications and employment paperwork, including the California work permit for minors, Form I-9, W-4, and workers' rights under California labor law.",
+    "CCR-10": "Assemble homeschool academic records: transcript, course descriptions, credit and GPA calculation, and a diploma issued by the student's private school (PSA).",
+    "CCR-11": "Build a transition plan: compare offers, accept admission or employment, budget the first year, and complete enrollment steps."
+  },
+  "resources": [
+    {
+      "name": "Next Gen Personal Finance (NGPF)",
+      "url": "https://www.ngpf.org/",
+      "note": "Free full-semester personal finance curriculum, activities, FinCaps, and arcade games; free teacher account"
+    },
+    {
+      "name": "Khan Academy – Personal finance",
+      "url": "https://www.khanacademy.org/college-careers-more/personal-finance",
+      "note": "Videos on budgeting, banking, credit, taxes, insurance, investing, and retirement"
+    },
+    {
+      "name": "FDIC Money Smart",
+      "url": "https://www.fdic.gov/consumer-resource-center/money-smart",
+      "note": "Free Money Smart for Young Adults modules on banking, credit, and protecting your money"
+    },
+    {
+      "name": "Federal Student Aid (StudentAid.gov)",
+      "url": "https://studentaid.gov/",
+      "note": "FAFSA form, Federal Student Aid Estimator, loan simulator, and aid guides"
+    },
+    {
+      "name": "California Student Aid Commission (CSAC)",
+      "url": "https://www.csac.ca.gov/",
+      "note": "California Dream Act Application, Cal Grant, Middle Class Scholarship, WebGrants student portal"
+    },
+    {
+      "name": "CaliforniaColleges.edu",
+      "url": "https://www.californiacolleges.edu/",
+      "note": "Free state college and career planning platform: career quizzes, college search, a–g tracking, Cal State Apply links"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Earning Income, Paychecks & Budgeting",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Income is limited, so a written spending plan turns your paycheck into your priorities.",
+      "standards": [
+        "PF-EARN-1",
+        "PF-EARN-2",
+        "PF-SPEND-1",
+        "PF-SPEND-2",
+        "PF-SAVE-2"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Banking & Payments",
+      "start_week": 5,
+      "end_week": 6,
+      "big_idea": "Choosing the right accounts and payment tools keeps money safe, cheap, and accessible.",
+      "standards": [
+        "PF-SAVE-1",
+        "PF-SAVE-2",
+        "PF-SPEND-3"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Credit & Debt",
+      "start_week": 7,
+      "end_week": 9,
+      "big_idea": "Credit is a tool that costs money; your borrowing history follows you and shapes future costs.",
+      "standards": [
+        "PF-CREDIT-1",
+        "PF-CREDIT-2",
+        "PF-CREDIT-3",
+        "PF-SPEND-2"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Taxes",
+      "start_week": 10,
+      "end_week": 11,
+      "big_idea": "Taxes fund public goods, and understanding forms and credits lets you keep what you are owed.",
+      "standards": [
+        "PF-EARN-2",
+        "PF-EARN-3"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Insurance & Managing Risk",
+      "start_week": 12,
+      "end_week": 13,
+      "big_idea": "Insurance transfers large financial risks you cannot afford to carry alone.",
+      "standards": [
+        "PF-RISK-1",
+        "PF-RISK-2"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Investing, Compound Interest & Retirement",
+      "start_week": 14,
+      "end_week": 16,
+      "big_idea": "Time plus compound growth, diversification, and low fees build long-term wealth.",
+      "standards": [
+        "PF-SAVE-2",
+        "PF-INVEST-1",
+        "PF-INVEST-2",
+        "PF-INVEST-3"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Consumer Protection, Fraud & Renting",
+      "start_week": 17,
+      "end_week": 18,
+      "big_idea": "Knowing your rights and the warning signs of scams protects your money and your home.",
+      "standards": [
+        "PF-SPEND-2",
+        "PF-SPEND-3",
+        "PF-SPEND-1",
+        "PF-CREDIT-1"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Postsecondary Pathways & College Applications",
+      "start_week": 19,
+      "end_week": 23,
+      "big_idea": "Many California pathways lead to a good career; strong applications tell a clear, honest story.",
+      "standards": [
+        "CCR-1",
+        "CCR-2",
+        "CCR-3",
+        "CCR-10"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Paying for College: FAFSA, Dream Act & State Aid",
+      "start_week": 24,
+      "end_week": 28,
+      "big_idea": "Free money comes first; the FAFSA or CADAA unlocks federal, Cal Grant, and college aid.",
+      "standards": [
+        "CCR-4",
+        "CCR-5",
+        "PF-CREDIT-3",
+        "CCR-11"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Community College & Transfer",
+      "start_week": 29,
+      "end_week": 30,
+      "big_idea": "California's community colleges are an affordable, guaranteed route to a degree, credential, or UC/CSU transfer.",
+      "standards": [
+        "CCR-2",
+        "CCR-5",
+        "CCR-6"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Career Readiness: Resumes, Applications & Interviews",
+      "start_week": 31,
+      "end_week": 34,
+      "big_idea": "Employers hire evidence: a targeted resume, accurate paperwork, and a prepared interview.",
+      "standards": [
+        "CCR-1",
+        "CCR-7",
+        "CCR-8",
+        "CCR-9",
+        "PF-EARN-2"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Homeschool Records, Diploma & Launch Plan",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "A complete transcript, diploma, and first-year plan make the transition to adulthood official.",
+      "standards": [
+        "CCR-10",
+        "CCR-11",
+        "PF-SPEND-1"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Income, careers & senior-year money calendar",
+      "objectives": [
+        "Connect education and career choices to lifetime earnings",
+        "Build a senior-year financial and application deadline calendar"
+      ],
+      "standards": [
+        "PF-EARN-1",
+        "CCR-2"
+      ],
+      "vocabulary": [
+        "income",
+        "salary",
+        "wage",
+        "human capital",
+        "opportunity cost"
+      ],
+      "materials": [
+        "NGPF account",
+        "calculator",
+        "planner or calendar app"
+      ],
+      "days": [
+        {
+          "title": "Why personal finance",
+          "work": "Take the NGPF pre-assessment and write a money autobiography (one page) on how your family talked about money and one financial goal for age 25."
+        },
+        {
+          "title": "Earnings and education",
+          "work": "Use BLS median-earnings-by-education data to graph weekly earnings and unemployment rates for six education levels, then write three conclusions."
+        },
+        {
+          "title": "Career salary research",
+          "work": "Pick three careers on CaliforniaColleges.edu and record typical California salary, required training, and projected growth for each."
+        },
+        {
+          "title": "Senior deadline calendar",
+          "work": "Mark real dates on a calendar: FAFSA/CADAA opens Oct 1, Cal State Apply and UC application windows (UC due Nov 30), and the March Cal Grant deadline; set reminders to submit applications this fall."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a 10-question quiz on income types and the education-earnings link and present your calendar to a parent."
+        }
+      ],
+      "assessment": "Quiz on income concepts plus a completed senior deadline calendar."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Paychecks, pay stubs & the W-4",
+      "objectives": [
+        "Calculate gross and net pay",
+        "Complete a W-4 and CA DE 4 correctly"
+      ],
+      "standards": [
+        "PF-EARN-2",
+        "PF-EARN-1"
+      ],
+      "vocabulary": [
+        "gross pay",
+        "net pay",
+        "FICA",
+        "withholding",
+        "CA SDI",
+        "W-4"
+      ],
+      "materials": [
+        "sample pay stub (NGPF)",
+        "IRS Form W-4 (blank)",
+        "CA EDD Form DE 4 (blank)"
+      ],
+      "days": [
+        {
+          "title": "Gross vs. net",
+          "work": "Calculate gross pay for hourly jobs at California minimum wage with overtime (over 8 hours/day or 40/week) for three sample schedules."
+        },
+        {
+          "title": "Reading a pay stub",
+          "work": "Label every line on an NGPF sample pay stub (federal and state withholding, Social Security, Medicare, CA SDI, YTD) and find net pay."
+        },
+        {
+          "title": "Form W-4",
+          "work": "Fill out a practice IRS Form W-4 for a single teen with one job and explain each step in writing."
+        },
+        {
+          "title": "Form DE 4 and benefits",
+          "work": "Complete a practice CA DE 4 and compare two job offers that include health insurance and 401(k) match to see total compensation."
+        },
+        {
+          "title": "Review & check",
+          "work": "Play NGPF 'Paycheck' scenarios and solve five net-pay problems on a short quiz."
+        }
+      ],
+      "assessment": "Net-pay quiz and accuracy check of practice W-4/DE 4."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Building a spending plan",
+      "objectives": [
+        "Distinguish needs, wants, and savings",
+        "Create a balanced monthly budget"
+      ],
+      "standards": [
+        "PF-SPEND-1",
+        "PF-SAVE-2"
+      ],
+      "vocabulary": [
+        "budget",
+        "fixed expense",
+        "variable expense",
+        "50/30/20 rule",
+        "pay yourself first"
+      ],
+      "materials": [
+        "spreadsheet (Google Sheets or LibreOffice)",
+        "receipts or bank statements (sample)"
+      ],
+      "days": [
+        {
+          "title": "Needs vs. wants",
+          "work": "Sort 30 expense cards into needs and wants, then defend five borderline items (phone plan, car, streaming) in writing."
+        },
+        {
+          "title": "Track your spending",
+          "work": "Begin a 7-day expense tracker logging every purchase, and watch the Khan Academy budgeting video, taking notes on the 50/30/20 rule."
+        },
+        {
+          "title": "Budget spreadsheet",
+          "work": "Build a monthly budget spreadsheet with formulas for income, fixed and variable expenses, savings, and the balance for a $2,400 net income."
+        },
+        {
+          "title": "Budget challenge",
+          "work": "Play the NGPF budget simulation (e.g., 'Budget Challenge' or SPENT) and record three decisions you would change."
+        },
+        {
+          "title": "Review & check",
+          "work": "Revise your budget after a surprise $400 car repair and write a paragraph on how you balanced it."
+        }
+      ],
+      "assessment": "Graded budget spreadsheet with a balanced revision."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Smart spending & big purchases",
+      "objectives": [
+        "Use comparison shopping and opportunity cost",
+        "Calculate the total cost of owning a car"
+      ],
+      "standards": [
+        "PF-SPEND-2",
+        "PF-SPEND-1"
+      ],
+      "vocabulary": [
+        "opportunity cost",
+        "unit price",
+        "total cost of ownership",
+        "impulse buying",
+        "marketing"
+      ],
+      "materials": [
+        "grocery ads or store website",
+        "Kelley Blue Book or Edmunds (free)",
+        "calculator"
+      ],
+      "days": [
+        {
+          "title": "Opportunity cost",
+          "work": "Analyze three of your own recent purchases for opportunity cost and compute what each would be worth saved at 5% for 10 years."
+        },
+        {
+          "title": "Comparison shopping",
+          "work": "Compare unit prices for 10 grocery items across two stores or websites and calculate monthly savings."
+        },
+        {
+          "title": "Marketing tactics",
+          "work": "Identify five persuasive techniques in online ads (scarcity, social proof, anchoring, free trials, influencer posts) using real examples."
+        },
+        {
+          "title": "Cost of a car",
+          "work": "Calculate the 5-year total cost of ownership for a used vs. new car including California registration, insurance, gas, and maintenance."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit 1 test: paychecks, budgeting, and consumer choice scenarios, plus final 7-day spending reflection."
+        }
+      ],
+      "assessment": "Unit 1 test and car-cost comparison project."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Banks, credit unions & checking accounts",
+      "objectives": [
+        "Compare financial institutions and account features",
+        "Explain FDIC and NCUA insurance"
+      ],
+      "standards": [
+        "PF-SAVE-1"
+      ],
+      "vocabulary": [
+        "checking account",
+        "credit union",
+        "FDIC",
+        "overdraft",
+        "routing number",
+        "APY"
+      ],
+      "materials": [
+        "FDIC Money Smart for Young Adults",
+        "account fee schedules from two local institutions"
+      ],
+      "days": [
+        {
+          "title": "Why bank",
+          "work": "Complete the FDIC Money Smart module on bank accounts and list the costs of being unbanked (check-cashing and money-order fees)."
+        },
+        {
+          "title": "Compare institutions",
+          "work": "Compare fee schedules of a local bank and a credit union: minimum balance, monthly fees, overdraft fees, ATM network."
+        },
+        {
+          "title": "Account management",
+          "work": "Practice a month of transactions in a sample check register, including a debit card purchase, direct deposit, and a pending charge."
+        },
+        {
+          "title": "Reconcile",
+          "work": "Reconcile the register with a sample monthly statement and find two errors."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a recommendation memo choosing an account for your first job and take a short banking quiz."
+        }
+      ],
+      "assessment": "Banking quiz and account recommendation memo."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Savings, interest & digital payments",
+      "objectives": [
+        "Calculate simple and compound interest on savings",
+        "Use digital payments safely"
+      ],
+      "standards": [
+        "PF-SAVE-2",
+        "PF-SAVE-1",
+        "PF-SPEND-3"
+      ],
+      "vocabulary": [
+        "emergency fund",
+        "simple interest",
+        "compound interest",
+        "high-yield savings",
+        "P2P payment"
+      ],
+      "materials": [
+        "compound interest calculator (Investor.gov)",
+        "spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Emergency fund",
+          "work": "Calculate a 3-month emergency fund from your Unit 1 budget and plan how many months to reach it."
+        },
+        {
+          "title": "Simple vs. compound",
+          "work": "Compute simple and compound interest by hand for $1,000 at 4% over 5 years, then verify in a spreadsheet with =FV."
+        },
+        {
+          "title": "Rule of 72",
+          "work": "Use the Rule of 72 to estimate doubling times at 2%, 6%, and 10% and compare to spreadsheet results."
+        },
+        {
+          "title": "Digital payments",
+          "work": "Compare Zelle, Venmo, Cash App, and debit cards for fees, fraud protection, and FDIC coverage; write five safe-use rules."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a savings-goal plan with interest projection and a 10-question quiz."
+        }
+      ],
+      "assessment": "Savings plan with compound-interest projection and quiz."
+    },
+    {
+      "week": 7,
+      "unit": 3,
+      "topic": "Credit reports & credit scores",
+      "objectives": [
+        "Explain what goes into a credit score",
+        "Read a credit report and dispute an error"
+      ],
+      "standards": [
+        "PF-CREDIT-1"
+      ],
+      "vocabulary": [
+        "credit report",
+        "FICO score",
+        "credit utilization",
+        "hard inquiry",
+        "AnnualCreditReport.com"
+      ],
+      "materials": [
+        "sample credit report (NGPF or CFPB)",
+        "Khan Academy credit videos"
+      ],
+      "days": [
+        {
+          "title": "What is credit",
+          "work": "Watch the Khan Academy credit score video and diagram the five FICO factors with their approximate weights."
+        },
+        {
+          "title": "Reading a report",
+          "work": "Annotate a sample credit report: personal info, accounts, payment history, inquiries, and collections."
+        },
+        {
+          "title": "Who checks your credit",
+          "work": "Research how landlords, employers, insurers, and lenders use credit and write a one-paragraph summary for each."
+        },
+        {
+          "title": "Disputes",
+          "work": "Find two errors in a sample report and draft a dispute letter following CFPB guidance."
+        },
+        {
+          "title": "Review & check",
+          "work": "Rank six credit profiles from best to worst score and justify your order; short quiz."
+        }
+      ],
+      "assessment": "Credit profile ranking and dispute letter."
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "Credit cards, loans & the cost of borrowing",
+      "objectives": [
+        "Calculate the cost of carrying a balance",
+        "Compare credit products and identify predatory lending"
+      ],
+      "standards": [
+        "PF-CREDIT-2",
+        "PF-SPEND-2"
+      ],
+      "vocabulary": [
+        "APR",
+        "minimum payment",
+        "grace period",
+        "secured card",
+        "payday loan",
+        "buy now, pay later"
+      ],
+      "materials": [
+        "credit card agreement (Schumer box) samples",
+        "CFPB credit card calculator"
+      ],
+      "days": [
+        {
+          "title": "Card terms",
+          "work": "Compare the Schumer boxes of three real credit card offers (student, secured, rewards) for APR, fees, and penalties."
+        },
+        {
+          "title": "Minimum payment trap",
+          "work": "Calculate how long a $2,000 balance at 24% APR takes to repay with minimum payments vs. $150/month."
+        },
+        {
+          "title": "Auto and personal loans",
+          "work": "Use an amortization spreadsheet to compare a 36- vs. 72-month auto loan for total interest paid."
+        },
+        {
+          "title": "Predatory products",
+          "work": "Research payday loans, rent-to-own, and buy-now-pay-later; compute the APR of a $15-per-$100 two-week payday loan."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a 'first credit card' plan (which card, limits, autopay) and take a borrowing-costs quiz."
+        }
+      ],
+      "assessment": "Borrowing-cost calculations and first credit card plan."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Managing debt & student loans",
+      "objectives": [
+        "Compare federal and private student loans",
+        "Apply debt snowball and avalanche strategies"
+      ],
+      "standards": [
+        "PF-CREDIT-3",
+        "PF-CREDIT-2"
+      ],
+      "vocabulary": [
+        "subsidized loan",
+        "unsubsidized loan",
+        "income-driven repayment",
+        "debt avalanche",
+        "debt snowball",
+        "default"
+      ],
+      "materials": [
+        "StudentAid.gov Loan Simulator",
+        "spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Student loan basics",
+          "work": "Read the StudentAid.gov loan types page and make a comparison chart of Direct Subsidized, Unsubsidized, PLUS, and private loans."
+        },
+        {
+          "title": "Loan Simulator",
+          "work": "Use the StudentAid.gov Loan Simulator to estimate monthly payments on $27,000 under standard and income-driven plans."
+        },
+        {
+          "title": "Debt strategies",
+          "work": "Pay down a sample four-debt portfolio using both avalanche and snowball methods in a spreadsheet and compare interest paid."
+        },
+        {
+          "title": "When debt goes wrong",
+          "work": "Research collections, default, and wage garnishment, and list three resources (nonprofit credit counseling, CFPB) for help."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit 3 test on credit reports, credit costs, and debt management."
+        }
+      ],
+      "assessment": "Unit 3 test and debt-repayment spreadsheet."
+    },
+    {
+      "week": 10,
+      "unit": 4,
+      "topic": "How taxes work",
+      "objectives": [
+        "Explain progressive income tax brackets",
+        "Identify federal, state, and local taxes Californians pay"
+      ],
+      "standards": [
+        "PF-EARN-3",
+        "PF-EARN-2"
+      ],
+      "vocabulary": [
+        "progressive tax",
+        "marginal rate",
+        "effective rate",
+        "sales tax",
+        "payroll tax",
+        "Franchise Tax Board"
+      ],
+      "materials": [
+        "IRS tax bracket table (current year)",
+        "CA FTB tax rate schedule",
+        "calculator"
+      ],
+      "days": [
+        {
+          "title": "Why taxes",
+          "work": "List public goods funded by federal and California taxes and compare the share of revenue from income, payroll, and sales taxes."
+        },
+        {
+          "title": "Brackets",
+          "work": "Calculate federal income tax for three incomes using the current bracket table and find each marginal and effective rate."
+        },
+        {
+          "title": "California taxes",
+          "work": "Use the CA FTB rate schedule to compute state income tax for the same incomes and add local sales tax on a $1,000 purchase in your county."
+        },
+        {
+          "title": "Tax myths",
+          "work": "Debunk 'a raise can put me in a higher bracket and lower my take-home pay' with a worked example."
+        },
+        {
+          "title": "Review & check",
+          "work": "Solve a five-problem tax-calculation quiz."
+        }
+      ],
+      "assessment": "Tax-calculation quiz."
+    },
+    {
+      "week": 11,
+      "unit": 4,
+      "topic": "Filing a return: W-2, 1040 & CA 540",
+      "objectives": [
+        "Complete a basic Form 1040 and CA 540 from a W-2",
+        "Identify credits and free filing options"
+      ],
+      "standards": [
+        "PF-EARN-3"
+      ],
+      "vocabulary": [
+        "W-2",
+        "1040",
+        "standard deduction",
+        "refund",
+        "CalEITC",
+        "CalFile"
+      ],
+      "materials": [
+        "sample W-2",
+        "IRS Form 1040 and CA Form 540 (practice copies)",
+        "IRS Understanding Taxes / NGPF tax simulation"
+      ],
+      "days": [
+        {
+          "title": "Reading a W-2",
+          "work": "Label each box on a sample W-2 and match boxes to the lines where they go on the 1040 and 540."
+        },
+        {
+          "title": "Form 1040",
+          "work": "Complete a practice Form 1040 for a single filer with one W-2 and the standard deduction; compute the refund or amount owed."
+        },
+        {
+          "title": "CA Form 540",
+          "work": "Complete a practice CA Form 540 using the same W-2 and check eligibility for the California Earned Income Tax Credit."
+        },
+        {
+          "title": "Filing options",
+          "work": "Compare IRS Free File, VITA sites, and the FTB's CalFile, and list documents to keep and how long to keep them."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit 4 assessment: file a complete practice federal and California return from a new W-2."
+        }
+      ],
+      "assessment": "Accuracy of practice 1040 and 540 returns."
+    },
+    {
+      "week": 12,
+      "unit": 5,
+      "topic": "Insurance basics & health insurance",
+      "objectives": [
+        "Explain premiums, deductibles, and out-of-pocket maximums",
+        "Compare health coverage options in California"
+      ],
+      "standards": [
+        "PF-RISK-1",
+        "PF-RISK-2"
+      ],
+      "vocabulary": [
+        "premium",
+        "deductible",
+        "copay",
+        "coinsurance",
+        "out-of-pocket maximum",
+        "Covered California"
+      ],
+      "materials": [
+        "Khan Academy insurance videos",
+        "Covered California plan comparison (sample)"
+      ],
+      "days": [
+        {
+          "title": "How insurance works",
+          "work": "Play an NGPF risk-pooling simulation and explain in writing why insurers can pay large claims."
+        },
+        {
+          "title": "Insurance math",
+          "work": "Calculate what you pay for three medical scenarios under a high-deductible vs. low-deductible plan."
+        },
+        {
+          "title": "Health coverage options",
+          "work": "Compare staying on a parent's plan to age 26, student health plans, employer plans, Covered California, and Medi-Cal."
+        },
+        {
+          "title": "Choosing a plan",
+          "work": "Use Covered California's shop-and-compare tool for a sample 19-year-old and choose a plan with a written justification."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on insurance vocabulary and a health-plan cost comparison problem."
+        }
+      ],
+      "assessment": "Insurance quiz and plan-choice justification."
+    },
+    {
+      "week": 13,
+      "unit": 5,
+      "topic": "Auto, renters, disability & life insurance",
+      "objectives": [
+        "Compare auto coverage types and California minimums",
+        "Decide which insurance a young adult needs"
+      ],
+      "standards": [
+        "PF-RISK-2",
+        "PF-RISK-1"
+      ],
+      "vocabulary": [
+        "liability",
+        "collision",
+        "comprehensive",
+        "renters insurance",
+        "term life",
+        "disability insurance"
+      ],
+      "materials": [
+        "online auto insurance quote tool",
+        "CA Department of Insurance consumer pages"
+      ],
+      "days": [
+        {
+          "title": "Auto insurance",
+          "work": "Explain liability, collision, comprehensive, and uninsured motorist coverage and look up California's minimum liability limits."
+        },
+        {
+          "title": "Auto quote lab",
+          "work": "Get two practice online quotes (no purchase) changing deductible and car type, and record how premiums change."
+        },
+        {
+          "title": "Renters insurance",
+          "work": "Inventory and value your belongings and price a renters policy; calculate cost per day of coverage."
+        },
+        {
+          "title": "Disability and life",
+          "work": "Compare term vs. whole life and explain when a young adult would need disability or life insurance."
+        },
+        {
+          "title": "Review & check",
+          "work": "Build a personal insurance plan for age 22 listing coverages, estimated premiums, and deductibles; unit test."
+        }
+      ],
+      "assessment": "Unit 5 test and personal insurance plan."
+    },
+    {
+      "week": 14,
+      "unit": 6,
+      "topic": "Compound growth & investment basics",
+      "objectives": [
+        "Model compound growth over decades",
+        "Explain risk and return of stocks, bonds, and funds"
+      ],
+      "standards": [
+        "PF-SAVE-2",
+        "PF-INVEST-1"
+      ],
+      "vocabulary": [
+        "stock",
+        "bond",
+        "mutual fund",
+        "index fund",
+        "ETF",
+        "risk-return tradeoff"
+      ],
+      "materials": [
+        "Investor.gov compound interest calculator",
+        "spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Time is money",
+          "work": "Model two savers in a spreadsheet: one invests $200/month from 22–32, the other from 32–65, at 7%; graph the results."
+        },
+        {
+          "title": "What is a stock",
+          "work": "Watch the Khan Academy stocks video and explain ownership, dividends, and capital gains with an example company."
+        },
+        {
+          "title": "Bonds and cash",
+          "work": "Compare Treasury bonds, I bonds, CDs, and corporate bonds for risk and return."
+        },
+        {
+          "title": "Funds",
+          "work": "Compare an S&P 500 index fund and an actively managed fund using their expense ratios and 10-year returns."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on asset classes and compound-growth calculations."
+        }
+      ],
+      "assessment": "Compound growth spreadsheet and asset-class quiz."
+    },
+    {
+      "week": 15,
+      "unit": 6,
+      "topic": "Diversification, fees & investor behavior",
+      "objectives": [
+        "Build a diversified portfolio",
+        "Calculate the long-term cost of fees and spot investment scams"
+      ],
+      "standards": [
+        "PF-INVEST-3",
+        "PF-INVEST-1"
+      ],
+      "vocabulary": [
+        "diversification",
+        "asset allocation",
+        "expense ratio",
+        "dollar-cost averaging",
+        "Ponzi scheme"
+      ],
+      "materials": [
+        "NGPF stock market simulation",
+        "FINRA BrokerCheck"
+      ],
+      "days": [
+        {
+          "title": "Diversification",
+          "work": "Simulate a single-stock vs. index portfolio through a market crash using historical returns and compare losses."
+        },
+        {
+          "title": "Fees matter",
+          "work": "Calculate the 40-year difference in a $100,000 balance invested at 0.05% vs. 1% annual fees."
+        },
+        {
+          "title": "Behavioral biases",
+          "work": "Read about loss aversion, herd behavior, and FOMO and connect each to a real event (2008 crash, meme stocks, crypto collapse)."
+        },
+        {
+          "title": "Investment fraud",
+          "work": "Use FINRA BrokerCheck and the SEC's Investor.gov warning signs to evaluate three sample 'opportunities'."
+        },
+        {
+          "title": "Review & check",
+          "work": "Create an asset allocation for ages 20, 40, and 60 with a paragraph explaining each."
+        }
+      ],
+      "assessment": "Asset allocation project and fraud evaluation."
+    },
+    {
+      "week": 16,
+      "unit": 6,
+      "topic": "Retirement accounts",
+      "objectives": [
+        "Compare 401(k), traditional IRA, Roth IRA, and CalSavers",
+        "Calculate the value of an employer match"
+      ],
+      "standards": [
+        "PF-INVEST-2",
+        "PF-SAVE-2"
+      ],
+      "vocabulary": [
+        "401(k)",
+        "Roth IRA",
+        "traditional IRA",
+        "employer match",
+        "vesting",
+        "CalSavers"
+      ],
+      "materials": [
+        "spreadsheet",
+        "Khan Academy retirement videos"
+      ],
+      "days": [
+        {
+          "title": "Why retirement now",
+          "work": "Watch the Khan Academy 401(k) and IRA videos and chart tax treatment of traditional vs. Roth accounts."
+        },
+        {
+          "title": "Employer match",
+          "work": "Calculate the free money from a 50% match up to 6% on a $50,000 salary over 10 years with growth."
+        },
+        {
+          "title": "Roth for teens",
+          "work": "Explain how a teen with earned income can open a custodial Roth IRA and project a $1,000 contribution to age 65."
+        },
+        {
+          "title": "CalSavers and Social Security",
+          "work": "Research California's CalSavers program and read your projected Social Security benefits at ssa.gov examples."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit 6 test on investing and retirement accounts."
+        }
+      ],
+      "assessment": "Unit 6 test."
+    },
+    {
+      "week": 17,
+      "unit": 7,
+      "topic": "Consumer protection, scams & identity theft",
+      "objectives": [
+        "Recognize common scams targeting young adults",
+        "Respond to fraud and identity theft"
+      ],
+      "standards": [
+        "PF-SPEND-3",
+        "PF-CREDIT-1"
+      ],
+      "vocabulary": [
+        "phishing",
+        "identity theft",
+        "credit freeze",
+        "CFPB",
+        "FTC",
+        "DFPI"
+      ],
+      "materials": [
+        "FDIC Money Smart fraud module",
+        "IdentityTheft.gov"
+      ],
+      "days": [
+        {
+          "title": "Scam spotting",
+          "work": "Analyze 10 real phishing texts, emails, and job-offer scams and label the red flags in each."
+        },
+        {
+          "title": "Identity theft",
+          "work": "Complete the FDIC Money Smart identity-theft lesson and walk through the IdentityTheft.gov recovery plan steps."
+        },
+        {
+          "title": "Credit freezes",
+          "work": "Explain how to place free credit freezes at Equifax, Experian, and TransUnion and why it matters before age 18."
+        },
+        {
+          "title": "Your rights",
+          "work": "Research consumer rights under the Fair Credit Reporting Act and California law, and draft a CFPB or DFPI complaint for a sample problem."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a one-page scam-prevention guide for a younger sibling or grandparent; short quiz."
+        }
+      ],
+      "assessment": "Scam-prevention guide and quiz."
+    },
+    {
+      "week": 18,
+      "unit": 7,
+      "topic": "Renting your first apartment & semester capstone",
+      "objectives": [
+        "Read a lease and estimate move-in costs",
+        "Integrate all personal finance skills in a life-budget capstone"
+      ],
+      "standards": [
+        "PF-SPEND-2",
+        "PF-SPEND-1",
+        "PF-SPEND-3"
+      ],
+      "vocabulary": [
+        "lease",
+        "security deposit",
+        "renter's credit check",
+        "30% rule",
+        "roommate agreement"
+      ],
+      "materials": [
+        "rental listing sites",
+        "sample California residential lease",
+        "CA Courts Self-Help tenant pages"
+      ],
+      "days": [
+        {
+          "title": "Rental search",
+          "work": "Find three rentals near a chosen college or job, apply the 30% rule, and calculate total move-in costs."
+        },
+        {
+          "title": "Reading a lease",
+          "work": "Annotate a sample California lease for rent, deposit, late fees, repairs, and termination; list your tenant rights and the legal security deposit return timeline."
+        },
+        {
+          "title": "Roommates",
+          "work": "Write a roommate agreement covering rent split, utilities, guests, and chores."
+        },
+        {
+          "title": "Capstone budget",
+          "work": "Build a complete first-year independent life budget combining a job's net pay, rent, insurance, transportation, savings, and debt payments."
+        },
+        {
+          "title": "Semester final",
+          "work": "Take the NGPF post-assessment/semester final and present your capstone budget to a parent."
+        }
+      ],
+      "assessment": "Semester final exam and life-budget capstone."
+    },
+    {
+      "week": 19,
+      "unit": 8,
+      "topic": "Self-assessment & career exploration",
+      "objectives": [
+        "Identify interests, strengths, and values",
+        "Research careers with labor-market data"
+      ],
+      "standards": [
+        "CCR-1",
+        "PF-EARN-1"
+      ],
+      "vocabulary": [
+        "interest inventory",
+        "labor market information",
+        "career cluster",
+        "informational interview"
+      ],
+      "materials": [
+        "CaliforniaColleges.edu account",
+        "O*NET Interest Profiler",
+        "BLS Occupational Outlook Handbook"
+      ],
+      "days": [
+        {
+          "title": "Interest inventory",
+          "work": "Take the career interest assessment on CaliforniaColleges.edu and the O*NET Interest Profiler, then compare results."
+        },
+        {
+          "title": "Strengths and values",
+          "work": "Complete a work-values ranking and list five strengths with evidence from homeschool projects, jobs, or activities."
+        },
+        {
+          "title": "Career research",
+          "work": "Research three careers in the Occupational Outlook Handbook: duties, education, pay, outlook, and California openings."
+        },
+        {
+          "title": "Informational interview",
+          "work": "Prepare 10 questions and conduct a 20-minute informational interview with a professional in one target career."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a two-page career exploration report with a five-year goal."
+        }
+      ],
+      "assessment": "Career exploration report."
+    },
+    {
+      "week": 20,
+      "unit": 8,
+      "topic": "California postsecondary pathways",
+      "objectives": [
+        "Compare UC, CSU, CCC, private, apprenticeship, and military paths",
+        "Build a balanced college list"
+      ],
+      "standards": [
+        "CCR-2",
+        "CCR-1"
+      ],
+      "vocabulary": [
+        "a–g requirements",
+        "impacted major",
+        "apprenticeship",
+        "net price",
+        "reach/match/likely"
+      ],
+      "materials": [
+        "CaliforniaColleges.edu college search",
+        "College Scorecard",
+        "college net price calculators"
+      ],
+      "days": [
+        {
+          "title": "Systems compared",
+          "work": "Make a chart comparing the UC, CSU, California Community Colleges, and private colleges by mission, cost, size, and admission requirements."
+        },
+        {
+          "title": "Beyond college",
+          "work": "Research a California registered apprenticeship, a CTE certificate, and military enlistment requirements."
+        },
+        {
+          "title": "College search",
+          "work": "Use CaliforniaColleges.edu and College Scorecard to find eight schools and record graduation rate, median debt, and earnings."
+        },
+        {
+          "title": "Net price",
+          "work": "Run three college net price calculators with your family and compare estimated costs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Submit a balanced list of likely, match, and reach options with a pathway rationale."
+        }
+      ],
+      "assessment": "Balanced college/pathway list with data."
+    },
+    {
+      "week": 21,
+      "unit": 8,
+      "topic": "Homeschool applicants: a–g, testing & records",
+      "objectives": [
+        "Explain how UC and CSU evaluate homeschool applicants",
+        "Draft course descriptions for the transcript"
+      ],
+      "standards": [
+        "CCR-10",
+        "CCR-3"
+      ],
+      "vocabulary": [
+        "a–g",
+        "course description",
+        "admission by examination",
+        "AP exam",
+        "dual enrollment"
+      ],
+      "materials": [
+        "UC and CSU homeschool admissions pages",
+        "list of completed courses and grades"
+      ],
+      "days": [
+        {
+          "title": "UC and homeschoolers",
+          "work": "Read the UC admissions page for homeschooled students and summarize how a–g can be met (AP exams, college courses, a–g approved online courses, admission by examination)."
+        },
+        {
+          "title": "CSU and homeschoolers",
+          "work": "Read CSU's homeschool guidance and list required documents and how to report courses in Cal State Apply."
+        },
+        {
+          "title": "Course list",
+          "work": "Build a four-year course list from your homeschool records with a–g letter, grade, and semester credits for each course."
+        },
+        {
+          "title": "Course descriptions",
+          "work": "Write course descriptions (texts, labs, assessments) for three courses that will appear in the counselor packet."
+        },
+        {
+          "title": "Review & check",
+          "work": "Parent reviews the draft course list and three descriptions for accuracy."
+        }
+      ],
+      "assessment": "Draft four-year course list and course descriptions."
+    },
+    {
+      "week": 22,
+      "unit": 8,
+      "topic": "UC & CSU applications",
+      "objectives": [
+        "Complete UC and Cal State Apply application sections",
+        "Report courses, activities, and awards accurately"
+      ],
+      "standards": [
+        "CCR-3",
+        "CCR-10"
+      ],
+      "vocabulary": [
+        "UC Application",
+        "Cal State Apply",
+        "self-reported record",
+        "activities and awards",
+        "fee waiver"
+      ],
+      "materials": [
+        "UC Application (practice or live)",
+        "Cal State Apply account",
+        "transcript draft"
+      ],
+      "days": [
+        {
+          "title": "Application anatomy",
+          "work": "Tour every section of the UC Application and Cal State Apply and note required information and fee-waiver eligibility."
+        },
+        {
+          "title": "Academic history",
+          "work": "Enter or practice entering your self-reported academic record exactly from your transcript."
+        },
+        {
+          "title": "Activities and awards",
+          "work": "Write up to 20 activity entries with concise, quantified 350-character descriptions."
+        },
+        {
+          "title": "Check against deadlines",
+          "work": "Verify submitted applications (or the plan for a future term/transfer cycle) and log confirmation numbers and portal logins."
+        },
+        {
+          "title": "Review & check",
+          "work": "Peer or parent audit of the application for errors and consistency."
+        }
+      ],
+      "assessment": "Application section audit checklist."
+    },
+    {
+      "week": 23,
+      "unit": 8,
+      "topic": "Personal Insight Questions",
+      "objectives": [
+        "Choose four UC PIQs that showcase different strengths",
+        "Draft and revise 350-word responses"
+      ],
+      "standards": [
+        "CCR-3",
+        "CCR-1"
+      ],
+      "vocabulary": [
+        "Personal Insight Question",
+        "anecdote",
+        "reflection",
+        "specificity"
+      ],
+      "materials": [
+        "UC PIQ prompts and guide",
+        "word processor"
+      ],
+      "days": [
+        {
+          "title": "Prompts and planning",
+          "work": "Read all eight UC PIQ prompts and UC's guide, then brainstorm two stories for each and pick four."
+        },
+        {
+          "title": "Draft 1 and 2",
+          "work": "Draft two PIQs of up to 350 words each using specific examples and reflection."
+        },
+        {
+          "title": "Draft 3 and 4",
+          "work": "Draft the remaining two PIQs, including one about homeschooling as an educational experience if relevant."
+        },
+        {
+          "title": "Revision",
+          "work": "Revise all four for specificity, active voice, and word count after reading them aloud."
+        },
+        {
+          "title": "Review & check",
+          "work": "Submit the four polished PIQs with a reflection on what each shows admissions readers."
+        }
+      ],
+      "assessment": "Four polished PIQs scored with a rubric."
+    },
+    {
+      "week": 24,
+      "unit": 9,
+      "topic": "Cost of attendance & the FAFSA",
+      "objectives": [
+        "Read a cost of attendance budget",
+        "Complete the FAFSA with contributors and an FSA ID"
+      ],
+      "standards": [
+        "CCR-4",
+        "PF-SPEND-1"
+      ],
+      "vocabulary": [
+        "cost of attendance",
+        "Student Aid Index",
+        "contributor",
+        "FSA ID",
+        "dependency status"
+      ],
+      "materials": [
+        "StudentAid.gov account",
+        "Federal Student Aid Estimator",
+        "family tax return (prior-prior year)"
+      ],
+      "days": [
+        {
+          "title": "Cost of attendance",
+          "work": "Break down the cost of attendance for a UC, CSU, and community college into tuition, housing, food, books, and transportation."
+        },
+        {
+          "title": "Aid types",
+          "work": "Chart grants, scholarships, work-study, and loans: who pays, whether repaid, and sources."
+        },
+        {
+          "title": "FSA ID and estimator",
+          "work": "Create (or review) your StudentAid.gov account and run the Federal Student Aid Estimator."
+        },
+        {
+          "title": "FAFSA walkthrough",
+          "work": "Complete or review each FAFSA section, inviting contributors and listing schools; mark the state's priority dates."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on aid vocabulary and verify FAFSA submission status or a dated practice worksheet."
+        }
+      ],
+      "assessment": "FAFSA completion/checklist and aid quiz."
+    },
+    {
+      "week": 25,
+      "unit": 9,
+      "topic": "California Dream Act Application & CSAC WebGrants",
+      "objectives": [
+        "Determine whether the FAFSA or CADAA is the right form",
+        "Set up and monitor a WebGrants account"
+      ],
+      "standards": [
+        "CCR-4",
+        "CCR-5"
+      ],
+      "vocabulary": [
+        "CADAA",
+        "AB 540",
+        "CSAC",
+        "WebGrants",
+        "GPA verification"
+      ],
+      "materials": [
+        "csac.ca.gov",
+        "WebGrants student account"
+      ],
+      "days": [
+        {
+          "title": "Which application",
+          "work": "Read CSAC's guidance and explain who files the CADAA (including AB 540 eligibility) versus the FAFSA, and why never to file both."
+        },
+        {
+          "title": "CADAA walkthrough",
+          "work": "Walk through the California Dream Act Application sections and compare them to the FAFSA."
+        },
+        {
+          "title": "GPA verification",
+          "work": "Learn how Cal Grant GPA verification works for a private homeschool student and prepare the school's GPA certification or test-score alternative."
+        },
+        {
+          "title": "WebGrants",
+          "work": "Create a WebGrants student account, find where award status and messages appear, and set reminders to check monthly."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a state-aid checklist with deadlines and confirmation of submitted items."
+        }
+      ],
+      "assessment": "State-aid checklist and WebGrants setup."
+    },
+    {
+      "week": 26,
+      "unit": 9,
+      "topic": "Cal Grant & Middle Class Scholarship",
+      "objectives": [
+        "Compare Cal Grant A, B, and C",
+        "Explain Middle Class Scholarship eligibility"
+      ],
+      "standards": [
+        "CCR-5"
+      ],
+      "vocabulary": [
+        "Cal Grant A",
+        "Cal Grant B",
+        "Cal Grant C",
+        "Middle Class Scholarship",
+        "California College Promise Grant"
+      ],
+      "materials": [
+        "csac.ca.gov Cal Grant and MCS pages",
+        "calculator"
+      ],
+      "days": [
+        {
+          "title": "Cal Grant types",
+          "work": "Chart Cal Grant A, B, and C: what each pays, at which schools, and eligibility requirements."
+        },
+        {
+          "title": "Eligibility checks",
+          "work": "Determine sample students' Cal Grant eligibility from income, assets, GPA, and deadline data."
+        },
+        {
+          "title": "Middle Class Scholarship",
+          "work": "Read the MCS page and estimate what a sample UC or CSU student might receive."
+        },
+        {
+          "title": "Community college aid",
+          "work": "Research the California College Promise Grant and local free-tuition programs at a nearby community college."
+        },
+        {
+          "title": "Review & check",
+          "work": "Build a total state-aid estimate for your top three schools."
+        }
+      ],
+      "assessment": "State-aid estimate for three schools."
+    },
+    {
+      "week": 27,
+      "unit": 9,
+      "topic": "Scholarships",
+      "objectives": [
+        "Find legitimate scholarships",
+        "Write a reusable scholarship essay"
+      ],
+      "standards": [
+        "CCR-5",
+        "PF-SPEND-3"
+      ],
+      "vocabulary": [
+        "merit aid",
+        "need-based aid",
+        "outside scholarship",
+        "scholarship scam",
+        "award displacement"
+      ],
+      "materials": [
+        "scholarship search (Fastweb, Bold.org, local foundations)",
+        "word processor"
+      ],
+      "days": [
+        {
+          "title": "Finding scholarships",
+          "work": "Search local, community, employer, and online scholarships and list 10 with deadlines and requirements."
+        },
+        {
+          "title": "Scam spotting",
+          "work": "Use FTC guidance to identify red flags of scholarship scams (fees, guaranteed winnings)."
+        },
+        {
+          "title": "Essay draft",
+          "work": "Draft a 500-word scholarship essay that can be adapted to multiple prompts."
+        },
+        {
+          "title": "Applications",
+          "work": "Complete and submit (or fully prepare) two scholarship applications."
+        },
+        {
+          "title": "Review & check",
+          "work": "Revise the essay with parent feedback and log applications in a tracker."
+        }
+      ],
+      "assessment": "Two completed scholarship applications."
+    },
+    {
+      "week": 28,
+      "unit": 9,
+      "topic": "Comparing financial aid offers",
+      "objectives": [
+        "Calculate net cost from aid offers",
+        "Make a financially sound college decision"
+      ],
+      "standards": [
+        "CCR-11",
+        "CCR-5",
+        "PF-CREDIT-3"
+      ],
+      "vocabulary": [
+        "aid offer",
+        "net price",
+        "gap",
+        "work-study",
+        "appeal"
+      ],
+      "materials": [
+        "sample or real aid offers",
+        "spreadsheet",
+        "StudentAid.gov Loan Simulator"
+      ],
+      "days": [
+        {
+          "title": "Decoding offers",
+          "work": "Label grants, loans, and work-study on three sample aid offers that use different formats."
+        },
+        {
+          "title": "Net cost spreadsheet",
+          "work": "Build a spreadsheet comparing four-year net cost and expected loan debt across offers."
+        },
+        {
+          "title": "Debt-to-income",
+          "work": "Compare projected loan payments to starting salaries for your intended major using College Scorecard data."
+        },
+        {
+          "title": "Appeals",
+          "work": "Write a professional financial-aid appeal letter for a sample changed circumstance."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit 9 test and a written decision memo choosing a school based on fit and cost."
+        }
+      ],
+      "assessment": "Unit 9 test and decision memo."
+    },
+    {
+      "week": 29,
+      "unit": 10,
+      "topic": "California Community Colleges",
+      "objectives": [
+        "Explain community college programs and costs",
+        "Complete the CCCApply steps"
+      ],
+      "standards": [
+        "CCR-2",
+        "CCR-5",
+        "CCR-6"
+      ],
+      "vocabulary": [
+        "CCCApply",
+        "associate degree",
+        "certificate",
+        "matriculation",
+        "priority registration"
+      ],
+      "materials": [
+        "CCCApply",
+        "local community college website and catalog"
+      ],
+      "days": [
+        {
+          "title": "CCC programs",
+          "work": "Explore a local college catalog and list three certificates, three AA/AS degrees, and their unit requirements."
+        },
+        {
+          "title": "CCCApply",
+          "work": "Walk through CCCApply and record residency, education, and enrollment information requirements."
+        },
+        {
+          "title": "Enrollment steps",
+          "work": "Map orientation, placement (AB 705 guided self-placement), counseling, and the education plan."
+        },
+        {
+          "title": "Dual enrollment",
+          "work": "Research how homeschool students take community college classes now (special admit) and what transfers."
+        },
+        {
+          "title": "Review & check",
+          "work": "Create a semester-by-semester community college plan for one goal."
+        }
+      ],
+      "assessment": "Community college education plan."
+    },
+    {
+      "week": 30,
+      "unit": 10,
+      "topic": "Transfer paths: ADT, TAG & ASSIST",
+      "objectives": [
+        "Use ASSIST.org to find articulated courses",
+        "Compare ADT and TAG transfer guarantees"
+      ],
+      "standards": [
+        "CCR-6"
+      ],
+      "vocabulary": [
+        "ADT",
+        "TAG",
+        "ASSIST.org",
+        "IGETC",
+        "Cal-GETC",
+        "articulation"
+      ],
+      "materials": [
+        "ASSIST.org",
+        "UC Transfer Pathways pages",
+        "CSU transfer pages"
+      ],
+      "days": [
+        {
+          "title": "Transfer basics",
+          "work": "Explain Associate Degree for Transfer (CSU guarantee) and UC Transfer Admission Guarantee eligibility."
+        },
+        {
+          "title": "ASSIST lab",
+          "work": "Use ASSIST.org to find which courses at a local community college meet major prep for your target UC/CSU major."
+        },
+        {
+          "title": "General education",
+          "work": "Map the Cal-GETC general education pattern into a two-year schedule."
+        },
+        {
+          "title": "Transfer plan",
+          "work": "Build a full 60-unit two-year transfer plan with TAG/ADT deadlines."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present your transfer plan and compare four-year net cost with the direct freshman path."
+        }
+      ],
+      "assessment": "Two-year transfer plan and cost comparison."
+    },
+    {
+      "week": 31,
+      "unit": 11,
+      "topic": "Resumes & cover letters",
+      "objectives": [
+        "Write a targeted one-page resume",
+        "Write a tailored cover letter"
+      ],
+      "standards": [
+        "CCR-7",
+        "CCR-1"
+      ],
+      "vocabulary": [
+        "resume",
+        "action verb",
+        "accomplishment statement",
+        "ATS",
+        "cover letter",
+        "references"
+      ],
+      "materials": [
+        "resume template",
+        "real job posting",
+        "word processor"
+      ],
+      "days": [
+        {
+          "title": "Resume formats",
+          "work": "Compare chronological, skills-based, and student resume samples and pick a format."
+        },
+        {
+          "title": "Accomplishments",
+          "work": "Rewrite 10 duties into quantified accomplishment statements using strong action verbs."
+        },
+        {
+          "title": "Full resume",
+          "work": "Draft a one-page resume including homeschool education, volunteer work, skills, and certifications."
+        },
+        {
+          "title": "Cover letter",
+          "work": "Write a tailored cover letter for a real local job posting, matching keywords from the posting."
+        },
+        {
+          "title": "Review & check",
+          "work": "Revise resume and cover letter after a parent or mentor review and request two references."
+        }
+      ],
+      "assessment": "Final resume and cover letter scored with a rubric."
+    },
+    {
+      "week": 32,
+      "unit": 11,
+      "topic": "Job applications & work permits",
+      "objectives": [
+        "Complete online job applications accurately",
+        "Obtain a California work permit if under 18"
+      ],
+      "standards": [
+        "CCR-9",
+        "PF-EARN-2"
+      ],
+      "vocabulary": [
+        "work permit",
+        "Statement of Intent to Employ a Minor",
+        "I-9",
+        "background check",
+        "online application"
+      ],
+      "materials": [
+        "CA form B1-1 (Statement of Intent to Employ a Minor and Request for Work Permit)",
+        "two real job postings"
+      ],
+      "days": [
+        {
+          "title": "Job search",
+          "work": "Find five local jobs on employer sites and job boards and evaluate pay, schedule, and requirements."
+        },
+        {
+          "title": "Online application",
+          "work": "Complete a full online job application, including availability, work history, and screening questions."
+        },
+        {
+          "title": "Work permits",
+          "work": "Read California's minor work permit rules and complete form B1-1; learn where a private-school student obtains the permit (typically the local district) and teen hour limits."
+        },
+        {
+          "title": "Hiring paperwork",
+          "work": "Practice Form I-9 identity documents, a W-4, and direct-deposit forms."
+        },
+        {
+          "title": "Review & check",
+          "work": "Submit one real application (or a complete practice packet) and log it in a job tracker."
+        }
+      ],
+      "assessment": "Completed application packet and work permit form."
+    },
+    {
+      "week": 33,
+      "unit": 11,
+      "topic": "Interviews",
+      "objectives": [
+        "Answer common interview questions with STAR stories",
+        "Perform a mock interview professionally"
+      ],
+      "standards": [
+        "CCR-8"
+      ],
+      "vocabulary": [
+        "STAR method",
+        "behavioral question",
+        "elevator pitch",
+        "thank-you note",
+        "dress code"
+      ],
+      "materials": [
+        "phone or webcam for recording",
+        "list of common interview questions"
+      ],
+      "days": [
+        {
+          "title": "Interview types",
+          "work": "Compare phone, video, group, and behavioral interviews and research the company for a target job."
+        },
+        {
+          "title": "STAR stories",
+          "work": "Write five STAR stories from your experience (teamwork, conflict, failure, leadership, initiative)."
+        },
+        {
+          "title": "Elevator pitch",
+          "work": "Write and record a 30-second elevator pitch, then revise after watching it back."
+        },
+        {
+          "title": "Mock interview",
+          "work": "Complete a 20-minute recorded mock interview with an adult using 10 common questions."
+        },
+        {
+          "title": "Review & check",
+          "work": "Self-score the recording with a rubric and send a professional thank-you email."
+        }
+      ],
+      "assessment": "Mock interview rubric score and thank-you email."
+    },
+    {
+      "week": 34,
+      "unit": 11,
+      "topic": "Workplace skills & workers' rights",
+      "objectives": [
+        "Explain California workers' rights",
+        "Practice professional communication"
+      ],
+      "standards": [
+        "CCR-8",
+        "CCR-9",
+        "PF-EARN-2"
+      ],
+      "vocabulary": [
+        "minimum wage",
+        "meal break",
+        "harassment",
+        "Labor Commissioner",
+        "professional email"
+      ],
+      "materials": [
+        "CA Labor Commissioner (DLSE) pages",
+        "email account"
+      ],
+      "days": [
+        {
+          "title": "Professional communication",
+          "work": "Write three professional emails: requesting time off, following up on an application, and asking a supervisor for feedback."
+        },
+        {
+          "title": "Workers' rights",
+          "work": "Research California minimum wage, overtime, meal and rest breaks, and paid sick leave and make a rights card."
+        },
+        {
+          "title": "Workplace safety and harassment",
+          "work": "Learn how to report unsafe conditions and harassment and the role of Cal/OSHA and the Labor Commissioner."
+        },
+        {
+          "title": "Job offer",
+          "work": "Evaluate two sample job offers by total compensation, schedule, growth, and commute cost."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit 11 test on career readiness and employment law."
+        }
+      ],
+      "assessment": "Unit 11 test."
+    },
+    {
+      "week": 35,
+      "unit": 12,
+      "topic": "Homeschool transcript & diploma",
+      "objectives": [
+        "Finalize an official homeschool transcript",
+        "Understand the private-school diploma and graduation records"
+      ],
+      "standards": [
+        "CCR-10"
+      ],
+      "vocabulary": [
+        "transcript",
+        "weighted GPA",
+        "credit",
+        "private school affidavit",
+        "diploma",
+        "CHSPE"
+      ],
+      "materials": [
+        "course list from Unit 8",
+        "transcript template",
+        "copy of filed Private School Affidavit"
+      ],
+      "days": [
+        {
+          "title": "GPA and credits",
+          "work": "Calculate cumulative unweighted GPA and total credits (10 credits per year-long course) from your four-year record."
+        },
+        {
+          "title": "Final transcript",
+          "work": "Finalize the transcript with school name, CDS/affidavit info, courses by year, a–g letters, grades, GPA, and graduation date, signed by the administrator."
+        },
+        {
+          "title": "Diploma and graduation",
+          "work": "Learn that the private school (PSA) administrator issues the diploma, review graduation requirements, and compare with the CHSPE as an alternative."
+        },
+        {
+          "title": "Records packet",
+          "work": "Assemble a permanent records packet: transcript, course descriptions, reading lists, test scores, work samples, and copies of affidavits."
+        },
+        {
+          "title": "Review & check",
+          "work": "Parent signs and seals the final transcript; student creates digital and paper copies."
+        }
+      ],
+      "assessment": "Signed final transcript and records packet."
+    },
+    {
+      "week": 36,
+      "unit": 12,
+      "topic": "Launch plan & course capstone",
+      "objectives": [
+        "Create a first-year transition plan",
+        "Present a personal finance and career portfolio"
+      ],
+      "standards": [
+        "CCR-11",
+        "PF-SPEND-1"
+      ],
+      "vocabulary": [
+        "transition plan",
+        "enrollment deposit",
+        "Statement of Intent to Register",
+        "portfolio"
+      ],
+      "materials": [
+        "capstone budget from Unit 7",
+        "aid offers or job offer",
+        "presentation tool"
+      ],
+      "days": [
+        {
+          "title": "Final decisions",
+          "work": "Complete enrollment or job acceptance steps (Statement of Intent to Register, housing, orientation) or a gap-year plan with milestones."
+        },
+        {
+          "title": "First-year budget",
+          "work": "Update the Unit 7 life budget with actual aid, wages, and costs for your first year after graduation."
+        },
+        {
+          "title": "Adulting checklist",
+          "work": "Complete a checklist: voter registration, Selective Service if applicable, health insurance, bank accounts, credit freeze, and important documents."
+        },
+        {
+          "title": "Portfolio",
+          "work": "Assemble a digital portfolio with resume, transcript, PIQs, budget, and career report."
+        },
+        {
+          "title": "Final presentation",
+          "work": "Present your launch plan and portfolio to family and a guest; take the course final reflection."
+        }
+      ],
+      "assessment": "Capstone presentation and portfolio."
+    }
+  ]
+}

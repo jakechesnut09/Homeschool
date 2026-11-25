@@ -1,0 +1,2568 @@
+{
+ "grade": 4,
+ "subject": "MATH",
+ "overview": "Teach each 60-minute lesson as: a 5-10 minute warm-up (facts or a number talk), a modeled example with objects or drawings, guided practice where you watch the first problems, and independent practice you check the same day. Always connect concrete models (base-ten blocks, fraction strips, grids) to written methods before moving to algorithms, and ask the child to explain reasoning aloud. Fractions (weeks 17-25) are the heart of grade 4 — do not rush them; review weak skills from quizzes in the next week's warm-ups.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Print or write a 20-question diagnostic (10 multiplication/addition facts, 5 place-value items, 5 third-grade fraction items). Draw a place value chart from hundred thousands to ones with a comma between periods. Gather base-ten blocks (or paper flats/rods/units) and 10 index cards numbered 0-9.",
+   "misconceptions": [
+    "Reading 406,215 as 'four hundred six, two hundred fifteen' — teach that the comma is where you say the period name: 'four hundred six THOUSAND, two hundred fifteen.'",
+    "Forgetting zeros in standard form (writing 70,000 + 3,000 + 8 as 7,308). Have the child write the number in a place value chart so empty places get a 0."
+   ],
+   "days": [
+    {
+     "guide": "Give the diagnostic without help and mark only what is wrong; note which areas (facts, place value, fractions) need review. Then do the number talk: write 99 + 46, let the child solve mentally and explain, and model 'make 100': 99 is 1 less than 100, so 100 + 46 - 1.",
+     "questions": [
+      {
+       "q": "Solve 99 + 46 in your head and explain.",
+       "a": "145 — 100 + 46 = 146, then subtract the extra 1."
+      },
+      {
+       "q": "What is 7 × 8?",
+       "a": "56."
+      }
+     ]
+    },
+    {
+     "guide": "Model 2,345 with blocks (2 thousand-cubes or drawn squares, 3 flats, 4 rods, 5 units), then write it in the chart. Have the child build 3-4 more numbers, including a 5-digit one, and record each with a comma separating the thousands period.",
+     "questions": [
+      {
+       "q": "In 34,215, how many ten-thousands are there and what is their value?",
+       "a": "3 ten-thousands, worth 30,000."
+      },
+      {
+       "q": "Where does the comma go in 52307?",
+       "a": "52,307 — after the thousands period, three digits from the right."
+      }
+     ]
+    },
+    {
+     "guide": "Model one number in all three forms on the board, reading it aloud by periods. The child writes ten numbers in standard, word and expanded form and reads each aloud to you; check that 'and' is not used for whole numbers.",
+     "questions": [
+      {
+       "q": "Write 406,215 in word form and expanded form.",
+       "a": "Four hundred six thousand, two hundred fifteen; 400,000 + 6,000 + 200 + 10 + 5."
+      },
+      {
+       "q": "Write 70,000 + 3,000 + 40 + 8 in standard form.",
+       "a": "73,048 (zero in the hundreds place)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw 6 digit cards and arrange them into a 6-digit number; ask 'What is the value of the 7?' The child explains using the chart (digit × place). Repeat with new arrangements, alternating who makes the number.",
+     "questions": [
+      {
+       "q": "In 573,129, what is the value of the 7? Of the 3?",
+       "a": "7 is in the ten-thousands place: 70,000. 3 is in the thousands place: 3,000."
+      },
+      {
+       "q": "Make the largest number with 9, 7, 3, 1, 0, 5. What is the value of the 7?",
+       "a": "975,310; the 7 is worth 70,000."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently (about 20 minutes). Score it together right away and have the child correct each miss, saying out loud where the error was.",
+     "questions": [
+      {
+       "q": "What is the value of the 8 in 284,615?",
+       "a": "80,000."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample 8-item quiz with answers (each item: standard, word, expanded; 1 point per form). 1) 52,084 = fifty-two thousand, eighty-four = 50,000 + 2,000 + 80 + 4. 2) 310,560 = three hundred ten thousand, five hundred sixty = 300,000 + 10,000 + 500 + 60. 3) 9,407 = nine thousand, four hundred seven = 9,000 + 400 + 7. 4) 765,312 = seven hundred sixty-five thousand, three hundred twelve = 700,000 + 60,000 + 5,000 + 300 + 10 + 2. Digit value: 5) the 6 in 465,201 = 60,000; 6) the 9 in 19,358 = 9,000; 7) the 4 in 804,117 = 4,000; 8) the 2 in 723,980 = 20,000. 80% target = at least 26 of 32 points; reteach any form missed twice."
+  },
+  {
+   "week": 2,
+   "prep": "Base-ten blocks, the place value chart extended to millions, a calculator. Look up (or use) these 2020 census populations: Los Angeles 3,898,747; San Diego 1,386,932; San Jose 1,013,240; San Francisco 873,965; Fresno 542,107.",
+   "misconceptions": [
+    "Thinking a digit one place to the left is worth '1 more' instead of '10 times as much.' Use blocks: 10 rods make a flat, so each place is ten of the place to its right.",
+    "Saying 'add a zero' when multiplying by 10 — that rule fails later with decimals. Say 'each digit moves one place to the left.'"
+   ],
+   "days": [
+    {
+     "guide": "Have the child count 10 unit cubes and trade them for a rod, then 10 rods for a flat. Model the sentence frame 'The 4 in 40 is 10 times the 4 in 4,' then have the child write 4 more sentences for hundreds and thousands.",
+     "questions": [
+      {
+       "q": "How many tens are in one hundred? How many hundreds in one thousand?",
+       "a": "10 tens = 100; 10 hundreds = 1,000."
+      },
+      {
+       "q": "Finish: The 6 in 600 is ___ times the 6 in 60.",
+       "a": "10 times."
+      }
+     ]
+    },
+    {
+     "guide": "Start at 3 on the calculator and press × 10 = repeatedly, recording each result in the chart. Ask the child to describe what happens to the 3 each time (it moves one place left; zeros hold the empty places).",
+     "questions": [
+      {
+       "q": "List the results from 3 to 3,000,000.",
+       "a": "30; 300; 3,000; 30,000; 300,000; 3,000,000."
+      },
+      {
+       "q": "How many times did you multiply by 10 to get from 3 to 3,000,000?",
+       "a": "6 times (six zeros/six places moved)."
+      }
+     ]
+    },
+    {
+     "guide": "Show how the millions period works (millions, thousands, ones). The child writes each of the five city populations in word and expanded form and reads them aloud.",
+     "questions": [
+      {
+       "q": "Write 3,898,747 (Los Angeles) in word form.",
+       "a": "Three million, eight hundred ninety-eight thousand, seven hundred forty-seven."
+      },
+      {
+       "q": "Write 873,965 (San Francisco) in expanded form.",
+       "a": "800,000 + 70,000 + 3,000 + 900 + 60 + 5."
+      }
+     ]
+    },
+    {
+     "guide": "Model one problem in the chart: place 5,200 and 520 under each other and see the 5 is one place farther left, so it is 10 times as much. The child solves 10 problems and explains one in writing.",
+     "questions": [
+      {
+       "q": "How many times greater is the 5 in 5,200 than the 5 in 520?",
+       "a": "10 times — 5,000 is 10 × 500."
+      },
+      {
+       "q": "How many times greater is the 3 in 3,000 than the 3 in 30?",
+       "a": "100 times — two places left (10 × 10)."
+      }
+     ]
+    },
+    {
+     "guide": "The child draws 2 thousand-cubes and 2 flats, then explains in writing why the first is ten times the second. Check that the explanation mentions that 1,000 = 10 hundreds.",
+     "questions": [
+      {
+       "q": "Why is the 2 in 2,000 ten times the 2 in 200?",
+       "a": "2,000 is 20 hundreds and 200 is 2 hundreds; 20 hundreds is 10 times 2 hundreds (each thousand cube is 10 flats)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Practice set answers (10 × relationship): 1) 7 in 700 vs 70: 10×. 2) 4 in 4,000 vs 400: 10×. 3) 9 in 90,000 vs 9,000: 10×. 4) 6 in 6,300 vs 630: 10×. 5) 8 in 800 vs 8: 100×. 6) 2 in 25,000 vs 2,500: 10×. 7) 1 in 100,000 vs 10,000: 10×. 8) 3 in 3,000 vs 30: 100×. 9) 5 in 50 vs 5: 10×. 10) 4 in 40,000 vs 400: 100×. Written explanation rubric: 4 = drawing shows 2 thousands as 20 hundreds and the sentence says 2,000 is 10 times 200 because each place is ten times the one to its right; 3 = correct drawing and statement but reasoning brief; 2 = correct answer, drawing or reasoning missing; 1 = incorrect relationship."
+  },
+  {
+   "week": 3,
+   "prep": "Digit cards (two sets 0-9), long paper strips for number lines. Write these mountain heights on cards: Whitney 14,505 ft; White Mountain Peak 14,252; Shasta 14,179; Lassen Peak 10,457; San Gorgonio 11,503; Mount Diablo 3,849; Mount Tamalpais 2,571; Half Dome 8,839.",
+   "misconceptions": [
+    "Comparing by the first digit you see without lining up places (thinking 9,876 > 12,001). First count digits: more digits means larger.",
+    "Placing a number like 47,800 at '47.8' on the number line or near the middle: find the two thousands it falls between first, then decide which it is closer to."
+   ],
+   "days": [
+    {
+     "guide": "Write two numbers stacked with places lined up and model comparing from the left until the digits differ. The child compares 12 pairs, writing the symbol and naming the deciding place.",
+     "questions": [
+      {
+       "q": "Compare 45,302 and 45,230. Which place decides?",
+       "a": "45,302 > 45,230; the hundreds place decides (3 hundreds > 2 hundreds)."
+      },
+      {
+       "q": "Compare 9,876 and 12,001.",
+       "a": "9,876 < 12,001 — a 4-digit number is less than a 5-digit number."
+      }
+     ]
+    },
+    {
+     "guide": "Lay out the eight mountain cards; have the child order them least to greatest by lining up places on paper, then read the order aloud.",
+     "questions": [
+      {
+       "q": "Order Whitney 14,505, Shasta 14,179 and White Mountain 14,252 from least to greatest.",
+       "a": "14,179 (Shasta) < 14,252 (White Mountain) < 14,505 (Whitney)."
+      },
+      {
+       "q": "Which is the shortest of the eight mountains?",
+       "a": "Mount Tamalpais, 2,571 ft."
+      }
+     ]
+    },
+    {
+     "guide": "Each player draws 6 digit cards and builds the largest number possible, then both write the comparison with >, < or =. Ask the child to explain the strategy (largest digits in the biggest places).",
+     "questions": [
+      {
+       "q": "Build the largest and smallest 6-digit numbers with 8, 2, 5, 9, 0, 4.",
+       "a": "Largest 985,420; smallest 204,589 (0 cannot be first)."
+      },
+      {
+       "q": "Who wins: 853,210 or 853,201?",
+       "a": "853,210 — they differ first in the tens place (1 ten > 0 tens)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a line from 40,000 to 50,000 and mark 45,000 in the middle. The child places five numbers, marking the nearest thousands first, and explains each position aloud.",
+     "questions": [
+      {
+       "q": "Where does 47,800 go?",
+       "a": "Between 47,000 and 48,000, closer to 48,000 — to the right of the 45,000 halfway mark."
+      },
+      {
+       "q": "Is 43,900 to the left or right of 45,000?",
+       "a": "Left, because 43,900 < 45,000."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz without help. Correct together and have the child redo any wrong comparison by lining up places.",
+     "questions": [
+      {
+       "q": "Order 30,450; 30,045; 34,005 from least to greatest.",
+       "a": "30,045 < 30,450 < 34,005."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample quiz key: 1) 6,354 < 6,543 2) 70,210 > 70,201 3) 89,999 < 90,000 4) 405,612 = 405,612 5) 123,456 < 123,465 6) 52,030 > 52,003 7) 9,999 < 10,000 8) 600,060 > 600,006 9) 34,500 < 35,400 10) 781,000 > 718,000. Ordering: A) 4,509; 4,590; 4,905; 5,049. B) 120,300; 123,000; 130,200; 132,000. 10 points each set of comparisons, 2 points per ordering; 80% proficient."
+  },
+  {
+   "week": 4,
+   "prep": "Number line strips, place value chart. Approximate stadium attendance cards: Dodger Stadium game 43,651; Levi's Stadium 68,500; Oracle Park 41,915; Petco Park 40,209. Make a review game board or question cards for Day 4 and a written Unit 1 test for Day 5 (key below).",
+   "misconceptions": [
+    "Rounding 4,850 to the nearest hundred as 4,800 — the 5 rule: if the digit to the right is 5 or more, round up.",
+    "Changing every digit when rounding (648,372 to nearest ten thousand written as 650,372). After rounding, every place to the right becomes 0."
+   ],
+   "days": [
+    {
+     "guide": "Draw a number line for 367: mark 360 and 370 and the halfway point 365, then ask where 367 sits. The child rounds 10 numbers to the nearest ten and hundred using lines, then without them.",
+     "questions": [
+      {
+       "q": "Round 367 to the nearest ten and nearest hundred.",
+       "a": "370 (it is past 365); 400 (it is past 350)."
+      },
+      {
+       "q": "Round 4,850 to the nearest hundred.",
+       "a": "4,900 — it is exactly halfway, and halfway rounds up."
+      }
+     ]
+    },
+    {
+     "guide": "Model: underline the rounding place, look at the digit to its right, then round and fill zeros. The child completes 15 problems; check the first 3 before continuing.",
+     "questions": [
+      {
+       "q": "Round 648,372 to the nearest thousand, ten thousand and hundred thousand.",
+       "a": "648,000; 650,000; 600,000."
+      },
+      {
+       "q": "Round 295,600 to the nearest ten thousand.",
+       "a": "300,000 (9 ten-thousands round up to 30 ten-thousands)."
+      }
+     ]
+    },
+    {
+     "guide": "Have the child round each stadium attendance to the nearest thousand and add the rounded numbers. Discuss when an estimate is good enough (planning, news headlines).",
+     "questions": [
+      {
+       "q": "Estimate 43,651 + 41,915 by rounding to the nearest thousand.",
+       "a": "44,000 + 42,000 = 86,000."
+      },
+      {
+       "q": "Round 40,209 to the nearest thousand.",
+       "a": "40,000."
+      }
+     ]
+    },
+    {
+     "guide": "Play the review game, mixing cards on number forms, comparison, 'ten times' and rounding. For each miss, have the child explain the correct answer before moving on.",
+     "questions": [
+      {
+       "q": "Write eight hundred four thousand, sixty in standard form.",
+       "a": "804,060."
+      },
+      {
+       "q": "The 7 in 7,000 is how many times the 7 in 700?",
+       "a": "10 times."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test independently. Score it and have the child correct misses; reteach the weakest skill next week during warm-ups.",
+     "questions": [
+      {
+       "q": "Round 85,499 to the nearest thousand.",
+       "a": "85,000."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test sample key: 1) 306,402 in word form: three hundred six thousand, four hundred two. 2) Expanded form of 58,217: 50,000 + 8,000 + 200 + 10 + 7. 3) Value of 6 in 462,018: 60,000. 4) The 3 in 30,000 is 10 times the 3 in 3,000. 5) 74,312 > 74,231. 6) Order 9,580; 9,058; 9,805 → 9,058 < 9,580 < 9,805. 7) Round 6,749 to nearest hundred: 6,700. 8) Round 351,826 to nearest ten thousand: 350,000. 9) Round 351,826 to nearest hundred thousand: 400,000. 10) Round 2,498 to nearest thousand: 2,000. Proficient = 8/10."
+  },
+  {
+   "week": 5,
+   "prep": "Base-ten blocks and grid paper (one digit per box). Write the 10 regrouping problems and 5 road-trip problems ahead of time, or use the samples below.",
+   "misconceptions": [
+    "Forgetting to add the regrouped 1 (carried ten) in the next column. Have the child write the small 1 at the top of the next column immediately.",
+    "Misaligning places when numbers have different lengths (e.g., 4,567 + 892). Use grid paper and line up the ones column on the right."
+   ],
+   "days": [
+    {
+     "guide": "Model 3,456 + 2,738 with partial sums (thousands, hundreds, tens, ones), then with the standard algorithm side by side. Ask the child where the regrouped 1s in the algorithm appear in the partial sums.",
+     "questions": [
+      {
+       "q": "Solve 3,456 + 2,738 with partial sums.",
+       "a": "5,000 + 1,100 + 80 + 14 = 6,194."
+      },
+      {
+       "q": "Solve 2,519 + 1,364 with the standard algorithm.",
+       "a": "3,883."
+      }
+     ]
+    },
+    {
+     "guide": "The child solves 10 problems on grid paper, one digit per square. Watch the first two and have the child say 'regroup' aloud every time a column is 10 or more.",
+     "questions": [
+      {
+       "q": "487,659 + 236,478 = ?",
+       "a": "724,137."
+      },
+      {
+       "q": "5,698 + 4,507 = ?",
+       "a": "10,205."
+      }
+     ]
+    },
+    {
+     "guide": "Before each problem, the child rounds both addends and writes the estimate; after solving, compares the answer to the estimate and circles any answer that is far off.",
+     "questions": [
+      {
+       "q": "Estimate 3,892 + 4,156, then solve.",
+       "a": "Estimate 4,000 + 4,000 = 8,000; exact 8,048 — reasonable."
+      },
+      {
+       "q": "A student got 6,084 for 2,975 + 4,109. Is that reasonable?",
+       "a": "No — estimate 3,000 + 4,000 = 7,000; correct answer is 7,084."
+      }
+     ]
+    },
+    {
+     "guide": "Read each road-trip problem together and have the child underline the numbers and the question. They solve, then write the answer in a full sentence with 'miles.'",
+     "questions": [
+      {
+       "q": "A family drove 382 miles, then 245 miles, then 96 miles. How far in all?",
+       "a": "723 miles (382 + 245 = 627; 627 + 96 = 723)."
+      },
+      {
+       "q": "Los Angeles to San Francisco is about 383 miles and San Francisco to Sacramento about 88 miles. How far is LA to Sacramento by that route?",
+       "a": "About 471 miles."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently; the child estimates first on each problem. Score together and redo any misses.",
+     "questions": [
+      {
+       "q": "Estimate, then solve: 6,812 + 2,950.",
+       "a": "Estimate 7,000 + 3,000 = 10,000; exact 9,762."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 4,567 + 3,288 = 7,855 2) 25,906 + 18,497 = 44,403 3) 308,745 + 92,368 = 401,113 4) 6,812 + 2,950 = 9,762 (estimate 10,000) 5) 12,345 + 67,890 = 80,235 6) 999 + 4,001 = 5,000 7) Estimate 48,700 + 21,300 to nearest thousand: 49,000 + 21,000 = 70,000 8) Is 5,214 a reasonable answer for 2,689 + 3,525? No; estimate 6,000, actual 6,214. Proficient = 7/8 with estimates written."
+  },
+  {
+   "week": 6,
+   "prep": "Base-ten blocks and grid paper. Prepare 12 'across zeros' problems and 5 worked problems with planted mistakes (examples below).",
+   "misconceptions": [
+    "Subtracting the smaller digit from the larger in each column (602 - 158 = 556). Ask 'Is the top digit big enough?' before each column; if not, regroup.",
+    "Regrouping across zeros incorrectly (40,000 - 13,586). Teach: rename 4 ten-thousands as 3 ten-thousands, 9 thousands, 9 hundreds, 9 tens, 10 ones."
+   ],
+   "days": [
+    {
+     "guide": "Build 5,203 with blocks and take away 1,476, trading a ten for ones and a hundred for tens as needed. Then record the same steps in the standard algorithm and match each trade to a crossed-out digit.",
+     "questions": [
+      {
+       "q": "5,203 - 1,476 = ?",
+       "a": "3,727."
+      },
+      {
+       "q": "Why did you have to trade in the tens place?",
+       "a": "There were 0 tens after trading one for the ones, so a hundred had to be traded for 10 tens."
+      }
+     ]
+    },
+    {
+     "guide": "Model 40,000 - 13,586 by renaming 40,000 as 3 ten-thousands, 9 thousands, 9 hundreds, 9 tens and 10 ones. The child solves 12 problems and writes a sentence explaining the regrouping for one.",
+     "questions": [
+      {
+       "q": "40,000 - 13,586 = ?",
+       "a": "26,414."
+      },
+      {
+       "q": "7,000 - 2,345 = ?",
+       "a": "4,655."
+      }
+     ]
+    },
+    {
+     "guide": "For each of 8 subtraction problems, the child adds the answer to the number subtracted and checks that it equals the starting number.",
+     "questions": [
+      {
+       "q": "Check 8,000 - 2,345 = 5,655.",
+       "a": "5,655 + 2,345 = 8,000, so it is correct."
+      },
+      {
+       "q": "Is 9,210 - 4,836 = 4,474 correct?",
+       "a": "No: 4,474 + 4,836 = 9,310. The correct difference is 4,374."
+      }
+     ]
+    },
+    {
+     "guide": "Show a worked problem with a mistake and ask the child to be the teacher: find the error, fix it and write what went wrong. Repeat for all five.",
+     "questions": [
+      {
+       "q": "A student wrote 602 - 158 = 556. What went wrong?",
+       "a": "They subtracted smaller from larger in each column instead of regrouping. Correct answer: 444."
+      },
+      {
+       "q": "A student wrote 3,005 - 1,238 = 2,867. Find the error.",
+       "a": "Regrouping across zeros was wrong; correct answer 1,767 (1,767 + 1,238 = 3,005)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and the error-analysis item independently. Have the child check each answer with addition before turning it in.",
+     "questions": [
+      {
+       "q": "50,000 - 24,618 = ?",
+       "a": "25,382."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 7,302 - 2,857 = 4,445 2) 50,000 - 24,618 = 25,382 3) 63,415 - 28,739 = 34,676 4) 9,006 - 3,478 = 5,528 5) 800,000 - 1 = 799,999 6) 41,250 - 9,875 = 31,375 7) 6,004 - 2,999 = 3,005. Error analysis (8,000 - 3,627 written as 5,627): the student did not regroup across the zeros (subtracted 0 from 7, 0 from 2, etc. instead of renaming 8,000 as 7 thousands, 9 hundreds, 9 tens, 10 ones); correct answer 4,373, check 4,373 + 3,627 = 8,000. Proficient: 6/7 computations plus a correct written explanation."
+  },
+  {
+   "week": 7,
+   "prep": "Bar model (tape diagram) templates or blank paper. Look up or use sample state park visitor numbers for Day 3 (any realistic values). Prepare a Unit 2 test (key below).",
+   "misconceptions": [
+    "Choosing the operation by keywords ('more' means add) instead of the situation. Always draw the bar model first and ask: are we finding a whole or a part?",
+    "Doing only the first step of a two-step problem. Have the child write a plan: 'First I find..., then I find...'"
+   ],
+   "days": [
+    {
+     "guide": "Model a part-whole bar (whole on top, parts below) and a comparison bar (two bars, difference marked). The child draws 4 diagrams, labels the unknown with a letter and writes an equation.",
+     "questions": [
+      {
+       "q": "Mia read 1,250 pages; Sam read 375 fewer. Draw a model and find Sam's pages.",
+       "a": "Two bars, Sam's shorter by 375: s = 1,250 - 375 = 875 pages."
+      },
+      {
+       "q": "A school has 846 students; 429 are girls. How many boys? Write an equation.",
+       "a": "846 - 429 = b; b = 417 boys."
+      }
+     ]
+    },
+    {
+     "guide": "Have the child estimate, then solve 5 two-step problems, showing each step. Ask 'Is your answer close to your estimate?'",
+     "questions": [
+      {
+       "q": "A library had 12,450 books, gave away 1,375 and bought 2,060. How many now?",
+       "a": "12,450 - 1,375 = 11,075; 11,075 + 2,060 = 13,135 books (estimate 12,000 - 1,000 + 2,000 = 13,000)."
+      },
+      {
+       "q": "A farm picked 3,240 apples Monday and 2,875 Tuesday and sold 4,500. How many are left?",
+       "a": "6,115 - 4,500 = 1,615 apples."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes two multistep problems using park visitor data, solves them on a separate sheet, and trades with you. Check that each problem needs two steps and has one clear question.",
+     "questions": [
+      {
+       "q": "If a park had 15,400 visitors in May and 22,980 in June, how many more in June?",
+       "a": "7,580 more visitors."
+      }
+     ]
+    },
+    {
+     "guide": "The child completes the mixed review, then self-checks with the key and redoes misses. Discuss which problem types felt hardest.",
+     "questions": [
+      {
+       "q": "70,000 - 36,452 = ?",
+       "a": "33,548."
+      },
+      {
+       "q": "25,678 + 49,385 = ?",
+       "a": "75,063."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test independently; require estimates on word problems. Score and correct together.",
+     "questions": [
+      {
+       "q": "A theater has 2,500 seats. 1,368 adult and 947 child tickets were sold. How many seats are empty?",
+       "a": "1,368 + 947 = 2,315; 2,500 - 2,315 = 185 empty seats."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test key: 1) 34,507 + 18,965 = 53,472 2) 60,000 - 27,384 = 32,616 3) 482,716 + 39,584 = 522,300 4) 8,103 - 4,567 = 3,536 5) A park had 45,320 visitors in June and 38,915 in July; how many more in June? 6,405. 6) Theater: 2,500 - (1,368 + 947) = 185 empty seats. 7) Bar model: Jo has 1,200 stamps, Lee has 350 more than Jo; total? Lee 1,550, total 2,750. Scoring: 1 point per computation, 2 points per word problem (model/equation + correct answer). Proficient = 80%."
+  },
+  {
+   "week": 8,
+   "prep": "Counters (beans or coins), tape diagram templates. Write 10 word problems for Day 3 mixing 'how many more' and 'how many times as many.'",
+   "misconceptions": [
+    "Confusing 'times as many' with 'more than': 4 times as many as 3 is 12, not 7. Build both with counters to see the difference.",
+    "In unknown-smaller problems (300 ft is 6 times as tall as the oak), multiplying 300 × 6 instead of dividing. Draw the tape: the big bar is 6 small bars."
+   ],
+   "days": [
+    {
+     "guide": "Build Ana's 3 shells, then 4 groups of 3 for Ben. Model the sentence '12 is 4 times as many as 3' and the equation 12 = 4 × 3; the child builds and writes 5 more.",
+     "questions": [
+      {
+       "q": "Ana has 3 shells. Ben has 4 times as many. How many does Ben have?",
+       "a": "12 shells; 12 = 4 × 3."
+      },
+      {
+       "q": "Write 35 = 5 × 7 as a comparison sentence.",
+       "a": "35 is 5 times as many as 7 (or 7 times as many as 5)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a tape diagram with one small bar and a large bar made of copies of it. The child solves 6 problems, finding either the larger amount or the multiplier.",
+     "questions": [
+      {
+       "q": "A rope is 8 feet long. Another rope is 5 times as long. How long is it?",
+       "a": "40 feet (5 × 8)."
+      },
+      {
+       "q": "A tree is 42 feet tall and a bush is 7 feet tall. How many times as tall is the tree?",
+       "a": "6 times (42 ÷ 7 = 6)."
+      }
+     ]
+    },
+    {
+     "guide": "The child reads each of 10 problems and sorts it into 'how many more' (subtract) or 'how many times as many' (multiply/divide), then solves.",
+     "questions": [
+      {
+       "q": "Sam has 18 stickers and Ana has 6. How many more does Sam have? How many times as many?",
+       "a": "12 more (18 - 6); 3 times as many (18 ÷ 6)."
+      }
+     ]
+    },
+    {
+     "guide": "Model the redwood problem both ways on a tape diagram. The child solves comparison problems where the smaller quantity is unknown by dividing.",
+     "questions": [
+      {
+       "q": "A redwood is 6 times as tall as a 50-ft oak. How tall is the redwood?",
+       "a": "300 feet (6 × 50)."
+      },
+      {
+       "q": "A giraffe is 18 feet tall, which is 3 times as tall as a man. How tall is the man?",
+       "a": "6 feet (18 ÷ 3)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently; the child must draw a tape diagram for each word problem. Correct together.",
+     "questions": [
+      {
+       "q": "Write a comparison statement for 24 = 6 × 4.",
+       "a": "24 is 6 times as many as 4 (or 4 times as many as 6)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: Statements — 1) 35 = 5 × 7: 35 is 5 times as many as 7. 2) 24 = 6 × 4: 24 is 6 times as many as 4. 3) 56 = 8 × 7: 56 is 8 times as many as 7. 4) 45 = 9 × 5: 45 is 9 times as many as 5 (either order accepted). Problems — 5) A blue ribbon is 9 in; a red one is 4 times as long: 36 in. 6) Kim has 48 cards, 6 times as many as her brother: brother has 8. 7) 72 is how many times as many as 8? 9 times. 8) A cat weighs 7 lb and a dog 35 lb: the dog is 5 times as heavy and 28 lb heavier. Proficient: 7/8 with tape diagrams."
+  },
+  {
+   "week": 9,
+   "prep": "Square tiles (or paper squares), a hundreds chart, crayons. Write three riddles for Day 4 (samples below).",
+   "misconceptions": [
+    "Thinking 1 is prime. A prime has exactly two factors (1 and itself); 1 has only one factor, so it is neither prime nor composite.",
+    "Thinking all odd numbers are prime (9, 15, 21, 51). Test small factors: 51 = 3 × 17.",
+    "Confusing factors and multiples. Factors go INTO a number (factors of 12: 1,2,3,4,6,12); multiples come OUT of skip-counting (12, 24, 36...)."
+   ],
+   "days": [
+    {
+     "guide": "Build all rectangles for 12 tiles (1×12, 2×6, 3×4) and record factor pairs. The child does 18 and 24, organizing pairs from 1 upward so none are missed.",
+     "questions": [
+      {
+       "q": "List the factor pairs of 18.",
+       "a": "1 × 18, 2 × 9, 3 × 6."
+      },
+      {
+       "q": "List the factor pairs of 24.",
+       "a": "1 × 24, 2 × 12, 3 × 8, 4 × 6."
+      }
+     ]
+    },
+    {
+     "guide": "For each number 1-30, the child tries to build rectangles; if only one row works, it is prime. Record a two-column chart.",
+     "questions": [
+      {
+       "q": "Which numbers from 1 to 30 are prime?",
+       "a": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29."
+      },
+      {
+       "q": "Is 27 prime or composite? Why?",
+       "a": "Composite — 27 = 3 × 9, so it has more than two factors."
+      }
+     ]
+    },
+    {
+     "guide": "On the hundreds chart, cross out 1, circle 2 and shade its multiples, then 3, 5 and 7. The child circles the remaining numbers as primes and counts them.",
+     "questions": [
+      {
+       "q": "How many primes are less than 100?",
+       "a": "25."
+      },
+      {
+       "q": "Is 91 prime?",
+       "a": "No — 91 = 7 × 13."
+      }
+     ]
+    },
+    {
+     "guide": "The child lists the first 10 multiples of 6 and of 8, circles common ones, then solves riddles by listing multiples.",
+     "questions": [
+      {
+       "q": "What are the common multiples of 6 and 8 up to 80?",
+       "a": "24 and 48."
+      },
+      {
+       "q": "I am a multiple of 7 between 40 and 50, and I am odd. What am I?",
+       "a": "49."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently; allow tiles. Correct together.",
+     "questions": [
+      {
+       "q": "List the factor pairs of 36.",
+       "a": "1 × 36, 2 × 18, 3 × 12, 4 × 9, 6 × 6."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) Factor pairs of 36: 1×36, 2×18, 3×12, 4×9, 6×6. 2) Factor pairs of 48: 1×48, 2×24, 3×16, 4×12, 6×8. 3) Prime or composite: 17 prime; 21 composite (3×7); 29 prime; 51 composite (3×17); 1 neither. 4) First 5 multiples of 7: 7, 14, 21, 28, 35. 5) Is 6 a factor of 84? Yes, 6 × 14 = 84. 6) Is 45 a multiple of 4? No. 7) Common multiple of 3 and 4 less than 20: 12. Proficient: 6/7."
+  },
+  {
+   "week": 10,
+   "prep": "Grid paper, base-ten blocks. Prepare 8 problems for Day 3 (4-digit × 1-digit) and 8 for Day 4 (3-digit × 1-digit).",
+   "misconceptions": [
+    "Partial products added incorrectly because places weren't lined up. Write each partial product on its own line, right-aligned.",
+    "In the algorithm, adding the regrouped digit before multiplying (e.g., in 6 × 378, adding the carried 4 to 7 before multiplying). Rule: multiply first, then add what was regrouped."
+   ],
+   "days": [
+    {
+     "guide": "Write 4 × 3, 4 × 30, 4 × 300, 4 × 3,000 and have the child solve each and say '4 times 3 tens is 12 tens = 120.' The child explains the pattern in words.",
+     "questions": [
+      {
+       "q": "Solve 4 × 3, 4 × 30, 4 × 300, 4 × 3,000.",
+       "a": "12; 120; 1,200; 12,000."
+      },
+      {
+       "q": "What is 6 × 500?",
+       "a": "3,000 (6 × 5 hundreds = 30 hundreds)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a rectangle for 6 × 47 split into 6 × 40 and 6 × 7. The child computes each section and adds, then does 3 × 215 split into three sections.",
+     "questions": [
+      {
+       "q": "6 × 47 using an area model.",
+       "a": "240 + 42 = 282."
+      },
+      {
+       "q": "3 × 215 using an area model.",
+       "a": "600 + 30 + 15 = 645."
+      }
+     ]
+    },
+    {
+     "guide": "The child solves 8 problems like 4 × 2,316 by splitting into thousands, hundreds, tens and ones. Check that each partial product is labeled.",
+     "questions": [
+      {
+       "q": "4 × 2,316 = ?",
+       "a": "8,000 + 1,200 + 40 + 24 = 9,264."
+      },
+      {
+       "q": "5 × 1,623 = ?",
+       "a": "5,000 + 3,000 + 100 + 15 = 8,115."
+      }
+     ]
+    },
+    {
+     "guide": "Solve 3 × 254 with partial products, then with the standard algorithm, and point out where 12 (from 3 × 4) shows up as a regrouped 1. The child does 8 problems both ways at first, then algorithm only.",
+     "questions": [
+      {
+       "q": "3 × 254 = ?",
+       "a": "762."
+      },
+      {
+       "q": "6 × 378 = ?",
+       "a": "2,268."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently; area model items must show sections. Correct together.",
+     "questions": [
+      {
+       "q": "7 × 43 = ?",
+       "a": "301."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 5 × 600 = 3,000 2) 7 × 43 = 301 3) 8 × 325 = 2,600 4) 6 × 1,407 = 8,442 5) 9 × 2,135 = 19,215 6) Area model for 4 × 286: 800 + 320 + 24 = 1,144 7) 3 × 4,000 = 12,000 8) 2 × 3,759 = 7,518. Proficient: 7/8 with work shown."
+  },
+  {
+   "week": 11,
+   "prep": "Grid paper, colored pencils. Prepare 8 partial-products problems and 5 word problems.",
+   "misconceptions": [
+    "Forgetting the 'cross' products in 2-digit × 2-digit (23 × 14 = 20×10 + 3×4 = 212). An area model shows all four parts.",
+    "Multiplying 20 × 30 as 60 instead of 600. Think 2 tens × 3 tens = 6 hundreds."
+   ],
+   "days": [
+    {
+     "guide": "Draw a rectangle for 23 × 14 split into 20 + 3 by 10 + 4 and shade each of the four parts a different color. Find each part and add. The child repeats with 36 × 25.",
+     "questions": [
+      {
+       "q": "23 × 14 using an area model.",
+       "a": "200 + 80 + 30 + 12 = 322."
+      },
+      {
+       "q": "36 × 25 using an area model.",
+       "a": "600 + 150 + 120 + 30 = 900."
+      }
+     ]
+    },
+    {
+     "guide": "Model listing the four partial products with labels (40 × 30, 40 × 6, 7 × 30, 7 × 6). The child solves 8 problems the same way.",
+     "questions": [
+      {
+       "q": "47 × 36 with partial products.",
+       "a": "1,200 + 240 + 210 + 42 = 1,692."
+      },
+      {
+       "q": "52 × 13 = ?",
+       "a": "500 + 150 + 20 + 6 = 676."
+      }
+     ]
+    },
+    {
+     "guide": "The child rounds both factors to the nearest ten, estimates, then computes exactly and compares.",
+     "questions": [
+      {
+       "q": "Estimate, then solve 48 × 31.",
+       "a": "Estimate 50 × 30 = 1,500; exact 1,488."
+      },
+      {
+       "q": "Estimate 62 × 19.",
+       "a": "60 × 20 = 1,200 (exact 1,178)."
+      }
+     ]
+    },
+    {
+     "guide": "Read each word problem together and have the child draw a quick model, then solve and write a sentence answer.",
+     "questions": [
+      {
+       "q": "A theater has 24 rows with 18 seats each. How many seats?",
+       "a": "432 seats."
+      },
+      {
+       "q": "A Central Valley farm ships 35 cases of oranges with 64 oranges per case. How many oranges?",
+       "a": "2,240 oranges."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently; any strategy is allowed but work must show. Correct together.",
+     "questions": [
+      {
+       "q": "32 × 21 = ?",
+       "a": "672."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 32 × 21 = 672 2) 45 × 18 = 810 3) 67 × 53 = 3,551 4) 89 × 24 = 2,136 5) 70 × 40 = 2,800 6) 15 × 15 = 225 7) 28 boxes of 36 crayons = 1,008 crayons 8) Estimate 58 × 42: 60 × 40 = 2,400 (exact 2,436). Proficient: 7/8."
+  },
+  {
+   "week": 12,
+   "prep": "Grid paper. Prepare 6 problems for Day 1 and 4 multistep problems for Day 2; review cards for Day 4; Unit 3 test for Day 5 (key below).",
+   "misconceptions": [
+    "Using the wrong order in multistep problems (adding before multiplying when the story says otherwise). Write the equation with parentheses to show the order.",
+    "Picking a slow strategy for easy numbers (area model for 25 × 4). Discuss when mental math or the algorithm is most efficient."
+   ],
+   "days": [
+    {
+     "guide": "The child solves 6 problems, choosing a strategy for each, and writes 2-3 sentences justifying one choice. Accept any correct strategy with a clear reason.",
+     "questions": [
+      {
+       "q": "25 × 16 = ? Which strategy is quick?",
+       "a": "400 — e.g., 25 × 4 = 100, and 16 = 4 × 4, so 100 × 4 = 400."
+      },
+      {
+       "q": "34 × 12 = ?",
+       "a": "408."
+      }
+     ]
+    },
+    {
+     "guide": "Model writing a plan and an equation with a letter. The child solves 4 multistep problems.",
+     "questions": [
+      {
+       "q": "Leo bought 15 packs of 24 cards and gave away 75 cards. How many are left?",
+       "a": "15 × 24 = 360; 360 - 75 = 285 cards."
+      },
+      {
+       "q": "A store had 6 boxes of 125 pens and sold 290. How many remain?",
+       "a": "750 - 290 = 460 pens."
+      }
+     ]
+    },
+    {
+     "guide": "Present the field trip budget: tickets for 24 students at $14 and 3 buses at $215. The child computes each cost and the total, then explains the steps.",
+     "questions": [
+      {
+       "q": "What is the total cost?",
+       "a": "24 × $14 = $336; 3 × $215 = $645; total $981."
+      },
+      {
+       "q": "How much more do the buses cost than the tickets?",
+       "a": "$645 - $336 = $309."
+      }
+     ]
+    },
+    {
+     "guide": "Play the review game with cards on comparison, factors and multiplication. Have the child explain each answer.",
+     "questions": [
+      {
+       "q": "Is 57 prime or composite?",
+       "a": "Composite: 57 = 3 × 19."
+      },
+      {
+       "q": "36 is 4 times as many as what number?",
+       "a": "9."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test independently. Score and correct together.",
+     "questions": [
+      {
+       "q": "54 × 27 = ?",
+       "a": "1,458."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test key: 1) 28 = 4 × 7 as a comparison: 28 is 4 times as many as 7. 2) A pine is 9 times as tall as a 5-ft bush: 45 ft. 3) Factor pairs of 30: 1×30, 2×15, 3×10, 5×6. 4) 43 is prime. 5) Common multiples of 4 and 6 below 30: 12, 24. 6) 6 × 3,208 = 19,248. 7) 54 × 27 = 1,458. 8) 12 bags of 48 marbles plus 36 loose = 612 marbles. 9) 9 × 400 = 3,600. 10) 73 × 46 = 3,358. Proficient: 8/10."
+  },
+  {
+   "week": 13,
+   "prep": "30 counters, base-ten blocks. Write the 4 remainder stories for Day 3 and 6 estimation problems for Day 4.",
+   "misconceptions": [
+    "Ignoring the context when there is a remainder (answering '4 R5 vans'). Always reread the question: do we need another van (round up), drop the leftovers, or is the leftover the answer?",
+    "A remainder bigger than the divisor (23 ÷ 4 = 4 R7). If the remainder is as big as the divisor, another group can be made."
+   ],
+   "days": [
+    {
+     "guide": "Model 23 ÷ 4 two ways: share 23 counters into 4 piles (how many in each?) and make groups of 4 (how many groups?). Record 23 ÷ 4 = 5 R3 for both and discuss what the 3 means each time.",
+     "questions": [
+      {
+       "q": "23 ÷ 4 = ?",
+       "a": "5 remainder 3."
+      },
+      {
+       "q": "Share 17 counters among 5 plates. How many on each, and how many left?",
+       "a": "3 on each plate, 2 left over (17 ÷ 5 = 3 R2)."
+      }
+     ]
+    },
+    {
+     "guide": "Use the fact 24 ÷ 6 = 4 to reason that 24 tens ÷ 6 = 4 tens. The child solves 12 problems saying the 'basic fact plus place value' aloud.",
+     "questions": [
+      {
+       "q": "240 ÷ 6 and 2,400 ÷ 6.",
+       "a": "40 and 400."
+      },
+      {
+       "q": "3,500 ÷ 7 = ?",
+       "a": "500 (35 hundreds ÷ 7 = 5 hundreds)."
+      }
+     ]
+    },
+    {
+     "guide": "Solve four stories with the child deciding what to do with the remainder each time and writing a sentence answer.",
+     "questions": [
+      {
+       "q": "29 kids go on a trip; each van holds 6. How many vans?",
+       "a": "29 ÷ 6 = 4 R5, so 5 vans (round up so everyone rides)."
+      },
+      {
+       "q": "50 cookies go in boxes of 8. How many full boxes?",
+       "a": "6 full boxes (50 ÷ 8 = 6 R2; the 2 extra are dropped)."
+      }
+     ]
+    },
+    {
+     "guide": "Model choosing a nearby number that divides easily (418 ÷ 7: 420 is 7 × 60). The child estimates 6 quotients and explains the compatible number chosen.",
+     "questions": [
+      {
+       "q": "Estimate 418 ÷ 7.",
+       "a": "About 60, because 420 ÷ 7 = 60."
+      },
+      {
+       "q": "Estimate 356 ÷ 6.",
+       "a": "About 60 (360 ÷ 6)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. For remainder stories, require a sentence telling what was done with the remainder.",
+     "questions": [
+      {
+       "q": "59 ÷ 9 = ?",
+       "a": "6 R5."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 35 ÷ 8 = 4 R3 2) 3,600 ÷ 9 = 400 3) 480 ÷ 6 = 80 4) 27 kids, 4 per canoe: 7 canoes (round up) 5) 46 in of ribbon, 6 in per bow: 7 bows (drop the 4 in) 6) Estimate 356 ÷ 6 ≈ 360 ÷ 6 = 60 7) 2,800 ÷ 7 = 400 8) 59 ÷ 9 = 6 R5. Proficient: 7/8."
+  },
+  {
+   "week": 14,
+   "prep": "Base-ten blocks, grid paper. Prepare 4 area-model problems, 8 partial-quotient problems and 6 check problems (samples below).",
+   "misconceptions": [
+    "In partial quotients, forgetting to add the partial quotients at the end (writing only the last one). Keep a column on the right and add it.",
+    "Checking division by multiplying but forgetting to add the remainder. Check: quotient × divisor + remainder = dividend."
+   ],
+   "days": [
+    {
+     "guide": "Build 156 with 1 flat, 5 rods, 6 units and share into 3 groups; trade the flat for 10 rods when it can't be shared. The child records each trade.",
+     "questions": [
+      {
+       "q": "156 ÷ 3 = ?",
+       "a": "52."
+      },
+      {
+       "q": "Why did you trade the hundred flat?",
+       "a": "One hundred can't be split into 3 equal groups of hundreds, so trade it for 10 tens (15 tens total) and share those."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a rectangle labeled area 432 with one side 4 and find the other side in chunks (4 × 100 = 400, 4 × 8 = 32). The child solves 3 more.",
+     "questions": [
+      {
+       "q": "432 ÷ 4 using an area model.",
+       "a": "100 + 8 = 108."
+      },
+      {
+       "q": "655 ÷ 5 = ?",
+       "a": "131 (500 + 150 + 5 → 100 + 30 + 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Model subtracting friendly multiples (×100, ×10, ×5, ×2) and listing them to the side. The child solves 8 problems.",
+     "questions": [
+      {
+       "q": "584 ÷ 4 with partial quotients.",
+       "a": "100 + 40 + 6 = 146."
+      },
+      {
+       "q": "297 ÷ 5 = ?",
+       "a": "59 R2."
+      }
+     ]
+    },
+    {
+     "guide": "The child multiplies each quotient by the divisor and adds the remainder to check 6 problems; mark any that don't match and fix them.",
+     "questions": [
+      {
+       "q": "Check 925 ÷ 6 = 154 R1.",
+       "a": "154 × 6 = 924; 924 + 1 = 925. Correct."
+      },
+      {
+       "q": "Is 389 ÷ 4 = 96 R5 correct?",
+       "a": "No — the remainder 5 is bigger than 4. Correct answer 97 R1."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; the child chooses area model or partial quotients but must show work and check two answers.",
+     "questions": [
+      {
+       "q": "738 ÷ 6 = ?",
+       "a": "123."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 156 ÷ 3 = 52 2) 432 ÷ 4 = 108 3) 655 ÷ 5 = 131 4) 738 ÷ 6 = 123 5) 847 ÷ 7 = 121 6) 389 ÷ 4 = 97 R1 7) 503 ÷ 8 = 62 R7 8) 925 ÷ 6 = 154 R1 (check 154 × 6 + 1 = 925). Proficient: 7/8 with work shown."
+  },
+  {
+   "week": 15,
+   "prep": "Grid paper. Prepare a missing-digit puzzle sheet and 3 worked problems with errors for Day 4 (samples below).",
+   "misconceptions": [
+    "Leaving out a zero in the quotient (1,824 ÷ 6 written as 34). Estimate first: 1,800 ÷ 6 = 300, so the answer must be in the hundreds.",
+    "Stopping partial quotients too early. Keep going until what's left is less than the divisor."
+   ],
+   "days": [
+    {
+     "guide": "Model 3,624 ÷ 6 using big chunks first (6 × 600 = 3,600, then 6 × 4 = 24). The child solves 6 problems.",
+     "questions": [
+      {
+       "q": "3,624 ÷ 6 = ?",
+       "a": "604."
+      },
+      {
+       "q": "5,215 ÷ 5 = ?",
+       "a": "1,043."
+      }
+     ]
+    },
+    {
+     "guide": "Solve 1,824 ÷ 6 and estimate first (about 300). Discuss why there are 0 tens in the quotient (after taking 1,800 only 24 is left, which is less than 6 tens). The child solves 6 problems.",
+     "questions": [
+      {
+       "q": "1,824 ÷ 6 = ?",
+       "a": "304."
+      },
+      {
+       "q": "Why is there a zero in the quotient of 2,436 ÷ 4?",
+       "a": "After 4 × 600 = 2,400, only 36 is left; 36 is not enough for 4 groups of 10, so the tens digit is 0. Answer 609."
+      }
+     ]
+    },
+    {
+     "guide": "The child solves the same 3 problems with an area model and with partial quotients, then writes which was faster for each and why.",
+     "questions": [
+      {
+       "q": "7,248 ÷ 8 = ?",
+       "a": "906."
+      },
+      {
+       "q": "4,875 ÷ 3 = ?",
+       "a": "1,625."
+      }
+     ]
+    },
+    {
+     "guide": "Work the puzzle sheet together for the first item, then independently. For error analysis, the child finds and fixes each mistake.",
+     "questions": [
+      {
+       "q": "A student wrote 2,436 ÷ 4 = 69. What's wrong?",
+       "a": "They dropped the zero; 69 × 4 = 276, not 2,436. Correct answer 609."
+      },
+      {
+       "q": "Fill the blank: ___ ÷ 7 = 908 R1.",
+       "a": "6,357 (908 × 7 = 6,356, + 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz with 8 problems; require an estimate before each. Correct together.",
+     "questions": [
+      {
+       "q": "9,000 ÷ 9 = ?",
+       "a": "1,000."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 3,624 ÷ 6 = 604 2) 1,824 ÷ 6 = 304 3) 4,875 ÷ 3 = 1,625 4) 2,436 ÷ 4 = 609 5) 7,248 ÷ 8 = 906 6) 5,215 ÷ 5 = 1,043 7) 6,357 ÷ 7 = 908 R1 8) 9,000 ÷ 9 = 1,000. Proficient: 7/8."
+  },
+  {
+   "week": 16,
+   "prep": "Bar model templates. Prepare 4 multistep problems, the packing problems and the Yosemite camping task card: 7 people, 3 days; 1 food pack per person per meal, 3 meals a day; food packs come in boxes of 4 and cost $7 each; tents sleep 2; campsite costs $35 a night for 3 nights. Unit 4 test for Day 5.",
+   "misconceptions": [
+    "Using the wrong operation order in multistep problems. Write the plan in steps and an equation like (6 × 48) ÷ 8 = s.",
+    "Answering with a remainder when the question asks 'how many full bags' or 'how many boxes needed.' Reread the question before writing the answer."
+   ],
+   "days": [
+    {
+     "guide": "Model writing a plan ('First... then...') and an equation with a letter. The child solves 4 problems the same way.",
+     "questions": [
+      {
+       "q": "4 boxes of 36 pencils are shared equally among 9 students. How many each? Write an equation.",
+       "a": "(4 × 36) ÷ 9 = p; 144 ÷ 9 = 16 pencils each."
+      },
+      {
+       "q": "Sara saved $15 a week for 8 weeks and spent $47. How much is left?",
+       "a": "8 × 15 = 120; 120 - 47 = $73."
+      }
+     ]
+    },
+    {
+     "guide": "Solve the oranges problem together, discussing what the quotient and remainder each mean. The child does 3 more packing problems.",
+     "questions": [
+      {
+       "q": "1,250 oranges are packed 8 per bag. How many full bags and how many left?",
+       "a": "156 full bags and 2 oranges left (156 × 8 = 1,248)."
+      },
+      {
+       "q": "100 students ride buses that hold 30 each. How many buses?",
+       "a": "4 buses (100 ÷ 30 = 3 R10; round up)."
+      }
+     ]
+    },
+    {
+     "guide": "Hand over the camping task card and let the child plan the steps. Check each answer and require written explanations.",
+     "questions": [
+      {
+       "q": "How many food packs are needed and how many boxes of 4?",
+       "a": "7 people × 3 meals × 3 days = 63 packs; 63 ÷ 4 = 15 R3, so 16 boxes."
+      },
+      {
+       "q": "How many tents? What does the trip cost per person (63 packs at $7 plus campsite)?",
+       "a": "7 ÷ 2 = 3 R1, so 4 tents. 63 × $7 = $441; 3 × $35 = $105; total $546; $546 ÷ 7 = $78 per person."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of division strategies and multistep problems; the child self-checks with multiplication.",
+     "questions": [
+      {
+       "q": "845 ÷ 5 = ?",
+       "a": "169."
+      },
+      {
+       "q": "6 packs of 48 stickers shared among 8 friends. How many each?",
+       "a": "288 ÷ 8 = 36."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test independently. Score and correct together.",
+     "questions": [
+      {
+       "q": "912 ÷ 6 = ?",
+       "a": "152."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 4 test key: 1) 7,236 ÷ 4 = 1,809 2) 1,250 oranges in bags of 8: 156 bags, 2 left 3) 100 students, buses of 30: 4 buses 4) (6 × 48) ÷ 8 = 36 stickers 5) 845 ÷ 5 = 169 6) 912 ÷ 6 = 152 7) 4,200 ÷ 7 = 600 8) 75 ÷ 4 = 18 R3. Camping task rubric: 4 = all answers correct (63 packs, 16 boxes, 4 tents, $546 total, $78 per person) with clear steps and remainders interpreted; 3 = one computation error but correct reasoning; 2 = several errors or remainders not interpreted; 1 = incomplete."
+  },
+  {
+   "week": 17,
+   "prep": "Paper strips (5 per child) for folding, fraction strips, crayons. Draw three aligned number lines 0-1 split into fourths, eighths and twelfths for Day 3.",
+   "misconceptions": [
+    "Thinking 4/8 is bigger than 1/2 because the numbers are bigger. Fold the strips: same amount of paper is shaded.",
+    "Adding the same number to top and bottom (2/3 = 3/4). Equivalent fractions come from multiplying both by the same number (cutting each piece into equal smaller pieces)."
+   ],
+   "days": [
+    {
+     "guide": "Fold one strip in half, shade 1/2; fold again into fourths and eighths and see the shading still covers half. The child records 1/2 = 2/4 = 4/8 and finds 1/4 = 2/8.",
+     "questions": [
+      {
+       "q": "What fractions equal 1/2 on your strips?",
+       "a": "2/4 and 4/8."
+      },
+      {
+       "q": "What is 3/4 in eighths?",
+       "a": "6/8."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a rectangle in thirds, shade 2, then draw lines to split each third into 4 pieces. Count: 8 of 12. The child repeats with 3/4 = 9/12.",
+     "questions": [
+      {
+       "q": "Show 2/3 = 8/12 with an area model. Why does it work?",
+       "a": "Each third is split into 4 pieces, so there are 4 times as many pieces in the whole (12) and in the shaded part (8)."
+      },
+      {
+       "q": "Use an area model: 1/2 = ?/6.",
+       "a": "3/6."
+      }
+     ]
+    },
+    {
+     "guide": "The child marks 3/4, 6/8 and 9/12 on the three aligned lines and explains why they line up.",
+     "questions": [
+      {
+       "q": "Why do 3/4, 6/8 and 9/12 land on the same point?",
+       "a": "They are the same distance from 0 — each fourth is split into 2 or 3 equal parts, so the length doesn't change."
+      },
+      {
+       "q": "Name another fraction at the same point as 1/3 on a twelfths line.",
+       "a": "4/12."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the rule: multiply numerator and denominator by the same number (n/n = 1). The child generates 3 equivalents for 8 fractions and explains one with a drawing.",
+     "questions": [
+      {
+       "q": "Write 3 fractions equivalent to 2/5.",
+       "a": "4/10, 6/15, 8/20."
+      },
+      {
+       "q": "Why does multiplying by 3/3 not change the value?",
+       "a": "3/3 equals 1, and multiplying by 1 doesn't change a number; it just cuts each piece into 3 smaller pieces."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently; one item requires a model. Correct together.",
+     "questions": [
+      {
+       "q": "Is 3/4 = 6/8? Show how.",
+       "a": "Yes: 3 × 2 = 6 and 4 × 2 = 8; a drawing of fourths split into halves shows 6 of 8."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 1/3 = 2/6 = 3/9 = 4/12 2) 3/5 = 6/10 3) 2/4 = 4/8 4) 5/6 = 10/12 5) 3/4 = 6/8 (yes) 6) 1/2 = 50/100 7) 2/3 = 4/6 = 6/9. Model explanation rubric: 4 = accurate area model or number line, explains that each part is split into the same number of smaller parts so the amount stays the same; 3 = correct model, explanation brief; 2 = correct answer, model inaccurate; 1 = incorrect."
+  },
+  {
+   "week": 18,
+   "prep": "Fraction strips. Make 20 memory cards (10 pairs: e.g., 1/2 & 4/8, 2/3 & 8/12, 3/4 & 9/12, 1/5 & 2/10, 3/10 & 30/100, 2/6 & 1/3, 4/10 & 2/5, 6/8 & 3/4, 10/12 & 5/6, 50/100 & 1/2 drawn as a model).",
+   "misconceptions": [
+    "Dividing the numerator and denominator by different numbers. Find a common factor and divide both by it.",
+    "Choosing a common denominator that isn't a multiple of both (rewriting 1/3 and 1/4 as tenths). List multiples of both denominators and find one in both lists."
+   ],
+   "days": [
+    {
+     "guide": "Model 6/8: both 6 and 8 have factor 2, so 6/8 = 3/4; check by laying fraction strips side by side. The child simplifies the rest and checks with strips.",
+     "questions": [
+      {
+       "q": "Rename 6/8 and 9/12 in simplest form.",
+       "a": "6/8 = 3/4 (÷2); 9/12 = 3/4 (÷3)."
+      },
+      {
+       "q": "Rename 10/100 in simpler form.",
+       "a": "1/10 (÷10)."
+      }
+     ]
+    },
+    {
+     "guide": "List multiples of 3 and 4 to find 12; rewrite 1/3 = 4/12 and 1/4 = 3/12. The child renames several pairs.",
+     "questions": [
+      {
+       "q": "Rename 1/3 and 1/4 with denominator 12.",
+       "a": "4/12 and 3/12."
+      },
+      {
+       "q": "Rename 3/4 and 5/8 with a common denominator.",
+       "a": "6/8 and 5/8."
+      }
+     ]
+    },
+    {
+     "guide": "Lay cards face down and play memory; a match counts only if the child explains why the two are equal.",
+     "questions": [
+      {
+       "q": "Is 4/10 equal to 2/5? How do you know?",
+       "a": "Yes — divide 4 and 10 by 2 to get 2/5."
+      }
+     ]
+    },
+    {
+     "guide": "Pose the flour question and have the child draw measuring cups. Then solve 2-3 more recipe equivalence problems.",
+     "questions": [
+      {
+       "q": "Is 2/4 cup of flour the same as 1/2 cup?",
+       "a": "Yes — a cup split into 4 parts with 2 filled is the same amount as half the cup."
+      },
+      {
+       "q": "A recipe needs 3/4 cup of milk but you only have a 1/8 cup measure. How many scoops?",
+       "a": "6 scoops (3/4 = 6/8)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently; allow strips for checking. Correct together.",
+     "questions": [
+      {
+       "q": "Simplify 8/12.",
+       "a": "2/3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 4/8 = 1/2 2) 6/9 = 2/3 3) 8/12 = 2/3 4) 20/100 = 1/5 5) 1/2 and 1/3 as sixths: 3/6 and 2/6 6) 3/4 and 5/8 as eighths: 6/8 and 5/8 7) 2/5 and 3/10 as tenths: 4/10 and 3/10 8) 6/10 = 3/5. Proficient: 7/8."
+  },
+  {
+   "week": 19,
+   "prep": "Fraction strips, number lines. Write 12 fractions on cards for sorting (e.g., 1/3, 3/8, 2/5, 4/10, 1/2, 3/6, 6/12, 5/8, 2/3, 3/4, 7/10, 5/6).",
+   "misconceptions": [
+    "Thinking larger denominators mean larger fractions (1/8 > 1/4). Show strips: more pieces means smaller pieces.",
+    "Comparing numerators only when denominators differ (3/5 < 4/10?). Rename to a common denominator or use a benchmark first."
+   ],
+   "days": [
+    {
+     "guide": "Model: a fraction is half when the numerator is half the denominator. The child sorts 12 cards into <1/2, =1/2, >1/2 and explains each.",
+     "questions": [
+      {
+       "q": "Is 3/8 less than, equal to or greater than 1/2?",
+       "a": "Less — half of 8 is 4, and 3 < 4."
+      },
+      {
+       "q": "Compare 2/5 and 5/8 using 1/2.",
+       "a": "2/5 < 1/2 and 5/8 > 1/2, so 2/5 < 5/8."
+      }
+     ]
+    },
+    {
+     "guide": "Compare 3/5 and 3/8 with strips: same number of pieces, but fifths are bigger. The child solves 8 more and explains with piece size.",
+     "questions": [
+      {
+       "q": "Compare 3/5 and 3/8.",
+       "a": "3/5 > 3/8 — both have 3 pieces, but fifths are larger than eighths."
+      },
+      {
+       "q": "Compare 2/3 and 2/5.",
+       "a": "2/3 > 2/5."
+      }
+     ]
+    },
+    {
+     "guide": "Model renaming 5/6 and 7/8 to 24ths (20/24 and 21/24). The child solves 10 problems.",
+     "questions": [
+      {
+       "q": "Compare 5/6 and 7/8.",
+       "a": "5/6 = 20/24, 7/8 = 21/24, so 5/6 < 7/8."
+      },
+      {
+       "q": "Compare 3/4 and 7/12.",
+       "a": "3/4 = 9/12 > 7/12."
+      }
+     ]
+    },
+    {
+     "guide": "The child places sets of four fractions on a 0-1 number line and writes a justification.",
+     "questions": [
+      {
+       "q": "Order 1/2, 1/3, 3/4, 5/12 from least to greatest.",
+       "a": "1/3 (4/12), 5/12, 1/2 (6/12), 3/4 (9/12)."
+      },
+      {
+       "q": "Which is closest to 1: 7/8, 4/5, 9/10?",
+       "a": "9/10 — it is only 1/10 away; 4/5 is 1/5 away and 7/8 is 1/8 away."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; each comparison needs a reason (benchmark, piece size or common denominator).",
+     "questions": [
+      {
+       "q": "Compare 7/10 and 68/100.",
+       "a": "7/10 = 70/100 > 68/100."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 2/3 > 2/5 2) 3/10 < 1/2 3) 5/6 < 7/8 4) 4/8 = 2/4 5) 3/4 > 7/12 6) 1/5 < 1/4 7) Order 1/4, 3/8, 2/3, 5/6 (already least to greatest) 8) 7/10 > 68/100. Explanation rubric: proficient answers name a valid method (benchmark 1/2, same numerator/piece size, or common denominator) for each."
+  },
+  {
+   "week": 20,
+   "prep": "Paper circles of two sizes (one about 4 in across, one about 8 in). Write 4 student claims for Day 2, e.g., '1/8 > 1/4 because 8 > 4'; '2/3 = 3/4 because each is one piece away from a whole'; '4/6 = 2/3'; '1/2 of my pizza is more than 1/2 of yours'. Unit 5 test for Day 5.",
+   "misconceptions": [
+    "Comparing fractions of different-sized wholes. Fraction comparisons only work when the wholes are the same size.",
+    "'Missing one piece' reasoning (2/3 = 3/4 because both are one piece short). The missing pieces are different sizes: 1/3 > 1/4, so 2/3 < 3/4."
+   ],
+   "days": [
+    {
+     "guide": "Cut 1/2 of the small circle and 1/4 of the large circle and compare. Discuss: which is more? The child writes why the whole matters.",
+     "questions": [
+      {
+       "q": "Can 1/4 of a large pizza be more than 1/2 of a small pizza?",
+       "a": "Yes — fractions of different wholes can't be compared by the fraction alone; a quarter of a big pizza can be more food."
+      }
+     ]
+    },
+    {
+     "guide": "Read each claim aloud; the child decides agree or disagree and writes an argument with a model.",
+     "questions": [
+      {
+       "q": "Claim: 1/8 > 1/4 because 8 > 4. Agree or disagree?",
+       "a": "Disagree — eighths are smaller pieces; 1/8 < 1/4."
+      },
+      {
+       "q": "Claim: 2/3 = 3/4 because each is one piece away from a whole.",
+       "a": "Disagree — the missing 1/3 is bigger than the missing 1/4, so 2/3 < 3/4."
+      }
+     ]
+    },
+    {
+     "guide": "The child solves 6 comparison stories, writing the comparison with a symbol and a sentence.",
+     "questions": [
+      {
+       "q": "Lily ran 3/4 mile and Ben ran 5/8 mile. Who ran farther?",
+       "a": "Lily: 3/4 = 6/8 > 5/8."
+      },
+      {
+       "q": "Jo ate 2/6 of a pan of brownies and Max ate 1/3 of the same pan. Who ate more?",
+       "a": "They ate the same amount: 2/6 = 1/3."
+      }
+     ]
+    },
+    {
+     "guide": "Review game with equivalence and comparison cards. The child explains each answer.",
+     "questions": [
+      {
+       "q": "Write two fractions equivalent to 3/5.",
+       "a": "6/10, 9/15 (also 60/100)."
+      },
+      {
+       "q": "Compare 4/6 and 5/8.",
+       "a": "4/6 = 16/24, 5/8 = 15/24, so 4/6 > 5/8."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 5 test independently. Correct together.",
+     "questions": [
+      {
+       "q": "Compare 2/3 and 7/12.",
+       "a": "2/3 = 8/12 > 7/12."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 5 test key: 1) 2/3 = 8/12 2) 3/4 = 75/100 3) 10/12 = 5/6 (simplest form) 4) 3/8 < 1/2 5) 4/5 > 4/7 6) 5/6 > 3/4 (10/12 vs 9/12) 7) 2/10 < 25/100 8) Order 1/6, 2/3, 1/2 → 1/6, 1/2, 2/3 9) Explain: 1/3 of a big pizza vs 1/3 of a small pizza — not equal because the wholes are different sizes. 10) Ben: 3/8 mi, Ana 1/2 mi — Ana ran farther. Proficient: 8/10 with explanations."
+  },
+  {
+   "week": 21,
+   "prep": "Fraction strips, number lines drawn in fourths and fifths.",
+   "misconceptions": [
+    "Thinking a fraction can only be broken into unit fractions. 5/8 = 2/8 + 3/8 too — any parts that add to 5 eighths work.",
+    "Converting 9/4 to a mixed number as 9 1/4 or 2 4/1. Count groups of 4/4: 9/4 = 4/4 + 4/4 + 1/4 = 2 1/4."
+   ],
+   "days": [
+    {
+     "guide": "Lay out five 1/8 strips to show 5/8 and write it as a sum of unit fractions, then regroup the strips to show other sums.",
+     "questions": [
+      {
+       "q": "Write 5/8 three different ways as a sum.",
+       "a": "1/8 + 1/8 + 1/8 + 1/8 + 1/8; 2/8 + 3/8; 4/8 + 1/8."
+      },
+      {
+       "q": "Write 3/5 as a sum of unit fractions.",
+       "a": "1/5 + 1/5 + 1/5."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes 3 decompositions for each of 6 fractions and builds one with strips to justify it.",
+     "questions": [
+      {
+       "q": "Give three decompositions of 7/10.",
+       "a": "e.g., 3/10 + 4/10; 5/10 + 2/10; 1/10 + 1/10 + 5/10."
+      },
+      {
+       "q": "Decompose 1 3/8 using 1 whole.",
+       "a": "8/8 + 3/8 (or 1 + 1/8 + 2/8)."
+      }
+     ]
+    },
+    {
+     "guide": "On a number line in fourths, count past 1 and 2 and label both 9/4 and 2 1/4 at the same point. The child converts 10 problems both directions.",
+     "questions": [
+      {
+       "q": "Write 13/5 as a mixed number.",
+       "a": "2 3/5 (10/5 = 2, plus 3/5)."
+      },
+      {
+       "q": "Write 3 2/3 as a fraction.",
+       "a": "11/3 (3 × 3 = 9 thirds, + 2)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw jumps of 1/4 from 0 to 2 1/4 and count them. The child writes the matching equation.",
+     "questions": [
+      {
+       "q": "How many jumps of 1/4 reach 2 1/4? Write the equation.",
+       "a": "9 jumps; 1/4 + 1/4 + ... (9 times) = 9/4 = 2 1/4."
+      },
+      {
+       "q": "How many jumps of 1/3 reach 2?",
+       "a": "6 jumps (2 = 6/3)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. Correct together.",
+     "questions": [
+      {
+       "q": "Write 7/4 as a mixed number.",
+       "a": "1 3/4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 4/6 as unit fractions: 1/6 + 1/6 + 1/6 + 1/6 2) Two other decompositions of 4/6 (e.g., 1/6 + 3/6; 2/6 + 2/6) 3) 11/4 = 2 3/4 4) 2 1/3 = 7/3 5) 17/5 = 3 2/5 6) 1 5/8 = 13/8 7) Jumps of 1/6 to reach 1 1/6: 7 8) 3 = 12/4. Proficient: 7/8."
+  },
+  {
+   "week": 22,
+   "prep": "Fraction strips, number lines.",
+   "misconceptions": [
+    "Adding denominators (3/8 + 4/8 = 7/16). The pieces stay eighths; count how many eighths you have.",
+    "Subtracting from 1 without renaming (1 - 3/8 = 2/8?). Rename 1 as 8/8 first: 8/8 - 3/8 = 5/8."
+   ],
+   "days": [
+    {
+     "guide": "Model 3/8 + 4/8 with strips and say 'three eighths plus four eighths is seven eighths.' The child solves 10 problems writing equations.",
+     "questions": [
+      {
+       "q": "3/8 + 4/8 = ?",
+       "a": "7/8."
+      },
+      {
+       "q": "Why isn't 2/5 + 1/5 = 3/10?",
+       "a": "The pieces are still fifths; you have 3 fifths, 3/5. The size of the pieces doesn't change when you add."
+      }
+     ]
+    },
+    {
+     "guide": "On a number line show 1 - 3/8 by starting at 8/8 and jumping back 3 eighths. The child solves several subtraction problems.",
+     "questions": [
+      {
+       "q": "1 - 3/8 = ?",
+       "a": "5/8."
+      },
+      {
+       "q": "7/12 - 5/12 = ?",
+       "a": "2/12 (= 1/6)."
+      }
+     ]
+    },
+    {
+     "guide": "The child solves 6 word problems, drawing a strip or number line for each and writing a sentence.",
+     "questions": [
+      {
+       "q": "Maya painted 3/6 of a fence and Leo painted 2/6. How much is painted? How much is left?",
+       "a": "5/6 painted; 1/6 left."
+      },
+      {
+       "q": "A pizza had 8 slices; Sam ate 3/8 and Kim ate 2/8. How much was eaten?",
+       "a": "5/8 of the pizza."
+      }
+     ]
+    },
+    {
+     "guide": "Add 5/6 + 4/6 with strips and show that 6/6 make a whole, leaving 3/6 more: 1 3/6. The child renames several sums.",
+     "questions": [
+      {
+       "q": "5/6 + 4/6 = ?",
+       "a": "9/6 = 1 3/6 (or 1 1/2)."
+      },
+      {
+       "q": "3/4 + 3/4 = ?",
+       "a": "6/4 = 1 2/4 (or 1 1/2)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. Correct together.",
+     "questions": [
+      {
+       "q": "1 - 2/5 = ?",
+       "a": "3/5."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 2/8 + 5/8 = 7/8 2) 4/10 + 3/10 = 7/10 3) 9/12 - 4/12 = 5/12 4) 1 - 3/8 = 5/8 5) 4/5 + 3/5 = 7/5 = 1 2/5 6) 5/6 - 1/6 = 4/6 7) Word problem: a rope 7/8 yard long, 3/8 yard cut off: 4/8 yard left 8) 2/3 + 2/3 = 4/3 = 1 1/3. Proficient: 7/8."
+  },
+  {
+   "week": 23,
+   "prep": "Fraction strips (several wholes). Write 8 addition and 8 subtraction mixed-number problems plus trail/rainfall problems.",
+   "misconceptions": [
+    "Leaving an improper part in the answer (3 6/4). Regroup: 6/4 = 1 2/4, so 3 6/4 = 4 2/4.",
+    "Subtracting the smaller fraction from the larger when the top fraction is too small (3 1/4 - 1 3/4 = 2 2/4). Rename 1 whole: 3 1/4 = 2 5/4."
+   ],
+   "days": [
+    {
+     "guide": "Model 2 3/8 + 1 2/8: add wholes (3), add parts (5/8). Then show the same by renaming as 19/8 + 10/8 = 29/8 = 3 5/8. The child solves 8 problems.",
+     "questions": [
+      {
+       "q": "2 3/8 + 1 2/8 = ?",
+       "a": "3 5/8."
+      },
+      {
+       "q": "4 1/5 + 2 3/5 = ?",
+       "a": "6 4/5."
+      }
+     ]
+    },
+    {
+     "guide": "Model 1 3/4 + 2 3/4 = 3 6/4 and regroup to 4 2/4. The child solves problems and regroups each answer.",
+     "questions": [
+      {
+       "q": "1 3/4 + 2 3/4 = ?",
+       "a": "3 6/4 = 4 2/4 (= 4 1/2)."
+      },
+      {
+       "q": "2 5/6 + 1 4/6 = ?",
+       "a": "3 9/6 = 4 3/6 (= 4 1/2)."
+      }
+     ]
+    },
+    {
+     "guide": "Model 3 1/4 - 1 3/4 by trading one whole for 4/4 (2 5/4 - 1 3/4 = 1 2/4). The child solves 8 problems.",
+     "questions": [
+      {
+       "q": "3 1/4 - 1 3/4 = ?",
+       "a": "1 2/4 (= 1 1/2)."
+      },
+      {
+       "q": "5 - 2 1/3 = ?",
+       "a": "2 2/3 (rename 5 as 4 3/3)."
+      }
+     ]
+    },
+    {
+     "guide": "The child solves trail and rainfall problems, writing units in each answer.",
+     "questions": [
+      {
+       "q": "A trail has two parts: 3 5/8 miles and 2 7/8 miles. How long is it?",
+       "a": "6 4/8 miles (= 6 1/2 miles)."
+      },
+      {
+       "q": "It rained 3 7/10 inches in January and 2 4/10 inches in February. How much more in January?",
+       "a": "1 3/10 inches."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. Correct together.",
+     "questions": [
+      {
+       "q": "4 2/6 - 1 5/6 = ?",
+       "a": "2 3/6 (= 2 1/2)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 2 3/8 + 1 2/8 = 3 5/8 2) 1 3/4 + 2 3/4 = 4 2/4 3) 3 1/4 - 1 3/4 = 1 2/4 4) 5 - 2 1/3 = 2 2/3 5) 4 2/6 - 1 5/6 = 2 3/6 6) 6 3/10 + 2 9/10 = 9 2/10 7) Trail 3 5/8 + 2 7/8 = 6 4/8 miles 8) 7 1/5 - 3 4/5 = 3 2/5. Equivalent simplified forms (e.g., 4 1/2 for 4 2/4) accepted. Proficient: 7/8."
+  },
+  {
+   "week": 24,
+   "prep": "Fraction strips, measuring cups (including 1/4, 1/3, 1/2, 3/4 cup if available), flour or rice for scooping, a muffin recipe that uses 3/4 cup amounts.",
+   "misconceptions": [
+    "Multiplying both numerator and denominator by the whole number (3 × 2/5 = 6/15). Think 3 groups of 2 fifths = 6 fifths = 6/5.",
+    "Not knowing where the answer lies between whole numbers. Rename the improper fraction as a mixed number: 10/3 = 3 1/3 is between 3 and 4."
+   ],
+   "days": [
+    {
+     "guide": "Lay out five 1/4 strips and write 5/4 = 5 × 1/4. The child writes 6 similar equations from strips.",
+     "questions": [
+      {
+       "q": "Write 5/4 as a multiple of a unit fraction.",
+       "a": "5/4 = 5 × 1/4."
+      },
+      {
+       "q": "7/3 = ? × 1/3",
+       "a": "7."
+      }
+     ]
+    },
+    {
+     "guide": "On a number line in fifths, make 3 jumps of 2/5 and see they land at 6/5. The child solves 10 problems.",
+     "questions": [
+      {
+       "q": "3 × 2/5 = ?",
+       "a": "6/5 = 1 1/5 (3 × 2/5 = 6 × 1/5)."
+      },
+      {
+       "q": "4 × 3/8 = ?",
+       "a": "12/8 = 1 4/8 (= 1 1/2)."
+      }
+     ]
+    },
+    {
+     "guide": "Measure 3/4 cup three times into a bowl and see how many cups result. Record 3 × 3/4 = 9/4 = 2 1/4 cups, then scale 2 more ingredients.",
+     "questions": [
+      {
+       "q": "Triple 3/4 cup of milk.",
+       "a": "3 × 3/4 = 9/4 = 2 1/4 cups."
+      },
+      {
+       "q": "Triple 2/3 cup of sugar.",
+       "a": "6/3 = 2 cups."
+      }
+     ]
+    },
+    {
+     "guide": "The child solves 6 word problems and names the two whole numbers each answer lies between.",
+     "questions": [
+      {
+       "q": "5 students each drink 2/3 cup of juice. How much juice? Between which whole numbers?",
+       "a": "10/3 = 3 1/3 cups; between 3 and 4."
+      },
+      {
+       "q": "A recipe uses 3/8 cup of oil per batch. How much for 6 batches?",
+       "a": "18/8 = 2 2/8 (= 2 1/4) cups; between 2 and 3."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. Correct together.",
+     "questions": [
+      {
+       "q": "4 × 3/4 = ?",
+       "a": "12/4 = 3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 4 × 1/5 = 4/5 2) 3 × 2/5 = 6/5 = 1 1/5 3) 6 × 3/8 = 18/8 = 2 2/8 4) 2 × 5/6 = 10/6 = 1 4/6 5) 7/3 = 7 × 1/3 6) 5 × 2/3 = 10/3 = 3 1/3 cups, between 3 and 4 7) 4 × 3/4 = 3 8) 8 × 1/2 = 4. Simplified equivalents accepted. Proficient: 7/8."
+  },
+  {
+   "week": 25,
+   "prep": "A ruler marked in eighths of an inch, 15 pencils or leaves, grid paper for the line plot. Unit 6 test for Day 5.",
+   "misconceptions": [
+    "Starting measurement at the end of the ruler instead of the 0 mark. Line the object up with 0.",
+    "Uneven or unlabeled scales on the line plot. Mark every 1/8 between the smallest and largest values at equal spaces, even if no data lands there."
+   ],
+   "days": [
+    {
+     "guide": "Model measuring one pencil: line up at 0, find the last whole inch, then count eighths past it. The child measures and records all 15 to the nearest 1/8 inch.",
+     "questions": [
+      {
+       "q": "A pencil ends 3 marks past 5 on a ruler with eighths. How long is it?",
+       "a": "5 3/8 inches."
+      },
+      {
+       "q": "How many eighths are in 1/2 inch?",
+       "a": "4 eighths (4/8)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a number line from the shortest to the longest measurement in eighths, label every tick, and place an X for each item. Check that equal spaces represent equal amounts.",
+     "questions": [
+      {
+       "q": "If the data run from 4 2/8 to 6 1/8 inches, what are the first and last labels on the plot?",
+       "a": "4 2/8 (or 4 1/4) and 6 1/8, with every eighth between them labeled."
+      }
+     ]
+    },
+    {
+     "guide": "Ask questions from the plot; the child shows each computation with fractions.",
+     "questions": [
+      {
+       "q": "The longest pencil is 6 7/8 in and the shortest 5 3/8 in. What is the difference?",
+       "a": "1 4/8 inches (= 1 1/2 in)."
+      },
+      {
+       "q": "Three leaves each measure 4 1/2 inches. What is their total length?",
+       "a": "13 1/2 inches (3 × 4 1/2 = 3 × 9/2 = 27/2)."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of fraction addition, subtraction, multiplication and line plots; self-check with a key.",
+     "questions": [
+      {
+       "q": "2 3/8 + 1 7/8 = ?",
+       "a": "3 10/8 = 4 2/8 (= 4 1/4)."
+      },
+      {
+       "q": "6 × 2/3 = ?",
+       "a": "12/3 = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test independently and collect the line plot as the product.",
+     "questions": [
+      {
+       "q": "5 - 1 3/4 = ?",
+       "a": "3 1/4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 6 test key: 1) 3/8 + 4/8 = 7/8 2) 4 2/5 + 1 4/5 = 6 1/5 3) 1 - 5/12 = 7/12 4) 5 1/3 - 2 2/3 = 2 2/3 5) 4 × 2/5 = 8/5 = 1 3/5 6) 3 × 3/4 cup = 2 1/4 cups 7) 3 6/8 - 2 3/8 = 1 3/8 (line plot range) 8) 5 - 1 3/4 = 3 1/4. Line plot rubric: 4 = title, fraction scale in equal eighths labeled, all 15 data points correct, two questions answered correctly; 3 = one labeling or plotting error; 2 = scale uneven or several data errors; 1 = incomplete."
+  },
+  {
+   "week": 26,
+   "prep": "10 dimes and 30 pennies (real or play), printed hundred grids (10+), a 0-1 number line strip marked in tenths.",
+   "misconceptions": [
+    "Writing 3/100 as 0.3. Tenths are the first place after the decimal point and hundredths the second: 3/100 = 0.03.",
+    "Thinking 0.30 is more than 0.3 because it has more digits. 3 dimes = 30 pennies: 0.3 = 0.30."
+   ],
+   "days": [
+    {
+     "guide": "Show 3 dimes as 3/10 of a dollar and trade them for 30 pennies: 30/100. Write both as $0.30 and as decimals 0.3 and 0.30.",
+     "questions": [
+      {
+       "q": "Write 3 dimes as a fraction of a dollar and as a decimal.",
+       "a": "3/10 = 0.3 (also 30/100 = 0.30)."
+      },
+      {
+       "q": "7 pennies is what fraction of a dollar? As a decimal?",
+       "a": "7/100 = 0.07."
+      }
+     ]
+    },
+    {
+     "guide": "Shade 45 squares on a hundred grid and write 45/100 = 0.45. The child shades 10 grids for given decimals and writes both forms.",
+     "questions": [
+      {
+       "q": "Shade 0.6 on a hundred grid. How many squares?",
+       "a": "60 squares (6 columns) — 6/10 = 60/100."
+      },
+      {
+       "q": "Write 0.08 as a fraction.",
+       "a": "8/100."
+      }
+     ]
+    },
+    {
+     "guide": "Model 3/10 = 30/100, so 3/10 + 4/100 = 34/100. The child solves 10 problems.",
+     "questions": [
+      {
+       "q": "3/10 + 4/100 = ?",
+       "a": "34/100 (= 0.34)."
+      },
+      {
+       "q": "6/10 + 25/100 = ?",
+       "a": "85/100 (= 0.85)."
+      }
+     ]
+    },
+    {
+     "guide": "The child places 0.3, 0.45, 0.7 and 0.09 on a 0-1 line marked in tenths, estimating hundredths between tenths.",
+     "questions": [
+      {
+       "q": "Where does 0.45 go?",
+       "a": "Halfway between 0.4 and 0.5."
+      },
+      {
+       "q": "Put 0.3, 0.45, 0.7, 0.09 in order.",
+       "a": "0.09, 0.3, 0.45, 0.7."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. Correct together.",
+     "questions": [
+      {
+       "q": "Write 52/100 as a decimal and 0.9 as a fraction.",
+       "a": "0.52; 9/10."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 7/10 = 0.7 2) 35/100 = 0.35 3) 4/100 = 0.04 4) 90/100 = 0.90 (= 0.9) 5) 0.6 = 6/10 6) 0.25 = 25/100 7) 0.03 = 3/100 8) 0.8 = 8/10 (= 80/100) 9) 2/10 + 7/100 = 27/100 = 0.27 10) 1 5/10 = 1.5. Proficient: 8/10."
+  },
+  {
+   "week": 27,
+   "prep": "Hundred grids, a meter stick marked in centimeters, a list of race times for Day 4 (e.g., Ana 12.45 s, Ben 12.5 s, Cal 12.09 s, Dee 12.4 s).",
+   "misconceptions": [
+    "Thinking 0.38 > 0.4 because 38 > 4. Write 0.4 as 0.40 or shade both on grids.",
+    "In race times, thinking the larger number wins. In races, the smallest time is fastest."
+   ],
+   "days": [
+    {
+     "guide": "Shade 0.4 on one grid and 0.38 on another and compare. Teach writing 0.4 as 0.40 to compare hundredths.",
+     "questions": [
+      {
+       "q": "Which is greater, 0.4 or 0.38? Why?",
+       "a": "0.4 — it is 40 hundredths, and 40 > 38."
+      },
+      {
+       "q": "Compare 0.7 and 0.71.",
+       "a": "0.7 < 0.71 (70 hundredths < 71)."
+      }
+     ]
+    },
+    {
+     "guide": "Measure a table: 1 meter and 23 centimeters = 1.23 m. The child measures 6 objects, writes meters with hundredths, and orders them.",
+     "questions": [
+      {
+       "q": "An object is 85 cm long. Write it in meters.",
+       "a": "0.85 m."
+      },
+      {
+       "q": "Order 1.23 m, 0.9 m, 1.3 m.",
+       "a": "0.9 m, 1.23 m, 1.3 m."
+      }
+     ]
+    },
+    {
+     "guide": "The child compares 12 pairs and orders 3 sets, lining up decimal points.",
+     "questions": [
+      {
+       "q": "Compare 2.06 and 2.6.",
+       "a": "2.06 < 2.6 (6 hundredths < 60 hundredths)."
+      },
+      {
+       "q": "Order 0.5, 0.05, 0.55.",
+       "a": "0.05, 0.5, 0.55."
+      }
+     ]
+    },
+    {
+     "guide": "Rank the runners by time and discuss why the smallest time wins.",
+     "questions": [
+      {
+       "q": "Who ran faster: 12.45 seconds or 12.5 seconds?",
+       "a": "12.45 seconds — it is less time than 12.50."
+      },
+      {
+       "q": "Rank 12.45, 12.5, 12.09, 12.4 from fastest to slowest.",
+       "a": "12.09, 12.4, 12.45, 12.5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; one comparison must be explained with a shaded grid.",
+     "questions": [
+      {
+       "q": "Compare 0.6 and 0.59 with a grid model.",
+       "a": "0.6 > 0.59: 60 squares shaded vs 59 squares."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 0.4 > 0.38 2) 0.7 < 0.71 3) 0.25 < 0.3 4) 0.09 < 0.1 5) 0.5 = 0.50 6) 1.2 > 1.02 7) 0.83 > 0.8 8) 0.6 > 0.59 9) 3.45 < 3.5 10) 0.99 < 1.0. Grid explanation: proficient shows both grids correctly shaded and says which has more hundredths. Proficient: 8/10."
+  },
+  {
+   "week": 28,
+   "prep": "Play money (bills, dimes, pennies), grocery ads or printed prices. Unit 7 test for Day 5.",
+   "misconceptions": [
+    "Writing $1.05 as $1.5. Cents are hundredths: 5 cents = 0.05.",
+    "Lining up the last digits instead of the decimal points when adding money. Line up decimal points (or think in cents)."
+   ],
+   "days": [
+    {
+     "guide": "Show $2.45 with bills and coins and write it as 2 45/100 dollars. The child writes 10 amounts as decimals and fractions.",
+     "questions": [
+      {
+       "q": "Write 3 dollars and 45 cents as a decimal and a mixed number.",
+       "a": "$3.45 = 3 45/100 dollars."
+      },
+      {
+       "q": "Write 6 dimes and 2 pennies as a decimal of a dollar.",
+       "a": "$0.62 = 62/100 of a dollar."
+      }
+     ]
+    },
+    {
+     "guide": "Give two prices from the ads (e.g., cereal $3.89 vs $3.98) and have the child decide which costs less by comparing places.",
+     "questions": [
+      {
+       "q": "Which costs less: $3.89 or $3.98?",
+       "a": "$3.89 — 8 dimes is less than 9 dimes."
+      },
+      {
+       "q": "Which is greater: $5.09 or $5.10?",
+       "a": "$5.10."
+      }
+     ]
+    },
+    {
+     "guide": "Model thinking in cents: $4.75 + $2.80 = 475 + 280 = 755 cents = $7.55. The child solves 5 problems.",
+     "questions": [
+      {
+       "q": "You buy items for $4.75 and $2.80 and pay with $10. How much change?",
+       "a": "$4.75 + $2.80 = $7.55; $10.00 - $7.55 = $2.45."
+      },
+      {
+       "q": "Milk costs $3.29. How much for 2 cartons?",
+       "a": "$6.58."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of tenths, hundredths and comparison; the child self-checks.",
+     "questions": [
+      {
+       "q": "Write 0.4 as hundredths.",
+       "a": "0.40 = 40/100."
+      },
+      {
+       "q": "3/10 + 6/100 = ?",
+       "a": "36/100 = 0.36."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test independently. Correct together.",
+     "questions": [
+      {
+       "q": "Order $1.50, $1.05, $1.55.",
+       "a": "$1.05, $1.50, $1.55."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test key: 1) 45/100 = 0.45 2) 0.7 = 7/10 = 70/100 3) 2/10 + 5/100 = 25/100 = 0.25 4) 0.6 > 0.06 5) 0.39 < 0.4 6) Order 0.8, 0.08, 0.88: 0.08, 0.8, 0.88 7) $3.45 = 3 45/100 dollars 8) $4.75 + $2.80 = $7.55 9) $10.00 - $7.55 = $2.45 10) Place 0.25 on a number line: one quarter of the way from 0 to 1 (between 0.2 and 0.3). Proficient: 8/10."
+  },
+  {
+   "week": 29,
+   "prep": "Meter stick and tape measure, kitchen scale (grams and ounces), measuring cups, a 1-liter bottle and a 250 mL cup, a clock. Key facts: 1 m = 100 cm; 1 km = 1,000 m; 1 kg = 1,000 g; 1 lb = 16 oz; 1 L = 1,000 mL; 1 hr = 60 min; 1 min = 60 s; 1 ft = 12 in; 1 yd = 3 ft.",
+   "misconceptions": [
+    "Converting in the wrong direction (3 m = 3/100 cm). A bigger unit becomes MORE of the smaller unit, so multiply.",
+    "Confusing mass and size (a big balloon weighs more than a small rock). Weigh to check."
+   ],
+   "days": [
+    {
+     "guide": "Measure the hallway in meters and leftover centimeters and convert to centimeters. The child completes a table for 1-10 meters.",
+     "questions": [
+      {
+       "q": "How many centimeters are in 3 meters? In 10 meters?",
+       "a": "300 cm; 1,000 cm."
+      },
+      {
+       "q": "The hallway is 4 m 35 cm. How many centimeters?",
+       "a": "435 cm."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh 5 items and record grams and ounces. The child builds kg-g and lb-oz tables for 1-5.",
+     "questions": [
+      {
+       "q": "How many grams are in 4 kilograms?",
+       "a": "4,000 g."
+      },
+      {
+       "q": "How many ounces are in 3 pounds?",
+       "a": "48 oz."
+      }
+     ]
+    },
+    {
+     "guide": "Fill the liter bottle with the 250 mL cup and count (4 cups). The child makes a liter-milliliter table for 1-5 liters.",
+     "questions": [
+      {
+       "q": "How many 250 mL cups fill 1 liter?",
+       "a": "4 (4 × 250 = 1,000 mL)."
+      },
+      {
+       "q": "How many milliliters are in 3 liters?",
+       "a": "3,000 mL."
+      }
+     ]
+    },
+    {
+     "guide": "The child converts hours to minutes and minutes to seconds and makes a soccer schedule table (e.g., two 25-minute halves and a 10-minute break).",
+     "questions": [
+      {
+       "q": "How many minutes is 2 hours?",
+       "a": "120 minutes."
+      },
+      {
+       "q": "A game has two 25-minute halves and a 10-minute halftime. How long is it?",
+       "a": "60 minutes = 1 hour."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. Correct together.",
+     "questions": [
+      {
+       "q": "Which is longer, 1 km or 900 m?",
+       "a": "1 km, because 1 km = 1,000 m."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 7 m = 700 cm 2) 4 kg = 4,000 g 3) 3 lb = 48 oz 4) 2 L = 2,000 mL 5) 5 hr = 300 min 6) 4 min = 240 s 7) 6 ft = 72 in 8) 1 km > 900 m 9) Complete the table yd → ft: 1→3, 2→6, 3→9, 4→12 10) Which unit to measure a pencil's mass: grams. Proficient: 8/10."
+  },
+  {
+   "week": 30,
+   "prep": "Number line templates and an analog clock. Prepare 6 elapsed-time problems and mixed-unit problems (samples below).",
+   "misconceptions": [
+    "Subtracting times like regular numbers (12:20 - 9:45 = 2:75). Use a number line jumping to the next hour.",
+    "Regrouping 1 foot as 10 inches. 1 ft = 12 in, 1 hr = 60 min; regroup using the right number."
+   ],
+   "days": [
+    {
+     "guide": "Draw a number line from 9:45: jump 15 min to 10:00, 2 hours to 12:00, 20 min to 12:20, and add the jumps. The child solves 6 problems.",
+     "questions": [
+      {
+       "q": "A train leaves Sacramento at 9:45 and arrives at 12:20. How long is the trip?",
+       "a": "2 hours 35 minutes."
+      },
+      {
+       "q": "A movie starts at 1:50 and lasts 1 hour 45 minutes. When does it end?",
+       "a": "3:35."
+      }
+     ]
+    },
+    {
+     "guide": "Model 3 ft 4 in - 1 ft 10 in by regrouping 1 ft as 12 in (2 ft 16 in - 1 ft 10 in). The child solves 5 problems.",
+     "questions": [
+      {
+       "q": "3 ft 4 in - 1 ft 10 in = ?",
+       "a": "1 ft 6 in."
+      },
+      {
+       "q": "2 hr 40 min + 1 hr 35 min = ?",
+       "a": "4 hr 15 min."
+      }
+     ]
+    },
+    {
+     "guide": "Use the clock to show 3/4 of an hour and a scale or table to show 1/2 kg. The child solves several fractions-of-units problems.",
+     "questions": [
+      {
+       "q": "How many minutes are in 3/4 of an hour?",
+       "a": "45 minutes."
+      },
+      {
+       "q": "How many grams are in 1/2 kg?",
+       "a": "500 g."
+      }
+     ]
+    },
+    {
+     "guide": "The child plans a weekend schedule with start/end times and drive times, checking each elapsed time.",
+     "questions": [
+      {
+       "q": "You leave at 8:30 a.m. and drive 2 hours 50 minutes. When do you arrive?",
+       "a": "11:20 a.m."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. Correct together.",
+     "questions": [
+      {
+       "q": "5 yd 1 ft - 2 yd 2 ft = ?",
+       "a": "2 yd 2 ft."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 9:45 to 12:20 = 2 hr 35 min 2) Start 1:50, 1 hr 45 min later = 3:35 3) 3 ft 4 in - 1 ft 10 in = 1 ft 6 in 4) 2 hr 40 min + 1 hr 35 min = 4 hr 15 min 5) 3/4 hr = 45 min 6) 1/2 kg = 500 g 7) 2 L - 750 mL = 1,250 mL 8) 5 yd 1 ft - 2 yd 2 ft = 2 yd 2 ft. Proficient: 7/8."
+  },
+  {
+   "week": 31,
+   "prep": "Tape measure, grid paper. Formulas: area = length × width; perimeter = 2 × length + 2 × width. Unit 8 test for Day 5.",
+   "misconceptions": [
+    "Mixing up area and perimeter. Perimeter is the distance around (a fence, in feet); area is the space inside (carpet, in square feet).",
+    "Forgetting to label units, or using 'feet' for area. Area is in square units."
+   ],
+   "days": [
+    {
+     "guide": "Measure one room together to the nearest foot and compute area and perimeter; the child measures a second room alone.",
+     "questions": [
+      {
+       "q": "A room is 12 ft by 10 ft. Find the area and perimeter.",
+       "a": "Area 120 sq ft; perimeter 44 ft."
+      },
+      {
+       "q": "Which would you need to know to buy carpet?",
+       "a": "Area."
+      }
+     ]
+    },
+    {
+     "guide": "Model: area 48 sq ft and length 8 ft → 8 × w = 48, w = 6. The child solves 10 problems.",
+     "questions": [
+      {
+       "q": "A rectangle has area 48 sq ft and length 8 ft. What is the width?",
+       "a": "6 ft."
+      },
+      {
+       "q": "A rectangle has perimeter 30 ft and length 9 ft. What is the width?",
+       "a": "6 ft (30 - 18 = 12; 12 ÷ 2 = 6)."
+      }
+     ]
+    },
+    {
+     "guide": "The child draws every whole-foot rectangle with perimeter 24 ft on grid paper, finds each area, and picks the largest.",
+     "questions": [
+      {
+       "q": "Which rectangles have perimeter 24 ft and what are their areas?",
+       "a": "1×11 = 11, 2×10 = 20, 3×9 = 27, 4×8 = 32, 5×7 = 35, 6×6 = 36 sq ft."
+      },
+      {
+       "q": "Which gives the largest garden?",
+       "a": "The 6 ft by 6 ft square, 36 sq ft."
+      }
+     ]
+    },
+    {
+     "guide": "Mixed review of conversions, measurement problems, area and perimeter.",
+     "questions": [
+      {
+       "q": "How many inches are in 4 feet?",
+       "a": "48 in."
+      },
+      {
+       "q": "A square has sides of 7 cm. Area and perimeter?",
+       "a": "Area 49 sq cm; perimeter 28 cm."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test and collect the garden design as the task.",
+     "questions": [
+      {
+       "q": "A patio is 15 ft by 6 ft. What is its area?",
+       "a": "90 sq ft."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 8 test key: 1) 6 m = 600 cm 2) 5 lb = 80 oz 3) 3 hr = 180 min 4) 10:40 to 1:15 = 2 hr 35 min 5) 4 ft 2 in - 1 ft 8 in = 2 ft 6 in 6) 12 ft by 10 ft room: area 120 sq ft, perimeter 44 ft 7) Area 56 sq m, length 8 m: width 7 m 8) Perimeter 40 in, width 5 in: length 15 in 9) 1/4 hr = 15 min. Garden task rubric: 4 = lists all 6 whole-number rectangles with perimeter 24 ft, areas correct, identifies 6×6 (36 sq ft) as largest and explains; 3 = most rectangles with correct conclusion; 2 = some areas wrong or conclusion unsupported; 1 = incomplete."
+  },
+  {
+   "week": 32,
+   "prep": "Ruler, an index card (its corner is a right angle), colored pencils, a printed map of a San Francisco grid neighborhood (e.g., the Sunset District, where numbered avenues run north-south and named streets run east-west), a paper circle cut into fourths.",
+   "misconceptions": [
+    "Confusing a line (arrows both ends, goes on forever), a ray (one endpoint, one arrow) and a segment (two endpoints).",
+    "Thinking an angle's size depends on the length of its sides. The size is the amount of turn between the rays."
+   ],
+   "days": [
+    {
+     "guide": "Model drawing and labeling a point A, line AB, segment CD and ray EF. The child makes a geometry dictionary page for each with a picture and definition.",
+     "questions": [
+      {
+       "q": "What is the difference between a ray and a line segment?",
+       "a": "A ray has one endpoint and goes on forever in one direction; a segment has two endpoints."
+      },
+      {
+       "q": "How many endpoints does a line have?",
+       "a": "None — it goes on forever in both directions."
+      }
+     ]
+    },
+    {
+     "guide": "Hold the index card corner in an angle: if it matches, it is right; smaller is acute; bigger (but less than a straight line) is obtuse. The child finds and classifies 10 angles at home.",
+     "questions": [
+      {
+       "q": "An angle is smaller than the corner of the card. What type is it?",
+       "a": "Acute (less than 90°)."
+      },
+      {
+       "q": "What is the angle formed by the hands of a clock at 3:00?",
+       "a": "A right angle (90°)."
+      }
+     ]
+    },
+    {
+     "guide": "Explain parallel (never meet, always same distance) and perpendicular (meet at right angles). The child traces examples of each on the map.",
+     "questions": [
+      {
+       "q": "On a street grid, are two numbered avenues parallel or perpendicular?",
+       "a": "Parallel — they run side by side and never meet."
+      },
+      {
+       "q": "An avenue crossing a street at a square corner is ___.",
+       "a": "Perpendicular."
+      }
+     ]
+    },
+    {
+     "guide": "Turn a paper circle-fourth around the center: 1/4 turn = 90°, 1/2 turn = 180°, 3/4 turn = 270°, full = 360°.",
+     "questions": [
+      {
+       "q": "How many degrees is a 1/4 turn? A 3/4 turn?",
+       "a": "90°; 270°."
+      },
+      {
+       "q": "How many degrees in a full turn?",
+       "a": "360°."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently. Correct together.",
+     "questions": [
+      {
+       "q": "Classify an angle of 135°.",
+       "a": "Obtuse."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) Draw a ray: one endpoint with an arrow 2) Draw a segment: two endpoints 3) Draw parallel lines: never meet 4) Draw perpendicular lines: meet at a right angle 5) 40° = acute 6) 90° = right 7) 150° = obtuse 8) 180° = straight angle 9) 1/2 turn = 180° 10) Point = an exact location. Proficient: 8/10."
+  },
+  {
+   "week": 33,
+   "prep": "Protractor, ruler, a printed sheet of 10 angles, pattern blocks (hexagon, square, triangle, trapezoid, blue rhombus, tan rhombus).",
+   "misconceptions": [
+    "Reading the wrong scale on the protractor (calling a 40° angle 140°). First decide if the angle is acute or obtuse, then choose the scale that matches.",
+    "Not lining up the center point and the zero line. Put the center hole on the vertex and one ray on 0."
+   ],
+   "days": [
+    {
+     "guide": "Model placing the protractor's center on the vertex, one ray on 0, and reading where the other ray crosses, starting from the 0 used. The child measures 10 angles and estimates first.",
+     "questions": [
+      {
+       "q": "An acute angle's ray crosses at 50 on one scale and 130 on the other. Which is right?",
+       "a": "50° — an acute angle is less than 90°."
+      },
+      {
+       "q": "Measure a right angle. What should it read?",
+       "a": "90°."
+      }
+     ]
+    },
+    {
+     "guide": "Model drawing a 35° angle: draw a ray, place the protractor, mark 35, connect. The child draws 35°, 90°, 125° and 160° and you check.",
+     "questions": [
+      {
+       "q": "Is a 125° angle acute, right or obtuse?",
+       "a": "Obtuse."
+      },
+      {
+       "q": "When drawing 160°, about how open should it look?",
+       "a": "Nearly a straight line — only 20° short of 180°."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a ray inside a right angle to split it and measure both parts; the parts add to 90°. The child solves 6 unknown-angle problems.",
+     "questions": [
+      {
+       "q": "A right angle is split into 35° and x. Find x.",
+       "a": "x = 55° (90 - 35)."
+      },
+      {
+       "q": "A straight angle is split into 110° and y. Find y.",
+       "a": "y = 70° (180 - 110)."
+      }
+     ]
+    },
+    {
+     "guide": "Fit copies of each block around a point; since a full turn is 360°, divide by the number of copies.",
+     "questions": [
+      {
+       "q": "How many hexagons fit around a point? What is each angle?",
+       "a": "3; 360 ÷ 3 = 120°."
+      },
+      {
+       "q": "Six triangles fit around a point. Each angle?",
+       "a": "60°."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; you check drawn angles with the protractor (±2°).",
+     "questions": [
+      {
+       "q": "Angles of 25° and 40° together make what angle?",
+       "a": "65°."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: Measuring items should be checked against the printed sheet (±2°). Sample answers: 1) Measure angle shown at 70°: 70° 2) Draw 45°, 3) draw 120° (checked ±2°) 4) x + 30° = 90°: x = 60° 5) 180° - 75° = 105° 6) 25° + 40° = 65° 7) A square block corner = 90° 8) Four 90° angles around a point = 360°. Proficient: 7/8."
+  },
+  {
+   "week": 34,
+   "prep": "Paper shapes (12 triangles: right, acute, obtuse; and squares, rectangles, rhombuses, parallelograms, trapezoids), a small mirror, scissors, printed capital letters. Unit 9 test for Day 5.",
+   "misconceptions": [
+    "Thinking a square isn't a rectangle. A rectangle has 4 right angles; a square has 4 right angles plus 4 equal sides, so every square is a rectangle.",
+    "Calling a diagonal of a rectangle a line of symmetry. Fold to test: the halves must match exactly."
+   ],
+   "days": [
+    {
+     "guide": "Use the index card corner to check each triangle's angles; sort into right (one 90°), obtuse (one more than 90°) and acute (all less than 90°).",
+     "questions": [
+      {
+       "q": "A triangle has angles 30°, 60°, 90°. What type is it?",
+       "a": "Right triangle."
+      },
+      {
+       "q": "Can a triangle have two right angles?",
+       "a": "No — two 90° angles would already be 180°, leaving nothing for the third angle."
+      }
+     ]
+    },
+    {
+     "guide": "Sort quadrilaterals by parallel sides and right angles into a hierarchy chart: quadrilateral → trapezoid/parallelogram → rectangle, rhombus → square.",
+     "questions": [
+      {
+       "q": "Which quadrilaterals have two pairs of parallel sides?",
+       "a": "Parallelograms, including rectangles, rhombuses and squares."
+      },
+      {
+       "q": "Is every square a rhombus?",
+       "a": "Yes — it has 4 equal sides."
+      }
+     ]
+    },
+    {
+     "guide": "Fold shapes and letters to find lines where halves match; check with the mirror.",
+     "questions": [
+      {
+       "q": "How many lines of symmetry does a square have? A rectangle (non-square)?",
+       "a": "4; 2."
+      },
+      {
+       "q": "How many lines of symmetry in the letters A and H?",
+       "a": "A has 1 (vertical); H has 2 (vertical and horizontal)."
+      }
+     ]
+    },
+    {
+     "guide": "Play shape riddles: you give clues, the child names the shape.",
+     "questions": [
+      {
+       "q": "I have 4 equal sides and no right angles. What am I?",
+       "a": "A rhombus."
+      },
+      {
+       "q": "I have exactly one pair of parallel sides.",
+       "a": "A trapezoid."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 9 test independently. Correct together.",
+     "questions": [
+      {
+       "q": "How many lines of symmetry does an equilateral triangle have?",
+       "a": "3."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 9 test key: 1) Ray: one endpoint 2) Perpendicular lines form right angles 3) 65° = acute, 90° = right, 115° = obtuse 4) Measure/draw 140° (±2°) 5) x + 55° = 90°: x = 35° 6) Triangle with angles 100°, 40°, 40°: obtuse 7) A square is a rectangle and a rhombus 8) A trapezoid has exactly one pair of parallel sides (by the definition used in this course) 9) Lines of symmetry: square 4, rectangle 2, equilateral triangle 3 10) Letter with no line of symmetry: e.g., F, G, J, L, N, P, R, S, Z. Proficient: 8/10."
+  },
+  {
+   "week": 35,
+   "prep": "Pattern blocks, graph paper. Prepare 6 input/output tables (rules like +5, ×4, ×2 + 1).",
+   "misconceptions": [
+    "Assuming a pattern rule from only two terms. Check the rule against every term in the table.",
+    "Describing only the step ('add 3') without noticing features. Ask: what else do you notice (odd/even, ones digits)?"
+   ],
+   "days": [
+    {
+     "guide": "Generate 'start at 1, add 3' together for 10 terms. Ask why the terms alternate odd and even (adding an odd number switches odd to even and back).",
+     "questions": [
+      {
+       "q": "List the first 6 terms of 'start at 1, add 3'.",
+       "a": "1, 4, 7, 10, 13, 16."
+      },
+      {
+       "q": "Why do the terms alternate odd and even?",
+       "a": "Odd + odd (3) = even, and even + odd = odd, so each step switches."
+      }
+     ]
+    },
+    {
+     "guide": "Build figure 1 (4 tiles), figure 2 (7 tiles), figure 3 (10 tiles), adding 3 each time. The child predicts figure 10 without building it.",
+     "questions": [
+      {
+       "q": "If figure 1 has 4 tiles and each figure adds 3, how many in figure 10?",
+       "a": "4 + 9 × 3 = 31 tiles."
+      },
+      {
+       "q": "How many in figure 5?",
+       "a": "16 tiles."
+      }
+     ]
+    },
+    {
+     "guide": "The child completes 6 input/output tables and writes the rule for each, testing it on every pair.",
+     "questions": [
+      {
+       "q": "In: 2, 5, 7 → Out: 8, 20, 28. What is the rule?",
+       "a": "Multiply by 4."
+      },
+      {
+       "q": "In: 1, 3, 6 → Out: 3, 7, 13. What is the rule?",
+       "a": "Multiply by 2, then add 1."
+      }
+     ]
+    },
+    {
+     "guide": "The child designs an original pattern with a rule and writes 3 observations about it.",
+     "questions": [
+      {
+       "q": "Rule: start at 5, add 5. Name 2 features.",
+       "a": "Terms: 5, 10, 15, 20...; ones digits alternate 5 and 0; every term is a multiple of 5; terms alternate odd and even."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the project.",
+     "questions": [
+      {
+       "q": "Rule 'start at 2, multiply by 2'. List 5 terms.",
+       "a": "2, 4, 8, 16, 32."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) Start at 3, add 4: 3, 7, 11, 15, 19 2) Feature: all terms are odd 3) Start at 50, subtract 6: 50, 44, 38, 32, 26 4) Table In 2, 4, 6 → Out 7, 9, 11: rule add 5 5) In 3, 5, 8 → Out 9, 15, 24: rule ×3 6) Figure n has 3n + 1 tiles pattern: figure 10 = 31 tiles. Project rubric: 4 = clear rule, at least 6 correct terms, 3 accurate observations; 3 = rule and terms correct, observations weak; 2 = errors in terms; 1 = incomplete."
+  },
+  {
+   "week": 36,
+   "prep": "Print the week 1 diagnostic for comparison, a self-check review key, an end-of-year test (key below), poster paper and markers.",
+   "misconceptions": [
+    "Rushing on cumulative tests. Teach: estimate first, then check each answer with the inverse operation.",
+    "Forgetting units and labels on project work. Every answer gets a unit (miles, dollars, hours)."
+   ],
+   "days": [
+    {
+     "guide": "The child completes the mixed whole-number review, then self-checks and redoes misses.",
+     "questions": [
+      {
+       "q": "Round 476,512 to the nearest ten thousand.",
+       "a": "480,000."
+      },
+      {
+       "q": "6,432 ÷ 8 = ?",
+       "a": "804."
+      }
+     ]
+    },
+    {
+     "guide": "The child completes the fraction, decimal and measurement review and self-checks.",
+     "questions": [
+      {
+       "q": "Compare 3/4 and 0.7.",
+       "a": "3/4 = 0.75 > 0.7."
+      },
+      {
+       "q": "2 3/5 + 1 4/5 = ?",
+       "a": "4 2/5."
+      }
+     ]
+    },
+    {
+     "guide": "Give the cumulative assessment without help, then compare scores with the week 1 diagnostic together and celebrate growth.",
+     "questions": [
+      {
+       "q": "38 × 26 = ?",
+       "a": "988."
+      }
+     ]
+    },
+    {
+     "guide": "The child plans a California road trip poster: distances, gas cost and drive time, showing all work.",
+     "questions": [
+      {
+       "q": "A 360-mile trip at 60 miles per hour takes how long?",
+       "a": "6 hours."
+      },
+      {
+       "q": "Gas costs $5 per gallon and the car uses 12 gallons. What is the cost?",
+       "a": "$60."
+      }
+     ]
+    },
+    {
+     "guide": "The child presents the poster to family and writes a reflection on the most improved skill.",
+     "questions": [
+      {
+       "q": "What skill improved most this year, and what evidence shows it?",
+       "a": "Answers vary; a strong answer names a skill (e.g., fraction comparison) and cites a test score or example from work."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "End-of-year assessment key (sample items): 1) 504,309 in word form: five hundred four thousand, three hundred nine 2) Round 476,512 to nearest ten thousand: 480,000 3) 63,207 - 28,519 = 34,688 4) 4 × 2,345 = 9,380 5) 38 × 26 = 988 6) 6,432 ÷ 8 = 804 7) 3/4 = 9/12 8) 2 3/5 + 1 4/5 = 4 2/5 9) 5 × 2/3 = 3 1/3 10) 0.75 > 0.7 11) 3 hr 20 min = 200 min 12) Perimeter of 9 ft by 4 ft: 26 ft; area 36 sq ft 13) Angle of 120° is obtuse 14) Factor pairs of 20: 1×20, 2×10, 4×5. Proficient: 80%. Project presentation rubric: 4 = all computations correct and labeled, clear explanation, answers questions; 3 = minor errors; 2 = several errors or unclear; 1 = incomplete."
+  }
+ ]
+}

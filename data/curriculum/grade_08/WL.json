@@ -1,0 +1,1956 @@
+{
+  "grade": 8,
+  "subject": "WL",
+  "title": "Spanish 1B",
+  "description": "Spanish 1B completes Spanish I, continuing directly from Spanish 1A and moving students from Novice Mid toward Novice High. Students order in restaurants, describe their homes and chores, shop for clothing, and begin narrating in the past with the preterite, then discuss vacations, community service, movies, and technology. New structures include venir, ser vs. estar, comparisons, stem-changing verbs, tú commands, the present progressive, demonstratives, direct and indirect object pronouns, gustar-like verbs, and saber vs. conocer. Together with Spanish 1A it prepares students for Spanish II in grade 9.",
+  "framework": "2019 California World Languages Standards; 2020 CA World Languages Framework (Novice Mid to Novice High)",
+  "minutes_per_day": 45,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "WL-COMM1-NM": "Interpretive communication (Novice Mid): understand words, phrases, and some simple sentences in texts on familiar topics.",
+    "WL-COMM2-NM": "Interpersonal communication (Novice Mid): exchange information on familiar topics using practiced phrases and simple questions.",
+    "WL-COMM3-NM": "Presentational communication (Novice Mid): present information on familiar topics using practiced phrases and some simple sentences.",
+    "WL-COMM1-NH": "Interpretive communication (Novice High): understand and infer meaning from simple authentic oral, written, and signed texts on familiar topics.",
+    "WL-COMM2-NH": "Interpersonal communication (Novice High): exchange information in conversations on familiar topics using phrases and simple sentences, asking and answering questions.",
+    "WL-COMM3-NH": "Presentational communication (Novice High): present information on familiar topics using simple sentences in speaking and writing.",
+    "WL-CULT1-NM": "Cultures (Novice Mid): identify products and practices of Spanish-speaking cultures and compare them with one's own.",
+    "WL-CULT1-NH": "Cultures (Novice High): identify and describe products and practices of Spanish-speaking cultures and relate them to perspectives.",
+    "WL-CULT2-NH": "Intercultural interaction (Novice High): use culturally appropriate language and behavior in familiar everyday situations.",
+    "WL-STRUC1-NM": "Structures (Novice Mid): use agreement, comparisons, stem-changing verbs, commands, and the present progressive to communicate.",
+    "WL-STRUC1-NH": "Structures (Novice High): use the preterite, object pronouns, and gustar-like verbs to communicate at the Novice High level.",
+    "WL-CONN1-NM": "Connections (Novice Mid): use Spanish to reinforce knowledge of other disciplines such as math and geography.",
+    "WL-CONN1-NH": "Connections (Novice High): use Spanish to build knowledge in geography, history, and media literacy."
+  },
+  "resources": [
+    {
+      "name": "StudySpanish.com",
+      "url": "https://studyspanish.com",
+      "note": "Grammar explanations and practice for ser/estar, preterite, and pronouns"
+    },
+    {
+      "name": "Conjuguemos",
+      "url": "https://conjuguemos.com",
+      "note": "Free verb conjugation and vocabulary drills"
+    },
+    {
+      "name": "SpanishDict",
+      "url": "https://www.spanishdict.com",
+      "note": "Dictionary, conjugation tables, and grammar guides"
+    },
+    {
+      "name": "Language Transfer – Complete Spanish",
+      "url": "https://www.languagetransfer.org",
+      "note": "Free audio course for building speaking confidence"
+    },
+    {
+      "name": "Señor Wooly",
+      "url": "https://senorwooly.com",
+      "note": "Free music videos for comprehensible input"
+    },
+    {
+      "name": "Spanish Proficiency Exercises (UT Austin)",
+      "url": "https://www.laits.utexas.edu/spe/",
+      "note": "Native-speaker video clips organized by task"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "En el restaurante",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Dining out connects food, courtesy, and culture; ser vs. estar sharpens description.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NH"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Mi casa y los quehaceres",
+      "start_week": 5,
+      "end_week": 9,
+      "big_idea": "Describing and comparing homes and chores introduces stem-changers, commands, and actions in progress.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "La ropa y las compras",
+      "start_week": 10,
+      "end_week": 14,
+      "big_idea": "Shopping requires preferences, prices, and pointing things out, in stores and markets.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NH"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "¿Qué compraste? The Preterite Begins",
+      "start_week": 15,
+      "end_week": 18,
+      "big_idea": "The preterite lets us tell what we did; object pronouns make speech efficient.",
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "De vacaciones",
+      "start_week": 19,
+      "end_week": 23,
+      "big_idea": "Narrating trips uses the full regular preterite plus ir and ser, while geography shapes culture.",
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH",
+        "WL-CULT1-NH",
+        "WL-CONN1-NH"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Ayudamos en la comunidad",
+      "start_week": 24,
+      "end_week": 27,
+      "big_idea": "Communities thrive when people help one another; we tell who did what for whom.",
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH",
+        "WL-CULT1-NH",
+        "WL-CONN1-NH"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "El cine y la televisión",
+      "start_week": 28,
+      "end_week": 30,
+      "big_idea": "Media reflects culture, and gustar-like verbs express reactions.",
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH",
+        "WL-CULT1-NH"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "La tecnología",
+      "start_week": 31,
+      "end_week": 33,
+      "big_idea": "Technology shapes how teens communicate everywhere; saber and conocer express knowledge.",
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH",
+        "WL-CULT1-NH",
+        "WL-CONN1-NH"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Repaso de Español I y evaluación final",
+      "start_week": 34,
+      "end_week": 36,
+      "big_idea": "We show Novice High proficiency and get ready for Spanish II.",
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH",
+        "WL-CULT1-NH",
+        "WL-CULT2-NH"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "¿Qué tal el verano? Diagnostic and restaurant vocabulary",
+      "objectives": [
+        "Reactivate Spanish 1A skills in a new context",
+        "Name table items and restaurant foods"
+      ],
+      "standards": [
+        "WL-COMM2-NM",
+        "WL-COMM1-NM",
+        "WL-STRUC1-NM"
+      ],
+      "vocabulary": [
+        "el camarero",
+        "la camarera",
+        "el plato principal",
+        "el postre",
+        "la cuchara",
+        "el tenedor",
+        "el cuchillo",
+        "la servilleta"
+      ],
+      "materials": [
+        "1A can-do checklist",
+        "place setting"
+      ],
+      "days": [
+        {
+          "title": "Diagnostic",
+          "work": "Hold a 3-minute conversation with a parent about your summer, family, and likes, then take a short 1A diagnostic quiz to find gaps to target."
+        },
+        {
+          "title": "Table setting",
+          "work": "Learn 12 table-setting words and set the table while naming each item aloud: Pongo el tenedor a la izquierda."
+        },
+        {
+          "title": "Restaurant foods",
+          "work": "Learn main dishes, desserts, and drinks (el bistec, el arroz, el flan) and build a three-course menu."
+        },
+        {
+          "title": "Polite requests",
+          "work": "Learn me trae..., ¿me puede traer...?, ¿algo más?, la cuenta por favor and practice with a parent as camarero."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a restaurant vocabulary quiz and review the diagnostic results to set two personal goals."
+        }
+      ],
+      "assessment": "Restaurant vocabulary quiz and diagnostic conversation."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "The verb venir and describing a meal",
+      "objectives": [
+        "Conjugate venir",
+        "Describe dishes and who comes to dinner"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "venir",
+        "vengo",
+        "vienes",
+        "delicioso/a",
+        "picante",
+        "rico/a",
+        "salado/a",
+        "dulce"
+      ],
+      "materials": [
+        "Conjuguemos account",
+        "a family meal"
+      ],
+      "days": [
+        {
+          "title": "Venir",
+          "work": "Learn the forms of venir (vengo, vienes, viene, venimos, venís, vienen) and complete a Conjuguemos drill to 90%."
+        },
+        {
+          "title": "¿Quién viene?",
+          "work": "Write invitations for a family dinner and sentences stating who comes, when, and from where."
+        },
+        {
+          "title": "Taste words",
+          "work": "Learn delicioso, picante, salado, dulce, rico and describe five foods during a real meal."
+        },
+        {
+          "title": "Listening",
+          "work": "Watch a restaurant scene video in Spanish and list what each customer orders and how they describe it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a venir and food description quiz."
+        }
+      ],
+      "assessment": "Venir quiz (80%+)."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Ser vs. estar",
+      "objectives": [
+        "Distinguish permanent traits from conditions and location",
+        "Use ser and estar correctly in context"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "ser",
+        "estar",
+        "está rico",
+        "es rico",
+        "está caliente",
+        "está frío",
+        "DOCTOR",
+        "PLACE"
+      ],
+      "materials": [
+        "sorting cards"
+      ],
+      "days": [
+        {
+          "title": "Rules",
+          "work": "Learn the DOCTOR (ser) and PLACE (estar) memory aids and sort 20 sentence cards."
+        },
+        {
+          "title": "Meaning changes",
+          "work": "Study adjectives that change meaning (es aburrido vs. está aburrido; es rico vs. está rico) and write 6 contrasting pairs."
+        },
+        {
+          "title": "Food & feelings",
+          "work": "Describe a meal: how the food is (ser) and how it tastes and is today (estar), plus how diners feel."
+        },
+        {
+          "title": "StudySpanish practice",
+          "work": "Read the StudySpanish.com ser/estar lesson and complete its practice exercises."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a 25-item ser vs. estar quiz."
+        }
+      ],
+      "assessment": "Ser vs. estar quiz (80%+)."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Unit 1 assessment: En el restaurante",
+      "objectives": [
+        "Order a full meal in a role-play",
+        "Read an authentic menu"
+      ],
+      "standards": [
+        "WL-COMM2-NM",
+        "WL-COMM1-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NH"
+      ],
+      "vocabulary": [
+        "la propina",
+        "las tapas",
+        "la sobremesa",
+        "¿Qué me recomienda?"
+      ],
+      "materials": [
+        "printed authentic menu from a Spanish or Mexican restaurant"
+      ],
+      "days": [
+        {
+          "title": "Culture: comer fuera",
+          "work": "Read about tapas in Spain, comida corrida in Mexico, and sobremesa, and compare meal times with yours."
+        },
+        {
+          "title": "Authentic menu",
+          "work": "Read a printed authentic Spanish-language menu and answer 10 questions about dishes and prices."
+        },
+        {
+          "title": "Role-play prep",
+          "work": "Write cue cards for a restaurant role-play using usted, polite requests, and venir."
+        },
+        {
+          "title": "Role-play",
+          "work": "Perform the restaurant role-play with a parent from arrival to paying la cuenta."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Take the unit test: restaurant listening, menu reading, venir, and ser vs. estar."
+        }
+      ],
+      "assessment": "Restaurant role-play rubric and unit 1 test."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Mi casa y mi dormitorio",
+      "objectives": [
+        "Name rooms and furniture",
+        "Describe your bedroom"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "la cocina",
+        "la sala",
+        "el dormitorio",
+        "el baño",
+        "la cama",
+        "la cómoda",
+        "el armario",
+        "la alfombra"
+      ],
+      "materials": [
+        "floor plan paper",
+        "sticky notes"
+      ],
+      "days": [
+        {
+          "title": "Rooms",
+          "work": "Learn 10 rooms and draw and label a floor plan of your home."
+        },
+        {
+          "title": "Furniture",
+          "work": "Learn 15 furniture items and label your bedroom with sticky notes."
+        },
+        {
+          "title": "Colors",
+          "work": "Learn color words with agreement (rojo/roja, azul, marrón) and describe the colors of 10 items in your room."
+        },
+        {
+          "title": "Mi dormitorio",
+          "work": "Write a 10-sentence description of your bedroom using hay, estar + prepositions, and colors."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a house vocabulary quiz."
+        }
+      ],
+      "assessment": "House vocabulary quiz."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Comparisons and superlatives",
+      "objectives": [
+        "Compare people and things",
+        "Use superlatives and irregular comparatives"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "más...que",
+        "menos...que",
+        "tan...como",
+        "mejor",
+        "peor",
+        "mayor",
+        "menor",
+        "el/la más"
+      ],
+      "materials": [
+        "photos of rooms or real-estate ads"
+      ],
+      "days": [
+        {
+          "title": "Comparatives",
+          "work": "Learn más/menos...que and tan...como and compare 10 pairs of objects in your house."
+        },
+        {
+          "title": "Irregulars",
+          "work": "Learn mejor, peor, mayor, menor and compare family members' ages and skills."
+        },
+        {
+          "title": "Superlatives",
+          "work": "Learn el/la más... de and write superlatives about your family, house, and town."
+        },
+        {
+          "title": "Real-estate ads",
+          "work": "Read three Spanish apartment ads and compare them in eight sentences, choosing the best for your family."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a comparisons quiz."
+        }
+      ],
+      "assessment": "Comparisons quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Stem-changing verbs o→ue and u→ue",
+      "objectives": [
+        "Conjugate poder, dormir, costar, and jugar",
+        "Explain the boot pattern"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "poder",
+        "dormir",
+        "costar",
+        "volver",
+        "encontrar",
+        "jugar",
+        "puedo",
+        "duermo"
+      ],
+      "materials": [
+        "boot-chart template",
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "The boot",
+          "work": "Learn the stem-change 'boot' pattern and conjugate poder and dormir, noting nosotros/vosotros don't change."
+        },
+        {
+          "title": "More verbs",
+          "work": "Add costar, volver, encontrar, almorzar, and jugar (u→ue) and complete a Conjuguemos stem-changer drill."
+        },
+        {
+          "title": "Sleep survey",
+          "work": "Ask family ¿Cuántas horas duermes? and ¿A qué hora vuelves a casa? and graph the results."
+        },
+        {
+          "title": "Puedo...",
+          "work": "Write 10 sentences about what you can and cannot do in your house using poder + infinitive."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an o→ue stem-changer quiz."
+        }
+      ],
+      "assessment": "Stem-changer quiz (80%+)."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Los quehaceres and affirmative tú commands",
+      "objectives": [
+        "Name household chores",
+        "Give informal commands"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM1-NM"
+      ],
+      "vocabulary": [
+        "hacer la cama",
+        "lavar los platos",
+        "sacar la basura",
+        "pasar la aspiradora",
+        "poner la mesa",
+        "limpiar",
+        "haz",
+        "pon"
+      ],
+      "materials": [
+        "chore chart"
+      ],
+      "days": [
+        {
+          "title": "Chores",
+          "work": "Learn 14 chores and make a family chore chart in Spanish."
+        },
+        {
+          "title": "Regular tú commands",
+          "work": "Learn that the affirmative tú command equals the él form (limpia, lava, come) and write commands for each chore."
+        },
+        {
+          "title": "Irregular commands",
+          "work": "Learn di, haz, ve, pon, sal, sé, ten, ven and complete a 20-item command practice."
+        },
+        {
+          "title": "Simón dice",
+          "work": "Play Simón dice with a family member using 20 commands, then actually do three chores as commanded."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a chores and commands quiz."
+        }
+      ],
+      "assessment": "Commands quiz and chore role-play."
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "Present progressive and unit 2 assessment",
+      "objectives": [
+        "Describe actions in progress",
+        "Present a home tour"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM3-NM",
+        "WL-COMM1-NM",
+        "WL-CULT1-NM"
+      ],
+      "vocabulary": [
+        "estar + -ando/-iendo",
+        "estoy limpiando",
+        "está leyendo",
+        "durmiendo",
+        "el patio"
+      ],
+      "materials": [
+        "camera or phone"
+      ],
+      "days": [
+        {
+          "title": "Present progressive",
+          "work": "Learn estar + -ando/-iendo, including leyendo and durmiendo, and describe what each family member is doing right now."
+        },
+        {
+          "title": "Picture description",
+          "work": "Describe a busy house illustration in 10 progressive sentences."
+        },
+        {
+          "title": "Culture: casas",
+          "work": "Read about homes in Spain and Latin America (interior patios, rooftop azoteas, apartment living) and write five comparisons."
+        },
+        {
+          "title": "Home tour",
+          "work": "Record a 2-minute Spanish video tour of your home with comparisons and chores done in each room."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Take the unit test on house vocabulary, comparisons, stem-changers, commands, and the progressive."
+        }
+      ],
+      "assessment": "Home tour video rubric and unit 2 test."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "La ropa",
+      "objectives": [
+        "Name clothing items",
+        "Describe what people wear for different weather"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "la camisa",
+        "los pantalones",
+        "la falda",
+        "el vestido",
+        "los zapatos",
+        "la chaqueta",
+        "llevar",
+        "la gorra"
+      ],
+      "materials": [
+        "closet items",
+        "catalog photos"
+      ],
+      "days": [
+        {
+          "title": "Clothing",
+          "work": "Learn 20 clothing words and label clothes from your closet."
+        },
+        {
+          "title": "Llevar",
+          "work": "Describe what five family members are wearing today with llevar and colors."
+        },
+        {
+          "title": "Weather & clothes",
+          "work": "Connect weather and seasons to clothing: Cuando hace frío, llevo un abrigo; write 8 sentences."
+        },
+        {
+          "title": "Fashion blog",
+          "work": "Read a short teen fashion blog post in Spanish and list the items and opinions mentioned."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a clothing vocabulary quiz with a listening description."
+        }
+      ],
+      "assessment": "Clothing vocabulary quiz."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Stem-changing e→ie verbs: pensar, querer, preferir",
+      "objectives": [
+        "Conjugate e→ie verbs",
+        "Express preferences and intentions about clothes"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "pensar",
+        "querer",
+        "preferir",
+        "empezar",
+        "entender",
+        "cerrar",
+        "pienso",
+        "prefiero"
+      ],
+      "materials": [
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "e→ie",
+          "work": "Learn pensar, querer, preferir, empezar, entender, cerrar in the boot pattern and complete a Conjuguemos drill."
+        },
+        {
+          "title": "Preferences",
+          "work": "Write 10 sentences comparing clothing choices: Prefiero la camisa roja, pero mi hermano quiere la azul."
+        },
+        {
+          "title": "Pensar + inf",
+          "work": "Use pensar + infinitive to describe three upcoming plans and compare with ir a + infinitive."
+        },
+        {
+          "title": "Conversation",
+          "work": "Discuss with a parent what clothes you want, prefer, and plan to buy for the next season."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an e→ie quiz with mixed o→ue items."
+        }
+      ],
+      "assessment": "Stem-changer quiz."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Demonstrative adjectives and numbers 100–1,000,000",
+      "objectives": [
+        "Point out items with este/ese/aquel",
+        "Use large numbers for prices"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "este/esta",
+        "ese/esa",
+        "aquel/aquella",
+        "estos",
+        "cien",
+        "doscientos",
+        "mil",
+        "un millón"
+      ],
+      "materials": [
+        "price tags",
+        "currency converter"
+      ],
+      "days": [
+        {
+          "title": "Demonstratives",
+          "work": "Learn este, ese, aquel and their forms and point out clothing at three distances in 12 sentences."
+        },
+        {
+          "title": "Big numbers",
+          "work": "Learn 100–1,000,000 including doscientos/quinientos/setecientos and read 20 prices aloud."
+        },
+        {
+          "title": "Currencies",
+          "work": "Learn the currencies of eight Spanish-speaking countries and convert three clothing prices to dollars."
+        },
+        {
+          "title": "¿Cuánto cuesta?",
+          "work": "Practice ¿Cuánto cuesta(n)? and answer with prices and demonstratives using price-tagged items at home."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a demonstratives and numbers dictation quiz."
+        }
+      ],
+      "assessment": "Demonstratives and large-number quiz."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "De compras: shopping role-plays and culture",
+      "objectives": [
+        "Shop for clothing in a store or market",
+        "Bargain politely in a market"
+      ],
+      "standards": [
+        "WL-COMM2-NM",
+        "WL-COMM1-NM",
+        "WL-CULT1-NM",
+        "WL-CULT2-NH"
+      ],
+      "vocabulary": [
+        "la tienda",
+        "el mercado",
+        "la talla",
+        "me queda bien",
+        "regatear",
+        "barato/a",
+        "caro/a",
+        "el descuento"
+      ],
+      "materials": [
+        "play money",
+        "clothing items"
+      ],
+      "days": [
+        {
+          "title": "Store phrases",
+          "work": "Learn ¿En qué puedo servirle?, ¿Qué talla usa?, Me queda grande/bien, and practice a fitting-room dialogue."
+        },
+        {
+          "title": "Markets",
+          "work": "Read about markets such as Chichicastenango (Guatemala) and El Rastro (Madrid) and when bargaining is appropriate."
+        },
+        {
+          "title": "Textiles",
+          "work": "Watch a short video on Guatemalan Maya weaving (huipiles) and write five sentences about the product and its meaning."
+        },
+        {
+          "title": "Role-play",
+          "work": "Role-play buying an outfit in a store and then bargaining for a souvenir in a market with play money."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a shopping-dialogue listening quiz."
+        }
+      ],
+      "assessment": "Shopping role-play rubric and listening quiz."
+    },
+    {
+      "week": 14,
+      "unit": 3,
+      "topic": "Unit 3 assessment: Catálogo de moda",
+      "objectives": [
+        "Create a clothing catalog page",
+        "Integrate clothing, prices, and preferences"
+      ],
+      "standards": [
+        "WL-COMM3-NM",
+        "WL-COMM1-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "el catálogo",
+        "la moda",
+        "de moda",
+        "el estilo"
+      ],
+      "materials": [
+        "paper or slide software"
+      ],
+      "days": [
+        {
+          "title": "Design",
+          "work": "Design a catalog page with eight items, colors, sizes, and prices in euros or pesos."
+        },
+        {
+          "title": "Write",
+          "work": "Write a description for each item using demonstratives, comparisons, and e→ie verbs."
+        },
+        {
+          "title": "Reading",
+          "work": "Read an authentic online store page in Spanish and answer comprehension questions."
+        },
+        {
+          "title": "Present",
+          "work": "Present your catalog as a 90-second TV shopping segment."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Take the unit 3 test on clothing, stem-changers, demonstratives, numbers, and shopping."
+        }
+      ],
+      "assessment": "Catalog project rubric and unit 3 test."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "¿Qué compraste? Preterite of regular -ar verbs",
+      "objectives": [
+        "Narrate completed past actions with -ar verbs",
+        "Use past time expressions"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM1-NM",
+        "WL-COMM3-NM"
+      ],
+      "vocabulary": [
+        "compré",
+        "compraste",
+        "compró",
+        "ayer",
+        "anoche",
+        "la semana pasada",
+        "el año pasado",
+        "hace + tiempo"
+      ],
+      "materials": [
+        "Conjuguemos account",
+        "receipts"
+      ],
+      "days": [
+        {
+          "title": "Preterite -ar",
+          "work": "Learn the preterite -ar endings (-é, -aste, -ó, -amos, -asteis, -aron) and conjugate comprar, hablar, and mirar."
+        },
+        {
+          "title": "Time expressions",
+          "work": "Learn ayer, anoche, la semana pasada, hace dos días and write 10 sentences about last weekend."
+        },
+        {
+          "title": "Present vs. preterite",
+          "work": "Contrast nosotros forms (hablamos) and identify present or past from context in 15 sentences."
+        },
+        {
+          "title": "Receipts",
+          "work": "Look at three store receipts and write what each person bought and how much they paid."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a preterite -ar quiz."
+        }
+      ],
+      "assessment": "Preterite -ar quiz."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Spelling changes: -car, -gar, -zar in the preterite",
+      "objectives": [
+        "Apply yo-form spelling changes",
+        "Narrate a shopping trip"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM3-NM",
+        "WL-COMM2-NM"
+      ],
+      "vocabulary": [
+        "busqué",
+        "pagué",
+        "empecé",
+        "toqué",
+        "llegué",
+        "almorcé",
+        "practiqué"
+      ],
+      "materials": [
+        "StudySpanish.com"
+      ],
+      "days": [
+        {
+          "title": "Spelling rules",
+          "work": "Learn why buscar→busqué, pagar→pagué, empezar→empecé and practice 15 yo forms."
+        },
+        {
+          "title": "StudySpanish practice",
+          "work": "Complete the StudySpanish.com preterite regular-verb exercises and correct errors."
+        },
+        {
+          "title": "Diary",
+          "work": "Write a 10-sentence diary entry about a shopping trip using at least five spelling-change verbs."
+        },
+        {
+          "title": "Interview",
+          "work": "Ask a family member ten questions about what they did yesterday and record their answers in the preterite."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a spelling-change preterite quiz."
+        }
+      ],
+      "assessment": "Preterite spelling-change quiz."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Direct object pronouns lo, la, los, las",
+      "objectives": [
+        "Replace direct objects with pronouns",
+        "Place pronouns correctly"
+      ],
+      "standards": [
+        "WL-STRUC1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM1-NM"
+      ],
+      "vocabulary": [
+        "lo",
+        "la",
+        "los",
+        "las",
+        "lo compré",
+        "¿Dónde la compraste?",
+        "voy a comprarlo"
+      ],
+      "materials": [
+        "shopping bag with items"
+      ],
+      "days": [
+        {
+          "title": "DOPs",
+          "work": "Learn lo/la/los/las and replace the object in 15 sentences: Compré la camisa → La compré."
+        },
+        {
+          "title": "Placement",
+          "work": "Practice pronoun placement before conjugated verbs and attached to infinitives and progressives."
+        },
+        {
+          "title": "¿Lo compraste?",
+          "work": "Answer a parent's questions about purchases using pronouns: ¿Compraste los zapatos? Sí, los compré."
+        },
+        {
+          "title": "Gift story",
+          "work": "Write a short story about buying gifts for three relatives using preterite and direct object pronouns."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a direct object pronoun quiz."
+        }
+      ],
+      "assessment": "Direct object pronoun quiz."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Semester 1 review and exam",
+      "objectives": [
+        "Review units 1–4",
+        "Demonstrate Novice Mid–High proficiency"
+      ],
+      "standards": [
+        "WL-COMM1-NM",
+        "WL-COMM2-NM",
+        "WL-COMM3-NM",
+        "WL-STRUC1-NM"
+      ],
+      "vocabulary": [
+        "repaso"
+      ],
+      "materials": [
+        "semester flashcards",
+        "unit tests"
+      ],
+      "days": [
+        {
+          "title": "Review: units 1–2",
+          "work": "Review restaurant phrases, venir, ser/estar, house, comparisons, stem-changers, commands, and the progressive with a practice test."
+        },
+        {
+          "title": "Review: units 3–4",
+          "work": "Review clothing, e→ie verbs, demonstratives, numbers, preterite -ar, and direct object pronouns with Conjuguemos drills."
+        },
+        {
+          "title": "Speaking exam",
+          "work": "Do a 4-minute interview with a parent about your home, routine chores, clothes, and a recent shopping trip."
+        },
+        {
+          "title": "Written exam",
+          "work": "Take the semester exam with listening, reading, grammar, and a 12-sentence writing prompt."
+        },
+        {
+          "title": "Reflection",
+          "work": "Complete a can-do checklist and set two goals for semester 2."
+        }
+      ],
+      "assessment": "Semester 1 exam (written and oral)."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Las vacaciones: places and activities",
+      "objectives": [
+        "Name vacation places and activities",
+        "Talk about past trips"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM3-NH"
+      ],
+      "vocabulary": [
+        "el museo",
+        "el parque de diversiones",
+        "el zoológico",
+        "el lago",
+        "las montañas",
+        "tomar el sol",
+        "bucear",
+        "visitar"
+      ],
+      "materials": [
+        "travel photos",
+        "world map"
+      ],
+      "days": [
+        {
+          "title": "Vacation words",
+          "work": "Learn 20 vacation places and activities and caption your own travel photos."
+        },
+        {
+          "title": "Preterite -ar review",
+          "work": "Write 10 sentences about a past trip using -ar preterite verbs (visité, nadé, tomé)."
+        },
+        {
+          "title": "Travel brochure",
+          "work": "Read a Spanish tourism brochure for Puerto Rico and list five attractions with descriptions."
+        },
+        {
+          "title": "Dream trip",
+          "work": "Choose a Spanish-speaking destination and list ten activities you could do there."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a vacation vocabulary quiz."
+        }
+      ],
+      "assessment": "Vacation vocabulary quiz."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Preterite of regular -er and -ir verbs",
+      "objectives": [
+        "Conjugate -er/-ir verbs in the preterite",
+        "Narrate with mixed regular verbs"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH"
+      ],
+      "vocabulary": [
+        "comí",
+        "bebiste",
+        "salió",
+        "vivimos",
+        "escribieron",
+        "aprender",
+        "volver",
+        "salir"
+      ],
+      "materials": [
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "Endings",
+          "work": "Learn the shared -er/-ir preterite endings (-í, -iste, -ió, -imos, -isteis, -ieron) and conjugate comer and salir."
+        },
+        {
+          "title": "Drill",
+          "work": "Complete a Conjuguemos preterite -er/-ir drill to 90%."
+        },
+        {
+          "title": "Leer and oír",
+          "work": "Learn the y-forms (leyó, leyeron, oyó) and write five sentences with them."
+        },
+        {
+          "title": "Trip interview",
+          "work": "Interview a parent about their best vacation using -ar, -er, and -ir preterite questions."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a mixed regular preterite quiz."
+        }
+      ],
+      "assessment": "Regular preterite quiz."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Preterite of ir and ser",
+      "objectives": [
+        "Use fui, fuiste, fue in context",
+        "Describe where you went and how it was"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH"
+      ],
+      "vocabulary": [
+        "fui",
+        "fuiste",
+        "fue",
+        "fuimos",
+        "fueron",
+        "¿Adónde fuiste?",
+        "¿Qué tal fue?",
+        "fue fantástico"
+      ],
+      "materials": [
+        "photo album"
+      ],
+      "days": [
+        {
+          "title": "Ir/ser preterite",
+          "work": "Learn that ir and ser share preterite forms and determine meaning from context in 15 sentences."
+        },
+        {
+          "title": "¿Adónde fuiste?",
+          "work": "Write where each family member went last summer and how it was: Fuimos a la playa; fue divertido."
+        },
+        {
+          "title": "Listening",
+          "work": "Listen to a native speaker describe a trip (Spanish Proficiency Exercises) and note where they went and what they did."
+        },
+        {
+          "title": "Conversation",
+          "work": "Have an unscripted conversation with a parent about a past trip, asking at least five follow-up questions."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an ir/ser preterite quiz."
+        }
+      ],
+      "assessment": "Ir/ser preterite quiz and conversation rubric."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Destinos del mundo hispano",
+      "objectives": [
+        "Research a destination",
+        "Connect geography and culture"
+      ],
+      "standards": [
+        "WL-CULT1-NH",
+        "WL-COMM1-NH",
+        "WL-CONN1-NH"
+      ],
+      "vocabulary": [
+        "Machu Picchu",
+        "las ruinas",
+        "el volcán",
+        "la selva",
+        "el desierto",
+        "la isla",
+        "el patrimonio"
+      ],
+      "materials": [
+        "world map",
+        "library books"
+      ],
+      "days": [
+        {
+          "title": "Geography",
+          "work": "Locate eight famous sites (Machu Picchu, Chichén Itzá, Salar de Uyuni, El Yunque, la Alhambra) and identify their landforms."
+        },
+        {
+          "title": "Reading",
+          "work": "Read an article in Spanish about Machu Picchu and answer comprehension questions."
+        },
+        {
+          "title": "Research",
+          "work": "Research one destination's history, landforms, food, and festivals and take notes in Spanish."
+        },
+        {
+          "title": "Comparación",
+          "work": "Compare your destination with a California landmark (Yosemite, Death Valley) in six sentences."
+        },
+        {
+          "title": "Review & check",
+          "work": "Share research findings orally in a 1-minute summary."
+        }
+      ],
+      "assessment": "Research notes check and oral summary."
+    },
+    {
+      "week": 23,
+      "unit": 5,
+      "topic": "Unit 5 assessment: Mi viaje (travel blog)",
+      "objectives": [
+        "Narrate a trip in the past",
+        "Integrate all preterite forms"
+      ],
+      "standards": [
+        "WL-COMM3-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH"
+      ],
+      "vocabulary": [
+        "el blog",
+        "el recuerdo",
+        "primero",
+        "luego",
+        "después",
+        "por fin"
+      ],
+      "materials": [
+        "slides or blog template"
+      ],
+      "days": [
+        {
+          "title": "Sequencing",
+          "work": "Learn primero, luego, después, más tarde, por fin and outline a trip story."
+        },
+        {
+          "title": "Draft",
+          "work": "Write a 15-sentence travel blog about a real or imagined trip to your researched destination using the preterite."
+        },
+        {
+          "title": "Revise",
+          "work": "Self-edit with a checklist (preterite endings, ir/ser, -car/-gar/-zar) and add photos."
+        },
+        {
+          "title": "Share",
+          "work": "Present your blog aloud and answer three questions from a listener."
+        },
+        {
+          "title": "Unit 5 test",
+          "work": "Take the unit 5 test on vacation vocabulary and the preterite."
+        }
+      ],
+      "assessment": "Travel blog rubric and unit 5 test."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Ayudamos en la comunidad",
+      "objectives": [
+        "Name volunteer activities",
+        "Describe community needs"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM3-NH"
+      ],
+      "vocabulary": [
+        "el trabajo voluntario",
+        "el centro de la comunidad",
+        "ayudar",
+        "los ancianos",
+        "la gente sin hogar",
+        "recoger",
+        "donar",
+        "reciclar"
+      ],
+      "materials": [
+        "local volunteer listings"
+      ],
+      "days": [
+        {
+          "title": "Vocabulary",
+          "work": "Learn 18 community-service words and match them to photos of volunteer work."
+        },
+        {
+          "title": "Local needs",
+          "work": "List community organizations in your town and describe in Spanish what each one does."
+        },
+        {
+          "title": "Reading",
+          "work": "Read a short article about a youth volunteer project in Latin America and summarize it in five sentences."
+        },
+        {
+          "title": "Survey",
+          "work": "Ask family members what volunteer work they have done and record answers in the preterite."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a community vocabulary quiz."
+        }
+      ],
+      "assessment": "Community vocabulary quiz."
+    },
+    {
+      "week": 25,
+      "unit": 6,
+      "topic": "Indirect object pronouns and the verb dar",
+      "objectives": [
+        "Use me, te, le, nos, les",
+        "Say who gives what to whom"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH"
+      ],
+      "vocabulary": [
+        "me",
+        "te",
+        "le",
+        "nos",
+        "les",
+        "dar",
+        "doy",
+        "di"
+      ],
+      "materials": [
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "IOPs",
+          "work": "Learn indirect object pronouns and identify the indirect object in 15 sentences."
+        },
+        {
+          "title": "Dar",
+          "work": "Learn present dar (doy, das...) and preterite dar (di, diste, dio) and complete a drill."
+        },
+        {
+          "title": "Le/les clarification",
+          "work": "Practice clarifying le/les with a + person: Le di la ropa a mi abuela."
+        },
+        {
+          "title": "Gifts and help",
+          "work": "Write 10 sentences about what you gave or did for others using IOPs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an indirect object pronoun and dar quiz."
+        }
+      ],
+      "assessment": "IOP and dar quiz."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Irregular preterite: hacer and decir",
+      "objectives": [
+        "Conjugate hacer and decir in the preterite",
+        "Report what people did and said"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH"
+      ],
+      "vocabulary": [
+        "hice",
+        "hiciste",
+        "hizo",
+        "dije",
+        "dijiste",
+        "dijo",
+        "dijeron",
+        "¿Qué hiciste?"
+      ],
+      "materials": [
+        "StudySpanish.com"
+      ],
+      "days": [
+        {
+          "title": "Hacer",
+          "work": "Learn hice, hiciste, hizo (z spelling), hicimos, hicieron and answer ¿Qué hiciste ayer? in 8 ways."
+        },
+        {
+          "title": "Decir",
+          "work": "Learn dije, dijiste, dijo, dijimos, dijeron and report what five people said using IOPs: Me dijo que..."
+        },
+        {
+          "title": "Practice",
+          "work": "Complete StudySpanish.com irregular preterite practice for hacer and decir."
+        },
+        {
+          "title": "Culture: service",
+          "work": "Read about César Chávez and Dolores Huerta's community organizing in California and write five preterite sentences about what they did."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take an irregular preterite quiz."
+        }
+      ],
+      "assessment": "Hacer/decir preterite quiz."
+    },
+    {
+      "week": 27,
+      "unit": 6,
+      "topic": "Unit 6 project: A service report",
+      "objectives": [
+        "Plan and report on a service project",
+        "Present to an audience"
+      ],
+      "standards": [
+        "WL-COMM3-NH",
+        "WL-COMM2-NH",
+        "WL-CULT1-NH",
+        "WL-CONN1-NH"
+      ],
+      "vocabulary": [
+        "el proyecto",
+        "el informe",
+        "la donación",
+        "juntar"
+      ],
+      "materials": [
+        "materials for a small service project"
+      ],
+      "days": [
+        {
+          "title": "Plan",
+          "work": "Plan a small service activity (food drive, letters to seniors, park cleanup) and write the plan in Spanish."
+        },
+        {
+          "title": "Do it",
+          "work": "Carry out the service activity with family and take photos."
+        },
+        {
+          "title": "Write",
+          "work": "Write a 12-sentence report in the preterite on what you did, what people said, and what you gave."
+        },
+        {
+          "title": "Present",
+          "work": "Present the report with photos to a family audience and answer questions."
+        },
+        {
+          "title": "Unit 6 test",
+          "work": "Take the unit 6 test on IOPs, dar, hacer, decir, and community vocabulary."
+        }
+      ],
+      "assessment": "Service report rubric and unit 6 test."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "El cine y la televisión",
+      "objectives": [
+        "Name film and TV genres",
+        "Give opinions about shows and movies"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH"
+      ],
+      "vocabulary": [
+        "la película de horror",
+        "la comedia",
+        "el drama",
+        "los dibujos animados",
+        "la telenovela",
+        "el programa",
+        "emocionante",
+        "infantil"
+      ],
+      "materials": [
+        "TV listings"
+      ],
+      "days": [
+        {
+          "title": "Genres",
+          "work": "Learn 12 genre words and classify 15 well-known movies and shows."
+        },
+        {
+          "title": "Opinions",
+          "work": "Give opinions with me parece, creo que, and adjectives like emocionante, violento, tonto."
+        },
+        {
+          "title": "TV listings",
+          "work": "Read a Spanish-language TV guide and answer questions about times, channels, and genres."
+        },
+        {
+          "title": "Telenovelas",
+          "work": "Read about the telenovela tradition in Mexico and Colombia and compare it with U.S. TV dramas."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a genre vocabulary and opinions quiz."
+        }
+      ],
+      "assessment": "Genre and opinions quiz."
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Acabar de + infinitive and verbs like gustar",
+      "objectives": [
+        "Say what just happened",
+        "Use aburrir, interesar, encantar, importar, quedar, faltar"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH"
+      ],
+      "vocabulary": [
+        "acabar de",
+        "aburrir",
+        "interesar",
+        "encantar",
+        "importar",
+        "faltar",
+        "doler",
+        "me aburre"
+      ],
+      "materials": [
+        "Señor Wooly video"
+      ],
+      "days": [
+        {
+          "title": "Acabar de",
+          "work": "Learn acabar de + infinitive and write 8 sentences about things you just did."
+        },
+        {
+          "title": "Gustar-like verbs",
+          "work": "Learn me aburre(n), me interesa(n), me encanta(n), me importa(n), me falta(n) and write opinions about movies."
+        },
+        {
+          "title": "Señor Wooly",
+          "work": "Watch a free Señor Wooly video and describe what the characters like, bore, or interest them."
+        },
+        {
+          "title": "Conversation",
+          "work": "Discuss favorite movies and shows with a parent using five gustar-like verbs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a gustar-like verbs quiz."
+        }
+      ],
+      "assessment": "Gustar-like verbs quiz."
+    },
+    {
+      "week": 30,
+      "unit": 7,
+      "topic": "Unit 7 assessment: Crítica de cine",
+      "objectives": [
+        "Write and present a film review",
+        "Summarize a plot in the preterite"
+      ],
+      "standards": [
+        "WL-COMM3-NH",
+        "WL-COMM1-NH",
+        "WL-CULT1-NH"
+      ],
+      "vocabulary": [
+        "la crítica",
+        "el argumento",
+        "el/la protagonista",
+        "recomendar",
+        "las estrellas"
+      ],
+      "materials": [
+        "a family film with Spanish audio or subtitles"
+      ],
+      "days": [
+        {
+          "title": "Watch",
+          "work": "Watch a family film with Spanish audio (e.g., Coco) with Spanish subtitles and take notes on characters."
+        },
+        {
+          "title": "Plot summary",
+          "work": "Write a 10-sentence plot summary in the preterite."
+        },
+        {
+          "title": "Review",
+          "work": "Add opinions with gustar-like verbs and a star rating to complete a film review."
+        },
+        {
+          "title": "Present",
+          "work": "Record your film review as a 2-minute video."
+        },
+        {
+          "title": "Unit 7 test",
+          "work": "Take the unit 7 test on media vocabulary, acabar de, and gustar-like verbs."
+        }
+      ],
+      "assessment": "Film review rubric and unit 7 test."
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "La tecnología y la computadora",
+      "objectives": [
+        "Name technology and online activities",
+        "Use pedir and servir (e→i)"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH"
+      ],
+      "vocabulary": [
+        "la computadora portátil",
+        "el teléfono celular",
+        "navegar en la red",
+        "el correo electrónico",
+        "bajar",
+        "la contraseña",
+        "pedir",
+        "servir"
+      ],
+      "materials": [
+        "computer",
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "Tech vocabulary",
+          "work": "Learn 18 technology words and label the parts of a computer and phone."
+        },
+        {
+          "title": "Pedir & servir",
+          "work": "Learn the e→i boot pattern (pido, sirve) and complete a Conjuguemos drill, including preterite pidió/sirvió."
+        },
+        {
+          "title": "¿Para qué sirve?",
+          "work": "Explain what 8 devices or apps are for: La computadora sirve para escribir."
+        },
+        {
+          "title": "Survey",
+          "work": "Survey family about daily screen use and write a report with numbers."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a technology vocabulary and e→i verb quiz."
+        }
+      ],
+      "assessment": "Technology and e→i quiz."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Saber vs. conocer",
+      "objectives": [
+        "Distinguish saber and conocer",
+        "Talk about skills and people/places you know"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH"
+      ],
+      "vocabulary": [
+        "saber",
+        "sé",
+        "conocer",
+        "conozco",
+        "la a personal",
+        "saber + infinitivo"
+      ],
+      "materials": [
+        "sorting cards"
+      ],
+      "days": [
+        {
+          "title": "Rules",
+          "work": "Learn saber (facts, how to) vs. conocer (people, places) and the personal a, then sort 20 sentences."
+        },
+        {
+          "title": "Sé + infinitive",
+          "work": "Write 10 sentences about tech skills you know how to do: Sé crear una página web."
+        },
+        {
+          "title": "Conozco",
+          "work": "Write about people and places you know, including the personal a."
+        },
+        {
+          "title": "Interview",
+          "work": "Interview a parent about their tech skills and places they know, using both verbs."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a saber vs. conocer quiz."
+        }
+      ],
+      "assessment": "Saber/conocer quiz."
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Unit 8 assessment: Digital life debate",
+      "objectives": [
+        "Compare technology use across cultures",
+        "Argue a simple opinion"
+      ],
+      "standards": [
+        "WL-COMM3-NH",
+        "WL-COMM1-NH",
+        "WL-CULT1-NH",
+        "WL-CONN1-NH"
+      ],
+      "vocabulary": [
+        "la ventaja",
+        "la desventaja",
+        "creo que",
+        "en mi opinión",
+        "estoy de acuerdo"
+      ],
+      "materials": [
+        "infographic in Spanish"
+      ],
+      "days": [
+        {
+          "title": "Infographic",
+          "work": "Read a Spanish infographic on teen internet use in Spain or Mexico and answer questions about the data."
+        },
+        {
+          "title": "Comparison",
+          "work": "Compare those statistics with U.S. teen data in six Spanish sentences."
+        },
+        {
+          "title": "Opinion",
+          "work": "Write a 10-sentence opinion piece on ventajas y desventajas of phones for teens."
+        },
+        {
+          "title": "Debate",
+          "work": "Hold a short debate with a parent using en mi opinión and estoy/no estoy de acuerdo."
+        },
+        {
+          "title": "Unit 8 test",
+          "work": "Take the unit 8 test on technology vocabulary, pedir/servir, and saber/conocer."
+        }
+      ],
+      "assessment": "Opinion piece rubric and unit 8 test."
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Spanish I review: present tense system",
+      "objectives": [
+        "Review all Spanish I present-tense structures"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM2-NH"
+      ],
+      "vocabulary": [
+        "repaso"
+      ],
+      "materials": [
+        "flashcards",
+        "Conjuguemos account"
+      ],
+      "days": [
+        {
+          "title": "Regular present",
+          "work": "Review regular -ar/-er/-ir verbs from 1A with a timed Conjuguemos drill."
+        },
+        {
+          "title": "Irregular & stem-changers",
+          "work": "Review ser, estar, ir, tener, venir and o→ue, e→ie, e→i stem-changers."
+        },
+        {
+          "title": "Commands & progressive",
+          "work": "Review tú commands and the present progressive with a picture-description task."
+        },
+        {
+          "title": "Pronouns",
+          "work": "Review direct and indirect object pronouns in a 20-item practice."
+        },
+        {
+          "title": "Practice test",
+          "work": "Take a self-scored present-tense practice test and list your weakest areas."
+        }
+      ],
+      "assessment": "Practice test."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Spanish I review: past tense and culture",
+      "objectives": [
+        "Review the preterite and cultural topics"
+      ],
+      "standards": [
+        "WL-STRUC1-NH",
+        "WL-COMM1-NH",
+        "WL-COMM3-NH",
+        "WL-CULT1-NH"
+      ],
+      "vocabulary": [
+        "repaso"
+      ],
+      "materials": [
+        "unit tests",
+        "travel blog"
+      ],
+      "days": [
+        {
+          "title": "Regular preterite",
+          "work": "Review regular and spelling-change preterite verbs with a narrative writing task."
+        },
+        {
+          "title": "Irregular preterite",
+          "work": "Review ir/ser, hacer, decir, and dar in the preterite with a story-retelling activity."
+        },
+        {
+          "title": "Culture review",
+          "work": "Review the year's culture topics (tapas, homes, markets, destinations, telenovelas) with a self-made quiz."
+        },
+        {
+          "title": "Reading practice",
+          "work": "Read two authentic texts (a blog post and an ad) and answer questions."
+        },
+        {
+          "title": "Speaking practice",
+          "work": "Practice a mock 5-minute conversation covering all year's topics."
+        }
+      ],
+      "assessment": "Self-scored practice tasks."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Spanish I final integrated performance assessment",
+      "objectives": [
+        "Demonstrate Novice High proficiency in all three modes"
+      ],
+      "standards": [
+        "WL-COMM1-NH",
+        "WL-COMM2-NH",
+        "WL-COMM3-NH",
+        "WL-CULT1-NH",
+        "WL-CULT2-NH"
+      ],
+      "vocabulary": [
+        "el examen final"
+      ],
+      "materials": [
+        "final exam packet"
+      ],
+      "days": [
+        {
+          "title": "Interpretive",
+          "work": "Read an authentic text and listen to a native-speaker clip, answering comprehension and inference questions."
+        },
+        {
+          "title": "Interpersonal",
+          "work": "Hold a 5-minute unscripted conversation about home, shopping, a past trip, and technology."
+        },
+        {
+          "title": "Presentational writing",
+          "work": "Write a 15–20 sentence narrative about a memorable day using present and preterite."
+        },
+        {
+          "title": "Presentational speaking",
+          "work": "Present a 2-minute cultural comparison from the year."
+        },
+        {
+          "title": "Reflection",
+          "work": "Complete the Spanish I can-do self-assessment and set goals for Spanish II."
+        }
+      ],
+      "assessment": "Integrated performance assessment rubric; completion of Spanish I."
+    }
+  ]
+}

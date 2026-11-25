@@ -1,0 +1,2241 @@
+{
+ "grade": 6,
+ "subject": "MATH",
+ "overview": "Teach each lesson in about 60 minutes: briefly model a problem aloud, work one together, then let your child practice independently while you circulate and ask 'how do you know?'. The course follows Illustrative Mathematics Grade 6, so hands-on models (cutting shapes, tape diagrams, double number lines, balances) come before formulas — don't skip them. Use Day 5 quizzes to find gaps and reteach before moving on; insist on labeled units and written reasoning.",
+ "weeks": [
+  {
+   "week": 1,
+   "prep": "Gather: graph paper, scissors, tangram set or paper tangrams. Print or cut paper tangrams if you have no set; draw a few tilted parallelograms on graph paper ahead of Day 4.",
+   "misconceptions": [
+    "Using the slanted side as the height. Correct: height is always perpendicular (makes a square corner) to the base; check with the corner of an index card.",
+    "Thinking shapes that look different must have different areas. Show that rearranging pieces never changes area — nothing is added or removed."
+   ],
+   "days": [
+    {
+     "guide": "Let the child cover the square, the medium triangle and the parallelogram tangram pieces with the two small triangles. Ask: 'If both are covered by exactly the same pieces, what do you know about their areas?' Have them write two sentences explaining that area is the amount of surface covered, not the shape.",
+     "questions": [
+      {
+       "q": "In a standard tangram set, the square and the medium triangle can each be covered exactly by the two small triangles. Which has more area?",
+       "a": "Neither — they have equal area, because each is made of the same two small triangles; rearranging pieces does not change area."
+      }
+     ]
+    },
+    {
+     "guide": "Draw an L-shape on graph paper: a 6-wide by 8-tall rectangle with a 3-wide by 4-tall piece missing from the top-right. Model one method (cut into two rectangles), then have the child do 'enclose and subtract' and 'rearrange' themselves and compare answers.",
+     "questions": [
+      {
+       "q": "Find the area of that L-shape (6 × 8 rectangle with a 3 × 4 corner removed) two ways.",
+       "a": "36 square units. Cut apart: 3 × 8 = 24 plus 3 × 4 = 12 → 36. Enclose and subtract: 6 × 8 = 48 − 12 = 36."
+      }
+     ]
+    },
+    {
+     "guide": "Have the child cut out a paper parallelogram, draw a height line from one top corner straight down to the base, cut along it and slide the triangle to the other side. Ask what shape it makes and what its length and width are; record A = b × h, then assign the 8 problems.",
+     "questions": [
+      {
+       "q": "A parallelogram has base 9 cm and height 4 cm. What is its area?",
+       "a": "36 sq cm (9 × 4)."
+      },
+      {
+       "q": "Base 7.5 m, height 2 m?",
+       "a": "15 sq m."
+      }
+     ]
+    },
+    {
+     "guide": "Show that any side can be the base, and the height is the perpendicular distance to the opposite side — sometimes drawn outside the shape with a dashed extension. Draw one tilted parallelogram and find area with both base-height pairs to show they agree.",
+     "questions": [
+      {
+       "q": "A parallelogram has sides 10 and 6. The height to the side of length 10 is 4.8. What is the height to the side of length 6?",
+       "a": "Area = 10 × 4.8 = 48, so height = 48 ÷ 6 = 8."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 10-problem quiz (see key) without help. Afterward, have the child find any error and write one sentence naming the mistake (e.g., 'I used the slanted side instead of the height').",
+     "questions": [
+      {
+       "q": "Why does A = b × h work for a parallelogram?",
+       "a": "You can cut off a triangle from one side and move it to the other to form a rectangle with the same base and height, so its area is base × height."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Sample 10-problem quiz: 1) rectangle 7 × 12 = 84 sq units 2) parallelogram b = 10, h = 6 → 60 3) b = 4.5, h = 8 → 36 4) 10 × 6 rectangle with a 4 × 3 corner removed → 60 − 12 = 48 5) parallelogram area 72, base 9 → height 8 6) b = 15, h = 3.2 → 48 7) square side 9 → 81 8) parallelogram b = 20, h = 2.5 → 50 9) two rectangles 5 × 4 and 3 × 6 joined → 20 + 18 = 38 10) parallelogram area 56, height 7 → base 8. Explanation (full credit): cutting the right triangle off one end and sliding it to the other end makes a rectangle with the same base and height, so area = b × h; the height must be perpendicular to the base."
+  },
+  {
+   "week": 2,
+   "prep": "Gather: paper triangles, ruler, scissors. Cut two identical triangles before Day 1 (or let the child trace and cut).",
+   "misconceptions": [
+    "Using the slanted side as the height of a triangle. The height is perpendicular to the chosen base, and for obtuse triangles it may fall outside the triangle.",
+    "Forgetting to halve. Remind: a triangle is half of a parallelogram with the same base and height."
+   ],
+   "days": [
+    {
+     "guide": "Have the child join two identical triangles into a parallelogram. Ask: 'What is the area of the parallelogram? How much of it is one triangle?' Record A = ½ × b × h.",
+     "questions": [
+      {
+       "q": "A triangle has base 10 and height 6. Find its area and explain using a parallelogram.",
+       "a": "30 square units. Two copies make a parallelogram with area 10 × 6 = 60; one triangle is half: 30."
+      }
+     ]
+    },
+    {
+     "guide": "On the grid, point out that the two legs of a right triangle meet at a square corner, so one leg is the base and the other is the height. The child computes the 10 areas and writes the rule in words.",
+     "questions": [
+      {
+       "q": "A right triangle has legs 9 and 12 and hypotenuse 15. What is its area?",
+       "a": "54 square units: ½ × 9 × 12. The hypotenuse (15) is not used."
+      }
+     ]
+    },
+    {
+     "guide": "For an obtuse triangle, model extending the base with a dashed line and dropping a perpendicular from the top vertex. The child draws all three heights with a ruler on two triangles and checks that ½bh gives the same area each time.",
+     "questions": [
+      {
+       "q": "An obtuse triangle has base 8 and its height (drawn outside the triangle) is 5. Area?",
+       "a": "20 square units (½ × 8 × 5)."
+      },
+      {
+       "q": "If another side of the same triangle is 10, what is the height to that side?",
+       "a": "4, because ½ × 10 × h = 20 so h = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Model the missing-dimension problem: write ½ × 8 × h = 24, so 4h = 24 and h = 6. Then the child solves the 12 problems, checking each by plugging back in.",
+     "questions": [
+      {
+       "q": "Area 24 sq cm, base 8 cm. Find the height.",
+       "a": "6 cm (½ × 8 × 6 = 24)."
+      },
+      {
+       "q": "Area 35 sq in, height 7 in. Find the base.",
+       "a": "10 in (½ × 10 × 7 = 35)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the mixed quiz independently. Then the child corrects mistakes and writes a short paragraph explaining one error and the fix.",
+     "questions": [
+      {
+       "q": "A triangle and a parallelogram both have base 12 and height 5. Compare their areas.",
+       "a": "Triangle 30, parallelogram 60 — the triangle is half."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) b = 6, h = 9 → 27 2) right triangle legs 5 and 8 → 20 3) b = 14, h = 3 → 21 4) area 40, base 10 → height 8 5) area 18, height 4 → base 9 6) parallelogram b = 11, h = 6 → 66 7) triangle b = 7, h = 7 → 24.5 8) obtuse triangle b = 6, outside height 5 → 15. Paragraph: names the error and shows the correct calculation."
+  },
+  {
+   "week": 3,
+   "prep": "Gather: graph paper, measuring tape, home floor plan sketch. Sketch your home's floor plan or pick a room/yard to measure; have a measuring tape ready for Days 3–4.",
+   "misconceptions": [
+    "Adding a triangle's full b × h instead of half when decomposing. Have the child label each piece's area before adding.",
+    "Mixing units (feet and inches) in one area calculation. Convert all measurements to feet first (e.g., 10 ft 6 in = 10.5 ft).",
+    "Rounding the number of tile boxes down. You can't buy part of a box — always round up."
+   ],
+   "days": [
+    {
+     "guide": "Draw a trapezoid and a kite on grid paper. Have the child split each into rectangles and triangles, label each piece's area, and add; then try a second decomposition and confirm the total matches.",
+     "questions": [
+      {
+       "q": "A trapezoid has parallel sides 6 and 10 and height 4. Find its area by decomposing.",
+       "a": "32 square units: a 6 × 4 rectangle (24) plus two triangles whose bases total 4 with height 4 (½ × 4 × 4 = 8)."
+      },
+      {
+       "q": "A kite has diagonals 8 and 6. Area?",
+       "a": "24 square units — two triangles each with base 8 and height 3: 12 + 12."
+      }
+     ]
+    },
+    {
+     "guide": "Have the child cut two identical trapezoids and rotate one to form a parallelogram with base (b₁ + b₂). Guide them to discover A = ½(b₁ + b₂)h, then solve the 8 problems.",
+     "questions": [
+      {
+       "q": "Trapezoid with bases 5 and 9 and height 6?",
+       "a": "42 square units: ½ × (5 + 9) × 6."
+      },
+      {
+       "q": "Bases 3.5 and 6.5, height 4?",
+       "a": "20 square units: ½ × 10 × 4."
+      }
+     ]
+    },
+    {
+     "guide": "Measure a room together, rounding to the nearest half-foot. The child sketches it on graph paper with a scale (1 square = 1 ft), splits any L-shape into rectangles and finds total area.",
+     "questions": [
+      {
+       "q": "A room is 12 ft by 14 ft. Area?",
+       "a": "168 square feet."
+      },
+      {
+       "q": "An L-shaped room is a 10 × 12 ft section plus a 4 × 6 ft nook. Area?",
+       "a": "120 + 24 = 144 sq ft."
+      }
+     ]
+    },
+    {
+     "guide": "Ask: 'If each tile is 1 sq ft, how many tiles cover the room? How many boxes of 10?' Discuss rounding up for partial boxes and cut tiles for irregular edges.",
+     "questions": [
+      {
+       "q": "A 168 sq ft room needs 1-ft tiles sold 10 per box. How many boxes?",
+       "a": "17 boxes (168 ÷ 10 = 16.8, round up)."
+      },
+      {
+       "q": "What about 145 sq ft?",
+       "a": "15 boxes (14.5 rounds up)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 6-problem assessment independently. Then the child presents the floor plan to a family member, explaining how they decomposed the shape.",
+     "questions": [
+      {
+       "q": "Why might two people decompose the same polygon differently but get the same area?",
+       "a": "Area doesn't depend on how you cut a shape; as long as pieces don't overlap or leave gaps, the pieces' areas add to the same total."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Composite quiz: 1) trapezoid bases 8 and 12, height 5 → 50 2) kite with diagonals 10 and 6 → 30 3) pentagon = 6 × 6 square + triangle base 6, height 4 → 36 + 12 = 48 4) 12 × 10 rectangle minus 4 × 5 corner → 100 5) 8 × 3 rectangle with triangle on top (base 8, height 3) → 24 + 12 = 36 6) hexagon made of two trapezoids (bases 4 and 8, height 3) → 18 + 18 = 36. Floor-plan rubric: 4 = accurate measurements, labeled scale drawing, correct area with work shown, tiles/boxes rounded correctly; 3 = one small calculation error; 2 = drawing or area incomplete; 1 = little work shown."
+  },
+  {
+   "week": 4,
+   "prep": "Gather: cereal box, cardstock, tape, sugar cubes or snap cubes. Preview: a net must fold into the solid with no overlaps or gaps.",
+   "misconceptions": [
+    "Counting only three faces of a rectangular prism. Remind that opposite faces come in pairs: SA = 2(lw + lh + wh).",
+    "Thinking 3³ means 3 × 3 = 9 or 3 × 3. Correct: the exponent tells how many times the base is used as a factor: 3 × 3 × 3 = 27.",
+    "Confusing surface area (square units) with volume (cubic units)."
+   ],
+   "days": [
+    {
+     "guide": "Gather 6–8 objects (box, tissue box, toy pyramid). The child sorts them into prisms (two identical parallel bases) and pyramids (one base, triangle faces meeting at a point) and fills a faces/edges/vertices table.",
+     "questions": [
+      {
+       "q": "How many faces, edges and vertices does a cube have? A square pyramid?",
+       "a": "Cube: 6 faces, 12 edges, 8 vertices. Square pyramid: 5 faces, 8 edges, 5 vertices."
+      },
+      {
+       "q": "Triangular prism?",
+       "a": "5 faces, 9 edges, 6 vertices."
+      }
+     ]
+    },
+    {
+     "guide": "Cut the cereal box along edges so it lies flat. The child measures each rectangle, writes its area on it, and adds all six.",
+     "questions": [
+      {
+       "q": "A box is 12 in × 8 in × 2 in. What is its surface area?",
+       "a": "272 sq in: 2(12×8) + 2(12×2) + 2(8×2) = 192 + 48 + 32."
+      }
+     ]
+    },
+    {
+     "guide": "Model drawing a cube net on grid paper, then the child draws nets for a rectangular prism and a square pyramid, folds one from cardstock, and computes surface area from the net.",
+     "questions": [
+      {
+       "q": "A cube has edges of 5 cm. Surface area?",
+       "a": "150 sq cm (6 × 25)."
+      },
+      {
+       "q": "A square pyramid has a 4 × 4 base and triangle faces with height 5. Surface area?",
+       "a": "56 square units: 16 + 4 × (½ × 4 × 5) = 16 + 40."
+      }
+     ]
+    },
+    {
+     "guide": "Build 2×2×2, 3×3×3 and 4×4×4 cubes and count the small cubes. Write the results as 2³ = 8, 3³ = 27, 4³ = 64, and connect s² to the area of one face and 6s² to the whole surface.",
+     "questions": [
+      {
+       "q": "Evaluate 4³ and find the surface area of a cube with edge 4.",
+       "a": "4³ = 64; SA = 6 × 4² = 96 square units."
+      },
+      {
+       "q": "Volume of a cube with edge 10?",
+       "a": "1,000 cubic units."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 1 test without help. Afterward, the child picks two missed problems and redoes them with a written explanation.",
+     "questions": [
+      {
+       "q": "Which units go with surface area and which with volume?",
+       "a": "Surface area: square units (cm², in²). Volume: cubic units (cm³, in³)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 1 test sample key: 1) parallelogram b = 12, h = 5 → 60 2) triangle b = 9, h = 4 → 18 3) trapezoid bases 4 and 10, h = 6 → 42 4) rectangular prism 5 × 3 × 2: SA = 2(15 + 10 + 6) = 62 sq units 5) cube with edge 7: SA = 6 × 49 = 294 sq units, V = 343 cubic units 6) 5² = 25; 2⁴ = 16 7) six squares in a cross shape fold into a cube (yes) 8) square pyramid, base 6, triangle heights 5: 36 + 4 × 15 = 96 sq units. Redo: child explains each fix in a sentence."
+  },
+  {
+   "week": 5,
+   "prep": "Gather: colored counters or beans, measuring cups, drink mix or food coloring. Clear cups help for color mixing; use tablespoons of water as the 'part' unit.",
+   "misconceptions": [
+    "Reversing the order of a ratio. 'Red to blue' means red first; have the child say the words while writing the numbers.",
+    "Confusing part-to-part with part-to-whole. For 3 red and 2 blue, red:blue is 3:2 but red:total is 3:5."
+   ],
+   "days": [
+    {
+     "guide": "Put out 5 red and 3 blue beans. Model saying the ratio three ways ('5 to 3', '5:3', 'for every 5 red there are 3 blue'), then the child writes 10 ratio sentences about different collections.",
+     "questions": [
+      {
+       "q": "With 5 red and 3 blue beans, write the ratio of blue to red and red to all beans.",
+       "a": "Blue to red = 3:5; red to all = 5:8."
+      }
+     ]
+    },
+    {
+     "guide": "Model drawing 2 flour circles and 3 egg squares for one batch, then repeat the group to show two batches. The child draws diagrams and answers the matching questions.",
+     "questions": [
+      {
+       "q": "A recipe uses 2 cups flour for every 3 eggs. How much flour for 6 eggs?",
+       "a": "4 cups — two batches of (2 flour, 3 eggs)."
+      }
+     ]
+    },
+    {
+     "guide": "Mix one batch (2 scoops : 1 cup) and a double batch (4 scoops : 2 cups); taste both. Ask why they taste the same.",
+     "questions": [
+      {
+       "q": "Is 4 scoops to 2 cups equivalent to 2 scoops to 1 cup? Why?",
+       "a": "Yes — both quantities were multiplied by 2, so every cup has the same amount of mix."
+      },
+      {
+       "q": "How many scoops for 3 cups?",
+       "a": "6 scoops."
+      }
+     ]
+    },
+    {
+     "guide": "In clear cups, mix 1 drop : 5 tbsp water and 2 drops : 10 tbsp; then 2 drops : 5 tbsp. The child records colors in a table and explains which match.",
+     "questions": [
+      {
+       "q": "Will 2 drops in 5 tbsp look the same as 1 drop in 5 tbsp?",
+       "a": "No — it will be darker, because there is more coloring per tablespoon of water (2:5 is not equivalent to 1:5)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently, then discuss part-to-part vs. part-to-whole using the family as an example.",
+     "questions": [
+      {
+       "q": "A class has 7 girls and 5 boys. Write a part-to-part and a part-to-whole ratio.",
+       "a": "Part-to-part: girls to boys 7:5. Part-to-whole: girls to all students 7:12."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz sample: picture of 4 triangles and 6 circles. 1) triangles to circles = 4:6 (or 2:3) 2) circles to triangles = 6:4 (3:2) 3) circles to all shapes = 6:10 (3:5) 4) 'For every 3 cups flour there are 2 cups sugar' — sugar to flour = 2:3 5) part-to-part compares two parts (boys:girls); part-to-whole compares a part to the total (boys:all students). Lab rubric: 4 = data table with both ratios, observation that 1:5 and 2:10 match in color, explanation that both quantities were doubled; 3 = table and match noted, explanation thin; 2 = incomplete data; 1 = no explanation."
+  },
+  {
+   "week": 6,
+   "prep": "Gather: grid paper, grocery receipts. Look for receipts showing several identical items (e.g., 3 cans).",
+   "misconceptions": [
+    "Adding the same number to both quantities (3:4 → 5:6) instead of multiplying. Show with a drink recipe that adding changes the taste.",
+    "Uneven tick marks on a double number line. Both lines must use equally spaced ticks that line up."
+   ],
+   "days": [
+    {
+     "guide": "Model making 3:4 into 6:8 and 9:12 by multiplying both numbers by the same number. The child lists five equivalent ratios and checks the 6 lists.",
+     "questions": [
+      {
+       "q": "List four ratios equivalent to 3:4.",
+       "a": "Examples: 6:8, 9:12, 12:16, 15:20."
+      },
+      {
+       "q": "Are 3:5 and 5:7 equivalent?",
+       "a": "No — you can't multiply both 3 and 5 by the same number to get 5 and 7."
+      }
+     ]
+    },
+    {
+     "guide": "Draw two parallel lines, miles on top and minutes below, with ticks at 0, 1, 2, 3... miles and 0, 15, 30, 45... minutes. The child answers the 6 questions from the diagram.",
+     "questions": [
+      {
+       "q": "Walking 2 miles in 30 minutes, how long for 5 miles?",
+       "a": "75 minutes (15 minutes per mile)."
+      },
+      {
+       "q": "How far in 45 minutes?",
+       "a": "3 miles."
+      }
+     ]
+    },
+    {
+     "guide": "Find a receipt item bought in multiples (or invent: 3 cans for $2.40). The child builds a double number line for cost and quantity and finds cost of 1, 5 and 12 items.",
+     "questions": [
+      {
+       "q": "3 cans cost $2.40. What do 1, 5 and 12 cans cost?",
+       "a": "$0.80, $4.00 and $9.60."
+      }
+     ]
+    },
+    {
+     "guide": "Time the child walking 20 steps. Build a double number line (steps vs. seconds) and predict 60 and 100 steps, then test one.",
+     "questions": [
+      {
+       "q": "If 20 steps take 12 seconds, how long for 60 steps? 100 steps?",
+       "a": "36 seconds and 60 seconds."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; the child corrects errors in a different color and says what went wrong.",
+     "questions": [
+      {
+       "q": "Is 9:12 equivalent to 12:16?",
+       "a": "Yes — both simplify to 3:4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) four ratios equivalent to 5:2 — 10:4, 15:6, 20:8, 25:10 2) Is 7:3 equivalent to 14:6? Yes (×2) 3) 7:3 and 10:6? No 4) 3 lb cost $7.50: 1 lb = $2.50, 6 lb = $15 5) 4 km in 50 min at the same pace: 12 km takes 150 min 6) 9:12 and 12:16 are equivalent (both = 3:4)."
+  },
+  {
+   "week": 7,
+   "prep": "Gather: graph paper, Desmos (optional). Desmos is optional for plotting on Day 2.",
+   "misconceptions": [
+    "Filling a table by adding across rows inconsistently. Check each row by asking 'what did I multiply by?'",
+    "Comparing ratios by looking at only one number. Build a common row (same amount of one quantity) before comparing."
+   ],
+   "days": [
+    {
+     "guide": "Turn a double number line into a two-column table. Show scaling up (×3) and down (÷4) in a table, then the child fills the 8 tables.",
+     "questions": [
+      {
+       "q": "Flour : sugar is 4 : 3. How much sugar with 12 cups flour?",
+       "a": "9 cups sugar (×3)."
+      },
+      {
+       "q": "How much flour with 5 cups sugar?",
+       "a": "6⅔ cups (each cup of sugar goes with 4/3 cup flour; 5 × 4/3 = 20/3)."
+      }
+     ]
+    },
+    {
+     "guide": "Plot rice:water pairs (1,2), (2,4), (3,6) with rice on the x-axis. Ask what the points have in common; extend the line to (0,0).",
+     "questions": [
+      {
+       "q": "Rice to water is 1:2. Name another point on the line and explain why it passes through (0,0).",
+       "a": "(5, 10), or any (x, 2x). Zero cups of rice needs zero cups of water."
+      }
+     ]
+    },
+    {
+     "guide": "Present two runners: A runs 400 m in 80 s, B runs 300 m in 50 s. Help the child scale both to a common row (same distance or 1 second), then write a justification.",
+     "questions": [
+      {
+       "q": "Which runner is faster?",
+       "a": "B. A runs 5 m/s; B runs 6 m/s. (At 1,200 m: A takes 240 s, B 200 s.)"
+      }
+     ]
+    },
+    {
+     "guide": "Let the child work the 6 multi-step problems, requiring a labeled table for each. Ask them to explain one table aloud.",
+     "questions": [
+      {
+       "q": "Lemonade uses 3 cups lemon juice for every 5 cups water. With 20 cups water, how much juice and how much lemonade total?",
+       "a": "12 cups juice; 32 cups total."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently, then check the graph for labeled axes and evenly spaced scales.",
+     "questions": [
+      {
+       "q": "Fill in: 2:7 = 6:__ = __:35.",
+       "a": "6:21 and 10:35."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) table for 2:7 — 4:14, 6:21, 10:35, 1:3.5 2) points (2,7), (4,14), (6,21) lie on a line through (0,0) 3) Paint A: 3 cups blue to 5 cups yellow; Paint B: 4 cups blue to 6 cups yellow. Blue per cup of yellow: A = 0.6, B ≈ 0.67, so B is bluer 4) Runner who goes 100 m in 20 s (5 m/s) is slower than one who goes 150 m in 25 s (6 m/s) 5) 3 cups lemon juice per 5 cups water: 20 cups water → 12 cups juice."
+  },
+  {
+   "week": 8,
+   "prep": "Gather: paper strips, trail-mix ingredients. Substitute seeds or cereal for nuts if there are allergies.",
+   "misconceptions": [
+    "Dividing the total by one of the ratio numbers instead of the total number of parts. For 2:3 with 30 students, there are 5 equal parts, so each part is 6.",
+    "Treating the ratio numbers as the actual amounts. 3:2 for 2 cups doesn't mean 3 cups nuts."
+   ],
+   "days": [
+    {
+     "guide": "Model: boys to girls 2:3, 30 students. Draw a tape with 2 boy boxes and 3 girl boxes; 5 boxes = 30, so each box is 6. The child solves the 8 problems with tapes.",
+     "questions": [
+      {
+       "q": "Boys to girls is 2:3 and there are 30 students. How many of each?",
+       "a": "12 boys and 18 girls."
+      },
+      {
+       "q": "Red to white paint is 4:1 and the mix is 40 liters. How much red?",
+       "a": "32 liters (5 parts of 8 L; red = 4 parts)."
+      }
+     ]
+    },
+    {
+     "guide": "Before measuring, the child draws a 5-part tape for 2 cups total: 3 nuts parts, 2 raisin parts. Then measure and mix.",
+     "questions": [
+      {
+       "q": "Trail mix is 3:2 nuts to raisins, 2 cups total. How much of each?",
+       "a": "Each part = 0.4 cup: 1.2 cups nuts, 0.8 cup raisins."
+      }
+     ]
+    },
+    {
+     "guide": "Solve one problem three ways together, then the child does the other 3 and writes which method was fastest and why.",
+     "questions": [
+      {
+       "q": "Which representation is often fastest when you know the total of both parts?",
+       "a": "The tape diagram, because it shows the total split into equal parts."
+      }
+     ]
+    },
+    {
+     "guide": "Assign the mixed review set; spot-check one problem from each type and have the child explain a tricky one.",
+     "questions": [
+      {
+       "q": "There are 4 cats for every 3 dogs at a shelter and 12 more cats than dogs. How many cats?",
+       "a": "48 cats (the difference of 1 part = 12; cats are 4 parts = 48, dogs 36)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 2 test independently; afterward the child writes a 3–4 sentence reflection on their favorite strategy.",
+     "questions": [
+      {
+       "q": "Blue:yellow paint is 2:3 and the batch is 15 cups. How much blue?",
+       "a": "6 cups (5 parts of 3 cups; blue = 2 parts)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 2 test sample key: 1) 12 apples, 8 oranges: apples to oranges 12:8 = 3:2; oranges to fruit 8:20 = 2:5 2) equivalent to 4:9 — 8:18, 12:27 3) 5 lb for $8 → 15 lb for $24 4) table 3:4 → 6:8, 9:12, 15:20 5) points (3,4), (6,8) are on a line through origin 6) boys:girls 4:5, 36 students → 16 boys, 20 girls 7) blue:yellow 2:3, 15 cups total → 6 blue, 9 yellow 8) Recipe A 2 cups juice : 3 cups water vs B 3 : 5 — A is stronger (0.67 vs 0.6 juice per cup water). Reflection: names a strategy and why."
+  },
+  {
+   "week": 9,
+   "prep": "Gather: ruler with inches and cm, measuring cups and a liter bottle, bathroom scale. Have a phone timer ready for Day 4; know that 1 in = 2.54 cm exactly.",
+   "misconceptions": [
+    "Thinking a bigger number always means a bigger length. In smaller units (cm), the same object gets a bigger number.",
+    "Multiplying when you should divide in a conversion. Ask: 'Should the answer be more or fewer units?'"
+   ],
+   "days": [
+    {
+     "guide": "Measure a book in inches and centimeters and a mug in cups and milliliters. Ask why the cm number is bigger; the child records and explains.",
+     "questions": [
+      {
+       "q": "A pencil is about 7 inches long. Will its length in centimeters be a bigger or smaller number? Why?",
+       "a": "Bigger (about 17.8 cm), because centimeters are smaller units, so more of them fit."
+      }
+     ]
+    },
+    {
+     "guide": "Set up a ratio table with inches and cm (1 : 2.54). The child converts the 12 measurements, scaling the table up and down.",
+     "questions": [
+      {
+       "q": "Convert 12 inches to cm.",
+       "a": "30.48 cm (12 × 2.54)."
+      },
+      {
+       "q": "Convert 5 feet to inches, then to cm.",
+       "a": "60 inches; 152.4 cm."
+      }
+     ]
+    },
+    {
+     "guide": "Ask: 'If 4 cups make 3 servings, how much water per serving? How many servings per cup?' Divide both ways and discuss when each helps.",
+     "questions": [
+      {
+       "q": "Find both unit rates for 4 cups of water : 3 servings.",
+       "a": "1⅓ cups per serving, and ¾ serving per cup."
+      },
+      {
+       "q": "How much water for 12 servings?",
+       "a": "16 cups."
+      }
+     ]
+    },
+    {
+     "guide": "Time filling the liter bottle. The child converts seconds to minutes and finds both unit rates.",
+     "questions": [
+      {
+       "q": "A 1-liter bottle fills in 15 seconds. Find liters per minute and minutes per liter.",
+       "a": "4 liters per minute; 0.25 (¼) minute per liter."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently and review any conversion where they multiplied instead of divided.",
+     "questions": [
+      {
+       "q": "Convert 50.8 cm to inches.",
+       "a": "20 inches (50.8 ÷ 2.54)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 3 ft = 36 in 2) 10 in = 25.4 cm 3) 50.8 cm = 20 in 4) $6 for 4 lb → $1.50 per lb and ⅔ lb per dollar 5) 150 miles in 3 hours → 50 mph 6) 2 yd = 6 ft = 72 in 7) 8 cups = 2 quarts (4 cups per quart)."
+  },
+  {
+   "week": 10,
+   "prep": "Gather: store flyer or online grocery prices, stopwatch, tape measure. Find prices for 6 pairs of different-size items; mark a 20-meter course outside before Day 2.",
+   "misconceptions": [
+    "Dividing in the wrong order for unit price (ounces ÷ dollars instead of dollars ÷ ounces). Label units: $ per oz means $ ÷ oz.",
+    "Assuming the bigger package is always the better buy. Compute the unit price first."
+   ],
+   "days": [
+    {
+     "guide": "Model a table: hours 1, 2, 3 vs. miles 12, 24, 36. The child solves the 8 problems, labeling every column.",
+     "questions": [
+      {
+       "q": "A cyclist rides 12 mph. How far in 2.5 hours? How long to ride 42 miles?",
+       "a": "30 miles; 3.5 hours."
+      }
+     ]
+    },
+    {
+     "guide": "Time the child walking, jogging and hopping 20 m. They compute m/s = 20 ÷ seconds and rank speeds.",
+     "questions": [
+      {
+       "q": "If walking 20 m takes 16 seconds, what is the speed?",
+       "a": "1.25 meters per second."
+      }
+     ]
+    },
+    {
+     "guide": "For each pair, divide price by size to get a unit price; round to the nearest cent and decide.",
+     "questions": [
+      {
+       "q": "18 oz cereal for $4.50 or 12 oz for $3.24 — which is the better buy?",
+       "a": "18 oz: $0.25/oz vs. $0.27/oz."
+      }
+     ]
+    },
+    {
+     "guide": "Let the child solve the mixed problems, then explain one to a family member using units ('pages per minute').",
+     "questions": [
+      {
+       "q": "A heart beats 18 times in 15 seconds. How many beats per minute?",
+       "a": "72 beats per minute (18 × 4)."
+      },
+      {
+       "q": "48 pages in 60 minutes is how many pages per minute?",
+       "a": "0.8 page per minute."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the lab table.",
+     "questions": [
+      {
+       "q": "A car goes 195 miles in 3 hours. Speed?",
+       "a": "65 miles per hour."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 12 mph for 2.5 hours → 30 miles 2) 42 miles at 12 mph → 3.5 hours 3) 18 oz for $4.50 ($0.25/oz) vs 12 oz for $3.24 ($0.27/oz) → 18 oz is the better buy 4) 300 m in 60 s → 5 m/s 5) 3 lb for $5.97 → $1.99/lb. Lab table: each trial lists distance (20 m), time and m/s = 20 ÷ time."
+  },
+  {
+   "week": 11,
+   "prep": "Gather: 10 x 10 grids, store sale ads. Print several 10 × 10 grids; clip 2–3 sale ads showing percent-off deals.",
+   "misconceptions": [
+    "Thinking percents can't exceed 100. 120% means 1.2 times the whole — show two grids.",
+    "Finding the discount but forgetting to subtract it to get the sale price."
+   ],
+   "days": [
+    {
+     "guide": "Shade 25 squares of a 10 × 10 grid and say '25 out of 100 = 25% = 0.25 = ¼'. The child shades 40%, 7% and 120% (one full grid plus 20 squares).",
+     "questions": [
+      {
+       "q": "Write 25% as a fraction and a decimal.",
+       "a": "25/100 = ¼ = 0.25."
+      },
+      {
+       "q": "What does 120% of a quantity mean?",
+       "a": "1.2 times it — the whole plus 20% more."
+      }
+     ]
+    },
+    {
+     "guide": "Teach 10% by dividing by 10, 50% by halving, 25% by halving twice, 75% as 3 × 25%. Practice with a double number line 0–100%.",
+     "questions": [
+      {
+       "q": "Find 10% of 80, 25% of 60 and 75% of 40.",
+       "a": "8, 15 and 30."
+      }
+     ]
+    },
+    {
+     "guide": "Model 35% of $80 = 10% ($8) × 3 + 5% ($4) = $28, and with a table. The child solves the 10 problems.",
+     "questions": [
+      {
+       "q": "Find 35% of $80 and 15% of 60 minutes.",
+       "a": "$28 and 9 minutes."
+      }
+     ]
+    },
+    {
+     "guide": "Use real ads: find the discount, then subtract. Then compute a 15% tip as 10% + 5%.",
+     "questions": [
+      {
+       "q": "A $45 shirt is 20% off. Sale price?",
+       "a": "$36 (discount $9)."
+      },
+      {
+       "q": "15% tip on a $32 bill?",
+       "a": "$4.80, total $36.80."
+      }
+     ]
+    },
+    {
+     "guide": "Give the percent quiz independently.",
+     "questions": [
+      {
+       "q": "What is 120% of 50?",
+       "a": "60."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 40% = 40/100 = 2/5 = 0.4 2) 7% = 0.07 3) 10% of 250 = 25 4) 25% of 64 = 16 5) 75% of 40 = 30 6) 35% of $80 = $28 7) $45 item 20% off → $36 8) 15% tip on $32 = $4.80 9) 120% of 50 = 60."
+  },
+  {
+   "week": 12,
+   "prep": "Gather: phone or tablet battery indicator, nutrition labels. Pick 2–3 food packages whose labels list total carbohydrates and sugars.",
+   "misconceptions": [
+    "Multiplying the part by the percent instead of finding the whole. Use a tape: if 30% is 12, then 10% is 4 and 100% is 40.",
+    "Writing 'what percent' answers as a fraction or decimal without converting to per 100."
+   ],
+   "days": [
+    {
+     "guide": "Model '12 is 30% of what?' with a tape of 10 boxes (10% each): 3 boxes = 12, so 1 box = 4 and 10 boxes = 40. The child solves 10 problems.",
+     "questions": [
+      {
+       "q": "12 is 30% of what number?",
+       "a": "40."
+      },
+      {
+       "q": "45 is 75% of what number?",
+       "a": "60 (25% = 15, so 100% = 60)."
+      }
+     ]
+    },
+    {
+     "guide": "Pick a label and find, e.g., sugar as a percent of total carbohydrates: part ÷ whole × 100.",
+     "questions": [
+      {
+       "q": "A snack has 9 g sugar out of 36 g carbohydrates. What percent is sugar?",
+       "a": "25%."
+      }
+     ]
+    },
+    {
+     "guide": "Use the device: 'If 40% battery lasts 8 hours, how long would 100% last?' and download bars 'how many MB at 25%?'",
+     "questions": [
+      {
+       "q": "A phone at 40% has 8 hours left. How long would a full charge last at that rate?",
+       "a": "20 hours."
+      },
+      {
+       "q": "A 600 MB download is 25% done. How many MB have downloaded?",
+       "a": "150 MB."
+      }
+     ]
+    },
+    {
+     "guide": "Assign the mixed review and check the child labels units on every answer.",
+     "questions": [
+      {
+       "q": "A runner goes 3 miles in 27 minutes. Minutes per mile?",
+       "a": "9 minutes per mile."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 3 test; the child corrects missed problems.",
+     "questions": [
+      {
+       "q": "18 is what percent of 72?",
+       "a": "25%."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 3 test sample key: 1) 12 is 30% of 40 2) 45 is 75% of 60 3) 9 is what percent of 36? 25% 4) 5 lb for $7.50 → $1.50/lb 5) 6 ft = 72 in 6) 300 miles in 5 hours = 60 mph; 210 miles at that speed takes 3.5 h 7) 40% of 85 = 34 8) a $60 jacket at 25% off = $45 9) 16 oz for $4 vs 24 oz for $5.52: $0.25 vs $0.23 per oz → 24 oz better."
+  },
+  {
+   "week": 13,
+   "prep": "Gather: fraction strips, measuring cups. Check your measuring-cup set includes ¼ cup; a ¾ cup can be made with ½ + ¼.",
+   "misconceptions": [
+    "Believing division always makes a number smaller. Dividing by a number less than 1 gives a quotient larger than the dividend.",
+    "Ignoring the remainder as a fraction of a group: in 2 ÷ ¾ the leftover ½ is ⅔ of a ¾-group, not ½."
+   ],
+   "days": [
+    {
+     "guide": "Write 12 ÷ 6, 12 ÷ 3, 12 ÷ 1, 12 ÷ ½. Have the child predict, compute, and state the pattern.",
+     "questions": [
+      {
+       "q": "What is 12 ÷ ½? Why is it bigger than 12?",
+       "a": "24. There are two halves in each whole, so 24 halves in 12. Dividing by a number less than 1 gives a quotient greater than the dividend."
+      }
+     ]
+    },
+    {
+     "guide": "Model two stories for 6 ÷ 2: '6 cookies, 2 per bag — how many bags?' and '6 cookies into 2 bags — how many per bag?'. The child writes and draws both.",
+     "questions": [
+      {
+       "q": "Write a 'how many groups' story for 6 ÷ 2.",
+       "a": "Example: 6 feet of rope cut into 2-foot pieces — how many pieces? 3."
+      }
+     ]
+    },
+    {
+     "guide": "Fill a 3-cup container with ¼-cup scoops, counting; then with ¾-cup scoops.",
+     "questions": [
+      {
+       "q": "How many ¼ cups are in 3 cups? How many ¾ cups?",
+       "a": "3 ÷ ¼ = 12 and 3 ÷ ¾ = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a tape of 2 wholes split into fourths; circle groups of ¾. Show 2 full groups and ⅔ of another.",
+     "questions": [
+      {
+       "q": "2 ÷ ¾ = ?",
+       "a": "2⅔ — two full groups of ¾ use 1½, and the leftover ½ is ⅔ of a ¾-group."
+      }
+     ]
+    },
+    {
+     "guide": "Give the matching quiz independently.",
+     "questions": [
+      {
+       "q": "How many ⅓-cup scoops are in 2 cups?",
+       "a": "6."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (match equation–diagram–story): 1) 3 ÷ ¼ = 12 2) 3 ÷ ¾ = 4 3) 2 ÷ ¾ = 2⅔ 4) 6 ÷ ½ = 12 5) 'How many ⅓-cup scoops in 2 cups?' → 2 ÷ ⅓ = 6 6) '5 lb shared equally into 2 bags' → 5 ÷ 2 = 2½ lb each 7) 1½ ÷ ½ = 3."
+  },
+  {
+   "week": 14,
+   "prep": "Gather: fraction strips, grid paper. Work 2/3 ÷ 1/6 yourself with fraction strips before Day 4 so you can model it.",
+   "misconceptions": [
+    "Flipping the first fraction (dividend) instead of the divisor. Only the divisor is replaced by its reciprocal: a/b ÷ c/d = a/b × d/c.",
+    "Forgetting to convert mixed numbers to improper fractions before using the reciprocal."
+   ],
+   "days": [
+    {
+     "guide": "Model: '¾ lb fills ½ bag; how much fills the whole bag?' Draw a tape: half the bag = ¾, so the whole = 2 × ¾ = 1½. The child solves 6 problems with tapes.",
+     "questions": [
+      {
+       "q": "¾ pound fills ½ a bag. How much fills a whole bag?",
+       "a": "1½ pounds."
+      },
+      {
+       "q": "2½ liters fills ⅚ of a tank. How much fills the whole tank?",
+       "a": "3 liters (each sixth holds ½ L)."
+      }
+     ]
+    },
+    {
+     "guide": "Compute 2 ÷ ⅓ (6), 5 ÷ ⅓ (15) and compare with 2 × 3 and 5 × 3. The child tests 10 examples and states the pattern.",
+     "questions": [
+      {
+       "q": "What is 5 ÷ ⅓? What is the shortcut?",
+       "a": "15. Dividing by ⅓ is the same as multiplying by 3."
+      }
+     ]
+    },
+    {
+     "guide": "Teach: keep the first fraction, multiply by the reciprocal of the second. Show checking: quotient × divisor = dividend.",
+     "questions": [
+      {
+       "q": "Compute ¾ ÷ ⅖.",
+       "a": "15/8 = 1⅞. Check: 15/8 × 2/5 = 30/40 = ¾."
+      },
+      {
+       "q": "Compute 2½ ÷ 1¼.",
+       "a": "5/2 × 4/5 = 2."
+      }
+     ]
+    },
+    {
+     "guide": "Ask how many ⅙ fit in ⅔ using fraction strips; then show a sample wrong answer (3/2 × ⅙ = ¼) and have the child critique it.",
+     "questions": [
+      {
+       "q": "Why is ⅔ ÷ ⅙ = 4?",
+       "a": "⅔ = 4/6, so four ⅙-pieces fit in ⅔."
+      },
+      {
+       "q": "A student wrote ⅔ ÷ ⅙ = 3/2 × ⅙ = ¼. What went wrong?",
+       "a": "They flipped the dividend instead of the divisor. Correct: ⅔ × 6/1 = 4."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz, including one written explanation.",
+     "questions": [
+      {
+       "q": "Compute 4 ÷ ⅔.",
+       "a": "6."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) ½ ÷ ⅛ = 4 2) ⅗ ÷ 3/10 = 2 3) ⅚ ÷ ⅔ = 5/4 = 1¼ 4) 4 ÷ ⅔ = 6 5) 1¾ ÷ ½ = 3½ 6) 2⅔ ÷ 1⅓ = 2 7) ⅞ ÷ 3 = 7/24 8) 9/10 ÷ ⅗ = 3/2 = 1½. Written explanation: 4 = diagram plus clear reasoning (e.g., ⅔ = 4/6, so four ⅙-pieces), 3 = correct with minor gaps, 2 = computation only, 1 = incorrect."
+  },
+  {
+   "week": 15,
+   "prep": "Gather: ribbon or string, ruler, recipe card. Mark a 4½-yard length of ribbon or string for Day 1 (a yardstick helps).",
+   "misconceptions": [
+    "Writing the division backwards (⅜ ÷ 4½). Ask: 'What is being split up (the total), and what is the size of each piece?' Total goes first.",
+    "Rounding a 'how many pieces' answer up when partial pieces don't count."
+   ],
+   "days": [
+    {
+     "guide": "Measure ribbon to show the problem concretely, then compute 4½ ÷ ⅜. The child solves 6 similar problems.",
+     "questions": [
+      {
+       "q": "How many ⅜-yard pieces can be cut from 4½ yards?",
+       "a": "12 (9/2 × 8/3 = 12)."
+      }
+     ]
+    },
+    {
+     "guide": "Review A = l × w, so w = A ÷ l. Model area 2½, width ¾.",
+     "questions": [
+      {
+       "q": "A rectangle has area 2½ sq ft and width ¾ ft. Find the length.",
+       "a": "3⅓ ft (5/2 × 4/3 = 10/3)."
+      }
+     ]
+    },
+    {
+     "guide": "Ask: 'If the recipe needs ⅔ cup and we only have a ½-cup scoop, how many scoops?' The child solves 5 recipe problems.",
+     "questions": [
+      {
+       "q": "How many ½-cup scoops make ⅔ cup?",
+       "a": "1⅓ scoops."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes three fraction-division stories and an answer key; a family member solves them and the child checks.",
+     "questions": [
+      {
+       "q": "Solve: 5 cups of soup poured into ⅔-cup bowls. How many bowls?",
+       "a": "7½ bowls (5 × 3/2)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the word-problem quiz.",
+     "questions": [
+      {
+       "q": "Jo walked ¾ mile, which is ⅗ of her route. How long is the route?",
+       "a": "1¼ miles."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 6 ÷ ¾ = 8 2) 3¾ ÷ ¼ = 15 3) ⅝ ÷ ¼ = 2½ 4) area 4½ sq ft, length 1½ ft → width 3 ft 5) 2¼ lb shared by 3 people → ¾ lb each 6) Jo walked ¾ mile, which is ⅗ of her route → route = ¾ ÷ ⅗ = 1¼ miles."
+  },
+  {
+   "week": 16,
+   "prep": "Gather: small box, 1/2-inch cubes or sugar cubes, ruler. Choose a small box whose edges are whole or half inches. Sugar cubes are roughly ½ inch, so counts will be approximate.",
+   "misconceptions": [
+    "Thinking a ½-inch cube has volume ½ cubic inch. It's ½ × ½ × ½ = ⅛ cubic inch; 8 fit in a 1-inch cube.",
+    "Confusing B (area of the base) with b (a base length)."
+   ],
+   "days": [
+    {
+     "guide": "Pack the box with ½-inch cubes, counting rows × columns × layers. Show the count × ⅛ = l × w × h.",
+     "questions": [
+      {
+       "q": "A box is 2 in × 1½ in × 1 in. How many ½-inch cubes fill it, and what is its volume?",
+       "a": "4 × 3 × 2 = 24 cubes; 24 × ⅛ = 3 cubic inches = 2 × 1½ × 1."
+      }
+     ]
+    },
+    {
+     "guide": "Model V = lwh and V = Bh where B is the base area. The child computes the 10 volumes.",
+     "questions": [
+      {
+       "q": "Find the volume of a prism 2½ × 3 × 1½.",
+       "a": "11¼ cubic units."
+      },
+      {
+       "q": "A prism's base has area 10½ sq in and height 2 in. Volume?",
+       "a": "21 cubic inches."
+      }
+     ]
+    },
+    {
+     "guide": "Write V = l × w × h with a blank; multiply the known edges and divide.",
+     "questions": [
+      {
+       "q": "Volume 30 cu in, length 4 in, width 2½ in. Height?",
+       "a": "3 in (30 ÷ 10)."
+      }
+     ]
+    },
+    {
+     "guide": "Assign the mixed review plus a garden-bed design: the child chooses dimensions and computes soil needed.",
+     "questions": [
+      {
+       "q": "A garden bed is 6 ft × 2½ ft × ¾ ft. How much soil fills it?",
+       "a": "11¼ cubic feet."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 4 test, then a short reflection on the two meanings of division.",
+     "questions": [
+      {
+       "q": "How many ½-inch cubes fill a 1-inch cube?",
+       "a": "8."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 4 test sample key: 1) ¾ ÷ ⅜ = 2 2) 5 ÷ ⅚ = 6 3) 2⅓ ÷ ⅔ = 3½ 4) prism 2½ × 3 × 1½ → 11¼ cubic units 5) volume 30, l = 4, w = 2½ → h = 3 6) how many ½-in cubes fill a 2 × 1 × 1 in box? 16 7) 3½ yards cut into ½-yard pieces → 7 8) garden bed 6 × 2½ × ¾ ft → 11¼ cu ft. Reflection names 'how many groups' or 'how much in one group'."
+  },
+  {
+   "week": 17,
+   "prep": "Gather: base-ten blocks or grid paper, receipts. Write a 4–5 item shopping list with prices for Day 1.",
+   "misconceptions": [
+    "Lining up the last digits instead of the decimal points when adding. Write zeros as placeholders (4.5 → 4.50).",
+    "Placing the decimal in a product by lining it up. Count total decimal places in the factors (0.3 × 0.4 has 2 → 0.12)."
+   ],
+   "days": [
+    {
+     "guide": "Write a shopping list with prices; stack decimals vertically on graph paper, then find change from $50.",
+     "questions": [
+      {
+       "q": "Items cost $12.49, $3.75 and $8.06. Total and change from $50?",
+       "a": "Total $24.30; change $25.70."
+      }
+     ]
+    },
+    {
+     "guide": "Model 10.05 − 3.7 by writing 3.70 and regrouping. The child solves 20 problems.",
+     "questions": [
+      {
+       "q": "Compute 6 − 2.348.",
+       "a": "3.652 (write 6.000)."
+      },
+      {
+       "q": "Compute 10.05 − 3.7.",
+       "a": "6.35."
+      }
+     ]
+    },
+    {
+     "guide": "Shade a 10 × 10 grid: 3 tenths one way, 4 tenths the other; overlap = 12 hundredths. Then teach counting decimal places.",
+     "questions": [
+      {
+       "q": "Compute 0.3 × 0.4 and explain the decimal placement.",
+       "a": "0.12 — 3/10 × 4/10 = 12/100."
+      },
+      {
+       "q": "Compute 0.07 × 0.5.",
+       "a": "0.035."
+      }
+     ]
+    },
+    {
+     "guide": "Work the fabric problem; the child solves 5 similar ones and rounds money to the nearest cent.",
+     "questions": [
+      {
+       "q": "Fabric is $4.75 per yard. Cost of 2.5 yards?",
+       "a": "$11.875 → $11.88."
+      }
+     ]
+    },
+    {
+     "guide": "Give the decimal quiz.",
+     "questions": [
+      {
+       "q": "Compute 2.5 × 1.6.",
+       "a": "4 (4.00)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 3.6 + 4.85 = 8.45 2) 12.4 − 5.67 = 6.73 3) 7 − 0.125 = 6.875 4) 0.6 × 0.8 = 0.48 5) 3.2 × 1.5 = 4.8 6) 0.04 × 0.3 = 0.012 7) 2.25 × 4 = 9 8) 1.75 × 12.6 = 22.05."
+  },
+  {
+   "week": 18,
+   "prep": "Gather: graph paper for aligning digits. Day 5 is the semester-1 review — glance back at the weeks 1–17 tests to see which skills need refreshing.",
+   "misconceptions": [
+    "Forgetting to write a 0 in the quotient when a divisor doesn't go into a partial dividend.",
+    "Moving the decimal in the divisor but not the dividend. Both must be multiplied by the same power of 10."
+   ],
+   "days": [
+    {
+     "guide": "Model 864 ÷ 24 with partial quotients (24 × 30 = 720, remainder 144 = 24 × 6 → 36), then the standard algorithm side by side.",
+     "questions": [
+      {
+       "q": "Compute 864 ÷ 24.",
+       "a": "36."
+      }
+     ]
+    },
+    {
+     "guide": "Practice divide–multiply–subtract–bring down, checking each by multiplying.",
+     "questions": [
+      {
+       "q": "Compute 7,392 ÷ 16.",
+       "a": "462 (check: 16 × 462 = 7,392)."
+      },
+      {
+       "q": "Compute 1,035 ÷ 23.",
+       "a": "45."
+      }
+     ]
+    },
+    {
+     "guide": "Show 4.56 ÷ 1.2 becomes 45.6 ÷ 12 by multiplying both by 10. The child solves 12 problems.",
+     "questions": [
+      {
+       "q": "Compute 7.2 ÷ 0.08.",
+       "a": "90 (720 ÷ 8)."
+      },
+      {
+       "q": "Compute 4.56 ÷ 1.2.",
+       "a": "3.8."
+      }
+     ]
+    },
+    {
+     "guide": "Work the bill problem together, then the child solves the rest and checks reasonableness by estimating.",
+     "questions": [
+      {
+       "q": "Split $47.85 equally among 3 people.",
+       "a": "$15.95 each."
+      },
+      {
+       "q": "312.6 miles on 12 gallons — miles per gallon?",
+       "a": "26.05 mpg."
+      }
+     ]
+    },
+    {
+     "guide": "Give the cumulative quiz; review weak areas next week.",
+     "questions": [
+      {
+       "q": "Compute 9.12 ÷ 0.24.",
+       "a": "38."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Semester 1 cumulative quiz key: 1) triangle b = 10, h = 7 → 35 2) boys:girls 3:5, 40 students → 15 boys, 25 girls 3) 30% of 90 = 27 4) 18 is 40% of 45 5) ¾ ÷ ⅛ = 6 6) 2⅖ ÷ ⅗ = 4 7) 6.3 × 0.4 = 2.52 8) 9.12 ÷ 0.24 = 38 9) $3.60 for 8 oz → $0.45/oz 10) prism 2 × 3 × 4: SA = 52 sq units, V = 24 cubic units."
+  },
+  {
+   "week": 19,
+   "prep": "Gather: colored tiles, grid paper. Have colored square tiles or cut paper squares for the Day 1 tiling problem.",
+   "misconceptions": [
+    "Mixing up GCF and LCM. GCF is the biggest number that divides both (splitting into equal groups); LCM is the smallest number both divide into (when things line up again).",
+    "Factoring out a common factor that isn't the greatest (36 + 8 = 2(18 + 4)). Correct but not fully factored — ask 'can the numbers in the parentheses still share a factor?'"
+   ],
+   "days": [
+    {
+     "guide": "Draw a 24 × 36 rectangle. Try 4×4, 6×6 and 12×12 tiles; ask which is the largest that fits exactly with no gaps. Connect to listing factors of both numbers, then the child finds GCF for 10 pairs.",
+     "questions": [
+      {
+       "q": "What is the largest square tile that exactly covers a 24 × 36 rectangle, and how many tiles?",
+       "a": "12 × 12 tiles; 2 × 3 = 6 tiles (GCF of 24 and 36 is 12)."
+      },
+      {
+       "q": "Find GCF(18, 30) and GCF(42, 56).",
+       "a": "6 and 14."
+      }
+     ]
+    },
+    {
+     "guide": "List multiples of 10 (10, 20, 30, 40…) and of 8 (8, 16, 24, 32, 40…) to find the first match. The child solves the hot-dog problems and 10 LCM pairs.",
+     "questions": [
+      {
+       "q": "Hot dogs come in packs of 10, buns in packs of 8. Fewest of each to have equal numbers?",
+       "a": "40 of each: 4 packs of hot dogs, 5 packs of buns."
+      },
+      {
+       "q": "LCM(6, 9)?",
+       "a": "18."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the cue: splitting into identical groups → GCF; events repeating and lining up → LCM. The child sorts and solves 8 problems.",
+     "questions": [
+      {
+       "q": "24 pencils and 36 erasers go into identical kits with none left. Most kits?",
+       "a": "12 kits (GCF), each with 2 pencils and 3 erasers."
+      },
+      {
+       "q": "One bus comes every 12 minutes and another every 18. Both leave now; when together again?",
+       "a": "In 36 minutes (LCM)."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a rectangle of area 36 + 8 split into two parts with a common height of 4 (4 × 9 and 4 × 2). Write 36 + 8 = 4(9 + 2) and have the child rewrite sums using the GCF.",
+     "questions": [
+      {
+       "q": "Rewrite 24 + 60 using the GCF.",
+       "a": "12(2 + 5)."
+      },
+      {
+       "q": "Rewrite 36 + 8 using the GCF and check.",
+       "a": "4(9 + 2) = 4 × 11 = 44 = 36 + 8."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 5 test independently and review errors together.",
+     "questions": [
+      {
+       "q": "GCF(48, 60) and LCM(6, 8)?",
+       "a": "12 and 24."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 5 test sample key: 1) 4.7 + 12.38 = 17.08 2) 15.2 − 8.75 = 6.45 3) 2.4 × 0.35 = 0.84 4) 1,512 ÷ 24 = 63 5) 8.4 ÷ 0.07 = 120 6) GCF(48, 60) = 12 7) LCM(4, 6) = 12 8) LCM(6, 8) = 24 9) 45 + 30 = 15(3 + 2) 10) 18 cookies and 24 brownies on identical plates with nothing left over: at most 6 plates, each with 3 cookies and 4 brownies."
+  },
+  {
+   "week": 20,
+   "prep": "Gather: index cards. Make index cards: 8 phrases, 8 matching expressions and 8 tape diagrams for the Day 3 game.",
+   "misconceptions": [
+    "Reversing subtraction: '7 less than y' is y − 7, not 7 − y. Test with a number: 7 less than 10 is 3.",
+    "Reading 3x as 'three plus x'. 3x means 3 times x."
+   ],
+   "days": [
+    {
+     "guide": "Model translating with a real number first ('5 more than 3' → 3 + 5) then a variable. The child translates 15 phrases.",
+     "questions": [
+      {
+       "q": "Write expressions: 'x more than 5', 'a number divided by 3', '7 less than y'.",
+       "a": "5 + x; n ÷ 3 (n/3); y − 7."
+      }
+     ]
+    },
+    {
+     "guide": "Label the terms, coefficients and constants in 3x + 5y + 8 together; then the child labels 10 expressions.",
+     "questions": [
+      {
+       "q": "In 3x + 5y + 8, name the terms, coefficients and constant.",
+       "a": "Terms: 3x, 5y, 8. Coefficients: 3 and 5. Constant: 8."
+      },
+      {
+       "q": "Describe 2(x + 5) in words.",
+       "a": "The product of 2 and the sum of x and 5."
+      }
+     ]
+    },
+    {
+     "guide": "Play memory or matching with the cards. When a match is made, the child explains why it fits.",
+     "questions": [
+      {
+       "q": "Which matches 'add 1 to a number, then divide by 4': n/4 + 1 or (n + 1)/4?",
+       "a": "(n + 1)/4 — the parentheses show the adding happens first."
+      }
+     ]
+    },
+    {
+     "guide": "Model substituting: replace the letter with the number in parentheses, then compute.",
+     "questions": [
+      {
+       "q": "Evaluate 3x + 4 when x = 2.5.",
+       "a": "11.5."
+      },
+      {
+       "q": "Evaluate 5(y − 2) when y = 6.",
+       "a": "20."
+      }
+     ]
+    },
+    {
+     "guide": "Give the expression quiz.",
+     "questions": [
+      {
+       "q": "Write an expression for the cost of t tickets at $12 each plus a $5 fee.",
+       "a": "12t + 5."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 8 more than n → n + 8 2) the product of 6 and a number → 6n 3) a number divided by 5 → n/5 4) 3 less than twice x → 2x − 3 5) In 4x + 9: coefficient 4, constant 9, terms 4x and 9 6) 3x + 4 when x = 2.5 → 11.5 7) 10 − 2y when y = 3 → 4 8) (m + 6)/2 when m = 8 → 7 9) cost of t tickets at $12 plus a $5 fee → 12t + 5."
+  },
+  {
+   "week": 21,
+   "prep": "Gather: balance scale or hanger diagram printouts, paper clips. Make a coat-hanger balance with two cups and paper clips, or print hanger diagrams.",
+   "misconceptions": [
+    "Doing different operations to each side. Whatever you do to one side of the balance, you must do to the other.",
+    "Dividing the wrong way: for 3x = 12 some write x = 3/12. Ask 'what times 3 is 12?'"
+   ],
+   "days": [
+    {
+     "guide": "Show that an equation is a statement that can be true or false; substitute values to test. The child tests 10 equations.",
+     "questions": [
+      {
+       "q": "Is x = 4 a solution to 3x + 2 = 14?",
+       "a": "Yes: 3(4) + 2 = 14."
+      },
+      {
+       "q": "Is x = 5 a solution to x + 7 = 13?",
+       "a": "No: 5 + 7 = 12, not 13 (the solution is 6)."
+      }
+     ]
+    },
+    {
+     "guide": "Hang 3 clips plus a 'mystery bag' on one side and 7 clips on the other; remove 3 from each side. Draw the hanger diagram alongside.",
+     "questions": [
+      {
+       "q": "Solve x + 3 = 7 and 3x = 12 using the balance idea.",
+       "a": "x = 4 (remove 3 from both sides); x = 4 (split both sides into 3 equal groups)."
+      }
+     ]
+    },
+    {
+     "guide": "Model subtracting the same amount from both sides, then substituting to check. The child solves 12 problems.",
+     "questions": [
+      {
+       "q": "Solve x + 2.7 = 5.",
+       "a": "x = 2.3."
+      },
+      {
+       "q": "Solve x + ¾ = 2½.",
+       "a": "x = 1¾."
+      }
+     ]
+    },
+    {
+     "guide": "Model dividing both sides by the coefficient (or multiplying by its reciprocal). The child solves 12 and writes stories for two.",
+     "questions": [
+      {
+       "q": "Solve ⅔x = 10.",
+       "a": "x = 15 (multiply both sides by 3/2)."
+      },
+      {
+       "q": "Solve 4x = 9.2.",
+       "a": "x = 2.3."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz; the child must write the equation before solving each word problem.",
+     "questions": [
+      {
+       "q": "5 notebooks cost $13.75. Write and solve an equation for the price of one.",
+       "a": "5n = 13.75; n = $2.75."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) x + 8 = 15 → x = 7 2) y + 4.5 = 9 → y = 4.5 3) 6x = 42 → x = 7 4) 0.5x = 7 → x = 14 5) x + 1.25 = 4 → x = 2.75 6) ¾x = 12 → x = 16 7) 5 notebooks cost $13.75: 5n = 13.75, n = $2.75 8) Maya is 12, which is 3 years older than Leo: L + 3 = 12, L = 9."
+  },
+  {
+   "week": 22,
+   "prep": "Gather: algebra tiles (paper). Cut paper algebra tiles: long rectangles for x, small squares for 1.",
+   "misconceptions": [
+    "Distributing only to the first term: 3(x + 2) = 3x + 2. Draw the area model to show 3 is multiplied by both x and 2.",
+    "Combining unlike terms (2x + 5 = 7x). Only like terms (same variable part) combine."
+   ],
+   "days": [
+    {
+     "guide": "Make a table with x = 0, 1, 5, 10 and evaluate both 3(x + 2) and 3x + 6. Then try 3(x + 2) vs 3x + 2.",
+     "questions": [
+      {
+       "q": "Are 3(x + 2) and 3x + 2 equivalent?",
+       "a": "No — at x = 0 they give 6 and 2."
+      },
+      {
+       "q": "Values of 3(x + 2) and 3x + 6 at x = 5?",
+       "a": "Both 21."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a rectangle 4 tall and (x + 3) wide, split into 4·x and 4·3. Reverse it for factoring.",
+     "questions": [
+      {
+       "q": "Expand 4(x + 3) and 5(2y − 1).",
+       "a": "4x + 12; 10y − 5."
+      },
+      {
+       "q": "Factor 6x + 18.",
+       "a": "6(x + 3)."
+      }
+     ]
+    },
+    {
+     "guide": "Lay out 2 x-tiles + 5 unit tiles + 3 x-tiles + 1 unit tile; group like tiles.",
+     "questions": [
+      {
+       "q": "Simplify 2x + 5 + 3x + 1.",
+       "a": "5x + 6."
+      },
+      {
+       "q": "Why is x + x equal to 2x, not x²?",
+       "a": "Two of the same unknown amount added is 2 times x; x² would be x multiplied by x."
+      }
+     ]
+    },
+    {
+     "guide": "For each pair, the child either names a property (distributive, commutative) or finds a value that gives different results.",
+     "questions": [
+      {
+       "q": "Is 2(x + 4) equivalent to 2x + 4? Justify.",
+       "a": "No. Counterexample x = 1: 2(5) = 10 but 2 + 4 = 6."
+      },
+      {
+       "q": "Is x · x equivalent to 2x?",
+       "a": "No: x = 3 gives 9 and 6."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz independently.",
+     "questions": [
+      {
+       "q": "Factor 9a + 6.",
+       "a": "3(3a + 2)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 4(x + 3) = 4x + 12 2) 7(2 + y) = 14 + 7y 3) 12x + 20 = 4(3x + 5) 4) 9a + 6 = 3(3a + 2) 5) 3x + 4 + 5x − 1 = 8x + 3 6) 2(x + 4) and 2x + 8: equivalent 7) 5x − x and 5: not equivalent (x = 2 gives 8 and 5) 8) 6(x + 1) and 6x + 1: not equivalent (x = 0 gives 6 and 1)."
+  },
+  {
+   "week": 23,
+   "prep": "Gather: sheet of paper for folding, calculator. Have a sheet of paper for folding and a calculator for checking.",
+   "misconceptions": [
+    "Thinking 2⁵ means 2 × 5. It means 2 × 2 × 2 × 2 × 2 = 32.",
+    "Working strictly left to right. Order: parentheses, exponents, multiply/divide left to right, add/subtract left to right."
+   ],
+   "days": [
+    {
+     "guide": "Fold the paper in half and count layers after each fold; record 2, 4, 8… as powers of 2. Ask the child to predict 10 folds.",
+     "questions": [
+      {
+       "q": "How many layers after 10 folds?",
+       "a": "2¹⁰ = 1,024 layers."
+      }
+     ]
+    },
+    {
+     "guide": "Write 3⁴ as 3 × 3 × 3 × 3 before computing. The child evaluates 15 expressions.",
+     "questions": [
+      {
+       "q": "Evaluate 3⁴, (½)³ and 0.2².",
+       "a": "81; ⅛; 0.04."
+      },
+      {
+       "q": "Which is larger, 2⁵ or 5²?",
+       "a": "2⁵ = 32 is larger than 5² = 25."
+      }
+     ]
+    },
+    {
+     "guide": "Model 2 + 3 × 4² step by step, then (2 + 3)². The child finds the errors in three worked examples.",
+     "questions": [
+      {
+       "q": "Evaluate 2 + 3 × 4².",
+       "a": "50 (4² = 16; 3 × 16 = 48; 48 + 2 = 50)."
+      },
+      {
+       "q": "Evaluate (2 + 3)².",
+       "a": "25."
+      }
+     ]
+    },
+    {
+     "guide": "Substitute into formulas, writing the formula, the substitution, then the answer.",
+     "questions": [
+      {
+       "q": "A cube box has edge 1.5 ft. Find its volume and surface area.",
+       "a": "V = 1.5³ = 3.375 cu ft; SA = 6 × 1.5² = 13.5 sq ft."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Evaluate 4 + 2³ × 5.",
+       "a": "44."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 3⁴ = 81 2) (⅔)² = 4/9 3) 0.5³ = 0.125 4) 10 − 2 × 3 = 4 5) (10 − 2) × 3 = 24 6) 4 + 2³ × 5 = 44 7) 3 × (2 + 4)² ÷ 9 = 12 8) volume of a cube with s = 4: 64 9) surface area of a cube with s = ½: 1.5 10) 18 − 6 ÷ 3 + 1 = 17."
+  },
+  {
+   "week": 24,
+   "prep": "Gather: graph paper, Desmos. Have a kitchen scale and a cup for the Day 3 water experiment.",
+   "misconceptions": [
+    "Swapping independent and dependent variables. Ask: 'Which one do I choose or control? That's independent (x-axis).'",
+    "Thinking every relationship's graph starts at (0,0). y = x + 3 starts at (0,3)."
+   ],
+   "days": [
+    {
+     "guide": "Ask: 'If you earn $9 per hour, what decides how much you earn?' Name hours as independent, dollars as dependent, and write d = 9h.",
+     "questions": [
+      {
+       "q": "For $9 per hour, write an equation and find earnings for 6 hours.",
+       "a": "d = 9h; $54."
+      },
+      {
+       "q": "Which variable is independent?",
+       "a": "Hours worked (h); pay depends on it."
+      }
+     ]
+    },
+    {
+     "guide": "Make tables for x = 0–5 for each equation and plot all three on one grid. Compare: which go through (0,0), which is steepest?",
+     "questions": [
+      {
+       "q": "At x = 2, find y for y = 4x, y = x + 3 and y = 2.5x.",
+       "a": "8, 5 and 5."
+      },
+      {
+       "q": "Which graph does not pass through the origin?",
+       "a": "y = x + 3 (it starts at 3)."
+      }
+     ]
+    },
+    {
+     "guide": "Weigh the empty cup, then add 2 tablespoons at a time and weigh. Make a table and graph; help write an equation like w = (cup weight) + 15t (1 tbsp of water ≈ 15 g).",
+     "questions": [
+      {
+       "q": "If the cup weighs 150 g and each tablespoon of water adds about 15 g, what is the weight after 6 tablespoons?",
+       "a": "About 240 g (150 + 90)."
+      }
+     ]
+    },
+    {
+     "guide": "Assign the mixed review; check equations and graphs for labels.",
+     "questions": [
+      {
+       "q": "Solve x + 4.5 = 10 and ⅗x = 9.",
+       "a": "5.5 and 15."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 6 test; the child corrects errors.",
+     "questions": [
+      {
+       "q": "Evaluate 2³ + 4 × 3.",
+       "a": "20."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 6 test sample key: 1) 'x decreased by 7' → x − 7 2) 4a + 3 when a = 1.5 → 9 3) x + 4.5 = 10 → x = 5.5 4) (3/5)x = 9 → x = 15 5) 3(2x + 5) = 6x + 15 6) factor 8x + 12 = 4(2x + 3) 7) 2³ + 4 × 3 = 20 8) A train goes 60 mph: d = 60t; at t = 3.5, d = 210 miles 9) In d = 60t, t is independent and d dependent 10) 6x + 2 + x = 7x + 2."
+  },
+  {
+   "week": 25,
+   "prep": "Gather: outdoor thermometer, number line strip. Check today's temperature on an outdoor thermometer; make a −10 to 10 number-line strip.",
+   "misconceptions": [
+    "Thinking −5 is greater than −2 because 5 > 2. On the number line, −5 is farther left, so it is less.",
+    "Thinking zero always means 'nothing'. In elevation, 0 is sea level; in temperature, 0° is just a point on the scale."
+   ],
+   "days": [
+    {
+     "guide": "Discuss California extremes: Badwater Basin in Death Valley is 282 ft below sea level (−282), Mount Whitney is about 14,505 ft above. Ask what 0 means for elevation and temperature.",
+     "questions": [
+      {
+       "q": "What does an elevation of −282 feet mean?",
+       "a": "282 feet below sea level (0 = sea level)."
+      }
+     ]
+    },
+    {
+     "guide": "Mark pairs like 3 and −3 at equal distances from 0. Explain −(−4) as 'the opposite of the opposite of 4'.",
+     "questions": [
+      {
+       "q": "What is the opposite of −2.5? Of ¾?",
+       "a": "2.5 and −¾."
+      },
+      {
+       "q": "Why does −(−4) = 4?",
+       "a": "−4 is the opposite of 4; the opposite of that is back to 4."
+      }
+     ]
+    },
+    {
+     "guide": "Model a deposit as +, a withdrawal or debt as −. The child writes signed numbers for 8 situations.",
+     "questions": [
+      {
+       "q": "Write signed numbers: deposit $50; withdraw $20; owe $15.",
+       "a": "+50, −20, −15."
+      }
+     ]
+    },
+    {
+     "guide": "Draw −3 to 3 with tick marks every ½ or ¼. The child places −2.5, −¾, 1.25, 2⅓ etc.",
+     "questions": [
+      {
+       "q": "Between which two integers is −¾? Is it closer to 0 or −1?",
+       "a": "Between −1 and 0, closer to −1."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Which is colder: −5°F or −12°F?",
+       "a": "−12°F."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 20 ft below sea level → −20 ft 2) a gain of 7 yards → +7 3) opposite of −8 → 8 4) −(−6) = 6 5) a bank balance of 0 means you have no money and owe nothing 6) −1.5 halfway between −2 and −1; ¾ between 0 and 1; −2⅓ just left of −2 7) −12°F is colder than −5°F."
+  },
+  {
+   "week": 26,
+   "prep": "Gather: index cards with rational numbers. Write about 12 rational numbers (integers, fractions, decimals, positive and negative) on index cards.",
+   "misconceptions": [
+    "Ordering negatives by their size without the sign (−1.5 < −2). Use the number line: farther left is less.",
+    "Thinking absolute value 'just makes things positive' without meaning. Stress it is distance from 0."
+   ],
+   "days": [
+    {
+     "guide": "Place −7 and −3 on the number line and model reading '−7 < −3' as '−7 is to the left of −3'.",
+     "questions": [
+      {
+       "q": "Compare −7 and −3 with < or >.",
+       "a": "−7 < −3."
+      }
+     ]
+    },
+    {
+     "guide": "Shuffle the cards; the child orders them on the table, converting fractions to decimals when unsure.",
+     "questions": [
+      {
+       "q": "Order 0.3, −2.5, 3/2, −½, 1 from least to greatest.",
+       "a": "−2.5, −½, 0.3, 1, 3/2."
+      }
+     ]
+    },
+    {
+     "guide": "Show |−8| as 8 steps from 0. Connect to debt: balance −30 means a debt of |−30| = $30.",
+     "questions": [
+      {
+       "q": "Find |−8| and |3.5|.",
+       "a": "8 and 3.5."
+      },
+      {
+       "q": "An account balance is −30 dollars. What is the size of the debt?",
+       "a": "$30 (|−30| = 30)."
+      }
+     ]
+    },
+    {
+     "guide": "Contrast 'which is less?' with 'which is farther from 0?' in contexts like debts and depths.",
+     "questions": [
+      {
+       "q": "Is −24 < −14? Is |−24| > |−14|? Explain with debt.",
+       "a": "Both true: a balance of −24 is lower, and a debt of $24 is larger than a debt of $14."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "True or false: |−9| < |4|.",
+       "a": "False; 9 > 4."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) −7 < −3 2) −1.5 > −2 3) order {2, −3.5, −¼, 0, −1} → −3.5, −1, −¼, 0, 2 4) |−12| = 12 5) |5| = 5 6) balances −40 and −25: −40 is the greater debt ($40) 7) |−9| < |4| is false (9 > 4) 8) −120 m is farther below sea level than −86 m."
+  },
+  {
+   "week": 27,
+   "prep": "Gather: number line strips. Make number-line strips the child can draw on.",
+   "misconceptions": [
+    "Using an open circle for ≥ or ≤. Closed (filled) circle means the number itself is included.",
+    "Reading 'at least' as <. 'At least 48' means 48 or more: h ≥ 48."
+   ],
+   "days": [
+    {
+     "guide": "Translate key phrases: at least (≥), at most/no more than (≤), more than (>), fewer than (<). The child writes 10.",
+     "questions": [
+      {
+       "q": "Write inequalities: at least 48 inches to ride; fewer than 30 students.",
+       "a": "h ≥ 48; s < 30."
+      }
+     ]
+    },
+    {
+     "guide": "Graph x > 3 (open circle at 3, shade right) and x ≤ −1 (closed at −1, shade left). The child tests values by substitution.",
+     "questions": [
+      {
+       "q": "Describe the graph of x ≤ −1.",
+       "a": "A closed circle at −1 with shading to the left."
+      }
+     ]
+    },
+    {
+     "guide": "Ask the child to name solutions of x > 3 that get closer and closer to 3 (3.1, 3.01, 3.001). Discuss why there are infinitely many.",
+     "questions": [
+      {
+       "q": "Is 3 a solution of x > 3? Is 3.001?",
+       "a": "3 is not; 3.001 is."
+      },
+      {
+       "q": "Why does x > 3 have infinitely many solutions?",
+       "a": "Every number greater than 3, including all decimals and fractions, makes it true."
+      }
+     ]
+    },
+    {
+     "guide": "Discuss when only whole numbers make sense (people) vs decimals (money).",
+     "questions": [
+      {
+       "q": "A van holds at most 7 people. Write an inequality and list solutions that make sense.",
+       "a": "p ≤ 7; p = 0, 1, 2, 3, 4, 5, 6 or 7 (whole numbers only)."
+      },
+      {
+       "q": "You need to save at least $120. Write an inequality.",
+       "a": "s ≥ 120."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "Write: no more than $20.",
+       "a": "c ≤ 20."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) at least 48 inches → h ≥ 48 2) fewer than 30 students → s < 30 3) no more than $20 → c ≤ 20 4) more than 5 → x > 5 5) x < −2: open circle at −2, shaded left 6) Is 4 a solution of x ≥ 4? Yes 7) Is −1 a solution of x > 0? No 8) An elevator holds at most 1,500 lb → w ≤ 1,500."
+  },
+  {
+   "week": 28,
+   "prep": "Gather: graph paper, Desmos. Draw a large four-quadrant grid; plan a simple neighborhood map for Day 4.",
+   "misconceptions": [
+    "Plotting (x, y) as (y, x). Remind: 'walk before you climb' — x is horizontal first.",
+    "Counting tick marks instead of spaces when finding distance."
+   ],
+   "days": [
+    {
+     "guide": "Review quadrant numbering (I top-right, counterclockwise). The child plots 20 points and names quadrants.",
+     "questions": [
+      {
+       "q": "Name the quadrant of (−3, 4), (2, −5) and (−1.5, −2).",
+       "a": "II, IV and III."
+      }
+     ]
+    },
+    {
+     "guide": "Plot (3, −2) and its reflections over each axis. Ask which coordinate changed sign.",
+     "questions": [
+      {
+       "q": "Reflect (3, −2) over the x-axis and over the y-axis.",
+       "a": "(3, 2) and (−3, −2). Over the x-axis the y-sign flips; over the y-axis the x-sign flips."
+      }
+     ]
+    },
+    {
+     "guide": "For points sharing a y-coordinate, subtract x-values or add absolute values when on opposite sides of 0.",
+     "questions": [
+      {
+       "q": "Distance from (−3, 4) to (5, 4)?",
+       "a": "8 units (|−3| + |5|)."
+      },
+      {
+       "q": "Distance from (2, −6) to (2, 3)?",
+       "a": "9 units."
+      }
+     ]
+    },
+    {
+     "guide": "Place home at (0,0), each block = 1 unit. The child marks 5 places and finds street distances (only horizontal and vertical moves).",
+     "questions": [
+      {
+       "q": "School is at (4, −3). How many blocks does the child walk along streets from home?",
+       "a": "7 blocks (4 east + 3 south)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the map.",
+     "questions": [
+      {
+       "q": "Reflect (−6, 1) over the y-axis.",
+       "a": "(6, 1)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) (−4, 2) Quadrant II 2) (5, −1) Quadrant IV 3) (−2.5, −3) Quadrant III 4) (−6, 1) reflected over the x-axis → (−6, −1) 5) reflected over the y-axis → (6, 1) 6) distance from (−3, 4) to (5, 4) = 8 7) (1, −7) to (1, 2) = 9 8) (−5, −2) to (−5, −9) = 7. Map project rubric: 4 = home at origin, at least 5 labeled places, correct coordinates and street distances; 3 = minor errors; 2 = several errors; 1 = incomplete."
+  },
+  {
+   "week": 29,
+   "prep": "Gather: graph paper, Desmos. Graph paper; optionally set up Desmos for the Day 4 design.",
+   "misconceptions": [
+    "Finding side length by subtracting a negative incorrectly (4 − (−3) = 1). Count on the grid or use |4| + |−3| = 7.",
+    "Using perimeter when area is asked."
+   ],
+   "days": [
+    {
+     "guide": "Give vertex lists; the child plots and connects in order. Check that rectangles have square corners.",
+     "questions": [
+      {
+       "q": "Plot (−3, 2), (4, 2), (4, −1), (−3, −1). What shape is it?",
+       "a": "A rectangle 7 units wide and 3 tall."
+      }
+     ]
+    },
+    {
+     "guide": "Find horizontal and vertical side lengths using coordinates, then perimeters.",
+     "questions": [
+      {
+       "q": "Find the perimeter of that rectangle.",
+       "a": "20 units (7 + 3 + 7 + 3)."
+      }
+     ]
+    },
+    {
+     "guide": "Decompose or enclose in a rectangle and subtract corner triangles.",
+     "questions": [
+      {
+       "q": "Area of the triangle with vertices (0, 0), (6, 0), (2, 4)?",
+       "a": "12 square units (½ × 6 × 4)."
+      },
+      {
+       "q": "Area of the rectangle from Day 1?",
+       "a": "21 square units."
+      }
+     ]
+    },
+    {
+     "guide": "Challenge the child to design a garden with area exactly 48. Rectangles are fine; encourage an L-shape for extra challenge.",
+     "questions": [
+      {
+       "q": "Give rectangle vertices with area 48.",
+       "a": "Example: (−4, −3), (4, −3), (4, 3), (−4, 3) — 8 × 6 = 48."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 7 test.",
+     "questions": [
+      {
+       "q": "Distance from (−2, 5) to (−2, −3)?",
+       "a": "8 units."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 7 test sample key: 1) −3 < −1.5 2) order −2, −⅓, 0.5, 1¼ 3) |−15| = 15 4) at least 12 → x ≥ 12 5) x < 4: open circle at 4, shade left 6) (−2, 5) Quadrant II 7) distance (−2, 5) to (−2, −3) = 8 8) rectangle (−3, 2), (4, 2), (4, −1), (−3, −1): perimeter 20, area 21 9) (4, −3) reflected over the y-axis → (−4, −3) 10) −8°F is colder than −3°F."
+  },
+  {
+   "week": 30,
+   "prep": "Gather: family survey sheet, graph paper. Write the survey question with your child before Day 2 and line up 20+ people to ask (family, friends, co-op, by phone).",
+   "misconceptions": [
+    "Thinking any question with a number answer is statistical. It must expect variability across many answers.",
+    "Spacing dot-plot values unevenly or skipping values with no data. The number line must be evenly scaled."
+   ],
+   "days": [
+    {
+     "guide": "Contrast 'How old am I?' (one answer) with 'How old are students at my co-op?' (many varying answers). The child sorts 12 and writes 3.",
+     "questions": [
+      {
+       "q": "Is 'How many pets does each family on our street have?' statistical?",
+       "a": "Yes — answers vary from family to family."
+      }
+     ]
+    },
+    {
+     "guide": "The child surveys 20+ people and tallies a frequency table.",
+     "questions": [
+      {
+       "q": "Why survey at least 20 people?",
+       "a": "More data gives a clearer picture of the variability and typical values."
+      }
+     ]
+    },
+    {
+     "guide": "Model a dot plot: an evenly scaled number line with one dot per response stacked above its value.",
+     "questions": [
+      {
+       "q": "In a dot plot of screen time, a stack of 5 dots above 2 means what?",
+       "a": "Five people reported 2 hours of screen time."
+      }
+     ]
+    },
+    {
+     "guide": "Teach the vocabulary: center (typical value), spread (how far values range), shape (symmetric, skewed, clusters, gaps, outliers).",
+     "questions": [
+      {
+       "q": "Describe 1, 2, 2, 3, 3, 3, 4, 4, 5, 9.",
+       "a": "Center about 3; most values between 1 and 5; 9 is an outlier; skewed right."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the survey dot plot.",
+     "questions": [
+      {
+       "q": "Rewrite 'What is my favorite food?' as a statistical question.",
+       "a": "Example: 'What are the favorite foods of the people in my family?' (or any question expecting varied answers)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) 'How tall is the Eiffel Tower?' — not statistical (one answer) 2) 'How many hours do 6th graders sleep on school nights?' — statistical 3) For data 1, 2, 2, 3, 3, 3, 4, 4, 5, 9: center about 3, most values from 1 to 5, 9 is an outlier, shape skewed right. Survey dot-plot rubric: 4 = statistical question, 20+ responses, frequency table, evenly scaled labeled dot plot, written description of center/spread/shape; 3 = one element weak; 2 = two missing; 1 = mostly incomplete."
+  },
+  {
+   "week": 31,
+   "prep": "Gather: stopwatch, graph paper. Practice the ruler-drop test: one person holds a 30 cm ruler at 0; the child catches it and you read the cm mark.",
+   "misconceptions": [
+    "Unequal bin widths or gaps between bars. Bins must be equal width, and bars touch.",
+    "Reading a histogram bar as one data value. Each bar shows how many values fall in a range."
+   ],
+   "days": [
+    {
+     "guide": "Do 25 ruler drops and record catch distances in cm (smaller = faster reaction).",
+     "questions": [
+      {
+       "q": "If the catch distance is smaller, is the reaction faster or slower?",
+       "a": "Faster — the ruler fell a shorter distance before being caught."
+      }
+     ]
+    },
+    {
+     "guide": "Choose a bin width (e.g., 3 cm), tally the data in bins and draw touching bars.",
+     "questions": [
+      {
+       "q": "Why do histogram bars touch?",
+       "a": "The bins are continuous ranges of numbers with no gaps between them."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a dot plot and histogram of the same data; discuss what each shows.",
+     "questions": [
+      {
+       "q": "When is a histogram better than a dot plot?",
+       "a": "With many data values or a wide range, where grouping shows the shape more clearly."
+      }
+     ]
+    },
+    {
+     "guide": "Use the dog-weight histogram in the key (and a temperature one). The child answers questions and describes shape.",
+     "questions": [
+      {
+       "q": "Using the dog histogram (4, 7, 5, 2, 1 dogs in 20-lb bins from 0), how many dogs weigh 40 lb or more?",
+       "a": "8 (5 + 2 + 1)."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz and collect the reaction-time display.",
+     "questions": [
+      {
+       "q": "Can you find the exact heaviest dog's weight from the histogram?",
+       "a": "No — only that it is between 80 and 100 lb."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key (dog-weight histogram, bins in lb: 0–20: 4, 20–40: 7, 40–60: 5, 60–80: 2, 80–100: 1): 1) total dogs = 19 2) most common bin 20–40 lb 3) dogs 40 lb or more = 8 4) shape skewed right 5) you cannot tell the exact heaviest weight, only that it is 80–100 lb. Display rubric: 4 = equal bins, labeled axes and title, accurate heights; 3 = one labeling error; 2 = unequal bins; 1 = incomplete."
+  },
+  {
+   "week": 32,
+   "prep": "Gather: snap cubes, ruler and pencil for balance. Have 20–30 snap cubes; a ruler balanced on a pencil helps show 'balance point'.",
+   "misconceptions": [
+    "Forgetting to use absolute values for MAD, so deviations cancel to 0.",
+    "Thinking the mean must be one of the data values."
+   ],
+   "days": [
+    {
+     "guide": "Build towers of 3, 5, 7 and 9 cubes; move cubes until all are equal. Connect to adding (24) and dividing by 4.",
+     "questions": [
+      {
+       "q": "Towers of 3, 5, 7 and 9 cubes are leveled. How tall is each?",
+       "a": "6 cubes (24 ÷ 4)."
+      }
+     ]
+    },
+    {
+     "guide": "Plot 2, 4, 6, 8 and mark the mean 5. Show distances below (3 + 1) equal distances above (1 + 3).",
+     "questions": [
+      {
+       "q": "Show that 5 is the balance point of 2, 4, 6, 8.",
+       "a": "Distances below: 3 + 1 = 4; above: 1 + 3 = 4. They balance."
+      }
+     ]
+    },
+    {
+     "guide": "Model MAD: find the mean, find each distance from it, average the distances.",
+     "questions": [
+      {
+       "q": "Player A scored 10, 12, 14, 16, 18; Player B scored 6, 10, 14, 18, 22. Find each MAD. Who is more consistent?",
+       "a": "Both means are 14. A's MAD = 12 ÷ 5 = 2.4; B's = 24 ÷ 5 = 4.8. A is more consistent."
+      }
+     ]
+    },
+    {
+     "guide": "Give two data sets: fertilized plants 12, 14, 15, 16, 18 cm and unfertilized 9, 10, 11, 12, 13 cm.",
+     "questions": [
+      {
+       "q": "Compare the groups using mean and MAD.",
+       "a": "Fertilized mean 15, MAD 1.6; unfertilized mean 11, MAD 1.2. Fertilized plants were about 4 cm taller on average; both groups had small variability."
+      }
+     ]
+    },
+    {
+     "guide": "Give the quiz.",
+     "questions": [
+      {
+       "q": "The mean of five numbers is 8; four are 6, 7, 9, 10. Find the fifth.",
+       "a": "8 (total 40 − 32)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: 1) mean of 4, 7, 9, 10, 15 = 9 2) MAD = (5 + 2 + 0 + 1 + 6) ÷ 5 = 2.8 3) 3, 3, 6, 8: mean 5, MAD = (2 + 2 + 1 + 3) ÷ 4 = 2 4) a team with MAD 1.5 is more consistent than one with MAD 3.2 5) mean of five numbers is 8 and four are 6, 7, 9, 10 → fifth is 8."
+  },
+  {
+   "week": 33,
+   "prep": "Gather: index cards, graph paper. Write 11 data values on index cards (include one large outlier).",
+   "misconceptions": [
+    "Finding the median without ordering data first.",
+    "Thinking each section of a box plot has the same number of values because sections are different lengths — each quarter holds about 25% of the data regardless of length."
+   ],
+   "days": [
+    {
+     "guide": "Order the 11 cards; the middle (6th) card is the median. Compare with the mean.",
+     "questions": [
+      {
+       "q": "Data: 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 40. Find the median and mean.",
+       "a": "Median 6; mean 98 ÷ 11 ≈ 8.9. The outlier 40 pulls the mean up but not the median."
+      }
+     ]
+    },
+    {
+     "guide": "Split the ordered data at the median, find the median of each half (Q1, Q3).",
+     "questions": [
+      {
+       "q": "Five-number summary of 1, 3, 4, 6, 7, 8, 10, 12?",
+       "a": "Min 1, Q1 3.5, median 6.5, Q3 9, max 12; range 11, IQR 5.5."
+      }
+     ]
+    },
+    {
+     "guide": "Draw a scaled number line, mark the five numbers, draw the box from Q1 to Q3 with a line at the median, then whiskers.",
+     "questions": [
+      {
+       "q": "What does the box in a box plot show?",
+       "a": "The middle 50% of the data, from Q1 to Q3."
+      }
+     ]
+    },
+    {
+     "guide": "Give two box plots (e.g., City A: 55, 58, 62, 66, 70; City B: 60, 66, 72, 78, 84 for monthly highs °F). The child writes 3 conclusions.",
+     "questions": [
+      {
+       "q": "Which city is warmer typically and which varies more?",
+       "a": "City B: median 72 vs 62; IQR 12 vs 8 and range 24 vs 15, so B also varies more."
+      }
+     ]
+    },
+    {
+     "guide": "Give the box-plot quiz.",
+     "questions": [
+      {
+       "q": "Find the IQR of 4, 7, 8, 10, 12, 15, 21.",
+       "a": "8 (15 − 7)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Quiz key: data 4, 7, 8, 10, 12, 15, 21 → min 4, Q1 7, median 10, Q3 15, max 21, range 17, IQR 8. Box plot drawn with box from 7 to 15, line at 10, whiskers to 4 and 21. For two box plots, the one with the higher median has the larger typical value; the one with the longer box has more variability in the middle half."
+  },
+  {
+   "week": 34,
+   "prep": "Gather: survey or measurement tools, poster board or slides. Help the child choose a doable project question (e.g., 'How long do family members sleep?') and tools to collect 30 data points.",
+   "misconceptions": [
+    "Using mean/MAD for strongly skewed data or data with outliers; median/IQR is better there.",
+    "Collecting too little data or a biased sample (only asking siblings)."
+   ],
+   "days": [
+    {
+     "guide": "Show a symmetric set and a skewed set with an outlier; decide which measures fit each.",
+     "questions": [
+      {
+       "q": "House prices in a neighborhood include one mansion. Mean or median?",
+       "a": "Median (and IQR), because the outlier pulls the mean."
+      }
+     ]
+    },
+    {
+     "guide": "The child writes the question, plans 30+ data points and starts collecting.",
+     "questions": [
+      {
+       "q": "Is 'What is my dog's weight?' a good project question?",
+       "a": "No — one answer, no variability. Better: 'What do dogs at the park weigh?'"
+      }
+     ]
+    },
+    {
+     "guide": "The child makes two displays and computes center and spread.",
+     "questions": [
+      {
+       "q": "Which two displays fit 30 measurements well?",
+       "a": "A dot plot or histogram plus a box plot."
+      }
+     ]
+    },
+    {
+     "guide": "The child builds a poster or slides and presents; ask follow-up questions.",
+     "questions": [
+      {
+       "q": "What should the conclusion include?",
+       "a": "An answer to the question using a center and spread value, and a note about shape or outliers."
+      }
+     ]
+    },
+    {
+     "guide": "Give the Unit 8 test.",
+     "questions": [
+      {
+       "q": "Mean and MAD of 2, 4, 4, 5, 10?",
+       "a": "Mean 5; MAD 2."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Unit 8 test sample key: 1) 'How many books did each student read this summer?' is statistical 2) mean of 2, 4, 4, 5, 10 = 5 3) MAD = (3 + 1 + 1 + 0 + 5) ÷ 5 = 2 4) median = 4 5) 1, 2, 4, 5, 7, 8, 9, 12 → min 1, Q1 3, median 6, Q3 8.5, max 12, IQR 5.5 6) for skewed data use the median. Project rubric: 4 = statistical question, 30+ data points, two correct displays, correct center and spread, a conclusion that answers the question; 3 = minor calculation errors; 2 = one display or measure missing; 1 = incomplete."
+  },
+  {
+   "week": 35,
+   "prep": "Gather: map of California, online prices, spreadsheet or paper. Let the child pick a California destination and look up the driving distance and prices together.",
+   "misconceptions": [
+    "Forgetting the return trip when computing fuel.",
+    "Adding tax as 8 instead of 8% (0.08 × total)."
+   ],
+   "days": [
+    {
+     "guide": "Find distance and mpg; compute gallons and fuel cost.",
+     "questions": [
+      {
+       "q": "A 380-mile trip in a car getting 28 mpg needs how much gas? At $4.80/gal, cost?",
+       "a": "About 13.6 gallons; about $65.14 (one way)."
+      }
+     ]
+    },
+    {
+     "guide": "Build a budget table; add 8% tax by multiplying by 0.08 (or the total by 1.08).",
+     "questions": [
+      {
+       "q": "A $412.50 budget plus 8% tax?",
+       "a": "$445.50."
+      }
+     ]
+    },
+    {
+     "guide": "Use average speed to estimate driving time and plan stops.",
+     "questions": [
+      {
+       "q": "380 miles at 60 mph takes how long?",
+       "a": "6⅓ hours = 6 hours 20 minutes."
+      }
+     ]
+    },
+    {
+     "guide": "Measure bags; compute volumes and compare with the trunk.",
+     "questions": [
+      {
+       "q": "A trunk holds 14 cu ft. Do four 2 × 1½ × ¾ ft suitcases fit by volume?",
+       "a": "Each is 2.25 cu ft; four = 9 cu ft, so yes by volume (shape matters too)."
+      }
+     ]
+    },
+    {
+     "guide": "The child presents the plan and answers questions.",
+     "questions": [
+      {
+       "q": "How would doubling the trip distance change fuel cost?",
+       "a": "It would double (fuel is proportional to distance)."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Project rubric: 4 = all calculations correct and shown (fuel = distance ÷ mpg, cost, budget with 8% tax, time = distance ÷ speed, volume comparison), clear tables, confident explanation; 3 = one or two calculation errors; 2 = several sections incomplete; 1 = little math shown. Sample check: 380 mi at 28 mpg ≈ 13.6 gal; at $4.80/gal ≈ $65.14 one way; $412.50 budget + 8% tax = $445.50; 380 mi at 60 mph ≈ 6 h 20 min."
+  },
+  {
+   "week": 36,
+   "prep": "Gather: review packets, Khan Academy course challenge. Print review sets; set up the Khan Academy 6th grade course challenge.",
+   "misconceptions": [
+    "Rushing review — have the child star problems they are unsure of and revisit them.",
+    "Rounding too early in multi-step problems."
+   ],
+   "days": [
+    {
+     "guide": "The child works the ratio/number review set, starring uncertain problems; review starred ones together.",
+     "questions": [
+      {
+       "q": "Find 40% of 65 and compute 2½ ÷ ⅚.",
+       "a": "26 and 3."
+      }
+     ]
+    },
+    {
+     "guide": "The child works the expressions/geometry review set; review stars.",
+     "questions": [
+      {
+       "q": "Solve ⅔x = 18. Find the volume of a 2 × 3 × 4.5 prism.",
+       "a": "x = 27; 27 cubic units."
+      }
+     ]
+    },
+    {
+     "guide": "The child works the rational numbers/data set, then takes the Khan Academy course challenge.",
+     "questions": [
+      {
+       "q": "Distance from (−4, 3) to (6, 3)? Median of 3, 9, 4, 7, 12, 5?",
+       "a": "10 units; 6."
+      }
+     ]
+    },
+    {
+     "guide": "Give the 40-problem final in one or two sittings without help.",
+     "questions": [
+      {
+       "q": "Evaluate 5 + 2 × 3².",
+       "a": "23."
+      }
+     ]
+    },
+    {
+     "guide": "Correct the final together; the child writes a reflection and 2–3 goals for Math 7.",
+     "questions": [
+      {
+       "q": "Which topic grew most this year and what's a goal for next year?",
+       "a": "Answers vary; a strong reflection names a specific skill with evidence (e.g., 'I can now divide fractions using reciprocals') and a concrete goal."
+      }
+     ]
+    }
+   ],
+   "assessment_key": "Final exam key (40 problems): 1) triangle b 8, h 5 → 20 2) parallelogram b 7, h 4 → 28 3) trapezoid bases 3, 7, h 4 → 20 4) cube SA, s = 3 → 54 5) prism 2 × 3 × 4.5 → 27 6) 5:3 = 15:9 7) boys:girls 4:7 of 44 → 16 and 28 8) 4 for $3.20 → $0.80 each 9) 250 mi in 5 h → 50 mph 10) 40% of 65 = 26 11) 9 is 15% of 60 12) 14 of 56 = 25% 13) ¾ ÷ ¼ = 3 14) 2½ ÷ ⅚ = 3 15) 1⅕ ÷ 3 = ⅖ 16) 3.75 + 12.6 = 16.35 17) 9 − 4.38 = 4.62 18) 0.25 × 3.2 = 0.8 19) 6.84 ÷ 0.3 = 22.8 20) 2,976 ÷ 24 = 124 21) GCF(36, 54) = 18 22) LCM(8, 12) = 24 23) 42 + 28 = 14(3 + 2) 24) 2⁵ = 32 25) 5 + 2 × 3² = 23 26) 4x + 3 at x = 2.5 → 13 27) x + 3.8 = 9 → 5.2 28) ⅔x = 18 → 27 29) 3(2x + 4) = 6x + 12 30) 5y + 2 + 3y = 8y + 2 31) y = 7x at x = 6 → 42 32) −6 < −2 33) |−11| = 11 34) −3, −1.5, 0, ⅔ 35) at least 16 → x ≥ 16 36) (−4, 3) Quadrant II 37) distance (−4, 3) to (6, 3) = 10 38) 'How many books did students read this summer?' is statistical 39) mean of 6, 8, 10, 12, 14 = 10 40) median of 3, 9, 4, 7, 12, 5 = 6."
+  }
+ ]
+}

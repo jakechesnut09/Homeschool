@@ -1,0 +1,1809 @@
+{
+  "grade": 3,
+  "subject": "PE",
+  "title": "PE 3",
+  "description": "Third-grade physical education building locomotor, balance, jump rope, throwing, catching, dribbling, striking and dance skills through daily active practice. Students learn the components of health-related fitness, measure heart rate, complete baseline and end-of-year fitness checks, set goals, and practice cooperation, strategy and fair play in small-sided games.",
+  "framework": "California Physical Education Model Content Standards; 2009 CA Physical Education Framework",
+  "minutes_per_day": 30,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "PE-3.1.1": "Perform smooth transitions between sequential locomotor skills (e.g., running into a jump).",
+    "PE-3.1.2": "Jump for distance and height, landing on both feet with hips, knees and ankles bent to absorb force.",
+    "PE-3.1.3": "Balance on, move along and dismount from a line or low beam with control; hold balances on different bases of support.",
+    "PE-3.1.4": "Perform a forward roll and other rolling actions safely with control.",
+    "PE-3.1.5": "Jump a self-turned rope repeatedly using a variety of footwork patterns.",
+    "PE-3.1.6": "Jump a long rope turned by others, entering and exiting.",
+    "PE-3.1.7": "Throw an object overhand with accuracy and appropriate force toward a target.",
+    "PE-3.1.8": "Catch thrown objects at different levels (above head, at waist, below waist) and while moving.",
+    "PE-3.1.9": "Dribble a ball with the hand while walking and running, changing direction and speed.",
+    "PE-3.1.10": "Dribble a ball with the feet and kick a ball to a stationary or moving target.",
+    "PE-3.1.11": "Strike an object with a paddle or racket using forehand motion, and strike a stationary ball with a bat.",
+    "PE-3.1.12": "Perform simple folk, line and creative dances in time to music.",
+    "PE-3.2.1": "Explain the key elements of overhand throwing, catching, kicking and dribbling.",
+    "PE-3.2.2": "Explain how force, levels, directions and pathways affect movement.",
+    "PE-3.2.3": "Explain and apply simple offensive and defensive strategies (open space, guarding) in small-sided games.",
+    "PE-3.2.4": "Explain how practice and feedback improve skill.",
+    "PE-3.3.1": "Participate in moderate to vigorous physical activity for increasing periods of time.",
+    "PE-3.3.2": "Demonstrate muscular strength and endurance (curl-ups, push-ups, plank).",
+    "PE-3.3.3": "Demonstrate flexibility of major muscle groups (sit-and-reach, shoulder stretch).",
+    "PE-3.3.4": "Demonstrate aerobic endurance (PACER, timed run/walk).",
+    "PE-3.3.5": "Measure and record heart rate before, during and after activity.",
+    "PE-3.4.1": "Identify the components of health-related fitness (aerobic capacity, muscular strength, endurance, flexibility, body composition).",
+    "PE-3.4.2": "Explain how the heart, lungs and muscles respond to physical activity.",
+    "PE-3.4.3": "Explain the purpose of warm-up and cool-down activities.",
+    "PE-3.4.4": "Set a personal fitness goal and track progress.",
+    "PE-3.4.5": "Explain how healthy food and water fuel physical activity.",
+    "PE-3.5.1": "Work cooperatively with a partner or small group to complete tasks.",
+    "PE-3.5.2": "Accept responsibility for one's actions and demonstrate fair play.",
+    "PE-3.5.3": "Encourage others and give positive, specific feedback.",
+    "PE-3.5.4": "Follow safety rules and use equipment properly."
+  },
+  "resources": [
+    {
+      "name": "GoNoodle",
+      "url": "https://www.gonoodle.com/",
+      "note": "Free movement and dance videos for warm-ups and active breaks"
+    },
+    {
+      "name": "OPEN Physical Education Curriculum",
+      "url": "https://openphysed.org/",
+      "note": "Free K–12 PE units (jump rope, striking, dance, fitness) with lesson plans"
+    },
+    {
+      "name": "PE Central",
+      "url": "https://www.pecentral.org/",
+      "note": "Free lesson ideas and skill cues for elementary PE"
+    },
+    {
+      "name": "Move Your Way (U.S. Dept. of Health and Human Services)",
+      "url": "https://health.gov/moveyourway",
+      "note": "Physical activity guidelines and family activity ideas"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Fitness Foundations",
+      "start_week": 1,
+      "end_week": 3,
+      "big_idea": "Knowing our fitness helps us set goals to grow stronger and healthier.",
+      "standards": [
+        "PE-3.3.1",
+        "PE-3.3.2",
+        "PE-3.3.3",
+        "PE-3.3.4",
+        "PE-3.3.5",
+        "PE-3.4.1",
+        "PE-3.4.3",
+        "PE-3.4.4",
+        "PE-3.5.4"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Locomotor Skills, Balance and Tumbling",
+      "start_week": 4,
+      "end_week": 7,
+      "big_idea": "Controlled movement depends on balance, force and smooth transitions.",
+      "standards": [
+        "PE-3.1.1",
+        "PE-3.1.2",
+        "PE-3.1.3",
+        "PE-3.1.4",
+        "PE-3.2.2",
+        "PE-3.5.4"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Jump Rope",
+      "start_week": 8,
+      "end_week": 10,
+      "big_idea": "Rhythm and practice make jumping rope an energizing lifetime activity.",
+      "standards": [
+        "PE-3.1.5",
+        "PE-3.1.6",
+        "PE-3.3.1",
+        "PE-3.4.2",
+        "PE-3.2.4"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Throwing and Catching",
+      "start_week": 11,
+      "end_week": 14,
+      "big_idea": "Using the right cues improves accuracy and control.",
+      "standards": [
+        "PE-3.1.7",
+        "PE-3.1.8",
+        "PE-3.2.1",
+        "PE-3.2.4",
+        "PE-3.5.3"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Dribbling with Hands and Feet",
+      "start_week": 15,
+      "end_week": 19,
+      "big_idea": "Keeping control while moving lets us play invasion games well.",
+      "standards": [
+        "PE-3.1.9",
+        "PE-3.1.10",
+        "PE-3.2.1",
+        "PE-3.2.3",
+        "PE-3.5.2"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Striking with Paddles and Bats",
+      "start_week": 20,
+      "end_week": 23,
+      "big_idea": "Striking needs a ready position, eye on the object and follow-through.",
+      "standards": [
+        "PE-3.1.11",
+        "PE-3.2.1",
+        "PE-3.2.2",
+        "PE-3.5.4"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Rhythms and Dance",
+      "start_week": 24,
+      "end_week": 27,
+      "big_idea": "Dance combines movement, rhythm and cultural tradition.",
+      "standards": [
+        "PE-3.1.12",
+        "PE-3.2.2",
+        "PE-3.3.1",
+        "PE-3.5.1"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Cooperative and Small-Sided Games",
+      "start_week": 28,
+      "end_week": 31,
+      "big_idea": "Teamwork, strategy and fair play make games fun for everyone.",
+      "standards": [
+        "PE-3.2.3",
+        "PE-3.5.1",
+        "PE-3.5.2",
+        "PE-3.5.3",
+        "PE-3.1.8"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Fitness Check and Field Day",
+      "start_week": 32,
+      "end_week": 36,
+      "big_idea": "Tracking progress shows how effort leads to improvement.",
+      "standards": [
+        "PE-3.3.2",
+        "PE-3.3.3",
+        "PE-3.3.4",
+        "PE-3.4.2",
+        "PE-3.4.4",
+        "PE-3.4.5",
+        "PE-3.5.3"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Warm-up, cool-down and safety",
+      "objectives": [
+        "Perform a safe warm-up and cool-down",
+        "Follow safety rules"
+      ],
+      "standards": [
+        "PE-3.4.3",
+        "PE-3.5.4",
+        "PE-3.3.1"
+      ],
+      "vocabulary": [
+        "warm-up",
+        "cool-down",
+        "personal space"
+      ],
+      "materials": [
+        "open space",
+        "cones"
+      ],
+      "days": [
+        {
+          "title": "Safety rules",
+          "work": "Learn PE safety rules and personal space with a 5-minute bubble-space tag game."
+        },
+        {
+          "title": "Dynamic warm-up",
+          "work": "Learn a 6-move dynamic warm-up (jog, high knees, arm circles, skips, lunges, butt kicks)."
+        },
+        {
+          "title": "Cool-down",
+          "work": "Practice a static stretch cool-down and explain why muscles need it."
+        },
+        {
+          "title": "Active game",
+          "work": "Play 15 minutes of freeze tag using the warm-up and cool-down routine."
+        },
+        {
+          "title": "Review",
+          "work": "Lead the family through the warm-up and name 3 safety rules."
+        }
+      ],
+      "assessment": "Leads warm-up correctly"
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Fitness components and heart rate",
+      "objectives": [
+        "Name fitness components",
+        "Measure heart rate"
+      ],
+      "standards": [
+        "PE-3.4.1",
+        "PE-3.3.5",
+        "PE-3.3.1"
+      ],
+      "vocabulary": [
+        "aerobic",
+        "strength",
+        "flexibility",
+        "heart rate",
+        "pulse"
+      ],
+      "materials": [
+        "timer",
+        "fitness log"
+      ],
+      "days": [
+        {
+          "title": "Components",
+          "work": "Learn the 5 components of fitness and act out an exercise for each."
+        },
+        {
+          "title": "Pulse",
+          "work": "Find your pulse and count heart rate at rest for 15 seconds × 4."
+        },
+        {
+          "title": "Heart rate change",
+          "work": "Measure heart rate before and after 2 minutes of jumping jacks; record in a log."
+        },
+        {
+          "title": "Circuit",
+          "work": "Complete a 6-station fitness circuit (one per component)."
+        },
+        {
+          "title": "Review",
+          "work": "Explain why heart rate rises during exercise."
+        }
+      ],
+      "assessment": "Heart rate log"
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Baseline fitness assessment",
+      "objectives": [
+        "Complete baseline fitness tests",
+        "Set a fitness goal"
+      ],
+      "standards": [
+        "PE-3.3.2",
+        "PE-3.3.3",
+        "PE-3.3.4",
+        "PE-3.4.4"
+      ],
+      "vocabulary": [
+        "goal",
+        "curl-up",
+        "push-up",
+        "sit-and-reach",
+        "PACER"
+      ],
+      "materials": [
+        "tape measure",
+        "timer",
+        "mat"
+      ],
+      "days": [
+        {
+          "title": "Strength",
+          "work": "Record curl-ups and 90-degree push-ups."
+        },
+        {
+          "title": "Flexibility",
+          "work": "Measure sit-and-reach and shoulder stretch."
+        },
+        {
+          "title": "Endurance",
+          "work": "Complete a timed half-mile walk/run or PACER and record."
+        },
+        {
+          "title": "Goal",
+          "work": "Set a SMART fitness goal for the semester."
+        },
+        {
+          "title": "Review",
+          "work": "Begin a weekly fitness log to track progress."
+        }
+      ],
+      "assessment": "Baseline fitness scores and written goal"
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "Locomotor transitions",
+      "objectives": [
+        "Combine locomotor skills smoothly"
+      ],
+      "standards": [
+        "PE-3.1.1",
+        "PE-3.2.2"
+      ],
+      "vocabulary": [
+        "gallop",
+        "slide",
+        "skip",
+        "leap",
+        "transition"
+      ],
+      "materials": [
+        "cones",
+        "music"
+      ],
+      "days": [
+        {
+          "title": "Locomotor review",
+          "work": "Practice walk, run, hop, skip, gallop, slide and leap across a yard."
+        },
+        {
+          "title": "Pathways",
+          "work": "Move in straight, curved and zigzag pathways around cones."
+        },
+        {
+          "title": "Transitions",
+          "work": "Combine run-to-leap and skip-to-slide sequences."
+        },
+        {
+          "title": "Obstacle course",
+          "work": "Complete an obstacle course with transitions."
+        },
+        {
+          "title": "Review",
+          "work": "Show a 4-skill locomotor sequence."
+        }
+      ],
+      "assessment": "Locomotor sequence"
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Jumping and landing",
+      "objectives": [
+        "Jump for distance and height with safe landings"
+      ],
+      "standards": [
+        "PE-3.1.2",
+        "PE-3.2.2"
+      ],
+      "vocabulary": [
+        "takeoff",
+        "landing",
+        "absorb",
+        "force"
+      ],
+      "materials": [
+        "tape",
+        "measuring tape"
+      ],
+      "days": [
+        {
+          "title": "Landing",
+          "work": "Practice soft landings with bent knees."
+        },
+        {
+          "title": "Standing long jump",
+          "work": "Measure 3 standing long jumps."
+        },
+        {
+          "title": "Vertical jump",
+          "work": "Measure vertical jump with chalk on a wall."
+        },
+        {
+          "title": "Hopscotch",
+          "work": "Play hopscotch with variations."
+        },
+        {
+          "title": "Review",
+          "work": "Explain how arms help create force."
+        }
+      ],
+      "assessment": "Jump measurements"
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Balance",
+      "objectives": [
+        "Hold balances and move along lines"
+      ],
+      "standards": [
+        "PE-3.1.3",
+        "PE-3.5.4"
+      ],
+      "vocabulary": [
+        "balance",
+        "base of support",
+        "center of gravity"
+      ],
+      "materials": [
+        "tape line or low beam",
+        "cushions"
+      ],
+      "days": [
+        {
+          "title": "Static balance",
+          "work": "Hold balances on 1, 2, 3 and 4 body parts for 5 seconds."
+        },
+        {
+          "title": "Line walk",
+          "work": "Walk forward, backward and sideways on a tape line or curb."
+        },
+        {
+          "title": "Partner balance",
+          "work": "Create partner counterbalances."
+        },
+        {
+          "title": "Balance sequence",
+          "work": "Create a 3-balance sequence."
+        },
+        {
+          "title": "Review",
+          "work": "Perform the sequence."
+        }
+      ],
+      "assessment": "Balance sequence"
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Rolling and tumbling",
+      "objectives": [
+        "Perform rolls safely with control",
+        "Link balances and rolls in a sequence"
+      ],
+      "standards": [
+        "PE-3.1.4",
+        "PE-3.1.3",
+        "PE-3.5.4"
+      ],
+      "vocabulary": [
+        "log roll",
+        "forward roll",
+        "tuck",
+        "spotting"
+      ],
+      "materials": [
+        "mat, old mattress or soft grass"
+      ],
+      "days": [
+        {
+          "title": "Log roll",
+          "work": "Practice log rolls down a mat with arms overhead and body straight, 5 each direction."
+        },
+        {
+          "title": "Egg roll",
+          "work": "Practice tucked side 'egg rolls' and rocking chair rocks to learn a rounded back."
+        },
+        {
+          "title": "Forward roll",
+          "work": "Practice forward rolls down a gentle incline with an adult spotting the neck and hips."
+        },
+        {
+          "title": "Routine",
+          "work": "Combine a balance, a roll and a jump with soft landing into a 3-part routine."
+        },
+        {
+          "title": "Review",
+          "work": "Perform the routine and explain the safety cue 'chin to chest.'"
+        }
+      ],
+      "assessment": "Tumbling routine with safe technique"
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "Single rope basics",
+      "objectives": [
+        "Jump a self-turned rope with rhythm",
+        "Track personal bests"
+      ],
+      "standards": [
+        "PE-3.1.5",
+        "PE-3.2.4"
+      ],
+      "vocabulary": [
+        "rhythm",
+        "turn",
+        "basic bounce"
+      ],
+      "materials": [
+        "jump rope"
+      ],
+      "days": [
+        {
+          "title": "Sizing and turning",
+          "work": "Size the rope to armpit height and practice turning it from the wrists without jumping."
+        },
+        {
+          "title": "Basic bounce",
+          "work": "Practice the two-foot basic bounce in 5 sets of 20-second tries, resting between sets."
+        },
+        {
+          "title": "Count",
+          "work": "Count consecutive jumps in 3 trials and record the best in a jump log."
+        },
+        {
+          "title": "Rhythm practice",
+          "work": "Jump to a slow-tempo song, then a faster one, keeping time with the beat."
+        },
+        {
+          "title": "Review",
+          "work": "Record a new personal best and explain how practice changed your count."
+        }
+      ],
+      "assessment": "Personal best jumps in log"
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Jump rope tricks",
+      "objectives": [
+        "Perform footwork variations",
+        "Observe heart rate response"
+      ],
+      "standards": [
+        "PE-3.1.5",
+        "PE-3.4.2"
+      ],
+      "vocabulary": [
+        "skier",
+        "bell",
+        "side swing",
+        "criss-cross"
+      ],
+      "materials": [
+        "jump rope",
+        "timer"
+      ],
+      "days": [
+        {
+          "title": "Skier",
+          "work": "Learn the skier jump (side to side) and complete 3 sets of 10."
+        },
+        {
+          "title": "Bell",
+          "work": "Learn the bell jump (front to back) and the side swing."
+        },
+        {
+          "title": "Alternate foot",
+          "work": "Learn the alternate-foot jog step and try 20 in a row."
+        },
+        {
+          "title": "Heart rate",
+          "work": "Jump for 1 minute, take your pulse, and compare it to your resting heart rate."
+        },
+        {
+          "title": "Review",
+          "work": "Perform 3 tricks in a row for a family member who checks them off."
+        }
+      ],
+      "assessment": "Trick checklist"
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Long rope and routine",
+      "objectives": [
+        "Jump a long rope",
+        "Create a jump rope routine"
+      ],
+      "standards": [
+        "PE-3.1.6",
+        "PE-3.3.1",
+        "PE-3.5.1"
+      ],
+      "vocabulary": [
+        "long rope",
+        "enter",
+        "exit",
+        "routine"
+      ],
+      "materials": [
+        "long rope",
+        "music"
+      ],
+      "days": [
+        {
+          "title": "Long rope",
+          "work": "Enter, jump 5 times and exit a long rope turned by two family members (or rope tied to a fence)."
+        },
+        {
+          "title": "Rhymes",
+          "work": "Jump to traditional rhymes like 'Teddy Bear, Teddy Bear' and 'Cinderella.'"
+        },
+        {
+          "title": "Routine plan",
+          "work": "Plan a 30-second single-rope routine to music using 4 tricks."
+        },
+        {
+          "title": "Practice",
+          "work": "Rehearse the routine 5 times, smoothing transitions between tricks."
+        },
+        {
+          "title": "Review",
+          "work": "Perform the routine and note one trick to keep improving."
+        }
+      ],
+      "assessment": "Jump rope routine performance"
+    },
+    {
+      "week": 11,
+      "unit": 4,
+      "topic": "Overhand throw cues",
+      "objectives": [
+        "Use the 4 overhand throw cues",
+        "Throw with accuracy and force"
+      ],
+      "standards": [
+        "PE-3.1.7",
+        "PE-3.2.1"
+      ],
+      "vocabulary": [
+        "side to target",
+        "step with opposite foot",
+        "follow through"
+      ],
+      "materials": [
+        "tennis balls",
+        "tape wall target"
+      ],
+      "days": [
+        {
+          "title": "Cues",
+          "work": "Learn the cues (side to target, arm back, step with opposite foot, follow through) and shadow-throw 20 times."
+        },
+        {
+          "title": "Wall target",
+          "work": "Throw 20 tennis balls at a taped wall target from 15 feet and tally hits."
+        },
+        {
+          "title": "Distance",
+          "work": "Throw for distance in an open field using a big step and full follow-through; mark best throw."
+        },
+        {
+          "title": "Partner check",
+          "work": "Watch a partner's throws and check off each cue on a checklist."
+        },
+        {
+          "title": "Review",
+          "work": "Explain the cues and throw 10 at the target to compare accuracy with Monday."
+        }
+      ],
+      "assessment": "Throw cue checklist and target tally"
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "Catching",
+      "objectives": [
+        "Catch at different levels with soft hands"
+      ],
+      "standards": [
+        "PE-3.1.8",
+        "PE-3.2.1"
+      ],
+      "vocabulary": [
+        "hands ready",
+        "thumbs together",
+        "pinkies together",
+        "give"
+      ],
+      "materials": [
+        "balls",
+        "beanbags"
+      ],
+      "days": [
+        {
+          "title": "Self-toss",
+          "work": "Self-toss and catch a beanbag 20 times, then a ball, calling 'reach and give.'"
+        },
+        {
+          "title": "Levels",
+          "work": "Catch tosses above the head (thumbs together) and below the waist (pinkies together)."
+        },
+        {
+          "title": "Partner",
+          "work": "Play partner catch, taking a step back after each 3 successful catches."
+        },
+        {
+          "title": "Moving",
+          "work": "Jog and catch tosses from a partner on the move."
+        },
+        {
+          "title": "Review",
+          "work": "Record your best streak of consecutive partner catches."
+        }
+      ],
+      "assessment": "Catching streak record"
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Throwing and catching on the move",
+      "objectives": [
+        "Lead a moving receiver",
+        "Throw different objects"
+      ],
+      "standards": [
+        "PE-3.1.7",
+        "PE-3.1.8",
+        "PE-3.5.3"
+      ],
+      "vocabulary": [
+        "lead pass",
+        "target",
+        "disc"
+      ],
+      "materials": [
+        "balls",
+        "flying disc",
+        "small football",
+        "cones"
+      ],
+      "days": [
+        {
+          "title": "Lead pass",
+          "work": "Throw ahead of a partner running a straight cone path so they catch without stopping."
+        },
+        {
+          "title": "Flying disc",
+          "work": "Learn the backhand disc throw and play catch for 15 minutes."
+        },
+        {
+          "title": "Football",
+          "work": "Throw a small football with a spiral grip to a stationary then moving partner."
+        },
+        {
+          "title": "Feedback",
+          "work": "Give a partner two specific compliments and one cue to improve after their throws."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a 10-pass moving drill and record completions."
+        }
+      ],
+      "assessment": "Moving passing drill"
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Throwing games",
+      "objectives": [
+        "Apply throwing and catching in games",
+        "Show fair play"
+      ],
+      "standards": [
+        "PE-3.1.7",
+        "PE-3.2.4",
+        "PE-3.5.2"
+      ],
+      "vocabulary": [
+        "accuracy",
+        "fair play"
+      ],
+      "materials": [
+        "balls",
+        "plastic bottles"
+      ],
+      "days": [
+        {
+          "title": "Target game",
+          "work": "Set up 10 plastic bottles and knock them down with overhand throws from a set line."
+        },
+        {
+          "title": "Keep-away",
+          "work": "Play monkey in the middle, using fakes and quick passes."
+        },
+        {
+          "title": "Practice log",
+          "work": "Re-test the wall target and graph your accuracy improvement since week 11."
+        },
+        {
+          "title": "Hit the pin",
+          "work": "Play a family game of hit-the-pin with turn-taking and fair-play rules."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a throw and catch skill check scored on the cue checklist."
+        }
+      ],
+      "assessment": "Throw/catch skill check"
+    },
+    {
+      "week": 15,
+      "unit": 5,
+      "topic": "Hand dribbling",
+      "objectives": [
+        "Dribble with fingertips while stationary and moving"
+      ],
+      "standards": [
+        "PE-3.1.9",
+        "PE-3.2.1"
+      ],
+      "vocabulary": [
+        "dribble",
+        "fingertips",
+        "control",
+        "waist height"
+      ],
+      "materials": [
+        "playground ball or basketball"
+      ],
+      "days": [
+        {
+          "title": "Stationary",
+          "work": "Dribble 30 times with each hand using fingertips at waist height."
+        },
+        {
+          "title": "Walking",
+          "work": "Dribble while walking a straight line and back, switching hands at the turn."
+        },
+        {
+          "title": "Running",
+          "work": "Dribble while jogging the length of a driveway or court."
+        },
+        {
+          "title": "Eyes up",
+          "work": "Dribble while calling out the number of fingers a family member holds up."
+        },
+        {
+          "title": "Review",
+          "work": "Dribble through a 6-cone course without losing control."
+        }
+      ],
+      "assessment": "Dribble course"
+    },
+    {
+      "week": 16,
+      "unit": 5,
+      "topic": "Dribbling with changes",
+      "objectives": [
+        "Change direction and speed while dribbling"
+      ],
+      "standards": [
+        "PE-3.1.9",
+        "PE-3.2.2"
+      ],
+      "vocabulary": [
+        "crossover",
+        "speed",
+        "direction"
+      ],
+      "materials": [
+        "ball",
+        "cones"
+      ],
+      "days": [
+        {
+          "title": "Crossover",
+          "work": "Learn a low crossover dribble from hand to hand and practice 3 sets of 20."
+        },
+        {
+          "title": "Zigzag",
+          "work": "Dribble a zigzag cone pattern, switching hands at each cone."
+        },
+        {
+          "title": "Speed",
+          "work": "Change dribbling speed when a family member calls 'red light' or 'green light.'"
+        },
+        {
+          "title": "Dribble tag",
+          "work": "Play dribble tag, keeping your dribble while tagging and dodging."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a dribble skills check: crossover, zigzag and speed change."
+        }
+      ],
+      "assessment": "Dribble skills check"
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Foot dribbling",
+      "objectives": [
+        "Dribble with the feet using soft touches"
+      ],
+      "standards": [
+        "PE-3.1.10",
+        "PE-3.2.1"
+      ],
+      "vocabulary": [
+        "inside of foot",
+        "touch",
+        "control"
+      ],
+      "materials": [
+        "soccer ball",
+        "cones"
+      ],
+      "days": [
+        {
+          "title": "Touches",
+          "work": "Practice 50 inside-foot 'toe taps' and inside-foot touches back and forth."
+        },
+        {
+          "title": "Cones",
+          "work": "Dribble through a cone line using both feet and small touches."
+        },
+        {
+          "title": "Stop",
+          "work": "Dribble and stop the ball with the sole of the foot on a signal."
+        },
+        {
+          "title": "Soccer tag",
+          "work": "Play soccer dribble tag, protecting the ball from a defender."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a timed foot-dribble course and record your time."
+        }
+      ],
+      "assessment": "Timed foot-dribble course"
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Kicking and passing",
+      "objectives": [
+        "Pass and kick to a target"
+      ],
+      "standards": [
+        "PE-3.1.10",
+        "PE-3.2.1"
+      ],
+      "vocabulary": [
+        "pass",
+        "shoot",
+        "plant foot"
+      ],
+      "materials": [
+        "soccer ball",
+        "goal or two cones"
+      ],
+      "days": [
+        {
+          "title": "Pass",
+          "work": "Make 30 inside-foot passes to a partner with the plant foot beside the ball."
+        },
+        {
+          "title": "Target",
+          "work": "Kick to a target between two cones from 15 feet; tally successes."
+        },
+        {
+          "title": "Shoot",
+          "work": "Shoot on goal using laces and follow-through."
+        },
+        {
+          "title": "Moving pass",
+          "work": "Pass to a partner jogging across the field."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a kicking check (pass accuracy and shot) scored on cues."
+        }
+      ],
+      "assessment": "Kicking check"
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Small-sided games",
+      "objectives": [
+        "Use simple offense and defense strategies"
+      ],
+      "standards": [
+        "PE-3.2.3",
+        "PE-3.5.2"
+      ],
+      "vocabulary": [
+        "offense",
+        "defense",
+        "open space",
+        "guard"
+      ],
+      "materials": [
+        "ball",
+        "cones"
+      ],
+      "days": [
+        {
+          "title": "Open space",
+          "work": "Practice moving to open space to receive a pass in a 2-person keep-away."
+        },
+        {
+          "title": "Guarding",
+          "work": "Practice defensive stance and staying between the attacker and the goal."
+        },
+        {
+          "title": "2v1",
+          "work": "Play 2v1 games where attackers use passes to beat one defender."
+        },
+        {
+          "title": "Mini game",
+          "work": "Play a mini soccer or basketball game with family or friends."
+        },
+        {
+          "title": "Review",
+          "work": "Write about one strategy you used and one fair-play moment."
+        }
+      ],
+      "assessment": "Game play observation and reflection"
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "Striking with paddles",
+      "objectives": [
+        "Strike with a paddle with control"
+      ],
+      "standards": [
+        "PE-3.1.11",
+        "PE-3.2.1"
+      ],
+      "vocabulary": [
+        "paddle",
+        "ready position",
+        "flat face"
+      ],
+      "materials": [
+        "paddle or racket",
+        "balloon",
+        "ball"
+      ],
+      "days": [
+        {
+          "title": "Balloon",
+          "work": "Keep a balloon up with a paddle 20 times in a row."
+        },
+        {
+          "title": "Up bounces",
+          "work": "Bounce a ball upward on the paddle and count consecutive hits."
+        },
+        {
+          "title": "Down dribble",
+          "work": "Bounce a ball downward with the paddle like a dribble while walking."
+        },
+        {
+          "title": "Wall hits",
+          "work": "Hit a ball against a wall, letting it bounce once between hits."
+        },
+        {
+          "title": "Review",
+          "work": "Record your best counts for up bounces and wall hits."
+        }
+      ],
+      "assessment": "Paddle control counts"
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Forehand striking",
+      "objectives": [
+        "Use the forehand stroke"
+      ],
+      "standards": [
+        "PE-3.1.11",
+        "PE-3.2.2"
+      ],
+      "vocabulary": [
+        "forehand",
+        "follow through",
+        "side to target"
+      ],
+      "materials": [
+        "paddle",
+        "ball"
+      ],
+      "days": [
+        {
+          "title": "Forehand cues",
+          "work": "Learn the forehand cues (side to target, swing low to high, follow through) and shadow 20 swings."
+        },
+        {
+          "title": "Drop hit",
+          "work": "Drop a ball, let it bounce and hit a forehand to a wall 20 times."
+        },
+        {
+          "title": "Partner rally",
+          "work": "Rally with a partner over a rope or line, counting hits."
+        },
+        {
+          "title": "Target",
+          "work": "Hit forehands to hula hoop targets near and far, adjusting force."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a forehand check scored on the 3 cues."
+        }
+      ],
+      "assessment": "Forehand check"
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Batting",
+      "objectives": [
+        "Strike a ball off a tee with a level swing"
+      ],
+      "standards": [
+        "PE-3.1.11",
+        "PE-3.5.4"
+      ],
+      "vocabulary": [
+        "bat",
+        "tee",
+        "swing",
+        "grip"
+      ],
+      "materials": [
+        "bat",
+        "tee or tall cone",
+        "whiffle ball"
+      ],
+      "days": [
+        {
+          "title": "Grip and stance",
+          "work": "Learn the stacked-hands grip and side stance; practice 20 dry swings."
+        },
+        {
+          "title": "Tee hitting",
+          "work": "Hit 20 balls off a tee, focusing on a level swing."
+        },
+        {
+          "title": "Direction",
+          "work": "Hit balls to left, center and right by adjusting your stance."
+        },
+        {
+          "title": "Safety",
+          "work": "Practice the bat safety zone and placing (not throwing) the bat after hitting."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a batting check of 10 hits scored for contact and form."
+        }
+      ],
+      "assessment": "Batting check"
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Striking games",
+      "objectives": [
+        "Apply striking skills and placement strategy in games"
+      ],
+      "standards": [
+        "PE-3.1.11",
+        "PE-3.2.3"
+      ],
+      "vocabulary": [
+        "placement",
+        "strategy",
+        "open space"
+      ],
+      "materials": [
+        "bat",
+        "paddles",
+        "balls"
+      ],
+      "days": [
+        {
+          "title": "Whiffle ball",
+          "work": "Play a family whiffle ball game with tee or soft pitch."
+        },
+        {
+          "title": "Paddle ball",
+          "work": "Play paddle ball over a line, scoring when the ball lands in open space."
+        },
+        {
+          "title": "Strategy",
+          "work": "Discuss and test placing hits away from fielders."
+        },
+        {
+          "title": "Game",
+          "work": "Play a striking game of choice and keep score fairly."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a striking unit check combining paddle and batting skills."
+        }
+      ],
+      "assessment": "Striking unit check"
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Rhythm and movement",
+      "objectives": [
+        "Move in time to a beat",
+        "Use levels and directions"
+      ],
+      "standards": [
+        "PE-3.1.12",
+        "PE-3.2.2"
+      ],
+      "vocabulary": [
+        "rhythm",
+        "beat",
+        "tempo",
+        "level"
+      ],
+      "materials": [
+        "music"
+      ],
+      "days": [
+        {
+          "title": "Beat",
+          "work": "March, clap and step to the beat of 4 songs with different tempos."
+        },
+        {
+          "title": "Levels",
+          "work": "Dance using high, middle and low levels on a caller's signal."
+        },
+        {
+          "title": "Mirror",
+          "work": "Mirror a partner's slow-motion dance moves, then switch leaders."
+        },
+        {
+          "title": "GoNoodle",
+          "work": "Learn and perform a GoNoodle dance video."
+        },
+        {
+          "title": "Review",
+          "work": "Create and perform an 8-count movement phrase to music."
+        }
+      ],
+      "assessment": "8-count phrase"
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Folk dances",
+      "objectives": [
+        "Perform folk dances from different cultures"
+      ],
+      "standards": [
+        "PE-3.1.12",
+        "PE-3.5.1"
+      ],
+      "vocabulary": [
+        "folk dance",
+        "promenade",
+        "do-si-do"
+      ],
+      "materials": [
+        "music"
+      ],
+      "days": [
+        {
+          "title": "Virginia Reel",
+          "work": "Learn the Virginia Reel figures (forward and back, do-si-do, reel) with family."
+        },
+        {
+          "title": "Jarabe Tapatío",
+          "work": "Learn the basic heel-toe steps of the Mexican Hat Dance."
+        },
+        {
+          "title": "Practice",
+          "work": "Practice both dances to music, counting steps aloud."
+        },
+        {
+          "title": "Culture",
+          "work": "Learn where each dance comes from and why it is danced."
+        },
+        {
+          "title": "Review",
+          "work": "Perform both dances for family."
+        }
+      ],
+      "assessment": "Folk dance performance"
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Line dances",
+      "objectives": [
+        "Perform line dances with rhythm",
+        "Monitor heart rate"
+      ],
+      "standards": [
+        "PE-3.1.12",
+        "PE-3.3.1"
+      ],
+      "vocabulary": [
+        "line dance",
+        "grapevine",
+        "pivot"
+      ],
+      "materials": [
+        "music"
+      ],
+      "days": [
+        {
+          "title": "Grapevine",
+          "work": "Learn the grapevine step right and left in 8 counts."
+        },
+        {
+          "title": "Cha-Cha Slide",
+          "work": "Learn and dance the Cha-Cha Slide."
+        },
+        {
+          "title": "Electric Slide",
+          "work": "Learn and dance the Electric Slide."
+        },
+        {
+          "title": "Heart rate",
+          "work": "Dance 3 songs in a row, then measure heart rate and compare to rest."
+        },
+        {
+          "title": "Review",
+          "work": "Perform a full line dance without cues."
+        }
+      ],
+      "assessment": "Line dance performance"
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Creative dance",
+      "objectives": [
+        "Create a dance"
+      ],
+      "standards": [
+        "PE-3.1.12",
+        "PE-3.2.2",
+        "PE-3.5.1"
+      ],
+      "vocabulary": [
+        "choreography",
+        "sequence"
+      ],
+      "materials": [
+        "music"
+      ],
+      "days": [
+        {
+          "title": "Plan",
+          "work": "Choose a song and a theme (ocean, storm, animals) and list 4 movement ideas using levels and pathways."
+        },
+        {
+          "title": "Create",
+          "work": "Choreograph a 32-count dance with a beginning shape, 3 movement phrases and an ending shape."
+        },
+        {
+          "title": "Practice",
+          "work": "Rehearse the dance 5 times, adding one change of tempo and one change of level."
+        },
+        {
+          "title": "Perform",
+          "work": "Perform the dance for family and teach them one phrase."
+        },
+        {
+          "title": "Review",
+          "work": "Describe how you used force, levels and pathways and what you would change."
+        }
+      ],
+      "assessment": "Original dance"
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "Cooperative challenges",
+      "objectives": [
+        "Work cooperatively"
+      ],
+      "standards": [
+        "PE-3.5.1",
+        "PE-3.5.3"
+      ],
+      "vocabulary": [
+        "cooperate",
+        "teamwork"
+      ],
+      "materials": [
+        "hula hoop",
+        "blanket"
+      ],
+      "days": [
+        {
+          "title": "Hula hoop pass",
+          "work": "Pass a hula hoop around a hand-holding family circle without letting go, timing each round."
+        },
+        {
+          "title": "Blanket flip",
+          "work": "Work as a group to flip a blanket over while everyone stays standing on it."
+        },
+        {
+          "title": "Balloon keep-up",
+          "work": "Keep 3 balloons in the air as a team for 60 seconds using only assigned body parts."
+        },
+        {
+          "title": "Teamwork talk",
+          "work": "Play 'minefield' (guiding a blindfolded partner through obstacles with words) and discuss trust."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a timed team challenge and name the encouraging words that helped."
+        }
+      ],
+      "assessment": "Team challenge"
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Tag games and strategy",
+      "objectives": [
+        "Use strategy in tag games"
+      ],
+      "standards": [
+        "PE-3.2.3",
+        "PE-3.5.2"
+      ],
+      "vocabulary": [
+        "dodge",
+        "feint",
+        "strategy"
+      ],
+      "materials": [
+        "cones",
+        "flags"
+      ],
+      "days": [
+        {
+          "title": "Flag tag",
+          "work": "Play flag tag with belt flags or tucked scarves, using open space to avoid taggers."
+        },
+        {
+          "title": "Dodging",
+          "work": "Practice dodging skills (fake, pivot, change speed) in a cone-lane challenge."
+        },
+        {
+          "title": "Capture the flag",
+          "work": "Play capture the flag with friends, planning offense and defense roles."
+        },
+        {
+          "title": "Fair play",
+          "work": "Role-play honest calls ('I was tagged') and discuss why honesty keeps games fun."
+        },
+        {
+          "title": "Review",
+          "work": "Write a short reflection on which strategy helped your team most."
+        }
+      ],
+      "assessment": "Strategy reflection"
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Net and wall games",
+      "objectives": [
+        "Play net games"
+      ],
+      "standards": [
+        "PE-3.2.3",
+        "PE-3.1.8"
+      ],
+      "vocabulary": [
+        "net",
+        "volley",
+        "rally"
+      ],
+      "materials": [
+        "balloon",
+        "rope"
+      ],
+      "days": [
+        {
+          "title": "Balloon volleyball",
+          "work": "Rally a balloon over a rope net using two-hand volleys; count team hits."
+        },
+        {
+          "title": "Four square",
+          "work": "Learn four square rules and play 15 minutes, using an open-palm underhand hit."
+        },
+        {
+          "title": "Wall ball",
+          "work": "Rally a playground ball against a wall with a partner, alternating hits."
+        },
+        {
+          "title": "Rally game",
+          "work": "Play a 2v2 balloon or beach ball game over a net, aiming for open space."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a volley skill check: 10 controlled hits to a partner."
+        }
+      ],
+      "assessment": "Skill check"
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Kickball and base games",
+      "objectives": [
+        "Play base games"
+      ],
+      "standards": [
+        "PE-3.2.3",
+        "PE-3.5.2",
+        "PE-3.5.3"
+      ],
+      "vocabulary": [
+        "base",
+        "out",
+        "inning"
+      ],
+      "materials": [
+        "ball",
+        "bases"
+      ],
+      "days": [
+        {
+          "title": "Kickball rules",
+          "work": "Learn kickball rules (fair/foul, outs, innings) and practice rolling pitches."
+        },
+        {
+          "title": "Kicking for placement",
+          "work": "Practice kicking a rolled ball to open spaces in the field."
+        },
+        {
+          "title": "Base running",
+          "work": "Practice running bases, rounding first base and tagging up, with timed runs."
+        },
+        {
+          "title": "Game day",
+          "work": "Play a 3-inning kickball game, cheering for both teams with specific encouragement."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a game play check on kicking, fielding and sportsmanship."
+        }
+      ],
+      "assessment": "Game play check"
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Fitness reassessment",
+      "objectives": [
+        "Retest fitness"
+      ],
+      "standards": [
+        "PE-3.3.2",
+        "PE-3.3.3",
+        "PE-3.3.4",
+        "PE-3.4.4"
+      ],
+      "vocabulary": [
+        "progress",
+        "goal"
+      ],
+      "materials": [
+        "fitness log"
+      ],
+      "days": [
+        {
+          "title": "Strength",
+          "work": "Retest curl-ups and 90-degree push-ups and record in the fitness log."
+        },
+        {
+          "title": "Flexibility",
+          "work": "Retest sit-and-reach and shoulder stretch after a proper warm-up."
+        },
+        {
+          "title": "Endurance",
+          "work": "Retest the timed half-mile walk/run or PACER."
+        },
+        {
+          "title": "Compare",
+          "work": "Graph baseline vs. current scores for each test."
+        },
+        {
+          "title": "Review",
+          "work": "Write whether you met your fitness goal and what helped most."
+        }
+      ],
+      "assessment": "Fitness progress comparison"
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Fuel and hydration",
+      "objectives": [
+        "Explain how food and water fuel activity"
+      ],
+      "standards": [
+        "PE-3.4.5",
+        "PE-3.4.2"
+      ],
+      "vocabulary": [
+        "hydration",
+        "energy",
+        "fuel"
+      ],
+      "materials": [
+        "water bottle"
+      ],
+      "days": [
+        {
+          "title": "Hydration",
+          "work": "Track water cups drunk before, during and after a 20-minute active play session."
+        },
+        {
+          "title": "Fuel",
+          "work": "Sort snack cards into good pre-activity fuel vs. sometimes foods, then do a 15-minute jog-and-skip workout."
+        },
+        {
+          "title": "Circuit",
+          "work": "Complete a 6-station fitness circuit (1 minute each) and record heart rate after each round."
+        },
+        {
+          "title": "Heart and lungs",
+          "work": "Explain how heart and breathing rates changed during the circuit using your data."
+        },
+        {
+          "title": "Review",
+          "work": "Complete a short quiz on fueling, hydration and the body's response to exercise."
+        }
+      ],
+      "assessment": "Fuel quiz"
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Field day prep",
+      "objectives": [
+        "Practice field day events"
+      ],
+      "standards": [
+        "PE-3.1.2",
+        "PE-3.5.3"
+      ],
+      "vocabulary": [
+        "relay",
+        "event"
+      ],
+      "materials": [
+        "cones",
+        "sacks"
+      ],
+      "days": [
+        {
+          "title": "Relays",
+          "work": "Practice baton-pass and shuttle relays with a family member."
+        },
+        {
+          "title": "Sack race",
+          "work": "Practice pillowcase sack hops and three-legged race starts."
+        },
+        {
+          "title": "Throw",
+          "work": "Practice the softball throw for distance using overhand cues."
+        },
+        {
+          "title": "Jump",
+          "work": "Practice standing long jump and record best of 3."
+        },
+        {
+          "title": "Review",
+          "work": "Run a mini field day of 4 events and record personal results."
+        }
+      ],
+      "assessment": "Mini field day"
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Field day",
+      "objectives": [
+        "Participate in field day"
+      ],
+      "standards": [
+        "PE-3.3.1",
+        "PE-3.5.3"
+      ],
+      "vocabulary": [
+        "sportsmanship"
+      ],
+      "materials": [
+        "field day equipment"
+      ],
+      "days": [
+        {
+          "title": "Field day 1",
+          "work": "Compete in the 50-yard dash, standing long jump and softball throw with family or co-op friends."
+        },
+        {
+          "title": "Field day 2",
+          "work": "Complete sack race, three-legged race and water-balloon toss stations."
+        },
+        {
+          "title": "Team relay",
+          "work": "Run a team obstacle relay that combines dribbling, jumping and throwing skills."
+        },
+        {
+          "title": "Sportsmanship",
+          "work": "Make and present sportsmanship awards to teammates, naming specific kind actions."
+        },
+        {
+          "title": "Review",
+          "work": "Write a reflection comparing your field day results to your fall fitness scores."
+        }
+      ],
+      "assessment": "Field day participation"
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Summer fitness plan",
+      "objectives": [
+        "Plan summer activity"
+      ],
+      "standards": [
+        "PE-3.4.4",
+        "PE-3.3.1"
+      ],
+      "vocabulary": [
+        "plan",
+        "activity"
+      ],
+      "materials": [
+        "calendar"
+      ],
+      "days": [
+        {
+          "title": "Plan",
+          "work": "Create a summer activity calendar with 60 minutes of activity per day across at least 4 activity types."
+        },
+        {
+          "title": "Try something new",
+          "work": "Try a new activity (swimming, skateboarding, yoga) for 30 minutes and rate it."
+        },
+        {
+          "title": "Family outing",
+          "work": "Go on a family hike or bike ride and measure the distance."
+        },
+        {
+          "title": "Log",
+          "work": "Fill in a week of the summer activity log and set a summer skill goal (e.g., 50 consecutive rope jumps)."
+        },
+        {
+          "title": "Review",
+          "work": "Share the summer plan and lead the family in your favorite warm-up."
+        }
+      ],
+      "assessment": "Summer plan"
+    }
+  ]
+}

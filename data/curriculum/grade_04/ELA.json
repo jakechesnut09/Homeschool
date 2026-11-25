@@ -1,0 +1,1943 @@
+{
+  "grade": 4,
+  "subject": "ELA",
+  "title": "ELA 4",
+  "description": "Fourth-grade English Language Arts aligned to the California Common Core State Standards and the 2014 ELA/ELD Framework. Students read whole novels (Island of the Blue Dolphins, The Wonderful Wizard of Oz), myths, fables, poetry, drama and informational texts tied to California, and write personal narratives, explanatory reports, opinion essays and a short research report. Every week weaves reading, writing, grammar and conventions, morphology-based word study, and speaking and listening.",
+  "framework": "California Common Core State Standards for ELA/Literacy; 2014 California ELA/ELD Framework",
+  "minutes_per_day": 90,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "RL.4.1": "Refer to details and examples in a text when explaining what it says explicitly and when drawing inferences.",
+    "RL.4.2": "Determine a theme of a story, drama or poem from details in the text; summarize the text.",
+    "RL.4.3": "Describe in depth a character, setting or event, drawing on specific details (thoughts, words, actions).",
+    "RL.4.4": "Determine the meaning of words and phrases, including those that allude to significant characters in mythology.",
+    "RL.4.5": "Explain major differences between poems, drama and prose and refer to their structural elements (verse, rhythm, meter, cast, settings, stage directions).",
+    "RL.4.6": "Compare and contrast the point of view from which different stories are narrated, including first- and third-person.",
+    "RL.4.7": "Make connections between the text of a story or drama and a visual or oral presentation of it.",
+    "RL.4.9": "Compare and contrast the treatment of similar themes and patterns of events in stories, myths and traditional literature from different cultures.",
+    "RL.4.10": "Read and comprehend grade 4-5 literature proficiently.",
+    "RI.4.1": "Refer to details and examples in an informational text when explaining what it says and drawing inferences.",
+    "RI.4.2": "Determine the main idea of a text and explain how it is supported by key details; summarize.",
+    "RI.4.3": "Explain events, procedures, ideas or concepts in a historical, scientific or technical text, including what happened and why.",
+    "RI.4.4": "Determine the meaning of general academic and domain-specific words in a grade 4 text.",
+    "RI.4.5": "Describe the overall structure (chronology, comparison, cause/effect, problem/solution) of events, ideas or information in a text.",
+    "RI.4.6": "Compare and contrast a firsthand and secondhand account of the same event or topic.",
+    "RI.4.7": "Interpret information presented visually, orally or quantitatively (charts, graphs, diagrams, timelines) and explain how it contributes to understanding.",
+    "RI.4.8": "Explain how an author uses reasons and evidence to support particular points in a text.",
+    "RI.4.9": "Integrate information from two texts on the same topic to write or speak about the subject knowledgeably.",
+    "RI.4.10": "Read and comprehend grade 4-5 informational texts proficiently.",
+    "RF.4.3": "Use combined knowledge of letter-sound correspondences, syllabication patterns and morphology (roots and affixes) to read unfamiliar multisyllabic words.",
+    "RF.4.4": "Read with sufficient accuracy and fluency to support comprehension.",
+    "W.4.1": "Write opinion pieces supporting a point of view with reasons and information.",
+    "W.4.2": "Write informative/explanatory texts to examine a topic and convey ideas clearly.",
+    "W.4.3": "Write narratives to develop real or imagined experiences using technique, descriptive details and clear event sequences.",
+    "W.4.4": "Produce clear and coherent writing appropriate to task, purpose and audience.",
+    "W.4.5": "With guidance, develop and strengthen writing by planning, revising and editing.",
+    "W.4.6": "With guidance, use technology to produce and publish writing; type a minimum of one page in a single sitting.",
+    "W.4.7": "Conduct short research projects that build knowledge through investigation of different aspects of a topic.",
+    "W.4.8": "Recall relevant information from experiences or gather information from print and digital sources; take notes, categorize and list sources.",
+    "W.4.9": "Draw evidence from literary or informational texts to support analysis, reflection and research.",
+    "W.4.10": "Write routinely over extended and shorter time frames for a range of tasks and purposes.",
+    "SL.4.1": "Engage effectively in collaborative discussions, building on others' ideas and expressing one's own clearly.",
+    "SL.4.2": "Paraphrase portions of a text read aloud or information presented in diverse media and formats.",
+    "SL.4.3": "Identify the reasons and evidence a speaker provides to support particular points.",
+    "SL.4.4": "Report on a topic or text, tell a story or recount an experience in an organized manner with appropriate facts and details; speak clearly at an understandable pace.",
+    "SL.4.5": "Add audio recordings and visual displays to presentations to enhance main ideas or themes.",
+    "SL.4.6": "Differentiate between contexts that call for formal English and informal discourse.",
+    "L.4.1": "Demonstrate command of grammar and usage: relative pronouns and adverbs, progressive verb tenses, modal auxiliaries, adjective order, prepositional phrases, complete sentences, frequently confused words.",
+    "L.4.2": "Demonstrate command of capitalization, punctuation (commas, quotation marks) and spelling.",
+    "L.4.3": "Use knowledge of language and its conventions: choose precise words and punctuation for effect.",
+    "L.4.4": "Determine or clarify the meaning of unknown words using context, Greek and Latin affixes and roots, and reference materials.",
+    "L.4.5": "Demonstrate understanding of figurative language, word relationships and nuances (similes, metaphors, idioms, adages, proverbs, antonyms, synonyms).",
+    "L.4.6": "Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases."
+  },
+  "resources": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org",
+      "note": "Free texts used this year: Just So Stories, A Wonder-Book for Girls and Boys, Aesop's Fables, The Wonderful Wizard of Oz, A Child's Garden of Verses"
+    },
+    {
+      "name": "ReadWorks",
+      "url": "https://www.readworks.org",
+      "note": "Free leveled nonfiction passages with question sets for grade 4"
+    },
+    {
+      "name": "CommonLit",
+      "url": "https://www.commonlit.org",
+      "note": "Free grade 4 poems, short stories and informational texts with comprehension questions"
+    },
+    {
+      "name": "Khan Academy – Grammar",
+      "url": "https://www.khanacademy.org/humanities/grammar",
+      "note": "Videos and practice for parts of speech, punctuation and syntax"
+    },
+    {
+      "name": "Library of Congress – Classroom Materials",
+      "url": "https://www.loc.gov/classroom-materials/",
+      "note": "Primary sources for firsthand/secondhand account comparisons and research"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Launching Readers & Writers: Story Elements and Personal Narrative",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Readers notice how characters, settings and events work together; writers shape real experiences into stories.",
+      "standards": [
+        "RL.4.1",
+        "RL.4.2",
+        "RL.4.3",
+        "W.4.3",
+        "W.4.5",
+        "L.4.1",
+        "L.4.2",
+        "RF.4.3",
+        "RF.4.4",
+        "SL.4.1"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Myths, Fables & Traditional Tales",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Stories from many cultures share themes and patterns, and mythology lives on in our language.",
+      "standards": [
+        "RL.4.2",
+        "RL.4.4",
+        "RL.4.6",
+        "RL.4.9",
+        "W.4.3",
+        "L.4.4",
+        "L.4.5",
+        "RF.4.3",
+        "SL.4.4"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Reading to Learn: Informational Text and Explanatory Writing",
+      "start_week": 9,
+      "end_week": 12,
+      "big_idea": "Authors organize information in structures; writers explain a topic clearly with facts and details.",
+      "standards": [
+        "RI.4.2",
+        "RI.4.3",
+        "RI.4.4",
+        "RI.4.5",
+        "RI.4.7",
+        "W.4.2",
+        "W.4.4",
+        "W.4.8",
+        "L.4.1",
+        "L.4.6",
+        "SL.4.2"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Novel Study: Island of the Blue Dolphins",
+      "start_week": 13,
+      "end_week": 17,
+      "big_idea": "Survival tests and reveals character; fiction and nonfiction together tell a fuller story.",
+      "standards": [
+        "RL.4.1",
+        "RL.4.2",
+        "RL.4.3",
+        "RL.4.6",
+        "RI.4.9",
+        "W.4.9",
+        "W.4.2",
+        "L.4.5",
+        "SL.4.1",
+        "RF.4.4"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Poetry & Drama",
+      "start_week": 18,
+      "end_week": 20,
+      "big_idea": "Poets and playwrights use structure, sound and figurative language to create meaning.",
+      "standards": [
+        "RL.4.4",
+        "RL.4.5",
+        "RL.4.7",
+        "L.4.5",
+        "L.4.3",
+        "SL.4.4",
+        "SL.4.5",
+        "RF.4.4",
+        "W.4.10"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Opinion and Argument",
+      "start_week": 21,
+      "end_week": 24,
+      "big_idea": "Strong opinions rest on reasons supported by evidence.",
+      "standards": [
+        "RI.4.8",
+        "RI.4.1",
+        "W.4.1",
+        "W.4.5",
+        "W.4.6",
+        "SL.4.3",
+        "SL.4.1",
+        "L.4.1",
+        "L.4.3",
+        "SL.4.6"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Novel Study: The Wonderful Wizard of Oz",
+      "start_week": 25,
+      "end_week": 29,
+      "big_idea": "Journeys change characters, and a story can be retold through film, stage and art.",
+      "standards": [
+        "RL.4.1",
+        "RL.4.2",
+        "RL.4.3",
+        "RL.4.7",
+        "RL.4.9",
+        "W.4.9",
+        "W.4.3",
+        "L.4.4",
+        "L.4.5",
+        "SL.4.2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Research and Report: California Natural Wonders",
+      "start_week": 30,
+      "end_week": 34,
+      "big_idea": "Researchers gather, compare and integrate sources, including firsthand accounts, to build knowledge.",
+      "standards": [
+        "RI.4.6",
+        "RI.4.7",
+        "RI.4.9",
+        "W.4.2",
+        "W.4.7",
+        "W.4.8",
+        "W.4.6",
+        "SL.4.4",
+        "SL.4.5",
+        "L.4.2"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Reflection, Fluency & Portfolio",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "Readers and writers reflect on growth and set goals.",
+      "standards": [
+        "RF.4.4",
+        "W.4.10",
+        "SL.4.4",
+        "L.4.2",
+        "RL.4.10",
+        "RI.4.10"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Story elements in Just So Stories",
+      "objectives": [
+        "Identify characters, setting, problem and resolution",
+        "Establish reading and writing routines"
+      ],
+      "standards": [
+        "RL.4.1",
+        "RL.4.3",
+        "SL.4.1",
+        "RF.4.4"
+      ],
+      "vocabulary": [
+        "character",
+        "setting",
+        "plot",
+        "resolution"
+      ],
+      "materials": [
+        "Just So Stories (Kipling, Gutenberg)",
+        "reader's notebook",
+        "library book for independent reading"
+      ],
+      "days": [
+        {
+          "title": "Reading inventory",
+          "work": "Complete a reading interest survey, choose an independent library book, and do a 1-minute fluency read of a grade 4 passage to set a baseline."
+        },
+        {
+          "title": "How the Whale Got His Throat",
+          "work": "Read Kipling's 'How the Whale Got His Throat' aloud and fill in a story map with character, setting, problem and solution."
+        },
+        {
+          "title": "Details as evidence",
+          "work": "Reread 'How the Camel Got His Hump' and answer 4 questions citing a detail from the text for each."
+        },
+        {
+          "title": "Writer's notebook launch",
+          "work": "Make a 'heart map' of memories in the writer's notebook and quick-write for 10 minutes about one memory."
+        },
+        {
+          "title": "Review & check",
+          "work": "Discuss the two stories with a parent using sentence stems ('I agree because...'), then answer a short story-element check."
+        }
+      ],
+      "assessment": "Story map, cited answers and fluency baseline."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Character and personal narrative beginnings",
+      "objectives": [
+        "Describe a character using thoughts, words and actions",
+        "Plan a personal narrative"
+      ],
+      "standards": [
+        "RL.4.3",
+        "W.4.3",
+        "L.4.1",
+        "RF.4.3"
+      ],
+      "vocabulary": [
+        "trait",
+        "motive",
+        "narrative",
+        "sequence"
+      ],
+      "materials": [
+        "Just So Stories",
+        "writer's notebook"
+      ],
+      "days": [
+        {
+          "title": "Character traits",
+          "work": "Read 'The Elephant's Child' and chart the Elephant's Child's traits with evidence from his words and actions."
+        },
+        {
+          "title": "Prefixes un-, re-, dis-",
+          "work": "Sort 20 words by prefix, define each using the prefix meaning, and use 5 in sentences."
+        },
+        {
+          "title": "Narrative planning",
+          "work": "Choose a small moment from the heart map and plan it on a story mountain (beginning, rising events, high point, ending)."
+        },
+        {
+          "title": "Complete sentences",
+          "work": "Fix 12 fragments and run-ons, then check the narrative plan's first sentences for completeness."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draft the narrative's opening scene with a hook and share it aloud; take a quiz on prefixes and sentence types."
+        }
+      ],
+      "assessment": "Character chart and prefix/sentence quiz."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Drafting narratives with dialogue and detail",
+      "objectives": [
+        "Use dialogue and description to develop events",
+        "Punctuate dialogue correctly"
+      ],
+      "standards": [
+        "W.4.3",
+        "L.4.2",
+        "RL.4.1",
+        "RF.4.4"
+      ],
+      "vocabulary": [
+        "dialogue",
+        "quotation marks",
+        "sensory details",
+        "transition"
+      ],
+      "materials": [
+        "writer's notebook",
+        "independent reading book"
+      ],
+      "days": [
+        {
+          "title": "Mentor text study",
+          "work": "Reread 'How the Leopard Got His Spots' and highlight dialogue and description; note how Kipling shows feelings."
+        },
+        {
+          "title": "Draft the middle",
+          "work": "Draft the narrative's middle events using at least two time-order transitions."
+        },
+        {
+          "title": "Quotation marks",
+          "work": "Practice punctuating dialogue in 10 sentences and add 3 lines of dialogue to the draft."
+        },
+        {
+          "title": "Show, don't tell",
+          "work": "Rewrite 4 'telling' sentences as 'showing' sentences with sensory details and revise one draft paragraph."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draft the ending and do a timed fluency read of a passage from the independent book."
+        }
+      ],
+      "assessment": "Complete narrative draft with dialogue."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Revising, publishing and theme",
+      "objectives": [
+        "Revise and edit a narrative",
+        "Determine a theme and summarize a story"
+      ],
+      "standards": [
+        "W.4.5",
+        "W.4.6",
+        "RL.4.2",
+        "L.4.2"
+      ],
+      "vocabulary": [
+        "theme",
+        "summary",
+        "revise",
+        "edit"
+      ],
+      "materials": [
+        "computer",
+        "editing checklist"
+      ],
+      "days": [
+        {
+          "title": "Theme",
+          "work": "Read 'The Cat That Walked by Himself' and determine a theme supported by two details; write a 5-sentence summary."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise the narrative using a checklist: strong lead, clear sequence, dialogue, satisfying ending."
+        },
+        {
+          "title": "Edit",
+          "work": "Edit for capitals, commas, quotation marks and spelling with a parent conference."
+        },
+        {
+          "title": "Publish",
+          "work": "Type the final narrative (at least one page) and add a title."
+        },
+        {
+          "title": "Celebrate & assess",
+          "work": "Read the narrative aloud to family; take the Unit 1 reading check on a new Just So story."
+        }
+      ],
+      "assessment": "Published personal narrative (rubric) and Unit 1 reading check."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Aesop's fables and morals",
+      "objectives": [
+        "Determine themes and morals of fables",
+        "Explain adages and proverbs"
+      ],
+      "standards": [
+        "RL.4.2",
+        "L.4.5",
+        "RF.4.3",
+        "SL.4.1"
+      ],
+      "vocabulary": [
+        "fable",
+        "moral",
+        "adage",
+        "proverb"
+      ],
+      "materials": [
+        "Aesop's Fables (Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Fable reading",
+          "work": "Read 6 Aesop fables (e.g., 'The Ant and the Grasshopper', 'The Fox and the Grapes') and state each moral in your own words."
+        },
+        {
+          "title": "Adages & proverbs",
+          "work": "Match 12 adages ('Don't count your chickens...') to meanings and to the fable that fits."
+        },
+        {
+          "title": "Suffixes -ful, -less, -ness",
+          "work": "Build and define 15 words with suffixes; note how suffixes change part of speech."
+        },
+        {
+          "title": "Discussion",
+          "work": "Discuss with a parent whether the grasshopper deserved help, citing the text."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write an original 1-paragraph fable with a moral; quiz on suffixes."
+        }
+      ],
+      "assessment": "Original fable and suffix quiz."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Greek myths and allusions",
+      "objectives": [
+        "Read Greek myths",
+        "Explain words that allude to mythology"
+      ],
+      "standards": [
+        "RL.4.4",
+        "RL.4.2",
+        "L.4.4",
+        "RF.4.4"
+      ],
+      "vocabulary": [
+        "myth",
+        "allusion",
+        "Herculean",
+        "Pandora's box",
+        "Midas touch"
+      ],
+      "materials": [
+        "A Wonder-Book for Girls and Boys (Hawthorne, Gutenberg) or D'Aulaires' Book of Greek Myths (library)"
+      ],
+      "days": [
+        {
+          "title": "The Golden Touch",
+          "work": "Read Hawthorne's 'The Golden Touch' (King Midas) and summarize it in a 5-box comic strip."
+        },
+        {
+          "title": "Pandora",
+          "work": "Read 'The Paradise of Children' (Pandora) and determine its theme."
+        },
+        {
+          "title": "Allusions",
+          "work": "Explain 8 mythological allusions (Midas touch, Pandora's box, Achilles' heel, Herculean) and use 4 in sentences."
+        },
+        {
+          "title": "Greek roots",
+          "work": "Learn roots tele, photo, graph, micro, scope and build 12 words."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on allusions and Greek roots; 1-minute fluency read of a myth passage."
+        }
+      ],
+      "assessment": "Allusion and roots quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Coyote and trickster tales across cultures",
+      "objectives": [
+        "Compare themes and patterns in tales from different cultures",
+        "Compare first- and third-person narration"
+      ],
+      "standards": [
+        "RL.4.9",
+        "RL.4.6",
+        "RL.4.2",
+        "SL.4.1"
+      ],
+      "vocabulary": [
+        "trickster",
+        "culture",
+        "compare",
+        "point of view"
+      ],
+      "materials": [
+        "California Indian Coyote stories (library collection, e.g., Coyote tales)",
+        "Anansi tales (library)",
+        "Venn diagram"
+      ],
+      "days": [
+        {
+          "title": "Coyote tales",
+          "work": "Read a California Native Coyote story (e.g., how Coyote brought fire) and identify the trickster pattern."
+        },
+        {
+          "title": "Anansi",
+          "work": "Read an Anansi tale from West Africa and record its events and theme."
+        },
+        {
+          "title": "Compare",
+          "work": "Complete a Venn diagram comparing the two tricksters' themes and patterns of events."
+        },
+        {
+          "title": "Point of view",
+          "work": "Rewrite a short scene of the Coyote story in first person as Coyote and discuss what changes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a compare/contrast paragraph about the two tales citing details."
+        }
+      ],
+      "assessment": "Compare/contrast paragraph."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Writing an original myth",
+      "objectives": [
+        "Write a narrative explaining a natural phenomenon",
+        "Use relative pronouns and adverbs"
+      ],
+      "standards": [
+        "W.4.3",
+        "W.4.5",
+        "L.4.1",
+        "SL.4.4"
+      ],
+      "vocabulary": [
+        "relative pronoun",
+        "relative adverb",
+        "phenomenon"
+      ],
+      "materials": [
+        "writer's notebook",
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Plan a myth",
+          "work": "Choose a California phenomenon (fog over the Golden Gate, Half Dome's shape) and plan an origin myth."
+        },
+        {
+          "title": "Relative pronouns",
+          "work": "Combine sentences using who, whose, which, that, where, when, why (12 items)."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft the myth with a hero, a problem and an explanation of the phenomenon."
+        },
+        {
+          "title": "Revise & edit",
+          "work": "Revise to add at least two relative clauses and edit with a checklist."
+        },
+        {
+          "title": "Storytelling & assessment",
+          "work": "Tell the myth aloud as a storyteller; take the Unit 2 test on theme, allusions and comparison."
+        }
+      ],
+      "assessment": "Published myth and Unit 2 test."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Main idea and key details",
+      "objectives": [
+        "Determine main idea and supporting details",
+        "Summarize informational text"
+      ],
+      "standards": [
+        "RI.4.2",
+        "RI.4.4",
+        "RI.4.10",
+        "L.4.6"
+      ],
+      "vocabulary": [
+        "main idea",
+        "key detail",
+        "summary",
+        "domain-specific"
+      ],
+      "materials": [
+        "ReadWorks grade 4 passages on California animals",
+        "highlighter"
+      ],
+      "days": [
+        {
+          "title": "Main idea",
+          "work": "Read a ReadWorks passage on sea otters and state the main idea with three key details."
+        },
+        {
+          "title": "Summarize",
+          "work": "Write a 4-sentence summary of a passage on California condors without opinions."
+        },
+        {
+          "title": "Domain vocabulary",
+          "work": "Use context and glossaries to define 10 science words from the passages."
+        },
+        {
+          "title": "Latin roots",
+          "work": "Learn roots port, rupt, struct, dict and build 12 words."
+        },
+        {
+          "title": "Review & check",
+          "work": "Read a new passage and write main idea, details and summary independently."
+        }
+      ],
+      "assessment": "Independent main idea/summary task."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Text structures",
+      "objectives": [
+        "Identify chronology, comparison, cause/effect and problem/solution",
+        "Use signal words"
+      ],
+      "standards": [
+        "RI.4.5",
+        "RI.4.3",
+        "RF.4.3"
+      ],
+      "vocabulary": [
+        "text structure",
+        "chronology",
+        "cause and effect",
+        "problem/solution"
+      ],
+      "materials": [
+        "nonfiction articles",
+        "graphic organizers"
+      ],
+      "days": [
+        {
+          "title": "Chronology",
+          "work": "Read an article on the building of the Golden Gate Bridge and make a timeline."
+        },
+        {
+          "title": "Cause/effect",
+          "work": "Read about the 1906 San Francisco earthquake and chart causes and effects."
+        },
+        {
+          "title": "Compare/problem-solution",
+          "work": "Read about drought solutions and record the problem and solutions; compare two animals in another passage."
+        },
+        {
+          "title": "Structure sort",
+          "work": "Identify the structure of 6 short paragraphs by their signal words."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz: name the structure of 4 passages and draw the matching organizer."
+        }
+      ],
+      "assessment": "Text structure quiz."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Visual information and note-taking",
+      "objectives": [
+        "Interpret charts, diagrams and timelines",
+        "Take notes and categorize information"
+      ],
+      "standards": [
+        "RI.4.7",
+        "W.4.8",
+        "SL.4.2",
+        "L.4.1"
+      ],
+      "vocabulary": [
+        "diagram",
+        "caption",
+        "timeline",
+        "paraphrase"
+      ],
+      "materials": [
+        "nonfiction books on a California animal",
+        "note cards"
+      ],
+      "days": [
+        {
+          "title": "Text features",
+          "work": "Interpret a diagram, a map and a chart in a nonfiction book and explain what each adds."
+        },
+        {
+          "title": "Choose a topic",
+          "work": "Choose a California animal for an explanatory report and generate research questions."
+        },
+        {
+          "title": "Note-taking",
+          "work": "Take paraphrased notes on note cards from two sources, listing each source."
+        },
+        {
+          "title": "Progressive tenses",
+          "work": "Practice past, present and future progressive verbs in 12 sentences about the animal."
+        },
+        {
+          "title": "Review & check",
+          "work": "Paraphrase a 2-minute video segment aloud and sort notes into categories."
+        }
+      ],
+      "assessment": "Notes and source list check."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Writing an explanatory report",
+      "objectives": [
+        "Write an informative text with headings, facts and a conclusion",
+        "Use precise vocabulary"
+      ],
+      "standards": [
+        "W.4.2",
+        "W.4.4",
+        "W.4.5",
+        "L.4.6",
+        "W.4.6"
+      ],
+      "vocabulary": [
+        "introduction",
+        "heading",
+        "linking words",
+        "conclusion"
+      ],
+      "materials": [
+        "notes",
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Organize",
+          "work": "Arrange notes into an outline with an introduction, 3 headed sections and a conclusion."
+        },
+        {
+          "title": "Draft sections",
+          "work": "Draft the introduction and two sections using linking words (also, for example, because)."
+        },
+        {
+          "title": "Finish draft",
+          "work": "Draft the last section and conclusion; add one diagram with a caption."
+        },
+        {
+          "title": "Revise & publish",
+          "work": "Revise for precise vocabulary, edit, and type the final report."
+        },
+        {
+          "title": "Present & assess",
+          "work": "Present the report to family; take the Unit 3 informational reading test."
+        }
+      ],
+      "assessment": "Explanatory report (rubric) and Unit 3 test."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Island of the Blue Dolphins, chapters 1-6",
+      "objectives": [
+        "Describe the setting and its effect on characters",
+        "Make inferences"
+      ],
+      "standards": [
+        "RL.4.1",
+        "RL.4.3",
+        "RF.4.4",
+        "SL.4.1"
+      ],
+      "vocabulary": [
+        "inference",
+        "setting",
+        "Aleut",
+        "Ghalas-at"
+      ],
+      "materials": [
+        "Island of the Blue Dolphins (Scott O'Dell, library)",
+        "map of the Channel Islands"
+      ],
+      "days": [
+        {
+          "title": "Setting",
+          "work": "Read chapters 1-2 and map San Nicolas Island; describe how the setting shapes the people's lives."
+        },
+        {
+          "title": "Inferences",
+          "work": "Read chapters 3-4 and write 3 inferences about Captain Orlov using text evidence."
+        },
+        {
+          "title": "Conflict",
+          "work": "Read chapters 5-6 and discuss the battle and departure with a parent."
+        },
+        {
+          "title": "Word study",
+          "work": "Practice syllabication of 15 multisyllabic words from the novel."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer 6 text-dependent questions on chapters 1-6."
+        }
+      ],
+      "assessment": "Comprehension questions on chapters 1-6."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Island of the Blue Dolphins, chapters 7-14",
+      "objectives": [
+        "Trace character development",
+        "Use first-person point of view"
+      ],
+      "standards": [
+        "RL.4.3",
+        "RL.4.6",
+        "L.4.5"
+      ],
+      "vocabulary": [
+        "first person",
+        "narrator",
+        "character change",
+        "simile"
+      ],
+      "materials": [
+        "novel",
+        "reader's notebook"
+      ],
+      "days": [
+        {
+          "title": "Alone",
+          "work": "Read chapters 7-9 and chart Karana's actions and feelings after Ramo's death."
+        },
+        {
+          "title": "Point of view",
+          "work": "Discuss how first-person narration affects what we know; rewrite a paragraph in third person."
+        },
+        {
+          "title": "Building a home",
+          "work": "Read chapters 10-12 and list the survival decisions Karana makes."
+        },
+        {
+          "title": "Figurative language",
+          "work": "Find 5 similes/metaphors in chapters 13-14 and explain them."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on how Karana has changed so far, with two quotes."
+        }
+      ],
+      "assessment": "Character change paragraph."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Island of the Blue Dolphins, chapters 15-22",
+      "objectives": [
+        "Determine theme",
+        "Analyze relationships"
+      ],
+      "standards": [
+        "RL.4.2",
+        "RL.4.3",
+        "L.4.4",
+        "W.4.9"
+      ],
+      "vocabulary": [
+        "theme",
+        "relationship",
+        "forgiveness"
+      ],
+      "materials": [
+        "novel"
+      ],
+      "days": [
+        {
+          "title": "Rontu",
+          "work": "Read chapters 15-17 and analyze how Karana's relationship with Rontu reveals her values."
+        },
+        {
+          "title": "Context clues",
+          "work": "Use context to define 10 words from chapters 18-19."
+        },
+        {
+          "title": "Tutok",
+          "work": "Read chapters 18-20 and discuss friendship across conflict."
+        },
+        {
+          "title": "Theme",
+          "work": "Read chapters 21-22 and draft a theme statement with supporting details."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer comprehension questions and share the theme statement aloud."
+        }
+      ],
+      "assessment": "Theme statement and questions."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Island of the Blue Dolphins, chapters 23-29",
+      "objectives": [
+        "Summarize the novel",
+        "Evaluate the ending"
+      ],
+      "standards": [
+        "RL.4.2",
+        "RL.4.1",
+        "SL.4.1",
+        "RF.4.4"
+      ],
+      "vocabulary": [
+        "summary",
+        "resolution",
+        "survival"
+      ],
+      "materials": [
+        "novel"
+      ],
+      "days": [
+        {
+          "title": "Chapters 23-25",
+          "work": "Read and track how Karana's attitude toward animals changes."
+        },
+        {
+          "title": "Chapters 26-29",
+          "work": "Finish the novel and discuss whether the ending is happy, sad or both."
+        },
+        {
+          "title": "Summary",
+          "work": "Write a one-paragraph summary of the whole novel."
+        },
+        {
+          "title": "Fluency",
+          "work": "Rehearse and record a 2-minute expressive reading of a favorite passage."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take the novel comprehension test."
+        }
+      ],
+      "assessment": "Novel comprehension test."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Fiction meets fact: the Lone Woman of San Nicolas",
+      "objectives": [
+        "Integrate information from novel and nonfiction",
+        "Write a literary response essay"
+      ],
+      "standards": [
+        "RI.4.9",
+        "W.4.9",
+        "W.4.2",
+        "SL.4.1"
+      ],
+      "vocabulary": [
+        "historical fiction",
+        "source",
+        "integrate"
+      ],
+      "materials": [
+        "novel",
+        "nonfiction article on Juana Maria (library/ReadWorks or National Park Service Channel Islands)"
+      ],
+      "days": [
+        {
+          "title": "Nonfiction",
+          "work": "Read a nonfiction account of the Lone Woman of San Nicolas Island (Juana Maria) and take notes."
+        },
+        {
+          "title": "Compare",
+          "work": "Make a two-column chart of what is historical fact and what Scott O'Dell invented, citing the novel and the article for each row."
+        },
+        {
+          "title": "Essay plan",
+          "work": "Plan an essay: 'How does Karana survive, and what does it show about her?'"
+        },
+        {
+          "title": "Draft & revise",
+          "work": "Draft and revise the essay with at least 3 quotations."
+        },
+        {
+          "title": "Present & assess",
+          "work": "Share the essay in a book talk; scored with the literary essay rubric."
+        }
+      ],
+      "assessment": "Literary response essay."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Poetry elements",
+      "objectives": [
+        "Identify verse, rhythm, meter and rhyme",
+        "Interpret figurative language"
+      ],
+      "standards": [
+        "RL.4.5",
+        "L.4.5",
+        "RF.4.4"
+      ],
+      "vocabulary": [
+        "stanza",
+        "verse",
+        "rhythm",
+        "meter",
+        "metaphor"
+      ],
+      "materials": [
+        "A Child's Garden of Verses (Stevenson, Gutenberg)",
+        "'Fog' (Sandburg)",
+        "'Stopping by Woods on a Snowy Evening' (Frost)"
+      ],
+      "days": [
+        {
+          "title": "Stevenson",
+          "work": "Read 'My Shadow' and 'The Land of Counterpane'; mark rhyme scheme and count beats."
+        },
+        {
+          "title": "Imagery",
+          "work": "Read Sandburg's 'Fog' and explain the extended metaphor."
+        },
+        {
+          "title": "Frost",
+          "work": "Read 'Stopping by Woods on a Snowy Evening' and discuss mood and repetition."
+        },
+        {
+          "title": "Write poems",
+          "work": "Write a metaphor poem and a rhyming quatrain about a California place."
+        },
+        {
+          "title": "Review & check",
+          "work": "Memorize and recite a poem; quiz on poetry terms."
+        }
+      ],
+      "assessment": "Recitation and poetry terms quiz."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Narrative poetry and performance",
+      "objectives": [
+        "Read a narrative poem fluently",
+        "Connect a poem to an oral presentation"
+      ],
+      "standards": [
+        "RL.4.7",
+        "RL.4.5",
+        "RF.4.4",
+        "SL.4.5"
+      ],
+      "vocabulary": [
+        "narrative poem",
+        "meter",
+        "expression"
+      ],
+      "materials": [
+        "'Paul Revere's Ride' (Longfellow)",
+        "audio recording of the poem"
+      ],
+      "days": [
+        {
+          "title": "Paul Revere's Ride",
+          "work": "Read Longfellow's poem and summarize the events stanza by stanza."
+        },
+        {
+          "title": "Compare to audio",
+          "work": "Listen to a recorded reading and note how the reader's pacing changes the effect."
+        },
+        {
+          "title": "Fact vs poem",
+          "work": "Read a short factual account and list what Longfellow changed."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse 3 stanzas with expression and record them."
+        },
+        {
+          "title": "Perform",
+          "work": "Perform with a background sound effect or slides; self-evaluate fluency."
+        }
+      ],
+      "assessment": "Recorded performance with fluency self-evaluation."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Drama: reading and performing a play",
+      "objectives": [
+        "Identify drama structure (cast, scenes, stage directions)",
+        "Compare drama and prose"
+      ],
+      "standards": [
+        "RL.4.5",
+        "RL.4.7",
+        "SL.4.4",
+        "W.4.10"
+      ],
+      "vocabulary": [
+        "script",
+        "cast",
+        "scene",
+        "stage directions",
+        "dialogue"
+      ],
+      "materials": [
+        "reader's theater script of an Aesop fable or 'The Emperor's New Clothes'",
+        "props"
+      ],
+      "days": [
+        {
+          "title": "Drama structure",
+          "work": "Read a reader's theater script and label cast list, scenes and stage directions."
+        },
+        {
+          "title": "Prose vs drama",
+          "work": "Compare the script to the prose version and list structural differences."
+        },
+        {
+          "title": "Write a scene",
+          "work": "Convert a scene from Island of the Blue Dolphins into a short script."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse the script with family members using expression and blocking."
+        },
+        {
+          "title": "Perform & assess",
+          "work": "Perform the play; take the Unit 5 test on poetry and drama structure."
+        }
+      ],
+      "assessment": "Performance and Unit 5 test."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Reasons and evidence in opinion texts",
+      "objectives": [
+        "Explain how authors use reasons and evidence",
+        "Distinguish fact from opinion"
+      ],
+      "standards": [
+        "RI.4.8",
+        "RI.4.1",
+        "SL.4.3"
+      ],
+      "vocabulary": [
+        "opinion",
+        "reason",
+        "evidence",
+        "fact"
+      ],
+      "materials": [
+        "opinion articles from CommonLit or newspaper kids' sections"
+      ],
+      "days": [
+        {
+          "title": "Fact vs opinion",
+          "work": "Sort 15 statements about California (e.g., 'Yosemite is the best park') into fact and opinion and underline the clue words."
+        },
+        {
+          "title": "Reasons",
+          "work": "Read an opinion article on school uniforms and outline its reasons and evidence."
+        },
+        {
+          "title": "Evaluate evidence",
+          "work": "Rate each piece of evidence as strong or weak and explain."
+        },
+        {
+          "title": "Listen for reasons",
+          "work": "Watch a short persuasive video and record the speaker's reasons."
+        },
+        {
+          "title": "Review & check",
+          "work": "Read a new opinion article independently and fill in an organizer listing the author's claim, three reasons and the evidence for each."
+        }
+      ],
+      "assessment": "Reasons and evidence analysis."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Planning an opinion essay",
+      "objectives": [
+        "Introduce an opinion and group reasons",
+        "Use modal auxiliaries"
+      ],
+      "standards": [
+        "W.4.1",
+        "L.4.1",
+        "W.4.8"
+      ],
+      "vocabulary": [
+        "claim",
+        "reason",
+        "modal",
+        "linking words"
+      ],
+      "materials": [
+        "writer's notebook",
+        "sources on topic"
+      ],
+      "days": [
+        {
+          "title": "Choose a topic",
+          "work": "Choose a question (Should California ban single-use plastic bags?) and state an opinion."
+        },
+        {
+          "title": "Gather evidence",
+          "work": "Gather facts from two short articles and record them with sources."
+        },
+        {
+          "title": "Modal auxiliaries",
+          "work": "Practice can, may, must, should in 12 sentences."
+        },
+        {
+          "title": "Outline",
+          "work": "Plan the essay: introduction, 3 reasons with evidence, conclusion."
+        },
+        {
+          "title": "Review & check",
+          "work": "Debate the topic with a parent arguing the opposite side."
+        }
+      ],
+      "assessment": "Essay outline."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Drafting and revising the opinion essay",
+      "objectives": [
+        "Link opinion and reasons with words and phrases",
+        "Write a concluding statement"
+      ],
+      "standards": [
+        "W.4.1",
+        "W.4.5",
+        "L.4.3"
+      ],
+      "vocabulary": [
+        "for instance",
+        "in order to",
+        "in addition",
+        "conclusion"
+      ],
+      "materials": [
+        "outline",
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Introduction",
+          "work": "Draft an introduction with a hook and clear opinion statement."
+        },
+        {
+          "title": "Body",
+          "work": "Draft three body paragraphs, each with a reason, two pieces of evidence and a linking phrase (for instance, in addition, because)."
+        },
+        {
+          "title": "Conclusion",
+          "work": "Draft a conclusion that restates the opinion and calls readers to action."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise for precise words and varied sentences."
+        },
+        {
+          "title": "Peer conference",
+          "work": "Conference with a parent using the opinion rubric and plan edits."
+        }
+      ],
+      "assessment": "Complete revised draft."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Publishing and speaking: formal vs informal",
+      "objectives": [
+        "Publish an opinion essay",
+        "Present formally"
+      ],
+      "standards": [
+        "W.4.6",
+        "SL.4.6",
+        "SL.4.4",
+        "L.4.2"
+      ],
+      "vocabulary": [
+        "formal",
+        "informal",
+        "audience"
+      ],
+      "materials": [
+        "computer",
+        "note cards"
+      ],
+      "days": [
+        {
+          "title": "Edit",
+          "work": "Edit for commas in compound sentences, spelling and capitalization."
+        },
+        {
+          "title": "Publish",
+          "work": "Type the final opinion essay in one sitting, formatting the title and paragraphs, and proofread it once aloud."
+        },
+        {
+          "title": "Formal vs informal",
+          "work": "Compare a text message and a speech on the same topic and rewrite informal sentences formally."
+        },
+        {
+          "title": "Speech",
+          "work": "Turn the essay into a 2-minute speech on note cards and rehearse."
+        },
+        {
+          "title": "Deliver & assess",
+          "work": "Deliver the 2-minute speech to family, then take the Unit 6 test on reasons and evidence and opinion writing."
+        }
+      ],
+      "assessment": "Published essay, speech and Unit 6 test."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Oz chapters 1-6",
+      "objectives": [
+        "Describe characters and setting",
+        "Make predictions"
+      ],
+      "standards": [
+        "RL.4.1",
+        "RL.4.3",
+        "RF.4.4"
+      ],
+      "vocabulary": [
+        "cyclone",
+        "Munchkin",
+        "prediction"
+      ],
+      "materials": [
+        "The Wonderful Wizard of Oz (L. Frank Baum, Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Kansas vs Oz",
+          "work": "Read chapters 1-2 and contrast the settings with details."
+        },
+        {
+          "title": "Scarecrow",
+          "work": "Read chapters 3-4 and describe the Scarecrow's traits."
+        },
+        {
+          "title": "Tin Woodman",
+          "work": "Read chapters 5-6 and describe the Tin Woodman and Cowardly Lion."
+        },
+        {
+          "title": "Prediction",
+          "work": "Write predictions about what the Wizard will grant each character."
+        },
+        {
+          "title": "Review & check",
+          "work": "Answer comprehension questions on chapters 1-6."
+        }
+      ],
+      "assessment": "Comprehension questions."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Oz chapters 7-12",
+      "objectives": [
+        "Analyze conflict",
+        "Interpret idioms and figurative language"
+      ],
+      "standards": [
+        "RL.4.3",
+        "L.4.5",
+        "L.4.4"
+      ],
+      "vocabulary": [
+        "idiom",
+        "conflict",
+        "Kalidahs"
+      ],
+      "materials": [
+        "novel"
+      ],
+      "days": [
+        {
+          "title": "The journey",
+          "work": "Read chapters 7-9 and track obstacles and how friends solve them."
+        },
+        {
+          "title": "Idioms",
+          "work": "Learn 12 idioms and write a short dialogue for the characters using four."
+        },
+        {
+          "title": "The Emerald City",
+          "work": "Read chapters 10-11 and discuss the Wizard's demands."
+        },
+        {
+          "title": "Wicked Witch",
+          "work": "Read chapter 12 and describe the turning point."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a quiz explaining 6 idioms and answering text-dependent questions on chapters 7-12."
+        }
+      ],
+      "assessment": "Idioms and reading quiz."
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Oz chapters 13-18",
+      "objectives": [
+        "Determine theme",
+        "Analyze how characters change"
+      ],
+      "standards": [
+        "RL.4.2",
+        "RL.4.3",
+        "W.4.9"
+      ],
+      "vocabulary": [
+        "theme",
+        "humbug",
+        "character growth"
+      ],
+      "materials": [
+        "novel"
+      ],
+      "days": [
+        {
+          "title": "Rescue",
+          "work": "Read chapters 13-14 and note each friend's contribution."
+        },
+        {
+          "title": "The Wizard revealed",
+          "work": "Read chapters 15-16 and discuss what the Wizard really is."
+        },
+        {
+          "title": "Gifts",
+          "work": "Read chapters 17-18 and analyze whether the friends already had what they wanted."
+        },
+        {
+          "title": "Theme",
+          "work": "Write a paragraph stating a theme (e.g., 'what you seek may already be inside you') supported by two quotations."
+        },
+        {
+          "title": "Review & check",
+          "work": "Discuss the theme with a parent and revise the paragraph."
+        }
+      ],
+      "assessment": "Theme paragraph."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Oz chapters 19-24 and the 1939 film",
+      "objectives": [
+        "Compare text with a film version",
+        "Summarize the novel"
+      ],
+      "standards": [
+        "RL.4.7",
+        "RL.4.2",
+        "SL.4.2"
+      ],
+      "vocabulary": [
+        "adaptation",
+        "film",
+        "compare"
+      ],
+      "materials": [
+        "novel",
+        "The Wizard of Oz (1939 film, library DVD)"
+      ],
+      "days": [
+        {
+          "title": "Finish",
+          "work": "Read chapters 19-24 (the journey to Glinda) and write a 5-sentence summary of how Dorothy gets home."
+        },
+        {
+          "title": "Film",
+          "work": "Watch selected scenes of the 1939 film and note differences (silver shoes vs ruby slippers)."
+        },
+        {
+          "title": "Compare chart",
+          "work": "Complete a book-vs-film comparison chart covering characters, events, setting colors and the ending."
+        },
+        {
+          "title": "Opinion",
+          "work": "Write a paragraph: which version tells the story better and why?"
+        },
+        {
+          "title": "Review & check",
+          "work": "Take the novel comprehension test."
+        }
+      ],
+      "assessment": "Novel test and comparison paragraph."
+    },
+    {
+      "week": 29,
+      "unit": 7,
+      "topic": "Retelling Oz: narrative and comparison",
+      "objectives": [
+        "Write a new narrative episode",
+        "Compare journey stories across cultures"
+      ],
+      "standards": [
+        "W.4.3",
+        "RL.4.9",
+        "SL.4.1"
+      ],
+      "vocabulary": [
+        "episode",
+        "quest",
+        "journey"
+      ],
+      "materials": [
+        "novel",
+        "Alice's Adventures in Wonderland chapter 1 (Gutenberg)"
+      ],
+      "days": [
+        {
+          "title": "Compare quests",
+          "work": "Read chapter 1 of Alice's Adventures in Wonderland and compare its journey pattern with Oz."
+        },
+        {
+          "title": "Plan",
+          "work": "Plan a new adventure for Dorothy in a California setting."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft the episode with dialogue and description."
+        },
+        {
+          "title": "Revise & edit",
+          "work": "Revise the episode with the narrative checklist (hook, dialogue, sensory details, ending) and edit for quotation marks."
+        },
+        {
+          "title": "Share & assess",
+          "work": "Read the episode aloud; scored with the narrative rubric."
+        }
+      ],
+      "assessment": "New-episode narrative."
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Research questions and sources",
+      "objectives": [
+        "Generate research questions",
+        "Locate credible sources"
+      ],
+      "standards": [
+        "W.4.7",
+        "W.4.8",
+        "RI.4.7"
+      ],
+      "vocabulary": [
+        "research question",
+        "source",
+        "credible",
+        "bibliography"
+      ],
+      "materials": [
+        "library",
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Choose a wonder",
+          "work": "Choose a California natural wonder (Yosemite, Death Valley, redwoods, Lake Tahoe) and write research questions."
+        },
+        {
+          "title": "Credible sources",
+          "work": "Evaluate 4 websites about your topic (.gov, .edu, a museum, a personal blog) for author, date and purpose, and rate each."
+        },
+        {
+          "title": "Gather",
+          "work": "Find 3 sources including one with maps or charts."
+        },
+        {
+          "title": "Notes",
+          "work": "Take paraphrased notes on note cards with source info."
+        },
+        {
+          "title": "Review & check",
+          "work": "Check sources and notes with a parent and fix gaps."
+        }
+      ],
+      "assessment": "Research questions and note check."
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Firsthand and secondhand accounts",
+      "objectives": [
+        "Compare firsthand and secondhand accounts",
+        "Explain differences in focus"
+      ],
+      "standards": [
+        "RI.4.6",
+        "RI.4.9"
+      ],
+      "vocabulary": [
+        "firsthand",
+        "secondhand",
+        "primary source",
+        "account"
+      ],
+      "materials": [
+        "John Muir excerpt from 'The Yosemite' or 'My First Summer in the Sierra' (Gutenberg)",
+        "encyclopedia article on Yosemite"
+      ],
+      "days": [
+        {
+          "title": "Firsthand",
+          "work": "Read a John Muir excerpt about Yosemite and note what he saw and felt."
+        },
+        {
+          "title": "Secondhand",
+          "work": "Read an encyclopedia article on Yosemite and note its focus."
+        },
+        {
+          "title": "Compare",
+          "work": "Complete a chart comparing the two accounts' focus and information."
+        },
+        {
+          "title": "Integrate",
+          "work": "Write a paragraph integrating information from both."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz identifying firsthand vs secondhand accounts."
+        }
+      ],
+      "assessment": "Comparison chart and quiz."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Drafting the research report",
+      "objectives": [
+        "Organize information",
+        "Use quotations and paraphrase"
+      ],
+      "standards": [
+        "W.4.2",
+        "W.4.7",
+        "L.4.2"
+      ],
+      "vocabulary": [
+        "paraphrase",
+        "quotation",
+        "citation"
+      ],
+      "materials": [
+        "notes",
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Outline",
+          "work": "Outline the report with an introduction, 3-4 sections and conclusion."
+        },
+        {
+          "title": "Draft intro",
+          "work": "Draft an introduction that hooks the reader with a surprising fact, then draft the first headed section from note cards."
+        },
+        {
+          "title": "Draft body",
+          "work": "Draft the remaining 2-3 headed sections, paraphrasing notes and including one short quotation with its source."
+        },
+        {
+          "title": "Commas",
+          "work": "Practice commas in series and introductory phrases; apply to the draft."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write the conclusion and a source list (title, author, website or publisher) in a consistent format."
+        }
+      ],
+      "assessment": "Complete draft with source list."
+    },
+    {
+      "week": 33,
+      "unit": 8,
+      "topic": "Revising and publishing the report",
+      "objectives": [
+        "Revise for clarity",
+        "Publish with visuals"
+      ],
+      "standards": [
+        "W.4.5",
+        "W.4.6",
+        "L.4.2"
+      ],
+      "vocabulary": [
+        "revise",
+        "caption",
+        "graphic"
+      ],
+      "materials": [
+        "computer",
+        "images"
+      ],
+      "days": [
+        {
+          "title": "Revise for clarity",
+          "work": "Reread the draft aloud, mark confusing sentences, and revise each section so its first sentence states the section's main idea."
+        },
+        {
+          "title": "Edit conventions",
+          "work": "Edit for capitalization of proper nouns (Sierra Nevada, Mojave Desert), commas and spelling using a checklist and dictionary."
+        },
+        {
+          "title": "Visuals",
+          "work": "Add a labeled map of the wonder's location and two captioned images, and explain in the caption what each shows."
+        },
+        {
+          "title": "Publish",
+          "work": "Type and print the final report with headings, visuals and a source list in a consistent format."
+        },
+        {
+          "title": "Review & check",
+          "work": "Self-assess the report against the research rubric and write two sentences on its strongest and weakest parts."
+        }
+      ],
+      "assessment": "Published research report."
+    },
+    {
+      "week": 34,
+      "unit": 8,
+      "topic": "Presenting research",
+      "objectives": [
+        "Present findings with visuals",
+        "Listen and ask questions"
+      ],
+      "standards": [
+        "SL.4.4",
+        "SL.4.5",
+        "SL.4.1"
+      ],
+      "vocabulary": [
+        "presentation",
+        "visual aid",
+        "eye contact"
+      ],
+      "materials": [
+        "slides or poster"
+      ],
+      "days": [
+        {
+          "title": "Plan presentation",
+          "work": "Turn the report into 5 slides or a poster, using one key fact and one visual per section."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse the 3-minute talk with a timer, practicing eye contact, volume and pace."
+        },
+        {
+          "title": "Audio",
+          "work": "Record a 30-second narrated introduction or add a nature sound clip that fits the wonder."
+        },
+        {
+          "title": "Present",
+          "work": "Present to family, then answer at least three audience questions using facts from the notes."
+        },
+        {
+          "title": "Assess",
+          "work": "Take the Unit 8 test on firsthand/secondhand accounts and integrating information from two texts."
+        }
+      ],
+      "assessment": "Presentation and Unit 8 test."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Fluency and reading reflection",
+      "objectives": [
+        "Measure fluency growth",
+        "Reflect on reading"
+      ],
+      "standards": [
+        "RF.4.4",
+        "RL.4.10",
+        "RI.4.10",
+        "W.4.10"
+      ],
+      "vocabulary": [
+        "fluency",
+        "reflection",
+        "goal"
+      ],
+      "materials": [
+        "grade 4 passages",
+        "reading log"
+      ],
+      "days": [
+        {
+          "title": "Fluency check",
+          "work": "Do a final 1-minute fluency read of a grade 4 passage, graph words-correct-per-minute, and compare with the week 1 baseline."
+        },
+        {
+          "title": "Reading reflection",
+          "work": "Write a one-page reflection on the favorite book of the year, citing two scenes that made it memorable."
+        },
+        {
+          "title": "Book talk",
+          "work": "Give a 2-minute book talk recommending a book read this year, including a short read-aloud excerpt."
+        },
+        {
+          "title": "End-of-year reading",
+          "work": "Take the end-of-year reading assessment with a literary and an informational passage."
+        },
+        {
+          "title": "Summer list",
+          "work": "Browse the library and build a summer reading list of 10 books across genres, with a reason for each."
+        }
+      ],
+      "assessment": "End-of-year reading assessment."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Writing portfolio and celebration",
+      "objectives": [
+        "Select and reflect on best work",
+        "Set goals"
+      ],
+      "standards": [
+        "W.4.10",
+        "L.4.2",
+        "SL.4.4"
+      ],
+      "vocabulary": [
+        "portfolio",
+        "reflection",
+        "goal"
+      ],
+      "materials": [
+        "writing folder"
+      ],
+      "days": [
+        {
+          "title": "Choose pieces",
+          "work": "Select the best narrative, explanatory report, opinion essay and poem from the writing folder and label why each was chosen."
+        },
+        {
+          "title": "Reflect",
+          "work": "Write a reflection letter comparing the week 4 narrative with a recent piece, naming two specific improvements."
+        },
+        {
+          "title": "Grammar review",
+          "work": "Take a cumulative grammar and conventions assessment (relative pronouns, progressive tenses, modals, commas, quotation marks)."
+        },
+        {
+          "title": "On-demand writing",
+          "work": "Write an on-demand opinion piece in one 45-minute sitting on a choice of three prompts."
+        },
+        {
+          "title": "Celebration",
+          "work": "Share the portfolio with family in an author celebration and write three grade 5 reading and writing goals."
+        }
+      ],
+      "assessment": "Portfolio and on-demand writing sample."
+    }
+  ]
+}

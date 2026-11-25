@@ -1,0 +1,1916 @@
+{
+  "grade": 4,
+  "subject": "VAPA",
+  "title": "Art & Music 4",
+  "description": "Grade 4 visual art and music aligned to the 2019 California Arts Standards. Units alternate between visual art (drawing, color and landscape, cultural art forms of California, sculpture and printmaking) and music (rhythm and meter, beginning soprano recorder, melody and notation, composition, musical traditions of California). The year ends with a curated art exhibition and a recorder concert for family.",
+  "framework": "2019 California Arts Standards for Public Schools, Prekindergarten Through Grade Twelve (Visual Arts and Music); 2020 CA Arts Framework",
+  "minutes_per_day": 30,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "VA:Cr1.1.4": "Brainstorm multiple approaches to a creative art or design problem.",
+    "VA:Cr1.2.4": "Collaboratively set goals and create artwork that is meaningful and has purpose to the makers.",
+    "VA:Cr2.1.4": "Explore and invent art-making techniques and approaches.",
+    "VA:Cr2.2.4": "When making works of art, utilize and care for materials, tools and equipment in a manner that prevents danger to oneself and others.",
+    "VA:Cr2.3.4": "Document, describe and represent regional constructed environments.",
+    "VA:Cr3.1.4": "Revise artwork in progress on the basis of insights gained through peer discussion.",
+    "VA:Pr4.1.4": "Analyze how past, present and emerging technologies have impacted the preservation and presentation of artwork.",
+    "VA:Pr5.1.4": "Analyze the various considerations for presenting and protecting art in various locations, indoor or outdoor settings, in temporary or permanent forms.",
+    "VA:Pr6.1.4": "Compare and contrast purposes of art museums, art galleries and other venues, as well as the types of personal experiences they provide.",
+    "VA:Re7.1.4": "Compare responses to a work of art before and after working in similar media.",
+    "VA:Re7.2.4": "Analyze components in visual imagery that convey messages.",
+    "VA:Re8.1.4": "Interpret art by referring to contextual information and analyzing relevant subject matter, characteristics of form and use of media.",
+    "VA:Re9.1.4": "Apply one set of criteria to evaluate more than one work of art.",
+    "VA:Cn10.1.4": "Create works of art that reflect community cultural traditions.",
+    "VA:Cn11.1.4": "Through observation, infer information about time, place and culture in which a work of art was created.",
+    "MU:Cr1.1.4": "Improvise rhythmic, melodic and harmonic ideas, and explain connection to specific purpose and context.",
+    "MU:Cr2.1.4": "Demonstrate selected and organized musical ideas for an improvisation, arrangement or composition to express intent; use standard and/or iconic notation to document them.",
+    "MU:Cr3.1.4": "Evaluate, refine and document revisions to personal music, applying teacher-provided and collaboratively developed criteria and feedback.",
+    "MU:Cr3.2.4": "Present the final version of personal created music to others, and explain connection to expressive intent.",
+    "MU:Pr4.1.4": "Demonstrate and explain how the selection of music to perform is influenced by personal interest, knowledge, context and technical skill.",
+    "MU:Pr4.2.4": "Demonstrate understanding of the structure and the elements of music (rhythm, pitch and form) in music selected for performance; read and perform using iconic and standard notation.",
+    "MU:Pr4.3.4": "Demonstrate and explain how intent is conveyed through interpretive decisions and expressive qualities (dynamics, tempo, timbre, articulation/style).",
+    "MU:Pr5.1.4": "Apply teacher-provided and collaboratively developed criteria and feedback to evaluate accuracy and expressiveness of ensemble and personal performances; rehearse to refine.",
+    "MU:Pr6.1.4": "Perform music, alone or with others, with expression, technical accuracy and appropriate interpretation; demonstrate performance decorum and audience etiquette.",
+    "MU:Re7.1.4": "Demonstrate and explain how selected music connects to and is influenced by specific interests, experiences, purposes or contexts.",
+    "MU:Re7.2.4": "Demonstrate and explain how responses to music are informed by the structure, the use of the elements of music and context (social and cultural).",
+    "MU:Re8.1.4": "Demonstrate and explain how the expressive qualities (dynamics, tempo, timbre, articulation) are used in performers' and personal interpretations to reflect expressive intent.",
+    "MU:Re9.1.4": "Evaluate musical works and performances, applying established criteria, and explain appropriateness to the context.",
+    "MU:Cn10.0.4": "Demonstrate how interests, knowledge and skills relate to personal choices and intent when creating, performing and responding to music.",
+    "MU:Cn11.0.4": "Demonstrate understanding of relationships between music and the other arts, other disciplines, varied contexts and daily life."
+  },
+  "resources": [
+    {
+      "name": "Chrome Music Lab",
+      "url": "https://musiclab.chromeexperiments.com",
+      "note": "Free browser tools (Song Maker, Rhythm, Kandinsky) for composing and exploring sound"
+    },
+    {
+      "name": "Getty Museum – Education",
+      "url": "https://www.getty.edu/education/",
+      "note": "Lesson ideas and high-resolution images of artworks from the Getty collection in Los Angeles"
+    },
+    {
+      "name": "Smithsonian Learning Lab",
+      "url": "https://learninglab.si.edu",
+      "note": "Searchable museum images and collections for art viewing and discussion"
+    },
+    {
+      "name": "Calisphere – Native Americans: Arts and Traditions",
+      "url": "https://calisphere.org/exhibitions/5/native-americans-arts-and-traditions/",
+      "note": "Images of California Indian basketry and traditional arts"
+    },
+    {
+      "name": "PBS LearningMedia",
+      "url": "https://www.pbslearningmedia.org",
+      "note": "Arts videos including artist profiles and world music performances"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Drawing: Line, Shape and Value",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Artists use line, shape and value to show what they observe and imagine.",
+      "standards": [
+        "VA:Cr1.1.4",
+        "VA:Cr2.1.4",
+        "VA:Cr2.2.4",
+        "VA:Re7.1.4",
+        "VA:Cr3.1.4"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Rhythm, Meter and Beginning Recorder",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Music is organized by steady beat, rhythm and meter, and the recorder lets us play melodies.",
+      "standards": [
+        "MU:Pr4.2.4",
+        "MU:Pr5.1.4",
+        "MU:Pr6.1.4",
+        "MU:Cr1.1.4"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Color and the California Landscape",
+      "start_week": 9,
+      "end_week": 12,
+      "big_idea": "Artists use color, space and media to express feelings about places.",
+      "standards": [
+        "VA:Cr2.1.4",
+        "VA:Re7.2.4",
+        "VA:Re8.1.4",
+        "VA:Re9.1.4",
+        "VA:Cr2.3.4"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Melody, Notation and California Folk Songs",
+      "start_week": 13,
+      "end_week": 16,
+      "big_idea": "Melodies move by step and skip, and songs carry the stories of their time and place.",
+      "standards": [
+        "MU:Pr4.1.4",
+        "MU:Pr4.2.4",
+        "MU:Pr4.3.4",
+        "MU:Re7.1.4",
+        "MU:Cn11.0.4"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Art and Culture in California",
+      "start_week": 17,
+      "end_week": 20,
+      "big_idea": "Art from many cultures in California reflects traditions, beliefs and community.",
+      "standards": [
+        "VA:Cn10.1.4",
+        "VA:Cn11.1.4",
+        "VA:Re7.2.4",
+        "VA:Cr1.2.4",
+        "VA:Re8.1.4"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Composing Music and Musical Form",
+      "start_week": 21,
+      "end_week": 24,
+      "big_idea": "Composers organize musical ideas into forms like AB, ABA and rondo.",
+      "standards": [
+        "MU:Cr1.1.4",
+        "MU:Cr2.1.4",
+        "MU:Cr3.1.4",
+        "MU:Cr3.2.4",
+        "MU:Re8.1.4",
+        "MU:Re7.2.4"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Sculpture, Printmaking and Built Environments",
+      "start_week": 25,
+      "end_week": 28,
+      "big_idea": "Three-dimensional art and prints transform materials, and architecture shapes how communities look.",
+      "standards": [
+        "VA:Cr2.1.4",
+        "VA:Cr2.2.4",
+        "VA:Cr2.3.4",
+        "VA:Cr3.1.4",
+        "VA:Cr1.1.4"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Musical Traditions of California and the World",
+      "start_week": 29,
+      "end_week": 32,
+      "big_idea": "Music connects to the cultures, purposes and experiences of the people who make it.",
+      "standards": [
+        "MU:Re7.1.4",
+        "MU:Re7.2.4",
+        "MU:Re9.1.4",
+        "MU:Cn10.0.4",
+        "MU:Cn11.0.4",
+        "MU:Pr6.1.4"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Exhibition and Concert",
+      "start_week": 33,
+      "end_week": 36,
+      "big_idea": "Artists and musicians select, refine and present their best work to an audience.",
+      "standards": [
+        "VA:Pr4.1.4",
+        "VA:Pr5.1.4",
+        "VA:Pr6.1.4",
+        "VA:Re9.1.4",
+        "MU:Pr4.1.4",
+        "MU:Pr5.1.4",
+        "MU:Pr6.1.4",
+        "MU:Cr3.2.4"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Line and contour drawing",
+      "objectives": [
+        "Use varied lines to describe objects",
+        "Practice contour and blind contour drawing"
+      ],
+      "standards": [
+        "VA:Cr2.1.4",
+        "VA:Cr2.2.4"
+      ],
+      "vocabulary": [
+        "contour",
+        "line quality",
+        "blind contour"
+      ],
+      "materials": [
+        "sketchbook",
+        "drawing pencils (2B, 4B)",
+        "kneaded eraser"
+      ],
+      "days": [
+        {
+          "title": "Sketchbook start",
+          "work": "Decorate a sketchbook cover and fill one page with 15 kinds of lines (zigzag, broken, thick-thin, spiral)."
+        },
+        {
+          "title": "Blind contour",
+          "work": "Draw your own hand three times without looking at the paper, then once looking; compare the results."
+        },
+        {
+          "title": "Contour still life",
+          "work": "Draw a contour line drawing of three kitchen objects (mug, spoon, fruit) arranged on a table."
+        },
+        {
+          "title": "Line in art",
+          "work": "Look at a Van Gogh reed-pen drawing online and list the lines he used for grass, sky and trees."
+        },
+        {
+          "title": "Review & share",
+          "work": "Choose the best contour drawing, add a title and explain your line choices to a family member."
+        }
+      ],
+      "assessment": "Contour drawing and line explanation."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Shape and form: shading with value",
+      "objectives": [
+        "Turn shapes into forms with value",
+        "Create a value scale"
+      ],
+      "standards": [
+        "VA:Cr2.1.4",
+        "VA:Cr1.1.4"
+      ],
+      "vocabulary": [
+        "value",
+        "shading",
+        "form",
+        "highlight",
+        "cast shadow"
+      ],
+      "materials": [
+        "pencils",
+        "paper",
+        "flashlight",
+        "ball",
+        "cylinder object"
+      ],
+      "days": [
+        {
+          "title": "Value scale",
+          "work": "Create a 7-step value scale from white to black with a 4B pencil."
+        },
+        {
+          "title": "Light and shadow",
+          "work": "Shine a flashlight on a ball and identify highlight, midtone, core shadow and cast shadow."
+        },
+        {
+          "title": "Shade a sphere",
+          "work": "Draw and shade a sphere, cube and cylinder using the value scale."
+        },
+        {
+          "title": "Hatching",
+          "work": "Practice hatching, cross-hatching and stippling in a 3-box chart."
+        },
+        {
+          "title": "Review & share",
+          "work": "Shade a piece of fruit from observation and compare it with the week 1 contour drawing."
+        }
+      ],
+      "assessment": "Shaded fruit drawing."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Observational drawing: nature study",
+      "objectives": [
+        "Draw natural objects with detail",
+        "Brainstorm compositions"
+      ],
+      "standards": [
+        "VA:Cr1.1.4",
+        "VA:Cr2.1.4",
+        "VA:Re7.1.4"
+      ],
+      "vocabulary": [
+        "observation",
+        "detail",
+        "composition",
+        "viewfinder"
+      ],
+      "materials": [
+        "sketchbook",
+        "viewfinder cut from cardstock",
+        "leaves, shells, pinecones"
+      ],
+      "days": [
+        {
+          "title": "Nature walk",
+          "work": "Collect 5 natural objects (leaves, pinecone, feather) on a walk."
+        },
+        {
+          "title": "Viewfinder",
+          "work": "Make a cardstock viewfinder and sketch 4 small compositions of the objects."
+        },
+        {
+          "title": "Detailed study",
+          "work": "Draw one object large, filling the page, with contour and value."
+        },
+        {
+          "title": "Artist look",
+          "work": "Look at John James Audubon bird drawings and compare your response before and after your own nature study."
+        },
+        {
+          "title": "Review & share",
+          "work": "Write 3 sentences on what you noticed by drawing that you didn't notice by looking."
+        }
+      ],
+      "assessment": "Nature study drawing and reflection."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Drawing critique and revision",
+      "objectives": [
+        "Give and receive feedback",
+        "Revise artwork"
+      ],
+      "standards": [
+        "VA:Cr3.1.4",
+        "VA:Re9.1.4"
+      ],
+      "vocabulary": [
+        "critique",
+        "feedback",
+        "revise"
+      ],
+      "materials": [
+        "sketchbook",
+        "drawings from weeks 1-3"
+      ],
+      "days": [
+        {
+          "title": "Criteria",
+          "work": "Make a 4-point checklist for a strong drawing (fills page, line variety, value range, detail)."
+        },
+        {
+          "title": "Critique",
+          "work": "Discuss two of your drawings with a parent using 'I notice / I wonder / I suggest'."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise one drawing based on feedback, adding value or detail."
+        },
+        {
+          "title": "Final drawing",
+          "work": "Create a finished observational drawing of a household object using all skills."
+        },
+        {
+          "title": "Review & share",
+          "work": "Self-assess the final drawing with the checklist and display it."
+        }
+      ],
+      "assessment": "Final drawing scored with criteria."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Steady beat, rhythm and meter",
+      "objectives": [
+        "Distinguish beat from rhythm",
+        "Identify 2/4, 3/4 and 4/4 meter"
+      ],
+      "standards": [
+        "MU:Pr4.2.4",
+        "MU:Cr1.1.4"
+      ],
+      "vocabulary": [
+        "beat",
+        "rhythm",
+        "meter",
+        "measure",
+        "bar line"
+      ],
+      "materials": [
+        "Chrome Music Lab Rhythm",
+        "drum or bucket",
+        "rhythm cards"
+      ],
+      "days": [
+        {
+          "title": "Beat vs rhythm",
+          "work": "Pat the steady beat while saying the rhythm of 'Old MacDonald' and explain the difference."
+        },
+        {
+          "title": "Rhythm notation",
+          "work": "Read and clap quarter notes, eighth notes, half notes and rests from 8 rhythm cards."
+        },
+        {
+          "title": "Meter",
+          "work": "Conduct 2/4, 3/4 and 4/4 patterns to recordings of a march and a waltz."
+        },
+        {
+          "title": "Improvise",
+          "work": "Improvise 4-beat rhythms on a bucket drum in a call-and-response with a parent."
+        },
+        {
+          "title": "Review & check",
+          "work": "Clap 4 rhythm patterns and identify the meter of 3 songs."
+        }
+      ],
+      "assessment": "Rhythm reading and meter check."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Recorder basics: B, A, G",
+      "objectives": [
+        "Hold and play the recorder with good tone",
+        "Play B, A and G"
+      ],
+      "standards": [
+        "MU:Pr4.2.4",
+        "MU:Pr6.1.4"
+      ],
+      "vocabulary": [
+        "recorder",
+        "embouchure",
+        "tonguing",
+        "fingering"
+      ],
+      "materials": [
+        "soprano recorder",
+        "fingering chart",
+        "music staff sheet"
+      ],
+      "days": [
+        {
+          "title": "Recorder care",
+          "work": "Learn posture, left-hand-on-top hold and gentle 'doo' tonguing; play B."
+        },
+        {
+          "title": "B and A",
+          "work": "Play B and A in quarter and half notes from notation."
+        },
+        {
+          "title": "Add G",
+          "work": "Add G and play 'Hot Cross Buns' from the staff."
+        },
+        {
+          "title": "Note reading",
+          "work": "Write letter names for B, A, G on a staff worksheet."
+        },
+        {
+          "title": "Review & check",
+          "work": "Play 'Hot Cross Buns' and 'Gently Sleep' for a parent."
+        }
+      ],
+      "assessment": "Recorder playing check."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Recorder songs with B-A-G and C, D",
+      "objectives": [
+        "Play songs with B, A, G, high C and D",
+        "Read rhythms in songs"
+      ],
+      "standards": [
+        "MU:Pr4.2.4",
+        "MU:Pr5.1.4"
+      ],
+      "vocabulary": [
+        "high C",
+        "high D",
+        "phrase",
+        "slur"
+      ],
+      "materials": [
+        "recorder",
+        "song sheets"
+      ],
+      "days": [
+        {
+          "title": "High C and D",
+          "work": "Learn high C and D fingerings and play scales B-C-D."
+        },
+        {
+          "title": "Mary Had a Little Lamb",
+          "work": "Play 'Mary Had a Little Lamb' using B, A and G from notation, keeping a steady beat."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse 'Merrily We Roll Along' and 'Ode to Joy' excerpt."
+        },
+        {
+          "title": "Record and evaluate",
+          "work": "Record your playing and evaluate tone and rhythm accuracy."
+        },
+        {
+          "title": "Review & check",
+          "work": "Play 'Mary Had a Little Lamb' and 'Merrily We Roll Along' for a parent, who checks tone and steady beat."
+        }
+      ],
+      "assessment": "Recorded songs and self-evaluation."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Rhythm ensemble performance",
+      "objectives": [
+        "Perform rhythm and recorder parts together",
+        "Demonstrate performance etiquette"
+      ],
+      "standards": [
+        "MU:Pr6.1.4",
+        "MU:Pr5.1.4",
+        "MU:Cr1.1.4"
+      ],
+      "vocabulary": [
+        "ensemble",
+        "ostinato",
+        "etiquette"
+      ],
+      "materials": [
+        "recorder",
+        "bucket drum"
+      ],
+      "days": [
+        {
+          "title": "Ostinato",
+          "work": "Create a 4-beat rhythm ostinato to accompany a recorder song."
+        },
+        {
+          "title": "Layering",
+          "work": "Play the recorder melody while a family member plays the ostinato."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse the melody and ostinato together with a metronome at 80 beats per minute."
+        },
+        {
+          "title": "Etiquette",
+          "work": "Practice performer and audience etiquette (bow, quiet listening, applause)."
+        },
+        {
+          "title": "Mini-concert",
+          "work": "Perform for family and evaluate with a 3-point rubric."
+        }
+      ],
+      "assessment": "Mini-concert performance."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Color theory",
+      "objectives": [
+        "Mix primary, secondary and tertiary colors",
+        "Identify warm and cool colors"
+      ],
+      "standards": [
+        "VA:Cr2.1.4"
+      ],
+      "vocabulary": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "complementary",
+        "warm",
+        "cool"
+      ],
+      "materials": [
+        "watercolor or tempera paints",
+        "brushes",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Color wheel",
+          "work": "Paint a 12-part color wheel mixing only red, yellow and blue."
+        },
+        {
+          "title": "Tints and shades",
+          "work": "Make tint and shade strips by adding white and black to one color."
+        },
+        {
+          "title": "Warm vs cool",
+          "work": "Paint two small abstract designs, one warm and one cool, and compare moods."
+        },
+        {
+          "title": "Complements",
+          "work": "Paint complementary color pairs side by side and observe contrast."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on color vocabulary using the color wheel."
+        }
+      ],
+      "assessment": "Color wheel and quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Landscape space: foreground, middle ground, background",
+      "objectives": [
+        "Create depth in a landscape",
+        "Study California landscapes"
+      ],
+      "standards": [
+        "VA:Cr2.1.4",
+        "VA:Re8.1.4"
+      ],
+      "vocabulary": [
+        "foreground",
+        "middle ground",
+        "background",
+        "horizon line",
+        "overlap"
+      ],
+      "materials": [
+        "photos of California landscapes",
+        "paper",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "Depth tricks",
+          "work": "Look at a California landscape painting by a California Impressionist (e.g., Guy Rose) and find foreground, middle and background."
+        },
+        {
+          "title": "Atmospheric perspective",
+          "work": "Draw three mountain ranges getting lighter as they recede."
+        },
+        {
+          "title": "Sketch",
+          "work": "Sketch a California landscape (Yosemite, coast or desert) with overlapping layers."
+        },
+        {
+          "title": "Color",
+          "work": "Add warm colors in front and cool colors behind."
+        },
+        {
+          "title": "Review & share",
+          "work": "Explain to family how overlap, size, placement and color show depth in your landscape."
+        }
+      ],
+      "assessment": "Landscape sketch."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Watercolor landscape and Ansel Adams photography",
+      "objectives": [
+        "Use watercolor techniques",
+        "Compare painting and photography of landscapes"
+      ],
+      "standards": [
+        "VA:Cr2.1.4",
+        "VA:Re7.2.4",
+        "VA:Cr2.3.4"
+      ],
+      "vocabulary": [
+        "wet-on-wet",
+        "wash",
+        "photograph",
+        "contrast"
+      ],
+      "materials": [
+        "watercolors",
+        "watercolor paper",
+        "Ansel Adams photos (online)"
+      ],
+      "days": [
+        {
+          "title": "Techniques",
+          "work": "Practice flat wash, gradated wash and wet-on-wet skies."
+        },
+        {
+          "title": "Paint",
+          "work": "Paint the week 10 landscape in watercolor, painting the sky first and the foreground last."
+        },
+        {
+          "title": "Ansel Adams",
+          "work": "Study Ansel Adams' 'Monolith, the Face of Half Dome' and discuss value and contrast."
+        },
+        {
+          "title": "Photograph",
+          "work": "Take 5 black-and-white photos of your neighborhood using Adams' ideas of contrast."
+        },
+        {
+          "title": "Review & share",
+          "work": "Compare your painting and photos in a short written response."
+        }
+      ],
+      "assessment": "Watercolor and photo comparison."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Evaluating landscape art",
+      "objectives": [
+        "Apply criteria to evaluate multiple artworks"
+      ],
+      "standards": [
+        "VA:Re9.1.4",
+        "VA:Re8.1.4"
+      ],
+      "vocabulary": [
+        "criteria",
+        "evaluate",
+        "interpret",
+        "mood"
+      ],
+      "materials": [
+        "artwork images",
+        "finished landscapes"
+      ],
+      "days": [
+        {
+          "title": "Criteria",
+          "work": "Develop criteria for a successful landscape (depth, color, mood, technique)."
+        },
+        {
+          "title": "Evaluate masters",
+          "work": "Apply the criteria to 3 landscapes by different artists (Bierstadt, Hokusai, a California Impressionist)."
+        },
+        {
+          "title": "Self-evaluate",
+          "work": "Apply the same criteria to your own landscape."
+        },
+        {
+          "title": "Revise",
+          "work": "Add finishing details to improve one criterion."
+        },
+        {
+          "title": "Review & share",
+          "work": "Present the landscape and evaluation to family."
+        }
+      ],
+      "assessment": "Written evaluation."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Melody: steps, skips and leaps",
+      "objectives": [
+        "Identify melodic contour",
+        "Add low E and D to the recorder"
+      ],
+      "standards": [
+        "MU:Pr4.2.4"
+      ],
+      "vocabulary": [
+        "melody",
+        "step",
+        "skip",
+        "leap",
+        "contour",
+        "staff"
+      ],
+      "materials": [
+        "recorder",
+        "staff paper",
+        "fingering chart"
+      ],
+      "days": [
+        {
+          "title": "Melodic contour",
+          "work": "Listen to 3 melodies ('Twinkle', 'Ode to Joy', 'Somewhere Over the Rainbow') and draw each melody's up-and-down shape."
+        },
+        {
+          "title": "Low E and D",
+          "work": "Learn low E and D fingerings, covering holes fully, and play long tones on each."
+        },
+        {
+          "title": "Steps and skips",
+          "work": "Circle steps, skips and leaps in the written melody of 'Ode to Joy' and then play it."
+        },
+        {
+          "title": "Note naming",
+          "work": "Name 20 notes from low D to high D on a treble staff worksheet."
+        },
+        {
+          "title": "Review & check",
+          "work": "Play a D-to-D scale up and down and sight-read a 4-measure stepwise melody."
+        }
+      ],
+      "assessment": "Scale and sight-reading check."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Gold Rush songs",
+      "objectives": [
+        "Sing and play California folk songs",
+        "Explain the songs' historical context"
+      ],
+      "standards": [
+        "MU:Re7.1.4",
+        "MU:Cn11.0.4",
+        "MU:Pr4.1.4"
+      ],
+      "vocabulary": [
+        "folk song",
+        "ballad",
+        "verse",
+        "refrain"
+      ],
+      "materials": [
+        "recorder",
+        "lyrics of 'Oh My Darling, Clementine' and 'Sweet Betsy from Pike'",
+        "California map"
+      ],
+      "days": [
+        {
+          "title": "Clementine",
+          "work": "Sing 'Oh My Darling, Clementine' and discuss what the lyrics tell about a forty-niner's family."
+        },
+        {
+          "title": "Sweet Betsy",
+          "work": "Sing 'Sweet Betsy from Pike' and trace Betsy and Ike's overland journey on a map."
+        },
+        {
+          "title": "Play Clementine",
+          "work": "Learn the 'Clementine' melody on recorder in G, two phrases at a time."
+        },
+        {
+          "title": "Context writing",
+          "work": "Write 3 sentences on what these ballads reveal about Gold Rush life and why people sang them."
+        },
+        {
+          "title": "Review & check",
+          "work": "Perform one Gold Rush song (sung or played) and explain why you chose it."
+        }
+      ],
+      "assessment": "Song performance and explanation."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Expressive qualities: dynamics and tempo",
+      "objectives": [
+        "Use dynamics and tempo to convey intent",
+        "Identify expressive choices in recordings"
+      ],
+      "standards": [
+        "MU:Pr4.3.4",
+        "MU:Re8.1.4"
+      ],
+      "vocabulary": [
+        "dynamics",
+        "piano",
+        "forte",
+        "crescendo",
+        "tempo",
+        "allegro",
+        "largo"
+      ],
+      "materials": [
+        "recorder",
+        "recording of Grieg's 'In the Hall of the Mountain King'"
+      ],
+      "days": [
+        {
+          "title": "Dynamics",
+          "work": "Play 'Clementine' piano and then forte, and add a crescendo to one phrase."
+        },
+        {
+          "title": "Tempo",
+          "work": "Play 'Ode to Joy' at largo, moderato and allegro tempos with a metronome app."
+        },
+        {
+          "title": "Listening map",
+          "work": "Listen to 'In the Hall of the Mountain King' and draw a listening map of its growing tempo and dynamics."
+        },
+        {
+          "title": "Interpretation plan",
+          "work": "Mark dynamics and tempo on a folk song's music to match the story's mood."
+        },
+        {
+          "title": "Review & check",
+          "work": "Perform the folk song with your planned expression and explain each choice."
+        }
+      ],
+      "assessment": "Expressive performance with explanation."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Melody unit performance",
+      "objectives": [
+        "Select, rehearse and perform melodies from notation",
+        "Evaluate accuracy and expression"
+      ],
+      "standards": [
+        "MU:Pr4.1.4",
+        "MU:Pr5.1.4",
+        "MU:Pr6.1.4"
+      ],
+      "vocabulary": [
+        "repertoire",
+        "rehearse",
+        "accuracy",
+        "expression"
+      ],
+      "materials": [
+        "recorder",
+        "song sheets",
+        "recording device"
+      ],
+      "days": [
+        {
+          "title": "Choose repertoire",
+          "work": "Choose two recorder pieces learned this unit and explain why they fit your skill level and interests."
+        },
+        {
+          "title": "Section rehearsal",
+          "work": "Rehearse the hardest 4 measures of each piece slowly, then at tempo."
+        },
+        {
+          "title": "Record",
+          "work": "Record a full run-through of both pieces without stopping."
+        },
+        {
+          "title": "Evaluate",
+          "work": "Listen back and score tone, rhythm, notes and expression with a 4-point rubric; fix two problems."
+        },
+        {
+          "title": "Perform",
+          "work": "Perform both pieces for family with a spoken introduction for each."
+        }
+      ],
+      "assessment": "Recorded and live performance (rubric)."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "California Native basketry and pattern",
+      "objectives": [
+        "Infer culture from art objects",
+        "Create a woven pattern"
+      ],
+      "standards": [
+        "VA:Cn11.1.4",
+        "VA:Re7.2.4",
+        "VA:Cr2.1.4"
+      ],
+      "vocabulary": [
+        "basketry",
+        "coil",
+        "twine",
+        "pattern",
+        "motif"
+      ],
+      "materials": [
+        "Calisphere set 'Native Americans: Arts and Traditions'",
+        "paper strips",
+        "yarn",
+        "paper plate"
+      ],
+      "days": [
+        {
+          "title": "Look closely",
+          "work": "Study Pomo and Chumash basket images on Calisphere and describe shapes, patterns and materials."
+        },
+        {
+          "title": "Infer",
+          "work": "Write what the baskets suggest about the makers' environment, skills and daily life."
+        },
+        {
+          "title": "Weaving loom",
+          "work": "Make a paper-plate loom and begin weaving a yarn pattern."
+        },
+        {
+          "title": "Pattern design",
+          "work": "Design a repeating geometric motif inspired by (not copied from) the baskets and finish the weaving."
+        },
+        {
+          "title": "Review & share",
+          "work": "Explain your pattern choices and what you learned about basketry as a living tradition."
+        }
+      ],
+      "assessment": "Weaving and written inference."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Papel picado and Mexican folk art",
+      "objectives": [
+        "Create a cut-paper design reflecting a community tradition",
+        "Interpret symbols"
+      ],
+      "standards": [
+        "VA:Cn10.1.4",
+        "VA:Re8.1.4"
+      ],
+      "vocabulary": [
+        "papel picado",
+        "folk art",
+        "symmetry",
+        "positive and negative space"
+      ],
+      "materials": [
+        "tissue paper",
+        "scissors",
+        "string",
+        "images of papel picado and alebrijes"
+      ],
+      "days": [
+        {
+          "title": "Folk art tour",
+          "work": "Look at images of papel picado, alebrijes and Talavera pottery and discuss when and why they are made."
+        },
+        {
+          "title": "Positive/negative space",
+          "work": "Practice folding and cutting symmetrical shapes and identify positive and negative space."
+        },
+        {
+          "title": "Design",
+          "work": "Sketch a papel picado design with a theme (celebration, nature, family)."
+        },
+        {
+          "title": "Cut",
+          "work": "Cut 3 tissue paper banners and string them together."
+        },
+        {
+          "title": "Review & share",
+          "work": "Hang the banner and explain its symbols and the tradition it comes from."
+        }
+      ],
+      "assessment": "Papel picado banner."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Chinese brush painting",
+      "objectives": [
+        "Use brush techniques from Chinese painting",
+        "Connect art to Chinese American heritage in California"
+      ],
+      "standards": [
+        "VA:Cn11.1.4",
+        "VA:Cr2.1.4"
+      ],
+      "vocabulary": [
+        "brushstroke",
+        "ink wash",
+        "bamboo",
+        "calligraphy"
+      ],
+      "materials": [
+        "watercolor brush",
+        "black watercolor or ink",
+        "rice or newsprint paper"
+      ],
+      "days": [
+        {
+          "title": "Look",
+          "work": "Study a classical Chinese bamboo painting and discuss balance and empty space."
+        },
+        {
+          "title": "Strokes",
+          "work": "Practice the four basic strokes: bamboo stalk, leaf, dot and line."
+        },
+        {
+          "title": "Bamboo painting",
+          "work": "Paint a bamboo stalk with leaves using ink washes of different values."
+        },
+        {
+          "title": "Context",
+          "work": "Read about Chinese American artists in California (e.g., Tyrus Wong) and their influence."
+        },
+        {
+          "title": "Review & share",
+          "work": "Finish a painting with a seal-style signature and compare it to your earlier work."
+        }
+      ],
+      "assessment": "Brush painting."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Community mural design",
+      "objectives": [
+        "Collaboratively plan an artwork with purpose",
+        "Represent community cultures"
+      ],
+      "standards": [
+        "VA:Cr1.2.4",
+        "VA:Cn10.1.4",
+        "VA:Re7.2.4"
+      ],
+      "vocabulary": [
+        "mural",
+        "theme",
+        "collaboration",
+        "message"
+      ],
+      "materials": [
+        "large paper",
+        "markers",
+        "photos of murals (e.g., Chicano Park, Balmy Alley)"
+      ],
+      "days": [
+        {
+          "title": "Mural study",
+          "work": "Look at photos of murals in Chicano Park (San Diego) or Balmy Alley (San Francisco) and discuss their messages."
+        },
+        {
+          "title": "Set goals",
+          "work": "With family members, choose a theme about your community and set goals for the mural."
+        },
+        {
+          "title": "Sketch",
+          "work": "Each person sketches ideas; combine the best into one plan."
+        },
+        {
+          "title": "Paint/draw",
+          "work": "Create the mural on a large sheet of paper together."
+        },
+        {
+          "title": "Review & share",
+          "work": "Write an artist statement explaining the mural's message and display it."
+        }
+      ],
+      "assessment": "Collaborative mural and statement."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Musical form: AB, ABA and rondo",
+      "objectives": [
+        "Identify musical forms by listening",
+        "Show form with movement and symbols"
+      ],
+      "standards": [
+        "MU:Re7.2.4",
+        "MU:Pr4.2.4"
+      ],
+      "vocabulary": [
+        "form",
+        "section",
+        "AB",
+        "ABA",
+        "rondo",
+        "repeat"
+      ],
+      "materials": [
+        "recordings",
+        "colored paper shapes"
+      ],
+      "days": [
+        {
+          "title": "AB form",
+          "work": "Listen to a two-part song and hold up shapes when the A and B sections change."
+        },
+        {
+          "title": "ABA form",
+          "work": "Listen to 'Twinkle, Twinkle' as ABA and label the sections in the lyrics."
+        },
+        {
+          "title": "Rondo",
+          "work": "Listen to Mozart's 'Rondo alla Turca' and track the ABACA form."
+        },
+        {
+          "title": "Movement",
+          "work": "Create a different movement for each section of a rondo and perform it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Listen to 3 new pieces and identify each form (AB, ABA or rondo) with a labeled diagram."
+        }
+      ],
+      "assessment": "Form identification check."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Composing rhythms and melodies",
+      "objectives": [
+        "Compose short melodies with standard notation",
+        "Use Song Maker"
+      ],
+      "standards": [
+        "MU:Cr1.1.4",
+        "MU:Cr2.1.4"
+      ],
+      "vocabulary": [
+        "compose",
+        "motive",
+        "phrase",
+        "notation"
+      ],
+      "materials": [
+        "Chrome Music Lab Song Maker",
+        "staff paper",
+        "recorder"
+      ],
+      "days": [
+        {
+          "title": "Improvise",
+          "work": "Improvise 4-beat answers on recorder using B, A and G to a parent's 4-beat questions."
+        },
+        {
+          "title": "Motive",
+          "work": "Create a 2-measure melodic motive and repeat it with changes."
+        },
+        {
+          "title": "Song Maker",
+          "work": "Compose an 8-measure melody in Chrome Music Lab Song Maker."
+        },
+        {
+          "title": "Notate",
+          "work": "Notate the melody on staff paper with rhythm and pitch."
+        },
+        {
+          "title": "Review & check",
+          "work": "Play the 8-measure composition on recorder and record it for next week's revision."
+        }
+      ],
+      "assessment": "Composition draft."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Composing in ABA form",
+      "objectives": [
+        "Organize ideas into ABA form",
+        "Revise with feedback"
+      ],
+      "standards": [
+        "MU:Cr2.1.4",
+        "MU:Cr3.1.4"
+      ],
+      "vocabulary": [
+        "contrast",
+        "revise",
+        "A section",
+        "B section"
+      ],
+      "materials": [
+        "staff paper",
+        "Song Maker",
+        "recorder"
+      ],
+      "days": [
+        {
+          "title": "Plan contrast",
+          "work": "Plan an ABA piece: what will make B different (tempo, dynamics, pitch range)?"
+        },
+        {
+          "title": "Write B",
+          "work": "Compose an 8-measure B section that contrasts with the A section from week 22."
+        },
+        {
+          "title": "Feedback",
+          "work": "Play the draft for a parent and gather feedback with a 3-question form."
+        },
+        {
+          "title": "Revise",
+          "work": "Revise two measures based on feedback and record the changes."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a short description of the piece's form and mood."
+        }
+      ],
+      "assessment": "Revised ABA composition."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Presenting compositions and evaluating music",
+      "objectives": [
+        "Present original music",
+        "Evaluate performances with criteria"
+      ],
+      "standards": [
+        "MU:Cr3.2.4",
+        "MU:Re9.1.4",
+        "MU:Re8.1.4"
+      ],
+      "vocabulary": [
+        "premiere",
+        "criteria",
+        "evaluate",
+        "program note"
+      ],
+      "materials": [
+        "recorder",
+        "recording device"
+      ],
+      "days": [
+        {
+          "title": "Program note",
+          "work": "Write a program note explaining your composition's title and intent."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse the ABA piece with dynamics and tempo markings."
+        },
+        {
+          "title": "Premiere",
+          "work": "Perform the premiere of your composition for family."
+        },
+        {
+          "title": "Evaluate",
+          "work": "Watch two recorded youth performances online and evaluate them with criteria."
+        },
+        {
+          "title": "Review & check",
+          "work": "Self-evaluate your premiere using the same criteria."
+        }
+      ],
+      "assessment": "Composition premiere and evaluation."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Clay sculpture: form and texture",
+      "objectives": [
+        "Create a sculpture using pinch and coil methods",
+        "Use tools safely"
+      ],
+      "standards": [
+        "VA:Cr2.1.4",
+        "VA:Cr2.2.4"
+      ],
+      "vocabulary": [
+        "sculpture",
+        "form",
+        "texture",
+        "pinch",
+        "coil",
+        "score and slip"
+      ],
+      "materials": [
+        "air-dry clay",
+        "plastic knife",
+        "toothpicks",
+        "water cup"
+      ],
+      "days": [
+        {
+          "title": "Clay basics",
+          "work": "Learn safe clay handling and make a pinch pot."
+        },
+        {
+          "title": "Coils",
+          "work": "Roll coils and add them to build a taller vessel or animal."
+        },
+        {
+          "title": "Texture",
+          "work": "Press found objects into clay to create textures."
+        },
+        {
+          "title": "Sculpt",
+          "work": "Sculpt a California animal (sea otter, quail, bear) using score-and-slip joins."
+        },
+        {
+          "title": "Review & share",
+          "work": "Let dry and describe your process and safety steps."
+        }
+      ],
+      "assessment": "Clay sculpture."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Printmaking",
+      "objectives": [
+        "Create relief prints",
+        "Explore repetition and pattern"
+      ],
+      "standards": [
+        "VA:Cr2.1.4",
+        "VA:Cr1.1.4"
+      ],
+      "vocabulary": [
+        "relief print",
+        "brayer",
+        "plate",
+        "edition",
+        "reverse"
+      ],
+      "materials": [
+        "foam meat trays or styrofoam sheets",
+        "pencil",
+        "tempera paint",
+        "brayer or roller"
+      ],
+      "days": [
+        {
+          "title": "Printmaking history",
+          "work": "Look at Japanese woodblock prints and discuss repetition."
+        },
+        {
+          "title": "Design",
+          "work": "Brainstorm 3 designs and choose one; remember it will print in reverse."
+        },
+        {
+          "title": "Carve plate",
+          "work": "Incise the design into a foam plate with a dull pencil."
+        },
+        {
+          "title": "Print",
+          "work": "Roll paint and pull an edition of 4 prints in different colors."
+        },
+        {
+          "title": "Review & share",
+          "work": "Sign and number the edition and choose the best print."
+        }
+      ],
+      "assessment": "Print edition."
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Built environments: California architecture",
+      "objectives": [
+        "Document and represent regional built environments"
+      ],
+      "standards": [
+        "VA:Cr2.3.4",
+        "VA:Re7.2.4"
+      ],
+      "vocabulary": [
+        "architecture",
+        "adobe",
+        "Victorian",
+        "mid-century",
+        "facade"
+      ],
+      "materials": [
+        "camera",
+        "sketchbook",
+        "images of California buildings"
+      ],
+      "days": [
+        {
+          "title": "Styles",
+          "work": "Compare images of a mission adobe, a San Francisco Victorian, a Craftsman bungalow and a mid-century modern house."
+        },
+        {
+          "title": "Neighborhood walk",
+          "work": "Photograph and sketch 4 buildings in your neighborhood."
+        },
+        {
+          "title": "Details",
+          "work": "Draw close-up details (windows, roofs, doors) of one building."
+        },
+        {
+          "title": "Design a building",
+          "work": "Design a building for your community and draw its facade."
+        },
+        {
+          "title": "Review & share",
+          "work": "Explain how your design fits California's climate and community."
+        }
+      ],
+      "assessment": "Building design."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Sculpture revision and installation",
+      "objectives": [
+        "Revise artwork through peer feedback",
+        "Plan a display"
+      ],
+      "standards": [
+        "VA:Cr3.1.4",
+        "VA:Pr5.1.4"
+      ],
+      "vocabulary": [
+        "revision",
+        "installation",
+        "display"
+      ],
+      "materials": [
+        "sculpture",
+        "paint",
+        "labels"
+      ],
+      "days": [
+        {
+          "title": "Feedback",
+          "work": "Get feedback on sculpture and prints using 'I notice / I wonder / I suggest'."
+        },
+        {
+          "title": "Revise",
+          "work": "Paint the dried clay sculpture with acrylic or tempera and add details suggested in feedback."
+        },
+        {
+          "title": "Display plan",
+          "work": "Plan where to display the sculpture safely (stable surface, away from edges and sunlight) and sketch the setup."
+        },
+        {
+          "title": "Labels",
+          "work": "Write gallery labels for the sculpture and best print with title, medium, date and a one-sentence description."
+        },
+        {
+          "title": "Review & share",
+          "work": "Install the sculpture and prints and give a 2-minute talk to family about your process."
+        }
+      ],
+      "assessment": "Installed sculpture and labels."
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Mariachi and Mexican music in California",
+      "objectives": [
+        "Explain how music connects to culture",
+        "Identify instruments by timbre"
+      ],
+      "standards": [
+        "MU:Re7.1.4",
+        "MU:Cn10.0.4",
+        "MU:Re7.2.4"
+      ],
+      "vocabulary": [
+        "mariachi",
+        "timbre",
+        "vihuela",
+        "guitarrón",
+        "son"
+      ],
+      "materials": [
+        "recordings of mariachi music",
+        "video of a mariachi performance"
+      ],
+      "days": [
+        {
+          "title": "Listen",
+          "work": "Listen to 'El Son de la Negra' and identify instruments: violin, trumpet, vihuela, guitarrón."
+        },
+        {
+          "title": "Timbre",
+          "work": "Describe the timbre of each instrument with adjectives."
+        },
+        {
+          "title": "Context",
+          "work": "Read about mariachi at celebrations in California communities."
+        },
+        {
+          "title": "Rhythm",
+          "work": "Clap the 3/4 + 6/8 alternating rhythm (sesquialtera)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write how mariachi connects to family celebrations."
+        }
+      ],
+      "assessment": "Listening response."
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Taiko, gamelan and Asian American music",
+      "objectives": [
+        "Compare musical traditions",
+        "Perform a rhythm piece"
+      ],
+      "standards": [
+        "MU:Re7.2.4",
+        "MU:Cn11.0.4",
+        "MU:Pr6.1.4"
+      ],
+      "vocabulary": [
+        "taiko",
+        "ensemble",
+        "gamelan",
+        "polyrhythm"
+      ],
+      "materials": [
+        "buckets",
+        "drumsticks or wooden spoons",
+        "videos"
+      ],
+      "days": [
+        {
+          "title": "Taiko",
+          "work": "Watch San Jose Taiko and describe movement and sound."
+        },
+        {
+          "title": "Bucket taiko",
+          "work": "Learn a 4-beat taiko pattern on a bucket with kiai shouts."
+        },
+        {
+          "title": "Gamelan",
+          "work": "Listen to Balinese gamelan and identify layered patterns."
+        },
+        {
+          "title": "Compose",
+          "work": "Create a layered rhythm piece with 3 repeating parts on bucket, pot and shaker and notate it."
+        },
+        {
+          "title": "Review & check",
+          "work": "Perform the taiko piece and compare taiko and gamelan."
+        }
+      ],
+      "assessment": "Taiko performance and comparison."
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "Jazz, blues and California sounds",
+      "objectives": [
+        "Identify features of jazz and blues",
+        "Improvise"
+      ],
+      "standards": [
+        "MU:Re7.1.4",
+        "MU:Cr1.1.4",
+        "MU:Re9.1.4"
+      ],
+      "vocabulary": [
+        "jazz",
+        "blues",
+        "improvisation",
+        "swing",
+        "scat"
+      ],
+      "materials": [
+        "recordings (Dave Brubeck 'Take Five', Ella Fitzgerald scat)",
+        "recorder"
+      ],
+      "days": [
+        {
+          "title": "Blues form",
+          "work": "Listen to a 12-bar blues (e.g., 'C-Jam Blues') and clap on the first beat of each of the 12 bars."
+        },
+        {
+          "title": "Swing",
+          "work": "Practice swung eighth notes ('doo-ba doo-ba') on recorder on B, A and G."
+        },
+        {
+          "title": "Improvise",
+          "work": "Improvise with B, A, G over a blues backing track."
+        },
+        {
+          "title": "California jazz",
+          "work": "Listen to Dave Brubeck's 'Take Five' and identify the 5/4 meter."
+        },
+        {
+          "title": "Review & check",
+          "work": "Evaluate a jazz recording using criteria (steady groove, creative improvisation, expression) and write a short review."
+        }
+      ],
+      "assessment": "Improvisation and evaluation."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Music and connections",
+      "objectives": [
+        "Connect music to other arts and daily life"
+      ],
+      "standards": [
+        "MU:Cn11.0.4",
+        "MU:Cn10.0.4",
+        "MU:Re9.1.4"
+      ],
+      "vocabulary": [
+        "film score",
+        "soundtrack",
+        "mood"
+      ],
+      "materials": [
+        "film clip",
+        "Chrome Music Lab Kandinsky"
+      ],
+      "days": [
+        {
+          "title": "Film music",
+          "work": "Watch a film clip with and without sound and describe the mood change."
+        },
+        {
+          "title": "Kandinsky",
+          "work": "Draw in Chrome Music Lab's Kandinsky to turn art into sound."
+        },
+        {
+          "title": "Soundtrack",
+          "work": "Create a soundtrack for a short story using recorder and percussion."
+        },
+        {
+          "title": "Personal playlist",
+          "work": "Make a playlist of 5 songs that represent you and explain choices."
+        },
+        {
+          "title": "Review & check",
+          "work": "Unit test on musical traditions and connections."
+        }
+      ],
+      "assessment": "Soundtrack and unit check."
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Curating a portfolio",
+      "objectives": [
+        "Select artwork for an exhibition using criteria",
+        "Analyze how technology preserves and presents art"
+      ],
+      "standards": [
+        "VA:Pr4.1.4",
+        "VA:Re9.1.4"
+      ],
+      "vocabulary": [
+        "curate",
+        "portfolio",
+        "digital archive",
+        "preserve"
+      ],
+      "materials": [
+        "all artwork from the year",
+        "camera or phone",
+        "folder"
+      ],
+      "days": [
+        {
+          "title": "Review the year",
+          "work": "Lay out every artwork from the year, sort by unit, and note which skills each shows."
+        },
+        {
+          "title": "Select",
+          "work": "Select 6 pieces for an exhibition using one set of criteria (skill, idea, growth) and record a score for each."
+        },
+        {
+          "title": "Digital portfolio",
+          "work": "Photograph each piece in good light and create a digital portfolio slideshow with titles."
+        },
+        {
+          "title": "Preservation",
+          "work": "Read how museums such as the Getty protect artworks (light, humidity, digital archives) and list 3 ways technology helps preserve art."
+        },
+        {
+          "title": "Curator's statement",
+          "work": "Write a one-paragraph curator's statement explaining the exhibition's theme and choices."
+        }
+      ],
+      "assessment": "Curated selection, digital portfolio and statement."
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Preparing the exhibition",
+      "objectives": [
+        "Plan how to present and protect art in a chosen space",
+        "Compare the purposes of museums, galleries and other venues"
+      ],
+      "standards": [
+        "VA:Pr5.1.4",
+        "VA:Pr6.1.4"
+      ],
+      "vocabulary": [
+        "gallery",
+        "museum",
+        "label",
+        "mat",
+        "venue"
+      ],
+      "materials": [
+        "cardstock for mats",
+        "painter's tape",
+        "index cards for labels"
+      ],
+      "days": [
+        {
+          "title": "Venues compared",
+          "work": "Compare an art museum, a commercial gallery and a community art walk in a chart: purpose, who visits, what experience they give."
+        },
+        {
+          "title": "Mat and label",
+          "work": "Mount the 6 artworks on cardstock mats and write museum-style labels (title, artist, medium, year, one-sentence description)."
+        },
+        {
+          "title": "Protecting art",
+          "work": "Decide how to protect each piece where it will hang (away from sunlight, sculpture on a stable shelf) and explain why."
+        },
+        {
+          "title": "Layout and install",
+          "work": "Sketch a floor plan of the exhibit wall, then hang the work at eye level with even spacing."
+        },
+        {
+          "title": "Walkthrough",
+          "work": "Lead a family member on a guided tour and revise any label that was unclear."
+        }
+      ],
+      "assessment": "Installed exhibition and venue comparison."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Concert preparation",
+      "objectives": [
+        "Select concert repertoire based on interest, context and skill",
+        "Rehearse and refine using feedback"
+      ],
+      "standards": [
+        "MU:Pr4.1.4",
+        "MU:Pr5.1.4",
+        "MU:Pr4.3.4"
+      ],
+      "vocabulary": [
+        "program",
+        "repertoire",
+        "rehearsal",
+        "dress rehearsal"
+      ],
+      "materials": [
+        "recorder",
+        "all music from the year",
+        "program paper"
+      ],
+      "days": [
+        {
+          "title": "Choose program",
+          "work": "Choose 4 pieces (a folk song, a classical excerpt, your ABA composition and a free choice) and explain why each belongs."
+        },
+        {
+          "title": "Targeted practice",
+          "work": "Practice the two hardest passages slowly with a metronome, raising the tempo 10 beats at a time."
+        },
+        {
+          "title": "Feedback round",
+          "work": "Record a run-through, get feedback from a family member, and mark dynamics changes on the music."
+        },
+        {
+          "title": "Design program",
+          "work": "Design a printed concert program with piece titles, composers and short program notes."
+        },
+        {
+          "title": "Dress rehearsal",
+          "work": "Hold a full dress rehearsal including bows and spoken introductions, and fix one remaining problem."
+        }
+      ],
+      "assessment": "Dress rehearsal checklist."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Exhibition opening and recorder concert",
+      "objectives": [
+        "Perform with expression and accuracy for an audience",
+        "Reflect on artistic growth across the year"
+      ],
+      "standards": [
+        "MU:Pr6.1.4",
+        "MU:Cr3.2.4",
+        "VA:Pr6.1.4",
+        "VA:Re9.1.4"
+      ],
+      "vocabulary": [
+        "performance",
+        "audience",
+        "reflection",
+        "growth"
+      ],
+      "materials": [
+        "exhibition wall",
+        "recorder",
+        "concert programs"
+      ],
+      "days": [
+        {
+          "title": "Warm-up routine",
+          "work": "Lead your own 10-minute warm-up: long tones, a D-to-D scale and the toughest phrase from each piece."
+        },
+        {
+          "title": "Exhibition opening",
+          "work": "Host the exhibition opening, giving guests a 3-minute tour and answering questions about techniques."
+        },
+        {
+          "title": "Concert",
+          "work": "Perform the 4-piece recorder concert with introductions and proper stage etiquette."
+        },
+        {
+          "title": "Reflection",
+          "work": "Write a one-page reflection comparing week 1 drawings and recorder playing to now, using the year's vocabulary."
+        },
+        {
+          "title": "Goal setting",
+          "work": "Watch the concert recording, evaluate it with the class rubric, and set two art and music goals for grade 5."
+        }
+      ],
+      "assessment": "Concert and exhibition evaluated with rubric; written reflection."
+    }
+  ]
+}

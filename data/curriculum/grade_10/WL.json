@@ -1,0 +1,1843 @@
+{
+  "grade": 10,
+  "subject": "WL",
+  "title": "Spanish III",
+  "description": "Spanish III moves students from Novice High toward Intermediate Mid proficiency through themed units on identity, childhood memories, travel, health, the environment, art and literature, community and work, technology, and celebrations across the Spanish-speaking world. Grammar focuses on preterite vs. imperfect, commands, the future and conditional, perfect tenses, and the present and imperfect subjunctive. Each week balances interpretive reading/listening with authentic sources, interpersonal conversation, presentational speaking and writing, and cultural comparison.",
+  "framework": "2019 California World Languages Standards; ACTFL Proficiency Guidelines (target: Intermediate Low–Intermediate Mid)",
+  "minutes_per_day": 50,
+  "ag_requirement": "e",
+  "credits": 10,
+  "standards": {
+    "WL-COMM1-IL": "Interpretive communication (Intermediate Low): understand main ideas and some details in simple authentic texts and audio on familiar topics.",
+    "WL-COMM1-IM": "Interpretive communication (Intermediate Mid): understand main ideas and supporting details in a variety of authentic texts on familiar and some unfamiliar topics.",
+    "WL-COMM2-IL": "Interpersonal communication (Intermediate Low): ask and answer questions and maintain simple conversations on familiar topics using sentences.",
+    "WL-COMM2-IM": "Interpersonal communication (Intermediate Mid): sustain conversations, handle uncomplicated situations, and exchange information using strings of sentences.",
+    "WL-COMM3-IL": "Presentational communication (Intermediate Low): present information on familiar topics using connected sentences.",
+    "WL-COMM3-IM": "Presentational communication (Intermediate Mid): present and write connected paragraphs on familiar and researched topics in various time frames.",
+    "WL-CULT1-IL": "Cultures: use the language to investigate, explain, and reflect on the relationship between cultural practices and perspectives.",
+    "WL-CULT2-IL": "Cultures: use the language to investigate, explain, and reflect on the relationship between cultural products and perspectives.",
+    "WL-CULT3-IL": "Cultures: interact with cultural competence and understanding in authentic or simulated situations.",
+    "WL-STRUC1-IL": "Structures: use knowledge of the language's sound, writing, and grammar systems (including verb tenses and moods) to comprehend and communicate.",
+    "WL-STRUC2-IL": "Structures: compare the language's structures and cultural features with those of English.",
+    "WL-CONN1-IL": "Connections: build, reinforce, and expand knowledge of other disciplines through the language."
+  },
+  "resources": [
+    {
+      "name": "Duolingo – Spanish",
+      "url": "https://www.duolingo.com/",
+      "note": "Daily vocabulary and grammar practice"
+    },
+    {
+      "name": "SpanishDict",
+      "url": "https://www.spanishdict.com/",
+      "note": "Dictionary, conjugation tables and grammar guides"
+    },
+    {
+      "name": "Conjuguemos",
+      "url": "https://conjuguemos.com/",
+      "note": "Free verb conjugation and vocabulary drills"
+    },
+    {
+      "name": "Notes in Spanish",
+      "url": "https://www.notesinspanish.com/",
+      "note": "Free authentic-style podcasts for intermediate listeners"
+    },
+    {
+      "name": "Radio Ambulante",
+      "url": "https://radioambulante.org/",
+      "note": "Latin American narrative podcast with transcripts"
+    },
+    {
+      "name": "Khan Academy en Español",
+      "url": "https://es.khanacademy.org/",
+      "note": "Authentic academic content in Spanish for connections"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "¿Quién soy? Repaso e identidad",
+      "start_week": 1,
+      "end_week": 3,
+      "big_idea": "Who we are is shaped by family, community, and culture.",
+      "standards": [
+        "WL-COMM2-IL",
+        "WL-COMM3-IL",
+        "WL-STRUC1-IL",
+        "WL-COMM1-IL",
+        "WL-CULT1-IL",
+        "WL-STRUC2-IL"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Recuerdos de la niñez y leyendas",
+      "start_week": 4,
+      "end_week": 7,
+      "big_idea": "Stories from the past—personal and legendary—connect generations.",
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM3-IL",
+        "WL-COMM2-IL",
+        "WL-STRUC2-IL",
+        "WL-COMM1-IL",
+        "WL-COMM1-IM",
+        "WL-CULT2-IL"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "¡Vamos de viaje!",
+      "start_week": 8,
+      "end_week": 11,
+      "big_idea": "Travel opens us to new places, people, and plans.",
+      "standards": [
+        "WL-COMM2-IL",
+        "WL-COMM1-IL",
+        "WL-CULT3-IL",
+        "WL-STRUC1-IL",
+        "WL-COMM3-IL",
+        "WL-CONN1-IL",
+        "WL-CULT2-IL",
+        "WL-COMM3-IM",
+        "WL-COMM2-IM"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "La salud y el bienestar",
+      "start_week": 12,
+      "end_week": 14,
+      "big_idea": "Healthy choices and health systems differ across cultures.",
+      "standards": [
+        "WL-COMM2-IL",
+        "WL-STRUC1-IL",
+        "WL-COMM3-IL",
+        "WL-CULT1-IL",
+        "WL-COMM1-IM",
+        "WL-CONN1-IL"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "El medio ambiente",
+      "start_week": 15,
+      "end_week": 18,
+      "big_idea": "Protecting the environment requires collective hopes, wishes, and actions.",
+      "standards": [
+        "WL-COMM1-IL",
+        "WL-COMM2-IL",
+        "WL-CONN1-IL",
+        "WL-STRUC1-IL",
+        "WL-STRUC2-IL",
+        "WL-COMM3-IM",
+        "WL-CULT1-IL",
+        "WL-COMM2-IM",
+        "WL-COMM3-IL"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "El arte y la literatura",
+      "start_week": 19,
+      "end_week": 22,
+      "big_idea": "Art and literature express a culture's history and values.",
+      "standards": [
+        "WL-CULT2-IL",
+        "WL-COMM1-IL",
+        "WL-COMM3-IL",
+        "WL-STRUC1-IL",
+        "WL-COMM2-IL",
+        "WL-COMM1-IM",
+        "WL-COMM3-IM"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "La comunidad y el trabajo",
+      "start_week": 23,
+      "end_week": 26,
+      "big_idea": "Work and service build communities and futures.",
+      "standards": [
+        "WL-COMM2-IL",
+        "WL-COMM1-IL",
+        "WL-CONN1-IL",
+        "WL-STRUC1-IL",
+        "WL-STRUC2-IL",
+        "WL-COMM3-IM",
+        "WL-CULT1-IL",
+        "WL-CULT3-IL"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "La tecnología y los medios",
+      "start_week": 27,
+      "end_week": 30,
+      "big_idea": "Technology changes how we communicate and what we imagine.",
+      "standards": [
+        "WL-COMM1-IL",
+        "WL-COMM2-IL",
+        "WL-STRUC1-IL",
+        "WL-COMM3-IL",
+        "WL-COMM1-IM",
+        "WL-CULT2-IL",
+        "WL-COMM3-IM",
+        "WL-COMM2-IM"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Celebraciones y tradiciones",
+      "start_week": 31,
+      "end_week": 33,
+      "big_idea": "Celebrations reveal shared values and blended heritages.",
+      "standards": [
+        "WL-CULT1-IL",
+        "WL-CULT2-IL",
+        "WL-COMM1-IL",
+        "WL-CONN1-IL",
+        "WL-COMM1-IM",
+        "WL-CULT3-IL",
+        "WL-COMM2-IM",
+        "WL-COMM3-IM"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Proyecto final y evaluación",
+      "start_week": 34,
+      "end_week": 36,
+      "big_idea": "Proficiency grows through sustained, meaningful communication.",
+      "standards": [
+        "WL-COMM3-IM",
+        "WL-CONN1-IL",
+        "WL-CULT2-IL",
+        "WL-COMM2-IM",
+        "WL-COMM1-IM",
+        "WL-STRUC1-IL"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Repaso: presentaciones y el presente",
+      "objectives": [
+        "Introduce self and family in detail",
+        "Review present-tense regular, irregular and stem-changing verbs"
+      ],
+      "standards": [
+        "WL-COMM2-IL",
+        "WL-COMM3-IL",
+        "WL-STRUC1-IL"
+      ],
+      "vocabulary": [
+        "la personalidad",
+        "el apodo",
+        "los parientes",
+        "llevarse bien/mal"
+      ],
+      "materials": [
+        "notebook",
+        "SpanishDict",
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Diagnóstico",
+          "work": "Take a placement review of Spanish I–II grammar and write a 10-sentence self-introduction as a baseline."
+        },
+        {
+          "title": "Presente irregular",
+          "work": "Drill stem-changing and yo-go verbs on Conjuguemos and write 10 sentences about your daily routine."
+        },
+        {
+          "title": "Árbol genealógico",
+          "work": "Create a labeled family tree and describe five relatives' personalities using ser and adjectives."
+        },
+        {
+          "title": "Entrevista",
+          "work": "Record a 3-minute interview with a family member or tutor asking 8 questions about likes and routines."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz on present tense and give a 1-minute spoken self-introduction."
+        }
+      ],
+      "assessment": "Quiz and speaking checklist."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Identidad bicultural",
+      "objectives": [
+        "Read an authentic text about identity",
+        "Compare identity perspectives"
+      ],
+      "standards": [
+        "WL-COMM1-IL",
+        "WL-CULT1-IL",
+        "WL-STRUC2-IL"
+      ],
+      "vocabulary": [
+        "la identidad",
+        "bilingüe",
+        "la herencia",
+        "sentirse orgulloso"
+      ],
+      "materials": [
+        "Sandra Cisneros 'My Name' (Spanish 'Mi nombre' from La casa en Mango Street)",
+        "Radio Ambulante episode excerpt"
+      ],
+      "days": [
+        {
+          "title": "Lectura",
+          "work": "Read 'Mi nombre' and identify five details the narrator gives about her name and heritage."
+        },
+        {
+          "title": "Ser vs. estar",
+          "work": "Practice ser vs. estar in 20 sentences describing identity and emotions."
+        },
+        {
+          "title": "Escuchar",
+          "work": "Listen to a short Radio Ambulante excerpt about Latino identity and answer comprehension questions."
+        },
+        {
+          "title": "Mi nombre",
+          "work": "Write a paragraph 'Mi nombre' about the meaning or story of your own name."
+        },
+        {
+          "title": "Comparación",
+          "work": "Discuss in Spanish: How is bicultural identity in California similar or different from your own?"
+        }
+      ],
+      "assessment": "Paragraph rubric."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Gustar y verbos similares; reflexivos",
+      "objectives": [
+        "Use gustar-type verbs and reflexive verbs accurately"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM2-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "encantar",
+        "molestar",
+        "importar",
+        "interesar",
+        "despertarse"
+      ],
+      "materials": [
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Gustar & co.",
+          "work": "Learn encantar, molestar, importar, interesar, fascinar; write 10 sentences about family members' preferences."
+        },
+        {
+          "title": "Reflexivos",
+          "work": "Describe your morning routine using 10 reflexive verbs in order with transition words."
+        },
+        {
+          "title": "Encuesta",
+          "work": "Survey three people (in Spanish or translating) about what bothers and interests them; report results."
+        },
+        {
+          "title": "Video",
+          "work": "Record a 2-minute 'Un día en mi vida' video."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Unit 1 test: reading, listening, grammar and writing."
+        }
+      ],
+      "assessment": "Unit 1 test."
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "El pretérito",
+      "objectives": [
+        "Narrate completed past actions"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "ayer",
+        "anoche",
+        "de repente",
+        "el verano pasado"
+      ],
+      "materials": [
+        "Conjuguemos",
+        "SpanishDict preterite guide"
+      ],
+      "days": [
+        {
+          "title": "Pretérito regular",
+          "work": "Review regular preterite forms and write about last weekend in 8 sentences."
+        },
+        {
+          "title": "Irregulares",
+          "work": "Drill preterite irregulars (ser/ir, tener, estar, hacer, decir, poder, poner)."
+        },
+        {
+          "title": "Cambios ortográficos",
+          "work": "Practice -car/-gar/-zar and i→y spelling changes."
+        },
+        {
+          "title": "Narración",
+          "work": "Write a 150-word narrative about a memorable trip using 15 preterite verbs."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz on preterite."
+        }
+      ],
+      "assessment": "Quiz and narrative."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "El imperfecto y la niñez",
+      "objectives": [
+        "Describe habitual past and childhood"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM2-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "de niño/a",
+        "siempre",
+        "a menudo",
+        "los juguetes",
+        "la guardería"
+      ],
+      "materials": [
+        "childhood photos"
+      ],
+      "days": [
+        {
+          "title": "Imperfecto",
+          "work": "Learn imperfect forms (regular, ser, ir, ver) and write 8 sentences about childhood habits."
+        },
+        {
+          "title": "Fotos",
+          "work": "Describe three childhood photos: where you lived, what you were like, what you used to do."
+        },
+        {
+          "title": "Entrevista",
+          "work": "Interview a parent or grandparent about their childhood using 10 imperfect questions."
+        },
+        {
+          "title": "Comparación",
+          "work": "Write a paragraph comparing your childhood with theirs."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Present your interview findings in a 2-minute talk."
+        }
+      ],
+      "assessment": "Interview presentation."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Pretérito vs. imperfecto",
+      "objectives": [
+        "Choose preterite or imperfect for storytelling"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-STRUC2-IL",
+        "WL-COMM1-IL"
+      ],
+      "vocabulary": [
+        "mientras",
+        "cuando",
+        "de repente",
+        "interrumpir"
+      ],
+      "materials": [
+        "short story text",
+        "comic strips"
+      ],
+      "days": [
+        {
+          "title": "Reglas",
+          "work": "Learn the rules of preterite vs. imperfect (background vs. action) with a timeline graphic."
+        },
+        {
+          "title": "Práctica",
+          "work": "Complete a 30-item cloze passage choosing preterite or imperfect."
+        },
+        {
+          "title": "Cómic",
+          "work": "Narrate a six-panel comic strip in the past using both tenses."
+        },
+        {
+          "title": "Comparar con inglés",
+          "work": "Compare 'was/used to/did' in English with Spanish aspect."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz on preterite vs. imperfect."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Leyendas del mundo hispano",
+      "objectives": [
+        "Read and retell a legend",
+        "Connect legend to cultural perspectives"
+      ],
+      "standards": [
+        "WL-COMM1-IM",
+        "WL-CULT2-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "la leyenda",
+        "el fantasma",
+        "llorar",
+        "el volcán"
+      ],
+      "materials": [
+        "'La Llorona' and 'Leyenda de los volcanes (Popocatépetl e Iztaccíhuatl)' texts"
+      ],
+      "days": [
+        {
+          "title": "La Llorona",
+          "work": "Read a version of La Llorona and sequence events."
+        },
+        {
+          "title": "Los volcanes",
+          "work": "Read the legend of Popocatépetl and Iztaccíhuatl and analyze its values."
+        },
+        {
+          "title": "Perspectivas",
+          "work": "Discuss what each legend teaches and why it endures."
+        },
+        {
+          "title": "Mi leyenda",
+          "work": "Write a 250-word original legend in the past tenses explaining a local landmark."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Tell your legend aloud (recorded) and take the Unit 2 test."
+        }
+      ],
+      "assessment": "Legend writing rubric and Unit 2 test."
+    },
+    {
+      "week": 8,
+      "unit": 3,
+      "topic": "Planear un viaje",
+      "objectives": [
+        "Discuss travel plans and logistics"
+      ],
+      "standards": [
+        "WL-COMM2-IL",
+        "WL-COMM1-IL",
+        "WL-CULT3-IL"
+      ],
+      "vocabulary": [
+        "el pasaporte",
+        "la aduana",
+        "el boleto de ida y vuelta",
+        "facturar",
+        "el alojamiento"
+      ],
+      "materials": [
+        "airline and hotel websites in Spanish"
+      ],
+      "days": [
+        {
+          "title": "Vocabulario",
+          "work": "Learn airport and hotel vocabulary with flashcards."
+        },
+        {
+          "title": "Sitios auténticos",
+          "work": "Navigate a Spanish-language airline or hotel website to find prices and schedules."
+        },
+        {
+          "title": "Diálogo",
+          "work": "Role-play checking in at an airport and hotel."
+        },
+        {
+          "title": "Itinerario",
+          "work": "Create a 5-day itinerary for a country of your choice."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Vocabulary quiz and role-play."
+        }
+      ],
+      "assessment": "Role-play rubric."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "El futuro",
+      "objectives": [
+        "Use the future tense to discuss plans and predictions"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "mañana",
+        "el año que viene",
+        "dentro de",
+        "algún día"
+      ],
+      "materials": [
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Futuro regular",
+          "work": "Learn future forms and write 10 predictions for your trip."
+        },
+        {
+          "title": "Irregulares",
+          "work": "Practice future irregulars (tendr-, saldr-, har-, dir-, podr-)."
+        },
+        {
+          "title": "Ir a + infinitivo",
+          "work": "Compare ir a + infinitivo with the future tense."
+        },
+        {
+          "title": "Predicciones",
+          "work": "Write 10 predictions about life in 2050."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz on future tense."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Destinos: España y Latinoamérica",
+      "objectives": [
+        "Research and present a destination"
+      ],
+      "standards": [
+        "WL-CONN1-IL",
+        "WL-CULT2-IL",
+        "WL-COMM3-IM"
+      ],
+      "vocabulary": [
+        "el patrimonio",
+        "la arquitectura",
+        "el clima",
+        "la gastronomía"
+      ],
+      "materials": [
+        "UNESCO World Heritage site pages",
+        "country tourism websites"
+      ],
+      "days": [
+        {
+          "title": "Investigación",
+          "work": "Research a UNESCO site in a Spanish-speaking country in Spanish."
+        },
+        {
+          "title": "Clima y geografía",
+          "work": "Compare climate and geography with California."
+        },
+        {
+          "title": "Comida",
+          "work": "Research two regional dishes and their ingredients."
+        },
+        {
+          "title": "Folleto",
+          "work": "Create a travel brochure in Spanish."
+        },
+        {
+          "title": "Presentación",
+          "work": "Present the brochure in 3 minutes."
+        }
+      ],
+      "assessment": "Brochure and presentation."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Problemas en el viaje y mandatos formales",
+      "objectives": [
+        "Ask for help and give advice"
+      ],
+      "standards": [
+        "WL-COMM2-IM",
+        "WL-STRUC1-IL",
+        "WL-CULT3-IL"
+      ],
+      "vocabulary": [
+        "perder",
+        "la maleta",
+        "el retraso",
+        "quejarse"
+      ],
+      "materials": [
+        "role-play cards"
+      ],
+      "days": [
+        {
+          "title": "Situaciones",
+          "work": "Role-play lost luggage, missed flight and hotel complaint scenarios."
+        },
+        {
+          "title": "Mandatos formales",
+          "work": "Learn Ud./Uds. commands for giving directions."
+        },
+        {
+          "title": "Direcciones",
+          "work": "Give directions on a city map of Madrid using commands."
+        },
+        {
+          "title": "Correo",
+          "work": "Write a formal complaint email to a hotel."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Unit 3 test."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 12,
+      "unit": 4,
+      "topic": "El cuerpo y la salud",
+      "objectives": [
+        "Describe symptoms and illnesses"
+      ],
+      "standards": [
+        "WL-COMM2-IL",
+        "WL-STRUC1-IL"
+      ],
+      "vocabulary": [
+        "la fiebre",
+        "toser",
+        "estornudar",
+        "la receta",
+        "doler"
+      ],
+      "materials": [
+        "pharmacy ads in Spanish"
+      ],
+      "days": [
+        {
+          "title": "Vocabulario",
+          "work": "Learn body, illness and symptom vocabulary with doler."
+        },
+        {
+          "title": "En el consultorio",
+          "work": "Role-play a doctor's visit describing symptoms."
+        },
+        {
+          "title": "Farmacia",
+          "work": "Read pharmacy ads and instructions in Spanish."
+        },
+        {
+          "title": "Diario",
+          "work": "Write a diary entry about a time you were sick (past tenses)."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz and role-play."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Mandatos informales y consejos",
+      "objectives": [
+        "Give tú commands for health advice"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "tú commands",
+        "haz",
+        "pon",
+        "no comas"
+      ],
+      "materials": [
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Mandatos afirmativos",
+          "work": "Learn affirmative tú commands including irregulars (di, haz, ve, pon, sal, sé, ten, ven)."
+        },
+        {
+          "title": "Negativos",
+          "work": "Learn negative tú commands."
+        },
+        {
+          "title": "Pronombres",
+          "work": "Attach and place pronouns with commands."
+        },
+        {
+          "title": "Póster",
+          "work": "Create a health-advice poster with 10 commands."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Commands quiz."
+        }
+      ],
+      "assessment": "Poster and quiz."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Sistemas de salud y medicina tradicional",
+      "objectives": [
+        "Compare health practices across cultures"
+      ],
+      "standards": [
+        "WL-CULT1-IL",
+        "WL-COMM1-IM",
+        "WL-CONN1-IL"
+      ],
+      "vocabulary": [
+        "la medicina tradicional",
+        "el curandero",
+        "las hierbas",
+        "el seguro médico"
+      ],
+      "materials": [
+        "article on Cuban or Mexican health systems",
+        "herbal remedies text"
+      ],
+      "days": [
+        {
+          "title": "Lectura",
+          "work": "Read an article about health care in a Spanish-speaking country."
+        },
+        {
+          "title": "Remedios",
+          "work": "Learn about traditional remedies (té de manzanilla, sábila) and their perspectives."
+        },
+        {
+          "title": "Comparación",
+          "work": "Write a Venn diagram comparing health practices in two countries and the U.S."
+        },
+        {
+          "title": "Discusión",
+          "work": "Discuss in Spanish the pros and cons of each system."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Unit 4 test."
+        }
+      ],
+      "assessment": "Unit 4 test."
+    },
+    {
+      "week": 15,
+      "unit": 5,
+      "topic": "El medio ambiente: vocabulario y problemas",
+      "objectives": [
+        "Discuss environmental problems"
+      ],
+      "standards": [
+        "WL-COMM1-IL",
+        "WL-COMM2-IL",
+        "WL-CONN1-IL"
+      ],
+      "vocabulary": [
+        "la contaminación",
+        "el reciclaje",
+        "la deforestación",
+        "la sequía",
+        "los recursos naturales"
+      ],
+      "materials": [
+        "infographics in Spanish"
+      ],
+      "days": [
+        {
+          "title": "Vocabulario",
+          "work": "Learn environment vocabulary and label infographics."
+        },
+        {
+          "title": "Problemas",
+          "work": "Read about Amazon deforestation and Chile's drought."
+        },
+        {
+          "title": "Video",
+          "work": "Watch a Spanish-language environmental PSA and summarize it."
+        },
+        {
+          "title": "Mi comunidad",
+          "work": "Describe three environmental problems in your community."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Vocabulary quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 16,
+      "unit": 5,
+      "topic": "El presente de subjuntivo",
+      "objectives": [
+        "Form the present subjunctive",
+        "Use it after expressions of will and influence"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-STRUC2-IL"
+      ],
+      "vocabulary": [
+        "querer que",
+        "recomendar que",
+        "es importante que",
+        "ojalá"
+      ],
+      "materials": [
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Formación",
+          "work": "Learn subjunctive formation (yo form, drop -o, opposite vowel)."
+        },
+        {
+          "title": "Irregulares",
+          "work": "Memorize DISHES irregulars (dar, ir, ser, haber, estar, saber)."
+        },
+        {
+          "title": "Voluntad",
+          "work": "Write 10 sentences with querer que, recomendar que, pedir que."
+        },
+        {
+          "title": "Impersonales",
+          "work": "Use es importante/necesario que in environmental advice."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Subjunctive quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Soluciones verdes",
+      "objectives": [
+        "Propose solutions using the subjunctive"
+      ],
+      "standards": [
+        "WL-COMM3-IM",
+        "WL-CULT1-IL",
+        "WL-COMM2-IM"
+      ],
+      "vocabulary": [
+        "proteger",
+        "la energía renovable",
+        "el voluntariado"
+      ],
+      "materials": [
+        "article on Costa Rica's renewable energy"
+      ],
+      "days": [
+        {
+          "title": "Costa Rica",
+          "work": "Read about Costa Rica's renewable energy and ecotourism."
+        },
+        {
+          "title": "Debate",
+          "work": "Debate in Spanish the best solution for drought in California."
+        },
+        {
+          "title": "Carta",
+          "work": "Write a letter to a mayor with 8 recommendations using the subjunctive."
+        },
+        {
+          "title": "PSA",
+          "work": "Record a 1-minute environmental PSA."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Present the PSA."
+        }
+      ],
+      "assessment": "PSA rubric."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Repaso y examen del semestre",
+      "objectives": [
+        "Demonstrate mastery of Units 1–5"
+      ],
+      "standards": [
+        "WL-COMM1-IL",
+        "WL-COMM2-IL",
+        "WL-COMM3-IL",
+        "WL-STRUC1-IL"
+      ],
+      "vocabulary": [
+        "repaso"
+      ],
+      "materials": [
+        "review packet"
+      ],
+      "days": [
+        {
+          "title": "Repaso de tiempos",
+          "work": "Review present, preterite, imperfect and future in a mixed exercise."
+        },
+        {
+          "title": "Repaso de subjuntivo",
+          "work": "Review subjunctive and commands."
+        },
+        {
+          "title": "Conversación",
+          "work": "Hold a 5-minute conversation covering semester themes."
+        },
+        {
+          "title": "Examen",
+          "work": "Take the semester exam (reading, listening, writing)."
+        },
+        {
+          "title": "Reflexión",
+          "work": "Self-assess proficiency on ACTFL can-do statements."
+        }
+      ],
+      "assessment": "Semester exam and oral interview."
+    },
+    {
+      "week": 19,
+      "unit": 6,
+      "topic": "El arte hispano",
+      "objectives": [
+        "Describe and interpret art"
+      ],
+      "standards": [
+        "WL-CULT2-IL",
+        "WL-COMM1-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "el cuadro",
+        "el mural",
+        "el autorretrato",
+        "el fondo",
+        "representar"
+      ],
+      "materials": [
+        "images of works by Frida Kahlo, Diego Rivera, Velázquez, Picasso"
+      ],
+      "days": [
+        {
+          "title": "Vocabulario de arte",
+          "work": "Learn art vocabulary and describe Las Meninas."
+        },
+        {
+          "title": "Frida Kahlo",
+          "work": "Read a short biography and analyze a self-portrait."
+        },
+        {
+          "title": "Muralismo",
+          "work": "Study Diego Rivera and Chicano murals in Los Angeles and San Francisco (Mission District)."
+        },
+        {
+          "title": "Guernica",
+          "work": "Interpret Picasso's Guernica and its historical context."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Write a museum label for one artwork."
+        }
+      ],
+      "assessment": "Museum label."
+    },
+    {
+      "week": 20,
+      "unit": 6,
+      "topic": "El presente perfecto",
+      "objectives": [
+        "Use the present perfect to describe experiences"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM2-IL"
+      ],
+      "vocabulary": [
+        "haber",
+        "participio",
+        "ya",
+        "todavía no",
+        "alguna vez"
+      ],
+      "materials": [
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Formación",
+          "work": "Learn present perfect with regular participles."
+        },
+        {
+          "title": "Irregulares",
+          "work": "Learn irregular participles (hecho, dicho, escrito, visto, puesto, roto, vuelto)."
+        },
+        {
+          "title": "¿Alguna vez...?",
+          "work": "Interview someone using 'Alguna vez has...?' questions."
+        },
+        {
+          "title": "Lista",
+          "work": "Write a bucket list of things you have and haven't done."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "La poesía",
+      "objectives": [
+        "Read and interpret poems",
+        "Write a poem"
+      ],
+      "standards": [
+        "WL-COMM1-IM",
+        "WL-CULT2-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "el verso",
+        "la estrofa",
+        "la rima",
+        "la metáfora"
+      ],
+      "materials": [
+        "José Martí 'Versos sencillos' I",
+        "Gabriela Mistral and Pablo Neruda 'Oda al tomate'"
+      ],
+      "days": [
+        {
+          "title": "Martí",
+          "work": "Read 'Yo soy un hombre sincero' and identify imagery."
+        },
+        {
+          "title": "Neruda",
+          "work": "Read 'Oda al tomate' and list its metaphors."
+        },
+        {
+          "title": "Mistral",
+          "work": "Read a Gabriela Mistral poem and discuss its themes."
+        },
+        {
+          "title": "Mi oda",
+          "work": "Write an 'Oda a…' about an everyday object."
+        },
+        {
+          "title": "Recital",
+          "work": "Recite your ode and one memorized stanza of Martí."
+        }
+      ],
+      "assessment": "Recital and ode."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "El cuento: un cuento corto",
+      "objectives": [
+        "Read and analyze a short story"
+      ],
+      "standards": [
+        "WL-COMM1-IM",
+        "WL-COMM3-IM",
+        "WL-STRUC1-IL"
+      ],
+      "vocabulary": [
+        "el narrador",
+        "el desenlace",
+        "el personaje",
+        "el pluscuamperfecto"
+      ],
+      "materials": [
+        "Short story such as 'Continuidad de los parques' (Cortázar) or 'El Almohadón de plumas' (Quiroga, public domain)"
+      ],
+      "days": [
+        {
+          "title": "Pluscuamperfecto",
+          "work": "Learn the past perfect (había + participle)."
+        },
+        {
+          "title": "Lectura",
+          "work": "Read 'El almohadón de plumas' by Horacio Quiroga."
+        },
+        {
+          "title": "Análisis",
+          "work": "Answer comprehension and analysis questions about suspense."
+        },
+        {
+          "title": "Resumen",
+          "work": "Write a 200-word summary in past tenses."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Unit 6 test."
+        }
+      ],
+      "assessment": "Unit 6 test."
+    },
+    {
+      "week": 23,
+      "unit": 7,
+      "topic": "Las profesiones",
+      "objectives": [
+        "Discuss careers and job skills"
+      ],
+      "standards": [
+        "WL-COMM2-IL",
+        "WL-COMM1-IL",
+        "WL-CONN1-IL"
+      ],
+      "vocabulary": [
+        "el currículum",
+        "la entrevista",
+        "el sueldo",
+        "la carrera",
+        "el/la ingeniero/a"
+      ],
+      "materials": [
+        "job ads in Spanish"
+      ],
+      "days": [
+        {
+          "title": "Vocabulario",
+          "work": "Learn career vocabulary."
+        },
+        {
+          "title": "Anuncios",
+          "work": "Read Spanish job ads and identify requirements."
+        },
+        {
+          "title": "Currículum",
+          "work": "Write your resume in Spanish."
+        },
+        {
+          "title": "Entrevista",
+          "work": "Role-play a job interview."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz and interview."
+        }
+      ],
+      "assessment": "Interview rubric."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Subjuntivo con emociones y duda",
+      "objectives": [
+        "Use subjunctive after emotion and doubt"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-STRUC2-IL"
+      ],
+      "vocabulary": [
+        "alegrarse de que",
+        "dudar que",
+        "no creer que",
+        "es posible que"
+      ],
+      "materials": [
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Emoción",
+          "work": "Learn emotion triggers and write 10 sentences."
+        },
+        {
+          "title": "Duda",
+          "work": "Learn doubt/denial vs. certainty (creo que + indicative)."
+        },
+        {
+          "title": "Contraste",
+          "work": "Complete a mixed indicative/subjunctive exercise."
+        },
+        {
+          "title": "Reacciones",
+          "work": "React to 10 news headlines using emotion expressions."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "El servicio comunitario",
+      "objectives": [
+        "Discuss volunteering and community"
+      ],
+      "standards": [
+        "WL-COMM3-IM",
+        "WL-CULT1-IL",
+        "WL-CULT3-IL"
+      ],
+      "vocabulary": [
+        "la ONG",
+        "el voluntario",
+        "ayudar",
+        "la comunidad"
+      ],
+      "materials": [
+        "community organization websites in Spanish"
+      ],
+      "days": [
+        {
+          "title": "ONGs",
+          "work": "Research a nonprofit serving Spanish speakers in California."
+        },
+        {
+          "title": "Lectura",
+          "work": "Read about César Chávez and Dolores Huerta and the UFW."
+        },
+        {
+          "title": "Discusión",
+          "work": "Discuss what community means in Spanish."
+        },
+        {
+          "title": "Propuesta",
+          "work": "Write a proposal for a community project."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Present proposal."
+        }
+      ],
+      "assessment": "Proposal presentation."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Mi futuro profesional",
+      "objectives": [
+        "Present future career plans using multiple tenses"
+      ],
+      "standards": [
+        "WL-COMM3-IM",
+        "WL-STRUC1-IL"
+      ],
+      "vocabulary": [
+        "cuando + subjuntivo",
+        "tan pronto como",
+        "después de que"
+      ],
+      "materials": [
+        "notes"
+      ],
+      "days": [
+        {
+          "title": "Cláusulas adverbiales",
+          "work": "Learn cuando, tan pronto como, hasta que + subjunctive for future events."
+        },
+        {
+          "title": "Plan",
+          "work": "Write a plan for your future career using future and subjunctive."
+        },
+        {
+          "title": "Video",
+          "work": "Record a 3-minute video 'Mi futuro'."
+        },
+        {
+          "title": "Retroalimentación",
+          "work": "Peer/parent feedback and revision."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Unit 7 test."
+        }
+      ],
+      "assessment": "Video and unit test."
+    },
+    {
+      "week": 27,
+      "unit": 8,
+      "topic": "La tecnología",
+      "objectives": [
+        "Discuss technology use"
+      ],
+      "standards": [
+        "WL-COMM1-IL",
+        "WL-COMM2-IL"
+      ],
+      "vocabulary": [
+        "la red social",
+        "descargar",
+        "la aplicación",
+        "la contraseña"
+      ],
+      "materials": [
+        "Spanish tech articles"
+      ],
+      "days": [
+        {
+          "title": "Vocabulario",
+          "work": "Learn technology vocabulary."
+        },
+        {
+          "title": "Encuesta",
+          "work": "Survey family on tech use and graph the results with Spanish labels."
+        },
+        {
+          "title": "Lectura",
+          "work": "Read an article on teen social media use in Spain."
+        },
+        {
+          "title": "Debate",
+          "work": "Debate: ¿Las redes sociales nos unen o nos separan?"
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz."
+        }
+      ],
+      "assessment": "Quiz and debate."
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "El condicional",
+      "objectives": [
+        "Use the conditional to express hypotheticals and politeness"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM3-IL"
+      ],
+      "vocabulary": [
+        "sería",
+        "tendría",
+        "podría",
+        "me gustaría"
+      ],
+      "materials": [
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Formación",
+          "work": "Learn conditional forms and irregulars."
+        },
+        {
+          "title": "Cortesía",
+          "work": "Use conditional for polite requests."
+        },
+        {
+          "title": "¿Qué harías?",
+          "work": "Answer 10 'What would you do?' scenarios."
+        },
+        {
+          "title": "Invento",
+          "work": "Describe an invention you would create."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Los medios de comunicación",
+      "objectives": [
+        "Analyze news and advertising in Spanish"
+      ],
+      "standards": [
+        "WL-COMM1-IM",
+        "WL-CULT2-IL",
+        "WL-COMM3-IM"
+      ],
+      "vocabulary": [
+        "el noticiero",
+        "el titular",
+        "la publicidad",
+        "la noticia falsa"
+      ],
+      "materials": [
+        "BBC Mundo or Univision news articles"
+      ],
+      "days": [
+        {
+          "title": "Noticias",
+          "work": "Read and summarize two news articles from BBC Mundo."
+        },
+        {
+          "title": "Anuncios",
+          "work": "Analyze three Spanish-language ads for persuasive techniques."
+        },
+        {
+          "title": "Noticias falsas",
+          "work": "Learn to identify fake news in Spanish."
+        },
+        {
+          "title": "Noticiero",
+          "work": "Script and record a 2-minute newscast."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Present newscast."
+        }
+      ],
+      "assessment": "Newscast rubric."
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Cláusulas con si",
+      "objectives": [
+        "Use si clauses for hypotheticals"
+      ],
+      "standards": [
+        "WL-STRUC1-IL",
+        "WL-COMM2-IM",
+        "WL-COMM3-IM"
+      ],
+      "vocabulary": [
+        "si tuviera",
+        "imperfecto de subjuntivo"
+      ],
+      "materials": [
+        "Conjuguemos"
+      ],
+      "days": [
+        {
+          "title": "Imperfecto de subjuntivo",
+          "work": "Learn the imperfect subjunctive from preterite ellos form."
+        },
+        {
+          "title": "Si clauses",
+          "work": "Write 10 sentences 'Si yo fuera…, …'."
+        },
+        {
+          "title": "Canción",
+          "work": "Analyze lyrics of a song with si clauses."
+        },
+        {
+          "title": "Ensayo corto",
+          "work": "Write 'Si pudiera cambiar el mundo…' (200 words)."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Unit 8 test."
+        }
+      ],
+      "assessment": "Unit 8 test."
+    },
+    {
+      "week": 31,
+      "unit": 9,
+      "topic": "Fiestas del mundo hispano",
+      "objectives": [
+        "Compare celebrations"
+      ],
+      "standards": [
+        "WL-CULT1-IL",
+        "WL-CULT2-IL",
+        "WL-COMM1-IL"
+      ],
+      "vocabulary": [
+        "el Día de los Muertos",
+        "la ofrenda",
+        "las Fallas",
+        "Inti Raymi",
+        "la quinceañera"
+      ],
+      "materials": [
+        "Smithsonian/authentic videos on festivals"
+      ],
+      "days": [
+        {
+          "title": "Día de Muertos",
+          "work": "Read about Día de los Muertos and the meaning of ofrenda items."
+        },
+        {
+          "title": "Fallas & Inti Raymi",
+          "work": "Watch videos on Las Fallas and Inti Raymi and take notes."
+        },
+        {
+          "title": "Comparación",
+          "work": "Compare a Hispanic celebration to one your family celebrates."
+        },
+        {
+          "title": "Receta",
+          "work": "Follow a Spanish recipe (pan de muerto or tamales) and narrate the process."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Quiz."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Herencia mixta: indígena, africana y europea",
+      "objectives": [
+        "Explain cultural blending"
+      ],
+      "standards": [
+        "WL-CULT1-IL",
+        "WL-CONN1-IL",
+        "WL-COMM1-IM"
+      ],
+      "vocabulary": [
+        "el mestizaje",
+        "indígena",
+        "afrodescendiente",
+        "el sincretismo"
+      ],
+      "materials": [
+        "readings on Afro-Latino culture"
+      ],
+      "days": [
+        {
+          "title": "Mestizaje",
+          "work": "Read about indigenous, African and European influences."
+        },
+        {
+          "title": "Música",
+          "work": "Listen to cumbia, salsa and son jarocho and identify instruments' origins."
+        },
+        {
+          "title": "Lenguas",
+          "work": "Learn words Spanish borrowed from Nahuatl, Quechua and Arabic."
+        },
+        {
+          "title": "Discusión",
+          "work": "Discuss sincretismo in celebrations."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Write a 250-word reflective essay."
+        }
+      ],
+      "assessment": "Essay."
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Cultura en los Estados Unidos",
+      "objectives": [
+        "Analyze Latino culture in the U.S."
+      ],
+      "standards": [
+        "WL-CULT3-IL",
+        "WL-COMM2-IM",
+        "WL-COMM3-IM"
+      ],
+      "vocabulary": [
+        "la comunidad latina",
+        "el bilingüismo",
+        "el spanglish"
+      ],
+      "materials": [
+        "Pew Research data on Latinos",
+        "local Spanish media"
+      ],
+      "days": [
+        {
+          "title": "Datos",
+          "work": "Analyze data about the Latino population in California."
+        },
+        {
+          "title": "Entrevista",
+          "work": "Interview a Spanish speaker in your community (or via video)."
+        },
+        {
+          "title": "Medios locales",
+          "work": "Listen to a local Spanish-language radio station and summarize a segment."
+        },
+        {
+          "title": "Reportaje",
+          "work": "Write a report on the interview."
+        },
+        {
+          "title": "Evaluación",
+          "work": "Unit 9 test."
+        }
+      ],
+      "assessment": "Unit 9 test."
+    },
+    {
+      "week": 34,
+      "unit": 10,
+      "topic": "Proyecto final: planificación",
+      "objectives": [
+        "Plan an integrated final project"
+      ],
+      "standards": [
+        "WL-COMM3-IM",
+        "WL-CONN1-IL",
+        "WL-CULT2-IL"
+      ],
+      "vocabulary": [
+        "el proyecto",
+        "la investigación"
+      ],
+      "materials": [
+        "research sources"
+      ],
+      "days": [
+        {
+          "title": "Elegir tema",
+          "work": "Choose a project: documentary, magazine, or podcast on a Spanish-speaking country."
+        },
+        {
+          "title": "Investigación",
+          "work": "Research in Spanish using three authentic sources."
+        },
+        {
+          "title": "Guion",
+          "work": "Write the script or articles (600+ words)."
+        },
+        {
+          "title": "Revisión",
+          "work": "Revise grammar with a checklist of tenses and subjunctive."
+        },
+        {
+          "title": "Ensayo",
+          "work": "Rehearse the presentation."
+        }
+      ],
+      "assessment": "Checkpoint."
+    },
+    {
+      "week": 35,
+      "unit": 10,
+      "topic": "Proyecto final: presentación",
+      "objectives": [
+        "Present the final project"
+      ],
+      "standards": [
+        "WL-COMM3-IM",
+        "WL-COMM2-IM"
+      ],
+      "vocabulary": [
+        "presentar",
+        "responder"
+      ],
+      "materials": [
+        "project materials"
+      ],
+      "days": [
+        {
+          "title": "Producción",
+          "work": "Produce the final video, podcast or magazine."
+        },
+        {
+          "title": "Presentación",
+          "work": "Present the project and answer questions in Spanish."
+        },
+        {
+          "title": "Retroalimentación",
+          "work": "Give feedback on a peer's or sibling's project in Spanish."
+        },
+        {
+          "title": "Reflexión",
+          "work": "Write a reflection on learning."
+        },
+        {
+          "title": "Portafolio",
+          "work": "Organize the year's portfolio."
+        }
+      ],
+      "assessment": "Project rubric."
+    },
+    {
+      "week": 36,
+      "unit": 10,
+      "topic": "Examen final y entrevista oral",
+      "objectives": [
+        "Demonstrate year-end proficiency"
+      ],
+      "standards": [
+        "WL-COMM1-IM",
+        "WL-COMM2-IM",
+        "WL-COMM3-IM",
+        "WL-STRUC1-IL"
+      ],
+      "vocabulary": [
+        "repaso"
+      ],
+      "materials": [
+        "review packet"
+      ],
+      "days": [
+        {
+          "title": "Repaso",
+          "work": "Review all tenses and moods."
+        },
+        {
+          "title": "Lectura y audio",
+          "work": "Final interpretive section with an authentic article and podcast."
+        },
+        {
+          "title": "Escritura",
+          "work": "Final writing section: a 300-word essay."
+        },
+        {
+          "title": "Entrevista oral",
+          "work": "Final 10-minute oral proficiency interview."
+        },
+        {
+          "title": "Metas",
+          "work": "Set Spanish IV goals and choose a summer book or series in Spanish."
+        }
+      ],
+      "assessment": "Final exam and oral interview."
+    }
+  ]
+}

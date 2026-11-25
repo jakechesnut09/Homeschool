@@ -1,0 +1,1850 @@
+{
+  "grade": 9,
+  "subject": "SCI",
+  "title": "Biology – The Living Earth",
+  "description": "The Living Earth is the CA three-course-model high school biology course integrating life science with Earth science. Students study ecosystems, photosynthesis and respiration in the context of Earth's atmosphere and carbon cycle, evolution, inheritance, cell structure and homeostasis, and human impacts on biodiversity. Weekly hands-on investigations use household materials (yeast, spinach leaf disks, strawberries, eggs), and the year ends with an engineering design project.",
+  "framework": "California Next Generation Science Standards (HS Life Science with integrated Earth & Space Science); 2016 CA Science Framework (The Living Earth course)",
+  "minutes_per_day": 60,
+  "ag_requirement": "d",
+  "credits": 10,
+  "standards": {
+    "HS-LS1-1": "Construct an explanation for how the structure of DNA determines the structure of proteins, which carry out essential functions through specialized cells.",
+    "HS-LS1-2": "Develop and use a model to illustrate the hierarchical organization of interacting systems that provide specific functions in multicellular organisms.",
+    "HS-LS1-3": "Plan and conduct an investigation to provide evidence that feedback mechanisms maintain homeostasis.",
+    "HS-LS1-4": "Use a model to illustrate the role of cellular division (mitosis) and differentiation in producing and maintaining complex organisms.",
+    "HS-LS1-5": "Use a model to illustrate how photosynthesis transforms light energy into stored chemical energy.",
+    "HS-LS1-6": "Construct an explanation for how carbon, hydrogen, and oxygen from sugar molecules combine with other elements to form amino acids and other large carbon-based molecules.",
+    "HS-LS1-7": "Use a model to illustrate that cellular respiration is a chemical process in which bonds are broken and new compounds formed, resulting in a net transfer of energy.",
+    "HS-LS2-1": "Use mathematical representations to support explanations of factors that affect carrying capacity of ecosystems at different scales.",
+    "HS-LS2-2": "Use mathematical representations to support and revise explanations about factors affecting biodiversity and populations in ecosystems.",
+    "HS-LS2-3": "Construct and revise an explanation for the cycling of matter and flow of energy in aerobic and anaerobic conditions.",
+    "HS-LS2-4": "Use mathematical representations to support claims for the cycling of matter and flow of energy among organisms in an ecosystem.",
+    "HS-LS2-5": "Develop a model to illustrate the role of photosynthesis and cellular respiration in the cycling of carbon among the biosphere, atmosphere, hydrosphere, and geosphere.",
+    "HS-LS2-6": "Evaluate claims, evidence, and reasoning that complex ecosystem interactions maintain relatively consistent numbers of organisms in stable conditions, but changing conditions may result in a new ecosystem.",
+    "HS-LS2-7": "Design, evaluate, and refine a solution for reducing the impacts of human activities on the environment and biodiversity.",
+    "HS-LS2-8": "Evaluate evidence for the role of group behavior on individual and species' chances to survive and reproduce.",
+    "HS-LS3-1": "Ask questions to clarify relationships about the role of DNA and chromosomes in coding the instructions for characteristic traits passed from parents to offspring.",
+    "HS-LS3-2": "Make and defend a claim that inheritable genetic variations may result from new combinations through meiosis, viable errors in replication, and/or mutations caused by environmental factors.",
+    "HS-LS3-3": "Apply concepts of statistics and probability to explain the variation and distribution of expressed traits in a population.",
+    "HS-LS4-1": "Communicate scientific information that common ancestry and biological evolution are supported by multiple lines of empirical evidence.",
+    "HS-LS4-2": "Construct an explanation that evolution results primarily from population potential to increase, heritable genetic variation, competition for limited resources, and proliferation of better-adapted organisms.",
+    "HS-LS4-3": "Apply concepts of statistics and probability to support explanations that organisms with an advantageous heritable trait tend to increase in proportion.",
+    "HS-LS4-4": "Construct an explanation based on evidence for how natural selection leads to adaptation of populations.",
+    "HS-LS4-5": "Evaluate evidence supporting claims that changes in environmental conditions may result in increases in species, emergence of new species, and extinction.",
+    "HS-LS4-6": "Create or revise a simulation to test a solution to mitigate adverse impacts of human activity on biodiversity.",
+    "HS-ESS2-6": "Develop a quantitative model to describe the cycling of carbon among the hydrosphere, atmosphere, geosphere, and biosphere.",
+    "HS-ESS2-7": "Construct an argument based on evidence about the simultaneous coevolution of Earth's systems and life on Earth.",
+    "HS-ESS3-6": "Use a computational representation to illustrate the relationships among Earth systems and how those relationships are being modified by human activity.",
+    "HS-ETS1-1": "Analyze a major global challenge to specify qualitative and quantitative criteria and constraints for solutions.",
+    "HS-ETS1-2": "Design a solution to a complex real-world problem by breaking it down into smaller, more manageable problems.",
+    "HS-ETS1-3": "Evaluate a solution to a complex real-world problem based on prioritized criteria and trade-offs."
+  },
+  "resources": [
+    {
+      "name": "Khan Academy – High School Biology",
+      "url": "https://www.khanacademy.org/science/high-school-biology",
+      "note": "NGSS-aligned videos and practice"
+    },
+    {
+      "name": "OpenStax Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "note": "Free textbook"
+    },
+    {
+      "name": "HHMI BioInteractive",
+      "url": "https://www.biointeractive.org",
+      "note": "Films, data sets, and virtual labs"
+    },
+    {
+      "name": "PhET Simulations",
+      "url": "https://phet.colorado.edu",
+      "note": "Natural selection and gene expression simulations"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Ecosystems: Interactions, Energy, and Populations",
+      "start_week": 1,
+      "end_week": 5,
+      "big_idea": "Populations are limited by resources and interactions; energy flows and matter cycles through food webs.",
+      "standards": [
+        "HS-LS2-1",
+        "HS-LS2-2",
+        "HS-LS2-4",
+        "HS-LS2-8",
+        "HS-LS2-6"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Photosynthesis, Respiration, and Earth's Changing Atmosphere",
+      "start_week": 6,
+      "end_week": 10,
+      "big_idea": "Life transformed Earth's atmosphere; photosynthesis and respiration move energy and carbon through Earth's spheres.",
+      "standards": [
+        "HS-LS1-5",
+        "HS-LS1-6",
+        "HS-LS1-7",
+        "HS-LS2-3",
+        "HS-LS2-5",
+        "HS-ESS2-6",
+        "HS-ESS2-7"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Evolution: Evidence of Common Ancestry and Diversity",
+      "start_week": 11,
+      "end_week": 18,
+      "big_idea": "Natural selection acting on heritable variation explains both the unity and the diversity of life.",
+      "standards": [
+        "HS-LS4-1",
+        "HS-LS4-2",
+        "HS-LS4-3",
+        "HS-LS4-4",
+        "HS-LS4-5",
+        "HS-ESS2-7"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Inheritance and Variation of Traits",
+      "start_week": 19,
+      "end_week": 24,
+      "big_idea": "DNA codes for proteins that produce traits; meiosis and mutation create the variation that inheritance passes on.",
+      "standards": [
+        "HS-LS1-1",
+        "HS-LS1-4",
+        "HS-LS3-1",
+        "HS-LS3-2",
+        "HS-LS3-3"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Structure, Function, and Growth: From Cells to Organisms",
+      "start_week": 25,
+      "end_week": 30,
+      "big_idea": "Organisms are hierarchies of interacting systems that keep internal conditions stable through feedback.",
+      "standards": [
+        "HS-LS1-1",
+        "HS-LS1-2",
+        "HS-LS1-3",
+        "HS-LS1-4",
+        "HS-LS1-6"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Ecosystem Stability and Human Impact",
+      "start_week": 31,
+      "end_week": 36,
+      "big_idea": "Human activities alter ecosystems and Earth systems, and engineering solutions can reduce harm to biodiversity.",
+      "standards": [
+        "HS-LS2-6",
+        "HS-LS2-7",
+        "HS-LS4-6",
+        "HS-ESS3-6",
+        "HS-ETS1-1",
+        "HS-ETS1-2",
+        "HS-ETS1-3"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Science practices and ecosystem components",
+      "objectives": [
+        "Use lab safety and science notebooks",
+        "Identify biotic and abiotic factors"
+      ],
+      "standards": [
+        "HS-LS2-1"
+      ],
+      "vocabulary": [
+        "ecosystem",
+        "biotic",
+        "abiotic",
+        "population",
+        "community",
+        "biome"
+      ],
+      "materials": [
+        "science notebook",
+        "meter stick",
+        "string",
+        "hand lens"
+      ],
+      "days": [
+        {
+          "title": "Lab safety & notebooks",
+          "work": "Set up a lab notebook (claim–evidence–reasoning format) and review home lab safety rules with a parent."
+        },
+        {
+          "title": "Ecosystem levels",
+          "work": "Read about organization from organism to biosphere and build a concept map with local examples."
+        },
+        {
+          "title": "Quadrat survey",
+          "work": "Mark a 1 m² quadrat in a yard or park with string; record every organism and abiotic factor you observe."
+        },
+        {
+          "title": "Data sharing",
+          "work": "Graph quadrat species counts and compare to a second quadrat in a different spot (sun vs. shade)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a CER paragraph explaining one abiotic factor that differed between quadrats; vocabulary quiz."
+        }
+      ],
+      "assessment": "CER paragraph and vocabulary quiz."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Population growth and carrying capacity",
+      "objectives": [
+        "Model exponential and logistic growth",
+        "Explain limiting factors"
+      ],
+      "standards": [
+        "HS-LS2-1",
+        "HS-LS2-2"
+      ],
+      "vocabulary": [
+        "carrying capacity",
+        "limiting factor",
+        "exponential growth",
+        "logistic growth",
+        "density-dependent"
+      ],
+      "materials": [
+        "dried beans",
+        "graph paper",
+        "spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Growth models",
+          "work": "Graph exponential vs. logistic growth from a sample data set and identify carrying capacity."
+        },
+        {
+          "title": "Yeast balloon lab",
+          "work": "Mix yeast, warm water, and 0/1/2 tsp sugar in three bottles with balloons; measure balloon circumference every 10 minutes."
+        },
+        {
+          "title": "Limiting factors",
+          "work": "Analyze the yeast data: which factor limited growth? Classify density-dependent and independent factors."
+        },
+        {
+          "title": "Case study",
+          "work": "Analyze the St. Matthew Island reindeer data and explain the crash using carrying capacity."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on population growth with a graph interpretation."
+        }
+      ],
+      "assessment": "Lab report on yeast growth and quiz."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Biodiversity and species interactions",
+      "objectives": [
+        "Describe predation, competition, and symbiosis",
+        "Use math to compare biodiversity"
+      ],
+      "standards": [
+        "HS-LS2-2",
+        "HS-LS2-6"
+      ],
+      "vocabulary": [
+        "predation",
+        "competition",
+        "mutualism",
+        "commensalism",
+        "parasitism",
+        "biodiversity",
+        "keystone species"
+      ],
+      "materials": [
+        "quadrat data",
+        "calculator"
+      ],
+      "days": [
+        {
+          "title": "Interactions",
+          "work": "Classify 15 species pairs by interaction type with examples from California ecosystems."
+        },
+        {
+          "title": "Predator–prey",
+          "work": "Graph the lynx–hare data and explain the cycles."
+        },
+        {
+          "title": "Keystone species",
+          "work": "Read about sea otters and kelp forests and draw the trophic cascade."
+        },
+        {
+          "title": "Diversity index",
+          "work": "Calculate Simpson's diversity index for your two quadrats and interpret."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on interactions and diversity calculations."
+        }
+      ],
+      "assessment": "Quiz and diversity index calculation."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Energy flow and matter cycling in food webs",
+      "objectives": [
+        "Build food webs",
+        "Calculate energy transfer between trophic levels"
+      ],
+      "standards": [
+        "HS-LS2-4"
+      ],
+      "vocabulary": [
+        "producer",
+        "consumer",
+        "decomposer",
+        "trophic level",
+        "energy pyramid",
+        "10% rule"
+      ],
+      "materials": [
+        "owl pellet (purchased) or online virtual dissection",
+        "tweezers"
+      ],
+      "days": [
+        {
+          "title": "Food webs",
+          "work": "Build a food web for a California chaparral ecosystem with at least 12 organisms."
+        },
+        {
+          "title": "Owl pellet dissection",
+          "work": "Dissect an owl pellet (or virtual pellet), identify bones, and estimate prey eaten."
+        },
+        {
+          "title": "Energy pyramids",
+          "work": "Use the 10% rule to calculate energy at each trophic level from 10,000 kcal of producers."
+        },
+        {
+          "title": "Biomass",
+          "work": "Explain why biomass pyramids narrow and where energy is lost as heat."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on energy flow calculations."
+        }
+      ],
+      "assessment": "Energy calculations quiz and dissection data sheet."
+    },
+    {
+      "week": 5,
+      "unit": 1,
+      "topic": "Group behavior and ecosystem stability",
+      "objectives": [
+        "Evaluate evidence on group behavior and survival",
+        "Explain ecosystem resilience"
+      ],
+      "standards": [
+        "HS-LS2-8",
+        "HS-LS2-6"
+      ],
+      "vocabulary": [
+        "group behavior",
+        "herding",
+        "flocking",
+        "cooperation",
+        "resilience",
+        "disturbance"
+      ],
+      "materials": [
+        "ants and sugar water (outdoor observation)"
+      ],
+      "days": [
+        {
+          "title": "Group behavior",
+          "work": "Read about bee swarming, fish schooling, and wolf pack hunting; list the survival advantage of each."
+        },
+        {
+          "title": "Ant observation",
+          "work": "Place sugar water near an ant trail and record recruitment over 30 minutes."
+        },
+        {
+          "title": "Stability",
+          "work": "Analyze a case study of ecosystem recovery after a California wildfire."
+        },
+        {
+          "title": "Evidence evaluation",
+          "work": "Write a CER evaluating whether group behavior increases survival using two data sources."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Take the Unit 1 test on ecosystems."
+        }
+      ],
+      "assessment": "Unit 1 test."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Early Earth and the oxygen revolution",
+      "objectives": [
+        "Explain how life changed Earth's atmosphere",
+        "Interpret evidence from banded iron formations and stromatolites"
+      ],
+      "standards": [
+        "HS-ESS2-7"
+      ],
+      "vocabulary": [
+        "cyanobacteria",
+        "Great Oxidation Event",
+        "stromatolite",
+        "banded iron formation",
+        "coevolution"
+      ],
+      "materials": [
+        "steel wool",
+        "vinegar",
+        "jars"
+      ],
+      "days": [
+        {
+          "title": "Earth's timeline",
+          "work": "Build a scaled toilet-paper timeline of Earth's 4.6 billion years marking the origin of life and oxygen."
+        },
+        {
+          "title": "Rusting model",
+          "work": "Soak steel wool in vinegar and observe rusting to model how oxygen created banded iron formations."
+        },
+        {
+          "title": "Stromatolites",
+          "work": "Examine images of stromatolites at Shark Bay and explain their role in the oxygen revolution."
+        },
+        {
+          "title": "Coevolution argument",
+          "work": "Write an argument: How did life and Earth's atmosphere change each other?"
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on Earth's early atmosphere."
+        }
+      ],
+      "assessment": "Argument paragraph and quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Photosynthesis",
+      "objectives": [
+        "Model how light energy is stored in sugar",
+        "Investigate factors affecting photosynthesis"
+      ],
+      "standards": [
+        "HS-LS1-5"
+      ],
+      "vocabulary": [
+        "photosynthesis",
+        "chloroplast",
+        "chlorophyll",
+        "glucose",
+        "light reactions",
+        "Calvin cycle"
+      ],
+      "materials": [
+        "spinach leaves",
+        "baking soda",
+        "dish soap",
+        "syringe",
+        "cups",
+        "lamp"
+      ],
+      "days": [
+        {
+          "title": "Photosynthesis model",
+          "work": "Draw an input–output model of photosynthesis showing light energy stored in glucose bonds."
+        },
+        {
+          "title": "Floating leaf disk lab",
+          "work": "Punch spinach disks, infiltrate with baking-soda solution, and time disks floating under light."
+        },
+        {
+          "title": "Light intensity variable",
+          "work": "Repeat the leaf disk lab at two lamp distances and graph results."
+        },
+        {
+          "title": "Chloroplast structure",
+          "work": "Label the chloroplast and trace light reactions and the Calvin cycle in a flowchart."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a lab report and take a photosynthesis quiz."
+        }
+      ],
+      "assessment": "Leaf disk lab report and quiz."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Cellular respiration and fermentation",
+      "objectives": [
+        "Model aerobic respiration",
+        "Compare aerobic and anaerobic processes"
+      ],
+      "standards": [
+        "HS-LS1-7",
+        "HS-LS2-3"
+      ],
+      "vocabulary": [
+        "cellular respiration",
+        "mitochondria",
+        "ATP",
+        "fermentation",
+        "aerobic",
+        "anaerobic"
+      ],
+      "materials": [
+        "bromothymol blue (or red cabbage indicator)",
+        "straw",
+        "yeast",
+        "sugar"
+      ],
+      "days": [
+        {
+          "title": "Respiration model",
+          "work": "Model C6H12O6 + 6O2 → 6CO2 + 6H2O + energy with molecule cards, showing bonds broken and formed."
+        },
+        {
+          "title": "CO2 indicator lab",
+          "work": "Blow through a straw into red-cabbage indicator before and after exercise and compare color change."
+        },
+        {
+          "title": "Fermentation",
+          "work": "Compare yeast fermentation with and without oxygen and connect to bread and yogurt."
+        },
+        {
+          "title": "ATP",
+          "work": "Explain how ATP transfers energy in cells with an analogy and diagram."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz comparing photosynthesis and respiration."
+        }
+      ],
+      "assessment": "Indicator lab write-up and quiz."
+    },
+    {
+      "week": 9,
+      "unit": 2,
+      "topic": "Building biomolecules from sugar",
+      "objectives": [
+        "Explain how sugar's atoms build macromolecules",
+        "Test foods for biomolecules"
+      ],
+      "standards": [
+        "HS-LS1-6"
+      ],
+      "vocabulary": [
+        "carbohydrate",
+        "lipid",
+        "protein",
+        "nucleic acid",
+        "monomer",
+        "polymer"
+      ],
+      "materials": [
+        "iodine (tincture)",
+        "brown paper bag",
+        "foods to test"
+      ],
+      "days": [
+        {
+          "title": "Macromolecules",
+          "work": "Build a chart of the four macromolecules, their monomers, and functions."
+        },
+        {
+          "title": "Food testing",
+          "work": "Test foods for starch with iodine and lipids with the brown-paper test; record results."
+        },
+        {
+          "title": "From sugar to protein",
+          "work": "Explain how carbon skeletons from glucose combine with nitrogen to form amino acids."
+        },
+        {
+          "title": "Modeling polymers",
+          "work": "Build polymer chains with paper clips to model dehydration synthesis and hydrolysis."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on biomolecules."
+        }
+      ],
+      "assessment": "Food test data table and quiz."
+    },
+    {
+      "week": 10,
+      "unit": 2,
+      "topic": "The carbon cycle and Earth's spheres",
+      "objectives": [
+        "Model carbon cycling across spheres",
+        "Quantify carbon reservoirs and fluxes"
+      ],
+      "standards": [
+        "HS-LS2-5",
+        "HS-ESS2-6"
+      ],
+      "vocabulary": [
+        "carbon cycle",
+        "reservoir",
+        "flux",
+        "carbon sink",
+        "sequestration",
+        "Keeling curve"
+      ],
+      "materials": [
+        "Keeling curve data",
+        "graph paper"
+      ],
+      "days": [
+        {
+          "title": "Carbon cycle model",
+          "work": "Draw a carbon cycle model across biosphere, atmosphere, hydrosphere, and geosphere with flux arrows."
+        },
+        {
+          "title": "Keeling curve",
+          "work": "Graph Mauna Loa CO2 data and explain seasonal wiggles with photosynthesis and respiration."
+        },
+        {
+          "title": "Quantitative model",
+          "work": "Use reservoir values (gigatons C) to calculate how burning fossil fuels changes atmospheric carbon."
+        },
+        {
+          "title": "Ocean sink",
+          "work": "Model ocean acidification with carbonated water and red cabbage indicator."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Take the Unit 2 test."
+        }
+      ],
+      "assessment": "Unit 2 test."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Evidence for evolution: fossils and the geologic record",
+      "objectives": [
+        "Interpret fossil evidence",
+        "Use relative and absolute dating"
+      ],
+      "standards": [
+        "HS-LS4-1"
+      ],
+      "vocabulary": [
+        "fossil",
+        "stratigraphy",
+        "relative dating",
+        "radiometric dating",
+        "transitional fossil"
+      ],
+      "materials": [
+        "layered sand/soil jar",
+        "clay"
+      ],
+      "days": [
+        {
+          "title": "Rock layers",
+          "work": "Build a layered jar of soil and sand to model stratigraphy and relative dating."
+        },
+        {
+          "title": "Radiometric dating",
+          "work": "Use a coin half-life simulation to estimate the age of a sample."
+        },
+        {
+          "title": "Transitional fossils",
+          "work": "Analyze Tiktaalik and whale fossil sequences (Pakicetus to modern whales) and list the traits that changed."
+        },
+        {
+          "title": "Fossil timeline",
+          "work": "Place major fossil groups on the geologic time scale."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on fossil evidence."
+        }
+      ],
+      "assessment": "Fossil evidence quiz."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Evidence for evolution: anatomy, embryology, and molecules",
+      "objectives": [
+        "Compare homologous and analogous structures",
+        "Use DNA and protein comparisons"
+      ],
+      "standards": [
+        "HS-LS4-1"
+      ],
+      "vocabulary": [
+        "homologous structure",
+        "analogous structure",
+        "vestigial structure",
+        "embryology",
+        "cladogram"
+      ],
+      "materials": [
+        "chicken wing (for dissection)",
+        "gloves"
+      ],
+      "days": [
+        {
+          "title": "Chicken wing dissection",
+          "work": "Dissect a chicken wing and compare its bones with a human arm."
+        },
+        {
+          "title": "Homologous vs. analogous",
+          "work": "Sort 12 structures and explain why homologous structures indicate common ancestry."
+        },
+        {
+          "title": "Molecular evidence",
+          "work": "Compare amino acid sequences of cytochrome c across species and rank relatedness."
+        },
+        {
+          "title": "Cladograms",
+          "work": "Build a cladogram for 6 animals from a table of shared derived traits and explain what each branch point means."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a brochure communicating multiple lines of evidence for common ancestry."
+        }
+      ],
+      "assessment": "Evidence brochure (HS-LS4-1)."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Natural selection",
+      "objectives": [
+        "Explain the four factors of natural selection",
+        "Simulate selection"
+      ],
+      "standards": [
+        "HS-LS4-2",
+        "HS-LS4-4"
+      ],
+      "vocabulary": [
+        "natural selection",
+        "variation",
+        "adaptation",
+        "fitness",
+        "overproduction",
+        "competition"
+      ],
+      "materials": [
+        "beans or pasta of different colors",
+        "fabric backgrounds"
+      ],
+      "days": [
+        {
+          "title": "Darwin's ideas",
+          "work": "Read about Darwin's finches and list the four factors of natural selection."
+        },
+        {
+          "title": "Bean predation simulation",
+          "work": "Scatter colored beans on patterned fabric, act as predators for several rounds, and record survivors."
+        },
+        {
+          "title": "Data analysis",
+          "work": "Graph changes in bean color frequency across generations."
+        },
+        {
+          "title": "Real examples",
+          "work": "Analyze peppered moths and antibiotic resistance as natural selection."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on natural selection."
+        }
+      ],
+      "assessment": "Simulation lab report and quiz."
+    },
+    {
+      "week": 14,
+      "unit": 3,
+      "topic": "Natural selection and probability",
+      "objectives": [
+        "Apply statistics to trait frequency",
+        "Explain adaptation in populations"
+      ],
+      "standards": [
+        "HS-LS4-3",
+        "HS-LS4-4"
+      ],
+      "vocabulary": [
+        "allele frequency",
+        "selection pressure",
+        "adaptation",
+        "proportion"
+      ],
+      "materials": [
+        "HHMI BioInteractive rock pocket mouse film",
+        "spreadsheet"
+      ],
+      "days": [
+        {
+          "title": "Rock pocket mice",
+          "work": "Watch the HHMI rock pocket mouse film and record evidence of selection."
+        },
+        {
+          "title": "Frequency calculations",
+          "work": "Calculate changes in trait proportions over generations from data."
+        },
+        {
+          "title": "Spreadsheet model",
+          "work": "Build a spreadsheet model where a trait gives a 10% survival advantage and graph frequency over 20 generations."
+        },
+        {
+          "title": "Explain adaptation",
+          "work": "Write a CER explaining how dark fur became common on lava flows."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on probability and selection."
+        }
+      ],
+      "assessment": "CER and quiz."
+    },
+    {
+      "week": 15,
+      "unit": 3,
+      "topic": "Mechanisms of evolution beyond selection",
+      "objectives": [
+        "Explain genetic drift, gene flow, and mutation",
+        "Compare mechanisms"
+      ],
+      "standards": [
+        "HS-LS4-2",
+        "HS-LS4-3"
+      ],
+      "vocabulary": [
+        "genetic drift",
+        "bottleneck",
+        "founder effect",
+        "gene flow",
+        "mutation"
+      ],
+      "materials": [
+        "M&Ms or beads",
+        "cups"
+      ],
+      "days": [
+        {
+          "title": "Genetic drift",
+          "work": "Simulate bottlenecks with beads in a cup and compare small vs. large populations."
+        },
+        {
+          "title": "Founder effect",
+          "work": "Read about the Amish population and Ellis–van Creveld syndrome."
+        },
+        {
+          "title": "Gene flow",
+          "work": "Model gene flow by moving beads between two cup populations each generation and record how allele frequencies converge."
+        },
+        {
+          "title": "Comparing mechanisms",
+          "work": "Create a chart comparing mechanisms with examples."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on mechanisms of evolution."
+        }
+      ],
+      "assessment": "Mechanisms quiz."
+    },
+    {
+      "week": 16,
+      "unit": 3,
+      "topic": "Speciation",
+      "objectives": [
+        "Explain how new species form",
+        "Analyze reproductive isolation"
+      ],
+      "standards": [
+        "HS-LS4-5"
+      ],
+      "vocabulary": [
+        "speciation",
+        "reproductive isolation",
+        "geographic isolation",
+        "adaptive radiation"
+      ],
+      "materials": [
+        "maps of Ensatina salamander range"
+      ],
+      "days": [
+        {
+          "title": "Defining species",
+          "work": "Discuss the biological species concept and its limits."
+        },
+        {
+          "title": "California ring species",
+          "work": "Map Ensatina salamander subspecies around the Central Valley and explain ring species."
+        },
+        {
+          "title": "Isolation mechanisms",
+          "work": "Classify 10 examples of prezygotic and postzygotic barriers (mating seasons, mule sterility, bird songs)."
+        },
+        {
+          "title": "Adaptive radiation",
+          "work": "Analyze Hawaiian honeycreepers as adaptive radiation."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on speciation."
+        }
+      ],
+      "assessment": "Speciation quiz."
+    },
+    {
+      "week": 17,
+      "unit": 3,
+      "topic": "Extinction and changing environments",
+      "objectives": [
+        "Evaluate evidence of environmental change and extinction",
+        "Connect Earth's changes to biodiversity"
+      ],
+      "standards": [
+        "HS-LS4-5",
+        "HS-ESS2-7"
+      ],
+      "vocabulary": [
+        "mass extinction",
+        "background extinction",
+        "adaptive radiation",
+        "climate change"
+      ],
+      "materials": [
+        "data on extinction rates"
+      ],
+      "days": [
+        {
+          "title": "Mass extinctions",
+          "work": "Analyze graphs of the five mass extinctions and their causes."
+        },
+        {
+          "title": "K-Pg boundary",
+          "work": "Evaluate evidence for the asteroid impact (iridium layer, Chicxulub crater)."
+        },
+        {
+          "title": "Recovery",
+          "work": "Explain how mammals radiated after the dinosaurs."
+        },
+        {
+          "title": "Current extinction",
+          "work": "Evaluate claims that a sixth mass extinction is underway."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Take the Unit 3 test on evolution."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 18,
+      "unit": 3,
+      "topic": "Semester review and exam",
+      "objectives": [
+        "Review Units 1–3",
+        "Demonstrate mastery on a cumulative exam"
+      ],
+      "standards": [
+        "HS-LS4-1",
+        "HS-LS2-4",
+        "HS-LS1-7"
+      ],
+      "vocabulary": [
+        "cumulative review"
+      ],
+      "materials": [
+        "semester review guide"
+      ],
+      "days": [
+        {
+          "title": "Review ecosystems",
+          "work": "Create a one-page summary of ecosystem concepts with diagrams."
+        },
+        {
+          "title": "Review energy and matter",
+          "work": "Redraw photosynthesis, respiration, and carbon cycle models from memory."
+        },
+        {
+          "title": "Review evolution",
+          "work": "Make flashcards of evidence for evolution and natural selection."
+        },
+        {
+          "title": "Practice exam",
+          "work": "Take a practice exam and correct mistakes."
+        },
+        {
+          "title": "Semester exam",
+          "work": "Take the semester exam."
+        }
+      ],
+      "assessment": "Semester exam."
+    },
+    {
+      "week": 19,
+      "unit": 4,
+      "topic": "DNA structure and replication",
+      "objectives": [
+        "Describe DNA structure",
+        "Model DNA replication"
+      ],
+      "standards": [
+        "HS-LS3-1",
+        "HS-LS1-1"
+      ],
+      "vocabulary": [
+        "DNA",
+        "nucleotide",
+        "double helix",
+        "base pairing",
+        "replication",
+        "chromosome"
+      ],
+      "materials": [
+        "strawberries",
+        "dish soap",
+        "salt",
+        "rubbing alcohol (cold)",
+        "coffee filter"
+      ],
+      "days": [
+        {
+          "title": "DNA extraction",
+          "work": "Extract DNA from strawberries with soap, salt, and cold alcohol; observe the strands."
+        },
+        {
+          "title": "DNA structure",
+          "work": "Build a paper DNA model showing base pairing and antiparallel strands."
+        },
+        {
+          "title": "History",
+          "work": "Read about Rosalind Franklin, Watson, and Crick and Photo 51."
+        },
+        {
+          "title": "Replication",
+          "work": "Model semiconservative replication with your paper DNA."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on DNA structure and replication."
+        }
+      ],
+      "assessment": "DNA extraction lab write-up and quiz."
+    },
+    {
+      "week": 20,
+      "unit": 4,
+      "topic": "From DNA to protein",
+      "objectives": [
+        "Model transcription and translation",
+        "Explain how DNA determines protein structure"
+      ],
+      "standards": [
+        "HS-LS1-1",
+        "HS-LS3-1"
+      ],
+      "vocabulary": [
+        "gene",
+        "mRNA",
+        "transcription",
+        "translation",
+        "codon",
+        "amino acid",
+        "ribosome"
+      ],
+      "materials": [
+        "codon chart",
+        "bead or paper protein chains"
+      ],
+      "days": [
+        {
+          "title": "Central dogma",
+          "work": "Draw and explain the central dogma (DNA → RNA → protein) with arrows labeled replication, transcription, translation."
+        },
+        {
+          "title": "Transcription",
+          "work": "Transcribe 5 DNA template sequences into mRNA and mark start and stop codons."
+        },
+        {
+          "title": "Translation",
+          "work": "Translate mRNA into amino acid chains using a codon chart; build paper protein chains."
+        },
+        {
+          "title": "Protein folding",
+          "work": "Explain how amino acid sequence determines protein shape and function (e.g., hemoglobin)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on protein synthesis."
+        }
+      ],
+      "assessment": "Protein synthesis quiz."
+    },
+    {
+      "week": 21,
+      "unit": 4,
+      "topic": "Mitosis, meiosis, and variation",
+      "objectives": [
+        "Model mitosis and meiosis",
+        "Explain how meiosis creates variation"
+      ],
+      "standards": [
+        "HS-LS1-4",
+        "HS-LS3-2"
+      ],
+      "vocabulary": [
+        "mitosis",
+        "meiosis",
+        "crossing over",
+        "independent assortment",
+        "haploid",
+        "diploid"
+      ],
+      "materials": [
+        "pipe cleaners or yarn",
+        "beads"
+      ],
+      "days": [
+        {
+          "title": "Cell cycle",
+          "work": "Model the cell cycle and mitosis with pipe-cleaner chromosomes."
+        },
+        {
+          "title": "Meiosis",
+          "work": "Model meiosis I and II and explain haploid gametes."
+        },
+        {
+          "title": "Crossing over",
+          "work": "Demonstrate crossing over and independent assortment with colored pipe cleaners."
+        },
+        {
+          "title": "Mitosis vs. meiosis",
+          "work": "Complete a comparison table and explain differentiation."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on cell division."
+        }
+      ],
+      "assessment": "Cell division quiz."
+    },
+    {
+      "week": 22,
+      "unit": 4,
+      "topic": "Mendelian genetics and probability",
+      "objectives": [
+        "Use Punnett squares",
+        "Apply probability to inheritance"
+      ],
+      "standards": [
+        "HS-LS3-3"
+      ],
+      "vocabulary": [
+        "allele",
+        "genotype",
+        "phenotype",
+        "dominant",
+        "recessive",
+        "Punnett square"
+      ],
+      "materials": [
+        "coins",
+        "Punnett square worksheets"
+      ],
+      "days": [
+        {
+          "title": "Mendel's peas",
+          "work": "Read about Mendel's experiments and define key terms."
+        },
+        {
+          "title": "Monohybrid crosses",
+          "work": "Solve 10 monohybrid Punnett squares for pea and human traits and state genotype and phenotype ratios."
+        },
+        {
+          "title": "Coin-toss genetics",
+          "work": "Flip coins to simulate allele inheritance and compare to expected ratios."
+        },
+        {
+          "title": "Dihybrid crosses",
+          "work": "Solve dihybrid crosses and predict 9:3:3:1 ratios."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on Mendelian genetics."
+        }
+      ],
+      "assessment": "Genetics quiz."
+    },
+    {
+      "week": 23,
+      "unit": 4,
+      "topic": "Non-Mendelian inheritance and human traits",
+      "objectives": [
+        "Explain incomplete dominance, codominance, and sex-linked traits",
+        "Analyze pedigrees"
+      ],
+      "standards": [
+        "HS-LS3-3",
+        "HS-LS3-1"
+      ],
+      "vocabulary": [
+        "incomplete dominance",
+        "codominance",
+        "polygenic",
+        "sex-linked",
+        "pedigree"
+      ],
+      "materials": [
+        "pedigree worksheets"
+      ],
+      "days": [
+        {
+          "title": "Beyond Mendel",
+          "work": "Solve problems on incomplete dominance and codominance (blood types)."
+        },
+        {
+          "title": "Sex-linked traits",
+          "work": "Solve 8 sex-linked problems on color blindness and hemophilia, explaining why males are more often affected."
+        },
+        {
+          "title": "Pedigrees",
+          "work": "Analyze pedigrees to determine inheritance patterns."
+        },
+        {
+          "title": "Polygenic traits",
+          "work": "Measure family heights and graph a distribution of polygenic traits."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on non-Mendelian inheritance."
+        }
+      ],
+      "assessment": "Non-Mendelian quiz and pedigree analysis."
+    },
+    {
+      "week": 24,
+      "unit": 4,
+      "topic": "Mutations and genetic technology",
+      "objectives": [
+        "Explain mutation sources",
+        "Evaluate genetic technologies"
+      ],
+      "standards": [
+        "HS-LS3-2",
+        "HS-LS1-1"
+      ],
+      "vocabulary": [
+        "mutation",
+        "point mutation",
+        "frameshift",
+        "mutagen",
+        "CRISPR",
+        "genetic engineering"
+      ],
+      "materials": [
+        "mutation simulation worksheet"
+      ],
+      "days": [
+        {
+          "title": "Mutation types",
+          "work": "Model point and frameshift mutations by changing a sentence of three-letter words."
+        },
+        {
+          "title": "Environmental mutagens",
+          "work": "Read about UV and mutation; test UV beads in sunlight vs. sunscreen."
+        },
+        {
+          "title": "Sickle cell",
+          "work": "Explain how one base change causes sickle cell disease and malaria resistance."
+        },
+        {
+          "title": "CRISPR debate",
+          "work": "Research CRISPR and write a claim about its ethical use."
+        },
+        {
+          "title": "Unit 4 test",
+          "work": "Take the Unit 4 test."
+        }
+      ],
+      "assessment": "Unit 4 test."
+    },
+    {
+      "week": 25,
+      "unit": 5,
+      "topic": "Cell structure and function",
+      "objectives": [
+        "Compare prokaryotic and eukaryotic cells",
+        "Relate organelles to function"
+      ],
+      "standards": [
+        "HS-LS1-2"
+      ],
+      "vocabulary": [
+        "prokaryote",
+        "eukaryote",
+        "organelle",
+        "cell membrane",
+        "nucleus",
+        "mitochondria"
+      ],
+      "materials": [
+        "onion",
+        "iodine",
+        "microscope or phone microscope clip"
+      ],
+      "days": [
+        {
+          "title": "Cell theory",
+          "work": "Read about cell theory and compare prokaryotic and eukaryotic cells."
+        },
+        {
+          "title": "Microscope lab",
+          "work": "Prepare an onion skin slide stained with iodine and sketch observations."
+        },
+        {
+          "title": "Organelle functions",
+          "work": "Create an organelle analogy chart comparing a cell to a city (nucleus = city hall) and justify each match."
+        },
+        {
+          "title": "Specialized cells",
+          "work": "Compare nerve, muscle, and blood cells and connect structure to function."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on cell structure."
+        }
+      ],
+      "assessment": "Microscope sketch and quiz."
+    },
+    {
+      "week": 26,
+      "unit": 5,
+      "topic": "Cell membranes and transport",
+      "objectives": [
+        "Explain passive and active transport",
+        "Investigate osmosis"
+      ],
+      "standards": [
+        "HS-LS1-3"
+      ],
+      "vocabulary": [
+        "diffusion",
+        "osmosis",
+        "active transport",
+        "hypertonic",
+        "hypotonic",
+        "isotonic"
+      ],
+      "materials": [
+        "eggs",
+        "vinegar",
+        "corn syrup",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Membrane model",
+          "work": "Draw the phospholipid bilayer and explain selective permeability."
+        },
+        {
+          "title": "Egg osmosis lab",
+          "work": "Dissolve egg shells in vinegar, then place eggs in water and corn syrup; measure mass changes."
+        },
+        {
+          "title": "Data analysis",
+          "work": "Calculate percent mass change and explain using osmosis."
+        },
+        {
+          "title": "Active transport",
+          "work": "Model the sodium-potassium pump with paper cutouts and explain why it requires ATP."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on membrane transport."
+        }
+      ],
+      "assessment": "Egg osmosis lab report and quiz."
+    },
+    {
+      "week": 27,
+      "unit": 5,
+      "topic": "Levels of organization and body systems",
+      "objectives": [
+        "Model hierarchical organization",
+        "Explain interacting body systems"
+      ],
+      "standards": [
+        "HS-LS1-2"
+      ],
+      "vocabulary": [
+        "tissue",
+        "organ",
+        "organ system",
+        "organism",
+        "interaction"
+      ],
+      "materials": [
+        "body system cards"
+      ],
+      "days": [
+        {
+          "title": "Hierarchy",
+          "work": "Build a model from cell to organism using the digestive system."
+        },
+        {
+          "title": "Systems interaction",
+          "work": "Trace how circulatory, respiratory, and muscular systems interact during exercise."
+        },
+        {
+          "title": "Heart dissection",
+          "work": "Dissect a store-bought chicken or pig heart and identify chambers."
+        },
+        {
+          "title": "Plant systems",
+          "work": "Compare plant transport systems with celery and food coloring."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on organization and systems."
+        }
+      ],
+      "assessment": "Systems quiz and dissection sheet."
+    },
+    {
+      "week": 28,
+      "unit": 5,
+      "topic": "Homeostasis and feedback",
+      "objectives": [
+        "Investigate feedback mechanisms",
+        "Explain negative and positive feedback"
+      ],
+      "standards": [
+        "HS-LS1-3"
+      ],
+      "vocabulary": [
+        "homeostasis",
+        "negative feedback",
+        "positive feedback",
+        "set point",
+        "thermoregulation"
+      ],
+      "materials": [
+        "thermometer",
+        "stopwatch",
+        "heart rate monitor (optional)"
+      ],
+      "days": [
+        {
+          "title": "Feedback loops",
+          "work": "Diagram negative feedback for body temperature and blood glucose."
+        },
+        {
+          "title": "Exercise investigation",
+          "work": "Measure heart rate and breathing rate before, during, and after exercise."
+        },
+        {
+          "title": "Data analysis",
+          "work": "Graph results and explain how feedback returns values toward set point."
+        },
+        {
+          "title": "Positive feedback",
+          "work": "Compare positive feedback in childbirth and blood clotting with negative feedback in a diagram."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a lab report on the exercise investigation."
+        }
+      ],
+      "assessment": "Homeostasis lab report."
+    },
+    {
+      "week": 29,
+      "unit": 5,
+      "topic": "Growth, differentiation, and stem cells",
+      "objectives": [
+        "Explain cell differentiation",
+        "Evaluate stem cell research"
+      ],
+      "standards": [
+        "HS-LS1-4",
+        "HS-LS1-1"
+      ],
+      "vocabulary": [
+        "differentiation",
+        "stem cell",
+        "gene expression",
+        "cancer",
+        "cell cycle checkpoint"
+      ],
+      "materials": [
+        "plant cuttings (pothos)",
+        "water"
+      ],
+      "days": [
+        {
+          "title": "Differentiation",
+          "work": "Explain how cells with the same DNA become different through gene expression."
+        },
+        {
+          "title": "Plant cuttings",
+          "work": "Root a pothos cutting in water to observe growth from undifferentiated cells."
+        },
+        {
+          "title": "Stem cells",
+          "work": "Read about stem cell types and their medical uses."
+        },
+        {
+          "title": "Cancer",
+          "work": "Explain cancer as uncontrolled cell division and checkpoint failure."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on growth and differentiation."
+        }
+      ],
+      "assessment": "Differentiation quiz."
+    },
+    {
+      "week": 30,
+      "unit": 5,
+      "topic": "Nutrition, enzymes, and Unit 5 test",
+      "objectives": [
+        "Investigate enzyme activity",
+        "Connect biomolecules to body function"
+      ],
+      "standards": [
+        "HS-LS1-6",
+        "HS-LS1-2"
+      ],
+      "vocabulary": [
+        "enzyme",
+        "substrate",
+        "active site",
+        "denature",
+        "catalyst"
+      ],
+      "materials": [
+        "hydrogen peroxide",
+        "potato or liver",
+        "thermometer"
+      ],
+      "days": [
+        {
+          "title": "Enzymes",
+          "work": "Model enzyme-substrate specificity with a lock-and-key drawing."
+        },
+        {
+          "title": "Catalase lab",
+          "work": "Test catalase in potato with hydrogen peroxide at three temperatures and measure foam height."
+        },
+        {
+          "title": "Enzyme data",
+          "work": "Graph foam height vs. temperature for the catalase lab and explain the drop at high temperature as denaturation."
+        },
+        {
+          "title": "Unit review",
+          "work": "Complete a Unit 5 review guide covering cells, transport, body systems, homeostasis, and enzymes."
+        },
+        {
+          "title": "Unit 5 test",
+          "work": "Take the Unit 5 test."
+        }
+      ],
+      "assessment": "Catalase lab and Unit 5 test."
+    },
+    {
+      "week": 31,
+      "unit": 6,
+      "topic": "Human impacts on ecosystems",
+      "objectives": [
+        "Identify major human impacts",
+        "Analyze data on biodiversity loss"
+      ],
+      "standards": [
+        "HS-LS2-7",
+        "HS-ESS3-6"
+      ],
+      "vocabulary": [
+        "habitat loss",
+        "invasive species",
+        "pollution",
+        "overexploitation",
+        "climate change"
+      ],
+      "materials": [
+        "local news articles",
+        "data sets"
+      ],
+      "days": [
+        {
+          "title": "HIPPO",
+          "work": "Learn the HIPPO framework (habitat, invasive species, pollution, population, overharvesting)."
+        },
+        {
+          "title": "Invasive species",
+          "work": "Research a California invasive species (e.g., quagga mussel) and its impacts."
+        },
+        {
+          "title": "Pollution test",
+          "work": "Test local water samples with pH strips and compare to standards."
+        },
+        {
+          "title": "Data analysis",
+          "work": "Analyze data on Monarch butterfly population decline."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on human impacts."
+        }
+      ],
+      "assessment": "Human impacts quiz."
+    },
+    {
+      "week": 32,
+      "unit": 6,
+      "topic": "Climate change and Earth systems",
+      "objectives": [
+        "Use models of Earth systems and human activity",
+        "Explain climate effects on ecosystems"
+      ],
+      "standards": [
+        "HS-ESS3-6",
+        "HS-LS2-6"
+      ],
+      "vocabulary": [
+        "greenhouse effect",
+        "feedback",
+        "climate model",
+        "sea level rise"
+      ],
+      "materials": [
+        "jars",
+        "thermometers",
+        "lamp",
+        "plastic wrap"
+      ],
+      "days": [
+        {
+          "title": "Greenhouse jar lab",
+          "work": "Compare temperature in covered and uncovered jars under a lamp."
+        },
+        {
+          "title": "Climate models",
+          "work": "Use an online climate simulator (e.g., En-ROADS) to test emissions scenarios."
+        },
+        {
+          "title": "Ecosystem effects",
+          "work": "Analyze effects of warming on coral reefs and Sierra Nevada snowpack."
+        },
+        {
+          "title": "Ecosystem change",
+          "work": "Evaluate claims about ecosystems shifting to new states (e.g., kelp to urchin barrens)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on climate and ecosystems."
+        }
+      ],
+      "assessment": "Greenhouse lab report and quiz."
+    },
+    {
+      "week": 33,
+      "unit": 6,
+      "topic": "Engineering solutions for biodiversity: defining the problem",
+      "objectives": [
+        "Define criteria and constraints",
+        "Research a local biodiversity problem"
+      ],
+      "standards": [
+        "HS-ETS1-1",
+        "HS-LS2-7"
+      ],
+      "vocabulary": [
+        "criteria",
+        "constraints",
+        "trade-off",
+        "mitigation"
+      ],
+      "materials": [
+        "local environmental reports"
+      ],
+      "days": [
+        {
+          "title": "Choosing a problem",
+          "work": "Choose a local biodiversity problem (e.g., native pollinator decline)."
+        },
+        {
+          "title": "Criteria and constraints",
+          "work": "Define qualitative and quantitative criteria and constraints."
+        },
+        {
+          "title": "Research",
+          "work": "Research existing solutions and their effectiveness."
+        },
+        {
+          "title": "Breaking down",
+          "work": "Break the biodiversity problem into 3–4 smaller sub-problems (habitat, food source, public awareness) and rank them."
+        },
+        {
+          "title": "Review & check",
+          "work": "Submit a problem statement with criteria and constraints for feedback and revise it."
+        }
+      ],
+      "assessment": "Problem statement and criteria list."
+    },
+    {
+      "week": 34,
+      "unit": 6,
+      "topic": "Designing and simulating solutions",
+      "objectives": [
+        "Design a solution",
+        "Test a solution with a simulation"
+      ],
+      "standards": [
+        "HS-ETS1-2",
+        "HS-LS4-6"
+      ],
+      "vocabulary": [
+        "prototype",
+        "simulation",
+        "iteration"
+      ],
+      "materials": [
+        "spreadsheet",
+        "recycled materials"
+      ],
+      "days": [
+        {
+          "title": "Brainstorm",
+          "work": "Brainstorm three solutions and evaluate with a decision matrix."
+        },
+        {
+          "title": "Prototype",
+          "work": "Build a prototype (e.g., native bee hotel) or detailed design plan."
+        },
+        {
+          "title": "Simulation",
+          "work": "Create or revise a spreadsheet simulation of how your solution affects a population."
+        },
+        {
+          "title": "Iterate",
+          "work": "Revise the design based on simulation results and document what changed and why."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present progress (design, simulation graph, revisions) in a 3-minute check-in and record feedback."
+        }
+      ],
+      "assessment": "Prototype or design plan with simulation results."
+    },
+    {
+      "week": 35,
+      "unit": 6,
+      "topic": "Evaluating solutions and presenting",
+      "objectives": [
+        "Evaluate trade-offs",
+        "Communicate a solution"
+      ],
+      "standards": [
+        "HS-ETS1-3",
+        "HS-LS2-7"
+      ],
+      "vocabulary": [
+        "trade-off",
+        "cost-benefit",
+        "stakeholder"
+      ],
+      "materials": [
+        "presentation software"
+      ],
+      "days": [
+        {
+          "title": "Trade-offs",
+          "work": "Evaluate your solution's costs, benefits, and trade-offs."
+        },
+        {
+          "title": "Stakeholders",
+          "work": "Consider perspectives of stakeholders and revise."
+        },
+        {
+          "title": "Prepare presentation",
+          "work": "Prepare a 6-minute presentation with the problem, data, design, simulation results, and trade-offs."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Rehearse the presentation twice with a timer and revise slides after feedback."
+        },
+        {
+          "title": "Present",
+          "work": "Present the solution to family or a co-op group."
+        }
+      ],
+      "assessment": "Project presentation rubric."
+    },
+    {
+      "week": 36,
+      "unit": 6,
+      "topic": "Final review and exam",
+      "objectives": [
+        "Review the year",
+        "Demonstrate mastery on the final exam"
+      ],
+      "standards": [
+        "HS-LS2-6",
+        "HS-LS1-3",
+        "HS-LS3-2"
+      ],
+      "vocabulary": [
+        "cumulative review"
+      ],
+      "materials": [
+        "final review guide"
+      ],
+      "days": [
+        {
+          "title": "Review Units 1–2",
+          "work": "Redraw the food web, energy pyramid, photosynthesis, respiration, and carbon cycle models from memory and check them."
+        },
+        {
+          "title": "Review Units 3–4",
+          "work": "Practice 20 genetics and evolution problems (Punnett squares, selection data, cladograms)."
+        },
+        {
+          "title": "Review Units 5–6",
+          "work": "Review homeostasis feedback loops and human-impact case studies with flashcards and a concept map."
+        },
+        {
+          "title": "Practice exam",
+          "work": "Take a practice exam."
+        },
+        {
+          "title": "Final exam",
+          "work": "Take the final exam."
+        }
+      ],
+      "assessment": "Final exam."
+    }
+  ]
+}

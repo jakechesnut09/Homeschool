@@ -1,0 +1,1221 @@
+[
+  {
+    "name": "Khan Academy",
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "MATH",
+      "SCI",
+      "HSS",
+      "ELA",
+      "ELEC"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Mastery-based video lessons and practice from early math through calculus, plus science, history, grammar, economics and computing. Optional free accounts track progress; parent dashboard."
+  },
+  {
+    "name": "Khan Academy Kids",
+    "provider": "Khan Academy",
+    "url": "https://learn.khanacademy.org/khan-academy-kids/",
+    "type": "practice",
+    "subjects": [
+      "ELA",
+      "MATH"
+    ],
+    "grade_min": 1,
+    "grade_max": 2,
+    "cost": "free",
+    "description": "Free app with early reading, phonics, writing, math and social-emotional activities for ages 2-8."
+  },
+  {
+    "name": "CK-12 FlexBooks and Practice",
+    "provider": "CK-12 Foundation",
+    "url": "https://www.ck12.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "MATH",
+      "SCI",
+      "ELA",
+      "HSS"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free customizable digital textbooks, adaptive practice, simulations and videos for math and science (K-12), with some ELA and social studies."
+  },
+  {
+    "name": "OpenStax",
+    "provider": "Rice University",
+    "url": "https://openstax.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "MATH",
+      "SCI",
+      "HSS",
+      "ELEC"
+    ],
+    "grade_min": 9,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Peer-reviewed free textbooks including AP/college-level biology, chemistry, physics, precalculus, statistics, U.S. history, economics, psychology."
+  },
+  {
+    "name": "Open Up Resources 6-8 Math",
+    "provider": "Open Up Resources",
+    "url": "https://openupresources.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 6,
+    "grade_max": 8,
+    "cost": "free (account required)",
+    "description": "Openly licensed, problem-based middle school math curriculum (based on Illustrative Mathematics) with teacher guides and student materials."
+  },
+  {
+    "name": "Zearn Math",
+    "provider": "Zearn",
+    "url": "https://www.zearn.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 1,
+    "grade_max": 8,
+    "cost": "free (account required)",
+    "description": "Free self-paced digital math lessons aligned to a K-8 curriculum; free for families with a parent account."
+  },
+  {
+    "name": "Mathematics Vision Project",
+    "provider": "Mathematics Vision Project",
+    "url": "https://www.mathematicsvisionproject.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 9,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free, openly licensed integrated and traditional high school math (Math I-III / Algebra I-II, Geometry) with student and teacher materials."
+  },
+  {
+    "name": "Core Knowledge free curriculum (CKLA, CKHG, CKSci)",
+    "provider": "Core Knowledge Foundation",
+    "url": "https://www.coreknowledge.org/free-resource/",
+    "type": "full_curriculum",
+    "subjects": [
+      "ELA",
+      "HSS",
+      "SCI"
+    ],
+    "grade_min": 1,
+    "grade_max": 8,
+    "cost": "free",
+    "description": "Free downloadable Core Knowledge Language Arts, History and Geography, and Science units with teacher guides and student readers."
+  },
+  {
+    "name": "EL Education K-8 Language Arts",
+    "provider": "EL Education",
+    "url": "https://curriculum.eleducation.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "ELA"
+    ],
+    "grade_min": 1,
+    "grade_max": 8,
+    "cost": "free",
+    "description": "Free open-licensed, knowledge-building ELA curriculum with modules, texts lists and lesson plans."
+  },
+  {
+    "name": "Easy Peasy All-in-One Homeschool",
+    "provider": "Easy Peasy All-in-One Homeschool",
+    "url": "https://allinonehomeschool.com",
+    "type": "full_curriculum",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 8,
+    "cost": "free",
+    "description": "Free day-by-day online curriculum (180 lessons per course) linking to free web resources. Christian worldview; high school version at allinonehighschool.com."
+  },
+  {
+    "name": "AmblesideOnline",
+    "provider": "AmblesideOnline",
+    "url": "https://www.amblesideonline.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free Charlotte Mason-style curriculum plan and book lists using many public-domain living books. Christian orientation."
+  },
+  {
+    "name": "MIT OpenCourseWare",
+    "provider": "Massachusetts Institute of Technology",
+    "url": "https://ocw.mit.edu",
+    "type": "video",
+    "subjects": [
+      "MATH",
+      "SCI",
+      "ELEC"
+    ],
+    "grade_min": 10,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free MIT course materials, lecture videos and problem sets, including resources useful for advanced high school STEM."
+  },
+  {
+    "name": "Desmos Graphing and Scientific Calculators",
+    "provider": "Desmos Studio",
+    "url": "https://www.desmos.com",
+    "type": "tool",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 6,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free online graphing, scientific, geometry and matrix calculators; same calculator embedded in CAASPP and SAT."
+  },
+  {
+    "name": "GeoGebra",
+    "provider": "GeoGebra",
+    "url": "https://www.geogebra.org",
+    "type": "tool",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free dynamic math apps for geometry, algebra, graphing, 3D and probability, with thousands of shared classroom activities."
+  },
+  {
+    "name": "Polypad",
+    "provider": "Amplify / Mathigon",
+    "url": "https://mathigon.org/polypad",
+    "type": "tool",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Virtual manipulatives (fraction bars, algebra tiles, number lines, geometry tools) for hands-on math."
+  },
+  {
+    "name": "Math Learning Center Apps",
+    "provider": "The Math Learning Center",
+    "url": "https://www.mathlearningcenter.org/apps",
+    "type": "tool",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 1,
+    "grade_max": 8,
+    "cost": "free",
+    "description": "Free virtual manipulative apps: number rack, number line, fractions, geoboard, money pieces, pattern shapes."
+  },
+  {
+    "name": "Art of Problem Solving Alcumus",
+    "provider": "Art of Problem Solving",
+    "url": "https://artofproblemsolving.com/alcumus",
+    "type": "practice",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 6,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Free adaptive problem-solving practice for strong math students, from prealgebra through precalculus and contest math."
+  },
+  {
+    "name": "Math is Fun",
+    "provider": "MathsIsFun.com",
+    "url": "https://www.mathsisfun.com",
+    "type": "practice",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Clear explanations, interactive examples and puzzles from arithmetic through calculus."
+  },
+  {
+    "name": "Math-Drills",
+    "provider": "Math-Drills.com",
+    "url": "https://www.math-drills.com",
+    "type": "printables",
+    "subjects": [
+      "MATH"
+    ],
+    "grade_min": 1,
+    "grade_max": 8,
+    "cost": "free",
+    "description": "Thousands of free printable math worksheets with answer keys (facts, fractions, measurement, algebra)."
+  },
+  {
+    "name": "K5 Learning free worksheets",
+    "provider": "K5 Learning",
+    "url": "https://www.k5learning.com/free-worksheets-for-kids",
+    "type": "printables",
+    "subjects": [
+      "MATH",
+      "ELA",
+      "SCI"
+    ],
+    "grade_min": 1,
+    "grade_max": 5,
+    "cost": "free tier",
+    "description": "Free printable worksheets for math, reading comprehension, vocabulary, grammar, spelling and science; paid online program optional."
+  },
+  {
+    "name": "PhET Interactive Simulations",
+    "provider": "University of Colorado Boulder",
+    "url": "https://phet.colorado.edu",
+    "type": "simulation",
+    "subjects": [
+      "SCI",
+      "MATH"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free research-based HTML5 simulations for physics, chemistry, biology, earth science and math."
+  },
+  {
+    "name": "HHMI BioInteractive",
+    "provider": "Howard Hughes Medical Institute",
+    "url": "https://www.biointeractive.org",
+    "type": "video",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 8,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free biology and environmental science short films, interactive modules, data activities and virtual labs."
+  },
+  {
+    "name": "Learn.Genetics",
+    "provider": "University of Utah Genetic Science Learning Center",
+    "url": "https://learn.genetics.utah.edu",
+    "type": "simulation",
+    "subjects": [
+      "SCI",
+      "HEALTH"
+    ],
+    "grade_min": 5,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Interactive genetics, cell biology, neuroscience and ecology modules and virtual labs."
+  },
+  {
+    "name": "ChemCollective Virtual Labs",
+    "provider": "Carnegie Mellon University",
+    "url": "https://chemcollective.org",
+    "type": "simulation",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 9,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free virtual chemistry lab, scenario-based learning and concept tests."
+  },
+  {
+    "name": "The Physics Classroom",
+    "provider": "The Physics Classroom",
+    "url": "https://www.physicsclassroom.com",
+    "type": "practice",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 8,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Tutorials, interactive simulations, concept builders and practice problems for high school physics."
+  },
+  {
+    "name": "Concord Consortium STEM Resource Finder",
+    "provider": "Concord Consortium",
+    "url": "https://learn.concord.org",
+    "type": "simulation",
+    "subjects": [
+      "SCI",
+      "MATH"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free open-source models, simulations and activities in physical, life and earth science, engineering and math."
+  },
+  {
+    "name": "Science Buddies",
+    "provider": "Science Buddies",
+    "url": "https://www.sciencebuddies.org",
+    "type": "printables",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Hundreds of free science fair project ideas, lesson plans and engineering design activities with step-by-step instructions."
+  },
+  {
+    "name": "NASA STEM Learning Resources",
+    "provider": "NASA",
+    "url": "https://www.nasa.gov/learning-resources/",
+    "type": "video",
+    "subjects": [
+      "SCI",
+      "MATH"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Lesson plans, videos, activities and images on space, earth science and engineering."
+  },
+  {
+    "name": "NOAA Education",
+    "provider": "National Oceanic and Atmospheric Administration",
+    "url": "https://www.noaa.gov/education",
+    "type": "primary_sources",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Ocean, weather, climate and coastal lesson plans, datasets and multimedia."
+  },
+  {
+    "name": "USGS Educational Resources",
+    "provider": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/educational-resources",
+    "type": "primary_sources",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Earthquake, water, volcano and mapping resources and real data; highly relevant to California earth science."
+  },
+  {
+    "name": "Wonderopolis",
+    "provider": "National Center for Families Learning",
+    "url": "https://wonderopolis.org",
+    "type": "library",
+    "subjects": [
+      "SCI",
+      "ELA",
+      "HSS"
+    ],
+    "grade_min": 1,
+    "grade_max": 6,
+    "cost": "free",
+    "description": "Daily 'Wonder of the Day' articles with vocabulary and activities to spark curiosity across subjects."
+  },
+  {
+    "name": "Stellarium Web",
+    "provider": "Stellarium",
+    "url": "https://stellarium-web.org",
+    "type": "tool",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free browser planetarium showing the real sky for any location and time."
+  },
+  {
+    "name": "California Academy of Sciences - Educators",
+    "provider": "California Academy of Sciences",
+    "url": "https://www.calacademy.org/educators",
+    "type": "printables",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free lesson plans, videos and activities on biodiversity, climate and California ecosystems."
+  },
+  {
+    "name": "Monterey Bay National Marine Sanctuary - Classroom Resources",
+    "provider": "NOAA Office of National Marine Sanctuaries",
+    "url": "https://montereybay.noaa.gov/educate/classroom.html",
+    "type": "printables",
+    "subjects": [
+      "SCI"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Lesson plans, distance learning programs and virtual reality lessons about California's Monterey Bay marine ecosystems."
+  },
+  {
+    "name": "Smithsonian Learning Lab",
+    "provider": "Smithsonian Institution",
+    "url": "https://learninglab.si.edu",
+    "type": "primary_sources",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Millions of Smithsonian images, recordings and texts plus teacher-made collections; free account to save."
+  },
+  {
+    "name": "Library of Congress - Teachers",
+    "provider": "Library of Congress",
+    "url": "https://www.loc.gov/programs/teachers/",
+    "type": "primary_sources",
+    "subjects": [
+      "HSS",
+      "ELA"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Primary source sets, analysis tools and lesson plans from the nation's library."
+  },
+  {
+    "name": "DocsTeach",
+    "provider": "National Archives",
+    "url": "https://www.docsteach.org",
+    "type": "primary_sources",
+    "subjects": [
+      "HSS"
+    ],
+    "grade_min": 4,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Thousands of National Archives primary documents with interactive activities for U.S. history and civics."
+  },
+  {
+    "name": "Calisphere",
+    "provider": "University of California Libraries",
+    "url": "https://calisphere.org",
+    "type": "primary_sources",
+    "subjects": [
+      "HSS",
+      "VAPA"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Over two million digitized photos, documents and recordings from California libraries, archives and museums, with curated primary source sets aligned to California history."
+  },
+  {
+    "name": "Online Archive of California",
+    "provider": "California Digital Library",
+    "url": "https://oac.cdlib.org",
+    "type": "primary_sources",
+    "subjects": [
+      "HSS"
+    ],
+    "grade_min": 6,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Finding aids and digitized collections from California archives, libraries and historical societies."
+  },
+  {
+    "name": "California State Library",
+    "provider": "California State Library",
+    "url": "https://www.library.ca.gov",
+    "type": "library",
+    "subjects": [
+      "HSS",
+      "ELA"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "State library collections, California history room, digitized collections and statewide programs offered through local public libraries."
+  },
+  {
+    "name": "California History-Social Science Project",
+    "provider": "University of California, Davis",
+    "url": "https://chssp.ucdavis.edu",
+    "type": "framework",
+    "subjects": [
+      "HSS"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free lessons and resources aligned to the California History-Social Science Framework."
+  },
+  {
+    "name": "iCivics",
+    "provider": "iCivics",
+    "url": "https://www.icivics.org",
+    "type": "practice",
+    "subjects": [
+      "HSS"
+    ],
+    "grade_min": 4,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Free civics games and lesson plans on government, the Constitution and citizenship."
+  },
+  {
+    "name": "Digital Inquiry Group (Reading Like a Historian)",
+    "provider": "Digital Inquiry Group (formerly Stanford History Education Group)",
+    "url": "https://inquirygroup.org",
+    "type": "primary_sources",
+    "subjects": [
+      "HSS",
+      "ELA"
+    ],
+    "grade_min": 6,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Document-based history lessons and civic online reasoning lessons for evaluating online information."
+  },
+  {
+    "name": "OER Project",
+    "provider": "OER Project",
+    "url": "https://www.oerproject.com",
+    "type": "full_curriculum",
+    "subjects": [
+      "HSS"
+    ],
+    "grade_min": 8,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Free online world history, Big History and U.S. history courses with readings, videos and activities."
+  },
+  {
+    "name": "National Geographic Education",
+    "provider": "National Geographic Society",
+    "url": "https://education.nationalgeographic.org",
+    "type": "printables",
+    "subjects": [
+      "HSS",
+      "SCI"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Maps, articles, lesson plans and the MapMaker tool for geography and earth science."
+  },
+  {
+    "name": "Seterra Geography Games",
+    "provider": "GeoGuessr",
+    "url": "https://www.geoguessr.com/seterra",
+    "type": "practice",
+    "subjects": [
+      "HSS"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Map quizzes for countries, capitals, U.S. states, California counties and more."
+  },
+  {
+    "name": "Annenberg Classroom",
+    "provider": "Annenberg Public Policy Center",
+    "url": "https://www.annenbergclassroom.org",
+    "type": "video",
+    "subjects": [
+      "HSS"
+    ],
+    "grade_min": 6,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Videos and lessons on the Constitution, landmark Supreme Court cases and civic rights."
+  },
+  {
+    "name": "Next Gen Personal Finance (NGPF)",
+    "provider": "Next Gen Personal Finance",
+    "url": "https://www.ngpf.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "HSS",
+      "ELEC"
+    ],
+    "grade_min": 6,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Free semester personal finance course and activities; California now requires a personal finance course for high school graduation (phased in for the class of 2031)."
+  },
+  {
+    "name": "Crash Course",
+    "provider": "Complexly",
+    "url": "https://thecrashcourse.com",
+    "type": "video",
+    "subjects": [
+      "HSS",
+      "SCI",
+      "ELA",
+      "ELEC"
+    ],
+    "grade_min": 8,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Fast-paced video courses in world and U.S. history, biology, chemistry, literature, economics, government and more."
+  },
+  {
+    "name": "PBS LearningMedia",
+    "provider": "PBS and KQED / California public media",
+    "url": "https://www.pbslearningmedia.org",
+    "type": "video",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Thousands of curated videos, interactives and lesson plans; California stations add local content."
+  },
+  {
+    "name": "CommonLit",
+    "provider": "CommonLit",
+    "url": "https://www.commonlit.org",
+    "type": "practice",
+    "subjects": [
+      "ELA"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Free library of reading passages with questions, discussion prompts and assessments; full ELA units for grades 6-12."
+  },
+  {
+    "name": "ReadWriteThink",
+    "provider": "National Council of Teachers of English",
+    "url": "https://www.readwritethink.org",
+    "type": "printables",
+    "subjects": [
+      "ELA"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Lesson plans, printouts and interactive tools for reading and writing instruction."
+  },
+  {
+    "name": "Purdue Online Writing Lab (OWL)",
+    "provider": "Purdue University",
+    "url": "https://owl.purdue.edu",
+    "type": "tool",
+    "subjects": [
+      "ELA"
+    ],
+    "grade_min": 7,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Authoritative guides to grammar, essay writing, research and MLA/APA citation."
+  },
+  {
+    "name": "Storyline Online",
+    "provider": "SAG-AFTRA Foundation",
+    "url": "https://storylineonline.net",
+    "type": "video",
+    "subjects": [
+      "ELA"
+    ],
+    "grade_min": 1,
+    "grade_max": 4,
+    "cost": "free",
+    "description": "Award-winning picture books read aloud by actors, with activity guides."
+  },
+  {
+    "name": "Unite for Literacy",
+    "provider": "Unite for Literacy",
+    "url": "https://www.uniteforliteracy.com",
+    "type": "library",
+    "subjects": [
+      "ELA",
+      "WL"
+    ],
+    "grade_min": 1,
+    "grade_max": 3,
+    "cost": "free",
+    "description": "Free online picture books with narration in many languages, including Spanish."
+  },
+  {
+    "name": "Project Gutenberg",
+    "provider": "Project Gutenberg",
+    "url": "https://www.gutenberg.org",
+    "type": "library",
+    "subjects": [
+      "ELA",
+      "HSS"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Over 70,000 free public-domain ebooks, including classic literature on most homeschool reading lists."
+  },
+  {
+    "name": "LibriVox",
+    "provider": "LibriVox",
+    "url": "https://librivox.org",
+    "type": "library",
+    "subjects": [
+      "ELA"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free public-domain audiobooks read by volunteers."
+  },
+  {
+    "name": "Open Library",
+    "provider": "Internet Archive",
+    "url": "https://openlibrary.org",
+    "type": "library",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Borrow digitized books online for free with an account."
+  },
+  {
+    "name": "Libby (public library ebooks)",
+    "provider": "OverDrive / your local public library",
+    "url": "https://libbyapp.com",
+    "type": "library",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Borrow ebooks and audiobooks free with a California public library card (most California libraries offer e-cards)."
+  },
+  {
+    "name": "Duolingo",
+    "provider": "Duolingo",
+    "url": "https://www.duolingo.com",
+    "type": "practice",
+    "subjects": [
+      "WL"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free tier",
+    "description": "Gamified practice in Spanish, French, German, Japanese, Chinese and dozens of other languages; free with ads."
+  },
+  {
+    "name": "Language Transfer",
+    "provider": "Language Transfer",
+    "url": "https://www.languagetransfer.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "WL"
+    ],
+    "grade_min": 6,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free audio courses (Spanish, French, German, Greek, Italian and more) teaching language by thinking through structure."
+  },
+  {
+    "name": "Spanish Proficiency Exercises",
+    "provider": "University of Texas at Austin (COERLL)",
+    "url": "https://www.laits.utexas.edu/spe/",
+    "type": "video",
+    "subjects": [
+      "WL"
+    ],
+    "grade_min": 7,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Video clips of native speakers demonstrating grammar and vocabulary tasks for Spanish learners."
+  },
+  {
+    "name": "Lifeprint ASL University",
+    "provider": "Lifeprint.com",
+    "url": "https://www.lifeprint.com",
+    "type": "full_curriculum",
+    "subjects": [
+      "WL"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free American Sign Language lessons, vocabulary dictionary and video courses (ASL counts as a world language for many California A-G requirements)."
+  },
+  {
+    "name": "Code.org",
+    "provider": "Code.org",
+    "url": "https://code.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "ELEC",
+      "MATH"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free computer science courses from elementary block coding through AP Computer Science Principles and A."
+  },
+  {
+    "name": "Scratch",
+    "provider": "MIT Media Lab",
+    "url": "https://scratch.mit.edu",
+    "type": "tool",
+    "subjects": [
+      "ELEC",
+      "VAPA"
+    ],
+    "grade_min": 3,
+    "grade_max": 10,
+    "cost": "free",
+    "description": "Block-based programming to create stories, games and animations; huge sharing community and tutorials."
+  },
+  {
+    "name": "CS50 (Harvard)",
+    "provider": "Harvard University",
+    "url": "https://cs50.harvard.edu",
+    "type": "video",
+    "subjects": [
+      "ELEC"
+    ],
+    "grade_min": 9,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Harvard's free introduction to computer science, plus CS50 for AP CSP and Python/web/AI courses."
+  },
+  {
+    "name": "freeCodeCamp",
+    "provider": "freeCodeCamp.org",
+    "url": "https://www.freecodecamp.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "ELEC"
+    ],
+    "grade_min": 8,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free interactive curriculum in web development, JavaScript, Python and data science with certifications."
+  },
+  {
+    "name": "Typing.com",
+    "provider": "Teaching.com",
+    "url": "https://www.typing.com",
+    "type": "practice",
+    "subjects": [
+      "ELEC"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free tier",
+    "description": "Free keyboarding lessons and tests, plus digital literacy and coding basics."
+  },
+  {
+    "name": "Chrome Music Lab",
+    "provider": "Google",
+    "url": "https://musiclab.chromeexperiments.com",
+    "type": "tool",
+    "subjects": [
+      "VAPA"
+    ],
+    "grade_min": 1,
+    "grade_max": 8,
+    "cost": "free",
+    "description": "Browser experiments for exploring rhythm, melody, harmony and sound."
+  },
+  {
+    "name": "musictheory.net",
+    "provider": "musictheory.net",
+    "url": "https://www.musictheory.net",
+    "type": "practice",
+    "subjects": [
+      "VAPA"
+    ],
+    "grade_min": 4,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free music theory lessons and ear training/note reading exercises."
+  },
+  {
+    "name": "Carnegie Hall Musical Explorers",
+    "provider": "Carnegie Hall",
+    "url": "https://www.carnegiehall.org/Education/Programs/Musical-Explorers",
+    "type": "video",
+    "subjects": [
+      "VAPA"
+    ],
+    "grade_min": 1,
+    "grade_max": 3,
+    "cost": "free",
+    "description": "Free digital music curriculum introducing songs and musical traditions from around the world."
+  },
+  {
+    "name": "Smarthistory",
+    "provider": "Smarthistory",
+    "url": "https://smarthistory.org",
+    "type": "video",
+    "subjects": [
+      "VAPA",
+      "HSS"
+    ],
+    "grade_min": 8,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free art history essays and videos covering global art; aligned with AP Art History."
+  },
+  {
+    "name": "Getty Education",
+    "provider": "J. Paul Getty Trust",
+    "url": "https://www.getty.edu/education/",
+    "type": "printables",
+    "subjects": [
+      "VAPA"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Lesson plans and curricula connecting art and other subjects using Getty collections (Los Angeles)."
+  },
+  {
+    "name": "Google Arts & Culture",
+    "provider": "Google",
+    "url": "https://artsandculture.google.com",
+    "type": "primary_sources",
+    "subjects": [
+      "VAPA",
+      "HSS"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "High-resolution artworks, virtual museum tours and cultural stories from thousands of institutions."
+  },
+  {
+    "name": "OPEN Physical Education Curriculum",
+    "provider": "OPEN (US Games / BlueCross BlueShield of Kansas City)",
+    "url": "https://openphysed.org",
+    "type": "full_curriculum",
+    "subjects": [
+      "PE",
+      "HEALTH"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "Free standards-based PE curriculum modules, lesson plans and activity cards for K-12."
+  },
+  {
+    "name": "DAREBEE",
+    "provider": "DAREBEE",
+    "url": "https://darebee.com",
+    "type": "printables",
+    "subjects": [
+      "PE"
+    ],
+    "grade_min": 5,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Thousands of free printable workouts and fitness programs requiring no equipment."
+  },
+  {
+    "name": "GoNoodle",
+    "provider": "GoNoodle",
+    "url": "https://www.gonoodle.com",
+    "type": "video",
+    "subjects": [
+      "PE",
+      "HEALTH"
+    ],
+    "grade_min": 1,
+    "grade_max": 5,
+    "cost": "free tier",
+    "description": "Movement and mindfulness videos to get kids active; free family access."
+  },
+  {
+    "name": "KidsHealth",
+    "provider": "Nemours",
+    "url": "https://kidshealth.org",
+    "type": "library",
+    "subjects": [
+      "HEALTH"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Doctor-reviewed health articles for kids, teens and parents, plus free teacher guides by grade."
+  },
+  {
+    "name": "CDE Curriculum Frameworks",
+    "provider": "California Department of Education",
+    "url": "https://www.cde.ca.gov/ci/cr/cf/",
+    "type": "framework",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "California's official curriculum frameworks (ELA/ELD, math, science, history-social science, arts, health, PE, world languages, CS) with grade-level guidance and sample lessons."
+  },
+  {
+    "name": "California Content Standards",
+    "provider": "California Department of Education",
+    "url": "https://www.cde.ca.gov/be/st/ss/",
+    "type": "framework",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "State Board-adopted content standards by subject and grade; useful for building a course of study."
+  },
+  {
+    "name": "CDE Recommended Literature List",
+    "provider": "California Department of Education",
+    "url": "https://www.cde.ca.gov/ci/cr/rl/",
+    "type": "library",
+    "subjects": [
+      "ELA"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Searchable list of recommended books for pre-K through grade 12 by grade span, genre and language."
+  },
+  {
+    "name": "CAASPP Practice and Training Tests",
+    "provider": "California Department of Education / Smarter Balanced",
+    "url": "https://www.caaspp.org/practice-and-training/",
+    "type": "assessment",
+    "subjects": [
+      "ELA",
+      "MATH",
+      "SCI"
+    ],
+    "grade_min": 3,
+    "grade_max": 11,
+    "cost": "free",
+    "description": "Free public practice and training tests for the California state assessments (ELA, math, CAST science) using the real test interface; guest login."
+  },
+  {
+    "name": "Smarter Balanced Sample Items",
+    "provider": "Smarter Balanced Assessment Consortium",
+    "url": "https://sampleitems.smarterbalanced.org",
+    "type": "assessment",
+    "subjects": [
+      "ELA",
+      "MATH"
+    ],
+    "grade_min": 3,
+    "grade_max": 11,
+    "cost": "free",
+    "description": "Searchable sample test questions with scoring rubrics for grades 3-8 and 11."
+  },
+  {
+    "name": "California High School Proficiency Exam (CHSPE)",
+    "provider": "California Department of Education",
+    "url": "https://www.cde.ca.gov/ta/tg/sp/",
+    "type": "assessment",
+    "subjects": [
+      "ELA",
+      "MATH"
+    ],
+    "grade_min": 10,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Official information on the CHSPE (certificate equivalent to a California high school diploma) with practice tests and eligibility rules."
+  },
+  {
+    "name": "Official Digital SAT Prep",
+    "provider": "Khan Academy and College Board",
+    "url": "https://www.khanacademy.org/test-prep/sat",
+    "type": "assessment",
+    "subjects": [
+      "ELA",
+      "MATH"
+    ],
+    "grade_min": 9,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free official SAT practice lessons and questions."
+  },
+  {
+    "name": "Bluebook practice tests",
+    "provider": "College Board",
+    "url": "https://bluebook.collegeboard.org",
+    "type": "assessment",
+    "subjects": [
+      "ELA",
+      "MATH"
+    ],
+    "grade_min": 8,
+    "grade_max": 12,
+    "cost": "free (account required)",
+    "description": "College Board's testing app with full-length adaptive SAT and PSAT practice tests."
+  },
+  {
+    "name": "AP Students",
+    "provider": "College Board",
+    "url": "https://apstudents.collegeboard.org",
+    "type": "assessment",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 9,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Course and exam descriptions, past free-response questions and scoring guidelines for every AP subject."
+  },
+  {
+    "name": "ACT free test prep",
+    "provider": "ACT",
+    "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation.html",
+    "type": "assessment",
+    "subjects": [
+      "ELA",
+      "MATH",
+      "SCI"
+    ],
+    "grade_min": 9,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free ACT practice test and preparation guides."
+  },
+  {
+    "name": "California State Parks PORTS distance learning",
+    "provider": "California State Parks",
+    "url": "https://www.ports.parks.ca.gov",
+    "type": "video",
+    "subjects": [
+      "SCI",
+      "HSS"
+    ],
+    "grade_min": 3,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Free live and recorded virtual field trips to California state parks with standards-aligned lessons."
+  },
+  {
+    "name": "California Learning Resource Network (CLRN)",
+    "provider": "California Department of Education / Stanislaus County Office of Education",
+    "url": "https://www.clrn.org",
+    "type": "library",
+    "subjects": [
+      "ALL"
+    ],
+    "grade_min": 1,
+    "grade_max": 12,
+    "cost": "free",
+    "description": "Former statewide clearinghouse of reviewed electronic learning resources. Its review program ended in June 2014 due to state funding changes; the site still hosts general academic and ed-tech information. Use for historical reference only."
+  }
+]

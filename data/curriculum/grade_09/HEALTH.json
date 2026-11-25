@@ -1,0 +1,1923 @@
+{
+  "grade": 9,
+  "subject": "HEALTH",
+  "title": "Health & Wellness",
+  "description": "A one-year high school health course aligned to the 2008 California Health Education Content Standards and the 2019 Health Education Framework. Students build the eight health skills (accessing information, analyzing influences, communication, decision making, goal setting, self-management and advocacy) while studying nutrition and physical activity, mental and emotional health, alcohol, tobacco and other drugs (including fentanyl and naloxone), injury and violence prevention, and personal and community health. Unit 5 (weeks 19–25) delivers comprehensive sexual health and HIV prevention education under the California Healthy Youth Act (Ed. Code 51930–51939); parents/guardians may review materials and opt the student out in writing, in which case the student completes an alternate health research project for those weeks.",
+  "framework": "2008 California Health Education Content Standards (Grades 9–12); 2019 CA Health Education Framework; California Healthy Youth Act (Ed. Code 51930–51939)",
+  "minutes_per_day": 45,
+  "ag_requirement": null,
+  "credits": 10,
+  "standards": {
+    "H-HS.1.1.P": "Explain the interrelationships of physical, mental/emotional, and social health across the lifespan (wellness).",
+    "H-HS.1.2.P": "Describe how communicable diseases are transmitted and prevented, including hand hygiene and immunization.",
+    "H-HS.1.3.P": "Explain risk factors for and prevention of chronic diseases such as heart disease, diabetes, and cancer.",
+    "H-HS.1.4.P": "Describe personal health practices including sleep, dental, vision, hearing, and sun protection.",
+    "H-HS.1.6.P": "Explain how environmental factors such as air quality and water affect personal and community health.",
+    "H-HS.2.1.P": "Evaluate health products, services, and advertising claims as an informed consumer.",
+    "H-HS.3.1.P": "Access valid health information, products, and services, including health care providers and coverage options.",
+    "H-HS.5.1.P": "Use a decision-making process to make health-enhancing choices about personal and community health.",
+    "H-HS.6.1.P": "Set a personal wellness goal, develop an action plan, and monitor progress.",
+    "H-HS.7.1.P": "Practice behaviors that prevent disease, such as self-exams, sleep routines, and hygiene.",
+    "H-HS.8.1.P": "Advocate for a personal, family, or community health issue using accurate information.",
+    "H-HS.1.1.N": "Explain the relationship between nutrition, physical activity, and health, and interpret food labels.",
+    "H-HS.1.2.N": "Describe the functions and sources of macronutrients, micronutrients, and water, and the Dietary Guidelines/MyPlate recommendations.",
+    "H-HS.1.3.N": "Explain energy balance and healthy weight management, and the risks of eating disorders and unsafe weight-control practices.",
+    "H-HS.1.4.N": "Describe safe food handling and the prevention of foodborne illness.",
+    "H-HS.1.5.N": "Explain the benefits of regular physical activity and the components of health-related fitness.",
+    "H-HS.2.1.N": "Analyze how media, culture, and marketing influence food choices and body image.",
+    "H-HS.3.1.N": "Evaluate the validity of nutrition information and dietary supplement claims.",
+    "H-HS.6.1.N": "Develop a personal plan for healthy eating and physical activity.",
+    "H-HS.7.1.N": "Plan and prepare healthy, affordable meals and snacks.",
+    "H-HS.1.1.M": "Describe characteristics of mental and emotional wellness, including self-esteem, resilience, and emotional regulation.",
+    "H-HS.1.2.M": "Describe the signs, symptoms, and treatment of common mental health conditions, including depression and anxiety.",
+    "H-HS.1.3.M": "Explain the effects of stress on the body and mind and identify common stressors.",
+    "H-HS.1.4.M": "Describe bullying, cyberbullying, and harassment, their effects, and the role of bystanders.",
+    "H-HS.1.5.M": "Identify warning signs of suicide and appropriate ways to seek help for self and others.",
+    "H-HS.2.1.M": "Analyze how social media, family, peers, and culture influence emotional health and self-image.",
+    "H-HS.3.1.M": "Identify trusted adults and community resources (including 988) for mental health support.",
+    "H-HS.4.1.M": "Use effective communication and conflict-resolution skills.",
+    "H-HS.5.1.M": "Use a decision-making process to address emotional and social challenges.",
+    "H-HS.7.1.M": "Practice stress management and coping strategies.",
+    "H-HS.8.1.M": "Advocate for mental health awareness and the reduction of stigma.",
+    "H-HS.1.1.A": "Explain how alcohol and other drugs affect the developing adolescent brain, including tolerance, dependence, and addiction.",
+    "H-HS.1.2.A": "Explain the short- and long-term effects of alcohol, cannabis, nicotine/vaping, and other drugs, including fentanyl.",
+    "H-HS.1.3.A": "Describe the dangers of counterfeit pills and fentanyl, signs of overdose, naloxone use, and California's 911 Good Samaritan law.",
+    "H-HS.1.4.A": "Explain the legal, social, and economic consequences of substance use, including California laws for minors.",
+    "H-HS.2.1.A": "Analyze influences such as media, peers, and advertising on substance use.",
+    "H-HS.3.2.A": "Locate valid information and services for substance use prevention and treatment, including naloxone access.",
+    "H-HS.4.2.A": "Demonstrate refusal and negotiation skills to avoid substance use.",
+    "H-HS.5.1.A": "Use a decision-making process to avoid or leave situations involving alcohol, tobacco, and other drugs.",
+    "H-HS.8.1.A": "Advocate for tobacco-, alcohol-, and drug-free environments.",
+    "H-HS.1.1.G": "Describe human reproductive anatomy and physiology, puberty, conception, and pregnancy (CA Healthy Youth Act).",
+    "H-HS.1.2.G": "Describe adolescent development, gender, gender identity, gender expression, and sexual orientation in an inclusive, medically accurate way.",
+    "H-HS.1.3.G": "Describe characteristics of healthy and unhealthy relationships, consent, and how to prevent dating violence.",
+    "H-HS.1.4.G": "Explain abstinence and all FDA-approved methods of preventing pregnancy and sexually transmitted infections, including effectiveness.",
+    "H-HS.1.5.G": "Describe sexually transmitted infections including HIV: transmission, prevention (including PrEP/PEP), testing, and treatment.",
+    "H-HS.1.6.G": "Explain how to access reproductive and sexual health services and accurate information (CA Healthy Youth Act).",
+    "H-HS.1.7.G": "Explain pregnancy outcomes and options, the importance of prenatal care, and California's Safely Surrendered Baby Law.",
+    "H-HS.1.8.G": "Describe sexual harassment, sexual assault, and human trafficking, including prevention strategies and how to seek help.",
+    "H-HS.2.1.G": "Analyze how media, peers, and culture influence relationships, gender norms, and sexual health decisions.",
+    "H-HS.4.1.G": "Demonstrate communication skills for setting boundaries, asking for and giving consent, and refusing unwanted pressure.",
+    "H-HS.5.1.G": "Use a decision-making process to evaluate choices that affect sexual health.",
+    "H-HS.1.2.S": "Identify ways to reduce the risk of unintentional injuries at home, in water, during recreation and sports, including concussion.",
+    "H-HS.1.3.S": "Describe causes and prevention of violence, including dating violence, gang violence, and weapons.",
+    "H-HS.1.5.S": "Describe safe online behavior, including privacy, digital footprint, sextortion, and reporting.",
+    "H-HS.1.6.S": "Describe emergency preparedness for earthquakes, wildfires, smoke, and other disasters.",
+    "H-HS.1.9.S": "Describe the procedures for basic first aid, CPR, choking, and use of an AED.",
+    "H-HS.5.1.S": "Use a decision-making process to evaluate risky situations.",
+    "H-HS.7.1.S": "Practice injury-prevention behaviors and develop a household emergency plan.",
+    "H-HS.8.1.S": "Encourage others to adopt safe behaviors."
+  },
+  "resources": [
+    {
+      "name": "KidsHealth for Teens",
+      "url": "https://kidshealth.org/en/teens/",
+      "note": "Medically reviewed articles on nutrition, mental health, sexual health and safety"
+    },
+    {
+      "name": "MyPlate (USDA)",
+      "url": "https://www.myplate.gov/",
+      "note": "MyPlate Plan tool, food-group targets and meal-planning resources"
+    },
+    {
+      "name": "NIDA – Resources for Parents and Educators",
+      "url": "https://nida.nih.gov/research-topics/parents-educators",
+      "note": "Science-based lessons on drugs, the brain and addiction"
+    },
+    {
+      "name": "988 Suicide & Crisis Lifeline",
+      "url": "https://988lifeline.org/",
+      "note": "Help-seeking information for the mental health unit"
+    },
+    {
+      "name": "CDE – Comprehensive Sexual Health & HIV/AIDS Prevention",
+      "url": "https://www.cde.ca.gov/ls/he/se/",
+      "note": "California Healthy Youth Act requirements, parent notification and opt-out guidance"
+    },
+    {
+      "name": "Common Sense Education – Digital Citizenship",
+      "url": "https://www.commonsense.org/education/digital-citizenship",
+      "note": "Free lessons on online safety, privacy and digital wellness"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Foundations of Wellness and Health Skills",
+      "start_week": 1,
+      "end_week": 3,
+      "big_idea": "Health has physical, mental and social sides, and the eight health skills let you protect all three.",
+      "standards": [
+        "H-HS.1.1.P",
+        "H-HS.6.1.P",
+        "H-HS.5.1.P",
+        "H-HS.3.1.P",
+        "H-HS.2.1.P"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Nutrition and Physical Activity",
+      "start_week": 4,
+      "end_week": 8,
+      "big_idea": "Everyday food and movement choices build long-term health, and media messages shape those choices.",
+      "standards": [
+        "H-HS.1.2.N",
+        "H-HS.1.1.N",
+        "H-HS.3.1.N",
+        "H-HS.1.3.N",
+        "H-HS.2.1.N",
+        "H-HS.3.1.M",
+        "H-HS.1.4.N",
+        "H-HS.2.1.P",
+        "H-HS.1.5.N",
+        "H-HS.6.1.N",
+        "H-HS.7.1.N",
+        "H-HS.1.4.P"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Mental, Emotional and Social Health",
+      "start_week": 9,
+      "end_week": 13,
+      "big_idea": "Mental health is health; coping skills, connection and help-seeking keep it strong.",
+      "standards": [
+        "H-HS.1.1.M",
+        "H-HS.2.1.M",
+        "H-HS.1.3.M",
+        "H-HS.7.1.M",
+        "H-HS.1.2.M",
+        "H-HS.8.1.M",
+        "H-HS.3.1.M",
+        "H-HS.1.5.M",
+        "H-HS.5.1.M",
+        "H-HS.1.4.M",
+        "H-HS.4.1.M"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Alcohol, Tobacco and Other Drugs",
+      "start_week": 14,
+      "end_week": 18,
+      "big_idea": "Substances change the developing brain; accurate facts and refusal skills protect your future.",
+      "standards": [
+        "H-HS.1.1.A",
+        "H-HS.1.2.A",
+        "H-HS.2.1.A",
+        "H-HS.1.4.A",
+        "H-HS.5.1.A",
+        "H-HS.1.3.A",
+        "H-HS.3.2.A",
+        "H-HS.4.2.A",
+        "H-HS.8.1.A"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Healthy Relationships and Sexual Health (CA Healthy Youth Act)",
+      "start_week": 19,
+      "end_week": 25,
+      "big_idea": "Medically accurate, inclusive information and strong communication skills support healthy relationships and decisions. Parents/guardians may opt the student out of this unit (Ed. Code 51938); opted-out students complete an alternate project.",
+      "standards": [
+        "H-HS.1.3.G",
+        "H-HS.4.1.G",
+        "H-HS.1.1.G",
+        "H-HS.1.2.G",
+        "H-HS.2.1.G",
+        "H-HS.1.7.G",
+        "H-HS.5.1.G",
+        "H-HS.1.4.G",
+        "H-HS.1.5.G",
+        "H-HS.1.6.G",
+        "H-HS.1.8.G"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Injury and Violence Prevention and Safety",
+      "start_week": 26,
+      "end_week": 30,
+      "big_idea": "Most injuries are predictable and preventable, and prepared people help others in emergencies.",
+      "standards": [
+        "H-HS.1.2.S",
+        "H-HS.7.1.S",
+        "H-HS.1.3.S",
+        "H-HS.1.3.G",
+        "H-HS.5.1.S",
+        "H-HS.1.5.S",
+        "H-HS.2.1.M",
+        "H-HS.1.6.S",
+        "H-HS.8.1.S",
+        "H-HS.1.9.S"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Personal and Community Health",
+      "start_week": 31,
+      "end_week": 34,
+      "big_idea": "Disease prevention, smart health-care use and healthy environments protect individuals and communities.",
+      "standards": [
+        "H-HS.1.2.P",
+        "H-HS.7.1.P",
+        "H-HS.1.3.P",
+        "H-HS.1.4.P",
+        "H-HS.2.1.P",
+        "H-HS.3.1.P",
+        "H-HS.5.1.P",
+        "H-HS.1.6.P",
+        "H-HS.8.1.P"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Health Advocacy and Personal Wellness Plan",
+      "start_week": 35,
+      "end_week": 36,
+      "big_idea": "Health-literate people advocate for themselves and their communities.",
+      "standards": [
+        "H-HS.8.1.P",
+        "H-HS.8.1.M",
+        "H-HS.3.1.P",
+        "H-HS.6.1.P",
+        "H-HS.6.1.N",
+        "H-HS.7.1.M",
+        "H-HS.5.1.A"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Wellness and the health triangle",
+      "objectives": [
+        "Define health and wellness",
+        "Assess personal wellness across physical, mental and social health"
+      ],
+      "standards": [
+        "H-HS.1.1.P",
+        "H-HS.6.1.P"
+      ],
+      "vocabulary": [
+        "wellness",
+        "health triangle",
+        "risk factor",
+        "protective factor"
+      ],
+      "materials": [
+        "health journal",
+        "colored pencils"
+      ],
+      "days": [
+        {
+          "title": "What is health?",
+          "work": "Read the WHO definition of health, then draw and label your own health triangle with three current strengths and one weakness on each side."
+        },
+        {
+          "title": "Wellness continuum",
+          "work": "Place 10 scenario cards on a wellness continuum from premature death to high-level wellness and explain each placement in writing."
+        },
+        {
+          "title": "Risk and protective factors",
+          "work": "Sort a list of 20 behaviors and conditions into risk factors and protective factors, then identify which you can control."
+        },
+        {
+          "title": "Self-assessment",
+          "work": "Complete a 30-question wellness self-inventory and graph your scores by area in your journal."
+        },
+        {
+          "title": "Review & reflect",
+          "work": "Write a one-page reflection naming your strongest and weakest areas of health and one reason each matters; take a 10-question vocabulary quiz."
+        }
+      ],
+      "assessment": "Vocabulary quiz and wellness reflection scored on a 4-point rubric."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Decision making and goal setting",
+      "objectives": [
+        "Apply a step-by-step decision-making model",
+        "Write a SMART health goal"
+      ],
+      "standards": [
+        "H-HS.5.1.P",
+        "H-HS.6.1.P"
+      ],
+      "vocabulary": [
+        "decision-making model",
+        "SMART goal",
+        "consequence",
+        "values"
+      ],
+      "materials": [
+        "health journal",
+        "goal tracker sheet"
+      ],
+      "days": [
+        {
+          "title": "Values inventory",
+          "work": "Rank 15 personal values (family, honesty, fitness, faith, achievement…) and explain how your top three guide health choices."
+        },
+        {
+          "title": "DECIDE model",
+          "work": "Learn the DECIDE steps (Define, Explore, Consider, Identify, Decide, Evaluate) and apply them to a scenario about staying up late before a test."
+        },
+        {
+          "title": "Decision practice",
+          "work": "Work through three more scenarios (skipping breakfast, a party invite, a sports injury) with the DECIDE model, writing pros and cons for each option."
+        },
+        {
+          "title": "SMART goals",
+          "work": "Rewrite five vague goals as SMART goals, then write one SMART health goal for yourself with a 6-week tracker."
+        },
+        {
+          "title": "Check",
+          "work": "Present your SMART goal and action plan to a parent and complete a short quiz on decision-making steps."
+        }
+      ],
+      "assessment": "Completed DECIDE worksheet and SMART goal action plan."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Accessing valid health information and services",
+      "objectives": [
+        "Evaluate the credibility of health websites and claims",
+        "Identify health care providers and services in the community"
+      ],
+      "standards": [
+        "H-HS.3.1.P",
+        "H-HS.2.1.P"
+      ],
+      "vocabulary": [
+        "credible source",
+        "peer review",
+        "primary care provider",
+        "health insurance"
+      ],
+      "materials": [
+        "computer",
+        "source evaluation checklist"
+      ],
+      "days": [
+        {
+          "title": "Credible or not?",
+          "work": "Use a CRAAP checklist (Currency, Relevance, Authority, Accuracy, Purpose) to evaluate four health websites, including a .gov, a .org and a product site."
+        },
+        {
+          "title": "Spotting misinformation",
+          "work": "Analyze three viral social-media health claims and trace each back to (or fail to find) its original research source."
+        },
+        {
+          "title": "Health care providers",
+          "work": "Make a chart of health care providers (primary care, specialists, urgent care, ER, school nurse, telehealth) and when to use each."
+        },
+        {
+          "title": "Local services map",
+          "work": "Research and list your local clinic, pharmacy, urgent care, Medi-Cal/Covered California options and teen confidential services with phone numbers."
+        },
+        {
+          "title": "Unit 1 test",
+          "work": "Take the Unit 1 test on wellness, decision making, goal setting and evaluating health information."
+        }
+      ],
+      "assessment": "Unit 1 test and completed local health services directory."
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "Nutrients and MyPlate",
+      "objectives": [
+        "Describe the six classes of nutrients and their functions",
+        "Apply MyPlate recommendations to daily intake"
+      ],
+      "standards": [
+        "H-HS.1.2.N",
+        "H-HS.1.1.N"
+      ],
+      "vocabulary": [
+        "carbohydrate",
+        "protein",
+        "fat",
+        "vitamin",
+        "mineral",
+        "MyPlate"
+      ],
+      "materials": [
+        "food log",
+        "measuring cups"
+      ],
+      "days": [
+        {
+          "title": "Six nutrients",
+          "work": "Watch a short nutrition video and make a chart of the six nutrient classes with functions and three food sources each."
+        },
+        {
+          "title": "MyPlate",
+          "work": "Use the MyPlate Plan tool to find your personal daily food-group targets and record them."
+        },
+        {
+          "title": "Portion lab",
+          "work": "Measure out recommended portions of cereal, rice, juice and nuts with measuring cups and compare them to the amounts you usually serve."
+        },
+        {
+          "title": "Food log",
+          "work": "Begin a 3-day food log, recording everything you eat and drink with food groups and approximate portions."
+        },
+        {
+          "title": "Check",
+          "work": "Compare your food log to your MyPlate targets and take a 15-question nutrient quiz."
+        }
+      ],
+      "assessment": "Nutrient quiz and food log comparison."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Food labels and the Dietary Guidelines",
+      "objectives": [
+        "Interpret Nutrition Facts labels and ingredient lists",
+        "Compare foods using % Daily Value"
+      ],
+      "standards": [
+        "H-HS.1.1.N",
+        "H-HS.1.2.N",
+        "H-HS.3.1.N"
+      ],
+      "vocabulary": [
+        "% Daily Value",
+        "added sugars",
+        "sodium",
+        "serving size",
+        "whole grain"
+      ],
+      "materials": [
+        "5 packaged food labels from the pantry"
+      ],
+      "days": [
+        {
+          "title": "Reading a label",
+          "work": "Annotate a Nutrition Facts label for serving size, calories, %DV, added sugar and sodium using the 5/20 rule."
+        },
+        {
+          "title": "Label comparison",
+          "work": "Compare five pantry items in pairs (two cereals, two drinks, etc.) and choose the healthier option with evidence from the labels."
+        },
+        {
+          "title": "Sugar and sodium",
+          "work": "Measure the teaspoons of sugar in a can of soda and a sports drink using a sugar bowl and the 4 g = 1 tsp conversion."
+        },
+        {
+          "title": "Dietary Guidelines",
+          "work": "Read the Dietary Guidelines for Americans key recommendations and summarize four in your own words."
+        },
+        {
+          "title": "Check",
+          "work": "Complete a label-reading practical: answer 10 questions using two unfamiliar food labels."
+        }
+      ],
+      "assessment": "Food-label practical with at least 8/10 correct."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Energy balance, body image and eating disorders",
+      "objectives": [
+        "Explain energy balance",
+        "Recognize warning signs of eating disorders and where to get help"
+      ],
+      "standards": [
+        "H-HS.1.3.N",
+        "H-HS.2.1.N",
+        "H-HS.3.1.M"
+      ],
+      "vocabulary": [
+        "energy balance",
+        "metabolism",
+        "body image",
+        "anorexia nervosa",
+        "bulimia nervosa",
+        "binge-eating disorder"
+      ],
+      "materials": [
+        "health journal"
+      ],
+      "days": [
+        {
+          "title": "Energy balance",
+          "work": "Learn how calories in and calories out relate to growth during adolescence and calculate the energy cost of three activities."
+        },
+        {
+          "title": "Body image and media",
+          "work": "Compare edited and unedited images from a media-literacy lesson and write about how filtered images affect body image."
+        },
+        {
+          "title": "Eating disorders",
+          "work": "Read a KidsHealth article on eating disorders and make a chart of types, warning signs and health effects."
+        },
+        {
+          "title": "Diet culture",
+          "work": "Evaluate three fad diets (keto, detox teas, intermittent fasting for teens) for safety and evidence and explain why crash diets backfire."
+        },
+        {
+          "title": "Check",
+          "work": "Write a letter to a friend showing warning signs, explaining your concern and naming two places to get help; take a short quiz."
+        }
+      ],
+      "assessment": "Supportive letter scored for accurate information and resources; quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Food marketing, supplements and food safety",
+      "objectives": [
+        "Analyze food marketing techniques",
+        "Apply the four steps to food safety"
+      ],
+      "standards": [
+        "H-HS.2.1.N",
+        "H-HS.3.1.N",
+        "H-HS.1.4.N",
+        "H-HS.2.1.P"
+      ],
+      "vocabulary": [
+        "marketing",
+        "dietary supplement",
+        "foodborne illness",
+        "cross-contamination"
+      ],
+      "materials": [
+        "food thermometer",
+        "cereal boxes or online ads"
+      ],
+      "days": [
+        {
+          "title": "Marketing techniques",
+          "work": "Analyze three food ads or cereal boxes for techniques (celebrity, health halo, cartoon characters) and identify the target audience."
+        },
+        {
+          "title": "Supplements and energy drinks",
+          "work": "Research caffeine content and FDA regulation of supplements and energy drinks and write a consumer warning paragraph."
+        },
+        {
+          "title": "Clean, separate, cook, chill",
+          "work": "Learn the four food safety steps and use a food thermometer to check safe internal temperatures while helping cook dinner."
+        },
+        {
+          "title": "Kitchen audit",
+          "work": "Audit your home kitchen for food safety (fridge temperature, cutting boards, leftovers dates) and record fixes."
+        },
+        {
+          "title": "Check",
+          "work": "Create a counter-ad that markets a healthy food using the same persuasive techniques; take a short food-safety quiz."
+        }
+      ],
+      "assessment": "Counter-ad and food safety quiz."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Physical activity, sleep and a personal nutrition plan",
+      "objectives": [
+        "Explain the benefits of physical activity and sleep",
+        "Build a one-week healthy eating and activity plan"
+      ],
+      "standards": [
+        "H-HS.1.5.N",
+        "H-HS.6.1.N",
+        "H-HS.7.1.N",
+        "H-HS.1.4.P"
+      ],
+      "vocabulary": [
+        "aerobic activity",
+        "FITT",
+        "sleep hygiene",
+        "meal plan"
+      ],
+      "materials": [
+        "grocery flyer",
+        "activity log"
+      ],
+      "days": [
+        {
+          "title": "Activity guidelines",
+          "work": "Learn the 60-minutes-per-day guideline for teens and log your activity minutes and type for today."
+        },
+        {
+          "title": "Sleep and health",
+          "work": "Read about teen sleep needs (8–10 hours) and design a sleep-hygiene routine for school nights."
+        },
+        {
+          "title": "Meal planning",
+          "work": "Plan three days of balanced meals and snacks on a budget using a grocery flyer and MyPlate targets."
+        },
+        {
+          "title": "Cook a meal",
+          "work": "Prepare one meal from your plan with family, photograph it and label its food groups."
+        },
+        {
+          "title": "Unit 2 test",
+          "work": "Take the Unit 2 test on nutrients, labels, energy balance, marketing and food safety, and submit your one-week plan."
+        }
+      ],
+      "assessment": "Unit 2 test and personal nutrition/activity plan."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Mental wellness, self-esteem and resilience",
+      "objectives": [
+        "Describe characteristics of mental wellness",
+        "Practice strategies that build resilience"
+      ],
+      "standards": [
+        "H-HS.1.1.M",
+        "H-HS.2.1.M"
+      ],
+      "vocabulary": [
+        "self-esteem",
+        "resilience",
+        "emotional intelligence",
+        "growth mindset"
+      ],
+      "materials": [
+        "health journal"
+      ],
+      "days": [
+        {
+          "title": "Mental wellness",
+          "work": "Brainstorm signs of good mental health and compare to a list from a mental health organization."
+        },
+        {
+          "title": "Emotions",
+          "work": "Use an emotion wheel to name emotions felt this week and identify body cues for each."
+        },
+        {
+          "title": "Self-esteem",
+          "work": "Write a list of 10 personal strengths and ask a family member to add three more."
+        },
+        {
+          "title": "Resilience stories",
+          "work": "Read a short biography of someone who overcame adversity and identify the protective factors that helped them."
+        },
+        {
+          "title": "Check",
+          "work": "Write a reflection describing one setback you faced and the resilience skills you used or could use."
+        }
+      ],
+      "assessment": "Resilience reflection scored with a rubric."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Stress and coping",
+      "objectives": [
+        "Explain the stress response",
+        "Practice healthy coping strategies"
+      ],
+      "standards": [
+        "H-HS.1.3.M",
+        "H-HS.7.1.M"
+      ],
+      "vocabulary": [
+        "stressor",
+        "fight-or-flight",
+        "cortisol",
+        "coping strategy"
+      ],
+      "materials": [
+        "timer",
+        "journal"
+      ],
+      "days": [
+        {
+          "title": "Stress response",
+          "work": "Diagram the fight-or-flight response and label the hormones and body changes involved."
+        },
+        {
+          "title": "Stressor inventory",
+          "work": "List your current stressors, rate each 1–5 and sort them into things you can and cannot control."
+        },
+        {
+          "title": "Relaxation practice",
+          "work": "Practice box breathing, progressive muscle relaxation and a 5-4-3-2-1 grounding exercise, rating each afterward."
+        },
+        {
+          "title": "Time management",
+          "work": "Build a weekly schedule that balances school, activities, sleep and downtime."
+        },
+        {
+          "title": "Check",
+          "work": "Create a personal stress-management toolkit card with five strategies and take a short quiz."
+        }
+      ],
+      "assessment": "Stress toolkit card and quiz."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Mental health conditions and stigma",
+      "objectives": [
+        "Describe common mental health conditions and treatments",
+        "Explain how stigma prevents help-seeking"
+      ],
+      "standards": [
+        "H-HS.1.2.M",
+        "H-HS.8.1.M",
+        "H-HS.3.1.M"
+      ],
+      "vocabulary": [
+        "anxiety disorder",
+        "depression",
+        "ADHD",
+        "therapy",
+        "stigma"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Common conditions",
+          "work": "Research anxiety, depression, ADHD and PTSD and complete a chart of symptoms and treatments."
+        },
+        {
+          "title": "Myths and facts",
+          "work": "Sort 12 mental health statements into myths and facts and correct each myth."
+        },
+        {
+          "title": "Treatment options",
+          "work": "Learn about counseling, therapy types (CBT), medication and support groups."
+        },
+        {
+          "title": "Stigma",
+          "work": "Analyze how mental illness is portrayed in a TV show or movie and how that could affect help-seeking."
+        },
+        {
+          "title": "Check",
+          "work": "Design an anti-stigma poster with accurate facts and a help resource."
+        }
+      ],
+      "assessment": "Anti-stigma poster scored on accuracy and message."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Suicide prevention and help-seeking",
+      "objectives": [
+        "Recognize warning signs of suicide",
+        "Practice how to get help for self and others"
+      ],
+      "standards": [
+        "H-HS.1.5.M",
+        "H-HS.3.1.M",
+        "H-HS.5.1.M"
+      ],
+      "vocabulary": [
+        "warning sign",
+        "crisis line",
+        "988",
+        "trusted adult"
+      ],
+      "materials": [
+        "phone"
+      ],
+      "days": [
+        {
+          "title": "Warning signs",
+          "work": "Learn the warning signs and risk factors of suicide from a credible prevention source."
+        },
+        {
+          "title": "ACT model",
+          "work": "Practice the Acknowledge–Care–Tell steps through role-play scenarios with a parent."
+        },
+        {
+          "title": "Resources",
+          "work": "Save 988 and Crisis Text Line (text HOME to 741741) in your phone and list three trusted adults."
+        },
+        {
+          "title": "Self-care plan",
+          "work": "Complete a personal safety and support plan with coping strategies and people to contact."
+        },
+        {
+          "title": "Check",
+          "work": "Answer scenario questions about how to respond to a friend in crisis."
+        }
+      ],
+      "assessment": "Scenario response check and completed support plan."
+    },
+    {
+      "week": 13,
+      "unit": 3,
+      "topic": "Bullying, social media and communication",
+      "objectives": [
+        "Identify forms of bullying and cyberbullying",
+        "Use I-messages and conflict resolution"
+      ],
+      "standards": [
+        "H-HS.1.4.M",
+        "H-HS.2.1.M",
+        "H-HS.4.1.M",
+        "H-HS.8.1.M"
+      ],
+      "vocabulary": [
+        "cyberbullying",
+        "bystander",
+        "upstander",
+        "I-message",
+        "conflict resolution"
+      ],
+      "materials": [
+        "phone",
+        "journal"
+      ],
+      "days": [
+        {
+          "title": "Forms of bullying",
+          "work": "Define physical, verbal, relational and cyberbullying and identify CA laws requiring schools to address bullying."
+        },
+        {
+          "title": "Social media audit",
+          "work": "Track your screen time for one day and evaluate how each app affects your mood."
+        },
+        {
+          "title": "Communication skills",
+          "work": "Practice I-messages and active listening in three role-plays."
+        },
+        {
+          "title": "Conflict resolution",
+          "work": "Apply a six-step conflict-resolution model to a family disagreement scenario."
+        },
+        {
+          "title": "Unit 3 test",
+          "work": "Take the Unit 3 test on mental health, stress, help-seeking and communication."
+        }
+      ],
+      "assessment": "Unit 3 test."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "The brain and addiction",
+      "objectives": [
+        "Explain how drugs affect the brain's reward system",
+        "Describe why the teen brain is especially vulnerable"
+      ],
+      "standards": [
+        "H-HS.1.1.A",
+        "H-HS.1.2.A"
+      ],
+      "vocabulary": [
+        "dopamine",
+        "tolerance",
+        "dependence",
+        "addiction",
+        "prefrontal cortex"
+      ],
+      "materials": [
+        "computer",
+        "brain diagram"
+      ],
+      "days": [
+        {
+          "title": "Reward pathway",
+          "work": "Label a diagram of the brain's reward pathway and explain how dopamine reinforces behavior."
+        },
+        {
+          "title": "Teen brain",
+          "work": "Read NIDA materials on adolescent brain development and summarize why the prefrontal cortex matters."
+        },
+        {
+          "title": "Tolerance and dependence",
+          "work": "Create a flowchart showing the progression from use to tolerance, dependence and addiction."
+        },
+        {
+          "title": "Addiction as disease",
+          "work": "Discuss how genetics, environment and early use affect addiction risk."
+        },
+        {
+          "title": "Check",
+          "work": "Write an explanation of addiction for a younger student and take a short quiz."
+        }
+      ],
+      "assessment": "Quiz and explanatory paragraph."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Tobacco, nicotine and vaping",
+      "objectives": [
+        "Describe the health effects of nicotine and vaping",
+        "Analyze tobacco marketing to teens"
+      ],
+      "standards": [
+        "H-HS.1.2.A",
+        "H-HS.2.1.A",
+        "H-HS.1.4.A"
+      ],
+      "vocabulary": [
+        "nicotine",
+        "e-cigarette",
+        "secondhand smoke",
+        "Tobacco 21"
+      ],
+      "materials": [
+        "computer",
+        "ads"
+      ],
+      "days": [
+        {
+          "title": "Nicotine effects",
+          "work": "Research short- and long-term health effects of nicotine and vaping, including lung injury."
+        },
+        {
+          "title": "What's in a vape?",
+          "work": "Analyze an ingredient list of e-cigarette aerosol and identify harmful chemicals."
+        },
+        {
+          "title": "Marketing to teens",
+          "work": "Analyze vape and tobacco ads for techniques targeting youth (flavors, design, influencers)."
+        },
+        {
+          "title": "California laws",
+          "work": "Learn California's Tobacco 21 law and flavored tobacco ban; research quitting resources (Kick It California)."
+        },
+        {
+          "title": "Check",
+          "work": "Create a counter-marketing social media post on vaping and take a short quiz."
+        }
+      ],
+      "assessment": "Counter-marketing post and quiz."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Alcohol",
+      "objectives": [
+        "Explain how alcohol affects the body",
+        "Analyze alcohol's role in injuries and violence"
+      ],
+      "standards": [
+        "H-HS.1.2.A",
+        "H-HS.1.4.A",
+        "H-HS.5.1.A"
+      ],
+      "vocabulary": [
+        "blood alcohol concentration",
+        "binge drinking",
+        "alcohol poisoning",
+        "zero tolerance"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Alcohol and the body",
+          "work": "Trace alcohol's path through the body and describe effects on each organ system."
+        },
+        {
+          "title": "BAC factors",
+          "work": "Learn what affects blood alcohol concentration and why 'sobering up' cannot be sped up."
+        },
+        {
+          "title": "Alcohol poisoning",
+          "work": "Learn the signs of alcohol poisoning and the steps to take, including calling 911."
+        },
+        {
+          "title": "Laws and consequences",
+          "work": "Research California's zero-tolerance law for drivers under 21 and other legal consequences."
+        },
+        {
+          "title": "Check",
+          "work": "Use the decision-making model on a party scenario involving alcohol and take a short quiz."
+        }
+      ],
+      "assessment": "Decision-making scenario and quiz."
+    },
+    {
+      "week": 17,
+      "unit": 4,
+      "topic": "Cannabis, prescription drugs, fentanyl and naloxone",
+      "objectives": [
+        "Describe effects of cannabis and prescription misuse",
+        "Recognize opioid overdose and how to respond"
+      ],
+      "standards": [
+        "H-HS.1.2.A",
+        "H-HS.1.3.A",
+        "H-HS.3.2.A"
+      ],
+      "vocabulary": [
+        "THC",
+        "opioid",
+        "fentanyl",
+        "counterfeit pill",
+        "naloxone",
+        "Good Samaritan law"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Cannabis",
+          "work": "Research cannabis effects on memory, motivation and mental health, including high-potency products."
+        },
+        {
+          "title": "Prescription misuse",
+          "work": "Learn why sharing or misusing prescription drugs is dangerous, and how to dispose of medicine safely."
+        },
+        {
+          "title": "Fentanyl",
+          "work": "Learn about fentanyl, counterfeit pills and why 'one pill can kill', using CDPH/DEA materials."
+        },
+        {
+          "title": "Overdose response",
+          "work": "Learn overdose signs and practice the steps for giving naloxone (Narcan) using a training video and checklist."
+        },
+        {
+          "title": "Check",
+          "work": "Complete a scenario quiz on recognizing and responding to an overdose."
+        }
+      ],
+      "assessment": "Overdose response scenario quiz."
+    },
+    {
+      "week": 18,
+      "unit": 4,
+      "topic": "Influences, refusal skills and semester review",
+      "objectives": [
+        "Analyze influences on substance use",
+        "Demonstrate refusal skills"
+      ],
+      "standards": [
+        "H-HS.2.1.A",
+        "H-HS.4.2.A",
+        "H-HS.5.1.A",
+        "H-HS.8.1.A"
+      ],
+      "vocabulary": [
+        "peer pressure",
+        "refusal skill",
+        "norms"
+      ],
+      "materials": [
+        "semester review packet"
+      ],
+      "days": [
+        {
+          "title": "Influences",
+          "work": "Map the influences on teen substance use (peers, family, media, community) and identify protective factors."
+        },
+        {
+          "title": "Refusal skills",
+          "work": "Practice five refusal strategies (say no, give a reason, suggest an alternative, leave, use humor) in role-plays."
+        },
+        {
+          "title": "Advocacy",
+          "work": "Create a short PSA promoting a substance-free lifestyle."
+        },
+        {
+          "title": "Semester review",
+          "work": "Review units 1–4 using a study guide and practice questions."
+        },
+        {
+          "title": "Semester exam",
+          "work": "Take the semester exam covering wellness, nutrition, mental health and substance use."
+        }
+      ],
+      "assessment": "Semester exam and refusal-skills role-play checklist."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Healthy relationships, consent and boundaries",
+      "objectives": [
+        "Identify characteristics of healthy and unhealthy relationships",
+        "Practice asking for and giving consent"
+      ],
+      "standards": [
+        "H-HS.1.3.G",
+        "H-HS.4.1.G"
+      ],
+      "vocabulary": [
+        "consent",
+        "boundary",
+        "affirmative consent",
+        "red flag"
+      ],
+      "materials": [
+        "opt-out notice to parents",
+        "journal"
+      ],
+      "days": [
+        {
+          "title": "Unit introduction",
+          "work": "Parent reviews the CA Healthy Youth Act notice and opt-out option (Ed. Code 51938); student discusses family values and expectations for the unit."
+        },
+        {
+          "title": "Healthy vs. unhealthy",
+          "work": "Sort relationship behaviors on a continuum from healthy to abusive and identify red flags."
+        },
+        {
+          "title": "Consent",
+          "work": "Learn what affirmative consent means under California law and analyze scenarios for whether consent was given."
+        },
+        {
+          "title": "Boundaries",
+          "work": "Write examples of personal boundaries and practice communicating them clearly."
+        },
+        {
+          "title": "Check",
+          "work": "Write a short analysis of a fictional relationship using what you learned; quiz."
+        }
+      ],
+      "assessment": "Relationship analysis and quiz."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Reproductive anatomy, puberty and development",
+      "objectives": [
+        "Describe reproductive anatomy and physiology",
+        "Explain changes during adolescence"
+      ],
+      "standards": [
+        "H-HS.1.1.G",
+        "H-HS.1.2.G"
+      ],
+      "vocabulary": [
+        "hormone",
+        "ovary",
+        "testes",
+        "menstrual cycle",
+        "puberty"
+      ],
+      "materials": [
+        "anatomy diagrams"
+      ],
+      "days": [
+        {
+          "title": "Endocrine system",
+          "work": "Learn how hormones drive puberty and label the endocrine glands."
+        },
+        {
+          "title": "Female anatomy",
+          "work": "Label female reproductive anatomy and describe the menstrual cycle."
+        },
+        {
+          "title": "Male anatomy",
+          "work": "Label male reproductive anatomy and describe its functions."
+        },
+        {
+          "title": "Self-care",
+          "work": "Learn about reproductive health exams, hygiene and when to see a doctor."
+        },
+        {
+          "title": "Check",
+          "work": "Complete an anatomy labeling quiz on both reproductive systems and explain the menstrual cycle phases in a short written response."
+        }
+      ],
+      "assessment": "Anatomy quiz."
+    },
+    {
+      "week": 21,
+      "unit": 5,
+      "topic": "Gender identity, sexual orientation and respect",
+      "objectives": [
+        "Describe gender identity and sexual orientation accurately",
+        "Analyze media influences on gender norms"
+      ],
+      "standards": [
+        "H-HS.1.2.G",
+        "H-HS.2.1.G"
+      ],
+      "vocabulary": [
+        "gender identity",
+        "gender expression",
+        "sexual orientation",
+        "stereotype",
+        "inclusion"
+      ],
+      "materials": [
+        "media samples"
+      ],
+      "days": [
+        {
+          "title": "Key terms",
+          "work": "Learn medically accurate definitions of sex, gender identity, gender expression and sexual orientation."
+        },
+        {
+          "title": "Gender norms",
+          "work": "Analyze gender stereotypes in ads and media and how they affect relationships."
+        },
+        {
+          "title": "Respect and inclusion",
+          "work": "Discuss how to treat all people with respect and identify school anti-discrimination protections."
+        },
+        {
+          "title": "Media and relationships",
+          "work": "Analyze how movies and music portray relationships and compare to healthy relationship traits."
+        },
+        {
+          "title": "Check",
+          "work": "Write a reflection on how media influences relationship expectations."
+        }
+      ],
+      "assessment": "Media analysis reflection."
+    },
+    {
+      "week": 22,
+      "unit": 5,
+      "topic": "Conception, pregnancy and parenting",
+      "objectives": [
+        "Describe conception, fetal development and prenatal care",
+        "Explain pregnancy options and the Safely Surrendered Baby Law"
+      ],
+      "standards": [
+        "H-HS.1.1.G",
+        "H-HS.1.7.G",
+        "H-HS.5.1.G"
+      ],
+      "vocabulary": [
+        "conception",
+        "embryo",
+        "fetus",
+        "prenatal care",
+        "Safely Surrendered Baby Law"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Conception",
+          "work": "Describe fertilization and implantation with a diagram."
+        },
+        {
+          "title": "Fetal development",
+          "work": "Create an illustrated timeline of embryonic and fetal development by trimester, noting when major organs form and why early prenatal care matters."
+        },
+        {
+          "title": "Prenatal care",
+          "work": "Research prenatal care and how substances affect fetal development."
+        },
+        {
+          "title": "Options and laws",
+          "work": "Learn about parenting, adoption and abortion as legal options, and California's Safely Surrendered Baby Law."
+        },
+        {
+          "title": "Check",
+          "work": "Complete a budget activity estimating first-year costs of raising a baby, and a quiz."
+        }
+      ],
+      "assessment": "Budget activity and quiz."
+    },
+    {
+      "week": 23,
+      "unit": 5,
+      "topic": "Abstinence and contraception",
+      "objectives": [
+        "Explain abstinence and contraceptive methods",
+        "Compare effectiveness of methods"
+      ],
+      "standards": [
+        "H-HS.1.4.G",
+        "H-HS.5.1.G"
+      ],
+      "vocabulary": [
+        "abstinence",
+        "contraception",
+        "effectiveness",
+        "condom"
+      ],
+      "materials": [
+        "effectiveness chart"
+      ],
+      "days": [
+        {
+          "title": "Abstinence",
+          "work": "Discuss abstinence as the only 100% effective method and reasons people choose it."
+        },
+        {
+          "title": "Contraceptive methods",
+          "work": "Learn about all FDA-approved methods using a CDC effectiveness chart."
+        },
+        {
+          "title": "Comparing methods",
+          "work": "Compare methods by effectiveness, STI protection and access."
+        },
+        {
+          "title": "Decisions",
+          "work": "Apply the decision-making model to a scenario about sexual health choices."
+        },
+        {
+          "title": "Check",
+          "work": "Take a quiz matching methods to typical-use effectiveness and STI protection, and write which methods protect against both pregnancy and STIs."
+        }
+      ],
+      "assessment": "Quiz on contraception and decisions."
+    },
+    {
+      "week": 24,
+      "unit": 5,
+      "topic": "Sexually transmitted infections and HIV",
+      "objectives": [
+        "Describe STI transmission, symptoms, testing and treatment",
+        "Explain HIV prevention including PrEP and PEP"
+      ],
+      "standards": [
+        "H-HS.1.5.G",
+        "H-HS.1.6.G"
+      ],
+      "vocabulary": [
+        "STI",
+        "HIV",
+        "PrEP",
+        "PEP",
+        "asymptomatic"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Common STIs",
+          "work": "Research chlamydia, gonorrhea, syphilis, HPV and herpes: symptoms, testing and treatment."
+        },
+        {
+          "title": "HIV",
+          "work": "Learn how HIV attacks the immune system and how it is and isn't transmitted."
+        },
+        {
+          "title": "Prevention",
+          "work": "Learn prevention methods including abstinence, condoms, HPV vaccine, PrEP and PEP."
+        },
+        {
+          "title": "Testing and services",
+          "work": "Locate confidential testing services for teens in California using the CDC GetTested locator."
+        },
+        {
+          "title": "Check",
+          "work": "Finish an STI fact chart (cause, symptoms, curable or treatable, prevention, testing) for six infections and take a 15-question quiz."
+        }
+      ],
+      "assessment": "STI quiz."
+    },
+    {
+      "week": 25,
+      "unit": 5,
+      "topic": "Sexual violence, trafficking and accessing services",
+      "objectives": [
+        "Recognize sexual harassment, assault and trafficking",
+        "Identify how to get help"
+      ],
+      "standards": [
+        "H-HS.1.8.G",
+        "H-HS.1.6.G",
+        "H-HS.4.1.G"
+      ],
+      "vocabulary": [
+        "sexual harassment",
+        "sexual assault",
+        "human trafficking",
+        "grooming",
+        "mandated reporter"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Harassment and assault",
+          "work": "Define sexual harassment and assault and learn your rights under Title IX."
+        },
+        {
+          "title": "Human trafficking",
+          "work": "Learn how traffickers recruit teens online and in person, and warning signs."
+        },
+        {
+          "title": "Getting help",
+          "work": "Identify hotlines (RAINN, National Human Trafficking Hotline) and trusted adults."
+        },
+        {
+          "title": "Minor consent",
+          "work": "Learn which health services California minors can access confidentially."
+        },
+        {
+          "title": "Unit 5 test",
+          "work": "Take the Unit 5 test; opted-out students submit their alternate project."
+        }
+      ],
+      "assessment": "Unit 5 test or alternate project."
+    },
+    {
+      "week": 26,
+      "unit": 6,
+      "topic": "Unintentional injuries: home, water, sports and concussion",
+      "objectives": [
+        "Identify causes of common unintentional injuries",
+        "Explain concussion signs and return-to-play rules"
+      ],
+      "standards": [
+        "H-HS.1.2.S",
+        "H-HS.7.1.S"
+      ],
+      "vocabulary": [
+        "unintentional injury",
+        "concussion",
+        "drowning",
+        "helmet"
+      ],
+      "materials": [
+        "home safety checklist"
+      ],
+      "days": [
+        {
+          "title": "Injury data",
+          "work": "Analyze CDC data on leading causes of teen injury and death."
+        },
+        {
+          "title": "Home safety",
+          "work": "Complete a home safety audit for falls, fire, poisoning and firearms storage."
+        },
+        {
+          "title": "Water safety",
+          "work": "Watch a video on what drowning really looks like, list the signs, and write water safety rules for pools, rivers and the ocean (rip currents)."
+        },
+        {
+          "title": "Concussion",
+          "work": "Learn concussion signs and California's return-to-play law (AB 2127)."
+        },
+        {
+          "title": "Check",
+          "work": "Present your home safety audit to family with the three highest-priority fixes and complete one fix (e.g., test smoke alarms, lock up medicines)."
+        }
+      ],
+      "assessment": "Home safety audit."
+    },
+    {
+      "week": 27,
+      "unit": 6,
+      "topic": "Violence prevention and dating violence",
+      "objectives": [
+        "Describe causes and prevention of violence",
+        "Identify warning signs of dating violence"
+      ],
+      "standards": [
+        "H-HS.1.3.S",
+        "H-HS.1.3.G",
+        "H-HS.5.1.S"
+      ],
+      "vocabulary": [
+        "dating violence",
+        "gang",
+        "de-escalation",
+        "restraining order"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Causes of violence",
+          "work": "Identify risk factors and protective factors for violence."
+        },
+        {
+          "title": "De-escalation",
+          "work": "Practice de-escalation techniques (calm voice, space, active listening, walking away) in three role-plays and rate which worked best."
+        },
+        {
+          "title": "Dating violence",
+          "work": "Learn the cycle of abuse and warning signs using loveisrespect.org."
+        },
+        {
+          "title": "Weapons and gangs",
+          "work": "Discuss the dangers of weapons and gang involvement and how to report threats."
+        },
+        {
+          "title": "Check",
+          "work": "Write a safety plan for a scenario involving dating violence."
+        }
+      ],
+      "assessment": "Safety plan scenario."
+    },
+    {
+      "week": 28,
+      "unit": 6,
+      "topic": "Online safety and digital wellness",
+      "objectives": [
+        "Describe risks online including sextortion",
+        "Protect privacy and digital footprint"
+      ],
+      "standards": [
+        "H-HS.1.5.S",
+        "H-HS.2.1.M"
+      ],
+      "vocabulary": [
+        "digital footprint",
+        "sextortion",
+        "privacy settings",
+        "phishing"
+      ],
+      "materials": [
+        "phone",
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Digital footprint",
+          "work": "Search your own name and review what's public; adjust privacy settings."
+        },
+        {
+          "title": "Sextortion",
+          "work": "Learn what sextortion is and how to get help (Take It Down, NCMEC)."
+        },
+        {
+          "title": "Online predators",
+          "work": "Analyze a case study of online grooming, list the tactics used at each stage, and practice blocking and reporting on two apps you use."
+        },
+        {
+          "title": "Digital wellness",
+          "work": "Create a personal tech-use plan with phone-free times, notification settings and a bedtime device rule, and share it with a parent."
+        },
+        {
+          "title": "Check",
+          "work": "Take a digital safety scenario quiz (phishing message, sextortion threat, oversharing post) explaining the safest response for each."
+        }
+      ],
+      "assessment": "Digital safety quiz."
+    },
+    {
+      "week": 29,
+      "unit": 6,
+      "topic": "Emergency preparedness: earthquakes, wildfires and smoke",
+      "objectives": [
+        "Prepare for natural disasters common in California",
+        "Build a household emergency plan"
+      ],
+      "standards": [
+        "H-HS.1.6.S",
+        "H-HS.7.1.S",
+        "H-HS.8.1.S"
+      ],
+      "vocabulary": [
+        "Drop, Cover, Hold On",
+        "go-bag",
+        "AQI",
+        "evacuation"
+      ],
+      "materials": [
+        "household items for kit"
+      ],
+      "days": [
+        {
+          "title": "Earthquakes",
+          "work": "Practice Drop, Cover and Hold On and identify safe spots at home."
+        },
+        {
+          "title": "Wildfire and smoke",
+          "work": "Learn evacuation steps and how to read the Air Quality Index."
+        },
+        {
+          "title": "Go-bag",
+          "work": "Using the Ready.gov list, write a go-bag checklist for your household and gather water, flashlight, medications, N95 masks and copies of documents."
+        },
+        {
+          "title": "Family plan",
+          "work": "Create a family emergency plan with meeting points and contacts."
+        },
+        {
+          "title": "Check",
+          "work": "Present your family emergency plan, run a timed earthquake and evacuation drill, and record what to improve."
+        }
+      ],
+      "assessment": "Family emergency plan and drill."
+    },
+    {
+      "week": 30,
+      "unit": 6,
+      "topic": "Basic first aid and Hands-Only CPR",
+      "objectives": [
+        "Describe basic first aid",
+        "Demonstrate Hands-Only CPR"
+      ],
+      "standards": [
+        "H-HS.1.9.S",
+        "H-HS.7.1.S"
+      ],
+      "vocabulary": [
+        "first aid",
+        "CPR",
+        "AED",
+        "Good Samaritan"
+      ],
+      "materials": [
+        "pillow or manikin",
+        "first aid kit"
+      ],
+      "days": [
+        {
+          "title": "Emergency steps",
+          "work": "Learn the Check–Call–Care steps and practice a mock 911 call giving location, situation and number of victims."
+        },
+        {
+          "title": "Bleeding and burns",
+          "work": "Practice treating cuts and burns using a first aid kit."
+        },
+        {
+          "title": "Hands-Only CPR",
+          "work": "Practice Hands-Only CPR on a pillow to the beat of 'Stayin' Alive'."
+        },
+        {
+          "title": "AED",
+          "work": "Watch an AED demonstration video, then sequence the AED steps on cards and talk through pad placement on a diagram."
+        },
+        {
+          "title": "Unit 6 test",
+          "work": "Take the Unit 6 test and perform a 2-minute Hands-Only CPR skills check for a parent with a checklist."
+        }
+      ],
+      "assessment": "Unit 6 test and CPR skills check."
+    },
+    {
+      "week": 31,
+      "unit": 7,
+      "topic": "Communicable diseases and immunity",
+      "objectives": [
+        "Explain how pathogens spread",
+        "Describe how vaccines work"
+      ],
+      "standards": [
+        "H-HS.1.2.P",
+        "H-HS.7.1.P"
+      ],
+      "vocabulary": [
+        "pathogen",
+        "immunity",
+        "vaccine",
+        "herd immunity"
+      ],
+      "materials": [
+        "glitter or lotion for handwashing demo"
+      ],
+      "days": [
+        {
+          "title": "Pathogens",
+          "work": "Compare bacteria, viruses, fungi and parasites with examples of diseases."
+        },
+        {
+          "title": "Transmission",
+          "work": "Do a glitter handwashing experiment to show how germs spread."
+        },
+        {
+          "title": "Immune system",
+          "work": "Diagram the immune response and how vaccines train immunity."
+        },
+        {
+          "title": "Vaccines",
+          "work": "Review the California school immunization schedule and teen vaccines (Tdap, HPV, meningococcal, flu)."
+        },
+        {
+          "title": "Check",
+          "work": "Take a quiz on communicable diseases and write a paragraph explaining herd immunity using a classroom-sized example."
+        }
+      ],
+      "assessment": "Quiz."
+    },
+    {
+      "week": 32,
+      "unit": 7,
+      "topic": "Chronic diseases and personal health care",
+      "objectives": [
+        "Identify risk factors for chronic disease",
+        "Practice personal health habits"
+      ],
+      "standards": [
+        "H-HS.1.3.P",
+        "H-HS.1.4.P",
+        "H-HS.7.1.P"
+      ],
+      "vocabulary": [
+        "chronic disease",
+        "hypertension",
+        "diabetes",
+        "cancer screening",
+        "SPF"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Chronic diseases",
+          "work": "Research heart disease, type 2 diabetes and cancer risk factors."
+        },
+        {
+          "title": "Family history",
+          "work": "Interview a family member to build a family health history."
+        },
+        {
+          "title": "Prevention",
+          "work": "Make a chart of recommended screenings (blood pressure, cholesterol, skin checks, Pap/HPV, testicular self-exam) and the lifestyle habits that lower chronic-disease risk."
+        },
+        {
+          "title": "Personal care",
+          "work": "Learn about dental care, vision, hearing protection and sun safety."
+        },
+        {
+          "title": "Check",
+          "work": "Write a personal chronic-disease prevention plan using your family history, with three habits to start now and screenings to ask about later."
+        }
+      ],
+      "assessment": "Personal prevention plan."
+    },
+    {
+      "week": 33,
+      "unit": 7,
+      "topic": "Consumer health and the health care system",
+      "objectives": [
+        "Evaluate health products and services",
+        "Understand health insurance basics"
+      ],
+      "standards": [
+        "H-HS.2.1.P",
+        "H-HS.3.1.P",
+        "H-HS.5.1.P"
+      ],
+      "vocabulary": [
+        "premium",
+        "deductible",
+        "copay",
+        "generic drug",
+        "quackery"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Advertising claims",
+          "work": "Evaluate three health product ads (supplement, acne cream, fitness gadget) for claims, evidence and red flags of quackery."
+        },
+        {
+          "title": "Health insurance",
+          "work": "Learn insurance terms and how Medi-Cal and Covered California work."
+        },
+        {
+          "title": "Medications",
+          "work": "Compare brand-name vs. generic drugs and read an OTC drug label."
+        },
+        {
+          "title": "Being a patient",
+          "work": "Prepare a list of questions and a medication/allergy list for a doctor visit, then role-play checking in and describing symptoms."
+        },
+        {
+          "title": "Check",
+          "work": "Take a consumer health quiz on insurance terms, OTC labels and evaluating claims, including calculating a cost with a deductible and copay."
+        }
+      ],
+      "assessment": "Consumer health quiz."
+    },
+    {
+      "week": 34,
+      "unit": 7,
+      "topic": "Environmental and community health",
+      "objectives": [
+        "Explain how the environment affects health",
+        "Identify community health resources"
+      ],
+      "standards": [
+        "H-HS.1.6.P",
+        "H-HS.8.1.P"
+      ],
+      "vocabulary": [
+        "air pollution",
+        "water quality",
+        "public health",
+        "environmental justice"
+      ],
+      "materials": [
+        "computer"
+      ],
+      "days": [
+        {
+          "title": "Air quality",
+          "work": "Check local AQI and research health effects of air pollution."
+        },
+        {
+          "title": "Water quality",
+          "work": "Find your water supplier's Consumer Confidence Report, identify your water source and two contaminants tested, and compare to legal limits."
+        },
+        {
+          "title": "Environmental justice",
+          "work": "Learn how pollution affects communities differently using CalEnviroScreen."
+        },
+        {
+          "title": "Public health",
+          "work": "Research the role of the county public health department."
+        },
+        {
+          "title": "Unit 7 test",
+          "work": "Take the Unit 7 test on communicable and chronic disease, consumer health and environmental health."
+        }
+      ],
+      "assessment": "Unit 7 test."
+    },
+    {
+      "week": 35,
+      "unit": 8,
+      "topic": "Health advocacy project",
+      "objectives": [
+        "Choose a health issue and advocate for change",
+        "Create an advocacy product"
+      ],
+      "standards": [
+        "H-HS.8.1.P",
+        "H-HS.8.1.M",
+        "H-HS.3.1.P"
+      ],
+      "vocabulary": [
+        "advocacy",
+        "target audience",
+        "call to action"
+      ],
+      "materials": [
+        "computer",
+        "poster board"
+      ],
+      "days": [
+        {
+          "title": "Choose a topic",
+          "work": "Choose a teen health issue from the course (e.g., vaping, sleep, teen mental health access, wildfire smoke) and write a one-paragraph problem statement with a target audience."
+        },
+        {
+          "title": "Research",
+          "work": "Gather three credible sources (.gov, .edu, peer-reviewed) and record two statistics and one expert recommendation on a note sheet with citations."
+        },
+        {
+          "title": "Create",
+          "work": "Build an advocacy product: a 60-second PSA video, an infographic poster, or a letter to a school board member or legislator with a clear call to action."
+        },
+        {
+          "title": "Revise",
+          "work": "Get feedback from a parent using the advocacy rubric (accuracy, audience, persuasive appeal, call to action) and revise the product."
+        },
+        {
+          "title": "Present",
+          "work": "Present the advocacy product to family or a co-op group, answer questions, and submit it with a works-cited list."
+        }
+      ],
+      "assessment": "Advocacy project rubric."
+    },
+    {
+      "week": 36,
+      "unit": 8,
+      "topic": "Final review and personal wellness plan",
+      "objectives": [
+        "Review course content",
+        "Write a personal wellness plan"
+      ],
+      "standards": [
+        "H-HS.6.1.P",
+        "H-HS.6.1.N",
+        "H-HS.7.1.M",
+        "H-HS.5.1.A"
+      ],
+      "vocabulary": [
+        "wellness plan"
+      ],
+      "materials": [
+        "review packet"
+      ],
+      "days": [
+        {
+          "title": "Review: units 1–4",
+          "work": "Complete a review grid for wellness, nutrition, mental health and substance use, then quiz yourself with 30 flashcards built from unit vocabulary."
+        },
+        {
+          "title": "Review: units 5–7",
+          "work": "Answer 25 practice questions on relationships, injury prevention, disease prevention and consumer health, and correct missed items with notes."
+        },
+        {
+          "title": "Wellness plan",
+          "work": "Write a personal wellness plan with one SMART goal each for physical, mental/emotional and social health, including supports, obstacles and a tracking method."
+        },
+        {
+          "title": "Final exam",
+          "work": "Take the cumulative final exam (multiple choice, scenarios and a short decision-making essay)."
+        },
+        {
+          "title": "Reflection",
+          "work": "Compare your week-1 wellness self-inventory to a retake today and write a one-page reflection on how your health knowledge and habits changed."
+        }
+      ],
+      "assessment": "Final exam and wellness plan."
+    }
+  ]
+}

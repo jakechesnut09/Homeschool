@@ -1,0 +1,348 @@
+{
+  "grade": 12,
+  "subject": "SCI",
+  "title": "Earth & Space / Environmental Science",
+  "description": "A capstone lab science built on the NGSS high-school Earth and Space Science performance expectations plus the environmental (human-impact and engineering) expectations. Students move from the life of stars and the origin of the elements to plate tectonics, Earth's climate system, natural hazards and resources in California, ecosystems and biodiversity, pollution, climate change, and engineering for sustainability, ending with an independent local environmental investigation. Every week includes a hands-on investigation with household materials or real NASA/USGS/NOAA data.",
+  "framework": "California Next Generation Science Standards (HS Earth and Space Sciences, HS-LS2/LS4 human impacts, HS Engineering Design); 2016 California Science Framework; California Environmental Principles and Concepts",
+  "minutes_per_day": 60,
+  "ag_requirement": "d",
+  "credits": 10,
+  "standards": {
+    "HS-ESS1-1": "Develop a model based on evidence to illustrate the life span of the Sun and the role of nuclear fusion in releasing energy that reaches Earth as radiation.",
+    "HS-ESS1-2": "Construct an explanation of the Big Bang theory based on astronomical evidence of light spectra, motion of distant galaxies, and composition of matter in the universe.",
+    "HS-ESS1-3": "Communicate scientific ideas about the way stars, over their life cycle, produce elements.",
+    "HS-ESS1-4": "Use mathematical or computational representations to predict the motion of orbiting objects in the solar system.",
+    "HS-ESS1-5": "Evaluate evidence of the past and current movements of continental and oceanic crust and the theory of plate tectonics to explain the ages of crustal rocks.",
+    "HS-ESS1-6": "Apply scientific reasoning and evidence from ancient Earth materials, meteorites, and other planetary surfaces to construct an account of Earth's formation and early history.",
+    "HS-ESS2-1": "Develop a model to illustrate how Earth's internal and surface processes operate at different spatial and temporal scales to form continental and ocean-floor features.",
+    "HS-ESS2-2": "Analyze geoscience data to make the claim that one change to Earth's surface can create feedbacks that cause changes to other Earth systems.",
+    "HS-ESS2-3": "Develop a model based on evidence of Earth's interior to describe the cycling of matter by thermal convection.",
+    "HS-ESS2-4": "Use a model to describe how variations in the flow of energy into and out of Earth's systems result in changes in climate.",
+    "HS-ESS2-5": "Plan and conduct an investigation of the properties of water and its effects on Earth materials and surface processes.",
+    "HS-ESS2-6": "Develop a quantitative model to describe the cycling of carbon among the hydrosphere, atmosphere, geosphere, and biosphere.",
+    "HS-ESS2-7": "Construct an argument based on evidence about the simultaneous coevolution of Earth's systems and life on Earth.",
+    "HS-ESS3-1": "Construct an explanation based on evidence for how the availability of natural resources, occurrence of natural hazards, and changes in climate have influenced human activity.",
+    "HS-ESS3-2": "Evaluate competing design solutions for developing, managing, and utilizing energy and mineral resources based on cost-benefit ratios.",
+    "HS-ESS3-3": "Create a computational simulation to illustrate the relationships among management of natural resources, the sustainability of human populations, and biodiversity.",
+    "HS-ESS3-4": "Evaluate or refine a technological solution that reduces impacts of human activities on natural systems.",
+    "HS-ESS3-5": "Analyze geoscience data and the results from global climate models to make an evidence-based forecast of the current rate of global or regional climate change and associated future impacts to Earth systems.",
+    "HS-ESS3-6": "Use a computational representation to illustrate the relationships among Earth systems and how those relationships are being modified due to human activity.",
+    "HS-LS2-6": "Evaluate claims, evidence, and reasoning that complex ecosystem interactions maintain relatively consistent numbers and types of organisms in stable conditions, but changing conditions may result in a new ecosystem.",
+    "HS-LS2-7": "Design, evaluate, and refine a solution for reducing the impacts of human activities on the environment and biodiversity.",
+    "HS-LS4-6": "Create or revise a simulation to test a solution to mitigate adverse impacts of human activity on biodiversity.",
+    "HS-ETS1-1": "Analyze a major global challenge to specify qualitative and quantitative criteria and constraints for solutions that account for societal needs and wants.",
+    "HS-ETS1-2": "Design a solution to a complex real-world problem by breaking it down into smaller, more manageable problems that can be solved through engineering.",
+    "HS-ETS1-3": "Evaluate a solution to a complex real-world problem based on prioritized criteria and trade-offs, including cost, safety, reliability, aesthetics, and social, cultural, and environmental impacts.",
+    "HS-ETS1-4": "Use a computer simulation to model the impact of proposed solutions to a complex real-world problem with numerous criteria and constraints."
+  },
+  "resources": [
+    {"name": "NASA Science", "url": "https://science.nasa.gov", "note": "Data, images, and explainers for stars, the Big Bang, planets, and Earth observation"},
+    {"name": "USGS Earthquake Hazards Program", "url": "https://earthquake.usgs.gov", "note": "Real-time earthquake data and California hazard maps"},
+    {"name": "NOAA Climate.gov", "url": "https://www.climate.gov", "note": "Climate data, CO₂ records, and teaching resources"},
+    {"name": "PhET Interactive Simulations", "url": "https://phet.colorado.edu", "note": "Greenhouse Effect, Gravity and Orbits, Plate Tectonics, and Blackbody Spectrum simulations"},
+    {"name": "CK-12 Earth Science", "url": "https://www.ck12.org/earth-science/", "note": "Free textbook-style readings and practice for every unit"},
+    {"name": "EPA – Student Resources", "url": "https://www.epa.gov/students", "note": "Air, water, and waste information for environmental units"}
+  ],
+  "units": [
+    {"number": 1, "title": "Stars and the Origin of the Universe", "start_week": 1, "end_week": 4, "big_idea": "Light from distant objects reveals how the universe began, how stars shine, and where the elements came from.", "standards": ["HS-ESS1-1", "HS-ESS1-2", "HS-ESS1-3", "HS-ESS1-4"]},
+    {"number": 2, "title": "Earth's Formation and History", "start_week": 5, "end_week": 7, "big_idea": "Rocks, meteorites, and other planets record Earth's 4.6-billion-year story.", "standards": ["HS-ESS1-5", "HS-ESS1-6", "HS-ESS2-1"]},
+    {"number": 3, "title": "Earth's Dynamic Systems and Plate Tectonics", "start_week": 8, "end_week": 11, "big_idea": "Heat from Earth's interior and water at its surface continuously reshape the planet, and changes in one system cascade through others.", "standards": ["HS-ESS2-1", "HS-ESS2-2", "HS-ESS2-3", "HS-ESS2-5"]},
+    {"number": 4, "title": "Weather, Climate, and the Coevolution of Earth and Life", "start_week": 12, "end_week": 14, "big_idea": "Earth's climate depends on energy balance and the carbon cycle, and life has changed Earth as Earth has changed life.", "standards": ["HS-ESS2-4", "HS-ESS2-6", "HS-ESS2-7"]},
+    {"number": 5, "title": "Natural Hazards and Resources in California", "start_week": 15, "end_week": 18, "big_idea": "Where people live and how they use energy and minerals are shaped by hazards and resources, and every resource choice has costs and benefits.", "standards": ["HS-ESS3-1", "HS-ESS3-2"]},
+    {"number": 6, "title": "Ecosystems and Biodiversity", "start_week": 19, "end_week": 22, "big_idea": "Biodiversity supports ecosystem stability, and human resource use can protect or erode it.", "standards": ["HS-LS2-6", "HS-LS2-7", "HS-LS4-6", "HS-ESS3-3"]},
+    {"number": 7, "title": "Water, Air, and Pollution", "start_week": 23, "end_week": 25, "big_idea": "Pollutants move through connected Earth systems, and technology can reduce their impact.", "standards": ["HS-ESS3-4", "HS-ESS3-6", "HS-ESS2-5"]},
+    {"number": 8, "title": "Global Climate Change", "start_week": 26, "end_week": 29, "big_idea": "Data and models show that human activity is changing climate at an unprecedented rate, with regional impacts in California.", "standards": ["HS-ESS3-5", "HS-ESS3-6", "HS-ESS2-4", "HS-ESS3-1"]},
+    {"number": 9, "title": "Engineering for Sustainability", "start_week": 30, "end_week": 32, "big_idea": "Engineering design breaks global challenges into solvable problems with criteria, constraints, and trade-offs.", "standards": ["HS-ETS1-1", "HS-ETS1-2", "HS-ETS1-3", "HS-ETS1-4", "HS-ESS3-4"]},
+    {"number": 10, "title": "Capstone: Local Environmental Investigation", "start_week": 33, "end_week": 36, "big_idea": "Scientists answer local questions with data and communicate findings to their community.", "standards": ["HS-ESS3-4", "HS-LS2-7", "HS-ETS1-3", "HS-ESS3-6"]}
+  ],
+  "weeks": [
+    {"week": 1, "unit": 1, "topic": "The Sun: fusion and energy", "objectives": ["Model nuclear fusion in the Sun's core", "Explain how solar energy reaches Earth"], "standards": ["HS-ESS1-1"], "vocabulary": ["nuclear fusion", "photosphere", "radiation", "convection zone", "solar wind"], "materials": ["clay or playdough in 2 colors", "flashlight", "solar-safe pinhole projector (cardboard, foil)"],
+      "days": [
+        {"title": "The Sun's layers", "work": "Read about the Sun's structure and build a cross-section clay model labeling core, radiative zone, convection zone, photosphere, and corona."},
+        {"title": "Fusion model", "work": "Model the proton-proton chain with clay balls (protons/neutrons) showing 4 H → 1 He; calculate the mass lost and energy released with E = mc²."},
+        {"title": "Observe sunspots", "work": "Build a pinhole projector and safely observe the Sun's disk; compare with today's NASA SDO image and sketch sunspots."},
+        {"title": "Sun's life span", "work": "Use the Sun's mass, luminosity, and fusion rate to estimate its main-sequence life (~10 billion years) and draw a model of its future (red giant, white dwarf)."},
+        {"title": "Check", "work": "Write a CER explaining how energy from fusion in the core reaches Earth and take a short quiz."}
+      ], "assessment": "Fusion model and CER on solar energy transfer."},
+    {"week": 2, "unit": 1, "topic": "Light, spectra, and the Big Bang", "objectives": ["Interpret emission and absorption spectra", "Explain redshift and cosmic background evidence"], "standards": ["HS-ESS1-2"], "vocabulary": ["spectrum", "redshift", "Doppler effect", "cosmic microwave background", "Hubble's law"], "materials": ["old CD or DVD", "cardboard tube", "balloon", "marker"],
+      "days": [
+        {"title": "DIY spectroscope", "work": "Build a spectroscope from a CD and cardboard tube; compare spectra of an incandescent bulb, LED, and fluorescent light and sketch the lines."},
+        {"title": "Spectral fingerprints", "work": "Match unknown spectra to element spectra and explain how astronomers determine star composition."},
+        {"title": "Expanding balloon", "work": "Draw dots on a balloon, inflate it in stages, and measure distances between dots to model Hubble's law; graph velocity vs. distance."},
+        {"title": "Evidence for the Big Bang", "work": "Read about redshifted galaxies, the cosmic microwave background (COBE/Planck), and the H/He ratio; organize the three lines of evidence in a table."},
+        {"title": "Explanation", "work": "Write a 1-page scientific explanation of the Big Bang theory citing all three lines of evidence."}
+      ], "assessment": "Big Bang explanation scored on evidence and reasoning."},
+    {"week": 3, "unit": 1, "topic": "Stellar life cycles and nucleosynthesis", "objectives": ["Trace the life cycles of stars of different masses", "Explain how stars produce elements"], "standards": ["HS-ESS1-3", "HS-ESS1-1"], "vocabulary": ["nebula", "main sequence", "supernova", "neutron star", "nucleosynthesis", "H-R diagram"], "materials": ["star data table", "colored pencils", "periodic table"],
+      "days": [
+        {"title": "H-R diagram", "work": "Plot 30 stars by temperature and luminosity on a Hertzsprung-Russell diagram and identify main sequence, giants, and white dwarfs."},
+        {"title": "Life cycles", "work": "Create a branching flowchart of low-mass vs. high-mass star life cycles."},
+        {"title": "Element factories", "work": "Color-code a periodic table by origin (Big Bang, fusion in low-mass stars, massive stars, supernovae/neutron-star mergers)."},
+        {"title": "We are stardust", "work": "Trace the origin of 5 elements in your body (H, C, O, Ca, Fe) and write a short explainer for a younger audience."},
+        {"title": "Communicate", "work": "Present a 3-minute infographic or podcast on how stars make elements and take a quiz."}
+      ], "assessment": "Element-origin infographic/podcast and quiz."},
+    {"week": 4, "unit": 1, "topic": "Orbits and Kepler's laws", "objectives": ["Apply Kepler's laws and Newton's gravitation to orbits", "Predict orbital motion mathematically"], "standards": ["HS-ESS1-4"], "vocabulary": ["ellipse", "eccentricity", "orbital period", "semi-major axis", "gravitation"], "materials": ["string", "2 pushpins", "cardboard", "PhET Gravity and Orbits"],
+      "days": [
+        {"title": "Kepler's first law", "work": "Draw ellipses with string and pins at different focus spacings; calculate eccentricity and compare with planetary orbits."},
+        {"title": "Kepler's second law", "work": "Use the PhET Gravity and Orbits simulation to show equal areas in equal times; explain why planets speed up near perihelion."},
+        {"title": "Kepler's third law", "work": "Graph T² vs. a³ for planets using NASA fact-sheet data and confirm the linear relationship; predict a moon's period."},
+        {"title": "Satellites", "work": "Use Newton's law of gravitation to calculate the orbital speed of the ISS and a geostationary satellite."},
+        {"title": "Unit 1 test", "work": "Take the Unit 1 test on the Sun, the Big Bang, stars, and orbits."}
+      ], "assessment": "Unit 1 test."},
+    {"week": 5, "unit": 2, "topic": "Early Earth and the solar system's formation", "objectives": ["Explain solar nebula formation", "Use meteorites and other planets as evidence for early Earth"], "standards": ["HS-ESS1-6"], "vocabulary": ["solar nebula", "accretion", "differentiation", "meteorite", "radiometric dating"], "materials": ["flour", "cocoa powder", "baking pan", "marbles or small rocks"],
+      "days": [
+        {"title": "Solar nebula", "work": "Read about the solar nebula hypothesis and draw a storyboard of accretion from dust to planets."},
+        {"title": "Crater lab", "work": "Drop marbles from different heights into a pan of flour topped with cocoa and measure crater diameter vs. drop height; relate to the Moon's ancient surface."},
+        {"title": "Meteorites", "work": "Examine NASA images of chondrites and explain why meteorites date the solar system to 4.56 billion years."},
+        {"title": "Radiometric dating", "work": "Model half-life with 100 coins or M&Ms (remove 'decayed' ones each round) and graph the decay curve; solve dating problems."},
+        {"title": "Account of early Earth", "work": "Write an evidence-based account of Earth's formation using meteorites, lunar rocks, and zircon crystals."}
+      ], "assessment": "Written account of early Earth (HS-ESS1-6)."},
+    {"week": 6, "unit": 2, "topic": "Seafloor spreading and the ages of rocks", "objectives": ["Analyze seafloor age and magnetic striping", "Explain why oceanic crust is younger than continental crust"], "standards": ["HS-ESS1-5"], "vocabulary": ["seafloor spreading", "paleomagnetism", "mid-ocean ridge", "subduction", "craton"], "materials": ["paper strips", "markers", "NOAA seafloor age map"],
+      "days": [
+        {"title": "Continental drift", "work": "Fit cut-out continents together using fossil and rock-type evidence as Wegener did."},
+        {"title": "Magnetic striping", "work": "Model seafloor spreading by pulling two paper strips through a slit and marking alternating magnetic polarity bands."},
+        {"title": "Seafloor age map", "work": "Analyze the NOAA seafloor age map: measure distance vs. age from the Mid-Atlantic Ridge and calculate spreading rate in cm/yr."},
+        {"title": "Oldest rocks", "work": "Compare the ages of the oldest oceanic crust (~180 million years) and continental rocks (~4 billion years) and explain the difference using subduction."},
+        {"title": "Evaluate evidence", "work": "Write an evaluation of three lines of evidence for plate tectonics and take a quiz."}
+      ], "assessment": "Evidence evaluation and quiz."},
+    {"week": 7, "unit": 2, "topic": "Geologic time", "objectives": ["Interpret relative and absolute ages", "Build a scaled geologic timeline"], "standards": ["HS-ESS1-5", "HS-ESS1-6", "HS-ESS2-1"], "vocabulary": ["superposition", "unconformity", "index fossil", "eon", "era"], "materials": ["adding-machine tape or 4.6 m string", "meter stick", "colored paper/sand layers"],
+      "days": [
+        {"title": "Relative dating", "work": "Apply superposition, cross-cutting, and inclusions to sequence events in 4 rock-layer diagrams."},
+        {"title": "Layer model", "work": "Build layered sand/paper strata in a clear cup, add a 'fault' and 'intrusion,' and have a family member determine the sequence."},
+        {"title": "Timeline", "work": "Build a 4.6-meter scaled timeline (1 mm = 1 million years) marking major events from Earth's formation to humans."},
+        {"title": "California's story", "work": "Read about how California was assembled (accreted terranes, Sierra batholith, San Andreas) and add its events to the timeline."},
+        {"title": "Unit 2 test", "work": "Take the Unit 2 test on Earth's formation and history."}
+      ], "assessment": "Unit 2 test and scaled timeline."},
+    {"week": 8, "unit": 3, "topic": "Earth's interior and mantle convection", "objectives": ["Use seismic evidence to model Earth's layers", "Model mantle convection"], "standards": ["HS-ESS2-3"], "vocabulary": ["seismic wave", "P-wave", "S-wave", "shadow zone", "convection", "mantle plume"], "materials": ["clear pot or glass pan", "water", "food coloring", "candle or stovetop", "Slinky"],
+      "days": [
+        {"title": "Seismic waves", "work": "Use a Slinky to model P-waves and S-waves; explain why S-waves cannot pass through liquid."},
+        {"title": "Shadow zones", "work": "Analyze a diagram of seismic shadow zones and infer the liquid outer core; draw Earth's layers to scale."},
+        {"title": "Convection lab", "work": "Heat water in a glass pan over a low flame and add drops of food coloring to observe convection cells; sketch and relate to the mantle."},
+        {"title": "Hot spots", "work": "Use Hawaiian island ages to calculate Pacific Plate speed and direction over the Hawaii hot spot."},
+        {"title": "Model", "work": "Draw a labeled model of Earth's interior showing how convection cycles matter and drives plates; take a quiz."}
+      ], "assessment": "Interior/convection model and quiz."},
+    {"week": 9, "unit": 3, "topic": "Plate boundaries and California landforms", "objectives": ["Relate boundary types to landforms", "Analyze California earthquake data"], "standards": ["HS-ESS2-1", "HS-ESS1-5"], "vocabulary": ["divergent", "convergent", "transform", "fault", "subduction zone"], "materials": ["graham crackers", "frosting", "wax paper", "USGS earthquake map"],
+      "days": [
+        {"title": "Boundary models", "work": "Model divergent, convergent, and transform boundaries with graham crackers on frosting; record landforms each produces."},
+        {"title": "Global patterns", "work": "Plot the last 30 days of M4.5+ earthquakes from USGS on a world map and outline plate boundaries."},
+        {"title": "San Andreas", "work": "Study the San Andreas transform fault and measure offset features (e.g., Wallace Creek) to calculate slip rate."},
+        {"title": "Cascadia & mountains", "work": "Compare Cascadia subduction (Mt. Shasta, Lassen) with the Sierra Nevada's uplift; map California's landforms by process."},
+        {"title": "Check", "work": "Draw an annotated California cross-section from the Pacific to Nevada showing plate processes; take a quiz."}
+      ], "assessment": "Annotated California cross-section."},
+    {"week": 10, "unit": 3, "topic": "Water as a geologic agent", "objectives": ["Investigate properties of water", "Measure water's effects on erosion and weathering"], "standards": ["HS-ESS2-5"], "vocabulary": ["weathering", "erosion", "frost wedging", "solubility", "stream table"], "materials": ["chalk", "vinegar", "plaster of Paris", "zip bags", "baking pan stream table", "sand", "watering can"],
+      "days": [
+        {"title": "Properties of water", "work": "Test water's high heat capacity by heating equal masses of water and sand under a lamp and recording temperature every 2 minutes."},
+        {"title": "Chemical weathering", "work": "Place chalk in water vs. vinegar and measure mass loss over 24 hours to model acid weathering of limestone."},
+        {"title": "Frost wedging", "work": "Fill a small plaster block's drilled hole with water, freeze/thaw it several cycles, and record cracking."},
+        {"title": "Stream table", "work": "Build a sand stream table in a baking pan; vary slope and flow rate and measure erosion and deposition."},
+        {"title": "Lab report", "work": "Write a full lab report on one investigation with variables, data table, graph, and conclusion."}
+      ], "assessment": "Water-investigation lab report (HS-ESS2-5)."},
+    {"week": 11, "unit": 3, "topic": "Feedbacks among Earth systems", "objectives": ["Analyze data showing feedbacks", "Distinguish positive and negative feedbacks"], "standards": ["HS-ESS2-2"], "vocabulary": ["feedback", "albedo", "positive feedback", "negative feedback", "sphere interactions"], "materials": ["black and white paper", "2 thermometers", "lamp", "ice cubes"],
+      "days": [
+        {"title": "Four spheres", "work": "Diagram interactions among geosphere, hydrosphere, atmosphere, and biosphere for a wildfire event."},
+        {"title": "Albedo lab", "work": "Melt ice cubes on black vs. white paper under a lamp and record melt time and temperature; relate to sea-ice feedback."},
+        {"title": "Volcanic feedback", "work": "Analyze temperature data after the 1991 Mt. Pinatubo eruption and explain the cooling effect of aerosols."},
+        {"title": "Dams and rivers", "work": "Analyze how a dam changes sediment, beaches, and ecosystems downstream (e.g., Matilija Dam) as a feedback chain."},
+        {"title": "Unit 3 test", "work": "Take the Unit 3 test on Earth's dynamic systems."}
+      ], "assessment": "Unit 3 test."},
+    {"week": 12, "unit": 4, "topic": "Earth's energy budget and climate drivers", "objectives": ["Model energy flow into and out of Earth", "Explain Milankovitch cycles and other climate drivers"], "standards": ["HS-ESS2-4"], "vocabulary": ["energy budget", "greenhouse effect", "Milankovitch cycles", "insolation", "ocean circulation"], "materials": ["two jars", "plastic wrap", "thermometers", "lamp", "PhET Greenhouse Effect"],
+      "days": [
+        {"title": "Energy budget", "work": "Label NASA's Earth energy budget diagram and confirm incoming and outgoing energy balance."},
+        {"title": "Greenhouse jar", "work": "Compare temperatures in a covered vs. uncovered jar under a lamp for 30 minutes and graph results; discuss limits of the model."},
+        {"title": "Greenhouse simulation", "work": "Use PhET Greenhouse Effect to vary greenhouse gas concentration and record equilibrium temperature."},
+        {"title": "Long-term drivers", "work": "Model Milankovitch cycles (eccentricity, tilt, precession) and match them to ice-age cycles in Vostok ice-core data."},
+        {"title": "Check", "work": "Write an explanation of how changes in energy flow at different time scales change climate; take a quiz."}
+      ], "assessment": "Energy flow explanation and quiz."},
+    {"week": 13, "unit": 4, "topic": "The carbon cycle", "objectives": ["Build a quantitative carbon cycle model", "Measure carbon movement in a home experiment"], "standards": ["HS-ESS2-6"], "vocabulary": ["carbon reservoir", "flux", "photosynthesis", "ocean acidification", "fossil fuel"], "materials": ["bromothymol blue (aquarium/pool kit) or red cabbage indicator", "straw", "aquatic plant (Elodea)", "baking soda", "vinegar"],
+      "days": [
+        {"title": "Reservoirs and fluxes", "work": "Build a box-and-arrow carbon cycle model with reservoir sizes (GtC) and annual fluxes from NASA/NOAA data."},
+        {"title": "CO₂ and water", "work": "Blow through a straw into indicator solution to watch it acidify; relate to ocean acidification."},
+        {"title": "Plants take up CO₂", "work": "Place Elodea in acidified indicator under light and in the dark; record color changes to show photosynthesis removing CO₂."},
+        {"title": "Human flux", "work": "Calculate the net yearly increase in atmospheric carbon and compare human emissions to natural fluxes using the Keeling Curve."},
+        {"title": "Model check", "work": "Revise your quantitative model to include human emissions and explain what happens to excess carbon."}
+      ], "assessment": "Quantitative carbon cycle model."},
+    {"week": 14, "unit": 4, "topic": "Coevolution of Earth and life", "objectives": ["Argue from evidence that life and Earth systems coevolved"], "standards": ["HS-ESS2-7"], "vocabulary": ["stromatolite", "Great Oxidation Event", "banded iron formation", "coevolution", "mass extinction"], "materials": ["steel wool", "vinegar", "jars", "timeline from Week 7"],
+      "days": [
+        {"title": "Oxygen revolution", "work": "Read about cyanobacteria and the Great Oxidation Event; examine images of stromatolites and banded iron formations."},
+        {"title": "Rusting model", "work": "Place vinegar-soaked steel wool in a sealed jar to show iron consuming oxygen; relate to banded iron formation."},
+        {"title": "Land plants and soils", "work": "Trace how land plants changed weathering, soil formation, and atmospheric CO₂ during the Devonian."},
+        {"title": "Extinctions", "work": "Analyze the end-Permian and end-Cretaceous extinctions as Earth-system events affecting life."},
+        {"title": "Argument & test", "work": "Write an evidence-based argument on coevolution and take the Unit 4 test."}
+      ], "assessment": "Coevolution argument and Unit 4 test."},
+    {"week": 15, "unit": 5, "topic": "Natural hazards and human activity", "objectives": ["Explain how hazards have shaped settlement", "Prepare a household hazard plan"], "standards": ["HS-ESS3-1"], "vocabulary": ["hazard", "risk", "liquefaction", "wildland-urban interface", "tsunami"], "materials": ["sand", "water", "pan", "small weights", "MyHazards (Cal OES) website"],
+      "days": [
+        {"title": "Earthquake risk", "work": "Look up your address on Cal OES MyHazards; record earthquake, flood, fire, and tsunami risk."},
+        {"title": "Liquefaction lab", "work": "Fill a pan with saturated sand, place small weights on top, and tap the pan to model liquefaction; relate to the 1989 Loma Prieta Marina District damage."},
+        {"title": "Wildfire", "work": "Analyze CAL FIRE data on acres burned over decades and explain links to climate, fuels, and development in the wildland-urban interface."},
+        {"title": "Historical case", "work": "Research how a hazard (1906 San Francisco earthquake, 1862 Great Flood) changed where and how Californians built."},
+        {"title": "Household plan", "work": "Write a family emergency plan and supply checklist for your top two hazards."}
+      ], "assessment": "Family hazard plan and case-study summary."},
+    {"week": 16, "unit": 5, "topic": "Natural resources and civilization", "objectives": ["Explain how resource availability shapes human activity", "Map California's resources"], "standards": ["HS-ESS3-1"], "vocabulary": ["renewable", "nonrenewable", "aquifer", "ore", "reserve"], "materials": ["chocolate chip cookies", "toothpicks", "graph paper", "California water map"],
+      "days": [
+        {"title": "Cookie mining", "work": "'Mine' chocolate chips from cookies with toothpicks under a budget and calculate profit, land damage, and reclamation cost."},
+        {"title": "California gold and oil", "work": "Read about the Gold Rush and Kern County oil fields; explain how these resources shaped settlement."},
+        {"title": "Water resources", "work": "Map the State Water Project and Central Valley Project; explain how water availability shapes agriculture."},
+        {"title": "Groundwater", "work": "Analyze Central Valley subsidence data and explain the link to groundwater pumping during droughts."},
+        {"title": "Check", "work": "Write an explanation of how one resource shaped your region and take a quiz."}
+      ], "assessment": "Regional resource explanation and quiz."},
+    {"week": 17, "unit": 5, "topic": "Energy and mineral resource design solutions", "objectives": ["Evaluate competing energy solutions by cost-benefit", "Compute levelized cost and emissions"], "standards": ["HS-ESS3-2"], "vocabulary": ["cost-benefit ratio", "levelized cost", "lithium", "capacity factor", "life-cycle assessment"], "materials": ["home utility bill", "spreadsheet", "small solar cell (optional)"],
+      "days": [
+        {"title": "Energy mix", "work": "Analyze California's in-state electricity mix from the California Energy Commission and compare to 10 years ago."},
+        {"title": "Compare sources", "work": "Build a spreadsheet comparing solar, wind, natural gas, geothermal, and nuclear on cost, emissions, land use, and reliability."},
+        {"title": "Lithium", "work": "Evaluate lithium extraction from the Salton Sea (geothermal brine) vs. hard-rock mining for EV batteries."},
+        {"title": "Home audit", "work": "Use your household utility bill to calculate monthly kWh and CO₂ and test one solution (LED swap, solar panel) with a cost-benefit ratio."},
+        {"title": "Decision memo", "work": "Write a one-page memo recommending an energy solution for a California town with justified cost-benefit reasoning."}
+      ], "assessment": "Energy decision memo."},
+    {"week": 18, "unit": 5, "topic": "Semester 1 review and final", "objectives": ["Review Units 1–5", "Demonstrate semester mastery"], "standards": ["HS-ESS1-2", "HS-ESS2-1", "HS-ESS2-4", "HS-ESS3-1", "HS-ESS3-2"], "vocabulary": ["review"], "materials": ["notes", "concept map paper"],
+      "days": [
+        {"title": "Concept map", "work": "Build a semester concept map linking stars, Earth formation, plate tectonics, climate, and resources."},
+        {"title": "Data practice", "work": "Complete a data-analysis review set using graphs from each unit."},
+        {"title": "Practice test", "work": "Take a practice exam and target weak areas with CK-12 readings."},
+        {"title": "Lab review", "work": "Review your lab notebook and summarize the claim and evidence from five investigations."},
+        {"title": "Semester final", "work": "Take the Semester 1 final exam."}
+      ], "assessment": "Semester 1 final exam."},
+    {"week": 19, "unit": 6, "topic": "Ecosystem stability and change", "objectives": ["Evaluate claims about ecosystem stability", "Investigate a local ecosystem"], "standards": ["HS-LS2-6"], "vocabulary": ["biodiversity", "carrying capacity", "succession", "disturbance", "keystone species"], "materials": ["meter stick or 1 m² string quadrat", "field notebook", "iNaturalist app"],
+      "days": [
+        {"title": "Biodiversity", "work": "Define genetic, species, and ecosystem diversity and calculate a simple diversity index from sample data."},
+        {"title": "Quadrat survey", "work": "Mark a 1 m² quadrat in a yard, park, or vacant lot and identify and count all organisms using iNaturalist."},
+        {"title": "Keystone species", "work": "Analyze sea otter–urchin–kelp data from the California coast as an example of a keystone species."},
+        {"title": "Succession", "work": "Compare succession after a California wildfire with succession on new volcanic rock; draw a timeline."},
+        {"title": "CER", "work": "Write a CER evaluating the claim that stable ecosystems maintain consistent numbers of organisms, using kelp forest data."}
+      ], "assessment": "Quadrat data and CER on ecosystem stability."},
+    {"week": 20, "unit": 6, "topic": "Human impacts on biodiversity", "objectives": ["Identify major threats (HIPPO)", "Analyze a California biodiversity case"], "standards": ["HS-LS2-7", "HS-ESS3-3"], "vocabulary": ["habitat loss", "invasive species", "overharvesting", "endemic", "biodiversity hotspot"], "materials": ["CDFW species info", "map of California hotspots"],
+      "days": [
+        {"title": "HIPPO", "work": "Learn the HIPPO threats (Habitat loss, Invasive species, Pollution, Population, Overharvesting) and sort 10 case examples."},
+        {"title": "California hotspot", "work": "Explain why the California Floristic Province is a biodiversity hotspot and list five endemic species."},
+        {"title": "Invasives", "work": "Investigate one California invasive (quagga mussel, Argentine ant, ice plant) and its ecological and economic effects."},
+        {"title": "Condor recovery", "work": "Analyze California condor population data from 1982 to present and identify which interventions worked."},
+        {"title": "Check", "work": "Take a quiz and write a paragraph on which threat is most serious in your region."}
+      ], "assessment": "Quiz and regional-threat paragraph."},
+    {"week": 21, "unit": 6, "topic": "Simulating resources, population, and biodiversity", "objectives": ["Create a computational simulation of resource management", "Test management strategies"], "standards": ["HS-ESS3-3", "HS-LS4-6"], "vocabulary": ["simulation", "sustainable yield", "tragedy of the commons", "parameter"], "materials": ["spreadsheet (Google Sheets)", "dried beans or goldfish crackers"],
+      "days": [
+        {"title": "Fishing game", "work": "Play a 'tragedy of the commons' fishing game with crackers (fish reproduce each round) and record the population collapse."},
+        {"title": "Build the model", "work": "Build a spreadsheet model of a fish population with growth rate, carrying capacity, and harvest."},
+        {"title": "Test strategies", "work": "Test three harvest policies (fixed quota, fixed percentage, no-take zones) and graph population over 50 years."},
+        {"title": "Biodiversity solution", "work": "Revise the simulation to add a habitat corridor or marine protected area and measure its effect."},
+        {"title": "Report", "work": "Write a short report recommending a management strategy with simulation graphs as evidence."}
+      ], "assessment": "Simulation and recommendation report."},
+    {"week": 22, "unit": 6, "topic": "Designing solutions for biodiversity", "objectives": ["Design and evaluate a solution reducing human impact on biodiversity"], "standards": ["HS-LS2-7", "HS-LS4-6"], "vocabulary": ["wildlife corridor", "restoration", "native plants", "pollinator"], "materials": ["native plant seeds or a pollinator plant", "wood scraps for a bee hotel (optional)"],
+      "days": [
+        {"title": "Case study", "work": "Study the Wallis Annenberg Wildlife Crossing over the 101 Freeway and the criteria used to design it."},
+        {"title": "Define the problem", "work": "Choose a local biodiversity problem and write criteria and constraints for a solution."},
+        {"title": "Design", "work": "Design a solution (pollinator garden, bird-safe windows, native lawn replacement) with a sketch and budget."},
+        {"title": "Build/plant", "work": "Implement a small-scale version (plant native seeds, build a bee hotel, apply window decals) and document it with photos."},
+        {"title": "Unit 6 test", "work": "Take the Unit 6 test on ecosystems and biodiversity."}
+      ], "assessment": "Solution design portfolio and Unit 6 test."},
+    {"week": 23, "unit": 7, "topic": "Water quality", "objectives": ["Test water quality indicators", "Trace sources of water pollution"], "standards": ["HS-ESS3-6", "HS-ESS2-5"], "vocabulary": ["watershed", "point source", "nonpoint source", "eutrophication", "turbidity"], "materials": ["water test strips (pH, nitrate, hardness)", "clear jars", "coffee filters", "sand", "gravel", "activated charcoal"],
+      "days": [
+        {"title": "Your watershed", "work": "Use the EPA 'How's My Waterway' tool to identify your watershed and its listed impairments."},
+        {"title": "Water testing", "work": "Test tap water, a local stream or pond, and rainwater with test strips; record pH, nitrate, and hardness."},
+        {"title": "Eutrophication", "work": "Add a pinch of fertilizer to one of two jars of pond water and observe algae growth over the week (continue observations daily)."},
+        {"title": "Filtration", "work": "Build a layered sand-gravel-charcoal filter and measure turbidity before and after filtering muddy water."},
+        {"title": "Check", "work": "Write a watershed report connecting test results to land use; take a quiz."}
+      ], "assessment": "Watershed report."},
+    {"week": 24, "unit": 7, "topic": "Air quality", "objectives": ["Measure particulate pollution", "Explain smog formation in California"], "standards": ["HS-ESS3-6", "HS-ESS3-4"], "vocabulary": ["particulate matter (PM2.5)", "ozone", "smog", "inversion layer", "AQI"], "materials": ["index cards", "petroleum jelly", "magnifying glass", "AirNow app"],
+      "days": [
+        {"title": "Particle catchers", "work": "Coat index cards with petroleum jelly and place them in 4 locations (near a road, indoors, backyard, garage) for 3 days."},
+        {"title": "Smog in California", "work": "Explain how the Los Angeles basin's inversion layer traps pollutants; diagram ozone formation."},
+        {"title": "AQI data", "work": "Graph a month of AQI data from AirNow for your area and identify causes of high-AQI days (wildfire smoke, heat)."},
+        {"title": "Count particles", "work": "Collect cards and count particles under a magnifier in a 1 cm² square; compare locations."},
+        {"title": "Report", "work": "Write a lab report on particulate levels by location with recommendations."}
+      ], "assessment": "Particulate lab report."},
+    {"week": 25, "unit": 7, "topic": "Waste, plastics, and pollution solutions", "objectives": ["Analyze waste streams", "Evaluate a technology that reduces pollution"], "standards": ["HS-ESS3-4"], "vocabulary": ["microplastics", "landfill", "composting", "circular economy", "SB 1383"], "materials": ["kitchen scale", "household trash for one week", "compost container"],
+      "days": [
+        {"title": "Waste audit", "work": "Weigh and sort your household's trash, recycling, and organics for the week and record in a spreadsheet."},
+        {"title": "Microplastics", "work": "Filter a sample of beach sand or laundry lint water through a coffee filter and look for microplastic fibers with a magnifier."},
+        {"title": "Composting", "work": "Start a small compost bin and explain how California's SB 1383 organic waste law reduces methane."},
+        {"title": "Evaluate technology", "work": "Evaluate a pollution-reduction technology (catalytic converter, scrubbers, Ocean Cleanup) using cost, effectiveness, and side effects."},
+        {"title": "Unit 7 test", "work": "Take the Unit 7 test on water, air, and waste."}
+      ], "assessment": "Waste audit analysis and Unit 7 test."},
+    {"week": 26, "unit": 8, "topic": "Evidence of climate change", "objectives": ["Analyze temperature, ice, and sea-level data", "Distinguish weather from climate"], "standards": ["HS-ESS3-5", "HS-ESS2-4"], "vocabulary": ["anomaly", "proxy data", "ice core", "sea-level rise", "baseline"], "materials": ["NASA GISS temperature data", "spreadsheet"],
+      "days": [
+        {"title": "Weather vs. climate", "work": "Compare one week of local weather to 30-year normals and explain the difference between weather and climate."},
+        {"title": "Temperature record", "work": "Graph NASA global temperature anomalies since 1880 and calculate the warming rate per decade for recent decades."},
+        {"title": "Ice and sea level", "work": "Graph Arctic sea-ice extent and global sea-level data; calculate rates of change."},
+        {"title": "Proxy data", "work": "Compare current CO₂ levels to 800,000 years of ice-core data and describe how unusual the current rate is."},
+        {"title": "Check", "work": "Take a data-interpretation quiz."}
+      ], "assessment": "Data-interpretation quiz."},
+    {"week": 27, "unit": 8, "topic": "Climate models and forecasts", "objectives": ["Interpret climate model projections", "Forecast regional impacts"], "standards": ["HS-ESS3-5", "HS-ESS3-6"], "vocabulary": ["climate model", "emission scenario", "projection", "uncertainty"], "materials": ["Cal-Adapt website", "En-ROADS simulator"],
+      "days": [
+        {"title": "How models work", "work": "Read how climate models divide Earth into grid cells and test them by hindcasting the past."},
+        {"title": "Scenarios", "work": "Compare low and high emission scenario projections for 2100 temperature and sea level."},
+        {"title": "Cal-Adapt", "work": "Use Cal-Adapt to project extreme heat days and snowpack for your county under two scenarios."},
+        {"title": "En-ROADS", "work": "Use the En-ROADS climate simulator to test policies and record which changes most reduce warming."},
+        {"title": "Forecast", "work": "Write an evidence-based forecast of climate impacts for your region in 2050 with uncertainty noted."}
+      ], "assessment": "Regional climate forecast."},
+    {"week": 28, "unit": 8, "topic": "Climate impacts on California", "objectives": ["Connect climate change to drought, fire, snowpack, and coastline", "Explain human responses"], "standards": ["HS-ESS3-1", "HS-ESS3-5"], "vocabulary": ["snowpack", "atmospheric river", "megadrought", "coastal erosion", "adaptation"], "materials": ["CA DWR snow survey data", "ice cubes", "pan with sand beach model"],
+      "days": [
+        {"title": "Snowpack", "work": "Graph April 1 Sierra snowpack data and explain why it matters for California's water supply."},
+        {"title": "Weather whiplash", "work": "Analyze the swing from drought to atmospheric-river floods (e.g., 2022–2023) and its effects."},
+        {"title": "Sea-level model", "work": "Build a sand beach in a pan, add water, and model sea-level rise with melting ice to measure shoreline retreat."},
+        {"title": "Adaptation", "work": "Compare adaptation strategies (managed retreat, seawalls, groundwater recharge) for a coastal or valley community."},
+        {"title": "Check", "work": "Take a quiz and write a paragraph on the climate impact you consider most urgent for your region."}
+      ], "assessment": "Impact quiz and paragraph."},
+    {"week": 29, "unit": 8, "topic": "Mitigation and your carbon footprint", "objectives": ["Represent human modifications to Earth systems computationally", "Evaluate mitigation strategies"], "standards": ["HS-ESS3-6", "HS-ESS3-4"], "vocabulary": ["mitigation", "carbon footprint", "cap-and-trade", "carbon sequestration", "net zero"], "materials": ["EPA carbon footprint calculator", "spreadsheet"],
+      "days": [
+        {"title": "Footprint", "work": "Calculate your household carbon footprint with the EPA calculator and identify the three largest sources."},
+        {"title": "Reduction plan", "work": "Model in a spreadsheet how three changes would reduce your footprint over 5 years."},
+        {"title": "California policy", "work": "Read about AB 32, cap-and-trade, and the 2045 carbon-neutrality goal; summarize each."},
+        {"title": "Sequestration", "work": "Compare natural (forests, wetlands, soils) and technological (direct air capture) sequestration costs and capacities."},
+        {"title": "Unit 8 test", "work": "Take the Unit 8 test on climate change."}
+      ], "assessment": "Footprint reduction model and Unit 8 test."},
+    {"week": 30, "unit": 9, "topic": "Defining a global challenge", "objectives": ["Specify criteria and constraints for a global challenge", "Break the problem into sub-problems"], "standards": ["HS-ETS1-1", "HS-ETS1-2"], "vocabulary": ["criteria", "constraints", "trade-off", "decision matrix", "sub-problem"], "materials": ["engineering notebook"],
+      "days": [
+        {"title": "Choose a challenge", "work": "Choose a global challenge (clean water access, urban heat, food waste) and research its scale with data."},
+        {"title": "Criteria and constraints", "work": "Write quantitative and qualitative criteria and constraints that reflect societal needs."},
+        {"title": "Decompose", "work": "Break the challenge into three smaller engineering problems with a problem tree diagram."},
+        {"title": "Brainstorm", "work": "Brainstorm and sketch at least five possible solutions to one sub-problem."},
+        {"title": "Check-in", "work": "Present the problem definition and get feedback; refine criteria."}
+      ], "assessment": "Problem definition and criteria sheet."},
+    {"week": 31, "unit": 9, "topic": "Designing and building a prototype", "objectives": ["Design and test a prototype solution"], "standards": ["HS-ETS1-2", "HS-ESS3-4"], "vocabulary": ["prototype", "iteration", "testing protocol", "solar oven"], "materials": ["cardboard box", "aluminum foil", "plastic wrap", "black paper", "thermometer"],
+      "days": [
+        {"title": "Choose design", "work": "Use a decision matrix to choose the best design (example: a solar oven for clean cooking, a cool-roof model, or a water filter)."},
+        {"title": "Build v1", "work": "Build version 1 of your prototype from household materials."},
+        {"title": "Test v1", "work": "Test the prototype with a data protocol (e.g., solar oven temperature every 5 minutes for an hour)."},
+        {"title": "Iterate", "work": "Modify one variable and build version 2."},
+        {"title": "Test v2", "work": "Retest version 2 and compare performance with a graph."}
+      ], "assessment": "Prototype test data and graphs."},
+    {"week": 32, "unit": 9, "topic": "Evaluating trade-offs and simulating impacts", "objectives": ["Evaluate solutions using prioritized criteria and trade-offs", "Use a simulation to model impact"], "standards": ["HS-ETS1-3", "HS-ETS1-4"], "vocabulary": ["life-cycle", "scalability", "equity", "sensitivity analysis"], "materials": ["spreadsheet", "En-ROADS or spreadsheet model"],
+      "days": [
+        {"title": "Trade-offs", "work": "Score your solution on cost, safety, reliability, aesthetics, and social/environmental impact."},
+        {"title": "Scale it up", "work": "Build a spreadsheet simulation of the impact if 10,000 households adopted your solution."},
+        {"title": "Sensitivity", "work": "Change key assumptions in the simulation and report how results change."},
+        {"title": "Design brief", "work": "Write a 2-page design brief: problem, criteria, design, test results, trade-offs, and simulated impact."},
+        {"title": "Unit 9 presentation", "work": "Present your design in a 5-minute pitch and answer questions."}
+      ], "assessment": "Design brief and pitch."},
+    {"week": 33, "unit": 10, "topic": "Capstone: research question and plan", "objectives": ["Pose a local environmental question", "Plan a data collection method"], "standards": ["HS-ESS3-6", "HS-LS2-7"], "vocabulary": ["hypothesis", "sampling plan", "control", "replicate"], "materials": ["field notebook", "test kits from earlier units"],
+      "days": [
+        {"title": "Question", "work": "Choose a local question (e.g., Does street tree cover lower surface temperatures? How clean is the creek after rain?)."},
+        {"title": "Background", "work": "Find three credible sources on the issue and summarize what is known."},
+        {"title": "Plan", "work": "Write a procedure with variables, sampling locations, replicates, and safety plan."},
+        {"title": "Pilot", "work": "Collect pilot data and adjust methods as needed."},
+        {"title": "Approval", "work": "Present the plan in a conference for approval."}
+      ], "assessment": "Approved capstone plan."},
+    {"week": 34, "unit": 10, "topic": "Capstone: data collection", "objectives": ["Collect and organize field data"], "standards": ["HS-ESS3-6", "HS-ESS3-4"], "vocabulary": ["data table", "metadata", "uncertainty"], "materials": ["thermometer or infrared thermometer", "test strips", "camera"],
+      "days": [
+        {"title": "Field day 1", "work": "Collect data at your first set of sites, recording date, time, conditions, and photos."},
+        {"title": "Field day 2", "work": "Collect data at the second set of sites using identical methods."},
+        {"title": "Field day 3", "work": "Collect replicate data to strengthen reliability."},
+        {"title": "Organize", "work": "Enter data in a spreadsheet, calculate means, and note measurement uncertainty."},
+        {"title": "Graph", "work": "Create graphs that answer your question and draft initial findings."}
+      ], "assessment": "Organized data set and graphs."},
+    {"week": 35, "unit": 10, "topic": "Capstone: analysis and solution", "objectives": ["Analyze data and propose a local solution"], "standards": ["HS-LS2-7", "HS-ETS1-3"], "vocabulary": ["conclusion", "recommendation", "stakeholder"], "materials": ["data", "poster board or slides"],
+      "days": [
+        {"title": "Analyze", "work": "Interpret patterns in the data and state whether evidence supports the hypothesis."},
+        {"title": "Propose", "work": "Propose a local solution with trade-offs evaluated against criteria."},
+        {"title": "Write", "work": "Write the capstone report (introduction, methods, results, discussion, recommendation)."},
+        {"title": "Stakeholder letter", "work": "Write a letter to a city council member, school, or water district sharing your findings."},
+        {"title": "Poster", "work": "Create a science-fair-style poster or slide deck."}
+      ], "assessment": "Capstone report and stakeholder letter."},
+    {"week": 36, "unit": 10, "topic": "Capstone presentation and final", "objectives": ["Communicate findings", "Demonstrate year-end mastery"], "standards": ["HS-ESS3-4", "HS-ESS3-6", "HS-ETS1-3"], "vocabulary": ["review"], "materials": ["poster", "review notes"],
+      "days": [
+        {"title": "Present", "work": "Present your capstone to family, co-op, or a local group and answer questions."},
+        {"title": "Review S2", "work": "Review Units 6–9 with a concept map linking biodiversity, pollution, climate, and engineering."},
+        {"title": "Practice test", "work": "Take a practice final exam and correct errors."},
+        {"title": "Final exam", "work": "Take the cumulative final exam."},
+        {"title": "Reflection", "work": "Write a reflection on the most important environmental action you will take as an adult."}
+      ], "assessment": "Capstone presentation and final exam."}
+  ]
+}

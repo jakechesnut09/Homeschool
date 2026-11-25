@@ -1,0 +1,1858 @@
+{
+  "grade": 4,
+  "subject": "HEALTH",
+  "title": "Health 4",
+  "description": "Grade 4 health education aligned to the 2008 California Health Education Content Standards, which focus fourth grade on Nutrition and Physical Activity and on Alcohol, Tobacco and Other Drugs. Students learn nutrients and MyPlate, read Nutrition Facts labels, plan balanced meals and snacks, practice food safety, and set physical-activity goals; then they study safe medicine use, the effects of tobacco/vaping and alcohol, influences such as advertising and peers, and refusal and decision-making skills, finishing with a family health-promotion campaign.",
+  "framework": "2008 California Health Education Content Standards (Grade 4: Nutrition and Physical Activity; Alcohol, Tobacco and Other Drugs); 2019 CA Health Education Framework",
+  "minutes_per_day": 20,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "H-4.1.1.N": "Identify the key nutrients (carbohydrates, proteins, fats, vitamins, minerals, water) and their functions.",
+    "H-4.1.2.N": "Describe the food groups and the recommended daily amounts from each (MyPlate).",
+    "H-4.1.3.N": "Explain the benefits of eating a healthy breakfast and a variety of fruits and vegetables.",
+    "H-4.1.4.N": "Explain the importance of drinking water and limiting sugar-sweetened beverages.",
+    "H-4.1.5.N": "Describe the benefits of daily physical activity and the recommended 60 minutes per day for children.",
+    "H-4.1.6.N": "Explain safe food handling and storage practices.",
+    "H-4.2.1.N": "Describe internal and external influences (family, culture, media, advertising) on food choices and physical activity.",
+    "H-4.3.1.N": "Use the Nutrition Facts label to locate valid information about foods.",
+    "H-4.4.1.N": "Practice effective communication to ask for healthy food and activity options at home and in the community.",
+    "H-4.5.1.N": "Use a decision-making process to choose healthy foods and snacks.",
+    "H-4.6.1.N": "Set a short-term goal to improve nutrition or increase physical activity and track progress.",
+    "H-4.7.1.N": "Plan a nutritious meal and snack using MyPlate.",
+    "H-4.7.2.N": "Track daily food intake and physical activity.",
+    "H-4.8.1.N": "Encourage others to make healthy food and physical activity choices.",
+    "H-4.1.1.A": "Identify safe and unsafe uses of medicines; distinguish prescription and over-the-counter medicines.",
+    "H-4.1.2.A": "Describe the short- and long-term effects of tobacco and nicotine use, including e-cigarettes/vaping and secondhand smoke.",
+    "H-4.1.3.A": "Describe the short- and long-term effects of alcohol use.",
+    "H-4.1.4.A": "Recognize that most young people do not use alcohol, tobacco or other drugs (social norms).",
+    "H-4.1.5.A": "Identify dangers of inhalants and household poisons.",
+    "H-4.2.1.A": "Analyze how advertising and the media influence decisions about alcohol, tobacco and other drugs.",
+    "H-4.2.2.A": "Describe how family and peers influence choices about alcohol, tobacco and other drugs.",
+    "H-4.3.1.A": "Identify trusted adults and community resources for help with alcohol, tobacco and other drug concerns.",
+    "H-4.4.1.A": "Demonstrate refusal skills to avoid alcohol, tobacco and other drugs.",
+    "H-4.5.1.A": "Use a decision-making process to avoid alcohol, tobacco and other drug use.",
+    "H-4.6.1.A": "Set a personal goal to remain alcohol-, tobacco- and drug-free.",
+    "H-4.7.1.A": "Practice safe use of medicines (read labels, take only with adult supervision).",
+    "H-4.8.1.A": "Encourage others to be alcohol-, tobacco- and drug-free."
+  },
+  "resources": [
+    {
+      "name": "KidsHealth for Kids",
+      "url": "https://kidshealth.org/en/kids/",
+      "note": "Kid-friendly articles and videos on nutrition, fitness, medicines, tobacco and alcohol"
+    },
+    {
+      "name": "MyPlate Kids",
+      "url": "https://www.myplate.gov/life-stages/kids",
+      "note": "USDA MyPlate food group guides, activity sheets and games"
+    },
+    {
+      "name": "FDA – Tobacco Public Health Education",
+      "url": "https://www.fda.gov/tobacco-products/public-health-education",
+      "note": "Facts on tobacco and vaping for families and educators"
+    },
+    {
+      "name": "NIDA – Parents & Educators",
+      "url": "https://nida.nih.gov/research-topics/parents-educators",
+      "note": "Science-based drug education resources for elementary students"
+    },
+    {
+      "name": "PBS LearningMedia",
+      "url": "https://www.pbslearningmedia.org",
+      "note": "Short health videos on nutrition, physical activity and healthy choices"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Health Skills and Wellness",
+      "start_week": 1,
+      "end_week": 3,
+      "big_idea": "Good health comes from everyday choices and skills we can practice.",
+      "standards": [
+        "H-4.5.1.N",
+        "H-4.6.1.N",
+        "H-4.1.5.N",
+        "H-4.3.1.A"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Nutrients and MyPlate",
+      "start_week": 4,
+      "end_week": 8,
+      "big_idea": "Our bodies need a variety of nutrients from every food group.",
+      "standards": [
+        "H-4.1.1.N",
+        "H-4.1.2.N",
+        "H-4.1.3.N",
+        "H-4.1.4.N",
+        "H-4.7.2.N"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Food Labels and Influences",
+      "start_week": 9,
+      "end_week": 12,
+      "big_idea": "Labels give reliable information, while ads and habits influence what we choose.",
+      "standards": [
+        "H-4.3.1.N",
+        "H-4.2.1.N",
+        "H-4.5.1.N",
+        "H-4.4.1.N"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Planning Healthy Meals and Food Safety",
+      "start_week": 13,
+      "end_week": 16,
+      "big_idea": "Balanced meals and safe food handling keep families healthy.",
+      "standards": [
+        "H-4.7.1.N",
+        "H-4.1.6.N",
+        "H-4.1.3.N",
+        "H-4.5.1.N"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Physical Activity for Life",
+      "start_week": 17,
+      "end_week": 20,
+      "big_idea": "Sixty minutes of daily activity strengthens the heart, muscles and mind.",
+      "standards": [
+        "H-4.1.5.N",
+        "H-4.6.1.N",
+        "H-4.7.2.N",
+        "H-4.8.1.N"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Medicines and Household Safety",
+      "start_week": 21,
+      "end_week": 23,
+      "big_idea": "Medicines help when used correctly; unsafe use and poisons can harm.",
+      "standards": [
+        "H-4.1.1.A",
+        "H-4.7.1.A",
+        "H-4.1.5.A",
+        "H-4.3.1.A"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Tobacco and Vaping",
+      "start_week": 24,
+      "end_week": 26,
+      "big_idea": "Nicotine is addictive and harms the body; most young people choose not to use it.",
+      "standards": [
+        "H-4.1.2.A",
+        "H-4.1.4.A",
+        "H-4.2.1.A"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Alcohol",
+      "start_week": 27,
+      "end_week": 29,
+      "big_idea": "Alcohol affects the brain and body and is especially harmful to growing kids.",
+      "standards": [
+        "H-4.1.3.A",
+        "H-4.1.4.A",
+        "H-4.2.2.A"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Influences, Decisions and Refusal Skills",
+      "start_week": 30,
+      "end_week": 33,
+      "big_idea": "Recognizing influences and practicing refusal skills helps us stay drug-free.",
+      "standards": [
+        "H-4.2.1.A",
+        "H-4.2.2.A",
+        "H-4.4.1.A",
+        "H-4.5.1.A",
+        "H-4.6.1.A"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Health Promotion Campaign",
+      "start_week": 34,
+      "end_week": 36,
+      "big_idea": "We can encourage our families and communities to make healthy choices.",
+      "standards": [
+        "H-4.8.1.N",
+        "H-4.8.1.A",
+        "H-4.6.1.N",
+        "H-4.6.1.A"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "What is health?",
+      "objectives": [
+        "Describe physical, mental and social health",
+        "Identify healthy habits"
+      ],
+      "standards": [
+        "H-4.1.5.N",
+        "H-4.6.1.N"
+      ],
+      "vocabulary": [
+        "wellness",
+        "physical health",
+        "mental health",
+        "social health",
+        "habit"
+      ],
+      "materials": [
+        "health journal",
+        "markers"
+      ],
+      "days": [
+        {
+          "title": "Health triangle",
+          "work": "Draw a health triangle (physical, mental/emotional, social) and list 3 habits for each side."
+        },
+        {
+          "title": "Habit inventory",
+          "work": "Complete a 15-item checklist of daily habits (sleep, water, activity, fruits and vegetables) and circle strengths."
+        },
+        {
+          "title": "Health journal",
+          "work": "Set up a health journal and write about one healthy habit your family already has."
+        },
+        {
+          "title": "Healthy day schedule",
+          "work": "Plan an ideal healthy day schedule with meals, activity, screen time and 9-12 hours of sleep."
+        },
+        {
+          "title": "Review & check",
+          "work": "Share the health triangle with family and answer 5 quick-check questions on health dimensions."
+        }
+      ],
+      "assessment": "Health triangle and quick check."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "Decision making and goal setting",
+      "objectives": [
+        "Use a decision-making model",
+        "Write a SMART health goal"
+      ],
+      "standards": [
+        "H-4.5.1.N",
+        "H-4.6.1.N"
+      ],
+      "vocabulary": [
+        "decision",
+        "consequence",
+        "option",
+        "SMART goal"
+      ],
+      "materials": [
+        "decision-making worksheet",
+        "health journal"
+      ],
+      "days": [
+        {
+          "title": "Decision steps",
+          "work": "Learn a decision model (Stop, Think of options, Consider consequences, Choose, Check) and apply it to a snack choice."
+        },
+        {
+          "title": "Scenario practice",
+          "work": "Work through 3 scenarios (skipping breakfast, choosing an after-school activity, drink at a party) with the model."
+        },
+        {
+          "title": "SMART goals",
+          "work": "Rewrite 4 vague goals ('eat better') as SMART goals."
+        },
+        {
+          "title": "Your goal",
+          "work": "Write a personal 2-week SMART goal for eating or activity and make a tracking chart."
+        },
+        {
+          "title": "Review & check",
+          "work": "Explain your decision-making steps to a parent using a real choice from today."
+        }
+      ],
+      "assessment": "SMART goal and tracking chart."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Trusted adults and reliable information",
+      "objectives": [
+        "Identify trusted adults",
+        "Recognize reliable health information sources"
+      ],
+      "standards": [
+        "H-4.3.1.A",
+        "H-4.3.1.N"
+      ],
+      "vocabulary": [
+        "trusted adult",
+        "reliable source",
+        "advertisement"
+      ],
+      "materials": [
+        "health journal",
+        "sample websites and ads"
+      ],
+      "days": [
+        {
+          "title": "Trusted adults",
+          "work": "Make a 'helping hand' tracing listing 5 trusted adults and how to reach them."
+        },
+        {
+          "title": "Reliable vs unreliable",
+          "work": "Compare a health ad with a KidsHealth article and list clues that show which is reliable."
+        },
+        {
+          "title": "Asking for help",
+          "work": "Role-play asking a trusted adult for help with a health question."
+        },
+        {
+          "title": "Health helpers",
+          "work": "Identify community health helpers (school nurse, pharmacist, doctor, poison control 1-800-222-1222)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Complete a quiz on reliable sources and trusted adults; check your goal tracker."
+        }
+      ],
+      "assessment": "Trusted adult tracing and quiz."
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "topic": "Nutrients: carbohydrates, proteins and fats",
+      "objectives": [
+        "Identify macronutrients and their jobs",
+        "Name foods rich in each"
+      ],
+      "standards": [
+        "H-4.1.1.N"
+      ],
+      "vocabulary": [
+        "nutrient",
+        "carbohydrate",
+        "protein",
+        "fat",
+        "energy"
+      ],
+      "materials": [
+        "food packages",
+        "pictures of foods",
+        "chart paper"
+      ],
+      "days": [
+        {
+          "title": "Nutrient jobs",
+          "work": "Learn what carbohydrates, proteins and fats do and make a 3-column chart."
+        },
+        {
+          "title": "Food sort",
+          "work": "Sort 20 food pictures or packages by their main macronutrient."
+        },
+        {
+          "title": "Whole grains",
+          "work": "Compare white and whole-wheat bread labels and explain why whole grains give longer-lasting energy."
+        },
+        {
+          "title": "Healthy fats",
+          "work": "Learn the difference between fats in avocados and nuts and fats in fried foods."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a quiz matching carbohydrates, proteins and fats to their jobs and to 10 example foods."
+        }
+      ],
+      "assessment": "Macronutrient quiz."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Vitamins, minerals and water",
+      "objectives": [
+        "Explain vitamins and minerals",
+        "Explain why water is important"
+      ],
+      "standards": [
+        "H-4.1.1.N",
+        "H-4.1.4.N"
+      ],
+      "vocabulary": [
+        "vitamin",
+        "mineral",
+        "calcium",
+        "iron",
+        "hydration"
+      ],
+      "materials": [
+        "measuring cup",
+        "clear cups",
+        "sugar",
+        "drink labels"
+      ],
+      "days": [
+        {
+          "title": "Vitamins and minerals",
+          "work": "Research one vitamin and one mineral (e.g., vitamin C, calcium) and their sources and jobs."
+        },
+        {
+          "title": "Water's job",
+          "work": "Learn how water regulates temperature and track your water intake for one day."
+        },
+        {
+          "title": "Sugar in drinks",
+          "work": "Measure the teaspoons of sugar in a soda, juice drink and sports drink using labels and compare."
+        },
+        {
+          "title": "Rethink your drink",
+          "work": "Make a chart of 6 healthier drink swaps (sparkling water with fruit instead of soda) with teaspoons of sugar saved."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write 3 reasons water is the best drink choice."
+        }
+      ],
+      "assessment": "Sugar-in-drinks chart and paragraph."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "MyPlate food groups",
+      "objectives": [
+        "Name the five food groups",
+        "Describe recommended amounts"
+      ],
+      "standards": [
+        "H-4.1.2.N"
+      ],
+      "vocabulary": [
+        "MyPlate",
+        "fruits",
+        "vegetables",
+        "grains",
+        "protein",
+        "dairy",
+        "portion"
+      ],
+      "materials": [
+        "paper plate",
+        "MyPlate Kids poster",
+        "magazines"
+      ],
+      "days": [
+        {
+          "title": "MyPlate",
+          "work": "Label a paper plate with the 5 MyPlate food groups and recommended proportions."
+        },
+        {
+          "title": "Food group collage",
+          "work": "Cut magazine pictures and glue them into the correct food groups."
+        },
+        {
+          "title": "Portions",
+          "work": "Measure portion sizes of cereal, milk and fruit and compare to what you usually eat."
+        },
+        {
+          "title": "Cultural foods",
+          "work": "Identify food groups in 3 cultural dishes (tamales, stir-fry, pasta)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a quiz naming the five food groups, example foods and the plate proportions for each."
+        }
+      ],
+      "assessment": "MyPlate quiz."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Breakfast, fruits and vegetables",
+      "objectives": [
+        "Explain the benefits of breakfast",
+        "Increase fruits and vegetables"
+      ],
+      "standards": [
+        "H-4.1.3.N",
+        "H-4.1.2.N"
+      ],
+      "vocabulary": [
+        "breakfast",
+        "fiber",
+        "eat the rainbow",
+        "variety"
+      ],
+      "materials": [
+        "breakfast foods",
+        "fruits and vegetables",
+        "chart"
+      ],
+      "days": [
+        {
+          "title": "Breakfast power",
+          "work": "Read about how breakfast fuels the brain and list 5 quick healthy breakfasts."
+        },
+        {
+          "title": "Make breakfast",
+          "work": "Prepare a healthy breakfast with 3 food groups."
+        },
+        {
+          "title": "Eat the rainbow",
+          "work": "Track the colors of fruits and vegetables you eat for 3 days."
+        },
+        {
+          "title": "Taste test",
+          "work": "Taste-test 3 new fruits or vegetables and rate them."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph about the benefits of breakfast and fruits and vegetables."
+        }
+      ],
+      "assessment": "Rainbow tracker and paragraph."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Food tracking",
+      "objectives": [
+        "Track food intake for 3 days",
+        "Compare intake to MyPlate"
+      ],
+      "standards": [
+        "H-4.7.2.N",
+        "H-4.1.2.N"
+      ],
+      "vocabulary": [
+        "food log",
+        "serving",
+        "balance"
+      ],
+      "materials": [
+        "food log sheet",
+        "MyPlate chart"
+      ],
+      "days": [
+        {
+          "title": "Food log day 1",
+          "work": "Record everything you eat and drink today in a food log by food group."
+        },
+        {
+          "title": "Food log day 2",
+          "work": "Continue the food log and add activity minutes."
+        },
+        {
+          "title": "Food log day 3",
+          "work": "Complete the third day of the food log, including a weekend meal, and total the servings per food group."
+        },
+        {
+          "title": "Analyze",
+          "work": "Compare your 3-day log to MyPlate and identify one food group to increase."
+        },
+        {
+          "title": "Unit assessment",
+          "work": "Take the Unit 2 test on nutrients and MyPlate."
+        }
+      ],
+      "assessment": "Food log analysis and Unit 2 test."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Reading the Nutrition Facts label",
+      "objectives": [
+        "Locate key information on the Nutrition Facts label",
+        "Use % Daily Value to compare foods"
+      ],
+      "standards": [
+        "H-4.3.1.N"
+      ],
+      "vocabulary": [
+        "Nutrition Facts",
+        "serving size",
+        "calories",
+        "sodium",
+        "added sugars",
+        "% Daily Value"
+      ],
+      "materials": [
+        "5 food packages from the pantry",
+        "highlighter"
+      ],
+      "days": [
+        {
+          "title": "Label parts",
+          "work": "Label a printed Nutrition Facts panel: serving size, calories, fat, sodium, fiber, added sugars and % Daily Value."
+        },
+        {
+          "title": "Serving size",
+          "work": "Compare the serving size to the whole package on 3 snacks and calculate how many servings each package holds."
+        },
+        {
+          "title": "5/20 rule",
+          "work": "Learn the 5/20 rule (5% DV or less is low, 20% or more is high) and mark 'low' and 'high' nutrients on 3 labels."
+        },
+        {
+          "title": "Pantry scavenger hunt",
+          "work": "Find the cereal or snack in the pantry with the most fiber and the least added sugar and record the numbers."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a label-reading quiz using a new food package."
+        }
+      ],
+      "assessment": "Label-reading quiz."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Comparing snacks and making choices",
+      "objectives": [
+        "Use labels and a decision model to choose snacks",
+        "Compare whole and processed foods"
+      ],
+      "standards": [
+        "H-4.5.1.N",
+        "H-4.3.1.N"
+      ],
+      "vocabulary": [
+        "processed",
+        "whole food",
+        "snack",
+        "nutrient-dense"
+      ],
+      "materials": [
+        "snack packages",
+        "fresh fruit",
+        "decision-making worksheet"
+      ],
+      "days": [
+        {
+          "title": "Whole vs processed",
+          "work": "Compare an apple, applesauce and an apple-flavored fruit snack label and rank them by nutrients."
+        },
+        {
+          "title": "Snack decision",
+          "work": "Use the decision model to choose an after-school snack from 4 options and explain the choice."
+        },
+        {
+          "title": "Sodium check",
+          "work": "Compare sodium in chips, pretzels, popcorn and nuts and graph the results."
+        },
+        {
+          "title": "Make a snack",
+          "work": "Prepare a nutrient-dense snack (veggies and hummus, yogurt parfait) and list its food groups."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a 'Snack Smart' guide with 5 tips and 5 snack ideas."
+        }
+      ],
+      "assessment": "Snack Smart guide."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Advertising and food choices",
+      "objectives": [
+        "Analyze how food ads target kids",
+        "Describe influences on food choices"
+      ],
+      "standards": [
+        "H-4.2.1.N"
+      ],
+      "vocabulary": [
+        "advertising",
+        "persuasion",
+        "slogan",
+        "mascot",
+        "influence"
+      ],
+      "materials": [
+        "cereal boxes",
+        "recorded TV or online food ads"
+      ],
+      "days": [
+        {
+          "title": "Ad detectives",
+          "work": "Watch 3 food commercials and record techniques used (cartoons, prizes, celebrities, catchy songs)."
+        },
+        {
+          "title": "Cereal box analysis",
+          "work": "Compare the front of a sugary cereal box with its Nutrition Facts label and note what the front leaves out."
+        },
+        {
+          "title": "Influences web",
+          "work": "Make a web of influences on your food choices: family, culture, friends, media, cost, taste."
+        },
+        {
+          "title": "Create an ad",
+          "work": "Design a cereal box or poster that advertises a healthy food using the same techniques honestly."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph on how ads try to influence kids and how to think critically about them."
+        }
+      ],
+      "assessment": "Healthy ad design and paragraph."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Communicating about food at home",
+      "objectives": [
+        "Ask for healthy options respectfully",
+        "Appreciate cultural food traditions"
+      ],
+      "standards": [
+        "H-4.4.1.N",
+        "H-4.2.1.N"
+      ],
+      "vocabulary": [
+        "I-message",
+        "request",
+        "culture",
+        "tradition"
+      ],
+      "materials": [
+        "health journal",
+        "family recipe"
+      ],
+      "days": [
+        {
+          "title": "I-messages",
+          "work": "Practice I-messages to ask for healthy food ('I feel more energy when we have fruit at breakfast; could we buy berries?')."
+        },
+        {
+          "title": "Role-play",
+          "work": "Role-play asking for a healthy option at a restaurant, a friend's house and the grocery store."
+        },
+        {
+          "title": "Family traditions",
+          "work": "Interview a family member about a traditional family dish and identify its food groups."
+        },
+        {
+          "title": "Healthy twist",
+          "work": "Suggest one healthy twist to the family recipe and discuss it with the cook."
+        },
+        {
+          "title": "Unit assessment",
+          "work": "Take the Unit 3 test on labels, influences and communication."
+        }
+      ],
+      "assessment": "Unit 3 test and family interview."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Planning a balanced meal",
+      "objectives": [
+        "Plan a balanced meal and snack using MyPlate",
+        "Consider budget and variety"
+      ],
+      "standards": [
+        "H-4.7.1.N",
+        "H-4.1.2.N"
+      ],
+      "vocabulary": [
+        "balanced meal",
+        "menu",
+        "budget",
+        "variety"
+      ],
+      "materials": [
+        "MyPlate template",
+        "grocery flyer"
+      ],
+      "days": [
+        {
+          "title": "Meal analysis",
+          "work": "Analyze 3 sample dinners and decide which food groups are missing."
+        },
+        {
+          "title": "Plan a dinner",
+          "work": "Plan a family dinner that includes all 5 food groups."
+        },
+        {
+          "title": "Budget",
+          "work": "Use a grocery flyer to price the ingredients and stay within a $20 budget."
+        },
+        {
+          "title": "Snack plan",
+          "work": "Plan two healthy snacks for the week, each combining two food groups (apple with peanut butter, carrots with hummus)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Present the menu to family and explain how it follows MyPlate."
+        }
+      ],
+      "assessment": "Meal plan with budget."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "Cooking a healthy recipe",
+      "objectives": [
+        "Follow a recipe safely",
+        "Measure ingredients"
+      ],
+      "standards": [
+        "H-4.7.1.N",
+        "H-4.1.6.N"
+      ],
+      "vocabulary": [
+        "recipe",
+        "measure",
+        "ingredient",
+        "kitchen safety"
+      ],
+      "materials": [
+        "simple recipe",
+        "measuring cups",
+        "knife (with adult)",
+        "cutting board"
+      ],
+      "days": [
+        {
+          "title": "Kitchen safety",
+          "work": "Learn kitchen safety rules (handwashing, knife safety with adult, hot surfaces)."
+        },
+        {
+          "title": "Shop",
+          "work": "Help shop for the meal planned last week, reading labels to choose items."
+        },
+        {
+          "title": "Prep",
+          "work": "Wash produce under running water and, with adult supervision, practice safe cutting with a claw grip."
+        },
+        {
+          "title": "Cook",
+          "work": "Cook the planned dinner with an adult and measure ingredients."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a reflection: what food groups were in the meal and how did it taste?"
+        }
+      ],
+      "assessment": "Cooked meal and reflection."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Food safety",
+      "objectives": [
+        "Explain safe food handling and storage",
+        "Prevent foodborne illness"
+      ],
+      "standards": [
+        "H-4.1.6.N"
+      ],
+      "vocabulary": [
+        "bacteria",
+        "cross-contamination",
+        "refrigerate",
+        "foodborne illness"
+      ],
+      "materials": [
+        "glitter or GloGerm substitute",
+        "soap",
+        "thermometer"
+      ],
+      "days": [
+        {
+          "title": "Clean",
+          "work": "Use glitter on hands to model germ spread, then practice 20-second handwashing."
+        },
+        {
+          "title": "Separate",
+          "work": "Learn why raw meat stays separate from produce and sort grocery items for safe storage."
+        },
+        {
+          "title": "Cook",
+          "work": "Learn safe cooking temperatures and check one with a food thermometer."
+        },
+        {
+          "title": "Chill",
+          "work": "Check the refrigerator temperature (40°F or below) and list leftovers rules."
+        },
+        {
+          "title": "Review & check",
+          "work": "Make a Clean-Separate-Cook-Chill poster for the kitchen."
+        }
+      ],
+      "assessment": "Food safety poster."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Eating out and family meals",
+      "objectives": [
+        "Make healthy choices when eating out",
+        "Value family meals"
+      ],
+      "standards": [
+        "H-4.5.1.N",
+        "H-4.1.3.N"
+      ],
+      "vocabulary": [
+        "menu",
+        "portion",
+        "family meal"
+      ],
+      "materials": [
+        "restaurant menu (online)"
+      ],
+      "days": [
+        {
+          "title": "Menu choices",
+          "work": "Read a restaurant kids' menu and choose a balanced meal and drink."
+        },
+        {
+          "title": "Portions out",
+          "work": "Compare restaurant portion sizes with MyPlate recommendations."
+        },
+        {
+          "title": "Fast food swaps",
+          "work": "Find 3 healthier swaps at a fast-food restaurant using online nutrition info."
+        },
+        {
+          "title": "Family meal",
+          "work": "Plan a screen-free family meal with conversation questions."
+        },
+        {
+          "title": "Unit assessment",
+          "work": "Take the Unit 4 test on meal planning and food safety."
+        }
+      ],
+      "assessment": "Unit 4 test."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Benefits of physical activity",
+      "objectives": [
+        "Describe benefits of daily activity",
+        "Identify the 60-minute guideline"
+      ],
+      "standards": [
+        "H-4.1.5.N"
+      ],
+      "vocabulary": [
+        "aerobic",
+        "muscle-strengthening",
+        "bone-strengthening",
+        "60 minutes"
+      ],
+      "materials": [
+        "stopwatch",
+        "health journal"
+      ],
+      "days": [
+        {
+          "title": "Benefits",
+          "work": "List physical, mental and social benefits of physical activity."
+        },
+        {
+          "title": "Activity types",
+          "work": "Sort activities into aerobic, muscle-strengthening and bone-strengthening."
+        },
+        {
+          "title": "Heart rate",
+          "work": "Measure heart rate before and after 3 minutes of jumping."
+        },
+        {
+          "title": "Mood check",
+          "work": "Rate your mood before and after a 15-minute walk."
+        },
+        {
+          "title": "Review & check",
+          "work": "Take a quiz on the 60-minute guideline, types of activity and three benefits of being active."
+        }
+      ],
+      "assessment": "Activity benefits quiz."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Tracking activity and screen time",
+      "objectives": [
+        "Track activity and screen time",
+        "Compare to recommendations"
+      ],
+      "standards": [
+        "H-4.7.2.N",
+        "H-4.1.5.N"
+      ],
+      "vocabulary": [
+        "sedentary",
+        "screen time",
+        "log"
+      ],
+      "materials": [
+        "activity log",
+        "timer"
+      ],
+      "days": [
+        {
+          "title": "Activity log",
+          "work": "Log activity minutes for 3 days, labeling each activity as light, moderate or vigorous."
+        },
+        {
+          "title": "Screen time log",
+          "work": "Log recreational screen time (TV, games, videos) for the same 3 days with start and end times."
+        },
+        {
+          "title": "Compare",
+          "work": "Compare activity to the 60-minute goal and screen time to family limits."
+        },
+        {
+          "title": "Swap",
+          "work": "List 5 active alternatives to screen time that work indoors and outdoors and try one today."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a paragraph about patterns in your logs and one change you will make next week."
+        }
+      ],
+      "assessment": "Activity and screen time analysis."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Physical activity goal",
+      "objectives": [
+        "Set and track a physical-activity goal",
+        "Overcome barriers to activity"
+      ],
+      "standards": [
+        "H-4.6.1.N",
+        "H-4.7.2.N"
+      ],
+      "vocabulary": [
+        "goal",
+        "barrier",
+        "progress",
+        "motivation"
+      ],
+      "materials": [
+        "goal tracker",
+        "calendar"
+      ],
+      "days": [
+        {
+          "title": "Barriers",
+          "work": "List barriers to being active (weather, time, screens) and a solution for each."
+        },
+        {
+          "title": "Set goal",
+          "work": "Write a 3-week SMART activity goal (e.g., 30 minutes of outdoor play after school 5 days a week)."
+        },
+        {
+          "title": "Activity menu",
+          "work": "Create an 'activity menu' of indoor and outdoor choices for rainy and sunny days."
+        },
+        {
+          "title": "Track",
+          "work": "Begin tracking the goal on a calendar with stickers and note how you feel each day."
+        },
+        {
+          "title": "Review & check",
+          "work": "Check progress after 5 days and adjust the plan if needed."
+        }
+      ],
+      "assessment": "Goal tracker check-in."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Encouraging active families",
+      "objectives": [
+        "Encourage others to be active",
+        "Lead a family activity"
+      ],
+      "standards": [
+        "H-4.8.1.N",
+        "H-4.1.5.N",
+        "H-4.6.1.N"
+      ],
+      "vocabulary": [
+        "advocate",
+        "encourage",
+        "role model"
+      ],
+      "materials": [
+        "poster paper",
+        "outdoor equipment"
+      ],
+      "days": [
+        {
+          "title": "Family challenge",
+          "work": "Design a one-week family activity challenge with daily tasks (walk after dinner, dance party)."
+        },
+        {
+          "title": "Lead activity",
+          "work": "Lead the family in a 15-minute active game you choose."
+        },
+        {
+          "title": "Advocacy poster",
+          "work": "Make a poster encouraging 60 minutes of play a day for kids in your neighborhood."
+        },
+        {
+          "title": "Goal check",
+          "work": "Review your 3-week goal tracker and reflect on progress."
+        },
+        {
+          "title": "Unit assessment",
+          "work": "Take the Unit 5 test on the benefits, types and recommended amount of physical activity and on goal setting."
+        }
+      ],
+      "assessment": "Unit 5 test and family challenge."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "What medicines are",
+      "objectives": [
+        "Distinguish prescription and over-the-counter medicines",
+        "Explain why medicines are used"
+      ],
+      "standards": [
+        "H-4.1.1.A",
+        "H-4.3.1.A"
+      ],
+      "vocabulary": [
+        "medicine",
+        "prescription",
+        "over-the-counter",
+        "pharmacist",
+        "dosage"
+      ],
+      "materials": [
+        "empty OTC medicine box (with adult)",
+        "prescription label sample"
+      ],
+      "days": [
+        {
+          "title": "Why medicines?",
+          "work": "List reasons people take medicines (treat illness, prevent disease, relieve pain) and the risks of misuse."
+        },
+        {
+          "title": "Rx vs OTC",
+          "work": "Compare a prescription label and an OTC drug facts label in a Venn diagram."
+        },
+        {
+          "title": "Health helpers",
+          "work": "Learn the roles of doctors and pharmacists; write 3 questions you could ask a pharmacist."
+        },
+        {
+          "title": "Not candy",
+          "work": "Discuss why some medicines look like candy and why only adults should give medicine."
+        },
+        {
+          "title": "Review & check",
+          "work": "Quiz on types of medicines and who can give them."
+        }
+      ],
+      "assessment": "Medicine quiz."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Safe medicine use",
+      "objectives": [
+        "Read medicine labels for safe use",
+        "Practice safe medicine rules"
+      ],
+      "standards": [
+        "H-4.7.1.A",
+        "H-4.1.1.A"
+      ],
+      "vocabulary": [
+        "Drug Facts label",
+        "side effect",
+        "expiration date",
+        "dose"
+      ],
+      "materials": [
+        "OTC medicine box (empty or with adult)",
+        "highlighter"
+      ],
+      "days": [
+        {
+          "title": "Drug Facts label",
+          "work": "With an adult, find active ingredient, uses, warnings, directions and expiration date on a Drug Facts label."
+        },
+        {
+          "title": "Side effects",
+          "work": "Learn what side effects are and why you tell an adult if you feel unwell after medicine."
+        },
+        {
+          "title": "Safe rules",
+          "work": "Write 5 safe medicine rules (only from a trusted adult, never share prescriptions, follow dose)."
+        },
+        {
+          "title": "Scenario practice",
+          "work": "Act out what to do if a friend offers you a pill or you find medicine on the floor."
+        },
+        {
+          "title": "Review & check",
+          "work": "Create a safe medicine checklist and explain it to a younger sibling or parent."
+        }
+      ],
+      "assessment": "Safe medicine checklist."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Household poisons and inhalants",
+      "objectives": [
+        "Identify household poisons",
+        "Explain dangers of inhalants"
+      ],
+      "standards": [
+        "H-4.1.5.A",
+        "H-4.3.1.A"
+      ],
+      "vocabulary": [
+        "poison",
+        "inhalant",
+        "Mr. Yuk",
+        "Poison Control"
+      ],
+      "materials": [
+        "household product labels (with adult)"
+      ],
+      "days": [
+        {
+          "title": "Poison hunt",
+          "work": "With an adult, find 10 household products with warning labels and note signal words (Caution, Warning, Danger)."
+        },
+        {
+          "title": "Inhalants",
+          "work": "Learn why sniffing fumes from products like markers, glue or aerosols harms the brain and can be deadly."
+        },
+        {
+          "title": "Safe storage",
+          "work": "Help organize cleaning products out of reach and away from food."
+        },
+        {
+          "title": "Poison Control",
+          "work": "Learn the Poison Control number (1-800-222-1222) and role-play calling it."
+        },
+        {
+          "title": "Unit assessment",
+          "work": "Take the Unit 6 test on medicines and household safety."
+        }
+      ],
+      "assessment": "Unit 6 test."
+    },
+    {
+      "week": 24,
+      "unit": 7,
+      "topic": "Tobacco and the body",
+      "objectives": [
+        "Describe short- and long-term effects of tobacco",
+        "Explain nicotine addiction"
+      ],
+      "standards": [
+        "H-4.1.2.A"
+      ],
+      "vocabulary": [
+        "tobacco",
+        "nicotine",
+        "addiction",
+        "tar",
+        "carbon monoxide"
+      ],
+      "materials": [
+        "two sponges",
+        "molasses or dark syrup",
+        "straws",
+        "diagram of lungs"
+      ],
+      "days": [
+        {
+          "title": "What's in tobacco",
+          "work": "Learn about nicotine, tar and carbon monoxide and what each does to the body."
+        },
+        {
+          "title": "Lung model",
+          "work": "Model healthy vs smoker's lungs by soaking one sponge in dark syrup and comparing."
+        },
+        {
+          "title": "Straw breathing",
+          "work": "Jog in place, then breathe through a straw for 30 seconds to feel restricted breathing (stop if dizzy)."
+        },
+        {
+          "title": "Addiction",
+          "work": "Read how nicotine causes addiction and why quitting is hard."
+        },
+        {
+          "title": "Review & check",
+          "work": "Draw a body diagram labeling 6 effects of tobacco."
+        }
+      ],
+      "assessment": "Body effects diagram."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Vaping and e-cigarettes",
+      "objectives": [
+        "Describe the risks of vaping",
+        "Recognize misleading marketing"
+      ],
+      "standards": [
+        "H-4.1.2.A",
+        "H-4.2.1.A"
+      ],
+      "vocabulary": [
+        "e-cigarette",
+        "vape",
+        "aerosol",
+        "flavoring",
+        "marketing"
+      ],
+      "materials": [
+        "FDA vaping fact sheets",
+        "sample ads"
+      ],
+      "days": [
+        {
+          "title": "What is vaping?",
+          "work": "Read an FDA fact sheet on e-cigarettes and list what is in the aerosol."
+        },
+        {
+          "title": "Myth or fact",
+          "work": "Sort 10 statements about vaping into myth or fact."
+        },
+        {
+          "title": "Flavors and marketing",
+          "work": "Analyze how flavors and colorful packaging target young people."
+        },
+        {
+          "title": "Brain effects",
+          "work": "Learn how nicotine affects the developing brain."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a public service message correcting one vaping myth."
+        }
+      ],
+      "assessment": "PSA message."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Secondhand smoke and social norms",
+      "objectives": [
+        "Describe dangers of secondhand smoke",
+        "Recognize that most youth do not use tobacco"
+      ],
+      "standards": [
+        "H-4.1.2.A",
+        "H-4.1.4.A"
+      ],
+      "vocabulary": [
+        "secondhand smoke",
+        "social norm",
+        "smoke-free"
+      ],
+      "materials": [
+        "survey data chart",
+        "poster paper"
+      ],
+      "days": [
+        {
+          "title": "Secondhand smoke",
+          "work": "Learn how secondhand smoke and vape aerosol affect others, especially children."
+        },
+        {
+          "title": "Smoke-free laws",
+          "work": "Read about California's smoke-free laws for restaurants, parks and cars with kids."
+        },
+        {
+          "title": "Social norms data",
+          "work": "Read survey data showing most California students have never used tobacco and graph it."
+        },
+        {
+          "title": "Avoiding smoke",
+          "work": "Role-play 3 polite ways to avoid secondhand smoke or vape aerosol (move away, ask to open a window, tell a trusted adult)."
+        },
+        {
+          "title": "Unit assessment",
+          "work": "Take the Unit 7 test on effects of tobacco, vaping and secondhand smoke and on social norms."
+        }
+      ],
+      "assessment": "Unit 7 test."
+    },
+    {
+      "week": 27,
+      "unit": 8,
+      "topic": "Alcohol and the body",
+      "objectives": [
+        "Describe short- and long-term effects of alcohol"
+      ],
+      "standards": [
+        "H-4.1.3.A"
+      ],
+      "vocabulary": [
+        "alcohol",
+        "intoxication",
+        "liver",
+        "coordination",
+        "reaction time"
+      ],
+      "materials": [
+        "body outline",
+        "balance beam (tape line)"
+      ],
+      "days": [
+        {
+          "title": "What is alcohol",
+          "work": "Learn what alcohol is and why it's illegal for people under 21."
+        },
+        {
+          "title": "Short-term effects",
+          "work": "List short-term effects (slowed reaction time, poor balance, poor judgment)."
+        },
+        {
+          "title": "Coordination demo",
+          "work": "Walk a tape line while spinning first to feel how impaired balance makes tasks hard; discuss."
+        },
+        {
+          "title": "Long-term effects",
+          "work": "Learn long-term effects on liver, heart and brain."
+        },
+        {
+          "title": "Review & check",
+          "work": "Label a body outline with 6 short- and long-term effects of alcohol on the brain, liver, heart and stomach."
+        }
+      ],
+      "assessment": "Body outline."
+    },
+    {
+      "week": 28,
+      "unit": 8,
+      "topic": "Alcohol and the growing brain",
+      "objectives": [
+        "Explain why alcohol is more harmful to young people",
+        "Use social norms data"
+      ],
+      "standards": [
+        "H-4.1.3.A",
+        "H-4.1.4.A"
+      ],
+      "vocabulary": [
+        "brain development",
+        "judgment",
+        "social norm"
+      ],
+      "materials": [
+        "brain diagram",
+        "survey chart"
+      ],
+      "days": [
+        {
+          "title": "Brain parts",
+          "work": "Label brain parts and their jobs (thinking, memory, balance)."
+        },
+        {
+          "title": "Growing brain",
+          "work": "Read why young brains are more affected by alcohol."
+        },
+        {
+          "title": "Norms",
+          "work": "Read data showing most young people don't drink alcohol."
+        },
+        {
+          "title": "Safety",
+          "work": "Discuss drunk driving and what to do if an adult who has been drinking offers you a ride."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write 3 reasons kids choose not to drink alcohol, using facts from this week's readings."
+        }
+      ],
+      "assessment": "Reasons paragraph."
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Family rules and influences about alcohol",
+      "objectives": [
+        "Describe family and peer influences",
+        "Communicate family expectations"
+      ],
+      "standards": [
+        "H-4.2.2.A",
+        "H-4.3.1.A"
+      ],
+      "vocabulary": [
+        "family rules",
+        "expectations",
+        "influence",
+        "peer"
+      ],
+      "materials": [
+        "family interview sheet"
+      ],
+      "days": [
+        {
+          "title": "Family interview",
+          "work": "Interview a parent about family rules on alcohol, tobacco and medicine and why they exist."
+        },
+        {
+          "title": "Influences",
+          "work": "List positive and negative influences from family, friends and media."
+        },
+        {
+          "title": "Trusted adults",
+          "work": "Review trusted adults you can talk to about alcohol or drug concerns."
+        },
+        {
+          "title": "Family agreement",
+          "work": "Write a family agreement about staying alcohol- and drug-free."
+        },
+        {
+          "title": "Unit assessment",
+          "work": "Take the Unit 8 test on alcohol's effects, social norms and family influences."
+        }
+      ],
+      "assessment": "Unit 8 test and family agreement."
+    },
+    {
+      "week": 30,
+      "unit": 9,
+      "topic": "Media influences on ATOD",
+      "objectives": [
+        "Analyze ads and media messages about alcohol and tobacco"
+      ],
+      "standards": [
+        "H-4.2.1.A"
+      ],
+      "vocabulary": [
+        "media literacy",
+        "target audience",
+        "hidden message"
+      ],
+      "materials": [
+        "magazine or online ads",
+        "movie clips"
+      ],
+      "days": [
+        {
+          "title": "Ad analysis",
+          "work": "Analyze 3 alcohol or tobacco ads for target audience and hidden messages."
+        },
+        {
+          "title": "Movies and TV",
+          "work": "Notice how alcohol or smoking is portrayed in a TV show or movie scene and whether consequences are shown."
+        },
+        {
+          "title": "Counter-ad",
+          "work": "Create a counter-ad that shows the truth about a product."
+        },
+        {
+          "title": "Social media",
+          "work": "Discuss influencers and sponsored posts that promote vaping."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write a media literacy checklist for evaluating ads."
+        }
+      ],
+      "assessment": "Counter-ad and checklist."
+    },
+    {
+      "week": 31,
+      "unit": 9,
+      "topic": "Peer pressure",
+      "objectives": [
+        "Recognize types of peer pressure",
+        "Choose positive friends"
+      ],
+      "standards": [
+        "H-4.2.2.A",
+        "H-4.4.1.A"
+      ],
+      "vocabulary": [
+        "peer pressure",
+        "positive pressure",
+        "negative pressure",
+        "dare"
+      ],
+      "materials": [
+        "scenario cards"
+      ],
+      "days": [
+        {
+          "title": "Types of pressure",
+          "work": "Learn spoken, unspoken, positive and negative peer pressure with examples."
+        },
+        {
+          "title": "Scenario sort",
+          "work": "Sort 10 scenario cards by type of pressure (spoken, unspoken, positive, negative) and explain two choices."
+        },
+        {
+          "title": "Good friends",
+          "work": "Make a list of qualities of friends who support healthy choices."
+        },
+        {
+          "title": "Positive pressure",
+          "work": "Plan a way to use positive peer pressure to encourage a healthy habit."
+        },
+        {
+          "title": "Review & check",
+          "work": "Write about a time you resisted pressure or helped someone else."
+        }
+      ],
+      "assessment": "Peer pressure reflection."
+    },
+    {
+      "week": 32,
+      "unit": 9,
+      "topic": "Refusal skills",
+      "objectives": [
+        "Demonstrate refusal skills",
+        "Practice assertive communication"
+      ],
+      "standards": [
+        "H-4.4.1.A"
+      ],
+      "vocabulary": [
+        "refusal",
+        "assertive",
+        "passive",
+        "aggressive",
+        "broken record"
+      ],
+      "materials": [
+        "refusal skills card",
+        "scenarios"
+      ],
+      "days": [
+        {
+          "title": "Assertive voice",
+          "work": "Compare passive, aggressive and assertive responses and practice an assertive voice and body language."
+        },
+        {
+          "title": "Refusal steps",
+          "work": "Learn refusal strategies: say no clearly, give a reason, suggest an alternative, walk away."
+        },
+        {
+          "title": "Role-play 1",
+          "work": "Role-play refusing a vape offered by an older kid."
+        },
+        {
+          "title": "Role-play 2",
+          "work": "Role-play refusing alcohol at a party and leaving with help from a trusted adult."
+        },
+        {
+          "title": "Review & check",
+          "work": "Demonstrate refusal skills in a new scenario for a parent who scores the steps."
+        }
+      ],
+      "assessment": "Refusal skills performance check."
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Decisions and the drug-free pledge",
+      "objectives": [
+        "Use decision-making to avoid ATOD",
+        "Set a personal drug-free goal"
+      ],
+      "standards": [
+        "H-4.5.1.A",
+        "H-4.6.1.A"
+      ],
+      "vocabulary": [
+        "pledge",
+        "goal",
+        "consequence",
+        "alternative"
+      ],
+      "materials": [
+        "decision-making worksheet",
+        "pledge card"
+      ],
+      "days": [
+        {
+          "title": "Decision model",
+          "work": "Apply the decision model to 3 ATOD scenarios and write consequences."
+        },
+        {
+          "title": "Healthy alternatives",
+          "work": "List 10 healthy activities to have fun and manage stress."
+        },
+        {
+          "title": "Pledge",
+          "work": "Write a personal pledge to stay alcohol-, tobacco- and drug-free, with one action you will take to keep it."
+        },
+        {
+          "title": "Share",
+          "work": "Share your pledge with a trusted adult and discuss support."
+        },
+        {
+          "title": "Unit assessment",
+          "work": "Take the Unit 9 test on influences, refusal and decisions."
+        }
+      ],
+      "assessment": "Unit 9 test and pledge."
+    },
+    {
+      "week": 34,
+      "unit": 10,
+      "topic": "Planning a health campaign",
+      "objectives": [
+        "Choose a health message and audience",
+        "Plan a campaign"
+      ],
+      "standards": [
+        "H-4.8.1.N",
+        "H-4.8.1.A"
+      ],
+      "vocabulary": [
+        "campaign",
+        "message",
+        "audience",
+        "advocacy"
+      ],
+      "materials": [
+        "planning sheet"
+      ],
+      "days": [
+        {
+          "title": "Choose topic",
+          "work": "Choose a topic: drink water, eat the rainbow, be active, or stay vape-free."
+        },
+        {
+          "title": "Audience",
+          "work": "Identify the audience (family, neighbors, younger kids) and what message will reach them."
+        },
+        {
+          "title": "Facts",
+          "work": "Gather 5 facts from reliable sources for the campaign."
+        },
+        {
+          "title": "Plan products",
+          "work": "Plan 2 campaign products (poster, short video, flyer, skit)."
+        },
+        {
+          "title": "Review & check",
+          "work": "Get feedback from a parent on the campaign plan."
+        }
+      ],
+      "assessment": "Campaign plan."
+    },
+    {
+      "week": 35,
+      "unit": 10,
+      "topic": "Creating the campaign",
+      "objectives": [
+        "Create campaign materials",
+        "Use accurate information"
+      ],
+      "standards": [
+        "H-4.8.1.N",
+        "H-4.8.1.A",
+        "H-4.3.1.N"
+      ],
+      "vocabulary": [
+        "slogan",
+        "persuasion",
+        "accurate"
+      ],
+      "materials": [
+        "poster paper",
+        "markers",
+        "device for video"
+      ],
+      "days": [
+        {
+          "title": "Slogan",
+          "work": "Write a catchy slogan and a one-sentence key message for the campaign and test it on a family member."
+        },
+        {
+          "title": "Poster",
+          "work": "Create a campaign poster with the slogan, three facts with sources and a clear visual."
+        },
+        {
+          "title": "Video or skit",
+          "work": "Record a 1-minute public service video or rehearse a short skit that models the healthy behavior."
+        },
+        {
+          "title": "Fact check",
+          "work": "Fact-check every statistic and claim against KidsHealth, MyPlate, FDA or NIDA and correct any errors."
+        },
+        {
+          "title": "Review & check",
+          "work": "Show the materials to two people, collect one suggestion from each, and revise the poster and video."
+        }
+      ],
+      "assessment": "Campaign materials."
+    },
+    {
+      "week": 36,
+      "unit": 10,
+      "topic": "Presenting the campaign and year review",
+      "objectives": [
+        "Present the campaign",
+        "Reflect on health goals"
+      ],
+      "standards": [
+        "H-4.8.1.N",
+        "H-4.8.1.A",
+        "H-4.6.1.N",
+        "H-4.6.1.A"
+      ],
+      "vocabulary": [
+        "advocacy",
+        "reflection",
+        "goal"
+      ],
+      "materials": [
+        "campaign materials"
+      ],
+      "days": [
+        {
+          "title": "Present",
+          "work": "Present the campaign to family or a community group."
+        },
+        {
+          "title": "Display",
+          "work": "Display posters in a visible place (with permission)."
+        },
+        {
+          "title": "Year review",
+          "work": "Review nutrition, activity and ATOD key ideas with a game."
+        },
+        {
+          "title": "Final assessment",
+          "work": "Take the end-of-year health assessment covering nutrition, physical activity, medicines, tobacco and alcohol."
+        },
+        {
+          "title": "Reflect",
+          "work": "Write a reflection on your health goals and set a goal for summer."
+        }
+      ],
+      "assessment": "Campaign presentation and final assessment."
+    }
+  ]
+}

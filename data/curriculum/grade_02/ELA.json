@@ -1,0 +1,2069 @@
+{
+  "grade": 2,
+  "subject": "ELA",
+  "title": "ELA 2",
+  "description": "A year of second-grade English Language Arts built around real books: Frog and Toad, Aesop's fables, Beatrix Potter, Robert Louis Stevenson's poems, Cinderella tales from many cultures, biographies, science read-alouds, and Winnie-the-Pooh. Every week blends daily phonics and word study (vowel teams, r-controlled vowels, prefixes and suffixes), fluency practice, grammar, a writing project (narrative, informative, opinion, research), and speaking and listening. Day 5 reviews the week with a spelling check, fluency read, and short comprehension or writing assessment.",
+  "framework": "California Common Core State Standards for English Language Arts & Literacy; 2014 California ELA/ELD Framework",
+  "minutes_per_day": 90,
+  "ag_requirement": null,
+  "credits": null,
+  "standards": {
+    "RL.2.1": "Ask and answer who, what, where, when, why, and how questions to show understanding of key details in a story.",
+    "RL.2.2": "Recount stories, including fables and folktales from diverse cultures, and determine their central message, lesson, or moral.",
+    "RL.2.3": "Describe how characters in a story respond to major events and challenges.",
+    "RL.2.4": "Describe how words and phrases (regular beats, alliteration, rhymes, repeated lines) supply rhythm and meaning in a story, poem, or song.",
+    "RL.2.5": "Describe the overall structure of a story, including how the beginning introduces the story and the ending concludes the action.",
+    "RL.2.6": "Acknowledge differences in the points of view of characters, including speaking in a different voice for each character when reading aloud.",
+    "RL.2.7": "Use information from illustrations and words in a print or digital text to show understanding of characters, setting, or plot.",
+    "RL.2.9": "Compare and contrast two or more versions of the same story (e.g., Cinderella stories) by different authors or from different cultures.",
+    "RL.2.10": "Read and comprehend literature, including stories and poetry, in the grades 2–3 text complexity band.",
+    "RI.2.1": "Ask and answer who, what, where, when, why, and how questions about key details in an informational text.",
+    "RI.2.2": "Identify the main topic of a multiparagraph text and the focus of specific paragraphs within it.",
+    "RI.2.3": "Describe the connection between a series of historical events, scientific ideas, or steps in technical procedures.",
+    "RI.2.4": "Determine the meaning of words and phrases in a grade 2 topic or subject-area text.",
+    "RI.2.5": "Know and use text features (captions, bold print, subheadings, glossaries, indexes, menus, icons) to locate key facts efficiently.",
+    "RI.2.6": "Identify the main purpose of a text, including what the author wants to answer, explain, or describe.",
+    "RI.2.7": "Explain how specific images (e.g., a diagram showing how a machine works) contribute to and clarify a text.",
+    "RI.2.8": "Describe how reasons support specific points the author makes in a text.",
+    "RI.2.9": "Compare and contrast the most important points presented by two texts on the same topic.",
+    "RI.2.10": "Read and comprehend informational texts, including history/social studies, science, and technical texts, in the grades 2–3 band.",
+    "RF.2.3a": "Distinguish long and short vowels when reading regularly spelled one-syllable words.",
+    "RF.2.3b": "Know spelling-sound correspondences for additional common vowel teams.",
+    "RF.2.3c": "Decode regularly spelled two-syllable words with long vowels.",
+    "RF.2.3d": "Decode words with common prefixes and suffixes.",
+    "RF.2.3e": "Identify words with inconsistent but common spelling-sound correspondences.",
+    "RF.2.3f": "Recognize and read grade-appropriate irregularly spelled words.",
+    "RF.2.4": "Read on-level text with sufficient accuracy and fluency (purpose, rate, expression), using context to self-correct.",
+    "W.2.1": "Write opinion pieces that introduce the topic, state an opinion, supply reasons using linking words, and provide a concluding statement.",
+    "W.2.2": "Write informative/explanatory texts that introduce a topic, use facts and definitions to develop points, and provide a concluding statement.",
+    "W.2.3": "Write narratives that recount a well-elaborated event or short sequence of events with details, temporal words, and a sense of closure.",
+    "W.2.5": "With guidance and support from adults and peers, focus on a topic and strengthen writing by revising and editing.",
+    "W.2.6": "With guidance and support, use a variety of digital tools to produce and publish writing, including in collaboration with peers.",
+    "W.2.7": "Participate in shared research and writing projects (e.g., read books on a single topic to produce a report).",
+    "W.2.8": "Recall information from experiences or gather information from provided sources to answer a question.",
+    "SL.2.1": "Participate in collaborative conversations about grade 2 topics and texts, following agreed-upon rules and building on others' talk.",
+    "SL.2.2": "Recount or describe key ideas or details from a text read aloud or information presented orally or through other media.",
+    "SL.2.3": "Ask and answer questions about what a speaker says to clarify comprehension or gather more information.",
+    "SL.2.4": "Tell a story or recount an experience with appropriate facts and relevant, descriptive details, speaking audibly in coherent sentences.",
+    "SL.2.5": "Create audio recordings of stories or poems; add drawings or other visual displays to stories or recounts to clarify ideas.",
+    "SL.2.6": "Produce complete sentences when appropriate to task and situation to provide requested detail or clarification.",
+    "L.2.1a": "Use collective nouns (e.g., group, herd, flock).",
+    "L.2.1b": "Form and use frequently occurring irregular plural nouns (e.g., feet, children, teeth, mice, fish).",
+    "L.2.1c": "Use reflexive pronouns (e.g., myself, ourselves).",
+    "L.2.1d": "Form and use the past tense of frequently occurring irregular verbs (e.g., sat, hid, told).",
+    "L.2.1e": "Use adjectives and adverbs, and choose between them depending on what is to be modified.",
+    "L.2.1f": "Produce, expand, and rearrange complete simple and compound sentences.",
+    "L.2.2": "Use capitalization (holidays, product and geographic names), commas in letters, apostrophes for contractions and possessives, learned spelling patterns, and reference materials when writing.",
+    "L.2.3": "Use knowledge of language and its conventions; compare formal and informal uses of English.",
+    "L.2.4": "Determine or clarify unknown words using sentence context, prefixes, root words, compound-word parts, and glossaries or dictionaries.",
+    "L.2.5": "Demonstrate understanding of word relationships and nuances (real-life connections; shades of meaning among related verbs and adjectives).",
+    "L.2.6": "Use words and phrases acquired through conversations, reading, and being read to, including adjectives and adverbs to describe."
+  },
+  "resources": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/",
+      "note": "Free public-domain texts used this year: Aesop's Fables, The Tale of Peter Rabbit, The Velveteen Rabbit, A Child's Garden of Verses, The Blue Fairy Book (Cinderella), Winnie-the-Pooh."
+    },
+    {
+      "name": "ReadWorks",
+      "url": "https://www.readworks.org/",
+      "note": "Free leveled grade 2 fiction and nonfiction passages with question sets (animals, biographies, Earth science)."
+    },
+    {
+      "name": "Storyline Online",
+      "url": "https://storylineonline.net/",
+      "note": "Free videos of actors reading picture books aloud; good for listening comprehension days."
+    },
+    {
+      "name": "Khan Academy – 2nd grade reading & vocabulary",
+      "url": "https://www.khanacademy.org/ela/cc-2nd-reading-vocab",
+      "note": "Free reading passages and vocabulary practice aligned to grade 2."
+    },
+    {
+      "name": "PBS LearningMedia",
+      "url": "https://www.pbslearningmedia.org/",
+      "note": "Free videos and games (Between the Lions, WordGirl, Martha Speaks) for phonics and vocabulary."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Friends and Feelings: Story Elements",
+      "start_week": 1,
+      "end_week": 4,
+      "big_idea": "Good readers notice characters, settings, and events, and good writers tell true stories with details.",
+      "standards": [
+        "RL.2.1",
+        "RL.2.3",
+        "RL.2.7",
+        "RF.2.3a",
+        "RF.2.4",
+        "W.2.3",
+        "SL.2.1",
+        "SL.2.4",
+        "L.2.1a",
+        "L.2.1f",
+        "L.2.2"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Fables and Folktales",
+      "start_week": 5,
+      "end_week": 8,
+      "big_idea": "Stories from many cultures teach lessons about how to live.",
+      "standards": [
+        "RL.2.2",
+        "RL.2.5",
+        "RL.2.6",
+        "RF.2.3a",
+        "RF.2.3b",
+        "W.2.3",
+        "W.2.5",
+        "SL.2.2",
+        "SL.2.6",
+        "L.2.1b",
+        "L.2.2"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Amazing Animals: Reading for Information",
+      "start_week": 9,
+      "end_week": 12,
+      "big_idea": "Informational texts use features like headings, glossaries, and diagrams to teach facts.",
+      "standards": [
+        "RI.2.1",
+        "RI.2.2",
+        "RI.2.3",
+        "RI.2.4",
+        "RI.2.5",
+        "RI.2.6",
+        "RI.2.7",
+        "RF.2.3e",
+        "W.2.2",
+        "W.2.8",
+        "SL.2.3",
+        "L.2.4"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Characters Who Change",
+      "start_week": 13,
+      "end_week": 16,
+      "big_idea": "Characters respond to big events, and stories have beginnings that introduce and endings that conclude.",
+      "standards": [
+        "RL.2.1",
+        "RL.2.3",
+        "RL.2.5",
+        "RL.2.7",
+        "RF.2.3b",
+        "RF.2.3e",
+        "RF.2.3f",
+        "RF.2.4",
+        "W.2.3",
+        "W.2.5",
+        "L.2.1d",
+        "L.2.1e",
+        "L.2.5"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Poetry and Word Play",
+      "start_week": 17,
+      "end_week": 20,
+      "big_idea": "Poets use rhythm, rhyme, repetition, and carefully chosen words to create meaning and feeling.",
+      "standards": [
+        "RL.2.4",
+        "RL.2.10",
+        "RF.2.3c",
+        "RF.2.4",
+        "SL.2.5",
+        "L.2.1e",
+        "L.2.1f",
+        "L.2.4",
+        "L.2.5",
+        "L.2.6"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Cinderella Around the World and Point of View",
+      "start_week": 21,
+      "end_week": 24,
+      "big_idea": "The same story changes when told by different cultures or from a different character's point of view.",
+      "standards": [
+        "RL.2.6",
+        "RL.2.7",
+        "RL.2.9",
+        "RF.2.3d",
+        "W.2.1",
+        "W.2.5",
+        "SL.2.1",
+        "L.2.4"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "People Who Make a Difference: Biographies",
+      "start_week": 25,
+      "end_week": 28,
+      "big_idea": "Biographies connect the events of a real person's life and show how one person can change the world.",
+      "standards": [
+        "RI.2.1",
+        "RI.2.2",
+        "RI.2.3",
+        "RI.2.6",
+        "RI.2.10",
+        "RF.2.3c",
+        "W.2.7",
+        "W.2.8",
+        "SL.2.4",
+        "SL.2.5",
+        "L.2.1c",
+        "L.2.2"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Our Changing Earth: Comparing Texts",
+      "start_week": 29,
+      "end_week": 32,
+      "big_idea": "Authors give reasons to support their points, and two texts on one topic can teach different things.",
+      "standards": [
+        "RI.2.3",
+        "RI.2.4",
+        "RI.2.5",
+        "RI.2.7",
+        "RI.2.8",
+        "RI.2.9",
+        "RF.2.3e",
+        "W.2.2",
+        "L.2.1f",
+        "L.2.2",
+        "L.2.3",
+        "L.2.4"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Chapter Book Club and Year-End Celebration",
+      "start_week": 33,
+      "end_week": 36,
+      "big_idea": "Readers follow characters across chapters and share opinions about books they love.",
+      "standards": [
+        "RL.2.1",
+        "RL.2.3",
+        "RL.2.5",
+        "RL.2.6",
+        "RL.2.10",
+        "RF.2.3f",
+        "RF.2.4",
+        "W.2.1",
+        "W.2.6",
+        "SL.2.1",
+        "SL.2.4",
+        "L.2.6"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "topic": "Reading routines with Frog and Toad",
+      "objectives": [
+        "Ask and answer who/what/where questions about a story",
+        "Read short-a and short-i words",
+        "Write complete sentences with capitals and end marks"
+      ],
+      "standards": [
+        "RL.2.1",
+        "RF.2.3a",
+        "L.2.1f",
+        "SL.2.1"
+      ],
+      "vocabulary": [
+        "character",
+        "setting",
+        "sentence",
+        "short vowel"
+      ],
+      "materials": [
+        "Frog and Toad Are Friends (Arnold Lobel)",
+        "reading log",
+        "whiteboard",
+        "word cards"
+      ],
+      "days": [
+        {
+          "title": "Meet Frog and Toad",
+          "work": "Read aloud 'Spring' from Frog and Toad Are Friends, then answer who/what/where questions orally and draw the setting. Start a reading log and practice the book-talk rule 'listen, then add on.'"
+        },
+        {
+          "title": "Short a and short i",
+          "work": "Phonics: blend and read short-a/short-i words (cap, cab, pin, fit), then sort 12 word cards into two columns. Reread 'Spring' to a parent for fluency and write 2 sentences telling what Frog wanted."
+        },
+        {
+          "title": "What makes a sentence",
+          "work": "Grammar: learn that a sentence tells a whole idea and starts with a capital and ends with a period, question mark, or exclamation point; fix 6 scrambled sentences. Read 'The Story' and answer 3 why/how questions."
+        },
+        {
+          "title": "Character talk",
+          "work": "Partner talk: describe Toad using two words and evidence from the pictures in 'The Story'. Write 3 complete sentences about a friend you like to be with."
+        },
+        {
+          "title": "Week 1 review",
+          "work": "Spelling check of 10 short-a/short-i words, a one-minute timed read of a Frog and Toad page, and a 3-question oral comprehension check. Record books read in the reading log."
+        }
+      ],
+      "assessment": "Spelling check (10 words), oral who/what/where answers, and correctly punctuated sentences in journal."
+    },
+    {
+      "week": 2,
+      "unit": 1,
+      "topic": "How characters respond to problems",
+      "objectives": [
+        "Describe how a character responds to a major event",
+        "Read short-o, short-u and short-e words",
+        "Identify common nouns"
+      ],
+      "standards": [
+        "RL.2.3",
+        "RL.2.7",
+        "RF.2.3a",
+        "SL.2.4"
+      ],
+      "vocabulary": [
+        "problem",
+        "solution",
+        "respond",
+        "noun"
+      ],
+      "materials": [
+        "Frog and Toad Are Friends",
+        "sticky notes",
+        "drawing paper"
+      ],
+      "days": [
+        {
+          "title": "A Lost Button",
+          "work": "Read 'A Lost Button' and list on sticky notes each button Frog and Toad find; discuss how Toad feels as each wrong button is found. Phonics: read short-o words (hop, lot, pond)."
+        },
+        {
+          "title": "Problem and solution",
+          "work": "Fill in a problem/solution chart for 'A Lost Button' and tell how Toad responds at the end (he sews buttons on the jacket). Phonics: short-u and short-e word sort (bug, bed, cup, net)."
+        },
+        {
+          "title": "Nouns are naming words",
+          "work": "Grammar: circle nouns (people, places, things) in 8 sentences from the story, then list 10 nouns you can see at home. Read 'A Swim' with expression."
+        },
+        {
+          "title": "Small moment ideas",
+          "work": "Writing: brainstorm 3 'small moments' from your own summer and pick one; sketch it in 3 boxes (beginning, middle, end). Tell the story aloud to a listener using details."
+        },
+        {
+          "title": "Week 2 review",
+          "work": "Spelling check of 10 short-o/u/e words, retell 'A Lost Button' in order using first/next/last, and write one sentence about how Toad changed. Add titles to reading log."
+        }
+      ],
+      "assessment": "Problem/solution chart, spelling check, and oral retell checked for correct sequence."
+    },
+    {
+      "week": 3,
+      "unit": 1,
+      "topic": "Digraphs and drafting a personal narrative",
+      "objectives": [
+        "Read words with sh, ch, th, wh, ck",
+        "Use collective nouns",
+        "Draft a personal narrative with temporal words"
+      ],
+      "standards": [
+        "RL.2.1",
+        "RF.2.3a",
+        "L.2.1a",
+        "W.2.3"
+      ],
+      "vocabulary": [
+        "digraph",
+        "collective noun",
+        "temporal word",
+        "narrative"
+      ],
+      "materials": [
+        "Frog and Toad Together (Arnold Lobel)",
+        "digraph cards",
+        "writing paper"
+      ],
+      "days": [
+        {
+          "title": "The List",
+          "work": "Read 'A List' from Frog and Toad Together and make your own to-do list for the day. Phonics: read and write sh/ch/th words (ship, chop, thin, wish, much, bath)."
+        },
+        {
+          "title": "Cookies and willpower",
+          "work": "Read 'Cookies' and answer why Frog and Toad cannot stop eating cookies and how they try to solve it. Phonics: wh and ck words (when, whip, duck, sock) in a word ladder."
+        },
+        {
+          "title": "Collective nouns",
+          "work": "Grammar: match collective nouns to groups (a flock of birds, a herd of cows, a team of players, a class of students) and write 4 sentences using them. Read 'The Garden' aloud with a partner."
+        },
+        {
+          "title": "Draft my story",
+          "work": "Writing: draft the small moment chosen last week using temporal words (first, next, then, after that, finally) to show the order. Include what you saw, heard, and felt."
+        },
+        {
+          "title": "Week 3 review",
+          "work": "Spelling check of 10 digraph words, collective-noun matching quiz, and read the narrative draft aloud to a family member who asks one question about it."
+        }
+      ],
+      "assessment": "Spelling check, collective-noun quiz (8 items), and narrative draft with at least 3 temporal words."
+    },
+    {
+      "week": 4,
+      "unit": 1,
+      "topic": "Henry and Mudge; revising and sharing stories",
+      "objectives": [
+        "Read words with consonant blends",
+        "Revise a narrative by adding details and feelings",
+        "Tell a story audibly in complete sentences"
+      ],
+      "standards": [
+        "RL.2.3",
+        "RF.2.4",
+        "W.2.3",
+        "SL.2.4",
+        "L.2.2"
+      ],
+      "vocabulary": [
+        "blend",
+        "revise",
+        "detail",
+        "audience"
+      ],
+      "materials": [
+        "Henry and Mudge: The First Book (Cynthia Rylant)",
+        "colored pencils",
+        "author chair"
+      ],
+      "days": [
+        {
+          "title": "Henry and Mudge",
+          "work": "Read Henry and Mudge: The First Book, chapters 1–2, and describe how Henry feels before and after he gets Mudge. Phonics: read initial blends (bl, cr, st, fl) in 15 words."
+        },
+        {
+          "title": "Henry gets lost",
+          "work": "Read chapter 3 and discuss how Henry and Mudge each respond when Mudge gets lost. Phonics: final blends (-nd, -st, -mp) word building with letter tiles."
+        },
+        {
+          "title": "Revise with details",
+          "work": "Writing: reread the narrative draft and add 2 details and a feeling sentence using a colored pencil ('My heart was pounding'). Edit for capitals and end marks with a checklist."
+        },
+        {
+          "title": "Publish",
+          "work": "Writing: copy the revised narrative neatly, add an illustration for each part, and give it a title. Practice reading it aloud at a steady pace with expression."
+        },
+        {
+          "title": "Unit 1 assessment",
+          "work": "Author's chair: read the published narrative aloud to the family and answer listeners' questions. Complete a unit check: blends/digraph spelling (12 words) and a short story-element quiz on a new Frog and Toad story."
+        }
+      ],
+      "assessment": "Published personal narrative scored with a simple rubric (sequence, details, closing, conventions) plus unit spelling and story-element quiz."
+    },
+    {
+      "week": 5,
+      "unit": 2,
+      "topic": "Aesop's fables: the lesson of the story",
+      "objectives": [
+        "Recount a fable in order",
+        "Determine a fable's moral",
+        "Read CVCe long-vowel words"
+      ],
+      "standards": [
+        "RL.2.2",
+        "RF.2.3a",
+        "SL.2.2",
+        "L.2.2"
+      ],
+      "vocabulary": [
+        "fable",
+        "moral",
+        "lesson",
+        "silent e"
+      ],
+      "materials": [
+        "Aesop's Fables (Project Gutenberg or library)",
+        "story sequence cards",
+        "index cards"
+      ],
+      "days": [
+        {
+          "title": "The Lion and the Mouse",
+          "work": "Listen to 'The Lion and the Mouse' from Aesop's Fables and retell it with 4 sequence cards. Discuss the moral: little friends can be great friends."
+        },
+        {
+          "title": "Magic e",
+          "work": "Phonics: change CVC to CVCe words (cap/cape, kit/kite, hop/hope, cub/cube) and read 20 long-vowel words. Write 3 sentences using CVCe words."
+        },
+        {
+          "title": "Tortoise and the Hare",
+          "work": "Read 'The Tortoise and the Hare' and compare how each character responds to the race. Write the moral in your own words: 'Slow and steady wins the race' means…"
+        },
+        {
+          "title": "Proper nouns",
+          "work": "Grammar: capitalize names of people, pets, and places; fix 8 sentences with missing capitals. Retell a fable to a family member using first, next, then, last."
+        },
+        {
+          "title": "Week 5 review",
+          "work": "Spelling check of 10 CVCe words, match 4 fables to their morals, and read a new fable ('The Fox and the Grapes') independently and write its lesson in one sentence."
+        }
+      ],
+      "assessment": "Fable-moral matching, written moral for a new fable, and CVCe spelling check."
+    },
+    {
+      "week": 6,
+      "unit": 2,
+      "topic": "Fables continued: vowel teams ai/ay and ee/ea",
+      "objectives": [
+        "Read words with vowel teams ai, ay, ee, ea",
+        "Use irregular plural nouns",
+        "Explain how a fable's lesson connects to life"
+      ],
+      "standards": [
+        "RL.2.2",
+        "RF.2.3b",
+        "L.2.1b",
+        "SL.2.6"
+      ],
+      "vocabulary": [
+        "vowel team",
+        "plural",
+        "irregular",
+        "character trait"
+      ],
+      "materials": [
+        "Aesop's Fables",
+        "vowel-team word cards",
+        "picture cards for plurals"
+      ],
+      "days": [
+        {
+          "title": "The Ant and the Grasshopper",
+          "work": "Read 'The Ant and the Grasshopper' and chart what each character does in summer and in winter. Phonics: ai/ay words (rain, train, play, day)."
+        },
+        {
+          "title": "The Crow and the Pitcher",
+          "work": "Read 'The Crow and the Pitcher' and test the idea at home by dropping pebbles into a cup of water. Phonics: ee/ea words (tree, green, beach, read)."
+        },
+        {
+          "title": "Irregular plurals",
+          "work": "Grammar: learn plurals that change (foot/feet, child/children, tooth/teeth, mouse/mice, fish/fish) and complete 10 fill-in sentences. Read a fable aloud using complete sentences to answer 'What is the lesson?'"
+        },
+        {
+          "title": "Fable connection",
+          "work": "Write 3–4 sentences about a time in your life when one of this week's morals came true. Draw a picture to go with it."
+        },
+        {
+          "title": "Week 6 review",
+          "work": "Spelling check of 12 vowel-team words, an irregular-plurals quiz, and a fluency read of 'The Boy Who Cried Wolf' with an oral moral check."
+        }
+      ],
+      "assessment": "Spelling check, 10-item irregular plural quiz, and written fable-to-life connection."
+    },
+    {
+      "week": 7,
+      "unit": 2,
+      "topic": "Folktales from many cultures and character voices",
+      "objectives": [
+        "Recount folktales and identify their central message",
+        "Read oa/ow/oe and igh/ie/y long-vowel spellings",
+        "Read with a different voice for each character"
+      ],
+      "standards": [
+        "RL.2.2",
+        "RL.2.6",
+        "RF.2.3b",
+        "SL.2.6"
+      ],
+      "vocabulary": [
+        "folktale",
+        "point of view",
+        "culture",
+        "dialogue"
+      ],
+      "materials": [
+        "The Little Red Hen (any version)",
+        "Stone Soup (Marcia Brown or Jon J Muth)",
+        "puppet supplies"
+      ],
+      "days": [
+        {
+          "title": "The Little Red Hen",
+          "work": "Read The Little Red Hen and discuss why the hen would not share the bread; decide if that was fair. Phonics: oa/ow/oe words (boat, snow, toe)."
+        },
+        {
+          "title": "Stone Soup",
+          "work": "Read Stone Soup and compare its lesson about sharing with The Little Red Hen. Phonics: igh/ie/y words (night, pie, fly) in a sentence-building game."
+        },
+        {
+          "title": "Voices for characters",
+          "work": "Practice reading Little Red Hen dialogue using a different voice for the hen, dog, cat, and duck. Make paper-bag puppets of each character."
+        },
+        {
+          "title": "Retell in writing",
+          "work": "Write a 5-sentence retelling of Stone Soup with a beginning, middle, and end and the lesson in the last sentence. Underline time-order words."
+        },
+        {
+          "title": "Week 7 review",
+          "work": "Perform The Little Red Hen as a puppet show using character voices. Spelling check of 12 long-o and long-i words and a written central-message question."
+        }
+      ],
+      "assessment": "Puppet-show performance (voice and fluency), spelling check, and written central message."
+    },
+    {
+      "week": 8,
+      "unit": 2,
+      "topic": "Anansi tales and writing an original fable",
+      "objectives": [
+        "Determine the lesson of a trickster tale",
+        "Plan, draft, and edit an original fable",
+        "Perform reader's theater"
+      ],
+      "standards": [
+        "RL.2.2",
+        "RL.2.5",
+        "W.2.3",
+        "W.2.5",
+        "SL.2.2"
+      ],
+      "vocabulary": [
+        "trickster",
+        "beginning",
+        "ending",
+        "edit"
+      ],
+      "materials": [
+        "Anansi and the Moss-Covered Rock (Eric A. Kimmel)",
+        "fable planning sheet",
+        "reader's theater script"
+      ],
+      "days": [
+        {
+          "title": "Anansi the trickster",
+          "work": "Read Anansi and the Moss-Covered Rock (West African folktale) and explain how Little Bush Deer teaches Anansi a lesson. Note how the beginning introduces Anansi's trick and the ending wraps it up."
+        },
+        {
+          "title": "Plan a fable",
+          "work": "Writing: choose two animal characters with opposite traits and a lesson; plan beginning, problem, and ending on a fable organizer. Phonics review: vowel-team word hunt in the Anansi book."
+        },
+        {
+          "title": "Draft the fable",
+          "work": "Draft the original fable with dialogue and a moral as the last line. Read it to a listener and ask 'Was my lesson clear?'"
+        },
+        {
+          "title": "Edit and publish",
+          "work": "Edit with a checklist (capitals, end marks, spelling of vowel-team words) and publish with illustrations. Rehearse a reader's theater script of 'The Lion and the Mouse.'"
+        },
+        {
+          "title": "Unit 2 assessment",
+          "work": "Perform the reader's theater and read your fable aloud. Unit test: read a new folktale, write its moral, sequence 4 events, and spell 12 long-vowel words."
+        }
+      ],
+      "assessment": "Original fable (rubric: characters, problem, moral, conventions) and unit test on a cold-read folktale."
+    },
+    {
+      "week": 9,
+      "unit": 3,
+      "topic": "Nonfiction text features",
+      "objectives": [
+        "Use headings, bold words, captions, and glossaries to find facts",
+        "Read ar and or words",
+        "Distinguish nouns from verbs"
+      ],
+      "standards": [
+        "RI.2.1",
+        "RI.2.5",
+        "RF.2.3e",
+        "L.2.4"
+      ],
+      "vocabulary": [
+        "nonfiction",
+        "heading",
+        "caption",
+        "glossary",
+        "index"
+      ],
+      "materials": [
+        "National Geographic Readers: Frogs! (Elizabeth Carney) or any National Geographic Kids reader",
+        "sticky flags",
+        "magnifying glass"
+      ],
+      "days": [
+        {
+          "title": "Fiction or nonfiction",
+          "work": "Sort 10 library books into fiction and nonfiction and explain the clues. Take a text-feature tour of Frogs! and flag a heading, caption, bold word, and glossary."
+        },
+        {
+          "title": "Feature scavenger hunt",
+          "work": "Use the table of contents and index to answer 5 questions from Frogs! (e.g., 'What page tells what frogs eat?'). Phonics: ar words (car, farm, star)."
+        },
+        {
+          "title": "Glossary words",
+          "work": "Look up 5 bold words in the glossary and draw a picture for each. Phonics: or words (corn, storm, horse) in a word sort."
+        },
+        {
+          "title": "Nouns and verbs",
+          "work": "Grammar: sort words from Frogs! into nouns and verbs (frog, leap, pond, swim). Write 4 fact sentences, each with a noun and a verb."
+        },
+        {
+          "title": "Week 9 review",
+          "work": "Use text features to answer 6 questions from a new ReadWorks animal passage. Spelling check of 10 ar/or words."
+        }
+      ],
+      "assessment": "Text-feature scavenger hunt (6 questions on a new text) and spelling check."
+    },
+    {
+      "week": 10,
+      "unit": 3,
+      "topic": "Life cycles: connecting steps in a process",
+      "objectives": [
+        "Describe the connection between stages of a life cycle",
+        "Read er, ir, ur words",
+        "Take notes from a source"
+      ],
+      "standards": [
+        "RI.2.3",
+        "RI.2.4",
+        "W.2.8",
+        "RF.2.3e"
+      ],
+      "vocabulary": [
+        "life cycle",
+        "larva",
+        "pupa",
+        "stage",
+        "note"
+      ],
+      "materials": [
+        "Monarch Butterfly (Gail Gibbons)",
+        "note-taking sheet",
+        "paper plates"
+      ],
+      "days": [
+        {
+          "title": "Monarch life cycle",
+          "work": "Read Monarch Butterfly by Gail Gibbons and list the 4 stages (egg, larva, pupa, adult). Phonics: er/ir/ur words (her, bird, turn) — same sound, different spellings."
+        },
+        {
+          "title": "Connecting steps",
+          "work": "Make a paper-plate life-cycle wheel and explain how each stage leads to the next using because and then. Learn the subject words larva and chrysalis from context."
+        },
+        {
+          "title": "Taking notes",
+          "work": "Learn to take notes in words, not sentences; record 6 facts about monarchs on a note sheet. Phonics: er/ir/ur spelling sort."
+        },
+        {
+          "title": "Migration question",
+          "work": "Read the migration section and answer in writing 'Why do monarchs fly to California and Mexico?' using notes. Share answers and ask a partner a clarifying question."
+        },
+        {
+          "title": "Week 10 review",
+          "work": "Sequence the life cycle in a labeled drawing, spell 10 r-controlled words, and answer 4 questions on a ReadWorks butterfly passage."
+        }
+      ],
+      "assessment": "Labeled life-cycle drawing, written migration answer from notes, and spelling check."
+    },
+    {
+      "week": 11,
+      "unit": 3,
+      "topic": "Main topic, paragraphs, and diagrams",
+      "objectives": [
+        "Identify the main topic and paragraph focus",
+        "Explain how a diagram clarifies a text",
+        "Draft an informative paragraph"
+      ],
+      "standards": [
+        "RI.2.2",
+        "RI.2.7",
+        "W.2.2",
+        "RF.2.3e"
+      ],
+      "vocabulary": [
+        "main topic",
+        "paragraph",
+        "diagram",
+        "label",
+        "topic sentence"
+      ],
+      "materials": [
+        "From Tadpole to Frog (Wendy Pfeffer)",
+        "animal books from library",
+        "drawing paper"
+      ],
+      "days": [
+        {
+          "title": "Main topic",
+          "work": "Read From Tadpole to Frog and name the main topic; reread 3 paragraphs and tell what each one is mostly about. Phonics: y as long e and long i (happy, sky)."
+        },
+        {
+          "title": "Diagrams help",
+          "work": "Study the diagram of the frog life cycle and explain what it shows that the words do not. Draw your own labeled diagram of a tadpole."
+        },
+        {
+          "title": "Choose an animal",
+          "work": "Choose an animal for an 'All About' report, read 2 library books on it, and take notes in 3 boxes: body, home, food."
+        },
+        {
+          "title": "Topic sentences",
+          "work": "Learn that an informative paragraph starts with a topic sentence; draft paragraph 1 (body) with a topic sentence and 3 facts. Phonics: y word sort."
+        },
+        {
+          "title": "Week 11 review",
+          "work": "Read a new 3-paragraph passage and write the main topic and the focus of each paragraph. Spelling check of y-as-vowel words."
+        }
+      ],
+      "assessment": "Main-topic and paragraph-focus organizer on a cold read; first report paragraph."
+    },
+    {
+      "week": 12,
+      "unit": 3,
+      "topic": "Author's purpose and publishing an animal report",
+      "objectives": [
+        "Identify an author's main purpose",
+        "Write and publish an informative report with a diagram",
+        "Present facts and answer questions"
+      ],
+      "standards": [
+        "RI.2.6",
+        "W.2.2",
+        "W.2.8",
+        "SL.2.3"
+      ],
+      "vocabulary": [
+        "author's purpose",
+        "explain",
+        "describe",
+        "conclusion"
+      ],
+      "materials": [
+        "animal research notes",
+        "cardstock",
+        "markers"
+      ],
+      "days": [
+        {
+          "title": "Why did the author write it",
+          "work": "Compare the purpose of Frogs! (teach facts) to a Frog and Toad story (entertain); decide what question Monarch Butterfly answers. Finish report paragraph 2 (home)."
+        },
+        {
+          "title": "Finish the draft",
+          "work": "Write paragraph 3 (food) and a concluding sentence. Add a labeled diagram and a glossary of 3 words to the report."
+        },
+        {
+          "title": "Revise and edit",
+          "work": "Read the report aloud and fix anything that does not make sense; check spelling of r-controlled and vowel-team words. Make a final copy on cardstock."
+        },
+        {
+          "title": "Present",
+          "work": "Present the animal report to family or a video call, speaking clearly and answering 2 questions from listeners. Listeners ask one question to gather more information."
+        },
+        {
+          "title": "Unit 3 assessment",
+          "work": "Cold read of a nonfiction passage with questions on text features, main topic, and author's purpose. Spelling test of 15 r-controlled and y words."
+        }
+      ],
+      "assessment": "Published 'All About' report (rubric: topic sentence, facts, diagram, conclusion) and unit reading test."
+    },
+    {
+      "week": 13,
+      "unit": 4,
+      "topic": "Peter Rabbit: story structure and irregular past tense",
+      "objectives": [
+        "Describe how the beginning introduces and the ending concludes a story",
+        "Use irregular past-tense verbs",
+        "Read oi/oy words"
+      ],
+      "standards": [
+        "RL.2.5",
+        "RL.2.3",
+        "L.2.1d",
+        "RF.2.3b"
+      ],
+      "vocabulary": [
+        "beginning",
+        "middle",
+        "ending",
+        "past tense"
+      ],
+      "materials": [
+        "The Tale of Peter Rabbit (Beatrix Potter, public domain)",
+        "story map"
+      ],
+      "days": [
+        {
+          "title": "Meet Peter",
+          "work": "Read The Tale of Peter Rabbit and fill a story map; discuss what the beginning tells us (Mother's warning). Phonics: oi/oy words (coin, boy, soil, toy)."
+        },
+        {
+          "title": "Peter responds",
+          "work": "Reread and describe how Peter responds to Mr. McGregor chasing him, using the illustrations as evidence. Write 3 sentences about his feelings."
+        },
+        {
+          "title": "Past tense irregular verbs",
+          "work": "Grammar: learn ran, went, ate, hid, sat, told, found from the story and complete 10 sentences. Phonics: oi/oy spelling sort."
+        },
+        {
+          "title": "How it ends",
+          "work": "Discuss how the ending (chamomile tea vs. blackberries) concludes the story and teaches a lesson. Rewrite the ending in 4 sentences as if Peter had listened."
+        },
+        {
+          "title": "Week 13 review",
+          "work": "Spelling check of 10 oi/oy words, irregular past-tense quiz, and a story-map check on 'The Tale of Benjamin Bunny' read aloud."
+        }
+      ],
+      "assessment": "Story map for a new Potter tale, irregular past-tense quiz, spelling check."
+    },
+    {
+      "week": 14,
+      "unit": 4,
+      "topic": "The Velveteen Rabbit and planning a fiction story",
+      "objectives": [
+        "Track how a character changes across a longer story",
+        "Read oo, au, aw words",
+        "Plan a fictional narrative"
+      ],
+      "standards": [
+        "RL.2.1",
+        "RL.2.3",
+        "RF.2.3b",
+        "W.2.3",
+        "L.2.1d"
+      ],
+      "vocabulary": [
+        "real",
+        "character change",
+        "plan",
+        "plot"
+      ],
+      "materials": [
+        "The Velveteen Rabbit (Margery Williams, public domain)",
+        "character change chart"
+      ],
+      "days": [
+        {
+          "title": "Velveteen Rabbit part 1",
+          "work": "Read the first half of The Velveteen Rabbit aloud and discuss what the Skin Horse means by 'Real.' Phonics: oo words in two sounds (moon, book)."
+        },
+        {
+          "title": "Velveteen Rabbit part 2",
+          "work": "Finish the story and chart how the Rabbit changes from beginning to end. Phonics: au/aw words (sauce, draw, paw)."
+        },
+        {
+          "title": "Past tense in writing",
+          "work": "Write 5 sentences retelling the Rabbit's adventures using irregular past-tense verbs (was, became, went, grew, saw). Read the sentences to check they sound right."
+        },
+        {
+          "title": "Plan my story",
+          "work": "Plan an original fiction story with a toy or animal character on a story-mountain organizer: beginning, problem, events, solution, ending."
+        },
+        {
+          "title": "Week 14 review",
+          "work": "Answer who/what/why questions about the Velveteen Rabbit in writing, spelling check of 12 oo/au/aw words, and share the story plan."
+        }
+      ],
+      "assessment": "Written comprehension answers, spelling check, completed story plan."
+    },
+    {
+      "week": 15,
+      "unit": 4,
+      "topic": "Feelings, shades of meaning, adjectives and adverbs",
+      "objectives": [
+        "Describe characters' feelings with precise words",
+        "Use adjectives and adverbs",
+        "Draft a fictional narrative"
+      ],
+      "standards": [
+        "RL.2.7",
+        "L.2.1e",
+        "L.2.5",
+        "RF.2.3e",
+        "W.2.3"
+      ],
+      "vocabulary": [
+        "adjective",
+        "adverb",
+        "shades of meaning",
+        "soft c",
+        "soft g"
+      ],
+      "materials": [
+        "Chrysanthemum (Kevin Henkes)",
+        "paint chips for word ladders"
+      ],
+      "days": [
+        {
+          "title": "Chrysanthemum",
+          "work": "Read Chrysanthemum and use the pictures to show how her feelings change each day of school. Discuss why words can hurt or help."
+        },
+        {
+          "title": "Shades of meaning",
+          "work": "Order feeling words on paint-chip strips (glad, happy, thrilled; sad, upset, miserable) and verbs (toss, throw, hurl). Use 3 in sentences about Chrysanthemum."
+        },
+        {
+          "title": "Adjectives and adverbs",
+          "work": "Grammar: adjectives describe nouns (a long name) and adverbs describe verbs (she walked slowly); sort 12 words and write 4 sentences. Phonics: soft c and g (city, gem, face, page)."
+        },
+        {
+          "title": "Draft my story",
+          "work": "Draft the fiction story from the plan, using at least 3 adjectives, 2 adverbs, and dialogue. Write a beginning that introduces the character and setting."
+        },
+        {
+          "title": "Week 15 review",
+          "work": "Spelling check of soft c/g words, adjective-or-adverb quiz, and reread the draft aloud to find one place to add a feeling word."
+        }
+      ],
+      "assessment": "Adjective/adverb quiz, spelling check, story draft checked for beginning and descriptive words."
+    },
+    {
+      "week": 16,
+      "unit": 4,
+      "topic": "Ira Sleeps Over; revising and publishing fiction",
+      "objectives": [
+        "Revise and edit a narrative with peer and adult feedback",
+        "Read irregular high-frequency words",
+        "Read aloud with fluency"
+      ],
+      "standards": [
+        "RL.2.3",
+        "W.2.5",
+        "RF.2.3f",
+        "RF.2.4"
+      ],
+      "vocabulary": [
+        "feedback",
+        "revise",
+        "edit",
+        "fluency"
+      ],
+      "materials": [
+        "Ira Sleeps Over (Bernard Waber)",
+        "revision checklist",
+        "stapler and construction paper"
+      ],
+      "days": [
+        {
+          "title": "Ira's choice",
+          "work": "Read Ira Sleeps Over and discuss how Ira responds to his sister's teasing and how he decides about his teddy bear. Practice irregular words (could, would, should, through, though)."
+        },
+        {
+          "title": "Feedback",
+          "work": "Read your story draft to a family member who gives one 'star' (something good) and one 'wish' (something to improve). Revise based on the wish."
+        },
+        {
+          "title": "Edit",
+          "work": "Edit with a checklist: capitals, end marks, quotation marks for dialogue, and spelling of this unit's patterns. Fix past-tense verbs."
+        },
+        {
+          "title": "Publish the book",
+          "work": "Publish the story as a stapled book with a cover, title page, and illustrations. Practice reading it aloud smoothly three times."
+        },
+        {
+          "title": "Unit 4 assessment",
+          "work": "Fluency check: one-minute read of an on-level passage (goal about 70–90 words correct) with expression. Unit test on a new story: character response, beginning/ending, and adjective/adverb use."
+        }
+      ],
+      "assessment": "Published fiction book (narrative rubric), fluency WCPM record, and unit test."
+    },
+    {
+      "week": 17,
+      "unit": 5,
+      "topic": "Poems with rhythm and rhyme",
+      "objectives": [
+        "Describe how rhyme and beat supply rhythm",
+        "Read compound words",
+        "Recite a poem with expression"
+      ],
+      "standards": [
+        "RL.2.4",
+        "RL.2.10",
+        "L.2.4",
+        "RF.2.4"
+      ],
+      "vocabulary": [
+        "poem",
+        "rhyme",
+        "rhythm",
+        "stanza",
+        "compound word"
+      ],
+      "materials": [
+        "A Child's Garden of Verses (Robert Louis Stevenson, public domain)",
+        "drum or pot to tap beat"
+      ],
+      "days": [
+        {
+          "title": "My Shadow",
+          "work": "Read Stevenson's 'My Shadow' aloud and tap the beat; highlight rhyming pairs at line ends. Discuss what the shadow does."
+        },
+        {
+          "title": "The Swing",
+          "work": "Read 'The Swing' and act out the rhythm while swinging arms; discuss how the beat feels like swinging. Phonics: compound words (sunshine, rainbow, playground) — split and define."
+        },
+        {
+          "title": "Compound word meaning",
+          "work": "Use the two smaller words to figure out meanings of 10 compound words (birdhouse, bookshelf, notebook). Write a rhyming couplet using one."
+        },
+        {
+          "title": "Memorize",
+          "work": "Memorize the first stanza of 'My Shadow' and practice reciting with expression and clear volume. Read 'Rain' and 'Where Go the Boats?' for fun."
+        },
+        {
+          "title": "Week 17 review",
+          "work": "Recite the stanza, find rhymes and beats in a new poem, and take a spelling check of 10 compound words."
+        }
+      ],
+      "assessment": "Poem recitation (memory, expression, volume), rhyme/beat identification on a new poem, spelling check."
+    },
+    {
+      "week": 18,
+      "unit": 5,
+      "topic": "Alliteration, repetition, and two-syllable words",
+      "objectives": [
+        "Identify alliteration and repeated lines",
+        "Decode two-syllable words with long vowels",
+        "Write a list poem"
+      ],
+      "standards": [
+        "RL.2.4",
+        "RF.2.3c",
+        "L.2.6"
+      ],
+      "vocabulary": [
+        "alliteration",
+        "repetition",
+        "syllable",
+        "line"
+      ],
+      "materials": [
+        "Where the Sidewalk Ends (Shel Silverstein) or a library poetry anthology",
+        "Mother Goose rhymes"
+      ],
+      "days": [
+        {
+          "title": "Alliteration",
+          "work": "Read tongue twisters ('Peter Piper') and Mother Goose rhymes; underline repeated beginning sounds. Write your own alliterative sentence about your name."
+        },
+        {
+          "title": "Repeated lines",
+          "work": "Read Christina Rossetti's 'Who Has Seen the Wind?' and talk about how the repeated question gives the poem its rhythm and meaning."
+        },
+        {
+          "title": "Two-syllable words",
+          "work": "Phonics: split two-syllable words with long vowels (re-peat, pa-per, rain-coat, ex-plain) and read 20 words. Clap syllables in poem lines."
+        },
+        {
+          "title": "List poem",
+          "work": "Write a list poem about 'Things I Hear at Night' using describing words and a repeated line. Illustrate it."
+        },
+        {
+          "title": "Week 18 mid-year check",
+          "work": "Mid-year assessment: phonics inventory (vowel teams, r-controlled, two-syllable words), fluency read, and a poem comprehension question about rhythm and repetition."
+        }
+      ],
+      "assessment": "Mid-year phonics inventory and fluency record; list poem."
+    },
+    {
+      "week": 19,
+      "unit": 5,
+      "topic": "Sensory poems and compound sentences",
+      "objectives": [
+        "Use adjectives and adverbs in poems",
+        "Form compound sentences with and, but, or, so",
+        "Read words with -ed and -ing endings"
+      ],
+      "standards": [
+        "L.2.1e",
+        "L.2.1f",
+        "L.2.5",
+        "RF.2.3c"
+      ],
+      "vocabulary": [
+        "senses",
+        "compound sentence",
+        "conjunction",
+        "ending"
+      ],
+      "materials": [
+        "poetry anthology",
+        "five-senses chart",
+        "rainstick or small bell"
+      ],
+      "days": [
+        {
+          "title": "Five senses poem",
+          "work": "Go outside and list what you see, hear, smell, feel, and taste; turn the list into a 5-line senses poem. Read Stevenson's 'Rain' and 'Windy Nights' for models."
+        },
+        {
+          "title": "Compound sentences",
+          "work": "Grammar: join two short sentences with and, but, or, so and a comma ('The wind blew, and the leaves fell.'); combine 8 pairs. Phonics: doubling before -ing (run/running)."
+        },
+        {
+          "title": "Endings -ed",
+          "work": "Phonics: read -ed words with three sounds (jumped, played, wanted) and sort them. Use 3 in compound sentences."
+        },
+        {
+          "title": "Word choice",
+          "work": "Revise yesterday's senses poem by swapping 3 plain words for stronger words (said → whispered, big → enormous). Read it aloud to compare versions."
+        },
+        {
+          "title": "Week 19 review",
+          "work": "Spelling check of 12 -ed/-ing words, a compound-sentence quiz, and an oral reading of the revised poem."
+        }
+      ],
+      "assessment": "Compound-sentence quiz, spelling check, revised senses poem."
+    },
+    {
+      "week": 20,
+      "unit": 5,
+      "topic": "Poetry recording and anthology",
+      "objectives": [
+        "Create an audio recording of poems",
+        "Read poetry fluently with expression",
+        "Use new vocabulary to describe"
+      ],
+      "standards": [
+        "SL.2.5",
+        "RF.2.4",
+        "RL.2.10",
+        "L.2.6"
+      ],
+      "vocabulary": [
+        "anthology",
+        "expression",
+        "pace",
+        "recording"
+      ],
+      "materials": [
+        "phone or tablet for audio recording",
+        "folder for anthology"
+      ],
+      "days": [
+        {
+          "title": "Gather poems",
+          "work": "Choose 5 favorite poems from the unit (yours and published) for a personal anthology and copy them neatly."
+        },
+        {
+          "title": "Rehearse",
+          "work": "Practice reading each poem at the right pace with expression; mark pauses with slashes. Phonics review game: two-syllable and compound-word bingo."
+        },
+        {
+          "title": "Record",
+          "work": "Make an audio recording of 3 poems and listen back to self-assess pace and volume. Re-record one to improve it."
+        },
+        {
+          "title": "Illustrate",
+          "work": "Add illustrations and a table of contents to the anthology. Write one sentence for each poem explaining why you chose it."
+        },
+        {
+          "title": "Unit 5 assessment",
+          "work": "Poetry café: perform 2 poems for family. Unit test: identify rhyme, alliteration, and repetition in a new poem; spelling test of 15 unit words."
+        }
+      ],
+      "assessment": "Poetry recording and anthology (rubric), unit test on poetic elements."
+    },
+    {
+      "week": 21,
+      "unit": 6,
+      "topic": "Cinderella from France and China",
+      "objectives": [
+        "Compare two versions of the same story",
+        "Use illustrations to understand setting",
+        "Read words with prefixes un-, re-, dis-"
+      ],
+      "standards": [
+        "RL.2.9",
+        "RL.2.7",
+        "RF.2.3d",
+        "L.2.4"
+      ],
+      "vocabulary": [
+        "version",
+        "compare",
+        "contrast",
+        "prefix"
+      ],
+      "materials": [
+        "Cinderella (Perrault, in Andrew Lang's The Blue Fairy Book, public domain)",
+        "Yeh-Shen (Ai-Ling Louie)",
+        "Venn diagram"
+      ],
+      "days": [
+        {
+          "title": "Perrault's Cinderella",
+          "work": "Read Perrault's Cinderella and list the story parts: kind girl, mean family, magic helper, event, lost item, happy ending. Phonics: prefix un- (unhappy, unlock)."
+        },
+        {
+          "title": "Yeh-Shen",
+          "work": "Read Yeh-Shen, a Cinderella story from China, and use the illustrations to describe the setting. Phonics: prefix re- (reread, retell, rebuild)."
+        },
+        {
+          "title": "Compare",
+          "work": "Fill a Venn diagram comparing Cinderella and Yeh-Shen (magic fish vs. fairy godmother, golden slipper vs. glass slipper). Phonics: prefix dis- (dislike, disagree)."
+        },
+        {
+          "title": "Prefix meaning",
+          "work": "Use prefixes to define 12 new words and use 4 in sentences. Discuss in a partner talk which magic helper is more interesting and why."
+        },
+        {
+          "title": "Week 21 review",
+          "work": "Write 3 sentences: one way the stories are alike and two ways they are different. Spelling check of 12 prefix words."
+        }
+      ],
+      "assessment": "Venn diagram and written compare/contrast sentences; prefix spelling check."
+    },
+    {
+      "week": 22,
+      "unit": 6,
+      "topic": "Cinderella stories from Africa and North America",
+      "objectives": [
+        "Compare and contrast multiple versions across cultures",
+        "Read words with suffixes -ful, -less, -ly, -er",
+        "State an opinion with a reason"
+      ],
+      "standards": [
+        "RL.2.9",
+        "RF.2.3d",
+        "W.2.1",
+        "SL.2.1"
+      ],
+      "vocabulary": [
+        "suffix",
+        "culture",
+        "opinion",
+        "reason"
+      ],
+      "materials": [
+        "Mufaro's Beautiful Daughters (John Steptoe)",
+        "The Rough-Face Girl (Rafe Martin)",
+        "Adelita (Tomie dePaola)",
+        "comparison chart"
+      ],
+      "days": [
+        {
+          "title": "Mufaro's Beautiful Daughters",
+          "work": "Read Mufaro's Beautiful Daughters (Zimbabwe) and add it to a class comparison chart: main character, helper, test, ending. Phonics: suffixes -ful and -less (helpful, careless)."
+        },
+        {
+          "title": "The Rough-Face Girl",
+          "work": "Read The Rough-Face Girl (Algonquin) and add it to the chart; discuss what 'seeing' the Invisible Being means. Phonics: suffix -ly (kindly, quickly)."
+        },
+        {
+          "title": "Adelita",
+          "work": "Read Adelita (Mexico) and add it to the chart. Phonics: suffix -er (teacher, farmer, painter) and its meaning 'one who.'"
+        },
+        {
+          "title": "Which is best",
+          "work": "Discuss which Cinderella story is your favorite, giving reasons from the text, while practicing taking turns and building on each other's ideas. Write the opinion sentence and 2 reasons."
+        },
+        {
+          "title": "Week 22 review",
+          "work": "Complete the comparison chart for 5 versions and write which two are most alike. Spelling check of 12 suffix words."
+        }
+      ],
+      "assessment": "Completed comparison chart, opinion sentence with reasons, suffix spelling check."
+    },
+    {
+      "week": 23,
+      "unit": 6,
+      "topic": "Point of view: whose story is it?",
+      "objectives": [
+        "Acknowledge different characters' points of view",
+        "Read aloud in different voices",
+        "Draft an opinion piece with linking words"
+      ],
+      "standards": [
+        "RL.2.6",
+        "W.2.1",
+        "RF.2.3d",
+        "SL.2.1"
+      ],
+      "vocabulary": [
+        "point of view",
+        "narrator",
+        "linking word",
+        "because"
+      ],
+      "materials": [
+        "The Three Little Pigs (any traditional version)",
+        "The True Story of the 3 Little Pigs! (Jon Scieszka)"
+      ],
+      "days": [
+        {
+          "title": "Traditional pigs",
+          "work": "Read The Three Little Pigs and retell it from the pigs' point of view. Practice voices for each pig and the wolf."
+        },
+        {
+          "title": "The wolf's side",
+          "work": "Read The True Story of the 3 Little Pigs! and discuss how the wolf tells it differently. Chart what the pigs think vs. what the wolf claims."
+        },
+        {
+          "title": "Stepsister's view",
+          "work": "Retell a scene from Cinderella in 4–5 sentences from a stepsister's point of view. Read it aloud in her voice."
+        },
+        {
+          "title": "Opinion draft",
+          "work": "Draft the opinion piece 'The Best Cinderella Story' with an opening, opinion, 3 reasons using because, also, and another reason, and a concluding sentence."
+        },
+        {
+          "title": "Week 23 review",
+          "work": "Read a short new fable and tell how two characters see the event differently. Peer/parent check of the opinion draft for linking words."
+        }
+      ],
+      "assessment": "Point-of-view retelling and opinion draft with at least 3 linking words."
+    },
+    {
+      "week": 24,
+      "unit": 6,
+      "topic": "Publishing opinions and comparatives",
+      "objectives": [
+        "Revise and edit an opinion piece",
+        "Use comparative endings -er and -est",
+        "Present an opinion to an audience"
+      ],
+      "standards": [
+        "W.2.1",
+        "W.2.5",
+        "RF.2.3d",
+        "L.2.4"
+      ],
+      "vocabulary": [
+        "comparative",
+        "superlative",
+        "conclusion",
+        "persuade"
+      ],
+      "materials": [
+        "opinion drafts",
+        "poster paper"
+      ],
+      "days": [
+        {
+          "title": "Comparatives",
+          "work": "Phonics/grammar: add -er and -est (tall, taller, tallest; happy, happier, happiest) and compare Cinderella characters ('Yeh-Shen's fish was kinder than…')."
+        },
+        {
+          "title": "Revise the opinion",
+          "work": "Strengthen reasons with examples from the books and add a closing that restates the opinion. Check that each reason starts with a linking word."
+        },
+        {
+          "title": "Edit and publish",
+          "work": "Edit for capitals, end marks, and spelling of prefix/suffix words; publish as a poster with a book cover drawing."
+        },
+        {
+          "title": "Present",
+          "work": "Present the opinion poster to family and answer one question. Listen to a family member's opinion and ask a question about their reasons."
+        },
+        {
+          "title": "Unit 6 assessment",
+          "work": "Unit test: compare two short versions of a folktale in a chart and sentences; decode 15 words with prefixes and suffixes; identify point of view."
+        }
+      ],
+      "assessment": "Published opinion poster (opinion rubric) and unit test."
+    },
+    {
+      "week": 25,
+      "unit": 7,
+      "topic": "Biography basics: Martin Luther King Jr.",
+      "objectives": [
+        "Identify the main topic of a biography and paragraph focus",
+        "Describe connections between events in a life",
+        "Use reflexive pronouns"
+      ],
+      "standards": [
+        "RI.2.2",
+        "RI.2.3",
+        "L.2.1c",
+        "RF.2.3c"
+      ],
+      "vocabulary": [
+        "biography",
+        "timeline",
+        "event",
+        "reflexive pronoun"
+      ],
+      "materials": [
+        "A Picture Book of Martin Luther King, Jr. (David A. Adler)",
+        "timeline strip"
+      ],
+      "days": [
+        {
+          "title": "What is a biography",
+          "work": "Read A Picture Book of Martin Luther King, Jr. and learn that a biography tells about a real person's life in order. List 5 important events."
+        },
+        {
+          "title": "Timeline",
+          "work": "Put Dr. King's life events on a timeline strip and explain how one event led to the next (unfair laws → bus boycott → March on Washington)."
+        },
+        {
+          "title": "Reflexive pronouns",
+          "work": "Grammar: learn myself, yourself, himself, herself, ourselves, themselves; complete 10 sentences. Phonics: two-syllable words ending in -le (table, little, simple)."
+        },
+        {
+          "title": "Paragraph focus",
+          "work": "Reread 2 pages and write what each paragraph is mostly about. Discuss why Dr. King believed in peaceful protest."
+        },
+        {
+          "title": "Week 25 review",
+          "work": "Answer 5 who/what/when/why/how questions on a ReadWorks biography passage. Spelling check of 10 -le words and a reflexive-pronoun quiz."
+        }
+      ],
+      "assessment": "Timeline with cause/effect connections, comprehension questions, spelling and grammar quizzes."
+    },
+    {
+      "week": 26,
+      "unit": 7,
+      "topic": "Biographies of courage: Rosa Parks and Jackie Robinson",
+      "objectives": [
+        "Ask and answer questions about key details in biographies",
+        "Use apostrophes in contractions",
+        "Begin shared research"
+      ],
+      "standards": [
+        "RI.2.1",
+        "RI.2.3",
+        "L.2.2",
+        "W.2.7"
+      ],
+      "vocabulary": [
+        "courage",
+        "contraction",
+        "apostrophe",
+        "research"
+      ],
+      "materials": [
+        "I Am Rosa Parks and I Am Jackie Robinson (Brad Meltzer)",
+        "research folder"
+      ],
+      "days": [
+        {
+          "title": "Rosa Parks",
+          "work": "Read I Am Rosa Parks and discuss why her choice on the bus mattered. Answer how and why questions in complete sentences."
+        },
+        {
+          "title": "Jackie Robinson",
+          "work": "Read I Am Jackie Robinson and compare the courage of Jackie and Rosa. Grammar: contractions with apostrophes (can't, didn't, he's, they're)."
+        },
+        {
+          "title": "Choose a person",
+          "work": "Choose a person who made a difference to research (e.g., Cesar Chavez, Sally Ride, Abraham Lincoln, Helen Keller, Marie Curie). Find 2 books or passages at the library."
+        },
+        {
+          "title": "Research questions",
+          "work": "Write 3 research questions (When and where was this person born? What problem did they work on? How did they change things?). Start notes from the first source."
+        },
+        {
+          "title": "Week 26 review",
+          "work": "Contractions quiz (12 items), read-aloud fluency check on a biography page, and research notes check."
+        }
+      ],
+      "assessment": "Contractions quiz, fluency record, research question sheet and notes."
+    },
+    {
+      "week": 27,
+      "unit": 7,
+      "topic": "Researching a person who made a difference",
+      "objectives": [
+        "Gather information from sources to answer questions",
+        "Use possessive nouns with apostrophes",
+        "Capitalize names, holidays, and places"
+      ],
+      "standards": [
+        "W.2.7",
+        "W.2.8",
+        "RI.2.6",
+        "L.2.2"
+      ],
+      "vocabulary": [
+        "source",
+        "fact",
+        "possessive",
+        "capital"
+      ],
+      "materials": [
+        "Harvesting Hope: The Story of Cesar Chavez (Kathleen Krull)",
+        "research notes",
+        "index cards"
+      ],
+      "days": [
+        {
+          "title": "Model biography",
+          "work": "Read Harvesting Hope and notice how the author shows events in order and why Chavez's march mattered to farmworkers. Identify the author's purpose."
+        },
+        {
+          "title": "Second source",
+          "work": "Take notes from a second source on your research person and add new facts to note cards (early life, challenge, actions, legacy)."
+        },
+        {
+          "title": "Possessives",
+          "work": "Grammar: singular possessives with 's (Rosa's bus, Cesar's march) and capitals for holidays, places, and names (Labor Day, Delano, California). Fix 10 sentences."
+        },
+        {
+          "title": "Organize notes",
+          "work": "Sort note cards into 3 groups (early life, big work, why we remember them) and plan a paragraph for each."
+        },
+        {
+          "title": "Week 27 review",
+          "work": "Draft the first paragraph of the biography report. Spelling check of 12 words with apostrophes and capitalized place names."
+        }
+      ],
+      "assessment": "Organized note cards, first report paragraph, capitalization/possessive check."
+    },
+    {
+      "week": 28,
+      "unit": 7,
+      "topic": "Writing and presenting a biography report",
+      "objectives": [
+        "Write a 3-paragraph biography report",
+        "Use a visual display to clarify ideas",
+        "Recount information in an oral presentation"
+      ],
+      "standards": [
+        "W.2.7",
+        "SL.2.4",
+        "SL.2.5",
+        "RI.2.10"
+      ],
+      "vocabulary": [
+        "report",
+        "visual display",
+        "presentation",
+        "legacy"
+      ],
+      "materials": [
+        "poster board or slides",
+        "dress-up items for 'living museum'"
+      ],
+      "days": [
+        {
+          "title": "Draft paragraphs 2–3",
+          "work": "Write the 'big work' and 'why we remember them' paragraphs with facts from notes and a concluding sentence."
+        },
+        {
+          "title": "Revise and edit",
+          "work": "Revise for order and clarity; edit with checklist for capitals, apostrophes, and spelling. Make a final copy."
+        },
+        {
+          "title": "Visual display",
+          "work": "Make a poster with a portrait, a 5-event timeline, and a quote or fact box to go with the report."
+        },
+        {
+          "title": "Living museum",
+          "work": "Rehearse a 1-minute 'living museum' speech in first person as your research person ('I am Sally Ride…'), speaking audibly in complete sentences."
+        },
+        {
+          "title": "Unit 7 assessment",
+          "work": "Present the living museum to family. Unit test: read a new short biography, sequence events, and identify the main topic and author's purpose."
+        }
+      ],
+      "assessment": "Biography report and poster (research rubric), presentation, unit test."
+    },
+    {
+      "week": 29,
+      "unit": 8,
+      "topic": "Volcanoes and earthquakes: reasons support points",
+      "objectives": [
+        "Describe how reasons support an author's points",
+        "Use homophones correctly",
+        "Use diagrams to understand processes"
+      ],
+      "standards": [
+        "RI.2.8",
+        "RI.2.7",
+        "RI.2.4",
+        "RF.2.3e"
+      ],
+      "vocabulary": [
+        "volcano",
+        "magma",
+        "erupt",
+        "reason",
+        "homophone"
+      ],
+      "materials": [
+        "Volcanoes (Franklyn M. Branley, Let's-Read-and-Find-Out)",
+        "baking soda, vinegar, clay"
+      ],
+      "days": [
+        {
+          "title": "Volcanoes",
+          "work": "Read Volcanoes by Franklyn Branley and study the diagram of a volcano; label magma, crater, lava. Phonics: homophones to/two/too and there/their."
+        },
+        {
+          "title": "Author's points",
+          "work": "Find the point 'Volcanoes can build new land' and list the reasons the author gives (Hawaii, Surtsey). Write: The author says ___ because ___."
+        },
+        {
+          "title": "Model eruption",
+          "work": "Build a clay volcano and erupt it with baking soda and vinegar; write 3 steps of what happened. Phonics: homophone pairs (see/sea, right/write)."
+        },
+        {
+          "title": "Earthquakes",
+          "work": "Read a ReadWorks or library passage on earthquakes and identify one point and two reasons. Use context to define 'fault' and 'plates.'"
+        },
+        {
+          "title": "Week 29 review",
+          "work": "Reasons-and-points organizer on a new science passage; homophone quiz (12 items)."
+        }
+      ],
+      "assessment": "Point-and-reasons organizer, homophone quiz, written eruption steps."
+    },
+    {
+      "week": 30,
+      "unit": 8,
+      "topic": "Comparing two texts on one topic",
+      "objectives": [
+        "Compare the most important points of two texts on the same topic",
+        "Use a dictionary and alphabetical order",
+        "Write compound sentences"
+      ],
+      "standards": [
+        "RI.2.9",
+        "RI.2.5",
+        "L.2.2",
+        "L.2.1f"
+      ],
+      "vocabulary": [
+        "compare",
+        "source",
+        "dictionary",
+        "guide word"
+      ],
+      "materials": [
+        "How Mountains Are Made (Kathleen Weidner Zoehfeld)",
+        "second mountain text from ReadWorks or library",
+        "children's dictionary"
+      ],
+      "days": [
+        {
+          "title": "Text one",
+          "work": "Read How Mountains Are Made and list 4 important points about how mountains form. Use the headings to locate facts."
+        },
+        {
+          "title": "Text two",
+          "work": "Read a second text about mountains and list its important points. Mark points that are the same in both texts with a star."
+        },
+        {
+          "title": "Compare",
+          "work": "Complete a two-text chart and write 3 compound sentences comparing the texts ('Both texts say…, but only the second…')."
+        },
+        {
+          "title": "Dictionary skills",
+          "work": "Alphabetize 10 science words to the second letter and use guide words to look them up in a children's dictionary; copy one definition for each."
+        },
+        {
+          "title": "Week 30 review",
+          "work": "Compare two short passages on rocks in a chart, alphabetical order quiz, and a dictionary look-up check."
+        }
+      ],
+      "assessment": "Two-text comparison chart and sentences; dictionary and ABC-order check."
+    },
+    {
+      "week": 31,
+      "unit": 8,
+      "topic": "How-to writing: steps in a procedure",
+      "objectives": [
+        "Describe connections between steps in a procedure",
+        "Write an informative how-to text",
+        "Read multisyllable words"
+      ],
+      "standards": [
+        "RI.2.3",
+        "W.2.2",
+        "RF.2.3e"
+      ],
+      "vocabulary": [
+        "procedure",
+        "steps",
+        "materials",
+        "sequence"
+      ],
+      "materials": [
+        "simple recipe (e.g., trail mix)",
+        "a seed-planting how-to from a seed packet",
+        "paper"
+      ],
+      "days": [
+        {
+          "title": "Read a procedure",
+          "work": "Read the steps on a seed packet and a simple recipe; discuss why order matters and what happens if a step is skipped."
+        },
+        {
+          "title": "Follow the steps",
+          "work": "Make trail mix following written steps, then rewrite the steps in your own words with numbers and time-order words. Phonics: multisyllable words (ingredient, measure)."
+        },
+        {
+          "title": "Plan a how-to",
+          "work": "Choose something you know how to do (make a sandwich, care for a pet, build a block tower) and list materials and steps."
+        },
+        {
+          "title": "Draft and test",
+          "work": "Draft the how-to with an introduction, numbered steps, and a closing; have a family member follow it exactly and note any missing steps."
+        },
+        {
+          "title": "Week 31 review",
+          "work": "Revise the how-to after the test, add diagrams, and publish. Spelling check of 12 multisyllable science words."
+        }
+      ],
+      "assessment": "Published how-to text tested by a reader; spelling check."
+    },
+    {
+      "week": 32,
+      "unit": 8,
+      "topic": "Friendly letters, formal and informal language",
+      "objectives": [
+        "Write a friendly letter with commas in greeting and closing",
+        "Compare formal and informal English",
+        "Use precise science vocabulary"
+      ],
+      "standards": [
+        "L.2.3",
+        "L.2.2",
+        "W.2.2",
+        "L.2.4"
+      ],
+      "vocabulary": [
+        "greeting",
+        "closing",
+        "formal",
+        "informal"
+      ],
+      "materials": [
+        "stationery and envelope",
+        "stamp"
+      ],
+      "days": [
+        {
+          "title": "Formal vs. informal",
+          "work": "Compare how you talk to a friend vs. how you would talk to a museum guide; rewrite 5 informal sentences in formal language."
+        },
+        {
+          "title": "Letter parts",
+          "work": "Learn the 5 parts of a friendly letter (date, greeting, body, closing, signature) with commas in the greeting and closing; label a sample letter."
+        },
+        {
+          "title": "Write a letter",
+          "work": "Write a letter to a relative explaining 3 things you learned about volcanoes, mountains, or earthquakes using science words."
+        },
+        {
+          "title": "Mail it",
+          "work": "Edit the letter, address an envelope (capitalize city and state names), and mail it. Read a nonfiction passage independently and log it."
+        },
+        {
+          "title": "Unit 8 assessment",
+          "work": "Unit test: cold read of two short science texts with questions comparing them and identifying the author's reasons; letter-format and comma check."
+        }
+      ],
+      "assessment": "Friendly letter (format rubric) and unit test on comparing texts."
+    },
+    {
+      "week": 33,
+      "unit": 9,
+      "topic": "Winnie-the-Pooh: following characters across chapters",
+      "objectives": [
+        "Follow characters and plot across chapters of a chapter book",
+        "Read with expression in dialogue",
+        "Discuss books in a book club"
+      ],
+      "standards": [
+        "RL.2.1",
+        "RL.2.3",
+        "RL.2.10",
+        "SL.2.1"
+      ],
+      "vocabulary": [
+        "chapter",
+        "dialogue",
+        "character trait",
+        "book club"
+      ],
+      "materials": [
+        "Winnie-the-Pooh (A. A. Milne, public domain in the U.S.)",
+        "book club journal"
+      ],
+      "days": [
+        {
+          "title": "Pooh and the bees",
+          "work": "Read Chapter 1 of Winnie-the-Pooh (Pooh and the honey bees) and describe Pooh's plan and why it fails. Start a book-club journal page for the chapter."
+        },
+        {
+          "title": "Pooh gets stuck",
+          "work": "Read Chapter 2 (Pooh visits Rabbit and gets stuck) and discuss how Pooh and Rabbit each respond to the problem. Read Pooh's dialogue in his voice."
+        },
+        {
+          "title": "Character traits",
+          "work": "Make a character-trait web for Pooh, Piglet, Rabbit, Owl, and Eeyore with one example from the text for each."
+        },
+        {
+          "title": "Hunting the Woozle",
+          "work": "Read Chapter 3 (Pooh and Piglet hunt a Woozle) and explain the joke. Book club: discuss with a family member, taking turns and asking questions."
+        },
+        {
+          "title": "Week 33 review",
+          "work": "Answer written who/what/why questions on Chapters 1–3 and do a one-minute fluency read of a Pooh passage."
+        }
+      ],
+      "assessment": "Book-club journal entries and written comprehension; fluency record."
+    },
+    {
+      "week": 34,
+      "unit": 9,
+      "topic": "Winnie-the-Pooh: structure and points of view",
+      "objectives": [
+        "Describe how chapters begin and end",
+        "Acknowledge different characters' points of view",
+        "Review irregular high-frequency words"
+      ],
+      "standards": [
+        "RL.2.5",
+        "RL.2.6",
+        "RF.2.3f",
+        "RF.2.4"
+      ],
+      "vocabulary": [
+        "structure",
+        "point of view",
+        "conclusion",
+        "irregular word"
+      ],
+      "materials": [
+        "Winnie-the-Pooh",
+        "sticky notes"
+      ],
+      "days": [
+        {
+          "title": "Eeyore's tail",
+          "work": "Read Chapter 4 (Eeyore loses a tail) and discuss how the beginning introduces the problem and the ending solves it."
+        },
+        {
+          "title": "Eeyore's birthday",
+          "work": "Read Chapter 6 (Eeyore has a birthday) and tell the gift story from Piglet's point of view and then from Eeyore's."
+        },
+        {
+          "title": "Irregular word review",
+          "work": "Review 30 irregularly spelled words (said, laugh, enough, friend, people, because) with a speed-read game and a spelling self-check."
+        },
+        {
+          "title": "Reader's theater",
+          "work": "Perform a scene from Eeyore's birthday with different voices for Pooh, Piglet, and Eeyore."
+        },
+        {
+          "title": "Week 34 review",
+          "work": "Story-structure chart for one chapter and a written paragraph explaining how two characters felt differently about the same event."
+        }
+      ],
+      "assessment": "Story-structure chart and point-of-view paragraph; reader's theater performance."
+    },
+    {
+      "week": 35,
+      "unit": 9,
+      "topic": "Book review: opinion writing about a favorite book",
+      "objectives": [
+        "Write an opinion book review with reasons",
+        "Use digital tools to publish writing",
+        "Use vivid adjectives and adverbs"
+      ],
+      "standards": [
+        "W.2.1",
+        "W.2.6",
+        "L.2.6",
+        "RL.2.10"
+      ],
+      "vocabulary": [
+        "review",
+        "recommend",
+        "rating",
+        "publish"
+      ],
+      "materials": [
+        "Winnie-the-Pooh",
+        "favorite books from the year",
+        "computer or tablet"
+      ],
+      "days": [
+        {
+          "title": "Finish Pooh",
+          "work": "Read Chapter 10 (the party for Pooh) and discuss how the book ends. Rate Winnie-the-Pooh with stars and give one reason."
+        },
+        {
+          "title": "Plan a review",
+          "work": "Choose the favorite book of the year and plan a review: summary without spoiling, opinion, 3 reasons, recommendation."
+        },
+        {
+          "title": "Draft",
+          "work": "Draft the book review using linking words and at least 4 strong describing words."
+        },
+        {
+          "title": "Type and publish",
+          "work": "Type the review on a computer or tablet with help, add a picture of the cover, and print or share it."
+        },
+        {
+          "title": "Week 35 review",
+          "work": "Read the review aloud and listen to a family member's review; spelling test of 20 review words from the year."
+        }
+      ],
+      "assessment": "Published typed book review (opinion rubric) and cumulative spelling test."
+    },
+    {
+      "week": 36,
+      "unit": 9,
+      "topic": "Year-end showcase and assessment",
+      "objectives": [
+        "Show growth in reading, writing, and speaking",
+        "Reflect on goals as a reader and writer",
+        "Present a portfolio"
+      ],
+      "standards": [
+        "RF.2.4",
+        "SL.2.4",
+        "W.2.6",
+        "RL.2.1"
+      ],
+      "vocabulary": [
+        "portfolio",
+        "reflection",
+        "goal",
+        "growth"
+      ],
+      "materials": [
+        "writing portfolio from the year",
+        "summer reading list"
+      ],
+      "days": [
+        {
+          "title": "End-of-year reading check",
+          "work": "Read an on-level passage for a fluency check and answer comprehension questions; compare with the fall and mid-year scores."
+        },
+        {
+          "title": "Phonics inventory",
+          "work": "Take the end-of-year phonics and spelling inventory (vowel teams, r-controlled, prefixes/suffixes, two-syllable words) and the reading of irregular words."
+        },
+        {
+          "title": "Portfolio selection",
+          "work": "Choose 5 best pieces (narrative, fable, report, opinion, poem) and write a one-sentence reflection about each."
+        },
+        {
+          "title": "Showcase",
+          "work": "Present the portfolio to family, reading one favorite piece aloud and explaining one way you grew as a writer."
+        },
+        {
+          "title": "Summer reading plan",
+          "work": "Make a summer reading list of 10 books (e.g., more Frog and Toad, Mercer Mayer, Magic Tree House) and set a reading goal. Celebrate the year."
+        }
+      ],
+      "assessment": "End-of-year fluency and phonics inventory, portfolio presentation and reflections."
+    }
+  ]
+}
